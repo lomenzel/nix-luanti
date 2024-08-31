@@ -2,11 +2,7 @@ const baseurl = "https://content.minetest.net/api/packages";
 const fs = require("node:fs");
 const path = require("path")
 
-const {exec} = require("child_process")
-
-function Sleep(milliseconds) {
-return new Promise(resolve => setTimeout(resolve, milliseconds));
-}
+const { exec } = require("child_process")
 
 function getHash(url) {
     return new Promise((resolve, reject) => {
@@ -21,7 +17,7 @@ function getHash(url) {
     });
 }
 
-function setDetails(id, details){
+function setDetails(id, details) {
     filePath = `./db/${id}.json`.replace(/\/\./g, "_")
     dirPath = path.dirname(filePath)
     if (!fs.existsSync(dirPath)) {
@@ -32,15 +28,15 @@ function setDetails(id, details){
 }
 async function getDetails(id) {
     const filePath = `./db/${id}.json`.replace(/\.{2,}/g, "_");
-    
-    if (fs.existsSync(filePath)) 
-        return JSON.parse( fs.readFileSync(filePath, 'utf8'))
+
+    if (fs.existsSync(filePath))
+        return JSON.parse(fs.readFileSync(filePath, 'utf8'))
     return await fetchDetails(id)
 }
 
-async function fetchDetails(id){
+async function fetchDetails(id) {
     console.log("fetching: ", id)
-    const [author,name, release] = id.split("/")
+    const [author, name, release] = id.split("/")
 
     let details = await (await fetch(`${baseurl}/${author}/${name}`)).json()
     details.dependencies = await (await fetch(`${baseurl}/${author}/${name}/dependencies?only_hard=1`)).json()
@@ -52,18 +48,19 @@ async function fetchDetails(id){
 }
 
 function packageToString(package) {
-   return `"${package.name}" = mkMinetest${package.type.charAt(0).toUpperCase() + package.type.slice(1)} {
+    return `"${package.author}/${package.name}" = mkMinetest${package.type.charAt(0).toUpperCase() + package.type.slice(1)} {
             name = "${package.name}";
             release = ${package.release};
             hash = "${package.details.hash}";
             author = "${package.author}";
             provides = ${JSON.stringify(package.details.provides).replace(/,/g, " ")};
             depends = [${package.details.dependencies[`${package.author}/${package.name}`].map(dependency => {
-                return `({
+        return `({
                     name = "${dependency.name}";
-                    packages = ${JSON.stringify(dependency.packages).replace(/,/g," ")};
+                    packages = ${JSON.stringify(dependency.packages).replace(/,/g, " ")};
                 })`
-            }).reduce((acc, curr)=> {return acc + " "+ curr}, "")}];
+    }).reduce((acc, curr) => { return acc + " " + curr }, "")}];
+            with_same_name = [${package.WithSameName.reduce((acc, curr) => { return acc + " " + curr }, "")}];
         };`
 }
 
@@ -77,13 +74,14 @@ async function packagelist() {
         txp: []
     }
 
-    for( let i = 0; i < 200; i++){
+    for (let i = 0; i < list.length; i++) {
         console.log(`processing: ${i + 1}/${list.length}`)
         let package = list[i]
         package.details = await getDetails(`${package.author}/${package.name}/${package.release}`)
+        package.WithSameName = list.reduce((acc, curr) => { return [...acc, ...((curr.name === package.name && curr.author !== package.author && curr.type === package.type) ? [`"${curr.author}/${curr.name}"`] : [])] }, [])
         packages[package.type].push(package)
     }
-   // console.log(packages)
+    // console.log(packages)
     return packages;
 }
 
@@ -95,9 +93,9 @@ const headers = {
 
 function fileContents(packages) {
     return {
-        games :packages.game.reduce((acc, curr) => { return acc + packageToString(curr)}, headers.game) + "}",
-        mods: packages.mod.reduce((acc, curr) => { return acc + packageToString(curr)}, headers.mod) + "}",
-        texturePacks: packages.txp.reduce((acc, curr) => { return acc + packageToString(curr)}, headers.txp) + "}",
+        games: packages.game.reduce((acc, curr) => { return acc + packageToString(curr) }, headers.game) + "}",
+        mods: packages.mod.reduce((acc, curr) => { return acc + packageToString(curr) }, headers.mod) + "}",
+        texturePacks: packages.txp.reduce((acc, curr) => { return acc + packageToString(curr) }, headers.txp) + "}",
     }
 }
 

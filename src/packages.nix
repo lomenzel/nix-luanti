@@ -15,6 +15,7 @@ let
       hash ? "",
       provides ? [ ],
       depends ? [ ],
+      with_same_name ? [ ],
     }:
     mkDerivation {
       pname = name;
@@ -29,10 +30,9 @@ let
         cp -r ${name}/* $out
       '';
       meta = {
-        provides = provides;
+        inherit provides with_same_name;
         type = "minetest_game";
       };
-
     };
   mkMinetestMod =
     {
@@ -42,6 +42,7 @@ let
       hash ? "",
       provides ? [ ],
       depends ? [ ],
+      with_same_name ? [ ],
     }:
     mkDerivation {
       pname = name;
@@ -54,11 +55,10 @@ let
       unpackPhase = "${unzip}/bin/unzip $src";
       installPhase = ''
         mkdir -p $out
-        cp -r ${name}/* $out
+        cp -r ./* $out
       '';
       meta = {
-        provides = provides;
-        depends = depends;
+        inherit provides depends with_same_name;
         type = "minetest_mod";
       };
 
@@ -71,6 +71,7 @@ let
       hash ? "",
       provides ? [ ],
       depends ? [ ],
+      with_same_name ? [ ],
     }:
     mkDerivation {
       pname = name;
@@ -85,13 +86,54 @@ let
         cp -r ${name}/* $out
       '';
       meta = {
+        inherit with_same_name;
         type = "minetest_texture_pack";
       };
 
     };
+  ambiguous =
+    with_same_name:
+    mkDerivation {
+      name = "ambigous";
+      version = "1";
+      src = builtins.throw "This Package is ambiguous. please use one of the following: ${builtins.toString with_same_name}";
+    };
+  byIdToByName =
+    byId:
+
+    (builtins.listToAttrs (
+      builtins.map (id: {
+        name = byId.${id}.pname;
+        value = ambiguous (byId.${id}.meta.with_same_name ++ [ id ]);
+      }) (builtins.attrNames byId)
+    ))
+    // (builtins.listToAttrs (
+      builtins.map (
+        id:
+        if (builtins.length byId.${id}.meta.with_same_name) == 0 then
+          {
+            name = byId.${id}.pname;
+            value = byId.${id};
+          }
+        else
+          {
+            name = id;
+            value = byId.${id};
+          }
+      ) (builtins.attrNames byId)
+    ));
+  gamesById = import ./generated/games.nix { inherit mkMinetestGame; };
+  modsById = import ./generated/mods.nix { inherit mkMinetestMod; };
+  texture_packsById = import ./generated/texturePacks.nix { inherit mkMinetestTxp; };
+
 in
 {
-  games = import ./generated/games.nix { inherit mkMinetestGame; };
-  mods = import ./generated/games.nix { inherit mkMinetestMod; };
-  texture_packs = import ./generated/games.nix { inherit mkMinetestTxp; };
+  games = byIdToByName gamesById;
+  mods = byIdToByName modsById;
+  texture_packs = byIdToByName texture_packsById;
+  byId = {
+    games = gamesById;
+    mods = modsById;
+    texture_packs = texture_packsById;
+  };
 }

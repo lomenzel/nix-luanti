@@ -30,9 +30,10 @@
               ${pkgs.nodejs}/bin/node ./updater/fetchContentDB.js
               ${pkgs.nixfmt-rfc-style}/bin/nixfmt ./src/generated
             '')
-
           ];
-
+        };
+        lib = {
+          with-dependencies = import ./src/utils/dependencies.nix { byId = self.packages.${system}.byId; lists = nixpkgs.lib.lists; };
         };
       }
     );
