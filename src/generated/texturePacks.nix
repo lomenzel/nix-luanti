@@ -252,15 +252,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Warr1024/nodecoreimproved" = mkMinetestTxp {
-    name = "nodecoreimproved";
-    release = 18802;
-    hash = "0vhb4yscl7c4a8sdcavw7mxhlpb6iprp1d3cyjhanq8mmz0v56ch";
-    author = "Warr1024";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ROllerozxa/webtoon" = mkMinetestTxp {
     name = "webtoon";
     release = 15081;
@@ -270,11 +261,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "CocoMarck/cm_drawtextures" = mkMinetestTxp {
-    name = "cm_drawtextures";
-    release = 26685;
-    hash = "1p4hh1dy7722aywfyzf6fs4q7am2bzjb1s5qqlkqj3lkifd8cv5m";
-    author = "CocoMarck";
+  "Warr1024/nodecoreimproved" = mkMinetestTxp {
+    name = "nodecoreimproved";
+    release = 18802;
+    hash = "0vhb4yscl7c4a8sdcavw7mxhlpb6iprp1d3cyjhanq8mmz0v56ch";
+    author = "Warr1024";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -284,6 +275,15 @@
     release = 1187;
     hash = "15vdci2hq27i97vg3xjb54dd13nv7mlca5n0rxj4948y5rmmg820";
     author = "zayuim";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "CocoMarck/cm_drawtextures" = mkMinetestTxp {
+    name = "cm_drawtextures";
+    release = 26685;
+    hash = "1p4hh1dy7722aywfyzf6fs4q7am2bzjb1s5qqlkqj3lkifd8cv5m";
+    author = "CocoMarck";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -423,6 +423,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "joseanastacio/texture_pack_plastic" = mkMinetestTxp {
+    name = "texture_pack_plastic";
+    release = 23152;
+    hash = "0ybrhc0asx5c56xcd54vn8khqsz198hvf0qbl7wgawg11qp6waf7";
+    author = "joseanastacio";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Pudding/standart_textures" = mkMinetestTxp {
     name = "standart_textures";
     release = 13633;
@@ -432,11 +441,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "joseanastacio/texture_pack_plastic" = mkMinetestTxp {
-    name = "texture_pack_plastic";
-    release = 23152;
-    hash = "0ybrhc0asx5c56xcd54vn8khqsz198hvf0qbl7wgawg11qp6waf7";
-    author = "joseanastacio";
+  "bloopy1/bloopy1_ctf_pack" = mkMinetestTxp {
+    name = "bloopy1_ctf_pack";
+    release = 19428;
+    hash = "145ilq1rk0nz2667s8fybjdds0fwb2ljdyd5alxvc47j1ivlx10c";
+    author = "bloopy1";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -455,15 +464,6 @@
     release = 1118;
     hash = "1477daw59km0sa8vcm6p78iwwcvbqai77az9wvx0ffm53dzmx9h8";
     author = "texmex";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "bloopy1/bloopy1_ctf_pack" = mkMinetestTxp {
-    name = "bloopy1_ctf_pack";
-    release = 19428;
-    hash = "145ilq1rk0nz2667s8fybjdds0fwb2ljdyd5alxvc47j1ivlx10c";
-    author = "bloopy1";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -549,6 +549,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "niwla23/retro" = mkMinetestTxp {
+    name = "retro";
+    release = 1555;
+    hash = "05qn5lxdchy6ssdnscl100cz6xys1w41q3k6jbawvkswa0xjfm5d";
+    author = "niwla23";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "GrimLok/q3a_mt_crosshairs" = mkMinetestTxp {
     name = "q3a_mt_crosshairs";
     release = 23000;
@@ -567,6 +576,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Winter94/wintercore_dwemer" = mkMinetestTxp {
+    name = "wintercore_dwemer";
+    release = 26980;
+    hash = "1d4s862k5bpp6vshix4n6m8pbm518ifl8frmwd0ks50grsi9rnvm";
+    author = "Winter94";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "vultusglass/aephorus" = mkMinetestTxp {
     name = "aephorus";
     release = 20520;
@@ -576,10 +594,10 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Winter94/wintercore_dwemer" = mkMinetestTxp {
-    name = "wintercore_dwemer";
-    release = 26980;
-    hash = "1d4s862k5bpp6vshix4n6m8pbm518ifl8frmwd0ks50grsi9rnvm";
+  "Winter94/wintercore_ornate" = mkMinetestTxp {
+    name = "wintercore_ornate";
+    release = 26951;
+    hash = "0x70yznzpbl1gas3fr57ymd56zssh4by8lxr5chag7n2r9iszm78";
     author = "Winter94";
     provides = [ ];
     depends = [ ];
@@ -594,38 +612,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "niwla23/retro" = mkMinetestTxp {
-    name = "retro";
-    release = 1555;
-    hash = "05qn5lxdchy6ssdnscl100cz6xys1w41q3k6jbawvkswa0xjfm5d";
-    author = "niwla23";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Extex/extextures" = mkMinetestTxp {
     name = "extextures";
     release = 25684;
     hash = "0qn0xalwb3xcax19kz3is2f9lfxnm7qjs18j38xz1zrbgx90vl7z";
     author = "Extex";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Winter94/wintercore_ornate" = mkMinetestTxp {
-    name = "wintercore_ornate";
-    release = 26951;
-    hash = "0x70yznzpbl1gas3fr57ymd56zssh4by8lxr5chag7n2r9iszm78";
-    author = "Winter94";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "GreenBlob/ctf_hctc" = mkMinetestTxp {
-    name = "ctf_hctc";
-    release = 23049;
-    hash = "0arcfk3rpbviv84jyvsqyb5wlpivw246s9fq466jr5y1a8pznhlw";
-    author = "GreenBlob";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -653,6 +644,15 @@
     release = 15035;
     hash = "1wwrb9b3jnxk1wka2glycagb5jrnm9csz5az9c32ysp3rvxvc93q";
     author = "UltraSans";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "GreenBlob/ctf_hctc" = mkMinetestTxp {
+    name = "ctf_hctc";
+    release = 23049;
+    hash = "0arcfk3rpbviv84jyvsqyb5wlpivw246s9fq466jr5y1a8pznhlw";
+    author = "GreenBlob";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -738,11 +738,29 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Winter94/wintercore_vibrant" = mkMinetestTxp {
+    name = "wintercore_vibrant";
+    release = 17619;
+    hash = "1hh82vw4ccmdzpagv6d5a4g7c7h5292iqma19a1jjhdhh0z0ipd8";
+    author = "Winter94";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "kestral/default_grid" = mkMinetestTxp {
     name = "default_grid";
     release = 1999;
     hash = "05ns6bj0lnkfa92f4qy6qlllvg7b54warfkj2b5rd4ibry2fi0x8";
     author = "kestral";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "TumeniNodes/default_ls" = mkMinetestTxp {
+    name = "default_ls";
+    release = 1245;
+    hash = "1g8nj94x1kbvf9bi3zsmlamjz8r74dbsizc3h7isggijjdj4x2nb";
+    author = "TumeniNodes";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -765,38 +783,20 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Blocky_Player/happy_land" = mkMinetestTxp {
-    name = "happy_land";
-    release = 13084;
-    hash = "0cbp5ly9gilhg69j1a6hgd7qjncxf4b9im6i5cpg0rvxd7n8cg20";
-    author = "Blocky_Player";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Winter94/wintercore_vibrant" = mkMinetestTxp {
-    name = "wintercore_vibrant";
-    release = 17619;
-    hash = "1hh82vw4ccmdzpagv6d5a4g7c7h5292iqma19a1jjhdhh0z0ipd8";
-    author = "Winter94";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TumeniNodes/default_ls" = mkMinetestTxp {
-    name = "default_ls";
-    release = 1245;
-    hash = "1g8nj94x1kbvf9bi3zsmlamjz8r74dbsizc3h7isggijjdj4x2nb";
-    author = "TumeniNodes";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Winter94/wintercore_detailed" = mkMinetestTxp {
     name = "wintercore_detailed";
     release = 15027;
     hash = "0zy2cm160b9nxwrf672ya9dxjw7ni90b2m8kpsk3kg1m9isqxkrd";
     author = "Winter94";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Blocky_Player/happy_land" = mkMinetestTxp {
+    name = "happy_land";
+    release = 13084;
+    hash = "0cbp5ly9gilhg69j1a6hgd7qjncxf4b9im6i5cpg0rvxd7n8cg20";
+    author = "Blocky_Player";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
