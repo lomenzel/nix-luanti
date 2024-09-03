@@ -2,8 +2,8 @@
 {
   "Minetest/minetest_game" = mkMinetestGame {
     name = "minetest_game";
-    release = 26729;
-    hash = "098c90x506ia06kfyps9fcbybvjjg335rpxa3cm96dcrmhd6bgcb";
+    release = 27025;
+    hash = "09k283s9kyj1k7grmzf6r0z2m6dh3n7m2n1np2ayy3knpvfrizh5";
     author = "Minetest";
     provides = [
       "beds"
@@ -894,21 +894,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "NO11/the_unexpected_gambit" = mkMinetestGame {
-    name = "the_unexpected_gambit";
-    release = 22859;
-    hash = "0262k4chql9ik81lii07xk6pnkwmfw6fcq69yhcl9nags1dyawpk";
-    author = "NO11";
-    provides = [
-      "tug_chess_engine"
-      "tug_chess_logic"
-      "tug_core"
-      "tug_gamestate"
-      "tug_unexpected"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Mantar/exile" = mkMinetestGame {
     name = "exile";
     release = 26880;
@@ -963,6 +948,21 @@
       "alter_initiator"
       "alter_messages"
       "alter_mirror"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "NO11/the_unexpected_gambit" = mkMinetestGame {
+    name = "the_unexpected_gambit";
+    release = 22859;
+    hash = "0262k4chql9ik81lii07xk6pnkwmfw6fcq69yhcl9nags1dyawpk";
+    author = "NO11";
+    provides = [
+      "tug_chess_engine"
+      "tug_chess_logic"
+      "tug_core"
+      "tug_gamestate"
+      "tug_unexpected"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -1354,6 +1354,29 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "MisterE/blockbomber" = mkMinetestGame {
+    name = "blockbomber";
+    release = 22276;
+    hash = "0dvydffsc0w231lcgjiy95m2kdvh99yzq1zk2arpf614p8bjxmr6";
+    author = "MisterE";
+    provides = [
+      "bb_bomb"
+      "bb_deathmessages"
+      "bb_loop"
+      "bb_menu"
+      "bb_noafk"
+      "bb_nodes"
+      "bb_player"
+      "bb_playermodel"
+      "bb_powerup"
+      "bb_schems"
+      "controls"
+      "misteresarenas"
+      "sn_expansion"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Kimapr/nonsensical_skyblock" = mkMinetestGame {
     name = "nonsensical_skyblock";
     release = 24271;
@@ -1511,29 +1534,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "MisterE/blockbomber" = mkMinetestGame {
-    name = "blockbomber";
-    release = 22276;
-    hash = "0dvydffsc0w231lcgjiy95m2kdvh99yzq1zk2arpf614p8bjxmr6";
-    author = "MisterE";
-    provides = [
-      "bb_bomb"
-      "bb_deathmessages"
-      "bb_loop"
-      "bb_menu"
-      "bb_noafk"
-      "bb_nodes"
-      "bb_player"
-      "bb_playermodel"
-      "bb_powerup"
-      "bb_schems"
-      "controls"
-      "misteresarenas"
-      "sn_expansion"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "luk3yx/prang" = mkMinetestGame {
     name = "prang";
     release = 25994;
@@ -1560,6 +1560,20 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "MisterE/slide_space" = mkMinetestGame {
+    name = "slide_space";
+    release = 15347;
+    hash = "0d9z2dxj16fb2yz9vxfqrk86ds3c1zqjckkkravr7kkfc3aizajp";
+    author = "MisterE";
+    provides = [
+      "slide_space_nodes"
+      "slide_space_setup"
+      "slide_space_slider"
+      "slidespace_modgen_mod_export"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Hume2/boxworld3d" = mkMinetestGame {
     name = "boxworld3d";
     release = 7435;
@@ -1581,16 +1595,37 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "MisterE/slide_space" = mkMinetestGame {
-    name = "slide_space";
-    release = 15347;
-    hash = "0d9z2dxj16fb2yz9vxfqrk86ds3c1zqjckkkravr7kkfc3aizajp";
-    author = "MisterE";
+  "talas/colourhop" = mkMinetestGame {
+    name = "colourhop";
+    release = 21713;
+    hash = "027z793nr4nn5gblnd70j2xw11fgiy60vsxbgnm05am7iwa7245r";
+    author = "talas";
     provides = [
-      "slide_space_nodes"
-      "slide_space_setup"
-      "slide_space_slider"
-      "slidespace_modgen_mod_export"
+      "central_message"
+      "ch_ability"
+      "ch_ambient"
+      "ch_automata"
+      "ch_buildings"
+      "ch_colours"
+      "ch_draconis"
+      "ch_fireworks"
+      "ch_flashscreen"
+      "ch_ion_cannon"
+      "ch_jump"
+      "ch_mapgen"
+      "ch_music"
+      "ch_player_api"
+      "ch_projectors"
+      "ch_schematics"
+      "ch_silver"
+      "ch_sky"
+      "ch_storage"
+      "ch_util"
+      "ch_workarounds"
+      "ch_world"
+      "hopbar"
+      "mob_core"
+      "mobkit"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -1661,41 +1696,6 @@
       "villages"
       "weather"
       "xesmartshop"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "talas/colourhop" = mkMinetestGame {
-    name = "colourhop";
-    release = 21713;
-    hash = "027z793nr4nn5gblnd70j2xw11fgiy60vsxbgnm05am7iwa7245r";
-    author = "talas";
-    provides = [
-      "central_message"
-      "ch_ability"
-      "ch_ambient"
-      "ch_automata"
-      "ch_buildings"
-      "ch_colours"
-      "ch_draconis"
-      "ch_fireworks"
-      "ch_flashscreen"
-      "ch_ion_cannon"
-      "ch_jump"
-      "ch_mapgen"
-      "ch_music"
-      "ch_player_api"
-      "ch_projectors"
-      "ch_schematics"
-      "ch_silver"
-      "ch_sky"
-      "ch_storage"
-      "ch_util"
-      "ch_workarounds"
-      "ch_world"
-      "hopbar"
-      "mob_core"
-      "mobkit"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -1990,15 +1990,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "NO11/balloonair" = mkMinetestGame {
-    name = "balloonair";
-    release = 14625;
-    hash = "015vnrc4wk95s4r3q9bwsbalyyxcay6inc2wjgaxa2z38g1r4y80";
-    author = "NO11";
-    provides = [ "balloon" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Warr1024/piranesi_redo" = mkMinetestGame {
     name = "piranesi_redo";
     release = 26634;
@@ -2015,6 +2006,39 @@
       "piredo_puzzles"
       "piredo_schems"
       "piredo_terrain"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "NO11/balloonair" = mkMinetestGame {
+    name = "balloonair";
+    release = 14625;
+    hash = "015vnrc4wk95s4r3q9bwsbalyyxcay6inc2wjgaxa2z38g1r4y80";
+    author = "NO11";
+    provides = [ "balloon" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "zanderdev/skyblock_zero" = mkMinetestGame {
+    name = "skyblock_zero";
+    release = 27037;
+    hash = "1gr8z0qppzlpb5x47f4x53zyazdxi6rp9zp0bpj7r5nfq60ychl6";
+    author = "zanderdev";
+    provides = [
+      "creative"
+      "fakelib"
+      "mtg_craftguide"
+      "pipeworks"
+      "sbz_base"
+      "sbz_bio"
+      "sbz_chem"
+      "sbz_decor"
+      "sbz_meteorites"
+      "sbz_power"
+      "sbz_progression"
+      "sbz_resources"
+      "screwdriver"
+      "sfinv"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2058,29 +2082,6 @@
       "stamina"
       "vessels"
       "wool"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "zanderdev/skyblock_zero" = mkMinetestGame {
-    name = "skyblock_zero";
-    release = 26960;
-    hash = "17chgcshcpkbx8z9fmm05ym5gdxdkla17d0qxk86wbyr3wx5iip5";
-    author = "zanderdev";
-    provides = [
-      "creative"
-      "fakelib"
-      "mtg_craftguide"
-      "pipeworks"
-      "sbz_base"
-      "sbz_chem"
-      "sbz_decor"
-      "sbz_meteorites"
-      "sbz_power"
-      "sbz_progression"
-      "sbz_resources"
-      "screwdriver"
-      "sfinv"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2416,8 +2417,8 @@
   };
   "KareaGhandTrail/block_assault" = mkMinetestGame {
     name = "block_assault";
-    release = 26853;
-    hash = "1fsys7f23p4f8sswzdqnr45ajnwf6j2cg46scf39h0pq4p7v6879";
+    release = 27031;
+    hash = "1k9l8x1a732l7jnzikqk1ilfi3v12g6qpm0qbcps257z5r0390yz";
     author = "KareaGhandTrail";
     provides = [
       "beds"
@@ -2747,8 +2748,8 @@
   };
   "Casimir/voxelgarden" = mkMinetestGame {
     name = "voxelgarden";
-    release = 26938;
-    hash = "0xmvi0giwlxggrr1rgklv9740ph7rnq3x869h0dpin2v6r27wvff";
+    release = 27042;
+    hash = "1lrkfbc5nzaw6mbgi7z1az46rclbxk3slf5mpzsqvdaj3gzaarm8";
     author = "Casimir";
     provides = [
       "bedrock2"
@@ -2779,6 +2780,7 @@
       "group_override"
       "headanim"
       "keys"
+      "logging"
       "map"
       "mobs"
       "mobs_flat"
@@ -2808,6 +2810,7 @@
       "vg_hunger"
       "vg_init"
       "vg_item_entity"
+      "vg_logging"
       "vg_mapgen"
       "vg_mobitems"
       "vg_score"
@@ -2978,6 +2981,19 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "epCode/what_were_you_expecting" = mkMinetestGame {
+    name = "what_were_you_expecting";
+    release = 22495;
+    hash = "1qjfzabsd7a8kv2jwph74vmy1vjnwvc2769rb96csq81pgrapcr5";
+    author = "epCode";
+    provides = [
+      "controls"
+      "what_were_you_expecting_default"
+      "wielded_light"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Warr1024/nodecore_alpha" = mkMinetestGame {
     name = "nodecore_alpha";
     release = 26897;
@@ -3031,49 +3047,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Lone_Wolf/voxel_knights" = mkMinetestGame {
-    name = "voxel_knights";
-    release = 20958;
-    hash = "1pwn1nn6780rbxxqhsh3nss20jxrnryki0yzlqhijk91krpda2jh";
-    author = "Lone_Wolf";
-    provides = [
-      "creative"
-      "hudbars"
-      "matrix"
-      "mobkit"
-      "mobkit_custom"
-      "pathfinder"
-      "rhotator"
-      "sfinv"
-      "spawners"
-      "spider"
-      "vk_mapgen"
-      "vk_nodes"
-      "vk_npcs"
-      "vk_party"
-      "vk_player"
-      "vk_player_sky"
-      "vk_player_stats"
-      "vk_quests"
-      "vk_swords"
-      "vkore"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "epCode/what_were_you_expecting" = mkMinetestGame {
-    name = "what_were_you_expecting";
-    release = 22495;
-    hash = "1qjfzabsd7a8kv2jwph74vmy1vjnwvc2769rb96csq81pgrapcr5";
-    author = "epCode";
-    provides = [
-      "controls"
-      "what_were_you_expecting_default"
-      "wielded_light"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Big_Caballito/no_mans_land" = mkMinetestGame {
     name = "no_mans_land";
     release = 8685;
@@ -3123,38 +3096,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "debiankaios/proxima_survival" = mkMinetestGame {
-    name = "proxima_survival";
-    release = 25943;
-    hash = "0b1hdj12fg03z6arg3nw3lll2657v3y5kjn5x71f1327x58gkdhp";
-    author = "debiankaios";
-    provides = [
-      "awards"
-      "biomes"
-      "bucket"
-      "climate_api"
-      "default"
-      "electronic"
-      "i3"
-      "i3_usage"
-      "mobs"
-      "networks"
-      "online_players"
-      "ores"
-      "player_api"
-      "pxs_awards"
-      "pxs_default"
-      "pxs_tools"
-      "screwdriver"
-      "signs_lib"
-      "stamina"
-      "stats"
-      "tubelib2"
-      "version"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "JavaFXpert/qiskitblocks" = mkMinetestGame {
     name = "qiskitblocks";
     release = 5212;
@@ -3192,6 +3133,68 @@
       "wool"
       "xpanes"
       "xschem"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Lone_Wolf/voxel_knights" = mkMinetestGame {
+    name = "voxel_knights";
+    release = 20958;
+    hash = "1pwn1nn6780rbxxqhsh3nss20jxrnryki0yzlqhijk91krpda2jh";
+    author = "Lone_Wolf";
+    provides = [
+      "creative"
+      "hudbars"
+      "matrix"
+      "mobkit"
+      "mobkit_custom"
+      "pathfinder"
+      "rhotator"
+      "sfinv"
+      "spawners"
+      "spider"
+      "vk_mapgen"
+      "vk_nodes"
+      "vk_npcs"
+      "vk_party"
+      "vk_player"
+      "vk_player_sky"
+      "vk_player_stats"
+      "vk_quests"
+      "vk_swords"
+      "vkore"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "debiankaios/proxima_survival" = mkMinetestGame {
+    name = "proxima_survival";
+    release = 25943;
+    hash = "0b1hdj12fg03z6arg3nw3lll2657v3y5kjn5x71f1327x58gkdhp";
+    author = "debiankaios";
+    provides = [
+      "awards"
+      "biomes"
+      "bucket"
+      "climate_api"
+      "default"
+      "electronic"
+      "i3"
+      "i3_usage"
+      "mobs"
+      "networks"
+      "online_players"
+      "ores"
+      "player_api"
+      "pxs_awards"
+      "pxs_default"
+      "pxs_tools"
+      "screwdriver"
+      "signs_lib"
+      "stamina"
+      "stats"
+      "tubelib2"
+      "version"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -3425,6 +3428,25 @@
     depends = [ ];
     with_same_name = [ "ROllerozxa/sudoku" ];
   };
+  "wsor4035/minekart" = mkMinetestGame {
+    name = "minekart";
+    release = 9477;
+    hash = "0gw3gr8zm81kmcx0pkq7i5hi3wyhgljlxfqb65r6sl8g6qns5k5w";
+    author = "wsor4035";
+    provides = [
+      "kartcar"
+      "mk_editor"
+      "mk_kart_manager"
+      "mk_mapgen"
+      "mk_player"
+      "mk_track_manager"
+      "mk_track_nodes"
+      "mobkit"
+      "trackelements"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "VoxelForge/voxelforge" = mkMinetestGame {
     name = "voxelforge";
     release = 26761;
@@ -3650,41 +3672,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "wsor4035/minekart" = mkMinetestGame {
-    name = "minekart";
-    release = 9477;
-    hash = "0gw3gr8zm81kmcx0pkq7i5hi3wyhgljlxfqb65r6sl8g6qns5k5w";
-    author = "wsor4035";
-    provides = [
-      "kartcar"
-      "mk_editor"
-      "mk_kart_manager"
-      "mk_mapgen"
-      "mk_player"
-      "mk_track_manager"
-      "mk_track_nodes"
-      "mobkit"
-      "trackelements"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Warr1024/fdmcube" = mkMinetestGame {
-    name = "fdmcube";
-    release = 27017;
-    hash = "1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6";
-    author = "Warr1024";
-    provides = [
-      "fdm_api"
-      "fdm_mapgen"
-      "fdm_material"
-      "fdm_nav"
-      "fdm_player"
-      "fdm_validate"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "PetiAPocok/minetest_extended" = mkMinetestGame {
     name = "minetest_extended";
     release = 7305;
@@ -3845,6 +3832,43 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Warr1024/fdmcube" = mkMinetestGame {
+    name = "fdmcube";
+    release = 27017;
+    hash = "1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6";
+    author = "Warr1024";
+    provides = [
+      "fdm_api"
+      "fdm_mapgen"
+      "fdm_material"
+      "fdm_nav"
+      "fdm_player"
+      "fdm_validate"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "dibesfer/colorlandia" = mkMinetestGame {
+    name = "colorlandia";
+    release = 26532;
+    hash = "1b6ia37lpkq3rp8arj28lmbl57fgjyili9p0mqq2ili1cqvjrdl8";
+    author = "dibesfer";
+    provides = [
+      "colorlandia_colorland"
+      "colorlandia_gui"
+      "colorlandia_hand"
+      "colorlandia_sky"
+      "creative"
+      "datatest"
+      "paint"
+      "player_api"
+      "sethome"
+      "sfinv"
+      "spawn_command"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "mooD_Slayer/ksurvive" = mkMinetestGame {
     name = "ksurvive";
     release = 10346;
@@ -3870,27 +3894,6 @@
       "rocks"
       "secret_mods"
       "walking_light"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "dibesfer/colorlandia" = mkMinetestGame {
-    name = "colorlandia";
-    release = 26532;
-    hash = "1b6ia37lpkq3rp8arj28lmbl57fgjyili9p0mqq2ili1cqvjrdl8";
-    author = "dibesfer";
-    provides = [
-      "colorlandia_colorland"
-      "colorlandia_gui"
-      "colorlandia_hand"
-      "colorlandia_sky"
-      "creative"
-      "datatest"
-      "paint"
-      "player_api"
-      "sethome"
-      "sfinv"
-      "spawn_command"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4229,10 +4232,254 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "wsor4035/airgame" = mkMinetestGame {
+    name = "airgame";
+    release = 22491;
+    hash = "081hlxcfjwxra5s1l8px5mikcjcnxjdcj2b3l0fyff0fsixxf7y9";
+    author = "wsor4035";
+    provides = [ "airsword" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "BRNSystems/blocky_portaling" = mkMinetestGame {
+    name = "blocky_portaling";
+    release = 16327;
+    hash = "0mvw71qqzbs2l7m0gjra6xzqabvdnmn9m1dalj5h7blvmyw02bxr";
+    author = "BRNSystems";
+    provides = [
+      "an_televator"
+      "blocky_portaling_modgen"
+      "digicontrol"
+      "digilines"
+      "digilines_memory"
+      "digiprinter"
+      "digistuff"
+      "enable_shadows"
+      "lwcomponents"
+      "memorandum"
+      "mesecons"
+      "mesecons_alias"
+      "mesecons_blinkyplant"
+      "mesecons_button"
+      "mesecons_commandblock"
+      "mesecons_delayer"
+      "mesecons_detector"
+      "mesecons_extrawires"
+      "mesecons_fpga"
+      "mesecons_gamecompat"
+      "mesecons_gates"
+      "mesecons_hydroturbine"
+      "mesecons_insulated"
+      "mesecons_lamp"
+      "mesecons_lightstone"
+      "mesecons_luacontroller"
+      "mesecons_materials"
+      "mesecons_microcontroller"
+      "mesecons_movestones"
+      "mesecons_mvps"
+      "mesecons_noteblock"
+      "mesecons_pistons"
+      "mesecons_powerplant"
+      "mesecons_pressureplates"
+      "mesecons_random"
+      "mesecons_receiver"
+      "mesecons_solarpanel"
+      "mesecons_stickyblocks"
+      "mesecons_switch"
+      "mesecons_torch"
+      "mesecons_walllever"
+      "mesecons_window"
+      "mesecons_wireless"
+      "mesecons_wires"
+      "mesetec"
+      "nixie_tubes"
+      "no_fall_damage"
+      "player"
+      "player_api"
+      "portalgun"
+      "unified_inventory"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "thvk/spacetest" = mkMinetestGame {
+    name = "spacetest";
+    release = 25503;
+    hash = "19f9zj9fxps2rx5wchrd0va7jwy9rbdmkiiisrw8j5lng0144hny";
+    author = "thvk";
+    provides = [
+      "st_core"
+      "st_nodes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "KareaGhandTrail/block_assault_mapmaker" = mkMinetestGame {
+    name = "block_assault_mapmaker";
+    release = 21764;
+    hash = "1ln3mdpbpj8br4j74bac6hr0xxad8ip0k07kgjmr69qr3wliv1bc";
+    author = "KareaGhandTrail";
+    provides = [
+      "beds"
+      "bones"
+      "bs_blocks_and_decorations"
+      "bs_chat_color"
+      "bs_helpers"
+      "creative"
+      "default"
+      "doors"
+      "dye"
+      "env_sounds"
+      "fire"
+      "map_engine"
+      "player_api"
+      "screwdriver"
+      "sfinv"
+      "stairs"
+      "tnt"
+      "unified_inventory"
+      "wool"
+      "worldedit"
+      "worldedit_brush"
+      "worldedit_commands"
+      "worldedit_gui"
+      "worldedit_shortcommands"
+      "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "1248/regnum2" = mkMinetestGame {
+    name = "regnum2";
+    release = 25437;
+    hash = "1h7rk87xc53842pd5anx7h9b4c1gzsc5llaalgqy2yjij4nj9c8l";
+    author = "1248";
+    provides = [
+      "3d_armor"
+      "3d_armor_ip"
+      "3d_armor_stand"
+      "bags"
+      "ban_hammer"
+      "beds"
+      "binoculars"
+      "boats"
+      "bones"
+      "bucket"
+      "butterflies"
+      "carts"
+      "city_block"
+      "concrete"
+      "creative"
+      "default"
+      "doors"
+      "dungeon_loot"
+      "dye"
+      "env_sounds"
+      "experience"
+      "extranodes"
+      "farming"
+      "fire"
+      "fireflies"
+      "flowers"
+      "game_commands"
+      "gems"
+      "give_initial_stuff"
+      "helicopter"
+      "hudbars"
+      "inventory_music"
+      "inventory_plus"
+      "keys"
+      "map"
+      "mesecons"
+      "mesecons_alias"
+      "mesecons_blinkyplant"
+      "mesecons_button"
+      "mesecons_commandblock"
+      "mesecons_delayer"
+      "mesecons_detector"
+      "mesecons_doors"
+      "mesecons_extrawires"
+      "mesecons_gates"
+      "mesecons_hydroturbine"
+      "mesecons_insulated"
+      "mesecons_lamp"
+      "mesecons_lightstone"
+      "mesecons_luacontroller"
+      "mesecons_materials"
+      "mesecons_microcontroller"
+      "mesecons_movestones"
+      "mesecons_mvps"
+      "mesecons_noteblock"
+      "mesecons_pistons"
+      "mesecons_powerplant"
+      "mesecons_pressureplates"
+      "mesecons_random"
+      "mesecons_receiver"
+      "mesecons_solarpanel"
+      "mesecons_switch"
+      "mesecons_torch"
+      "mesecons_walllever"
+      "mobs"
+      "mobs_bat"
+      "mobs_birds"
+      "mobs_butterfly"
+      "mobs_crocs"
+      "mobs_fish"
+      "mobs_jellyfish"
+      "mobs_sharks"
+      "mobs_turtles"
+      "more_chests"
+      "moreores"
+      "nyancat"
+      "pep"
+      "pipeworks"
+      "player_api"
+      "playereffects"
+      "protector"
+      "screwdriver"
+      "sethome"
+      "sfinv"
+      "shields"
+      "shop"
+      "skins"
+      "spawn"
+      "stairs"
+      "technic"
+      "technic_chests"
+      "technic_worldgen"
+      "tnt"
+      "travelnet"
+      "tutorial"
+      "vessels"
+      "walls"
+      "weather"
+      "wieldview"
+      "wool"
+      "wrench"
+      "xpanes"
+      "xray"
+      "zcg"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "1248/agon" = mkMinetestGame {
+    name = "agon";
+    release = 23323;
+    hash = "0gp24ga7zcgj7ypnspp8f0wglg27kg64d31pnslglhixxl70snq6";
+    author = "1248";
+    provides = [
+      "agon"
+      "hudbars"
+      "mobs"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "mt-mods/dreambuilder_game" = mkMinetestGame {
     name = "dreambuilder_game";
-    release = 27001;
-    hash = "0yh91dbn8z68ayk84j8w7zhm81r6zlhdlimfgswfmgh12wi8yn3b";
+    release = 27050;
+    hash = "152hd2v4w9mkm57y4hr2nvhbdax34x079r620nhzfww2bqw82jys";
     author = "mt-mods";
     provides = [
       "3dmushrooms"
@@ -4469,15 +4716,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "wsor4035/airgame" = mkMinetestGame {
-    name = "airgame";
-    release = 22491;
-    hash = "081hlxcfjwxra5s1l8px5mikcjcnxjdcj2b3l0fyff0fsixxf7y9";
-    author = "wsor4035";
-    provides = [ "airsword" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "bell07/whynot_game" = mkMinetestGame {
     name = "whynot_game";
     release = 26777;
@@ -4693,241 +4931,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "BRNSystems/blocky_portaling" = mkMinetestGame {
-    name = "blocky_portaling";
-    release = 16327;
-    hash = "0mvw71qqzbs2l7m0gjra6xzqabvdnmn9m1dalj5h7blvmyw02bxr";
-    author = "BRNSystems";
-    provides = [
-      "an_televator"
-      "blocky_portaling_modgen"
-      "digicontrol"
-      "digilines"
-      "digilines_memory"
-      "digiprinter"
-      "digistuff"
-      "enable_shadows"
-      "lwcomponents"
-      "memorandum"
-      "mesecons"
-      "mesecons_alias"
-      "mesecons_blinkyplant"
-      "mesecons_button"
-      "mesecons_commandblock"
-      "mesecons_delayer"
-      "mesecons_detector"
-      "mesecons_extrawires"
-      "mesecons_fpga"
-      "mesecons_gamecompat"
-      "mesecons_gates"
-      "mesecons_hydroturbine"
-      "mesecons_insulated"
-      "mesecons_lamp"
-      "mesecons_lightstone"
-      "mesecons_luacontroller"
-      "mesecons_materials"
-      "mesecons_microcontroller"
-      "mesecons_movestones"
-      "mesecons_mvps"
-      "mesecons_noteblock"
-      "mesecons_pistons"
-      "mesecons_powerplant"
-      "mesecons_pressureplates"
-      "mesecons_random"
-      "mesecons_receiver"
-      "mesecons_solarpanel"
-      "mesecons_stickyblocks"
-      "mesecons_switch"
-      "mesecons_torch"
-      "mesecons_walllever"
-      "mesecons_window"
-      "mesecons_wireless"
-      "mesecons_wires"
-      "mesetec"
-      "nixie_tubes"
-      "no_fall_damage"
-      "player"
-      "player_api"
-      "portalgun"
-      "unified_inventory"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "KareaGhandTrail/block_assault_mapmaker" = mkMinetestGame {
-    name = "block_assault_mapmaker";
-    release = 21764;
-    hash = "1ln3mdpbpj8br4j74bac6hr0xxad8ip0k07kgjmr69qr3wliv1bc";
-    author = "KareaGhandTrail";
-    provides = [
-      "beds"
-      "bones"
-      "bs_blocks_and_decorations"
-      "bs_chat_color"
-      "bs_helpers"
-      "creative"
-      "default"
-      "doors"
-      "dye"
-      "env_sounds"
-      "fire"
-      "map_engine"
-      "player_api"
-      "screwdriver"
-      "sfinv"
-      "stairs"
-      "tnt"
-      "unified_inventory"
-      "wool"
-      "worldedit"
-      "worldedit_brush"
-      "worldedit_commands"
-      "worldedit_gui"
-      "worldedit_shortcommands"
-      "xpanes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "thvk/spacetest" = mkMinetestGame {
-    name = "spacetest";
-    release = 25503;
-    hash = "19f9zj9fxps2rx5wchrd0va7jwy9rbdmkiiisrw8j5lng0144hny";
-    author = "thvk";
-    provides = [
-      "st_core"
-      "st_nodes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "1248/regnum2" = mkMinetestGame {
-    name = "regnum2";
-    release = 25437;
-    hash = "1h7rk87xc53842pd5anx7h9b4c1gzsc5llaalgqy2yjij4nj9c8l";
-    author = "1248";
-    provides = [
-      "3d_armor"
-      "3d_armor_ip"
-      "3d_armor_stand"
-      "bags"
-      "ban_hammer"
-      "beds"
-      "binoculars"
-      "boats"
-      "bones"
-      "bucket"
-      "butterflies"
-      "carts"
-      "city_block"
-      "concrete"
-      "creative"
-      "default"
-      "doors"
-      "dungeon_loot"
-      "dye"
-      "env_sounds"
-      "experience"
-      "extranodes"
-      "farming"
-      "fire"
-      "fireflies"
-      "flowers"
-      "game_commands"
-      "gems"
-      "give_initial_stuff"
-      "helicopter"
-      "hudbars"
-      "inventory_music"
-      "inventory_plus"
-      "keys"
-      "map"
-      "mesecons"
-      "mesecons_alias"
-      "mesecons_blinkyplant"
-      "mesecons_button"
-      "mesecons_commandblock"
-      "mesecons_delayer"
-      "mesecons_detector"
-      "mesecons_doors"
-      "mesecons_extrawires"
-      "mesecons_gates"
-      "mesecons_hydroturbine"
-      "mesecons_insulated"
-      "mesecons_lamp"
-      "mesecons_lightstone"
-      "mesecons_luacontroller"
-      "mesecons_materials"
-      "mesecons_microcontroller"
-      "mesecons_movestones"
-      "mesecons_mvps"
-      "mesecons_noteblock"
-      "mesecons_pistons"
-      "mesecons_powerplant"
-      "mesecons_pressureplates"
-      "mesecons_random"
-      "mesecons_receiver"
-      "mesecons_solarpanel"
-      "mesecons_switch"
-      "mesecons_torch"
-      "mesecons_walllever"
-      "mobs"
-      "mobs_bat"
-      "mobs_birds"
-      "mobs_butterfly"
-      "mobs_crocs"
-      "mobs_fish"
-      "mobs_jellyfish"
-      "mobs_sharks"
-      "mobs_turtles"
-      "more_chests"
-      "moreores"
-      "nyancat"
-      "pep"
-      "pipeworks"
-      "player_api"
-      "playereffects"
-      "protector"
-      "screwdriver"
-      "sethome"
-      "sfinv"
-      "shields"
-      "shop"
-      "skins"
-      "spawn"
-      "stairs"
-      "technic"
-      "technic_chests"
-      "technic_worldgen"
-      "tnt"
-      "travelnet"
-      "tutorial"
-      "vessels"
-      "walls"
-      "weather"
-      "wieldview"
-      "wool"
-      "wrench"
-      "xpanes"
-      "xray"
-      "zcg"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "1248/agon" = mkMinetestGame {
-    name = "agon";
-    release = 23323;
-    hash = "0gp24ga7zcgj7ypnspp8f0wglg27kg64d31pnslglhixxl70snq6";
-    author = "1248";
-    provides = [
-      "agon"
-      "hudbars"
-      "mobs"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "LMD/cellestial_game" = mkMinetestGame {
     name = "cellestial_game";
     release = 18356;
@@ -4958,6 +4961,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Emojiminetest/reject" = mkMinetestGame {
+    name = "reject";
+    release = 16542;
+    hash = "0zajki28f8wks95icybmmi5mymc2svcz8wkf7dl1gnn05xd02wnn";
+    author = "Emojiminetest";
+    provides = [ "reject_core" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "5uper1ach/szombie" = mkMinetestGame {
     name = "szombie";
     release = 26412;
@@ -4970,15 +4982,6 @@
       "shooter_guns"
       "szombie_core"
     ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Emojiminetest/reject" = mkMinetestGame {
-    name = "reject";
-    release = 16542;
-    hash = "0zajki28f8wks95icybmmi5mymc2svcz8wkf7dl1gnn05xd02wnn";
-    author = "Emojiminetest";
-    provides = [ "reject_core" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -5011,86 +5014,6 @@
     hash = "03jihnfkhych6gfdrp3lnlqnwh0p7hfgdbn1ay1qmyxy3ha72a3y";
     author = "group_foo";
     provides = [ "ghost_crypt_main" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Astrobe/minefall" = mkMinetestGame {
-    name = "minefall";
-    release = 26311;
-    hash = "0xw32y0sgy7xh09ffi4mmfqpvqpcp7qs56a9wkgkbpgv63y5cibq";
-    author = "Astrobe";
-    provides = [
-      "3d_armor"
-      "3d_armor_sfinv"
-      "a_trees"
-      "abyss"
-      "anchorstone"
-      "anvil"
-      "beacon"
-      "bigshroom"
-      "bones"
-      "channels"
-      "cloth"
-      "compass"
-      "craft_table"
-      "craftguide"
-      "damage_number"
-      "dungeon_crates"
-      "env_sounds"
-      "exchange_shop"
-      "farming"
-      "fire"
-      "flowers"
-      "glider"
-      "headanim"
-      "hudbars"
-      "key_labels"
-      "lightning"
-      "melding"
-      "melt"
-      "mf"
-      "mf_airtank"
-      "mf_armor"
-      "mf_atrees"
-      "mf_decor"
-      "mf_default"
-      "mf_doors"
-      "mf_help"
-      "mf_lamps"
-      "mf_npc"
-      "mf_spears"
-      "mf_stairs"
-      "mf_tnt"
-      "mfwm"
-      "mob_bee"
-      "mob_beetle"
-      "mob_cats"
-      "mob_manti"
-      "mob_mogall"
-      "mob_shadow"
-      "mob_spider"
-      "mob_wasp"
-      "mob_whale"
-      "mobs"
-      "mobs_butterfly"
-      "mobs_crab"
-      "mobs_fish"
-      "more_mese"
-      "peri"
-      "player_api"
-      "rp"
-      "rploot"
-      "ruins"
-      "screwdriver"
-      "sfinv"
-      "simple_skins"
-      "smoke"
-      "snowdrift"
-      "void_chest"
-      "wands"
-      "wieldview"
-      "yatpm"
-    ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -5202,6 +5125,86 @@
       "wrench"
       "xpanes"
       "zcg"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Astrobe/minefall" = mkMinetestGame {
+    name = "minefall";
+    release = 26311;
+    hash = "0xw32y0sgy7xh09ffi4mmfqpvqpcp7qs56a9wkgkbpgv63y5cibq";
+    author = "Astrobe";
+    provides = [
+      "3d_armor"
+      "3d_armor_sfinv"
+      "a_trees"
+      "abyss"
+      "anchorstone"
+      "anvil"
+      "beacon"
+      "bigshroom"
+      "bones"
+      "channels"
+      "cloth"
+      "compass"
+      "craft_table"
+      "craftguide"
+      "damage_number"
+      "dungeon_crates"
+      "env_sounds"
+      "exchange_shop"
+      "farming"
+      "fire"
+      "flowers"
+      "glider"
+      "headanim"
+      "hudbars"
+      "key_labels"
+      "lightning"
+      "melding"
+      "melt"
+      "mf"
+      "mf_airtank"
+      "mf_armor"
+      "mf_atrees"
+      "mf_decor"
+      "mf_default"
+      "mf_doors"
+      "mf_help"
+      "mf_lamps"
+      "mf_npc"
+      "mf_spears"
+      "mf_stairs"
+      "mf_tnt"
+      "mfwm"
+      "mob_bee"
+      "mob_beetle"
+      "mob_cats"
+      "mob_manti"
+      "mob_mogall"
+      "mob_shadow"
+      "mob_spider"
+      "mob_wasp"
+      "mob_whale"
+      "mobs"
+      "mobs_butterfly"
+      "mobs_crab"
+      "mobs_fish"
+      "more_mese"
+      "peri"
+      "player_api"
+      "rp"
+      "rploot"
+      "ruins"
+      "screwdriver"
+      "sfinv"
+      "simple_skins"
+      "smoke"
+      "snowdrift"
+      "void_chest"
+      "wands"
+      "wieldview"
+      "yatpm"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5429,6 +5432,77 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "StarNinjas/veil_of_the_unknown" = mkMinetestGame {
+    name = "veil_of_the_unknown";
+    release = 22511;
+    hash = "0f3l1sk47nsgdk9r6iz67wlcphnnxnyr5byy5jkvgf86w5n1xrci";
+    author = "StarNinjas";
+    provides = [
+      "ambience"
+      "awards"
+      "bell"
+      "fire"
+      "give_initial_stuff"
+      "item_drop"
+      "mobs"
+      "mobs_animal"
+      "sfinv"
+      "vu_base"
+      "vu_heartbeat"
+      "vu_music"
+      "wield_events"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "chaosomnium/mining_game" = mkMinetestGame {
+    name = "mining_game";
+    release = 7428;
+    hash = "0zc60ljz0kyj7303jjbzgq7dfl6dh7xxavgy21190qihilqwksvk";
+    author = "chaosomnium";
+    provides = [
+      "base"
+      "joke_currency"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "crabycowman123/spmeter" = mkMinetestGame {
+    name = "spmeter";
+    release = 11007;
+    hash = "0w42v2xmxfc9149j9pm0a97n5qr6s795dl87kpl4ln6b08dkpxi0";
+    author = "crabycowman123";
+    provides = [
+      "blankslate"
+      "colors"
+      "give_initial_stuff"
+      "minetestrpg_blocks"
+      "mobs"
+      "mtr_currency"
+      "mtr_debug"
+      "mtr_mapgen"
+      "mtr_monsters"
+      "mtr_resources"
+      "mtr_shop"
+      "mtr_weapons"
+      "void_damage"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "1248/stella" = mkMinetestGame {
+    name = "stella";
+    release = 10125;
+    hash = "0flvgj62hxvdrjyj0yqijhc0c82c691k1zz40b374dagirhsl6na";
+    author = "1248";
+    provides = [
+      "flatgen"
+      "hudbars"
+      "stella"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "sunnysideup/holidayhorrors" = mkMinetestGame {
     name = "holidayhorrors";
     release = 10179;
@@ -5456,14 +5530,29 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "chaosomnium/mining_game" = mkMinetestGame {
-    name = "mining_game";
-    release = 7428;
-    hash = "0zc60ljz0kyj7303jjbzgq7dfl6dh7xxavgy21190qihilqwksvk";
-    author = "chaosomnium";
+  "xenonca/luckydude" = mkMinetestGame {
+    name = "luckydude";
+    release = 10139;
+    hash = "1g701kswjdl2nfjzdc712xmcrgaahs6q5jafz3d6jq5rck4zx0i3";
+    author = "xenonca";
     provides = [
-      "base"
-      "joke_currency"
+      "ld_game"
+      "player_api"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "cx384/dssssa" = mkMinetestGame {
+    name = "dssssa";
+    release = 15790;
+    hash = "00090y9357xmdfl80i732q3q3s27i6kiq09k2ri0qp1v7q8d7icp";
+    author = "cx384";
+    provides = [
+      "dssssa_crafting"
+      "dssssa_mapgen"
+      "dssssa_player"
+      "dssssa_rocks"
+      "dssssa_ship"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5480,15 +5569,35 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "1248/stella" = mkMinetestGame {
-    name = "stella";
-    release = 10125;
-    hash = "0flvgj62hxvdrjyj0yqijhc0c82c691k1zz40b374dagirhsl6na";
-    author = "1248";
+  "RedundantC/wis_part1" = mkMinetestGame {
+    name = "wis_part1";
+    release = 22501;
+    hash = "16nf1liaaap1y31z1pjs8y3xqvp5m0kbs1qcl3pqj1mv47xkvn6n";
+    author = "RedundantC";
     provides = [
-      "flatgen"
-      "hudbars"
-      "stella"
+      "controls"
+      "formspec_ast"
+      "greglib"
+      "hud_fs"
+      "hud_notify"
+      "sounds"
+      "wield_events"
+      "wis"
+      "wis_inject_media"
+      "wis_port_mineclonia"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Charleston314/fill_the_void" = mkMinetestGame {
+    name = "fill_the_void";
+    release = 22490;
+    hash = "06y7190zy0sy151lx2zbaq3spm7yaa1gk238w8fg2bcvdz0wlkb4";
+    author = "Charleston314";
+    provides = [
+      "fv_choices"
+      "fv_hand"
+      "fv_terrain"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5499,6 +5608,21 @@
     hash = "0wvngyh0d3v77nzc7kfi51r7vm685q2lvzmgjqqsfh3i5wcq2pfj";
     author = "cx384";
     provides = [ "snake_3d" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "mothnox/vpet" = mkMinetestGame {
+    name = "vpet";
+    release = 15438;
+    hash = "0s8iikl9f6ybsgjnrl04vrnx91acdgy32inxg3y9rrk0yq3681s7";
+    author = "mothnox";
+    provides = [
+      "vpet_gfx"
+      "vpet_nodes"
+      "vpet_pet"
+      "vpet_player"
+      "vpet_world"
+    ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -5540,127 +5664,6 @@
       "worldedit_commands"
       "worldedit_gui"
       "worldedit_shortcommands"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "cx384/dssssa" = mkMinetestGame {
-    name = "dssssa";
-    release = 15790;
-    hash = "00090y9357xmdfl80i732q3q3s27i6kiq09k2ri0qp1v7q8d7icp";
-    author = "cx384";
-    provides = [
-      "dssssa_crafting"
-      "dssssa_mapgen"
-      "dssssa_player"
-      "dssssa_rocks"
-      "dssssa_ship"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "crabycowman123/spmeter" = mkMinetestGame {
-    name = "spmeter";
-    release = 11007;
-    hash = "0w42v2xmxfc9149j9pm0a97n5qr6s795dl87kpl4ln6b08dkpxi0";
-    author = "crabycowman123";
-    provides = [
-      "blankslate"
-      "colors"
-      "give_initial_stuff"
-      "minetestrpg_blocks"
-      "mobs"
-      "mtr_currency"
-      "mtr_debug"
-      "mtr_mapgen"
-      "mtr_monsters"
-      "mtr_resources"
-      "mtr_shop"
-      "mtr_weapons"
-      "void_damage"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "StarNinjas/veil_of_the_unknown" = mkMinetestGame {
-    name = "veil_of_the_unknown";
-    release = 22511;
-    hash = "0f3l1sk47nsgdk9r6iz67wlcphnnxnyr5byy5jkvgf86w5n1xrci";
-    author = "StarNinjas";
-    provides = [
-      "ambience"
-      "awards"
-      "bell"
-      "fire"
-      "give_initial_stuff"
-      "item_drop"
-      "mobs"
-      "mobs_animal"
-      "sfinv"
-      "vu_base"
-      "vu_heartbeat"
-      "vu_music"
-      "wield_events"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "RedundantC/wis_part1" = mkMinetestGame {
-    name = "wis_part1";
-    release = 22501;
-    hash = "16nf1liaaap1y31z1pjs8y3xqvp5m0kbs1qcl3pqj1mv47xkvn6n";
-    author = "RedundantC";
-    provides = [
-      "controls"
-      "formspec_ast"
-      "greglib"
-      "hud_fs"
-      "hud_notify"
-      "sounds"
-      "wield_events"
-      "wis"
-      "wis_inject_media"
-      "wis_port_mineclonia"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "mothnox/vpet" = mkMinetestGame {
-    name = "vpet";
-    release = 15438;
-    hash = "0s8iikl9f6ybsgjnrl04vrnx91acdgy32inxg3y9rrk0yq3681s7";
-    author = "mothnox";
-    provides = [
-      "vpet_gfx"
-      "vpet_nodes"
-      "vpet_pet"
-      "vpet_player"
-      "vpet_world"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Charleston314/fill_the_void" = mkMinetestGame {
-    name = "fill_the_void";
-    release = 22490;
-    hash = "06y7190zy0sy151lx2zbaq3spm7yaa1gk238w8fg2bcvdz0wlkb4";
-    author = "Charleston314";
-    provides = [
-      "fv_choices"
-      "fv_hand"
-      "fv_terrain"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "xenonca/luckydude" = mkMinetestGame {
-    name = "luckydude";
-    release = 10139;
-    hash = "1g701kswjdl2nfjzdc712xmcrgaahs6q5jafz3d6jq5rck4zx0i3";
-    author = "xenonca";
-    provides = [
-      "ld_game"
-      "player_api"
     ];
     depends = [ ];
     with_same_name = [ ];

@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "a flake containing all games and mods for minetest";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -32,8 +32,9 @@
             '')
           ];
         };
-        lib = {
-          with-dependencies = import ./src/utils/dependencies.nix { byId = self.packages.${system}.byId; lists = nixpkgs.lib.lists; };
+        lib = import ./src/utils/lib.nix {
+          byId = self.packages.${system}.byId;
+          lists = nixpkgs.lib.lists;
         };
       }
     );
