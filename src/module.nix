@@ -26,16 +26,17 @@ in
             };
             game = lib.mkOption {
               #package of the minetest game that should run
+              default = byId.games."Minetest/minetest_game";
             };
             mods = lib.mkOption {
               #list of packages (has to be minetest mods. dont know if i need to check that here)
             };
             world = {
               mapgen = lib.mkOption {
-
+                default = "v7"; # no plan what i am doing
               };
               seed = lib.mkOption {
-
+                default = null;# maybe null should be random
               };
               # ... other map settings
             };
