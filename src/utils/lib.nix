@@ -1,4 +1,4 @@
-{ byId, lists }:
+{ byId, lists, mkDerivation }:
 let
   checkDependencies =
     game: mods:
@@ -49,6 +49,19 @@ let
       mods
     else
       with-dependencies game (mods ++ [ (findNextDependency game mods) ]);
+
+  installStep = mod: ''
+    ln -sf ${mod} $out/${mod.pname}
+  '';
+
+  mods-folder = game: mods:
+    mkDerivation {
+      name = "mods";
+      src = game; # just something. is not used but src is required
+      builtInputs = with-dependencies game mods;
+      installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (with-dependencies game mods);
+    };
+
 in
 {
 
@@ -59,6 +72,7 @@ in
     depsProvidedBy
     missingDependencies
     with-dependencies
+    mods-folder
     ;
 
 }

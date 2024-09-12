@@ -4,6 +4,11 @@
   unzip,
 }:
 let
+  installPhase = ''
+    mkdir -p $out
+    cp -r $(ls -d */ )* $out
+  '';
+  unpackPhase = "${unzip}/bin/unzip $src";
   url =
     author: name: release:
     "https://content.minetest.net/packages/${author}/${name}/releases/${builtins.toString release}/download/";
@@ -24,11 +29,7 @@ let
         url = url author name release;
         sha256 = hash;
       };
-      unpackPhase = "${unzip}/bin/unzip $src";
-      installPhase = ''
-        mkdir -p $out
-        cp -r ${name}/* $out
-      '';
+      inherit unpackPhase installPhase;
       meta = {
         inherit provides with_same_name author;
         type = "minetest_game";
@@ -52,11 +53,7 @@ let
         sha256 = hash;
       };
 
-      unpackPhase = "${unzip}/bin/unzip $src";
-      installPhase = ''
-        mkdir -p $out
-        cp -r ${name}/* $out
-      '';
+      inherit unpackPhase installPhase;
       meta = {
         inherit
           provides
@@ -85,11 +82,7 @@ let
         url = url author name release;
         sha256 = hash;
       };
-      unpackPhase = "${unzip}/bin/unzip $src";
-      installPhase = ''
-        mkdir -p $out
-        cp -r ${name}/* $out
-      '';
+      inherit unpackPhase installPhase;
       meta = {
         inherit with_same_name author;
         type = "minetest_texture_pack";
