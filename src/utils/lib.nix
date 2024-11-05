@@ -78,12 +78,6 @@ in
 {
 
   inherit
-    findNextDependency
-    findNextDependencyName
-    checkDependencies
-    depsProvidedBy
-    missingDependencies
-    with-dependencies
     mods-folder
     mapAttrNames
     ;

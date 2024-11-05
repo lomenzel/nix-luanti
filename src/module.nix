@@ -1,12 +1,20 @@
 { config
 , lib
 , pkgs
-, byId
-, nix-luanti-lib
 , ...
 }:
 let
   cfg = config.services.luanti;
+  nix-luanti-lib = (import ./utils/lib.nix {
+    byId = self.packages.${system}.byId;
+    lists = nixpkgs.lib.lists;
+    mkDerivation = pkgs.stdenv.mkDerivation;
+  }).byId;
+  byId = import ./packages.nix {
+          mkDerivation = pkgs.stdenv.mkDerivation;
+          fetchurl = pkgs.fetchurl;
+          unzip = pkgs.unzip;
+        };
 in
 {
   options.services.luanti = {
@@ -44,7 +52,6 @@ in
               default = { };
               description = ''
                 Settings to add to the luanti config file.
-                This option is ignored if `configPath` is set.
               '';
             };
           };
@@ -54,7 +61,6 @@ in
     };
   };
   config =
-    # TODO: AttrNames of servers should become luanti-{servername}
     lib.mkIf cfg.enable
       {
         users.users = builtins.mapAttrs
@@ -84,9 +90,9 @@ in
                 serviceConfig = {
                   ExecStart = ''
                     ${pkgs.minetest}/bin/minetestserver \
-                      --server --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
+                      --server --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
                       --port ${builtins.toString serverConfig.port}
-                  ''; # TODO
+                  ''; # TODO: luanti config format; also make sure it uses correct mods and map
                   User = "luanti${name}"; # TODO: Use the correct username if decided on what the username should be
                   Group = "luanti";
                   Restart = "on-failure";
