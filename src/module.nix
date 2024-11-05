@@ -7,7 +7,7 @@ let
   cfg = config.services.luanti;
   nix-luanti-lib = (import ./utils/lib.nix {
     byId = self.packages.${system}.byId;
-    lists = nixpkgs.lib.lists;
+    lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   }).byId;
   byId = import ./packages.nix {
