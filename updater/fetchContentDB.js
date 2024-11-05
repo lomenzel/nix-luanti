@@ -48,7 +48,7 @@ async function fetchDetails(id) {
 }
 
 function packageToString(package) {
-    return `"${package.author}/${package.name}" = mkMinetest${package.type.charAt(0).toUpperCase() + package.type.slice(1)} {
+    return `"${package.author}/${package.name}" = mkLuanti${package.type.charAt(0).toUpperCase() + package.type.slice(1)} {
             name = "${package.name}";
             release = ${package.release};
             hash = "${package.details.hash}";
@@ -86,9 +86,9 @@ async function packagelist() {
 }
 
 const headers = {
-    game: "{ mkMinetestGame}: {",
-    mod: "{ mkMinetestMod}: {",
-    txp: "{ mkMinetestTxp}: {"
+    game: "{ mkLuantiGame}: {",
+    mod: "{ mkLuantiMod}: {",
+    txp: "{ mkLuantiTxp}: {"
 }
 
 function fileContents(packages) {

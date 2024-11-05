@@ -1,9 +1,11 @@
-{ byId, lists, mkDerivation }:
+{
+  byId,
+  lists,
+  mkDerivation,
+}:
 let
-  checkDependencies =
-    game: mods:
-      (builtins.length (missingDependencies game mods)) == 0;
-    
+  checkDependencies = game: mods: (builtins.length (missingDependencies game mods)) == 0;
+
   missingDependencies = game: mods: lists.subtractLists (allProviding game mods) (allDeps mods);
   depsProvidedBy =
     mods:
@@ -54,12 +56,15 @@ let
     ln -sf ${mod} $out/${mod.pname}
   '';
 
-  mods-folder = game: mods:
+  mods-folder =
+    game: mods:
     mkDerivation {
       name = "mods";
       src = game; # just something. is not used but src is required
       builtInputs = with-dependencies game mods;
-      installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (with-dependencies game mods);
+      installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (
+        with-dependencies game mods
+      );
     };
 
 in

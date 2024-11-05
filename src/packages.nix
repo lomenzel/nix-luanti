@@ -12,7 +12,7 @@ let
   url =
     author: name: release:
     "https://content.minetest.net/packages/${author}/${name}/releases/${builtins.toString release}/download/";
-  mkMinetestGame =
+  mkLuantiGame =
     {
       name,
       release,
@@ -32,10 +32,10 @@ let
       inherit unpackPhase installPhase;
       meta = {
         inherit provides with_same_name author;
-        type = "minetest_game";
+        type = "luanti_game";
       };
     };
-  mkMinetestMod =
+  mkLuantiMod =
     {
       name,
       release,
@@ -61,11 +61,11 @@ let
           with_same_name
           author
           ;
-        type = "minetest_mod";
+        type = "luanti_mod";
       };
 
     };
-  mkMinetestTxp =
+  mkLuantiTxp =
     {
       name,
       release,
@@ -85,7 +85,7 @@ let
       inherit unpackPhase installPhase;
       meta = {
         inherit with_same_name author;
-        type = "minetest_texture_pack";
+        type = "luanti_texture_pack";
       };
 
     };
@@ -141,9 +141,9 @@ let
           ) (builtins.attrNames byId)
         )
     ));
-  gamesById = import ./generated/games.nix { inherit mkMinetestGame; };
-  modsById = import ./generated/mods.nix { inherit mkMinetestMod; };
-  texture_packsById = import ./generated/texturePacks.nix { inherit mkMinetestTxp; };
+  gamesById = import ./generated/games.nix { inherit mkLuantiGame; };
+  modsById = import ./generated/mods.nix { inherit mkLuantiMod; };
+  texture_packsById = import ./generated/texturePacks.nix { inherit mkLuantiTxp; };
 
 in
 {

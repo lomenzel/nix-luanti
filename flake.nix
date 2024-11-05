@@ -1,5 +1,5 @@
 {
-  description = "a flake containing all games and mods for minetest";
+  description = "a flake containing all games and mods for Luanti";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -32,9 +32,11 @@
             '')
           ];
         };
+        nixosModules.default = import ./src/module.nix;
         lib = import ./src/utils/lib.nix {
           byId = self.packages.${system}.byId;
           lists = nixpkgs.lib.lists;
+          mkDerivation = pkgs.stdenv.mkDerivation;
         };
       }
     );
