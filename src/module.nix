@@ -22,7 +22,7 @@ in
     servers = lib.mkOption {
       type =
         with lib.types;
-        lib.attrsOf (submodule {
+        attrsOf (submodule {
           options = {
             port = lib.mkOption {
               type = lib.types.int;
