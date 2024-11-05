@@ -20,8 +20,8 @@
   };
   "mt-mods/i3" = mkLuantiMod {
     name = "i3";
-    release = 24431;
-    hash = "0w533ljd9fhg8mfyn8ack9hfw00vbg0gz42j0hbn37shdvpk6562";
+    release = 28310;
+    hash = "07ls15a2zpsa6nwmf3xmh8s36kzvvij6zy3srnsc61zmpwazx7k4";
     author = "mt-mods";
     provides = [ "i3" ];
     depends = [ ];
@@ -1112,6 +1112,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "TenPlus1/farming" = mkLuantiMod {
+    name = "farming";
+    release = 28284;
+    hash = "1m1xj4m74pkai8hicg14jr9fivlycg620d44mi0p1f35hk56izng";
+    author = "TenPlus1";
+    provides = [ "farming" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "orwell/advtrains" = mkLuantiMod {
     name = "advtrains";
     release = 27048;
@@ -1126,15 +1135,6 @@
       "advtrains_train_track"
       "serialize_lib"
     ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/farming" = mkLuantiMod {
-    name = "farming";
-    release = 28284;
-    hash = "1m1xj4m74pkai8hicg14jr9fivlycg620d44mi0p1f35hk56izng";
-    author = "TenPlus1";
-    provides = [ "farming" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -2244,23 +2244,6 @@
     ];
     with_same_name = [ ];
   };
-  "apercy/supercub" = mkLuantiMod {
-    name = "supercub";
-    release = 23465;
-    hash = "1d9jrl2qjpmvb5qqzviwywb7mvvsrbxzh02rw68348y7yn50dljm";
-    author = "apercy";
-    provides = [ "supercub" ];
-    depends = [
-      ({
-        name = "airutils";
-        packages = [
-          "bell07/whynot_game"
-          "apercy/airutils"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TenPlus1/mobs_npc" = mkLuantiMod {
     name = "mobs_npc";
     release = 28187;
@@ -2298,6 +2281,23 @@
           "PetiAPocok/minetest_extended"
           "hilol/epic_combat"
           "1248/agon"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "apercy/supercub" = mkLuantiMod {
+    name = "supercub";
+    release = 23465;
+    hash = "1d9jrl2qjpmvb5qqzviwywb7mvvsrbxzh02rw68348y7yn50dljm";
+    author = "apercy";
+    provides = [ "supercub" ];
+    depends = [
+      ({
+        name = "airutils";
+        packages = [
+          "bell07/whynot_game"
+          "apercy/airutils"
         ];
       })
     ];
@@ -3088,6 +3088,15 @@
     ];
     with_same_name = [ ];
   };
+  "TenPlus1/stairs" = mkLuantiMod {
+    name = "stairs";
+    release = 26295;
+    hash = "1a0fphq35mg5857hcgrqmahpqnl8r8w3nyhmfglg8l8vzmzx4h9d";
+    author = "TenPlus1";
+    provides = [ "stairs" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Sokomine/cottages" = mkLuantiMod {
     name = "cottages";
     release = 22105;
@@ -3103,15 +3112,6 @@
     hash = "0mfwmysw7im2j883rj2q2f96yjkhz24c6qb4wm9g1s77ncii4mg9";
     author = "Sumianvoice";
     provides = [ "item_physics" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/stairs" = mkLuantiMod {
-    name = "stairs";
-    release = 26295;
-    hash = "1a0fphq35mg5857hcgrqmahpqnl8r8w3nyhmfglg8l8vzmzx4h9d";
-    author = "TenPlus1";
-    provides = [ "stairs" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -3139,6 +3139,15 @@
     hash = "08wnb008wp40gzpazriyjy8w0wfwap6ph6mb360d0hkx1ghhmxsm";
     author = "Gael de Sailly";
     provides = [ "mapgen_rivers" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Coder12/tnt_revamped" = mkLuantiMod {
+    name = "tnt_revamped";
+    release = 9685;
+    hash = "09mk8lpwc4a9ah0601c7am4rp7pqgx53jggijn5mprgfg6crwcn3";
+    author = "Coder12";
+    provides = [ "tnt_revamped" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -3189,15 +3198,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Coder12/tnt_revamped" = mkLuantiMod {
-    name = "tnt_revamped";
-    release = 9685;
-    hash = "09mk8lpwc4a9ah0601c7am4rp7pqgx53jggijn5mprgfg6crwcn3";
-    author = "Coder12";
-    provides = [ "tnt_revamped" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Shara/caverealms" = mkLuantiMod {
@@ -3311,6 +3311,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "theFox/weather" = mkLuantiMod {
+    name = "weather";
+    release = 5343;
+    hash = "1irkgp7fi6lh6dm8h4vmjkx1s642293s5q0glhg98ldiia5zrwhn";
+    author = "theFox";
+    provides = [ "weather" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "entuland/wesh" = mkLuantiMod {
     name = "wesh";
     release = 910;
@@ -3326,15 +3335,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "theFox/weather" = mkLuantiMod {
-    name = "weather";
-    release = 5343;
-    hash = "1irkgp7fi6lh6dm8h4vmjkx1s642293s5q0glhg98ldiia5zrwhn";
-    author = "theFox";
-    provides = [ "weather" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "SURV/placement_preview" = mkLuantiMod {
@@ -3890,15 +3890,6 @@
     ];
     with_same_name = [ ];
   };
-  "Sumianvoice/sum_airship" = mkLuantiMod {
-    name = "sum_airship";
-    release = 19082;
-    hash = "0kz64cls2rl2xvq9pd8gfaslddnnqif231rkvkzvxmgz6p9l4nq8";
-    author = "Sumianvoice";
-    provides = [ "sum_airship" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "apercy/pa28" = mkLuantiMod {
     name = "pa28";
     release = 27848;
@@ -3916,12 +3907,12 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/findbiome" = mkLuantiMod {
-    name = "findbiome";
-    release = 24362;
-    hash = "1vbridg70pxk7illxxiq2r44j6x4vz21pms61vgk6z6w57ian0d7";
-    author = "Wuzzy";
-    provides = [ "findbiome" ];
+  "Sumianvoice/sum_airship" = mkLuantiMod {
+    name = "sum_airship";
+    release = 19082;
+    hash = "0kz64cls2rl2xvq9pd8gfaslddnnqif231rkvkzvxmgz6p9l4nq8";
+    author = "Sumianvoice";
+    provides = [ "sum_airship" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -4017,6 +4008,15 @@
     ];
     with_same_name = [ ];
   };
+  "Wuzzy/findbiome" = mkLuantiMod {
+    name = "findbiome";
+    release = 24362;
+    hash = "1vbridg70pxk7illxxiq2r44j6x4vz21pms61vgk6z6w57ian0d7";
+    author = "Wuzzy";
+    provides = [ "findbiome" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "aSliceOfCake/fumoplushies" = mkLuantiMod {
     name = "fumoplushies";
     release = 27147;
@@ -4064,15 +4064,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "mt-mods/dreambuilder_hotbar" = mkLuantiMod {
-    name = "dreambuilder_hotbar";
-    release = 19956;
-    hash = "0w606yw6s80ifapwq92yrh0sy1dp81bs8xr74iaqm3rn64ngb5qa";
-    author = "mt-mods";
-    provides = [ "dreambuilder_hotbar" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "ElCeejo/paleotest" = mkLuantiMod {
@@ -4203,6 +4194,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "mt-mods/dreambuilder_hotbar" = mkLuantiMod {
+    name = "dreambuilder_hotbar";
+    release = 19956;
+    hash = "0w606yw6s80ifapwq92yrh0sy1dp81bs8xr74iaqm3rn64ngb5qa";
+    author = "mt-mods";
+    provides = [ "dreambuilder_hotbar" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "TenPlus1/dmobs" = mkLuantiMod {
@@ -4417,6 +4417,48 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "TenPlus1/mob_horse" = mkLuantiMod {
+    name = "mob_horse";
+    release = 27746;
+    hash = "0n1n9sj22gx4ypx8k1v8akj0j0lvx6sqb6w65jy0h6p28imq3rfs";
+    author = "TenPlus1";
+    provides = [ "mob_horse" ];
+    depends = [
+      ({
+        name = "mobs";
+        packages = [
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "PyuDev/pyutest"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "crabycowman123/spmeter"
+          "mt-mods/blockcolor"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "miroptics/qiskitblocks_miro"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "TenPlus1/mobs"
+          "Casimir/voxelgarden"
+          "PetiAPocok/minetest_extended"
+          "hilol/epic_combat"
+          "1248/agon"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "mineclone2-mods/void_totem" = mkLuantiMod {
     name = "void_totem";
     release = 21090;
@@ -4468,48 +4510,6 @@
         packages = [
           "Wuzzy/mineclone2"
           "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/mob_horse" = mkLuantiMod {
-    name = "mob_horse";
-    release = 27746;
-    hash = "0n1n9sj22gx4ypx8k1v8akj0j0lvx6sqb6w65jy0h6p28imq3rfs";
-    author = "TenPlus1";
-    provides = [ "mob_horse" ];
-    depends = [
-      ({
-        name = "mobs";
-        packages = [
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "PyuDev/pyutest"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "crabycowman123/spmeter"
-          "mt-mods/blockcolor"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "miroptics/qiskitblocks_miro"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "TenPlus1/mobs"
-          "Casimir/voxelgarden"
-          "PetiAPocok/minetest_extended"
-          "hilol/epic_combat"
-          "1248/agon"
         ];
       })
     ];
@@ -4698,6 +4698,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "mt-mods/xcompat" = mkLuantiMod {
+    name = "xcompat";
+    release = 27623;
+    hash = "129yi7jrm5a8c8qcdmaslx6y0n9hydrrbh1y0q11qysdkkgynxbz";
+    author = "mt-mods";
+    provides = [ "xcompat" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "SaKeL/x_farming" = mkLuantiMod {
     name = "x_farming";
     release = 24194;
@@ -4713,15 +4722,6 @@
     hash = "1g0psff7861gq8gv26wikfn64mhkf5wdh452ay3csn1pm0bc324p";
     author = "ROllerozxa";
     provides = [ "owospeak" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "mt-mods/xcompat" = mkLuantiMod {
-    name = "xcompat";
-    release = 27623;
-    hash = "129yi7jrm5a8c8qcdmaslx6y0n9hydrrbh1y0q11qysdkkgynxbz";
-    author = "mt-mods";
-    provides = [ "xcompat" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -4783,6 +4783,15 @@
     ];
     with_same_name = [ ];
   };
+  "TenPlus1/lucky_block" = mkLuantiMod {
+    name = "lucky_block";
+    release = 28306;
+    hash = "1hmpywpk1yzqbz8k5qdy114ihsw2cch45rscds7f4i2picis32qh";
+    author = "TenPlus1";
+    provides = [ "lucky_block" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Marnack/dlxtrains" = mkLuantiMod {
     name = "dlxtrains";
     release = 25253;
@@ -4805,15 +4814,6 @@
         packages = [ "orwell/advtrains" ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/lucky_block" = mkLuantiMod {
-    name = "lucky_block";
-    release = 28306;
-    hash = "1hmpywpk1yzqbz8k5qdy114ihsw2cch45rscds7f4i2picis32qh";
-    author = "TenPlus1";
-    provides = [ "lucky_block" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "apercy/kartcar" = mkLuantiMod {
@@ -5465,6 +5465,54 @@
     depends = [ ];
     with_same_name = [ "kebabmaneater/what_is_this_uwu" ];
   };
+  "TenPlus1/mobs_water" = mkLuantiMod {
+    name = "mobs_water";
+    release = 26826;
+    hash = "0pa7x7nak3c0sjj0qi4dc0sad3xn085sa8d17v4h4v53qjyzmfzm";
+    author = "TenPlus1";
+    provides = [
+      "mobs_crocs"
+      "mobs_fish"
+      "mobs_jellyfish"
+      "mobs_sharks"
+      "mobs_turtles"
+    ];
+    depends = [
+      ({
+        name = "mobs";
+        packages = [
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "crabycowman123/spmeter"
+          "PyuDev/pyutest"
+          "mt-mods/blockcolor"
+          "TenPlus1/mobs"
+          "debiankaios/proxima_survival"
+          "miroptics/qiskitblocks_miro"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "TenPlus1/builtin_item" = mkLuantiMod {
     name = "builtin_item";
     release = 20194;
@@ -5509,63 +5557,6 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/wine" = mkLuantiMod {
-    name = "wine";
-    release = 27528;
-    hash = "1shdlz95926s6md84sk1wd7yvjhdhbm8a611sxwds3j90l46r1lp";
-    author = "TenPlus1";
-    provides = [ "wine" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/mobs_water" = mkLuantiMod {
-    name = "mobs_water";
-    release = 26826;
-    hash = "0pa7x7nak3c0sjj0qi4dc0sad3xn085sa8d17v4h4v53qjyzmfzm";
-    author = "TenPlus1";
-    provides = [
-      "mobs_crocs"
-      "mobs_fish"
-      "mobs_jellyfish"
-      "mobs_sharks"
-      "mobs_turtles"
-    ];
-    depends = [
-      ({
-        name = "mobs";
-        packages = [
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "crabycowman123/spmeter"
-          "PyuDev/pyutest"
-          "mt-mods/blockcolor"
-          "TenPlus1/mobs"
-          "debiankaios/proxima_survival"
-          "miroptics/qiskitblocks_miro"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
         ];
       })
     ];
@@ -5695,6 +5686,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "TenPlus1/wine" = mkLuantiMod {
+    name = "wine";
+    release = 27528;
+    hash = "1shdlz95926s6md84sk1wd7yvjhdhbm8a611sxwds3j90l46r1lp";
+    author = "TenPlus1";
+    provides = [ "wine" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Tarruvi/dynamic_trees" = mkLuantiMod {
@@ -6302,21 +6302,13 @@
     ];
     with_same_name = [ ];
   };
-  "karamel/naturalslopes_minetest_game" = mkLuantiMod {
-    name = "naturalslopes_minetest_game";
-    release = 11372;
-    hash = "0kakzdlcmhjb0n487y8z6rn1js513m3pn3qy0q9fiagnpk1hh1l3";
-    author = "karamel";
-    provides = [ "naturalslopes_minetest_game" ];
+  "FaceDeer/torch_bomb" = mkLuantiMod {
+    name = "torch_bomb";
+    release = 5968;
+    hash = "0lmj9c1giy3vxjkrsgy4alxkh7fax7p35bpjqwa8ns0x3fklzaw4";
+    author = "FaceDeer";
+    provides = [ "torch_bomb" ];
     depends = [
-      ({
-        name = "naturalslopeslib";
-        packages = [
-          "JALdMIC/survivethedays"
-          "karamel/naturalslopeslib"
-          "Mantar/exile"
-        ];
-      })
       ({
         name = "default";
         packages = [
@@ -6359,13 +6351,21 @@
     ];
     with_same_name = [ ];
   };
-  "FaceDeer/torch_bomb" = mkLuantiMod {
-    name = "torch_bomb";
-    release = 5968;
-    hash = "0lmj9c1giy3vxjkrsgy4alxkh7fax7p35bpjqwa8ns0x3fklzaw4";
-    author = "FaceDeer";
-    provides = [ "torch_bomb" ];
+  "karamel/naturalslopes_minetest_game" = mkLuantiMod {
+    name = "naturalslopes_minetest_game";
+    release = 11372;
+    hash = "0kakzdlcmhjb0n487y8z6rn1js513m3pn3qy0q9fiagnpk1hh1l3";
+    author = "karamel";
+    provides = [ "naturalslopes_minetest_game" ];
     depends = [
+      ({
+        name = "naturalslopeslib";
+        packages = [
+          "JALdMIC/survivethedays"
+          "karamel/naturalslopeslib"
+          "Mantar/exile"
+        ];
+      })
       ({
         name = "default";
         packages = [
@@ -6432,21 +6432,21 @@
     ];
     with_same_name = [ ];
   };
-  "Soundwavez/dees_balls" = mkLuantiMod {
-    name = "dees_balls";
-    release = 24781;
-    hash = "1mphrfkcr826w5ybscmrh9hrq1l648vsqjp599zmixl8sys5h2is";
-    author = "Soundwavez";
-    provides = [ "dees_balls" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ElCeejo/wisp" = mkLuantiMod {
     name = "wisp";
     release = 8770;
     hash = "0z3jwq4541z9658wvzrr1mmhjgkb4rkv4pzwldihbkgi02ry8jc5";
     author = "ElCeejo";
     provides = [ "wisp" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Soundwavez/dees_balls" = mkLuantiMod {
+    name = "dees_balls";
+    release = 24781;
+    hash = "1mphrfkcr826w5ybscmrh9hrq1l648vsqjp599zmixl8sys5h2is";
+    author = "Soundwavez";
+    provides = [ "dees_balls" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -6660,6 +6660,29 @@
     depends = [ ];
     with_same_name = [ "TenPlus1/hopper" ];
   };
+  "LMD/modlib" = mkLuantiMod {
+    name = "modlib";
+    release = 17903;
+    hash = "1adzjlhhgbrihgi5ws5lpma8cz5s9wij64yiyfp5c2h0ypfzsg6i";
+    author = "LMD";
+    provides = [ "modlib" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "fatalerror420/guns4d_pack_1" = mkLuantiMod {
+    name = "guns4d_pack_1";
+    release = 27585;
+    hash = "1jma69kk6l8h8nmm7nvf8n2n52g7jli4xcj6fhvygz7n53abwss3";
+    author = "fatalerror420";
+    provides = [ "guns4d_pack_1" ];
+    depends = [
+      ({
+        name = "guns4d";
+        packages = [ "fatalerror420/guns4d" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "CalebJ/3dforniture" = mkLuantiMod {
     name = "3dforniture";
     release = 15691;
@@ -6709,20 +6732,6 @@
     ];
     with_same_name = [ ];
   };
-  "fatalerror420/guns4d_pack_1" = mkLuantiMod {
-    name = "guns4d_pack_1";
-    release = 27585;
-    hash = "1jma69kk6l8h8nmm7nvf8n2n52g7jli4xcj6fhvygz7n53abwss3";
-    author = "fatalerror420";
-    provides = [ "guns4d_pack_1" ];
-    depends = [
-      ({
-        name = "guns4d";
-        packages = [ "fatalerror420/guns4d" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "GamingAssociation39/ma_pops_furniture" = mkLuantiMod {
     name = "ma_pops_furniture";
     release = 27688;
@@ -6743,24 +6752,6 @@
       "morelights_modern"
       "morelights_vintage"
     ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "LMD/modlib" = mkLuantiMod {
-    name = "modlib";
-    release = 17903;
-    hash = "1adzjlhhgbrihgi5ws5lpma8cz5s9wij64yiyfp5c2h0ypfzsg6i";
-    author = "LMD";
-    provides = [ "modlib" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "bell07/carpets" = mkLuantiMod {
-    name = "carpets";
-    release = 26243;
-    hash = "1w81bw50allcmq7xj279vcpj4syiynq20fb0jgyg1viz8lvw4idh";
-    author = "bell07";
-    provides = [ "carpets" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -6813,12 +6804,12 @@
     ];
     with_same_name = [ "sofar/stamina" ];
   };
-  "shaft/tables_chairs" = mkLuantiMod {
-    name = "tables_chairs";
-    release = 25384;
-    hash = "1k5z0qqxwf1xgd2wpy1mxir85jj653jpxlzr1jxrggpc1qvv1qvh";
-    author = "shaft";
-    provides = [ "tables_chairs" ];
+  "bell07/carpets" = mkLuantiMod {
+    name = "carpets";
+    release = 26243;
+    hash = "1w81bw50allcmq7xj279vcpj4syiynq20fb0jgyg1viz8lvw4idh";
+    author = "bell07";
+    provides = [ "carpets" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -6844,6 +6835,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "shaft/tables_chairs" = mkLuantiMod {
+    name = "tables_chairs";
+    release = 25384;
+    hash = "1k5z0qqxwf1xgd2wpy1mxir85jj653jpxlzr1jxrggpc1qvv1qvh";
+    author = "shaft";
+    provides = [ "tables_chairs" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Tarruvi/colorful_beds" = mkLuantiMod {
@@ -7148,6 +7148,15 @@
     ];
     with_same_name = [ ];
   };
+  "stu/wield3d" = mkLuantiMod {
+    name = "wield3d";
+    release = 13635;
+    hash = "1n4bjma6ws4fvbihqbn8aylcsg7vwlb8a1493bmv8g93cdmqq66m";
+    author = "stu";
+    provides = [ "wield3d" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Nore/mg" = mkLuantiMod {
     name = "mg";
     release = 13143;
@@ -7289,15 +7298,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "stu/wield3d" = mkLuantiMod {
-    name = "wield3d";
-    release = 13635;
-    hash = "1n4bjma6ws4fvbihqbn8aylcsg7vwlb8a1493bmv8g93cdmqq66m";
-    author = "stu";
-    provides = [ "wield3d" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "random_geek/auroras" = mkLuantiMod {
@@ -7563,55 +7563,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "TenPlus1/other_worlds" = mkLuantiMod {
-    name = "other_worlds";
-    release = 27396;
-    hash = "1zbxbx9k125s489sgx09kv7c9mw3hyzv95zaxf0lmc9d0yyjbjch";
-    author = "TenPlus1";
-    provides = [ "other_worlds" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "apercy/nautilus" = mkLuantiMod {
     name = "nautilus";
     release = 25344;
@@ -7735,6 +7686,55 @@
     ];
     with_same_name = [ ];
   };
+  "TenPlus1/other_worlds" = mkLuantiMod {
+    name = "other_worlds";
+    release = 27396;
+    hash = "1zbxbx9k125s489sgx09kv7c9mw3hyzv95zaxf0lmc9d0yyjbjch";
+    author = "TenPlus1";
+    provides = [ "other_worlds" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "StarNinjas/sounds_redone" = mkLuantiMod {
     name = "sounds_redone";
     release = 19113;
@@ -7842,60 +7842,6 @@
     ];
     with_same_name = [ ];
   };
-  "random_geek/cg_plus" = mkLuantiMod {
-    name = "cg_plus";
-    release = 24932;
-    hash = "01rlhb47s8x4pgjc1kfgnlrfxsz3xwmpr7ydq84sbcy1gxghdpbb";
-    author = "random_geek";
-    provides = [ "cg_plus" ];
-    depends = [
-      ({
-        name = "sfinv";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sfan5/minetest_classic"
-          "JALdMIC/survivethedays"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "Nathan.S/sss"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "Hume2/boxworld3d"
-          "zanderdev/skyblock_zero"
-          "rubenwardy/sfinv"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "Lone_Wolf/voxel_knights"
-          "dibesfer/colorlandia"
-          "Emojiminetest/parkour"
-          "hilol/epic_combat"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "QuoteNat/vein_miner" = mkLuantiMod {
     name = "vein_miner";
     release = 22305;
@@ -7905,12 +7851,21 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "TenPlus1/sfinv_bags" = mkLuantiMod {
-    name = "sfinv_bags";
-    release = 26710;
-    hash = "1727gvf76596jv0vd4qlz8hqxpykccwazpdrjfafq0n17rq6dv79";
-    author = "TenPlus1";
-    provides = [ "sfinv_bags" ];
+  "apercy/airutils" = mkLuantiMod {
+    name = "airutils";
+    release = 28176;
+    hash = "14prksvkkdvqybg3iq081jkks9fnpy1cmi3883572vmkx7rgr2ka";
+    author = "apercy";
+    provides = [ "airutils" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "random_geek/cg_plus" = mkLuantiMod {
+    name = "cg_plus";
+    release = 24932;
+    hash = "01rlhb47s8x4pgjc1kfgnlrfxsz3xwmpr7ydq84sbcy1gxghdpbb";
+    author = "random_geek";
+    provides = [ "cg_plus" ];
     depends = [
       ({
         name = "sfinv";
@@ -7968,6 +7923,60 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "TenPlus1/sfinv_bags" = mkLuantiMod {
+    name = "sfinv_bags";
+    release = 26710;
+    hash = "1727gvf76596jv0vd4qlz8hqxpykccwazpdrjfafq0n17rq6dv79";
+    author = "TenPlus1";
+    provides = [ "sfinv_bags" ];
+    depends = [
+      ({
+        name = "sfinv";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sfan5/minetest_classic"
+          "JALdMIC/survivethedays"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "Nathan.S/sss"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "Hume2/boxworld3d"
+          "zanderdev/skyblock_zero"
+          "rubenwardy/sfinv"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "Lone_Wolf/voxel_knights"
+          "dibesfer/colorlandia"
+          "Emojiminetest/parkour"
+          "hilol/epic_combat"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "TestificateMods/offhand" = mkLuantiMod {
     name = "offhand";
     release = 17752;
@@ -8003,13 +8012,74 @@
     ];
     with_same_name = [ ];
   };
-  "apercy/airutils" = mkLuantiMod {
-    name = "airutils";
-    release = 28176;
-    hash = "14prksvkkdvqybg3iq081jkks9fnpy1cmi3883572vmkx7rgr2ka";
-    author = "apercy";
-    provides = [ "airutils" ];
-    depends = [ ];
+  "mt-mods/basic_materials" = mkLuantiMod {
+    name = "basic_materials";
+    release = 23751;
+    hash = "1wqc0byhdnla8lfw8v3ff3ysyadccr7h4z0saj9kwym3had3n84j";
+    author = "mt-mods";
+    provides = [ "basic_materials" ];
+    depends = [
+      ({
+        name = "xcompat";
+        packages = [
+          "mt-mods/xcompat"
+          "BuckarooBanzay/super_sam"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AwesomeDragon97/stair_carpets" = mkLuantiMod {
+    name = "stair_carpets";
+    release = 15670;
+    hash = "1whb09zxm3apkq00czvrdhg79ns6c0hjy6c526zg2ad39x5ndar4";
+    author = "AwesomeDragon97";
+    provides = [ "stair_carpets" ];
+    depends = [
+      ({
+        name = "wool";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "miroptics/qiskitblocks_miro"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "carpets";
+        packages = [
+          "MeseCraft/mesecraft"
+          "PetiAPocok/minetest_extended"
+          "bell07/carpets"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "apercy/savoia_s21" = mkLuantiMod {
@@ -8168,55 +8238,6 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AwesomeDragon97/stair_carpets" = mkLuantiMod {
-    name = "stair_carpets";
-    release = 15670;
-    hash = "1whb09zxm3apkq00czvrdhg79ns6c0hjy6c526zg2ad39x5ndar4";
-    author = "AwesomeDragon97";
-    provides = [ "stair_carpets" ];
-    depends = [
-      ({
-        name = "wool";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "miroptics/qiskitblocks_miro"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "carpets";
-        packages = [
-          "MeseCraft/mesecraft"
-          "PetiAPocok/minetest_extended"
-          "bell07/carpets"
         ];
       })
     ];
@@ -8408,25 +8429,13 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "mt-mods/basic_materials" = mkLuantiMod {
-    name = "basic_materials";
-    release = 23751;
-    hash = "1wqc0byhdnla8lfw8v3ff3ysyadccr7h4z0saj9kwym3had3n84j";
-    author = "mt-mods";
-    provides = [ "basic_materials" ];
-    depends = [
-      ({
-        name = "xcompat";
-        packages = [
-          "mt-mods/xcompat"
-          "BuckarooBanzay/super_sam"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
+  "TenPlus1/teleport_potion" = mkLuantiMod {
+    name = "teleport_potion";
+    release = 20923;
+    hash = "0ch7v32x7ccmhckjgbxkgd7vhkdvy1rjvmz9j6aa141v83b45xl9";
+    author = "TenPlus1";
+    provides = [ "teleport_potion" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Phii/randungeon" = mkLuantiMod {
@@ -8601,15 +8610,6 @@
     ];
     with_same_name = [ ];
   };
-  "TenPlus1/teleport_potion" = mkLuantiMod {
-    name = "teleport_potion";
-    release = 20923;
-    hash = "0ch7v32x7ccmhckjgbxkgd7vhkdvy1rjvmz9j6aa141v83b45xl9";
-    author = "TenPlus1";
-    provides = [ "teleport_potion" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "TenPlus1/mob_mese_monster_classic" = mkLuantiMod {
     name = "mob_mese_monster_classic";
     release = 26666;
@@ -8742,6 +8742,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Impulse/inventory_pouches" = mkLuantiMod {
+    name = "inventory_pouches";
+    release = 22993;
+    hash = "1cyz1l0iz3a0xb5pnscwbpbm3pnj7xkdm3cwfiw2dj0fqwj8jbvw";
+    author = "Impulse";
+    provides = [ "inventory_pouches" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "TwigGlenn4/resource_crops" = mkLuantiMod {
     name = "resource_crops";
     release = 26500;
@@ -8805,15 +8814,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Impulse/inventory_pouches" = mkLuantiMod {
-    name = "inventory_pouches";
-    release = 22993;
-    hash = "1cyz1l0iz3a0xb5pnscwbpbm3pnj7xkdm3cwfiw2dj0fqwj8jbvw";
-    author = "Impulse";
-    provides = [ "inventory_pouches" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "mt-mods/jumpdrive" = mkLuantiMod {
@@ -9005,55 +9005,6 @@
           "TheFanne/raining_nodes"
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "zaners123/computertest" = mkLuantiMod {
-    name = "computertest";
-    release = 10465;
-    hash = "1zhgfh4c1frbmanbw41c5ywsp8fmippgar45kkdb2jsspwvw35jy";
-    author = "zaners123";
-    provides = [ "computertest" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
       })
@@ -9280,6 +9231,55 @@
     ];
     with_same_name = [ ];
   };
+  "zaners123/computertest" = mkLuantiMod {
+    name = "computertest";
+    release = 10465;
+    hash = "1zhgfh4c1frbmanbw41c5ywsp8fmippgar45kkdb2jsspwvw35jy";
+    author = "zaners123";
+    provides = [ "computertest" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "LMD/visible_wielditem" = mkLuantiMod {
     name = "visible_wielditem";
     release = 15335;
@@ -9377,6 +9377,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "orwell/mpd" = mkLuantiMod {
+    name = "mpd";
+    release = 20652;
+    hash = "079gfcxv24r6gh0mxpbacdvj23pm5jbc823chv9jw1bvfa4q6ixj";
+    author = "orwell";
+    provides = [ "mpd" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "rheo/mobs_mime" = mkLuantiMod {
@@ -9578,15 +9587,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "orwell/mpd" = mkLuantiMod {
-    name = "mpd";
-    release = 20652;
-    hash = "079gfcxv24r6gh0mxpbacdvj23pm5jbc823chv9jw1bvfa4q6ixj";
-    author = "orwell";
-    provides = [ "mpd" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "sofar/yolo" = mkLuantiMod {
@@ -9804,15 +9804,6 @@
     ];
     with_same_name = [ ];
   };
-  "Warr1024/doomsday" = mkLuantiMod {
-    name = "doomsday";
-    release = 26203;
-    hash = "0qc9i81hf06kf2s8h3rsfll92qsm4kvzjbcxgv671rjy15m1hyqy";
-    author = "Warr1024";
-    provides = [ "doomsday" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Linuxdirk/redef" = mkLuantiMod {
     name = "redef";
     release = 19771;
@@ -9862,30 +9853,13 @@
     ];
     with_same_name = [ ];
   };
-  "cora/ucsigns" = mkLuantiMod {
-    name = "ucsigns";
-    release = 24922;
-    hash = "12kf367ihk3q2qcff02j56da68h76q88lrz2c80x00wwd59da6rc";
-    author = "cora";
-    provides = [ "ucsigns" ];
-    depends = [
-      ({
-        name = "tga_encoder";
-        packages = [
-          "VoxelForge/voxelforge"
-          "Wuzzy/mineclone2"
-          "erlehmann/tga_encoder"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "unicode_text";
-        packages = [
-          "erlehmann/unicode_text"
-          "Wuzzy/repixture"
-        ];
-      })
-    ];
+  "Warr1024/doomsday" = mkLuantiMod {
+    name = "doomsday";
+    release = 26203;
+    hash = "0qc9i81hf06kf2s8h3rsfll92qsm4kvzjbcxgv671rjy15m1hyqy";
+    author = "Warr1024";
+    provides = [ "doomsday" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "BLOCKYBearclaw/corroded_metal" = mkLuantiMod {
@@ -9959,6 +9933,32 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "cora/ucsigns" = mkLuantiMod {
+    name = "ucsigns";
+    release = 24922;
+    hash = "12kf367ihk3q2qcff02j56da68h76q88lrz2c80x00wwd59da6rc";
+    author = "cora";
+    provides = [ "ucsigns" ];
+    depends = [
+      ({
+        name = "tga_encoder";
+        packages = [
+          "VoxelForge/voxelforge"
+          "Wuzzy/mineclone2"
+          "erlehmann/tga_encoder"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "unicode_text";
+        packages = [
+          "erlehmann/unicode_text"
+          "Wuzzy/repixture"
         ];
       })
     ];
@@ -11091,69 +11091,6 @@
     ];
     with_same_name = [ ];
   };
-  "D00Med/vehicles" = mkLuantiMod {
-    name = "vehicles";
-    release = 19966;
-    hash = "1nax2fvclcrix7pm2z381idvm6dh3pnqk1y3n90sz22xsyja7hij";
-    author = "D00Med";
-    provides = [ "vehicles" ];
-    depends = [
-      ({
-        name = "player_api";
-        packages = [
-          "aerkiaga/nodeverse"
-          "Hume2/minesweeper_3d"
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "BuckarooBanzay/super_sam"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "xenonca/luckysweeper"
-          "1248/regnum2"
-          "mt-mods/driftgame"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "MeseCraft/mesecraft"
-          "Hume2/boxworld3d"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "dibesfer/colorlandia"
-          "xenonca/luckydude"
-          "Emojiminetest/parkour"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "jamiebearcub/grand_theft_box"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Liil/nativevillages" = mkLuantiMod {
     name = "nativevillages";
     release = 17292;
@@ -11359,21 +11296,65 @@
     ];
     with_same_name = [ ];
   };
-  "TestificateMods/climate" = mkLuantiMod {
-    name = "climate";
-    release = 27648;
-    hash = "19m2zfcb19s1n0ml9yikiffj1x8pqhi3lbgi8f0q1zi1sff3ajh0";
-    author = "TestificateMods";
-    provides = [
-      "climate_api"
-      "lightning"
-      "moon_phases"
-      "regional_weather"
-    ];
+  "D00Med/vehicles" = mkLuantiMod {
+    name = "vehicles";
+    release = 19966;
+    hash = "1nax2fvclcrix7pm2z381idvm6dh3pnqk1y3n90sz22xsyja7hij";
+    author = "D00Med";
+    provides = [ "vehicles" ];
     depends = [
       ({
-        name = "lighting_monoid";
-        packages = [ "TestificateMods/lighting_monoid" ];
+        name = "player_api";
+        packages = [
+          "aerkiaga/nodeverse"
+          "Hume2/minesweeper_3d"
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "BuckarooBanzay/super_sam"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "xenonca/luckysweeper"
+          "1248/regnum2"
+          "mt-mods/driftgame"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "MeseCraft/mesecraft"
+          "Hume2/boxworld3d"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "dibesfer/colorlandia"
+          "xenonca/luckydude"
+          "Emojiminetest/parkour"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "jamiebearcub/grand_theft_box"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
       })
     ];
     with_same_name = [ ];
@@ -11448,6 +11429,25 @@
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "TestificateMods/climate" = mkLuantiMod {
+    name = "climate";
+    release = 27648;
+    hash = "19m2zfcb19s1n0ml9yikiffj1x8pqhi3lbgi8f0q1zi1sff3ajh0";
+    author = "TestificateMods";
+    provides = [
+      "climate_api"
+      "lightning"
+      "moon_phases"
+      "regional_weather"
+    ];
+    depends = [
+      ({
+        name = "lighting_monoid";
+        packages = [ "TestificateMods/lighting_monoid" ];
       })
     ];
     with_same_name = [ ];
@@ -11615,23 +11615,6 @@
     ];
     with_same_name = [ ];
   };
-  "Zughy/audio_lib" = mkLuantiMod {
-    name = "audio_lib";
-    release = 26876;
-    hash = "022xxq3aaf2sgkidqdg3wwb2mphh4cns3k02y540816mnrsy2lr9";
-    author = "Zughy";
-    provides = [ "audio_lib" ];
-    depends = [
-      ({
-        name = "panel_lib";
-        packages = [
-          "KareaGhandTrail/block_assault"
-          "Zughy/panel_lib"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Just_Visiting/algae" = mkLuantiMod {
     name = "algae";
     release = 5868;
@@ -11676,6 +11659,23 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Zughy/audio_lib" = mkLuantiMod {
+    name = "audio_lib";
+    release = 26876;
+    hash = "022xxq3aaf2sgkidqdg3wwb2mphh4cns3k02y540816mnrsy2lr9";
+    author = "Zughy";
+    provides = [ "audio_lib" ];
+    depends = [
+      ({
+        name = "panel_lib";
+        packages = [
+          "KareaGhandTrail/block_assault"
+          "Zughy/panel_lib"
         ];
       })
     ];
@@ -11734,39 +11734,6 @@
     ];
     with_same_name = [ ];
   };
-  "mt-mods/unified_inventory_plus" = mkLuantiMod {
-    name = "unified_inventory_plus";
-    release = 25477;
-    hash = "0qqdcljc4g130v865pj6wfibdg0hqwpk1indjwj90vz4ipxmbpbp";
-    author = "mt-mods";
-    provides = [ "unified_inventory_plus" ];
-    depends = [
-      ({
-        name = "fakelib";
-        packages = [
-          "zanderdev/skyblock_zero"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "OgelGames/fakelib"
-        ];
-      })
-      ({
-        name = "unified_inventory";
-        packages = [
-          "Hi_World/newplanet"
-          "joe7575/techage_modpack"
-          "BRNSystems/blocky_portaling"
-          "PyuDev/pyutest"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "RealBadAngel/unified_inventory"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "OgelGames/obsidianstuff" = mkLuantiMod {
     name = "obsidianstuff";
     release = 9977;
@@ -11815,6 +11782,39 @@
       })
     ];
     with_same_name = [ "SoloSniper/obsidianstuff" ];
+  };
+  "mt-mods/unified_inventory_plus" = mkLuantiMod {
+    name = "unified_inventory_plus";
+    release = 25477;
+    hash = "0qqdcljc4g130v865pj6wfibdg0hqwpk1indjwj90vz4ipxmbpbp";
+    author = "mt-mods";
+    provides = [ "unified_inventory_plus" ];
+    depends = [
+      ({
+        name = "fakelib";
+        packages = [
+          "zanderdev/skyblock_zero"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "OgelGames/fakelib"
+        ];
+      })
+      ({
+        name = "unified_inventory";
+        packages = [
+          "Hi_World/newplanet"
+          "joe7575/techage_modpack"
+          "BRNSystems/blocky_portaling"
+          "PyuDev/pyutest"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "RealBadAngel/unified_inventory"
+        ];
+      })
+    ];
+    with_same_name = [ ];
   };
   "cora/mcl_oneblock" = mkLuantiMod {
     name = "mcl_oneblock";
@@ -12349,6 +12349,24 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "orwell/advtrains_techage" = mkLuantiMod {
+    name = "advtrains_techage";
+    release = 20650;
+    hash = "031p5rpgi3kdqk9d6vj37y624msksc0c4p8ji1v8c2i6xiqylk8j";
+    author = "orwell";
+    provides = [ "advtrains_techage" ];
+    depends = [
+      ({
+        name = "techage";
+        packages = [ "joe7575/techage_modpack" ];
+      })
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "xenonca/mese_trains" = mkLuantiMod {
     name = "mese_trains";
     release = 15767;
@@ -12401,24 +12419,6 @@
       })
       ({
         name = "advtrains_train_track";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "orwell/advtrains_techage" = mkLuantiMod {
-    name = "advtrains_techage";
-    release = 20650;
-    hash = "031p5rpgi3kdqk9d6vj37y624msksc0c4p8ji1v8c2i6xiqylk8j";
-    author = "orwell";
-    provides = [ "advtrains_techage" ];
-    depends = [
-      ({
-        name = "techage";
-        packages = [ "joe7575/techage_modpack" ];
-      })
-      ({
-        name = "advtrains";
         packages = [ "orwell/advtrains" ];
       })
     ];
@@ -12537,348 +12537,6 @@
           "miroptics/qiskitblocks_miro"
           "JavaFXpert/qiskitblocks"
           "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "mt-mods/mcl_extra_structures" = mkLuantiMod {
-    name = "mcl_extra_structures";
-    release = 18551;
-    hash = "12d0qbh975cv8hbclbzd3licphikbha7d5dadjpkjy828s1wq7m1";
-    author = "mt-mods";
-    provides = [ "mcl_extra_structures" ];
-    depends = [
-      ({
-        name = "mcl_structures";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_enchanting";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_loot";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_init";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Liil/livingcavesmobs" = mkLuantiMod {
-    name = "livingcavesmobs";
-    release = 26889;
-    hash = "1fcix43mpqbv55h03brv9lr6y84xqa10pjp5ga2y413zlak4g7z1";
-    author = "Liil";
-    provides = [ "livingcavesmobs" ];
-    depends = [
-      ({
-        name = "mobs";
-        packages = [
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "crabycowman123/spmeter"
-          "PyuDev/pyutest"
-          "mt-mods/blockcolor"
-          "TenPlus1/mobs"
-          "debiankaios/proxima_survival"
-          "miroptics/qiskitblocks_miro"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
-        ];
-      })
-      ({
-        name = "livingcaves";
-        packages = [ "Liil/livingcaves" ];
-      })
-      ({
-        name = "tnt";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "AwesomeDragon97/tnt"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SaKeL/x_obsidianmese" = mkLuantiMod {
-    name = "x_obsidianmese";
-    release = 23146;
-    hash = "0vprzx4cqxxnwmfxr1nsxh6q5wmvhyjka0irlihsznk6aj2p8avl";
-    author = "SaKeL";
-    provides = [ "x_obsidianmese" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Liil/naturalbiomes" = mkLuantiMod {
-    name = "naturalbiomes";
-    release = 17269;
-    hash = "0i7jwg952qlppckwagd10l93ml5pn3jrjcz860wzbq8nbnyq8vq1";
-    author = "Liil";
-    provides = [ "naturalbiomes" ];
-    depends = [
-      ({
-        name = "stairs";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "rheo/moreblocks"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/stairs"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "doors";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/doors"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "xpanes";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "_Irevol_/citadel"
           "hilol/epic_combat"
           "Big_Caballito/no_mans_land"
           "TheFanne/raining_nodes"
@@ -13080,6 +12738,372 @@
     ];
     with_same_name = [ ];
   };
+  "mt-mods/mcl_extra_structures" = mkLuantiMod {
+    name = "mcl_extra_structures";
+    release = 18551;
+    hash = "12d0qbh975cv8hbclbzd3licphikbha7d5dadjpkjy828s1wq7m1";
+    author = "mt-mods";
+    provides = [ "mcl_extra_structures" ];
+    depends = [
+      ({
+        name = "mcl_structures";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_enchanting";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_loot";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_init";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "SaKeL/x_obsidianmese" = mkLuantiMod {
+    name = "x_obsidianmese";
+    release = 23146;
+    hash = "0vprzx4cqxxnwmfxr1nsxh6q5wmvhyjka0irlihsznk6aj2p8avl";
+    author = "SaKeL";
+    provides = [ "x_obsidianmese" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Liil/naturalbiomes" = mkLuantiMod {
+    name = "naturalbiomes";
+    release = 17269;
+    hash = "0i7jwg952qlppckwagd10l93ml5pn3jrjcz860wzbq8nbnyq8vq1";
+    author = "Liil";
+    provides = [ "naturalbiomes" ];
+    depends = [
+      ({
+        name = "stairs";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "rheo/moreblocks"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/stairs"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "doors";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/doors"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "xpanes";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "_Irevol_/citadel"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Liil/livingcavesmobs" = mkLuantiMod {
+    name = "livingcavesmobs";
+    release = 26889;
+    hash = "1fcix43mpqbv55h03brv9lr6y84xqa10pjp5ga2y413zlak4g7z1";
+    author = "Liil";
+    provides = [ "livingcavesmobs" ];
+    depends = [
+      ({
+        name = "mobs";
+        packages = [
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "crabycowman123/spmeter"
+          "PyuDev/pyutest"
+          "mt-mods/blockcolor"
+          "TenPlus1/mobs"
+          "debiankaios/proxima_survival"
+          "miroptics/qiskitblocks_miro"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+      ({
+        name = "livingcaves";
+        packages = [ "Liil/livingcaves" ];
+      })
+      ({
+        name = "tnt";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "AwesomeDragon97/tnt"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "mt-mods/mob_core" = mkLuantiMod {
+    name = "mob_core";
+    release = 16810;
+    hash = "1sfp1hvzmdpibm90z99i45rf1hjs4ny6895crgcdw0l8rldh2sz7";
+    author = "mt-mods";
+    provides = [ "mob_core" ];
+    depends = [
+      ({
+        name = "mobkit";
+        packages = [
+          "benrob0329/ikea"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "talas/colourhop"
+          "wsor4035/minekart"
+          "Lone_Wolf/voxel_knights"
+          "Mantar/exile"
+          "mt-mods/mobkit"
+          "wsor4035/farlands_reloaded"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Emojiminetest/lrfurn" = mkLuantiMod {
     name = "lrfurn";
     release = 25867;
@@ -13188,30 +13212,6 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "mt-mods/mob_core" = mkLuantiMod {
-    name = "mob_core";
-    release = 16810;
-    hash = "1sfp1hvzmdpibm90z99i45rf1hjs4ny6895crgcdw0l8rldh2sz7";
-    author = "mt-mods";
-    provides = [ "mob_core" ];
-    depends = [
-      ({
-        name = "mobkit";
-        packages = [
-          "benrob0329/ikea"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "talas/colourhop"
-          "wsor4035/minekart"
-          "Lone_Wolf/voxel_knights"
-          "Mantar/exile"
-          "mt-mods/mobkit"
-          "wsor4035/farlands_reloaded"
         ];
       })
     ];
@@ -13486,6 +13486,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "rubenwardy/sfinv" = mkLuantiMod {
+    name = "sfinv";
+    release = 18103;
+    hash = "1znfkhciwsk7y91346v4prrbgj55d70nalzizcyr79h2n4bj5bpm";
+    author = "rubenwardy";
+    provides = [ "sfinv" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "webdesigner97/streets" = mkLuantiMod {
     name = "streets";
     release = 105;
@@ -13608,15 +13617,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "rubenwardy/sfinv" = mkLuantiMod {
-    name = "sfinv";
-    release = 18103;
-    hash = "1znfkhciwsk7y91346v4prrbgj55d70nalzizcyr79h2n4bj5bpm";
-    author = "rubenwardy";
-    provides = [ "sfinv" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "TenPlus1/regrow" = mkLuantiMod {
@@ -13872,50 +13872,19 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Thomas-S/ts_furniture" = mkLuantiMod {
-    name = "ts_furniture";
-    release = 22096;
-    hash = "0h02654ndqskz0mwdvwp122pazjyad0lvzlgj0l4786q94mgkjy3";
-    author = "Thomas-S";
-    provides = [ "ts_furniture" ];
+  "Wuzzy/pep" = mkLuantiMod {
+    name = "pep";
+    release = 23771;
+    hash = "0pmp0jlvxfa3dn2ay3v81f31z6akrfmzwmcpxbgrcr8wqprxg8wh";
+    author = "Wuzzy";
+    provides = [ "pep" ];
     depends = [
       ({
-        name = "default";
+        name = "playereffects";
         packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
           "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
+          "Wuzzy/playereffects"
           "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -14031,39 +14000,12 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/pep" = mkLuantiMod {
-    name = "pep";
-    release = 23771;
-    hash = "0pmp0jlvxfa3dn2ay3v81f31z6akrfmzwmcpxbgrcr8wqprxg8wh";
-    author = "Wuzzy";
-    provides = [ "pep" ];
-    depends = [
-      ({
-        name = "playereffects";
-        packages = [
-          "1248/regnum2"
-          "Wuzzy/playereffects"
-          "MeseCraft/mesecraft"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "drkwv/minetest_wadsprint" = mkLuantiMod {
-    name = "minetest_wadsprint";
-    release = 26592;
-    hash = "19kwgx0na4dq2cb5vzm6zdk9k5isin4l6pmnb5xfkzqn8sd4f3hw";
-    author = "drkwv";
-    provides = [ "minetest_wadsprint" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "AidanLCB/overpowered" = mkLuantiMod {
-    name = "overpowered";
-    release = 7096;
-    hash = "0nfjinqpfirfnnkc16spsrj660ppccvz70p8wjm5n7vsvj9ix81f";
-    author = "AidanLCB";
-    provides = [ "overpowered" ];
+  "Thomas-S/ts_furniture" = mkLuantiMod {
+    name = "ts_furniture";
+    release = 22096;
+    hash = "0h02654ndqskz0mwdvwp122pazjyad0lvzlgj0l4786q94mgkjy3";
+    author = "Thomas-S";
+    provides = [ "ts_furniture" ];
     depends = [
       ({
         name = "default";
@@ -14134,6 +14076,122 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "drkwv/minetest_wadsprint" = mkLuantiMod {
+    name = "minetest_wadsprint";
+    release = 26592;
+    hash = "19kwgx0na4dq2cb5vzm6zdk9k5isin4l6pmnb5xfkzqn8sd4f3hw";
+    author = "drkwv";
+    provides = [ "minetest_wadsprint" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "AidanLCB/overpowered" = mkLuantiMod {
+    name = "overpowered";
+    release = 7096;
+    hash = "0nfjinqpfirfnnkc16spsrj660ppccvz70p8wjm5n7vsvj9ix81f";
+    author = "AidanLCB";
+    provides = [ "overpowered" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "csirolli/bettertrees" = mkLuantiMod {
+    name = "bettertrees";
+    release = 16367;
+    hash = "15f2rblg9jd6m9g38n3kmiqcxj8dh0k2kcd8qjiy9asv89xm5r3r";
+    author = "csirolli";
+    provides = [ "bettertrees" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "benedict424/denseores" = mkLuantiMod {
+    name = "denseores";
+    release = 9511;
+    hash = "0m5nn1awg1krc3l15pnp7xpy1v46m7gcydhssdcn7g8wvan587v1";
+    author = "benedict424";
+    provides = [ "denseores" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "erlehmann/mcl_quick_harvest_replant" = mkLuantiMod {
     name = "mcl_quick_harvest_replant";
     release = 20784;
@@ -14167,12 +14225,21 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "benedict424/denseores" = mkLuantiMod {
-    name = "denseores";
-    release = 9511;
-    hash = "0m5nn1awg1krc3l15pnp7xpy1v46m7gcydhssdcn7g8wvan587v1";
-    author = "benedict424";
-    provides = [ "denseores" ];
+  "Wuzzy/orienteering" = mkLuantiMod {
+    name = "orienteering";
+    release = 24681;
+    hash = "0724shn1x0yrzr2wv6rhz6isnzrvawy9wv3jxbfwz3rq13wc1k6v";
+    author = "Wuzzy";
+    provides = [ "orienteering" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "paramat/snowdrift" = mkLuantiMod {
+    name = "snowdrift";
+    release = 51;
+    hash = "1gkxbz1z9r08al4p16jf2967sh2l09jj2h9qpvyignpxmz30ndzy";
+    author = "paramat";
+    provides = [ "snowdrift" ];
     depends = [
       ({
         name = "default";
@@ -14298,64 +14365,6 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/orienteering" = mkLuantiMod {
-    name = "orienteering";
-    release = 24681;
-    hash = "0724shn1x0yrzr2wv6rhz6isnzrvawy9wv3jxbfwz3rq13wc1k6v";
-    author = "Wuzzy";
-    provides = [ "orienteering" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "paramat/snowdrift" = mkLuantiMod {
-    name = "snowdrift";
-    release = 51;
-    hash = "1gkxbz1z9r08al4p16jf2967sh2l09jj2h9qpvyignpxmz30ndzy";
-    author = "paramat";
-    provides = [ "snowdrift" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "cracksmoka420/ctf_guns" = mkLuantiMod {
     name = "ctf_guns";
     release = 12348;
@@ -14427,6 +14436,27 @@
     ];
     with_same_name = [ ];
   };
+  "wsor4035/ufo_ship" = mkLuantiMod {
+    name = "ufo_ship";
+    release = 27209;
+    hash = "0w5xzpgj53b8xa1xdwgq69g4kjny9c128px3mmr2lfgvyi3vnm2a";
+    author = "wsor4035";
+    provides = [ "ufo_ship" ];
+    depends = [
+      ({
+        name = "xcompat";
+        packages = [
+          "mt-mods/xcompat"
+          "BuckarooBanzay/mesecons_lab"
+          "BuckarooBanzay/super_sam"
+          "mt-mods/dreambuilder_game"
+          "bell07/whynot_game"
+          "Kimapr/nonsensical_skyblock"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "CodeMiner/atm" = mkLuantiMod {
     name = "atm";
     release = 7630;
@@ -14483,34 +14513,13 @@
     ];
     with_same_name = [ ];
   };
-  "csirolli/bettertrees" = mkLuantiMod {
-    name = "bettertrees";
-    release = 16367;
-    hash = "15f2rblg9jd6m9g38n3kmiqcxj8dh0k2kcd8qjiy9asv89xm5r3r";
-    author = "csirolli";
-    provides = [ "bettertrees" ];
+  "AiTechEye/multidimensions" = mkLuantiMod {
+    name = "multidimensions";
+    release = 24657;
+    hash = "02mz30f97ypp21bkaw12340170qay3s716byyfqd6gcmx72gbnv0";
+    author = "AiTechEye";
+    provides = [ "multidimensions" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "wsor4035/ufo_ship" = mkLuantiMod {
-    name = "ufo_ship";
-    release = 27209;
-    hash = "0w5xzpgj53b8xa1xdwgq69g4kjny9c128px3mmr2lfgvyi3vnm2a";
-    author = "wsor4035";
-    provides = [ "ufo_ship" ];
-    depends = [
-      ({
-        name = "xcompat";
-        packages = [
-          "mt-mods/xcompat"
-          "BuckarooBanzay/mesecons_lab"
-          "BuckarooBanzay/super_sam"
-          "mt-mods/dreambuilder_game"
-          "bell07/whynot_game"
-          "Kimapr/nonsensical_skyblock"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "fatalerror420/guns4d" = mkLuantiMod {
@@ -14598,15 +14607,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "AiTechEye/multidimensions" = mkLuantiMod {
-    name = "multidimensions";
-    release = 24657;
-    hash = "02mz30f97ypp21bkaw12340170qay3s716byyfqd6gcmx72gbnv0";
-    author = "AiTechEye";
-    provides = [ "multidimensions" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "cheapie/roads" = mkLuantiMod {
@@ -14886,88 +14886,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "skbzk/coalfromtrees" = mkLuantiMod {
-    name = "coalfromtrees";
-    release = 7648;
-    hash = "0g1hllqhxqgcg1y1ap2cdjknzqf3n5b3fwj4ay5r7sg2aw1gbicf";
-    author = "skbzk";
-    provides = [ "coalfromtrees" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AntumDeluge/cleaner" = mkLuantiMod {
-    name = "cleaner";
-    release = 8925;
-    hash = "0f97wmzhfzj5hz2zaw8k96aha6h07ni0ykg2vh1gh7blrvhsi3xj";
-    author = "AntumDeluge";
-    provides = [ "cleaner" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Andrey01/circular_saw_ext" = mkLuantiMod {
-    name = "circular_saw_ext";
-    release = 24498;
-    hash = "0ns1cxrbwwjr5hs9kw9hbw741dhp0hgwypnih2r4g70j74jznwa3";
-    author = "Andrey01";
-    provides = [ "circular_saw_ext" ];
-    depends = [
-      ({
-        name = "moreblocks";
-        packages = [
-          "Just_Visiting/littlelady"
-          "BuckarooBanzay/super_sam"
-          "Kimapr/nonsensical_skyblock"
-          "Panquesito7/panqkart"
-          "Calinou/moreblocks"
-          "rheo/moreblocks"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "StarNinjas/industrious" = mkLuantiMod {
     name = "industrious";
     release = 20077;
@@ -15017,13 +14935,53 @@
     ];
     with_same_name = [ ];
   };
-  "sofar/skybox" = mkLuantiMod {
-    name = "skybox";
-    release = 17368;
-    hash = "1hr944dh8faydvx79bjp7196zznxl8694gmhnq600g1yz5xkwfww";
-    author = "sofar";
-    provides = [ "skybox" ];
-    depends = [ ];
+  "skbzk/coalfromtrees" = mkLuantiMod {
+    name = "coalfromtrees";
+    release = 7648;
+    hash = "0g1hllqhxqgcg1y1ap2cdjknzqf3n5b3fwj4ay5r7sg2aw1gbicf";
+    author = "skbzk";
+    provides = [ "coalfromtrees" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "mt-mods/digiterms" = mkLuantiMod {
@@ -15128,6 +15086,48 @@
         packages = [
           "mt-mods/display_modpack"
           "BuckarooBanzay/mesecons_lab"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/cleaner" = mkLuantiMod {
+    name = "cleaner";
+    release = 8925;
+    hash = "0f97wmzhfzj5hz2zaw8k96aha6h07ni0ykg2vh1gh7blrvhsi3xj";
+    author = "AntumDeluge";
+    provides = [ "cleaner" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "sofar/skybox" = mkLuantiMod {
+    name = "skybox";
+    release = 17368;
+    hash = "1hr944dh8faydvx79bjp7196zznxl8694gmhnq600g1yz5xkwfww";
+    author = "sofar";
+    provides = [ "skybox" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Andrey01/circular_saw_ext" = mkLuantiMod {
+    name = "circular_saw_ext";
+    release = 24498;
+    hash = "0ns1cxrbwwjr5hs9kw9hbw741dhp0hgwypnih2r4g70j74jznwa3";
+    author = "Andrey01";
+    provides = [ "circular_saw_ext" ];
+    depends = [
+      ({
+        name = "moreblocks";
+        packages = [
+          "Just_Visiting/littlelady"
+          "BuckarooBanzay/super_sam"
+          "Kimapr/nonsensical_skyblock"
+          "Panquesito7/panqkart"
+          "Calinou/moreblocks"
+          "rheo/moreblocks"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
         ];
       })
     ];
@@ -15300,32 +15300,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "snowyu/country_flags" = mkLuantiMod {
-    name = "country_flags";
-    release = 13770;
-    hash = "01pnyzaa9vd7lq1yn86ds1smnf9rls0xj0a94w6bvzcf9gia13w1";
-    author = "snowyu";
-    provides = [ "country_flags" ];
-    depends = [
-      ({
-        name = "pride_flags";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "Wuzzy/pride_flags"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "j45/mcl_bubble_column" = mkLuantiMod {
-    name = "mcl_bubble_column";
-    release = 9725;
-    hash = "09i905zsbmh7gr2qq4x3c6z2j03y6zfsia8h5a73i2w7sb1cj3jd";
-    author = "j45";
-    provides = [ "mcl_bubble_column" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "zorman2000/itemshelf" = mkLuantiMod {
     name = "itemshelf";
     release = 13969;
@@ -15410,6 +15384,32 @@
     ];
     with_same_name = [ "nac/itemshelf" ];
   };
+  "snowyu/country_flags" = mkLuantiMod {
+    name = "country_flags";
+    release = 13770;
+    hash = "01pnyzaa9vd7lq1yn86ds1smnf9rls0xj0a94w6bvzcf9gia13w1";
+    author = "snowyu";
+    provides = [ "country_flags" ];
+    depends = [
+      ({
+        name = "pride_flags";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "Wuzzy/pride_flags"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "j45/mcl_bubble_column" = mkLuantiMod {
+    name = "mcl_bubble_column";
+    release = 9725;
+    hash = "09i905zsbmh7gr2qq4x3c6z2j03y6zfsia8h5a73i2w7sb1cj3jd";
+    author = "j45";
+    provides = [ "mcl_bubble_column" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Winter94/wc_luminous" = mkLuantiMod {
     name = "wc_luminous";
     release = 27958;
@@ -15460,6 +15460,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "Blockhead/foodblocks" = mkLuantiMod {
+    name = "foodblocks";
+    release = 25796;
+    hash = "05gilximbamx3c58yi62s1kppq38imcxfg56kl10r27fqmm7cvc6";
+    author = "Blockhead";
+    provides = [ "foodblocks" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "mt-mods/wrench" = mkLuantiMod {
@@ -15520,13 +15529,116 @@
     ];
     with_same_name = [ ];
   };
-  "Blockhead/foodblocks" = mkLuantiMod {
-    name = "foodblocks";
-    release = 25796;
-    hash = "05gilximbamx3c58yi62s1kppq38imcxfg56kl10r27fqmm7cvc6";
-    author = "Blockhead";
-    provides = [ "foodblocks" ];
-    depends = [ ];
+  "OgelGames/powerbanks" = mkLuantiMod {
+    name = "powerbanks";
+    release = 25860;
+    hash = "0wzpcpn6j5c425k4hl0ym0lxz3891pji3c20r4wg7zx7ji2iakmw";
+    author = "OgelGames";
+    provides = [ "powerbanks" ];
+    depends = [
+      ({
+        name = "technic";
+        packages = [
+          "mt-mods/technic_plus_beta"
+          "mt-mods/technic_plus"
+          "Kimapr/nonsensical_skyblock"
+          "1248/regnum"
+          "1248/regnum2"
+          "RealBadAngel/technic"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "lag01/spawn_command" = mkLuantiMod {
+    name = "spawn_command";
+    release = 8098;
+    hash = "1464vx84jwprsrr8bb7bkkd6crzj2ymf9qf6ksz4mank451p9xps";
+    author = "lag01";
+    provides = [ "spawn_command" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "UbuntuJared/speed_boots" = mkLuantiMod {
@@ -15680,69 +15792,6 @@
     ];
     with_same_name = [ ];
   };
-  "OgelGames/powerbanks" = mkLuantiMod {
-    name = "powerbanks";
-    release = 25860;
-    hash = "0wzpcpn6j5c425k4hl0ym0lxz3891pji3c20r4wg7zx7ji2iakmw";
-    author = "OgelGames";
-    provides = [ "powerbanks" ];
-    depends = [
-      ({
-        name = "technic";
-        packages = [
-          "mt-mods/technic_plus_beta"
-          "mt-mods/technic_plus"
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "RealBadAngel/technic"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "v-rob/glass_stained" = mkLuantiMod {
     name = "glass_stained";
     release = 6066;
@@ -15854,51 +15903,16 @@
     ];
     with_same_name = [ ];
   };
-  "lag01/spawn_command" = mkLuantiMod {
-    name = "spawn_command";
-    release = 8098;
-    hash = "1464vx84jwprsrr8bb7bkkd6crzj2ymf9qf6ksz4mank451p9xps";
-    author = "lag01";
-    provides = [ "spawn_command" ];
+  "FreeBSD/music" = mkLuantiMod {
+    name = "music";
+    release = 17030;
+    hash = "0pvqz54370hj3ncpc1644hsnmzfpznn36wgab5w7f9vz4dffg2jy";
+    author = "FreeBSD";
+    provides = [ "music" ];
     depends = [
       ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
+        name = "vote";
+        packages = [ "rubenwardy/vote" ];
       })
     ];
     with_same_name = [ ];
@@ -15918,107 +15932,6 @@
     hash = "0gzadl6181f1qmcf3bqqz0g6ch8i957cxi1h37gif62r66p9chcq";
     author = "TumeniNodes";
     provides = [ "facade" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "GreenBlob/real_world_time" = mkLuantiMod {
-    name = "real_world_time";
-    release = 24918;
-    hash = "0lrbg1d23bmrbc62c36f4zp7cbh0h2fy12la08a9j4h4ziyir240";
-    author = "GreenBlob";
-    provides = [ "real_world_time" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Warr1024/szutilpack" = mkLuantiMod {
-    name = "szutilpack";
-    release = 28108;
-    hash = "02irzmr6xhyyx7v1nnqqwax6gpn3kmfylbx9fdmm1wrpcc4889p1";
-    author = "Warr1024";
-    provides = [
-      "szutil_admin"
-      "szutil_authcache"
-      "szutil_basics"
-      "szutil_chatsocket"
-      "szutil_chatsounds"
-      "szutil_cinecam"
-      "szutil_clocksync"
-      "szutil_consocket"
-      "szutil_controlhud"
-      "szutil_fixhack"
-      "szutil_givemenu"
-      "szutil_idlekick"
-      "szutil_lag"
-      "szutil_lagometer"
-      "szutil_logtrace"
-      "szutil_lua"
-      "szutil_maplimitfx"
-      "szutil_motd"
-      "szutil_motdagree"
-      "szutil_namehud"
-      "szutil_nowonline"
-      "szutil_offlinepos"
-      "szutil_pruneplayers"
-      "szutil_restart"
-      "szutil_roles"
-      "szutil_runas"
-      "szutil_stealth"
-      "szutil_suadmin"
-      "szutil_telecode"
-      "szutil_teleportfix"
-      "szutil_usagesurvey"
-      "szutil_watch"
-      "szutil_xplevel"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Emojiminetest/3d_apple" = mkLuantiMod {
-    name = "3d_apple";
-    release = 13787;
-    hash = "1a16x29nm4zrscvghpsqk90a1cknanvm0ni4prc3rn2qydrrsgvq";
-    author = "Emojiminetest";
-    provides = [ "3d_apple" ];
     depends = [
       ({
         name = "default";
@@ -16144,6 +16057,116 @@
     ];
     with_same_name = [ ];
   };
+  "Evergreen/death_messages" = mkLuantiMod {
+    name = "death_messages";
+    release = 458;
+    hash = "0pcklwyza71gxid9v8zn0qzf8chjxbbriycjdyjh140ix6qfchy3";
+    author = "Evergreen";
+    provides = [ "death_messages" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "GreenBlob/real_world_time" = mkLuantiMod {
+    name = "real_world_time";
+    release = 24918;
+    hash = "0lrbg1d23bmrbc62c36f4zp7cbh0h2fy12la08a9j4h4ziyir240";
+    author = "GreenBlob";
+    provides = [ "real_world_time" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Warr1024/szutilpack" = mkLuantiMod {
+    name = "szutilpack";
+    release = 28108;
+    hash = "02irzmr6xhyyx7v1nnqqwax6gpn3kmfylbx9fdmm1wrpcc4889p1";
+    author = "Warr1024";
+    provides = [
+      "szutil_admin"
+      "szutil_authcache"
+      "szutil_basics"
+      "szutil_chatsocket"
+      "szutil_chatsounds"
+      "szutil_cinecam"
+      "szutil_clocksync"
+      "szutil_consocket"
+      "szutil_controlhud"
+      "szutil_fixhack"
+      "szutil_givemenu"
+      "szutil_idlekick"
+      "szutil_lag"
+      "szutil_lagometer"
+      "szutil_logtrace"
+      "szutil_lua"
+      "szutil_maplimitfx"
+      "szutil_motd"
+      "szutil_motdagree"
+      "szutil_namehud"
+      "szutil_nowonline"
+      "szutil_offlinepos"
+      "szutil_pruneplayers"
+      "szutil_restart"
+      "szutil_roles"
+      "szutil_runas"
+      "szutil_stealth"
+      "szutil_suadmin"
+      "szutil_telecode"
+      "szutil_teleportfix"
+      "szutil_usagesurvey"
+      "szutil_watch"
+      "szutil_xplevel"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/3d_apple" = mkLuantiMod {
+    name = "3d_apple";
+    release = 13787;
+    hash = "1a16x29nm4zrscvghpsqk90a1cknanvm0ni4prc3rn2qydrrsgvq";
+    author = "Emojiminetest";
+    provides = [ "3d_apple" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "TrafficSignal2217/lightning_wand" = mkLuantiMod {
     name = "lightning_wand";
     release = 22857;
@@ -16161,6 +16184,175 @@
           "Astrobe/minefall"
           "Mantar/exile"
           "sofar/lightning"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Aurailus/aurora_tech" = mkLuantiMod {
+    name = "aurora_tech";
+    release = 9839;
+    hash = "0wa4a9pjcl2vw3sqgnhlk325si7mz05zvq5bmhwihbgh95c0dk52";
+    author = "Aurailus";
+    provides = [ "aurora_tech" ];
+    depends = [
+      ({
+        name = "player_api";
+        packages = [
+          "aerkiaga/nodeverse"
+          "Hume2/minesweeper_3d"
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "BuckarooBanzay/super_sam"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "xenonca/luckysweeper"
+          "1248/regnum2"
+          "mt-mods/driftgame"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "MeseCraft/mesecraft"
+          "Hume2/boxworld3d"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "dibesfer/colorlandia"
+          "xenonca/luckydude"
+          "Emojiminetest/parkour"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "jamiebearcub/grand_theft_box"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "3d_armor";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "stu/3d_armor"
+          "Astrobe/minefall"
+          "hilol/epic_combat"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "tnt";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "AwesomeDragon97/tnt"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
         ];
       })
     ];
@@ -16345,20 +16537,6 @@
     ];
     with_same_name = [ ];
   };
-  "FreeBSD/music" = mkLuantiMod {
-    name = "music";
-    release = 17030;
-    hash = "0pvqz54370hj3ncpc1644hsnmzfpznn36wgab5w7f9vz4dffg2jy";
-    author = "FreeBSD";
-    provides = [ "music" ];
-    depends = [
-      ({
-        name = "vote";
-        packages = [ "rubenwardy/vote" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Sumianvoice/sum_parachute" = mkLuantiMod {
     name = "sum_parachute";
     release = 13377;
@@ -16384,184 +16562,6 @@
     ];
     with_same_name = [ ];
   };
-  "Aurailus/aurora_tech" = mkLuantiMod {
-    name = "aurora_tech";
-    release = 9839;
-    hash = "0wa4a9pjcl2vw3sqgnhlk325si7mz05zvq5bmhwihbgh95c0dk52";
-    author = "Aurailus";
-    provides = [ "aurora_tech" ];
-    depends = [
-      ({
-        name = "player_api";
-        packages = [
-          "aerkiaga/nodeverse"
-          "Hume2/minesweeper_3d"
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "BuckarooBanzay/super_sam"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "xenonca/luckysweeper"
-          "1248/regnum2"
-          "mt-mods/driftgame"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "MeseCraft/mesecraft"
-          "Hume2/boxworld3d"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "dibesfer/colorlandia"
-          "xenonca/luckydude"
-          "Emojiminetest/parkour"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "jamiebearcub/grand_theft_box"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "3d_armor";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "stu/3d_armor"
-          "Astrobe/minefall"
-          "hilol/epic_combat"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "bucket";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "tnt";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "AwesomeDragon97/tnt"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Evergreen/death_messages" = mkLuantiMod {
-    name = "death_messages";
-    release = 458;
-    hash = "0pcklwyza71gxid9v8zn0qzf8chjxbbriycjdyjh140ix6qfchy3";
-    author = "Evergreen";
-    provides = [ "death_messages" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "LissoBone/goodtorch" = mkLuantiMod {
     name = "goodtorch";
     release = 14636;
@@ -16569,58 +16569,6 @@
     author = "LissoBone";
     provides = [ "goodtorch" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "Frederik/mineclonefood" = mkLuantiMod {
-    name = "mineclonefood";
-    release = 25658;
-    hash = "1xmfv4w7nvbgdydpvdcppc8z96sy0fr2s7ynn2r3rmmb1q1y95yd";
-    author = "Frederik";
-    provides = [ "mineclonefood" ];
-    depends = [
-      ({
-        name = "mcl_crafting_table";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_buckets";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_mobitems";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_flowers";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_honey";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_cherry_blossom";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Dragonop/claycrafter" = mkLuantiMod {
@@ -16698,6 +16646,125 @@
       })
     ];
     with_same_name = [ ];
+  };
+  "KareaGhandTrail/golden_tools" = mkLuantiMod {
+    name = "golden_tools";
+    release = 22287;
+    hash = "0avcnfnmscalc5rdrvc68v7harl49r4rfz8fq017mzxmmy2547gr";
+    author = "KareaGhandTrail";
+    provides = [ "golden_tools" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Frederik/mineclonefood" = mkLuantiMod {
+    name = "mineclonefood";
+    release = 25658;
+    hash = "1xmfv4w7nvbgdydpvdcppc8z96sy0fr2s7ynn2r3rmmb1q1y95yd";
+    author = "Frederik";
+    provides = [ "mineclonefood" ];
+    depends = [
+      ({
+        name = "mcl_crafting_table";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_buckets";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_mobitems";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_flowers";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_honey";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_cherry_blossom";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "rheo/smartshop" = mkLuantiMod {
+    name = "smartshop";
+    release = 25768;
+    hash = "1dx2ga4w8zwv7pmns26vqxg3wd8619p0i0ybf3a61bpmz16i0943";
+    author = "rheo";
+    provides = [ "smartshop" ];
+    depends = [
+      ({
+        name = "fmod";
+        packages = [ "rheo/fmod" ];
+      })
+      ({
+        name = "futil";
+        packages = [ "rheo/futil" ];
+      })
+    ];
+    with_same_name = [ "AiTechEye/smartshop" ];
   };
   "TPH/tph_eating" = mkLuantiMod {
     name = "tph_eating";
@@ -16881,23 +16948,14 @@
     ];
     with_same_name = [ ];
   };
-  "rheo/smartshop" = mkLuantiMod {
-    name = "smartshop";
-    release = 25768;
-    hash = "1dx2ga4w8zwv7pmns26vqxg3wd8619p0i0ybf3a61bpmz16i0943";
-    author = "rheo";
-    provides = [ "smartshop" ];
-    depends = [
-      ({
-        name = "fmod";
-        packages = [ "rheo/fmod" ];
-      })
-      ({
-        name = "futil";
-        packages = [ "rheo/futil" ];
-      })
-    ];
-    with_same_name = [ "AiTechEye/smartshop" ];
+  "Linuxdirk/sdwalls" = mkLuantiMod {
+    name = "sdwalls";
+    release = 28272;
+    hash = "1522ards3nicqm1xf9r8sij2mzy6g7h40wpw5ahwvx1ivmplvlxb";
+    author = "Linuxdirk";
+    provides = [ "sdwalls" ];
+    depends = [ ];
+    with_same_name = [ ];
   };
   "MeseCraft/bouncy_bed" = mkLuantiMod {
     name = "bouncy_bed";
@@ -16932,55 +16990,6 @@
           "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
           "TenPlus1/beds"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "KareaGhandTrail/golden_tools" = mkLuantiMod {
-    name = "golden_tools";
-    release = 22287;
-    hash = "0avcnfnmscalc5rdrvc68v7harl49r4rfz8fq017mzxmmy2547gr";
-    author = "KareaGhandTrail";
-    provides = [ "golden_tools" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -17035,6 +17044,59 @@
     ];
     with_same_name = [ ];
   };
+  "Jolesh/simple_recycle" = mkLuantiMod {
+    name = "simple_recycle";
+    release = 24146;
+    hash = "11vld2lvr6sicaz06ynfzfk2kfg1nyky2hh3ahpimrynvziw7bpw";
+    author = "Jolesh";
+    provides = [ "simple_recycle" ];
+    depends = [
+      ({
+        name = "nuggets";
+        packages = [ "Jolesh/nuggets" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Sumianvoice/sum_air_currents" = mkLuantiMod {
     name = "sum_air_currents";
     release = 13429;
@@ -17044,12 +17106,21 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Linuxdirk/sdwalls" = mkLuantiMod {
-    name = "sdwalls";
-    release = 28272;
-    hash = "1522ards3nicqm1xf9r8sij2mzy6g7h40wpw5ahwvx1ivmplvlxb";
-    author = "Linuxdirk";
-    provides = [ "sdwalls" ];
+  "ROllerozxa/permatime" = mkLuantiMod {
+    name = "permatime";
+    release = 26254;
+    hash = "090q224x5zwm9z8biga0ky2q05l8aw6qa9sjdbb1f8631f16skkf";
+    author = "ROllerozxa";
+    provides = [ "permatime" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "wsor4035/interior_decor" = mkLuantiMod {
+    name = "interior_decor";
+    release = 16292;
+    hash = "1ch1g4vh7k22r40ahd2rggpaffc219yng9b87kydnjg0y1zin03d";
+    author = "wsor4035";
+    provides = [ "interior_decor" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -17164,57 +17235,13 @@
     ];
     with_same_name = [ ];
   };
-  "Jolesh/simple_recycle" = mkLuantiMod {
-    name = "simple_recycle";
-    release = 24146;
-    hash = "11vld2lvr6sicaz06ynfzfk2kfg1nyky2hh3ahpimrynvziw7bpw";
-    author = "Jolesh";
-    provides = [ "simple_recycle" ];
-    depends = [
-      ({
-        name = "nuggets";
-        packages = [ "Jolesh/nuggets" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
+  "ZenonSeth/message_bubbles" = mkLuantiMod {
+    name = "message_bubbles";
+    release = 24207;
+    hash = "0ll4dlf4wmdwnym19zyrjhsc6svbazg57nml68mp8zwlfr643dj1";
+    author = "ZenonSeth";
+    provides = [ "message_bubbles" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "dougsouza26/stonelike_blocks" = mkLuantiMod {
@@ -17331,21 +17358,12 @@
     ];
     with_same_name = [ ];
   };
-  "ROllerozxa/permatime" = mkLuantiMod {
-    name = "permatime";
-    release = 26254;
-    hash = "090q224x5zwm9z8biga0ky2q05l8aw6qa9sjdbb1f8631f16skkf";
-    author = "ROllerozxa";
-    provides = [ "permatime" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "wsor4035/interior_decor" = mkLuantiMod {
-    name = "interior_decor";
-    release = 16292;
-    hash = "1ch1g4vh7k22r40ahd2rggpaffc219yng9b87kydnjg0y1zin03d";
-    author = "wsor4035";
-    provides = [ "interior_decor" ];
+  "Wuzzy/cups" = mkLuantiMod {
+    name = "cups";
+    release = 1855;
+    hash = "12cxnaka05sm7nlg933ys4skhk6sh5sshdqixli51bgwkk9iqlsy";
+    author = "Wuzzy";
+    provides = [ "cups" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -17398,21 +17416,30 @@
     ];
     with_same_name = [ ];
   };
+  "VeproGames/resizeme" = mkLuantiMod {
+    name = "resizeme";
+    release = 19983;
+    hash = "1w0xafq96x1bvx0xz07r308w9im07f184k3jr7yack146n9c6z9l";
+    author = "VeproGames";
+    provides = [ "resizeme" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Atlante/atl_server_statistics" = mkLuantiMod {
+    name = "atl_server_statistics";
+    release = 27785;
+    hash = "00s7qj1kjj1rx795d0d5qnkbr52rqn96hwcajw3zafyz0z54mmsf";
+    author = "Atlante";
+    provides = [ "atl_server_statistics" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "mt-mods/mail" = mkLuantiMod {
     name = "mail";
     release = 26502;
     hash = "1cbyrmal4vs4nm49b7rfx7d1nfsqd4qqw6f5pzdhzn9gh9742p3s";
     author = "mt-mods";
     provides = [ "mail" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ZenonSeth/message_bubbles" = mkLuantiMod {
-    name = "message_bubbles";
-    release = 24207;
-    hash = "0ll4dlf4wmdwnym19zyrjhsc6svbazg57nml68mp8zwlfr643dj1";
-    author = "ZenonSeth";
-    provides = [ "message_bubbles" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -17506,22 +17533,23 @@
     ];
     with_same_name = [ ];
   };
-  "VeproGames/resizeme" = mkLuantiMod {
-    name = "resizeme";
-    release = 19983;
-    hash = "1w0xafq96x1bvx0xz07r308w9im07f184k3jr7yack146n9c6z9l";
-    author = "VeproGames";
-    provides = [ "resizeme" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Atlante/atl_server_statistics" = mkLuantiMod {
-    name = "atl_server_statistics";
-    release = 27785;
-    hash = "00s7qj1kjj1rx795d0d5qnkbr52rqn96hwcajw3zafyz0z54mmsf";
-    author = "Atlante";
-    provides = [ "atl_server_statistics" ];
-    depends = [ ];
+  "shaft/blood_splatter" = mkLuantiMod {
+    name = "blood_splatter";
+    release = 25008;
+    hash = "0lk0rxyv1kpanhfc7yl2n7r1d2f8xr6y6v9pln6wn2w5fxnzd26g";
+    author = "shaft";
+    provides = [ "blood_splatter" ];
+    depends = [
+      ({
+        name = "modlib";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "LMD/modlib"
+          "LMD/cellestial_game"
+          "sdd/spiraling_down"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "VMan_2002/cactus_damage" = mkLuantiMod {
@@ -17571,57 +17599,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/cups" = mkLuantiMod {
-    name = "cups";
-    release = 1855;
-    hash = "12cxnaka05sm7nlg933ys4skhk6sh5sshdqixli51bgwkk9iqlsy";
-    author = "Wuzzy";
-    provides = [ "cups" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "shaft/blood_splatter" = mkLuantiMod {
-    name = "blood_splatter";
-    release = 25008;
-    hash = "0lk0rxyv1kpanhfc7yl2n7r1d2f8xr6y6v9pln6wn2w5fxnzd26g";
-    author = "shaft";
-    provides = [ "blood_splatter" ];
-    depends = [
-      ({
-        name = "modlib";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "LMD/modlib"
-          "LMD/cellestial_game"
-          "sdd/spiraling_down"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "giov4/skywars" = mkLuantiMod {
-    name = "skywars";
-    release = 25720;
-    hash = "1aqaxaxw6k69fxydvqi0p8fs27xzzv5iaxbj2q6lr6an3x097bga";
-    author = "giov4";
-    provides = [ "skywars" ];
-    depends = [
-      ({
-        name = "arena_lib";
-        packages = [ "Zughy/arena_lib" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "homiak/stoneblocks" = mkLuantiMod {
-    name = "stoneblocks";
-    release = 23576;
-    hash = "0cx049yd56i67xkgqlhwcpcmkr8fa9r2hf36pr194xbl9vmqrhwx";
-    author = "homiak";
-    provides = [ "stoneblocks" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "TenPlus1/mobs_skeletons" = mkLuantiMod {
@@ -17703,6 +17680,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "SFENCE/sculpture" = mkLuantiMod {
+    name = "sculpture";
+    release = 11966;
+    hash = "16viv6lwni84njnva3lrqcd4icahx17bhmdbhi2a7wrxmszrnpa5";
+    author = "SFENCE";
+    provides = [ "sculpture" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Deadlock/thelowerroad" = mkLuantiMod {
@@ -17817,61 +17803,52 @@
     ];
     with_same_name = [ ];
   };
-  "AntumDeluge/lighted_helmets" = mkLuantiMod {
-    name = "lighted_helmets";
-    release = 8755;
-    hash = "02afx0ygy508m19prb1vgm67l519904cqwh9pjsyq69jh1n0yb7m";
-    author = "AntumDeluge";
-    provides = [ "lighted_helmets" ];
+  "giov4/skywars" = mkLuantiMod {
+    name = "skywars";
+    release = 25720;
+    hash = "1aqaxaxw6k69fxydvqi0p8fs27xzzv5iaxbj2q6lr6an3x097bga";
+    author = "giov4";
+    provides = [ "skywars" ];
     depends = [
       ({
-        name = "3d_armor";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "stu/3d_armor"
-          "Astrobe/minefall"
-          "hilol/epic_combat"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "3d_armor_light";
-        packages = [ "AntumDeluge/3d_armor_light" ];
+        name = "arena_lib";
+        packages = [ "Zughy/arena_lib" ];
       })
     ];
     with_same_name = [ ];
   };
-  "SFENCE/sculpture" = mkLuantiMod {
-    name = "sculpture";
-    release = 11966;
-    hash = "16viv6lwni84njnva3lrqcd4icahx17bhmdbhi2a7wrxmszrnpa5";
-    author = "SFENCE";
-    provides = [ "sculpture" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Droog71/random_teleport" = mkLuantiMod {
-    name = "random_teleport";
-    release = 8420;
-    hash = "1v8f3hpnfz6hc9sin0cin1629yfzsmjmnd0qixp2px28qjjdaa5j";
-    author = "Droog71";
-    provides = [ "random_teleport" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Calinou/maptools" = mkLuantiMod {
-    name = "maptools";
-    release = 2396;
-    hash = "12ny1djjc89hw8xg7a0d96ky9zc9pg6ksjlab5va8rp51dhxwc3h";
-    author = "Calinou";
-    provides = [ "maptools" ];
+  "Don/mywalls" = mkLuantiMod {
+    name = "mywalls";
+    release = 16120;
+    hash = "1ifdl5wmjkjz9dh8lq99f10spwm26gm702nc34h166fvbzaykgxi";
+    author = "Don";
+    provides = [ "mywalls" ];
     depends = [
+      ({
+        name = "walls";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "carlos_rupp/berzerkpt"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
       ({
         name = "default";
         packages = [
@@ -17914,38 +17891,130 @@
     ];
     with_same_name = [ ];
   };
-  "Don/mywalls" = mkLuantiMod {
-    name = "mywalls";
-    release = 16120;
-    hash = "1ifdl5wmjkjz9dh8lq99f10spwm26gm702nc34h166fvbzaykgxi";
-    author = "Don";
-    provides = [ "mywalls" ];
+  "homiak/stoneblocks" = mkLuantiMod {
+    name = "stoneblocks";
+    release = 23576;
+    hash = "0cx049yd56i67xkgqlhwcpcmkr8fa9r2hf36pr194xbl9vmqrhwx";
+    author = "homiak";
+    provides = [ "stoneblocks" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/lighted_helmets" = mkLuantiMod {
+    name = "lighted_helmets";
+    release = 8755;
+    hash = "02afx0ygy508m19prb1vgm67l519904cqwh9pjsyq69jh1n0yb7m";
+    author = "AntumDeluge";
+    provides = [ "lighted_helmets" ];
     depends = [
       ({
-        name = "walls";
+        name = "3d_armor";
         packages = [
-          "rubenwardy/capturetheflag"
           "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
           "bell07/whynot_game"
+          "1248/regnum"
           "1248/regnum2"
-          "1248/castrum"
           "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "carlos_rupp/berzerkpt"
+          "stu/3d_armor"
+          "Astrobe/minefall"
           "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
         ];
       })
+      ({
+        name = "3d_armor_light";
+        packages = [ "AntumDeluge/3d_armor_light" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Droog71/random_teleport" = mkLuantiMod {
+    name = "random_teleport";
+    release = 8420;
+    hash = "1v8f3hpnfz6hc9sin0cin1629yfzsmjmnd0qixp2px28qjjdaa5j";
+    author = "Droog71";
+    provides = [ "random_teleport" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Kimapr/glcraft" = mkLuantiMod {
+    name = "glcraft";
+    release = 27428;
+    hash = "1rmiv4i3qvb9qh4c9wfz6pp9hkaqikhlpqgv7ii8msvdy5c1zpzy";
+    author = "Kimapr";
+    provides = [
+      "glcraft"
+      "zzzz_glcraft_crafthook"
+    ];
+    depends = [
+      ({
+        name = "mtg_craftguide";
+        packages = [
+          "Minetest/minetest_game"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "Kimapr/nonsensical_skyblock"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+        ];
+      })
+      ({
+        name = "sfinv";
+        packages = [
+          "Mantar/exile"
+          "rubenwardy/capturetheflag"
+          "BuckarooBanzay/mesecons_lab"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "Panquesito7/panqkart"
+          "dibesfer/colorlandia"
+          "mt-mods/dreambuilder_game"
+          "Nathan.S/sss"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "Hume2/boxworld3d"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "rubenwardy/sfinv"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "Kimapr/nonsensical_skyblock"
+          "Lone_Wolf/voxel_knights"
+          "Emojiminetest/parkour"
+          "nurd3/ul_game"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "niwla23/runorfall"
+          "Big_Caballito/no_mans_land"
+          "sfan5/minetest_classic"
+          "Casimir/voxelgarden"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "hilol/epic_combat"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Calinou/maptools" = mkLuantiMod {
+    name = "maptools";
+    release = 2396;
+    hash = "12ny1djjc89hw8xg7a0d96ky9zc9pg6ksjlab5va8rp51dhxwc3h";
+    author = "Calinou";
+    provides = [ "maptools" ];
+    depends = [
       ({
         name = "default";
         packages = [
@@ -18059,6 +18128,62 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Soundwavez/bam_mod" = mkLuantiMod {
+    name = "bam_mod";
+    release = 26489;
+    hash = "1yllaamzbj6xc934jvrjmk6manp3jdk0jmkmi9i3zr73k5qhldg2";
+    author = "Soundwavez";
+    provides = [ "bam_mod" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "vehicles";
+        packages = [
+          "D00Med/vehicles"
+          "Kimapr/nonsensical_skyblock"
         ];
       })
     ];
@@ -18182,71 +18307,6 @@
     ];
     with_same_name = [ ];
   };
-  "SilverSandstone/subtitles" = mkLuantiMod {
-    name = "subtitles";
-    release = 25264;
-    hash = "08bdnw1krbakhkq0z90ynnmb05h7n0czgqjf7m0fdb0qf8sijizp";
-    author = "SilverSandstone";
-    provides = [ "subtitles" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Soundwavez/bam_mod" = mkLuantiMod {
-    name = "bam_mod";
-    release = 26489;
-    hash = "1yllaamzbj6xc934jvrjmk6manp3jdk0jmkmi9i3zr73k5qhldg2";
-    author = "Soundwavez";
-    provides = [ "bam_mod" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "vehicles";
-        packages = [
-          "D00Med/vehicles"
-          "Kimapr/nonsensical_skyblock"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "mt-mods/spacecannon" = mkLuantiMod {
     name = "spacecannon";
     release = 23781;
@@ -18310,73 +18370,89 @@
     ];
     with_same_name = [ ];
   };
-  "Kimapr/glcraft" = mkLuantiMod {
-    name = "glcraft";
-    release = 27428;
-    hash = "1rmiv4i3qvb9qh4c9wfz6pp9hkaqikhlpqgv7ii8msvdy5c1zpzy";
-    author = "Kimapr";
-    provides = [
-      "glcraft"
-      "zzzz_glcraft_crafthook"
-    ];
+  "AntumDeluge/chatlog" = mkLuantiMod {
+    name = "chatlog";
+    release = 7886;
+    hash = "1ggbsiv6faha28dp5lhpfxgack9njdvkwsdcy7p1lpwr8yqa0v72";
+    author = "AntumDeluge";
+    provides = [ "chatlog" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "AiTechEye/smartshop" = mkLuantiMod {
+    name = "smartshop";
+    release = 903;
+    hash = "16cqq1amv83ir8m07m983g2klw35pvczllxkv0zh7czh3qdcbk31";
+    author = "AiTechEye";
+    provides = [ "smartshop" ];
     depends = [
       ({
-        name = "mtg_craftguide";
+        name = "default";
         packages = [
-          "Minetest/minetest_game"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "Kimapr/nonsensical_skyblock"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-        ];
-      })
-      ({
-        name = "sfinv";
-        packages = [
-          "Mantar/exile"
           "rubenwardy/capturetheflag"
-          "BuckarooBanzay/mesecons_lab"
-          "Minetest/minetest_game"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
           "Noodlemire/voxeldungeon"
           "JALdMIC/survivethedays"
-          "Panquesito7/panqkart"
-          "dibesfer/colorlandia"
-          "mt-mods/dreambuilder_game"
-          "Nathan.S/sss"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "Hume2/boxworld3d"
-          "bell07/whynot_game"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
           "1248/regnum"
-          "rubenwardy/sfinv"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
           "EmptyStar/asuna"
           "miroptics/qiskitblocks_miro"
           "KareaGhandTrail/block_assault_mapmaker"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "Kimapr/nonsensical_skyblock"
-          "Lone_Wolf/voxel_knights"
-          "Emojiminetest/parkour"
-          "nurd3/ul_game"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
           "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
           "niwla23/runorfall"
-          "Big_Caballito/no_mans_land"
-          "sfan5/minetest_classic"
-          "Casimir/voxelgarden"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
+          "Thunder1035/pacman"
           "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
     ];
+    with_same_name = [ "rheo/smartshop" ];
+  };
+  "JALdMIC/aw_personaje_anthro" = mkLuantiMod {
+    name = "aw_personaje_anthro";
+    release = 27361;
+    hash = "1p26m2nhymcqmjvyvslcjriqnpnk27hda8fq4869cj6lk0a30wmw";
+    author = "JALdMIC";
+    provides = [ "aw_personaje_anthro" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "SilverSandstone/subtitles" = mkLuantiMod {
+    name = "subtitles";
+    release = 25264;
+    hash = "08bdnw1krbakhkq0z90ynnmb05h7n0czgqjf7m0fdb0qf8sijizp";
+    author = "SilverSandstone";
+    provides = [ "subtitles" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Krock/sneak_glitch" = mkLuantiMod {
+    name = "sneak_glitch";
+    release = 3995;
+    hash = "0nh6544vg5556apb0zqv6216liwmxfcfgc2zsj2hqr141kj7l3i1";
+    author = "Krock";
+    provides = [ "sneak_glitch" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "CalebJ/fireworks" = mkLuantiMod {
@@ -18461,13 +18537,42 @@
     ];
     with_same_name = [ ];
   };
-  "AntumDeluge/chatlog" = mkLuantiMod {
-    name = "chatlog";
-    release = 7886;
-    hash = "1ggbsiv6faha28dp5lhpfxgack9njdvkwsdcy7p1lpwr8yqa0v72";
-    author = "AntumDeluge";
-    provides = [ "chatlog" ];
-    depends = [ ];
+  "spicemines/pumpkin_pies" = mkLuantiMod {
+    name = "pumpkin_pies";
+    release = 23032;
+    hash = "02s1vkv8x3hy9gy6b19fsbk2wb8bj199xcpi70nc7ww3k7vl5c5q";
+    author = "spicemines";
+    provides = [ "pumpkin_pies" ];
+    depends = [
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Extex/real_names" = mkLuantiMod {
@@ -18476,64 +18581,6 @@
     hash = "1xjd3n1ww20zm8w9m6ddy5dgr1gk21jsz5anfacbr1y99p1p9cm8";
     author = "Extex";
     provides = [ "real_names" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "AiTechEye/smartshop" = mkLuantiMod {
-    name = "smartshop";
-    release = 903;
-    hash = "16cqq1amv83ir8m07m983g2klw35pvczllxkv0zh7czh3qdcbk31";
-    author = "AiTechEye";
-    provides = [ "smartshop" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ "rheo/smartshop" ];
-  };
-  "JALdMIC/aw_personaje_anthro" = mkLuantiMod {
-    name = "aw_personaje_anthro";
-    release = 27361;
-    hash = "1p26m2nhymcqmjvyvslcjriqnpnk27hda8fq4869cj6lk0a30wmw";
-    author = "JALdMIC";
-    provides = [ "aw_personaje_anthro" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -18546,15 +18593,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Krock/sneak_glitch" = mkLuantiMod {
-    name = "sneak_glitch";
-    release = 3995;
-    hash = "0nh6544vg5556apb0zqv6216liwmxfcfgc2zsj2hqr141kj7l3i1";
-    author = "Krock";
-    provides = [ "sneak_glitch" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "OgelGames/omnidriver" = mkLuantiMod {
     name = "omnidriver";
     release = 19391;
@@ -18562,6 +18600,46 @@
     author = "OgelGames";
     provides = [ "omnidriver" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "wsor4035/worldedit_maze" = mkLuantiMod {
+    name = "worldedit_maze";
+    release = 9509;
+    hash = "0hk9whjlr133849565ngv61r39f26381nsbn1q3cixvm709pcm48";
+    author = "wsor4035";
+    provides = [ "worldedit_maze" ];
+    depends = [
+      ({
+        name = "worldedit";
+        packages = [
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "Hume2/boxworld3d"
+          "sfan5/worldedit"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "MisterE/blockbomber_editor"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "worldedit_commands";
+        packages = [
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "Hume2/boxworld3d"
+          "sfan5/worldedit"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "cora/mcl_edit_signs" = mkLuantiMod {
@@ -18657,44 +18735,6 @@
     ];
     with_same_name = [ ];
   };
-  "spicemines/pumpkin_pies" = mkLuantiMod {
-    name = "pumpkin_pies";
-    release = 23032;
-    hash = "02s1vkv8x3hy9gy6b19fsbk2wb8bj199xcpi70nc7ww3k7vl5c5q";
-    author = "spicemines";
-    provides = [ "pumpkin_pies" ];
-    depends = [
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "AwesomeDragon97/stone_chests" = mkLuantiMod {
     name = "stone_chests";
     release = 20347;
@@ -18763,6 +18803,15 @@
     ];
     with_same_name = [ ];
   };
+  "dibesfer/datatest" = mkLuantiMod {
+    name = "datatest";
+    release = 24526;
+    hash = "1dk7qc0249h27p0y9fi7vndyh9zi0a7l1cr4wkrqmizwxfrb2gic";
+    author = "dibesfer";
+    provides = [ "datatest" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "ROllerozxa/skygrid" = mkLuantiMod {
     name = "skygrid";
     release = 11741;
@@ -18770,46 +18819,6 @@
     author = "ROllerozxa";
     provides = [ "skygrid" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "wsor4035/worldedit_maze" = mkLuantiMod {
-    name = "worldedit_maze";
-    release = 9509;
-    hash = "0hk9whjlr133849565ngv61r39f26381nsbn1q3cixvm709pcm48";
-    author = "wsor4035";
-    provides = [ "worldedit_maze" ];
-    depends = [
-      ({
-        name = "worldedit";
-        packages = [
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "Hume2/boxworld3d"
-          "sfan5/worldedit"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "MisterE/blockbomber_editor"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "worldedit_commands";
-        packages = [
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "Hume2/boxworld3d"
-          "sfan5/worldedit"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Impulse/public_tp" = mkLuantiMod {
@@ -18827,6 +18836,55 @@
     hash = "1brfmsmvyqbi223jvycj5hy7v75n82n29bd5al3fr9x3vglmpb2p";
     author = "IcyDiamond";
     provides = [ "magicalities" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Clyde/barchairs" = mkLuantiMod {
+    name = "barchairs";
+    release = 23355;
+    hash = "0qsx3vvsnchjgdqkgsami0rmp8jihnzbpfn335ijspr46igr76g8";
+    author = "Clyde";
+    provides = [ "barchairs" ];
     depends = [
       ({
         name = "default";
@@ -18934,64 +18992,6 @@
     hash = "0jmp7vn3cfnap3sf3vs16rxy4rvdd0ds0v71hlb1v4a95x4kxbhf";
     author = "AiTechEye";
     provides = [ "setpgrav" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Clyde/barchairs" = mkLuantiMod {
-    name = "barchairs";
-    release = 23355;
-    hash = "0qsx3vvsnchjgdqkgsami0rmp8jihnzbpfn335ijspr46igr76g8";
-    author = "Clyde";
-    provides = [ "barchairs" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "dibesfer/datatest" = mkLuantiMod {
-    name = "datatest";
-    release = 24526;
-    hash = "1dk7qc0249h27p0y9fi7vndyh9zi0a7l1cr4wkrqmizwxfrb2gic";
-    author = "dibesfer";
-    provides = [ "datatest" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -19316,6 +19316,15 @@
     ];
     with_same_name = [ ];
   };
+  "Ben/bewarethedark" = mkLuantiMod {
+    name = "bewarethedark";
+    release = 12991;
+    hash = "1sn9gw68h1xagld6b8xcbljq4siijf6sa04wgkhc76aihb260aji";
+    author = "Ben";
+    provides = [ "bewarethedark" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "AwesomeDragon97/large_bricks" = mkLuantiMod {
     name = "large_bricks";
     release = 17450;
@@ -19389,15 +19398,6 @@
     hash = "14x2xgbddpchx9bffy83zy9p0g9vl7m99xg4qk3gsxkqw7vfm947";
     author = "AliasAlreadyTaken";
     provides = [ "yl_googly_eyes" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Ben/bewarethedark" = mkLuantiMod {
-    name = "bewarethedark";
-    release = 12991;
-    hash = "1sn9gw68h1xagld6b8xcbljq4siijf6sa04wgkhc76aihb260aji";
-    author = "Ben";
-    provides = [ "bewarethedark" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -20821,15 +20821,6 @@
     ];
     with_same_name = [ "AiTechEye/bows" ];
   };
-  "erlehmann/unicode_text" = mkLuantiMod {
-    name = "unicode_text";
-    release = 20803;
-    hash = "0cvdz6bandam4qayw5x6nizl0q5sikm13f9cvbh586c0phn7n2hw";
-    author = "erlehmann";
-    provides = [ "unicode_text" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "TenPlus1/simple_skins" = mkLuantiMod {
     name = "simple_skins";
     release = 20158;
@@ -20877,6 +20868,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "erlehmann/unicode_text" = mkLuantiMod {
+    name = "unicode_text";
+    release = 20803;
+    hash = "0cvdz6bandam4qayw5x6nizl0q5sikm13f9cvbh586c0phn7n2hw";
+    author = "erlehmann";
+    provides = [ "unicode_text" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Liil/marinaramobs" = mkLuantiMod {
@@ -20967,24 +20967,6 @@
     ];
     with_same_name = [ ];
   };
-  "ROllerozxa/volumetric_lighting" = mkLuantiMod {
-    name = "volumetric_lighting";
-    release = 23875;
-    hash = "1dr78qpln4kr4pvgyhwg4iiqfjmjdql109mzl5vxfvk0fx5kvglk";
-    author = "ROllerozxa";
-    provides = [ "volumetric_lighting" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Sokomine/mobf_trader" = mkLuantiMod {
-    name = "mobf_trader";
-    release = 24838;
-    hash = "01zc4hcb21zz1xx4jn3gw892p9k1d15l0nk6ibq379c1dmlrlz4z";
-    author = "Sokomine";
-    provides = [ "mobf_trader" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Emojiminetest/advtrains_doors" = mkLuantiMod {
     name = "advtrains_doors";
     release = 28293;
@@ -21004,6 +20986,24 @@
         packages = [ "orwell/advtrains" ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "ROllerozxa/volumetric_lighting" = mkLuantiMod {
+    name = "volumetric_lighting";
+    release = 23875;
+    hash = "1dr78qpln4kr4pvgyhwg4iiqfjmjdql109mzl5vxfvk0fx5kvglk";
+    author = "ROllerozxa";
+    provides = [ "volumetric_lighting" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Sokomine/mobf_trader" = mkLuantiMod {
+    name = "mobf_trader";
+    release = 24838;
+    hash = "01zc4hcb21zz1xx4jn3gw892p9k1d15l0nk6ibq379c1dmlrlz4z";
+    author = "Sokomine";
+    provides = [ "mobf_trader" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "joe7575/tubelib2" = mkLuantiMod {
@@ -21102,146 +21102,6 @@
     ];
     with_same_name = [ ];
   };
-  "Marnack/classic_coaches" = mkLuantiMod {
-    name = "classic_coaches";
-    release = 25198;
-    hash = "14rcw2rmjrdm1dpmlhlx9kq2h7g3z7b2yva6l58nlfi77fvvp2wi";
-    author = "Marnack";
-    provides = [ "classic_coaches" ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "OgelGames/headlamp" = mkLuantiMod {
-    name = "headlamp";
-    release = 11435;
-    hash = "17k7azrdcbw3y7c743zmpslzr307djvw3g4aqy8bia383ml1411f";
-    author = "OgelGames";
-    provides = [ "headlamp" ];
-    depends = [
-      ({
-        name = "illumination";
-        packages = [ "mt-mods/illumination" ];
-      })
-      ({
-        name = "3d_armor";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "stu/3d_armor"
-          "Astrobe/minefall"
-          "hilol/epic_combat"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Amaz/flight" = mkLuantiMod {
-    name = "flight";
-    release = 8106;
-    hash = "0nh42svkdx3dw2bgjj29bnphg5frv2gkfia9cmcha9v5px900kzj";
-    author = "Amaz";
-    provides = [
-      "flyingcarpet"
-      "jetpack"
-      "wings"
-    ];
-    depends = [
-      ({
-        name = "playereffects";
-        packages = [
-          "1248/regnum2"
-          "Wuzzy/playereffects"
-          "MeseCraft/mesecraft"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AiTechEye/gravitygun" = mkLuantiMod {
-    name = "gravitygun";
-    release = 1002;
-    hash = "0g2gr3psf45a5ic76f81ksi4rrr8il838046qjg1f43qr1qlmx03";
-    author = "AiTechEye";
-    provides = [ "gravitygun" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "cheapie/celevator" = mkLuantiMod {
-    name = "celevator";
-    release = 27412;
-    hash = "0dhih4534l95bz58k2wipwfmvdsmyzd4nznhvl85q00pkrwpza17";
-    author = "cheapie";
-    provides = [ "celevator" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "cora/mcl_wieldlight" = mkLuantiMod {
-    name = "mcl_wieldlight";
-    release = 22713;
-    hash = "06nhxdjc45qig2pq3lgm7lx3jhc8fswpayzkbl083sbwn7ab0lbk";
-    author = "cora";
-    provides = [ "mcl_wieldlight" ];
-    depends = [
-      ({
-        name = "mcl_offhand";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TenPlus1/bees" = mkLuantiMod {
     name = "bees";
     release = 27284;
@@ -21318,12 +21178,117 @@
     ];
     with_same_name = [ ];
   };
-  "isaiah658/zoonami_3d_mobs" = mkLuantiMod {
-    name = "zoonami_3d_mobs";
-    release = 27598;
-    hash = "0x80s15xclljgiy7s5vvvihqzp7q4ji2yqdyqyagrck1r1i8yxc6";
-    author = "isaiah658";
-    provides = [ "zoonami_3d_mobs" ];
+  "Amaz/flight" = mkLuantiMod {
+    name = "flight";
+    release = 8106;
+    hash = "0nh42svkdx3dw2bgjj29bnphg5frv2gkfia9cmcha9v5px900kzj";
+    author = "Amaz";
+    provides = [
+      "flyingcarpet"
+      "jetpack"
+      "wings"
+    ];
+    depends = [
+      ({
+        name = "playereffects";
+        packages = [
+          "1248/regnum2"
+          "Wuzzy/playereffects"
+          "MeseCraft/mesecraft"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Marnack/classic_coaches" = mkLuantiMod {
+    name = "classic_coaches";
+    release = 25198;
+    hash = "14rcw2rmjrdm1dpmlhlx9kq2h7g3z7b2yva6l58nlfi77fvvp2wi";
+    author = "Marnack";
+    provides = [ "classic_coaches" ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "OgelGames/headlamp" = mkLuantiMod {
+    name = "headlamp";
+    release = 11435;
+    hash = "17k7azrdcbw3y7c743zmpslzr307djvw3g4aqy8bia383ml1411f";
+    author = "OgelGames";
+    provides = [ "headlamp" ];
+    depends = [
+      ({
+        name = "illumination";
+        packages = [ "mt-mods/illumination" ];
+      })
+      ({
+        name = "3d_armor";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "stu/3d_armor"
+          "Astrobe/minefall"
+          "hilol/epic_combat"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AiTechEye/gravitygun" = mkLuantiMod {
+    name = "gravitygun";
+    release = 1002;
+    hash = "0g2gr3psf45a5ic76f81ksi4rrr8il838046qjg1f43qr1qlmx03";
+    author = "AiTechEye";
+    provides = [ "gravitygun" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -21334,6 +21299,156 @@
     author = "D00Med";
     provides = [ "scifi_nodes" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "cheapie/celevator" = mkLuantiMod {
+    name = "celevator";
+    release = 27412;
+    hash = "0dhih4534l95bz58k2wipwfmvdsmyzd4nznhvl85q00pkrwpza17";
+    author = "cheapie";
+    provides = [ "celevator" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "cora/mcl_wieldlight" = mkLuantiMod {
+    name = "mcl_wieldlight";
+    release = 22713;
+    hash = "06nhxdjc45qig2pq3lgm7lx3jhc8fswpayzkbl083sbwn7ab0lbk";
+    author = "cora";
+    provides = [ "mcl_wieldlight" ];
+    depends = [
+      ({
+        name = "mcl_offhand";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "isaiah658/zoonami_3d_mobs" = mkLuantiMod {
+    name = "zoonami_3d_mobs";
+    release = 27598;
+    hash = "0x80s15xclljgiy7s5vvvihqzp7q4ji2yqdyqyagrck1r1i8yxc6";
+    author = "isaiah658";
+    provides = [ "zoonami_3d_mobs" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/flying_carpet" = mkLuantiMod {
+    name = "flying_carpet";
+    release = 22608;
+    hash = "0kg3gjdj45cw5zj8k7naakzz2l6k32bzfybgvcbasgv6dw4q0lc5";
+    author = "Wuzzy";
+    provides = [ "flying_carpet" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "ancientmariner/vl_skyblock" = mkLuantiMod {
+    name = "vl_skyblock";
+    release = 25466;
+    hash = "00ysffdxn4hcz82liw69gvr7i581cpzng1lpvpsx4zj9sx5zkm10";
+    author = "ancientmariner";
+    provides = [ "vl_skyblock" ];
+    depends = [
+      ({
+        name = "playerphysics";
+        packages = [
+          "Wuzzy/glitch"
+          "VoxelForge/voxelforge"
+          "Casimir/voxelgarden"
+          "Sumianvoice/pmb_core"
+          "Wuzzy/mineclone2"
+          "TestificateMods/playerphysics"
+          "Wuzzy/hades_revisited"
+          "ryvnf/mineclonia"
+          "Wuzzy/playerphysics"
+          "Wuzzy/shadow_forest"
+        ];
+      })
+      ({
+        name = "mcl_mobs";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_worlds";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/datacard" = mkLuantiMod {
+    name = "datacard";
+    release = 28248;
+    hash = "17r7ap0997izsv06l7r1rc7j4zblc140qy8d954414vr5paiyag2";
+    author = "Emojiminetest";
+    provides = [ "datacard" ];
+    depends = [
+      ({
+        name = "digilines";
+        packages = [
+          "Jeija/digilines"
+          "BuckarooBanzay/mesecons_lab"
+          "BRNSystems/blocky_portaling"
+          "mt-mods/dreambuilder_game"
+          "MeseCraft/mesecraft"
+          "Kimapr/nonsensical_skyblock"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "JALdMIC/assets_warehouse" = mkLuantiMod {
@@ -21516,112 +21631,6 @@
     ];
     with_same_name = [ ];
   };
-  "ancientmariner/vl_skyblock" = mkLuantiMod {
-    name = "vl_skyblock";
-    release = 25466;
-    hash = "00ysffdxn4hcz82liw69gvr7i581cpzng1lpvpsx4zj9sx5zkm10";
-    author = "ancientmariner";
-    provides = [ "vl_skyblock" ];
-    depends = [
-      ({
-        name = "playerphysics";
-        packages = [
-          "Wuzzy/glitch"
-          "VoxelForge/voxelforge"
-          "Casimir/voxelgarden"
-          "Sumianvoice/pmb_core"
-          "Wuzzy/mineclone2"
-          "TestificateMods/playerphysics"
-          "Wuzzy/hades_revisited"
-          "ryvnf/mineclonia"
-          "Wuzzy/playerphysics"
-          "Wuzzy/shadow_forest"
-        ];
-      })
-      ({
-        name = "mcl_mobs";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_worlds";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Emojiminetest/datacard" = mkLuantiMod {
-    name = "datacard";
-    release = 28248;
-    hash = "17r7ap0997izsv06l7r1rc7j4zblc140qy8d954414vr5paiyag2";
-    author = "Emojiminetest";
-    provides = [ "datacard" ];
-    depends = [
-      ({
-        name = "digilines";
-        packages = [
-          "Jeija/digilines"
-          "BuckarooBanzay/mesecons_lab"
-          "BRNSystems/blocky_portaling"
-          "mt-mods/dreambuilder_game"
-          "MeseCraft/mesecraft"
-          "Kimapr/nonsensical_skyblock"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "lisacvuk/toolranks" = mkLuantiMod {
     name = "toolranks";
     release = 6378;
@@ -21669,15 +21678,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/flying_carpet" = mkLuantiMod {
-    name = "flying_carpet";
-    release = 22608;
-    hash = "0kg3gjdj45cw5zj8k7naakzz2l6k32bzfybgvcbasgv6dw4q0lc5";
-    author = "Wuzzy";
-    provides = [ "flying_carpet" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "mt-mods/new_campfire" = mkLuantiMod {
@@ -21835,15 +21835,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Mantar/visual_harm_1ndicators" = mkLuantiMod {
-    name = "visual_harm_1ndicators";
-    release = 26840;
-    hash = "1cfbg7kilj2m984zvf0x06vkcsw2i8c5chbkv5kaz14ik3ym5gw3";
-    author = "Mantar";
-    provides = [ "visual_harm_1ndicators" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Thunder1035/the_build_spawner" = mkLuantiMod {
@@ -22097,6 +22088,15 @@
     ];
     with_same_name = [ ];
   };
+  "Mantar/visual_harm_1ndicators" = mkLuantiMod {
+    name = "visual_harm_1ndicators";
+    release = 26840;
+    hash = "1cfbg7kilj2m984zvf0x06vkcsw2i8c5chbkv5kaz14ik3ym5gw3";
+    author = "Mantar";
+    provides = [ "visual_harm_1ndicators" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "KingSmarty/rainbow_ore" = mkLuantiMod {
     name = "rainbow_ore";
     release = 8775;
@@ -22104,6 +22104,113 @@
     author = "KingSmarty";
     provides = [ "rainbow_ore" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "Epoxum/uraniumstuff" = mkLuantiMod {
+    name = "uraniumstuff";
+    release = 14477;
+    hash = "19ipa7hzsmah068f906cpk19xm170x2dvj16jlpha583hfz6ad35";
+    author = "Epoxum";
+    provides = [ "uraniumstuff" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/mana" = mkLuantiMod {
+    name = "mana";
+    release = 18077;
+    hash = "0jrjiysz2d2f4jvk02ap6l6sp1f0x0bg2rljphnmf18hnpmfva4g";
+    author = "Wuzzy";
+    provides = [ "mana" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/tsm_pyramids" = mkLuantiMod {
+    name = "tsm_pyramids";
+    release = 14415;
+    hash = "1kq8lld6xw7pdw6n5jazqxv8r83fph2jqf5p6fg8b7hbjn2nm8ld";
+    author = "Wuzzy";
+    provides = [ "tsm_pyramids" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Liil/livingfloatlands" = mkLuantiMod {
@@ -22220,64 +22327,6 @@
     ];
     with_same_name = [ ];
   };
-  "Epoxum/uraniumstuff" = mkLuantiMod {
-    name = "uraniumstuff";
-    release = 14477;
-    hash = "19ipa7hzsmah068f906cpk19xm170x2dvj16jlpha583hfz6ad35";
-    author = "Epoxum";
-    provides = [ "uraniumstuff" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/mana" = mkLuantiMod {
-    name = "mana";
-    release = 18077;
-    hash = "0jrjiysz2d2f4jvk02ap6l6sp1f0x0bg2rljphnmf18hnpmfva4g";
-    author = "Wuzzy";
-    provides = [ "mana" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "FaceDeer/castle_gates" = mkLuantiMod {
     name = "castle_gates";
     release = 23817;
@@ -22341,55 +22390,6 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/tsm_pyramids" = mkLuantiMod {
-    name = "tsm_pyramids";
-    release = 14415;
-    hash = "1kq8lld6xw7pdw6n5jazqxv8r83fph2jqf5p6fg8b7hbjn2nm8ld";
-    author = "Wuzzy";
-    provides = [ "tsm_pyramids" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "sylvester_kruin/tieless_tracks" = mkLuantiMod {
     name = "tieless_tracks";
     release = 25854;
@@ -22404,149 +22404,6 @@
       ({
         name = "advtrains";
         packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "BuckarooBanzay/citygen" = mkLuantiMod {
-    name = "citygen";
-    release = 12286;
-    hash = "0z3z80pg33c8a9vzrz2v7k8wwknd0gyw72cgm61jpqnwyajgr9nw";
-    author = "BuckarooBanzay";
-    provides = [ "citygen" ];
-    depends = [
-      ({
-        name = "moreblocks";
-        packages = [
-          "Just_Visiting/littlelady"
-          "BuckarooBanzay/super_sam"
-          "Kimapr/nonsensical_skyblock"
-          "Panquesito7/panqkart"
-          "Calinou/moreblocks"
-          "rheo/moreblocks"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "mapblock_lib";
-        packages = [ "BuckarooBanzay/mapblock_lib" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Dragonop/tools_obsidian" = mkLuantiMod {
-    name = "tools_obsidian";
-    release = 6102;
-    hash = "0r3h4s0zx3c980a0c2vk8sspq9hamflwzw4qm627ing549dlrwpj";
-    author = "Dragonop";
-    provides = [ "tools_obsidian" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "bucket";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
       })
     ];
     with_same_name = [ ];
@@ -22741,6 +22598,73 @@
     ];
     with_same_name = [ ];
   };
+  "BuckarooBanzay/citygen" = mkLuantiMod {
+    name = "citygen";
+    release = 12286;
+    hash = "0z3z80pg33c8a9vzrz2v7k8wwknd0gyw72cgm61jpqnwyajgr9nw";
+    author = "BuckarooBanzay";
+    provides = [ "citygen" ];
+    depends = [
+      ({
+        name = "moreblocks";
+        packages = [
+          "Just_Visiting/littlelady"
+          "BuckarooBanzay/super_sam"
+          "Kimapr/nonsensical_skyblock"
+          "Panquesito7/panqkart"
+          "Calinou/moreblocks"
+          "rheo/moreblocks"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "mapblock_lib";
+        packages = [ "BuckarooBanzay/mapblock_lib" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "SkyBuilder1717/hardcore_mode" = mkLuantiMod {
     name = "hardcore_mode";
     release = 28186;
@@ -22794,12 +22718,137 @@
     ];
     with_same_name = [ ];
   };
+  "Dragonop/tools_obsidian" = mkLuantiMod {
+    name = "tools_obsidian";
+    release = 6102;
+    hash = "0r3h4s0zx3c980a0c2vk8sspq9hamflwzw4qm627ing549dlrwpj";
+    author = "Dragonop";
+    provides = [ "tools_obsidian" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "JAstudios/moreswords" = mkLuantiMod {
     name = "moreswords";
     release = 9585;
     hash = "18ymjl5w9vhw4a8lb66vb976ifri31h205v532q6zbm7h12n0ym2";
     author = "JAstudios";
     provides = [ "moreswords" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "loosewheel/lwcomputers" = mkLuantiMod {
+    name = "lwcomputers";
+    release = 12556;
+    hash = "0krdnnbdvdw24aa1qrb72s7gqsa3zynvf197gyrm51k67laq9jdi";
+    author = "loosewheel";
+    provides = [ "lwcomputers" ];
     depends = [
       ({
         name = "default";
@@ -22947,55 +22996,6 @@
     ];
     with_same_name = [ ];
   };
-  "loosewheel/lwcomputers" = mkLuantiMod {
-    name = "lwcomputers";
-    release = 12556;
-    hash = "0krdnnbdvdw24aa1qrb72s7gqsa3zynvf197gyrm51k67laq9jdi";
-    author = "loosewheel";
-    provides = [ "lwcomputers" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "mt-mods/meseportals" = mkLuantiMod {
     name = "meseportals";
     release = 23194;
@@ -23085,6 +23085,27 @@
           "bell07/whynot_game"
           "apercy/airutils"
         ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Nazalassa/advtrains_info_displays" = mkLuantiMod {
+    name = "advtrains_info_displays";
+    release = 27005;
+    hash = "1r70vk7k7cjxqydjabwamdsnnki9c7g24h55la78j0z48vnvyp6k";
+    author = "Nazalassa";
+    provides = [ "advtrains_info_displays" ];
+    depends = [
+      ({
+        name = "font_api";
+        packages = [
+          "mt-mods/display_modpack"
+          "BuckarooBanzay/mesecons_lab"
+        ];
+      })
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
       })
     ];
     with_same_name = [ ];
@@ -23345,157 +23366,6 @@
     ];
     with_same_name = [ ];
   };
-  "SilverSandstone/deepslate" = mkLuantiMod {
-    name = "deepslate";
-    release = 17511;
-    hash = "05wjx56jidik824csy8jqs6apq9bd49lwqlldw6vzxavj3qwc8gc";
-    author = "SilverSandstone";
-    provides = [ "deepslate" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "hopefull/medieval_weapons" = mkLuantiMod {
-    name = "medieval_weapons";
-    release = 13581;
-    hash = "1p9cbpcyadgpl22y7cfhkip0sawa02n0w2fxn5ayvqd4s2bng33k";
-    author = "hopefull";
-    provides = [ "medieval_weapons" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Nazalassa/advtrains_info_displays" = mkLuantiMod {
-    name = "advtrains_info_displays";
-    release = 27005;
-    hash = "1r70vk7k7cjxqydjabwamdsnnki9c7g24h55la78j0z48vnvyp6k";
-    author = "Nazalassa";
-    provides = [ "advtrains_info_displays" ];
-    depends = [
-      ({
-        name = "font_api";
-        packages = [
-          "mt-mods/display_modpack"
-          "BuckarooBanzay/mesecons_lab"
-        ];
-      })
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "alerikaisattera/geodes_lib" = mkLuantiMod {
-    name = "geodes_lib";
-    release = 27530;
-    hash = "02p0dmsk4vdwwqj46hsqrc81gjak09r400ayk94bjqzspwi28pgz";
-    author = "alerikaisattera";
-    provides = [ "geodes_lib" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Termos/sailing_kit" = mkLuantiMod {
-    name = "sailing_kit";
-    release = 6033;
-    hash = "1lwrgai1622d1a6a6pbx0c6gamrwlsd370am4aiqpnlr25819977";
-    author = "Termos";
-    provides = [ "sailing_kit" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "mobkit";
-        packages = [
-          "benrob0329/ikea"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "talas/colourhop"
-          "wsor4035/minekart"
-          "Lone_Wolf/voxel_knights"
-          "Mantar/exile"
-          "mt-mods/mobkit"
-          "wsor4035/farlands_reloaded"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Krunegan/waypoints" = mkLuantiMod {
     name = "waypoints";
     release = 25432;
@@ -23505,12 +23375,70 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "SilverSandstone/deepslate" = mkLuantiMod {
+    name = "deepslate";
+    release = 17511;
+    hash = "05wjx56jidik824csy8jqs6apq9bd49lwqlldw6vzxavj3qwc8gc";
+    author = "SilverSandstone";
+    provides = [ "deepslate" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "X17/charcoal" = mkLuantiMod {
     name = "charcoal";
     release = 10549;
     hash = "0ysc7p1z40f3s761d09xcsxqsma07i0b7w891ccfycyasv868c3d";
     author = "X17";
     provides = [ "charcoal" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "hopefull/medieval_weapons" = mkLuantiMod {
+    name = "medieval_weapons";
+    release = 13581;
+    hash = "1p9cbpcyadgpl22y7cfhkip0sawa02n0w2fxn5ayvqd4s2bng33k";
+    author = "hopefull";
+    provides = [ "medieval_weapons" ];
     depends = [
       ({
         name = "default";
@@ -23612,6 +23540,105 @@
     ];
     with_same_name = [ ];
   };
+  "alerikaisattera/geodes_lib" = mkLuantiMod {
+    name = "geodes_lib";
+    release = 27530;
+    hash = "02p0dmsk4vdwwqj46hsqrc81gjak09r400ayk94bjqzspwi28pgz";
+    author = "alerikaisattera";
+    provides = [ "geodes_lib" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Termos/sailing_kit" = mkLuantiMod {
+    name = "sailing_kit";
+    release = 6033;
+    hash = "1lwrgai1622d1a6a6pbx0c6gamrwlsd370am4aiqpnlr25819977";
+    author = "Termos";
+    provides = [ "sailing_kit" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "mobkit";
+        packages = [
+          "benrob0329/ikea"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "talas/colourhop"
+          "wsor4035/minekart"
+          "Lone_Wolf/voxel_knights"
+          "Mantar/exile"
+          "mt-mods/mobkit"
+          "wsor4035/farlands_reloaded"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "mt-mods/factory_bridges" = mkLuantiMod {
+    name = "factory_bridges";
+    release = 23823;
+    hash = "0rcdglj1kai8zwn6sclp419hbsv9d6mkrn6as1a9dw8n7f83n1dj";
+    author = "mt-mods";
+    provides = [ "factory_bridges" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "AFCM/farming_flood" = mkLuantiMod {
+    name = "farming_flood";
+    release = 6869;
+    hash = "0q1zxyim385r8pqzx78wvgmfsd1w9x95fbsj51iwdmcgaycdr9aq";
+    author = "AFCM";
+    provides = [ "farming_flood" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "rudzik8/bushy_leaves" = mkLuantiMod {
+    name = "bushy_leaves";
+    release = 27845;
+    hash = "1hdwrqqvg8mb54dwzipc0mslvcbq5hdnirifhdnhji846iqpw5xy";
+    author = "rudzik8";
+    provides = [ "bushy_leaves" ];
+    depends = [ ];
+    with_same_name = [ "erlehmann/bushy_leaves" ];
+  };
   "Ant_92/mcl_glass_doors" = mkLuantiMod {
     name = "mcl_glass_doors";
     release = 27566;
@@ -23654,24 +23681,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "mt-mods/factory_bridges" = mkLuantiMod {
-    name = "factory_bridges";
-    release = 23823;
-    hash = "0rcdglj1kai8zwn6sclp419hbsv9d6mkrn6as1a9dw8n7f83n1dj";
-    author = "mt-mods";
-    provides = [ "factory_bridges" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "AFCM/farming_flood" = mkLuantiMod {
-    name = "farming_flood";
-    release = 6869;
-    hash = "0q1zxyim385r8pqzx78wvgmfsd1w9x95fbsj51iwdmcgaycdr9aq";
-    author = "AFCM";
-    provides = [ "farming_flood" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Liil/moretorches" = mkLuantiMod {
@@ -23723,14 +23732,60 @@
     ];
     with_same_name = [ ];
   };
-  "rudzik8/bushy_leaves" = mkLuantiMod {
-    name = "bushy_leaves";
-    release = 27845;
-    hash = "1hdwrqqvg8mb54dwzipc0mslvcbq5hdnirifhdnhji846iqpw5xy";
-    author = "rudzik8";
-    provides = [ "bushy_leaves" ];
+  "FaceDeer/airtanks" = mkLuantiMod {
+    name = "airtanks";
+    release = 13920;
+    hash = "1m35aw4wk1rdvyj8drb08fk8yvam68hlknzi7ajpqc977ala47s3";
+    author = "FaceDeer";
+    provides = [ "airtanks" ];
     depends = [ ];
-    with_same_name = [ "erlehmann/bushy_leaves" ];
+    with_same_name = [ ];
+  };
+  "TX_Miner/mcl_better_end" = mkLuantiMod {
+    name = "mcl_better_end";
+    release = 27828;
+    hash = "1abynlzbm0yajmsksv8d516j40yz3p5f4dzv359y3fmqq6995nb5";
+    author = "TX_Miner";
+    provides = [ "mcl_better_end" ];
+    depends = [
+      ({
+        name = "mcl_mapgen_core";
+        packages = [
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+        ];
+      })
+      ({
+        name = "mobs_mc";
+        packages = [
+          "VoxelForge/voxelforge"
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+        ];
+      })
+      ({
+        name = "mcl_flowers";
+        packages = [
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+        ];
+      })
+      ({
+        name = "mcl_end";
+        packages = [
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+        ];
+      })
+    ];
+    with_same_name = [ ];
   };
   "Thomas-S/ts_doors" = mkLuantiMod {
     name = "ts_doors";
@@ -23958,6 +24013,88 @@
     ];
     with_same_name = [ ];
   };
+  "Lunovox/minertrade" = mkLuantiMod {
+    name = "minertrade";
+    release = 28296;
+    hash = "081n8ps280mjzz57l4ja29l1pwql83y76fzpayvkfm712ph8ipq0";
+    author = "Lunovox";
+    provides = [ "minertrade" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Minetest/minetest_game"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "mt-mods/dreambuilder_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "hilol/epic_combat"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "cheapie/solidcolor" = mkLuantiMod {
     name = "solidcolor";
     release = 27376;
@@ -23978,59 +24115,22 @@
     ];
     with_same_name = [ ];
   };
-  "FaceDeer/airtanks" = mkLuantiMod {
-    name = "airtanks";
-    release = 13920;
-    hash = "1m35aw4wk1rdvyj8drb08fk8yvam68hlknzi7ajpqc977ala47s3";
-    author = "FaceDeer";
-    provides = [ "airtanks" ];
+  "SFENCE/painting" = mkLuantiMod {
+    name = "painting";
+    release = 26927;
+    hash = "0pvnwr4mj0q30xpca8n6hikd36w42q2r9skr72bx0n20q5bvv2hd";
+    author = "SFENCE";
+    provides = [ "painting" ];
     depends = [ ];
     with_same_name = [ ];
   };
-  "TX_Miner/mcl_better_end" = mkLuantiMod {
-    name = "mcl_better_end";
-    release = 27828;
-    hash = "1abynlzbm0yajmsksv8d516j40yz3p5f4dzv359y3fmqq6995nb5";
-    author = "TX_Miner";
-    provides = [ "mcl_better_end" ];
-    depends = [
-      ({
-        name = "mcl_mapgen_core";
-        packages = [
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-        ];
-      })
-      ({
-        name = "mobs_mc";
-        packages = [
-          "VoxelForge/voxelforge"
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-        ];
-      })
-      ({
-        name = "mcl_flowers";
-        packages = [
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-        ];
-      })
-      ({
-        name = "mcl_end";
-        packages = [
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-        ];
-      })
-    ];
+  "ApolloX/home_point" = mkLuantiMod {
+    name = "home_point";
+    release = 12863;
+    hash = "1p0vbk3g4hv0sn9y13ynrs543gj39705a4ydn016a6pr6zs4g7wn";
+    author = "ApolloX";
+    provides = [ "home_point" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "TumeniNodes/c_doors" = mkLuantiMod {
@@ -24223,21 +24323,12 @@
     ];
     with_same_name = [ ];
   };
-  "SFENCE/painting" = mkLuantiMod {
-    name = "painting";
-    release = 26927;
-    hash = "0pvnwr4mj0q30xpca8n6hikd36w42q2r9skr72bx0n20q5bvv2hd";
-    author = "SFENCE";
-    provides = [ "painting" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ApolloX/home_point" = mkLuantiMod {
-    name = "home_point";
-    release = 12863;
-    hash = "1p0vbk3g4hv0sn9y13ynrs543gj39705a4ydn016a6pr6zs4g7wn";
-    author = "ApolloX";
-    provides = [ "home_point" ];
+  "kestral/hud_compass" = mkLuantiMod {
+    name = "hud_compass";
+    release = 3553;
+    hash = "1bsqlizjz46zyd5rxls5x2rz3wmj1y803i4aix54ykaaxaa583zi";
+    author = "kestral";
+    provides = [ "hud_compass" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -24362,21 +24453,13 @@
     ];
     with_same_name = [ ];
   };
-  "ketwaroo/mcl_misk_recipes" = mkLuantiMod {
-    name = "mcl_misk_recipes";
-    release = 23454;
-    hash = "16rfmkn4g22z1zjz2hsg43xd6b6q431ipjwgdi2483dyay8gghz1";
-    author = "ketwaroo";
-    provides = [ "mcl_misk_recipes" ];
-    depends = [
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
+  "FaceDeer/death_compass" = mkLuantiMod {
+    name = "death_compass";
+    release = 23470;
+    hash = "1dww8axh41hz74hyk030hlhj1bjan18x6diawjqrhwfpwh9vf8zl";
+    author = "FaceDeer";
+    provides = [ "death_compass" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "SpaghettiToastBook/beacons" = mkLuantiMod {
@@ -24388,132 +24471,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "kestral/hud_compass" = mkLuantiMod {
-    name = "hud_compass";
-    release = 3553;
-    hash = "1bsqlizjz46zyd5rxls5x2rz3wmj1y803i4aix54ykaaxaa583zi";
-    author = "kestral";
-    provides = [ "hud_compass" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "giov4/skills" = mkLuantiMod {
-    name = "skills";
-    release = 26307;
-    hash = "1gl2q19qhwbagsd8ghkgv6zbi3g2w3l56qnp3nl88615dvg4ci6k";
-    author = "giov4";
-    provides = [ "skills" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "HeroOfTheWinds/caverealms" = mkLuantiMod {
-    name = "caverealms";
-    release = 38;
-    hash = "1shrglhljnqqw0g82b9alv3bn5vf0rs6wqvadhqfz0sx98g9x1ch";
-    author = "HeroOfTheWinds";
-    provides = [ "caverealms" ];
+  "ketwaroo/mcl_misk_recipes" = mkLuantiMod {
+    name = "mcl_misk_recipes";
+    release = 23454;
+    hash = "16rfmkn4g22z1zjz2hsg43xd6b6q431ipjwgdi2483dyay8gghz1";
+    author = "ketwaroo";
+    provides = [ "mcl_misk_recipes" ];
     depends = [
       ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ "Shara/caverealms" ];
-  };
-  "karamel/naturalslopeslib" = mkLuantiMod {
-    name = "naturalslopeslib";
-    release = 12020;
-    hash = "1p2iy7il1p97j3bbfzvmiv7ffyvvpcpbc6j6ir41qbq10ggkwp19";
-    author = "karamel";
-    provides = [ "naturalslopeslib" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "SingleDigitIQ/cozylights" = mkLuantiMod {
-    name = "cozylights";
-    release = 26277;
-    hash = "0y0c62678kp89cj435s2sm8l073580g2kvddfxsk26dpmy4hhirg";
-    author = "SingleDigitIQ";
-    provides = [ "cozylights" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Zughy/magic_compass" = mkLuantiMod {
-    name = "magic_compass";
-    release = 28055;
-    hash = "192fxvjcrjwgyvb30dnmcvfklzs6694z86p91b4i10i82mi1mkpj";
-    author = "Zughy";
-    provides = [ "magic_compass" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "waxtatect/basic_machines" = mkLuantiMod {
-    name = "basic_machines";
-    release = 26331;
-    hash = "12bxx4b8318k9xcbb8r5jdm5kyvrr6r5f3rrgjkdw4aws0ykhhmn";
-    author = "waxtatect";
-    provides = [ "basic_machines" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "solsword/mcl_rocky_tools" = mkLuantiMod {
-    name = "mcl_rocky_tools";
-    release = 20617;
-    hash = "00ixsdmlnwkdzwxpy9hxkyi5wvp6r8insjha37dibgfp022nw9rx";
-    author = "solsword";
-    provides = [ "mcl_rocky_tools" ];
-    depends = [
-      ({
-        name = "mcl_tools";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_farming";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_deepslate";
+        name = "mcl_core";
         packages = [
           "Wuzzy/mineclone2"
           "ryvnf/mineclonia"
@@ -24620,12 +24586,30 @@
     ];
     with_same_name = [ ];
   };
-  "Lunovox/minertrade" = mkLuantiMod {
-    name = "minertrade";
-    release = 28296;
-    hash = "081n8ps280mjzz57l4ja29l1pwql83y76fzpayvkfm712ph8ipq0";
-    author = "Lunovox";
-    provides = [ "minertrade" ];
+  "Zughy/magic_compass" = mkLuantiMod {
+    name = "magic_compass";
+    release = 28055;
+    hash = "192fxvjcrjwgyvb30dnmcvfklzs6694z86p91b4i10i82mi1mkpj";
+    author = "Zughy";
+    provides = [ "magic_compass" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "giov4/skills" = mkLuantiMod {
+    name = "skills";
+    release = 26307;
+    hash = "1gl2q19qhwbagsd8ghkgv6zbi3g2w3l56qnp3nl88615dvg4ci6k";
+    author = "giov4";
+    provides = [ "skills" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "HeroOfTheWinds/caverealms" = mkLuantiMod {
+    name = "caverealms";
+    release = 38;
+    hash = "1shrglhljnqqw0g82b9alv3bn5vf0rs6wqvadhqfz0sx98g9x1ch";
+    author = "HeroOfTheWinds";
+    provides = [ "caverealms" ];
     depends = [
       ({
         name = "default";
@@ -24633,82 +24617,179 @@
           "rubenwardy/capturetheflag"
           "AiTechEye/xaenvironment"
           "Hi_World/newplanet"
-          "Minetest/minetest_game"
           "Noodlemire/voxeldungeon"
           "JALdMIC/survivethedays"
           "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
           "1248/regnum2"
           "1248/castrum"
-          "mt-mods/dreambuilder_game"
           "Panquesito7/panqkart"
           "MeseCraft/mesecraft"
           "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
           "EmptyStar/asuna"
           "miroptics/qiskitblocks_miro"
           "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
           "Amaz/lordofthetest"
           "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
           "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
+          "mt-mods/dreambuilder_game"
           "giga-turbo/codecube"
           "niwla23/runorfall"
           "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
           "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
           "TheFanne/raining_nodes"
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
+    ];
+    with_same_name = [ "Shara/caverealms" ];
+  };
+  "karamel/naturalslopeslib" = mkLuantiMod {
+    name = "naturalslopeslib";
+    release = 12020;
+    hash = "1p2iy7il1p97j3bbfzvmiv7ffyvvpcpbc6j6ir41qbq10ggkwp19";
+    author = "karamel";
+    provides = [ "naturalslopeslib" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "debiankaios/alien_material" = mkLuantiMod {
+    name = "alien_material";
+    release = 26597;
+    hash = "0mqw5jqizhw4imii62hsbfl45ylwd0g4d8ygfk9i3284kcb9jvj2";
+    author = "debiankaios";
+    provides = [ "alien_material" ];
+    depends = [
       ({
-        name = "dye";
+        name = "default";
         packages = [
           "rubenwardy/capturetheflag"
-          "Minetest/minetest_game"
+          "AiTechEye/xaenvironment"
           "Hi_World/newplanet"
           "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
           "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "mt-mods/dreambuilder_game"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
           "1248/regnum2"
-          "MeseCraft/mesecraft"
           "1248/castrum"
           "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "1248/regnum"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
           "EmptyStar/asuna"
           "miroptics/qiskitblocks_miro"
           "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
           "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
           "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
+          "mt-mods/dreambuilder_game"
           "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
           "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
           "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
-          "hilol/epic_combat"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
     ];
     with_same_name = [ ];
   };
-  "FaceDeer/death_compass" = mkLuantiMod {
-    name = "death_compass";
-    release = 23470;
-    hash = "1dww8axh41hz74hyk030hlhj1bjan18x6diawjqrhwfpwh9vf8zl";
-    author = "FaceDeer";
-    provides = [ "death_compass" ];
+  "SingleDigitIQ/cozylights" = mkLuantiMod {
+    name = "cozylights";
+    release = 26277;
+    hash = "0y0c62678kp89cj435s2sm8l073580g2kvddfxsk26dpmy4hhirg";
+    author = "SingleDigitIQ";
+    provides = [ "cozylights" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "waxtatect/basic_machines" = mkLuantiMod {
+    name = "basic_machines";
+    release = 26331;
+    hash = "12bxx4b8318k9xcbb8r5jdm5kyvrr6r5f3rrgjkdw4aws0ykhhmn";
+    author = "waxtatect";
+    provides = [ "basic_machines" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "solsword/mcl_rocky_tools" = mkLuantiMod {
+    name = "mcl_rocky_tools";
+    release = 20617;
+    hash = "00ixsdmlnwkdzwxpy9hxkyi5wvp6r8insjha37dibgfp022nw9rx";
+    author = "solsword";
+    provides = [ "mcl_rocky_tools" ];
+    depends = [
+      ({
+        name = "mcl_tools";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_farming";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_deepslate";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "philipmi/regrowing_fruits" = mkLuantiMod {
+    name = "regrowing_fruits";
+    release = 20218;
+    hash = "0kcp79qx841yxmi2lhbln7br32sw175b1fxk4gyk2v9krwbbyadw";
+    author = "philipmi";
+    provides = [ "regrowing_fruits" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Just_Visiting/markdown2formspec" = mkLuantiMod {
+    name = "markdown2formspec";
+    release = 16630;
+    hash = "03r57c0hvys8fz9gb419dpv09x1ks6wl985zl6d711s21b82wal2";
+    author = "Just_Visiting";
+    provides = [ "markdown2formspec" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "cora/mcla_classical_music" = mkLuantiMod {
+    name = "mcla_classical_music";
+    release = 24348;
+    hash = "082v3ln1qzzdr2dskp29ynnnqp2q9xispwa6sw2impgjil09kd4i";
+    author = "cora";
+    provides = [ "mcla_classical_music" ];
+    depends = [
+      ({
+        name = "mcla_music_api";
+        packages = [ "cora/mcla_music_api" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Nathan.S/drinks" = mkLuantiMod {
@@ -24935,15 +25016,6 @@
     ];
     with_same_name = [ ];
   };
-  "Just_Visiting/markdown2formspec" = mkLuantiMod {
-    name = "markdown2formspec";
-    release = 16630;
-    hash = "03r57c0hvys8fz9gb419dpv09x1ks6wl985zl6d711s21b82wal2";
-    author = "Just_Visiting";
-    provides = [ "markdown2formspec" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "doxygen_spammer/morelights_dim" = mkLuantiMod {
     name = "morelights_dim";
     release = 19488;
@@ -24978,21 +25050,21 @@
     ];
     with_same_name = [ ];
   };
+  "GreenXenith/christmas_decor" = mkLuantiMod {
+    name = "christmas_decor";
+    release = 22837;
+    hash = "0vdfm02r258kvdy6bs746jbxsifs67rcg8as1h8xippq5ll45krd";
+    author = "GreenXenith";
+    provides = [ "christmas_decor" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "sirrobzeroone/worm_farm" = mkLuantiMod {
     name = "worm_farm";
     release = 13023;
     hash = "10fwy99bdabq4hqd9scz7vcscqcwnaypnrvz3m1zmc8rgh9yix29";
     author = "sirrobzeroone";
     provides = [ "worm_farm" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "philipmi/regrowing_fruits" = mkLuantiMod {
-    name = "regrowing_fruits";
-    release = 20218;
-    hash = "0kcp79qx841yxmi2lhbln7br32sw175b1fxk4gyk2v9krwbbyadw";
-    author = "philipmi";
-    provides = [ "regrowing_fruits" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -25010,15 +25082,6 @@
     ];
     with_same_name = [ ];
   };
-  "GreenXenith/christmas_decor" = mkLuantiMod {
-    name = "christmas_decor";
-    release = 22837;
-    hash = "0vdfm02r258kvdy6bs746jbxsifs67rcg8as1h8xippq5ll45krd";
-    author = "GreenXenith";
-    provides = [ "christmas_decor" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "StarNinjas/spyglass" = mkLuantiMod {
     name = "spyglass";
     release = 20072;
@@ -25026,333 +25089,6 @@
     author = "StarNinjas";
     provides = [ "spyglass" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "cora/mcla_classical_music" = mkLuantiMod {
-    name = "mcla_classical_music";
-    release = 24348;
-    hash = "082v3ln1qzzdr2dskp29ynnnqp2q9xispwa6sw2impgjil09kd4i";
-    author = "cora";
-    provides = [ "mcla_classical_music" ];
-    depends = [
-      ({
-        name = "mcla_music_api";
-        packages = [ "cora/mcla_music_api" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Neuromancer/terraria" = mkLuantiMod {
-    name = "terraria";
-    release = 22138;
-    hash = "0q7jd4yyvc90rvf8kbxf47yiig4z204lcqlxjkz9pgqz77yirj1d";
-    author = "Neuromancer";
-    provides = [ "terraria" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "FaceDeer/castle_shields" = mkLuantiMod {
-    name = "castle_shields";
-    release = 22101;
-    hash = "00r50hrynm7gw7afld8s9dja71j204xrzlb4qpfa974izk4p2xsg";
-    author = "FaceDeer";
-    provides = [ "castle_shields" ];
-    depends = [
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "FaceDeer/castle_tapestries" = mkLuantiMod {
-    name = "castle_tapestries";
-    release = 18858;
-    hash = "01ji2b0qk2hp34kap78cywy7rgrdxc61z90mvqqgsqjq90kr7iwi";
-    author = "FaceDeer";
-    provides = [ "castle_tapestries" ];
-    depends = [
-      ({
-        name = "wool";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "miroptics/qiskitblocks_miro"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "unifieddyes";
-        packages = [
-          "mt-mods/unifieddyes"
-          "bell07/whynot_game"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Emojiminetest/moretubes" = mkLuantiMod {
-    name = "moretubes";
-    release = 25475;
-    hash = "1ajgsx8bxn0892zlbj7rirmzzpbhilmkrk85ayaarr0vl50gslsh";
-    author = "Emojiminetest";
-    provides = [ "moretubes" ];
-    depends = [
-      ({
-        name = "xcompat";
-        packages = [
-          "mt-mods/xcompat"
-          "BuckarooBanzay/super_sam"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "pipeworks";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "zanderdev/skyblock_zero"
-          "Wuzzy/hades_revisited"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "mt-mods/pipeworks"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Sokomine/windmill" = mkLuantiMod {
-    name = "windmill";
-    release = 22093;
-    hash = "1kkqv8zw8jns18dzcdg50ga7dbvzgbkdkhl1w8swlxafq541ka3r";
-    author = "Sokomine";
-    provides = [ "windmill" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "debiankaios/alien_material" = mkLuantiMod {
-    name = "alien_material";
-    release = 26597;
-    hash = "0mqw5jqizhw4imii62hsbfl45ylwd0g4d8ygfk9i3284kcb9jvj2";
-    author = "debiankaios";
-    provides = [ "alien_material" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "NathanielFreeman/bones" = mkLuantiMod {
@@ -25579,6 +25315,324 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "Neuromancer/terraria" = mkLuantiMod {
+    name = "terraria";
+    release = 22138;
+    hash = "0q7jd4yyvc90rvf8kbxf47yiig4z204lcqlxjkz9pgqz77yirj1d";
+    author = "Neuromancer";
+    provides = [ "terraria" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "FaceDeer/castle_shields" = mkLuantiMod {
+    name = "castle_shields";
+    release = 22101;
+    hash = "00r50hrynm7gw7afld8s9dja71j204xrzlb4qpfa974izk4p2xsg";
+    author = "FaceDeer";
+    provides = [ "castle_shields" ];
+    depends = [
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Koda_/gemstones" = mkLuantiMod {
+    name = "gemstones";
+    release = 5671;
+    hash = "1mz7kdx7d9qx2iv9dv7ymqm2987p2fb6s6xpjp7l8cr96s2i8mbr";
+    author = "Koda_";
+    provides = [
+      "amethyst"
+      "emerald"
+      "ruby"
+      "sapphire"
+    ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "FaceDeer/castle_tapestries" = mkLuantiMod {
+    name = "castle_tapestries";
+    release = 18858;
+    hash = "01ji2b0qk2hp34kap78cywy7rgrdxc61z90mvqqgsqjq90kr7iwi";
+    author = "FaceDeer";
+    provides = [ "castle_tapestries" ];
+    depends = [
+      ({
+        name = "wool";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "miroptics/qiskitblocks_miro"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "unifieddyes";
+        packages = [
+          "mt-mods/unifieddyes"
+          "bell07/whynot_game"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/moretubes" = mkLuantiMod {
+    name = "moretubes";
+    release = 25475;
+    hash = "1ajgsx8bxn0892zlbj7rirmzzpbhilmkrk85ayaarr0vl50gslsh";
+    author = "Emojiminetest";
+    provides = [ "moretubes" ];
+    depends = [
+      ({
+        name = "xcompat";
+        packages = [
+          "mt-mods/xcompat"
+          "BuckarooBanzay/super_sam"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "pipeworks";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "1248/regnum"
+          "1248/regnum2"
+          "zanderdev/skyblock_zero"
+          "Wuzzy/hades_revisited"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "mt-mods/pipeworks"
+          "rlars/occupymoon_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Sokomine/windmill" = mkLuantiMod {
+    name = "windmill";
+    release = 22093;
+    hash = "1kkqv8zw8jns18dzcdg50ga7dbvzgbkdkhl1w8swlxafq541ka3r";
+    author = "Sokomine";
+    provides = [ "windmill" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Winter94/wc_strata" = mkLuantiMod {
@@ -25864,60 +25918,6 @@
     ];
     with_same_name = [ ];
   };
-  "Koda_/gemstones" = mkLuantiMod {
-    name = "gemstones";
-    release = 5671;
-    hash = "1mz7kdx7d9qx2iv9dv7ymqm2987p2fb6s6xpjp7l8cr96s2i8mbr";
-    author = "Koda_";
-    provides = [
-      "amethyst"
-      "emerald"
-      "ruby"
-      "sapphire"
-    ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TumeniNodes/angledwalls" = mkLuantiMod {
     name = "angledwalls";
     release = 1934;
@@ -26110,6 +26110,24 @@
     ];
     with_same_name = [ ];
   };
+  "Noodlemire/projectile" = mkLuantiMod {
+    name = "projectile";
+    release = 4832;
+    hash = "00w3g4cmnfgwj98sz4i1w8ic73q4zgwabbhaify49pbialfyyd5k";
+    author = "Noodlemire";
+    provides = [ "projectile" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/inventory_icon" = mkLuantiMod {
+    name = "inventory_icon";
+    release = 17579;
+    hash = "060xd6kv0raidig52lmxa3hrdv1j3z6dw6s19pifhxgp32xmhgpj";
+    author = "Wuzzy";
+    provides = [ "inventory_icon" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Extex/christmas" = mkLuantiMod {
     name = "christmas";
     release = 9448;
@@ -26175,6 +26193,113 @@
     author = "FaceDeer";
     provides = [ "magma_conduits" ];
     depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "OgelGames/minimap_radar" = mkLuantiMod {
+    name = "minimap_radar";
+    release = 9976;
+    hash = "12my281y3bjv4ll4px982f5xcf7w0ybf9hry7sgckhd14mjv6n6i";
+    author = "OgelGames";
+    provides = [ "minimap_radar" ];
+    depends = [
+      ({
+        name = "map";
+        packages = [
+          "AiTechEye/xaenvironment"
+          "rubenwardy/capturetheflag"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "StarNinjas/ssp"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
       ({
         name = "default";
         packages = [
@@ -26350,13 +26475,103 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Noodlemire/projectile" = mkLuantiMod {
-    name = "projectile";
-    release = 4832;
-    hash = "00w3g4cmnfgwj98sz4i1w8ic73q4zgwabbhaify49pbialfyyd5k";
-    author = "Noodlemire";
-    provides = [ "projectile" ];
-    depends = [ ];
+  "doxygen_spammer/advtrains_attachment_offset_patch" = mkLuantiMod {
+    name = "advtrains_attachment_offset_patch";
+    release = 19472;
+    hash = "1q21h3hfakmgqgp0splbwml07lx5scw363zhf06mn2wpbfdsxwy5";
+    author = "doxygen_spammer";
+    provides = [
+      "advtrains_attachment_offset_patch"
+      "advtrains_attachment_offsets"
+    ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "TumeniNodes/artdeco" = mkLuantiMod {
+    name = "artdeco";
+    release = 115;
+    hash = "0asjaajabc34g89k49c6fb3dx5wmc4cjfsw382nnm776lnbmbpzb";
+    author = "TumeniNodes";
+    provides = [ "artdeco" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "doors";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/doors"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "TumeniNodes/pkarcs" = mkLuantiMod {
@@ -26474,12 +26689,12 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/inventory_icon" = mkLuantiMod {
-    name = "inventory_icon";
-    release = 17579;
-    hash = "060xd6kv0raidig52lmxa3hrdv1j3z6dw6s19pifhxgp32xmhgpj";
-    author = "Wuzzy";
-    provides = [ "inventory_icon" ];
+  "bell07/smart_inventory" = mkLuantiMod {
+    name = "smart_inventory";
+    release = 5622;
+    hash = "1sc7l444cvvhd4s227vpirg6bpgjmkq7lgkgbhd9wi02bnmm5z3m";
+    author = "bell07";
+    provides = [ "smart_inventory" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -26595,113 +26810,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "OgelGames/minimap_radar" = mkLuantiMod {
-    name = "minimap_radar";
-    release = 9976;
-    hash = "12my281y3bjv4ll4px982f5xcf7w0ybf9hry7sgckhd14mjv6n6i";
-    author = "OgelGames";
-    provides = [ "minimap_radar" ];
-    depends = [
-      ({
-        name = "map";
-        packages = [
-          "AiTechEye/xaenvironment"
-          "rubenwardy/capturetheflag"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "StarNinjas/ssp"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "FaceDeer/pontoons" = mkLuantiMod {
     name = "pontoons";
     release = 13145;
@@ -26709,6 +26817,41 @@
     author = "FaceDeer";
     provides = [ "pontoons" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "cora/mcl_stoneblock" = mkLuantiMod {
+    name = "mcl_stoneblock";
+    release = 25168;
+    hash = "0djjdpihz5wqcvf0wwg8ldhq558bw6lynm21gj5ydnwc2cgp3pyj";
+    author = "cora";
+    provides = [ "mcl_stoneblock" ];
+    depends = [
+      ({
+        name = "mcl_mapgen_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_deepslate";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_bonus_chest";
+        packages = [ "ryvnf/mineclonia" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "niwla23/visible_sneak" = mkLuantiMod {
@@ -26782,23 +26925,6 @@
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "doxygen_spammer/advtrains_attachment_offset_patch" = mkLuantiMod {
-    name = "advtrains_attachment_offset_patch";
-    release = 19472;
-    hash = "1q21h3hfakmgqgp0splbwml07lx5scw363zhf06mn2wpbfdsxwy5";
-    author = "doxygen_spammer";
-    provides = [
-      "advtrains_attachment_offset_patch"
-      "advtrains_attachment_offsets"
-    ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
       })
     ];
     with_same_name = [ ];
@@ -26885,97 +27011,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "TumeniNodes/artdeco" = mkLuantiMod {
-    name = "artdeco";
-    release = 115;
-    hash = "0asjaajabc34g89k49c6fb3dx5wmc4cjfsw382nnm776lnbmbpzb";
-    author = "TumeniNodes";
-    provides = [ "artdeco" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "doors";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/doors"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "bell07/smart_inventory" = mkLuantiMod {
-    name = "smart_inventory";
-    release = 5622;
-    hash = "1sc7l444cvvhd4s227vpirg6bpgjmkq7lgkgbhd9wi02bnmm5z3m";
-    author = "bell07";
-    provides = [ "smart_inventory" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Bob64/portable_chests" = mkLuantiMod {
@@ -27145,6 +27180,15 @@
     ];
     with_same_name = [ ];
   };
+  "rubenwardy/vote" = mkLuantiMod {
+    name = "vote";
+    release = 84;
+    hash = "1dq8cwq016z125qcnp3djspkgr3rz17qzkyb3bi4wvfaj9byyyag";
+    author = "rubenwardy";
+    provides = [ "vote" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "1faco/stripped_tree" = mkLuantiMod {
     name = "stripped_tree";
     release = 25552;
@@ -27218,39 +27262,13 @@
     ];
     with_same_name = [ ];
   };
-  "cora/mcl_stoneblock" = mkLuantiMod {
-    name = "mcl_stoneblock";
-    release = 25168;
-    hash = "0djjdpihz5wqcvf0wwg8ldhq558bw6lynm21gj5ydnwc2cgp3pyj";
-    author = "cora";
-    provides = [ "mcl_stoneblock" ];
-    depends = [
-      ({
-        name = "mcl_mapgen_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_deepslate";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_bonus_chest";
-        packages = [ "ryvnf/mineclonia" ];
-      })
-    ];
+  "aether123/raining_death" = mkLuantiMod {
+    name = "raining_death";
+    release = 5952;
+    hash = "1qqs4dlggm6cdp58xyv1s5pdwg4fxi4zc4n07kzyvxccyjfg2chw";
+    author = "aether123";
+    provides = [ "raining_death" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "mt-mods/coloredwood" = mkLuantiMod {
@@ -27483,12 +27501,89 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "rubenwardy/vote" = mkLuantiMod {
-    name = "vote";
-    release = 84;
-    hash = "1dq8cwq016z125qcnp3djspkgr3rz17qzkyb3bi4wvfaj9byyyag";
-    author = "rubenwardy";
-    provides = [ "vote" ];
+  "addi/darkage" = mkLuantiMod {
+    name = "darkage";
+    release = 12600;
+    hash = "1wdf3adiykq4r4f0m7qjjgk6g1myi7bnpr882h2rw7bhp7ps1y0a";
+    author = "addi";
+    provides = [ "darkage" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/skeleton" = mkLuantiMod {
+    name = "skeleton";
+    release = 9000;
+    hash = "1r43qa9h1v16kaxqfd4r0q3f0wvqgdspbdvihgw5g0n3b873gb5f";
+    author = "AntumDeluge";
+    provides = [ "skeleton" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -27778,12 +27873,57 @@
     ];
     with_same_name = [ ];
   };
-  "addi/darkage" = mkLuantiMod {
-    name = "darkage";
-    release = 12600;
-    hash = "1wdf3adiykq4r4f0m7qjjgk6g1myi7bnpr882h2rw7bhp7ps1y0a";
-    author = "addi";
-    provides = [ "darkage" ];
+  "Hybrid Dog/treecapitator" = mkLuantiMod {
+    name = "treecapitator";
+    release = 27152;
+    hash = "0prfmla7jr1wgw573g6g9m5r2841baadiz3rkdmkmc9qd0afkncx";
+    author = "Hybrid Dog";
+    provides = [ "treecapitator" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "ZenonSeth/treasure_chest" = mkLuantiMod {
+    name = "treasure_chest";
+    release = 27544;
+    hash = "044xg1bmyh68qpsni7v77hqvzav4ymfdmgh1q32f7hw4dw20y2w6";
+    author = "ZenonSeth";
+    provides = [ "treasure_chest" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "OgelGames/quickstack" = mkLuantiMod {
+    name = "quickstack";
+    release = 20269;
+    hash = "175kpaxryl271nfzr28xj18zdv9ry9qyh73f8v1wawyyxakdzvb5";
+    author = "OgelGames";
+    provides = [ "quickstack" ];
+    depends = [
+      ({
+        name = "unified_inventory";
+        packages = [
+          "Hi_World/newplanet"
+          "joe7575/techage_modpack"
+          "BRNSystems/blocky_portaling"
+          "PyuDev/pyutest"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "RealBadAngel/unified_inventory"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AwesomeDragon97/geodes" = mkLuantiMod {
+    name = "geodes";
+    release = 20395;
+    hash = "0l99ynskk1mb4iyfq7r9lzc79mq9v6x1bg65yrzzzhyihlykr2m6";
+    author = "AwesomeDragon97";
+    provides = [
+      "amethyst_geodes"
+      "geodes"
+    ];
     depends = [
       ({
         name = "default";
@@ -27824,85 +27964,15 @@
           "Minetest/minetest_game"
         ];
       })
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
     ];
     with_same_name = [ ];
   };
-  "AntumDeluge/skeleton" = mkLuantiMod {
-    name = "skeleton";
-    release = 9000;
-    hash = "1r43qa9h1v16kaxqfd4r0q3f0wvqgdspbdvihgw5g0n3b873gb5f";
-    author = "AntumDeluge";
-    provides = [ "skeleton" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ZenonSeth/treasure_chest" = mkLuantiMod {
-    name = "treasure_chest";
-    release = 27544;
-    hash = "044xg1bmyh68qpsni7v77hqvzav4ymfdmgh1q32f7hw4dw20y2w6";
-    author = "ZenonSeth";
-    provides = [ "treasure_chest" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "OgelGames/quickstack" = mkLuantiMod {
-    name = "quickstack";
-    release = 20269;
-    hash = "175kpaxryl271nfzr28xj18zdv9ry9qyh73f8v1wawyyxakdzvb5";
-    author = "OgelGames";
-    provides = [ "quickstack" ];
-    depends = [
-      ({
-        name = "unified_inventory";
-        packages = [
-          "Hi_World/newplanet"
-          "joe7575/techage_modpack"
-          "BRNSystems/blocky_portaling"
-          "PyuDev/pyutest"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "RealBadAngel/unified_inventory"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "aether123/raining_death" = mkLuantiMod {
-    name = "raining_death";
-    release = 5952;
-    hash = "1qqs4dlggm6cdp58xyv1s5pdwg4fxi4zc4n07kzyvxccyjfg2chw";
-    author = "aether123";
-    provides = [ "raining_death" ];
+  "AiTechEye/parkoursurvive" = mkLuantiMod {
+    name = "parkoursurvive";
+    release = 908;
+    hash = "1h2j6rvy5fjq5zhjm5abz52drzj9y4r9waaqiwch18b12g9b8146";
+    author = "AiTechEye";
+    provides = [ "parkoursurvive" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -27977,13 +28047,89 @@
     ];
     with_same_name = [ ];
   };
-  "Hybrid Dog/treecapitator" = mkLuantiMod {
-    name = "treecapitator";
-    release = 27152;
-    hash = "0prfmla7jr1wgw573g6g9m5r2841baadiz3rkdmkmc9qd0afkncx";
-    author = "Hybrid Dog";
-    provides = [ "treecapitator" ];
+  "Mr. Rar/cannon73" = mkLuantiMod {
+    name = "cannon73";
+    release = 23570;
+    hash = "0x7jdsafsssgxjzib8f95pdsj8nj5s4s78fm6m5yhf2mfmchjv11";
+    author = "Mr. Rar";
+    provides = [ "cannon73" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "MikeRedwood/craftable_lava" = mkLuantiMod {
+    name = "craftable_lava";
+    release = 5741;
+    hash = "0lvdngmk8iw3y5cn7cfh74ysvvy2xmkx9f8isdk9ghq5ic92sf5a";
+    author = "MikeRedwood";
+    provides = [ "craftable_lava" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "BigBear/elektron" = mkLuantiMod {
@@ -28077,67 +28223,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "AwesomeDragon97/geodes" = mkLuantiMod {
-    name = "geodes";
-    release = 20395;
-    hash = "0l99ynskk1mb4iyfq7r9lzc79mq9v6x1bg65yrzzzhyihlykr2m6";
-    author = "AwesomeDragon97";
-    provides = [
-      "amethyst_geodes"
-      "geodes"
-    ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AiTechEye/parkoursurvive" = mkLuantiMod {
-    name = "parkoursurvive";
-    release = 908;
-    hash = "1h2j6rvy5fjq5zhjm5abz52drzj9y4r9waaqiwch18b12g9b8146";
-    author = "AiTechEye";
-    provides = [ "parkoursurvive" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Kimapr/nc_sky_ultra_hard" = mkLuantiMod {
@@ -28536,15 +28621,6 @@
     ];
     with_same_name = [ ];
   };
-  "Mr. Rar/cannon73" = mkLuantiMod {
-    name = "cannon73";
-    release = 23570;
-    hash = "0x7jdsafsssgxjzib8f95pdsj8nj5s4s78fm6m5yhf2mfmchjv11";
-    author = "Mr. Rar";
-    provides = [ "cannon73" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ApolloX/oretracker" = mkLuantiMod {
     name = "oretracker";
     release = 10384;
@@ -28642,82 +28718,6 @@
           "Big_Caballito/no_mans_land"
           "TheFanne/raining_nodes"
           "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "MikeRedwood/craftable_lava" = mkLuantiMod {
-    name = "craftable_lava";
-    release = 5741;
-    hash = "0lvdngmk8iw3y5cn7cfh74ysvvy2xmkx9f8isdk9ghq5ic92sf5a";
-    author = "MikeRedwood";
-    provides = [ "craftable_lava" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "bucket";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
       })
@@ -28957,6 +28957,60 @@
     ];
     with_same_name = [ ];
   };
+  "CBugDCoder/tower_defense" = mkLuantiMod {
+    name = "tower_defense";
+    release = 3473;
+    hash = "1zn7cb7x03h091bvm2bpcw7x34bc8ymcbhp0smhdvfpqvahdcxb1";
+    author = "CBugDCoder";
+    provides = [ "tower_defense" ];
+    depends = [
+      ({
+        name = "sfinv";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sfan5/minetest_classic"
+          "JALdMIC/survivethedays"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "Nathan.S/sss"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "Hume2/boxworld3d"
+          "zanderdev/skyblock_zero"
+          "rubenwardy/sfinv"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "Lone_Wolf/voxel_knights"
+          "dibesfer/colorlandia"
+          "Emojiminetest/parkour"
+          "hilol/epic_combat"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "luarocks/coolbar" = mkLuantiMod {
     name = "coolbar";
     release = 19720;
@@ -29015,6 +29069,72 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Olesya_95/ta_apiary" = mkLuantiMod {
+    name = "ta_apiary";
+    release = 20438;
+    hash = "1b3cypm8h7nwllz25cwyhgw8hd8r3l18wfdn87lb86aicnjlhg18";
+    author = "Olesya_95";
+    provides = [ "ta_apiary" ];
+    depends = [
+      ({
+        name = "techage";
+        packages = [ "joe7575/techage_modpack" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "Kimapr/nonsensical_skyblock"
+          "joe7575/techage_modpack"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
         ];
       })
     ];
@@ -29318,6 +29438,55 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Soundwavez/3d_ores" = mkLuantiMod {
+    name = "3d_ores";
+    release = 26433;
+    hash = "10skmv6mffbsz2575y4byyi1q1z1c4z2i5dzm7z65rbazay4l114";
+    author = "Soundwavez";
+    provides = [ "3d_ores" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "liteninglazer/mystical_tools" = mkLuantiMod {
     name = "mystical_tools";
     release = 11197;
@@ -29365,54 +29534,49 @@
     ];
     with_same_name = [ ];
   };
-  "CBugDCoder/tower_defense" = mkLuantiMod {
-    name = "tower_defense";
-    release = 3473;
-    hash = "1zn7cb7x03h091bvm2bpcw7x34bc8ymcbhp0smhdvfpqvahdcxb1";
-    author = "CBugDCoder";
-    provides = [ "tower_defense" ];
+  "TenPlus1/pigiron" = mkLuantiMod {
+    name = "pigiron";
+    release = 20168;
+    hash = "07crizl10lkg8x09h1a8900ijp82l8vzqbpw77c5w9pfh8qj8jbj";
+    author = "TenPlus1";
+    provides = [ "pigiron" ];
     depends = [
       ({
-        name = "sfinv";
+        name = "default";
         packages = [
           "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
           "Noodlemire/voxeldungeon"
-          "sfan5/minetest_classic"
           "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
           "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
           "1248/regnum"
-          "Nathan.S/sss"
+          "bell07/whynot_game"
           "1248/regnum2"
-          "MeseCraft/mesecraft"
           "1248/castrum"
-          "Blockhead/sotm"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "Hume2/boxworld3d"
-          "zanderdev/skyblock_zero"
-          "rubenwardy/sfinv"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
           "EmptyStar/asuna"
           "miroptics/qiskitblocks_miro"
           "KareaGhandTrail/block_assault_mapmaker"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "Lone_Wolf/voxel_knights"
-          "dibesfer/colorlandia"
-          "Emojiminetest/parkour"
-          "hilol/epic_combat"
-          "Mantar/exile"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
           "BuckarooBanzay/mesecons_lab"
           "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
           "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
           "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
           "Big_Caballito/no_mans_land"
           "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
       })
@@ -29480,6 +29644,78 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "backdaniel/ancient_fertilizer" = mkLuantiMod {
+    name = "ancient_fertilizer";
+    release = 24387;
+    hash = "1jvdf8mnp5ywy10bpl8hnyrbbp3mv8p7ifzr4904ycsplyyns6k0";
+    author = "backdaniel";
+    provides = [ "ancient_fertilizer" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "ThePython/better_command_blocks" = mkLuantiMod {
+    name = "better_command_blocks";
+    release = 25310;
+    hash = "1jlnnf515aj6yqsgjy9fi30wq0x7b2f00a0yz884k6hiadn4za4j";
+    author = "ThePython";
+    provides = [ "better_command_blocks" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/sfinv_buttons" = mkLuantiMod {
+    name = "sfinv_buttons";
+    release = 18232;
+    hash = "129q0vqi3shi4s6h82hh21vw1iqmkgymgwf7l6b0m75div06y956";
+    author = "Wuzzy";
+    provides = [ "sfinv_buttons" ];
+    depends = [
+      ({
+        name = "sfinv";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sfan5/minetest_classic"
+          "JALdMIC/survivethedays"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "Nathan.S/sss"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "Hume2/boxworld3d"
+          "zanderdev/skyblock_zero"
+          "rubenwardy/sfinv"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "Lone_Wolf/voxel_knights"
+          "dibesfer/colorlandia"
+          "Emojiminetest/parkour"
+          "hilol/epic_combat"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
         ];
       })
@@ -29650,55 +29886,6 @@
     ];
     with_same_name = [ ];
   };
-  "Soundwavez/3d_ores" = mkLuantiMod {
-    name = "3d_ores";
-    release = 26433;
-    hash = "10skmv6mffbsz2575y4byyi1q1z1c4z2i5dzm7z65rbazay4l114";
-    author = "Soundwavez";
-    provides = [ "3d_ores" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TBSHEB/balloonblocks" = mkLuantiMod {
     name = "balloonblocks";
     release = 4229;
@@ -29726,6 +29913,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "shaft/simple_crafting" = mkLuantiMod {
+    name = "simple_crafting";
+    release = 27894;
+    hash = "0ib6jczld07kbxvhrvbslwlzybkmiczzcxbxvibgqw9hslly280v";
+    author = "shaft";
+    provides = [ "simple_crafting" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "NO11/mcl_underwater_challenge" = mkLuantiMod {
     name = "mcl_underwater_challenge";
     release = 9147;
@@ -29750,55 +29946,6 @@
     author = "EmptyStar";
     provides = [ "researcher" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/pigiron" = mkLuantiMod {
-    name = "pigiron";
-    release = 20168;
-    hash = "07crizl10lkg8x09h1a8900ijp82l8vzqbpw77c5w9pfh8qj8jbj";
-    author = "TenPlus1";
-    provides = [ "pigiron" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "AwesomeDragon97/sieves" = mkLuantiMod {
@@ -29934,6 +30081,184 @@
     ];
     with_same_name = [ ];
   };
+  "micu/micupack" = mkLuantiMod {
+    name = "micupack";
+    release = 19955;
+    hash = "1yhhcja9z4r5qd1yd1h4i1sahmahwxv70g2caq720amjjk9r9rri";
+    author = "micu";
+    provides = [
+      "biogasmachines"
+      "minerchest"
+      "minertools"
+      "moderntables"
+      "slmodules"
+      "slprogtools"
+    ];
+    depends = [
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "smartline";
+        packages = [ "joe7575/techpack" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "sl_controller";
+        packages = [ "joe7575/techpack" ];
+      })
+      ({
+        name = "tubelib_addons1";
+        packages = [ "joe7575/techpack" ];
+      })
+      ({
+        name = "stairs";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "rheo/moreblocks"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/stairs"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "tubelib2";
+        packages = [
+          "joe7575/techage_modpack"
+          "joe7575/tubelib2"
+          "debiankaios/proxima_survival"
+        ];
+      })
+      ({
+        name = "tubelib";
+        packages = [ "joe7575/techpack" ];
+      })
+      ({
+        name = "tubelib_addons2";
+        packages = [ "joe7575/techpack" ];
+      })
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "gravelsieve";
+        packages = [ "joe7575/techpack" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Krock/upgrade_packs" = mkLuantiMod {
     name = "upgrade_packs";
     release = 3438;
@@ -30055,81 +30380,6 @@
     ];
     with_same_name = [ ];
   };
-  "Olesya_95/ta_apiary" = mkLuantiMod {
-    name = "ta_apiary";
-    release = 20438;
-    hash = "1b3cypm8h7nwllz25cwyhgw8hd8r3l18wfdn87lb86aicnjlhg18";
-    author = "Olesya_95";
-    provides = [ "ta_apiary" ];
-    depends = [
-      ({
-        name = "techage";
-        packages = [ "joe7575/techage_modpack" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "Kimapr/nonsensical_skyblock"
-          "joe7575/techage_modpack"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "backdaniel/ancient_fertilizer" = mkLuantiMod {
-    name = "ancient_fertilizer";
-    release = 24387;
-    hash = "1jvdf8mnp5ywy10bpl8hnyrbbp3mv8p7ifzr4904ycsplyyns6k0";
-    author = "backdaniel";
-    provides = [ "ancient_fertilizer" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Coder12/lava_ore_gen" = mkLuantiMod {
     name = "lava_ore_gen";
     release = 9684;
@@ -30173,69 +30423,6 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "ThePython/better_command_blocks" = mkLuantiMod {
-    name = "better_command_blocks";
-    release = 25310;
-    hash = "1jlnnf515aj6yqsgjy9fi30wq0x7b2f00a0yz884k6hiadn4za4j";
-    author = "ThePython";
-    provides = [ "better_command_blocks" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/sfinv_buttons" = mkLuantiMod {
-    name = "sfinv_buttons";
-    release = 18232;
-    hash = "129q0vqi3shi4s6h82hh21vw1iqmkgymgwf7l6b0m75div06y956";
-    author = "Wuzzy";
-    provides = [ "sfinv_buttons" ];
-    depends = [
-      ({
-        name = "sfinv";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sfan5/minetest_classic"
-          "JALdMIC/survivethedays"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "Nathan.S/sss"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "Hume2/boxworld3d"
-          "zanderdev/skyblock_zero"
-          "rubenwardy/sfinv"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "Lone_Wolf/voxel_knights"
-          "dibesfer/colorlandia"
-          "Emojiminetest/parkour"
-          "hilol/epic_combat"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
         ];
       })
@@ -30425,6 +30612,15 @@
     ];
     with_same_name = [ ];
   };
+  "srifqi/gray_death" = mkLuantiMod {
+    name = "gray_death";
+    release = 27836;
+    hash = "1axbxyi3cnb0xgrnazmrr1z8a1r96z8073wcvv068vwy2n8x0k6m";
+    author = "srifqi";
+    provides = [ "gray_death" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "sofar/sedimentology" = mkLuantiMod {
     name = "sedimentology";
     release = 15476;
@@ -30554,15 +30750,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "shaft/simple_crafting" = mkLuantiMod {
-    name = "simple_crafting";
-    release = 27894;
-    hash = "0ib6jczld07kbxvhrvbslwlzybkmiczzcxbxvibgqw9hslly280v";
-    author = "shaft";
-    provides = [ "simple_crafting" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Winter94/wc_road" = mkLuantiMod {
@@ -30761,6 +30948,80 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "mt-mods/axistools" = mkLuantiMod {
+    name = "axistools";
+    release = 8512;
+    hash = "0w177ggdyknxkl8af7xlqvp8xr8fhis6nr2cb74kb8j6xhmfhs3d";
+    author = "mt-mods";
+    provides = [ "axistools" ];
+    depends = [
+      ({
+        name = "hudbars";
+        packages = [
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "MeseCraft/mesecraft"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Wuzzy/hudbars"
+          "KareaGhandTrail/block_assault"
+          "Lone_Wolf/voxel_knights"
+          "ryvnf/mineclonia"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "1248/stella"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Astrobe/resistoranthems" = mkLuantiMod {
     name = "resistoranthems";
     release = 14399;
@@ -30819,6 +31080,97 @@
     ];
     with_same_name = [ ];
   };
+  "SFENCE/power_generators" = mkLuantiMod {
+    name = "power_generators";
+    release = 14628;
+    hash = "0dypr45pznil0z7cmfmh5pqsrgbmaib57gl20dlkkyqsrf1hxva4";
+    author = "SFENCE";
+    provides = [ "power_generators" ];
+    depends = [
+      ({
+        name = "adaptation_technic";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_lib";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_minetest_game";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_mesecons";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "Kimapr/nonsensical_skyblock"
+          "joe7575/techage_modpack"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+      ({
+        name = "tubelib2";
+        packages = [
+          "joe7575/techage_modpack"
+          "joe7575/tubelib2"
+          "debiankaios/proxima_survival"
+        ];
+      })
+      ({
+        name = "adaptation_basic_materials";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_elepower";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_techage";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_farming_redo";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_biofuel";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_rubber";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_mineclone";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_farlands_reloaded";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "appliances";
+        packages = [ "SFENCE/appliances" ];
+      })
+      ({
+        name = "adaptation_pipeworks";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+      ({
+        name = "adaptation_hades_revisited";
+        packages = [ "SFENCE/adaptation_modpack" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "lazerbeak12345/chocolatestuff" = mkLuantiMod {
     name = "chocolatestuff";
     release = 17911;
@@ -30852,6 +31204,86 @@
         packages = [
           "Kimapr/nonsensical_skyblock"
           "Wuzzy/pride_flags"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Just_Visiting/smoke_signals" = mkLuantiMod {
+    name = "smoke_signals";
+    release = 7772;
+    hash = "130z9pg500lzvfmz3wrfqzijc1c7468533n7srfsz1mvcp714djz";
+    author = "Just_Visiting";
+    provides = [ "smoke_signals" ];
+    depends = [
+      ({
+        name = "wool";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "miroptics/qiskitblocks_miro"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
     ];
@@ -31011,180 +31443,32 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "micu/micupack" = mkLuantiMod {
-    name = "micupack";
-    release = 19955;
-    hash = "1yhhcja9z4r5qd1yd1h4i1sahmahwxv70g2caq720amjjk9r9rri";
-    author = "micu";
-    provides = [
-      "biogasmachines"
-      "minerchest"
-      "minertools"
-      "moderntables"
-      "slmodules"
-      "slprogtools"
-    ];
+  "Wuzzy/doc_identifier" = mkLuantiMod {
+    name = "doc_identifier";
+    release = 22049;
+    hash = "08ga7jpbm001skica14dkzmng3aqzyrbl5fhdzfs0950f20ihjly";
+    author = "Wuzzy";
+    provides = [ "doc_identifier" ];
     depends = [
       ({
-        name = "bucket";
+        name = "doc_items";
         packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
+          "VoxelForge/voxelforge"
+          "Wuzzy/doc_items"
+          "Wuzzy/mineclone2"
           "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
+          "ryvnf/mineclonia"
         ];
       })
       ({
-        name = "smartline";
-        packages = [ "joe7575/techpack" ];
-      })
-      ({
-        name = "default";
+        name = "doc";
         packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
+          "VoxelForge/voxelforge"
           "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
+          "Wuzzy/mineclone2"
+          "Wuzzy/doc"
+          "ryvnf/mineclonia"
         ];
-      })
-      ({
-        name = "sl_controller";
-        packages = [ "joe7575/techpack" ];
-      })
-      ({
-        name = "tubelib_addons1";
-        packages = [ "joe7575/techpack" ];
-      })
-      ({
-        name = "stairs";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "rheo/moreblocks"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/stairs"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "tubelib2";
-        packages = [
-          "joe7575/techage_modpack"
-          "joe7575/tubelib2"
-          "debiankaios/proxima_survival"
-        ];
-      })
-      ({
-        name = "tubelib";
-        packages = [ "joe7575/techpack" ];
-      })
-      ({
-        name = "tubelib_addons2";
-        packages = [ "joe7575/techpack" ];
-      })
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "gravelsieve";
-        packages = [ "joe7575/techpack" ];
       })
     ];
     with_same_name = [ ];
@@ -31422,15 +31706,6 @@
     ];
     with_same_name = [ ];
   };
-  "srifqi/gray_death" = mkLuantiMod {
-    name = "gray_death";
-    release = 27836;
-    hash = "1axbxyi3cnb0xgrnazmrr1z8a1r96z8073wcvv068vwy2n8x0k6m";
-    author = "srifqi";
-    provides = [ "gray_death" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "alerikaisattera/etherium_stuff" = mkLuantiMod {
     name = "etherium_stuff";
     release = 16448;
@@ -31559,6 +31834,32 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "BuckarooBanzay/blockexchange" = mkLuantiMod {
+    name = "blockexchange";
+    release = 27903;
+    hash = "0xyg38rxxl7jvf5616cqbijg4hrpz7zm3clwjkh3jg37j5madfp7";
+    author = "BuckarooBanzay";
+    provides = [ "blockexchange" ];
+    depends = [
+      ({
+        name = "placeholder";
+        packages = [ "BuckarooBanzay/placeholder" ];
+      })
+      ({
+        name = "mtzip";
+        packages = [
+          "BuckarooBanzay/mesecons_lab"
+          "BuckarooBanzay/super_sam"
+          "BuckarooBanzay/mtzip"
+        ];
+      })
+      ({
+        name = "promise";
+        packages = [ "mt-mods/promise" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "AntumDeluge/server_shop" = mkLuantiMod {
     name = "server_shop";
     release = 9125;
@@ -31604,209 +31905,13 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "mt-mods/axistools" = mkLuantiMod {
-    name = "axistools";
-    release = 8512;
-    hash = "0w177ggdyknxkl8af7xlqvp8xr8fhis6nr2cb74kb8j6xhmfhs3d";
-    author = "mt-mods";
-    provides = [ "axistools" ];
+  "Tarruvi/ore_deposits" = mkLuantiMod {
+    name = "ore_deposits";
+    release = 16888;
+    hash = "1m4yg42ajpz0wvyp05r9mnvcqfsv16blsb1s92q844k82yihvrbw";
+    author = "Tarruvi";
+    provides = [ "ore_deposits" ];
     depends = [
-      ({
-        name = "hudbars";
-        packages = [
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "MeseCraft/mesecraft"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Wuzzy/hudbars"
-          "KareaGhandTrail/block_assault"
-          "Lone_Wolf/voxel_knights"
-          "ryvnf/mineclonia"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "1248/stella"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SFENCE/power_generators" = mkLuantiMod {
-    name = "power_generators";
-    release = 14628;
-    hash = "0dypr45pznil0z7cmfmh5pqsrgbmaib57gl20dlkkyqsrf1hxva4";
-    author = "SFENCE";
-    provides = [ "power_generators" ];
-    depends = [
-      ({
-        name = "adaptation_technic";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_lib";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_minetest_game";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_mesecons";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "Kimapr/nonsensical_skyblock"
-          "joe7575/techage_modpack"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-      ({
-        name = "tubelib2";
-        packages = [
-          "joe7575/techage_modpack"
-          "joe7575/tubelib2"
-          "debiankaios/proxima_survival"
-        ];
-      })
-      ({
-        name = "adaptation_basic_materials";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_elepower";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_techage";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_farming_redo";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_biofuel";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_rubber";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_mineclone";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_farlands_reloaded";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "appliances";
-        packages = [ "SFENCE/appliances" ];
-      })
-      ({
-        name = "adaptation_pipeworks";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-      ({
-        name = "adaptation_hades_revisited";
-        packages = [ "SFENCE/adaptation_modpack" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Just_Visiting/smoke_signals" = mkLuantiMod {
-    name = "smoke_signals";
-    release = 7772;
-    hash = "130z9pg500lzvfmz3wrfqzijc1c7468533n7srfsz1mvcp714djz";
-    author = "Just_Visiting";
-    provides = [ "smoke_signals" ];
-    depends = [
-      ({
-        name = "wool";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "miroptics/qiskitblocks_miro"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
       ({
         name = "default";
         packages = [
@@ -31870,62 +31975,6 @@
     author = "Lone_Wolf";
     provides = [ "rawf" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/doc_identifier" = mkLuantiMod {
-    name = "doc_identifier";
-    release = 22049;
-    hash = "08ga7jpbm001skica14dkzmng3aqzyrbl5fhdzfs0950f20ihjly";
-    author = "Wuzzy";
-    provides = [ "doc_identifier" ];
-    depends = [
-      ({
-        name = "doc_items";
-        packages = [
-          "VoxelForge/voxelforge"
-          "Wuzzy/doc_items"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "doc";
-        packages = [
-          "VoxelForge/voxelforge"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "Wuzzy/doc"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "BuckarooBanzay/blockexchange" = mkLuantiMod {
-    name = "blockexchange";
-    release = 27903;
-    hash = "0xyg38rxxl7jvf5616cqbijg4hrpz7zm3clwjkh3jg37j5madfp7";
-    author = "BuckarooBanzay";
-    provides = [ "blockexchange" ];
-    depends = [
-      ({
-        name = "placeholder";
-        packages = [ "BuckarooBanzay/placeholder" ];
-      })
-      ({
-        name = "mtzip";
-        packages = [
-          "BuckarooBanzay/mesecons_lab"
-          "BuckarooBanzay/super_sam"
-          "BuckarooBanzay/mtzip"
-        ];
-      })
-      ({
-        name = "promise";
-        packages = [ "mt-mods/promise" ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Jeija/flamethrower" = mkLuantiMod {
@@ -32293,50 +32342,31 @@
     ];
     with_same_name = [ ];
   };
-  "Tarruvi/ore_deposits" = mkLuantiMod {
-    name = "ore_deposits";
-    release = 16888;
-    hash = "1m4yg42ajpz0wvyp05r9mnvcqfsv16blsb1s92q844k82yihvrbw";
-    author = "Tarruvi";
-    provides = [ "ore_deposits" ];
+  "niwla23/fireworks_redo" = mkLuantiMod {
+    name = "fireworks_redo";
+    release = 4050;
+    hash = "144g7wn15cl5ap5vacfcs6xxnchd9qgcs3f69ah6yycayiq4vfa9";
+    author = "niwla23";
+    provides = [ "fireworks_redo" ];
     depends = [
       ({
-        name = "default";
+        name = "mesecons";
         packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
+          "Jeija/mesecons"
           "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
           "1248/regnum"
-          "bell07/whynot_game"
           "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
           "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
+          "ryvnf/mineclonia"
           "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
           "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
           "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -33854,36 +33884,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "niwla23/fireworks_redo" = mkLuantiMod {
-    name = "fireworks_redo";
-    release = 4050;
-    hash = "144g7wn15cl5ap5vacfcs6xxnchd9qgcs3f69ah6yycayiq4vfa9";
-    author = "niwla23";
-    provides = [ "fireworks_redo" ];
-    depends = [
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Warr1024/aaschems" = mkLuantiMod {
     name = "aaschems";
     release = 25516;
@@ -34025,6 +34025,31 @@
     ];
     with_same_name = [ ];
   };
+  "ThePython/why" = mkLuantiMod {
+    name = "why";
+    release = 25595;
+    hash = "1mziabxhjbs4qi71k0jbkp4bdch47885a60jydpmibahmdm42avk";
+    author = "ThePython";
+    provides = [
+      "fake_liquids"
+      "falling_block_tool"
+      "flying_sausage"
+      "get_group_items"
+      "ghost_blocks"
+      "lava_sponge"
+      "meat_blocks"
+      "slime_things"
+      "small_why_things"
+      "sound_machine"
+      "sticky_things"
+      "useful_green_potatoes"
+      "useless_beans"
+      "why_init"
+      "why_schematic"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Minisleep/nodrown" = mkLuantiMod {
     name = "nodrown";
     release = 19180;
@@ -34032,6 +34057,44 @@
     author = "Minisleep";
     provides = [ "nodrown" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "GreenXenith/pumpkinspice" = mkLuantiMod {
+    name = "pumpkinspice";
+    release = 46;
+    hash = "1gpjk01pwp894nhpijfpqqpqxxra76hfgaw3p2yxbsw6n1cxpqjw";
+    author = "GreenXenith";
+    provides = [ "pumpkinspice" ];
+    depends = [
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "wsor4035/areas_interlocking_patch" = mkLuantiMod {
@@ -34173,6 +34236,55 @@
     author = "LMD";
     provides = [ "dbg" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "eduardomezencio/loose_rocks" = mkLuantiMod {
+    name = "loose_rocks";
+    release = 15293;
+    hash = "1am8hydmdxc77lfqjdmn1j45vxx2lngk0ra63grk4lvlliwhas7c";
+    author = "eduardomezencio";
+    provides = [ "loose_rocks" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Warr1024/nc_ad_removal" = mkLuantiMod {
@@ -34587,6 +34699,15 @@
     ];
     with_same_name = [ ];
   };
+  "SilverSandstone/blockhead" = mkLuantiMod {
+    name = "blockhead";
+    release = 25730;
+    hash = "1chp4smlkn3cy9rjb4xan8kvay968vwh7j6ks34lyxpnayrhhf3b";
+    author = "SilverSandstone";
+    provides = [ "blockhead" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Krunegan/sneak_drop" = mkLuantiMod {
     name = "sneak_drop";
     release = 17068;
@@ -34781,6 +34902,55 @@
     ];
     with_same_name = [ ];
   };
+  "MikeRedwood/basic_anvil" = mkLuantiMod {
+    name = "basic_anvil";
+    release = 6133;
+    hash = "040swznp37vqvb9vsbjz683m1fl18vcs8vmllp41py193c7d54hl";
+    author = "MikeRedwood";
+    provides = [ "basic_anvil" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "entuland/rhotator" = mkLuantiMod {
     name = "rhotator";
     release = 8192;
@@ -34856,31 +35026,6 @@
     ];
     with_same_name = [ ];
   };
-  "ThePython/why" = mkLuantiMod {
-    name = "why";
-    release = 25595;
-    hash = "1mziabxhjbs4qi71k0jbkp4bdch47885a60jydpmibahmdm42avk";
-    author = "ThePython";
-    provides = [
-      "fake_liquids"
-      "falling_block_tool"
-      "flying_sausage"
-      "get_group_items"
-      "ghost_blocks"
-      "lava_sponge"
-      "meat_blocks"
-      "slime_things"
-      "small_why_things"
-      "sound_machine"
-      "sticky_things"
-      "useful_green_potatoes"
-      "useless_beans"
-      "why_init"
-      "why_schematic"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ApolloX/item_repair" = mkLuantiMod {
     name = "item_repair";
     release = 9449;
@@ -34888,44 +35033,6 @@
     author = "ApolloX";
     provides = [ "item_repair" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "GreenXenith/pumpkinspice" = mkLuantiMod {
-    name = "pumpkinspice";
-    release = 46;
-    hash = "1gpjk01pwp894nhpijfpqqpqxxra76hfgaw3p2yxbsw6n1cxpqjw";
-    author = "GreenXenith";
-    provides = [ "pumpkinspice" ];
-    depends = [
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Emojiminetest/know_where_you_die" = mkLuantiMod {
@@ -34953,55 +35060,6 @@
     author = "archfan7411";
     provides = [ "enhanced" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "eduardomezencio/loose_rocks" = mkLuantiMod {
-    name = "loose_rocks";
-    release = 15293;
-    hash = "1am8hydmdxc77lfqjdmn1j45vxx2lngk0ra63grk4lvlliwhas7c";
-    author = "eduardomezencio";
-    provides = [ "loose_rocks" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "chaosomnium/underbed_toilet_math_mg" = mkLuantiMod {
@@ -35140,6 +35198,15 @@
     ];
     with_same_name = [ ];
   };
+  "Wuzzy/sloweater" = mkLuantiMod {
+    name = "sloweater";
+    release = 22783;
+    hash = "1qikdgn9pamf1hdmlzngrnqkpv7a6bcrgafrfj8h8jw43z4clx36";
+    author = "Wuzzy";
+    provides = [ "sloweater" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "sorcerykid/city_block" = mkLuantiMod {
     name = "city_block";
     release = 5154;
@@ -35248,15 +35315,6 @@
     hash = "07k6b1crkyjd72sn9rwgw1mfa11y7jpgc7xml31kn8bzks4ac8f9";
     author = "ThePython";
     provides = [ "_better_randomizer" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "SilverSandstone/blockhead" = mkLuantiMod {
-    name = "blockhead";
-    release = 25730;
-    hash = "1chp4smlkn3cy9rjb4xan8kvay968vwh7j6ks34lyxpnayrhhf3b";
-    author = "SilverSandstone";
-    provides = [ "blockhead" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -35404,55 +35462,6 @@
           "Minetest/minetest_game"
         ];
       })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "MikeRedwood/basic_anvil" = mkLuantiMod {
-    name = "basic_anvil";
-    release = 6133;
-    hash = "040swznp37vqvb9vsbjz683m1fl18vcs8vmllp41py193c7d54hl";
-    author = "MikeRedwood";
-    provides = [ "basic_anvil" ];
-    depends = [
       ({
         name = "default";
         packages = [
@@ -35849,6 +35858,15 @@
     hash = "1hqcn84ypxs8mzi82rb36fgh84fjfcb7s0gwsrqxja6z5jw15r4m";
     author = "domtron vox";
     provides = [ "skillsframework" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/dice2" = mkLuantiMod {
+    name = "dice2";
+    release = 468;
+    hash = "1kgvsbbl5bsn421d79ak2s2qy4gqjd5qm157nn0ix89d4rdidays";
+    author = "Wuzzy";
+    provides = [ "dice2" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -36400,15 +36418,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Wuzzy/sloweater" = mkLuantiMod {
-    name = "sloweater";
-    release = 22783;
-    hash = "1qikdgn9pamf1hdmlzngrnqkpv7a6bcrgafrfj8h8jw43z4clx36";
-    author = "Wuzzy";
-    provides = [ "sloweater" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "niwla23/rename" = mkLuantiMod {
     name = "rename";
     release = 921;
@@ -36416,6 +36425,55 @@
     author = "niwla23";
     provides = [ "rename" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "anaanos_dev/golden_bread" = mkLuantiMod {
+    name = "golden_bread";
+    release = 22248;
+    hash = "1b9ks6b6r2i7wgmq1xjpwqqn1n4gdryzhdls2d708c0093c7h7a0";
+    author = "anaanos_dev";
+    provides = [ "golden_bread" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "LMD/disable_build_where_they_stand" = mkLuantiMod {
@@ -37126,15 +37184,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Wuzzy/dice2" = mkLuantiMod {
-    name = "dice2";
-    release = 468;
-    hash = "1kgvsbbl5bsn421d79ak2s2qy4gqjd5qm157nn0ix89d4rdidays";
-    author = "Wuzzy";
-    provides = [ "dice2" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Emojiminetest/mc20" = mkLuantiMod {
     name = "mc20";
     release = 21380;
@@ -37613,6 +37662,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Droog71/chat_translator" = mkLuantiMod {
+    name = "chat_translator";
+    release = 16647;
+    hash = "1v5yc0pdm5wggczp7k9naimzhh98qgpd5rwlqz72klk4xy6l8v17";
+    author = "Droog71";
+    provides = [ "chat_translator" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "rheo/scaffolding" = mkLuantiMod {
     name = "scaffolding";
     release = 20099;
@@ -37661,6 +37719,15 @@
     provides = [ "troll" ];
     depends = [ ];
     with_same_name = [ "ROllerozxa/troll" ];
+  };
+  "rudzik8/hide_coords" = mkLuantiMod {
+    name = "hide_coords";
+    release = 26451;
+    hash = "1wmkkd2kv8wvg75dk2c5fc6wb8cjpqk1s672fczj18xywm9nsyrg";
+    author = "rudzik8";
+    provides = [ "hide_coords" ];
+    depends = [ ];
+    with_same_name = [ ];
   };
   "Wuzzy/no_fall_damage" = mkLuantiMod {
     name = "no_fall_damage";
@@ -37902,55 +37969,6 @@
     ];
     with_same_name = [ ];
   };
-  "anaanos_dev/golden_bread" = mkLuantiMod {
-    name = "golden_bread";
-    release = 22248;
-    hash = "1b9ks6b6r2i7wgmq1xjpwqqn1n4gdryzhdls2d708c0093c7h7a0";
-    author = "anaanos_dev";
-    provides = [ "golden_bread" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "snowyu/nickname" = mkLuantiMod {
     name = "nickname";
     release = 19577;
@@ -38049,6 +38067,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "Clyde/poi" = mkLuantiMod {
+    name = "poi";
+    release = 12359;
+    hash = "16hmy2sfrb58cnwwza8q00v4rmb8q50vi6mndm5kmiadxa2zbgkm";
+    author = "Clyde";
+    provides = [ "poi" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Lahusen/bread" = mkLuantiMod {
@@ -38619,15 +38646,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Droog71/chat_translator" = mkLuantiMod {
-    name = "chat_translator";
-    release = 16647;
-    hash = "1v5yc0pdm5wggczp7k9naimzhh98qgpd5rwlqz72klk4xy6l8v17";
-    author = "Droog71";
-    provides = [ "chat_translator" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "lag01/kick_voting" = mkLuantiMod {
     name = "kick_voting";
     release = 8101;
@@ -38876,13 +38894,130 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Clyde/poi" = mkLuantiMod {
-    name = "poi";
-    release = 12359;
-    hash = "16hmy2sfrb58cnwwza8q00v4rmb8q50vi6mndm5kmiadxa2zbgkm";
-    author = "Clyde";
-    provides = [ "poi" ];
-    depends = [ ];
+  "joseanastacio/soil_weeded" = mkLuantiMod {
+    name = "soil_weeded";
+    release = 16987;
+    hash = "087zsg92i9aqqrsyx1fcf6dsyb4z8gpxxbhkllcvzh5s6s8n2vgl";
+    author = "joseanastacio";
+    provides = [ "soil_weeded" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "ulla/ponti" = mkLuantiMod {
+    name = "ponti";
+    release = 13447;
+    hash = "04cm438hsrhbp8lslafn5iag42d0yfzhra5kkhky9l8h9bpm07ky";
+    author = "ulla";
+    provides = [ "ponti" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Calinou/meze" = mkLuantiMod {
@@ -39651,15 +39786,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "rudzik8/hide_coords" = mkLuantiMod {
-    name = "hide_coords";
-    release = 26451;
-    hash = "1wmkkd2kv8wvg75dk2c5fc6wb8cjpqk1s672fczj18xywm9nsyrg";
-    author = "rudzik8";
-    provides = [ "hide_coords" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "BlueR23/anti_join" = mkLuantiMod {
     name = "anti_join";
     release = 9400;
@@ -39947,132 +40073,6 @@
       ({
         name = "phonics_lib";
         packages = [ "Neuromancer/phonics_lib" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "joseanastacio/soil_weeded" = mkLuantiMod {
-    name = "soil_weeded";
-    release = 16987;
-    hash = "087zsg92i9aqqrsyx1fcf6dsyb4z8gpxxbhkllcvzh5s6s8n2vgl";
-    author = "joseanastacio";
-    provides = [ "soil_weeded" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "ulla/ponti" = mkLuantiMod {
-    name = "ponti";
-    release = 13447;
-    hash = "04cm438hsrhbp8lslafn5iag42d0yfzhra5kkhky9l8h9bpm07ky";
-    author = "ulla";
-    provides = [ "ponti" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
       })
     ];
     with_same_name = [ ];
@@ -40461,27 +40461,6 @@
     ];
     with_same_name = [ "rheo/bucket" ];
   };
-  "mt-mods/travelnet" = mkLuantiMod {
-    name = "travelnet";
-    release = 26549;
-    hash = "1pb5jj5dvq5y5aifrk5vkcix87pmx3c3siqyyk3q7p2x8jzmq2f1";
-    author = "mt-mods";
-    provides = [ "travelnet" ];
-    depends = [
-      ({
-        name = "xcompat";
-        packages = [
-          "mt-mods/xcompat"
-          "BuckarooBanzay/super_sam"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "mt-mods/display_modpack" = mkLuantiMod {
     name = "display_modpack";
     release = 27166;
@@ -40508,6 +40487,27 @@
           "mt-mods/dreambuilder_game"
           "bell07/whynot_game"
           "Kimapr/nonsensical_skyblock"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "mt-mods/travelnet" = mkLuantiMod {
+    name = "travelnet";
+    release = 26549;
+    hash = "1pb5jj5dvq5y5aifrk5vkcix87pmx3c3siqyyk3q7p2x8jzmq2f1";
+    author = "mt-mods";
+    provides = [ "travelnet" ];
+    depends = [
+      ({
+        name = "xcompat";
+        packages = [
+          "mt-mods/xcompat"
+          "BuckarooBanzay/super_sam"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
         ];
       })
     ];
@@ -41226,6 +41226,52 @@
     depends = [ ];
     with_same_name = [ "Wuzzy/playerphysics" ];
   };
+  "TenPlus1/mobs_sky" = mkLuantiMod {
+    name = "mobs_sky";
+    release = 26669;
+    hash = "1lfh96vy61ljbazbkx2gaa7m4flzcwwqcs4fy67vacn1nzzlxivw";
+    author = "TenPlus1";
+    provides = [
+      "mobs_bat"
+      "mobs_birds"
+      "mobs_butterfly"
+    ];
+    depends = [
+      ({
+        name = "mobs";
+        packages = [
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "crabycowman123/spmeter"
+          "PyuDev/pyutest"
+          "mt-mods/blockcolor"
+          "TenPlus1/mobs"
+          "debiankaios/proxima_survival"
+          "miroptics/qiskitblocks_miro"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Don/mydoors" = mkLuantiMod {
     name = "mydoors";
     release = 28145;
@@ -41440,52 +41486,6 @@
     ];
     with_same_name = [ ];
   };
-  "TenPlus1/mobs_sky" = mkLuantiMod {
-    name = "mobs_sky";
-    release = 26669;
-    hash = "1lfh96vy61ljbazbkx2gaa7m4flzcwwqcs4fy67vacn1nzzlxivw";
-    author = "TenPlus1";
-    provides = [
-      "mobs_bat"
-      "mobs_birds"
-      "mobs_butterfly"
-    ];
-    depends = [
-      ({
-        name = "mobs";
-        packages = [
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "crabycowman123/spmeter"
-          "PyuDev/pyutest"
-          "mt-mods/blockcolor"
-          "TenPlus1/mobs"
-          "debiankaios/proxima_survival"
-          "miroptics/qiskitblocks_miro"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Emojiminetest/logging" = mkLuantiMod {
     name = "logging";
     release = 25752;
@@ -41623,15 +41623,6 @@
     ];
     with_same_name = [ ];
   };
-  "sorcerykid/formspecs" = mkLuantiMod {
-    name = "formspecs";
-    release = 3152;
-    hash = "1m4xdgjqyb7aqp848z2y8c1p7w01x59q29y20jfbafkydzzqh3bj";
-    author = "sorcerykid";
-    provides = [ "formspecs" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "rheo/moreblocks" = mkLuantiMod {
     name = "moreblocks";
     release = 28065;
@@ -41671,6 +41662,15 @@
       })
     ];
     with_same_name = [ "Calinou/moreblocks" ];
+  };
+  "sorcerykid/formspecs" = mkLuantiMod {
+    name = "formspecs";
+    release = 3152;
+    hash = "1m4xdgjqyb7aqp848z2y8c1p7w01x59q29y20jfbafkydzzqh3bj";
+    author = "sorcerykid";
+    provides = [ "formspecs" ];
+    depends = [ ];
+    with_same_name = [ ];
   };
   "TenPlus1/mobs_slimes" = mkLuantiMod {
     name = "mobs_slimes";
@@ -41886,6 +41886,15 @@
     ];
     with_same_name = [ ];
   };
+  "sofar/fsc" = mkLuantiMod {
+    name = "fsc";
+    release = 187;
+    hash = "0rml9l4gcdp1iqphfyph1y10vax9isi1plh0z3lcqhnan6nmj8qn";
+    author = "sofar";
+    provides = [ "fsc" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Evergreen/quartz" = mkLuantiMod {
     name = "quartz";
     release = 27778;
@@ -41968,15 +41977,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "sofar/fsc" = mkLuantiMod {
-    name = "fsc";
-    release = 187;
-    hash = "0rml9l4gcdp1iqphfyph1y10vax9isi1plh0z3lcqhnan6nmj8qn";
-    author = "sofar";
-    provides = [ "fsc" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Hybrid Dog/riesenpilz" = mkLuantiMod {
@@ -42190,6 +42190,15 @@
     ];
     with_same_name = [ ];
   };
+  "FaceDeer/crafting_bench" = mkLuantiMod {
+    name = "crafting_bench";
+    release = 28280;
+    hash = "1fsnwp4rlxqwvaq4bicmvzqb325igx6ay8xjnax1va7grvsshpx2";
+    author = "FaceDeer";
+    provides = [ "crafting_bench" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "advtrains_supplemental/advtrains_train_jpntlr600" = mkLuantiMod {
     name = "advtrains_train_jpntlr600";
     release = 26981;
@@ -42202,15 +42211,6 @@
         packages = [ "orwell/advtrains" ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "FaceDeer/crafting_bench" = mkLuantiMod {
-    name = "crafting_bench";
-    release = 28280;
-    hash = "1fsnwp4rlxqwvaq4bicmvzqb325igx6ay8xjnax1va7grvsshpx2";
-    author = "FaceDeer";
-    provides = [ "crafting_bench" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "homiak/waterdragon" = mkLuantiMod {
@@ -42226,6 +42226,71 @@
           "ElCeejo/creatura"
           "EmptyStar/asuna"
           "Lone_Wolf/torrlund"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Sokomine/basic_houses" = mkLuantiMod {
+    name = "basic_houses";
+    release = 24548;
+    hash = "05yxiajhvaabhwf999a9cf4k2sgkk9i1pvwm5dx7pwx5hcvlk5qb";
+    author = "Sokomine";
+    provides = [ "basic_houses" ];
+    depends = [
+      ({
+        name = "handle_schematics";
+        packages = [ "Sokomine/handle_schematics" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/hbarmor" = mkLuantiMod {
+    name = "hbarmor";
+    release = 12993;
+    hash = "1y3wmfszspp9rq2xqx4bld9s674swcj7c2wr6hisj6c94r23asc4";
+    author = "Wuzzy";
+    provides = [ "hbarmor" ];
+    depends = [
+      ({
+        name = "hudbars";
+        packages = [
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "MeseCraft/mesecraft"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Wuzzy/hudbars"
+          "KareaGhandTrail/block_assault"
+          "Lone_Wolf/voxel_knights"
+          "ryvnf/mineclonia"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "1248/stella"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+      ({
+        name = "3d_armor";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "stu/3d_armor"
+          "Astrobe/minefall"
+          "hilol/epic_combat"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
         ];
       })
     ];
@@ -42282,103 +42347,6 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/hbarmor" = mkLuantiMod {
-    name = "hbarmor";
-    release = 12993;
-    hash = "1y3wmfszspp9rq2xqx4bld9s674swcj7c2wr6hisj6c94r23asc4";
-    author = "Wuzzy";
-    provides = [ "hbarmor" ];
-    depends = [
-      ({
-        name = "hudbars";
-        packages = [
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "MeseCraft/mesecraft"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Wuzzy/hudbars"
-          "KareaGhandTrail/block_assault"
-          "Lone_Wolf/voxel_knights"
-          "ryvnf/mineclonia"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "1248/stella"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
-        ];
-      })
-      ({
-        name = "3d_armor";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "stu/3d_armor"
-          "Astrobe/minefall"
-          "hilol/epic_combat"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Sokomine/basic_houses" = mkLuantiMod {
-    name = "basic_houses";
-    release = 24548;
-    hash = "05yxiajhvaabhwf999a9cf4k2sgkk9i1pvwm5dx7pwx5hcvlk5qb";
-    author = "Sokomine";
-    provides = [ "basic_houses" ];
-    depends = [
-      ({
-        name = "handle_schematics";
-        packages = [ "Sokomine/handle_schematics" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Hugues Ross/cartographer" = mkLuantiMod {
-    name = "cartographer";
-    release = 27852;
-    hash = "11rav1lbpi82hj5a5d8rclz99bxdphrf1h64z104rxs1b9yrvpwy";
-    author = "Hugues Ross";
-    provides = [ "cartographer" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Thomas-S/ts_workshop" = mkLuantiMod {
-    name = "ts_workshop";
-    release = 22099;
-    hash = "1jq7hg83fq1k5x7xl4jyfkzim0yx1b58a47ip4kwd54yigzrz5gw";
-    author = "Thomas-S";
-    provides = [ "ts_workshop" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "AntumDeluge/wardrobe_outfits" = mkLuantiMod {
-    name = "wardrobe_outfits";
-    release = 8892;
-    hash = "0vy43dgqxsbyszx1rz9wjfi2akz70k84qfhckfapiibs5qifvaq4";
-    author = "AntumDeluge";
-    provides = [ "wardrobe_outfits" ];
-    depends = [
-      ({
-        name = "wardrobe_ad";
-        packages = [ "AntumDeluge/wardrobe_ad" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "SFENCE/clothing" = mkLuantiMod {
     name = "clothing";
     release = 13740;
@@ -42428,25 +42396,22 @@
     ];
     with_same_name = [ ];
   };
-  "apercy/ju52_hydro" = mkLuantiMod {
-    name = "ju52_hydro";
-    release = 26773;
-    hash = "0j7ki6b70j8gqw77gg7m2ljwn00r3c6bp8s91pw9q6zngvzk14w6";
-    author = "apercy";
-    provides = [ "ju52_hydro" ];
-    depends = [
-      ({
-        name = "airutils";
-        packages = [
-          "bell07/whynot_game"
-          "apercy/airutils"
-        ];
-      })
-      ({
-        name = "ju52";
-        packages = [ "apercy/ju52" ];
-      })
-    ];
+  "Thomas-S/ts_workshop" = mkLuantiMod {
+    name = "ts_workshop";
+    release = 22099;
+    hash = "1jq7hg83fq1k5x7xl4jyfkzim0yx1b58a47ip4kwd54yigzrz5gw";
+    author = "Thomas-S";
+    provides = [ "ts_workshop" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Hugues Ross/cartographer" = mkLuantiMod {
+    name = "cartographer";
+    release = 27852;
+    hash = "11rav1lbpi82hj5a5d8rclz99bxdphrf1h64z104rxs1b9yrvpwy";
+    author = "Hugues Ross";
+    provides = [ "cartographer" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Liil/wilhelminessounds" = mkLuantiMod {
@@ -42503,6 +42468,41 @@
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
         ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/wardrobe_outfits" = mkLuantiMod {
+    name = "wardrobe_outfits";
+    release = 8892;
+    hash = "0vy43dgqxsbyszx1rz9wjfi2akz70k84qfhckfapiibs5qifvaq4";
+    author = "AntumDeluge";
+    provides = [ "wardrobe_outfits" ];
+    depends = [
+      ({
+        name = "wardrobe_ad";
+        packages = [ "AntumDeluge/wardrobe_ad" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "apercy/ju52_hydro" = mkLuantiMod {
+    name = "ju52_hydro";
+    release = 26773;
+    hash = "0j7ki6b70j8gqw77gg7m2ljwn00r3c6bp8s91pw9q6zngvzk14w6";
+    author = "apercy";
+    provides = [ "ju52_hydro" ];
+    depends = [
+      ({
+        name = "airutils";
+        packages = [
+          "bell07/whynot_game"
+          "apercy/airutils"
+        ];
+      })
+      ({
+        name = "ju52";
+        packages = [ "apercy/ju52" ];
       })
     ];
     with_same_name = [ ];
@@ -42606,6 +42606,162 @@
     ];
     with_same_name = [ ];
   };
+  "ClothierEdward/moreawards" = mkLuantiMod {
+    name = "moreawards";
+    release = 20795;
+    hash = "1dp3nn33m0dq8c71bvi8kwjr4qpsgbfvxdpa4z8pvkjbyz9rrqc5";
+    author = "ClothierEdward";
+    provides = [ "moreawards" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "awards";
+        packages = [
+          "VoxelForge/voxelforge"
+          "MeseCraft/mesecraft"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "mt-mods/blockcolor"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "ryvnf/mineclonia"
+          "rubenwardy/awards"
+          "Thunder1035/pacman"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Ghaydn/xnether" = mkLuantiMod {
+    name = "xnether";
+    release = 25711;
+    hash = "14wx8mic045ncgnrka528ffp604r0h30a81crl0zxjl1pwbjdwsg";
+    author = "Ghaydn";
+    provides = [ "xnether" ];
+    depends = [
+      ({
+        name = "nether";
+        packages = [
+          "Casimir/voxelgarden"
+          "MeseCraft/mesecraft"
+          "Hybrid Dog/nether"
+          "PilzAdam/nether"
+          "hilol/epic_combat"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Nazalassa/sim_trains" = mkLuantiMod {
+    name = "sim_trains";
+    release = 27218;
+    hash = "19dwxa136k37b2ipjxmndvhpd7zhzvxrcns33rmp76j0risq5rr8";
+    author = "Nazalassa";
+    provides = [
+      "redcom"
+      "redcom_liveries"
+    ];
+    depends = [
+      ({
+        name = "advtrains_livery_database";
+        packages = [ "Marnack/advtrains_livery_tools" ];
+      })
+      ({
+        name = "advtrains_livery_designer";
+        packages = [ "Marnack/advtrains_livery_tools" ];
+      })
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+      ({
+        name = "advtrains_train_track";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "addi/cannons" = mkLuantiMod {
     name = "cannons";
     release = 12471;
@@ -42696,73 +42852,6 @@
           "debiankaios/proxima_survival"
           "TestificateMods/climate"
           "TestificateMods/climate_api"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "ClothierEdward/moreawards" = mkLuantiMod {
-    name = "moreawards";
-    release = 20795;
-    hash = "1dp3nn33m0dq8c71bvi8kwjr4qpsgbfvxdpa4z8pvkjbyz9rrqc5";
-    author = "ClothierEdward";
-    provides = [ "moreawards" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "awards";
-        packages = [
-          "VoxelForge/voxelforge"
-          "MeseCraft/mesecraft"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "mt-mods/blockcolor"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "ryvnf/mineclonia"
-          "rubenwardy/awards"
-          "Thunder1035/pacman"
         ];
       })
     ];
@@ -42885,95 +42974,6 @@
     ];
     with_same_name = [ ];
   };
-  "Ghaydn/xnether" = mkLuantiMod {
-    name = "xnether";
-    release = 25711;
-    hash = "14wx8mic045ncgnrka528ffp604r0h30a81crl0zxjl1pwbjdwsg";
-    author = "Ghaydn";
-    provides = [ "xnether" ];
-    depends = [
-      ({
-        name = "nether";
-        packages = [
-          "Casimir/voxelgarden"
-          "MeseCraft/mesecraft"
-          "Hybrid Dog/nether"
-          "PilzAdam/nether"
-          "hilol/epic_combat"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Nazalassa/sim_trains" = mkLuantiMod {
-    name = "sim_trains";
-    release = 27218;
-    hash = "19dwxa136k37b2ipjxmndvhpd7zhzvxrcns33rmp76j0risq5rr8";
-    author = "Nazalassa";
-    provides = [
-      "redcom"
-      "redcom_liveries"
-    ];
-    depends = [
-      ({
-        name = "advtrains_livery_database";
-        packages = [ "Marnack/advtrains_livery_tools" ];
-      })
-      ({
-        name = "advtrains_livery_designer";
-        packages = [ "Marnack/advtrains_livery_tools" ];
-      })
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-      ({
-        name = "advtrains_train_track";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "adikalon/tt_food" = mkLuantiMod {
     name = "tt_food";
     release = 27545;
@@ -43036,20 +43036,6 @@
     ];
     with_same_name = [ ];
   };
-  "advtrains_supplemental/tfl_s7_stock_modpack" = mkLuantiMod {
-    name = "tfl_s7_stock_modpack";
-    release = 19327;
-    hash = "03kyyfnlind1xy5z8qf5cs1bqp6xrfsgrk9a93n65ch6fsxfv1as";
-    author = "advtrains_supplemental";
-    provides = [ "tfl_s7_stock_modpack" ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "cheapie/mesecons_carts" = mkLuantiMod {
     name = "mesecons_carts";
     release = 27379;
@@ -43097,6 +43083,277 @@
           "Thunder1035/pacman"
           "PetiAPocok/minetest_extended"
           "Jeija/mesecons"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "LoopyAntenna/super_foods" = mkLuantiMod {
+    name = "super_foods";
+    release = 26720;
+    hash = "0s0d8y774f8g6d5ggzzrbpafmfxyyc2x9p5xinj0xardz77lhi5x";
+    author = "LoopyAntenna";
+    provides = [ "super_foods" ];
+    depends = [
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "stairs";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "rheo/moreblocks"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/stairs"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "nurd3/mobkit_sapien" = mkLuantiMod {
+    name = "mobkit_sapien";
+    release = 27251;
+    hash = "0vc17cpwv020vxs1gpp1734hawxf8lwiv05g9wd3n4bnpbfp2i8k";
+    author = "nurd3";
+    provides = [ "mobkit_sapien" ];
+    depends = [
+      ({
+        name = "mobkit";
+        packages = [
+          "mt-mods/mobkit"
+          "Mantar/exile"
+          "benrob0329/ikea"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "wsor4035/farlands_reloaded"
+          "talas/colourhop"
+          "wsor4035/minekart"
+          "Lone_Wolf/voxel_knights"
+          "nurd3/ul_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "advtrains_supplemental/tfl_s7_stock_modpack" = mkLuantiMod {
+    name = "tfl_s7_stock_modpack";
+    release = 19327;
+    hash = "03kyyfnlind1xy5z8qf5cs1bqp6xrfsgrk9a93n65ch6fsxfv1as";
+    author = "advtrains_supplemental";
+    provides = [ "tfl_s7_stock_modpack" ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Clemstriangular/modern_house" = mkLuantiMod {
+    name = "modern_house";
+    release = 28116;
+    hash = "0bfgn92gxz475xwa3p286frszcjafv1srlyyy868pdmknb392m5q";
+    author = "Clemstriangular";
+    provides = [
+      "modern_blocks"
+      "modern_chairs"
+      "modern_kitchen"
+      "modern_lights"
+    ];
+    depends = [
+      ({
+        name = "stairs";
+        packages = [
+          "Mantar/exile"
+          "rubenwardy/capturetheflag"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "rheo/moreblocks"
+          "KareaGhandTrail/block_assault"
+          "mt-mods/dreambuilder_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/stairs"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Kimapr/nonsensical_skyblock"
+          "JavaFXpert/qiskitblocks"
+          "zanderdev/skyblock_zero"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "hilol/epic_combat"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+      ({
+        name = "wool";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "mt-mods/dreambuilder_game"
+          "MeseCraft/mesecraft"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "miroptics/qiskitblocks_miro"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "Kimapr/nonsensical_skyblock"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
         ];
       })
     ];
@@ -43375,320 +43632,6 @@
     ];
     with_same_name = [ ];
   };
-  "Niklp/colored_concrete" = mkLuantiMod {
-    name = "colored_concrete";
-    release = 19098;
-    hash = "0fb15klypxzrgckwr1023zqq1mglwfk6l4p0mx7hxx57g0kjxn56";
-    author = "Niklp";
-    provides = [ "colored_concrete" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "LoopyAntenna/super_foods" = mkLuantiMod {
-    name = "super_foods";
-    release = 26720;
-    hash = "0s0d8y774f8g6d5ggzzrbpafmfxyyc2x9p5xinj0xardz77lhi5x";
-    author = "LoopyAntenna";
-    provides = [ "super_foods" ];
-    depends = [
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "stairs";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "rheo/moreblocks"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/stairs"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Clemstriangular/modern_house" = mkLuantiMod {
-    name = "modern_house";
-    release = 28116;
-    hash = "0bfgn92gxz475xwa3p286frszcjafv1srlyyy868pdmknb392m5q";
-    author = "Clemstriangular";
-    provides = [
-      "modern_blocks"
-      "modern_chairs"
-      "modern_kitchen"
-      "modern_lights"
-    ];
-    depends = [
-      ({
-        name = "stairs";
-        packages = [
-          "Mantar/exile"
-          "rubenwardy/capturetheflag"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "rheo/moreblocks"
-          "KareaGhandTrail/block_assault"
-          "mt-mods/dreambuilder_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/stairs"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Kimapr/nonsensical_skyblock"
-          "JavaFXpert/qiskitblocks"
-          "zanderdev/skyblock_zero"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "hilol/epic_combat"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-      ({
-        name = "wool";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "mt-mods/dreambuilder_game"
-          "MeseCraft/mesecraft"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "miroptics/qiskitblocks_miro"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "Kimapr/nonsensical_skyblock"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "mt-mods/gadgets_modpack" = mkLuantiMod {
     name = "gadgets_modpack";
     release = 16438;
@@ -43883,26 +43826,83 @@
     ];
     with_same_name = [ ];
   };
-  "nurd3/mobkit_sapien" = mkLuantiMod {
-    name = "mobkit_sapien";
-    release = 27251;
-    hash = "0vc17cpwv020vxs1gpp1734hawxf8lwiv05g9wd3n4bnpbfp2i8k";
-    author = "nurd3";
-    provides = [ "mobkit_sapien" ];
+  "Niklp/colored_concrete" = mkLuantiMod {
+    name = "colored_concrete";
+    release = 19098;
+    hash = "0fb15klypxzrgckwr1023zqq1mglwfk6l4p0mx7hxx57g0kjxn56";
+    author = "Niklp";
+    provides = [ "colored_concrete" ];
     depends = [
       ({
-        name = "mobkit";
+        name = "default";
         packages = [
-          "mt-mods/mobkit"
-          "Mantar/exile"
-          "benrob0329/ikea"
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
           "Hi_World/newplanet"
           "Noodlemire/voxeldungeon"
-          "wsor4035/farlands_reloaded"
-          "talas/colourhop"
-          "wsor4035/minekart"
-          "Lone_Wolf/voxel_knights"
-          "nurd3/ul_game"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
         ];
       })
     ];
@@ -44085,6 +44085,15 @@
     ];
     with_same_name = [ ];
   };
+  "Minetest/sethome" = mkLuantiMod {
+    name = "sethome";
+    release = 24452;
+    hash = "1c4xmf9kl3rakc5xinq84pngx35lajhsv6h9nmyfxanpvc5rv4d4";
+    author = "Minetest";
+    provides = [ "sethome" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "SFENCE/composting" = mkLuantiMod {
     name = "composting";
     release = 27354;
@@ -44100,166 +44109,6 @@
     hash = "0spd2gq6wmf5h06nsfn7d3dw4539ybmwv73ly5dlxxd6z71w6746";
     author = "sofar";
     provides = [ "lightning" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Jean3219/jeans_economy" = mkLuantiMod {
-    name = "jeans_economy";
-    release = 16114;
-    hash = "1mxgip5nvv2n2g6cj3n4yh5a8bvj9f8n3ggqh957llr20gq90x3q";
-    author = "Jean3219";
-    provides = [ "jeans_economy" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AntumDeluge/wardrobe_ad" = mkLuantiMod {
-    name = "wardrobe_ad";
-    release = 8897;
-    hash = "0iybvyfzczn09c0fs7vhqmvhlmr7c4zhrg8pzxgzhp6kv2y84gzk";
-    author = "AntumDeluge";
-    provides = [ "wardrobe_ad" ];
-    depends = [
-      ({
-        name = "player_api";
-        packages = [
-          "aerkiaga/nodeverse"
-          "Hume2/minesweeper_3d"
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "BuckarooBanzay/super_sam"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "xenonca/luckysweeper"
-          "1248/regnum2"
-          "mt-mods/driftgame"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "MeseCraft/mesecraft"
-          "Hume2/boxworld3d"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "dibesfer/colorlandia"
-          "xenonca/luckydude"
-          "Emojiminetest/parkour"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "jamiebearcub/grand_theft_box"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Minetest/sethome" = mkLuantiMod {
-    name = "sethome";
-    release = 24452;
-    hash = "1c4xmf9kl3rakc5xinq84pngx35lajhsv6h9nmyfxanpvc5rv4d4";
-    author = "Minetest";
-    provides = [ "sethome" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -44335,15 +44184,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "entuland/matrix" = mkLuantiMod {
-    name = "matrix";
-    release = 318;
-    hash = "1203rwv7gy1vrz0wvabrj71lhipfh7imvwrk8kxqsbr8waxpq853";
-    author = "entuland";
-    provides = [ "matrix" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Wuzzy/mtg_plus" = mkLuantiMod {
@@ -44559,6 +44399,175 @@
     ];
     with_same_name = [ ];
   };
+  "Jean3219/jeans_economy" = mkLuantiMod {
+    name = "jeans_economy";
+    release = 16114;
+    hash = "1mxgip5nvv2n2g6cj3n4yh5a8bvj9f8n3ggqh957llr20gq90x3q";
+    author = "Jean3219";
+    provides = [ "jeans_economy" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/wardrobe_ad" = mkLuantiMod {
+    name = "wardrobe_ad";
+    release = 8897;
+    hash = "0iybvyfzczn09c0fs7vhqmvhlmr7c4zhrg8pzxgzhp6kv2y84gzk";
+    author = "AntumDeluge";
+    provides = [ "wardrobe_ad" ];
+    depends = [
+      ({
+        name = "player_api";
+        packages = [
+          "aerkiaga/nodeverse"
+          "Hume2/minesweeper_3d"
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "BuckarooBanzay/super_sam"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "xenonca/luckysweeper"
+          "1248/regnum2"
+          "mt-mods/driftgame"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "MeseCraft/mesecraft"
+          "Hume2/boxworld3d"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "dibesfer/colorlandia"
+          "xenonca/luckydude"
+          "Emojiminetest/parkour"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "jamiebearcub/grand_theft_box"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "entuland/matrix" = mkLuantiMod {
+    name = "matrix";
+    release = 318;
+    hash = "1203rwv7gy1vrz0wvabrj71lhipfh7imvwrk8kxqsbr8waxpq853";
+    author = "entuland";
+    provides = [ "matrix" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "SFENCE/appliances" = mkLuantiMod {
+    name = "appliances";
+    release = 24440;
+    hash = "1sx8r8pcy7sz934br1rhj1h34jai0i8apw0001admlaf3yzxd5lv";
+    author = "SFENCE";
+    provides = [ "appliances" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "sorcerykid/beds" = mkLuantiMod {
     name = "beds";
     release = 5138;
@@ -44651,6 +44660,55 @@
       })
     ];
     with_same_name = [ "TenPlus1/beds" ];
+  };
+  "TenPlus1/hopper" = mkLuantiMod {
+    name = "hopper";
+    release = 27573;
+    hash = "04lvicjxdcdf70qz6s9r6l6chxkims5d0ik09qc03pgljz04wk2v";
+    author = "TenPlus1";
+    provides = [ "hopper" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+    ];
+    with_same_name = [ "FaceDeer/hopper" ];
   };
   "Emojiminetest/cottages" = mkLuantiMod {
     name = "cottages";
@@ -44828,64 +44886,6 @@
     ];
     with_same_name = [ "Sokomine/cottages" ];
   };
-  "SFENCE/appliances" = mkLuantiMod {
-    name = "appliances";
-    release = 24440;
-    hash = "1sx8r8pcy7sz934br1rhj1h34jai0i8apw0001admlaf3yzxd5lv";
-    author = "SFENCE";
-    provides = [ "appliances" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TenPlus1/hopper" = mkLuantiMod {
-    name = "hopper";
-    release = 27573;
-    hash = "04lvicjxdcdf70qz6s9r6l6chxkims5d0ik09qc03pgljz04wk2v";
-    author = "TenPlus1";
-    provides = [ "hopper" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-    ];
-    with_same_name = [ "FaceDeer/hopper" ];
-  };
   "FaceDeer/castle_weapons" = mkLuantiMod {
     name = "castle_weapons";
     release = 13140;
@@ -44933,15 +44933,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "FaceDeer/dynamic_liquid" = mkLuantiMod {
-    name = "dynamic_liquid";
-    release = 24969;
-    hash = "12sxxhl79fxlfb4by411ybgkq3vfnnjamyxyl5w7dw8yh8s7394i";
-    author = "FaceDeer";
-    provides = [ "dynamic_liquid" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "advtrains_supplemental/advtrains_train_rocket" = mkLuantiMod {
@@ -44995,6 +44986,160 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "advtrains_supplemental/advtrains_train_zugspitzbahn" = mkLuantiMod {
+    name = "advtrains_train_zugspitzbahn";
+    release = 19324;
+    hash = "1d7pp26dbc2a3vy5czhsm0wdfgc7ahjjf11pkl7naw3wvwa313qj";
+    author = "advtrains_supplemental";
+    provides = [ "advtrains_train_zugspitzbahn" ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "SmokeyDope/mcl_copper_stuff" = mkLuantiMod {
+    name = "mcl_copper_stuff";
+    release = 16992;
+    hash = "0hyxfbmrgf69y3f81n9w54f09k0dqg2ayx087gj0zjbcr427brjf";
+    author = "SmokeyDope";
+    provides = [ "mcl_copper_stuff" ];
+    depends = [
+      ({
+        name = "mcl_sounds";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_armor";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "GreenXenith/mesecons_wireless" = mkLuantiMod {
+    name = "mesecons_wireless";
+    release = 9141;
+    hash = "0108ja5yn7gmv9ylli63f93l0513yhclbh4nrfkp52ql8cjwffnh";
+    author = "GreenXenith";
+    provides = [ "mesecons_wireless" ];
+    depends = [
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "mesecons_luacontroller";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "mesecons_materials";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "FaceDeer/dynamic_liquid" = mkLuantiMod {
+    name = "dynamic_liquid";
+    release = 24969;
+    hash = "12sxxhl79fxlfb4by411ybgkq3vfnnjamyxyl5w7dw8yh8s7394i";
+    author = "FaceDeer";
+    provides = [ "dynamic_liquid" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "FaceDeer/castle_masonry" = mkLuantiMod {
@@ -45083,20 +45228,6 @@
     ];
     with_same_name = [ ];
   };
-  "advtrains_supplemental/advtrains_train_zugspitzbahn" = mkLuantiMod {
-    name = "advtrains_train_zugspitzbahn";
-    release = 19324;
-    hash = "1d7pp26dbc2a3vy5czhsm0wdfgc7ahjjf11pkl7naw3wvwa313qj";
-    author = "advtrains_supplemental";
-    provides = [ "advtrains_train_zugspitzbahn" ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "swagtoy/real_stamina" = mkLuantiMod {
     name = "real_stamina";
     release = 13469;
@@ -45141,37 +45272,6 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SmokeyDope/mcl_copper_stuff" = mkLuantiMod {
-    name = "mcl_copper_stuff";
-    release = 16992;
-    hash = "0hyxfbmrgf69y3f81n9w54f09k0dqg2ayx087gj0zjbcr427brjf";
-    author = "SmokeyDope";
-    provides = [ "mcl_copper_stuff" ];
-    depends = [
-      ({
-        name = "mcl_sounds";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_armor";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
         ];
       })
     ];
@@ -45275,106 +45375,6 @@
         packages = [
           "luk3yx/flow"
           "Kimapr/nonsensical_skyblock"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "GreenXenith/mesecons_wireless" = mkLuantiMod {
-    name = "mesecons_wireless";
-    release = 9141;
-    hash = "0108ja5yn7gmv9ylli63f93l0513yhclbh4nrfkp52ql8cjwffnh";
-    author = "GreenXenith";
-    provides = [ "mesecons_wireless" ];
-    depends = [
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "mesecons_luacontroller";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "mesecons_materials";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
         ];
       })
     ];
@@ -45808,6 +45808,24 @@
     ];
     with_same_name = [ ];
   };
+  "Emojiminetest/teacher_tutorial_advtrains" = mkLuantiMod {
+    name = "teacher_tutorial_advtrains";
+    release = 26534;
+    hash = "1fclkfwmmywdk9r0pnp7p0qvby6lv8vd7lv9p9addks61lb8a82l";
+    author = "Emojiminetest";
+    provides = [ "teacher_tutorial_advtrains" ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+      ({
+        name = "teacher_core";
+        packages = [ "Emojiminetest/teacher" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Winter94/wc_sealife" = mkLuantiMod {
     name = "wc_sealife";
     release = 28026;
@@ -46217,6 +46235,24 @@
     ];
     with_same_name = [ ];
   };
+  "Wuzzy/doc" = mkLuantiMod {
+    name = "doc";
+    release = 23091;
+    hash = "0x4lnzhi4y6xanqqyk9sxfpiy9gkald48fmlfr657vlid3hnbzl5";
+    author = "Wuzzy";
+    provides = [ "doc" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "cora/mcla_music_api" = mkLuantiMod {
+    name = "mcla_music_api";
+    release = 24901;
+    hash = "160g1f6wrm7cdb6rrwc4fab1rhsik2czy21qrlzizf2rdi2ih29b";
+    author = "cora";
+    provides = [ "mcla_music_api" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Warr1024/nc_skyrealm" = mkLuantiMod {
     name = "nc_skyrealm";
     release = 27952;
@@ -46283,48 +46319,12 @@
     ];
     with_same_name = [ ];
   };
-  "Emojiminetest/teacher_tutorial_advtrains" = mkLuantiMod {
-    name = "teacher_tutorial_advtrains";
-    release = 26534;
-    hash = "1fclkfwmmywdk9r0pnp7p0qvby6lv8vd7lv9p9addks61lb8a82l";
-    author = "Emojiminetest";
-    provides = [ "teacher_tutorial_advtrains" ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-      ({
-        name = "teacher_core";
-        packages = [ "Emojiminetest/teacher" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "BuckarooBanzay/mtzip" = mkLuantiMod {
     name = "mtzip";
     release = 23309;
     hash = "1jpk3326x0y0ywc8fmvbf7ri4srscq2s5zik8qx9min3ggqyyqi9";
     author = "BuckarooBanzay";
     provides = [ "mtzip" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/doc" = mkLuantiMod {
-    name = "doc";
-    release = 23091;
-    hash = "0x4lnzhi4y6xanqqyk9sxfpiy9gkald48fmlfr657vlid3hnbzl5";
-    author = "Wuzzy";
-    provides = [ "doc" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "cora/mcla_music_api" = mkLuantiMod {
-    name = "mcla_music_api";
-    release = 24901;
-    hash = "160g1f6wrm7cdb6rrwc4fab1rhsik2czy21qrlzizf2rdi2ih29b";
-    author = "cora";
-    provides = [ "mcla_music_api" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -46590,6 +46590,20 @@
     ];
     with_same_name = [ ];
   };
+  "AliasAlreadyTaken/yl_canned_food" = mkLuantiMod {
+    name = "yl_canned_food";
+    release = 26018;
+    hash = "1jpwbs6cn16xzj0f0z8zmql0k9fd174ylyqd38cbc5lk5yz21r03";
+    author = "AliasAlreadyTaken";
+    provides = [ "yl_canned_food" ];
+    depends = [
+      ({
+        name = "yl_api_nodestages";
+        packages = [ "AliasAlreadyTaken/yl_api_nodestages" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Noordstar/dripstone" = mkLuantiMod {
     name = "dripstone";
     release = 27356;
@@ -46750,18 +46764,75 @@
     ];
     with_same_name = [ ];
   };
-  "AliasAlreadyTaken/yl_canned_food" = mkLuantiMod {
-    name = "yl_canned_food";
-    release = 26018;
-    hash = "1jpwbs6cn16xzj0f0z8zmql0k9fd174ylyqd38cbc5lk5yz21r03";
-    author = "AliasAlreadyTaken";
-    provides = [ "yl_canned_food" ];
+  "mt-mods/gloopblocks" = mkLuantiMod {
+    name = "gloopblocks";
+    release = 27514;
+    hash = "1k3lfdnr4n9wyxq6r6a2a81dqyvhsxlhlh0f7sprn3rp6yz84ymi";
+    author = "mt-mods";
+    provides = [ "gloopblocks" ];
     depends = [
       ({
-        name = "yl_api_nodestages";
-        packages = [ "AliasAlreadyTaken/yl_api_nodestages" ];
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "MeseCraft/mesecraft"
+          "bell07/whynot_game"
+          "Kimapr/nonsensical_skyblock"
+          "rlars/occupymoon_game"
+          "joe7575/techage_modpack"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "theFox/factory" = mkLuantiMod {
+    name = "factory";
+    release = 22737;
+    hash = "0nd8qhjbbhdzqxgk7l8vpwj7y0ir6l0naji3q4rkspfqgw0s1c85";
+    author = "theFox";
+    provides = [ "factory" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Wuzzy/tt_base" = mkLuantiMod {
@@ -47273,68 +47344,6 @@
     ];
     with_same_name = [ ];
   };
-  "mt-mods/gloopblocks" = mkLuantiMod {
-    name = "gloopblocks";
-    release = 27514;
-    hash = "1k3lfdnr4n9wyxq6r6a2a81dqyvhsxlhlh0f7sprn3rp6yz84ymi";
-    author = "mt-mods";
-    provides = [ "gloopblocks" ];
-    depends = [
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "MeseCraft/mesecraft"
-          "bell07/whynot_game"
-          "Kimapr/nonsensical_skyblock"
-          "rlars/occupymoon_game"
-          "joe7575/techage_modpack"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "chon/simple_waypoints" = mkLuantiMod {
     name = "simple_waypoints";
     release = 26917;
@@ -47390,15 +47399,6 @@
     hash = "0w7cx9zxpiwzfsqzrdcdmgrivxwwq1ccmrwkha2sv4mi7hnjy8dn";
     author = "TenPlus1";
     provides = [ "pova" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "theFox/factory" = mkLuantiMod {
-    name = "factory";
-    release = 22737;
-    hash = "0nd8qhjbbhdzqxgk7l8vpwj7y0ir6l0naji3q4rkspfqgw0s1c85";
-    author = "theFox";
-    provides = [ "factory" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -47496,6 +47496,59 @@
     ];
     with_same_name = [ ];
   };
+  "loosewheel/lwcomputers_software" = mkLuantiMod {
+    name = "lwcomputers_software";
+    release = 12575;
+    hash = "0lap16qk12k8v8y2skd6pvphrrs05280pyl51vi3byffrglwnl07";
+    author = "loosewheel";
+    provides = [ "lwcomputers_software" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "lwcomputers";
+        packages = [ "loosewheel/lwcomputers" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Warr1024/nc_skins" = mkLuantiMod {
     name = "nc_skins";
     release = 26948;
@@ -47585,6 +47638,85 @@
         packages = [
           "Warr1024/nodecore"
           "Warr1024/nodecore_alpha"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "mt-mods/decorations_sea" = mkLuantiMod {
+    name = "decorations_sea";
+    release = 17589;
+    hash = "085hgbiw7zqaygrdxi0lknyzbq6c7r0mj8m3d2j2fbjdng15fdmp";
+    author = "mt-mods";
+    provides = [ "decorations_sea" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/mesecons_window" = mkLuantiMod {
+    name = "mesecons_window";
+    release = 17328;
+    hash = "1jjp3q49jcczs5pc6mj4grgn91c4qfajzid2ybx4clgpkbglxhl1";
+    author = "Wuzzy";
+    provides = [ "mesecons_window" ];
+    depends = [
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
         ];
       })
     ];
@@ -47744,12 +47876,115 @@
     ];
     with_same_name = [ ];
   };
+  "DynamaxPikachu/legendary_armor" = mkLuantiMod {
+    name = "legendary_armor";
+    release = 7192;
+    hash = "0dp7rik5zs11qq28mff9g8z4z5f8vnb6rx04v4vbbpqyifmbjjbj";
+    author = "DynamaxPikachu";
+    provides = [ "legendary_armor" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "3d_armor";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "stu/3d_armor"
+          "Astrobe/minefall"
+          "hilol/epic_combat"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "pixelzone/waystone" = mkLuantiMod {
     name = "waystone";
     release = 28130;
     hash = "0yirflqc7bivfl9qprkg7g2s9fhv3hq89lq4ylm58m0kw2x41f3v";
     author = "pixelzone";
     provides = [ "waystone" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "SFENCE/adaptation_modpack" = mkLuantiMod {
+    name = "adaptation_modpack";
+    release = 15841;
+    hash = "1snxabii80ip0f12q593bl04365k7n4p5mqx7k5a92vnh339636p";
+    author = "SFENCE";
+    provides = [
+      "adaptation_animal"
+      "adaptation_animalia"
+      "adaptation_basic_materials"
+      "adaptation_biofuel"
+      "adaptation_clothing_machines"
+      "adaptation_cool_trees"
+      "adaptation_elepower"
+      "adaptation_exile"
+      "adaptation_extraores"
+      "adaptation_farlands_reloaded"
+      "adaptation_farming_redo"
+      "adaptation_hades_extensionmods"
+      "adaptation_hades_revisited"
+      "adaptation_ksurvive2"
+      "adaptation_lib"
+      "adaptation_mesecons"
+      "adaptation_mineclone"
+      "adaptation_minetest_game"
+      "adaptation_moreores"
+      "adaptation_moretrees"
+      "adaptation_petz"
+      "adaptation_pipeworks"
+      "adaptation_power_generators"
+      "adaptation_repixture"
+      "adaptation_rubber"
+      "adaptation_techage"
+      "adaptation_technic"
+      "adaptation_xocean"
+    ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -47828,6 +48063,23 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Thisaccountis42/mcl_jukebox_c418" = mkLuantiMod {
+    name = "mcl_jukebox_c418";
+    release = 16485;
+    hash = "12y2nynbd0zc8hv4d4gbbhh0l5729jwp5c05sa3g3c326mkaz8w3";
+    author = "Thisaccountis42";
+    provides = [ "mcl_jukebox_c418" ];
+    depends = [
+      ({
+        name = "mcl_jukebox";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
         ];
       })
     ];
@@ -47998,59 +48250,6 @@
     ];
     with_same_name = [ ];
   };
-  "loosewheel/lwcomputers_software" = mkLuantiMod {
-    name = "lwcomputers_software";
-    release = 12575;
-    hash = "0lap16qk12k8v8y2skd6pvphrrs05280pyl51vi3byffrglwnl07";
-    author = "loosewheel";
-    provides = [ "lwcomputers_software" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "lwcomputers";
-        packages = [ "loosewheel/lwcomputers" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Sokomine/npc_talk_edit" = mkLuantiMod {
     name = "npc_talk_edit";
     release = 24506;
@@ -48152,12 +48351,12 @@
     ];
     with_same_name = [ ];
   };
-  "mt-mods/decorations_sea" = mkLuantiMod {
-    name = "decorations_sea";
-    release = 17589;
-    hash = "085hgbiw7zqaygrdxi0lknyzbq6c7r0mj8m3d2j2fbjdng15fdmp";
-    author = "mt-mods";
-    provides = [ "decorations_sea" ];
+  "Jolesh/nuggets" = mkLuantiMod {
+    name = "nuggets";
+    release = 24245;
+    hash = "0d9rcpz76p5bgavc2hlhwhna0hsf8wizgnqfgi2jgmjqw9hjwqx9";
+    author = "Jolesh";
+    provides = [ "nuggets" ];
     depends = [
       ({
         name = "default";
@@ -48199,74 +48398,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/mesecons_window" = mkLuantiMod {
-    name = "mesecons_window";
-    release = 17328;
-    hash = "1jjp3q49jcczs5pc6mj4grgn91c4qfajzid2ybx4clgpkbglxhl1";
-    author = "Wuzzy";
-    provides = [ "mesecons_window" ];
-    depends = [
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SFENCE/adaptation_modpack" = mkLuantiMod {
-    name = "adaptation_modpack";
-    release = 15841;
-    hash = "1snxabii80ip0f12q593bl04365k7n4p5mqx7k5a92vnh339636p";
-    author = "SFENCE";
-    provides = [
-      "adaptation_animal"
-      "adaptation_animalia"
-      "adaptation_basic_materials"
-      "adaptation_biofuel"
-      "adaptation_clothing_machines"
-      "adaptation_cool_trees"
-      "adaptation_elepower"
-      "adaptation_exile"
-      "adaptation_extraores"
-      "adaptation_farlands_reloaded"
-      "adaptation_farming_redo"
-      "adaptation_hades_extensionmods"
-      "adaptation_hades_revisited"
-      "adaptation_ksurvive2"
-      "adaptation_lib"
-      "adaptation_mesecons"
-      "adaptation_mineclone"
-      "adaptation_minetest_game"
-      "adaptation_moreores"
-      "adaptation_moretrees"
-      "adaptation_petz"
-      "adaptation_pipeworks"
-      "adaptation_power_generators"
-      "adaptation_repixture"
-      "adaptation_rubber"
-      "adaptation_techage"
-      "adaptation_technic"
-      "adaptation_xocean"
-    ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "LMD/moblib" = mkLuantiMod {
@@ -48288,69 +48419,13 @@
     ];
     with_same_name = [ ];
   };
-  "DynamaxPikachu/legendary_armor" = mkLuantiMod {
-    name = "legendary_armor";
-    release = 7192;
-    hash = "0dp7rik5zs11qq28mff9g8z4z5f8vnb6rx04v4vbbpqyifmbjjbj";
-    author = "DynamaxPikachu";
-    provides = [ "legendary_armor" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "3d_armor";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "stu/3d_armor"
-          "Astrobe/minefall"
-          "hilol/epic_combat"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
+  "luk3yx/cloaking" = mkLuantiMod {
+    name = "cloaking";
+    release = 26116;
+    hash = "1lbjimz4vk2snnfjg68vci8dirj4bivzfjys6zqy9706lm5wrz9d";
+    author = "luk3yx";
+    provides = [ "cloaking" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Tmanyo/bank_accounts" = mkLuantiMod {
@@ -48365,23 +48440,6 @@
         packages = [
           "mt-mods/currency"
           "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Thisaccountis42/mcl_jukebox_c418" = mkLuantiMod {
-    name = "mcl_jukebox_c418";
-    release = 16485;
-    hash = "12y2nynbd0zc8hv4d4gbbhh0l5729jwp5c05sa3g3c326mkaz8w3";
-    author = "Thisaccountis42";
-    provides = [ "mcl_jukebox_c418" ];
-    depends = [
-      ({
-        name = "mcl_jukebox";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
         ];
       })
     ];
@@ -48450,50 +48508,36 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Jolesh/nuggets" = mkLuantiMod {
-    name = "nuggets";
-    release = 24245;
-    hash = "0d9rcpz76p5bgavc2hlhwhna0hsf8wizgnqfgi2jgmjqw9hjwqx9";
-    author = "Jolesh";
-    provides = [ "nuggets" ];
+  "threehymns/unified_inventory_themes" = mkLuantiMod {
+    name = "unified_inventory_themes";
+    release = 11691;
+    hash = "0j742j0i9x1jmhkxyad62rkmz3yv95ly913miv8m50zb5k4kvar8";
+    author = "threehymns";
+    provides = [ "unified_inventory_themes" ];
     depends = [
       ({
-        name = "default";
+        name = "formspec_ast";
         packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
+          "RedundantC/wis_part1"
           "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
+          "luk3yx/formspec_ast"
+          "luk3yx/prang"
           "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "unified_inventory";
+        packages = [
+          "Hi_World/newplanet"
+          "joe7575/techage_modpack"
+          "BRNSystems/blocky_portaling"
+          "PyuDev/pyutest"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "RealBadAngel/unified_inventory"
         ];
       })
     ];
@@ -48551,6 +48595,55 @@
     author = "x2048";
     provides = [ "shadows" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "Anonymous_moose/banner" = mkLuantiMod {
+    name = "banner";
+    release = 8105;
+    hash = "14ygy2m5b2dsylshz0zmmkm9577hi231xwb6l24c005s3x086iwk";
+    author = "Anonymous_moose";
+    provides = [ "banner" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Noordstar/ns_vl_caves" = mkLuantiMod {
@@ -48732,6 +48825,195 @@
     author = "erlehmann";
     provides = [ "mcl_polished_stone_stairs" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "DragonWrangler/tkr_nether_public" = mkLuantiMod {
+    name = "tkr_nether_public";
+    release = 24916;
+    hash = "1mbwv0993qjcbnkab4p07lsk88mz433v1j0w1vxrh0361hz847s7";
+    author = "DragonWrangler";
+    provides = [
+      "nether_addons"
+      "nether_sword_api"
+      "nether_tnt"
+    ];
+    depends = [
+      ({
+        name = "fire";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "mobs";
+        packages = [
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "crabycowman123/spmeter"
+          "PyuDev/pyutest"
+          "mt-mods/blockcolor"
+          "TenPlus1/mobs"
+          "debiankaios/proxima_survival"
+          "miroptics/qiskitblocks_miro"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+          "1248/agon"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "nether_mobs";
+        packages = [
+          "Dirkfried/nether_mobs"
+          "hilol/epic_combat"
+        ];
+      })
+      ({
+        name = "nether";
+        packages = [
+          "Casimir/voxelgarden"
+          "MeseCraft/mesecraft"
+          "Hybrid Dog/nether"
+          "PilzAdam/nether"
+          "hilol/epic_combat"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "stairs";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "rheo/moreblocks"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/stairs"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "mobs_monster";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "5uper1ach/szombie"
+          "bell07/whynot_game"
+          "miroptics/qiskitblocks_miro"
+          "TenPlus1/mobs_monster"
+          "hilol/epic_combat"
+          "JavaFXpert/qiskitblocks"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "beacons";
+        packages = [
+          "SpaghettiToastBook/beacons"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "SFENCE/feed_buckets" = mkLuantiMod {
@@ -48980,6 +49262,15 @@
     ];
     with_same_name = [ ];
   };
+  "SilverSandstone/logspikes" = mkLuantiMod {
+    name = "logspikes";
+    release = 23088;
+    hash = "14bl06rmsf9syzn9vvvz6z0j0kbag3aclpdf25dxzzvjrcjpxmll";
+    author = "SilverSandstone";
+    provides = [ "logspikes" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Winter94/wc_stala" = mkLuantiMod {
     name = "wc_stala";
     release = 27870;
@@ -49095,15 +49386,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "luk3yx/cloaking" = mkLuantiMod {
-    name = "cloaking";
-    release = 26116;
-    hash = "1lbjimz4vk2snnfjg68vci8dirj4bivzfjys6zqy9706lm5wrz9d";
-    author = "luk3yx";
-    provides = [ "cloaking" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "LNJ/lapis" = mkLuantiMod {
@@ -49290,90 +49572,6 @@
     ];
     with_same_name = [ ];
   };
-  "threehymns/unified_inventory_themes" = mkLuantiMod {
-    name = "unified_inventory_themes";
-    release = 11691;
-    hash = "0j742j0i9x1jmhkxyad62rkmz3yv95ly913miv8m50zb5k4kvar8";
-    author = "threehymns";
-    provides = [ "unified_inventory_themes" ];
-    depends = [
-      ({
-        name = "formspec_ast";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "RedundantC/wis_part1"
-          "Panquesito7/panqkart"
-          "luk3yx/formspec_ast"
-          "luk3yx/prang"
-          "Thunder1035/pacman"
-        ];
-      })
-      ({
-        name = "unified_inventory";
-        packages = [
-          "Hi_World/newplanet"
-          "joe7575/techage_modpack"
-          "BRNSystems/blocky_portaling"
-          "PyuDev/pyutest"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "RealBadAngel/unified_inventory"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Anonymous_moose/banner" = mkLuantiMod {
-    name = "banner";
-    release = 8105;
-    hash = "14ygy2m5b2dsylshz0zmmkm9577hi231xwb6l24c005s3x086iwk";
-    author = "Anonymous_moose";
-    provides = [ "banner" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Winter94/wc_coal" = mkLuantiMod {
     name = "wc_coal";
     release = 27401;
@@ -49499,22 +49697,18 @@
     ];
     with_same_name = [ ];
   };
-  "DragonWrangler/tkr_nether_public" = mkLuantiMod {
-    name = "tkr_nether_public";
-    release = 24916;
-    hash = "1mbwv0993qjcbnkab4p07lsk88mz433v1j0w1vxrh0361hz847s7";
-    author = "DragonWrangler";
-    provides = [
-      "nether_addons"
-      "nether_sword_api"
-      "nether_tnt"
-    ];
+  "Annalysa/potted_farming" = mkLuantiMod {
+    name = "potted_farming";
+    release = 18072;
+    hash = "0a0fhmpw5gw6shlz4baxb5rv756cwrgqa646pw42fvlz79qmxidp";
+    author = "Annalysa";
+    provides = [ "potted_farming" ];
     depends = [
       ({
-        name = "fire";
+        name = "dye";
         packages = [
           "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
           "Noodlemire/voxeldungeon"
           "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
@@ -49522,55 +49716,25 @@
           "1248/regnum"
           "bell07/whynot_game"
           "1248/regnum2"
+          "MeseCraft/mesecraft"
           "1248/castrum"
           "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
           "EmptyStar/asuna"
           "miroptics/qiskitblocks_miro"
           "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
           "KareaGhandTrail/block_assault"
           "Amaz/lordofthetest"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
           "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
           "Big_Caballito/no_mans_land"
           "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "mobs";
-        packages = [
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "crabycowman123/spmeter"
-          "PyuDev/pyutest"
-          "mt-mods/blockcolor"
-          "TenPlus1/mobs"
-          "debiankaios/proxima_survival"
-          "miroptics/qiskitblocks_miro"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-          "1248/agon"
         ];
       })
       ({
@@ -49612,78 +49776,42 @@
           "Minetest/minetest_game"
         ];
       })
+    ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/teacher" = mkLuantiMod {
+    name = "teacher";
+    release = 26533;
+    hash = "1751p9y53lnk67bynvl2qqylgw7snqzmfzdww9zvnpxyw6ka94f6";
+    author = "Emojiminetest";
+    provides = [
+      "teacher_core"
+      "teacher_tutorial_self"
+    ];
+    depends = [
       ({
-        name = "nether_mobs";
+        name = "flow";
         packages = [
-          "Dirkfried/nether_mobs"
-          "hilol/epic_combat"
-        ];
-      })
-      ({
-        name = "nether";
-        packages = [
-          "Casimir/voxelgarden"
-          "MeseCraft/mesecraft"
-          "Hybrid Dog/nether"
-          "PilzAdam/nether"
-          "hilol/epic_combat"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "stairs";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
           "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "rheo/moreblocks"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/stairs"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
+          "luk3yx/flow"
         ];
       })
       ({
-        name = "mobs_monster";
+        name = "modlib";
         packages = [
-          "Noodlemire/voxeldungeon"
-          "5uper1ach/szombie"
-          "bell07/whynot_game"
-          "miroptics/qiskitblocks_miro"
-          "TenPlus1/mobs_monster"
-          "hilol/epic_combat"
-          "JavaFXpert/qiskitblocks"
-          "PetiAPocok/minetest_extended"
+          "Kimapr/nonsensical_skyblock"
+          "LMD/modlib"
+          "LMD/cellestial_game"
+          "sdd/spiraling_down"
         ];
       })
       ({
-        name = "beacons";
-        packages = [
-          "SpaghettiToastBook/beacons"
-          "PetiAPocok/minetest_extended"
-        ];
+        name = "settings_loader";
+        packages = [ "Emojiminetest/settings_loader" ];
+      })
+      ({
+        name = "logging";
+        packages = [ "Emojiminetest/logging" ];
       })
     ];
     with_same_name = [ ];
@@ -49740,15 +49868,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "SilverSandstone/logspikes" = mkLuantiMod {
-    name = "logspikes";
-    release = 23088;
-    hash = "14bl06rmsf9syzn9vvvz6z0j0kbag3aclpdf25dxzzvjrcjpxmll";
-    author = "SilverSandstone";
-    provides = [ "logspikes" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "AiTechEye/mesetec" = mkLuantiMod {
@@ -49877,6 +49996,55 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "TumeniNodes/angledstairs" = mkLuantiMod {
+    name = "angledstairs";
+    release = 117;
+    hash = "1fdbkh4888jxc0wc1j6yalbkl096cqpd286lp0d4gmlcpvb45fpw";
+    author = "TumeniNodes";
+    provides = [ "angledstairs" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "ROllerozxa/simple_roads" = mkLuantiMod {
     name = "simple_roads";
     release = 13973;
@@ -49893,6 +50061,133 @@
     author = "octacian";
     provides = [ "multihome" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "beepbopbeepboop/autofarmer" = mkLuantiMod {
+    name = "autofarmer";
+    release = 25133;
+    hash = "0nm1lsc6sa34h0nxrzhidrxwi8mq4prsk0qhmd8pw1hqh3yshp36";
+    author = "beepbopbeepboop";
+    provides = [ "autofarmer" ];
+    depends = [
+      ({
+        name = "pipeworks";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "1248/regnum"
+          "1248/regnum2"
+          "zanderdev/skyblock_zero"
+          "Wuzzy/hades_revisited"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "mt-mods/pipeworks"
+          "rlars/occupymoon_game"
+        ];
+      })
+      ({
+        name = "mystical_agriculture";
+        packages = [
+          "TechNolaByte/mystical_agriculture"
+          "mooshidungii/mystical_agriculture"
+        ];
+      })
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "moreores";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "1248/regnum"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "Calinou/moreores"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "technic";
+        packages = [
+          "mt-mods/technic_plus_beta"
+          "mt-mods/technic_plus"
+          "Kimapr/nonsensical_skyblock"
+          "1248/regnum"
+          "1248/regnum2"
+          "RealBadAngel/technic"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "SuperStarSonic/treeparticles" = mkLuantiMod {
+    name = "treeparticles";
+    release = 17543;
+    hash = "035rc6ribzrsgys08b9a3f90g8r88snc4wsvxk92cj15kh1l2a78";
+    author = "SuperStarSonic";
+    provides = [ "treeparticles" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "ems111/lucky_block_ore" = mkLuantiMod {
@@ -50029,88 +50324,6 @@
         packages = [
           "mt-mods/dreambuilder_game"
           "Sokomine/locks"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Annalysa/potted_farming" = mkLuantiMod {
-    name = "potted_farming";
-    release = 18072;
-    hash = "0a0fhmpw5gw6shlz4baxb5rv756cwrgqa646pw42fvlz79qmxidp";
-    author = "Annalysa";
-    provides = [ "potted_farming" ];
-    depends = [
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -50298,43 +50511,6 @@
     ];
     with_same_name = [ ];
   };
-  "Emojiminetest/teacher" = mkLuantiMod {
-    name = "teacher";
-    release = 26533;
-    hash = "1751p9y53lnk67bynvl2qqylgw7snqzmfzdww9zvnpxyw6ka94f6";
-    author = "Emojiminetest";
-    provides = [
-      "teacher_core"
-      "teacher_tutorial_self"
-    ];
-    depends = [
-      ({
-        name = "flow";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "luk3yx/flow"
-        ];
-      })
-      ({
-        name = "modlib";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "LMD/modlib"
-          "LMD/cellestial_game"
-          "sdd/spiraling_down"
-        ];
-      })
-      ({
-        name = "settings_loader";
-        packages = [ "Emojiminetest/settings_loader" ];
-      })
-      ({
-        name = "logging";
-        packages = [ "Emojiminetest/logging" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TrafficSignal2217/mcl_falling_tnt" = mkLuantiMod {
     name = "mcl_falling_tnt";
     release = 22405;
@@ -50454,6 +50630,24 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "BuckarooBanzay/basic_streets" = mkLuantiMod {
+    name = "basic_streets";
+    release = 23808;
+    hash = "1wk8jfhq3yvcw7sr2z8fzfbvscxl6hsl2vd8af57jnfxibrhdcx0";
+    author = "BuckarooBanzay";
+    provides = [ "basic_streets" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "cheapie/handdryer" = mkLuantiMod {
+    name = "handdryer";
+    release = 27378;
+    hash = "17fx9ijyyxn2wip2qwygbkm6h9bzcsvv894is1waih0qvvl0rw0m";
+    author = "cheapie";
+    provides = [ "handdryer" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "sofar/warps" = mkLuantiMod {
@@ -50826,55 +51020,6 @@
     ];
     with_same_name = [ ];
   };
-  "TumeniNodes/angledstairs" = mkLuantiMod {
-    name = "angledstairs";
-    release = 117;
-    hash = "1fdbkh4888jxc0wc1j6yalbkl096cqpd286lp0d4gmlcpvb45fpw";
-    author = "TumeniNodes";
-    provides = [ "angledstairs" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TenPlus1/invisibility" = mkLuantiMod {
     name = "invisibility";
     release = 26497;
@@ -50983,133 +51128,6 @@
     author = "SOSO1";
     provides = [ "mcl2_clocks" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "beepbopbeepboop/autofarmer" = mkLuantiMod {
-    name = "autofarmer";
-    release = 25133;
-    hash = "0nm1lsc6sa34h0nxrzhidrxwi8mq4prsk0qhmd8pw1hqh3yshp36";
-    author = "beepbopbeepboop";
-    provides = [ "autofarmer" ];
-    depends = [
-      ({
-        name = "pipeworks";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "zanderdev/skyblock_zero"
-          "Wuzzy/hades_revisited"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "mt-mods/pipeworks"
-          "rlars/occupymoon_game"
-        ];
-      })
-      ({
-        name = "mystical_agriculture";
-        packages = [
-          "TechNolaByte/mystical_agriculture"
-          "mooshidungii/mystical_agriculture"
-        ];
-      })
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "moreores";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "Calinou/moreores"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "technic";
-        packages = [
-          "mt-mods/technic_plus_beta"
-          "mt-mods/technic_plus"
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "RealBadAngel/technic"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SuperStarSonic/treeparticles" = mkLuantiMod {
-    name = "treeparticles";
-    release = 17543;
-    hash = "035rc6ribzrsgys08b9a3f90g8r88snc4wsvxk92cj15kh1l2a78";
-    author = "SuperStarSonic";
-    provides = [ "treeparticles" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Robot10_Scheletor/strange_weapons" = mkLuantiMod {
@@ -51526,15 +51544,6 @@
     ];
     with_same_name = [ ];
   };
-  "BuckarooBanzay/basic_streets" = mkLuantiMod {
-    name = "basic_streets";
-    release = 23808;
-    hash = "1wk8jfhq3yvcw7sr2z8fzfbvscxl6hsl2vd8af57jnfxibrhdcx0";
-    author = "BuckarooBanzay";
-    provides = [ "basic_streets" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "SpacingBat3/coreanim" = mkLuantiMod {
     name = "coreanim";
     release = 27551;
@@ -51548,13 +51557,52 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "cheapie/handdryer" = mkLuantiMod {
-    name = "handdryer";
-    release = 27378;
-    hash = "17fx9ijyyxn2wip2qwygbkm6h9bzcsvv894is1waih0qvvl0rw0m";
-    author = "cheapie";
-    provides = [ "handdryer" ];
-    depends = [ ];
+  "Emojiminetest/unified_money" = mkLuantiMod {
+    name = "unified_money";
+    release = 25893;
+    hash = "105xzb23j4cf82ffpzf62arkfv62fjwrrays8mhjcd2k1vw140h9";
+    author = "Emojiminetest";
+    provides = [
+      "um_backend_dummy"
+      "um_backend_plain"
+      "um_core"
+      "um_dump_data"
+      "um_frontend_cmd"
+      "um_migrate_plain"
+      "um_plugin_playername"
+      "um_translate_common"
+      "um_utils"
+    ];
+    depends = [
+      ({
+        name = "lib_chatcmdbuilder";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "rubenwardy/lib_chatcmdbuilder"
+          "hilol/epic_combat"
+          "MisterE/blockbomber_editor"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "erlehmann/xmaps" = mkLuantiMod {
+    name = "xmaps";
+    release = 12343;
+    hash = "0j5njc0iqy92n8fr7sa88y4r1yrak0654nkaxjvs415rnhpivn23";
+    author = "erlehmann";
+    provides = [ "xmaps" ];
+    depends = [
+      ({
+        name = "tga_encoder";
+        packages = [
+          "VoxelForge/voxelforge"
+          "Wuzzy/mineclone2"
+          "erlehmann/tga_encoder"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "GreenXenith/ncbells" = mkLuantiMod {
@@ -51588,6 +51636,55 @@
     ];
     with_same_name = [ ];
   };
+  "cheapie/icemachine" = mkLuantiMod {
+    name = "icemachine";
+    release = 27380;
+    hash = "0dlimilzlmf1m3dwhyfwsrs3d563n3dpxshvhlrlg35j25d85sql";
+    author = "cheapie";
+    provides = [ "icemachine" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Minetest/minetest_game"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "BuckarooBanzay/mesecons_lab"
+          "KareaGhandTrail/block_assault"
+          "1248/regnum2"
+          "1248/castrum"
+          "mt-mods/dreambuilder_game"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "Kimapr/nonsensical_skyblock"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "Big_Caballito/no_mans_land"
+          "Casimir/voxelgarden"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "ApolloX/renew_pack" = mkLuantiMod {
     name = "renew_pack";
     release = 12879;
@@ -51599,6 +51696,117 @@
       "renew_tools"
     ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "ekl/splooshy_bombs" = mkLuantiMod {
+    name = "splooshy_bombs";
+    release = 16564;
+    hash = "0hcfd6sfrdn59ggx5v3b2aaw7vyfzwqvgpxk2v4lmclky05k449b";
+    author = "ekl";
+    provides = [
+      "splooshy_bombs_grenade"
+      "splooshy_bombs_rpg"
+    ];
+    depends = [
+      ({
+        name = "tnt";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "AwesomeDragon97/tnt"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "fire";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "StarNinjas/veil_of_the_unknown"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "splooshy_bombs_api";
+        packages = [ "ekl/splooshy_bombs_api" ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "erlehmann/mcl_lever_status_indicator" = mkLuantiMod {
@@ -51732,6 +51940,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/glass" = mkLuantiMod {
+    name = "glass";
+    release = 23735;
+    hash = "0kng6zfx598llpszij04slz6l8l9d5pfhymakh7y7x7h7kg4l6f7";
+    author = "AntumDeluge";
+    provides = [ "glass" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Krunegan/firemaster" = mkLuantiMod {
@@ -51882,6 +52099,55 @@
     hash = "1kxpzh2jfy4f7084n5d6adzqbzm519b7kfwbifmsprcg8adhw0ns";
     author = "Sokomine";
     provides = [ "xconnected" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "JoeEnderman/paintings_lib" = mkLuantiMod {
+    name = "paintings_lib";
+    release = 22800;
+    hash = "1svlagbxh12h4hz94z1h6jspggp5k6rqq0w51csbra8f1zr1dhdg";
+    author = "JoeEnderman";
+    provides = [ "paintings_lib" ];
     depends = [
       ({
         name = "default";
@@ -52156,35 +52422,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Emojiminetest/unified_money" = mkLuantiMod {
-    name = "unified_money";
-    release = 25893;
-    hash = "105xzb23j4cf82ffpzf62arkfv62fjwrrays8mhjcd2k1vw140h9";
-    author = "Emojiminetest";
-    provides = [
-      "um_backend_dummy"
-      "um_backend_plain"
-      "um_core"
-      "um_dump_data"
-      "um_frontend_cmd"
-      "um_migrate_plain"
-      "um_plugin_playername"
-      "um_translate_common"
-      "um_utils"
-    ];
-    depends = [
-      ({
-        name = "lib_chatcmdbuilder";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "rubenwardy/lib_chatcmdbuilder"
-          "hilol/epic_combat"
-          "MisterE/blockbomber_editor"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "techniX/ham_radio" = mkLuantiMod {
     name = "ham_radio";
     release = 5373;
@@ -52243,25 +52480,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "erlehmann/xmaps" = mkLuantiMod {
-    name = "xmaps";
-    release = 12343;
-    hash = "0j5njc0iqy92n8fr7sa88y4r1yrak0654nkaxjvs415rnhpivn23";
-    author = "erlehmann";
-    provides = [ "xmaps" ];
-    depends = [
-      ({
-        name = "tga_encoder";
-        packages = [
-          "VoxelForge/voxelforge"
-          "Wuzzy/mineclone2"
-          "erlehmann/tga_encoder"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Warr1024/nc_ziprunes" = mkLuantiMod {
     name = "nc_ziprunes";
     release = 26206;
@@ -52288,55 +52506,6 @@
         packages = [
           "Warr1024/nodecore"
           "Warr1024/nodecore_alpha"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "cheapie/icemachine" = mkLuantiMod {
-    name = "icemachine";
-    release = 27380;
-    hash = "0dlimilzlmf1m3dwhyfwsrs3d563n3dpxshvhlrlg35j25d85sql";
-    author = "cheapie";
-    provides = [ "icemachine" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Minetest/minetest_game"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "BuckarooBanzay/mesecons_lab"
-          "KareaGhandTrail/block_assault"
-          "1248/regnum2"
-          "1248/castrum"
-          "mt-mods/dreambuilder_game"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "Kimapr/nonsensical_skyblock"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "Big_Caballito/no_mans_land"
-          "Casimir/voxelgarden"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
         ];
       })
     ];
@@ -52519,117 +52688,6 @@
     ];
     with_same_name = [ ];
   };
-  "ekl/splooshy_bombs" = mkLuantiMod {
-    name = "splooshy_bombs";
-    release = 16564;
-    hash = "0hcfd6sfrdn59ggx5v3b2aaw7vyfzwqvgpxk2v4lmclky05k449b";
-    author = "ekl";
-    provides = [
-      "splooshy_bombs_grenade"
-      "splooshy_bombs_rpg"
-    ];
-    depends = [
-      ({
-        name = "tnt";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "AwesomeDragon97/tnt"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "fire";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "StarNinjas/veil_of_the_unknown"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "splooshy_bombs_api";
-        packages = [ "ekl/splooshy_bombs_api" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "QuillNewelt/modname_tooltip" = mkLuantiMod {
     name = "modname_tooltip";
     release = 11958;
@@ -52653,6 +52711,20 @@
     ];
     with_same_name = [ "mineclone2-mods/modname_tooltip" ];
   };
+  "AliasAlreadyTaken/yl_canned_food_mtg" = mkLuantiMod {
+    name = "yl_canned_food_mtg";
+    release = 26090;
+    hash = "1nn813fz0fkd6j0y7jblpjkaignpm6g8cj1lw0mqaynd2fc1s0gc";
+    author = "AliasAlreadyTaken";
+    provides = [ "yl_canned_food_mtg" ];
+    depends = [
+      ({
+        name = "yl_canned_food";
+        packages = [ "AliasAlreadyTaken/yl_canned_food" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "x2048/cinematic" = mkLuantiMod {
     name = "cinematic";
     release = 7122;
@@ -52660,6 +52732,24 @@
     author = "x2048";
     provides = [ "cinematic" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "rheo/inventory_ores" = mkLuantiMod {
+    name = "inventory_ores";
+    release = 22509;
+    hash = "1qilp2vg82csmdh4xbacq6qd9pzjmvawakjdq25c3i1a36lyic87";
+    author = "rheo";
+    provides = [ "inventory_ores" ];
+    depends = [
+      ({
+        name = "fmod";
+        packages = [ "rheo/fmod" ];
+      })
+      ({
+        name = "futil";
+        packages = [ "rheo/futil" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "DragonWrangler/balrog_sword" = mkLuantiMod {
@@ -52847,12 +52937,12 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "AntumDeluge/glass" = mkLuantiMod {
-    name = "glass";
-    release = 23735;
-    hash = "0kng6zfx598llpszij04slz6l8l9d5pfhymakh7y7x7h7kg4l6f7";
-    author = "AntumDeluge";
-    provides = [ "glass" ];
+  "AliasAlreadyTaken/yl_api_nodestages" = mkLuantiMod {
+    name = "yl_api_nodestages";
+    release = 26017;
+    hash = "0rlf53jc2q2wfrfv7h6qn78aprrvi74cza0wbyhqg05gxfn7yirb";
+    author = "AliasAlreadyTaken";
+    provides = [ "yl_api_nodestages" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -52897,6 +52987,15 @@
       })
     ];
     with_same_name = [ ];
+  };
+  "Wuzzy/playerphysics" = mkLuantiMod {
+    name = "playerphysics";
+    release = 14972;
+    hash = "160vic3agswk3dwb4whh3bi09sw5bqy7m9fdcyqkw9nrghvjgp2x";
+    author = "Wuzzy";
+    provides = [ "playerphysics" ];
+    depends = [ ];
+    with_same_name = [ "TestificateMods/playerphysics" ];
   };
   "Liil/winuserleafdecay" = mkLuantiMod {
     name = "winuserleafdecay";
@@ -53130,55 +53229,6 @@
     ];
     with_same_name = [ ];
   };
-  "JoeEnderman/paintings_lib" = mkLuantiMod {
-    name = "paintings_lib";
-    release = 22800;
-    hash = "1svlagbxh12h4hz94z1h6jspggp5k6rqq0w51csbra8f1zr1dhdg";
-    author = "JoeEnderman";
-    provides = [ "paintings_lib" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "mathys/potions_and_magic" = mkLuantiMod {
     name = "potions_and_magic";
     release = 17581;
@@ -53358,15 +53408,6 @@
     ];
     with_same_name = [ "OgelGames/obsidianstuff" ];
   };
-  "AliasAlreadyTaken/yl_api_nodestages" = mkLuantiMod {
-    name = "yl_api_nodestages";
-    release = 26017;
-    hash = "0rlf53jc2q2wfrfv7h6qn78aprrvi74cza0wbyhqg05gxfn7yirb";
-    author = "AliasAlreadyTaken";
-    provides = [ "yl_api_nodestages" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "mt-mods/led_marquee" = mkLuantiMod {
     name = "led_marquee";
     release = 23752;
@@ -53442,6 +53483,55 @@
           "Wuzzy/mineclone2"
           "Wuzzy/findbiome"
           "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "TheFanne/betterice" = mkLuantiMod {
+    name = "betterice";
+    release = 1821;
+    hash = "0kn52p9qp12lisngm8mmgwi6rkmkv244mfvafdrxnd4w6asf24jz";
+    author = "TheFanne";
+    provides = [ "betterice" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
     ];
@@ -53675,36 +53765,13 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "AliasAlreadyTaken/yl_canned_food_mtg" = mkLuantiMod {
-    name = "yl_canned_food_mtg";
-    release = 26090;
-    hash = "1nn813fz0fkd6j0y7jblpjkaignpm6g8cj1lw0mqaynd2fc1s0gc";
-    author = "AliasAlreadyTaken";
-    provides = [ "yl_canned_food_mtg" ];
-    depends = [
-      ({
-        name = "yl_canned_food";
-        packages = [ "AliasAlreadyTaken/yl_canned_food" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "rheo/inventory_ores" = mkLuantiMod {
-    name = "inventory_ores";
-    release = 22509;
-    hash = "1qilp2vg82csmdh4xbacq6qd9pzjmvawakjdq25c3i1a36lyic87";
-    author = "rheo";
-    provides = [ "inventory_ores" ];
-    depends = [
-      ({
-        name = "fmod";
-        packages = [ "rheo/fmod" ];
-      })
-      ({
-        name = "futil";
-        packages = [ "rheo/futil" ];
-      })
-    ];
+  "Amaz/letters" = mkLuantiMod {
+    name = "letters";
+    release = 23813;
+    hash = "1j0c250494nv7ggj1756cfiqb0a2h69fcf8wk559ci9zg2xh8hh1";
+    author = "Amaz";
+    provides = [ "letters" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "DumbDave961/technic_elepower_compat" = mkLuantiMod {
@@ -53766,6 +53833,31 @@
       ({
         name = "elepower_machines";
         packages = [ "IcyDiamond/elepower" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/um_smartshop_payment" = mkLuantiMod {
+    name = "um_smartshop_payment";
+    release = 24564;
+    hash = "0izdz5fhlb7rw417imp5f7mrmw2bmw9mym1nd2fwy5042yjyngrc";
+    author = "Emojiminetest";
+    provides = [ "um_smartshop_payment" ];
+    depends = [
+      ({
+        name = "smartshop";
+        packages = [
+          "rheo/smartshop"
+          "AiTechEye/smartshop"
+        ];
+      })
+      ({
+        name = "um_core";
+        packages = [ "Emojiminetest/unified_money" ];
+      })
+      ({
+        name = "um_plugin_playername";
+        packages = [ "Emojiminetest/unified_money" ];
       })
     ];
     with_same_name = [ ];
@@ -53854,6 +53946,55 @@
     ];
     with_same_name = [ ];
   };
+  "johalun/mesebox" = mkLuantiMod {
+    name = "mesebox";
+    release = 14453;
+    hash = "0d5j4vysq44brj3q9f1zwdvz4cjfym88860fxbmg95s58jzk6a7a";
+    author = "johalun";
+    provides = [ "mesebox" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Xanthus/cube_mobs" = mkLuantiMod {
     name = "cube_mobs";
     release = 5759;
@@ -53917,15 +54058,6 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/playerphysics" = mkLuantiMod {
-    name = "playerphysics";
-    release = 14972;
-    hash = "160vic3agswk3dwb4whh3bi09sw5bqy7m9fdcyqkw9nrghvjgp2x";
-    author = "Wuzzy";
-    provides = [ "playerphysics" ];
-    depends = [ ];
-    with_same_name = [ "TestificateMods/playerphysics" ];
-  };
   "lag01/climbing_pick" = mkLuantiMod {
     name = "climbing_pick";
     release = 9129;
@@ -53975,21 +54107,107 @@
     ];
     with_same_name = [ ];
   };
+  "cheapie/prefab_redo" = mkLuantiMod {
+    name = "prefab_redo";
+    release = 26995;
+    hash = "0nl0c2in4wg65vx62qh7hm7jv75cbssww6rlhbfra7bjncwzbrnk";
+    author = "cheapie";
+    provides = [ "prefab_redo" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "doors";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/doors"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "Kimapr/nonsensical_skyblock"
+          "joe7575/techage_modpack"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "WINNIE/color_armors" = mkLuantiMod {
     name = "color_armors";
     release = 7930;
     hash = "0gpgkmi2ailzcfw0szisd53yy48ly9cs6jb053f62vngznxhhnhj";
     author = "WINNIE";
     provides = [ "color_armors" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Amaz/letters" = mkLuantiMod {
-    name = "letters";
-    release = 23813;
-    hash = "1j0c250494nv7ggj1756cfiqb0a2h69fcf8wk559ci9zg2xh8hh1";
-    author = "Amaz";
-    provides = [ "letters" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -54282,53 +54500,22 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "TheFanne/betterice" = mkLuantiMod {
-    name = "betterice";
-    release = 1821;
-    hash = "0kn52p9qp12lisngm8mmgwi6rkmkv244mfvafdrxnd4w6asf24jz";
-    author = "TheFanne";
-    provides = [ "betterice" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
+  "TestificateMods/unified_stamina" = mkLuantiMod {
+    name = "unified_stamina";
+    release = 17753;
+    hash = "19izlcjidw4rkp12paglr1kcppifw5b5z8zlmzlcivz7f0d0bv9n";
+    author = "TestificateMods";
+    provides = [ "unified_stamina" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/returnmirror" = mkLuantiMod {
+    name = "returnmirror";
+    release = 466;
+    hash = "1krllp95hn6k6gfs0j1sbzhskpc78d2ar3q9ri6a21csgk0y9rgf";
+    author = "Wuzzy";
+    provides = [ "returnmirror" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Warr1024/catrealm" = mkLuantiMod {
@@ -54867,31 +55054,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Emojiminetest/um_smartshop_payment" = mkLuantiMod {
-    name = "um_smartshop_payment";
-    release = 24564;
-    hash = "0izdz5fhlb7rw417imp5f7mrmw2bmw9mym1nd2fwy5042yjyngrc";
-    author = "Emojiminetest";
-    provides = [ "um_smartshop_payment" ];
-    depends = [
-      ({
-        name = "smartshop";
-        packages = [
-          "rheo/smartshop"
-          "AiTechEye/smartshop"
-        ];
-      })
-      ({
-        name = "um_core";
-        packages = [ "Emojiminetest/unified_money" ];
-      })
-      ({
-        name = "um_plugin_playername";
-        packages = [ "Emojiminetest/unified_money" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "monk/irrigation" = mkLuantiMod {
     name = "irrigation";
     release = 25021;
@@ -54996,12 +55158,12 @@
     ];
     with_same_name = [ ];
   };
-  "johalun/mesebox" = mkLuantiMod {
-    name = "mesebox";
-    release = 14453;
-    hash = "0d5j4vysq44brj3q9f1zwdvz4cjfym88860fxbmg95s58jzk6a7a";
-    author = "johalun";
-    provides = [ "mesebox" ];
+  "Sokomine/moresnow" = mkLuantiMod {
+    name = "moresnow";
+    release = 25413;
+    hash = "1wb2yrjld6wjzml2n7rd3iv9j1p8qy13apjd2vwsla2ailjmqij5";
+    author = "Sokomine";
+    provides = [ "moresnow" ];
     depends = [
       ({
         name = "default";
@@ -55043,6 +55205,35 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/doc_items" = mkLuantiMod {
+    name = "doc_items";
+    release = 22046;
+    hash = "1gkryc2dv51w3na7sd96k0bzvgy5a7081cs7vjzs9zwizbgmhid3";
+    author = "Wuzzy";
+    provides = [ "doc_items" ];
+    depends = [
+      ({
+        name = "doc";
+        packages = [
+          "VoxelForge/voxelforge"
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "Wuzzy/doc"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "SwissalpS/postool" = mkLuantiMod {
+    name = "postool";
+    release = 26146;
+    hash = "0hw6gkxa6bhl35qn38r8i352bnpkx5hdbysd7y6crlklz8byq4nh";
+    author = "SwissalpS";
+    provides = [ "postool" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "opfromthestart/mcl_breakers" = mkLuantiMod {
@@ -55202,6 +55393,43 @@
     ];
     with_same_name = [ ];
   };
+  "Impulse/inventory_admin" = mkLuantiMod {
+    name = "inventory_admin";
+    release = 22965;
+    hash = "1srvs35a4sp99zqnm8jah9b4xfwv3s64i9b5lgh9zcf93znivsvs";
+    author = "Impulse";
+    provides = [ "inventory_admin" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "SkyBuilder1717/more_triggers" = mkLuantiMod {
+    name = "more_triggers";
+    release = 24961;
+    hash = "0hxg40cmksfg1naki1ahjs6wjjm9wwhpp85p5i5kwpvwgpfkhbkh";
+    author = "SkyBuilder1717";
+    provides = [ "more_triggers" ];
+    depends = [
+      ({
+        name = "awards";
+        packages = [
+          "VoxelForge/voxelforge"
+          "MeseCraft/mesecraft"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "mt-mods/blockcolor"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "ryvnf/mineclonia"
+          "rubenwardy/awards"
+          "Thunder1035/pacman"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "octacian/televator" = mkLuantiMod {
     name = "televator";
     release = 695;
@@ -55209,6 +55437,47 @@
     author = "octacian";
     provides = [ "televator" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "nitro2012pl/mesecons_soundblock" = mkLuantiMod {
+    name = "mesecons_soundblock";
+    release = 5149;
+    hash = "0aci3abb3nvjw08gy9d4sz18qva4b1dhkskhmzyi9x6cx3746vmh";
+    author = "nitro2012pl";
+    provides = [ "mesecons_soundblock" ];
+    depends = [
+      ({
+        name = "digilines";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "MeseCraft/mesecraft"
+          "Jeija/digilines"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "BigBear/simple_armor" = mkLuantiMod {
@@ -55269,100 +55538,14 @@
     ];
     with_same_name = [ ];
   };
-  "cheapie/prefab_redo" = mkLuantiMod {
-    name = "prefab_redo";
-    release = 26995;
-    hash = "0nl0c2in4wg65vx62qh7hm7jv75cbssww6rlhbfra7bjncwzbrnk";
-    author = "cheapie";
-    provides = [ "prefab_redo" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "doors";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/doors"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "Kimapr/nonsensical_skyblock"
-          "joe7575/techage_modpack"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
+  "SFENCE/wateringcan" = mkLuantiMod {
+    name = "wateringcan";
+    release = 12470;
+    hash = "1b7whlknm3i3pjfsbqjhvdv9k4ihykq82fd3sqjd8nrcipx61jz3";
+    author = "SFENCE";
+    provides = [ "wateringcan" ];
+    depends = [ ];
+    with_same_name = [ "Wuzzy/wateringcan" ];
   };
   "Emojiminetest/protect_block_area" = mkLuantiMod {
     name = "protect_block_area";
@@ -55650,6 +55833,55 @@
     ];
     with_same_name = [ ];
   };
+  "Hume2/underch" = mkLuantiMod {
+    name = "underch";
+    release = 18488;
+    hash = "06wgi6qj9lxrj5619b0dnb7szqri9cq33r0q29ij3mxc55x8p001";
+    author = "Hume2";
+    provides = [ "underch" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "FaceDeer/radiant_damage" = mkLuantiMod {
     name = "radiant_damage";
     release = 2911;
@@ -55832,6 +56064,15 @@
     depends = [ ];
     with_same_name = [ "Emojiminetest/apartment" ];
   };
+  "Kilarin/bridgetool" = mkLuantiMod {
+    name = "bridgetool";
+    release = 20907;
+    hash = "1lwvykpm3pj2a688sdqpk4bkm4jxqfzzzk9m0hvmlvg328qwq8jp";
+    author = "Kilarin";
+    provides = [ "bridgetool" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "rheo/hand_monoid" = mkLuantiMod {
     name = "hand_monoid";
     release = 20111;
@@ -56002,15 +56243,6 @@
     ];
     with_same_name = [ ];
   };
-  "TestificateMods/unified_stamina" = mkLuantiMod {
-    name = "unified_stamina";
-    release = 17753;
-    hash = "19izlcjidw4rkp12paglr1kcppifw5b5z8zlmzlcivz7f0d0bv9n";
-    author = "TestificateMods";
-    provides = [ "unified_stamina" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "cronvel/respawn" = mkLuantiMod {
     name = "respawn";
     release = 2406;
@@ -56018,35 +56250,6 @@
     author = "cronvel";
     provides = [ "respawn" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/returnmirror" = mkLuantiMod {
-    name = "returnmirror";
-    release = 466;
-    hash = "1krllp95hn6k6gfs0j1sbzhskpc78d2ar3q9ri6a21csgk0y9rgf";
-    author = "Wuzzy";
-    provides = [ "returnmirror" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/doc_items" = mkLuantiMod {
-    name = "doc_items";
-    release = 22046;
-    hash = "1gkryc2dv51w3na7sd96k0bzvgy5a7081cs7vjzs9zwizbgmhid3";
-    author = "Wuzzy";
-    provides = [ "doc_items" ];
-    depends = [
-      ({
-        name = "doc";
-        packages = [
-          "VoxelForge/voxelforge"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "Wuzzy/doc"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "LissoBone/magic_gadgets_shield" = mkLuantiMod {
@@ -56562,6 +56765,37 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "ketwaroo/k_worldedit_gui" = mkLuantiMod {
+    name = "k_worldedit_gui";
+    release = 23513;
+    hash = "0vhgz9n66642y5dz34z04gx88wzx2di0sl6h5gx74h46sa97grys";
+    author = "ketwaroo";
+    provides = [ "k_worldedit_gui" ];
+    depends = [
+      ({
+        name = "flow";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "luk3yx/flow"
+        ];
+      })
+      ({
+        name = "worldedit_commands";
+        packages = [
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "Hume2/boxworld3d"
+          "sfan5/worldedit"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "erov/dyed_water" = mkLuantiMod {
     name = "dyed_water";
     release = 21810;
@@ -56999,12 +57233,114 @@
     ];
     with_same_name = [ ];
   };
-  "Sokomine/moresnow" = mkLuantiMod {
-    name = "moresnow";
-    release = 25413;
-    hash = "1wb2yrjld6wjzml2n7rd3iv9j1p8qy13apjd2vwsla2ailjmqij5";
-    author = "Sokomine";
-    provides = [ "moresnow" ];
+  "LC Creations/online_shop" = mkLuantiMod {
+    name = "online_shop";
+    release = 7829;
+    hash = "012jdvwfi6safgnsya38pslk3mv67n28ml7a79w7641qh49fy58h";
+    author = "LC Creations";
+    provides = [ "online_shop" ];
+    depends = [
+      ({
+        name = "currency";
+        packages = [
+          "mt-mods/currency"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "Kimapr/nonsensical_skyblock"
+          "joe7575/techage_modpack"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Clyde/aqua_farming" = mkLuantiMod {
+    name = "aqua_farming";
+    release = 18149;
+    hash = "1a849jlay984m773bifn1252s7zlgpcm5jkfi2xlx3dzm8069mzh";
+    author = "Clyde";
+    provides = [ "aqua_farming" ];
     depends = [
       ({
         name = "default";
@@ -57048,13 +57384,17 @@
     ];
     with_same_name = [ ];
   };
-  "Clyde/aqua_farming" = mkLuantiMod {
-    name = "aqua_farming";
-    release = 18149;
-    hash = "1a849jlay984m773bifn1252s7zlgpcm5jkfi2xlx3dzm8069mzh";
-    author = "Clyde";
-    provides = [ "aqua_farming" ];
+  "TX_Miner/horsetail_addon" = mkLuantiMod {
+    name = "horsetail_addon";
+    release = 22255;
+    hash = "0bbpydhravrmswnc4j6wn47h01r5c4kpxnss44xwg0fq8bh3bi5g";
+    author = "TX_Miner";
+    provides = [ "horsetail_addon" ];
     depends = [
+      ({
+        name = "paleotest";
+        packages = [ "ElCeejo/paleotest" ];
+      })
       ({
         name = "default";
         packages = [
@@ -57200,52 +57540,6 @@
     ];
     with_same_name = [ ];
   };
-  "SwissalpS/postool" = mkLuantiMod {
-    name = "postool";
-    release = 26146;
-    hash = "0hw6gkxa6bhl35qn38r8i352bnpkx5hdbysd7y6crlklz8byq4nh";
-    author = "SwissalpS";
-    provides = [ "postool" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Impulse/inventory_admin" = mkLuantiMod {
-    name = "inventory_admin";
-    release = 22965;
-    hash = "1srvs35a4sp99zqnm8jah9b4xfwv3s64i9b5lgh9zcf93znivsvs";
-    author = "Impulse";
-    provides = [ "inventory_admin" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "SkyBuilder1717/more_triggers" = mkLuantiMod {
-    name = "more_triggers";
-    release = 24961;
-    hash = "0hxg40cmksfg1naki1ahjs6wjjm9wwhpp85p5i5kwpvwgpfkhbkh";
-    author = "SkyBuilder1717";
-    provides = [ "more_triggers" ];
-    depends = [
-      ({
-        name = "awards";
-        packages = [
-          "VoxelForge/voxelforge"
-          "MeseCraft/mesecraft"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "mt-mods/blockcolor"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "ryvnf/mineclonia"
-          "rubenwardy/awards"
-          "Thunder1035/pacman"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "SFENCE/moretools" = mkLuantiMod {
     name = "moretools";
     release = 9655;
@@ -57294,56 +57588,6 @@
       })
     ];
     with_same_name = [ ];
-  };
-  "nitro2012pl/mesecons_soundblock" = mkLuantiMod {
-    name = "mesecons_soundblock";
-    release = 5149;
-    hash = "0aci3abb3nvjw08gy9d4sz18qva4b1dhkskhmzyi9x6cx3746vmh";
-    author = "nitro2012pl";
-    provides = [ "mesecons_soundblock" ];
-    depends = [
-      ({
-        name = "digilines";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "MeseCraft/mesecraft"
-          "Jeija/digilines"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SFENCE/wateringcan" = mkLuantiMod {
-    name = "wateringcan";
-    release = 12470;
-    hash = "1b7whlknm3i3pjfsbqjhvdv9k4ihykq82fd3sqjd8nrcipx61jz3";
-    author = "SFENCE";
-    provides = [ "wateringcan" ];
-    depends = [ ];
-    with_same_name = [ "Wuzzy/wateringcan" ];
   };
   "mzs.112000/wildflower_fields" = mkLuantiMod {
     name = "wildflower_fields";
@@ -57425,6 +57669,15 @@
     ];
     with_same_name = [ ];
   };
+  "ekl/splooshy_bombs_api" = mkLuantiMod {
+    name = "splooshy_bombs_api";
+    release = 16503;
+    hash = "1phfymqa4dd5gbs7nz6k6vi9nizy6pvba6swjda7biji3j1dm6l2";
+    author = "ekl";
+    provides = [ "splooshy_bombs_api" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "AntumDeluge/pbmarks" = mkLuantiMod {
     name = "pbmarks";
     release = 8978;
@@ -57467,6 +57720,55 @@
     author = "Wuzzy";
     provides = [ "getitem" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "ademant/oillamps" = mkLuantiMod {
+    name = "oillamps";
+    release = 19580;
+    hash = "079ybg9bi9mh3w94rvk374mc9rlpl2vns1y74w2alb54x0djyxkb";
+    author = "ademant";
+    provides = [ "oillamps" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "mooD_Slayer/xenozapper" = mkLuantiMod {
@@ -57642,55 +57944,6 @@
     ];
     with_same_name = [ ];
   };
-  "Hume2/underch" = mkLuantiMod {
-    name = "underch";
-    release = 18488;
-    hash = "06wgi6qj9lxrj5619b0dnb7szqri9cq33r0q29ij3mxc55x8p001";
-    author = "Hume2";
-    provides = [ "underch" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "IRI/playerfactions_ext" = mkLuantiMod {
     name = "playerfactions_ext";
     release = 28018;
@@ -57833,6 +58086,26 @@
     ];
     with_same_name = [ ];
   };
+  "Wuzzy/doc_encyclopedia" = mkLuantiMod {
+    name = "doc_encyclopedia";
+    release = 22047;
+    hash = "0wfvfjfxghprzbbghhsks95sfkw1jma2w7rkncr98wkfncb2mhgi";
+    author = "Wuzzy";
+    provides = [ "doc_encyclopedia" ];
+    depends = [
+      ({
+        name = "doc";
+        packages = [
+          "VoxelForge/voxelforge"
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "Wuzzy/doc"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "mt-mods/invsaw" = mkLuantiMod {
     name = "invsaw";
     release = 23701;
@@ -57901,13 +58174,86 @@
     ];
     with_same_name = [ ];
   };
-  "Kilarin/bridgetool" = mkLuantiMod {
-    name = "bridgetool";
-    release = 20907;
-    hash = "1lwvykpm3pj2a688sdqpk4bkm4jxqfzzzk9m0hvmlvg328qwq8jp";
-    author = "Kilarin";
-    provides = [ "bridgetool" ];
-    depends = [ ];
+  "SkyBuilder1717/betterlocks" = mkLuantiMod {
+    name = "betterlocks";
+    release = 26453;
+    hash = "0pkmpbljkih1aysqzlk7jw5cgs5822xn0ll2mbh7j19a6gjv1vpb";
+    author = "SkyBuilder1717";
+    provides = [ "betterlocks" ];
+    depends = [
+      ({
+        name = "doors";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/doors"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Maverick2797/mesecons_microphone" = mkLuantiMod {
@@ -58320,6 +58666,55 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "mike.monkeybiter/bridgemaker" = mkLuantiMod {
+    name = "bridgemaker";
+    release = 25206;
+    hash = "18hm2b0077358hbfqjs2sdvf4ilcy93i29j9yzk8jy5ijhqq1adi";
+    author = "mike.monkeybiter";
+    provides = [ "bridgemaker" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "ThePython/too_many_aliases" = mkLuantiMod {
     name = "too_many_aliases";
     release = 19918;
@@ -58611,15 +59006,6 @@
     ];
     with_same_name = [ ];
   };
-  "ekl/splooshy_bombs_api" = mkLuantiMod {
-    name = "splooshy_bombs_api";
-    release = 16503;
-    hash = "1phfymqa4dd5gbs7nz6k6vi9nizy6pvba6swjda7biji3j1dm6l2";
-    author = "ekl";
-    provides = [ "splooshy_bombs_api" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "luk3yx/advmarkers" = mkLuantiMod {
     name = "advmarkers";
     release = 26348;
@@ -58643,6 +59029,55 @@
     hash = "03hhvs5hhh6r62ib3v3g2iynkm0zlj4001hhhny4r65w9pb5cl4d";
     author = "Shara";
     provides = [ "handholds" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "nemokitty9/kitores" = mkLuantiMod {
+    name = "kitores";
+    release = 7726;
+    hash = "0i6d36fb74n7dlwlsv4x6kriccf5ljih71wm1x7a5n7k22f5g7xx";
+    author = "nemokitty9";
+    provides = [ "kitores" ];
     depends = [
       ({
         name = "default";
@@ -58963,37 +59398,6 @@
     ];
     with_same_name = [ ];
   };
-  "ketwaroo/k_worldedit_gui" = mkLuantiMod {
-    name = "k_worldedit_gui";
-    release = 23513;
-    hash = "0vhgz9n66642y5dz34z04gx88wzx2di0sl6h5gx74h46sa97grys";
-    author = "ketwaroo";
-    provides = [ "k_worldedit_gui" ];
-    depends = [
-      ({
-        name = "flow";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "luk3yx/flow"
-        ];
-      })
-      ({
-        name = "worldedit_commands";
-        packages = [
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "Hume2/boxworld3d"
-          "sfan5/worldedit"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Piezo_/unique_ores" = mkLuantiMod {
     name = "unique_ores";
     release = 1101;
@@ -59123,6 +59527,23 @@
       })
     ];
     with_same_name = [ ];
+  };
+  "Emojiminetest/apartment" = mkLuantiMod {
+    name = "apartment";
+    release = 24075;
+    hash = "0k7yaq8z3pxsg4wywp275f8p614cdhpzicqf9bfwy4q9nkjzzjq8";
+    author = "Emojiminetest";
+    provides = [ "apartment" ];
+    depends = [
+      ({
+        name = "flow";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "luk3yx/flow"
+        ];
+      })
+    ];
+    with_same_name = [ "Sokomine/apartment" ];
   };
   "Neuromancer/coconut_tree" = mkLuantiMod {
     name = "coconut_tree";
@@ -59666,108 +60087,6 @@
     ];
     with_same_name = [ ];
   };
-  "LC Creations/online_shop" = mkLuantiMod {
-    name = "online_shop";
-    release = 7829;
-    hash = "012jdvwfi6safgnsya38pslk3mv67n28ml7a79w7641qh49fy58h";
-    author = "LC Creations";
-    provides = [ "online_shop" ];
-    depends = [
-      ({
-        name = "currency";
-        packages = [
-          "mt-mods/currency"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "Kimapr/nonsensical_skyblock"
-          "joe7575/techage_modpack"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "lag01/lighting_rocket" = mkLuantiMod {
     name = "lighting_rocket";
     release = 9136;
@@ -59983,59 +60302,6 @@
     ];
     with_same_name = [ ];
   };
-  "TX_Miner/horsetail_addon" = mkLuantiMod {
-    name = "horsetail_addon";
-    release = 22255;
-    hash = "0bbpydhravrmswnc4j6wn47h01r5c4kpxnss44xwg0fq8bh3bi5g";
-    author = "TX_Miner";
-    provides = [ "horsetail_addon" ];
-    depends = [
-      ({
-        name = "paleotest";
-        packages = [ "ElCeejo/paleotest" ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "backdaniel/movement_essentials" = mkLuantiMod {
     name = "movement_essentials";
     release = 20231;
@@ -60141,6 +60407,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "fran4codes/bm_quartz_compat" = mkLuantiMod {
+    name = "bm_quartz_compat";
+    release = 26673;
+    hash = "099hgdk47cbq9vf628688my2rbz7bcc070gjhf4hyhcrba63xgqz";
+    author = "fran4codes";
+    provides = [ "bm_quartz_compat" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "SaKeL/x_clay" = mkLuantiMod {
@@ -60309,50 +60584,25 @@
     ];
     with_same_name = [ ];
   };
-  "ademant/oillamps" = mkLuantiMod {
-    name = "oillamps";
-    release = 19580;
-    hash = "079ybg9bi9mh3w94rvk374mc9rlpl2vns1y74w2alb54x0djyxkb";
-    author = "ademant";
-    provides = [ "oillamps" ];
+  "Emojiminetest/technic_use_battery" = mkLuantiMod {
+    name = "technic_use_battery";
+    release = 24694;
+    hash = "1c1fl5f6j5fv8ji33qc9jk599vibiqk6wdjrsi06sghr7xgh6h0s";
+    author = "Emojiminetest";
+    provides = [ "technic_use_battery" ];
     depends = [
       ({
-        name = "default";
+        name = "technic";
         packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
+          "mt-mods/technic_plus_beta"
+          "mt-mods/technic_plus"
           "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
           "1248/regnum"
-          "bell07/whynot_game"
           "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
+          "RealBadAngel/technic"
           "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
           "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
           "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -60665,6 +60915,56 @@
     ];
     with_same_name = [ ];
   };
+  "AFCM/mcl_uhc" = mkLuantiMod {
+    name = "mcl_uhc";
+    release = 8559;
+    hash = "0m3lz0h6rivzic0vx1djb82msljivibgjzbskcm6p7pv56lvwngh";
+    author = "AFCM";
+    provides = [ "mcl_uhc" ];
+    depends = [
+      ({
+        name = "mcl_enchanting";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "lightning";
+        packages = [
+          "bell07/whynot_game"
+          "Wuzzy/mineclone2"
+          "MeseCraft/mesecraft"
+          "TestificateMods/climate"
+          "Astrobe/minefall"
+          "Mantar/exile"
+          "sofar/lightning"
+        ];
+      })
+      ({
+        name = "mcl_torches";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_tools";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "zanderdev/aratox" = mkLuantiMod {
     name = "aratox";
     release = 25576;
@@ -60937,26 +61237,6 @@
     ];
     with_same_name = [ ];
   };
-  "Wuzzy/doc_encyclopedia" = mkLuantiMod {
-    name = "doc_encyclopedia";
-    release = 22047;
-    hash = "0wfvfjfxghprzbbghhsks95sfkw1jma2w7rkncr98wkfncb2mhgi";
-    author = "Wuzzy";
-    provides = [ "doc_encyclopedia" ];
-    depends = [
-      ({
-        name = "doc";
-        packages = [
-          "VoxelForge/voxelforge"
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "Wuzzy/doc"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Giga_M/obsidian" = mkLuantiMod {
     name = "obsidian";
     release = 18566;
@@ -61062,88 +61342,6 @@
     author = "Robot10_Scheletor";
     provides = [ "ancient_ice_stuff" ];
     depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SkyBuilder1717/betterlocks" = mkLuantiMod {
-    name = "betterlocks";
-    release = 26453;
-    hash = "0pkmpbljkih1aysqzlk7jw5cgs5822xn0ll2mbh7j19a6gjv1vpb";
-    author = "SkyBuilder1717";
-    provides = [ "betterlocks" ];
-    depends = [
-      ({
-        name = "doors";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/doors"
-          "Minetest/minetest_game"
-        ];
-      })
       ({
         name = "default";
         packages = [
@@ -61327,55 +61525,6 @@
     author = "SFENCE";
     provides = [ "pole_scaffolding" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "mike.monkeybiter/bridgemaker" = mkLuantiMod {
-    name = "bridgemaker";
-    release = 25206;
-    hash = "18hm2b0077358hbfqjs2sdvf4ilcy93i29j9yzk8jy5ijhqq1adi";
-    author = "mike.monkeybiter";
-    provides = [ "bridgemaker" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "AwesomeDragon97/quartz_geodes" = mkLuantiMod {
@@ -61689,55 +61838,6 @@
           "Minetest/minetest_game"
         ];
       })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "nemokitty9/kitores" = mkLuantiMod {
-    name = "kitores";
-    release = 7726;
-    hash = "0i6d36fb74n7dlwlsv4x6kriccf5ljih71wm1x7a5n7k22f5g7xx";
-    author = "nemokitty9";
-    provides = [ "kitores" ];
-    depends = [
       ({
         name = "default";
         packages = [
@@ -62331,22 +62431,93 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Emojiminetest/apartment" = mkLuantiMod {
-    name = "apartment";
-    release = 24075;
-    hash = "0k7yaq8z3pxsg4wywp275f8p614cdhpzicqf9bfwy4q9nkjzzjq8";
-    author = "Emojiminetest";
-    provides = [ "apartment" ];
+  "mt-mods/emojis_modpack" = mkLuantiMod {
+    name = "emojis_modpack";
+    release = 17540;
+    hash = "0incdqbjdrpnp9yp510zqwjp715kzpsfbbwmnhjwfglq7qc640f7";
+    author = "mt-mods";
+    provides = [
+      "emojis_api"
+      "emojis_php"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "X17/roadway" = mkLuantiMod {
+    name = "roadway";
+    release = 15889;
+    hash = "1h7hiy748jqc4rs602nzzj64zhra1wnv9h4xp0pkn72ij1zmq6c0";
+    author = "X17";
+    provides = [ "roadway" ];
     depends = [
       ({
-        name = "flow";
+        name = "default";
         packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
           "Kimapr/nonsensical_skyblock"
-          "luk3yx/flow"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
         ];
       })
     ];
-    with_same_name = [ "Sokomine/apartment" ];
+    with_same_name = [ ];
   };
   "Avicennia_g/wac" = mkLuantiMod {
     name = "wac";
@@ -62605,6 +62776,15 @@
     hash = "0dvknzzl047v5ccqw93m5y72569hfbbfgy808cwxi00r1x29rqmk";
     author = "Wuzzy";
     provides = [ "teletool" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "NO11/raining_items" = mkLuantiMod {
+    name = "raining_items";
+    release = 8957;
+    hash = "09qggh78jzcszyqk53zrm1gczi6hsdwk8bzkj535sbsi14m1ccxr";
+    author = "NO11";
+    provides = [ "raining_items" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -62925,15 +63105,6 @@
     ];
     with_same_name = [ ];
   };
-  "fran4codes/bm_quartz_compat" = mkLuantiMod {
-    name = "bm_quartz_compat";
-    release = 26673;
-    hash = "099hgdk47cbq9vf628688my2rbz7bcc070gjhf4hyhcrba63xgqz";
-    author = "fran4codes";
-    provides = [ "bm_quartz_compat" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "niwla23/spikes" = mkLuantiMod {
     name = "spikes";
     release = 2146;
@@ -62966,6 +63137,15 @@
     ];
     with_same_name = [ ];
   };
+  "Krunegan/bunnyhop" = mkLuantiMod {
+    name = "bunnyhop";
+    release = 18235;
+    hash = "1lrs86r2pkjrcaivksyag5pvw27mlpy15amyyvyc35xdh089q60v";
+    author = "Krunegan";
+    provides = [ "bunnyhop" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Wuzzy/calendar_node" = mkLuantiMod {
     name = "calendar_node";
     release = 18410;
@@ -62985,30 +63165,6 @@
       ({
         name = "ctf_modebase";
         packages = [ "rubenwardy/capturetheflag" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Emojiminetest/technic_use_battery" = mkLuantiMod {
-    name = "technic_use_battery";
-    release = 24694;
-    hash = "1c1fl5f6j5fv8ji33qc9jk599vibiqk6wdjrsi06sghr7xgh6h0s";
-    author = "Emojiminetest";
-    provides = [ "technic_use_battery" ];
-    depends = [
-      ({
-        name = "technic";
-        packages = [
-          "mt-mods/technic_plus_beta"
-          "mt-mods/technic_plus"
-          "Kimapr/nonsensical_skyblock"
-          "1248/regnum"
-          "1248/regnum2"
-          "RealBadAngel/technic"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
       })
     ];
     with_same_name = [ ];
@@ -63148,56 +63304,6 @@
     ];
     with_same_name = [ ];
   };
-  "AFCM/mcl_uhc" = mkLuantiMod {
-    name = "mcl_uhc";
-    release = 8559;
-    hash = "0m3lz0h6rivzic0vx1djb82msljivibgjzbskcm6p7pv56lvwngh";
-    author = "AFCM";
-    provides = [ "mcl_uhc" ];
-    depends = [
-      ({
-        name = "mcl_enchanting";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "lightning";
-        packages = [
-          "bell07/whynot_game"
-          "Wuzzy/mineclone2"
-          "MeseCraft/mesecraft"
-          "TestificateMods/climate"
-          "Astrobe/minefall"
-          "Mantar/exile"
-          "sofar/lightning"
-        ];
-      })
-      ({
-        name = "mcl_torches";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_tools";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "GenesisMT/atium" = mkLuantiMod {
     name = "atium";
     release = 7606;
@@ -63296,12 +63402,70 @@
     ];
     with_same_name = [ ];
   };
+  "DynamaxPikachu/legendary_ore" = mkLuantiMod {
+    name = "legendary_ore";
+    release = 7191;
+    hash = "1ndhbjm89gbl16nzam1vjjcrb2bizywzds7dfbppl5h5inhkvp0s";
+    author = "DynamaxPikachu";
+    provides = [ "legendary_ore" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "DragonWrangler/astral_redo" = mkLuantiMod {
     name = "astral_redo";
     release = 21418;
     hash = "14j5x5i5ib2w59w4apq0qb2hrnci3q7dgjjscb4zbdsa2l2d46qp";
     author = "DragonWrangler";
     provides = [ "astral_redo" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/bedrock2" = mkLuantiMod {
+    name = "bedrock2";
+    release = 17352;
+    hash = "006qqpk7a84v22p3nvn8r2m7flzcwkarfjnm4wmaax7kvr7bks46";
+    author = "Wuzzy";
+    provides = [ "bedrock2" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -63460,6 +63624,99 @@
         packages = [
           "Warr1024/nodecore"
           "Warr1024/nodecore_alpha"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "swagtoy/sfinvpp" = mkLuantiMod {
+    name = "sfinvpp";
+    release = 25533;
+    hash = "03rrzld0sr0a22gcy3q7m6ag3wsq1xwbgv3m4yyycx2amsna70jm";
+    author = "swagtoy";
+    provides = [ "sfinvpp" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "sfinv";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "sfan5/minetest_classic"
+          "JALdMIC/survivethedays"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "Nathan.S/sss"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "StarNinjas/veil_of_the_unknown"
+          "StarNinjas/ssp"
+          "Hume2/boxworld3d"
+          "zanderdev/skyblock_zero"
+          "rubenwardy/sfinv"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Wuzzy/hades_revisited"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "Lone_Wolf/voxel_knights"
+          "dibesfer/colorlandia"
+          "Emojiminetest/parkour"
+          "hilol/epic_combat"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "Thunder1035/pacman"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
         ];
       })
     ];
@@ -64269,6 +64526,25 @@
     ];
     with_same_name = [ ];
   };
+  "Starbeamrainbowlabs/plasticbox" = mkLuantiMod {
+    name = "plasticbox";
+    release = 6389;
+    hash = "1mqi9znm9r3fsp5iyqcxzjj5kyv9qy3lhj61gp8w8d5cbiv0f0cc";
+    author = "Starbeamrainbowlabs";
+    provides = [ "plasticbox" ];
+    depends = [
+      ({
+        name = "unifieddyes";
+        packages = [
+          "mt-mods/unifieddyes"
+          "bell07/whynot_game"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "SFENCE/chair_lift" = mkLuantiMod {
     name = "chair_lift";
     release = 14629;
@@ -64459,6 +64735,15 @@
     hash = "1xk9ss6pbcjajkrn9h8h40g95zwbf5dphccnvv189v0fk049lh4d";
     author = "Zemtzov7";
     provides = [ "translocator" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Kimapr/diggable_chests" = mkLuantiMod {
+    name = "diggable_chests";
+    release = 13859;
+    hash = "0bbcfbja9d259gcqv46x91id18y8mx6diwiamv14mx2mnmb2fxs9";
+    author = "Kimapr";
+    provides = [ "diggable_chests" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -64685,6 +64970,27 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Emojiminetest/cottonseed_oil" = mkLuantiMod {
+    name = "cottonseed_oil";
+    release = 22853;
+    hash = "18zz27akdjk0bcdzbx568fhvgfqvnwbn7f2ma6dhiw3g1224gr78";
+    author = "Emojiminetest";
+    provides = [ "cottonseed_oil" ];
+    depends = [
+      ({
+        name = "bonemeal";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "TenPlus1/bonemeal"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Emojiminetest/player_settings" = mkLuantiMod {
     name = "player_settings";
     release = 19093;
@@ -64709,94 +65015,6 @@
     author = "Panquesito7";
     provides = [ "precise_jump" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "mt-mods/emojis_modpack" = mkLuantiMod {
-    name = "emojis_modpack";
-    release = 17540;
-    hash = "0incdqbjdrpnp9yp510zqwjp715kzpsfbbwmnhjwfglq7qc640f7";
-    author = "mt-mods";
-    provides = [
-      "emojis_api"
-      "emojis_php"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "X17/roadway" = mkLuantiMod {
-    name = "roadway";
-    release = 15889;
-    hash = "1h7hiy748jqc4rs602nzzj64zhra1wnv9h4xp0pkn72ij1zmq6c0";
-    author = "X17";
-    provides = [ "roadway" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "bucket";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "Emojiminetest/ehlphabet" = mkLuantiMod {
@@ -65463,15 +65681,6 @@
     ];
     with_same_name = [ ];
   };
-  "NO11/raining_items" = mkLuantiMod {
-    name = "raining_items";
-    release = 8957;
-    hash = "09qggh78jzcszyqk53zrm1gczi6hsdwk8bzkj535sbsi14m1ccxr";
-    author = "NO11";
-    provides = [ "raining_items" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Nathan.S/survival" = mkLuantiMod {
     name = "survival";
     release = 18602;
@@ -66054,6 +66263,35 @@
     ];
     with_same_name = [ ];
   };
+  "rheo/digicolor" = mkLuantiMod {
+    name = "digicolor";
+    release = 22223;
+    hash = "068n44iawr23945b1jqy86khxlgww6xj77dfy7wgcn9n6fv79db7";
+    author = "rheo";
+    provides = [ "digicolor" ];
+    depends = [
+      ({
+        name = "digilines";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "MeseCraft/mesecraft"
+          "Jeija/digilines"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+        ];
+      })
+      ({
+        name = "fmod";
+        packages = [ "rheo/fmod" ];
+      })
+      ({
+        name = "futil";
+        packages = [ "rheo/futil" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Emojiminetest/si_frames" = mkLuantiMod {
     name = "si_frames";
     release = 24540;
@@ -66105,6 +66343,15 @@
     hash = "0aa51nasd6bi7vpm6ijwpplscs5l13sddfj1952ff126p8q8p2fl";
     author = "Emojiminetest";
     provides = [ "temp_password" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/colorcubes" = mkLuantiMod {
+    name = "colorcubes";
+    release = 467;
+    hash = "1wkkpaqvas1z3igcz11d5vhzmk3vdmi3df02xpzpwinsw8wf5ag8";
+    author = "Wuzzy";
+    provides = [ "colorcubes" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -66382,15 +66629,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Krunegan/bunnyhop" = mkLuantiMod {
-    name = "bunnyhop";
-    release = 18235;
-    hash = "1lrs86r2pkjrcaivksyag5pvw27mlpy15amyyvyc35xdh089q60v";
-    author = "Krunegan";
-    provides = [ "bunnyhop" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Emojiminetest/area_locked_chests" = mkLuantiMod {
@@ -67065,6 +67303,48 @@
     ];
     with_same_name = [ ];
   };
+  "rstcxk/lush" = mkLuantiMod {
+    name = "lush";
+    release = 27239;
+    hash = "18km9lnrxxb0147h2bxn0kd0822aywpv3szyn45bxhl4nrfl4lzm";
+    author = "rstcxk";
+    provides = [
+      "lush_builtin"
+      "lush_command_managment"
+      "lush_core"
+      "lush_doas"
+      "lush_findbiome"
+      "lush_gui"
+      "lush_messages"
+      "lush_moderation"
+      "lush_tpr"
+      "lush_utilities"
+    ];
+    depends = [
+      ({
+        name = "flow";
+        packages = [
+          "luk3yx/flow"
+          "Kimapr/nonsensical_skyblock"
+        ];
+      })
+      ({
+        name = "warn";
+        packages = [ "neocraft1293/warn" ];
+      })
+      ({
+        name = "findbiome";
+        packages = [
+          "Hi_World/newplanet"
+          "VoxelForge/voxelforge"
+          "ryvnf/mineclonia"
+          "Wuzzy/mineclone2"
+          "Wuzzy/findbiome"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Warr1024/nc_chess" = mkLuantiMod {
     name = "nc_chess";
     release = 26221;
@@ -67091,55 +67371,6 @@
         packages = [
           "Warr1024/nodecore"
           "Warr1024/nodecore_alpha"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "DynamaxPikachu/legendary_ore" = mkLuantiMod {
-    name = "legendary_ore";
-    release = 7191;
-    hash = "1ndhbjm89gbl16nzam1vjjcrb2bizywzds7dfbppl5h5inhkvp0s";
-    author = "DynamaxPikachu";
-    provides = [ "legendary_ore" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -67192,15 +67423,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/bedrock2" = mkLuantiMod {
-    name = "bedrock2";
-    release = 17352;
-    hash = "006qqpk7a84v22p3nvn8r2m7flzcwkarfjnm4wmaax7kvr7bks46";
-    author = "Wuzzy";
-    provides = [ "bedrock2" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Ryft77/saphire" = mkLuantiMod {
@@ -67565,99 +67787,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "swagtoy/sfinvpp" = mkLuantiMod {
-    name = "sfinvpp";
-    release = 25533;
-    hash = "03rrzld0sr0a22gcy3q7m6ag3wsq1xwbgv3m4yyycx2amsna70jm";
-    author = "swagtoy";
-    provides = [ "sfinvpp" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "sfinv";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "sfan5/minetest_classic"
-          "JALdMIC/survivethedays"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "Nathan.S/sss"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "StarNinjas/veil_of_the_unknown"
-          "StarNinjas/ssp"
-          "Hume2/boxworld3d"
-          "zanderdev/skyblock_zero"
-          "rubenwardy/sfinv"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Wuzzy/hades_revisited"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "Lone_Wolf/voxel_knights"
-          "dibesfer/colorlandia"
-          "Emojiminetest/parkour"
-          "hilol/epic_combat"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "Thunder1035/pacman"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "SkyBuilder1717/chromakey" = mkLuantiMod {
     name = "chromakey";
     release = 27036;
@@ -67767,12 +67896,30 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "mt-mods/vision_lib" = mkLuantiMod {
+    name = "vision_lib";
+    release = 5818;
+    hash = "0rjqqf7mp6ckvw9j7dvwh8q4pz5n6ymi4yqj995sm2dynq776dvi";
+    author = "mt-mods";
+    provides = [ "vision_lib" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "ChimneySwift/temp_privs" = mkLuantiMod {
     name = "temp_privs";
     release = 679;
     hash = "0hqvddm5y97hvr9kv1ixr122dcnyh8ph16ii0kh9bpfb7zhswnp7";
     author = "ChimneySwift";
     provides = [ "temp_privs" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Noodlemire/entitycontrol" = mkLuantiMod {
+    name = "entitycontrol";
+    release = 2737;
+    hash = "0pa637z1rzra2akshpsax68l2hc5ss4jlmbbaj03av8irgc48dkr";
+    author = "Noodlemire";
+    provides = [ "entitycontrol" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -67783,6 +67930,20 @@
     author = "BuckarooBanzay";
     provides = [ "isogen" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "rheo/silence" = mkLuantiMod {
+    name = "silence";
+    release = 20385;
+    hash = "0midx77nzi42p9093kn7nmkz1sys9rb3czm6x3mq7chdk42ilf4j";
+    author = "rheo";
+    provides = [ "silence" ];
+    depends = [
+      ({
+        name = "fmod";
+        packages = [ "rheo/fmod" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "Alib234/coloredstrings" = mkLuantiMod {
@@ -67902,25 +68063,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Starbeamrainbowlabs/plasticbox" = mkLuantiMod {
-    name = "plasticbox";
-    release = 6389;
-    hash = "1mqi9znm9r3fsp5iyqcxzjj5kyv9qy3lhj61gp8w8d5cbiv0f0cc";
-    author = "Starbeamrainbowlabs";
-    provides = [ "plasticbox" ];
-    depends = [
-      ({
-        name = "unifieddyes";
-        packages = [
-          "mt-mods/unifieddyes"
-          "bell07/whynot_game"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Zemtzov7/invman" = mkLuantiMod {
     name = "invman";
     release = 26467;
@@ -68005,6 +68147,55 @@
     ];
     with_same_name = [ ];
   };
+  "cool_beans/decraft" = mkLuantiMod {
+    name = "decraft";
+    release = 14463;
+    hash = "1xi4k3qs9spwxk7mwynmr9xh9swjb41gfjs7x6d72j90sqpr452f";
+    author = "cool_beans";
+    provides = [ "decraft" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "ApolloX/rebreather" = mkLuantiMod {
     name = "rebreather";
     release = 12319;
@@ -68041,6 +68232,115 @@
     author = "KareaGhandTrail";
     provides = [ "nametags2" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "Clyde/beamer" = mkLuantiMod {
+    name = "beamer";
+    release = 19270;
+    hash = "0drbj3qg109ab01i19x68bvxjyyzngsv2s87d79viyzgdq3s20xp";
+    author = "Clyde";
+    provides = [ "beamer" ];
+    depends = [
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "bucket";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Minetest/devtest"
+          "IcyDiamond/fluid_lib"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "daret/bucket"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "Amaz/lordofthetest"
+          "mt-mods/dreambuilder_game"
+          "rheo/bucket"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "luarocks/pixel_fonts" = mkLuantiMod {
@@ -68242,15 +68542,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Kimapr/diggable_chests" = mkLuantiMod {
-    name = "diggable_chests";
-    release = 13859;
-    hash = "0bbcfbja9d259gcqv46x91id18y8mx6diwiamv14mx2mnmb2fxs9";
-    author = "Kimapr";
-    provides = [ "diggable_chests" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "thediamondlego/multitool" = mkLuantiMod {
@@ -68808,27 +69099,6 @@
     ];
     with_same_name = [ ];
   };
-  "Emojiminetest/cottonseed_oil" = mkLuantiMod {
-    name = "cottonseed_oil";
-    release = 22853;
-    hash = "18zz27akdjk0bcdzbx568fhvgfqvnwbn7f2ma6dhiw3g1224gr78";
-    author = "Emojiminetest";
-    provides = [ "cottonseed_oil" ];
-    depends = [
-      ({
-        name = "bonemeal";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "TenPlus1/bonemeal"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "cronvel/landscape_shaping" = mkLuantiMod {
     name = "landscape_shaping";
     release = 4965;
@@ -68917,6 +69187,24 @@
     ];
     with_same_name = [ ];
   };
+  "MrFreeman/minetest_email" = mkLuantiMod {
+    name = "minetest_email";
+    release = 23688;
+    hash = "1l5il2rkfghal0mm93kb7npf789931cs4k1jd3dnn44na5d907ci";
+    author = "MrFreeman";
+    provides = [ "minetest_email" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "J05629/ptracker" = mkLuantiMod {
+    name = "ptracker";
+    release = 20703;
+    hash = "03llc5nzll41q23k2d1swci80n511yqi83s8pzapmd466g5acg05";
+    author = "J05629";
+    provides = [ "ptracker" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Zemtzov7/mtfm" = mkLuantiMod {
     name = "mtfm";
     release = 26465;
@@ -68932,6 +69220,15 @@
     hash = "1z99kxls7hmhd8x3shg48fmcn5q1wlqp1xsb5gmyqmhq2frg3s3b";
     author = "erov";
     provides = [ "hexcol" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Noodlemire/smart_vector_table" = mkLuantiMod {
+    name = "smart_vector_table";
+    release = 9157;
+    hash = "0g0zw8p2xs9qy27j9jqyys7fm6m245p5b36jlf31kf638vmp9dqz";
+    author = "Noodlemire";
+    provides = [ "smart_vector_table" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -69003,6 +69300,129 @@
     author = "SFENCE";
     provides = [ "hades_compatibility" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "mt-mods/poly_decor" = mkLuantiMod {
+    name = "poly_decor";
+    release = 8514;
+    hash = "192pff68ns8vx1p1qhjm5mf4nqnafskr7r76qf0znlr60z1if9ya";
+    author = "mt-mods";
+    provides = [ "poly_decor" ];
+    depends = [
+      ({
+        name = "dye";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "hilol/epic_combat"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "giga-turbo/codecube"
+          "mt-mods/dreambuilder_game"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "LibraSubtilis/minebase"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "vision_lib";
+        packages = [ "mt-mods/vision_lib" ];
+      })
+      ({
+        name = "doors";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "MeseCraft/mesecraft"
+          "1248/castrum"
+          "mt-mods/blockcolor"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/doors"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "place_rotated";
+        packages = [ "12Me21/place_rotated" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "OgelGames/tape_measure" = mkLuantiMod {
@@ -69651,15 +70071,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "mt-mods/vision_lib" = mkLuantiMod {
-    name = "vision_lib";
-    release = 5818;
-    hash = "0rjqqf7mp6ckvw9j7dvwh8q4pz5n6ymi4yqj995sm2dynq776dvi";
-    author = "mt-mods";
-    provides = [ "vision_lib" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "sorcerykid/trophies" = mkLuantiMod {
     name = "trophies";
     release = 4998;
@@ -69720,15 +70131,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Noodlemire/entitycontrol" = mkLuantiMod {
-    name = "entitycontrol";
-    release = 2737;
-    hash = "0pa637z1rzra2akshpsax68l2hc5ss4jlmbbaj03av8irgc48dkr";
-    author = "Noodlemire";
-    provides = [ "entitycontrol" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "Can202/bank_accounts_receipt" = mkLuantiMod {
@@ -70184,35 +70586,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "rheo/digicolor" = mkLuantiMod {
-    name = "digicolor";
-    release = 22223;
-    hash = "068n44iawr23945b1jqy86khxlgww6xj77dfy7wgcn9n6fv79db7";
-    author = "rheo";
-    provides = [ "digicolor" ];
-    depends = [
-      ({
-        name = "digilines";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "MeseCraft/mesecraft"
-          "Jeija/digilines"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-        ];
-      })
-      ({
-        name = "fmod";
-        packages = [ "rheo/fmod" ];
-      })
-      ({
-        name = "futil";
-        packages = [ "rheo/futil" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Clyde/coins" = mkLuantiMod {
     name = "coins";
     release = 2602;
@@ -70364,6 +70737,37 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AFCM/mcl_build_limit" = mkLuantiMod {
+    name = "mcl_build_limit";
+    release = 6737;
+    hash = "0m31c88z874cadkn6kgywjjqqmcvfnifpxrkfdw946n3dvrkp0n2";
+    author = "AFCM";
+    provides = [ "mcl_build_limit" ];
+    depends = [
+      ({
+        name = "mcl_init";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_mapgen_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
+        ];
+      })
+      ({
+        name = "mcl_core";
+        packages = [
+          "Wuzzy/mineclone2"
+          "ryvnf/mineclonia"
         ];
       })
     ];
@@ -70596,15 +71000,6 @@
         ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/colorcubes" = mkLuantiMod {
-    name = "colorcubes";
-    release = 467;
-    hash = "1wkkpaqvas1z3igcz11d5vhzmk3vdmi3df02xpzpwinsw8wf5ag8";
-    author = "Wuzzy";
-    provides = [ "colorcubes" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "The4spaceconstants/compression_pack" = mkLuantiMod {
@@ -71686,48 +72081,6 @@
     ];
     with_same_name = [ ];
   };
-  "rstcxk/lush" = mkLuantiMod {
-    name = "lush";
-    release = 27239;
-    hash = "18km9lnrxxb0147h2bxn0kd0822aywpv3szyn45bxhl4nrfl4lzm";
-    author = "rstcxk";
-    provides = [
-      "lush_builtin"
-      "lush_command_managment"
-      "lush_core"
-      "lush_doas"
-      "lush_findbiome"
-      "lush_gui"
-      "lush_messages"
-      "lush_moderation"
-      "lush_tpr"
-      "lush_utilities"
-    ];
-    depends = [
-      ({
-        name = "flow";
-        packages = [
-          "luk3yx/flow"
-          "Kimapr/nonsensical_skyblock"
-        ];
-      })
-      ({
-        name = "warn";
-        packages = [ "neocraft1293/warn" ];
-      })
-      ({
-        name = "findbiome";
-        packages = [
-          "Hi_World/newplanet"
-          "VoxelForge/voxelforge"
-          "ryvnf/mineclonia"
-          "Wuzzy/mineclone2"
-          "Wuzzy/findbiome"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "FaceDeer/breadcrumbs" = mkLuantiMod {
     name = "breadcrumbs";
     release = 16424;
@@ -71735,6 +72088,24 @@
     author = "FaceDeer";
     provides = [ "breadcrumbs" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "Emojiminetest/um_interest" = mkLuantiMod {
+    name = "um_interest";
+    release = 23999;
+    hash = "0djjjwdhnp3jw2a4lxn0xggvbli3bwfchjvx6sp2r0c9ik855cns";
+    author = "Emojiminetest";
+    provides = [ "um_interest" ];
+    depends = [
+      ({
+        name = "um_plugin_playername";
+        packages = [ "Emojiminetest/unified_money" ];
+      })
+      ({
+        name = "um_core";
+        packages = [ "Emojiminetest/unified_money" ];
+      })
+    ];
     with_same_name = [ ];
   };
   "FaceDeer/bulletin_boards" = mkLuantiMod {
@@ -71782,6 +72153,15 @@
         packages = [ "talas/colourhop" ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "Coder12/explodingchest" = mkLuantiMod {
+    name = "explodingchest";
+    release = 9682;
+    hash = "0w8vb8kqcr98sdmianr39ks8g79hxc70nhg23bd005w092xc4y61";
+    author = "Coder12";
+    provides = [ "explodingchest" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "Emojiminetest/um_wtt" = mkLuantiMod {
@@ -72055,15 +72435,6 @@
     ];
     with_same_name = [ ];
   };
-  "Noodlemire/smart_vector_table" = mkLuantiMod {
-    name = "smart_vector_table";
-    release = 9157;
-    hash = "0g0zw8p2xs9qy27j9jqyys7fm6m245p5b36jlf31kf638vmp9dqz";
-    author = "Noodlemire";
-    provides = [ "smart_vector_table" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Duvalon/maple" = mkLuantiMod {
     name = "maple";
     release = 13418;
@@ -72293,6 +72664,53 @@
           "rlars/occupymoon_game"
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Kimapr/cooksneak" = mkLuantiMod {
+    name = "cooksneak";
+    release = 23087;
+    hash = "0qkfjbndf33rbpsgcz9mnnkk3kk0nqy0xlglmwz8xl8537fcvris";
+    author = "Kimapr";
+    provides = [ "cooksneak" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "TestificateMods/item_snatcher" = mkLuantiMod {
+    name = "item_snatcher";
+    release = 3539;
+    hash = "0hvvfr4lgq12s8x4x0ys5ayqzcmvmk39jm9qb0b4g4qavahw75mw";
+    author = "TestificateMods";
+    provides = [ "item_snatcher" ];
+    depends = [
+      ({
+        name = "farming";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "UnbrokenUnworn/modular_portals"
+          "Casimir/voxelgarden"
+          "bell07/whynot_game"
+          "1248/regnum"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "Astrobe/minefall"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "hilol/epic_combat"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "TenPlus1/farming"
           "Minetest/minetest_game"
         ];
       })
@@ -72662,6 +73080,15 @@
     ];
     with_same_name = [ ];
   };
+  "12Me21/place_rotated" = mkLuantiMod {
+    name = "place_rotated";
+    release = 4861;
+    hash = "0ns0mzln536n73zpaz3lmcr3zzxdc7hj557ldvfv4x5gb5jwaz5s";
+    author = "12Me21";
+    provides = [ "place_rotated" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Emojiminetest/safe_tnt" = mkLuantiMod {
     name = "safe_tnt";
     release = 23848;
@@ -72951,6 +73378,39 @@
     ];
     with_same_name = [ ];
   };
+  "Thresher/markdown_poster" = mkLuantiMod {
+    name = "markdown_poster";
+    release = 21967;
+    hash = "10f9hk050zvg2ii1l5yjgl7dswgs8bv8c7db8zwvz416r2dhyamp";
+    author = "Thresher";
+    provides = [ "markdown_poster" ];
+    depends = [
+      ({
+        name = "markdown2formspec";
+        packages = [
+          "Just_Visiting/littlelady"
+          "Just_Visiting/markdown2formspec"
+          "hilol/epic_combat"
+        ];
+      })
+      ({
+        name = "font_api";
+        packages = [
+          "mt-mods/display_modpack"
+          "BuckarooBanzay/mesecons_lab"
+        ];
+      })
+      ({
+        name = "signs_api";
+        packages = [
+          "mt-mods/display_modpack"
+          "BuckarooBanzay/mesecons_lab"
+          "LibraSubtilis/minebase"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "Sires/obdy" = mkLuantiMod {
     name = "obdy";
     release = 1088;
@@ -73104,20 +73564,6 @@
     author = "J05629";
     provides = [ "ctf_info" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "rheo/silence" = mkLuantiMod {
-    name = "silence";
-    release = 20385;
-    hash = "0midx77nzi42p9093kn7nmkz1sys9rb3czm6x3mq7chdk42ilf4j";
-    author = "rheo";
-    provides = [ "silence" ];
-    depends = [
-      ({
-        name = "fmod";
-        packages = [ "rheo/fmod" ];
-      })
-    ];
     with_same_name = [ ];
   };
   "louisroyer/keyring" = mkLuantiMod {
@@ -73723,55 +74169,6 @@
     ];
     with_same_name = [ ];
   };
-  "cool_beans/decraft" = mkLuantiMod {
-    name = "decraft";
-    release = 14463;
-    hash = "1xi4k3qs9spwxk7mwynmr9xh9swjb41gfjs7x6d72j90sqpr452f";
-    author = "cool_beans";
-    provides = [ "decraft" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "pl608/mt_teams" = mkLuantiMod {
     name = "mt_teams";
     release = 17189;
@@ -73817,115 +74214,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Clyde/beamer" = mkLuantiMod {
-    name = "beamer";
-    release = 19270;
-    hash = "0drbj3qg109ab01i19x68bvxjyyzngsv2s87d79viyzgdq3s20xp";
-    author = "Clyde";
-    provides = [ "beamer" ];
-    depends = [
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "bucket";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Minetest/devtest"
-          "IcyDiamond/fluid_lib"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "daret/bucket"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "Amaz/lordofthetest"
-          "mt-mods/dreambuilder_game"
-          "rheo/bucket"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "Shara/server_news" = mkLuantiMod {
     name = "server_news";
     release = 122;
@@ -73949,6 +74237,46 @@
       ({
         name = "futil";
         packages = [ "rheo/futil" ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Noodlemire/lua_inv" = mkLuantiMod {
+    name = "lua_inv";
+    release = 9208;
+    hash = "0xhvw48411qqcxfdrl0d0b3g20vdw5576vri13d59r74wby8f2zv";
+    author = "Noodlemire";
+    provides = [ "lua_inv" ];
+    depends = [
+      ({
+        name = "controls";
+        packages = [
+          "BuckarooBanzay/super_sam"
+          "MisterE/blockbomber"
+          "VoxelForge/voxelforge"
+          "Casimir/voxelgarden"
+          "mt-mods/controls"
+          "epCode/what_were_you_expecting"
+          "RedundantC/wis_part1"
+          "Wuzzy/mineclone2"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "hilol/epic_combat"
+        ];
+      })
+      ({
+        name = "smart_vector_table";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Noodlemire/smart_vector_table"
+        ];
+      })
+      ({
+        name = "entitycontrol";
+        packages = [
+          "Noodlemire/voxeldungeon"
+          "Noodlemire/entitycontrol"
+        ];
       })
     ];
     with_same_name = [ ];
@@ -74469,6 +74797,30 @@
     author = "texmex";
     provides = [ "scramble" ];
     depends = [ ];
+    with_same_name = [ ];
+  };
+  "niwla23/killbutton" = mkLuantiMod {
+    name = "killbutton";
+    release = 1789;
+    hash = "02dhc8asahh5qqicwy9drwic705vpcgafrs5q42ffz6yf7wgy7g3";
+    author = "niwla23";
+    provides = [ "killbutton" ];
+    depends = [
+      ({
+        name = "unified_inventory";
+        packages = [
+          "Hi_World/newplanet"
+          "joe7575/techage_modpack"
+          "BRNSystems/blocky_portaling"
+          "PyuDev/pyutest"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "MisterE/blockbomber_editor"
+          "RealBadAngel/unified_inventory"
+        ];
+      })
+    ];
     with_same_name = [ ];
   };
   "ulla/nodeu" = mkLuantiMod {
@@ -75238,24 +75590,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "MrFreeman/minetest_email" = mkLuantiMod {
-    name = "minetest_email";
-    release = 23688;
-    hash = "1l5il2rkfghal0mm93kb7npf789931cs4k1jd3dnn44na5d907ci";
-    author = "MrFreeman";
-    provides = [ "minetest_email" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "J05629/ptracker" = mkLuantiMod {
-    name = "ptracker";
-    release = 20703;
-    hash = "03llc5nzll41q23k2d1swci80n511yqi83s8pzapmd466g5acg05";
-    author = "J05629";
-    provides = [ "ptracker" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "lazerbeak12345/sway" = mkLuantiMod {
     name = "sway";
     release = 26446;
@@ -75740,129 +76074,6 @@
     ];
     with_same_name = [ ];
   };
-  "mt-mods/poly_decor" = mkLuantiMod {
-    name = "poly_decor";
-    release = 8514;
-    hash = "192pff68ns8vx1p1qhjm5mf4nqnafskr7r76qf0znlr60z1if9ya";
-    author = "mt-mods";
-    provides = [ "poly_decor" ];
-    depends = [
-      ({
-        name = "dye";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "hilol/epic_combat"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "giga-turbo/codecube"
-          "mt-mods/dreambuilder_game"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "LibraSubtilis/minebase"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "vision_lib";
-        packages = [ "mt-mods/vision_lib" ];
-      })
-      ({
-        name = "doors";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "MeseCraft/mesecraft"
-          "1248/castrum"
-          "mt-mods/blockcolor"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/doors"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "place_rotated";
-        packages = [ "12Me21/place_rotated" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "niwla23/upgrades" = mkLuantiMod {
     name = "upgrades";
     release = 2144;
@@ -75942,6 +76153,15 @@
         ];
       })
     ];
+    with_same_name = [ ];
+  };
+  "neocraft1293/warn" = mkLuantiMod {
+    name = "warn";
+    release = 27231;
+    hash = "0i8l4sqdmk1k1chq5ghha5nq2529llr0xdk0ymlpbg9cgwz1yjls";
+    author = "neocraft1293";
+    provides = [ "warn" ];
+    depends = [ ];
     with_same_name = [ ];
   };
   "ntnsndr/modpol" = mkLuantiMod {
@@ -76447,15 +76667,6 @@
         packages = [ "Desour/keyevent" ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "12Me21/place_rotated" = mkLuantiMod {
-    name = "place_rotated";
-    release = 4861;
-    hash = "0ns0mzln536n73zpaz3lmcr3zzxdc7hj557ldvfv4x5gb5jwaz5s";
-    author = "12Me21";
-    provides = [ "place_rotated" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "sorcerykid/auth_rx" = mkLuantiMod {
@@ -77170,37 +77381,6 @@
         packages = [
           "sdd/spiraling_down"
           "LMD/fslib"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "AFCM/mcl_build_limit" = mkLuantiMod {
-    name = "mcl_build_limit";
-    release = 6737;
-    hash = "0m31c88z874cadkn6kgywjjqqmcvfnifpxrkfdw946n3dvrkp0n2";
-    author = "AFCM";
-    provides = [ "mcl_build_limit" ];
-    depends = [
-      ({
-        name = "mcl_init";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_mapgen_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
-        ];
-      })
-      ({
-        name = "mcl_core";
-        packages = [
-          "Wuzzy/mineclone2"
-          "ryvnf/mineclonia"
         ];
       })
     ];
@@ -78874,24 +79054,6 @@
     ];
     with_same_name = [ ];
   };
-  "Emojiminetest/um_interest" = mkLuantiMod {
-    name = "um_interest";
-    release = 23999;
-    hash = "0djjjwdhnp3jw2a4lxn0xggvbli3bwfchjvx6sp2r0c9ik855cns";
-    author = "Emojiminetest";
-    provides = [ "um_interest" ];
-    depends = [
-      ({
-        name = "um_plugin_playername";
-        packages = [ "Emojiminetest/unified_money" ];
-      })
-      ({
-        name = "um_core";
-        packages = [ "Emojiminetest/unified_money" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "kestral/ascend" = mkLuantiMod {
     name = "ascend";
     release = 25048;
@@ -78913,15 +79075,6 @@
         packages = [ "rstcxk/filterpp_lib" ];
       })
     ];
-    with_same_name = [ ];
-  };
-  "Coder12/explodingchest" = mkLuantiMod {
-    name = "explodingchest";
-    release = 9682;
-    hash = "0w8vb8kqcr98sdmianr39ks8g79hxc70nhg23bd005w092xc4y61";
-    author = "Coder12";
-    provides = [ "explodingchest" ];
-    depends = [ ];
     with_same_name = [ ];
   };
   "sorcerykid/chat_history" = mkLuantiMod {
@@ -79318,24 +79471,6 @@
     ];
     with_same_name = [ ];
   };
-  "neocraft1293/warn" = mkLuantiMod {
-    name = "warn";
-    release = 27231;
-    hash = "0i8l4sqdmk1k1chq5ghha5nq2529llr0xdk0ymlpbg9cgwz1yjls";
-    author = "neocraft1293";
-    provides = [ "warn" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Kimapr/cooksneak" = mkLuantiMod {
-    name = "cooksneak";
-    release = 23087;
-    hash = "0qkfjbndf33rbpsgcz9mnnkk3kk0nqy0xlglmwz8xl8537fcvris";
-    author = "Kimapr";
-    provides = [ "cooksneak" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "LC Creations/luablock" = mkLuantiMod {
     name = "luablock";
     release = 17408;
@@ -79384,44 +79519,6 @@
     author = "mtvisitor";
     provides = [ "mtengine_stats" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "TestificateMods/item_snatcher" = mkLuantiMod {
-    name = "item_snatcher";
-    release = 3539;
-    hash = "0hvvfr4lgq12s8x4x0ys5ayqzcmvmk39jm9qb0b4g4qavahw75mw";
-    author = "TestificateMods";
-    provides = [ "item_snatcher" ];
-    depends = [
-      ({
-        name = "farming";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "UnbrokenUnworn/modular_portals"
-          "Casimir/voxelgarden"
-          "bell07/whynot_game"
-          "1248/regnum"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "Astrobe/minefall"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "hilol/epic_combat"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "TenPlus1/farming"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "heger/webchat" = mkLuantiMod {
@@ -79667,39 +79764,6 @@
       ({
         name = "um_translate_common";
         packages = [ "Emojiminetest/unified_money" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Thresher/markdown_poster" = mkLuantiMod {
-    name = "markdown_poster";
-    release = 21967;
-    hash = "10f9hk050zvg2ii1l5yjgl7dswgs8bv8c7db8zwvz416r2dhyamp";
-    author = "Thresher";
-    provides = [ "markdown_poster" ];
-    depends = [
-      ({
-        name = "markdown2formspec";
-        packages = [
-          "Just_Visiting/littlelady"
-          "Just_Visiting/markdown2formspec"
-          "hilol/epic_combat"
-        ];
-      })
-      ({
-        name = "font_api";
-        packages = [
-          "mt-mods/display_modpack"
-          "BuckarooBanzay/mesecons_lab"
-        ];
-      })
-      ({
-        name = "signs_api";
-        packages = [
-          "mt-mods/display_modpack"
-          "BuckarooBanzay/mesecons_lab"
-          "LibraSubtilis/minebase"
-        ];
       })
     ];
     with_same_name = [ ];
@@ -80333,46 +80397,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Noodlemire/lua_inv" = mkLuantiMod {
-    name = "lua_inv";
-    release = 9208;
-    hash = "0xhvw48411qqcxfdrl0d0b3g20vdw5576vri13d59r74wby8f2zv";
-    author = "Noodlemire";
-    provides = [ "lua_inv" ];
-    depends = [
-      ({
-        name = "controls";
-        packages = [
-          "BuckarooBanzay/super_sam"
-          "MisterE/blockbomber"
-          "VoxelForge/voxelforge"
-          "Casimir/voxelgarden"
-          "mt-mods/controls"
-          "epCode/what_were_you_expecting"
-          "RedundantC/wis_part1"
-          "Wuzzy/mineclone2"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "hilol/epic_combat"
-        ];
-      })
-      ({
-        name = "smart_vector_table";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Noodlemire/smart_vector_table"
-        ];
-      })
-      ({
-        name = "entitycontrol";
-        packages = [
-          "Noodlemire/voxeldungeon"
-          "Noodlemire/entitycontrol"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "ROllerozxa/get_biome_data" = mkLuantiMod {
     name = "get_biome_data";
     release = 19315;
@@ -80908,30 +80932,6 @@
       ({
         name = "subcommands";
         packages = [ "Emojiminetest/subcommands" ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "niwla23/killbutton" = mkLuantiMod {
-    name = "killbutton";
-    release = 1789;
-    hash = "02dhc8asahh5qqicwy9drwic705vpcgafrs5q42ffz6yf7wgy7g3";
-    author = "niwla23";
-    provides = [ "killbutton" ];
-    depends = [
-      ({
-        name = "unified_inventory";
-        packages = [
-          "Hi_World/newplanet"
-          "joe7575/techage_modpack"
-          "BRNSystems/blocky_portaling"
-          "PyuDev/pyutest"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "MisterE/blockbomber_editor"
-          "RealBadAngel/unified_inventory"
-        ];
       })
     ];
     with_same_name = [ ];
@@ -82588,6 +82588,75 @@
     ];
     with_same_name = [ ];
   };
+  "Jeff/homeassistant" = mkLuantiMod {
+    name = "homeassistant";
+    release = 25305;
+    hash = "0giwp93hj1699120xg15llv8m9k4mypxkshw7870h0jz4w14x7nb";
+    author = "Jeff";
+    provides = [ "homeassistant" ];
+    depends = [
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "DragonWrangler/balrog_sword_mt_5_4" = mkLuantiMod {
     name = "balrog_sword_mt_5_4";
     release = 24377;
@@ -82723,75 +82792,6 @@
           "Thunder1035/pacman"
           "PetiAPocok/minetest_extended"
           "1248/agon"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "Jeff/homeassistant" = mkLuantiMod {
-    name = "homeassistant";
-    release = 25305;
-    hash = "0giwp93hj1699120xg15llv8m9k4mypxkshw7870h0jz4w14x7nb";
-    author = "Jeff";
-    provides = [ "homeassistant" ];
-    depends = [
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
         ];
       })
     ];
@@ -83008,6 +83008,55 @@
     ];
     with_same_name = [ ];
   };
+  "sunnysideup/lakemaker" = mkLuantiMod {
+    name = "lakemaker";
+    release = 7149;
+    hash = "0cra73vq5hmbjhjphhd5ipiwf7r6kqgxqfs8czgzv3x5c6jhampg";
+    author = "sunnysideup";
+    provides = [ "lakemaker" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
   "JALdMIC/aw_viviendayrevolucion" = mkLuantiMod {
     name = "aw_viviendayrevolucion";
     release = 26044;
@@ -83121,112 +83170,6 @@
     ];
     with_same_name = [ ];
   };
-  "sunnysideup/lakemaker" = mkLuantiMod {
-    name = "lakemaker";
-    release = 7149;
-    hash = "0cra73vq5hmbjhjphhd5ipiwf7r6kqgxqfs8czgzv3x5c6jhampg";
-    author = "sunnysideup";
-    provides = [ "lakemaker" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "ApolloX/teleporter_tool" = mkLuantiMod {
-    name = "teleporter_tool";
-    release = 8754;
-    hash = "1p02pq1manwpxrna9zagky3ffyrcvnh22n5zvdkx3nrnkzyn1cw3";
-    author = "ApolloX";
-    provides = [ "teleporter_tool" ];
-    depends = [
-      ({
-        name = "mesecons";
-        packages = [
-          "Jeija/mesecons"
-          "Noodlemire/voxeldungeon"
-          "Kimapr/nonsensical_skyblock"
-          "VoxelForge/voxelforge"
-          "BRNSystems/blocky_portaling"
-          "1248/regnum"
-          "1248/regnum2"
-          "Wuzzy/mineclone2"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "ryvnf/mineclonia"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "Thunder1035/pacman"
-          "PetiAPocok/minetest_extended"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "56independent/britsignals" = mkLuantiMod {
-    name = "britsignals";
-    release = 13004;
-    hash = "0kjsz35ifw74zjf9bgl7vfs7vs0r3n4xf3m6p3vl8lpw0k32kkha";
-    author = "56independent";
-    provides = [ "britsignals" ];
-    depends = [
-      ({
-        name = "advtrains";
-        packages = [ "orwell/advtrains" ];
-      })
-      ({
-        name = "basic_materials";
-        packages = [
-          "mt-mods/basic_materials"
-          "Kimapr/nonsensical_skyblock"
-          "joe7575/techage_modpack"
-          "bell07/whynot_game"
-          "MeseCraft/mesecraft"
-          "BuckarooBanzay/mesecons_lab"
-          "mt-mods/dreambuilder_game"
-          "rlars/occupymoon_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
   "TechNolaByte/mystical_agriculture" = mkLuantiMod {
     name = "mystical_agriculture";
     release = 24099;
@@ -83303,6 +83246,223 @@
       })
     ];
     with_same_name = [ "mooshidungii/mystical_agriculture" ];
+  };
+  "qawsedrftgzh/ski" = mkLuantiMod {
+    name = "ski";
+    release = 14461;
+    hash = "06c1bh1g6nd86cw633qlw34rcyfnbzn11iky642y9n7g18zvsm13";
+    author = "qawsedrftgzh";
+    provides = [ "ski" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+      ({
+        name = "player_api";
+        packages = [
+          "aerkiaga/nodeverse"
+          "Hume2/minesweeper_3d"
+          "rubenwardy/capturetheflag"
+          "StarNinjas/jail_escape"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "BuckarooBanzay/super_sam"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "BRNSystems/blocky_portaling"
+          "Casimir/voxelgarden"
+          "Panquesito7/panqkart"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "xenonca/luckysweeper"
+          "1248/regnum2"
+          "mt-mods/driftgame"
+          "1248/castrum"
+          "Blockhead/sotm"
+          "MeseCraft/mesecraft"
+          "Hume2/boxworld3d"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "Astrobe/minefall"
+          "Lone_Wolf/torrlund"
+          "KareaGhandTrail/block_assault"
+          "Wuzzy/lazarr"
+          "dibesfer/colorlandia"
+          "xenonca/luckydude"
+          "Emojiminetest/parkour"
+          "carlos_rupp/berzerkpt"
+          "Mantar/exile"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "jamiebearcub/grand_theft_box"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "Jackknife/silver" = mkLuantiMod {
+    name = "silver";
+    release = 8952;
+    hash = "0229i096r12s1yl72capfcni1xk194djkyw6kmjxiiymxv3wp68g";
+    author = "Jackknife";
+    provides = [ "silver" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "ApolloX/teleporter_tool" = mkLuantiMod {
+    name = "teleporter_tool";
+    release = 8754;
+    hash = "1p02pq1manwpxrna9zagky3ffyrcvnh22n5zvdkx3nrnkzyn1cw3";
+    author = "ApolloX";
+    provides = [ "teleporter_tool" ];
+    depends = [
+      ({
+        name = "mesecons";
+        packages = [
+          "Jeija/mesecons"
+          "Noodlemire/voxeldungeon"
+          "Kimapr/nonsensical_skyblock"
+          "VoxelForge/voxelforge"
+          "BRNSystems/blocky_portaling"
+          "1248/regnum"
+          "1248/regnum2"
+          "Wuzzy/mineclone2"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "ryvnf/mineclonia"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "Thunder1035/pacman"
+          "PetiAPocok/minetest_extended"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "AntumDeluge/hidename" = mkLuantiMod {
+    name = "hidename";
+    release = 8773;
+    hash = "1yznwlh3gfrlwsw72pgrybd2sn71sz68wdnx628sn1vpx2770y8p";
+    author = "AntumDeluge";
+    provides = [ "hidename" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "56independent/britsignals" = mkLuantiMod {
+    name = "britsignals";
+    release = 13004;
+    hash = "0kjsz35ifw74zjf9bgl7vfs7vs0r3n4xf3m6p3vl8lpw0k32kkha";
+    author = "56independent";
+    provides = [ "britsignals" ];
+    depends = [
+      ({
+        name = "advtrains";
+        packages = [ "orwell/advtrains" ];
+      })
+      ({
+        name = "basic_materials";
+        packages = [
+          "mt-mods/basic_materials"
+          "Kimapr/nonsensical_skyblock"
+          "joe7575/techage_modpack"
+          "bell07/whynot_game"
+          "MeseCraft/mesecraft"
+          "BuckarooBanzay/mesecons_lab"
+          "mt-mods/dreambuilder_game"
+          "rlars/occupymoon_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
   };
   "VoxelForge/vlf_cozy" = mkLuantiMod {
     name = "vlf_cozy";
@@ -83533,61 +83693,39 @@
     ];
     with_same_name = [ ];
   };
-  "Jackknife/silver" = mkLuantiMod {
-    name = "silver";
-    release = 8952;
-    hash = "0229i096r12s1yl72capfcni1xk194djkyw6kmjxiiymxv3wp68g";
-    author = "Jackknife";
-    provides = [ "silver" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
+  "SkyBuilder1717/height_limit" = mkLuantiMod {
+    name = "height_limit";
+    release = 24974;
+    hash = "0pb8xl7d3j9wbpygl5gmq6fjbmm2a9mh0hyzr0xvyz51labk882x";
+    author = "SkyBuilder1717";
+    provides = [ "height_limit" ];
+    depends = [ ];
     with_same_name = [ ];
   };
-  "AntumDeluge/hidename" = mkLuantiMod {
-    name = "hidename";
-    release = 8773;
-    hash = "1yznwlh3gfrlwsw72pgrybd2sn71sz68wdnx628sn1vpx2770y8p";
-    author = "AntumDeluge";
-    provides = [ "hidename" ];
+  "Krunegan/getyourseed" = mkLuantiMod {
+    name = "getyourseed";
+    release = 19664;
+    hash = "1msi9cjz7f5qqarlr7hrflqxhc7y4p756qhh8l562xxnsc6haydl";
+    author = "Krunegan";
+    provides = [ "getyourseed" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "ApolloX/credits" = mkLuantiMod {
+    name = "credits";
+    release = 12302;
+    hash = "1x5s5hfhydj4lb4cn8rhb5lsrkz2j86i6cn40diccd2qvpmv6hj0";
+    author = "ApolloX";
+    provides = [ "credits" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "niwla23/parkour" = mkLuantiMod {
+    name = "parkour";
+    release = 2165;
+    hash = "0d745qrnqxvcfd8vwmzj5ssym5k31lnms89aiq887vy7lcryb25z";
+    author = "niwla23";
+    provides = [ "parkour" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -83597,6 +83735,15 @@
     hash = "11ryhqa127x1ss93lk2n7fp1als6qyaajd61l8lfj2g9w0pifl4d";
     author = "ApolloX";
     provides = [ "oreveins" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "jesuistitus/block_chat_messages" = mkLuantiMod {
+    name = "block_chat_messages";
+    release = 17689;
+    hash = "0zxvw8vq6wkvx9mqfnv4xdvqgy3qj2rgp7z4kyfvgr75jz9pk35q";
+    author = "jesuistitus";
+    provides = [ "block_chat_messages" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -83803,6 +83950,83 @@
           "PetiAPocok/minetest_extended"
           "mooD_Slayer/ksurvive"
           "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "ChimneySwift/mover" = mkLuantiMod {
+    name = "mover";
+    release = 676;
+    hash = "06rqgqa776i3iva048wybyyha35n20p2kb22gij1xkxwidn2lm8x";
+    author = "ChimneySwift";
+    provides = [ "mover" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "BrandonReese/stairpick" = mkLuantiMod {
+    name = "stairpick";
+    release = 2154;
+    hash = "0kl6p1nij0yz0qyxvzlm5aa365258n8ch5yavm1py7v2fh0bvwaa";
+    author = "BrandonReese";
+    provides = [ "stairpick" ];
+    depends = [
+      ({
+        name = "default";
+        packages = [
+          "rubenwardy/capturetheflag"
+          "AiTechEye/xaenvironment"
+          "Hi_World/newplanet"
+          "Noodlemire/voxeldungeon"
+          "JALdMIC/survivethedays"
+          "sunnysideup/holidayhorrors"
+          "Kimapr/nonsensical_skyblock"
+          "Casimir/voxelgarden"
+          "1248/regnum"
+          "bell07/whynot_game"
+          "1248/regnum2"
+          "1248/castrum"
+          "Panquesito7/panqkart"
+          "MeseCraft/mesecraft"
+          "debiankaios/proxima_survival"
+          "EmptyStar/asuna"
+          "miroptics/qiskitblocks_miro"
+          "KareaGhandTrail/block_assault_mapmaker"
+          "KareaGhandTrail/block_assault"
+          "Amaz/lordofthetest"
+          "carlos_rupp/berzerkpt"
+          "BuckarooBanzay/mesecons_lab"
+          "JavaFXpert/qiskitblocks"
+          "mt-mods/dreambuilder_game"
+          "giga-turbo/codecube"
+          "niwla23/runorfall"
+          "Thunder1035/pacman"
+          "hilol/epic_combat"
+          "Big_Caballito/no_mans_land"
+          "TheFanne/raining_nodes"
+          "rlars/occupymoon_game"
+          "PetiAPocok/minetest_extended"
+          "mooD_Slayer/ksurvive"
+          "Minetest/minetest_game"
+        ];
+      })
+    ];
+    with_same_name = [ ];
+  };
+  "LMD/online_craftguide" = mkLuantiMod {
+    name = "online_craftguide";
+    release = 15341;
+    hash = "1ww1nqaz19k4jxw9w79v2jbp8543zfqrkdv6w43zvvbl972y9am4";
+    author = "LMD";
+    provides = [ "online_craftguide" ];
+    depends = [
+      ({
+        name = "modlib";
+        packages = [
+          "Kimapr/nonsensical_skyblock"
+          "LMD/modlib"
+          "LMD/cellestial_game"
+          "sdd/spiraling_down"
         ];
       })
     ];
@@ -84018,135 +84242,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "qawsedrftgzh/ski" = mkLuantiMod {
-    name = "ski";
-    release = 14461;
-    hash = "06c1bh1g6nd86cw633qlw34rcyfnbzn11iky642y9n7g18zvsm13";
-    author = "qawsedrftgzh";
-    provides = [ "ski" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-      ({
-        name = "player_api";
-        packages = [
-          "aerkiaga/nodeverse"
-          "Hume2/minesweeper_3d"
-          "rubenwardy/capturetheflag"
-          "StarNinjas/jail_escape"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "BuckarooBanzay/super_sam"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "BRNSystems/blocky_portaling"
-          "Casimir/voxelgarden"
-          "Panquesito7/panqkart"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "xenonca/luckysweeper"
-          "1248/regnum2"
-          "mt-mods/driftgame"
-          "1248/castrum"
-          "Blockhead/sotm"
-          "MeseCraft/mesecraft"
-          "Hume2/boxworld3d"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "Astrobe/minefall"
-          "Lone_Wolf/torrlund"
-          "KareaGhandTrail/block_assault"
-          "Wuzzy/lazarr"
-          "dibesfer/colorlandia"
-          "xenonca/luckydude"
-          "Emojiminetest/parkour"
-          "carlos_rupp/berzerkpt"
-          "Mantar/exile"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "jamiebearcub/grand_theft_box"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "SkyBuilder1717/height_limit" = mkLuantiMod {
-    name = "height_limit";
-    release = 24974;
-    hash = "0pb8xl7d3j9wbpygl5gmq6fjbmm2a9mh0hyzr0xvyz51labk882x";
-    author = "SkyBuilder1717";
-    provides = [ "height_limit" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Krunegan/getyourseed" = mkLuantiMod {
-    name = "getyourseed";
-    release = 19664;
-    hash = "1msi9cjz7f5qqarlr7hrflqxhc7y4p756qhh8l562xxnsc6haydl";
-    author = "Krunegan";
-    provides = [ "getyourseed" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ApolloX/credits" = mkLuantiMod {
-    name = "credits";
-    release = 12302;
-    hash = "1x5s5hfhydj4lb4cn8rhb5lsrkz2j86i6cn40diccd2qvpmv6hj0";
-    author = "ApolloX";
-    provides = [ "credits" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "lag01/bed_lives" = mkLuantiMod {
     name = "bed_lives";
     release = 14450;
@@ -84231,101 +84326,6 @@
     author = "niwla23";
     provides = [ "playerinfo" ];
     depends = [ ];
-    with_same_name = [ ];
-  };
-  "niwla23/parkour" = mkLuantiMod {
-    name = "parkour";
-    release = 2165;
-    hash = "0d745qrnqxvcfd8vwmzj5ssym5k31lnms89aiq887vy7lcryb25z";
-    author = "niwla23";
-    provides = [ "parkour" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "jesuistitus/block_chat_messages" = mkLuantiMod {
-    name = "block_chat_messages";
-    release = 17689;
-    hash = "0zxvw8vq6wkvx9mqfnv4xdvqgy3qj2rgp7z4kyfvgr75jz9pk35q";
-    author = "jesuistitus";
-    provides = [ "block_chat_messages" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ChimneySwift/mover" = mkLuantiMod {
-    name = "mover";
-    release = 676;
-    hash = "06rqgqa776i3iva048wybyyha35n20p2kb22gij1xkxwidn2lm8x";
-    author = "ChimneySwift";
-    provides = [ "mover" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "BrandonReese/stairpick" = mkLuantiMod {
-    name = "stairpick";
-    release = 2154;
-    hash = "0kl6p1nij0yz0qyxvzlm5aa365258n8ch5yavm1py7v2fh0bvwaa";
-    author = "BrandonReese";
-    provides = [ "stairpick" ];
-    depends = [
-      ({
-        name = "default";
-        packages = [
-          "rubenwardy/capturetheflag"
-          "AiTechEye/xaenvironment"
-          "Hi_World/newplanet"
-          "Noodlemire/voxeldungeon"
-          "JALdMIC/survivethedays"
-          "sunnysideup/holidayhorrors"
-          "Kimapr/nonsensical_skyblock"
-          "Casimir/voxelgarden"
-          "1248/regnum"
-          "bell07/whynot_game"
-          "1248/regnum2"
-          "1248/castrum"
-          "Panquesito7/panqkart"
-          "MeseCraft/mesecraft"
-          "debiankaios/proxima_survival"
-          "EmptyStar/asuna"
-          "miroptics/qiskitblocks_miro"
-          "KareaGhandTrail/block_assault_mapmaker"
-          "KareaGhandTrail/block_assault"
-          "Amaz/lordofthetest"
-          "carlos_rupp/berzerkpt"
-          "BuckarooBanzay/mesecons_lab"
-          "JavaFXpert/qiskitblocks"
-          "mt-mods/dreambuilder_game"
-          "giga-turbo/codecube"
-          "niwla23/runorfall"
-          "Thunder1035/pacman"
-          "hilol/epic_combat"
-          "Big_Caballito/no_mans_land"
-          "TheFanne/raining_nodes"
-          "rlars/occupymoon_game"
-          "PetiAPocok/minetest_extended"
-          "mooD_Slayer/ksurvive"
-          "Minetest/minetest_game"
-        ];
-      })
-    ];
-    with_same_name = [ ];
-  };
-  "LMD/online_craftguide" = mkLuantiMod {
-    name = "online_craftguide";
-    release = 15341;
-    hash = "1ww1nqaz19k4jxw9w79v2jbp8543zfqrkdv6w43zvvbl972y9am4";
-    author = "LMD";
-    provides = [ "online_craftguide" ];
-    depends = [
-      ({
-        name = "modlib";
-        packages = [
-          "Kimapr/nonsensical_skyblock"
-          "LMD/modlib"
-          "LMD/cellestial_game"
-          "sdd/spiraling_down"
-        ];
-      })
-    ];
     with_same_name = [ ];
   };
   "jbb/agriculture" = mkLuantiMod {

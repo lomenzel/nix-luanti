@@ -576,6 +576,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Walfun/outline_square_crosshair" = mkLuantiTxp {
+    name = "outline_square_crosshair";
+    release = 13436;
+    hash = "0pjvd27phdpf6ml8n46bxz2ppf6hg3fqbpw5avd8vy5csy2yphwn";
+    author = "Walfun";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Winter94/wintercore_thra" = mkLuantiTxp {
     name = "wintercore_thra";
     release = 28029;
@@ -621,6 +630,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Skyisblue/skycornv1" = mkLuantiTxp {
+    name = "skycornv1";
+    release = 3175;
+    hash = "04zk6l7a3nx0ssm103rqip1s9dafk1f57gghfxvwazlhzmh8zvg0";
+    author = "Skyisblue";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Blocky_Player/happy_land" = mkLuantiTxp {
     name = "happy_land";
     release = 13084;
@@ -644,6 +662,33 @@
     release = 1555;
     hash = "05qn5lxdchy6ssdnscl100cz6xys1w41q3k6jbawvkswa0xjfm5d";
     author = "niwla23";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "mtvisitor/stg_texturepack_lab" = mkLuantiTxp {
+    name = "stg_texturepack_lab";
+    release = 25880;
+    hash = "1gmdzw05d82va6q0rzc72rg1iclrdl4h87lgbxc9qx9kig57fxqh";
+    author = "mtvisitor";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "kestral/default_grid" = mkLuantiTxp {
+    name = "default_grid";
+    release = 1999;
+    hash = "05ns6bj0lnkfa92f4qy6qlllvg7b54warfkj2b5rd4ibry2fi0x8";
+    author = "kestral";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Warr1024/nc_regression" = mkLuantiTxp {
+    name = "nc_regression";
+    release = 26834;
+    hash = "1anz03vwhsaw7wnizx2camzfxndm7zn89dzisiycap2n393y2jbg";
+    author = "Warr1024";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -684,47 +729,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Skyisblue/skycornv1" = mkLuantiTxp {
-    name = "skycornv1";
-    release = 3175;
-    hash = "04zk6l7a3nx0ssm103rqip1s9dafk1f57gghfxvwazlhzmh8zvg0";
-    author = "Skyisblue";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Walfun/outline_square_crosshair" = mkLuantiTxp {
-    name = "outline_square_crosshair";
-    release = 13436;
-    hash = "0pjvd27phdpf6ml8n46bxz2ppf6hg3fqbpw5avd8vy5csy2yphwn";
-    author = "Walfun";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "mtvisitor/stg_texturepack_lab" = mkLuantiTxp {
-    name = "stg_texturepack_lab";
-    release = 25880;
-    hash = "1gmdzw05d82va6q0rzc72rg1iclrdl4h87lgbxc9qx9kig57fxqh";
-    author = "mtvisitor";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "kestral/default_grid" = mkLuantiTxp {
-    name = "default_grid";
-    release = 1999;
-    hash = "05ns6bj0lnkfa92f4qy6qlllvg7b54warfkj2b5rd4ibry2fi0x8";
-    author = "kestral";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Warr1024/nc_regression" = mkLuantiTxp {
-    name = "nc_regression";
-    release = 26834;
-    hash = "1anz03vwhsaw7wnizx2camzfxndm7zn89dzisiycap2n393y2jbg";
-    author = "Warr1024";
+  "Winter94/wintercore_ornate" = mkLuantiTxp {
+    name = "wintercore_ornate";
+    release = 27740;
+    hash = "02l49ya08vh81s0i6ahawlwg0r7b0cr6588zivmrllh8q6ydcf91";
+    author = "Winter94";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -779,15 +788,6 @@
     release = 23049;
     hash = "0arcfk3rpbviv84jyvsqyb5wlpivw246s9fq466jr5y1a8pznhlw";
     author = "GreenBlob";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Winter94/wintercore_ornate" = mkLuantiTxp {
-    name = "wintercore_ornate";
-    release = 27740;
-    hash = "02l49ya08vh81s0i6ahawlwg0r7b0cr6588zivmrllh8q6ydcf91";
-    author = "Winter94";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
