@@ -1,8 +1,5 @@
 # Nix-Luanti
 
-**Status:** *Work in Progress*  
-**Merge Requests:** *Welcome!*
-
 ## Overview
 
 Nix-Luanti is a NixOS module and package collection that simplifies the setup and management of Luanti servers on NixOS. It provides a declarative way to configure and run multiple Luanti servers, including the ability to manage games, mods, and other settings through a clean Nix interface.
@@ -29,7 +26,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
        nix-luanti.url = "github:lomenzel/nix-luanti";
      };
 
-     outputs = { self, nixpkgs, nix-Luanti, ... }:
+     outputs = { self, nixpkgs, nix-luanti, ... }:
        let
          pkgs = import nixpkgs { system = "x86_64-linux"; };
        in {
@@ -38,7 +35,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
              system = "x86_64-linux";
              modules = [
                ./configuration.nix
-               nix-luanti.nixosModules.Luanti
+               nix-luanti.nixosModules.default
              ];
            };
          };
@@ -51,11 +48,11 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
    In your NixOS configuration (e.g., `configuration.nix`), use the Nix-Luanti module to set up your servers:
 
    ```nix
-   { config, pkgs, nix-Luanti, ... }:
+   { config, pkgs, nix-luanti, ... }:
    {
      services.Luanti = {
        enable = true;
-       servers = with nix-Luanti; {
+       servers = with nix-luanti; {
          cool-server = {
            game = games.minetest-game;
            mods = with mods; [
