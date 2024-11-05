@@ -66,6 +66,13 @@ let
         with-dependencies game mods
       );
     };
+      mapAttrNames = f: attrSet:
+    builtins.listToAttrs (map
+      (name: {
+        name = (f name);
+        value = builtins.getAttr name attrSet;
+      })
+      (builtins.attrNames attrSet));
 
 in
 {
@@ -78,6 +85,7 @@ in
     missingDependencies
     with-dependencies
     mods-folder
+    mapAttrNames
     ;
 
 }

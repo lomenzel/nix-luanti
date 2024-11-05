@@ -7,26 +7,6 @@
 }:
 let
   cfg = config.services.luanti;
-  toConf =
-    values:
-    lib.concatStrings (
-      lib.mapAttrsToList
-        (
-          name: value:
-          {
-            bool = "${name} = ${toString value}\n";
-            int = "${name} = ${toString value}\n";
-            null = "";
-            set = "${name} = {\n${toConf value}}\n";
-            string =
-              if (builtins.match NEEDS_MULTILINE_RE value) != null then
-                toConfMultiline name value
-              else
-                "${name} = ${value}\n";
-          }.${builtins.typeOf value}
-        )
-        values
-    );
 in
 {
   options.services.luanti = {
@@ -83,14 +63,14 @@ in
               mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
             in
             {
-              description = "User for Luanti Server ${name}";
+              description = "User for Luanti Server ${builtins.replaceStrings ["luanti"] [ "" ] name}";
               home = "/var/lib/luanti-${name}";
               # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
               createHome = true;
               group = "luanti";
             }
           )
-          cfg.servers;
+          (nix-luanti-lib.mapAttrNames (name: "luanti${name}") cfg.servers);
 
         systemd.services.luanti = builtins.mapAttrs
           (
@@ -107,7 +87,7 @@ in
                       --server --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
                       --port ${builtins.toString serverConfig.port}
                   ''; # TODO
-                  User = "luanti-${name}"; # TODO: Use the correct username if decided on what the username should be
+                  User = "luanti${name}"; # TODO: Use the correct username if decided on what the username should be
                   Group = "luanti";
                   Restart = "on-failure";
                 };
