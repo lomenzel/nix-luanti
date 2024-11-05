@@ -6,7 +6,7 @@
 let
   cfg = config.services.luanti;
   nix-luanti-lib = (import ./utils/lib.nix {
-    inherit byId
+    inherit byId;
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   }).byId;
