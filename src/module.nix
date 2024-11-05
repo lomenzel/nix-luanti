@@ -5,16 +5,16 @@
 }:
 let
   cfg = config.services.luanti;
-  nix-luanti-lib = (import ./utils/lib.nix {
+  nix-luanti-lib = import ./utils/lib.nix {
     inherit byId;
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
-  }).byId;
-  byId = import ./packages.nix {
+  };
+  byId = (import ./packages.nix {
           mkDerivation = pkgs.stdenv.mkDerivation;
           fetchurl = pkgs.fetchurl;
           unzip = pkgs.unzip;
-        };
+        }).byId;
 in
 {
   options.services.luanti = {
