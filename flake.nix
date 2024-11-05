@@ -16,7 +16,7 @@
       system:
       let
         pkgs = import nixpkgs { inherit system; };
-      in
+      in rec
       {
         packages = import src/packages.nix {
           mkDerivation = pkgs.stdenv.mkDerivation;
@@ -34,7 +34,7 @@
         };
         nixosModules.default = import ./src/module.nix;
         lib = import ./src/utils/lib.nix {
-          byId = self.packages.${system}.byId;
+          byId = packages.${system}.byId;
           lists = nixpkgs.lib.lists;
           mkDerivation = pkgs.stdenv.mkDerivation;
         };
