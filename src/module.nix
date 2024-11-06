@@ -85,7 +85,7 @@ in
             name: serverConfig:
 
               {
-                name = name;
+                #name = name;
                 description = "Luanti server instance for ${name}.";
                 after = [ "network.target" ];
                 wantedBy = [ "multi-user.target" ];
