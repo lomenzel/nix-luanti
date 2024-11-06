@@ -93,7 +93,7 @@ in
               --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
               --port ${builtins.toString serverConfig.port}
               --color always
-              --world ${/** TODO initialize the world if not present */ ~/world}
+              --world ${/** TODO initialize the world if not present */ "~/world"}
           ''; # TODO: luanti config format; also make sure it uses correct mods and map
           User = name;
           Group = "luanti";
