@@ -75,6 +75,7 @@ in
               # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
               createHome = true;
               group = "luanti";
+              isNormalUser = true;
             }
           )
           (nix-luanti-lib.mapAttrNames (name: "luanti${name}") cfg.servers);
