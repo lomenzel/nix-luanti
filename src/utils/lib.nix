@@ -66,13 +66,14 @@ let
         with-dependencies game mods
       );
     };
-      mapAttrNames = f: attrSet:
-    builtins.listToAttrs (map
-      (name: {
+  mapAttrNames =
+    f: attrSet:
+    builtins.listToAttrs (
+      map (name: {
         name = (f name);
         value = builtins.getAttr name attrSet;
-      })
-      (builtins.attrNames attrSet));
+      }) (builtins.attrNames attrSet)
+    );
 
 in
 {

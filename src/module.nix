@@ -1,7 +1,8 @@
-{ config
-, lib
-, pkgs
-, ...
+{
+  config,
+  lib,
+  pkgs,
+  ...
 }:
 let
   cfg = config.services.luanti;
@@ -10,11 +11,12 @@ let
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   };
-  byId = (import ./packages.nix {
-          mkDerivation = pkgs.stdenv.mkDerivation;
-          fetchurl = pkgs.fetchurl;
-          unzip = pkgs.unzip;
-        }).byId;
+  byId =
+    (import ./packages.nix {
+      mkDerivation = pkgs.stdenv.mkDerivation;
+      fetchurl = pkgs.fetchurl;
+      unzip = pkgs.unzip;
+    }).byId;
 in
 {
   options.services.luanti = {
@@ -60,48 +62,42 @@ in
       description = "Configuration for Luanti Servers";
     };
   };
-  config =
-    lib.mkIf cfg.enable
+  config = lib.mkIf cfg.enable {
+    users.groups.luanti = { };
+    users.users = builtins.mapAttrs (
+      name: serverConfig:
+      let
+        mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
+      in
       {
-        users.groups.luanti = {};
-        users.users = builtins.mapAttrs
-          (name: serverConfig:
-            let
-              mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
-            in
-            {
-              description = "User for Luanti Server ${builtins.replaceStrings ["luanti"] [ "" ] name}";
-              home = "/var/lib/${name}";
-              # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
-              createHome = true;
-              group = "luanti";
-              isSystemUser = true;
-            }
-          )
-          (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+        description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
+        home = "/var/lib/${name}";
+        # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
+        createHome = true;
+        group = "luanti";
+        isSystemUser = true;
+      }
+    ) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
-        systemd.services = builtins.mapAttrs
-          (
-            name: serverConfig:
+    systemd.services = builtins.mapAttrs (
+      name: serverConfig:
 
-              {
-                #name = name;
-                description = "Luanti server instance for ${name}.";
-                after = [ "network.target" ];
-                wantedBy = [ "multi-user.target" ];
-                serviceConfig = {
-                  ExecStart = ''
-                    ${pkgs.minetest}/bin/minetestserver \
-                      --server --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
-                      --port ${builtins.toString serverConfig.port}
-                  ''; # TODO: luanti config format; also make sure it uses correct mods and map
-                  User = name";
-                  Group = "luanti";
-                  Restart = "on-failure";
-                };
-              }
-          )
-          (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+      {
+        #name = name;
+        description = "Luanti server instance for ${name}.";
+        after = [ "network.target" ];
+        wantedBy = [ "multi-user.target" ];
+        serviceConfig = {
+          ExecStart = ''
+            ${pkgs.minetest}/bin/minetestserver \
+              --server --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
+              --port ${builtins.toString serverConfig.port}
+          ''; # TODO: luanti config format; also make sure it uses correct mods and map
+          User = name;
+          Group = "luanti";
+          Restart = "on-failure";
+        };
+      }) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
-      };
+  };
 }
