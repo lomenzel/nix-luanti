@@ -71,14 +71,14 @@ in
             in
             {
               description = "User for Luanti Server ${builtins.replaceStrings ["luanti"] [ "" ] name}";
-              home = "/var/lib/luanti-${name}";
+              home = "/var/lib/${name}";
               # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
               createHome = true;
               group = "luanti";
               isSystemUser = true;
             }
           )
-          (nix-luanti-lib.mapAttrNames (name: "luanti${name}") cfg.servers);
+          (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
         systemd.services = builtins.mapAttrs
           (
@@ -95,13 +95,13 @@ in
                       --server --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
                       --port ${builtins.toString serverConfig.port}
                   ''; # TODO: luanti config format; also make sure it uses correct mods and map
-                  User = "luanti${name}"; # TODO: Use the correct username if decided on what the username should be
+                  User = name";
                   Group = "luanti";
                   Restart = "on-failure";
                 };
               }
           )
-          (nix-luanti-lib.mapAttrNames (name: "luantiServer${name}") cfg.servers);
+          (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
       };
 }
