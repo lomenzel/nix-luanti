@@ -78,12 +78,12 @@ in
           )
           (nix-luanti-lib.mapAttrNames (name: "luanti${name}") cfg.servers);
 
-        systemd.services.luanti = builtins.mapAttrs
+        systemd.services = builtins.mapAttrs
           (
             name: serverConfig:
 
               {
-                name = "luanti-server-${name}";
+                name = name;
                 description = "Luanti server instance for ${name}.";
                 after = [ "network.target" ];
                 wantedBy = [ "multi-user.target" ];
@@ -99,6 +99,7 @@ in
                 };
               }
           )
-          cfg.servers;
+          (nix-luanti-lib.mapAttrNames (name: "luantiServer${name}") cfg.servers);
+
       };
 }
