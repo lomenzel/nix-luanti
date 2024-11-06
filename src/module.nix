@@ -63,6 +63,7 @@ in
   config =
     lib.mkIf cfg.enable
       {
+        users.groups.luanti = {};
         users.users = builtins.mapAttrs
           (name: serverConfig:
             let
