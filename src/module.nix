@@ -126,12 +126,13 @@ in
             serviceConfig = {
               ExecStart = pkgs.writeShellScript "start-luanti-server" ''
                 rm -rf ~/.minetest
+                rm -rf ~/world/worldmods
 
                 mkdir -p ~/.minetest/games
                 mkdir -p ~/world
 
-                ln -s -f ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
-                ln -s -f ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
+                ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
+                ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
 
                 ${pkgs.minetest}/bin/minetestserver \
                   --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
