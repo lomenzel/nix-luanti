@@ -82,13 +82,13 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
 
 To add a new Luanti server, simply add a new entry under `services.luanti.servers` in your NixOS configuration. Specify the game, mods, and any other configuration options.
 
-### Managing Mods (partly working)
+### Managing Mods
 
 Mods can be specified in the `mods` attribute of each server configuration. Dependencies will be automatically resolved. The mods are pulled from the `nix-luanti.mods` package set, which itself gets the mods from Luanti's contentDB
 
-### Advanced Configuration (not even started to implement this)
+### Advanced Configuration (not testet yet)
 
-You can customize additional settings in 'services.luanit.servers.\<your-server-name>.config. This config is directly passed to the luanti.conf configuration file.
+You can customize additional settings in `services.luanti.servers.<your-server-name>.config`. This config is directly passed to the luanti.conf configuration file.
 
 ## Troubleshooting
 
