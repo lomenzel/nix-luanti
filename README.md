@@ -9,7 +9,7 @@ Nix-Luanti is a NixOS module and package collection that simplifies the setup an
 - **Declarative Configuration:** Easily define multiple Luanti server instances with different games and mods.
 - **Extensive Content Library:** Leverage a comprehensive collection of Luanti games, mods, and texture packs sourced from the official ContentDB.
 - **Automatic Dependency Resolution:** Automatically resolves and includes dependencies for mods, ensuring that your server configurations are correct and functional.
-- **Systemd Integration:** Servers are managed using systemd, with automatic service creation and management.
+- **Systemd Integration:** Servers are managed using systemd
 
 ## Installation
 
@@ -45,26 +45,24 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
 
 2. **Configure Your Servers:**
 
-   In your NixOS configuration (e.g., `configuration.nix`), use the Nix-Luanti module to set up your servers:
+   In your NixOS configuration (e.g., `configuration.nix`), use the nix-luanti module to set up your servers:
 
    ```nix
    { config, pkgs, nix-luanti, ... }:
    {
-     services.Luanti = {
+     services.luanti = {
        enable = true;
        servers = with nix-luanti; {
          cool-server = {
            game = games.minetest-game;
            mods = with mods; [
              animalia
+             # add as many mods you want :)
            ];
            port = 30000;
          };
          other-cool-server = {
            game = games.mineclone2;
-           mods = with mods; [
-             # Add mods here
-           ];
            port = 30001;
          };
        };
@@ -80,22 +78,18 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
 
 ## Usage
 
-### Adding a New Server (not working yet)
+### Adding a New Server
 
-To add a new Luanti server, simply add a new entry under `services.Luanti.servers` in your NixOS configuration. Specify the game, mods, and any other configuration options.
+To add a new Luanti server, simply add a new entry under `services.luanti.servers` in your NixOS configuration. Specify the game, mods, and any other configuration options.
 
 ### Managing Mods (partly working)
 
-Mods can be specified in the `mods` attribute of each server configuration. Dependencies will be automatically resolved. The mods are pulled from the `nix-Luanti.mods` package set.
+Mods can be specified in the `mods` attribute of each server configuration. Dependencies will be automatically resolved. The mods are pulled from the `nix-luanti.mods` package set, which itself gets the mods from Luanti's contentDB
 
 ### Advanced Configuration (not even started to implement this)
 
-You can customize additional settings like server descriptions, maximum players, and more by extending the configuration options.
+You can customize additional settings in 'services.luanit.servers.\<your-server-name>.config. This config is directly passed to the luanti.conf configuration file.
 
 ## Contributing
 
 This project is a work in progress, and contributions are highly welcome! If you encounter any issues or have suggestions, feel free to open an issue or a merge request.
-
-### TODO
-
-- make it actually work
