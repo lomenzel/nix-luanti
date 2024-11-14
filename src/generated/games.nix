@@ -287,40 +287,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "regulus/regulus_mtgamejam_2023" = mkLuantiGame {
-    name = "regulus_mtgamejam_2023";
-    release = 27632;
-    hash = "079ch6afjzj4vgdk5kpfn7a5ixv25rgnsj0znzmghmxlwm8x94dv";
-    author = "regulus";
-    provides = [
-      "regulus_achievements"
-      "regulus_admintools"
-      "regulus_gui"
-      "regulus_mapgen"
-      "regulus_mobs"
-      "regulus_nodes"
-      "regulus_player"
-      "regulus_portcullis"
-      "regulus_powerups"
-      "regulus_story"
-      "regulus_tools"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "_Irevol_/citadel" = mkLuantiGame {
-    name = "citadel";
-    release = 26596;
-    hash = "0w6rs9miahs571p0m0akyhsvfnvpgx1hcl4rlglfbi1g0xijfk2k";
-    author = "_Irevol_";
-    provides = [
-      "citadel_core"
-      "citadel_timer"
-      "xpanes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ryvnf/mineclonia" = mkLuantiGame {
     name = "mineclonia";
     release = 28079;
@@ -538,6 +504,74 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "_Irevol_/citadel" = mkLuantiGame {
+    name = "citadel";
+    release = 26596;
+    hash = "0w6rs9miahs571p0m0akyhsvfnvpgx1hcl4rlglfbi1g0xijfk2k";
+    author = "_Irevol_";
+    provides = [
+      "citadel_core"
+      "citadel_timer"
+      "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "regulus/regulus_mtgamejam_2023" = mkLuantiGame {
+    name = "regulus_mtgamejam_2023";
+    release = 27632;
+    hash = "079ch6afjzj4vgdk5kpfn7a5ixv25rgnsj0znzmghmxlwm8x94dv";
+    author = "regulus";
+    provides = [
+      "regulus_achievements"
+      "regulus_admintools"
+      "regulus_gui"
+      "regulus_mapgen"
+      "regulus_mobs"
+      "regulus_nodes"
+      "regulus_player"
+      "regulus_portcullis"
+      "regulus_powerups"
+      "regulus_story"
+      "regulus_tools"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Wuzzy/glitch" = mkLuantiGame {
+    name = "glitch";
+    release = 27010;
+    hash = "033d7c1i6gxba3q94gl7al7725paihk7dbg4b6w1h3jw7zksfnkl";
+    author = "Wuzzy";
+    provides = [
+      "glitch_abilities"
+      "glitch_ambience"
+      "glitch_check_movement_settings"
+      "glitch_dialog"
+      "glitch_editor"
+      "glitch_entities"
+      "glitch_game_meta"
+      "glitch_gui"
+      "glitch_hand"
+      "glitch_inventory_formspec"
+      "glitch_levels"
+      "glitch_logo"
+      "glitch_no_drop"
+      "glitch_no_multiplayer"
+      "glitch_nodeboxes"
+      "glitch_nodes"
+      "glitch_npcs"
+      "glitch_player"
+      "glitch_screen"
+      "glitch_sky"
+      "glitch_sounds"
+      "glitch_static_timeofday"
+      "glitch_utils"
+      "playerphysics"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Warr1024/nodecore" = mkLuantiGame {
     name = "nodecore";
     release = 27929;
@@ -588,40 +622,6 @@
       "nc_tree"
       "nc_woodwork"
       "nc_writing"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Wuzzy/glitch" = mkLuantiGame {
-    name = "glitch";
-    release = 27010;
-    hash = "033d7c1i6gxba3q94gl7al7725paihk7dbg4b6w1h3jw7zksfnkl";
-    author = "Wuzzy";
-    provides = [
-      "glitch_abilities"
-      "glitch_ambience"
-      "glitch_check_movement_settings"
-      "glitch_dialog"
-      "glitch_editor"
-      "glitch_entities"
-      "glitch_game_meta"
-      "glitch_gui"
-      "glitch_hand"
-      "glitch_inventory_formspec"
-      "glitch_levels"
-      "glitch_logo"
-      "glitch_no_drop"
-      "glitch_no_multiplayer"
-      "glitch_nodeboxes"
-      "glitch_nodes"
-      "glitch_npcs"
-      "glitch_player"
-      "glitch_screen"
-      "glitch_sky"
-      "glitch_sounds"
-      "glitch_static_timeofday"
-      "glitch_utils"
-      "playerphysics"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -899,8 +899,8 @@
   };
   "Mantar/exile" = mkLuantiGame {
     name = "exile";
-    release = 28261;
-    hash = "16izpm8dxrmvwaa5w805by5pc5aykg2139z17yrmvy447dv52ya5";
+    release = 28413;
+    hash = "0ikv8yjf2b8j5danny7wbcflxb33brxaym7bxc08f1sx1h1dbib9";
     author = "Mantar";
     provides = [
       "animals"
@@ -1083,6 +1083,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "jordan4ibanez/mineos" = mkLuantiGame {
+    name = "mineos";
+    release = 22487;
+    hash = "0x6d7xdbgvmq7zdcqgajrsg44is5xw33fy9d9abp9wxq19sbisnx";
+    author = "jordan4ibanez";
+    provides = [ "mineos" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Warr1024/klots" = mkLuantiGame {
     name = "klots";
     release = 26637;
@@ -1099,15 +1108,6 @@
       "klots_terrain_nc"
       "klots_terrain_scifi"
     ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "jordan4ibanez/mineos" = mkLuantiGame {
-    name = "mineos";
-    release = 22487;
-    hash = "0x6d7xdbgvmq7zdcqgajrsg44is5xw33fy9d9abp9wxq19sbisnx";
-    author = "jordan4ibanez";
-    provides = [ "mineos" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -1267,6 +1267,20 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Splizard/buildacity" = mkLuantiGame {
+    name = "buildacity";
+    release = 10209;
+    hash = "1kv18gp6b453s9zw328gxa5lqf26pj7qi327f3lcd4j9djcr9l0z";
+    author = "Splizard";
+    provides = [
+      "builda"
+      "city"
+      "polymap"
+      "slopeslib"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Kimapr/nonsensical_skyblock" = mkLuantiGame {
     name = "nonsensical_skyblock";
     release = 27427;
@@ -1421,20 +1435,6 @@
       "xcompat"
       "xpanes"
       "zzzz_glcraft_crafthook"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Splizard/buildacity" = mkLuantiGame {
-    name = "buildacity";
-    release = 10209;
-    hash = "1kv18gp6b453s9zw328gxa5lqf26pj7qi327f3lcd4j9djcr9l0z";
-    author = "Splizard";
-    provides = [
-      "builda"
-      "city"
-      "polymap"
-      "slopeslib"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -1819,26 +1819,12 @@
   };
   "Linuxdirk/void" = mkLuantiGame {
     name = "void";
-    release = 19764;
-    hash = "1z62958qbp2igqybb8akwhx4nirv0xyrmbbp2x83qpbrwhbvmwdj";
+    release = 28406;
+    hash = "0iy4m1378yzgnvv16yds1n08c8l2lv8sjsyi2ss1cdiagssb7hns";
     author = "Linuxdirk";
     provides = [
       "void_essential"
       "void_hand"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "MisterE/slide_space" = mkLuantiGame {
-    name = "slide_space";
-    release = 15347;
-    hash = "0d9z2dxj16fb2yz9vxfqrk86ds3c1zqjckkkravr7kkfc3aizajp";
-    author = "MisterE";
-    provides = [
-      "slide_space_nodes"
-      "slide_space_setup"
-      "slide_space_slider"
-      "slidespace_modgen_mod_export"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -1860,6 +1846,20 @@
       "worldedit_commands"
       "worldedit_gui"
       "worldedit_shortcommands"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "MisterE/slide_space" = mkLuantiGame {
+    name = "slide_space";
+    release = 15347;
+    hash = "0d9z2dxj16fb2yz9vxfqrk86ds3c1zqjckkkravr7kkfc3aizajp";
+    author = "MisterE";
+    provides = [
+      "slide_space_nodes"
+      "slide_space_setup"
+      "slide_space_slider"
+      "slidespace_modgen_mod_export"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2021,6 +2021,21 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Nathan.S/sss" = mkLuantiGame {
+    name = "sss";
+    release = 15442;
+    hash = "0aw7i61iz8j6r088l8sp4vr178al87z45xznvj43dd5mi9akl9qi";
+    author = "Nathan.S";
+    provides = [
+      "sfinv"
+      "sss_core"
+      "sss_items"
+      "sss_map"
+      "sss_mapgen"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Warr1024/piranesi_redo" = mkLuantiGame {
     name = "piranesi_redo";
     release = 26634;
@@ -2037,21 +2052,6 @@
       "piredo_puzzles"
       "piredo_schems"
       "piredo_terrain"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Nathan.S/sss" = mkLuantiGame {
-    name = "sss";
-    release = 15442;
-    hash = "0aw7i61iz8j6r088l8sp4vr178al87z45xznvj43dd5mi9akl9qi";
-    author = "Nathan.S";
-    provides = [
-      "sfinv"
-      "sss_core"
-      "sss_items"
-      "sss_map"
-      "sss_mapgen"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2135,6 +2135,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Just_Visiting/formspec_editor" = mkLuantiGame {
+    name = "formspec_editor";
+    release = 8551;
+    hash = "0lb7kfn497ij9w7xzvkfr6nvs6qy5pl9px82daxx13i1878biw2d";
+    author = "Just_Visiting";
+    provides = [ "formspec_edit" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "GoodClover/cavegame" = mkLuantiGame {
     name = "cavegame";
     release = 28119;
@@ -2145,15 +2154,6 @@
       "cavegame_nodes"
       "cavegame_player"
     ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Just_Visiting/formspec_editor" = mkLuantiGame {
-    name = "formspec_editor";
-    release = 8551;
-    hash = "0lb7kfn497ij9w7xzvkfr6nvs6qy5pl9px82daxx13i1878biw2d";
-    author = "Just_Visiting";
-    provides = [ "formspec_edit" ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -2224,6 +2224,50 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Minetest/devtest" = mkLuantiGame {
+    name = "devtest";
+    release = 28405;
+    hash = "1fcfnwxavglzvbp49yx2p8mgppndmg26lzg5frnlkliy73jckwj3";
+    author = "Minetest";
+    provides = [
+      "basenodes"
+      "basetools"
+      "benchmarks"
+      "broken"
+      "bucket"
+      "callbacks"
+      "chest"
+      "chest_of_everything"
+      "dignodes"
+      "first_mod"
+      "give_initial_stuff"
+      "gltf"
+      "initial_message"
+      "last_mod"
+      "lighting"
+      "log"
+      "mapgen"
+      "modchannels"
+      "soundstuff"
+      "stairs"
+      "testabms"
+      "testentities"
+      "testfood"
+      "testformspec"
+      "testfullscreenfs"
+      "testhud"
+      "testitems"
+      "testnodes"
+      "testpathfinder"
+      "testtools"
+      "testtranslations"
+      "tiled"
+      "unittests"
+      "util_commands"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "UnbrokenUnworn/modular_portals" = mkLuantiGame {
     name = "modular_portals";
     release = 10101;
@@ -2240,41 +2284,50 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Minetest/devtest" = mkLuantiGame {
-    name = "devtest";
-    release = 22166;
-    hash = "1abww09x35ya9vjakjr5gnjp11gajgl5cd2fmbhl3fmbbgdbr5p4";
-    author = "Minetest";
+  "1248/castrum" = mkLuantiGame {
+    name = "castrum";
+    release = 4788;
+    hash = "1csn2zmf8nyv822c86jk7xmxfr7waxsh8q84j8x05hz3jp3jd8gz";
+    author = "1248";
     provides = [
-      "basenodes"
-      "basetools"
-      "benchmarks"
-      "broken"
+      "beds"
+      "binoculars"
+      "boats"
+      "bones"
       "bucket"
-      "callbacks"
-      "chest"
-      "chest_of_everything"
-      "dignodes"
+      "butterflies"
+      "carts"
+      "castrum"
+      "creative"
+      "default"
+      "doors"
+      "dungeon_loot"
+      "dye"
+      "env_sounds"
+      "farming"
+      "fire"
+      "fireflies"
+      "flatgen"
+      "flowers"
+      "game_commands"
       "give_initial_stuff"
-      "initial_message"
-      "lighting"
-      "log"
-      "mapgen"
-      "modchannels"
-      "soundstuff"
+      "map"
+      "player_api"
+      "screwdriver"
+      "sethome"
+      "sfinv"
+      "spawn"
       "stairs"
-      "testentities"
-      "testfood"
-      "testformspec"
-      "testfullscreenfs"
-      "testhud"
-      "testitems"
-      "testnodes"
-      "testpathfinder"
-      "testtools"
-      "tiled"
-      "unittests"
-      "util_commands"
+      "tnt"
+      "vessels"
+      "walls"
+      "weather"
+      "wool"
+      "worldedit"
+      "worldedit_commands"
+      "worldedit_gui"
+      "worldedit_shortcommands"
+      "xpanes"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2363,54 +2416,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "1248/castrum" = mkLuantiGame {
-    name = "castrum";
-    release = 4788;
-    hash = "1csn2zmf8nyv822c86jk7xmxfr7waxsh8q84j8x05hz3jp3jd8gz";
-    author = "1248";
-    provides = [
-      "beds"
-      "binoculars"
-      "boats"
-      "bones"
-      "bucket"
-      "butterflies"
-      "carts"
-      "castrum"
-      "creative"
-      "default"
-      "doors"
-      "dungeon_loot"
-      "dye"
-      "env_sounds"
-      "farming"
-      "fire"
-      "fireflies"
-      "flatgen"
-      "flowers"
-      "game_commands"
-      "give_initial_stuff"
-      "map"
-      "player_api"
-      "screwdriver"
-      "sethome"
-      "sfinv"
-      "spawn"
-      "stairs"
-      "tnt"
-      "vessels"
-      "walls"
-      "weather"
-      "wool"
-      "worldedit"
-      "worldedit_commands"
-      "worldedit_gui"
-      "worldedit_shortcommands"
-      "xpanes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Emojiminetest/parkour" = mkLuantiGame {
     name = "parkour";
     release = 11037;
@@ -2437,8 +2442,8 @@
   };
   "KareaGhandTrail/block_assault" = mkLuantiGame {
     name = "block_assault";
-    release = 28273;
-    hash = "0scgqwwi5mlfh2n1w5v3fimpqrlz6my4cb5cs7mnpz2blyw6hlcr";
+    release = 28330;
+    hash = "0mq1yax8n436bz44dinlmzpdvyjd5lzn7iph4y3jsh13mf1ixxxs";
     author = "KareaGhandTrail";
     provides = [
       "bas_ctf"
@@ -2502,6 +2507,7 @@
       "cs_android_crosshair"
       "cs_c4"
       "cs_modes_registry"
+      "cs_mtversion"
       "cs_object_nametag"
       "cs_votes"
       "csgo_map1"
@@ -2620,23 +2626,10 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "1248/labyrinthus" = mkLuantiGame {
-    name = "labyrinthus";
-    release = 27791;
-    hash = "1h3w0rg3822ylkx67hzlszjn7a7v7044mqb88csf5fy9521i0dg2";
-    author = "1248";
-    provides = [
-      "flatgen"
-      "labyrinthus"
-      "nyancat"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ROllerozxa/brickbuild" = mkLuantiGame {
     name = "brickbuild";
-    release = 22773;
-    hash = "19k6jkmmn6xgymmi49fmbl8yih2x656rlm3biin489cpgdvmq1qa";
+    release = 28347;
+    hash = "0qdmgaaqlrk9wisazbanhm0b3h7s17wkk414isf8444b5z8farza";
     author = "ROllerozxa";
     provides = [
       "brickbuild"
@@ -2645,15 +2638,16 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "sfan5/minetest_classic" = mkLuantiGame {
-    name = "minetest_classic";
-    release = 27717;
-    hash = "0laq8y6xb29wf81pnbixz5l1lzq4fy2h2mx1mgdh7if70bxwnx82";
-    author = "sfan5";
+  "1248/labyrinthus" = mkLuantiGame {
+    name = "labyrinthus";
+    release = 28412;
+    hash = "16ps05j7g03nfbs7d4al3ilp49a62pk36m4wyqr93jflgwkxcgmb";
+    author = "1248";
     provides = [
-      "cl_default"
-      "creative"
-      "sfinv"
+      "flatgen"
+      "keyevent"
+      "labyrinthus"
+      "nyancat"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2718,6 +2712,19 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "sfan5/minetest_classic" = mkLuantiGame {
+    name = "minetest_classic";
+    release = 27717;
+    hash = "0laq8y6xb29wf81pnbixz5l1lzq4fy2h2mx1mgdh7if70bxwnx82";
+    author = "sfan5";
+    provides = [
+      "cl_default"
+      "creative"
+      "sfinv"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Kimapr/fogblox" = mkLuantiGame {
     name = "fogblox";
     release = 17175;
@@ -2726,22 +2733,6 @@
     provides = [
       "advfload"
       "fogblox"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Sumianvoice/notactuallythebareminimum" = mkLuantiGame {
-    name = "notactuallythebareminimum";
-    release = 27150;
-    hash = "1bxg3cfrx7w2mfcm8h16mm5idkf2j39p30qy2c5lrg7fdqarai67";
-    author = "Sumianvoice";
-    provides = [
-      "nabm_hand"
-      "nabm_liquids"
-      "nabm_mapgen"
-      "nabm_pebbles"
-      "nabm_soil"
-      "nabm_stone"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2765,6 +2756,34 @@
       "sd_testing"
       "sd_tools"
       "sd_vec_ext"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Sumianvoice/notactuallythebareminimum" = mkLuantiGame {
+    name = "notactuallythebareminimum";
+    release = 27150;
+    hash = "1bxg3cfrx7w2mfcm8h16mm5idkf2j39p30qy2c5lrg7fdqarai67";
+    author = "Sumianvoice";
+    provides = [
+      "nabm_hand"
+      "nabm_liquids"
+      "nabm_mapgen"
+      "nabm_pebbles"
+      "nabm_soil"
+      "nabm_stone"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Hume2/minesweeper_3d" = mkLuantiGame {
+    name = "minesweeper_3d";
+    release = 17250;
+    hash = "1xx6wg97r3rf127p1pqlsc74qbqpr63p1sljrnd0fsvmxjlzvdmp";
+    author = "Hume2";
+    provides = [
+      "3dmines"
+      "player_api"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -2999,18 +3018,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Hume2/minesweeper_3d" = mkLuantiGame {
-    name = "minesweeper_3d";
-    release = 17250;
-    hash = "1xx6wg97r3rf127p1pqlsc74qbqpr63p1sljrnd0fsvmxjlzvdmp";
-    author = "Hume2";
-    provides = [
-      "3dmines"
-      "player_api"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "benrob0329/ikea" = mkLuantiGame {
     name = "ikea";
     release = 10088;
@@ -3032,6 +3039,60 @@
       "ikea_warehouse"
       "mobkit"
       "util"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "ROllerozxa/sudoku" = mkLuantiGame {
+    name = "sudoku";
+    release = 19953;
+    hash = "1spc2s2z3al9q86al56lfby3knlxvwqnynazns4bj466fgr970pi";
+    author = "ROllerozxa";
+    provides = [
+      "sudoku"
+      "sudoku_gui"
+      "sudoku_hud_message"
+      "sudoku_player"
+    ];
+    depends = [ ];
+    with_same_name = [ "1248/sudoku" ];
+  };
+  "xenonca/luckysweeper" = mkLuantiGame {
+    name = "luckysweeper";
+    release = 10307;
+    hash = "1rnsvg94baz3jhqzzwzq35g5nazagxcl9r003yfyz5c1qckpb0q5";
+    author = "xenonca";
+    provides = [
+      "ls_game"
+      "player_api"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "StarNinjas/ssp" = mkLuantiGame {
+    name = "ssp";
+    release = 16164;
+    hash = "194crwzwdfjvzsb2xp3mwwjnsb7799nw325ysfx5skxxndi80a22";
+    author = "StarNinjas";
+    provides = [
+      "ambience975_cave_pk1"
+      "awards"
+      "builtin_item"
+      "cave_noises"
+      "give_initial_stuff"
+      "goodtorch"
+      "map"
+      "mobs"
+      "scary_ambience"
+      "sfinv"
+      "sloweater"
+      "sneak"
+      "sneak_glitch"
+      "spawn"
+      "ssp_base"
+      "stamina"
+      "uncraft"
+      "yolo"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -3116,64 +3177,10 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "ROllerozxa/sudoku" = mkLuantiGame {
-    name = "sudoku";
-    release = 19953;
-    hash = "1spc2s2z3al9q86al56lfby3knlxvwqnynazns4bj466fgr970pi";
-    author = "ROllerozxa";
-    provides = [
-      "sudoku"
-      "sudoku_gui"
-      "sudoku_hud_message"
-      "sudoku_player"
-    ];
-    depends = [ ];
-    with_same_name = [ "1248/sudoku" ];
-  };
-  "xenonca/luckysweeper" = mkLuantiGame {
-    name = "luckysweeper";
-    release = 10307;
-    hash = "1rnsvg94baz3jhqzzwzq35g5nazagxcl9r003yfyz5c1qckpb0q5";
-    author = "xenonca";
-    provides = [
-      "ls_game"
-      "player_api"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "StarNinjas/ssp" = mkLuantiGame {
-    name = "ssp";
-    release = 16164;
-    hash = "194crwzwdfjvzsb2xp3mwwjnsb7799nw325ysfx5skxxndi80a22";
-    author = "StarNinjas";
-    provides = [
-      "ambience975_cave_pk1"
-      "awards"
-      "builtin_item"
-      "cave_noises"
-      "give_initial_stuff"
-      "goodtorch"
-      "map"
-      "mobs"
-      "scary_ambience"
-      "sfinv"
-      "sloweater"
-      "sneak"
-      "sneak_glitch"
-      "spawn"
-      "ssp_base"
-      "stamina"
-      "uncraft"
-      "yolo"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "mt-mods/dreambuilder_game" = mkLuantiGame {
     name = "dreambuilder_game";
-    release = 28319;
-    hash = "0w31wpbsbgghvky8cdgp3xrqg6dwpibjcjb40j5avdccy0152dv4";
+    release = 28342;
+    hash = "14abaqd1na2gsjmnip5la7crh0kw7drz0gz90mal0kz3vgyir2pg";
     author = "mt-mods";
     provides = [
       "3dmushrooms"
@@ -3410,6 +3417,103 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "epCode/what_were_you_expecting" = mkLuantiGame {
+    name = "what_were_you_expecting";
+    release = 22495;
+    hash = "1qjfzabsd7a8kv2jwph74vmy1vjnwvc2769rb96csq81pgrapcr5";
+    author = "epCode";
+    provides = [
+      "controls"
+      "what_were_you_expecting_default"
+      "wielded_light"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Noodlemire/voxeldungeon" = mkLuantiGame {
+    name = "voxeldungeon";
+    release = 9212;
+    hash = "1rwg2swq8jrnmq8kfirxnmn7nbg13g6lhb4zq5m08k86vfv1j0zl";
+    author = "Noodlemire";
+    provides = [
+      "3d_armor"
+      "3d_armor_sfinv"
+      "3d_armor_stand"
+      "bedrock2"
+      "beds"
+      "biome_lib"
+      "bones"
+      "books_plus"
+      "bucket"
+      "cannons"
+      "charcoal"
+      "creative"
+      "default"
+      "doors"
+      "dye"
+      "entitycontrol"
+      "env_sounds"
+      "farming"
+      "fire"
+      "flowers"
+      "game_commands"
+      "hbhunger"
+      "hudbars"
+      "mesecons"
+      "mesecons_alias"
+      "mesecons_blinkyplant"
+      "mesecons_button"
+      "mesecons_commandblock"
+      "mesecons_delayer"
+      "mesecons_detector"
+      "mesecons_doors"
+      "mesecons_extrawires"
+      "mesecons_fpga"
+      "mesecons_gates"
+      "mesecons_hydroturbine"
+      "mesecons_insulated"
+      "mesecons_lamp"
+      "mesecons_lightstone"
+      "mesecons_luacontroller"
+      "mesecons_materials"
+      "mesecons_microcontroller"
+      "mesecons_movestones"
+      "mesecons_mvps"
+      "mesecons_noteblock"
+      "mesecons_pistons"
+      "mesecons_powerplant"
+      "mesecons_pressureplates"
+      "mesecons_random"
+      "mesecons_receiver"
+      "mesecons_solarpanel"
+      "mesecons_stickyblocks"
+      "mesecons_switch"
+      "mesecons_torch"
+      "mesecons_walllever"
+      "mesecons_wires"
+      "mobkit"
+      "mobs"
+      "mobs_monster"
+      "moretrees"
+      "nodeglow"
+      "on_move_callbacks"
+      "player_api"
+      "player_monoids"
+      "sfinv"
+      "smart_vector_table"
+      "stairs"
+      "tnt"
+      "vessels"
+      "voxeldungeon"
+      "voxelmodel"
+      "walls"
+      "wieldview"
+      "wool"
+      "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "mt-mods/driftgame" = mkLuantiGame {
     name = "driftgame";
     release = 23214;
@@ -3424,19 +3528,6 @@
       "dg_trees"
       "driftcar"
       "player_api"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "epCode/what_were_you_expecting" = mkLuantiGame {
-    name = "what_were_you_expecting";
-    release = 22495;
-    hash = "1qjfzabsd7a8kv2jwph74vmy1vjnwvc2769rb96csq81pgrapcr5";
-    author = "epCode";
-    provides = [
-      "controls"
-      "what_were_you_expecting_default"
-      "wielded_light"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -3656,6 +3747,36 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Lone_Wolf/voxel_knights" = mkLuantiGame {
+    name = "voxel_knights";
+    release = 20958;
+    hash = "1pwn1nn6780rbxxqhsh3nss20jxrnryki0yzlqhijk91krpda2jh";
+    author = "Lone_Wolf";
+    provides = [
+      "creative"
+      "hudbars"
+      "matrix"
+      "mobkit"
+      "mobkit_custom"
+      "pathfinder"
+      "rhotator"
+      "sfinv"
+      "spawners"
+      "spider"
+      "vk_mapgen"
+      "vk_nodes"
+      "vk_npcs"
+      "vk_party"
+      "vk_player"
+      "vk_player_sky"
+      "vk_player_stats"
+      "vk_quests"
+      "vk_swords"
+      "vkore"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "hilol/epic_combat" = mkLuantiGame {
     name = "epic_combat";
     release = 27975;
@@ -3788,32 +3909,43 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Lone_Wolf/voxel_knights" = mkLuantiGame {
-    name = "voxel_knights";
-    release = 20958;
-    hash = "1pwn1nn6780rbxxqhsh3nss20jxrnryki0yzlqhijk91krpda2jh";
-    author = "Lone_Wolf";
+  "JavaFXpert/qiskitblocks" = mkLuantiGame {
+    name = "qiskitblocks";
+    release = 5212;
+    hash = "03xa3n6ppvp3dfslb7784rpqwns9g38bayb0b5vpq8hs5w34vfgx";
+    author = "JavaFXpert";
     provides = [
+      "beds"
+      "butterflies"
+      "carts"
+      "circuit_blocks"
       "creative"
-      "hudbars"
-      "matrix"
-      "mobkit"
-      "mobkit_custom"
-      "pathfinder"
-      "rhotator"
+      "csv2terrain"
+      "default"
+      "doors"
+      "dye"
+      "farming"
+      "fire"
+      "fireflies"
+      "flowers"
+      "game_commands"
+      "give_initial_stuff"
+      "map"
+      "mobs"
+      "mobs_monster"
+      "mobs_npc"
+      "mpd"
+      "player_api"
+      "q_command"
+      "sethome"
       "sfinv"
-      "spawners"
-      "spider"
-      "vk_mapgen"
-      "vk_nodes"
-      "vk_npcs"
-      "vk_party"
-      "vk_player"
-      "vk_player_sky"
-      "vk_player_stats"
-      "vk_quests"
-      "vk_swords"
-      "vkore"
+      "spawn"
+      "stairs"
+      "vessels"
+      "walls"
+      "wool"
+      "xpanes"
+      "xschem"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -3872,90 +4004,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Noodlemire/voxeldungeon" = mkLuantiGame {
-    name = "voxeldungeon";
-    release = 9212;
-    hash = "1rwg2swq8jrnmq8kfirxnmn7nbg13g6lhb4zq5m08k86vfv1j0zl";
-    author = "Noodlemire";
-    provides = [
-      "3d_armor"
-      "3d_armor_sfinv"
-      "3d_armor_stand"
-      "bedrock2"
-      "beds"
-      "biome_lib"
-      "bones"
-      "books_plus"
-      "bucket"
-      "cannons"
-      "charcoal"
-      "creative"
-      "default"
-      "doors"
-      "dye"
-      "entitycontrol"
-      "env_sounds"
-      "farming"
-      "fire"
-      "flowers"
-      "game_commands"
-      "hbhunger"
-      "hudbars"
-      "mesecons"
-      "mesecons_alias"
-      "mesecons_blinkyplant"
-      "mesecons_button"
-      "mesecons_commandblock"
-      "mesecons_delayer"
-      "mesecons_detector"
-      "mesecons_doors"
-      "mesecons_extrawires"
-      "mesecons_fpga"
-      "mesecons_gates"
-      "mesecons_hydroturbine"
-      "mesecons_insulated"
-      "mesecons_lamp"
-      "mesecons_lightstone"
-      "mesecons_luacontroller"
-      "mesecons_materials"
-      "mesecons_microcontroller"
-      "mesecons_movestones"
-      "mesecons_mvps"
-      "mesecons_noteblock"
-      "mesecons_pistons"
-      "mesecons_powerplant"
-      "mesecons_pressureplates"
-      "mesecons_random"
-      "mesecons_receiver"
-      "mesecons_solarpanel"
-      "mesecons_stickyblocks"
-      "mesecons_switch"
-      "mesecons_torch"
-      "mesecons_walllever"
-      "mesecons_wires"
-      "mobkit"
-      "mobs"
-      "mobs_monster"
-      "moretrees"
-      "nodeglow"
-      "on_move_callbacks"
-      "player_api"
-      "player_monoids"
-      "sfinv"
-      "smart_vector_table"
-      "stairs"
-      "tnt"
-      "vessels"
-      "voxeldungeon"
-      "voxelmodel"
-      "walls"
-      "wieldview"
-      "wool"
-      "xpanes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Big_Caballito/no_mans_land" = mkLuantiGame {
     name = "no_mans_land";
     release = 8685;
@@ -4005,47 +4053,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "JavaFXpert/qiskitblocks" = mkLuantiGame {
-    name = "qiskitblocks";
-    release = 5212;
-    hash = "03xa3n6ppvp3dfslb7784rpqwns9g38bayb0b5vpq8hs5w34vfgx";
-    author = "JavaFXpert";
-    provides = [
-      "beds"
-      "butterflies"
-      "carts"
-      "circuit_blocks"
-      "creative"
-      "csv2terrain"
-      "default"
-      "doors"
-      "dye"
-      "farming"
-      "fire"
-      "fireflies"
-      "flowers"
-      "game_commands"
-      "give_initial_stuff"
-      "map"
-      "mobs"
-      "mobs_monster"
-      "mobs_npc"
-      "mpd"
-      "player_api"
-      "q_command"
-      "sethome"
-      "sfinv"
-      "spawn"
-      "stairs"
-      "vessels"
-      "walls"
-      "wool"
-      "xpanes"
-      "xschem"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "debiankaios/proxima_survival" = mkLuantiGame {
     name = "proxima_survival";
     release = 25943;
@@ -4078,6 +4085,25 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "MisterE/blockbomber_editor" = mkLuantiGame {
+    name = "blockbomber_editor";
+    release = 11519;
+    hash = "0pp86c2zjnqdn5rwmxx63x5rimyzzz5f63a78a14hccmdyrg20ll";
+    author = "MisterE";
+    provides = [
+      "bb_nodes"
+      "editor"
+      "lib_chatcmdbuilder"
+      "unified_inventory"
+      "worldedit"
+      "worldedit_brush"
+      "worldedit_commands"
+      "worldedit_gui"
+      "worldedit_shortcommands"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "nurd3/ul_game" = mkLuantiGame {
     name = "ul_game";
     release = 27574;
@@ -4104,24 +4130,23 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "MisterE/blockbomber_editor" = mkLuantiGame {
-    name = "blockbomber_editor";
-    release = 11519;
-    hash = "0pp86c2zjnqdn5rwmxx63x5rimyzzz5f63a78a14hccmdyrg20ll";
-    author = "MisterE";
-    provides = [
-      "bb_nodes"
-      "editor"
-      "lib_chatcmdbuilder"
-      "unified_inventory"
-      "worldedit"
-      "worldedit_brush"
-      "worldedit_commands"
-      "worldedit_gui"
-      "worldedit_shortcommands"
-    ];
+  "grorp/cascade" = mkLuantiGame {
+    name = "cascade";
+    release = 15574;
+    hash = "14rhaawfvd5023icrq9wwdss6cm307mnvf7m0qzz9rqwqi5q6nzj";
+    author = "grorp";
+    provides = [ "cascade" ];
     depends = [ ];
     with_same_name = [ ];
+  };
+  "1248/sudoku" = mkLuantiGame {
+    name = "sudoku";
+    release = 16822;
+    hash = "1r7f2jd9r59hijnlks4wycd6p75bspp67b9a1652afki4awar352";
+    author = "1248";
+    provides = [ "sudoku" ];
+    depends = [ ];
+    with_same_name = [ "ROllerozxa/sudoku" ];
   };
   "wsor4035/farlands_reloaded" = mkLuantiGame {
     name = "farlands_reloaded";
@@ -4171,43 +4196,6 @@
       "fl_zoom"
       "i3"
       "mobkit"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "1248/sudoku" = mkLuantiGame {
-    name = "sudoku";
-    release = 16822;
-    hash = "1r7f2jd9r59hijnlks4wycd6p75bspp67b9a1652afki4awar352";
-    author = "1248";
-    provides = [ "sudoku" ];
-    depends = [ ];
-    with_same_name = [ "ROllerozxa/sudoku" ];
-  };
-  "grorp/cascade" = mkLuantiGame {
-    name = "cascade";
-    release = 15574;
-    hash = "14rhaawfvd5023icrq9wwdss6cm307mnvf7m0qzz9rqwqi5q6nzj";
-    author = "grorp";
-    provides = [ "cascade" ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "wsor4035/minekart" = mkLuantiGame {
-    name = "minekart";
-    release = 9477;
-    hash = "0gw3gr8zm81kmcx0pkq7i5hi3wyhgljlxfqb65r6sl8g6qns5k5w";
-    author = "wsor4035";
-    provides = [
-      "kartcar"
-      "mk_editor"
-      "mk_kart_manager"
-      "mk_mapgen"
-      "mk_player"
-      "mk_track_manager"
-      "mk_track_nodes"
-      "mobkit"
-      "trackelements"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4368,6 +4356,53 @@
       "worldedit_gui"
       "worldedit_shortcommands"
       "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "wsor4035/minekart" = mkLuantiGame {
+    name = "minekart";
+    release = 9477;
+    hash = "0gw3gr8zm81kmcx0pkq7i5hi3wyhgljlxfqb65r6sl8g6qns5k5w";
+    author = "wsor4035";
+    provides = [
+      "kartcar"
+      "mk_editor"
+      "mk_kart_manager"
+      "mk_mapgen"
+      "mk_player"
+      "mk_track_manager"
+      "mk_track_nodes"
+      "mobkit"
+      "trackelements"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Warr1024/fdmcube" = mkLuantiGame {
+    name = "fdmcube";
+    release = 27017;
+    hash = "1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6";
+    author = "Warr1024";
+    provides = [
+      "fdm_api"
+      "fdm_mapgen"
+      "fdm_material"
+      "fdm_nav"
+      "fdm_player"
+      "fdm_validate"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "jgordon510/color_block" = mkLuantiGame {
+    name = "color_block";
+    release = 27110;
+    hash = "0kgrp8pyh5a8sn4vfhmsnj2a7i6agcnn5ffpcnnfqjj83kbf62ln";
+    author = "jgordon510";
+    provides = [
+      "color_block"
+      "player_api"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4549,18 +4584,25 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Warr1024/fdmcube" = mkLuantiGame {
-    name = "fdmcube";
-    release = 27017;
-    hash = "1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6";
-    author = "Warr1024";
+  "dibesfer/colorlandia" = mkLuantiGame {
+    name = "colorlandia";
+    release = 28289;
+    hash = "167mqsgzw0lr39yjk2fp782yhxcidbgca8pz2aimaybh71pbacmr";
+    author = "dibesfer";
     provides = [
-      "fdm_api"
-      "fdm_mapgen"
-      "fdm_material"
-      "fdm_nav"
-      "fdm_player"
-      "fdm_validate"
+      "colorlandia_colorland"
+      "colorlandia_gui"
+      "colorlandia_hand"
+      "colorlandia_sky"
+      "creative"
+      "datatest"
+      "minimalism"
+      "paint"
+      "player_api"
+      "sethome"
+      "sfinv"
+      "spawn_command"
+      "symbocracy"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4590,84 +4632,6 @@
       "rocks"
       "secret_mods"
       "walking_light"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "jgordon510/color_block" = mkLuantiGame {
-    name = "color_block";
-    release = 27110;
-    hash = "0kgrp8pyh5a8sn4vfhmsnj2a7i6agcnn5ffpcnnfqjj83kbf62ln";
-    author = "jgordon510";
-    provides = [
-      "color_block"
-      "player_api"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "dibesfer/colorlandia" = mkLuantiGame {
-    name = "colorlandia";
-    release = 28289;
-    hash = "167mqsgzw0lr39yjk2fp782yhxcidbgca8pz2aimaybh71pbacmr";
-    author = "dibesfer";
-    provides = [
-      "colorlandia_colorland"
-      "colorlandia_gui"
-      "colorlandia_hand"
-      "colorlandia_sky"
-      "creative"
-      "datatest"
-      "minimalism"
-      "paint"
-      "player_api"
-      "sethome"
-      "sfinv"
-      "spawn_command"
-      "symbocracy"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "PyuDev/pyutest" = mkLuantiGame {
-    name = "pyutest";
-    release = 28271;
-    hash = "1l891qv5zyzhxp249yvnn74rzsdcdsvxfgk2djrsj1rk7hl4yyq7";
-    author = "PyuDev";
-    provides = [
-      "mobs"
-      "pyutest"
-      "pyutest_basicsettings"
-      "pyutest_blocks"
-      "pyutest_buckets"
-      "pyutest_cmds"
-      "pyutest_crafts"
-      "pyutest_electricity"
-      "pyutest_entities"
-      "pyutest_environment"
-      "pyutest_farming"
-      "pyutest_flowers"
-      "pyutest_furnace"
-      "pyutest_furniture"
-      "pyutest_grass"
-      "pyutest_home"
-      "pyutest_inventory"
-      "pyutest_leaves"
-      "pyutest_lootboxes"
-      "pyutest_magic"
-      "pyutest_mapgen"
-      "pyutest_mobs"
-      "pyutest_ores"
-      "pyutest_overrides"
-      "pyutest_overworld"
-      "pyutest_player"
-      "pyutest_tools"
-      "pyutest_upgrades"
-      "pyutest_wood"
-      "pyutest_wool"
-      "pyutest_worlds"
-      "unified_inventory"
-      "walkover"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4734,6 +4698,49 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "PyuDev/pyutest" = mkLuantiGame {
+    name = "pyutest";
+    release = 28271;
+    hash = "1l891qv5zyzhxp249yvnn74rzsdcdsvxfgk2djrsj1rk7hl4yyq7";
+    author = "PyuDev";
+    provides = [
+      "mobs"
+      "pyutest"
+      "pyutest_basicsettings"
+      "pyutest_blocks"
+      "pyutest_buckets"
+      "pyutest_cmds"
+      "pyutest_crafts"
+      "pyutest_electricity"
+      "pyutest_entities"
+      "pyutest_environment"
+      "pyutest_farming"
+      "pyutest_flowers"
+      "pyutest_furnace"
+      "pyutest_furniture"
+      "pyutest_grass"
+      "pyutest_home"
+      "pyutest_inventory"
+      "pyutest_leaves"
+      "pyutest_lootboxes"
+      "pyutest_magic"
+      "pyutest_mapgen"
+      "pyutest_mobs"
+      "pyutest_ores"
+      "pyutest_overrides"
+      "pyutest_overworld"
+      "pyutest_player"
+      "pyutest_tools"
+      "pyutest_upgrades"
+      "pyutest_wood"
+      "pyutest_wool"
+      "pyutest_worlds"
+      "unified_inventory"
+      "walkover"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Lone_Wolf/torrlund" = mkLuantiGame {
     name = "torrlund";
     release = 22074;
@@ -4760,6 +4767,30 @@
       "torrl_tools"
       "torrl_voiceover"
       "wield3d"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "danil_2461/ketchupland" = mkLuantiGame {
+    name = "ketchupland";
+    release = 16944;
+    hash = "1mlh3ichrav353cwpsvdxsw5f3i656py9y2n0blr7z219d5y4ydj";
+    author = "danil_2461";
+    provides = [
+      "kl_api"
+      "kl_baseplate"
+      "kl_chests"
+      "kl_colours"
+      "kl_gui"
+      "kl_hand"
+      "kl_inventory"
+      "kl_items"
+      "kl_mapgen"
+      "kl_nodes"
+      "kl_player"
+      "kl_spawning"
+      "kl_stairs"
+      "kl_tools"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4825,26 +4856,26 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "danil_2461/ketchupland" = mkLuantiGame {
-    name = "ketchupland";
-    release = 16944;
-    hash = "1mlh3ichrav353cwpsvdxsw5f3i656py9y2n0blr7z219d5y4ydj";
-    author = "danil_2461";
+  "Emojiminetest/r_place" = mkLuantiGame {
+    name = "r_place";
+    release = 24909;
+    hash = "1rcxmwvl1s5prirjnzr7darz47xfnallcc21b8zy6dz9n10gj977";
+    author = "Emojiminetest";
     provides = [
-      "kl_api"
-      "kl_baseplate"
-      "kl_chests"
-      "kl_colours"
-      "kl_gui"
-      "kl_hand"
-      "kl_inventory"
-      "kl_items"
-      "kl_mapgen"
-      "kl_nodes"
-      "kl_player"
-      "kl_spawning"
-      "kl_stairs"
-      "kl_tools"
+      "random_messages_api"
+      "rp_analysis"
+      "rp_color_pick"
+      "rp_core"
+      "rp_export"
+      "rp_export_json"
+      "rp_init"
+      "rp_initial_message"
+      "rp_mapgen_nodes"
+      "rp_moderation"
+      "rp_nodes"
+      "rp_random_messages"
+      "rp_snapshot"
+      "rp_utils"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -4972,30 +5003,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Emojiminetest/r_place" = mkLuantiGame {
-    name = "r_place";
-    release = 24909;
-    hash = "1rcxmwvl1s5prirjnzr7darz47xfnallcc21b8zy6dz9n10gj977";
-    author = "Emojiminetest";
-    provides = [
-      "random_messages_api"
-      "rp_analysis"
-      "rp_color_pick"
-      "rp_core"
-      "rp_export"
-      "rp_export_json"
-      "rp_init"
-      "rp_initial_message"
-      "rp_mapgen_nodes"
-      "rp_moderation"
-      "rp_nodes"
-      "rp_random_messages"
-      "rp_snapshot"
-      "rp_utils"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "1248/agon" = mkLuantiGame {
     name = "agon";
     release = 23323;
@@ -5005,34 +5012,6 @@
       "agon"
       "hudbars"
       "mobs"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "thvk/spacetest" = mkLuantiGame {
-    name = "spacetest";
-    release = 25503;
-    hash = "19f9zj9fxps2rx5wchrd0va7jwy9rbdmkiiisrw8j5lng0144hny";
-    author = "thvk";
-    provides = [
-      "st_core"
-      "st_nodes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "LMD/cellestial_game" = mkLuantiGame {
-    name = "cellestial_game";
-    release = 18356;
-    hash = "10hxb0a80q7c80wjrzi143d0w2wkksblmwfgkwgivb7vmlxnbllg";
-    author = "LMD";
-    provides = [
-      "adv_chat"
-      "cellestial"
-      "cellestiall"
-      "cmdlib"
-      "hud_timers"
-      "modlib"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5072,6 +5051,34 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "LMD/cellestial_game" = mkLuantiGame {
+    name = "cellestial_game";
+    release = 18356;
+    hash = "10hxb0a80q7c80wjrzi143d0w2wkksblmwfgkwgivb7vmlxnbllg";
+    author = "LMD";
+    provides = [
+      "adv_chat"
+      "cellestial"
+      "cellestiall"
+      "cmdlib"
+      "hud_timers"
+      "modlib"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "thvk/spacetest" = mkLuantiGame {
+    name = "spacetest";
+    release = 25503;
+    hash = "19f9zj9fxps2rx5wchrd0va7jwy9rbdmkiiisrw8j5lng0144hny";
+    author = "thvk";
+    provides = [
+      "st_core"
+      "st_nodes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Emojiminetest/langton" = mkLuantiGame {
     name = "langton";
     release = 13037;
@@ -5097,8 +5104,8 @@
   };
   "5uper1ach/szombie" = mkLuantiGame {
     name = "szombie";
-    release = 26412;
-    hash = "19bsp188gry0i7krliyzrykgpvsljwjbxmsa2i1g288px3f7ghv9";
+    release = 28386;
+    hash = "1ldl9ndq2mpq8hfq9qmqcrrsqvc6dvlgc4r5myf565dlqgm4dz52";
     author = "5uper1ach";
     provides = [
       "mobs"
@@ -5116,6 +5123,295 @@
     hash = "03jihnfkhych6gfdrp3lnlqnwh0p7hfgdbn1ay1qmyxy3ha72a3y";
     author = "group_foo";
     provides = [ "ghost_crypt_main" ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "giga-turbo/codecube" = mkLuantiGame {
+    name = "codecube";
+    release = 12748;
+    hash = "1yr41ivr6ynph3vi753pakr9vn00fwfc6d0gzc8q4wz3px53h07f";
+    author = "giga-turbo";
+    provides = [
+      "cc_day"
+      "cc_mapgen"
+      "cc_security"
+      "codeblock"
+      "default"
+      "dye"
+      "formspecs"
+      "vector3"
+      "wool"
+      "worldedit"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "jgordon510/gridlocks" = mkLuantiGame {
+    name = "gridlocks";
+    release = 28415;
+    hash = "0vmiclpyn1kfnnnlgm43c41imi5wgafs4jqd8cwzsqqb2hwfgl6y";
+    author = "jgordon510";
+    provides = [
+      "boards"
+      "butterflies"
+      "creative"
+      "default"
+      "display_api"
+      "doors"
+      "dye"
+      "farming"
+      "fireflies"
+      "flowers"
+      "font_api"
+      "font_botic"
+      "font_metro"
+      "gridlock"
+      "gridlock_lab"
+      "moreblocks"
+      "ontime_clocks"
+      "player_api"
+      "scifi_nodes"
+      "sfinv"
+      "signs"
+      "signs_api"
+      "signs_road"
+      "stairs"
+      "steles"
+      "vessels"
+      "wool"
+      "xcompat"
+      "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Panquesito7/panqkart" = mkLuantiGame {
+    name = "panqkart";
+    release = 24018;
+    hash = "1gbnqaqk1z1m4pnk5wrsb7196dz4jl5yn0sc8v418ydj38bix6fv";
+    author = "Panquesito7";
+    provides = [
+      "abriglass"
+      "abripanes"
+      "beds"
+      "creative"
+      "default"
+      "doors"
+      "dye"
+      "env_sounds"
+      "farming"
+      "fire"
+      "flowers"
+      "formspec_ast"
+      "hud_fs"
+      "lib_mount"
+      "maptools"
+      "modgen"
+      "moreblocks"
+      "pk_checkpoints"
+      "pk_chest"
+      "pk_core"
+      "pk_info"
+      "pk_lobby"
+      "pk_nodes"
+      "pk_premium"
+      "pk_shop"
+      "pk_track_level"
+      "player_api"
+      "random_messages"
+      "screwdriver"
+      "sfinv"
+      "stairs"
+      "streets"
+      "ts_workshop"
+      "vehicle_mash"
+      "vessels"
+      "wool"
+      "worldedit"
+      "worldedit_brush"
+      "worldedit_commands"
+      "worldedit_gui"
+      "worldedit_shortcommands"
+      "xpanes"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "VeproGames/100_minerals_to_success" = mkLuantiGame {
+    name = "100_minerals_to_success";
+    release = 14749;
+    hash = "1dkzxgyzgb458b08pb941iacr954z86krvmjrkd00a8lyx4rg5cw";
+    author = "VeproGames";
+    provides = [
+      "mts_bedrock"
+      "mts_bignumber"
+      "mts_default"
+      "mts_formatter"
+      "mts_inventory"
+      "mts_lights"
+      "mts_liquids"
+      "mts_mapgen"
+      "mts_permaday"
+      "mts_pickcrafting"
+      "mts_plants"
+      "mts_powercrystals"
+      "mts_teleporters"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Astrobe/minefall" = mkLuantiGame {
+    name = "minefall";
+    release = 26311;
+    hash = "0xw32y0sgy7xh09ffi4mmfqpvqpcp7qs56a9wkgkbpgv63y5cibq";
+    author = "Astrobe";
+    provides = [
+      "3d_armor"
+      "3d_armor_sfinv"
+      "a_trees"
+      "abyss"
+      "anchorstone"
+      "anvil"
+      "beacon"
+      "bigshroom"
+      "bones"
+      "channels"
+      "cloth"
+      "compass"
+      "craft_table"
+      "craftguide"
+      "damage_number"
+      "dungeon_crates"
+      "env_sounds"
+      "exchange_shop"
+      "farming"
+      "fire"
+      "flowers"
+      "glider"
+      "headanim"
+      "hudbars"
+      "key_labels"
+      "lightning"
+      "melding"
+      "melt"
+      "mf"
+      "mf_airtank"
+      "mf_armor"
+      "mf_atrees"
+      "mf_decor"
+      "mf_default"
+      "mf_doors"
+      "mf_help"
+      "mf_lamps"
+      "mf_npc"
+      "mf_spears"
+      "mf_stairs"
+      "mf_tnt"
+      "mfwm"
+      "mob_bee"
+      "mob_beetle"
+      "mob_cats"
+      "mob_manti"
+      "mob_mogall"
+      "mob_shadow"
+      "mob_spider"
+      "mob_wasp"
+      "mob_whale"
+      "mobs"
+      "mobs_butterfly"
+      "mobs_crab"
+      "mobs_fish"
+      "more_mese"
+      "peri"
+      "player_api"
+      "rp"
+      "rploot"
+      "ruins"
+      "screwdriver"
+      "sfinv"
+      "simple_skins"
+      "smoke"
+      "snowdrift"
+      "void_chest"
+      "wands"
+      "wieldview"
+      "yatpm"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "jordan4ibanez/forgotten_lands" = mkLuantiGame {
+    name = "forgotten_lands";
+    release = 25207;
+    hash = "02jr7bvxhrpz9rawa48zzy2v9pacqxqd0jbfzbfignzaygsva0kn";
+    author = "jordan4ibanez";
+    provides = [
+      "forgotten_lands_animation_station"
+      "forgotten_lands_anti_complain"
+      "forgotten_lands_blocks"
+      "forgotten_lands_controls"
+      "forgotten_lands_formspec"
+      "forgotten_lands_hand"
+      "forgotten_lands_item_drop"
+      "forgotten_lands_item_entity"
+      "forgotten_lands_items"
+      "forgotten_lands_minecart"
+      "forgotten_lands_mob"
+      "forgotten_lands_models"
+      "forgotten_lands_player_inventory"
+      "forgotten_lands_player_model"
+      "forgotten_lands_recipes"
+      "forgotten_lands_shadows"
+      "forgotten_lands_sounds"
+      "forgotten_lands_testing"
+      "forgotten_lands_textures"
+      "forgotten_lands_tools"
+      "forgotten_lands_types"
+      "forgotten_lands_utility"
+      "forgotten_lands_world_generation"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "TheFanne/raining_nodes" = mkLuantiGame {
+    name = "raining_nodes";
+    release = 1787;
+    hash = "0r3w9vll0xl10v8595w1kcj5gijz69h8jlbpvd9jafhqwgwb8qhx";
+    author = "TheFanne";
+    provides = [
+      "bedrock"
+      "beds"
+      "binoculars"
+      "boats"
+      "bones"
+      "bucket"
+      "butterflies"
+      "carts"
+      "creative"
+      "default"
+      "doors"
+      "dungeon_loot"
+      "dye"
+      "farming"
+      "fire"
+      "fireflies"
+      "flowers"
+      "game_commands"
+      "give_initial_stuff"
+      "map"
+      "player_api"
+      "screwdriver"
+      "sethome"
+      "sfinv"
+      "sky_nodes"
+      "spawn"
+      "stairs"
+      "tnt"
+      "vessels"
+      "walls"
+      "wool"
+      "xpanes"
+    ];
     depends = [ ];
     with_same_name = [ ];
   };
@@ -5231,109 +5527,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Astrobe/minefall" = mkLuantiGame {
-    name = "minefall";
-    release = 26311;
-    hash = "0xw32y0sgy7xh09ffi4mmfqpvqpcp7qs56a9wkgkbpgv63y5cibq";
-    author = "Astrobe";
-    provides = [
-      "3d_armor"
-      "3d_armor_sfinv"
-      "a_trees"
-      "abyss"
-      "anchorstone"
-      "anvil"
-      "beacon"
-      "bigshroom"
-      "bones"
-      "channels"
-      "cloth"
-      "compass"
-      "craft_table"
-      "craftguide"
-      "damage_number"
-      "dungeon_crates"
-      "env_sounds"
-      "exchange_shop"
-      "farming"
-      "fire"
-      "flowers"
-      "glider"
-      "headanim"
-      "hudbars"
-      "key_labels"
-      "lightning"
-      "melding"
-      "melt"
-      "mf"
-      "mf_airtank"
-      "mf_armor"
-      "mf_atrees"
-      "mf_decor"
-      "mf_default"
-      "mf_doors"
-      "mf_help"
-      "mf_lamps"
-      "mf_npc"
-      "mf_spears"
-      "mf_stairs"
-      "mf_tnt"
-      "mfwm"
-      "mob_bee"
-      "mob_beetle"
-      "mob_cats"
-      "mob_manti"
-      "mob_mogall"
-      "mob_shadow"
-      "mob_spider"
-      "mob_wasp"
-      "mob_whale"
-      "mobs"
-      "mobs_butterfly"
-      "mobs_crab"
-      "mobs_fish"
-      "more_mese"
-      "peri"
-      "player_api"
-      "rp"
-      "rploot"
-      "ruins"
-      "screwdriver"
-      "sfinv"
-      "simple_skins"
-      "smoke"
-      "snowdrift"
-      "void_chest"
-      "wands"
-      "wieldview"
-      "yatpm"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "VeproGames/100_minerals_to_success" = mkLuantiGame {
-    name = "100_minerals_to_success";
-    release = 14749;
-    hash = "1dkzxgyzgb458b08pb941iacr954z86krvmjrkd00a8lyx4rg5cw";
-    author = "VeproGames";
-    provides = [
-      "mts_bedrock"
-      "mts_bignumber"
-      "mts_default"
-      "mts_formatter"
-      "mts_inventory"
-      "mts_lights"
-      "mts_liquids"
-      "mts_mapgen"
-      "mts_permaday"
-      "mts_pickcrafting"
-      "mts_plants"
-      "mts_powercrystals"
-      "mts_teleporters"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "rlars/occupymoon_game" = mkLuantiGame {
     name = "occupymoon_game";
     release = 15950;
@@ -5385,153 +5578,6 @@
       "wool"
       "wrench"
       "zones"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "giga-turbo/codecube" = mkLuantiGame {
-    name = "codecube";
-    release = 12748;
-    hash = "1yr41ivr6ynph3vi753pakr9vn00fwfc6d0gzc8q4wz3px53h07f";
-    author = "giga-turbo";
-    provides = [
-      "cc_day"
-      "cc_mapgen"
-      "cc_security"
-      "codeblock"
-      "default"
-      "dye"
-      "formspecs"
-      "vector3"
-      "wool"
-      "worldedit"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Panquesito7/panqkart" = mkLuantiGame {
-    name = "panqkart";
-    release = 24018;
-    hash = "1gbnqaqk1z1m4pnk5wrsb7196dz4jl5yn0sc8v418ydj38bix6fv";
-    author = "Panquesito7";
-    provides = [
-      "abriglass"
-      "abripanes"
-      "beds"
-      "creative"
-      "default"
-      "doors"
-      "dye"
-      "env_sounds"
-      "farming"
-      "fire"
-      "flowers"
-      "formspec_ast"
-      "hud_fs"
-      "lib_mount"
-      "maptools"
-      "modgen"
-      "moreblocks"
-      "pk_checkpoints"
-      "pk_chest"
-      "pk_core"
-      "pk_info"
-      "pk_lobby"
-      "pk_nodes"
-      "pk_premium"
-      "pk_shop"
-      "pk_track_level"
-      "player_api"
-      "random_messages"
-      "screwdriver"
-      "sfinv"
-      "stairs"
-      "streets"
-      "ts_workshop"
-      "vehicle_mash"
-      "vessels"
-      "wool"
-      "worldedit"
-      "worldedit_brush"
-      "worldedit_commands"
-      "worldedit_gui"
-      "worldedit_shortcommands"
-      "xpanes"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "jordan4ibanez/forgotten_lands" = mkLuantiGame {
-    name = "forgotten_lands";
-    release = 25207;
-    hash = "02jr7bvxhrpz9rawa48zzy2v9pacqxqd0jbfzbfignzaygsva0kn";
-    author = "jordan4ibanez";
-    provides = [
-      "forgotten_lands_animation_station"
-      "forgotten_lands_anti_complain"
-      "forgotten_lands_blocks"
-      "forgotten_lands_controls"
-      "forgotten_lands_formspec"
-      "forgotten_lands_hand"
-      "forgotten_lands_item_drop"
-      "forgotten_lands_item_entity"
-      "forgotten_lands_items"
-      "forgotten_lands_minecart"
-      "forgotten_lands_mob"
-      "forgotten_lands_models"
-      "forgotten_lands_player_inventory"
-      "forgotten_lands_player_model"
-      "forgotten_lands_recipes"
-      "forgotten_lands_shadows"
-      "forgotten_lands_sounds"
-      "forgotten_lands_testing"
-      "forgotten_lands_textures"
-      "forgotten_lands_tools"
-      "forgotten_lands_types"
-      "forgotten_lands_utility"
-      "forgotten_lands_world_generation"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "TheFanne/raining_nodes" = mkLuantiGame {
-    name = "raining_nodes";
-    release = 1787;
-    hash = "0r3w9vll0xl10v8595w1kcj5gijz69h8jlbpvd9jafhqwgwb8qhx";
-    author = "TheFanne";
-    provides = [
-      "bedrock"
-      "beds"
-      "binoculars"
-      "boats"
-      "bones"
-      "bucket"
-      "butterflies"
-      "carts"
-      "creative"
-      "default"
-      "doors"
-      "dungeon_loot"
-      "dye"
-      "farming"
-      "fire"
-      "fireflies"
-      "flowers"
-      "game_commands"
-      "give_initial_stuff"
-      "map"
-      "player_api"
-      "screwdriver"
-      "sethome"
-      "sfinv"
-      "sky_nodes"
-      "spawn"
-      "stairs"
-      "tnt"
-      "vessels"
-      "walls"
-      "wool"
-      "xpanes"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5636,30 +5682,14 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "1248/stella" = mkLuantiGame {
-    name = "stella";
-    release = 10125;
-    hash = "0flvgj62hxvdrjyj0yqijhc0c82c691k1zz40b374dagirhsl6na";
-    author = "1248";
+  "Nathan.S/rob_opr" = mkLuantiGame {
+    name = "rob_opr";
+    release = 22770;
+    hash = "0shhnwp00yd6wpc30w6bsjrb5r0c6n3s2y24yldzkxilz72ijm4i";
+    author = "Nathan.S";
     provides = [
-      "flatgen"
-      "hudbars"
-      "stella"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "cx384/dssssa" = mkLuantiGame {
-    name = "dssssa";
-    release = 15790;
-    hash = "00090y9357xmdfl80i732q3q3s27i6kiq09k2ri0qp1v7q8d7icp";
-    author = "cx384";
-    provides = [
-      "dssssa_crafting"
-      "dssssa_mapgen"
-      "dssssa_player"
-      "dssssa_rocks"
-      "dssssa_ship"
+      "modgen_mod_export"
+      "rob_opr_base"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5677,14 +5707,17 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Nathan.S/rob_opr" = mkLuantiGame {
-    name = "rob_opr";
-    release = 22770;
-    hash = "0shhnwp00yd6wpc30w6bsjrb5r0c6n3s2y24yldzkxilz72ijm4i";
-    author = "Nathan.S";
+  "cx384/dssssa" = mkLuantiGame {
+    name = "dssssa";
+    release = 15790;
+    hash = "00090y9357xmdfl80i732q3q3s27i6kiq09k2ri0qp1v7q8d7icp";
+    author = "cx384";
     provides = [
-      "modgen_mod_export"
-      "rob_opr_base"
+      "dssssa_crafting"
+      "dssssa_mapgen"
+      "dssssa_player"
+      "dssssa_rocks"
+      "dssssa_ship"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5709,6 +5742,19 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "1248/stella" = mkLuantiGame {
+    name = "stella";
+    release = 10125;
+    hash = "0flvgj62hxvdrjyj0yqijhc0c82c691k1zz40b374dagirhsl6na";
+    author = "1248";
+    provides = [
+      "flatgen"
+      "hudbars"
+      "stella"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "mothnox/vpet" = mkLuantiGame {
     name = "vpet";
     release = 15438;
@@ -5720,6 +5766,33 @@
       "vpet_pet"
       "vpet_player"
       "vpet_world"
+    ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "sunnysideup/holidayhorrors" = mkLuantiGame {
+    name = "holidayhorrors";
+    release = 10179;
+    hash = "072g1n3wnyw08iyxgq9c5dcrz5vwwbl4lbn3xzkalrhrn40xxiz5";
+    author = "sunnysideup";
+    provides = [
+      "default"
+      "dye"
+      "env_sounds"
+      "fire"
+      "flatgen"
+      "game_commands"
+      "give_initial_stuff"
+      "holiday"
+      "map"
+      "mobs"
+      "player_api"
+      "sethome"
+      "spawn"
+      "vessels"
+      "walls"
+      "wool"
+      "xpanes"
     ];
     depends = [ ];
     with_same_name = [ ];
@@ -5762,33 +5835,6 @@
       "worldedit_commands"
       "worldedit_gui"
       "worldedit_shortcommands"
-    ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "sunnysideup/holidayhorrors" = mkLuantiGame {
-    name = "holidayhorrors";
-    release = 10179;
-    hash = "072g1n3wnyw08iyxgq9c5dcrz5vwwbl4lbn3xzkalrhrn40xxiz5";
-    author = "sunnysideup";
-    provides = [
-      "default"
-      "dye"
-      "env_sounds"
-      "fire"
-      "flatgen"
-      "game_commands"
-      "give_initial_stuff"
-      "holiday"
-      "map"
-      "mobs"
-      "player_api"
-      "sethome"
-      "spawn"
-      "vessels"
-      "walls"
-      "wool"
-      "xpanes"
     ];
     depends = [ ];
     with_same_name = [ ];

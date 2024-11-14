@@ -1,4 +1,4 @@
-const baseurl = "https://content.minetest.net/api/packages";
+const baseurl = "https://content.luanti.org/api/packages";
 const fs = require("node:fs");
 const path = require("path")
 
@@ -104,8 +104,6 @@ async function main() {
     fs.writeFileSync('./src/generated/games.nix', files.games)
     fs.writeFileSync('./src/generated/mods.nix', files.mods)
     fs.writeFileSync('./src/generated/texturePacks.nix', files.texturePacks)
-
-    //console.log(files)
 }
 
 main()
