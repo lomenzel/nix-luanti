@@ -90,6 +90,10 @@ Mods can be specified in the `mods` attribute of each server configuration. Depe
 
 You can customize additional settings in 'services.luanit.servers.\<your-server-name>.config. This config is directly passed to the luanti.conf configuration file.
 
+## Troubleshooting
+
+The systemd service is named `luanti-<your-server-name>.service` so if you set up `services.luanti.servers.adventure` you can see the status of the server by running `systemctl status luanti-adventure.service` and all its files like the world file the .minetest directory and everything else will be placed in `/var/lib/luanti-adventure`
+
 ## Contributing
 
 This project is a work in progress, and contributions are highly welcome! If you encounter any issues or have suggestions, feel free to open an issue or a merge request.
