@@ -17,32 +17,36 @@ let
       unzip = pkgs.unzip;
     }).byId;
 
-
-
-
   # toConf copied from nixpkgs module
 
-  toConf = values:
-    lib.concatStrings
-      (lib.mapAttrsToList
-        (name: value: {
-          bool = "${name} = ${toString value}\n";
-          int = "${name} = ${toString value}\n";
-          null = "";
-          set = "${name} = {\n${toConf value}}\n";
-          string =
-            if (builtins.match NEEDS_MULTILINE_RE value) != null
-            then toConfMultiline name value
-            else "${name} = ${value}\n";
-        }.${builtins.typeOf value})
-        values);
+  toConf =
+    values:
+    lib.concatStrings (
+      lib.mapAttrsToList
+        (
+          name: value:
+          {
+            bool = "${name} = ${toString value}\n";
+            int = "${name} = ${toString value}\n";
+            null = "";
+            set = "${name} = {\n${toConf value}}\n";
+            string =
+              if (builtins.match NEEDS_MULTILINE_RE value) != null then
+                toConfMultiline name value
+              else
+                "${name} = ${value}\n";
+          }.${builtins.typeOf value}
+        )
+        values
+    );
 
-  toConfMultiline = name: value:
-    assert lib.assertMsg
-      ((builtins.match UNESCAPABLE_RE value) == null)
-      ''""" can't be on its own line in a minetest config.'';
-    "${name} = \"\"\"\n${value}\n\"\"\"\n";
-
+  toConfMultiline =
+    name: value:
+      assert lib.assertMsg
+        (
+          (builtins.match UNESCAPABLE_RE value) == null
+        ) ''""" can't be on its own line in a minetest config.'';
+      "${name} = \"\"\"\n${value}\n\"\"\"\n";
 
   # Constants copied from nixpkgs module
   CONTAINS_NEWLINE_RE = ".*\n.*";
@@ -77,15 +81,6 @@ in
             };
             mods = lib.mkOption {
               #list of packages (has to be luanti mods. dont know if i need to check that here)
-            };
-            world = {
-              mapgen = lib.mkOption {
-                default = "v7"; # no plan what i am doing
-              };
-              seed = lib.mkOption {
-                default = null; # maybe null should be random
-              };
-              # ... other map settings
             };
             config = lib.mkOption {
               type = lib.types.attrsOf lib.types.anything;
@@ -129,24 +124,27 @@ in
             after = [ "network.target" ];
             wantedBy = [ "multi-user.target" ];
             serviceConfig = {
-              ExecStart = ''
-
+              ExecStart = pkgs.writeShellScript "start-luanti-server" ''
                 rm -rf ~/.minetest
 
                 mkdir -p ~/.minetest/games
+                mkdir -p ~/world
 
-                ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ./minetest/mods
-                ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
+                ln -s -f ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
+                ln -s -f ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
 
                 ${pkgs.minetest}/bin/minetestserver \
                   --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
-                  --world ${/** TODO initialize the world if not present */ "~/world"}
-              ''; # TODO: how to do mods and map and game etc???
+                  --world ~/world \
+                  --gameid ${ serverConfig.game.pname}
+              '';
+              # TODO: world generation should respect config
               User = name;
               Group = "luanti";
               Restart = "on-failure";
+
             };
           }
       )
