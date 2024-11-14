@@ -1,8 +1,7 @@
-{
-  config,
-  lib,
-  pkgs,
-  ...
+{ config
+, lib
+, pkgs
+, ...
 }:
 let
   cfg = config.services.luanti;
@@ -17,6 +16,45 @@ let
       fetchurl = pkgs.fetchurl;
       unzip = pkgs.unzip;
     }).byId;
+
+
+
+
+  # toConf copied from nixpkgs module
+
+  toConf = values:
+    lib.concatStrings
+      (lib.mapAttrsToList
+        (name: value: {
+          bool = "${name} = ${toString value}\n";
+          int = "${name} = ${toString value}\n";
+          null = "";
+          set = "${name} = {\n${toConf value}}\n";
+          string =
+            if (builtins.match NEEDS_MULTILINE_RE value) != null
+            then toConfMultiline name value
+            else "${name} = ${value}\n";
+        }.${builtins.typeOf value})
+        values);
+
+  toConfMultiline = name: value:
+    assert lib.assertMsg
+      ((builtins.match UNESCAPABLE_RE value) == null)
+      ''""" can't be on its own line in a minetest config.'';
+    "${name} = \"\"\"\n${value}\n\"\"\"\n";
+
+
+  # Constants copied from nixpkgs module
+  CONTAINS_NEWLINE_RE = ".*\n.*";
+  # The following values are reserved as complete option values:
+  # { - start of a group.
+  # """ - start of a multi-line string.
+  RESERVED_VALUE_RE = "[[:space:]]*(\"\"\"|\\{)[[:space:]]*";
+  NEEDS_MULTILINE_RE = "${CONTAINS_NEWLINE_RE}|${RESERVED_VALUE_RE}";
+
+  # There is no way to encode """ on its own line in a Minetest config.
+  UNESCAPABLE_RE = ".*\n\"\"\"\n.*";
+
 in
 {
   options.services.luanti = {
@@ -64,42 +102,55 @@ in
   };
   config = lib.mkIf cfg.enable {
     users.groups.luanti = { };
-    users.users = builtins.mapAttrs (
-      name: serverConfig:
-      let
-        mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
-      in
-      {
-        description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
-        home = "/var/lib/${name}";
-        # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
-        createHome = true;
-        group = "luanti";
-        isSystemUser = true;
-      }
-    ) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+    users.users = builtins.mapAttrs
+      (
+        name: serverConfig:
+          let
+            mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
+          in
+          {
+            description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
+            home = "/var/lib/${name}";
+            # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
+            createHome = true;
+            group = "luanti";
+            isSystemUser = true;
+          }
+      )
+      (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
-    systemd.services = builtins.mapAttrs (
-      name: serverConfig:
+    systemd.services = builtins.mapAttrs
+      (
+        name: serverConfig:
 
-      {
-        #name = name;
-        description = "Luanti server instance for ${name}.";
-        after = [ "network.target" ];
-        wantedBy = [ "multi-user.target" ];
-        serviceConfig = {
-          ExecStart = ''
-            ${pkgs.minetest}/bin/minetestserver \
-              --config ${builtins.toFile "luanti.conf" (builtins.toJSON serverConfig.config)} \
-              --port ${builtins.toString serverConfig.port}
-              --color always
-              --world ${/** TODO initialize the world if not present */ "~/world"}
-          ''; # TODO: luanti config format; also make sure it uses correct mods and map
-          User = name;
-          Group = "luanti";
-          Restart = "on-failure";
-        };
-      }) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+          {
+            #name = name;
+            description = "Luanti server instance for ${name}.";
+            after = [ "network.target" ];
+            wantedBy = [ "multi-user.target" ];
+            serviceConfig = {
+              ExecStart = ''
+
+                rm -rf ~/.minetest
+
+                mkdir -p ~/.minetest/games
+
+                ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ./minetest/mods
+                ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
+
+                ${pkgs.minetest}/bin/minetestserver \
+                  --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
+                  --port ${builtins.toString serverConfig.port} \
+                  --color always \
+                  --world ${/** TODO initialize the world if not present */ "~/world"}
+              ''; # TODO: how to do mods and map and game etc???
+              User = name;
+              Group = "luanti";
+              Restart = "on-failure";
+            };
+          }
+      )
+      (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
   };
 }
