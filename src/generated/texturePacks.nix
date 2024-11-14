@@ -297,6 +297,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "ekl/lost_my_pixels" = mkLuantiTxp {
+    name = "lost_my_pixels";
+    release = 16993;
+    hash = "1x5vwrjk3ad1z16p6vq1rw1hrp712jj4hcmzmh2pmhp7yd8m11fv";
+    author = "ekl";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "AwesomeDragon97/better_basic_materials" = mkLuantiTxp {
     name = "better_basic_materials";
     release = 20930;
@@ -320,15 +329,6 @@
     release = 963;
     hash = "1xp4nxxckf0igryrsgbcvq4i1d16p56yqy42dijziajghx5dspgy";
     author = "GamingAssociation39";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ekl/lost_my_pixels" = mkLuantiTxp {
-    name = "lost_my_pixels";
-    release = 16993;
-    hash = "1x5vwrjk3ad1z16p6vq1rw1hrp712jj4hcmzmh2pmhp7yd8m11fv";
-    author = "ekl";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -423,20 +423,20 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Pudding/standart_textures" = mkLuantiTxp {
-    name = "standart_textures";
-    release = 13633;
-    hash = "1zy4f2jynf4yxxsg0lip3yydvf0c8i8qk45dxi5n77bcsqj1b91k";
-    author = "Pudding";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "TumeniNodes/ambiguity" = mkLuantiTxp {
     name = "ambiguity";
     release = 740;
     hash = "138vq6layawnbagjv6rxgfcwrq1gzgw93s2f3pak7hyap7l1crz0";
     author = "TumeniNodes";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Pudding/standart_textures" = mkLuantiTxp {
+    name = "standart_textures";
+    release = 13633;
+    hash = "1zy4f2jynf4yxxsg0lip3yydvf0c8i8qk45dxi5n77bcsqj1b91k";
+    author = "Pudding";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -540,15 +540,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "vultusglass/aephorus" = mkLuantiTxp {
-    name = "aephorus";
-    release = 20520;
-    hash = "0ch9bq9cdcifkkq2s0rvvsqqs7rb64qyw605jw1hkk4dw334jgss";
-    author = "vultusglass";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "ROllerozxa/macrotex" = mkLuantiTxp {
     name = "macrotex";
     release = 15828;
@@ -558,11 +549,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Extex/extextures" = mkLuantiTxp {
-    name = "extextures";
-    release = 25684;
-    hash = "0qn0xalwb3xcax19kz3is2f9lfxnm7qjs18j38xz1zrbgx90vl7z";
-    author = "Extex";
+  "vultusglass/aephorus" = mkLuantiTxp {
+    name = "aephorus";
+    release = 20520;
+    hash = "0ch9bq9cdcifkkq2s0rvvsqqs7rb64qyw605jw1hkk4dw334jgss";
+    author = "vultusglass";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -572,6 +563,15 @@
     release = 26612;
     hash = "1cwdp05hj6yh36a16i0xfq59n93np4iawsc5c70mym3rxw6gvkjh";
     author = "EGYT5453";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Extex/extextures" = mkLuantiTxp {
+    name = "extextures";
+    release = 25684;
+    hash = "0qn0xalwb3xcax19kz3is2f9lfxnm7qjs18j38xz1zrbgx90vl7z";
+    author = "Extex";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -684,6 +684,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "GrimLok/q3a_mt_crosshairs" = mkLuantiTxp {
+    name = "q3a_mt_crosshairs";
+    release = 23000;
+    hash = "1n10h3pm33i2wp7mls82wn19gnkzidm1aq107byaam33gxfns51p";
+    author = "GrimLok";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "UltraSans/ctfplus" = mkLuantiTxp {
     name = "ctfplus";
     release = 16082;
@@ -698,6 +707,15 @@
     release = 13436;
     hash = "0pjvd27phdpf6ml8n46bxz2ppf6hg3fqbpw5avd8vy5csy2yphwn";
     author = "Walfun";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Skyisblue/skycornv1" = mkLuantiTxp {
+    name = "skycornv1";
+    release = 3175;
+    hash = "04zk6l7a3nx0ssm103rqip1s9dafk1f57gghfxvwazlhzmh8zvg0";
+    author = "Skyisblue";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -765,15 +783,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "GrimLok/q3a_mt_crosshairs" = mkLuantiTxp {
-    name = "q3a_mt_crosshairs";
-    release = 23000;
-    hash = "1n10h3pm33i2wp7mls82wn19gnkzidm1aq107byaam33gxfns51p";
-    author = "GrimLok";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Warr1024/ncep9x" = mkLuantiTxp {
     name = "ncep9x";
     release = 28154;
@@ -788,15 +797,6 @@
     release = 26834;
     hash = "1anz03vwhsaw7wnizx2camzfxndm7zn89dzisiycap2n393y2jbg";
     author = "Warr1024";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Skyisblue/skycornv1" = mkLuantiTxp {
-    name = "skycornv1";
-    release = 3175;
-    hash = "04zk6l7a3nx0ssm103rqip1s9dafk1f57gghfxvwazlhzmh8zvg0";
-    author = "Skyisblue";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
