@@ -73,9 +73,10 @@ async function packagelist() {
         mod: [],
         txp: []
     }
+    console.log( `${list.length} Packages found`)
 
     for (let i = 0; i < list.length; i++) {
-        console.log(`processing: ${i + 1}/${list.length}`)
+        //console.log(`processing: ${i + 1}/${list.length}`)
         let package = list[i]
         package.details = await getDetails(`${package.author}/${package.name}/${package.release}`)
         package.WithSameName = list.reduce((acc, curr) => { return [...acc, ...((curr.name === package.name && curr.author !== package.author && curr.type === package.type) ? [`"${curr.author}/${curr.name}"`] : [])] }, [])
