@@ -1,7 +1,7 @@
-{
-  byId,
-  lists,
-  mkDerivation,
+{ byId
+, lists
+, mkDerivation
+,
 }:
 let
   checkDependencies = game: mods: (builtins.length (missingDependencies game mods)) == 0;
@@ -10,14 +10,18 @@ let
   depsProvidedBy =
     mods:
     builtins.listToAttrs (
-      builtins.foldl' (
-        acc: curr:
-        acc
-        ++ (builtins.map (dep: {
-          name = dep.name;
-          value = dep.packages;
-        }) curr.meta.depends)
-      ) [ ] mods
+      builtins.foldl'
+        (
+          acc: curr:
+          acc
+          ++ (builtins.map
+            (dep: {
+              name = dep.name;
+              value = dep.packages;
+            })
+            curr.meta.depends)
+        ) [ ]
+        mods
     );
   allDeps =
     mods:
@@ -35,8 +39,8 @@ let
   findNextDependency = game: mods: byId.mods.${findNextDependencyName game mods};
   findNextDependencyName =
     game: mods:
-    if providingNextDependency == [ ] then
-      builtins.throw "Cannot find dependencies in ContentDB. Please add them manually: ${builtins.toString (missingDependencies game mods)}"
+    if providingNextDependency game mods == [ ] then
+      builtins.throw "Cannot find dependency in ContentDB. Please add it manually: ${builtins.toString (builtins.head (missingDependencies game mods))}"
     else
       builtins.head (providingNextDependency game mods);
   providingNextDependency =
@@ -61,7 +65,7 @@ let
     mkDerivation {
       name = "mods";
       src = game; # just something. is not used but src is required
-      builtInputs = with-dependencies game mods;
+      #builtInputs = with-dependencies game mods;
       installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (
         with-dependencies game mods
       );
@@ -69,10 +73,12 @@ let
   mapAttrNames =
     f: attrSet:
     builtins.listToAttrs (
-      map (name: {
-        name = (f name);
-        value = builtins.getAttr name attrSet;
-      }) (builtins.attrNames attrSet)
+      map
+        (name: {
+          name = (f name);
+          value = builtins.getAttr name attrSet;
+        })
+        (builtins.attrNames attrSet)
     );
 
 in

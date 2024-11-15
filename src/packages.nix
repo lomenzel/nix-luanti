@@ -1,7 +1,7 @@
-{
-  mkDerivation,
-  fetchurl,
-  unzip,
+{ mkDerivation
+, fetchurl
+, unzip
+,
 }:
 let
   installPhase = ''
@@ -13,14 +13,14 @@ let
     author: name: release:
     "https://content.minetest.net/packages/${author}/${name}/releases/${builtins.toString release}/download/";
   mkLuantiGame =
-    {
-      name,
-      release,
-      author,
-      hash ? "",
-      provides ? [ ],
-      depends ? [ ],
-      with_same_name ? [ ],
+    { name
+    , release
+    , author
+    , hash ? ""
+    , provides ? [ ]
+    , depends ? [ ]
+    , with_same_name ? [ ]
+    ,
     }:
     mkDerivation {
       pname = name;
@@ -36,14 +36,14 @@ let
       };
     };
   mkLuantiMod =
-    {
-      name,
-      release,
-      author,
-      hash ? "",
-      provides ? [ ],
-      depends ? [ ],
-      with_same_name ? [ ],
+    { name
+    , release
+    , author
+    , hash ? ""
+    , provides ? [ ]
+    , depends ? [ ]
+    , with_same_name ? [ ]
+    ,
     }:
     mkDerivation {
       pname = name;
@@ -66,14 +66,14 @@ let
 
     };
   mkLuantiTxp =
-    {
-      name,
-      release,
-      author,
-      hash ? "",
-      provides ? [ ],
-      depends ? [ ],
-      with_same_name ? [ ],
+    { name
+    , release
+    , author
+    , hash ? ""
+    , provides ? [ ]
+    , depends ? [ ]
+    , with_same_name ? [ ]
+    ,
     }:
     mkDerivation {
       pname = name;
@@ -100,45 +100,50 @@ let
         )
       }";
       passthru = builtins.listToAttrs (
-        builtins.map (package: {
-          name = byId.${package}.meta.author;
-          value = byId.${package};
-        }) with_same_name
+        builtins.map
+          (package: {
+            name = byId.${package}.meta.author;
+            value = byId.${package};
+          })
+          with_same_name
       );
     };
   byIdToByName =
     byId:
 
     (builtins.listToAttrs (
-      builtins.map (id: {
-        name = byId.${id}.pname;
-        value = ambiguous (byId.${id}.meta.with_same_name ++ [ id ]) byId;
-      }) (builtins.attrNames byId)
+      builtins.map
+        (id: {
+          name = byId.${id}.pname;
+          value = ambiguous (byId.${id}.meta.with_same_name ++ [ id ]) byId;
+        })
+        (builtins.attrNames byId)
     ))
     // (builtins.listToAttrs (
       builtins.filter
         (
-          {
-            included ? true,
-            ...
+          { included ? true
+          , ...
           }:
           included
         )
         (
-          builtins.map (
-            id:
-            if (builtins.length byId.${id}.meta.with_same_name) == 0 then
-              {
-                name = byId.${id}.pname;
-                value = byId.${id};
-              }
-            else
-              {
-                name = id;
-                value = byId.${id};
-                included = false;
-              }
-          ) (builtins.attrNames byId)
+          builtins.map
+            (
+              id:
+              if (builtins.length byId.${id}.meta.with_same_name) == 0 then
+                {
+                  name = byId.${id}.pname;
+                  value = byId.${id};
+                }
+              else
+                {
+                  name = id;
+                  value = byId.${id};
+                  included = false;
+                }
+            )
+            (builtins.attrNames byId)
         )
     ));
   gamesById = import ./generated/games.nix { inherit mkLuantiGame; };

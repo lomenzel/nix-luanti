@@ -70,7 +70,7 @@ in
           options = {
             port = lib.mkOption {
               type = lib.types.int;
-              default = 30000;
+              #default = 30000;
               description = ''
                 Port number to bind to.
               '';
@@ -80,6 +80,7 @@ in
               default = byId.games."Minetest/minetest_game";
             };
             mods = lib.mkOption {
+              default = [];
               #list of packages (has to be luanti mods. dont know if i need to check that here)
             };
             config = lib.mkOption {
@@ -138,7 +139,7 @@ in
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ~/world \
-                  --gameid ${ serverConfig.game.pname}
+                  --gameid ${serverConfig.game.pname}
               '';
               # TODO: world generation should respect config, or does it by default?
               User = name;

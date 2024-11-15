@@ -33,8 +33,13 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
          nixosConfigurations = {
            my-server = nixpkgs.lib.nixosSystem {
              system = "x86_64-linux";
+             specialArgs = {
+              # this will make nix-luanti a parameter for each imported module so you can use nix-luanti.games for example
+              nix-luanti = inputs.nix-luanti.packages."x86_64-linux";
+             };
              modules = [
                ./configuration.nix
+               # this will make the services.luanti module available
                nix-luanti.nixosModules.default
              ];
            };
@@ -54,15 +59,18 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
        enable = true;
        servers = with nix-luanti; {
          cool-server = {
+           # minetest_game is the default so this asignment can be left out
            game = games.minetest_game;
            mods = with mods; [
              animalia
              # add as many mods you want :)
            ];
+           # port has no default so it must be set
            port = 30000;
          };
          other-cool-server = {
            game = games.mineclone2;
+           # default mods is [] so if no mods are needed it can be left out
            port = 30001;
          };
        };
