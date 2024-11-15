@@ -107,6 +107,7 @@ let
           })
           with_same_name
       );
+      meta.depends =  [];
     };
   byIdToByName =
     byId:
