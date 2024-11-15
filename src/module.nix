@@ -80,7 +80,7 @@ in
               default = byId.games."Minetest/minetest_game";
             };
             mods = lib.mkOption {
-              default = [];
+              default = [ ];
               #list of packages (has to be luanti mods. dont know if i need to check that here)
             };
             config = lib.mkOption {
@@ -139,6 +139,7 @@ in
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ~/world \
+                  --verbose \
                   --gameid ${serverConfig.game.pname}
               '';
               # TODO: world generation should respect config, or does it by default?
