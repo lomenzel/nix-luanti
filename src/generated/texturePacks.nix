@@ -1,5 +1,4 @@
-{ mkLuantiTxp }:
-{
+{ mkLuantiTxp }: {
   "Zughy/soothing32" = mkLuantiTxp {
     name = "soothing32";
     release = 24372;
@@ -378,6 +377,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "ROllerozxa/mtg_tiled_32x" = mkLuantiTxp {
+    name = "mtg_tiled_32x";
+    release = 15085;
+    hash = "05v2rr908phx1qqgk9ydb7gnsihbbg61rm8iqrp180wn5qay7n89";
+    author = "ROllerozxa";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "gimp/simple8x" = mkLuantiTxp {
     name = "simple8x";
     release = 2253;
@@ -392,15 +400,6 @@
     release = 27453;
     hash = "0zbs1kayfdx3az8dh4ibdmmnr30sykv8z7wni6bchlgld3j8j8cp";
     author = "Winter94";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ROllerozxa/mtg_tiled_32x" = mkLuantiTxp {
-    name = "mtg_tiled_32x";
-    release = 15085;
-    hash = "05v2rr908phx1qqgk9ydb7gnsihbbg61rm8iqrp180wn5qay7n89";
-    author = "ROllerozxa";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -432,6 +431,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "ROllerozxa/zline" = mkLuantiTxp {
+    name = "zline";
+    release = 14489;
+    hash = "0hk7y855dkgxcbaq9rpjjn3vxfybr9j7ngx3y9j6a5b80pbizikx";
+    author = "ROllerozxa";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "joseanastacio/texture_pack_plastic" = mkLuantiTxp {
     name = "texture_pack_plastic";
     release = 23152;
@@ -446,15 +454,6 @@
     release = 13633;
     hash = "1zy4f2jynf4yxxsg0lip3yydvf0c8i8qk45dxi5n77bcsqj1b91k";
     author = "Pudding";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "ROllerozxa/zline" = mkLuantiTxp {
-    name = "zline";
-    release = 14489;
-    hash = "0hk7y855dkgxcbaq9rpjjn3vxfybr9j7ngx3y9j6a5b80pbizikx";
-    author = "ROllerozxa";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -585,6 +584,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "GrimLok/q3a_mt_crosshairs" = mkLuantiTxp {
+    name = "q3a_mt_crosshairs";
+    release = 23000;
+    hash = "1n10h3pm33i2wp7mls82wn19gnkzidm1aq107byaam33gxfns51p";
+    author = "GrimLok";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "kestral/default_grid" = mkLuantiTxp {
     name = "default_grid";
     release = 1999;
@@ -599,6 +607,15 @@
     release = 23049;
     hash = "0arcfk3rpbviv84jyvsqyb5wlpivw246s9fq466jr5y1a8pznhlw";
     author = "GreenBlob";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "UltraSans/win25695" = mkLuantiTxp {
+    name = "win25695";
+    release = 15035;
+    hash = "1wwrb9b3jnxk1wka2glycagb5jrnm9csz5az9c32ysp3rvxvc93q";
+    author = "UltraSans";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -621,6 +638,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Winter94/wintercore_vibrant" = mkLuantiTxp {
+    name = "wintercore_vibrant";
+    release = 27454;
+    hash = "0qfcj4wi5plh0h8s12xyf8hdh0lim283l93zl04fpmvvjmxnjlln";
+    author = "Winter94";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "niwla23/simple" = mkLuantiTxp {
     name = "simple";
     release = 1363;
@@ -635,15 +661,6 @@
     release = 3175;
     hash = "04zk6l7a3nx0ssm103rqip1s9dafk1f57gghfxvwazlhzmh8zvg0";
     author = "Skyisblue";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "UltraSans/win25695" = mkLuantiTxp {
-    name = "win25695";
-    release = 15035;
-    hash = "1wwrb9b3jnxk1wka2glycagb5jrnm9csz5az9c32ysp3rvxvc93q";
-    author = "UltraSans";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -684,6 +701,15 @@
     depends = [ ];
     with_same_name = [ ];
   };
+  "Droog71/moontest_32x32" = mkLuantiTxp {
+    name = "moontest_32x32";
+    release = 10626;
+    hash = "0vm62xsmgr4ymjv36cb9vjfzdmd29ic2sf4bs935s0sa0hyv5ad7";
+    author = "Droog71";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
   "Blocky_Player/happy_land" = mkLuantiTxp {
     name = "happy_land";
     release = 13084;
@@ -693,29 +719,29 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Winter94/wintercore_vibrant" = mkLuantiTxp {
-    name = "wintercore_vibrant";
-    release = 27454;
-    hash = "0qfcj4wi5plh0h8s12xyf8hdh0lim283l93zl04fpmvvjmxnjlln";
-    author = "Winter94";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "GrimLok/q3a_mt_crosshairs" = mkLuantiTxp {
-    name = "q3a_mt_crosshairs";
-    release = 23000;
-    hash = "1n10h3pm33i2wp7mls82wn19gnkzidm1aq107byaam33gxfns51p";
-    author = "GrimLok";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "UltraSans/ctfplus" = mkLuantiTxp {
     name = "ctfplus";
     release = 16082;
     hash = "0kvl5bspv2j26ja2vik1ah79a73c3j7mmzdmk048r80lfy24s7yy";
     author = "UltraSans";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Warr1024/ncep9x" = mkLuantiTxp {
+    name = "ncep9x";
+    release = 28154;
+    hash = "155z6pcq1bh16lbkdjxczyxl67p2ylc50m2b3cyy9j95bm2ac3bc";
+    author = "Warr1024";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Warr1024/nc_regression" = mkLuantiTxp {
+    name = "nc_regression";
+    release = 26834;
+    hash = "1anz03vwhsaw7wnizx2camzfxndm7zn89dzisiycap2n393y2jbg";
+    author = "Warr1024";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -765,11 +791,11 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Droog71/moontest_32x32" = mkLuantiTxp {
-    name = "moontest_32x32";
-    release = 10626;
-    hash = "0vm62xsmgr4ymjv36cb9vjfzdmd29ic2sf4bs935s0sa0hyv5ad7";
-    author = "Droog71";
+  "debiankaios/simpletextures" = mkLuantiTxp {
+    name = "simpletextures";
+    release = 6440;
+    hash = "15bjmjf8r1zhhn910a5a4apb1nxh1gqs3kyi73yjrhn4q5sfy7va";
+    author = "debiankaios";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
@@ -801,33 +827,6 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Warr1024/ncep9x" = mkLuantiTxp {
-    name = "ncep9x";
-    release = 28154;
-    hash = "155z6pcq1bh16lbkdjxczyxl67p2ylc50m2b3cyy9j95bm2ac3bc";
-    author = "Warr1024";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "Warr1024/nc_regression" = mkLuantiTxp {
-    name = "nc_regression";
-    release = 26834;
-    hash = "1anz03vwhsaw7wnizx2camzfxndm7zn89dzisiycap2n393y2jbg";
-    author = "Warr1024";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
-  "debiankaios/simpletextures" = mkLuantiTxp {
-    name = "simpletextures";
-    release = 6440;
-    hash = "15bjmjf8r1zhhn910a5a4apb1nxh1gqs3kyi73yjrhn4q5sfy7va";
-    author = "debiankaios";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "Lolzsicka/lolzsickacore_64x" = mkLuantiTxp {
     name = "lolzsickacore_64x";
     release = 23764;
@@ -846,20 +845,20 @@
     depends = [ ];
     with_same_name = [ ];
   };
-  "Blocky_Player/hytextures" = mkLuantiTxp {
-    name = "hytextures";
-    release = 16839;
-    hash = "1qihzkjdwzaghw0pmz6b5xj0i3kx53lmsdfbaqs90synai2r75xq";
-    author = "Blocky_Player";
-    provides = [ ];
-    depends = [ ];
-    with_same_name = [ ];
-  };
   "sebpro_3/mt_bare_bone" = mkLuantiTxp {
     name = "mt_bare_bone";
     release = 28417;
     hash = "172wx8ybl7lmrvw04q075zqh7iwd1hqlp3g3cybrg7aridk3b3a6";
     author = "sebpro_3";
+    provides = [ ];
+    depends = [ ];
+    with_same_name = [ ];
+  };
+  "Blocky_Player/hytextures" = mkLuantiTxp {
+    name = "hytextures";
+    release = 16839;
+    hash = "1qihzkjdwzaghw0pmz6b5xj0i3kx53lmsdfbaqs90synai2r75xq";
+    author = "Blocky_Player";
     provides = [ ];
     depends = [ ];
     with_same_name = [ ];
