@@ -106,7 +106,6 @@ in
           {
             description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
             home = "/var/lib/${name}";
-            # maybe its possible to generate a home folder as a derivation which includes the config and mods and at this point only to the nix store
             createHome = true;
             group = "luanti";
             isSystemUser = true;
@@ -141,7 +140,7 @@ in
                   --world ~/world \
                   --gameid ${ serverConfig.game.pname}
               '';
-              # TODO: world generation should respect config
+              # TODO: world generation should respect config, or does it by default?
               User = name;
               Group = "luanti";
               Restart = "on-failure";

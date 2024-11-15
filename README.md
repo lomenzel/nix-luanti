@@ -54,7 +54,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
        enable = true;
        servers = with nix-luanti; {
          cool-server = {
-           game = games.minetest-game;
+           game = games.minetest_game;
            mods = with mods; [
              animalia
              # add as many mods you want :)
