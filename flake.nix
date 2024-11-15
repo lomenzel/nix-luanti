@@ -7,10 +7,10 @@
   };
 
   outputs =
-    {
-      self,
-      nixpkgs,
-      flake-utils,
+    { self
+    , nixpkgs
+    , flake-utils
+    ,
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
@@ -28,7 +28,7 @@
             (writeShellScriptBin "generate" ''
               echo "generating..."
               ${pkgs.nodejs}/bin/node ./updater/fetchContentDB.js
-              ${pkgs.nixfmt-rfc-style}/bin/nixfmt ./src/generated
+              ${pkgs.nixpkgs-fmt}/bin/nixpkgs-fmt ./src/generated
             '')
           ];
         };
