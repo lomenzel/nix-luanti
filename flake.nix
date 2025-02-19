@@ -22,13 +22,13 @@
           mkDerivation = pkgs.stdenv.mkDerivation;
           fetchurl = pkgs.fetchurl;
           unzip = pkgs.unzip;
+          inherit (pkgs) lib;
         };
         devShell = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
-            (writeShellScriptBin "generate" ''
-              echo "generating..."
-              ${pkgs.nodejs}/bin/node ./updater/fetchContentDB.js
-              ${pkgs.nixpkgs-fmt}/bin/nixpkgs-fmt ./src/generated
+            (writeShellScriptBin "fetch" ''
+              echo "fetching ContentDB..."
+              ${nodejs}/bin/node ./src/utils/updater/fetchContentDB.js
             '')
           ];
         };

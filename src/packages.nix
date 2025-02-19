@@ -1,7 +1,7 @@
 { mkDerivation
 , fetchurl
 , unzip
-,
+, lib
 }:
 let
   installPhase = ''
@@ -18,10 +18,9 @@ let
     , author
     , hash ? ""
     , provides ? [ ]
-    , depends ? [ ]
     , with_same_name ? [ ]
-    ,
-    }:
+    , ...
+    }@details:
     mkDerivation {
       pname = name;
       version = builtins.toString release;
@@ -43,8 +42,8 @@ let
     , provides ? [ ]
     , depends ? [ ]
     , with_same_name ? [ ]
-    ,
-    }:
+    , ...
+    }@details:
     mkDerivation {
       pname = name;
       version = builtins.toString release;
@@ -73,8 +72,8 @@ let
     , provides ? [ ]
     , depends ? [ ]
     , with_same_name ? [ ]
-    ,
-    }:
+    , ...
+    }@details:
     mkDerivation {
       pname = name;
       version = builtins.toString release;
@@ -89,6 +88,14 @@ let
       };
 
     };
+  mkLuantiPackage = {type, ...}@details: 
+    if type == "mod" then
+      mkLuantiMod details else
+    if type == "game" then
+      mkLuantiGame details else
+    if type == "txp" then
+      mkLuantiTxp details else
+    builtins.error "unknown type ${builtins.toString type}";
   ambiguous =
     with_same_name: byId:
     mkDerivation {
@@ -147,9 +154,23 @@ let
             (builtins.attrNames byId)
         )
     ));
-  gamesById = import ./generated/games.nix { inherit mkLuantiGame; };
-  modsById = import ./generated/mods.nix { inherit mkLuantiMod; };
-  texture_packsById = import ./generated/texturePacks.nix { inherit mkLuantiTxp; };
+  gamesById = builtins.filter (e: e.meta.type == "luanti_game") allById
+    |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
+    |> builtins.listToAttrs;
+  modsById = builtins.filter (e: e.meta.type == "luanti_mod") allById
+      |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
+    |> builtins.listToAttrs;
+  texture_packsById = builtins.filter (e: e.meta.type == "luanti_texture_pack") allById
+      |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
+    |> builtins.listToAttrs;
+  allById = lib.filesystem.listFilesRecursive ../contentDB
+    |> map asPackage
+    ;
+  
+  asPackage = path: builtins.readFile path
+    |> builtins.fromJSON
+    |> mkLuantiPackage
+    ;
 
 in
 {
