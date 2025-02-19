@@ -63,7 +63,10 @@ async function packagelist() {
 
     for (let i = 0; i < list.length; i++) {
         console.log(`processing: ${i + 1}/${list.length}`)
-        if (fetched > 100) return;
+        if (fetched >= 100) {
+            console.log("Reached fetch limit. there are still new packages. execute again to continue")
+            return
+        };
         let package = list[i]
         package.details = await getDetails(`${package.author}/${package.name}/${package.release}`)
         package.WithSameName = list.reduce((acc, curr) => { return [...acc, ...((curr.name === package.name && curr.author !== package.author && curr.type === package.type) ? [`"${curr.author}/${curr.name}"`] : [])] }, [])
