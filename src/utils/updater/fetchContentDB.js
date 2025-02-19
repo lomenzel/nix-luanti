@@ -63,7 +63,7 @@ async function packagelist() {
 
     for (let i = 0; i < list.length; i++) {
         console.log(`processing: ${i + 1}/${list.length}`)
-        if (fetched >= 100) {
+        if (fetched >= 500) {
             console.log("Reached fetch limit. there are still new packages. execute again to continue")
             return
         };
