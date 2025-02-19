@@ -134,7 +134,7 @@ in
                 ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
                 ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
 
-                ${pkgs.minetest}/bin/minetestserver \
+                ${pkgs.luanti-server}/bin/luantiserver \
                   --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
                   --port ${builtins.toString serverConfig.port} \
                   --color always \

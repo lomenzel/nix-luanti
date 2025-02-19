@@ -6,36 +6,43 @@
 let
   checkDependencies = game: mods: (builtins.length (missingDependencies game mods)) == 0;
 
-  missingDependencies = game: mods: lists.subtractLists (allProviding game mods) (allDeps mods);
-  depsProvidedBy =
-    mods:
-    builtins.listToAttrs (
-      builtins.foldl'
-        (
-          acc: curr:
-          acc
-          ++ (builtins.map
-            (dep: {
-              name = dep.name;
-              value = dep.packages;
-            })
-            curr.meta.depends)
-        ) [ ]
-        mods
-    );
-  allDeps =
-    mods:
-    lists.naturalSort (
-      lists.unique (
-        builtins.foldl' (x: y: x ++ y) [ ] (
-          builtins.map (mod: builtins.map (dep: dep.name) mod.meta.depends) mods
-        )
-      )
-    );
-  allProviding =
-    game: mods: lists.naturalSort (lists.unique (game.meta.provides ++ (allProvidingModsOnly mods)));
-  allProvidingModsOnly =
-    mods: builtins.foldl' (x: y: x ++ y) [ ] (builtins.map (mod: mod.meta.provides) mods);
+  missingDependencies = game: mods: mods
+    |> allDeps
+    |> lists.subtractLists (allProviding game mods);
+
+
+  depsProvidedBy = mods: mods
+    |> builtins.foldl' (
+      acc: curr:
+      acc
+      ++ (builtins.map
+        (dep: {
+          name = dep.name;
+          value = dep.packages;
+        })
+        curr.meta.depends)
+    ) [ ]
+    |> builtins.listToAttrs;
+
+  flatten = list: builtins.foldl' (x: y: x ++ y) [] list;
+  dependencyNames = mod: builtins.map (dep: dep.name) mod.meta.depends;
+
+  allDeps = mods: mods
+    |> builtins.map dependencyNames
+    |> flatten
+    |> lists.unique
+    |> lists.naturalSort;
+    
+  allProviding = game: mods: mods
+    |> allProvidingModsOnly
+    |> (x: game.meta.provides ++ x)
+    |> lists.unique
+    |> lists.naturalSort;
+
+  allProvidingModsOnly = mods: mods
+    |> builtins.map (mod: mod.meta.provides)
+    |> flatten
+    |> lists.unique;
   findNextDependency = game: mods: byId.mods.${findNextDependencyName game mods};
   findNextDependencyName =
     game: mods:
@@ -70,23 +77,19 @@ let
         with-dependencies game mods
       );
     };
-  mapAttrNames =
-    f: attrSet:
-    builtins.listToAttrs (
-      map
-        (name: {
-          name = (f name);
-          value = builtins.getAttr name attrSet;
-        })
-        (builtins.attrNames attrSet)
-    );
+
+  mapAttrNames = f: attrSet: attrSet
+    |> builtins.attrNames
+    |> map (name: {
+      name = f name;
+      value = builtins.getAttr name attrSet;
+    })
+    |> builtins.listToAttrs;
 
 in
 {
-
   inherit
     mods-folder
     mapAttrNames
-    ;
-
+  ;
 }
