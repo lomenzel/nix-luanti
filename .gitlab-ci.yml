@@ -1,9 +1,8 @@
 stages:
   - update
 
-update_timestamp:
+update_contentDB:
   stage: update
-  when: manual
   tags:
     - nix
   script:

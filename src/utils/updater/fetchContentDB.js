@@ -3,6 +3,7 @@ const fs = require("node:fs");
 const path = require("path")
 
 const dbDir = "./contentDB"
+let fetched = 0;
 
 const { exec } = require("child_process")
 
@@ -14,6 +15,7 @@ function getHash(url) {
             }
             const lines = stdout.trim().split('\n');
             const hashLine = lines[lines.length - 1];
+            fetched++;
             resolve(hashLine);
         });
     });
@@ -57,17 +59,16 @@ async function packagelist() {
         mod: [],
         txp: []
     }
-    console.log( `${list.length} Packages found`)
+    console.log(`${list.length} Packages found`)
 
     for (let i = 0; i < list.length; i++) {
-        //console.log(`processing: ${i + 1}/${list.length}`)
+        console.log(`processing: ${i + 1}/${list.length}`)
+        if (fetched > 2) return;
         let package = list[i]
         package.details = await getDetails(`${package.author}/${package.name}/${package.release}`)
         package.WithSameName = list.reduce((acc, curr) => { return [...acc, ...((curr.name === package.name && curr.author !== package.author && curr.type === package.type) ? [`"${curr.author}/${curr.name}"`] : [])] }, [])
         packages[package.type].push(package)
     }
-    // console.log(packages)
-    return packages;
 }
 
 async function main() {
