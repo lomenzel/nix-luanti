@@ -4,6 +4,8 @@ stages:
 update_timestamp:
   stage: update
   when: manual
+  tags:
+    - nix
   script:
     - git checkout -B "$CI_COMMIT_BRANCH"
     - nix develop -c fetch
