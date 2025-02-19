@@ -1,0 +1,16 @@
+stages:
+  - update
+
+update_timestamp:
+  stage: update
+  when: manual
+  script:
+    - git checkout -B "$CI_COMMIT_BRANCH"
+    - nix develop -c fetch
+    - git config --global user.email "ci-pipeline@menzel.lol"
+    - git config --global user.name "CI Pipeline"
+    - git add *
+    - git commit -m "update ContentDB" || echo "No changes to commit"
+    - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
+    - git push origin "$CI_COMMIT_BRANCH"
+      
