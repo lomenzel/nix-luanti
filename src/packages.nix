@@ -4,98 +4,31 @@
 , lib
 }:
 with builtins; let
-  installPhase = ''
-    mkdir -p $out
-    cp -r $(ls -d */ )* $out
-  '';
-  unpackPhase = "${unzip}/bin/unzip $src";
-  url =
-    author: name: release:
-    "https://content.minetest.net/packages/${author}/${name}/releases/${toString release}/download/";
-  mkLuantiGame =
+  mkLuantiPackage =
     { name
     , release
     , author
+    , type
     , hash ? ""
-    , provides ? [ ]
-    , with_same_name ? [ ]
     , ...
     }@details:
-    mkDerivation {
+    mkDerivation rec {
       pname = name;
       version = toString release;
       src = fetchurl {
-        url = url author name release;
+        url = "https://content.minetest.net/packages/${author}/${name}/releases/${version}/download/";
         sha256 = hash;
       };
-      inherit unpackPhase installPhase;
-      meta = details // {
-        inherit provides with_same_name author;
-        type = "luanti_game";
-      };
+      unpackPhase = "${unzip}/bin/unzip $src";
+      installPhase = if type != "txp" then ''
+        mkdir -p $out
+        cp -r $(ls -d */ )* $out
+      '' else ''
+        mkdir -p $out
+        cp -r ./* $out
+      '';
+      meta = details;
     };
-  mkLuantiMod =
-    { name
-    , release
-    , author
-    , hash ? ""
-    , provides ? [ ]
-    , depends ? [ ]
-    , with_same_name ? [ ]
-    , ...
-    }@details:
-    mkDerivation {
-      pname = name;
-      version = toString release;
-      src = fetchurl {
-        url = url author name release;
-        sha256 = hash;
-      };
-
-      inherit unpackPhase installPhase;
-      meta = details // {
-        inherit
-          provides
-          depends
-          with_same_name
-          author
-          ;
-        type = "luanti_mod";
-      };
-
-    };
-  mkLuantiTxp =
-    { name
-    , release
-    , author
-    , hash ? ""
-    , provides ? [ ]
-    , depends ? [ ]
-    , with_same_name ? [ ]
-    , ...
-    }@details:
-    mkDerivation {
-      pname = name;
-      version = toString release;
-      src = fetchurl {
-        url = url author name release;
-        sha256 = hash;
-      };
-      inherit unpackPhase installPhase;
-      meta = details // {
-        inherit with_same_name author;
-        type = "luanti_texture_pack";
-      };
-
-    };
-  mkLuantiPackage = {type, ...}@details: 
-    if type == "mod" then
-      mkLuantiMod details else
-    if type == "game" then
-      mkLuantiGame details else
-    if type == "txp" then
-      mkLuantiTxp details else
-    error "unknown type ${toString type}";
   ambiguous =
     with_same_name: byId:
     mkDerivation {
@@ -116,28 +49,30 @@ with builtins; let
       );
       meta.depends =  [];
     };
-  byIdToByName = byId:
-    (listToAttrs (
-      map
+  byIdToByName = byId: 
+    (byId
+      |> attrNames
+      |> map
         (id: {
           name = byId.${id}.pname;
           value = ambiguous byId.${id}.meta.with_same_name byId;
         })
-        (attrNames byId)
-    ))
+      |> listToAttrs
+      )
     // (lib.filterAttrs (n: v: length v.meta.with_same_name <= 1) byId
       |> attrNames
       |> map (e: {name = byId.${e}.pname; value = byId.${e};})
       |> listToAttrs
       )
     ;
-  gamesById = filter (e: e.meta.type == "luanti_game") allContentDBItems
-    |> map (e: {name = e.meta.id; value = e;})
-    |> listToAttrs;
-  modsById = filter (e: e.meta.type == "luanti_mod") allContentDBItems
-    |> map (e: {name = e.meta.id; value = e;})
-    |> listToAttrs;
-  texture_packsById = filter (e: e.meta.type == "luanti_texture_pack") allContentDBItems
+
+
+  getByIdType = type: allContentDBItems
+    |> filter (e: e.meta.type == type)
+    |> map (e: {name = e.meta.id; value= e;})
+    |> listToAttrs
+    ;
+  texture_packsById = filter (e: e.meta.type == "txp") allContentDBItems
     |> map (e: {name = e.meta.id; value = e;})
     |> listToAttrs;
   allContentDBItems = lib.filesystem.listFilesRecursive ../contentDB
@@ -165,9 +100,9 @@ in
   mods = byIdToByName modsById;
   texture_packs = byIdToByName texture_packsById;
   byId = {
-    games = gamesById;
-    mods = modsById;
-    texture_packs = texture_packsById;
+    games = getByIdType "game";
+    mods = getByIdType "mod";
+    texture_packs = getByIdType "txp";
   };
 
 }
