@@ -95,6 +95,7 @@ in
               default = { };
               description = ''
                 Settings to add to the luanti config file.
+                by default sets the prometheus exporter address to 127.0.0.1:${"$"}{port}
               '';
             };
           };
@@ -142,7 +143,10 @@ in
                 ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
 
                 ${serverConfig.package}/bin/luantiserver \
-                  --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
+                  --config ${builtins.toFile "luanti.conf" (
+                    {prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}";} // serverConfig.config
+                    |> toConf
+                  )} \
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ~/world \
