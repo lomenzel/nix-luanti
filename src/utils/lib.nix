@@ -20,7 +20,7 @@ let
           name = dep.name;
           value = dep.packages;
         })
-        curr.meta.depends)
+        curr.meta.dependencies.${curr.meta.id})
     ) [ ]
     |> builtins.listToAttrs;
 
