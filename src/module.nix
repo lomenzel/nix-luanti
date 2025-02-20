@@ -13,8 +13,7 @@ let
   byId =
     (import ./packages.nix {
       mkDerivation = pkgs.stdenv.mkDerivation;
-      fetchurl = pkgs.fetchurl;
-      unzip = pkgs.unzip;
+      inherit (pkgs) lib unzip fetchurl;
     }).byId;
 
   # toConf copied from nixpkgs module
