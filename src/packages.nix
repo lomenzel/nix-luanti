@@ -95,10 +95,10 @@ with builtins; let
     ;
 
 in
-{
-  games = byIdToByName gamesById;
-  mods = byIdToByName modsById;
-  texture_packs = byIdToByName texture_packsById;
+rec {
+  games = byIdToByName byId.games;
+  mods = byIdToByName byId.mods;
+  texture_packs = byIdToByName byId.texture_packs;
   byId = {
     games = getByIdType "game";
     mods = getByIdType "mod";
