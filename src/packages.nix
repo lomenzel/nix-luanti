@@ -3,7 +3,7 @@
 , unzip
 , lib
 }:
-let
+with builtins; let
   installPhase = ''
     mkdir -p $out
     cp -r $(ls -d */ )* $out
@@ -11,7 +11,7 @@ let
   unpackPhase = "${unzip}/bin/unzip $src";
   url =
     author: name: release:
-    "https://content.minetest.net/packages/${author}/${name}/releases/${builtins.toString release}/download/";
+    "https://content.minetest.net/packages/${author}/${name}/releases/${toString release}/download/";
   mkLuantiGame =
     { name
     , release
@@ -23,13 +23,13 @@ let
     }@details:
     mkDerivation {
       pname = name;
-      version = builtins.toString release;
+      version = toString release;
       src = fetchurl {
         url = url author name release;
         sha256 = hash;
       };
       inherit unpackPhase installPhase;
-      meta = {
+      meta = details // {
         inherit provides with_same_name author;
         type = "luanti_game";
       };
@@ -46,14 +46,14 @@ let
     }@details:
     mkDerivation {
       pname = name;
-      version = builtins.toString release;
+      version = toString release;
       src = fetchurl {
         url = url author name release;
         sha256 = hash;
       };
 
       inherit unpackPhase installPhase;
-      meta = {
+      meta = details // {
         inherit
           provides
           depends
@@ -76,13 +76,13 @@ let
     }@details:
     mkDerivation {
       pname = name;
-      version = builtins.toString release;
+      version = toString release;
       src = fetchurl {
         url = url author name release;
         sha256 = hash;
       };
       inherit unpackPhase installPhase;
-      meta = {
+      meta = details // {
         inherit with_same_name author;
         type = "luanti_texture_pack";
       };
@@ -95,19 +95,19 @@ let
       mkLuantiGame details else
     if type == "txp" then
       mkLuantiTxp details else
-    builtins.error "unknown type ${builtins.toString type}";
+    error "unknown type ${toString type}";
   ambiguous =
     with_same_name: byId:
     mkDerivation {
       name = "ambigous";
       version = "1";
-      src = builtins.throw "This Package is ambiguous. please use one of the following: ${
-        builtins.toString (
-          builtins.map (id: "${byId.${id}.pname}.\"${byId.${id}.meta.author}\"") with_same_name
+      src = throw "This Package is ambiguous. please use one of the following: ${
+        toString (
+          map (id: "${byId.${id}.pname}.\"${byId.${id}.meta.author}\"") with_same_name
         )
       }";
-      passthru = builtins.listToAttrs (
-        builtins.map
+      passthru = listToAttrs (
+        map
           (package: {
             name = byId.${package}.meta.author;
             value = byId.${package};
@@ -116,60 +116,47 @@ let
       );
       meta.depends =  [];
     };
-  byIdToByName =
-    byId:
-
-    (builtins.listToAttrs (
-      builtins.map
+  byIdToByName = byId:
+    (listToAttrs (
+      map
         (id: {
           name = byId.${id}.pname;
-          value = ambiguous (byId.${id}.meta.with_same_name ++ [ id ]) byId;
+          value = ambiguous byId.${id}.meta.with_same_name byId;
         })
-        (builtins.attrNames byId)
+        (attrNames byId)
     ))
-    // (builtins.listToAttrs (
-      builtins.filter
-        (
-          { included ? true
-          , ...
-          }:
-          included
-        )
-        (
-          builtins.map
-            (
-              id:
-              if (builtins.length byId.${id}.meta.with_same_name) == 0 then
-                {
-                  name = byId.${id}.pname;
-                  value = byId.${id};
-                }
-              else
-                {
-                  name = id;
-                  value = byId.${id};
-                  included = false;
-                }
-            )
-            (builtins.attrNames byId)
-        )
-    ));
-  gamesById = builtins.filter (e: e.meta.type == "luanti_game") allById
-    |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
-    |> builtins.listToAttrs;
-  modsById = builtins.filter (e: e.meta.type == "luanti_mod") allById
-      |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
-    |> builtins.listToAttrs;
-  texture_packsById = builtins.filter (e: e.meta.type == "luanti_texture_pack") allById
-      |> map (e: {name = "${e.meta.author}/${e.meta.name}"; value = e;})
-    |> builtins.listToAttrs;
-  allById = lib.filesystem.listFilesRecursive ../contentDB
-    |> map asPackage
+    // (lib.filterAttrs (n: v: length v.meta.with_same_name <= 1) byId
+      |> attrNames
+      |> map (e: {name = byId.${e}.pname; value = byId.${e};})
+      |> listToAttrs
+      )
     ;
-  
-  asPackage = path: builtins.readFile path
-    |> builtins.fromJSON
-    |> mkLuantiPackage
+  gamesById = filter (e: e.meta.type == "luanti_game") allContentDBItems
+    |> map (e: {name = e.meta.id; value = e;})
+    |> listToAttrs;
+  modsById = filter (e: e.meta.type == "luanti_mod") allContentDBItems
+    |> map (e: {name = e.meta.id; value = e;})
+    |> listToAttrs;
+  texture_packsById = filter (e: e.meta.type == "luanti_texture_pack") allContentDBItems
+    |> map (e: {name = e.meta.id; value = e;})
+    |> listToAttrs;
+  allContentDBItems = lib.filesystem.listFilesRecursive ../contentDB
+    |> map readFile
+    |> map fromJSON
+    |> map (e: e // { id = "${e.author}/${e.name}";})
+    |> addWithSameName
+    |> map mkLuantiPackage
+    ;
+
+  addWithSameName = list:
+    map (e:
+      e // {
+        with_same_name = list 
+          |> filter (p: p.name == e.name)
+          |> map (getAttr "id")
+          ;
+      }
+    ) list
     ;
 
 in
