@@ -20,9 +20,8 @@
       {
         packages = import src/packages.nix {
           mkDerivation = pkgs.stdenv.mkDerivation;
-          fetchurl = pkgs.fetchurl;
-          unzip = pkgs.unzip;
-          inherit (pkgs) lib;
+          inherit (pkgs) unzip fetchurl;
+          lib = pkgs.lib;
         };
         devShell = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [

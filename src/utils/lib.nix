@@ -25,7 +25,7 @@ let
     |> builtins.listToAttrs;
 
   flatten = list: builtins.foldl' (x: y: x ++ y) [] list;
-  dependencyNames = mod: builtins.map (dep: dep.name) mod.meta.dependencies.${mod.id};
+  dependencyNames = mod: builtins.map (dep: dep.name) mod.meta.dependencies.${mod.meta.id};
 
   allDeps = mods: mods
     |> builtins.map dependencyNames

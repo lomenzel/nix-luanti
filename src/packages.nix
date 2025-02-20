@@ -2,6 +2,7 @@
 , fetchurl
 , unzip
 , lib
+, ...
 }:
 with builtins; let
   mkLuantiPackage =
