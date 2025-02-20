@@ -63,6 +63,10 @@ in
 {
   options.services.luanti = {
     enable = lib.mkEnableOption "Luanti Server Management";
+    package = lib.mkOption {
+      type = lib.types.package;
+      default = pkgs.luanti-server;
+    };
     servers = lib.mkOption {
       type =
         with lib.types;
@@ -78,6 +82,10 @@ in
             game = lib.mkOption {
               #package of the luanti game that should run
               default = byId.games."Minetest/minetest_game";
+            };
+            package = lib.mkOption {
+              type = lib.types.package;
+              default = cfg.package;
             };
             mods = lib.mkOption {
               default = [ ];
@@ -134,7 +142,7 @@ in
                 ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
                 ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
 
-                ${pkgs.luanti-server}/bin/luantiserver \
+                ${serverConfig.package}/bin/luantiserver \
                   --config ${builtins.toFile "luanti.conf" (toConf serverConfig.config)} \
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
