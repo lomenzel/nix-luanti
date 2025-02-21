@@ -1,7 +1,7 @@
 { byId
 , lists
 , mkDerivation
-,
+, lib
 }:
 let
   checkDependencies = game: mods: (builtins.length (missingDependencies game mods)) == 0;
@@ -67,16 +67,21 @@ let
     ln -sf ${mod} $out/${mod.pname}
   '';
 
-  mods-folder =
-    game: mods:
-    mkDerivation {
-      name = "mods";
-      src = game; # just something. is not used but src is required
-      #builtInputs = with-dependencies game mods;
-      installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (
-        with-dependencies game mods
-      );
-    };
+  mods-folder = game: mods:
+    if (lib.isDerivation game && builtins.isList mods && builtins.all (mod: lib.isDerivation mod) mods) then
+      mkDerivation {
+        name = "mods";
+        src = game; # just something. is not used but src is required
+        #builtInputs = with-dependencies game mods;
+        installPhase = lists.foldl (acc: curr: "${acc}\n${installStep curr}") "mkdir -p $out\n" (
+          with-dependencies game mods
+        );
+      }
+    else
+      throw "passed invalid game or mod list";
+  
+
+  
 
   mapAttrNames = f: attrSet: attrSet
     |> builtins.attrNames

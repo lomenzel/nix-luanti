@@ -35,6 +35,7 @@
         lib = import ./src/utils/lib.nix {
           byId = self.packages.${system}.byId;
           lists = nixpkgs.lib.lists;
+          inherit (nixpkgs) lib;
           mkDerivation = pkgs.stdenv.mkDerivation;
         };
       }

@@ -31,25 +31,27 @@ with builtins; let
       meta = details;
     };
   ambiguous =
-    with_same_name: byId:
-    mkDerivation {
-      name = "ambigous";
-      version = "1";
-      src = throw "This Package is ambiguous. please use one of the following: ${
+    with_same_name: byId: let 
+      error = throw "This Package is ambiguous. please use one of the following: ${
         toString (
           map (id: "${byId.${id}.pname}.\"${byId.${id}.meta.author}\"") with_same_name
         )
       }";
-      passthru = listToAttrs (
-        map
-          (package: {
-            name = byId.${package}.meta.author;
-            value = byId.${package};
-          })
-          with_same_name
-      );
-      meta.depends =  [];
-    };
+    in
+      mkDerivation {
+        name = "ambigous";
+        version = "1";
+        src = error; 
+        passthru = listToAttrs (
+          map
+            (package: {
+              name = byId.${package}.meta.author;
+              value = byId.${package};
+            })
+            with_same_name
+        );
+        meta = error;
+      }; 
   byIdToByName = byId: 
     (byId
       |> attrNames

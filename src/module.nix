@@ -6,7 +6,7 @@
 let
   cfg = config.services.luanti;
   nix-luanti-lib = import ./utils/lib.nix {
-    inherit byId;
+    inherit byId lib;
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   };
@@ -60,11 +60,18 @@ let
 
 in
 {
-  options.services.luanti = {
+  options.services.luanti = with lib.types; {
     enable = lib.mkEnableOption "Luanti Server Management";
     package = lib.mkOption {
       type = lib.types.package;
       default = pkgs.luanti-server;
+    };
+    whitelist = lib.mkOption {
+      type = nullOr (listOf string);
+      default = null;
+      description = ''
+        Default white list used by all servers unles explicitly declared in server
+      '';
     };
     servers = lib.mkOption {
       type =
@@ -86,7 +93,17 @@ in
               type = lib.types.package;
               default = cfg.package;
             };
+            whitelist = lib.mkOption {
+              type = nullOr (listOf string);
+              default = null;
+              description = ''
+                whitelist for this server. overrides default whitelist
+                example: ["alice" "bob"]
+                leave this option null to use the default whitelist
+              '';
+            };
             mods = lib.mkOption {
+              type = listOf package;
               default = [ ];
               #list of packages (has to be luanti mods. dont know if i need to check that here)
             };
@@ -109,9 +126,6 @@ in
     users.users = builtins.mapAttrs
       (
         name: serverConfig:
-          let
-            mods = nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods;
-          in
           {
             description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
             home = "/var/lib/${name}";
@@ -125,7 +139,14 @@ in
     systemd.services = builtins.mapAttrs
       (
         name: serverConfig:
-
+          let
+            whitelist = if serverConfig.whitelist == null then cfg.whitelist else serverConfig.whitelist;
+            mods = nix-luanti-lib.mods-folder serverConfig.game (serverConfig.mods ++ (if whitelist == null then [ ] else [ byId.mods."AntumDeluge/whitelist" ]));            
+            whitelistFile = pkgs.writeText "whitelist.txt" (
+              builtins.foldl' (acc: curr: acc + "\n" + curr) "" whitelist
+                |> lib.trim
+            );
+          in
           {
             #name = name;
             description = "Luanti server instance for ${name}.";
@@ -135,12 +156,17 @@ in
               ExecStart = pkgs.writeShellScript "start-luanti-server" ''
                 rm -rf ~/.minetest
                 rm -rf ~/world/worldmods
+                rm -rf ~/world/whitelist.txt
 
                 mkdir -p ~/.minetest/games
                 mkdir -p ~/world
 
-                ln -s ${nix-luanti-lib.mods-folder serverConfig.game serverConfig.mods} ~/world/worldmods
+                ln -s ${mods} ~/world/worldmods
                 ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
+                ${ if whitelist == null then "" else ''
+                  rm -rf ~/world/whitelist.txt
+                  cat ${whitelistFile} > ~/world/whitelist.txt
+                ''}
 
                 ${serverConfig.package}/bin/luantiserver \
                   --config ${builtins.toFile "luanti.conf" (
