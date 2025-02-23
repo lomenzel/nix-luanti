@@ -67,7 +67,7 @@ in
       default = pkgs.luanti-server;
     };
     whitelist = lib.mkOption {
-      type = nullOr (listOf string);
+      type = nullOr (listOf str);
       default = null;
       description = ''
         Default white list used by all servers unles explicitly declared in server
@@ -94,7 +94,7 @@ in
               default = cfg.package;
             };
             whitelist = lib.mkOption {
-              type = nullOr (listOf string);
+              type = nullOr (listOf str);
               default = null;
               description = ''
                 whitelist for this server. overrides default whitelist

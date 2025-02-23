@@ -10,7 +10,6 @@ let
     |> allDeps
     |> lists.subtractLists (allProviding game mods);
 
-
   depsProvidedBy = mods: mods
     |> builtins.foldl' (
       acc: curr:
@@ -50,6 +49,7 @@ let
       builtins.throw "Cannot find dependency in ContentDB. Please add it manually: ${builtins.toString (builtins.head (missingDependencies game mods))}"
     else
       builtins.head (providingNextDependency game mods);
+
   providingNextDependency =
     game: mods:
     builtins.filter (id: builtins.hasAttr id byId.mods) (
@@ -79,9 +79,6 @@ let
       }
     else
       throw "passed invalid game or mod list";
-  
-
-  
 
   mapAttrNames = f: attrSet: attrSet
     |> builtins.attrNames
