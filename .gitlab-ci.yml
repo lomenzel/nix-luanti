@@ -17,7 +17,7 @@ update_contentDB:
     - git push origin "$CI_COMMIT_BRANCH"
 
 build_VM:
-  stage: update
+  stage: test
   tags:
     - nix
   script:
