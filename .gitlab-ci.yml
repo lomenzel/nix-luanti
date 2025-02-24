@@ -29,6 +29,8 @@ build_test_pipeline:
 
 trigger_test_pipeline:
   stage: test
+  dependencies:
+    - build_test_pipeline
   trigger:
     include:
       - artifact: test_pipeline.yml
