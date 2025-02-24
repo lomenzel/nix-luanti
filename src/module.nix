@@ -176,7 +176,6 @@ in
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ~/world \
-                  --verbose \
                   --gameid ${serverConfig.game.pname}
               '';
               # TODO: world generation should respect config, or does it by default?

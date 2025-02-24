@@ -8,12 +8,7 @@ pkgs.testers.runNixOSTest {
       services.luanti = with nix-luanti.packages."x86_64-linux"; {
         enable = true;
         servers = {
-          test = {
-            port = 30000;
-            whitelist = [ "testUser1" "testUser2" ];
-            game = games.mineclone2;
-            mods = with mods; [ logistica ];
-          };
+          test.port = 30000;
           test2.port = 30001;
         };
       };
