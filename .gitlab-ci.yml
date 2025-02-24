@@ -31,6 +31,6 @@ trigger_test_pipeline:
   stage: test
   trigger:
     include:
-      - artifact: generated-pipeline.yml
+      - artifact: test_pipeline.yml
         job: build_test_pipeline
     strategy: depend
