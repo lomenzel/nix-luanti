@@ -1,6 +1,7 @@
 stages:
   - update
   - test
+  - testPipeline
 
 update_contentDB:
   stage: update
@@ -21,18 +22,14 @@ build_test_pipeline:
   tags:
     - nix
   script:
-    - nix build --extra-experimental-features "nix-command flakes pipe-operators" .\#testPipeline
-    - cat result > test_pipeline.yml
+    - nix build --extra-experimental-features "nix-command flakes pipe-operators" .\#testPipeline && cat result > test_pipeline.yml
   artifacts:
     paths:
       - test_pipeline.yml
 
 trigger_test_pipeline:
-  stage: test
-  dependencies:
-    - build_test_pipeline
+  stage: testPipeline
   trigger:
     include:
       - artifact: test_pipeline.yml
         job: build_test_pipeline
-    strategy: depend
