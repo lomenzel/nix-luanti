@@ -57,27 +57,52 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
    {
      services.luanti = {
        enable = true;
+
+       # default is null so everyone can join
+       # this whitelist is applied to all servers that dont define its own
+       # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
+       whitelist = [ "singleplayer" ];
+       
        servers = with nix-luanti; {
          cool-server = {
-           # minetest_game is the default so this asignment can be left out
-           game = games.minetest_game;
+           # VoxeLibre is the default
+           game = games.mineclone2;
+
+           # by default no mods are installed
            mods = with mods; [
-             animalia
-             # add as many mods you want :)
+             logistica
+             # ... add as many mods you want :)
            ];
            # port has no default so it must be set
            port = 30000;
          };
          other-cool-server = {
-           game = games.mineclone2;
-           # default mods is [] so if no mods are needed it can be left out
-           port = 30001;
+          
+          # overrides the default whitelist
+          whitelist = [ "alice" "bob" ];
+          game = games.minetest_game;
+          mods = with mods; [
+            animalia
+            i3
+          ];
+          port = 30001;
          };
        };
      };
    }
    ```
 
+    A minimal Config may look like this:
+
+      ```nix
+        services.luanti = {
+          enable = true;
+          servers.default.port = 30000;
+        };
+
+      ```
+    it would deploy a VoxeLibre server without a whitelist and without additional mods on UDP port 30000 with prometheus metrics at tcp port 30000
+ 
 3. **Rebuild and Start the Server:**
 
    apply your configuration:
@@ -94,7 +119,7 @@ To add a new Luanti server, simply add a new entry under `services.luanti.server
 
 Mods can be specified in the `mods` attribute of each server configuration. Dependencies will be automatically resolved. The mods are pulled from the `nix-luanti.mods` package set, which itself gets the mods from Luanti's contentDB
 
-### Advanced Configuration (not testet yet)
+### Advanced Configuration
 
 You can customize additional settings in `services.luanti.servers.<your-server-name>.config`. This config is directly passed to the luanti.conf configuration file.
 

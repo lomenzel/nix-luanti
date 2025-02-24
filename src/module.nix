@@ -87,7 +87,7 @@ in
             };
             game = lib.mkOption {
               #package of the luanti game that should run
-              default = byId.games."Minetest/minetest_game";
+              default = byId.games."Wuzzy/mineclone2";
             };
             package = lib.mkOption {
               type = lib.types.package;
