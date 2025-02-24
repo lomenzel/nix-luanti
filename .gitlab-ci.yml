@@ -12,13 +12,15 @@ update_contentDB:
     - git config --global user.email "ci-pipeline@menzel.lol"
     - git config --global user.name "CI Pipeline"
     - git add *
-    - git commit -m "update ContentDB" || echo "No changes to commit"
+    - git commit -m "update ContentDB" || exit 0
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
     - git push origin "$CI_COMMIT_BRANCH"
+    - exit 1
 
 build_test_pipeline:
   stage: test
-  needs: []
+  needs:
+    - job: update_contentDB
   tags:
     - nix
   script:
