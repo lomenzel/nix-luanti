@@ -1,7 +1,7 @@
 { pkgs, nix-luanti, ... }:
 
 pkgs.testers.runNixOSTest {
-  name = "config-build-and-port-conflicts";
+  name = "example-config-mentioned-in-readme";
   nodes = {
     machine = { config, pkgs, ... }: {
       imports = [ nix-luanti.nixosModules.default ];
@@ -13,7 +13,7 @@ pkgs.testers.runNixOSTest {
        # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
        whitelist = [ "singleplayer" ];
        
-       servers = with nix-luanti; {
+       servers = with nix-luanti.packages."x86_64-linux"; {
          cool-server = {
            # VoxeLibre is the default
            game = games.mineclone2;
