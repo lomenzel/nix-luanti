@@ -64,7 +64,7 @@ with builtins; let
       )
     // (lib.filterAttrs (n: v: length v.meta.with_same_name <= 1) byId
       |> attrNames
-      |> map (e: {name = byId.${e}.pname; value = byId.${e};})
+      |> map (e: {name = byId.${e}.pname; value = byId.${e} // {"${byId.${e}.meta.author}" = byId.${e};};})
       |> listToAttrs
       )
     ;
