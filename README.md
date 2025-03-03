@@ -80,6 +80,9 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
           
           # overrides the default whitelist
           whitelist = [ "alice" "bob" ];
+
+          # you can also pin the game to a specific release for example games.minetest_game.Minetest."29922"
+          # release here means the internal release number by contentdb
           game = games.minetest_game;
           mods = with mods; [
             animalia
