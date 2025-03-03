@@ -10,11 +10,13 @@ let
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   };
-  byId =
+  packages  =
     (import ./packages.nix {
       mkDerivation = pkgs.stdenv.mkDerivation;
       inherit (pkgs) lib unzip fetchurl;
-    }).byId;
+    });
+
+  inherit (packages) byId;
 
   # toConf copied from nixpkgs module
 

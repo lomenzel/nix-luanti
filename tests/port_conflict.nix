@@ -5,7 +5,7 @@ pkgs.testers.runNixOSTest {
   nodes = {
     portOK = { config, pkgs, ... }: {
       imports = [ nix-luanti.nixosModules.default ];
-      services.luanti = with nix-luanti.packages."x86_64-linux"; {
+      services.luanti = {
         enable = true;
         servers = {
           test.port = 30000;
@@ -33,7 +33,7 @@ pkgs.testers.runNixOSTest {
     portConflict.wait_for_unit("luanti-test.service")
     portConflict.wait_for_unit("luanti-test2.service")
 
-    # Wait longer to let the conflict trigger a failure.
+    # Wait to let the conflict trigger a failure.
     portOK.sleep(15)
     portConflict.sleep(15)
 

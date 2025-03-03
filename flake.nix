@@ -46,6 +46,7 @@
           };
       })
       |> listToAttrs;
-    nixosModules.default = import ./src/module.nix;
+    nixosModules.default = import ./src/nixos-module.nix;
+    homeManagerModules.default = import ./src/homemanager-module.nix;
   };
 }
