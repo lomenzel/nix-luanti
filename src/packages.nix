@@ -78,12 +78,29 @@ with builtins; let
   texture_packsById = filter (e: e.meta.type == "txp") allContentDBItems
     |> map (e: {name = e.meta.id; value = e;})
     |> listToAttrs;
-  allContentDBItems = lib.filesystem.listFilesRecursive ../contentDB
+  allContentDBItems = contentDBReleases
+    |> (list: filter (p:
+      let
+        withSameId = filter (p2: p2.id == p.id) list;
+      in
+        length withSameId == 1 ||
+        all (p2: p.release >= p2.release) withSameId
+    ) list)
+    |> addWithSameName
+    |> map mkLuantiPackage
+    |> map (e: e // allWithID e.meta.id)
+    ;
+
+  contentDBReleases = lib.filesystem.listFilesRecursive ../contentDB
     |> map readFile
     |> map fromJSON
     |> map (e: e // { id = "${e.author}/${e.name}";})
-    |> addWithSameName
-    |> map mkLuantiPackage
+    ;
+
+  allWithID = id: contentDBReleases
+    |> filter (p: id == p.id)
+    |> map (p: {name = toString p.release; value = mkLuantiPackage p;})
+    |> listToAttrs
     ;
 
   addWithSameName = list:
@@ -92,6 +109,7 @@ with builtins; let
         with_same_name = list 
           |> filter (p: p.name == e.name)
           |> map (getAttr "id")
+          |> lib.lists.unique
           ;
       }
     ) list
