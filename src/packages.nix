@@ -9,20 +9,21 @@ with builtins;
 let
   mkLuantiPackage =
     {
-  name,
+      name,
       release,
       author,
-     type,
+      type,
       hash ? "",
       ...
     }@details:
     mkDerivation rec {
-         pname = name;
-      version =toString release;
-      src = fetchurl {     url = "https://content.minetest.net/packages/${author}/${name}/releases/${version}/download/";
+      pname = name;
+      version = toString release;
+      src = fetchurl {
+        url = "https://content.minetest.net/packages/${author}/${name}/releases/${version}/download/";
         sha256 = hash;
       };
-      unpackPhase =    "${unzip}/bin/unzip $src";
+      unpackPhase = "${unzip}/bin/unzip $src";
       installPhase =
         if type != "txp" then
           ''
@@ -34,7 +35,9 @@ let
             mkdir -p $out
             cp -r ./* $out
           '';
-      meta = details;};ambiguous =
+      meta = details;
+    };
+  ambiguous =
     with_same_name: byId:
     let
       error = throw "This Package is ambiguous. please use one of the following: ${
