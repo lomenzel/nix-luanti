@@ -18,6 +18,7 @@ update_contentDB:
     - echo "updates pushed"
 build_test_pipeline:
   stage: test
+  needs: []
   tags:
     - nix
   script:
