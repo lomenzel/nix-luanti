@@ -9,10 +9,11 @@ update_contentDB:
     - git checkout -B "$CI_COMMIT_BRANCH"
     - nix run --extra-experimental-features "nix-command flakes pipe-operators" .\#fetchContentDB
     - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
+    - nix flake update --extra-experimental-features "nix-command flakes pipe-operators"
     - git config --global user.email "ci-pipeline@menzel.lol"
     - git config --global user.name "CI Pipeline"
     - git add *
-    - git commit -m "update ContentDB && format" || echo "no changes to commit"
+    - git commit -m "update and format" || echo "no changes to commit"
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
     - git push origin "$CI_COMMIT_BRANCH"
     - echo "updates pushed"
