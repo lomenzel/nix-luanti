@@ -54,7 +54,7 @@ let
   # The following values are reserved as complete option values:
   # { - start of a group.
   # """ - start of a multi-line string.
-  RESERVED_VALUE_RE ="[[:space:]]*(\"\"\"|\\{)[[:space:]]*";
+  RESERVED_VALUE_RE = "[[:space:]]*(\"\"\"|\\{)[[:space:]]*";
   NEEDS_MULTILINE_RE = "${CONTAINS_NEWLINE_RE}|${RESERVED_VALUE_RE}";
 
   # There is no way to encode """ on its own line in a Minetest config.

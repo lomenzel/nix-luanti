@@ -136,7 +136,20 @@ in
         );
         worldDir = "${config.xdg.dataHome}/nix-luanti/${name}/world";
         minetestDir = "${config.xdg.configHome}/minetest";
-        gameDirName = "nix-luanti-${builtins.replaceStrings [ "." "/" " " ] [ "no" "no" "no" ] name}";
+        gameDirName = "nix-luanti-${
+          builtins.replaceStrings
+            [
+              "."
+              "/"
+              " "
+            ]
+            [
+              "no"
+              "no"
+              "no"
+            ]
+            name
+        }";
       in
       {
         Install.WantedBy = [ "default.target" ];

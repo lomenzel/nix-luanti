@@ -5,7 +5,7 @@ const path = require("path");
 const dbDir = "./contentDB";
 let fetched = 0;
 
-const { exec } =require("child_process");
+const { exec } = require("child_process");
 
 function getHash(url) {
   return new Promise((resolve, reject) => {
