@@ -45,7 +45,7 @@
             '';
             format = pkgs.writeShellScriptBin "formatAllContent" ''
               find . -type f -name "*.json" -exec sh -c '${pkgs.jq}/bin/jq . "$1" > "$1.tmp" && mv "$1.tmp" "$1"' _ {} \;
-              ${pkgs.nixfmt-rfc-style}/bin/nixfmt
+              ${pkgs.nixfmt-rfc-style}/bin/nixfmt .
             '';
           };
       })
