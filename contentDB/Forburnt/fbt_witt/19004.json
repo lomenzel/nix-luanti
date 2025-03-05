@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This is a rewritten version of WiTT, a mod similar to WAILA for Minecraft.\nIn comparison with the original version by MightyAlex200,\n\n- The selected node is determined more precisely using a raycast (see fbt_core).\n- Player preferences are persistent between sessions (using mod storage).\n- The WiTT panel has been moved to the top right corner of the screen and given a background.\n- There is no option to make the WiTT panel animated.\n\nWiTT stands for \"What is This Thing?\" and shows the proper and technical names of the node you are currently looking at, as well as its description and image, if it can.\n\nThe mod provides a few commands:\n\n- Use `/witt [on | off]` to set whether the WiTT panel should be displayed.\n- Use `/witt_liquids [on | off]` to set whether WiTT should show or ignore liquids.\n\nKnown issues:\n\n- Minetest uses a variable-width font for HUD, and the length of the background panel has to be guessed based on the number of characters. That means it may show up either too long or too short.\n",
-  "maintainers": [
-    "Forburnt"
-  ],
+  "maintainers": ["Forburnt"],
   "media_license": "GPL-3.0-only",
   "name": "fbt_witt",
-  "provides": [
-    "fbt_witt"
-  ],
+  "provides": ["fbt_witt"],
   "release": 19004,
   "repo": null,
   "score": 162,
@@ -31,9 +27,7 @@
   ],
   "short_description": "WAILA-like mod (a rewrite of WiTT by MightyAlex200)",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b92f6081ae.png",
   "title": "Fbt WiTT",
   "translation_url": null,
@@ -48,9 +42,7 @@
       {
         "is_optional": false,
         "name": "fbt_core",
-        "packages": [
-          "Forburnt/fbt_core"
-        ]
+        "packages": ["Forburnt/fbt_core"]
       }
     ]
   },

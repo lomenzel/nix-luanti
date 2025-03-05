@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/castle_lighting/issues/",
   "license": "MIT",
   "long_description": "This mod contains medieval lighting sources suitable for a castle. It includes:\n\n* Small chandelier and hanging chain\n* Lantern box\n* Steel floor brasier\n* Stone pedestal/column brasier.\n\nIf the castle_masonry mod is installed, brasiers will be generated for all enabled material types.\n\nBrasiers require fuel to generate a flame.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "castle_lighting",
-  "provides": [
-    "castle_lighting"
-  ],
+  "provides": ["castle_lighting"],
   "release": 22100,
   "repo": "https://github.com/minetest-mods/castle_lighting",
   "score": 28.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/XpMX2FscGb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/XpMX2FscGb.png"],
   "short_description": "This mod contains medieval castle lighting solutions",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/XpMX2FscGb.png",
   "title": "Castle Lighting",
   "translation_url": null,

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,9 +286,7 @@
   "issue_tracker": "https://github.com/mt-historical/gadgets_modpack/issues",
   "license": "GPL-3.0-only",
   "long_description": "gadgets_modpack aims at providing a full progression of magic and technology based tools and consumables that add various player status effects and do other useful functions. Modpack also provides an API to easily make your own \"gadgets\".  \nContent packs are split into separate mods, so if you don't like something (for example you only want to leave magic), you can simply disable them.  \n\n## Requirements:\n\n**Minetest 5.0.0+**  \n**Minetest_game 5.0.0+**  \n\nFull list of requirements:\n\n- default, vessels, farming, bucket, flowers (parts of minetest_game, installed by default)\n- [playereffects](https://repo.or.cz/minetest_playereffects.git) (Main framework for status effect handling)\n- [player_monoids](https://github.com/minetest-mods/player_monoids) (Dependency of gadgets_default_effects, library for handling monoidal player values)\n- [technic](https://github.com/minetest-mods/technic) (optional, but strongly recommended)\n- [mana](https://repo.or.cz/minetest_mana.git) (optional, but strongly recommended)\n- [magic_materials](https://github.com/mt-historical/magic_materials) (dependency for gadgets_consumables and gadgets_magic)\n- [basic_materials](https://gitlab.com/VanessaE/basic_materials) (dependency of technic)\n\n## Recommended mods\n\n- [bweapons_modpack](https://github.com/mt-historical/bweapons_modpack) (Together with gadgets_modpack forms a single combat, status effect and magic system)\n- [sprint_lite](https://github.com/mt-historical/sprint_lite) (If present, gadgets_consumables provide a stamina potion)\n- [craftguide](https://github.com/minetest-mods/craftguide) (explore crafting recipes of the new items)\n\n## List of mods in modpack\n- ### gadgets_api\n\n    API and main code for defining and handling status effect tools and consumables\n\n    **Requires:** [playereffects](https://repo.or.cz/minetest_playereffects.git), [technic](https://github.com/minetest-mods/technic) (optional), [mana](https://repo.or.cz/minetest_mana.git) (optional)\n\n- ### gadgets_default_effects\n\n    Library providing default gadgets_modpack effects to other parts of gadgets_modpack\n\n    Effects:\n\n    - Increased Speed\n    - Increased Jump Height\n    - Lowered Gravity\n    - Health Regeneration\n    - Stamina Regeneration (if sprint_lite is present)\n    - Mana Regeneration (if mana is present)\n    - Water Breathing\n    - Fire Shield (Damages mobs around you)\n\n    Some effects have their second, stronger version (see according potions and crafting recipes)\n\n    **Requires:** gadgets_api, [player_monoids](https://github.com/minetest-mods/player_monoids)\n\n- ### gadgets_consumables\n\n    Provides various magic-related consumables and potions\n\n    Items:\n\n    - Water Bottle\n    - Potion Of Speed\n    - Potion Of Jump\n    - Potion Of Gravity\n    - Potion Of Water Breathing\n    - Potion Of Fire Shield\n    - Potion Of Health Regeneration\n    - Potion Of Stamina Regeneration (if sprint_lite is present)\n    - Potion Of Mana Regeneration (if mana is present)\n    - Dispel potion (removes all active status effects)\n    - Teleport potion (teleports to a random location you can fit in, in specified range)\n\n    **Requires:** default, vessels, farming, bucket, flowers (parts of minetest_game, installed by default), gadgets_api, gadgets_default_effects, [mana](https://repo.or.cz/minetest_mana.git) (optional, provides mana potion), [sprint_lite](https://github.com/mt-historical/sprint_lite) (optional, provides stamina potion)\n\n- ### gadgets_magic\n\n    Provides various magic-based spellbooks and staves\n\n    Items:\n\n    - Tome Of Gravity\n    - Tome Of Speed\n    - Tome Of Jump\n    - Tome Of Blink (instantly teleports to the point you're looking, in limited range)\n    - Tome Of Magic Bridge (creates a temporary magical bridge in front of you)\n    - Staff Of Earth (Technic's drill counterpart, allows for fast mining)\n    - Druid's Staff (Allows to perform a chain of transmutations on stone, from stone to dirt with grass)\n\n    **Requires:** gadgets_api, gadgets_default_effects, [magic_materials](https://github.com/mt-historical/magic_materials)\n\n## Tips\n\nAll interactions respect area protection\n\nMagic tomes use mana and don't wear down, wear bar of staves represent their \"charge\", and they can be recharged by combining them with februm crystals on the crafting grid.\n\n## Settingtypes\nModpack provides some settings, accessible via \"Settings->All Settings->Mods->gadgets_api  \nYou can also put these settings directly to your minetest.conf\n\n```\nenable_gadgets_effects = true, bool, should status effect visuals spawn\n\neffect_interval = 0.5, float, interval at which status effect visuals spawn\n```\n\n## Making your own gadgets\nTo define gadgets in your own mod you need to call `gadgets.register_gadget(def)`\nwhere `def` is a definition table. To see a complete list of possible definition options (with comments)\nrefer to **[this document](gadgets_api/documentation.txt)**.\n\nTo register new effects you need to call `gadgets.register_effect(def)`, where `def`` is an effect definition table. Refer to the document above for details.\n\n## License\nAll code is GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources not covered in the \"credits\" section are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  \n\n## Credits\nSounds from following users of freesound.org were mixed, cut, edited and used to produce sounds in this modpack:\n\n- prozaciswack - digging\n- alcinov - staircase-metal-rumble\n- breviceps - ethereal-teleport\n- spookymodem - hitting_wall\n- ktinquelal - rayo-laser\n- lamamakesmusic - step-ice-break\n- northern87 - barbecue-fire-northern87\n- midimagician - fire-burning-loop.2\n- smararaine - bonfire-being-lit\n- steffcaffrey - chimes\n- quaker540 - supernatural-explosion\n- cyberkineticfilms - strange-teleport-sound\n- slugzilla - phoenixscreech1\n- qubodup - fire-spell\n- zenithinfinitivestudios - fantasy-ui-button-1\n- adrimb86 - fairy-sound\n\nAll sounds listed above were licensed as CC0. Produced sounds are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-4.0",
   "name": "gadgets_modpack",
   "provides": [
@@ -302,17 +298,10 @@
   "release": 16438,
   "repo": "https://github.com/mt-historical/gadgets_modpack",
   "score": 27.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/78e4f3113c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/78e4f3113c.png"],
   "short_description": "A modpack providing full progression of magic and technology-based items that apply status effects or do other useful functions",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "magic",
-    "player_effects",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "magic", "player_effects", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/78e4f3113c.png",
   "title": "Gadgets Modpack",
   "translation_url": null,
@@ -373,10 +362,7 @@
       {
         "is_optional": false,
         "name": "magic_materials",
-        "packages": [
-          "mt-mods/magic_materials",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/magic_materials", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,

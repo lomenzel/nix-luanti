@@ -25,29 +25,17 @@
   "issue_tracker": "https://github.com/zmv7/minetest-mod-invman/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# InvManager\nAllows to check and grab, remove items from players' inventories\n### Usage\n* `/invman <playername>` - open InvMan formspec targeted on online player\n* There are three modes of managing items:\n\t* Copy - copy the item to your inventory\n\t* Take - move the item to your inventory\n\t* Remove - just remove item from target's inventory\n* Use tabs to navigate through player's inventory lists\n  \n![](/screenshot.png?raw=true)",
-  "maintainers": [
-    "Zemtzov7"
-  ],
+  "maintainers": ["Zemtzov7"],
   "media_license": "GPL-3.0-only",
   "name": "invman",
-  "provides": [
-    "invman"
-  ],
+  "provides": ["invman"],
   "release": 26467,
   "repo": "https://github.com/zmv7/minetest-mod-invman",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0ac3d5a882.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0ac3d5a882.png"],
   "short_description": "Allows to check and remove items from players' inventories",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "gui",
-    "inventory",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "gui", "inventory", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0ac3d5a882.png",
   "title": "InvManager",
   "translation_url": null,

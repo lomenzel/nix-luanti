@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/nwdamgaard/random_api/issues",
   "license": "AGPL-2.0-only",
   "long_description": "This is a very small, simple-to-use API for selecting random items from a list with probabilities.\n\n# How to use\nFirst, create a Random object using Random:new(), then add all your items using Random:add_choice(choice, probability), and finally, call Random:calc_csum().\n\nWhen you want to get an item from the list, simply call Random:choose().",
-  "maintainers": [
-    "TheFanne"
-  ],
+  "maintainers": ["TheFanne"],
   "media_license": "AGPL-2.0-only",
   "name": "random_api",
-  "provides": [
-    "random_api"
-  ],
+  "provides": ["random_api"],
   "release": 1820,
   "repo": "https://github.com/nwdamgaard/random_api.git",
   "score": 1.8,
   "screenshots": [],
   "short_description": "Provides a simple-to-use framework for selecting random objects with probabilities",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Random API",
   "translation_url": null,

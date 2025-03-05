@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -405,26 +403,17 @@
   "issue_tracker": "https://github.com/OgelGames/headlamp/issues",
   "license": "MIT",
   "long_description": "A simple mod that adds a headlamp that can be worn as armor, providing a bright light source.\n\nNote that it specifically requires the `mt-mods` version of the `illumination` mod, which supports `3d_armor`: https://content.minetest.net/packages/mt-mods/illumination/\n\n---\n\n### Usage\n\nUsing the headlamp is very simple, just \"use\" the item to turn it on (left-click) and put it in one of your armor slots. You can also \"place\" the item to equip it (right-click).\n\nNote that the headlamp works slightly different depending on whether the `technic` mod is installed; if `technic` is installed, the headlamp can be recharged like other electric tools, if not, the headlamp will simply wear out, and can be repaired like any other tool.\n\n---\n\n### Crafting\n\nThe crafting recipe for the headlamp depends on which mods are installed:\n\n- Minetest Game only:\n\n![Default Recipe](https://raw.githubusercontent.com/OgelGames/headlamp/master/images/default_recipe.png \"Default Recipe\")\n\n- With Technic installed:\n\n![Technic Recipe](https://raw.githubusercontent.com/OgelGames/headlamp/master/images/technic_recipe.png \"Technic Recipe\")\n\nIf another game is used that doesn't include `default` or `farming`, no recipe will be added.\n",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "headlamp",
-  "provides": [
-    "headlamp"
-  ],
+  "provides": ["headlamp"],
   "release": 11435,
   "repo": "https://github.com/OgelGames/headlamp",
   "score": 191.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b449f01e04.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b449f01e04.png"],
   "short_description": "Adds a headlamp that can be worn as armor, providing a bright light source",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b449f01e04.png",
   "title": "Headlamp",
   "translation_url": null,
@@ -438,9 +427,7 @@
       {
         "is_optional": false,
         "name": "illumination",
-        "packages": [
-          "mt-mods/illumination"
-        ]
+        "packages": ["mt-mods/illumination"]
       },
       {
         "is_optional": false,

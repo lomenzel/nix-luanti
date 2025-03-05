@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NodeCore-Coal/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# NodeCore-Coal\nAdds 3 ores of coal to NodeCore.    \nCan be used to replace the old 'nc_lignite' in exisiting worlds.\n# Lignite\n-Commonly generates in sheet-like deposits  \n-Lowest carbon density\n# Bituminite\n-Reasonably common, tiny deposits everywhere  \n-Medial carbon density\n# Anthracite\n-Uncommon, low-density, sprawling veins   \n-Highest carbon density\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "wc_coal",
-  "provides": [
-    "wc_coal"
-  ],
+  "provides": ["wc_coal"],
   "release": 27401,
   "repo": "https://github.com/wintersknight94/NodeCore-Coal",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/73b4600c5e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/73b4600c5e.png"],
   "short_description": "Adds 3 ores of coal to NodeCore. ",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/73b4600c5e.png",
   "title": "NodeCore Coal",
   "translation_url": null,
@@ -70,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

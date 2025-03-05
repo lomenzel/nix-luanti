@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://gitlab.com/xenonca/drawstruct/issues",
   "license": "MIT",
   "long_description": "This is a submission for a modding event on the [Minetest Discord](https://discord.gg/minetest).\n\nRight-click while holding the Drawstructor to rise walls, pillar up or draw shapes on the floor. Alternatively left-click to spawn random parkours. Compete with others by climbing up your parkour and at the same time generating your next steps by left-clicking the node you're standing on.",
-  "maintainers": [
-    "xenonca"
-  ],
+  "maintainers": ["xenonca"],
   "media_license": "CC-BY-SA-4.0",
   "name": "drawstruct",
-  "provides": [
-    "drawstruct"
-  ],
+  "provides": ["drawstruct"],
   "release": 9363,
   "repo": "https://gitlab.com/xenonca/drawstruct",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d6c8c76a8d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d6c8c76a8d.png"],
   "short_description": "Draw or generate random structures",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "creative",
-    "jam_weekly_2021"
-  ],
+  "tags": ["building", "building_mechanics", "creative", "jam_weekly_2021"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d6c8c76a8d.png",
   "title": "Drawstruct",
   "translation_url": null,

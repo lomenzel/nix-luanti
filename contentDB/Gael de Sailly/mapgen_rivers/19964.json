@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitlab.com/gaelysam/mapgen_rivers/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Semi-procedural map generator for Minetest 5.x. It aims to create realistic and nice-looking landscapes for the game, focused on river networks. It is based on algorithms modelling water flow and river erosion at a broad scale, similar to some used by researchers in Earth Sciences. It is taking some inspiration from [Fastscape](https://github.com/fastscape-lem/fastscape).\n\nIts main particularity compared to conventional Minetest mapgens is that rivers flow strictly downhill, and combine together to form wider rivers, until they reach the sea. Another notable feature is the possibility of large lakes above sea level.\n\n# Usage\nIt is recommended to use it **only in new worlds, with `singlenode` mapgen**. On first start, it runs pre-generation to produce a grid, from which the map will be generated. This usually takes a few seconds, but depending on custom settings this can grow considerably longer.\n\n**`biomegen` mod is recommended** to add biomes. It is also possible to add biome-registering mods like Ethereal NG.\n\nBy default, it only generates a 15k x 15k map, centered around the origin. To obtain a bigger map, you can increase grid size and/or block size in settings, but this can be more ressource-intensive (as the map has to be loaded in full at pre-generation).\n\n## Settings\nSettings can be found in Minetest in the `Settings` tab, `All settings` -> `Mods` -> `mapgen_rivers`.\n\nMost settings are world-specific and a copy is made in `mapgen_rivers.conf` in the world folder, during world first use, which means that further modification of global settings will not alter existing worlds.\n\n## Map preview\nThe Python script `view_map.py` can display the full map. You need to have Python 3 installed, as well as the libraries `numpy`, `matplotlib`, and optionally `colorcet`. For `conda` users, an `environment.yml` file is provided.\n\nIt can be run from command line by passing the world folder. Example:\n```\n./view_map.py ~/.minetest/worlds/test_mg_rivers\n```\n",
-  "maintainers": [
-    "Gael de Sailly"
-  ],
+  "maintainers": ["Gael de Sailly"],
   "media_license": "LGPL-3.0-only",
   "name": "mapgen_rivers",
-  "provides": [
-    "mapgen_rivers"
-  ],
+  "provides": ["mapgen_rivers"],
   "release": 19964,
   "repo": "https://gitlab.com/gaelysam/mapgen_rivers",
   "score": 1035.7,
@@ -34,9 +30,7 @@
   ],
   "short_description": "Map generator focused on realistic rivers and landscapes, using physical equations.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fff09f2269.png",
   "title": "Mapgen with Rivers",
   "translation_url": null,

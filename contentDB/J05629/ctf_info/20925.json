@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This for [CTF by Rubenwardy](https://ctf.rubenwardy.com/) ONLY.\n\n### You need to add the mod to secure.http_mods in Minetest.\n\nThere are also notifications where you can be notified of CTF maps and modes.\n\n### To Do:\n\n1. Add images of CTF maps in the formspec.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "LGPL-3.0-only",
   "name": "ctf_info",
-  "provides": [
-    "ctf_info"
-  ],
+  "provides": ["ctf_info"],
   "release": 20925,
   "repo": "https://github.com/Jo5629/jo5629-ctf_info.git",
   "score": 4.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b3ab00ca10.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b3ab00ca10.png"],
   "short_description": "Know what is happening in CTF in your world.",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation"
-  ],
+  "tags": ["complex_installation"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b3ab00ca10.png",
   "title": "CTF Info",
   "translation_url": null,

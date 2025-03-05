@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,24 +429,17 @@
   "issue_tracker": "https://github.com/NoNameDude/minetest-chat-filter/issues/new/choose/",
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "xXNicoXx"
-  ],
+  "maintainers": ["xXNicoXx"],
   "media_license": "MIT",
   "name": "chat_filter",
-  "provides": [
-    "chat_filter"
-  ],
+  "provides": ["chat_filter"],
   "release": 7401,
   "repo": "https://github.com/NoNameDude/minetest-chat-filter.git",
   "score": 2.3,
   "screenshots": [],
   "short_description": "Minetest Chat Filter a simple but usefull minetest chatfilter mod made by xXNicoXx",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "survival"
-  ],
+  "tags": ["chat", "survival"],
   "thumbnail": null,
   "title": "Chat Filter",
   "translation_url": null,

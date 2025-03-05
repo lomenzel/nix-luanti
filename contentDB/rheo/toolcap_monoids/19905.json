@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-toolcap_monoids/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# toolcap_monoids\n\nan API to allow multiple sources to apply changes to a tools's capabilities.\n\nsee README.md for usage. ",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "toolcap_monoids",
-  "provides": [
-    "toolcap_monoids"
-  ],
+  "provides": ["toolcap_monoids"],
   "release": 19905,
   "repo": "https://github.com/fluxionary/minetest-toolcap_monoids.git",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/975daae7db.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/975daae7db.png"],
   "short_description": "an API to allow multiple sources to apply changes to a tools's capabilities.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/975daae7db.png",
   "title": "toolcap_monoids",
   "translation_url": null,
@@ -44,35 +36,24 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/toolcap_monoids": [
       {
         "is_optional": false,
         "name": "item_monoids",
-        "packages": [
-          "rheo/item_monoids"
-        ]
+        "packages": ["rheo/item_monoids"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

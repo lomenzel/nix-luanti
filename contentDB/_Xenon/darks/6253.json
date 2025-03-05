@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://gitlab.com/xenonca/brights/-/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds some dark stuff to Minetest, it is on you to find out what! :)  \n(adds tools, nodes and more)",
-  "maintainers": [
-    "_Xenon",
-    "xenonca"
-  ],
+  "maintainers": ["_Xenon", "xenonca"],
   "media_license": "CC-BY-SA-4.0",
   "name": "darks",
-  "provides": [
-    "darks"
-  ],
+  "provides": ["darks"],
   "release": 6253,
   "repo": "https://gitlab.com/xenonca/darks",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BMwgTNRKq4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BMwgTNRKq4.png"],
   "short_description": "Adds dark stuff",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival",
-    "tools"
-  ],
+  "tags": ["player_effects", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BMwgTNRKq4.png",
   "title": "Darks",
   "translation_url": null,

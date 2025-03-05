@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/Emojigit/place_node/issues",
   "license": "MIT",
   "long_description": "This mod add `setblock` and `place` command\n\n## Commands\n\n### /setblock x y z modname:foobar_node & /place x y z modname:foobar_node\nPlace a block at x,y,z (setblock call `minetest.set_node`, and place call `minetest.place_node`)\n\n### /setblock_here modname:foobar_node & /place_here modname:foobar_node\nPlace a block at your pos (setblock call `minetest.set_node`, and place call `minetest.place_node`)",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "place_node",
-  "provides": [
-    "place_node"
-  ],
+  "provides": ["place_node"],
   "release": 4764,
   "repo": "https://github.com/Emojigit/place_node",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/vOGfe0Wtwt.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/vOGfe0Wtwt.png"],
   "short_description": "Add `setblock` and `place` command",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vOGfe0Wtwt.png",
   "title": "Place Node Command",
   "translation_url": null,

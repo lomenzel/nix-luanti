@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_tsm_pyramids/issues",
   "license": "MIT",
   "long_description": "This is a mod for Minetest Game and will generate pyramids in deserts and sandstone deserts. You will find treasure inside, but beware! It is told the culture that built the pyramids did not leave their treasures unprotected …\n\nFeatures:\n\n* 3 pyramid types: Sandstone, desert sandstone and desert stone\n* Dangers lurk inside!\n* Many different treasure room designs and variants. Each pyramid might be something new.\n* 1 treasure chest guaranteed per pyramid (you just need to find it!)\n* 6 collectible decorative blocks\n* 100% translated into German\n* Optional support for Treasurer for custom treasures",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "tsm_pyramids",
-  "provides": [
-    "tsm_pyramids"
-  ],
+  "provides": ["tsm_pyramids"],
   "release": 14415,
   "repo": "https://codeberg.org/Wuzzy/minetest_tsm_pyramids",
   "score": 351.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7yIgOYmF4D.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7yIgOYmF4D.png"],
   "short_description": "Pyramids with treasures!",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7yIgOYmF4D.png",
   "title": "Pyramids (with treasures)",
   "translation_url": null,

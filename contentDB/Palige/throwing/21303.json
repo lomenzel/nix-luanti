@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/throwing/issues",
   "license": "MPL-2.0",
   "long_description": "This modpack groups two complementary mods: [throwing](https://git.fwhost.eu/MT-Eurythmia/throwing), an API for registering throwing and throwable things, and [throwing_arrows](https://git.fwhost.eu/MT-Eurythmia/throwing_arrows), a compatible replacement for the throwing mod by PilzAdam that uses the throwing API.",
-  "maintainers": [
-    "Palige"
-  ],
+  "maintainers": ["Palige"],
   "media_license": "MPL-2.0",
   "name": "throwing",
-  "provides": [
-    "throwing"
-  ],
+  "provides": ["throwing"],
   "release": 21303,
   "repo": "https://github.com/minetest-mods/throwing",
   "score": 7.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/LNJc0DIAo5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/LNJc0DIAo5.png"],
   "short_description": "New throwing implementation designed to be extensible",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "tools"
-  ],
+  "tags": ["pve", "pvp", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/LNJc0DIAo5.png",
   "title": "Throwing Redo",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "## Now it Registers Properly\n\nI thought I had properly vetted the code and it was doing what I wanted. But, nope, the API was never using the ID field, and used the Name field as the ID. I don't know why Minetest allowed Capitalized node IDs. This has been fixed, and should work excellently now. Unfortunately, all previously registed paintings will be lost. My apologies for this. I have added around 20ish paintings to the Gallery below to help lessen the blow.\n\nA simple paintings library that lets you easily add 1x1, 1x2, 2x1, 2x2, 3x2, 3x3, 4x2, 4x3, and 4x4 paintings. The API has a seperate registration for each painting size to keep things simple. All your mod has to have is a painting texture of the right size and shape and paintings_lib.register1x1(\"painting_name\", \"Painting Description\", \"painting_texture.png^painting_frame_texture.png\") for specific examples, just look at the paintings.lua of this or paintings_gallery. Want to actually get some paintings without having to register them yourself? \nthe Version II is better in my opinion, but both are here.\n#### Newer version:\nTemp [link](https://gitlab.com/TheOnlyJoeEnderman/Paintings_Gallery_II) until it gets approved.\n####\nhttps://content.luanti.org/packages/JoeEnderman/paintings_galleryii/\n#### First version:\nhttps://content.luanti.org/packages/JoeEnderman/paintings_gallery/",
-  "maintainers": [
-    "JoeEnderman"
-  ],
+  "maintainers": ["JoeEnderman"],
   "media_license": "CC0-1.0",
   "name": "paintings_lib",
-  "provides": [
-    "paintings_lib"
-  ],
+  "provides": ["paintings_lib"],
   "release": 22800,
   "repo": "https://gitlab.com/TheOnlyJoeEnderman/Paintings_Lib",
   "score": 16.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/16573cdde5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/16573cdde5.png"],
   "short_description": "A simple paintings library for MTG and potentially others in future.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative",
-    "library"
-  ],
+  "tags": ["building", "creative", "decorative", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/16573cdde5.png",
   "title": "Paintings Library",
   "translation_url": null,

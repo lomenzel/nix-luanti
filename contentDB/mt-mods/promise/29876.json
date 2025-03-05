@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/promise/issues",
   "license": "MIT",
   "long_description": "promise library for minetest\n\nDocs: https://github.com/mt-mods/promise/blob/master/readme.md",
-  "maintainers": [
-    "mt-mods",
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["mt-mods", "BuckarooBanzay"],
   "media_license": "MIT",
   "name": "promise",
-  "provides": [
-    "promise"
-  ],
+  "provides": ["promise"],
   "release": 29876,
   "repo": "https://github.com/mt-mods/promise",
   "score": 18.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/44358b3224.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/44358b3224.png"],
   "short_description": "promise library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/44358b3224.png",
   "title": "Promise",
   "translation_url": null,

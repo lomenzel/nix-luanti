@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Sokomine/mobf_trader/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Want to trade?\n\nThese traders can offer several diffrent trades for your customers. It is possible to bundle up to four diffrent stacks for each price and/or payment. There can be diffrent ways to pay - i.e. 50 normal wood, 50 junglewood or 5 iron - whatever payment your customer can afford.\n\nYou can pick your trader up and place it somewhere where many customers may pass by. Skin/clothing, size and animation (i.e. sitting, walking, ..) can be configured.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mobf_trader",
-  "provides": [
-    "mobf_trader"
-  ],
+  "provides": ["mobf_trader"],
   "release": 24838,
   "repo": "https://github.com/Sokomine/mobf_trader",
   "score": 192.7,
@@ -30,12 +26,7 @@
   ],
   "short_description": "Configurable mobs/NPC which can trade for you.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "commerce",
-    "mobs",
-    "multiplayer"
-  ],
+  "tags": ["building", "commerce", "mobs", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/AHpW37G15z.png",
   "title": "Traders",
   "translation_url": null,

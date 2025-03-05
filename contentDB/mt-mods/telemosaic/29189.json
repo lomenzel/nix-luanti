@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/mt-mods/telemosaic/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This is a mod for Minetest. It provides teleportation pads, called \"beacons\". Unlike other teleportation mods, no menus or GUIs are used; you set the destination with a simple \"key\" item. There is no tooltip for the destination either, so signs are recommended.\n\nAnother difference is the limited default range of the beacons. To increase the range, you need to place \"extenders\" around the beacon. The extenders come in different colors, allowing the extenders to form a pretty pattern; hence the name \"telemosaic\".\n\n## Notes\n\nThis is a maintained fork of https://github.com/bendeutsch/minetest-telemosaic with various improvements and changes, optimized for multiplayer environments.\n\n* Beacons no longer teleport players automatically, they must be right-clicked by a player.\n* More chat messages are sent to inform and help players with non-functional telemosaics.\n* Telemosaic keys can be preserved by holding shift when right-clicking a beacon.\n* Beacons can be enabled and disabled by punching them with a telemosaic key.\n* If the `digilines` mod is installed, beacons can be controlled by digilines.\n* and other small changes...\n\n## Usage\n\nRight-clicking a beacon with a default mese crystal fragment creates a telemosaic key with the position of the beacon.\n\nRight-clicking a second beacon with the key sets the destination of the second beacon to the position of the first beacon. To set up a return path, right-click the second beacon with the fragment, and then first beacon with the resulting key again.\n\nThe beacons do not need to be strictly paired this way: rings or star-shaped networks are also possible. Each beacon has only a single destination, but can itself be the destination of several others.\n\nOnce linked, you teleport between beacons by right-clicking them. Before teleporting, beacons will check that their destination is sane: the destination still needs to be a beacon, and the two nodes above it should be clear for walking/standing in.\n\nBeacons have a default range of 20 nodes. If the destination is too far away, the beacon will turn red and will not function. To extend the range for a beacon, place \"extenders\" next to it, within a 7x7 horizontal square centered on the beacon, and at the same level or one node below the beacon.\n\nExtenders come in three tiers, with each being more powerful than the tier below. By default, tier 1, tier 2, and tier 3 extenders increase the range of nearby beacons by 5, 20, and 80 nodes, respectively.\n\nExtenders can be colored with any of the dyes found in the `dye` mod. Colored extenders work just like regular extenders, both for teleporting and for recipes.\n\n## Digilines\n\nWhen the `digilines` mod is installed, telemosaic beacons can be controlled by sending digiline messages. By default, all beacons use the channel \"telemosaic\", but you can change the channel name via digilines.\n\nFor full documentaion, see [digilines.md](digilines.md).",
-  "maintainers": [
-    "mt-mods",
-    "OgelGames"
-  ],
+  "maintainers": ["mt-mods", "OgelGames"],
   "media_license": "LGPL-2.1-only",
   "name": "telemosaic",
-  "provides": [
-    "telemosaic"
-  ],
+  "provides": ["telemosaic"],
   "release": 29189,
   "repo": "https://github.com/mt-mods/telemosaic",
   "score": 340,
-  "screenshots": [
-    "https://content.luanti.org/uploads/137065fca3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/137065fca3.png"],
   "short_description": "A Minetest mod for user-generated teleportation pads.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "transport"
-  ],
+  "tags": ["building", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/137065fca3.png",
   "title": "Telemosaic",
   "translation_url": null,

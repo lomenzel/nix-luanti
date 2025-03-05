@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/minefaco/death_cetro",
   "license": "GPL-3.0-only",
   "long_description": "# death_cetro\nAdds a Wand thats teleports you to your last death position.\nYou can choose between craft the cetro to obtain or give to player on death. (crafting by default)\njust edit init.lua <give_on death = false >\nLicense\nCode\n\nby minefaco GPLv3.0 (License for code and media)\n",
-  "maintainers": [
-    "1faco"
-  ],
+  "maintainers": ["1faco"],
   "media_license": "GPL-3.0-only",
   "name": "death_cetro",
-  "provides": [
-    "death_cetro"
-  ],
+  "provides": ["death_cetro"],
   "release": 11335,
   "repo": "https://github.com/minefaco/death_cetro",
   "score": 153.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/43b3b61c31.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/43b3b61c31.png"],
   "short_description": "Adds a Staff thats teleports you to your last death position.",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["magic", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43b3b61c31.png",
   "title": "Death Cetro",
   "translation_url": null,

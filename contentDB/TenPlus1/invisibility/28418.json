@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Craft a potion to make yourself invisible, default is for 3 minutes which can be changed using settings.\n\nHas invisibility.invisible API available for mods to use and a /vanish command for admin.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "invisibility",
-  "provides": [
-    "invisibility"
-  ],
+  "provides": ["invisibility"],
   "release": 28418,
   "repo": "https://codeberg.org/tenplus1/invisibility",
   "score": 8.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xi05YflXTW.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xi05YflXTW.png"],
   "short_description": "Craft a potion to make yourself invisible",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xi05YflXTW.png",
   "title": "Invisibility Potion",
   "translation_url": null,

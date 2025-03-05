@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/sfence/items_update/issues",
   "license": "MIT",
   "long_description": "Mod which update items in player inventory on move/put or/and on join.\n\nInclude two setting parameters, accesable by Minetest Setting menu. See [settingtypes.txt ](https://github.com/sfence/items_update/blob/master/settingtypes.txt) for details.\n\n\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "MIT",
   "name": "items_update",
-  "provides": [
-    "items_update"
-  ],
+  "provides": ["items_update"],
   "release": 13439,
   "repo": "https://github.com/sfence/items_update",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d2e7a9f4d0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d2e7a9f4d0.png"],
   "short_description": "Update items in player inventory if they are alias.",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d2e7a9f4d0.png",
   "title": "Items Update",
   "translation_url": null,

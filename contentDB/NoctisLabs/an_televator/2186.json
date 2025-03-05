@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/NoctisLabs/an_televator/issues",
   "license": "MIT",
   "long_description": "Televators are simple elevators that work incredibly fast and are relatively inexpensive to make. Craft a Televator (`an_televator:televator`).\n\nTelevator nodes can be placed a maximum of 32 nodes apart. Televators will not work if there is no space for the player. Simply stand on a televator that has another televator node above or below it and press jump to go up and sneak to go down. While standing on a televator you cannot jump.\n\nTelevator does not use entities, but rather teleports the player from televator to televator making it suitable for servers that prefer to use only the most efficient mods. This also helps increase general performance for users with less powerful computers or mobile devices, and provides a smooth and consistent feel.\n\n### Media Licenses\n\ntelevator_whoosh.ogg (CC BY 3.0):\n\n- https://freesound.org/people/Glaneur%20de%20sons/sounds/34172/\n\ntelevator_error.ogg (CC BY 3.0):\n\n- https://freesound.org/people/LorenzoTheGreat/sounds/417794/\n\ntelevator_televator.png (MIT):\n\n- https://github.com/OpenMods/OpenBlocks/blob/master/src/main/resources/assets/openblocks/textures/blocks/elevator.png\n",
-  "maintainers": [
-    "NoctisLabs"
-  ],
+  "maintainers": ["NoctisLabs"],
   "media_license": "CC-BY-SA-3.0",
   "name": "an_televator",
-  "provides": [
-    "an_televator"
-  ],
+  "provides": ["an_televator"],
   "release": 2186,
   "repo": "https://github.com/NoctisLabs/an_televator",
   "score": 13.7,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Simple lag-free teleporting elevators.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ZNvBta7Szr.png",
   "title": "Televator",
   "translation_url": null,

@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/Noodlemire/smart_vector_table/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds an API to create tables that accept 3D Vectors as indices in a relatively efficient manner. They're built to be able to handle a large quantity of indices at a time, with no regards to how close or far apart specific vectors are. See the provided api.txt for details about how you use them.\n\nThis is actually technically at least two years old now. I initially wrote it for a really specific thing in Voxel Dungeon, but then over time, I found myself wanting to use it for other projects again, and again, and another time...\n\nIt doesn't depend on anything at all, not even Minetest's own functions, so you can use it for any Lua-based project if needed, not just a mod.",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "LGPL-2.1-only",
   "name": "smart_vector_table",
-  "provides": [
-    "smart_vector_table"
-  ],
+  "provides": ["smart_vector_table"],
   "release": 9157,
   "repo": "https://github.com/Noodlemire/smart_vector_table",
   "score": 2.8,
   "screenshots": [],
   "short_description": "API that adds a way to create tables indexed by 3D Vectors.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Smart Vector Table",
   "translation_url": null,

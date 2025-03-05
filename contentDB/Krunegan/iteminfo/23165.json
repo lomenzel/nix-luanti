@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Krunegan/iteminfo/issues",
   "license": "MIT",
   "long_description": "## Item Information\n\nCommand: /iteminfo\nDescription: Shows information about the item in use.\n\n## License\n\n* MIT License (MIT) for the code.",
-  "maintainers": [
-    "Krunegan"
-  ],
+  "maintainers": ["Krunegan"],
   "media_license": "MIT",
   "name": "iteminfo",
-  "provides": [
-    "iteminfo"
-  ],
+  "provides": ["iteminfo"],
   "release": 23165,
   "repo": "https://github.com/Krunegan/iteminfo",
   "score": 6.8,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Shows information about the item in use.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "gui"
-  ],
+  "tags": ["chat", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7a90f6442a.png",
   "title": "Item Information",
   "translation_url": null,

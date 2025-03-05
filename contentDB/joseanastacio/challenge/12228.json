@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/josegamestest/challenge/issues/new/choose/",
   "license": "MIT",
   "long_description": "<div>\n<h1>challenge</h1>\nminetest mod challenge to create route and flight challenges\n<h2>Two types of tools</h2>\n\n<h3>challenge:tool_challenge_circle_open_#color</h3>\nThis tool places open circles on the map, each circle has\na different color according to the tool used, when the player passes by one of them, it plays a sound to identify that the player has passed it\n\n\n<h3>challenge:tool_challenge_flag_point_3d_cor</h3>\nThis tool does almost the same as the previous one, but with a different feature, its name cannot be changed, making it easier to mark the marking points\n\n<h3>challenge_remove_tool tool currently disabled</h3>\nIt's a tool to clean nearby objects 5 blocks away, this tool is still being made and can remove any objects around. this tool is currently deactivating damage\n\n\n<h2>To UPDATE</h2>\nWhen the player passes through the circle his name will be registered in it, the name of the node can be changed by the owner\n</div>\n\t\n<div>\n<h2>landing helicopter training</h2>\nNow the mod has some blocks that can help in landing training by drawing targets on the ground\nwhen the player lands on the location a sound is emitted\n<div>\n\n\n<h2>RECIPES</h2>\n<h3>challenge:tool_challenge_circle_open_#color</h3>\n<pre>\nminetest.register_craft({\noutput = \"challenge:tool_challenge_circle_open_white\",\nrecipe = {\n{\"group:leaves\",\t\"group:leaves\",\t\t\"group:leaves\"},\n{\"group:leaves\",\t\"default:diamond\",\t\"group:leaves\"},\n{\"group:leaves\",\t\"group:leaves\",\t\t\"group:leaves\"},\n}})\n\n--black\nminetest.register_craft({ output = \"challenge:tool_challenge_circle_open_black\", recipe = {\n\t\t\t{\"challenge:tool_challenge_circle_open_white\", \"default:coal_lump\"},} })\n--red\nminetest.register_craft({ output = \"challenge:tool_challenge_circle_open_red\", recipe = {\n\t\t\t{\"challenge:tool_challenge_circle_open_white\", \"flowers:rose\"},} })\n--blue\nminetest.register_craft({ output = \"challenge:tool_challenge_circle_open_blue\", recipe = {\n\t\t\t{\"challenge:tool_challenge_circle_open_white\", \"flowers:geranium\"},} })\n--green\nminetest.register_craft({ output = \"challenge:tool_challenge_circle_open_green\", recipe = {\n\t\t\t{\"challenge:tool_challenge_circle_open_white\", \"default:cactus\"},} })\n--yellow\nminetest.register_craft({ output = \"challenge:tool_challenge_circle_open_yellow\", recipe = {\n\t\t\t{\"challenge:tool_challenge_circle_open_white\", \"flowers:dandelion_yellow\"},} })\n</pre>\n\n</div>\n<div>\n<h2>challenge:tool_flag_point_3d_#color</h2>\n<pre>\n\nminetest.register_craft({\noutput = \"challenge:tool_flag_point_3d_white\",\nrecipe = {\n{\"group:leaves\",\t\"group:leaves\",\t\t\"group:leaves\"},\n{\"group:leaves\",\t\"default:mese_crystal\",\t\"group:leaves\"},\n{\"group:leaves\",\t\"group:leaves\",\t\t\"group:leaves\"},\n}})\n\n--black\nminetest.register_craft({ output = \"challenge:tool_flag_point_3d_black\", recipe = {\n\t\t\t{\"challenge:tool_flag_point_3d_white\", \"default:coal_lump\"},} })\n--red\nminetest.register_craft({ output = \"challenge:tool_flag_point_3d_red\", recipe = {\n\t\t\t{\"challenge:tool_flag_point_3d_white\", \"flowers:rose\"},} })\n--blue\nminetest.register_craft({ output = \"challenge:tool_flag_point_3d_blue\", recipe = {\n\t\t\t{\"challenge:tool_flag_point_3d_white\", \"flowers:geranium\"},} })\n--green\nminetest.register_craft({ output = \"challenge:tool_flag_point_3d_green\", recipe = {\n\t\t\t{\"challenge:tool_flag_point_3d_white\", \"default:cactus\"},} })\n--yellow\nminetest.register_craft({ output = \"challenge:tool_flag_point_3d_yellow\", recipe = {\n\t\t\t{\"challenge:tool_flag_point_3d_white\", \"flowers:dandelion_yellow\"},} })\n</pre>\n</div>",
-  "maintainers": [
-    "joseanastacio"
-  ],
+  "maintainers": ["joseanastacio"],
   "media_license": "MIT",
   "name": "challenge",
-  "provides": [
-    "challenge"
-  ],
+  "provides": ["challenge"],
   "release": 12228,
   "repo": "https://github.com/josegamestest/challenge.git",
   "score": 152.8,
@@ -451,9 +445,7 @@
   ],
   "short_description": "challenges to create route challenges or to train flight",
   "state": "APPROVED",
-  "tags": [
-    "creative"
-  ],
+  "tags": ["creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6c97d3f14c.png",
   "title": "challenge",
   "translation_url": null,

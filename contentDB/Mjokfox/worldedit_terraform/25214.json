@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/Mjokfox/WorldEdit_terraform/issues",
   "license": "MIT",
   "long_description": "# WorldEdit terraform\n\nA terraforming/smoothing command for [minetest-WorldEdit](https://github.com/Uberi/Minetest-WorldEdit)\n\n## usage\n//terraform \\<radius\\> \\<threshold\\> \\<shape\\>\n\nradius: Radius of the terraform operation (0 to radius_limit).\nthreshold: Threshold value for the operation (0 to 100).\nshape: Shape of the terraform area, either \"sphere\" or \"cube\".\n    \n\n## Settings\n\nradius_limit: Maximum allowable radius for the terraform operation.\nthreshold_multiplier: Multiplier applied to the threshold value.\ngauss_sigma: The sigma value used in the generation of the guassian kernel.\nguass_radius: The radius of the kernel.\n\n## Examples\n\n    //terraform 10 100 sphere\n    //terraform 5 30 cube\n    //brush terraform 7 0 sphere\n",
-  "maintainers": [
-    "Mjokfox"
-  ],
+  "maintainers": ["Mjokfox"],
   "media_license": "MIT",
   "name": "worldedit_terraform",
-  "provides": [
-    "worldedit_terraform"
-  ],
+  "provides": ["worldedit_terraform"],
   "release": 25214,
   "repo": "https://github.com/Mjokfox/WorldEdit_terraform.git",
   "score": 17.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/409efd0c12.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/409efd0c12.png"],
   "short_description": "a terraform command for worldedit",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/409efd0c12.png",
   "title": "worldedit terraform command",
   "translation_url": null,

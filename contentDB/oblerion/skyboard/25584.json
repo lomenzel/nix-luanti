@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/oblerion/skyboard",
   "license": "MIT",
   "long_description": "## craft\n - groundboard -> iron ingot + copper ingot\n - skyboard -> 2x groundboard\n\n##  groundboard\n- collide up + test case up\n- collide down + test case down\n- small auto jump\n- climb on wall\n\n## skyboard\n- small auto jump\n- unlimited flight\n- fall when collide\n",
-  "maintainers": [
-    "oblerion"
-  ],
+  "maintainers": ["oblerion"],
   "media_license": "Apache-2.0",
   "name": "skyboard",
-  "provides": [
-    "skyboard"
-  ],
+  "provides": ["skyboard"],
   "release": 25584,
   "repo": "https://github.com/oblerion/skyboard",
   "score": 166.9,
@@ -55,9 +51,7 @@
   ],
   "short_description": "add skyboard flying vehicle with crafting",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1bffdd7d15.png",
   "title": "Skyboard",
   "translation_url": null,

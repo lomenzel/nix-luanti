@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/random-geek/morelights/issues",
   "license": "LGPL-3.0-only",
   "long_description": "The Morelights modpack adds over 30 lighting and accessory nodes to suit\nvarious styles of builds, both interior and exterior. Includes basic light\nblocks, modern and historical-style lighting, and customizable street lamps.\n\nThe modpack is lightweight, with only about **60 kB** of media, including 3D\nmodels.\n\nSome nodes (ceiling lights, bar lights, poles) can be rotated to serve\ndifferent purposes.\n\nMorelights currently supports Minetest Game, MineClone 2, and Hades Revisited.\n",
-  "maintainers": [
-    "random_geek"
-  ],
+  "maintainers": ["random_geek"],
   "media_license": "CC-BY-SA-4.0",
   "name": "morelights",
   "provides": [
@@ -25,14 +23,10 @@
   "release": 16081,
   "repo": "https://github.com/random-geek/morelights",
   "score": 578.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/jGlFi2t3Pd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/jGlFi2t3Pd.png"],
   "short_description": "Provides flexible interior and exterior lighting options for different styles of builds.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/jGlFi2t3Pd.png",
   "title": "Morelights",
   "translation_url": null,

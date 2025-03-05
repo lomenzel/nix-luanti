@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Various paintings in frames that can be hung around for decorative purposes.\nThere are 25 different paintings, some in landscape and a few in portriat.\nAll 25 paintings are available in two different frame colors, so this mod adds 50 nodes in total.\n\nThe artwork is in the public domain and came from the National Gallery of Art (nga.gov).",
-  "maintainers": [
-    "ClassicAdam"
-  ],
+  "maintainers": ["ClassicAdam"],
   "media_license": "CC0-1.0",
   "name": "framed_art_paintings",
-  "provides": [
-    "framed_art_paintings"
-  ],
+  "provides": ["framed_art_paintings"],
   "release": 24660,
   "repo": null,
   "score": 15.9,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Various paintings in frames for hanging on walls.  High res at 512px.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4e53d47bf4.png",
   "title": "Art Paintings in Frames (high res, 512px)",
   "translation_url": null,

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Add safe rooms to your base! Craft the concrete from sand, gravel, and refined clay lumps to create truly safe rooms. Currently does not protect from mod explosions, only default TNT.",
-  "maintainers": [
-    "Spooks"
-  ],
+  "maintainers": ["Spooks"],
   "media_license": "CC0-1.0",
   "name": "bunker",
-  "provides": [
-    "bunker"
-  ],
+  "provides": ["bunker"],
   "release": 28980,
   "repo": null,
   "score": 14.2,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Add blast proof concrete and its craft items.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ea3862e320.png",
   "title": "Bunker Block",
   "translation_url": null,

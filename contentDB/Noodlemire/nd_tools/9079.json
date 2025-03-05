@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/Noodlemire/nd_tools/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This is a mod that takes the node_damage API and applies it to every item in the game, effectively replacing the usual digging interactions. The actual digging times should be about the same, but you get long-lasting node damage, which must be manually repaired or replaced if something important (like a house wall) gets damaged.\n\nTo help in repairing, you can make a variety of \"mallets\" with support from a wide variety of mods that add ores. Mallets work like any usual tool, except instead of breaking blocks, they repair them. However, mallets also need you to have glue in your inventory to work. This mod can either add its own glue or rely on Mesecon's glue if it exists, and each piece of glue allows to 9 repairs to be done.\n\nAn api.txt file is provided if you wish to work with this system or make new mallets in your own mod.",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "LGPL-2.1-only",
   "name": "nd_tools",
-  "provides": [
-    "nd_tools"
-  ],
+  "provides": ["nd_tools"],
   "release": 9079,
   "repo": "https://github.com/Noodlemire/nd_tools",
   "score": 304.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/59e6837ecc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/59e6837ecc.png"],
   "short_description": "Overrides pre-existing tools to make them cause persistent node damage.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "tools",
-    "world_tools"
-  ],
+  "tags": ["library", "tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/59e6837ecc.png",
   "title": "Tools Using the Node Damage and Repair System",
   "translation_url": null,
@@ -62,9 +52,7 @@
       {
         "is_optional": false,
         "name": "node_damage",
-        "packages": [
-          "Noodlemire/node_damage"
-        ]
+        "packages": ["Noodlemire/node_damage"]
       }
     ],
     "Noodlemire/node_damage": [],

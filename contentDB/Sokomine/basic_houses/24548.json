@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Sokomine/basic_houses/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Sometimes you may feel lonely in your world but don't want to encounter entire villages. The basic houses this mod places on flat land are well integrated into the landscape and invite you to extend and imporve them. They appear only where flat land is. Each house comes with a door, lamps above the door, windows, floors, a steel ladder and a solid roof. Some houses may contain chests with additional building materials or even a machine used for creating plasterwork.\n\nCombine this with the [plasterwork](https://content.minetest.net/packages/Sokomine/plasterwork/) mod in order to get the colorful houses.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "basic_houses",
-  "provides": [
-    "basic_houses"
-  ],
+  "provides": ["basic_houses"],
   "release": 24548,
   "repo": "https://github.com/Sokomine/basic_houses",
   "score": 46.3,
@@ -33,9 +29,7 @@
   ],
   "short_description": "Simple random houses spawning in small groups on the map",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Bet111g2cm.png",
   "title": "Basic Houses",
   "translation_url": null,
@@ -49,9 +43,7 @@
       {
         "is_optional": false,
         "name": "handle_schematics",
-        "packages": [
-          "Sokomine/handle_schematics"
-        ]
+        "packages": ["Sokomine/handle_schematics"]
       }
     ],
     "Sokomine/handle_schematics": []

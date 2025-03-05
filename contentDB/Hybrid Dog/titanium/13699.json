@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/HybridDog/titanium/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "WTFPL",
   "name": "titanium",
-  "provides": [
-    "titanium"
-  ],
+  "provides": ["titanium"],
   "release": 13699,
   "repo": "https://github.com/HybridDog/titanium",
   "score": 153.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/da48d61464.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/da48d61464.png"],
   "short_description": "Adds titanium which is very strong and lasts for a long time. ",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/da48d61464.png",
   "title": "Titanium",
   "translation_url": null,
@@ -464,10 +454,7 @@
       {
         "is_optional": false,
         "name": "function_delayer",
-        "packages": [
-          "Hybrid Dog/function_delayer",
-          "mt-mods/dreambuilder_game"
-        ]
+        "packages": ["Hybrid Dog/function_delayer", "mt-mods/dreambuilder_game"]
       },
       {
         "is_optional": false,

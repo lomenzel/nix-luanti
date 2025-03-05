@@ -25,28 +25,17 @@
   "issue_tracker": "https://bitbucket.org/minetest_gamers/x_tumbleweed/issues?status=new&status=open",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds tumbleweed.\n\n## Features\n\n* spawns in desert, sandstone desert and cold desert by default\n* have a ~33% change to split down to smaller tumbleweeds when broken\n* drops decoration items from the biome where it was broken\n* has various sizes and textures\n* punching the tumbleweed will make it change direction\n\n\n## API\n\nClass\n\n`XTumbleweed`\n\nMethods\n\n`add_allowed_biomes(biomes: string[]): void`\n\nAdd biome names to XTumbleweed allowed biomes list so the tumbleweed can spawn in them.\n\nexample\n```lua\nXTumbleweed:add_allowed_biomes({\n    'everness_forsaken_desert',\n    'everness_forsaken_desert_ocean',\n    'everness_forsaken_desert_under',\n    'everness_baobab_savanna'\n})\n```",
-  "maintainers": [
-    "SaKeL"
-  ],
+  "maintainers": ["SaKeL"],
   "media_license": "CC-BY-SA-4.0",
   "name": "x_tumbleweed",
-  "provides": [
-    "x_tumbleweed"
-  ],
+  "provides": ["x_tumbleweed"],
   "release": 18581,
   "repo": "https://bitbucket.org/minetest_gamers/x_tumbleweed",
   "score": 634.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b16d3d1c57.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b16d3d1c57.png"],
   "short_description": "Adds Tumbleweed.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "environment",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["decorative", "environment", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b16d3d1c57.png",
   "title": "X Tumbleweed",
   "translation_url": null,

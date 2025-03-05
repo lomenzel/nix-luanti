@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Beanzilla/nutra_paste/issues",
   "license": "MIT",
   "long_description": "# Nutra Paste\n\nFree but poor quality food source.\n\nThe concept is from the game [Rimworld](https://rimworldgame.com/)\n\n## How it works\n\nOnce you get wood you can make a Nutra Paste Machine, this block once placed will produce Nutra Paste. Nutra Paste is a meal which provides\n half a hunger point or half a hit point of food, thus making it not prefered, but can be used to keep you alive.\n\n## What to change something\n\nMost of the settings you'll want to change are contained within settings.lua so just edit the file and restart your client/server.\n\n### What's in settings.lua\n\n* `amount_per_production`, How many Nutra Paste meals do all machines make per production?\n\n* `time_per_production`, How frequent do Nutra Paste Machines produce meals?\n\n* `log_production`, In case you wanted/need to get some extra debug on what is happening. (This should be false on servers and more stable/long running environments)\n\n* `craft`, Can any player craft a Nutra Paste Machine to make meals with?\n\n## How to make it\n```\nW = Wood Planks (Uses groups so any wood planks will work)\nS = Sapling (Uses groups so any sapling will work)\n\n_  W _\nW S W\n_  W _\n```",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "MIT",
   "name": "nutra_paste",
-  "provides": [
-    "nutra_paste"
-  ],
+  "provides": ["nutra_paste"],
   "release": 13460,
   "repo": "https://github.com/Beanzilla/nutra_paste",
   "score": 157.6,
@@ -56,9 +52,7 @@
   ],
   "short_description": "Low quality, but free, food source.",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2dcd262a52.png",
   "title": "Nutra Paste",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "<h2> Functions </h2>\n\n**enderpearl.block_teleport(player, [duration])**\n\nStops the player from teleporting for the specified duration\n(if it isn't nil). To allow a player to teleport again just set\nthe duration to 0.\n\n<br>\n\n<h2> Callbacks </h2>\n\n**enderpearl.on_teleport(function(hit_node) end)**\n\nCalled when the enderpearl hits a node.",
-  "maintainers": [
-    "giov4"
-  ],
+  "maintainers": ["giov4"],
   "media_license": "GPL-3.0-only",
   "name": "enderpearl",
-  "provides": [
-    "enderpearl"
-  ],
+  "provides": ["enderpearl"],
   "release": 26492,
   "repo": "https://gitlab.com/zughy-friends-minetest/enderpearl/",
   "score": 1189,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BFcJefao4W.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BFcJefao4W.png"],
   "short_description": "Throwable item that teleports you to the place it hit for some HPs",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BFcJefao4W.png",
   "title": "Enderpearl",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/h2mm/disco_trains/issues",
   "license": "MIT",
   "long_description": "********\nThere are varieties of colors of subway train.\nAvaliable colors:\n1.Red\n2.Green\n3.Blue\n4.Black\n5.Gray\n6.White\n***********",
-  "maintainers": [
-    "sivarajansam"
-  ],
+  "maintainers": ["sivarajansam"],
   "media_license": "MIT",
   "name": "discotrains",
-  "provides": [
-    "discotrains"
-  ],
+  "provides": ["discotrains"],
   "release": 3681,
   "repo": "https://gitlab.com/h2mm/disco_trains",
   "score": 300,
-  "screenshots": [
-    "https://content.luanti.org/uploads/YoJo8qsww6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/YoJo8qsww6.png"],
   "short_description": "Adds colorful subway trains to advanced trains",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/YoJo8qsww6.png",
   "title": "Disco trains",
   "translation_url": null,
@@ -44,39 +36,29 @@
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "sivarajansam/discotrains": [
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_subway",
-        "packages": [
-          "orwell/basic_trains"
-        ]
+        "packages": ["orwell/basic_trains"]
       }
     ]
   },

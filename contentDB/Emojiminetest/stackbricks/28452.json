@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/stackbricks/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Stacked Bricks\n\nStacked bricks! This mod supports bricks from the [Minetest Game](https://content.luanti.org/packages/Minetest/minetest_game/), [Technic](https://content.luanti.org/packages/mt-mods/technic_plus/), [Moreblocks](https://content.luanti.org/packages/Calinou/moreblocks/), and [Ethereal NG](https://content.luanti.org/packages/TenPlus1/ethereal/). Mods may register their own using `stackbricks.register_stackbrick`.\n\nStacked bricks are crafted by putting a brick onto another brick in the crafting grid, or by putting their slabs like so. Slabs registered in Minetest Game and Stairsplus (bundled with Moreblocks) are supported.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "stackbricks",
-  "provides": [
-    "stackbricks"
-  ],
+  "provides": ["stackbricks"],
   "release": 28452,
   "repo": "https://github.com/C-C-Minetest-Server/stackbricks",
   "score": 5.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0fb493c946.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0fb493c946.jpg"],
   "short_description": "Bricks stacked on another type of bricks",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0fb493c946.png",
   "title": "Stacked Bricks",
   "translation_url": null,
@@ -58,10 +50,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ]
   },

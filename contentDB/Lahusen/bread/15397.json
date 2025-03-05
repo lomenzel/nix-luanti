@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://codeberg.org/Lahusen/bread/issues",
   "license": "MIT",
   "long_description": "# Bread\n\nAdds my favourite bread recipes. This mod is still WIP.\n\nThis is my first attempt to do some modding-stuff in Minetest. So please be patient. ;-)\n\n## Requirements\n* farming_redo\n\n### Optional\n* hunger_ng\n\n## Changelog\n##### 2022-02-01\n* Wholegrain carrot bread added (Well, the \"wholegrain\" is the sunflowerseed. ;-) )\n\n##### 2022-01-30\n* Initial commit - Pita added\n",
-  "maintainers": [
-    "Lahusen"
-  ],
+  "maintainers": ["Lahusen"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bread",
-  "provides": [
-    "bread"
-  ],
+  "provides": ["bread"],
   "release": 15397,
   "repo": "https://codeberg.org/Lahusen/bread.git",
   "score": 153.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e4fa90627a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e4fa90627a.png"],
   "short_description": "Just my favourite bread recipes",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e4fa90627a.png",
   "title": "Bread",
   "translation_url": null,

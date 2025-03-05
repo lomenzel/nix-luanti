@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "WTFPL",
   "long_description": "minetest-ufos\n=============\n\nUFOs mod for minetest\nLicense: WTFPL\nCredits:\n\t- Zeg9 for code\n\t- Melkor for model and texture\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "WTFPL",
   "name": "ufos",
-  "provides": [
-    "ufos"
-  ],
+  "provides": ["ufos"],
   "release": 23994,
   "repo": "https://github.com/mt-historical/ufos",
   "score": 10.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4181fe484f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4181fe484f.png"],
   "short_description": "adds a ufo for flying around in",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4181fe484f.png",
   "title": "Ufos",
   "translation_url": null,

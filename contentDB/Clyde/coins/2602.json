@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/acmgit/coins/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "This mod add 3 kind of Coins to your game or server. The feature is now, the coins are **limited** and not **craftfable**.\nAs admin you can control the financial side on the server and you can nominate treasurer, who can help you controlling\nthe money on the server. Also you can set your exchange-rate as fixed or dynamical.\nAs normal player, you can see every time the amount of coins on the server and get a proposed exchange-rate for the coins,\nto help you, if you want to trade with this coins.",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "CC-BY-3.0",
   "name": "coins",
-  "provides": [
-    "coins"
-  ],
+  "provides": ["coins"],
   "release": 2602,
   "repo": "https://github.com/acmgit/coins",
   "score": 5.1,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Adds 3 kind of Coins to your game",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "inventory",
-    "survival"
-  ],
+  "tags": ["commerce", "inventory", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/63696b4a4a.png",
   "title": "Coins",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_teletool/issues",
   "license": "MIT",
   "long_description": "This mod adds a new tool: The point teleporter. It is a tool which allows for short-range teleportation. Punch any pointed node to teleport.\nRange is 20 block lengths.\n\nTo teleport, the destination needs to have enough space, there must be at least 1×2×1 nodes of passable space.\n\nPoint teleporters comes in up to three varieties, which only differ in how often you can use them and whether and which energy source they use:\n\n* Infinite point teleporter: You can use it without limits.\n* Magic point teleporter: It uses 20 mana per teleportation. (Only available if the `mana` mod is active)\n* Electronic point teleporter: It has to be charged at a battery station first. A charged one grants you about 50 teleportations. This point teleporter can be crafted. (Only available if the `technic` mod is active)\n",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "teletool",
-  "provides": [
-    "teletool"
-  ],
+  "provides": ["teletool"],
   "release": 17505,
   "repo": "https://codeberg.org/Wuzzy/minetest_teletool",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/syY6kdJpPm.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/syY6kdJpPm.png"],
   "short_description": "Adds a short-distance teleportation device which allows the user to instantly change the position in front of a pointed node.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/syY6kdJpPm.png",
   "title": "Point Teleporter",
   "translation_url": null,

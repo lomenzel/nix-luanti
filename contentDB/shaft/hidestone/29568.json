@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "Hidestone is a mysterious stone that can hide up to 100 other blocks of the same kind that are touching each starting from the block in front of the hidestone.\n\nIt respects protection and mvps stoppers (beds and doors for example) and if it hits an ignore node at an unloaded area of your world it will do nothing to prevent an invalid state where part of the hidden nodes would remain hidden. Hidden nodes are unbreakable and unmovable. If a hidestone is broken, all hidden nodes will become visible again.\n\nYou can even hide node-masses of the same kind side by side in two hidestones provided they are not next to each other when the first node-mass is hidden.\n\nIt preserves metadata and can hide all kinds of nodes including fluids, chests and furnaces. It's also a solid alternatives to Mesecons Ghoststones and  [Mesecons Stealthnodes](https://content.luanti.org/packages/Clyde/mesecons_stealthnode/).\n\nAnd you can craft it. How did you find out how to make it? Your grandmother told you or something. I don't know.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "hidestone",
-  "provides": [
-    "hidestone"
-  ],
+  "provides": ["hidestone"],
   "release": 29568,
   "repo": "https://gitgud.io/blut/hidestone",
   "score": 3.2,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Adds a stone that can hide up to 100 blocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology"
-  ],
+  "tags": ["building", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/129f204ba2.png",
   "title": "Hidestone",
   "translation_url": null,

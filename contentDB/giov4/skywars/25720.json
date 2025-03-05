@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "# Skywars\n<br/>\n  \n  \n\n### How do I play it? <br/><hr/>\n\nSkywars is a PvP minigame where players battle each other on floating islands until there is only one survivor remaining.\nLoot from chests, collect weapons and resources, and defeat them all!\n\n\n<br/><br/>\n\n### How do I configure it? <br/><hr/>\n\nYou can read the full tutorial [here](https://gitlab.com/zughy-friends-minetest/skywars/-/blob/master/TUTORIAL.txt).\nTo see all the in-game commands you can use */help skywars.*\n\nThese are the **main commands** necessary to create the arena:   \n\t<br/>\n*/arenas create skywars <arena name> [min players] [max players]\n\t<br/>\n/arenas edit <arena name>\n<br/>\n/skywars addtreasure <arena name> <item> <count> <preciousness>  \n<rarity (min 1.0, max 10.0)> \n\t<br/> or <br/>\n/skywars addtreasure hand <arena name> <preciousness>\n<rarity (min 1.0, max 10.0)>  \n\t\t<br/>\n/skywars addchest <minpreciousness> <maxpreciousness>  \n<mintreasuresamount (min. 1)> <maxtreasuresamount>*  \n\n\n\n",
-  "maintainers": [
-    "giov4"
-  ],
+  "maintainers": ["giov4"],
   "media_license": "GPL-3.0-only",
   "name": "skywars",
-  "provides": [
-    "skywars"
-  ],
+  "provides": ["skywars"],
   "release": 25720,
   "repo": "https://gitlab.com/zughy-friends-minetest/skywars",
   "score": 316,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Skywars is a PvP minigame where players battle each other on floating islands until there is only one survivor remaining.",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "pvp"
-  ],
+  "tags": ["mini-game", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8foArlOTgs.png",
   "title": "Skywars",
   "translation_url": null,
@@ -69,18 +62,14 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "giov4/skywars": [
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ]
   },

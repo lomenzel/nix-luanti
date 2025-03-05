@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/jolesh/mt_de_nenio/issues",
   "license": "CC0-1.0",
   "long_description": "A Minetest mod to add possibilities to get items normally unobtainable in skyblock through new mechanics\n\nAlthough not this mod does not technically depend on the \"composter\" mod it highly recomended as it is needed to optain dirt and with that basically everything from this mod.\n\n# How to help\n* **Translations** are the part I need most help with, so if you want to help take a moment to go on the GitHub page, copy the `template.txt` in locale, translate the strings after the \"=\" and name the file `de_nenio.yourlangid.tr` and create a Pull Request.\n* Create **Issues** on **GitHub** with Feature Requests or Bugs.\n* Make **Pull Request** with bug fixes, new features or textures, etc.",
-  "maintainers": [
-    "Jolesh"
-  ],
+  "maintainers": ["Jolesh"],
   "media_license": "CC0-1.0",
   "name": "de_nenio",
-  "provides": [
-    "de_nenio"
-  ],
+  "provides": ["de_nenio"],
   "release": 24244,
   "repo": "https://github.com/jolesh/mt_de_nenio",
   "score": 159.2,
@@ -323,9 +317,7 @@
   ],
   "short_description": "Adds possibilities to get items normally unobtainable in skyblock through new mechanics and objects",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7fedd3259f.png",
   "title": "De Nenio",
   "translation_url": null,

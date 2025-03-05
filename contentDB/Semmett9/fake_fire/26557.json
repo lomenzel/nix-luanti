@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,15 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "# About the Mod #\n\n## what is fake fire? ##\n\nFake fire adds in a block that looks like fire, but dose not have the risk of burning down your creations. the mod also adds in a flint and steel which is used to spawn in the fire. to remove the fire block just simply hit it like any other block. fake fire is an ideal for replacing the original fire in minetest\n\n## How do i make fake fire ##\n\nTo make fake fire you will need to make a Fake Fire Lighter.  This has the same craft recipes as the default flint & steel, However insted of steel you use gold. \n\nFor more infomation please visit the [crafting](https://bitbucket.org/kingarthursteam/fakefire/wiki/Crafting%20Guide) section our wiki\n\n## How do i make ice fake fire ##\n\nTo make ice fake fire use the fire lighter on ice or snow. normal fire will work on wook, grass ect. \n\nFor more infomation please vist the [\"how to use\"](https://bitbucket.org/kingarthursteam/fakefire/wiki/Getting%20Started)  section on our wiki\n\n## How do i make the fire give off smoke ##\n\nTo toggle the smoke simply right click on the node.  This will toggel the smoke on or off. \n\nThis works for fake fire and the chimney nodes. \n\nFor more infomation please vist the [\"how to use\"](https://bitbucket.org/kingarthursteam/fakefire/wiki/Getting%20Started) section on  our wiki\n\n# Mod Details #\n## License ##\n\nlicenced uner the GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007\n\nSounds from freesound.org licended under the Creative Commons CC BY-SA 3.0\n\n## How To Install ##\n\n### Linux ###\n1. Go to your Home directory\n2. You should see a folder called minetest. If not the folder is probely hidden. To get to it type \"/.minetest/\" in the navigation bar.\n3. You should now be in a folder called \".minetest\". in this folder you should see another folder called \"mods\". If you dont see this make a new folder called \"mods\".\n4.   Copy and Paste the mod into the \"mods\" folder. (make sure that it is extracted from the zip file\". \n\n### Windows ###\n1. Locate where the game has been saved. if you don't know where it has been saved right click the minetest icon and press \"Open file location\"\n2. when you are in the minetest folder you should see a folder called \"mods\", as well as other folders like \"bin\", \"textures\" , \"games\", ect. \n3. Copy and Paste the mod into the \"mods\" folder. (make sure that it is extracted from the zip file\".",
-  "maintainers": [
-    "Semmett9",
-    "addi"
-  ],
+  "maintainers": ["Semmett9", "addi"],
   "media_license": "CC-BY-3.0",
   "name": "fake_fire",
-  "provides": [
-    "fake_fire"
-  ],
+  "provides": ["fake_fire"],
   "release": 26557,
   "repo": "https://bitbucket.org/kingarthursteam/fakefire/src/master/",
   "score": 10.5,
@@ -451,9 +444,7 @@
   ],
   "short_description": "Fake fire adds in a block that looks like fire, but dose not have the risk of burning down your creations.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0458677d24.png",
   "title": "Fake Fire",
   "translation_url": null,

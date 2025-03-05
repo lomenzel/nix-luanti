@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "Useful for server organization where you want to add custom media but don't want to modify mods.\nThis is not for texture packs but for loading media such as (not already defined) textures for entities. ",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "GPL-3.0-only",
   "name": "_world_folder_media",
-  "provides": [
-    "_world_folder_media"
-  ],
+  "provides": ["_world_folder_media"],
   "release": 16538,
   "repo": "https://gitlab.com/zughy-friends-minetest/world_folder_media",
   "score": 41.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/98d9a49143.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/98d9a49143.png"],
   "short_description": "Allows you to load textures and sounds from the world folder. ",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/98d9a49143.png",
   "title": " World Folder Media",
   "translation_url": null,

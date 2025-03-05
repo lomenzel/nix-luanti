@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/torch_bomb/issues",
   "license": "MIT",
   "long_description": "## Torch Bomb\n\n![](https://raw.githubusercontent.com/minetest-mods/torch_bomb/master/screenshot.jpg)\n\nIf you've ever been exploring a cave and found a deep, dark hole in the ground with no clue as to what was below, this is the mod for you.\n\nThrow a torch grenade and it will explode on impact, firing up to 12 torches 25 meters away from the detonation point to embed themselves in whatever surfaces they hit.\n\nFor surveying a larger chamber three torch grenades can be combined into a single torch bomb. Place the bomb block and ignite it by punching it with a torch. Three seconds later it'll detonate and fire up to 42 torches 50 meters away from the detonation point. Torch bombs are falling nodes when lit, much like TNT, but you need to punch them a second time once they are lit to make them fall.\n\nThree torch bombs can be combined into one mega torch bomb. A mega torch bomb can fire up to 162 torches with a range of 150 meters from the detonation point. It produces enough of a blast to destroy nodes within 3 meters, so take care. One of these is suitable for illuminating a very large cavern with walls and ceiling too distant to reach otherwise.\n\nIf you want to scatter torches from the center of a cavern to reach floor and ceiling more evenly a torch bomb can be upgraded to a torch rocket with the addition of more TNT. Torch rockets can have a fuse set up to 14 seconds, which at their acceleration of 1 meter per second squared will cause it to rise nearly 100 meters before detonating.\n\nFor precision torch placement a set of torch crossbows are included: wooden, bronze, and steel.\n\nTNT is an optional dependency for this mod, but torch bombs don't have a crafting recipe (and don't produce a damaging blast) without the tnt mod enabled.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "torch_bomb",
-  "provides": [
-    "torch_bomb"
-  ],
+  "provides": ["torch_bomb"],
   "release": 5968,
   "repo": "https://github.com/minetest-mods/torch_bomb",
   "score": 628,
-  "screenshots": [
-    "https://content.luanti.org/uploads/hzqYt5im92.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/hzqYt5im92.jpg"],
   "short_description": "Place torches throughout your entire surroundings with a torch bomb",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "pve",
-    "tools"
-  ],
+  "tags": ["building_mechanics", "pve", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hzqYt5im92.png",
   "title": "Torch Bomb",
   "translation_url": null,

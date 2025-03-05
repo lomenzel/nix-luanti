@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,24 +429,17 @@
   "issue_tracker": "https://github.com/Emojigit/anti_lava_area/issues",
   "license": "LGPL-2.1-only",
   "long_description": "",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-only",
   "name": "anti_lava_area",
-  "provides": [
-    "anti_lava_area"
-  ],
+  "provides": ["anti_lava_area"],
   "release": 4858,
   "repo": "https://github.com/Emojigit/anti_lava_area",
   "score": 0,
   "screenshots": [],
   "short_description": "give admin power to anti lava in some region.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "world_tools"],
   "thumbnail": null,
   "title": "Anti Lava Area",
   "translation_url": null,
@@ -462,10 +453,7 @@
       {
         "is_optional": false,
         "name": "areas",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "ShadowNinja/areas"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
       },
       {
         "is_optional": false,

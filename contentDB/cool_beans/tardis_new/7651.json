@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/PiDemon/Taridis_New/issues",
   "license": "MIT",
   "long_description": "<p> This mod is a WIP.  It, however, is currently stable. I highly suggest you use a crafting guide mod with it. If you don't know what Doctor Who is, go look it up. </p>\n\t\n# Features:\n\n- Gallifreyan Lab: Used to create arton crytals (from mese) and compressed space time (from diamond blocks).  It does not require fuel, but is notably bad for your health!\n- Tardises: Simply craft a tardis, place it on the ground, and walk through the door.  You'll have to craft seperate console units to control and fly your tardis. Exiting your Tardis in mid-flight will result in death.\n- Console Units: Console units control your tardis. Place them in your tardis, and right click on them to use them. There's three diffrent styles!\n- Time Rotor: Used to power the tardis. It will slowly generate power that is used for all tardis operations. Having multiple time rotors in your tardis will not generate power faster. Right click on it to see how much power your Tardis has.\n- Moniter: Displays your current position, destination, power, ect.\n- Sonic Screwdriver: Can be created from a button on the fuctions consle unit.\n- Vortex Manipulator: Easy time travel (also notatbly bad for your health)\n- Gaunlet of Rasilion: A powerful weapon.\n- Azbantium: Can only be mined by a dalekanium pickaxe, even in creative!\n- Dalekanium Tools: Better than diamond, made from azbantium, gold, steel, and obsidian.\n- Galifreyan Chests: Very large, very expensive. \n- Chat command  `/summon_tardis ` to summon your Tardis if you have the `bring` privlage.\n\n### Console Units:\n\n- X/Y/Z Axis Console Units: Click on the levers to decrease/increase the X/Y/Z coordinate of your destination. ***The amount that the lever decrease/increase that coordinate can be controlled by the Travel Factor console unit***.\n- Travel Factor Console Unit: Controls by how much the levers on the X/Y/Z Axis Console Units decrease/increase the coordinates of your destination.\n- Exterior Control Console Unit: Changes how the outside of your Tardis looks.\n- Warp Lever Console Unit: The go button. Teleports your Tardis to your set destination.\n- Waypoint Console Unit: Used to set up to three waypoints. Using a waypoint will automatically set your destination to the position the Tardis was in when the waypoint was set.\n- Functions Console Unit: Can locate a player, create diamond tools, biscuts, sonic screwdrivers,  heal you,  toggle antigravity, and attack players within range of your tardis.\n\n### Sonic Screwdriver Functions:\n\n- Lockpick: Click on a steel door/trap door to unlock it (even if it isn't yours!)\n- Summoning: Sneak and click a block to summon your tardis (for three power)\n- Sonic Knock Back: Sneak and click to an entity to knock the entity backwards (works better the farther away you are from the entity)\n- Sand Conversion: Click (and not sneak) on sand to convert it to silver sand.\n- Glass Conversion: Click on glass to turn it into obsidian glass.\n- Obsidian Reversal: Click on obsidian to turn it into lava.\n- ***Mesecon Hacking:*** Click on mesecon wires to turn them on/off.\n- ***Digiline Hacking:*** Click on digiline wires to send a message through them.  (only works if no message is currently being send to channel)\n- Scan: Click (and not sneak) on an entity to scan it.\n- Locking: Click on your Tardis to lock/unlock it.\n- Accelerated Growth: Click on dirt to grow grass on it (in a later update growing crops with be supported).\n\n### Gallifreyan Lab Recipes\n\n- Diamond Blocks to Compressed Space Time.\n- Dimaonds to Azbantium Shards\n- Mese Blocks to Diamonds\n- Mese to Arton Crystals\n- Copper Ingot to Steel Ingots\n- Coal Lump to Tin Lumps\n- Steel Block to Mese Crystals\n- Dirt to Coal Lumps\n\n# Bugs\n\n- Chests sometimes have to be double clicked to open.\n- Weird stuff with certian mobs dieing upon entering Tardis.",
-  "maintainers": [
-    "cool_beans"
-  ],
+  "maintainers": ["cool_beans"],
   "media_license": "CC-BY-4.0",
   "name": "tardis_new",
-  "provides": [
-    "tardis_new"
-  ],
+  "provides": ["tardis_new"],
   "release": 7651,
   "repo": "https://github.com/PiDemon/Taridis_New.git",
   "score": 317.3,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Adds a functioning space-time machine from the tv show doctor who.",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "transport"
-  ],
+  "tags": ["technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pjv83DwHau.png",
   "title": "Tardis",
   "translation_url": null,

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,28 +299,17 @@
   "issue_tracker": "https://codeberg.org/Stakbox/s_potions_modpack/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "\nStakbox Potions\n---------------\n\n**Disclaimer** - this mod has been tested, but it probably hasn't been tested enough (especially the latest round of changes).\nIssue reports (either on ContentDB or in the issue tracker) are very much welcome!\n\nThis modpack adds a simple potion brewing system for Minetest Game, balanced for and tested in v7 world generation.\nThe brewing system is designed to provide a use for lesser used materials (especially tin and gold),\nand to encourage base-building due to the relatively large amount of space a proper brewing room can require.\n\nCustom potions can be added using the api (see API.md).\nFor further details (including a list of all potions and their effects) see the guide.txt file.\n\nThe modpack's functionality is split into 3 mods, for more dependecy options:\n\n* s_potions (api) - provides the API for defining potion types\n* s_brewing (brewing) - adds the alchemy stand and the brewing system\n* s_potions_default (potions) - adds a complete set of potions\n\nBoth s_brewing and s_potions_default depend on s_potions, but other than that the mods can be used in any combination.\nIf you do not want to use s_brewing, you need to define your own crafting recipes for the potions.\n",
-  "maintainers": [
-    "Stakbox"
-  ],
+  "maintainers": ["Stakbox"],
   "media_license": "CC-BY-SA-4.0",
   "name": "s_potions_modpack",
-  "provides": [
-    "s_brewing",
-    "s_potions",
-    "s_potions_default"
-  ],
+  "provides": ["s_brewing", "s_potions", "s_potions_default"],
   "release": 28666,
   "repo": "https://codeberg.org/Stakbox/s_potions_modpack",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ddf69c550a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ddf69c550a.png"],
   "short_description": "Adds a simple potion brewing system for MTG. Includes API for adding custom potions.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival"
-  ],
+  "tags": ["player_effects", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ddf69c550a.png",
   "title": "S Potions",
   "translation_url": null,

@@ -38,27 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "*This mod is for Nodecore only. Ports to other games welcome.*\n\nPaint can be used to draw stuff on surfaces of nodes. Paint is made by pummeling flowers by hand or with a mallet.\nTo draw, simply hold right mouse button on a supported surface with paint. Sneak to draw with thinner strokes\n\nNote: There might be some accessibility problems on mobile.\n",
-  "maintainers": [
-    "Kimapr",
-    "Warr1024"
-  ],
+  "maintainers": ["Kimapr", "Warr1024"],
   "media_license": "MIT",
   "name": "nc_paint",
-  "provides": [
-    "nc_paint"
-  ],
+  "provides": ["nc_paint"],
   "release": 22904,
   "repo": "https://gitlab.com/Kimapr/nc_paint",
   "score": 156.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8773230268.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8773230268.png"],
   "short_description": "Paint anything on node surfaces",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "decorative"
-  ],
+  "tags": ["building_mechanics", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8773230268.png",
   "title": "Nodecore Paint",
   "translation_url": null,
@@ -72,18 +62,12 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_writing",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

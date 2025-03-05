@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# PvP Training Bot Mod for Minetest\n\nThis Minetest mod introduces customizable practice bots to help players train and improve their PvP (Player vs. Player) skills. Designed for solo practice, the bots simulate realistic combat scenarios with varying difficulty levels and adaptive behavior.\n\n## features\n\nit has 3 spawner types, easy,medium,difficult. the difficulty changes the speed and damage of the bot.it also has spawn items(eggs). this pack comes with a spawner breaking pickaxe. to make it server friendly, the spawner breaking pickaxe is uncraftable and the spawner blocks cannot be breaked using normal tools. \n\n## what makes it special?\nyou dont have to download other mobs pack. it depends on the minetest's player api. it doesn't lag or have any bugs in it(i have tested it in many other places too)\n\n## installation\njust download it and it will add you the spawner blocks! have fun :) and practice your pvp skills!",
-  "maintainers": [
-    "TigerMask1"
-  ],
+  "maintainers": ["TigerMask1"],
   "media_license": "MIT",
   "name": "practice_bot",
-  "provides": [
-    "practice_bot"
-  ],
+  "provides": ["practice_bot"],
   "release": 29129,
   "repo": "https://github.com/TigerMask1/practice_bot",
   "score": 15.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fa8b100179.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fa8b100179.png"],
   "short_description": "A Minetest mod that adds customizable practice bots and spawner blocks to help players train their PvP skills. Includes difficulty levels, realistic animations, and unique tools for managing spawners.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fa8b100179.png",
   "title": "PvP Training Bot Mod",
   "translation_url": null,

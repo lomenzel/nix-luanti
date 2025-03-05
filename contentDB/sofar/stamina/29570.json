@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/stamina/issues/",
   "license": "GPL-2.0-only",
   "long_description": "",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "stamina",
-  "provides": [
-    "stamina"
-  ],
+  "provides": ["stamina"],
   "release": 29570,
   "repo": "https://github.com/minetest-mods/stamina",
   "score": 1818.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/kIomyyxAsF.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/kIomyyxAsF.png"],
   "short_description": "Adds stamina, sprinting, and hunger",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/kIomyyxAsF.png",
   "title": "Stamina",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/lisacvuk/minetest-toolranks/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Tools level up after a specific number of nodes dug.  \nHigher level tools last longer before needing to be repaired.  ",
-  "maintainers": [
-    "lisacvuk"
-  ],
+  "maintainers": ["lisacvuk"],
   "media_license": "CC-BY-SA-3.0",
   "name": "toolranks",
-  "provides": [
-    "toolranks"
-  ],
+  "provides": ["toolranks"],
   "release": 6378,
   "repo": "https://github.com/lisacvuk/minetest-toolranks",
   "score": 191,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Counts the number of nodes a specific tool has dug",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "survival",
-    "tools"
-  ],
+  "tags": ["inventory", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CsncsmebLX.png",
   "title": "Tool Ranks",
   "translation_url": null,

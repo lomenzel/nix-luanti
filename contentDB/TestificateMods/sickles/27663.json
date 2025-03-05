@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/t-affeldt/sickles/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Scythes & Sickles\nAdds scythes and sickles with unique applications for farming\n\nScythes allow you to quickly sweep through your fields. They can only break fully grown crops and harvest multiple plants at once.\nThey also replant harvested crops automatically. Alternatively, they can be used as an effective weapon with higher range.\nSickles allow you to scrape grass and moss from overgrown nodes. The resulting moss can then be used as dye of fertilizer.\nThey also let you to cut wheat and other grains more precisely, allowing you to harvest some crops without completely resetting them.\n\n## Scythes\n* only break fully grown crops\n* harvest all grown neighboring crops as well\n* automatically replant harvested crops\n* can be used as a weapon with slightly more range\n\n## Sickles\n* are an effective cutting tool\n* can harvest grass and moss from overgrown nodes\n* reset wheat and other grains by a few stages upon harvest instead of destroying them\n* have a slightly shorter range\n\n## Moss\n* can be found in four different colors\n* can be used as fuel in a furnace\n* can be crafted into dye\n* can be cooked into fertilizer (requires bonemeal mod)\n* can be turned into blocks\n* can be placed on the side of any node\n* can be eaten for a minimal health gain\n\n## Moss Blocks\n* are an effective fuel in a furnace\n* can be used as a building block\n* can be crafted into slabs and stairs\n* can be dyed in any of it's four natural colors\n\n## License Information\nThe entire source code is written by me and licensed under *GNU LGPL v3*. You can find the complete license information\nin the supplied license file.\nTextures for tools and moss items are made by Cap for this mod and licensed under *CC BY-SA 3.0*.\nTextures for placed moss node and flower petals are by Vanessa Ezekowitz under *CC BY-SA 4.0* for her [plantlife modpack](https://forum.minetest.net/viewtopic.php?t=3898).\nThe sound effect for placing or breaking moss blocks is made by DrMinky under *CC BY 3.0* and can be found on [FreeSound](https://freesound.org/people/DrMinky/sounds/167073/).",
-  "maintainers": [
-    "TestificateMods"
-  ],
+  "maintainers": ["TestificateMods"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sickles",
-  "provides": [
-    "sickles"
-  ],
+  "provides": ["sickles"],
   "release": 27663,
   "repo": "https://github.com/t-affeldt/sickles",
   "score": 30.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/LRaSeMIBai.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/LRaSeMIBai.png"],
   "short_description": "Adds scythes and sickles with unique applications for farming",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "tools"
-  ],
+  "tags": ["plants_and_farming", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/LRaSeMIBai.png",
   "title": "Scythes & Sickles",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Sokomine/moresnow/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Ever got annoyed by that snow levitating halfway in the air above a stair or a slab? Ever wanted to get your roof covered with snow? Or just wanted to place some kind of cushin (wool) on your benches (stairs)? Or just want to play with a snow cannon (auto-shooting)? Then moresnow might be something for you. It is not a perfect solution, but it is a huge improvement.\n\nSnow will adjust its shape to the following nodes below: stairs, slabs and fences. With moreblocks installed, it'll adjust to the corner stairs (inner and outer), the panel and the microblock as well. Homedecor comes with 3d roof nodes - all three types of them are supported (minus the raillike flat one). Technic's CNC machine creates slopes and fitting inner and outer edges which are the same shape as those homedecor roofs - and which are also supported (sometimes people use them for smooth grass hills). The cottages roof nodes are treated like stairs.\n\nUse the snow cannon to bring snow into your world.\n\nNote: Falling snowballs may trigger a cascade if dropped right next to a field of snow-covered wheat (as found in mg_villages). Falling nodes crush what is below - even if they should not. Therefore, I do not recommend moresnow on servers. Better use it in your singleplayer worlds.\n\nNew: Wool cover nodes come in much more colors now while at the same time needing far less registered nodes. Also some adjustments for newer versions of MT.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "moresnow",
-  "provides": [
-    "moresnow"
-  ],
+  "provides": ["moresnow"],
   "release": 25413,
   "repo": "https://github.com/Sokomine/moresnow",
   "score": 14.6,
@@ -458,12 +452,7 @@
   ],
   "short_description": "snow and wool for stairs - nicer winter landscape and snow-covered roofs",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "singleplayer",
-    "technology"
-  ],
+  "tags": ["building", "building_mechanics", "singleplayer", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/L7Kok2C6kO.png",
   "title": "More Snow",
   "translation_url": null,

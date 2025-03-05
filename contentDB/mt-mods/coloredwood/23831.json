@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/coloredwood/issues/",
   "license": "LGPL-3.0-only",
   "long_description": "Provides hundreds of colors of wood and fences to Minetest, using Unified Dyes.  Colored, cut wood shapes as well, with Moreblocks.\n\nIf signs_lib is installed, it must be commit 4ff54c9a or later.",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "coloredwood",
-  "provides": [
-    "coloredwood"
-  ],
+  "provides": ["coloredwood"],
   "release": 23831,
   "repo": "https://github.com/mt-mods/coloredwood",
   "score": 169.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/H2axGbmRhi.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/H2axGbmRhi.png"],
   "short_description": "Colorize some wood!",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/H2axGbmRhi.png",
   "title": "Coloredwood",
   "translation_url": null,

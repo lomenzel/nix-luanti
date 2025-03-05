@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/TheBiochemic/mcl-rubber/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Rubber Addon for MineClone\nby Biochemist\n\n## Features\n- Adds a new Rubber Tree to the World, that you can find\n- This tree can be cut down, and made into Planks, Stairs and Slabs\n- some Stuff can be made from it too\n- You can craft the treetap, a block, that can be attached to rubber trees to harvest their resource: rubber resin\n- the rubber resin then can be put in the furnace, and made into different things\n- one of these things are the rubber boots: they reduce the amount of fall damage you receive by 60%\n- another use is making a rubber block out of it. This block acts like a trampoline and also negates fall damage completely\n\n## Notes\n- it is a mod designed to run with MineClone2 and MineClone5, and extends it's gameplay, it is also not really designed as a standalone mod, but an enhancement to other tech related mods.\n- if you want to make sure, that your mod is compatible with this one, you can just use *group:rubber* in your crafting recipes for one piece of rubber.\n- it also uses an internal library, that will be split of eventually, but for now it's part of it; One less dependency to worry about for you.\n\nHave fun and enjoy!",
-  "maintainers": [
-    "biochemist"
-  ],
+  "maintainers": ["biochemist"],
   "media_license": "GPL-3.0-only",
   "name": "mcl_rubber",
-  "provides": [
-    "mcl_rubber"
-  ],
+  "provides": ["mcl_rubber"],
   "release": 17864,
   "repo": "https://github.com/TheBiochemic/mcl-rubber",
   "score": 161.1,
@@ -56,11 +52,7 @@
   ],
   "short_description": "Adds rubber and related Items to MineClone.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["mapgen", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6630f200bc.png",
   "title": "Rubber Addon for MineClone",
   "translation_url": null,

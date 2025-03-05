@@ -51,25 +51,17 @@
   "issue_tracker": "https://github.com/Beanzilla/chunkkeeper/issues",
   "license": "MIT",
   "long_description": "# Chunk Keeper\nKeep sections of nodes loaded/running code and growing.\n\n## How it works\n\nYou place a Chunk Keeper down, then put burnable items into it (careful, I didn't test what happens to non-burnable items, so expect it to eat it).\n\nBurnable items increate the time the Keeper can work for, so get lots of burnable items so the keeper can burn for long times.\n\nThen just toggle `Run: On` and there you go, it will count down but keep the chunk (Actually a mapblock) loaded.\n\n> For those who are interested in hiding their identity, you can just set `Owner: Hidden`.\n\n## Crafting\n\nJust get 4 iron/steel ingots, 1 gold, and 2 diamond.\n\nCraft it like so:\n\n```\nI = Iron ingot (or Steel)\nG = Gold ingot\nD = Diamond\n\n_ D _\nI D I\nI G I\n```\n\n## For server owners\n\nIf you want to have a Chunk Keeper always running say at spawn or somewhere like a public farm, `/giveme chunkkeeper:keeper_inf_off` (Use the infinitive keeper)\n\n> Highly not recommended to provide the infiniative Chunk Keepers as they increase the server load keeping mapblocks loaded.\n\n## Future plans\n\n* Support multiple mapblocks from one Keeper (selecting it will loose the bonus to fuel and possibly increase the fuel consumption too)\n* Possible limit max fuel and or even a Refund option (refund burn times by returning coal roughtly equal to the burn time, will return 1 stack at a time if you have that much time essentially \"banked\")\n* Support persistent fuel and settings so you can pick up a Keeper and move it. (Also currently a bug, I don't protect the node from digs only adding fuel or changing options can be done by the owner / who placed the Keeper)\n\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "MIT",
   "name": "chunkkeeper",
-  "provides": [
-    "chunkkeeper"
-  ],
+  "provides": ["chunkkeeper"],
   "release": 13627,
   "repo": "https://github.com/Beanzilla/chunkkeeper",
   "score": -135.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/43b16c53d7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/43b16c53d7.png"],
   "short_description": "Keep sections of nodes loaded/running code and growing",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43b16c53d7.png",
   "title": "Chunk Keeper",
   "translation_url": null,

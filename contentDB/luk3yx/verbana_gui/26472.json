@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/luk3yx/minetest-verbana_gui/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "Adds a GUI to verbana. Use `/verbana_gui` to open. Actions (such as adding or\nremoving bans) just use chatcommands behind the scenes.\n",
-  "maintainers": [
-    "luk3yx"
-  ],
+  "maintainers": ["luk3yx"],
   "media_license": "AGPL-3.0-or-later",
   "name": "verbana_gui",
-  "provides": [
-    "verbana_gui"
-  ],
+  "provides": ["verbana_gui"],
   "release": 26472,
   "repo": "https://github.com/luk3yx/minetest-verbana_gui.git",
   "score": 2.2,
@@ -28,11 +24,7 @@
   ],
   "short_description": "A GUI for verbana",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["gui", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b00fb9abd3.png",
   "title": "Verbana GUI",
   "translation_url": null,
@@ -59,17 +51,12 @@
       {
         "is_optional": false,
         "name": "verbana",
-        "packages": [
-          "rheo/verbana"
-        ]
+        "packages": ["rheo/verbana"]
       },
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "rheo/verbana": []

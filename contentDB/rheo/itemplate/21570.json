@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-itemplate/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# itemplate\n\nitemframe that's a plate\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "itemplate",
-  "provides": [
-    "itemplate"
-  ],
+  "provides": ["itemplate"],
   "release": 21570,
   "repo": "https://github.com/fluxionary/minetest-itemplate.git",
   "score": 9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fb2c1f5d7c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fb2c1f5d7c.png"],
   "short_description": "itemframe that's a plate",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fb2c1f5d7c.png",
   "title": "itemplate",
   "translation_url": null,
@@ -45,20 +37,14 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/itemplate": [
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -74,10 +60,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

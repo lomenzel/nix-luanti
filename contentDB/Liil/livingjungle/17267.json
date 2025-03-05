@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/Skandarella/livingjungle/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: For a working leaf decay (Disappearing of leaves after a trees trunk is chopped) I recommend to use this mod: https://content.minetest.net/packages/Liil/winuserleafdecay/\n\nThis mod adds a new jungle biome to the minetest game world, including new plants, trees and building materials.  Mangroves will spawn near the coast of this biome.\nThe biome is resource intensive and can cause lags on low hardware combined with high graphic settings.",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "livingjungle",
-  "provides": [
-    "livingjungle"
-  ],
+  "provides": ["livingjungle"],
   "release": 17267,
   "repo": "https://github.com/Skandarella/livingjungle.git",
   "score": 673.8,
@@ -439,11 +433,7 @@
   ],
   "short_description": "Adds a new type of dense jungle biome to your world",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["building", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0e919ceb31.png",
   "title": "Wilhelmines Living Jungle",
   "translation_url": null,
@@ -615,18 +605,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

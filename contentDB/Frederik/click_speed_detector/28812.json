@@ -90,25 +90,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod ensures that no players use auto-clickers. You can only place a block every 0.16 seconds. It is especially suitable for servers like Capture the Flag, where quickly placing blocks can provide a significant advantage.",
-  "maintainers": [
-    "Frederik"
-  ],
+  "maintainers": ["Frederik"],
   "media_license": "CC0-1.0",
   "name": "click_speed_detector",
-  "provides": [
-    "click_speed_detector"
-  ],
+  "provides": ["click_speed_detector"],
   "release": 28812,
   "repo": null,
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6a1f82b721.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6a1f82b721.png"],
   "short_description": "A mod that ensures you can only place a node every 0.16 seconds. It is intended for servers to counter players using auto-clickers.",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6a1f82b721.png",
   "title": "Click Speed Detector",
   "translation_url": null,

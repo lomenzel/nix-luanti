@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds ore deposites in the form of rock-like nodes that can be mined up to get a good amount of resources.\n\nWhen mined, they are guaranteed to drop both cobblestone and the ore they contain. Plus a small chance to drop 1-2 stone, an extra ore, and/or 1-2 of the chunk/item a normal ore would drop.\n\nThe idea behind the mod is to replenish already dug out mines with these ore deposites. While also giving more opportunities to stock up on resources for those that may not want to dig hundreds of blocks down to retrieve them. The ores do require their minimum pickaxe level in order to mine them to keep up some semblence of balance. While also keeping rare ore spawn rates rare, and common ores common. Another thing to keep in mind, is that these ore deposites follow a cycle of spawning in after a minute. These cycles also have a chance to despawn ore deposits that previous cycles spawned in, keeping them from overcrowding mines.",
-  "maintainers": [
-    "Tarruvi"
-  ],
+  "maintainers": ["Tarruvi"],
   "media_license": "MIT",
   "name": "ore_deposits",
-  "provides": [
-    "ore_deposits"
-  ],
+  "provides": ["ore_deposits"],
   "release": 16888,
   "repo": null,
   "score": 157.2,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds ore deposits that can randomly spawn on stone",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c112490b18.png",
   "title": "Ore Deposits",
   "translation_url": null,

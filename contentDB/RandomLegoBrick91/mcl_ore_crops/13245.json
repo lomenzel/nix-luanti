@@ -38,14 +38,10 @@
   "issue_tracker": "https://codeberg.org/TheRandomLegoBrick/mcl_ore_crops/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# mcl_ore_crops\n## Note:\nI do not plan on continuing to update this mod. Afaik it should still work as of 6/2023 but there is no guarantee that it will work in the future.\n\n## Description\nThis is a minetest mod meant for the mineclone2 subgame which adds unrealistic plants that let you grow minerals such as iron and gold\n\n## Added crops\n- Iron\n- Gold\n\n## Usage\nTo plant iron crops rightclick an iron nugget on farmland. You will be able to tell it is fully grown when the leaves sag downward\n\nLikewise, gold crops can be planted by rightclicking a gold nugget on farmland. You will be able to tell it is fully grown when there are three leaves\n\nFully grown crops will drop at least one ingot and have a chance to drop additional ingots and nuggets\n\n## Credits\nTheRandomLegoBrick - for creating plant textures and writing this mod\n\nPilzAdam - for creating the farming mod that mcl2 uses\n\nTextures are liscensed under CC0 see https://creativecommons.org/publicdomain/zero/1.0/legalcode\nCode is liscensed under GPLv3, see https://www.gnu.org/licenses/gpl-3.0.en.html",
-  "maintainers": [
-    "RandomLegoBrick91"
-  ],
+  "maintainers": ["RandomLegoBrick91"],
   "media_license": "CC0-1.0",
   "name": "mcl_ore_crops",
-  "provides": [
-    "mcl_ore_crops"
-  ],
+  "provides": ["mcl_ore_crops"],
   "release": 13245,
   "repo": "https://codeberg.org/TheRandomLegoBrick/mcl_ore_crops.git",
   "score": 0,
@@ -56,9 +52,7 @@
   ],
   "short_description": "Adds crops that let you grow minerals such as gold and iron",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/94884e497b.png",
   "title": "Ore Crops for MineClone",
   "translation_url": null,

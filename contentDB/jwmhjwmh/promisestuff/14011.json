@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/TurkeyMcMac/promisestuff/issues",
   "license": "MIT",
   "long_description": "This library implements promises for Lua. You can learn more from the [README](https://github.com/TurkeyMcMac/promisestuff/blob/main/README.md) and from the documentation for the [core](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/core.md) and [Minetest-specific](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/minetest.md) APIs.",
-  "maintainers": [
-    "jwmhjwmh"
-  ],
+  "maintainers": ["jwmhjwmh"],
   "media_license": "MIT",
   "name": "promisestuff",
-  "provides": [
-    "promisestuff"
-  ],
+  "provides": ["promisestuff"],
   "release": 14011,
   "repo": "https://github.com/TurkeyMcMac/promisestuff",
   "score": 1.1,
   "screenshots": [],
   "short_description": "A promise library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Promise Stuff",
   "translation_url": null,

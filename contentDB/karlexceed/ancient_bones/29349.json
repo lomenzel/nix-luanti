@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Ancient Bones\n=====\n* Adds randomly generated bones with some loot to generated dungeons.\n\t* Only works if dungeons are actually enabled in mapgen flags.\n* Based on the vanilla minetest game's *dungeon_loot* and *bones* mods.\n* There is a higher chance of getting tools than the *dungeon_loot* chests.\n\nAuthors of source code\n----------------------\n* dungeon_loot mod by sfan5\n* bones mod by PilzAdam and various Minetest developers and contributors\n* Combined and modified by karlexceed\n\nAuthors of media (textures)\n---------------------------\n* All textures: paramat (CC BY-SA 3.0)\n",
-  "maintainers": [
-    "karlexceed"
-  ],
+  "maintainers": ["karlexceed"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ancient_bones",
-  "provides": [
-    "ancient_bones"
-  ],
+  "provides": ["ancient_bones"],
   "release": 29349,
   "repo": "https://github.com/karlexceed/ancient_bones",
   "score": 19.4,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Adds bones with loot to dungeons.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d169846cb6.png",
   "title": "Ancient Bones",
   "translation_url": null,

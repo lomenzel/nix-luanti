@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/wc_naturae/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "Expect more features soon!\n\nThis is an updated and revised version of the original NodeCore Nature mod,\nwith significant fixes, enhancements, and incorporating some new content\nfrom the base game.\n\nBased on [NodeCore Nature: Revised by Warr1024], which in turn is based on\nthe original [NodeCore Nature by Winter94](/packages/Winter94/nc_nature/)\n\nThis mod is intended as a drop-in replacement for the original Nature mod\nfor existing worlds.  This mod may make lasting changes to your world as\nmapblocks are loaded or new content is accessed.  Make sure you\n**back up your world** before upgrading.\n\n## Features\n\nAll features from WintersKnight's original NodeCore Nature mod, plus...\n\n- Actively maintained\n- High-Priority Fixes\n\t- Reed/rush, lilypads spreading in mid-air\n\t- Reed/rush shape consistency\n\t- Bamboo lighting/shadows\n- Some features migrated to vanilla NodeCore\n\t- Replacements\n\t\t- Tall Grass -> Sedges\n\t\t- Flowers (N.B. some colors were changed to maintain balance)\n\t\t- Reeds -> Rushes (added dormant state)\n\t\t- Thatch\n\t- Recipe to grind vanilla dry flora into plant fibers\n\t- Preserve mod flora consistent with vanilla mechanics\n- Moss Complete Overhaul\n\t- Moss now dies if suffocated, no more hidden spreaders\n  \t- Moss wasting disease to clear large areas\n  \t- More mossable nodes, extensible API\n  \t- Moss degrades hardstone over time\n- Dungeons improved\n\t- Merge with vanilla complex dungeons with bricks/concrete/loot\n- Plant fibers more distinguishable from vanilla rushes\n- More Diverse Bamboo\n- Mushrooms come in various sizes/growth stages\n- MORE FLORA THAN EVER! ^_^",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-or-later",
   "name": "wc_naturae",
-  "provides": [
-    "wc_naturae"
-  ],
+  "provides": ["wc_naturae"],
   "release": 28007,
   "repo": "https://github.com/wintersknight94/wc_naturae",
   "score": 9.2,
@@ -55,10 +51,7 @@
   ],
   "short_description": "The Latest and Greatest Version of NodeCore Nature, with updated code from Warr1024!",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "plants_and_farming"
-  ],
+  "tags": ["environment", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8693ab1a2e.png",
   "title": "NodeCore Naturae: Revised and Revamped",
   "translation_url": null,
@@ -72,146 +65,94 @@
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_lib_resources",
-        "packages": [
-          "Winter94/wc_lib_resources"
-        ]
+        "packages": ["Winter94/wc_lib_resources"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Winter94/wc_naturae": [
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_fungi",
-        "packages": [
-          "Winter94/wc_fungi"
-        ]
+        "packages": ["Winter94/wc_fungi"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

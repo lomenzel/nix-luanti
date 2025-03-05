@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/Emojigit/gettime/issues",
   "license": "MIT",
   "long_description": "This mod add some function to get time\n## gettime.get_hour()\nGet hour\n## gettime.get_minutes()\nGet minutes\n## gettime.get_formatted_time()\nGet the mix of hour and minutes (hh:mm)",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "gettime",
-  "provides": [
-    "gettime"
-  ],
+  "provides": ["gettime"],
   "release": 4746,
   "repo": "https://github.com/Emojigit/gettime",
   "score": 0.9,
   "screenshots": [],
   "short_description": "A api to get in-game hour/minute",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Gettime",
   "translation_url": null,

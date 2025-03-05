@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,14 +390,10 @@
   "issue_tracker": "https://github.com/APercy/nautilus/issues/new/choose/",
   "license": "MIT",
   "long_description": "Minetest 5.2 mod: Nautilus\n========================================\n\nThis is the \"Nautilus\", a grandchild mod from \"Sailing Kit\".\nIt's water dynamics comes from Sailing Kit (by TheTermos). So it depends on mobkit. And It dependes on the biofuel mod for fuel making.\nWith keyboard you can move the nautilus. When you press sneak, it dives, when you press jump, it emerges. And you can set anchor again by pressing E, but it only works when the Nautilus is near completely stopped (when the anchor is sucessfull, you receive a message on chat).\n\nIt can be painted using dye of any color you want, you must punch the hatch with the dye.\n\n**Controls overview:**\n(note: all click events must be done against the hatch, above your head)\n\n- Right click: enter in/get off the submarine\n- Left click (with biofuel): add fuel to submarine\n- E: drops/get the anchor (but the submarine must be near stoped)\n- Jump: go up/emerges\n- Sneak: go down/dives\n- Backward: go back\n- Forward: go foward\n- Left/right: Turn to left/right\n- Forward and Backward together: shots light 20 blocks ahead (where the user is pointing)\n\nBiofuel mod can be found here: https://github.com/APercy/minetest_biofuel\n\n-----------------------\nIt uses some code from Sailing Kit (by TheTermos)\n\nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\n---------------------------------------\ncollision.ogg by APercy. See License file\n\nSubmarine model by APercy. See License file\n\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "MIT",
   "name": "nautilus",
-  "provides": [
-    "nautilus"
-  ],
+  "provides": ["nautilus"],
   "release": 25344,
   "repo": "https://github.com/APercy/nautilus",
   "score": 536.1,
@@ -409,9 +403,7 @@
   ],
   "short_description": "Adds a craftable submarine",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b413895980.png",
   "title": "Nautilus",
   "translation_url": null,
@@ -511,10 +503,7 @@
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

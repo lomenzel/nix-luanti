@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/entuland/wesh/issues",
   "license": "MIT",
   "long_description": "- cubic canvases of sizes 2, 4, 8, 16, 32 and 64 which you can use to capture builds\n- according to the nodenames > colors pairings, generate OBJ meshes and use them in the game as miniatures of 1 node of size\n- capture and reconstruct builds straight away, with any rotation\n- you can rebuild with wool nodes or with the original nodes\n- option to rebuild using specific nodes instead of the original ones\n- option to rebuild in negative mode\n\nMore details in the [Github repo](https://github.com/entuland/wesh)",
-  "maintainers": [
-    "entuland"
-  ],
+  "maintainers": ["entuland"],
   "media_license": "CC0-1.0",
   "name": "wesh",
-  "provides": [
-    "wesh"
-  ],
+  "provides": ["wesh"],
   "release": 910,
   "repo": "https://github.com/entuland/wesh",
   "score": 935.2,
@@ -28,12 +24,7 @@
   ],
   "short_description": "Not only wool! Miniaturizes builds and allows rebuilding them too",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative",
-    "developer_tools"
-  ],
+  "tags": ["building", "creative", "decorative", "developer_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/B2dDtQLtoC.png",
   "title": "Woolen Mesh Creator",
   "translation_url": null,
@@ -48,10 +39,7 @@
       {
         "is_optional": false,
         "name": "matrix",
-        "packages": [
-          "entuland/matrix",
-          "Lone_Wolf/voxel_knights"
-        ]
+        "packages": ["entuland/matrix", "Lone_Wolf/voxel_knights"]
       }
     ]
   },

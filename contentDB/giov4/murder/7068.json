@@ -1,9 +1,6 @@
 {
   "author": "giov4",
-  "content_warnings": [
-    "horror",
-    "violence"
-  ],
+  "content_warnings": ["horror", "violence"],
   "created_at": "2020-06-08T15:12:30.184804",
   "dev_state": null,
   "donate_url": "https://liberapay.com/Giov4/",
@@ -14,14 +11,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "### How do I play it? \nWhen the match starts, a murderer is randomly selected, whereas other players are all cops. Who is who? Trust no one! <br>\n<br>\n**Murderer**: use the knife to eliminate other players, supported by a kit of items to confound them. <br>\n**Detective**: your gun is the only thing that can stop the murderer, but beware: shooting another detective will result in eliminating both of you! <br>\n<br>\n**VICTORY CONDITIONS:** <br>\n**Murderer**: kill all the players within the time limit. <br>\n**Detectives**: kill the murderer or survive until the end. <br>\n<br>\n\n### Dependencies\n- [arena_lib](https://content.minetest.net/packages/Zughy/arena_lib/): \n   arena_lib is necessary to create the match arena",
-  "maintainers": [
-    "giov4"
-  ],
+  "maintainers": ["giov4"],
   "media_license": "GPL-3.0-only",
   "name": "murder",
-  "provides": [
-    "murder"
-  ],
+  "provides": ["murder"],
   "release": 7068,
   "repo": "https://gitlab.com/zughy-friends-minetest/minetest-murder-mod",
   "score": 1064,
@@ -31,10 +24,7 @@
   ],
   "short_description": "There's a murderer between us...",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "multiplayer"
-  ],
+  "tags": ["mini-game", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/N8zGVelTRb.png",
   "title": "Murder",
   "translation_url": null,
@@ -72,18 +62,14 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "giov4/murder": [
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ]
   },

@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/Tuxilio/luanti-mqtt/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "<!--\nSPDX-FileCopyrightText: 2024 Tuxilio <mail@tuxil.io>\n\nSPDX-License-Identifier: CC-BY-SA-4.0\n-->\n\n# Luanti MQTT Library\n\n**A MQTT client library for Luanti**.\n\nThis is an alpha version, except bugs!\n\n## Installation\nInstall [LuaRocks](https://luarocks.org/):\n\n```bash\n# On Debian:\napt install luarocks\n```\n\nInstall `luasocket` & [`luamqtt`](https://github.com/xHasKx/luamqtt/)\n```\nluarocks install luasocket\nluarocks install luamqtt\n```\n\nYou have to add the mod to the trusted mods in [`minetest.conf`](https://wiki.luanti.org/Minetest.conf):\n\n```\nsecure.trusted_mods = mqtt\n```\n\n## API docs\n\n### `mqtt.connect`\n**Function to create and connect an MQTT client**\n\n- Parameters:\n    - uri: The URI of the MQTT broker to connect to\n    - client_id: A unique identifier for the MQTT client\n    - username: The username for authentication (optional)\n    - password: The password for authentication (optional)\n- Returns:\n    - client: The connected MQTT client instance. If the connection fails, it may return nil or an error message (depending on the implementation of mqtt.client)\n\n```lua\nlocal client = mqtt.connect(uri, clientId, username, password)\n```\n\nFor example:\n\n```lua\nlocal client = mqtt.connect(\n    \"mqtt.example.com\",\n    \"lunanti\",\n    \"user1\",\n    \"password\",\n)\n```\n\n### `mqtt.publish`\n**Function to publish a message to an MQTT broker**\n\n- Parameters:\n    - client: The MQTT client instance\n    - topic: The topic to publish the message to\n    - payload: The message payload to be published\n    - options: A table containing optional parameters\n        - qos: The QoS level for message publication (default is 1)\n        - retain: A boolean flag indicating whether to retain the message (default is false)\n        - dup: A boolean flag indicating whether the message is a duplicate (default is false)\n        - properties: A table for additional properties for publishing the message (optional)\n        - user_properties: A table for user-defined properties for publishing the message (optional)\n        - callback: A function to call when the published message is acknowledged (optional)\n- Returns:\n    - success: true or packet id on success, or false and error message on failure\n\n```lua\nmqtt.publish(client, topic, payload, options)\n```\n\nExample:\n```lua\nmqtt.publish(client, \"test/topic\", \"hello world!\")\n```\n",
-  "maintainers": [
-    "Tuxilio"
-  ],
+  "maintainers": ["Tuxilio"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mqtt",
-  "provides": [
-    "mqtt"
-  ],
+  "provides": ["mqtt"],
   "release": 28789,
   "repo": "https://codeberg.org/Tuxilio/luanti-mqtt",
   "score": 1.6,
@@ -28,10 +24,7 @@
   ],
   "short_description": "A mod for MQTT communication",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "library"
-  ],
+  "tags": ["complex_installation", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d21c6fe4d3.png",
   "title": "MQTT Client Library",
   "translation_url": null,

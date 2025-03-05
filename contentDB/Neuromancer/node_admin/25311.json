@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/node_admin/issues",
   "license": "MIT",
   "long_description": "# Node Admin\n\nLightweight tool that allows an Admin to manage nodes.\n\nDig Any Node tool: lets the admin dig undiggable nodes.\n\nNode Info tool: lets the admin see all the groups a node belongs to.\n\n\n**Usage:**\n\nEnable the mod\n\nTo grant privs to use the node admin tools:\n\n/privs <playername> node_admin\n\t\nUse the appropriate tool on the node you want do dig/get info on.\n\n",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "MIT",
   "name": "node_admin",
-  "provides": [
-    "node_admin"
-  ],
+  "provides": ["node_admin"],
   "release": 25311,
   "repo": "https://github.com/Neuromancer56/node_admin",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/79da4c8ded.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/79da4c8ded.png"],
   "short_description": "Admin tool to get node info & dig undiggable nodes",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "tools",
-    "world_tools"
-  ],
+  "tags": ["server_tools", "tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/79da4c8ded.png",
   "title": "Node Admin",
   "translation_url": null,

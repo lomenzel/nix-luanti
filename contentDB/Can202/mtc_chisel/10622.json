@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Can202/MTC-Chisel/issues",
   "license": "GPL-3.0-only",
   "long_description": "this mod adds a Chisel and decorative blocks (just cobblestone for now)\n",
-  "maintainers": [
-    "Can202"
-  ],
+  "maintainers": ["Can202"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mtc_chisel",
-  "provides": [
-    "mtc_chisel"
-  ],
+  "provides": ["mtc_chisel"],
   "release": 10622,
   "repo": "https://github.com/Can202/MTC-Chisel",
   "score": 5.3,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Add Chisel and new decorative blocks.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/545d68ceb5.png",
   "title": "MTC Chisel",
   "translation_url": null,

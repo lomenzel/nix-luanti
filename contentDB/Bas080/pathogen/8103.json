@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,32 +338,17 @@
   "issue_tracker": "https://github.com/bas080/pathogen/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "# PATHOGEN\n\nA minetest mod that enables users to get a pathogen.\n\n# Features\n\n- Easily define a new pathogen using the pathogen API\n- Demo pathogens that are infectious and sometimes deadly.\n\n# Diseases\n\n## Gravititus\nOccurs when ascending too quickly. Symptons include hiccups and random sense of\ngravity. There is no known cure yet. ( any suggestions? stone soup anyone? )\n\n## Influencia\nHighly contagious as it is airborne. Being around someone that has the diseases\nincreases the chances of getting the virus drastically. It is advised to eat well\nand keep your distance from players that are coughing. Death is very unlikely.\n\n## Panola\nContagious through body fluids. It is ok to be near someone that has the disease.\nMake sure that when cleaning up after someone that has expelled fluids, to\ndecontaminate the fluids first. This can be done with the Decontaminator\n![Decontaminator](pathogen/textures/pathogen_decontaminator.png).\n\n## Gosirea\nSymptons include gas and burps. Occasionaly a shard.\nCarrier contaminates nearby surfaces when symptoms show. These can intern infect\nplayers that dig the infected nodes. Not deadly for those that have good health.\n\n# Items\n- Comes with nodes like vomit, blood and feces that are infectious when dug.\n- A bio hazard warning fence, in case a quarantine is required.\n- A decontaminater for removing infectious fluids.\n\n# Crafts\n\n```lua\npathogen.recipes['xpanes:fence_warning'] =  {\n  {'group:stick', 'wool:red', 'group:stick'},\n  {'group:stick', 'wool:red', 'group:stick'},\n  {'group:stick', 'wool:red', 'group:stick'}\n}\n\npathogen.recipes['pathogen:decontaminator'] = {\n  {'xpanes:bar','',''},\n  {'','default:steelblock',''},\n  {'','',''}\n}\n```\n\n# Commands\n\nInfections can be initiated by using commands. It requires the \"pathogen\"\nprivilege. /grant <playername> pathogen.\n\n```lua\n\n/pathogens\n--list all pathogens and their descriptions\n\n/infect <player name> <pathogen name>\n--infect the player\n\n/immunize <player name> <pathogen name>\n--make player immune to particular pathogen\n\n```\n\n# Roadmap\n\n- saving infections for persistence between server restarts\n- more pathogens and cures\n- make the API more flexible, consistent and forgiving\n- register immunization with pathogen in seconds\n\n# Reference\n\n- https://en.wikipedia.org/wiki/Incubation_period#mediaviewer/File:Concept_of_incubation_period.svg\n- https://www.freesound.org\n\n# License\n\n- Code\tWTFPL\n- Images\tWTFPL\n- Sounds\tCC\n",
-  "maintainers": [
-    "Bas080"
-  ],
+  "maintainers": ["Bas080"],
   "media_license": "WTFPL",
   "name": "pathogen",
-  "provides": [
-    "gosirea",
-    "gravititus",
-    "influencia",
-    "panola",
-    "pathogen"
-  ],
+  "provides": ["gosirea", "gravititus", "influencia", "panola", "pathogen"],
   "release": 8103,
   "repo": "https://github.com/bas080/pathogen",
   "score": 460.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b7530d680e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b7530d680e.png"],
   "short_description": "Anables users to get a pathogen.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "multiplayer",
-    "pve",
-    "survival"
-  ],
+  "tags": ["education", "multiplayer", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b7530d680e.png",
   "title": "Pathogen",
   "translation_url": null,

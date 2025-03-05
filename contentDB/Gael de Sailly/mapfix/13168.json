@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/mapfix/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "Fix some map errors (flow and light problems)\n\nUsage: `/mapfix <radius>` to fix flow and light in a chosen radius, or simply `/mapfix` for a default radius of usually 24.\nAny player can do this, but with a limit in radius and delay, that only the admin can bypass.",
-  "maintainers": [
-    "Gael de Sailly"
-  ],
+  "maintainers": ["Gael de Sailly"],
   "media_license": "GPL-2.0-only",
   "name": "mapfix",
-  "provides": [
-    "mapfix"
-  ],
+  "provides": ["mapfix"],
   "release": 13168,
   "repo": "https://github.com/minetest-mods/mapfix",
   "score": 5.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/415e5092ea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/415e5092ea.png"],
   "short_description": "Fix some map errors (flow and light problems)",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/415e5092ea.png",
   "title": "Map Fixer",
   "translation_url": null,

@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/Beanzilla/medblocks/issues",
   "license": "MIT",
   "long_description": "# medblocks\nFancy nodes and items which feed and heal the player\n\n## What's here\n\n* Mednode\n* Medpack\n* Feednode\n* Feedpack\n\n### Mednode\n\nA fancy node which heals the player (and whom they wish to also heal) within a particular range.\n\n> Healing by Mednode occurs every second.\n\n### Medpack\n\nA fancy item which heals the player every 3 seconds.\n\n> Healing only occurs every 3 seconds, but having more packs increases the amount healed.\n\n### Feednode\n\nA fancy node which feeds the player (and whom they wish to also feed) within a particular range.\n\n> Feednode and Feedpack are only avalible if a hunger mod is detected.\n\n> Feeding by Feednode occurs every second.\n\n### Feedpack\n\nA fancy item which feeds the player every 3 seconds.\n\n> Feeding only occurs every 3 seconds, but having more packs increases the amount feed.\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "CC-BY-SA-3.0",
   "name": "medblocks",
-  "provides": [
-    "medblocks"
-  ],
+  "provides": ["medblocks"],
   "release": 29473,
   "repo": "https://github.com/Beanzilla/medblocks",
   "score": -127.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5a6a8f6617.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5a6a8f6617.png"],
   "short_description": "Provides a block which provides healing and feeding",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a6a8f6617.png",
   "title": "Medblocks",
   "translation_url": null,

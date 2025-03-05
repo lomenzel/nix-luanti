@@ -1,9 +1,6 @@
 {
   "author": "Liil",
-  "content_warnings": [
-    "gore",
-    "horror"
-  ],
+  "content_warnings": ["gore", "horror"],
   "created_at": "2022-12-25T18:54:34.168823",
   "dev_state": null,
   "donate_url": null,
@@ -92,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -161,14 +156,10 @@
   "issue_tracker": "https://github.com/Skandarella/livingcavesmobs/issues",
   "license": "MIT",
   "long_description": "This mod adds different types of mobs to the caves of Minetest Game, if you are using the Living Caves mod. \nIt also creates new sources for wool and strings in form of wool from yetis, strings from grubs and spider webs. You can also craft wool from moth cocoons.\nBreeding moths works this way: Moths lay eggs, if you feed them fruits. Grubs will give you strings, when you feed them specific bush leaves. For transforming an egg into a grub, you need a moth egg and 3 bush leaves. For transforming a grub into a cocoon, you need a grub and 3 bush leaves. To turn a cocoon into a moth, you need a cocoon and a stick. ",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "livingcavesmobs",
-  "provides": [
-    "livingcavesmobs"
-  ],
+  "provides": ["livingcavesmobs"],
   "release": 26889,
   "repo": "https://github.com/Skandarella/livingcavesmobs.git",
   "score": 354.3,
@@ -181,10 +172,7 @@
   ],
   "short_description": "adds mobs to the caves of your world",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "survival"
-  ],
+  "tags": ["mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/439b9a03fa.png",
   "title": "Wilhelmines Living Caves Mobs",
   "translation_url": null,
@@ -198,9 +186,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -470,9 +456,7 @@
       {
         "is_optional": false,
         "name": "livingcaves",
-        "packages": [
-          "Liil/livingcaves"
-        ]
+        "packages": ["Liil/livingcaves"]
       },
       {
         "is_optional": false,

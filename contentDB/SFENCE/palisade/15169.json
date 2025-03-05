@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/sfence/palisade/issues",
   "license": "MIT",
   "long_description": "Add craftable palisades into Minetest world.\n\nSupport for [Minetest default game ](https://content.minetest.net/packages/Minetest/minetest_game/) and [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\n\nNow only walls are aviable.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "palisade",
-  "provides": [
-    "palisade"
-  ],
+  "provides": ["palisade"],
   "release": 15169,
   "repo": "https://github.com/sfence/palisade",
   "score": 5.8,
@@ -56,10 +52,7 @@
   ],
   "short_description": "Add craftable palisades in many styles. Hades Revisited is supported.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ca32edb39d.png",
   "title": "Palisade",
   "translation_url": null,

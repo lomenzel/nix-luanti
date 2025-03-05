@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -210,25 +208,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# dishes\n\nAdds more food items to the game, based on unused farming crops.\n\nVersion: 1.1\n\nLicense: LGPL 2.1\n\nDependencies: default, farming (farming_redo), amethyst (part of gemstones modpack), mobs, lavastuff, basic_materials, vessels\n\nReport bugs or request help on the forum topic.\n\n# Installation\n\nUnzip the archive, rename the folder to dishes and\nplace it in minetest/mods/\n\nGNU/Linux: If you use a system-wide installation place it in ~/.minetest/mods/. If you only want this to be used in a single world, place the folder in worldmods/ in your worlddirectory.\n\nFor further information or help see:\nhttp://wiki.minetest.com/wiki/Installing_Mods\n\n# Changelog\n\nV1.1 - French cuisine update\n\nV1.0 - Initial release.",
-  "maintainers": [
-    "Coffewithmilk"
-  ],
+  "maintainers": ["Coffewithmilk"],
   "media_license": "CC-BY-SA-4.0",
   "name": "dishes",
-  "provides": [
-    "dishes"
-  ],
+  "provides": ["dishes"],
   "release": 22429,
   "repo": "https://codeberg.org/Carlitos/dishes",
   "score": 7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/67b4afc626.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/67b4afc626.png"],
   "short_description": "Adds new real-life dishes.",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/67b4afc626.png",
   "title": "Dishes",
   "translation_url": null,
@@ -269,10 +259,7 @@
       {
         "is_optional": false,
         "name": "amethyst",
-        "packages": [
-          "Koda_/gemstones",
-          "hilol/epic_combat"
-        ]
+        "packages": ["Koda_/gemstones", "hilol/epic_combat"]
       },
       {
         "is_optional": false,
@@ -315,9 +302,7 @@
       {
         "is_optional": false,
         "name": "wine",
-        "packages": [
-          "TenPlus1/wine"
-        ]
+        "packages": ["TenPlus1/wine"]
       }
     ],
     "Koda_/gemstones": [

@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_tt_base/issues",
   "license": "MIT",
   "long_description": "This mod is for the Extended Tooltips [`tt`] mod to extend item tooltips with the following basic info:\n\n* Tool digging times\n* Weapon stats\n* Node damage\n* Node light level\n* Node info: climbable, slippery, bouncy, jumping/descending restriction\n* Food stats (must be provided by mod/game)\n\nNote: The info it provides is automatically generated but rather limited. This mod will *not* give you any manual explanation of items. This mod is mostly meant for game and mod authors as a starting point and/or example on how to use the `tt` mod. For a complete tooltip system, games still need to do the extra work and writing their texts themselves.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "tt_base",
-  "provides": [
-    "tt_base"
-  ],
+  "provides": ["tt_base"],
   "release": 29690,
   "repo": "https://codeberg.org/Wuzzy/minetest_tt_base",
   "score": 43.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3235bdb0cc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3235bdb0cc.png"],
   "short_description": "Adds generic tooltip extensions to items",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3235bdb0cc.png",
   "title": "Extended Tooltips: Base",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Xanthus1/cube_mobs/issues",
   "license": "MIT",
   "long_description": "This mod uses mobkit and includes a number of simple looking box mobs with varying attacks. I created this to have a satisfying spread of mobs to fight against in survival. Graphics are probably placeholder for now, but mobs  won't look too much more advanced than cubes. This will be part of a game I'm working on, but wanted to go ahead and release for feedback / other people to mess around with - let me know what you think!\n\nCurrent Mobs:\n\n* Box: Standard jump attack\n* Small Box: Quicker, lower hp\n* Digging Box: When it hits the player, it digs 3x3 nodes one space beneath the player.\n* Shooter Box: Shoots projectiles at player from afar.\n* Fire Box: Spawns fire on the ground on a path to the player\n* Spike Box: Spawns spikes on the ground on a path to the player\n* Poison Box: Spawns poison gas when it hits Player. Spawns poison gas on death.\n\nTodo List:\n\n* Create more hostile mobs, and give all mobs slightly better names\n* Neutral cube mobs that have some utility / interaction.\n* Improve spawning method, maybe ABM? Also add spawn restrictions per mob.\n* Update graphics / sounds\n* Handle cooldowns better for Mob abilities - they can do them again after getting punched currently.\n* Include more item drops (Default items, or creating a couple more)\n\nRelease History:\n* v0.2 - 12/17/20 (Poison Mob Box)\n* v0.1 - 5/24/20",
-  "maintainers": [
-    "Xanthus"
-  ],
+  "maintainers": ["Xanthus"],
   "media_license": "MIT",
   "name": "cube_mobs",
-  "provides": [
-    "cube_mobs"
-  ],
+  "provides": ["cube_mobs"],
   "release": 5759,
   "repo": "https://github.com/Xanthus1/cube_mobs.git",
   "score": 6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/gNwHyxoEQU.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/gNwHyxoEQU.png"],
   "short_description": "Adds various cube mobs with different abilities using mobkit.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "pve"
-  ],
+  "tags": ["mobs", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gNwHyxoEQU.png",
   "title": "Cube Mobs",
   "translation_url": null,

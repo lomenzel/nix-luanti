@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/theraven262/minetest-furnituregen/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "# minetest-furnituregen [furniture]\nMinetest mod that adds, and simplifies the addition of model based furniture\n- Simplifies the process of registering model-based nodes over many materials at the same time\n- Introduces the furniture type definition, which defines a single furniture piece in a manner that is scalable over materials\n- Allows for creation of furniture sets, which control registration over materials\n- Implements interactivity trough node swapping\n- Handles inventory registration and interaction, only the number of inventory rows need to be specified\n- Can generate Locked variants of interact-able pieces automatically\n- Requires only a single block/tile-format texture to produce a shaded model\n- Easily creates furniture for other mods\n",
-  "maintainers": [
-    "the_raven_262"
-  ],
+  "maintainers": ["the_raven_262"],
   "media_license": "CC0-1.0",
   "name": "furniture",
-  "provides": [
-    "furniture"
-  ],
+  "provides": ["furniture"],
   "release": 16859,
   "repo": "https://github.com/theraven262/minetest-furnituregen",
   "score": 162.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e7411ff5b7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e7411ff5b7.png"],
   "short_description": "Creates furniture collections",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e7411ff5b7.png",
   "title": "Procedural Furniture",
   "translation_url": null,
@@ -451,18 +440,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

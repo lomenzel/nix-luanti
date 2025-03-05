@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,25 +443,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds a simple NPC and Trader into your worlds with a bonus Igor character with halloween skins.\n\n- Custom Traders can be created using api commands.\n- Right-click NPC or Igor with stick for control menu.\n- Quick trade with NPC or Igor by right-clicking with gold.\n- Right-click for random chatter.\n- Supports Simple Dialog and NPC Talk mods for interactive chatting.\n- Supports MineClone2 items when trading.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-4.0",
   "name": "mobs_npc",
-  "provides": [
-    "mobs_npc"
-  ],
+  "provides": ["mobs_npc"],
   "release": 28187,
   "repo": "https://codeberg.org/tenplus1/mobs_npc",
   "score": 1238.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/nmxQdjFCRd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/nmxQdjFCRd.png"],
   "short_description": "Adds simple NPC and Trader.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nmxQdjFCRd.png",
   "title": "Mobs NPC",
   "translation_url": null,

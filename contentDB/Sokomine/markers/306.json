@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Sokomine/markers/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Simply craft and place some markers around the area you want to protect and enter a name for the area when asked. Craft and place a marker stone in order to access a graphical interface for the areas mod. No need to learn the chat commands for the protection mod anymore!",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "markers",
-  "provides": [
-    "markers"
-  ],
+  "provides": ["markers"],
   "release": 306,
   "repo": "https://github.com/Sokomine/markers",
   "score": 7.1,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Easy interface (GUI) for the areas/advanced_areas protection mod",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/jsjTfCtoAf.png",
   "title": "Markers",
   "translation_url": null,
@@ -45,10 +39,7 @@
       {
         "is_optional": false,
         "name": "areas",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "ShadowNinja/areas"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
       }
     ]
   },

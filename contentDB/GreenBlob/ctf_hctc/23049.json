@@ -38,23 +38,17 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "# CTF High Contrast Team Colors\n Made for the Minetest Capture the Flag game. A texture pack that makes it easier to tell the team color of a player.\n \n*  To tell which way the player is facing, look for the side of the head where the color is darker (subject to change). \n*  In Classes mode, the outline color is different depending on the class of the player. Knights have a yellow outline, ranged has a purple outline, and support has a green outline.\n*  Players without a team have a white skin.",
-  "maintainers": [
-    "GreenBlob"
-  ],
+  "maintainers": ["GreenBlob"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ctf_hctc",
   "provides": [],
   "release": 23049,
   "repo": "https://gitlab.com/OrangeBlob/ctf_hctc",
   "score": 16.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/83d501b9bd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/83d501b9bd.png"],
   "short_description": "Makes it easier to tell the team color of a player in the Capture the Flag game.",
   "state": "APPROVED",
-  "tags": [
-    "skins"
-  ],
+  "tags": ["skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/83d501b9bd.png",
   "title": "CTF High Contrast Team Colors",
   "translation_url": null,

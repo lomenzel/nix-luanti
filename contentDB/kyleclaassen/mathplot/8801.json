@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,26 +338,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# MathPlot\n\nMathPlot is a creative-mode mod that provides tools for constructing mathematical curves/surfaces/solids. It is built with the intention of being used as an educational device in a multivariable&nbsp;/&nbsp;vector calculus course.\n\n## Documentation\n\nSee the [project wiki](https://gitlab.com/kyleclaassen/minetest_mathplot/-/wikis/home) for setup instructions, documentation of the mod's features, and example usage.\n\nInformation about the author's use of Minetest in educational environments is available in a [preprint for a submitted publication](https://www.rose-hulman.edu/~claassen/coolstuff/minetest_mathplot/building_mathematical_structures_in_minetest_PREPRINT_20230803.pdf) and on his [academic website](https://www.rose-hulman.edu/~claassen/coolstuff/minetest_mathplot/).",
-  "maintainers": [
-    "kyleclaassen"
-  ],
+  "maintainers": ["kyleclaassen"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mathplot",
-  "provides": [
-    "mathplot"
-  ],
+  "provides": ["mathplot"],
   "release": 8801,
   "repo": "https://gitlab.com/kyleclaassen/minetest_mathplot",
   "score": 5.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/UuDKi9wkwJ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/UuDKi9wkwJ.png"],
   "short_description": "A tool for constructing mathematical curves/surfaces/solids.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "education"
-  ],
+  "tags": ["creative", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/UuDKi9wkwJ.png",
   "title": "MathPlot",
   "translation_url": null,

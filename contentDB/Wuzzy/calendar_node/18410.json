@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_calendar_node/issues",
   "license": "MIT",
   "long_description": "This mod adds a placeable and craftable calendar. (See the crafting guide to see how to craft it.)\n\nProvided you have the `calendar` mod, you can use the calendar to view. The current in-game date in the HUD.\n\nSee the `calendar` mod to learn more about the calendar system.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "calendar_node",
-  "provides": [
-    "calendar_node"
-  ],
+  "provides": ["calendar_node"],
   "release": 18410,
   "repo": "https://codeberg.org/Wuzzy/minetest_calendar_node",
   "score": 6.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/IXk01x2Hnj.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/IXk01x2Hnj.png"],
   "short_description": "Adds a placeable calendar",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "environment"
-  ],
+  "tags": ["decorative", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/IXk01x2Hnj.png",
   "title": "Calendar Node",
   "translation_url": null,

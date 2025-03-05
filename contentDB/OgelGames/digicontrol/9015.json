@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -93,25 +91,17 @@
   "issue_tracker": "https://github.com/OgelGames/digicontrol/issues",
   "license": "MIT",
   "long_description": "This mod adds nodes to control the flow of digiline messages in various ways, and is designed to be a more streamlined replacement for [`digiline_routing`](https://github.com/numberZero/digiline_routing).\n\n### Nodes\n\n- **Filter** - only lets messages with the correct channel pass through.\n- **Limiter** - limits the rate at which messages can pass through.\n- **Diode** - only lets messages pass through in one direction.\n- **Splitter** - splits messages into two branches, and stops messages going between the branches.\n- **Tri-Splitter** - same as Splitter, but splits into three branches.\n\n### Usage\n\nDigicontrol nodes are designed to be as simple to use as possible. The Diode, Splitter, and Tri-Splitter are similar to mesecons logic gates; they work without any setup.\n\nThe Filter can be right-clicked to set the channel it will filter. If left blank it will allow all messages to pass through, if a channel is specified, it will only let messages on that channel through, blocking all others.\n\nThe Limiter can also be right-clicked to set the rate at which messages can pass through. A value of 1 or higher will allow that number of messages to pass through per second, blocking further messages. A value of 0 blocks all messages, and a value of -1 allows an infinite number of messages.",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-4.0",
   "name": "digicontrol",
-  "provides": [
-    "digicontrol"
-  ],
+  "provides": ["digicontrol"],
   "release": 9015,
   "repo": "https://github.com/OgelGames/digicontrol",
   "score": 162.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/73ace720db.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/73ace720db.png"],
   "short_description": "Adds nodes to control the flow of digiline messages",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/73ace720db.png",
   "title": "Digicontrol",
   "translation_url": null,

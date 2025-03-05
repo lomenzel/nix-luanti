@@ -25,14 +25,10 @@
   "issue_tracker": "https://codeberg.org/y5nw/advtrains-doc-integration/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod integrates the Advanced Trains mod with the [doc][minetest-doc] mod.\n\n[minetest-doc]: https://content.minetest.net/packages/Wuzzy/doc/",
-  "maintainers": [
-    "yw05"
-  ],
+  "maintainers": ["yw05"],
   "media_license": "AGPL-3.0-or-later",
   "name": "advtrains_doc_integration",
-  "provides": [
-    "advtrains_doc_integration"
-  ],
+  "provides": ["advtrains_doc_integration"],
   "release": 29538,
   "repo": "https://codeberg.org/y5nw/advtrains-doc-integration",
   "score": 175.7,
@@ -44,9 +40,7 @@
   ],
   "short_description": "Adds certain Advtrains-related items to the documentation system",
   "state": "APPROVED",
-  "tags": [
-    "gui"
-  ],
+  "tags": ["gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/90ad4858ed.png",
   "title": "Documentation system integration for Advanced Trains",
   "translation_url": "https://translate.codeberg.org/projects/misc-advtrains/advtrains-doc-integration/",
@@ -62,9 +56,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,

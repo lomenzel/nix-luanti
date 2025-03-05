@@ -11,17 +11,10 @@
   "issue_tracker": "https://github.com/Minetest-j45/build-n-buy/issues",
   "license": "MIT",
   "long_description": "# Build'N'Buy\nA game inspired by Minecraft Championship(MCC)'s Build Mart, where you have to replicate mini build and to get the materials for them, you have to go 'shopping'.<br>\nInitially made for 2021 Minetest game jam.<br>\nVersion: 1.2<br>\nThe license and origin of all media can be found in the README.md file in the folder that the media is in.<br>\n<br>\nScreenshot License: CC-BY-SA 4.0 (made by me, j45)<br>\n## Warnings\nMIRRORS NOW ALLOWED!<br>\nIf you dont like the music, there is a mute button in minetest for a reason.<br>\nYou have the fly priveledge so it is easier for you to build, use it!<br>\nIf you accidentally misplace a block in the building area(the only location you can place blocks), click on the block and you will get it back in your inventory.<br>\nMaking more than one trip to the shop for a build is ok.<br>",
-  "maintainers": [
-    "j45"
-  ],
+  "maintainers": ["j45"],
   "media_license": "CC-BY-SA-4.0",
   "name": "build_n_buy",
-  "provides": [
-    "bnb_coins",
-    "bnb_core",
-    "bnb_nodes",
-    "bnb_schems"
-  ],
+  "provides": ["bnb_coins", "bnb_core", "bnb_nodes", "bnb_schems"],
   "release": 13312,
   "repo": "https://github.com/Minetest-j45/build-n-buy",
   "score": 802.4,

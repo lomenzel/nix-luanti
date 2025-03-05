@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://notabug.org/ademant/oillamps/issues",
   "license": "CC-BY-3.0",
   "long_description": "Oil lamps\n=========\n\nOil lamp mod for Minetest\n\nCreate (quite simple) oil lamps for illumination.\n\nSteps to create oil lamps:\n1. craft raw enclosures from clay (8 clay lumps for 8 raw enclosures)\n1. burn raw enclosures to empty enclosures\n1. fill empty empty enclosures with oil extract to full oil lamps\n\nAdditional source of oil extract:\n* craft oil extract out of any seeds\n\n\nAuthor: ademant\n",
-  "maintainers": [
-    "ademant"
-  ],
+  "maintainers": ["ademant"],
   "media_license": "CC-BY-3.0",
   "name": "oillamps",
-  "provides": [
-    "oillamps"
-  ],
+  "provides": ["oillamps"],
   "release": 19580,
   "repo": "https://notabug.org/ademant/oillamps",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/59a39fe579.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/59a39fe579.png"],
   "short_description": "Create oillamps with oil from leaves (basic_materials) or create oil with seeds.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/59a39fe579.png",
   "title": "Oil lamps",
   "translation_url": null,

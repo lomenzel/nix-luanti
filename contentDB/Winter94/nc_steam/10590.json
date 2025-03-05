@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/nc_steam/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "No longer being maintained. Look for newer Steam mod and associated mods.\nhttps://content.minetest.net/packages/Winter94/wc_steam/",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "nc_steam",
-  "provides": [
-    "nc_steam"
-  ],
+  "provides": ["nc_steam"],
   "release": 10590,
   "repo": "https://github.com/wintersknight94/nc_steam",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fZNrTLazRh.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fZNrTLazRh.png"],
   "short_description": "Adds new mechanics to Nodecore, such as steam power and dynamic water",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fZNrTLazRh.png",
   "title": "NC Steam",
   "translation_url": null,
@@ -71,66 +62,42 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

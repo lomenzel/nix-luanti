@@ -38,20 +38,14 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# zenrake\n\nAdds 4 new rake patterns to NodeCore.",
-  "maintainers": [
-    "Hussell"
-  ],
+  "maintainers": ["Hussell"],
   "media_license": "MIT",
   "name": "zenrake",
-  "provides": [
-    "zenrake"
-  ],
+  "provides": ["zenrake"],
   "release": 28401,
   "repo": "https://gitlab.com/Hussell/zenrake/",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4296dc48d8.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4296dc48d8.webp"],
   "short_description": "Adds 4 new rake patterns to NodeCore",
   "state": "APPROVED",
   "tags": [],
@@ -68,10 +62,7 @@
       {
         "is_optional": false,
         "name": "nc_writing",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

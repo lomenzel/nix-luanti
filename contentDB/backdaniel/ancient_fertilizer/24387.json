@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/backdaniel/ancient_fertilizer/issues",
   "license": "MIT",
   "long_description": "# Ancient Fertilizer\nIn this mod, Ancient Stone, abundant in key nutrients like potassium, phosphorus, and calcium, is crushed and used to enrich the soil, leading to flowers, grass, mushroom and sapling duplication.\n\nCreated for [minetest_game](https://content.minetest.net/packages/Minetest/minetest_game/), with gameplay balance in mind. Added support for [mineclone2](https://content.minetest.net/packages/Wuzzy/mineclone2/).\n\n## Features\n- Use Ancient Fertilizer to duplicate vegetation.\n- Explore the underground in search of Ancient Stone.\n- New dark stone type and cracked variations.\n- Simple and extensible.\n\n### Minetest Game\n- Ancient Stone appears at y = -255 (underground) and below.\n- Wild Cotton is now obtainable on survival.\n\n### MineClone2\n- Ancient Stone appears at y = 0 (sea level) and below.\n\n## Distinctions\n- Won't spawn patches of flora on soil.\n- Won't \"grow\" saplings or crops.\n- Good for farming flowers for dye.\n\n## Design Choices\n- Try to support plants from other mods without tweaks.\n- Animals such as corals shouldn't be duplicated.",
-  "maintainers": [
-    "backdaniel"
-  ],
+  "maintainers": ["backdaniel"],
   "media_license": "MIT",
   "name": "ancient_fertilizer",
-  "provides": [
-    "ancient_fertilizer"
-  ],
+  "provides": ["ancient_fertilizer"],
   "release": 24387,
   "repo": "https://github.com/backdaniel/ancient_fertilizer",
   "score": 160.6,
@@ -62,12 +58,7 @@
   ],
   "short_description": "Adds ancient fertilizer, sourced from ancient stone in the underground, useful for farming flowers if you need dye for colored nodes, complements bonemeal.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["building", "mapgen", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8221e55e78.png",
   "title": "Ancient Fertilizer",
   "translation_url": null,

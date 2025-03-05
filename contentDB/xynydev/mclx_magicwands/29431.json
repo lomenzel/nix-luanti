@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# mclx_magicwands\n\nThis mod adds one utility item; a magic wand that sorts inventories. \n\nRight click at the air to sort the player inventory (except hotbar), or punch a chest to sort it.\n\n## Crafting\n```\n   IR ST\nIR ST IR\nST IR   \n```\n(`IR` = iron ingot, `ST` = stick)\n\n## Sorting methodology\n\n1. Find all different item types in the inventory\n2. Sort inventory item types by total count\n3. Fit tallied and sorted items into stacks\n\n## Notes\n\nThis is my first mod for Luanti and made for personal use. Not guaranteed to work with anything other than Mineclonia, or on any setup I am not using right now, or at all in general. There is no warranty for lost items, please have backups. I'm using this myself though so I hope I didn't leave any bugs in...\n",
-  "maintainers": [
-    "xynydev"
-  ],
+  "maintainers": ["xynydev"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mclx_magicwands",
-  "provides": [
-    "mclx_magicwands"
-  ],
+  "provides": ["mclx_magicwands"],
   "release": 29431,
   "repo": "https://github.com/xynydev/mclx_magicwands",
   "score": 17.3,
@@ -56,10 +52,7 @@
   ],
   "short_description": "Adds magic utility wands for Mineclonia",
   "state": "APPROVED",
-  "tags": [
-    "storage",
-    "world_tools"
-  ],
+  "tags": ["storage", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7ab5183b33.png",
   "title": "Magic Wands",
   "translation_url": null,

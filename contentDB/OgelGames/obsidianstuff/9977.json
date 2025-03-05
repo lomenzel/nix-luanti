@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/OgelGames/obsidianstuff/issues",
   "license": "MIT",
   "long_description": "A redo of [ObsidianStuff by SoloSniper](https://content.minetest.net/packages/SoloSniper/obsidianstuff), with better textures, simpler crafting and other improvements. \n\n---\n\n### Items\n\nThis mod adds the following tools:\n\n- **Obsidian Axe**\n- **Obsidian Pickaxe**\n- **Obsidian Shovel**\n- **Obsidian Sword**\n\n![Obsidian Tools](https://content.minetest.net/uploads/78c8ff3864.png \"Obsidian Tools\")\n\nAnd if `3d_armor` is installed, the following armor pieces:\n\n- **Obsidian Helmet**\n- **Obsidian Chestplate**\n- **Obsidian Leggings**\n- **Obsidian Boots**\n- **Obsidian Shield**\n\n![Obsidian Armor](https://content.minetest.net/uploads/59cb89b277.png \"Obsidian Armor\")",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "obsidianstuff",
-  "provides": [
-    "obsidianstuff"
-  ],
+  "provides": ["obsidianstuff"],
   "release": 9977,
   "repo": "https://github.com/OgelGames/obsidianstuff",
   "score": 377.8,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Adds obsidian tools and armor",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4174484499.png",
   "title": "Obsidianstuff Redo",
   "translation_url": null,

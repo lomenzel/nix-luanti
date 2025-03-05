@@ -38,20 +38,14 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "This mods adds long-distance navigation beacons to NodeCore.\n\nSee the screenshot included in the package for the recipe: amalgamation beneath an open sky, surrounded by a solid ring of annealed lode, with flux flows on the corners, and inward-pointing Odo charcoal glyphs on the edges.  Pummel the top of the central amalgamation to activate it.\n\nBeacons have an unlimited range for navigation.  Learning how to use them to navigate is left for the player to discover...",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_beacon",
-  "provides": [
-    "nc_beacon"
-  ],
+  "provides": ["nc_beacon"],
   "release": 26222,
   "repo": "https://gitlab.com/sztest/nc_beacon",
   "score": 4.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0676e85842.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0676e85842.webp"],
   "short_description": "Long-distance navigation beacons for NodeCore",
   "state": "APPROVED",
   "tags": [
@@ -74,50 +68,32 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_writing",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_player_sky",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

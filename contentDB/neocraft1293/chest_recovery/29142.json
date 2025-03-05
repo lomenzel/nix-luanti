@@ -38,14 +38,10 @@
   "issue_tracker": "https://codeberg.org/neocraft1293/recovery_coffre/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "",
-  "maintainers": [
-    "neocraft1293"
-  ],
+  "maintainers": ["neocraft1293"],
   "media_license": "CC-BY-SA-4.0",
   "name": "chest_recovery",
-  "provides": [
-    "chest_recovery"
-  ],
+  "provides": ["chest_recovery"],
   "release": 29142,
   "repo": "https://codeberg.org/neocraft1293/recovery_coffre",
   "score": 174.6,
@@ -56,9 +52,7 @@
   ],
   "short_description": "a simple safe that appears when we die and stores our inventory for mineclonia",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0f0696269b.png",
   "title": "Chest Recovery",
   "translation_url": null,

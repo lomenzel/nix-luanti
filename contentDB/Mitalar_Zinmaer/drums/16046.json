@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://gitlab.com/jonahksimmons/drums-mod/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Drums\nMod for [Minetest](https://www.minetest.net/) that adds drums to the game.\n\n\n## Features\n- Small Bongo\n\n\nRight click on the node to play them.\n\n\n## Goals\n- Large Bongo\n- Drum machine sounds\n- Full drum kit\n- Tamborine / various percussion\n- Good quality samples\n- Allow it to be powered by mesecons\n\n\n## Compatability\nThis is built for the base game of Minetest.\n\n\n## License\n[LGPL 3.0 only](https://spdx.org/licenses/LGPL-3.0-only.html) for all code and\n[CC-by-SA 4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) for all sound\n\n",
-  "maintainers": [
-    "Mitalar_Zinmaer"
-  ],
+  "maintainers": ["Mitalar_Zinmaer"],
   "media_license": "CC-BY-SA-4.0",
   "name": "drums",
-  "provides": [
-    "drums"
-  ],
+  "provides": ["drums"],
   "release": 16046,
   "repo": "https://gitlab.com/jonahksimmons/drums-mod",
   "score": 151.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/43e917c504.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/43e917c504.png"],
   "short_description": "Adds playable drums with real samples",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43e917c504.png",
   "title": "Drums",
   "translation_url": null,

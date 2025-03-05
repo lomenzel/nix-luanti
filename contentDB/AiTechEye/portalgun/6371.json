@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/AiTechEye/portalgun/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "The gun that can shoot portals :D\n\nThe portals can teleport both players, mobs, stuff, and using velocity (which is important)\nThe users portals, deletes when the user leaves the game or if not used for 40sec.\n\nThe extra stuff requires mesecons\n\n\"place\" to change portal mode (or \"left+rightclick\" to use the other)\n\n\"shift+leftclick\" to close both portals (or wait becaoue them removes it self)\n\n\"leftclick\" on an object to carry it, click again to release\nyou can craft it to a decuration block, dig to get it back\n\nMore info: \n\n=====Blocks and stuff=====\n\nAntiportal block & glass: cant open potals on them\n\nHard glass: harder then stone\n\nCheckpoint: touch it until you hear a beep sound, then you will move to it after respawn\n\nCake: eat a dirt-cake? no way!\n\nSecurity cam: shoots when you are 10 blocks or nearer it\n\nSentry turret:\tshoots when something is front of it\n\nTestblock: decuration\n\nWeighted storage cubes\tdisapear if no players is 40 blocks or nearer it (checks every 20 secund)\n\nEntity destroyer: destroys objects 7 blocks around the pointed (hard punsh)\n\nWeighted storage cube spawner: spawns cubes each 5 sec if no cube in same color is 20 blocks or nearer it\n\nToxic water:\tthe source kills you in 1 secund\n\nWarntape:\tdecoration, but still usefull\n\nSign number:\tits basicly 2 blocks, click one of them to change its number\n\n=====Mesecon & technologic stuff=====\n\nSign X:\tturns blue/X when off or orange/V on\n\nClose player portal:\tclosing near players portals on singnal \n\nPortal targets:\tput on your blue portal on blue or orange on orange to activate the block(s)\n\nMesecon door:\tonly mesecons singnals can open the door\n\nButton: gives mesecon singnal after rightclick\n\nDelayer: punsh to change time 1-10 (delays before mesecon signal and after)\n\nDamage-block: hurts or invisible when active \n\nObject-destroyer: destroys 7 blocks round it on mesecon singnal\n\nPlatforms: gives mesecon singnal when same colord cobe is touch it, purple works with all cubes and players\n\nPlathole: gives mesecon singnal when a cube is 2 blocks under it\n\nPowerball-spawner: spawns a deadly powerball each 20'th secund\n\nPowerball-spawner2: spawns a deadly powerball on mesecon singnal \n\nPowerball-target:\tgives a mesecon singnal when the powerball hits it (the ball activates it)\n\nPowerdoor: a unbreakable and transparant double block, the owner can puch to dig it, fake disapear when is active and is \"mesecon singnal \nleading\", it makes you can make unlimited big doors\n\nTrapblock: looks like the test blocks but become invisable when is active (ghoststone)\n\nWeighted storage cube spawner2: spawns a cube in same color on mesecon singnal",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "portalgun",
-  "provides": [
-    "portalgun"
-  ],
+  "provides": ["portalgun"],
   "release": 6371,
   "repo": "https://github.com/AiTechEye/portalgun",
   "score": 0,
@@ -450,13 +444,7 @@
   ],
   "short_description": "Portals and stuff",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "survival",
-    "technology",
-    "tools"
-  ],
+  "tags": ["building", "environment", "survival", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WbpJT0FTfK.png",
   "title": "Portal gun",
   "translation_url": null,

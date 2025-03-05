@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/playduin/fast_build_tool/issues/new/choose/",
   "license": "MIT",
   "long_description": "Minetest mod for fast box building\n\nHow to use:\n\n1. Craft Fast Build Tool.\n2. Place this node on your crafttable, if you want to increase the size of the box.\n3. Place this node on the floor of your future home.\n4. Select a stack and make rightclick.\n5. Your home will be built automatically.\n",
-  "maintainers": [
-    "playduin"
-  ],
+  "maintainers": ["playduin"],
   "media_license": "MIT",
   "name": "fast_build_tool",
-  "provides": [
-    "fast_build_tool"
-  ],
+  "provides": ["fast_build_tool"],
   "release": 8242,
   "repo": "https://github.com/playduin/fast_build_tool",
   "score": 155.3,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Tool for fast box building",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "technology"
-  ],
+  "tags": ["building_mechanics", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e20c1b9eb5.png",
   "title": "Fast Build Tool",
   "translation_url": null,

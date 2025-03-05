@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/Lazerbeak12345/chocolatestuff/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# The Chocolate Stuff Mod\n\nAdds edible chocolate armor and tools. Pairs well with\n[the edible swords mod][the_edible_swords_mod].\n\nWhen equipped, the player will eat some of their chocolate armor if their\nsaturation (or health in absence of a hunger mod) is below 85%. This reduces the\ndurability of a random armor piece.\n\nPlays nicely with other mods providing chocolate armor. Aliases to their armor, and makes their chocolate armor edible, just like this armor is.\n\n[the_edible_swords_mod]: https://content.minetest.net/packages/GamingAssociation39/edible_swords/\n\n## Requires\n\n- MineTest <!--TODO what version?-->\n- Instant Ores\n- [`ediblestuff_api`](https://content.minetest.net/packages/lazerbeak12345/ediblestuff_api/)\n\n### Optional\n\n- (reccomended for MTG) [Farming redo](https://content.minetest.net/packages/TenPlus1/farming/)\n- [mtfoods](https://forum.minetest.net/viewtopic.php?f=9&t=10187)\n- Food Basic\n- X farming\n- (if Instant Ores is MCL2 compatible) MCL Morefood\n\n## TODO\n\nSee the TODO section in the README of source control.\n\n## Legal\n\nCopyright 2021-2 Lazerbeak12345\n\n### Credit\n\n- The YourLand players for a bunch of questionable ideas for this questionable mod. Original idea was from \"Bla.\"\n- The creator of [the obsidianstuff redo mod](https://content.minetest.net/packages/OgelGames/obsidianstuff/). This takes inspiration from that repo.\n- The creator of [the edible swords mod][the_edible_swords_mod]. I took inspiration from this repo as well.\n\n### Licence\n\nDue to the dependancy on instant_ores, this mod _must_ be gpl 3 or later compatible. Thus, this mod is under GPL 3.0 or later.\n",
-  "maintainers": [
-    "lazerbeak12345"
-  ],
+  "maintainers": ["lazerbeak12345"],
   "media_license": "GPL-3.0-or-later",
   "name": "chocolatestuff",
-  "provides": [
-    "chocolatestuff"
-  ],
+  "provides": ["chocolatestuff"],
   "release": 17911,
   "repo": "https://github.com/Lazerbeak12345/chocolatestuff",
   "score": 156.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/af528a598f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/af528a598f.png"],
   "short_description": "Adds edible chocolate tools and armor to Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "food",
-    "tools"
-  ],
+  "tags": ["april_fools", "food", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/af528a598f.png",
   "title": "Chocolatestuff",
   "translation_url": null,
@@ -509,17 +497,12 @@
       {
         "is_optional": false,
         "name": "ediblestuff_api",
-        "packages": [
-          "lazerbeak12345/ediblestuff_api",
-          "bell07/whynot_game"
-        ]
+        "packages": ["lazerbeak12345/ediblestuff_api", "bell07/whynot_game"]
       },
       {
         "is_optional": false,
         "name": "instant_ores",
-        "packages": [
-          "Piezo_/instant_ores"
-        ]
+        "packages": ["Piezo_/instant_ores"]
       }
     ],
     "lazerbeak12345/ediblestuff_api": []

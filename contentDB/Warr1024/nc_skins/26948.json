@@ -38,20 +38,14 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "### Installing skins\n\nThe custom skin for each player needs to be installed into the `textures` folder within this mod (create it if it does not exist).  Files need to be named `nc_skins_player_`*playername*`.png`, where *playername* is the exact name of the player.\n\n**N.B. after installing or changing skins, *the server needs to be restarted* for the changes to take effect**\n\n### Enabling skins\n\nPlayers' skins will only display if:\n\n- The skin was present at the time the server was started, and\n- The player either has the `nc_skins` priv, or the `nc_skins_nopriv` setting is enabled\n\n### Configuration\n\nSee [settingtypes.txt](https://gitlab.com/sztest/nc_skins/-/raw/master/settingtypes.txt) for more configuration options.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_skins",
-  "provides": [
-    "nc_skins"
-  ],
+  "provides": ["nc_skins"],
   "release": 26948,
   "repo": "https://gitlab.com/sztest/nc_skins",
   "score": 11.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/802f808e66.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/802f808e66.webp"],
   "short_description": "Custom player skins for NodeCore",
   "state": "APPROVED",
   "tags": [
@@ -73,18 +67,12 @@
       {
         "is_optional": false,
         "name": "nc_player_model",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

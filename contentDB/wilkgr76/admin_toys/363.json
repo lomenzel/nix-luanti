@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,23 +429,17 @@
   "issue_tracker": "https://github.com/wilkgr76/admin_toys/issues/new/choose/",
   "license": "AGPL-3.0-only",
   "long_description": "Adds commands to allow you to annoy players (perhaps for rule-breaking) that do not make it impossible to play, but are a significant impairment.\n\nCommand list:\n\n* /antigravity <person>: Gives that person antigravity\n* /jump <person>: Gives that person huge jump boost, usually killing them. (unless used with /glide)\n* /fast <person>: Gives that person a lot of speed\n* /freeze <person> Freezes that person by not allowing them to move or jump. They can only move if they are teleported or dig underneath themselves.\n* /controls <person>: Gives that person very quirky controls, resulting in a literally uncontrollable character. Use with caution!\n* /glide <person>: Anti-fall damage (to some extent). Slows descent of player.\n* /reset <person>: Resets gravity, eye offset and visual size\n\n**All of these commands require the \"server\" priv.**",
-  "maintainers": [
-    "wilkgr76"
-  ],
+  "maintainers": ["wilkgr76"],
   "media_license": "WTFPL",
   "name": "admin_toys",
-  "provides": [
-    "admin_toys"
-  ],
+  "provides": ["admin_toys"],
   "release": 363,
   "repo": "https://github.com/wilkgr76/admin_toys",
   "score": 8.8,
   "screenshots": [],
   "short_description": "Tools for admins to have fun with cheating and otherwise rule-breaking players",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": null,
   "title": "Admin Toys",
   "translation_url": null,

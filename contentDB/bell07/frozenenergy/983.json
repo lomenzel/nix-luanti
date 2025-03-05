@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/frozenenergy/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "A liquids pointable node that freezes the touched water to default:ice. This way the ice becomes farmeable.",
-  "maintainers": [
-    "bell07"
-  ],
+  "maintainers": ["bell07"],
   "media_license": "GPL-3.0-only",
   "name": "frozenenergy",
-  "provides": [
-    "frozenenergy"
-  ],
+  "provides": ["frozenenergy"],
   "release": 983,
   "repo": "https://github.com/minetest-mods/frozenenergy",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/al7t9Fc1go.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/al7t9Fc1go.png"],
   "short_description": "Use frozen energy crystals to freeze water",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "plants_and_farming"
-  ],
+  "tags": ["environment", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/al7t9Fc1go.png",
   "title": "Frozen Energy",
   "translation_url": null,

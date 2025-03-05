@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/ClobberXD/caps_alert/issues/",
   "license": "MIT",
   "long_description": "This simple mod catches chat messages with ALL-CAPS and NEArLY ALL-cAPS. The player is warned thrice, and gets kicked on the 4th violation. Online moderators are notified of the kick, so that they know that a player has already been using CAPS for awhile, and can mete out appropriate punishments.",
-  "maintainers": [
-    "ANAND"
-  ],
+  "maintainers": ["ANAND"],
   "media_license": "MIT",
   "name": "caps_alert",
-  "provides": [
-    "caps_alert"
-  ],
+  "provides": ["caps_alert"],
   "release": 503,
   "repo": "https://github.com/ClobberXD/caps_alert",
   "score": 2.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/pWhGmpHEob.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/pWhGmpHEob.png"],
   "short_description": "Catches chat messages with all-caps and warns / kicks players.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pWhGmpHEob.png",
   "title": "Caps Alert",
   "translation_url": null,

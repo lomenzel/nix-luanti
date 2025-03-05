@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-silence/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Proof-of-concept sound silencing mod.\n\nAdds a node that mutes all position-sensitive server-generated sounds within a certain radius.\n\nCopyright 2021 flux\nLGPLv3\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "silence",
-  "provides": [
-    "silence"
-  ],
+  "provides": ["silence"],
   "release": 20385,
   "repo": "https://github.com/fluxionary/minetest-silence.git",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/47736805e6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/47736805e6.png"],
   "short_description": "adds a node to silence nearby sounds",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "sound_music"
-  ],
+  "tags": ["building", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/47736805e6.png",
   "title": "silence",
   "translation_url": null,
@@ -45,10 +36,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

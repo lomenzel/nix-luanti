@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Ciao!\nThis is my first mod, so sorry if there are any errors or english typos.\n\nThis mod adds to your minetest game various type of sandwiches,\nincluding vegetarian, noyella (nutella substitute)  bacon, pb&j and many more\nif you have supported mods like BBQ and cucina_vegana!\nThere are also some other related food like a sweet bread pudding,\nmade from sandwiches crumbs and jam.\nThrough the use of a skillet and some butter, you can now craft some\ntoasted sandwiches, like croque monsier and grilled hot cheese sandwich!\n\nI'm not very active and I'm a noob at this, so forgive me for the mistakes that\nI SURELY will do. Thank you.",
-  "maintainers": [
-    "Annalysa"
-  ],
+  "maintainers": ["Annalysa"],
   "media_license": "LGPL-2.1-only",
   "name": "sandwiches",
-  "provides": [
-    "sandwiches"
-  ],
+  "provides": ["sandwiches"],
   "release": 17426,
   "repo": "https://notabug.org/Annalysa/sandwiches.git",
   "score": 827.1,
@@ -436,10 +430,7 @@
   ],
   "short_description": "Add Sandwiches to your game! Choose between meat, vegetarian, jam and many more!",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming"
-  ],
+  "tags": ["food", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/YbrqALuzeU.png",
   "title": "Sandwiches!",
   "translation_url": null,

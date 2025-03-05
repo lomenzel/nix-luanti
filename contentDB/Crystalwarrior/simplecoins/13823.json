@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Crystalwarrior/simplecoins/issues",
   "license": "MIT",
   "long_description": "# simplecoins\nMod for simple, extremely stackable coins to be used by other mods for trading, currency and inventory management.\nEach coins item stacks up to 9999.\n\n[lods of emone](https://youtu.be/ULeDlxa3gyc)\n\n![coinstack](https://content.minetest.net/thumbnails/2/abc5352774.png)\n\n(If [this engine PR](https://github.com/minetest/minetest/pull/12614) is merged, there can be multiple item textures depending on stack count!)",
-  "maintainers": [
-    "Crystalwarrior"
-  ],
+  "maintainers": ["Crystalwarrior"],
   "media_license": "CC-BY-4.0",
   "name": "simplecoins",
-  "provides": [
-    "simplecoins"
-  ],
+  "provides": ["simplecoins"],
   "release": 13823,
   "repo": "https://github.com/Crystalwarrior/simplecoins.git",
   "score": 11.2,
@@ -29,9 +25,7 @@
   ],
   "short_description": "Mod for simple, extremely stackable coins to be used by other mods for trading, currency and inventory management.",
   "state": "APPROVED",
-  "tags": [
-    "commerce"
-  ],
+  "tags": ["commerce"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/46fb73d6d5.png",
   "title": "SimpleCoins",
   "translation_url": null,

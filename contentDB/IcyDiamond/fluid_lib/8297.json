@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,29 +416,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This is a fluid container and transfer API for Minetest. It overrides the default bucket mod and adds these features:\n\n* Nodes can now have \"internal buffers\" of fluid.\n* Buckets can be registered with a color instead of an image.\n* Buckets have callbacks that can insert and take fluid from certain nodes with internal buffers.\n* Fluid storage tanks!\n* Fluid transfer nodes!\n\n**Note:** Default storage tanks are registered for all fluids that have a bucket.\n\nAPI documentation is available in the README.",
-  "maintainers": [
-    "IcyDiamond",
-    "sirrobzeroone"
-  ],
+  "maintainers": ["IcyDiamond", "sirrobzeroone"],
   "media_license": "CC0-1.0",
   "name": "fluid_lib",
-  "provides": [
-    "bucket",
-    "fluid_lib",
-    "fluid_tanks",
-    "fluid_transfer"
-  ],
+  "provides": ["bucket", "fluid_lib", "fluid_tanks", "fluid_transfer"],
   "release": 8297,
   "repo": "https://git.icynet.eu/evert/fluid_lib.git",
   "score": 27.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/UtxkfU8gcT.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/UtxkfU8gcT.png"],
   "short_description": "Library for nodes containing fluids",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/UtxkfU8gcT.png",
   "title": "Fluid Container API",
   "translation_url": null,

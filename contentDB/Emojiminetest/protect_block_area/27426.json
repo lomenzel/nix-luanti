@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/protect_block_area/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Protector Blocks for Area Protection Mod\nThis mod provides a block that works like the one in [Protector Redo](https://content.minetest.net/packages/TenPlus1/protector/), but create areas based on the [Area Protection Mod](https://content.minetest.net/packages/ShadowNinja/areas/) instead.\n\nTherefore, players who don't know how to use the commands provided by the Area Protection Mod can now use the protector block to do the same job, without installing two protection mods.\n\nThis mod merges the user experience of the two mods, so players can use the Protector Blocks just like the one provided by Protector Redo. Though, this is not a drop-in replacement. When installing this mod, it's not recommended to uninstall Protector Redo.\n\nThis mod optionally depends on the Protector Redo mod *only* to avoid crafting recipe confidence, and *not* using any of its APIs.\n\n## Behaviour copied from Protector Redo\nUsers can place the protector node at the middle of the area, then the system will create an area for the player (11x11x11 by default, which share the same setting key `protector_radius`) if he/she can protect it.\n\nWhen a user punch a protector node, the corresponding area is selected, just like the result of `/select_area`. In addition, if the area is removed when the user punch it, the protector node will self-destruct.\n\nWhen a protector is removed by its owner, the ares is also removed.\n\n\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "protect_block_area",
-  "provides": [
-    "protect_block_area"
-  ],
+  "provides": ["protect_block_area"],
   "release": 27426,
   "repo": "https://github.com/C-C-Minetest-Server/protect_block_area",
   "score": 14.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8015b1852a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8015b1852a.png"],
   "short_description": "Protector Block, but using the Area Protect APIs",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8015b1852a.png",
   "title": "Protector Blocks for Area Protection Mod",
   "translation_url": null,
@@ -463,10 +453,7 @@
       {
         "is_optional": false,
         "name": "areas",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "ShadowNinja/areas"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
       },
       {
         "is_optional": false,

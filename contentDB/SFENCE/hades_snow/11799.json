@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/sfence/hades_snow/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod add snow to minetest Hades Revisited subgame.\n\nUse craftable snow cannon powered by power_generators mod or hades_technic mod (aviable only via git and compatible only with my fork of Hades Revisited).\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hades_snow",
-  "provides": [
-    "hades_snow"
-  ],
+  "provides": ["hades_snow"],
   "release": 11799,
   "repo": "https://github.com/sfence/hades_snow.git",
   "score": 2.1,
@@ -42,11 +38,7 @@
   ],
   "short_description": "Add snow to Hades Revisited via snow cannon.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "technology"
-  ],
+  "tags": ["building", "environment", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/318cfc3978.png",
   "title": "Snow for Hades Revisited",
   "translation_url": null,
@@ -61,16 +53,12 @@
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
@@ -89,9 +77,7 @@
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "mt-mods/basic_materials": [

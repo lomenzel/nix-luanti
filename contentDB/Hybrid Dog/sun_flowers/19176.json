@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://codeberg.org/HybridDog/sun_flowers/issues",
   "license": "MIT",
   "long_description": "For more details about this mod, see https://forum.minetest.net/viewtopic.php?f=9&t=14351.\n",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "MIT",
   "name": "sun_flowers",
-  "provides": [
-    "sun_flowers"
-  ],
+  "provides": ["sun_flowers"],
   "release": 19176,
   "repo": "https://codeberg.org/HybridDog/sun_flowers",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aa77e6511c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aa77e6511c.png"],
   "short_description": "This mod generates flowers which close their heads at night.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["environment", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aa77e6511c.png",
   "title": "Sun Flowers",
   "translation_url": null,

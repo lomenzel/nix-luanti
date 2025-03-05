@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -314,14 +312,10 @@
   "issue_tracker": "https://github.com/Matyas-Pilz/nodehouses/issues",
   "license": "CC-BY-4.0",
   "long_description": "This is mode with... one-nod houses! This is first full-my mod (not rework of mod of other authors). Mod is in WIP, it will have so much of more houses and other.\n\nThis version (1.01.04) is first published. Some tutorials will be in future. Knowed issues:\n- screwdriver is not usable for houses (only hand-building)\n- crafting is not tested and added to help picture\n\nPlease, when you know some bug or something other, say it! I am beginner of mod creations, I need it!",
-  "maintainers": [
-    "MatyasP"
-  ],
+  "maintainers": ["MatyasP"],
   "media_license": "CC-BY-4.0",
   "name": "nodehouses",
-  "provides": [
-    "nodehouses"
-  ],
+  "provides": ["nodehouses"],
   "release": 28208,
   "repo": "https://github.com/Matyas-Pilz/nodehouses/tree/main/nodehouses_10104/nodehouses",
   "score": 7.9,
@@ -336,11 +330,7 @@
   ],
   "short_description": "Node houses is a mod by MatyasP that adds one-node block of houses, for crafting using items from mode default.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative"
-  ],
+  "tags": ["building", "creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9a7c633578.png",
   "title": "Node houses",
   "translation_url": null,

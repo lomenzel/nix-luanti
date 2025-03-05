@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Astral\n\nThis mod adds regular moon phases, as well as 9 special natural and surnatural Astral events to discover!\n\n\n\n## API\n\n* `astral.get_moonth()` return moonth, moonth_name\n  This returns the *moonth* (not month!) number, from 1 to 12, and its user-friendly name.\n* `astral.get_moon_phase()` return moon_phase, moon_phase_name\n  This returns the moon phase (number, from 0: new moon, to 7: waning crescent moon), and its user-friendly name.\n* `astral.get_astral_event()` return astral_event, astral_event_name\n  If there is a special astral event in progress, it returns that astral event code, otherwise it returns \"none\".\n  The second returned argument is the user-friendly name for that event.\n  For 3rd party games, it would allow one to produce some (magical?) effects depending on astral events.\n\n",
-  "maintainers": [
-    "cronvel"
-  ],
+  "maintainers": ["cronvel"],
   "media_license": "MIT",
   "name": "astral",
-  "provides": [
-    "astral"
-  ],
+  "provides": ["astral"],
   "release": 5021,
   "repo": "https://gitlab.com/cronvel/mt-astral",
   "score": 11.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1Om4C9Qw9R.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1Om4C9Qw9R.png"],
   "short_description": "Add regular moon phases, as well as 9 special natural and surnatural Astral events to discover!",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1Om4C9Qw9R.png",
   "title": "Astral",
   "translation_url": null,

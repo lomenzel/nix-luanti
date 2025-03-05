@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/karlexceed/falling_dirt/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "A very simple mod that makes dirt nodes fall just like sand and gravel. In theory, it supports all other mods.\n\n### Software Requirements\nAs of the most recent release, this mod will only work with Minetest versions greater than 5.0.",
-  "maintainers": [
-    "karlexceed"
-  ],
+  "maintainers": ["karlexceed"],
   "media_license": "LGPL-2.1-or-later",
   "name": "falling_dirt",
-  "provides": [
-    "falling_dirt"
-  ],
+  "provides": ["falling_dirt"],
   "release": 29348,
   "repo": "https://github.com/karlexceed/falling_dirt.git",
   "score": 9.7,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Makes dirt nodes fall just like sand and gravel.",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/caa96f3cae.png",
   "title": "Falling Dirt",
   "translation_url": null,

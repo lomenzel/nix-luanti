@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitlab.com/rubenwardy/conquer/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "### Overview\n\nConquer is a mod that adds RTS gameplay. It allows players to start Conquer sub-games, where\nthey can place buildings, train units, and fight other players.\n\nConquer is designed with the intention to eventually convert it into a game, with custom mapgen and richer features.\nThis standalone mini-game version will remain, however.\n\n### Starting or joining a Conquer session\n\nStart a new conquer game by running:\n\n\t/conquer start\n\nYou'll switch into Conquer playing mode, where you will be given buildings that you can place.\n\nYou'll need to place a keep, which you must protect at all costs.\n\nOther players can join your conquer session if they are within 50 nodes by\ntyping:\n\n\t/conquer join yourname\n\nYou may leave a game and return to normal playing mode at any time by typing:\n\n\t/conquer leave\n\t\n### Conquer GUI\n\nThe Conquer GUI is the central place for monitoring your kingdom. \nOnce in a session, you can view it by pressing the inventory key (I),\nor by punching/right-clicking the keep node.\n\t\n### Recruiting Units\n\nYou'll need to place a barracks to be able to train new units.\nOnce you have done that, open the Conquer GUI and select a unit to train.\n\nTraining a unit requires time and resources.\nThe barracks will start training the unit as soon as you select it, and with spawn the unit nearby when complete.\n\nCurrently, there is no way to obtain resources. This is on the to-do list.\n\t\n### Controlling Units\n\nSelect a unit by left clicking.\nYou can select multiple units using shift+click.\nYou can deselect units by pressing Q or clicking somewhere else.\n\nRight-click to command the unit to do something.\n\nChange the active wand by scrolling or pressing a number - just like with normal hotbars.\n\n* **Move:** right-click on a node to move the unit there.\n* **Melee Attack:** right-click on a unit or building to move the unit there, and attack.\n* **Ranged Attack:** right-click on a unit to fire arrows. The unit must be in sight, and must be less than 10 nodes and more than 2 nodes away.\n\nAttacking buildings will damage them. Damaged buildings will be repaired\nautomatically when there are no enemies nearby.\n\n### Winning\n\nYou win the game by being the last surviving country. To defeat another kingdom, you will need to destroy their keep.\n\nYou can destroy an enemy's barracks to prevent them from training troops.",
-  "maintainers": [
-    "rubenwardy"
-  ],
+  "maintainers": ["rubenwardy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "conquer",
-  "provides": [
-    "conquer"
-  ],
+  "provides": ["conquer"],
   "release": 6724,
   "repo": "https://gitlab.com/rubenwardy/conquer/",
   "score": 159.7,
@@ -31,12 +27,7 @@
   ],
   "short_description": "Command your troops to victory - an RTS mini-game",
   "state": "APPROVED",
-  "tags": [
-    "jam_combat_mod",
-    "multiplayer",
-    "pvp",
-    "strategy_rts"
-  ],
+  "tags": ["jam_combat_mod", "multiplayer", "pvp", "strategy_rts"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9p1MkhMZGk.png",
   "title": "Conquer",
   "translation_url": null,

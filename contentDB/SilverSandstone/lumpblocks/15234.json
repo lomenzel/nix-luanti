@@ -24,9 +24,7 @@
     {
       "confidence": 11,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -106,14 +104,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Raw Ore Blocks adds compressed block forms of metal lumps.\nThese blocks can be used for efficient storage or decoration.\n\nThe following games and mods are supported:\n\n- Minetest Game\n- Mesecraft\n- Dreambuilder\n- Repixture\n- Survivetest\n- More Ores\n- Technic\n- Techage\n- Glooptest\n- Nether",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "lumpblocks",
-  "provides": [
-    "lumpblocks"
-  ],
+  "provides": ["lumpblocks"],
   "release": 15234,
   "repo": null,
   "score": 161.6,
@@ -124,11 +118,7 @@
   ],
   "short_description": "Adds block forms of metal lumps.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "survival"
-  ],
+  "tags": ["building", "decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/370f8d09a2.png",
   "title": "Raw Ore Blocks",
   "translation_url": null,

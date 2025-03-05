@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/r_place/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# r/place on Minetest\n\nThis game provids a canvas for pixel painting. Inspired by [Minetest r/place mod on Reddit](https://www.reddit.com/r/Minetest/comments/1608nhe/minetest_rplace_mod/), but not taking any source codes from it.\n\n\nJoin server at: `mt-rplace.1f616emo.xyz:31000`\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "r_place",
   "provides": [
@@ -35,14 +33,10 @@
   "release": 24909,
   "repo": "https://github.com/C-C-Minetest-Server/r_place",
   "score": 29.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/196205f98c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/196205f98c.png"],
   "short_description": "r/place simulator",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/196205f98c.png",
   "title": "rPlace",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/acmgit/minetest_poi/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "Point Of Interest is a mod, where Player, who have the priv interact, can visit Points of Interest in a List.\nYou can filter the List by some categories.\nThe Admin of an Server can give Players the priv poi, this Player can than set new Points or edit, delete, rename etc. the\nPoints.\nEasy traveling with a Formspec, where User with the priv poi can work on the Points on a extended Formspec.\nAdmins can delete Points over the extended Formspec.",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "CC0-1.0",
   "name": "poi",
-  "provides": [
-    "poi"
-  ],
+  "provides": ["poi"],
   "release": 12359,
   "repo": "https://github.com/acmgit/minetest_poi",
   "score": 156.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/RgTqHw7Mm2.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/RgTqHw7Mm2.jpg"],
   "short_description": "Mod to create or visit Points of Interest",
   "state": "APPROVED",
-  "tags": [
-    "tools",
-    "transport"
-  ],
+  "tags": ["tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/RgTqHw7Mm2.png",
   "title": "Points of Interest",
   "translation_url": null,

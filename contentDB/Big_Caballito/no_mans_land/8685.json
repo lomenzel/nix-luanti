@@ -11,9 +11,7 @@
   "issue_tracker": "https://bitbucket.org/BigCaballito/no_mans_land/issues",
   "license": "GPL-3.0-only",
   "long_description": "No Man's Land\n=============\n \nSurvive in an unfriendly -- some would say unsurvivable -- land between the front lines of a raging\nwar. Aoid the falling shells, and try to gather supplies without dying in the *No Man's Land*.\n\n## Credits\n\nHuge Thank you to aether123, whose mod inspired this game.\n\nBased on `minetest_game` with these mods:\n\n * `builtin_item` -- TenPlus1\n * `playerplus `-- TenPlus1\n * `yolo` -- sofar^[1]\n * `snowdrift` -- paramat\n * `redef` -- LinuxDirk\n * `snowsong` -- texmex\n * `raining_death` -- aether123^[1]\n\n1: modified\n",
-  "maintainers": [
-    "Big_Caballito"
-  ],
+  "maintainers": ["Big_Caballito"],
   "media_license": "CC-BY-SA-4.0",
   "name": "no_mans_land",
   "provides": [
@@ -67,13 +65,7 @@
   ],
   "short_description": "Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mini-game",
-    "mtg",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "mini-game", "mtg", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
   "title": "No Man's Land",
   "translation_url": null,

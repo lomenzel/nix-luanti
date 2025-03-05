@@ -51,26 +51,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/advtrains_doors/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod introduces screen doors to Advtrains - previously, newcomers may walk on tracks and be smashed by a running train wagon. To set up a screen door, step on the track (make sure it is inactive!) and place the screen door (closed or fixed) onto the platform block.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "AGPL-3.0-or-later",
   "name": "advtrains_doors",
-  "provides": [
-    "advtrains_doors"
-  ],
+  "provides": ["advtrains_doors"],
   "release": 29165,
   "repo": "https://github.com/C-C-Minetest-Server/advtrains_doors",
   "score": 194.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/14ebacfede.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/14ebacfede.jpg"],
   "short_description": "Platform screen doors for Advtrains",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "transport"
-  ],
+  "tags": ["survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/14ebacfede.png",
   "title": "Advtrains Screen Doors",
   "translation_url": null,
@@ -84,17 +75,12 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/logging": [],

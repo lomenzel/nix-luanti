@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -275,26 +273,17 @@
   "issue_tracker": "https://git.sp-codes.de/minetest/brickwalls/issues",
   "license": "MIT",
   "long_description": "Brick Walls\n===\n\nThis simple mod adds brick walls for the walls mod. There are walls for many types of bricks from different mods.\n\nWalls are added for the following brick types:\n\n- From `default` (mtg):\n    - Brick\n    - Stone Brick\n    - Desert Stone Brick\n    - Sandstone Brick\n    - Desert Sandstone Brick\n    - Silver Sandstone Brick\n    - Obsidian Brick\n- From `nether`:\n    - Nether Brick\n    - Compressed Nether Brick\n    - Cracked Nether Brick\n    - Deep Nether Brick\n- From `ethereal`:\n    - Ice Brick\n    - Snow Brick\n - From `xdecor`:\n    - Cactus Brick\n    - Moon Brick\n - From `sumpf`:\n    - Swamp Stone Brick\n\nThe number of blocks that walls connect to will also be expanded.\nFor the walls to be added, it's required to enable the mods containing the corresponding materials (bricks).\n",
-  "maintainers": [
-    "philipmi"
-  ],
+  "maintainers": ["philipmi"],
   "media_license": "MIT",
   "name": "brickwalls",
-  "provides": [
-    "brickwalls"
-  ],
+  "provides": ["brickwalls"],
   "release": 17461,
   "repo": "https://git.sp-codes.de/minetest/brickwalls.git",
   "score": 10.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/83f8504583.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/83f8504583.png"],
   "short_description": "Adds brick walls from different types of bricks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/83f8504583.png",
   "title": "Brick Walls",
   "translation_url": null,

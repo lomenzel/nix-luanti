@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Truemmerer/serversay/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# Minetest-Mod: ServerSay\nGithub: https://github.com/Truemmerer/serversay\n\n## Command and Privilege:\n**Privilege:** *serversay*\n\n**Command:**   */ssay <message>*   \n\nYou can change the Color in the *init.lua* file.\n",
-  "maintainers": [
-    "Truemmerer"
-  ],
+  "maintainers": ["Truemmerer"],
   "media_license": "GPL-3.0-only",
   "name": "serversay",
-  "provides": [
-    "serversay"
-  ],
+  "provides": ["serversay"],
   "release": 3476,
   "repo": "https://github.com/Truemmerer/serversay",
   "score": 153.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/z2FCM2hVHt.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/z2FCM2hVHt.png"],
   "short_description": "Write in the Chat as the server",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/z2FCM2hVHt.png",
   "title": "ServerSay",
   "translation_url": null,

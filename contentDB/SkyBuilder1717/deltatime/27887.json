@@ -25,27 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds an API for work with deltatime things.\n\n### deltatime.get([<unit>])\n***Gets deltatime float value.***\nIf unit param is nothing, returns seconds.\nIf unit param is something like seconds / minutes / hours, it will returns seconds (same as nothing) / minutes / hours.\n\n### deltatime.add(<sec>, <min>, <hour>)\n***Adds time in deltatime.***\nFor example, you want to add 15 seconds in deltatime, you can make it through: `deltatime.add(15, 0, 0)`",
-  "maintainers": [
-    "SkyBuilder1717"
-  ],
+  "maintainers": ["SkyBuilder1717"],
   "media_license": "MIT",
   "name": "deltatime",
-  "provides": [
-    "deltatime"
-  ],
+  "provides": ["deltatime"],
   "release": 27887,
   "repo": null,
   "score": 1.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e4937eec38.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e4937eec38.png"],
   "short_description": "Adds deltatime API",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library",
-    "world_tools"
-  ],
+  "tags": ["developer_tools", "library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e4937eec38.png",
   "title": "DeltaTime",
   "translation_url": null,

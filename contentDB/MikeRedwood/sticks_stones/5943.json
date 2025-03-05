@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/MikeRedwood/sticks_stones/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Simple mod that although it doesn't rely on any other mods does become a lot more usefull alongside mods that prevent or increase the dificalty of mining of essential materials by hand.\n\nThis mod basically allows you to craft sticks from leaves and dry shrubs and scatters small stones accross dirt with grass and desert sand which can be picked up by hand.  This means that wherever you start the game it shouldn't be long before you have a small assortment of stone tools at your disposal.",
-  "maintainers": [
-    "MikeRedwood"
-  ],
+  "maintainers": ["MikeRedwood"],
   "media_license": "LGPL-2.1-only",
   "name": "sticks_stones",
-  "provides": [
-    "sticks_stones"
-  ],
+  "provides": ["sticks_stones"],
   "release": 5943,
   "repo": "https://github.com/MikeRedwood/sticks_stones",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/o5nVrDbtv8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/o5nVrDbtv8.png"],
   "short_description": "Makes Sticks from leaves and scatters small stones",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/o5nVrDbtv8.png",
   "title": "Sticks Stones",
   "translation_url": null,

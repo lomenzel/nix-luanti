@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/magnetar47/hud_notify/issues/",
   "license": "MIT",
   "long_description": "# HUD Notify [`hud_notify`] (v1.1.1)\n\nHUD Notify is a mod that can be used display messages using HUD elements (instead of chat) for better noticeability. Due to the higher potential for abuse, the use of this command is restricted to moderators and above.\n\n### Usage\n\n- `/notify <player_name> <msg>`\n  - Send a notification (`msg`) to `name`.\n- `/notify_all <msg>`\n  - Send a global notification `msg`.\n\n### Example\n\n- `/notify LegendaryGriefer Stop griefing or face a ban!`\n- `/notify_all Attention! The server will be shutting down for maintenance in 15 minutes.`\n\n### minetest.conf\n\n- `hud_notify.hud_duration`\n  - Stores a numeric value (10 by default) which represents the duration of the message visibility in seconds.\n- `hud_notify.hide_sender`\n  - Boolean value which is evaluated to show or hide message header containing the sender's name.\n\n### TODO\n\n- Add automatic line-break if `msg` too long.\n",
-  "maintainers": [
-    "ANAND"
-  ],
+  "maintainers": ["ANAND"],
   "media_license": "MIT",
   "name": "hud_notify",
-  "provides": [
-    "hud_notify"
-  ],
+  "provides": ["hud_notify"],
   "release": 13325,
   "repo": "https://github.com/magnetar47/hud_notify",
   "score": 151.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/nlt4fq61yB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/nlt4fq61yB.png"],
   "short_description": "Shows a message to a player in-game, by means of an HUD element.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["hud", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nlt4fq61yB.png",
   "title": "HUD Notify",
   "translation_url": null,

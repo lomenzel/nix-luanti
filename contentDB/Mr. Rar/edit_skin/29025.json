@@ -362,9 +362,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -638,9 +636,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -655,26 +651,17 @@
   "issue_tracker": "https://github.com/MrRar/edit_skin/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Edit Skin Mod\n\n![screenshot](https://raw.githubusercontent.com/MrRar/edit_skin/master/screenshot.png)\n\nThis mod allows advanced skin customization.\nNew players get a randomly selected male or female skin.\nIt is compatible with sfinv, sfinv_buttons, i3, unified_inventory, inventory_plus, smart_inventory, and 3d_armor.\nUse the /skin command to open the skin configuration screen.\nThis mod requires Minetest 5.5+\nThis mod was originally made for MineClone 5.\n\n## License\nCode under MIT license\n\nAuthor: MrRar\n\nSee media_credits.txt for media licensing.\n\n## API\n\n### `edit_skin.register_item(item)`\nRegister a skin item. `item` is a table with item properties listed below.\n\n### Item properties\n`type`\nSet the item type. Valid values are: \"base\", \"footwear\", \"eye\", \"mouth\", \"bottom\", \"top\", \"hair\", \"headwear\"\n\n`texture`\nSet to the image file that will be used. Transparent or semitransparnt parts of the texture can be colored by the `mask` texture. If this property is omitted \"blank.png\" is used.\n\n`mask`\nSet the color mask texture. Coloring is only applied to non transparent areas of the texture.\nColoring only works for \"base\", \"bottom, \"top\", and \"hair\".\n\n`preview_rotation`\nA table containing properties `x` and `y`. `x` and `y` represent the x and y rotation of the item preview.\n\n`alex`\nIf set to true the item will be default for female character.\n\n`steve`\nIf set to true the item will be default for male character.\n\n`restricted_to_admin`\nThis item can only be selected by players with `edit_skin_admin` privilege.\n\n`for_player`\nThis property is used to restrict the item to a specific player or players. If set to a string, the string is a player name. If set to a table, the table is an array of player names.\n\n`rank`\nThis property is used to change the application order of the skin item when applied to a player.\nThe default ranks for each item type are:\n\nbase: 10\n\nfootwear: 20\n\neye: 30\n\nmouth: 40\n\nbottom: 50\n\ntop: 60\n\nhair: 70\n\nheadwear: 80\n\nLower ranks are applied to the player first and can thus be covered by higher rank items.\n\n\n### `edit_skin.show_formspec(player)`\nShow the skin configuration screen.\n`player` is a player ObjectRef.\n\n### `edit_skin.register_on_set_skin(func)`\nRegister a function to be called whenever a player skin changes.\nThe function will be given a player ObjectRef as a parameter.\n\n### `edit_skin.save(player)`\nSave player skin. `player` is a player ObjectRef.\n\n### `edit_skin.update_player_skin(player)`\nUpdate a player based on skin data in edit_skin.players.\n`player` is a player ObjectRef.\n\n### `edit_skin.base_color`\nA table of ColorSpec integers that the player can select to color the base item.\nThese colors are separate from `edit_skin.color` because this mod registers a mesh hand node for each base and base color combination. The number of junk mesh hand nodes should be kept to a minimum.\n\n### `edit_skin.color`\nA table of ColorSpec integers that the player can select to color colorable skin items.\n\n### `edit_skin.players`\nA table mapped by player ObjectRef containing tables holding the player's selected skin items and colors.\nOnly stores skin information for logged in players.\n\n### `edit_skin.player_formspecs`\nA table mapped by player ObjectRef containing tables holding player formspec state. The tables have the following properties:\n\n`active_tab`\nSet to the name of the current active tab.\n\n`page_num`\nSet to the current formspec page number.\n\n### `edit_skin.compile_skin(skin)`\n`skin` is a table with skin item properties.\nReturns an image string.\n",
-  "maintainers": [
-    "Mr. Rar"
-  ],
+  "maintainers": ["Mr. Rar"],
   "media_license": "CC-BY-SA-4.0",
   "name": "edit_skin",
-  "provides": [
-    "edit_skin"
-  ],
+  "provides": ["edit_skin"],
   "release": 29025,
   "repo": "https://github.com/MrRar/edit_skin",
   "score": 2618.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d3d9d17af3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d3d9d17af3.png"],
   "short_description": "Advanced player skin customization",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "skins"
-  ],
+  "tags": ["multiplayer", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d3d9d17af3.png",
   "title": "Edit Skin",
   "translation_url": null,

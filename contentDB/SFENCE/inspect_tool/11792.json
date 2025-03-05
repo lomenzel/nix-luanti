@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/sfence/inspect_tool/issues",
   "license": "MIT",
   "long_description": "\nThis mod add inspection tools which can be used to get some informations about nodes and entities by punching. When nothing is punched, it get some informations about item below tool in inventory.\n\nCheck API.md file for informations how to add support for getting custom inspect message from node, item or entity.\n\n\n\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "inspect_tool",
-  "provides": [
-    "inspect_tool"
-  ],
+  "provides": ["inspect_tool"],
   "release": 11792,
   "repo": "https://github.com/sfence/inspect_tool",
   "score": 154,
@@ -56,9 +52,7 @@
   ],
   "short_description": "Inspect tool to show some info about nodes which support inspection.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/31d3ec2743.png",
   "title": "Inspect Tool",
   "translation_url": null,

@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,25 +247,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# Tomahawks and Throwing Knives\nA good addition to your ranged weapons experience!\n\n## Contains\n- Stone, iron, mese, and diamond tomahawks and throwing knives!\n\n",
-  "maintainers": [
-    "ReadtheStructionsYT"
-  ],
+  "maintainers": ["ReadtheStructionsYT"],
   "media_license": "GPL-3.0-or-later",
   "name": "tomahawk",
-  "provides": [
-    "tomahawk"
-  ],
+  "provides": ["tomahawk"],
   "release": 28821,
   "repo": "https://github.com/PieAreSquared11/Tomahawks-and-Throwing-Knives",
   "score": 160,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9b5b0ad1e9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9b5b0ad1e9.png"],
   "short_description": "Introduces new weapons",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9b5b0ad1e9.png",
   "title": "Tomahawks and Throwing Knives",
   "translation_url": null,
@@ -350,10 +340,7 @@
       {
         "is_optional": false,
         "name": "rangedweapons",
-        "packages": [
-          "Lars/rangedweapons",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Lars/rangedweapons", "KareaGhandTrail/block_assault"]
       }
     ]
   },

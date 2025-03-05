@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/MadKamel/madkamel-random-stuff-mt5/issues/new/choose/",
   "license": "MIT",
   "long_description": "# MadKamel's Random Mod\nThis mod is a collection of various mods that add some extra gameplay to Minetest Game. This adds:\n\n* A decorative metal called strange metal. It comes in two colors: blue and pink. You can make glass from this metal.\n* Artefacts called bætte (batte is singular) that are made from steel or gold. They are useless as of version 1.2.",
-  "maintainers": [
-    "mooD_Slayer"
-  ],
+  "maintainers": ["mooD_Slayer"],
   "media_license": "MIT",
   "name": "madkamel_random_stuff",
-  "provides": [
-    "madkamel_random_stuff"
-  ],
+  "provides": ["madkamel_random_stuff"],
   "release": 20826,
   "repo": "https://github.com/MadKamel/madkamel-random-stuff-mt5",
   "score": 3.4,
@@ -448,11 +442,7 @@
   ],
   "short_description": "A collection of random items and ideas.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "singleplayer"
-  ],
+  "tags": ["building", "decorative", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7fc3b78116.png",
   "title": "MadKamel's Random Mod",
   "translation_url": null,

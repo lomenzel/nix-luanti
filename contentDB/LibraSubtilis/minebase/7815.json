@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Minebase\n========\n\nMinebase is a game for the Minetest Engine. It is a fork of Minetest Game and \nthus shares many features with it, but much of the code was refactored to \naddress the discontent with it. This implies that many mods made for Minetest\nGame won't work in this game. You have to check the dependencies of the mods to\nbe sure. If a mod depends on default or another mod that has been removed or \nchanged significantly, you will get error messages.  \nSimilar to Minetest Game, this game is a base for modding. I am going to add \nmods with new features, but mods like \"More Trees\" or \"Minetest Game Plus\" are \nnot going to be added. \nRegarding mods quality is more important than quantity. In case you like to mod \nand want to contribute to this project, use the appropriate tools on Gitlab.\n\nVersion 0.1.0.0 is the first release.\n\nAPI Documentation\n-----------------\nI started to write documentations for the APIs of the modules, but stopped doing \nso because nearly nobody showed interest in the game. If people start playing \nit, I am going to work on it again.\n\nInstallation\n------------\n\nUnzip the archive, rename the folder to minebase and place it in a games folder. \nA more extensive explanation can be found [here](https://wiki.minetest.net/Games#Installing_games).\n\nThe Minetest engine can be found at [GitHub](https://github.com/minetest/minetest).\n\nCompatibility\n-------------\n\nIt is possible to convert a Minetest Game world to a Minebase world, but I \ndidn't write a script to convert a Minebase world back. That is the reason why\nyou should create a backup before converting your world. Keep in mind that some \nmods made for Minetest Game, won't run with Minebase.  \nThis game does not support v6.  \nlegacy.lua was dropped.  \nTNT was removed because I want the theme of this game to be more medieval.  \n\nContributing\n------------\n\nIn case you want to contribute to this game, the code should be structured \nsimilar to the modpacks already included. The modpack should at least \nconsist of two mods, one that provides an API and a second mod using it.\nRegistry functions that directly or indirectly rely on one of the \nminetest.register_\\* functions, should expect two arguments, the name and a \ndefinition as a table.\nIf you spot bugs or want to improve the code otherwise, feel free to open \nissues.\n\nVersioning \n----------\n\nThis project uses a modified version of [SemVer](https://semver.org/) for \nversion numbers. In addition to a major, minor and patch number there is a \nage number. On every birthday this number is incremented and all other numbers \nare reset to 0 (Age.Major.Minor.Patch).\nThe birthday is the day of my first commit to this repository on Nov 1 2020. It\nwas a Sunday at 12:27:53 to be exact.\n\nLinks\n---------\n\n- [LICENSE.txt](./LICENSE.txt)\n",
-  "maintainers": [
-    "LibraSubtilis"
-  ],
+  "maintainers": ["LibraSubtilis"],
   "media_license": "CC-BY-SA-4.0",
   "name": "minebase",
   "provides": [
@@ -188,15 +186,10 @@
   "release": 7815,
   "repo": "https://gitlab.com/LibraSubtilis/minebase",
   "score": 0.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5d28dc102e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5d28dc102e.png"],
   "short_description": "A basic exploration, mining, crafting and building sandbox game with no NPCs, monsters or animals.",
   "state": "APPROVED",
-  "tags": [
-    "mtg",
-    "singleplayer"
-  ],
+  "tags": ["mtg", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5d28dc102e.png",
   "title": "Minebase",
   "translation_url": null,

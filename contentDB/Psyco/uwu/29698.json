@@ -38,15 +38,10 @@
   "issue_tracker": "https://notabug.org/PsycoJaker/uwu/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# UwU Mod (MineClonia)\n\n\nUwU Mod is [Libre/Free Software](https://www.gnu.org/philosophy/free-sw.html), copy and share.\n\n[This is not open source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)!\n\n\n## Description:\n\nThis mod adds a pet block that can be crafted using uwu crystals.\n\nThis adorable pet can be fed almost any food to make it happy and have blocky children (Litlle UwU).\n\nThe little UwUs are naughty and don't get dug easily! They also like to eat almost everything and if you feed them they grow and become an adult UwU block.\n\nThe UwU crystal to craft this block can be obtained from amethyst geodes, where they grow the same as amethyst shard.\n\nUwU ores can also be found with a very rare chance in amethyst geodes, but this is hardly rare.\n\nWith the UwU crystal you can also craft weapons and tools (dig speed like gold tools, but with iron durability).\n\n\n\nThis mod is for [MineClonia](https://content.minetest.net/packages/ryvnf/mineclonia/) Game, dont work with MTG\n\nFeel free to contribute, send MR/PR or issues.",
-  "maintainers": [
-    "Psyco",
-    "NathanielFreeman"
-  ],
+  "maintainers": ["Psyco", "NathanielFreeman"],
   "media_license": "CC-BY-SA-4.0",
   "name": "uwu",
-  "provides": [
-    "uwu"
-  ],
+  "provides": ["uwu"],
   "release": 29698,
   "repo": "https://notabug.org/PsycoJaker/uwu.git",
   "score": 472.6,
@@ -57,12 +52,7 @@
   ],
   "short_description": "Add UwU block, uwu crystal ores, uwu tools and more.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "decorative",
-    "mobs",
-    "tools"
-  ],
+  "tags": ["april_fools", "decorative", "mobs", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a491853a9f.png",
   "title": "UwU (MineClonia)",
   "translation_url": null,

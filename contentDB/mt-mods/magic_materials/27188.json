@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/mt-historical/magic_materials/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Magic_materials\nA mod providing shared resources for my other mods: [bweapons_modpack ](https://github.com/mt-historical/bweapons_modpack), [gadgets_modpack](https://github.com/mt-historical/gadgets_modpack) and possibly others.  \n\n![Screenshot](screenshot.png)\n\nThis mod is not very useful when used by itself, as it only provides a new set of tools, 2 new ores, some decorations and various craftitems (useless without mods mentioned above).\n\n## Recommended mods:\n- [bweapons_modpack ](https://github.com/mt-historical/bweapons_modpack)\n- [gadgets_modpack](https://github.com/mt-historical/gadgets_modpack)\n- [farming_redo](https://notabug.org/TenPlus1/farming) (registers a new hoe if farming is present)\n- [technic](https://github.com/mt-mods/technic) (integrates new ores with alloying/grinding system in technic)\n- [craftguide](https://github.com/minetest-mods/craftguide) (to see available crafts)\n\n## License\nAll code is licensed under GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  \n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-4.0",
   "name": "magic_materials",
-  "provides": [
-    "magic_materials"
-  ],
+  "provides": ["magic_materials"],
   "release": 27188,
   "repo": "https://github.com/mt-historical/magic_materials",
   "score": 253,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c41dfa3c9f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c41dfa3c9f.png"],
   "short_description": "A mod providing common resources and shared magic system for modpacks like gadgets_modpack, bweapons_modpack, and possibly others",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c41dfa3c9f.png",
   "title": "Magic Materials",
   "translation_url": null,

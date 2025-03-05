@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/settings_loader/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Settings Loader\n\nThis mod is an API for convenient settings (re)loading.\n\n## API\n\nThe API is documentated using Lua Language Server annotations. An example is shown below:\n\n```lua\nteacher.settings = settings_loader.load_settings(\"teacher.\", {\n    recent_threshold = { -- actual key: teacher.recent_threshold\n        stype = \"integer\", -- Type of the setting\n        default = 172800, -- 2 days\n    }\n}, true)\n```\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "settings_loader",
-  "provides": [
-    "settings_loader"
-  ],
+  "provides": ["settings_loader"],
   "release": 25635,
   "repo": "https://github.com/C-C-Minetest-Server/settings_loader",
   "score": 27.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/557ca7d4ea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/557ca7d4ea.png"],
   "short_description": "Load or reload settings easily",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "server_tools"
-  ],
+  "tags": ["library", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/557ca7d4ea.png",
   "title": "Settings Loader",
   "translation_url": null,
@@ -45,10 +36,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ]
   },

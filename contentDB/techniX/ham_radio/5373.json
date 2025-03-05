@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/technix/ham_radio/issues",
   "license": "MIT",
   "long_description": "## Transmitter\n\nCraft a transmitter and place it in the world. Right click on transmitter to open configuration dialog, then set frequency and RDS message.\n\n* Empty frequency turns transmitter off.\n* Transmitter information is displayed as info text when player points at it.\n* RDS message can be multiline. However, it is transmitted line by line.\n* RDS message and frequency can be set via digiline. Also, you can read transmitter configuration via digiline too.\n\n## Beacon\n\nBeacon is a simplified transmitter. After placement it automatically tunes on a random unoccupied frequency from predefined range. Beacon frequency range is determined by `beacon_frequency` setting.\n\n* Beacon frequency is displayed as info text when player points at it.\n\n## Receiver\n\nHandheld receiver is a wielded tool.\n\n* Left click opens configuration dialog to set frequency. Empty string turns receiver off.\n* Shift + left click toggles reception of RDS messages.\n\nWhen receiver is tuned to a frequency where at least one transmitter is present, HUD signal meter bar shows signal power. The signal power depends on distance and direction to the transmitter. \n\nIf RDS reception is toggled on, the RDS messages from all transmitters on this frequency are enqueued and will be send one by one as a chat messages to the player with 10 seconds interval. When RDS message queue becomes empty, it refills and starts over again.\n\n## Stationary Receiver\n\nRight click on receiver opens configuration window to set frequency. Receiver displays RDS messages as infotext in the same way as handheld receiver. It does not have signal power meter.\n\n* You can operate the receiver via digiline in the same way as the transmitter.\n\n## Digiline\n\n```lua\n-- channel \"ham_radio_rds\" accepts plain text\ndigiline.send('ham_radio_rds', 'new RDS message')\n\n-- get transmitter info\ndigiline.send('ham_radio', { command = 'get' })\n-- returns { frequency = 12345, rds_message = 'text' }\n\n-- set frequency\ndigiline.send('ham_radio', { command = 'set_frequency', value = '12345' })\n-- returns { update = 'frequency', success = true/false, message = errorMessage }\n\n-- set RDS message\ndigiline.send('ham_radio', { command = 'set_rds_message', value = 'new RDS message' })\n-- returns { update = 'rds_message', success = true }\n\n-- get receiver info\ndigiline.send('ham_radio_receiver', { command = 'get' })\n-- returns { frequency = 12345, rds_message = 'text' }\n\n-- set receiver frequency\ndigiline.send('ham_radio_receiver', { command = 'set_frequency', value = '12345' })\n-- returns { update = 'frequency', success = true/false, message = errorMessage }\n```\n\n## What's next?\n\n* Place beacons or transmitters anywhere in the world, give frequency to other players and let them search for them\n* Pick a frequency which all players can use for their announcements to organize radio bulletin board\n* Operate your transmitters with digiline to receive notification on radio\n* ???\n* PROFIT",
-  "maintainers": [
-    "techniX"
-  ],
+  "maintainers": ["techniX"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ham_radio",
-  "provides": [
-    "ham_radio"
-  ],
+  "provides": ["ham_radio"],
   "release": 5373,
   "repo": "https://github.com/technix/ham_radio",
   "score": 9.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/lDLfbdgS8k.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/lDLfbdgS8k.png"],
   "short_description": "Radio transmitters, beacons, and receivers",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/lDLfbdgS8k.png",
   "title": "Ham Radio",
   "translation_url": null,

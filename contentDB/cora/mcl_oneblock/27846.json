@@ -38,25 +38,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# mcl_oneblock\nONLY USE THIS MOD ON DEDICATED WORLDS, IT WILL MESS UP MAPGEN IF YOU USE IT ON EXISTING WORLDS\n\nOneblock style skyblock challenge for mineclonia.\n\nRepeatedly dig one block to get more stuff, work through all 12 Phases!\n\n## Chatcommands\n* `ob_status`    - View current dig count\n* `ob_reset`     - Reset the oneblock if it should get lost for some reason\n* `ob_set_count` - Requires debug privilege: set the current dig count\n",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_oneblock",
-  "provides": [
-    "mcl_oneblock"
-  ],
+  "provides": ["mcl_oneblock"],
   "release": 27846,
   "repo": "https://codeberg.org/cora/mcl_oneblock.git",
   "score": 507.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5a203fb85d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5a203fb85d.png"],
   "short_description": "Oneblock skyblock challenge for mineclonia DO NOT USE IN EXISTING WORLDS",
   "state": "APPROVED",
-  "tags": [
-    "singleplayer"
-  ],
+  "tags": ["singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a203fb85d.png",
   "title": "mineclonia Oneblock",
   "translation_url": null,
@@ -196,10 +188,7 @@
       {
         "is_optional": false,
         "name": "mcl_trees",
-        "packages": [
-          "VoxelForge/voxelforge",
-          "ryvnf/mineclonia"
-        ]
+        "packages": ["VoxelForge/voxelforge", "ryvnf/mineclonia"]
       },
       {
         "is_optional": false,

@@ -24,9 +24,7 @@
     {
       "confidence": 10,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -158,14 +156,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/leads/issues",
   "license": "MIT",
   "long_description": "This Minetest mod adds leads which can be used for moving animals or\nfor tethering animals to fence posts.\n\nLeads can also be attached between two fence posts for decoration.\n\nConsider installing [Object UUIDs] to prevent leads from disconnecting from mobs when unloaded.\n\n\nInstructions\n------------\n\nRight-click on an animal with a lead to attach it.\nWhen you're finished, punch the lead to release the animal.\n\nYou can tether a leashed animal by right-clicking a fence post.\nPunch the knot to take the lead back, or shift-punch to break it.\n\nBy default, leads can be used on animals, monsters, NPCs, players, and boats.\nYou can customise this in the settings.\n\n\nCompatibility\n-------------\n\nThis mod supports Mobs Redo, Creatura, MineClone2, Mineclonia, Repixture, and Exile.\nOther games and mob frameworks may also work.\n\nMinetest 5.5.0+ server required, Minetest 5.7.0+ client recommended.\nIf you want to support older clients, disable ‘Long selection box’ in the settings.\n\n\n[Object UUIDs]: https://content.minetest.net/packages/SilverSandstone/objectuuids/ \"Object UUIDs on Minetest ContentDB\"",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "leads",
-  "provides": [
-    "leads"
-  ],
+  "provides": ["leads"],
   "release": 23044,
   "repo": "https://codeberg.org/SilverSandstone/leads",
   "score": 1596.6,
@@ -181,10 +175,7 @@
   ],
   "short_description": "Adds leads for moving and tethering animals.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mobs"
-  ],
+  "tags": ["decorative", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7beb5c2392.png",
   "title": "Leads",
   "translation_url": "https://translate.codeberg.org/projects/leads/",

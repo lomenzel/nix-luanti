@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -184,9 +182,7 @@
   "issue_tracker": "https://github.com/mt-historical/lootchests_modpack/issues",
   "license": "GPL-3.0-only",
   "long_description": "# lootchests_modpack\nModpack adding various loot containers across the world to be found and providing an API, resources and integrations for other mods.\n\n## Requirements\n\n- Minetest 5.0.0+\n- Minetest_game 5.0.0+\n- [magic_materials](https://github.com/mt-historical/magic_materials) (optional)\n\n## Recommended mods\n- [decorations_sea](https://github.com/mt-historical/decorations_sea) (Provides decorations when looking for ocean chests)\n- [shipwrecks](https://github.com/mt-historical/shipwrecks) (Shipwrecks depend on lootchests_modpack to spawn lootchests in shipwrecks)\n\n## Integrations\nlootchests_default adds loot from following mods, if they are installed:\n\n- 3d_armor\n- Bonemeal\n- farming_redo\n- gadgets_modpack\n- moreores\n- moretrees\n\n\n## Contents\nDefault lootchest pack provides:\n\n- Baskets, spawning in caves from 0 to -128, containing various organic items (food, seeds, saplings, etc)\n- Urns, spawning in caves from 0 to -128, containing various low-grade craftitems and tools (stone tools, ores up to iron, sticks, etc)\n- Ocean chests, spawning in seabed and also very rare in caves, containing many precious materials and tools\n- Ancient chests, spawning from -128 to -4096 in solid rock and also very rare in caverns, containing very expensive loot\n\nMagic_materials pack provides:\n- Rune urn, spawning in caves from -64 to -4096, containing low grade magic items from magic_materials\n- rune chest, spawning from -64 to -4096 in solid rock and very rare in caverns, contains high grade items from magic_materials\n\n## Making your own lootchests\nProcess of making your own lootchests is described in [documentation](lootchests/documentation.txt)\n\n## License\nAll code is licensed under GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  \n \n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-4.0",
   "name": "lootchest_modpack",
   "provides": [
@@ -197,16 +193,10 @@
   "release": 27164,
   "repo": "https://github.com/mt-historical/lootchests_modpack",
   "score": 55.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f8c06a6f8a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f8c06a6f8a.png"],
   "short_description": "Modpack adding a lot of various loot containers across the world to be found and providing an API, resources and integrations for other mods",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["library", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f8c06a6f8a.png",
   "title": "LootChests Modpack",
   "translation_url": null,
@@ -220,9 +210,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -771,10 +759,7 @@
       {
         "is_optional": false,
         "name": "magic_materials",
-        "packages": [
-          "mt-mods/magic_materials",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/magic_materials", "MeseCraft/mesecraft"]
       }
     ],
     "mt-mods/magic_materials": [

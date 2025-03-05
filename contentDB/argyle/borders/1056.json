@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/argyle77/borders/issues",
   "license": "MIT",
   "long_description": "### Legends of the Edges\n\nIt is said that if you dig deep enough into the crust of the earth, you'll eventually find a stone so hard that it is unbreakable by conventional means.  It is also said that if, somehow, you managed to get through this layer, you may be lucky enough to gaze upon the impenetrable mantle itself.\n\nI think its just a rumor, but I have seen the edge of the world.\n\nAt the edge of the world stands a barrier who's extent, from the depths of the earth and beyond the clouds above, belies reason; its origin a mystery.  Such a feat of engineering could not have been the result of any technology known to the world.  While it is a sight to behold, don't plan on continuing your journey beyond it.  No one has yet managed to breach its unconventional substance, at least not for any really meaningful distance.\n\n### Description\nThe World Borders mod adds two major things to minetest.  \n\nThe first you may have seen before in such mods as [bedrock] and [bedrock2]. I've combined some ideas / code from these two and added some user settings.  This part of the mod adds \"deepstone\", which is an extremely hard rock that replaces stone near the bottom of the world.  Deepstone is, by default, unbreakable except perhaps by advanced tools, tnt, or mining lasers (see [technic]).  Underneath this, you'll find mantlestone, an unbreakable layer of stone that represents the lower border of the world.  Mantlestone resembles the bedrock you may be familiar with.\n\nThe second thing you'll find is out near the world edges (where mapgen ends - currently 31km from the center).  This is a gigantic barrier structure extending into the sky as well as the ground that will prevent further movement beyond its confines.",
-  "maintainers": [
-    "argyle"
-  ],
+  "maintainers": ["argyle"],
   "media_license": "MIT",
   "name": "borders",
-  "provides": [
-    "borders"
-  ],
+  "provides": ["borders"],
   "release": 1056,
   "repo": "https://github.com/argyle77/borders.git",
   "score": 5.3,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Add impenetrable barriers to the sides and bottom of the world.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/lfW0Q66t6C.png",
   "title": "World Borders",
   "translation_url": null,

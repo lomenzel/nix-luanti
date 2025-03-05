@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "This is a really simple game: You push boxes by walking into them. You can't push more than one box at once. Your task is to put all boxes to spots marked by marbles. A box gets coloured red when it stands on a marked spot. And since the game is 3D, you can move all 6 directions: left, right, forward, backward, up, down.\n\nThere are 7 levels so far and it is possible to add more. Feel free to contribute some ;)",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "CC-BY-SA-3.0",
   "name": "boxworld3d",
   "provides": [
@@ -32,15 +30,10 @@
   "release": 7435,
   "repo": "https://gitlab.com/h2mm/boxworld3d",
   "score": 1104.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/LXAgbOkLFz.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/LXAgbOkLFz.png"],
   "short_description": "A puzzle game where you push boxes into marbles, whilst avoiding obstacles",
   "state": "APPROVED",
-  "tags": [
-    "oneofakind__original",
-    "puzzle"
-  ],
+  "tags": ["oneofakind__original", "puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/LXAgbOkLFz.png",
   "title": "Box World 3D",
   "translation_url": null,

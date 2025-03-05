@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/technic_use_battery/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Technic use battery\n\nThis mod handles in-inventory charging of items. Electricity is taken out from batteries or power banks into tools.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "technic_use_battery",
-  "provides": [
-    "technic_use_battery"
-  ],
+  "provides": ["technic_use_battery"],
   "release": 24694,
   "repo": "https://github.com/C-C-Minetest-Server/technic_use_battery",
   "score": 3.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5c5abd3839.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5c5abd3839.png"],
   "short_description": "Use energy from RE batteries in the inventory",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "survival",
-    "technology"
-  ],
+  "tags": ["building_mechanics", "survival", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5c5abd3839.png",
   "title": "Technic use Battery",
   "translation_url": null,

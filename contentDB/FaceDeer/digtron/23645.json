@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/FaceDeer/digtron/issues/",
   "license": "MIT",
   "long_description": "# Modular Tunnel Boring Machine\n## aka The Almighty Digtron\n\n\nThis mod contains a set of blocks that can be used to construct highly customizable and modular tunnel-boring machines, bridge-builders, road-pavers, wall-o-matics, and other such construction/destruction contraptions.\n\nA digging machine's components must be connected to the control block via a path leading through the faces of the blocks - diagonal connections across edges and corners don't count. \n\nThe basic block types that can be assembled into a functioning digging machine are:\n\n* Digger heads, which excavate material in front of them when the machine is triggered\n* Builder heads, which build a user-configured node in the direction they're facing\n* Inventory modules, which hold material produced by the digger and provide material to the builders\n* Fuel modules, which holds flammable materials to feed the beast\n* Control block, used to trigger the machine and move it in a particular direction.\n\nDiggers mine out blocks and shunt them into the Digtron's inventory, or drop them on the ground if there isn't room in the inventory to store them.\n\nBuilder heads can be used to lay down a solid surface as the Digtron moves, useful for situations where a tunnel-borer intersects a cavern. Builder heads can be set to construct their target block \"intermittently\", allowing for regularly-spaced structures to be constructed. Common uses include building support arches at regular intervals in a tunnel, adding a torch on the wall at regular intervals, laying rails with regularly-spaced powered rails interspersed, and adding stairs to vertical shafts.\n\nThe auto-controller block is able to trigger automatically for a user-selected number of cycles. A player can ride their Digtron as it goes.\n\nOther specialized Digtron blocks include:\n\n* An \"axle\" block that allows an assembled Digtron to be rotated into new orientations without needing to be rebuilt block-by-block\n* A crate that can store an assembled Digtron and allow the player to transport it to a new location\n* A duplicator that can create a copy of an existing Digtron (if provided with enough spare parts)\n* An item ejector to clear Digtron's inventory of excavated materials and inject it into pipeworks tubes if that mod is installed.\n* A light that can be mounted on a Digtron to illuminate the workspace as it moves\n* Structural components to make it look cool\n\nThe Digtron mod only depends on the default mod, but includes optional support for several other mods.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "digtron",
-  "provides": [
-    "digtron"
-  ],
+  "provides": ["digtron"],
   "release": 23645,
   "repo": "https://github.com/FaceDeer/digtron",
   "score": 2104.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/n746ramD4e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/n746ramD4e.png"],
   "short_description": "Adds components for building modular tunnel boring machines",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "tools",
-    "transport"
-  ],
+  "tags": ["building_mechanics", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/n746ramD4e.png",
   "title": "Digtron",
   "translation_url": null,

@@ -25,14 +25,10 @@
   "issue_tracker": "https://gitlab.com/lesya_minetest_mods/ta_apiary/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "The vision is to automate honey and wax production with TechAge industry.\n\nThis mod adds:\n\n - TA Apiary is a beehive for bees from the [Bees](https://codeberg.org/tenplus1/bees) mod.\n This apiary can be automated with TA tubes and pushers. You'll probably want to use TA4 pushers to\n pull only full frames and not empty frames nor queen bees.\n\n - Honey Extractor is a machine to extract honey and wax from full frames. Has TA2, TA3 and TA4 versions.\n It uses some TA energy to work and can be automated with tubes and pushers.\n\n - Honey Sink is a machine to sink honey from beehive of the [Mobs Animal](https://codeberg.org/tenplus1/mobs_animal) mod.\n Has TA2, TA3 and TA4 versions. TA3 and TA4 versions can randomly increase honey production in addition to sinking.\n It uses some TA energy to work and can be automated with tubes and pushers.",
-  "maintainers": [
-    "Olesya_95"
-  ],
+  "maintainers": ["Olesya_95"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ta_apiary",
-  "provides": [
-    "ta_apiary"
-  ],
+  "provides": ["ta_apiary"],
   "release": 20438,
   "repo": "https://gitlab.com/lesya_minetest_mods/ta_apiary.git",
   "score": 161.2,
@@ -43,10 +39,7 @@
   ],
   "short_description": "TechAge Machines for beekeeping",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "technology"
-  ],
+  "tags": ["plants_and_farming", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/52702c4ef4.png",
   "title": "TechAge Apiary",
   "translation_url": null,
@@ -60,9 +53,7 @@
       {
         "is_optional": false,
         "name": "techage",
-        "packages": [
-          "joe7575/techage_modpack"
-        ]
+        "packages": ["joe7575/techage_modpack"]
       },
       {
         "is_optional": false,

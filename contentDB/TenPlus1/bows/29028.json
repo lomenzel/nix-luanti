@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Craft yourself a bow with some arrows and protect yourself, features include:\n\n* Simple API to register bows and arrows.\n* Custom functions when arrows hit object or node.\n* Uses raycasting for accuracy.\n* Mese arrows can toggle mesecon switches.\n* Diamond arrows can break glass blocks into shards.\n* Lucky block drops and special item.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-3.0",
   "name": "bows",
-  "provides": [
-    "bows"
-  ],
+  "provides": ["bows"],
   "release": 29028,
   "repo": "https://codeberg.org/tenplus1/bows",
   "score": 192.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/X7T2P1umXj.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/X7T2P1umXj.png"],
   "short_description": "Adds bows and arrows to game. Fork of the mod by AiTechEye",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/X7T2P1umXj.png",
   "title": "Bows",
   "translation_url": null,

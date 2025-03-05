@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,28 +338,17 @@
   "issue_tracker": "https://github.com/acmgit/herbs/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# herbs\n\nA mod for minetest to add additional Flowers and Herbs.\nThis small mod adds 15 new flowers and 6 new mushrooms to minetest.\n\nAll the flowers and mushrooms are flowers and also behave like this.\n\n## Depends\ndefault, flower\n\n## optional Depends\nhunger_ng, techage, technic, signs_bot, flowerpot\n\n## License:\nGPL 3.0\n\n\n",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "CC-BY-3.0",
   "name": "herbs",
-  "provides": [
-    "herbs"
-  ],
+  "provides": ["herbs"],
   "release": 23134,
   "repo": "https://github.com/acmgit/herbs",
   "score": 11.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3d04a6fede.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3d04a6fede.png"],
   "short_description": "Adds 15 flowers and 6 mushrooms.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["decorative", "food", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3d04a6fede.png",
   "title": "Herbs",
   "translation_url": null,

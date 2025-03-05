@@ -11,27 +11,17 @@
   "issue_tracker": "https://gitlab.com/seckl/streetbuilder/-/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "This mod lets you build streets semi-automatically. You only need to provide some points the street must go through and some street parameters like the width, the block types or whether the street should have piers or not. The street parameters can be edited and saved within the mod. Streets can be built, removed and re-built with a single command.",
-  "maintainers": [
-    "heger"
-  ],
+  "maintainers": ["heger"],
   "media_license": "LGPL-3.0-or-later",
   "name": "streetbuilder",
-  "provides": [
-    "streetbuilder"
-  ],
+  "provides": ["streetbuilder"],
   "release": 11573,
   "repo": "https://gitlab.com/seckl/streetbuilder.git",
   "score": 485.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0eb1a6fb46.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0eb1a6fb46.png"],
   "short_description": "Build a street from given points",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "transport",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "transport", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0eb1a6fb46.png",
   "title": "Streetbuilder",
   "translation_url": null,

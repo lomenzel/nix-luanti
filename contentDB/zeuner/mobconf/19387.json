@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,26 +443,17 @@
   "issue_tracker": "https://codeberg.org/zeuner/mobconf/issues",
   "license": "MIT",
   "long_description": "## usage\n\n### /add_npc <id> <position> [name] [texture] [dialog]\n\nAdd NPC with ID <id> at <position>, optionally setting nametag [name],\ntexture [texture] and dialog file [dialog]\n\n### /remove_npc <id>\n\nRemove NPC with ID <id>\n\n### /npc_load_dialog <id> <dialog>\n\nLoad dialog file <dialog> for NPC with ID <id>\n\n### /npc_set_name <id> <name>\n\nSet nametag of NPC with ID <id> to <name>\n\n### /npc_set_texture <id> <texture>\n\nSet texture of NPC with ID <id> to  <texture>\n\n### /npc_set_pos <id> <position>\n\nSet the position of NPC with ID <id> to <position>",
-  "maintainers": [
-    "zeuner"
-  ],
+  "maintainers": ["zeuner"],
   "media_license": "MIT",
   "name": "mobconf",
-  "provides": [
-    "mobconf"
-  ],
+  "provides": ["mobconf"],
   "release": 19387,
   "repo": "https://codeberg.org/zeuner/mobconf",
   "score": 170.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/77fa547569.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/77fa547569.png"],
   "short_description": "Place, remove and configure Mobs (for now: NPCs) using chatcommands",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/77fa547569.png",
   "title": "MobConf",
   "translation_url": null,
@@ -529,9 +516,7 @@
       {
         "is_optional": false,
         "name": "mtobjid",
-        "packages": [
-          "zeuner/mtobjid"
-        ]
+        "packages": ["zeuner/mtobjid"]
       }
     ],
     "zeuner/mtobjid": []

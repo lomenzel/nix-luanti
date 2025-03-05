@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,14 +286,10 @@
   "issue_tracker": "https://github.com/Extex101/jelys_pizzaria/issues",
   "license": "MIT",
   "long_description": "# Pizzaria\nMinetest Pizzaria mod that adds advanced pizza baking as a late-game food source\n\n**\"Why the name?\" you may ask.\nI made this mod as a birthday present to my good friend Jely, so the whole mod is in his honour!**\n\n\nDue to MTG's lack of animals and certain plants I've added the rather silly \"Mese Mutation Crystal\" to turn other items into the ones needed.\n\n### - Mutations:\n\n- Mutating an apple gives a tomato\n- Mutating an apple with two pine leaves gives pineapple\n- Mutating a player's bones gives 9 Meat\n- Mutating blueberries gives olives\nAnd probably the wackiest of all:\n- Mutating Gold fives cheese\n\n### - Curing:\n\nPepperoni has to be cured, craft your pepperoni then hang it from your ceiling until it's fully cured.\n\n### - Pizza prep\n\n1. Craft a bucket of water with flour to make 2x Pizza dough\n2. Place the pizza dough then punch it with a rolling pin until it breaks and is rolled out into a pizza base\n3. Place on your cheese, and tomato sauce\n4. Add whatever 1-2 toppings your heart desires\n5. Place your pizza into your pizza oven and stoke the fire with tree logs\n6. Ignite your fire with a torch by punching it\n7. Wait until your pizza is done, be careful not to burn it!\n8. Finally remove your pizza and place it down in a pizza box or on your table\n9. Cut it up and enjoy!\n\nAnd somewhere deep in the dungeons of this world, you may find a slice of the coveted \"Heart attack in a circle\" Pizza. Said to be crafted by Jely Himself.\n",
-  "maintainers": [
-    "Extex"
-  ],
+  "maintainers": ["Extex"],
   "media_license": "CC-BY-SA-3.0",
   "name": "jelys_pizzaria",
-  "provides": [
-    "jelys_pizzaria"
-  ],
+  "provides": ["jelys_pizzaria"],
   "release": 27608,
   "repo": "https://github.com/Extex101/jelys_pizzaria",
   "score": 1160.8,
@@ -306,10 +300,7 @@
   ],
   "short_description": "Adds Pizza as an Endgame food",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food"
-  ],
+  "tags": ["decorative", "food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/876a839910.png",
   "title": "Pizzaria",
   "translation_url": null,

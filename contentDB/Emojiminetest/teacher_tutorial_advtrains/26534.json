@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/teacher_tutorial_advtrains/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Teacher: Advanced Trains\n\nThis mod adds tutorials for [Advanced Trains](https://content.minetest.net/packages/orwell/advtrains/). The following tutorials are avaliable:\n\n* \"About Trains...\" (shown upon getting next to tracks or platforms)\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "teacher_tutorial_advtrains",
-  "provides": [
-    "teacher_tutorial_advtrains"
-  ],
+  "provides": ["teacher_tutorial_advtrains"],
   "release": 26534,
   "repo": "https://github.com/C-C-Minetest-Server/teacher_tutorial_advtrains",
   "score": 17.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d48981bc98.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d48981bc98.png"],
   "short_description": "Tutorial for Advanced Trains",
   "state": "APPROVED",
-  "tags": [
-    "education"
-  ],
+  "tags": ["education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d48981bc98.png",
   "title": "Teacher: Advanced Trains",
   "translation_url": null,
@@ -57,10 +49,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
@@ -76,33 +65,24 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/teacher_tutorial_advtrains": [
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "teacher_core",
-        "packages": [
-          "Emojiminetest/teacher"
-        ]
+        "packages": ["Emojiminetest/teacher"]
       }
     ],
     "orwell/advtrains": []

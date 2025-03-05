@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -158,14 +156,10 @@
   "issue_tracker": "https://github.com/Skandarella/marinaramobs/issues",
   "license": "MIT",
   "long_description": "This mod adds marine animals to the oceans of Minetest Game, if you are using the Marinara mod. It also includes some recipes and crafts.\n\nAvailable mobs:\n\n-Dolphin\n-Jellyfish\n-Nautilus\n-Octopus\n-Parrotfish\n-Sea Mouse\n-Sea Slug\n-Sea Urchin\n-Starfish",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "marinaramobs",
-  "provides": [
-    "marinaramobs"
-  ],
+  "provides": ["marinaramobs"],
   "release": 16924,
   "repo": "https://github.com/Skandarella/marinaramobs.git",
   "score": 230,
@@ -178,11 +172,7 @@
   ],
   "short_description": "adds mobs to the marinara oceans",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["decorative", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/066546b306.png",
   "title": "Wilhelmines Marinara Mobs",
   "translation_url": null,
@@ -471,10 +461,7 @@
       {
         "is_optional": false,
         "name": "marinara",
-        "packages": [
-          "Liil/marinara",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["Liil/marinara", "EmptyStar/asuna"]
       }
     ],
     "TenPlus1/mobs": []

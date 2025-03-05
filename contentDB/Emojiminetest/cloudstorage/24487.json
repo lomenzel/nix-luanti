@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/cloudstorage/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Cloud Storage\n\nThis mod allows moderators to store items in cloud storage and let players know the slot ID to get them This is useful when moderators have to hand items to offline players, for example, returning bones they forgot to pick up. See `/cloudstorage help` for how to use this mod.\n\nShulker Boxes from [MineClone2](https://content.minetest.net/packages/Wuzzy/mineclone2/) or [Basket](https://content.minetest.net/packages/Emojiminetest/basket/) for Minetest Game are recommended ways to store multiple items within a single slot.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "cloudstorage",
-  "provides": [
-    "cloudstorage"
-  ],
+  "provides": ["cloudstorage"],
   "release": 24487,
   "repo": "https://github.com/C-C-Minetest-Server/cloudstorage",
   "score": 150.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/28504c5cb4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/28504c5cb4.png"],
   "short_description": "Command-based Parcel Locker",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "storage"
-  ],
+  "tags": ["server_tools", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/28504c5cb4.png",
   "title": "Cloud Storage",
   "translation_url": null,
@@ -44,10 +35,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       },
       {
         "is_optional": false,

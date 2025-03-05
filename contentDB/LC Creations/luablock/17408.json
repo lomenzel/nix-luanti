@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,14 +130,10 @@
   "issue_tracker": "https://github.com/LandonAConway/luablock/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Luablock v1.0 adds blocks to MT that can execute code with an unsandboxed environment. Lua Blocks should only be placed, dug, and edited by server owners, or highly trusted players who are not malicious. Due to the mod's very nature, there are high vulnerabilities if an untrusted player is able to edit the code of a luablock. Use this mod at your own risk.\n\nThe purpose of this mod is to create features on this server wihtout needing to write an entire mod, then install it to your server. It works with, and requires mesecons and digilines.",
-  "maintainers": [
-    "LC Creations"
-  ],
+  "maintainers": ["LC Creations"],
   "media_license": "LGPL-2.1-only",
   "name": "luablock",
-  "provides": [
-    "luablock"
-  ],
+  "provides": ["luablock"],
   "release": 17408,
   "repo": "https://github.com/LandonAConway/luablock",
   "score": 5.3,
@@ -152,10 +146,7 @@
   ],
   "short_description": "Adds blocks that can execute lua code. Admin purposes only.",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "technology"
-  ],
+  "tags": ["server_tools", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7a3cce9e09.png",
   "title": "Luablock",
   "translation_url": null,

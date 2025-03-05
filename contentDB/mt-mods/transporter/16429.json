@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/mt-historical/transporter/issues",
   "license": "GPL-3.0-only",
   "long_description": "# technic_transporter\nThis mod adds a technic-powered, highly configurable transporter.  \n\n## Dependencies\n\n- Minetest 0.4.16+\n- Minetest_game 0.4.16+\n- [technic](https://github.com/mt-mods/technic)\n\n## Recommended mods\n\n- [craftguide](https://github.com/minetest-mods/craftguide) (To see available crafting recipes)\n\n## Usage\n\nSimply connect the transporter to a technic power network.    \n\nRight-clicking it brings a transporter menu, where you can set the target coordinates (don't forget to click set to actually set the coordinates), bookmarks menu and other settings.  \n\nThe transporter establishes a portal between two points, teleporting any players and remaining\nactive as long as enough energy is supplied.  \n\nThe transport cost is calculated based on distance between the points multiplied by per-node modifier (20 by default) and two-way modifier (if the portal is two-way, twice as much energy is used).  \n\nOne-way checkbox enables the transporter to automatically shutdown after one teleportation (from any side).  \n\nYou can save bookmarks from a transporter node by right-clicking it with a blank floppy disk. It will become blue and right-clicking any transporter node will add bookmarks stored on this floppy to the transporter.  \n\n## Settingtypes\nModpack provides some settings, accessible via \"Settings->All Settings->Mods->technic_transporter  \nYou can also put these settings directly to your minetest.conf:\n\n```\ntransporter_multiplier = 20, int, cost of transport per node\ntransporter_two_way_multiplier = 2, int, multiplier of two-way cost\ntransporter_minimum_y = -31000, int\ntransporter_maximum_y = 31000, int\ntransporter_minimum_z = -31000, int\ntransporter_maximum_z = 31000, int\ntransporter_minimum_x = -31000, int\ntransporter_maximum_x = 31000, int\n\n```\n\n## License\nAll code is GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources not covered in the \"credits\" section are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  ",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-4.0",
   "name": "transporter",
-  "provides": [
-    "transporter"
-  ],
+  "provides": ["transporter"],
   "release": 16429,
   "repo": "https://github.com/mt-historical/transporter",
   "score": 164.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ae1799fa42.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ae1799fa42.png"],
   "short_description": "Adds a configurable technic-based transporter, with bookmarks and many options",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "transport"
-  ],
+  "tags": ["magic", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ae1799fa42.png",
   "title": "Transporter",
   "translation_url": null,

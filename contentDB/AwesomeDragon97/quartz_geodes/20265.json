@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod adds new quartz geodes to extend the geodes mod.\n\nThey are just decorative for now but I will add more recipes later.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "quartz_geodes",
-  "provides": [
-    "quartz_geodes"
-  ],
+  "provides": ["quartz_geodes"],
   "release": 20265,
   "repo": null,
   "score": 6.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5be69b4a11.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5be69b4a11.png"],
   "short_description": "Extends the Geodes mod with quartz geodes.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5be69b4a11.png",
   "title": "Quartz Geodes",
   "translation_url": null,
@@ -508,10 +497,7 @@
       {
         "is_optional": false,
         "name": "geodes",
-        "packages": [
-          "AwesomeDragon97/geodes",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["AwesomeDragon97/geodes", "EmptyStar/asuna"]
       },
       {
         "is_optional": false,

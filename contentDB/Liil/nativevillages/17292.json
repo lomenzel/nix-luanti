@@ -1,9 +1,6 @@
 {
   "author": "Liil",
-  "content_warnings": [
-    "gambling",
-    "horror"
-  ],
+  "content_warnings": ["gambling", "horror"],
   "created_at": "2021-04-08T10:22:18.389118",
   "dev_state": null,
   "donate_url": null,
@@ -92,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -252,14 +247,10 @@
   "issue_tracker": "https://github.com/Skandarella/nativevillages/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: To see the models of the mobs correctly you have to activate Shaders in the Main Menu. Without Shaders they will appear not fully textured.\n\nNative Villages is an Add-on for People(Mod) that places sparingly distributed settlements over the landscape of jungle, savanna, coastal forest, desert, grassland and ice sheet biomes.\n\nEvery settlement has its own inhabitants, but not all are friendly and like to trade. The Jungle People, also known as Cannibals don't like to trade at all and will always attack. A similar aggressive tribe is the Desert People, but there is one exemption, the slave trader. \nHated by their own people, they live in constant fear of their own kind who want to prevent the slave trade and hunt every slave trader they can spot. The slave traders sell you special profession NPCs who can breed special animals, entertain you, or interact as soldiers.\n\nFriendly tribes include the Icelanders, they trade meat, leather and wool for iron lumps. There is sometimes a special trader to find in their villages that sells dogs and sledges for steel ingots.\n\nThe Lake People live in the coastal regions of forests where they breed fishes, collect pearls and farming salt, they love rare southern goods like sugar or bananas.\n\nThe Grasslanders are the inhabitants of the desolate plains, they are cattle herders, also talented blacksmiths and need imported grain products like bread to survive. Sometimes little altars can be found near their settlements, which are inhabited by witches. These wise, but also mad woman trade two special items for a diamond. Rumours say these items are \"Sweet, but deadly too!\"\n\nThe dry savanna is the home of the Savanna People, known for their ability to tame lions, but this is a knowledge, that they will never give to strangers. If you want your deceased loved ones back, maybe the legendary Witch Doctor can help you, but perhaps you just came to the savanna lands to trade pearls for vegetables and coffee beans.\n\nThere is much more to discover, you can find out yourself, or read the guide.\n\nKnown Issues: \n\n-Lake Villagers jump into water, although I have set them to get water damage, what should prevent them from doing. Perhaps it has something to do with the ladders or height of the buildings.\n\n-Buildings spawn in unaesthetic places like sides of mountains and hills, on top of cliffs. This problem can only be fixed with a specific written code for schematic placement, what I am not able to at the moment.",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "nativevillages",
-  "provides": [
-    "nativevillages"
-  ],
+  "provides": ["nativevillages"],
   "release": 17292,
   "repo": "https://github.com/Skandarella/nativevillages.git",
   "score": 396.5,
@@ -278,14 +269,7 @@
   ],
   "short_description": "Adds villages of native people to the world.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "food",
-    "mapgen",
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "food", "mapgen", "mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/plu7nCdB60.png",
   "title": "Native Villages",
   "translation_url": null,
@@ -343,9 +327,7 @@
       {
         "is_optional": false,
         "name": "people",
-        "packages": [
-          "Liil/people"
-        ]
+        "packages": ["Liil/people"]
       },
       {
         "is_optional": false,

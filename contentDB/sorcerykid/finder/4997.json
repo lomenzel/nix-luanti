@@ -11,28 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Advanced Rangefinder extends the Minetest API with more powerful search capabilities for both nodes and entities, in addition to a versatile chat command for use in testing.\n\nThe following issue on GitHub served as inspiration for developing this mod:  \n[https://github.com/minetest/minetest/issues/9403](https://github.com/minetest/minetest/issues/9403)\n\nDemonstration of Rangefinder Mod  \n[https://vimeo.com/392304134](https://vimeo.com/392304134)\n\nFor detailed usage instructions, please refer to the forum topic.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "MIT",
   "name": "finder",
-  "provides": [
-    "finder"
-  ],
+  "provides": ["finder"],
   "release": 4997,
   "repo": "https://bitbucket.org/sorcerykid/finder",
   "score": 2.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/CPM6nze4Lv.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/CPM6nze4Lv.jpg"],
   "short_description": "Extends the Minetest API with search capabilities for entities",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["developer_tools", "library", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CPM6nze4Lv.png",
   "title": "Advanced Rangefinder",
   "translation_url": null,

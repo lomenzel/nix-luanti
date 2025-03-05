@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-lockbox/issues",
   "license": "MIT",
   "long_description": "Modified version of [lua-lockbox](https://github.com/somesocks/lua-lockbox) ported to work in Minetest.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "MIT",
   "name": "lockbox",
-  "provides": [
-    "lockbox"
-  ],
+  "provides": ["lockbox"],
   "release": 27508,
   "repo": "https://github.com/Jo5629/jo5629-lockbox",
   "score": 1.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b975cea848.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b975cea848.png"],
   "short_description": "Library for cryptography/encryption functions.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b975cea848.png",
   "title": "Lockbox",
   "translation_url": null,

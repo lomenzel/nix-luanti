@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds quartz colored glass to Stellua. Not tinted visibly - the outline is changed. Requires some Stellua modules, possibly more than listed in dependencies.\n\nMake quartz tinted glass by surrounding normal glass with versions of quartz. Works with all five types and with glass itself, creating a blue version.\n\nTexture files also include XCF files that you can tint glass with yourself by modifying. These are the same as the media license, CC-BY-SA 3.0, though technically you can remake them under CC0 if you get the original texture from Minetest Game.",
-  "maintainers": [
-    "vejou"
-  ],
+  "maintainers": ["vejou"],
   "media_license": "CC-BY-SA-3.0",
   "name": "quartz_glass_stl",
-  "provides": [
-    "quartz_glass_stl"
-  ],
+  "provides": ["quartz_glass_stl"],
   "release": 28627,
   "repo": "https://github.com/vejou/quartz_glass_stl",
   "score": 2.6,
@@ -57,16 +53,12 @@
       {
         "is_optional": false,
         "name": "stl_decor",
-        "packages": [
-          "theidealist101/stellua"
-        ]
+        "packages": ["theidealist101/stellua"]
       },
       {
         "is_optional": false,
         "name": "stl_core",
-        "packages": [
-          "theidealist101/stellua"
-        ]
+        "packages": ["theidealist101/stellua"]
       }
     ]
   },

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Giulio-Luiz-Valcanaia/mathblocks/issues/new/choose/",
   "license": "MIT",
   "long_description": "These decorative blocks can help teachers in their math classes by making it easier to teach plane and spatial geometry through games. In the future, I plan to add other mathematical expressions to expand the range of possibilities in the classroom. ",
-  "maintainers": [
-    "GiulioLuizValcanaia"
-  ],
+  "maintainers": ["GiulioLuizValcanaia"],
   "media_license": "MIT",
   "name": "mathblocks",
-  "provides": [
-    "mathblocks"
-  ],
+  "provides": ["mathblocks"],
   "release": 12364,
   "repo": "https://github.com/Giulio-Luiz-Valcanaia/mathblocks",
   "score": 4.9,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Adds decorative math blocks to help in teaching",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "decorative",
-    "education"
-  ],
+  "tags": ["creative", "decorative", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2c82344e53.png",
   "title": "Math blocks",
   "translation_url": null,

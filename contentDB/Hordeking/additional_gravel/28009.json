@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Hordeking/minetest_additional_gravel/issues",
   "license": "MIT",
   "long_description": "# Overgrown Gravel\n\n## Dependencies\n- `default`\n- `stairs`\n\n## Objective\n\nCreates an overgrown gravel block and various stairs and slabs from it, similar to mossy cobble and stairs\n\n- Overgrowth occurs:\n - When a gravel block/stair is near water.\n - Overgrowth spreads to other gravel blocks (it's infectious).\n- Bright light is required.\n\n",
-  "maintainers": [
-    "Hordeking"
-  ],
+  "maintainers": ["Hordeking"],
   "media_license": "CC-BY-SA-3.0",
   "name": "additional_gravel",
-  "provides": [
-    "additional_gravel"
-  ],
+  "provides": ["additional_gravel"],
   "release": 28009,
   "repo": "https://github.com/Hordeking/minetest_additional_gravel",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f5e5dcea3c.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f5e5dcea3c.jpg"],
   "short_description": "Adds overgrown gravel, similar to mossy cobblestone.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f5e5dcea3c.png",
   "title": "Additional Gravel",
   "translation_url": null,

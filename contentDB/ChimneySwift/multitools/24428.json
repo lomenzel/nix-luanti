@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,24 +429,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/multitools/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# Multitools\n\nMultitools adds the ability to craft several tools into 1 multi-use tool.\n\nA few days ago I found a mod on the Banana Land server which allows you to craft a mese or diamond shovel, axe and pick into one tool that performs better at all of those tool's main tasks. Unfortunately, I don't think this mod is available, so I decided to \"borrow\" the idea and make my own similar version.\n\n**Contributors:** Many thanks to LadyK for improving the multitool textures!\n\n**Notes on Optional Dependencies:** Adding one of or both of the optional dependencies will add a Lava Multitool which is better than diamond and auto-smelts like the lava pick in mobs_monster. Adding toolranks enables all of the functionality of the toolranks mod.\n\n## Tool capabilities\nThe best characteristics of each tool were combined to make each multitool. For example, the diamond multitool cuts wood at the same rate as the diamond axe, but it also breaks stone at the same rate as a diamond pick. The only increase in ability of the multitool is the range, the diamond multitool has a range of 6 and the lava multitool has a range of 8 (the default is 4), however if you don't like this behaviour, simply adjust the \"range\" setting for each tool or remove it in init.lua.\n\nNote that the performance of the Lava Multitool as a sword, shovel or axe is determined from the performance of these tools in the lavastuff mod, regardless of whether you have it installed or not.",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "CC0-1.0",
   "name": "multitools",
-  "provides": [
-    "multitools"
-  ],
+  "provides": ["multitools"],
   "release": 24428,
   "repo": "https://github.com/ChimneySwift/multitools",
   "score": 155.2,
   "screenshots": [],
   "short_description": "Adds a series of multi-purpose tools to Minetest",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": null,
   "title": "Multitools",
   "translation_url": null,

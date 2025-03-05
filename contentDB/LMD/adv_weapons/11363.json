@@ -1,8 +1,6 @@
 {
   "author": "LMD",
-  "content_warnings": [
-    "violence"
-  ],
+  "content_warnings": ["violence"],
   "created_at": "2020-04-10T22:33:23.350086",
   "dev_state": null,
   "donate_url": null,
@@ -65,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -264,25 +260,17 @@
   "issue_tracker": "https://github.com/appgurueu/adv_weapons/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Advanced Weapons\n\nAdds a variety of advanced weapons.\n\n## About\n\nDepends on `modlib` and `tnt`.\nWritten by LMD aka appguru(eu). Licensed under the GPLv3.\n\n## Screenshot\n\n![Screenshot](screenshot.png)\n\n## API\n\n```lua\n-- override this, should return true if names are opponents\nfunction adv_weapons.is_opponent(playername1, playername2)\n    return playername1 ~= playername2\nend\n```\n\n## Features\n\n* Mines\n  * Landmines\n    * Place them on full height blocks\n    * Walking on them triggers explosion\n    * Can be (un)buried by digging node below them\n    * Buried landmines are harder to spot & can't be easily picked up\n* Special\n  * Futuristic Grappling Hook\n    * Throw to hook it somewhere\n      * Creates Force Beam\n    * Right-click ascent aid to (de)attach\n      * Go forwards/backwards on the beam\n  * Turrets\n    * Gatlin Gun\n      * Right-click turret base with gatlin barrel to arm\n      * High reload rate, low damage & range\n      * Turns slowly, so you can try dodging\n      * Only attacks owners opponents\n      * Destroying/digging the base destroys the turret\n  * ~~Whips~~ temporarily cancelled as unfinished\n    * High range, average damage\n    * Causes bleeding & stunning (by chance)\n    * Right-click to \"capture\" player\n      * Drops their wielded item\n      * Player can't attack while captured\n      * Can be dragged around\n      * Unleashed as soon as RMB is released\n* Many more!\n  * Soon",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "GPL-3.0-only",
   "name": "adv_weapons",
-  "provides": [
-    "adv_weapons"
-  ],
+  "provides": ["adv_weapons"],
   "release": 11363,
   "repo": "https://github.com/appgurueu/adv_weapons",
   "score": 13.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/AyrO5ll77Q.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/AyrO5ll77Q.png"],
   "short_description": "Adds a variety of advanced weapons.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/AyrO5ll77Q.png",
   "title": "Advanced Weapons",
   "translation_url": null,
@@ -296,9 +284,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

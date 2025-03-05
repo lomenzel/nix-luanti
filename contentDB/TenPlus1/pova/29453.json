@@ -25,26 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Gives mod makers a set of functions to safely apply player physics overrides.\n\nAdd a named override which can be used to add or subtract from speed, jump and gravity effects, or set custom overrides for \"default\", \"min\",  \"max\", \"force\".\n\n\tpova.add_override (player_name, override_item, override_table)\n\nRemove the override for the item named:\n\n\tpova.del_override(player_name, override_item)\n\nReturns a table containing {speed, jump, gravity} setting for the item added:\n\n\tpova.get_override(player_name, override_item)\n\nCalculates and sets new override instantly:\n\n\tpova.do_override(player)",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "pova",
-  "provides": [
-    "pova"
-  ],
+  "provides": ["pova"],
   "release": 29453,
   "repo": "https://codeberg.org/tenplus1/pova",
   "score": 21,
-  "screenshots": [
-    "https://content.luanti.org/uploads/HsU5SWNfoq.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/HsU5SWNfoq.png"],
   "short_description": "Gives mod makers a set of functions to safely apply player physics overrides.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "player_effects"
-  ],
+  "tags": ["library", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HsU5SWNfoq.png",
   "title": "Pova",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/dibesfer/Blank/issues",
   "license": "0BSD",
   "long_description": "# Blank\n\nA blank template with default nodes, decorations and ores for you to start your project.\n\nThe blank game contains the blank mod. A short mod with 13 nodes. Decorations, ores.\n\nThis game was made along the luanti guide found in http://info.dibesfer.com/games/luanti\n\n### This game is CC0 for media and 0BSD for code\n",
-  "maintainers": [
-    "dibesfer"
-  ],
+  "maintainers": ["dibesfer"],
   "media_license": "CC0-1.0",
   "name": "blank",
-  "provides": [
-    "blank"
-  ],
+  "provides": ["blank"],
   "release": 29883,
   "repo": "https://codeberg.org/dibesfer/Blank.git",
   "score": 9.8,
@@ -29,12 +25,7 @@
   ],
   "short_description": "Absolute blank template to start your projects from.",
   "state": "APPROVED",
-  "tags": [
-    "16px",
-    "decorative",
-    "developer_tools",
-    "education"
-  ],
+  "tags": ["16px", "decorative", "developer_tools", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/19b1b31a4e.png",
   "title": "Blank",
   "translation_url": null,

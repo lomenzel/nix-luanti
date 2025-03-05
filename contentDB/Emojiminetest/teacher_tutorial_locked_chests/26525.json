@@ -24,9 +24,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/teacher_tutorial_locked_chests/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Teacher: Locked Chest\n\nThis mod adds a tutorial teaching players to use locked chests in place of normal chests.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "teacher_tutorial_locked_chests",
-  "provides": [
-    "teacher_tutorial_locked_chests"
-  ],
+  "provides": ["teacher_tutorial_locked_chests"],
   "release": 26525,
   "repo": "https://github.com/C-C-Minetest-Server/teacher_tutorial_locked_chests",
   "score": 154.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b02f90c336.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b02f90c336.png"],
   "short_description": "Tutorial for MTG Locked Chests",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["education", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b02f90c336.png",
   "title": "Teacher: Locked Chests",
   "translation_url": null,
@@ -452,10 +440,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
@@ -471,17 +456,12 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/teacher_tutorial_locked_chests": [
@@ -530,9 +510,7 @@
       {
         "is_optional": false,
         "name": "teacher_core",
-        "packages": [
-          "Emojiminetest/teacher"
-        ]
+        "packages": ["Emojiminetest/teacher"]
       }
     ]
   },

@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/no-touch-griefer/issues",
   "license": "MIT",
   "long_description": "Per-IP interact privilege bans. When you don't want to permanently ban griefers but rather rip their arms off, and have it be enforced for all potentially new accounts under that IP.\n\nUse `/interactban` to ban an IP, if the player is online you can specify their username and their IP will be interact-banned right away. To unban an IP, use `/interactunban` (does not work with players (yet)).\n\nTo bulk-ban a list of IP addresses, put a list of them in `interactban.txt` at the world path and use `/ib_bulk` to process it.\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "no_touch_griefer",
-  "provides": [
-    "no_touch_griefer"
-  ],
+  "provides": ["no_touch_griefer"],
   "release": 28356,
   "repo": "https://github.com/rollerozxa/no-touch-griefer",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/65c207747f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/65c207747f.png"],
   "short_description": "Per-IP interact privilege bans",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/65c207747f.png",
   "title": "No Touch, Griefer!",
   "translation_url": null,

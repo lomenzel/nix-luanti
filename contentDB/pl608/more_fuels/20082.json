@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/pl608/More-Fuels/issues",
   "license": "CC0-1.0",
   "long_description": "[![ContentDB](https://content.minetest.net/packages/pl608/more_fuels/shields/title/)](https://content.minetest.net/packages/pl608/more_fuels/)[![ContentDB](https://content.minetest.net/packages/pl608/more_fuels/shields/downloads/)](https://content.minetest.net/packages/pl608/more_fuels/)\n\nMore-Fuels is a mod adds a few new fuels for use in furnaces and vehicles.\nThe oil can (not the oil bucket) is only added when Technic is installed, though it isnt necessary, its only added to be more fun.\n\nNote: now supports all apercy airutils based mods(pretty much all of the vehicle ones)\n\n### Fuels Added\n* gasoline\n* oil/pertrolium\n* diesil\n### W.I.P. Fuels\n* propane\n* methane\n* hydrogen\n*  butane\n\n",
-  "maintainers": [
-    "pl608"
-  ],
+  "maintainers": ["pl608"],
   "media_license": "CC0-1.0",
   "name": "more_fuels",
-  "provides": [
-    "more_fuels"
-  ],
+  "provides": ["more_fuels"],
   "release": 20082,
   "repo": "https://github.com/pl608/More-Fuels.git",
   "score": 9.1,
@@ -451,9 +445,7 @@
   ],
   "short_description": "Adds a few new fuels for use in furnaces such as gasoline and petrolium",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f05357d621.png",
   "title": "More Fuels",
   "translation_url": null,
@@ -512,17 +504,12 @@
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,
         "name": "hammermod",
-        "packages": [
-          "cultom/hammermod"
-        ]
+        "packages": ["cultom/hammermod"]
       }
     ]
   },

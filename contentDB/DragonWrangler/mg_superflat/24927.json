@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "This mod is meant to be a recreation of MineCraft's superflat mapgen. Hopefully this will help out builders. You don't need to worry about setting your world to singlenode mapgen. Any mapgen, but V6 should work.\n\nI'm rather new at map making so this may be a bit buggy with certain games (ex. Voxelibre)",
-  "maintainers": [
-    "DragonWrangler"
-  ],
+  "maintainers": ["DragonWrangler"],
   "media_license": "LGPL-2.1-only",
   "name": "mg_superflat",
-  "provides": [
-    "mg_superflat"
-  ],
+  "provides": ["mg_superflat"],
   "release": 24927,
   "repo": null,
   "score": 13.4,
@@ -42,11 +38,7 @@
   ],
   "short_description": "Makes your world super flat",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "custom_mapgen",
-    "mapgen"
-  ],
+  "tags": ["creative", "custom_mapgen", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ee35510d0e.png",
   "title": "Mapgen Superflat",
   "translation_url": null,

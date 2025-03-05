@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/QuoteNat/vein_miner/issues",
   "license": "MIT",
   "long_description": "A mod that allows players to automatically mine ore veins and trees while sneaking. \n\nBy default allows vein mining of \"stone_with_\\[orename\\]\" nodes as well as nodes in the group \"tree\". Vein mining can also be enabled for all nodes in the mod settings.",
-  "maintainers": [
-    "QuoteNat"
-  ],
+  "maintainers": ["QuoteNat"],
   "media_license": "MIT",
   "name": "vein_miner",
-  "provides": [
-    "vein_miner"
-  ],
+  "provides": ["vein_miner"],
   "release": 22305,
   "repo": "https://github.com/QuoteNat/vein_miner",
   "score": 506,
-  "screenshots": [
-    "https://content.luanti.org/uploads/62871950c9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/62871950c9.png"],
   "short_description": "Automatically mines ore veins and trees while sneaking",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/62871950c9.png",
   "title": "Vein Miner",
   "translation_url": null,

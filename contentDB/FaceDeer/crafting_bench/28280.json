@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/crafting_bench/issues",
   "license": "MIT",
   "long_description": "by: Philipbenr And DanDuncombe\n\nAn auto-crafting bench. Place raw materials into its inventory, define a crafting recipe in its main grid, and then every five seconds it will generate a crafted output.\n\nThis mod is compatible with hoppers.\n\nThe crafting rate can be modified in advanced settings.\n",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "crafting_bench",
-  "provides": [
-    "crafting_bench"
-  ],
+  "provides": ["crafting_bench"],
   "release": 28280,
   "repo": "https://github.com/minetest-mods/crafting_bench",
   "score": 17,
-  "screenshots": [
-    "https://content.luanti.org/uploads/MwNhDB1wtI.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/MwNhDB1wtI.png"],
   "short_description": "An auto-crafting bench",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/MwNhDB1wtI.png",
   "title": "Crafting Bench",
   "translation_url": null,

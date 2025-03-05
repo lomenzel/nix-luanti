@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_ltool/issues",
   "license": "MIT",
   "long_description": "This mod aims to help mod developers experimenting with L-system tree definitions. It provides a simple formspec which is a wrapper around minetest.spawn_tree with a lot of additional features. If you don’t know how this function or L-systems work, then this mod is not for you. You can check out Luanti’s official Lua API documentation to learn the basics.\n\nSay “/treeform” in the chat to open the formspec or click on the extra button in your inventory menu when using Simple Fast Inventory Buttons or Unified Inventory.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "ltool",
-  "provides": [
-    "ltool"
-  ],
+  "provides": ["ltool"],
   "release": 1206,
   "repo": "https://codeberg.org/Wuzzy/minetest_ltool",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xS4T7Bmcnw.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xS4T7Bmcnw.png"],
   "short_description": "A form to easily spawn L-system trees, aimed at mod developers.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools"
-  ],
+  "tags": ["developer_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xS4T7Bmcnw.png",
   "title": "L-System Tree Utility",
   "translation_url": null,

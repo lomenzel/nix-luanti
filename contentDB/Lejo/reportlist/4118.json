@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/Lejo1/reportlist/issues",
   "license": "MIT",
   "long_description": "# Reportlist\n\nThis mod add a report list of players to minetest.  \nA Player can only report an other player ones!  \nPlayers can be reported by just typing /report <name> <reason>\n\nYou can show the reportlist formspec: /reportlist  \nReset a player reports with: /report_reset <name>\n\nIt's compatible with xban and sban\n\nLicense: MIT\n\nCreated by [Lejo](https://github.com/Lejo1)",
-  "maintainers": [
-    "Lejo"
-  ],
+  "maintainers": ["Lejo"],
   "media_license": "MIT",
   "name": "reportlist",
-  "provides": [
-    "reportlist"
-  ],
+  "provides": ["reportlist"],
   "release": 4118,
   "repo": "https://github.com/Lejo1/reportlist",
   "score": 152.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/tHEo9w28AT.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/tHEo9w28AT.png"],
   "short_description": "A Report System to manage player reporting use /reportlist to view reports",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/tHEo9w28AT.png",
   "title": "Reportlist",
   "translation_url": null,

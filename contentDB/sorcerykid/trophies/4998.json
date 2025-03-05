@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Last year I finished work on a brand new trophy mod, at the request of a player on JT2 that was holding a PvP tournament. I borrowed the model from VenessaE's HomeDecor modpack, then added about 200 lines of code to make trophies truly come to life :D\n\nTrophies are non-craftable nodes. They must be obtained via the /giveme or /give commands. This should help to prevent the creation of superfluous awards since only trusted players like moderators and administrators can control the supply of trophies in game. However, at some point I may add a \"trophy\" privilege, if there is interest.\n\nTo create your first trophy, simply issue the command: `/giveme trophies:gold_cup`\n\nYou will notice that a gold cup trophy has been added to your inventory. Left-click to use the trophy, and you will be presented with an editor to inscribe a personalized message and title for the award. You will also need to specify the recipient, which can be any player name other than your own, of course.\n\nThe bottom pane offers a preview of how the inscription will appear as infotext. It can be updated by clicking Preview. Otherwise, when you are satisfied with the results, click Save.\n\nYou can now present the trophy to the winner by either by placing it in world or dropping it from your inventory. The inscription information is retained in the node meta and the itemstack meta. So once it is set by the presenter, then the trophy can placed, dug, dropped, and even stored in a chest, and it will always be associated with the winner.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "trophies",
-  "provides": [
-    "trophies"
-  ],
+  "provides": ["trophies"],
   "release": 4998,
   "repo": "https://bitbucket.org/sorcerykid/trophies",
   "score": 2.7,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Showcase player achievements with a personalized gold cup",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/kv5f7FqbIY.png",
   "title": "Trophies",
   "translation_url": null,
@@ -552,9 +544,7 @@
       {
         "is_optional": false,
         "name": "ownership",
-        "packages": [
-          "sorcerykid/ownership"
-        ]
+        "packages": ["sorcerykid/ownership"]
       },
       {
         "is_optional": false,

@@ -11,9 +11,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/Minetest_Tutorial/issues",
   "license": "GPL-2.0-only",
   "long_description": "In the Tutorial, you start in a nice and cozy castle which has lot of explanatory signs and stuff to play around with. It covers all of the basic rules common to all games for Luanti like basic movement, mining, building, items, etc.\nCollect gold bars for completing each lesson.\n\nAfter completing this tutorial, you should be ready to play “real” games in Luanti. Have fun!\n\nTo install this game, go into the main menu content browser (Content tab -> Browse online content) and search for \"Tutorial\". It will be available as an icon under the Start Game tab.\n\nPrinciples of this tutorial:\n\n* Be generic, teach stuff which applies to pretty much all games/mods/etc.\n* Don't teach things that are too specific for any particular game, like Minetest Game\n\n**Note**: This tutorial is made for the PC version of Luanti. You can play it on mobile, but the instructions all assume you have a keyboard and mouse.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "GPL-2.0-only",
   "name": "tutorial",
   "provides": [
@@ -41,9 +39,7 @@
   ],
   "short_description": "Learn how to play.",
   "state": "APPROVED",
-  "tags": [
-    "singleplayer"
-  ],
+  "tags": ["singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/156cbe1636.png",
   "title": "Tutorial",
   "translation_url": null,

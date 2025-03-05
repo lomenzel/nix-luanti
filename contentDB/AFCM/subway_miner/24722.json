@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/AFCMS/Subway-Miner/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "AFCMS's submission to the Minetest Game Jam 2021\n\n## Informations\nThis game is both inspired from Subway-Surfers and Temple Run.\n\nYou drive the player between obstacles, trying to collect as many mese cristals as possible.\n\n## Specifications\nThe game fully works with Minetest 5.4.1, but I recommand using 5.5-dev to avoid some graphical issues (which are not related to the game itself).\n\nYou need at least a 1920x1080 display for the menus to be shown properly.\n\n**The game mapgen isn't fully done yet, due to the small amount of time availlable.**",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "CC-BY-4.0",
   "name": "subway_miner",
-  "provides": [
-    "sm_game",
-    "sm_mapnodes"
-  ],
+  "provides": ["sm_game", "sm_mapnodes"],
   "release": 24722,
   "repo": "https://github.com/AFCMS/Subway-Miner",
   "score": 3774.2,
@@ -30,10 +25,7 @@
   ],
   "short_description": "A Subway Surfer inspired game",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2021", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fdbb5f5922.png",
   "title": "Subway Miner",
   "translation_url": null,

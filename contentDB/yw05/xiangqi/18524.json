@@ -11,26 +11,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "# Xiangqi - Chinese chess for Minetest\n\n## Usage\n\nThe board currently does not have a crafting recipe. You currently need\nto get it from the inventory in creative mode.\n\nRight-click a figure to select it (or, if it is already selected,\ndeselect it). The selected figure is marked green, and the possible\ntarget positions are marked, with (in particular) targetable figures\nfrom the opposing side marked blue. Left-click on the target to move\nthe selected figure to the target position.\n\nThe figures face the side that should make a move.\n\nWikipedia has a page on the [rules of Xiangqi][xiangqi-rules].\n\n[xiangqi-rules]: https://en.wikipedia.org/wiki/Xiangqi#Rules\n\n## Limitations/To-do\n\n* The game does not check whether the move results in the king/general\n(帥/將) being captured.\n* The game does not check for check(mate)s.\n* The player is not notified when the game ends.\n* The moves are not recorded.\n* The figures may appear weird in certain circumstances.\n\n## Licenses\nThe source code is licensed under [GNU AGPLv3][agplv3] ONLY. Textures\nare licensed under [CC0][cc0] 1.0 (as these are likely ineligible for\ncopyright in the first place).\n\n[agplv3]: https://www.gnu.org/licenses/agpl-3.0.en.html\n[cc0]: https://creativecommons.org/publicdomain/zero/1.0/legalcode\n",
-  "maintainers": [
-    "yw05"
-  ],
+  "maintainers": ["yw05"],
   "media_license": "CC0-1.0",
   "name": "xiangqi",
-  "provides": [
-    "xiangqi"
-  ],
+  "provides": ["xiangqi"],
   "release": 18524,
   "repo": "https://codeberg.org/y5nw/minetest-xiangqi",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ad41540e0a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ad41540e0a.png"],
   "short_description": "Xiangqi (Chinese chess)",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "sports"
-  ],
+  "tags": ["mini-game", "sports"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ad41540e0a.png",
   "title": "Xiangqi",
   "translation_url": null,

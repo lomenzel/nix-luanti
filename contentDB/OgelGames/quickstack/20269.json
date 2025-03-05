@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/OgelGames/quickstack/issues",
   "license": "MIT",
   "long_description": "Adds Terraria's \"quick stack to nearby chests\" feature to Unified Inventory.\n\n### Usage\n\nPerforming a quick stack is as simple as clicking the button in your inventory. If any items were successfully quick stacked, you will hear a pop sound.\n\nIn addition to the quick stack button, another button allows you to configure how the quick stack button works. You can choose to lock inventory slots, lock all tools, enable metadata matching, or show locked slots.\n\nLocking inventory slots functions like Terraria's \"favorite\" feature, in that any locked slots will not be quick stacked. Locking tools works similarly, preventing any tools from being quick stacked, even if they are not in a locked slot.\n\n### Settings\n\nBy default, all nodes with \"chest\" in their name or description will be automatically detected for quick stacking. To remove wrongly detected nodes, or add other nodes, you can use the following settings:\n\n- `quickstack_exclude_nodes` - A comma separated list of node names to exclude from quick stacking.\n- `quickstack_include_nodes` - A comma separated list of node names to include in quick stacking.\n",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "quickstack",
-  "provides": [
-    "quickstack"
-  ],
+  "provides": ["quickstack"],
   "release": 20269,
   "repo": "https://github.com/OgelGames/quickstack",
   "score": 167.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2b4f5e6a83.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2b4f5e6a83.png"],
   "short_description": "Adds Terraria's quick stack feature to Unified Inventory",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "inventory",
-    "storage",
-    "survival"
-  ],
+  "tags": ["gui", "inventory", "storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2b4f5e6a83.png",
   "title": "Quick Stack",
   "translation_url": null,

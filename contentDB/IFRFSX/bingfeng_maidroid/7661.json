@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,28 +325,17 @@
   "issue_tracker": "https://github.com/IceCatX/bingfeng_maidroid/issues",
   "license": "LGPL-2.1-only",
   "long_description": "An improved version of maidroid, based Maidroid.\n\nModified Content:  \n1. repair farming.lua's bug of get plants name error.  \n2. repair basic.lua and torcher.lua's bug of follow other player.  \n3. modified textures.   \n4. modified craft.  \n5. add ethereal support.  \n6. Merge Hybrid_Dog and Desour's Custom core.  \n\n[Origin Version](https://github.com/tacigar/maidroid)  | [thePlasm's Version](https://github.com/thePlasm/maidroid)    \n[Hybrid_Dog and Desour's Version](https://github.com/Desour/maidroid)\n",
-  "maintainers": [
-    "IFRFSX"
-  ],
+  "maintainers": ["IFRFSX"],
   "media_license": "CC-BY-SA-4.0",
   "name": "bingfeng_maidroid",
-  "provides": [
-    "maidroid",
-    "maidroid_core",
-    "maidroid_tool"
-  ],
+  "provides": ["maidroid", "maidroid_core", "maidroid_tool"],
   "release": 7661,
   "repo": "https://github.com/IceCatX/bingfeng_maidroid",
   "score": 8.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/hjMtcYH6gD.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/hjMtcYH6gD.png"],
   "short_description": "An improved version of Maidroid, providing maid robots.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "plants_and_farming"
-  ],
+  "tags": ["mobs", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hjMtcYH6gD.png",
   "title": "BingFeng Maidroid",
   "translation_url": null,

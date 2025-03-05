@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/Beanzilla/mcl_stackpotions/issues",
   "license": "GPL-3.0-only",
   "long_description": "# mcl_stackpotions\nProvides a stackable potion (just place a normal potion in the crafting table to get a stacked version)\n\n> MineClone Only.\n## How it works\n\nBasically I've overloaded the default mcl_potions.register_potion so it takes my setting for max stack size. (This is done as a independent function separate from mcl_potions, I also added a custom convert function which takes potions and makes the stacked equal, no reverse conversion as stackable and non-stackable is a conflict)\n\n> This basically means I need to keep updating the mod of any new mcl_potion updates. (currently will be done manually)\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "GPL-3.0-only",
   "name": "mcl_stackpotions",
-  "provides": [
-    "mcl_stackpotions"
-  ],
+  "provides": ["mcl_stackpotions"],
   "release": 14339,
   "repo": "https://github.com/Beanzilla/mcl_stackpotions",
   "score": 160.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/75b096f058.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/75b096f058.png"],
   "short_description": "Stackable Potions",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "storage"
-  ],
+  "tags": ["magic", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/75b096f058.png",
   "title": "MineClone Stackpotions",
   "translation_url": null,

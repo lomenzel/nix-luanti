@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/minetest-mods/sling/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Sling enables item stack and single item throwing of any item.",
-  "maintainers": [
-    "texmex"
-  ],
+  "maintainers": ["texmex"],
   "media_license": "GPL-2.0-only",
   "name": "sling",
-  "provides": [
-    "sling"
-  ],
+  "provides": ["sling"],
   "release": 128,
   "repo": "https://github.com/minetest-mods/sling",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/gvv1VlDD8V.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/gvv1VlDD8V.png"],
   "short_description": "Sling enables item stack and single item throwing of any item.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gvv1VlDD8V.png",
   "title": "Sling",
   "translation_url": null,
@@ -58,10 +50,7 @@
       {
         "is_optional": false,
         "name": "throwing",
-        "packages": [
-          "Palige/throwing",
-          "PetiAPocok/minetest_extended"
-        ]
+        "packages": ["Palige/throwing", "PetiAPocok/minetest_extended"]
       }
     ]
   },

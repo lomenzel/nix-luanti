@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,26 +443,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/mob_limiter/issues",
   "license": "MIT",
   "long_description": "# Mob Limiter\n\nRemoves mobs over max count near players.\nThe inspiration for this mod is I had a Minetest server that kept crashing due to too many mobs being spawned by mob mod.   It also resolved the issue of having too many mobs around which killed the players too often.\nEvery so many seconds the mod checks for mobs near the player and if there are too many it removes the extras.\nThis mod was written to be used with Mobs Redo API.  It may or may not have an effect on mobs spawned using other APIs (for example Creatura).\n\nUsage:\nEnable the mod\n\nUnder settings >Content: Mods > Mob Limiter you can adjust the following settings:\n\nMaximum number of mobs (around player)\n\nSearch Distance (around player)\n\nScan period (in seconds)",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "MIT",
   "name": "mob_limiter",
-  "provides": [
-    "mob_limiter"
-  ],
+  "provides": ["mob_limiter"],
   "release": 26076,
   "repo": "https://github.com/Neuromancer56/mob_limiter",
   "score": 10.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/057dd2123a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/057dd2123a.png"],
   "short_description": "removes mobs over max count near players with configurable settings",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "server_tools"
-  ],
+  "tags": ["mobs", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/057dd2123a.png",
   "title": "Mob Limiter",
   "translation_url": null,

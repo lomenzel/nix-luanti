@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,25 +299,17 @@
   "issue_tracker": "https://github.com/mt-mods/abriflame/issues",
   "license": "MIT",
   "long_description": "Coloured flames Minetest mod by Shara RedCat which adds:\n\n1. Ten decorative, non-destructive fire types.\n2. A fire starter tool to create them.\n\n\n\nCrafting\n---------\n\nTo create coloured flames, first craft a fire starter tool using a steel ingot and a mese crystal fragment.\n\nPlace a node of coloured glass (non-patterned) from the abriglass mod.\n\nWhile holding the tool, left click the glass node. Coloured flame will appear above the glass. \n\nYou can remove and replace the glass node with something else, and the flame will remain.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "abriflame",
-  "provides": [
-    "abriflame"
-  ],
+  "provides": ["abriflame"],
   "release": 23841,
   "repo": "https://github.com/mt-mods/abriflame",
   "score": 9.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f35782d2e3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f35782d2e3.png"],
   "short_description": "Adds coloured fire through use of fire starter tool.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f35782d2e3.png",
   "title": "Abriflame",
   "translation_url": null,
@@ -333,10 +323,7 @@
       {
         "is_optional": false,
         "name": "abriglass",
-        "packages": [
-          "mt-mods/abriglass",
-          "bell07/whynot_game"
-        ]
+        "packages": ["mt-mods/abriglass", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

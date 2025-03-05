@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/Bituvo/player-status/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Not very many use cases and an inefficient method is used to store player statuses.",
-  "maintainers": [
-    "Thresher"
-  ],
+  "maintainers": ["Thresher"],
   "media_license": "GPL-3.0-or-later",
   "name": "player_status",
-  "provides": [
-    "player_status"
-  ],
+  "provides": ["player_status"],
   "release": 14401,
   "repo": "https://github.com/Bituvo/player-status",
   "score": 0,
   "screenshots": [],
   "short_description": "Allows you to set and get the in-game status of players",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "server_tools"
-  ],
+  "tags": ["chat", "server_tools"],
   "thumbnail": null,
   "title": "Player Status",
   "translation_url": null,

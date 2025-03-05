@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/unified_inventory_plus/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Unified Inventory Plus extends Unified Inventory.\nIt adds 3 button types to the craft page:\n- Craft All: crafting a stack and putting the result in the inventory\n- Patterns buttons: reorganizing items in the craft inventory following usual patterns\n- Rotation button: rotating the craft inventory content\n- Clear button: clear the craft inventory content\n\nIn `init.lua`, you can easily:\nDisable the functionalities you don't want\nDisable and reorder patterns\n\nFully compatible with Skyblock\n\n## Settings\nFeatures can be toggled with the following settings (true per default):\n\n* `unified_inventory_plus.enable_craft_all`\n* `unified_inventory_plus.enable_craft_organize`\n* `unified_inventory_plus.enable_craft_rotate`\n* `unified_inventory_plus.enable_craft_clear`",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC0-1.0",
   "name": "unified_inventory_plus",
-  "provides": [
-    "unified_inventory_plus"
-  ],
+  "provides": ["unified_inventory_plus"],
   "release": 25477,
   "repo": "https://github.com/mt-mods/unified_inventory_plus",
   "score": 393.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/caacfa5864.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/caacfa5864.png"],
   "short_description": "Extends Unified Inventory",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/caacfa5864.png",
   "title": "Unified Inventory Plus",
   "translation_url": null,

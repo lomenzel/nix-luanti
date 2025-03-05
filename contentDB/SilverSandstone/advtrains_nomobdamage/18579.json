@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "Disable Mob Damage for Advanced Trains\n======================================\n\nThis mod prevents trains from hitting mobs and other entities.\nTrains pass through mobs without dealing any damage.\n\nThis mod does not prevent damage to players.",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "advtrains_nomobdamage",
-  "provides": [
-    "advtrains_nomobdamage"
-  ],
+  "provides": ["advtrains_nomobdamage"],
   "release": 18579,
   "repo": null,
   "score": 165.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c1a1bd9f77.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c1a1bd9f77.png"],
   "short_description": "Prevents trains from damaging mobs.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c1a1bd9f77.png",
   "title": "Disable Mob Damage for Advanced Trains",
   "translation_url": null,
@@ -43,9 +35,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

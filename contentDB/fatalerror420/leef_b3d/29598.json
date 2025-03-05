@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Luanti-Extended-Engine-Features/LEEF-b3d/issues",
   "license": "MIT",
   "long_description": "# LEEF-b3d\na b3d library that use's [Appgurue's work](https://github.com/appgurueu/modlib), a b3d reader, and expands it's usefulness into node reading, global transformation solving,\nand more- mostly in one package. Online documentation can be found [here](https://luanti-extended-engine-features.github.io/LEEF-b3d/).\n\ndependencies\n\n* LEEF-filesystem: provides binary reading and media path tracking\n* LEEF-math: OPTIONAL allows use of b3d_nodes library (for node solving)\n\nfeatures:\n\n* read a b3d file\n* ignore specified chunks while reading a b3d file\n* find a node by it's name\n* solve the global position of a node\n* solve the global rotation of a node\n* solve the global transformation of a node (mat4)\n\ntodo:\n\n* allow use of `get_node_by_name()` without math lib. (move to b3d_reader or set alias?)\n\nWithout Appgurue's Modlib this would not be possible, and while I personally have my issues with it, it still provides useful tools, and it's worth looking into for libraries.\n",
-  "maintainers": [
-    "fatalerror420"
-  ],
+  "maintainers": ["fatalerror420"],
   "media_license": "MIT",
   "name": "leef_b3d",
-  "provides": [
-    "leef_b3d"
-  ],
+  "provides": ["leef_b3d"],
   "release": 29598,
   "repo": "https://github.com/Luanti-Extended-Engine-Features/LEEF-b3d",
   "score": 209.2,
@@ -28,9 +24,7 @@
   ],
   "short_description": "a b3d reader for minetest, cloned from modlib. Requires LEEF-filesystem, requires LEEF-Math for nodes module.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fdc51c5f29.png",
   "title": "LEEF b3d",
   "translation_url": null,
@@ -44,9 +38,7 @@
       {
         "is_optional": false,
         "name": "leef_filesystem",
-        "packages": [
-          "fatalerror420/leef_filesystem"
-        ]
+        "packages": ["fatalerror420/leef_filesystem"]
       }
     ],
     "fatalerror420/leef_filesystem": []

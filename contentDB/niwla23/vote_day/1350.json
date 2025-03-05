@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/Niwla23/vote_day/issues/new/choose/",
   "license": "MIT",
   "long_description": "****",
-  "maintainers": [
-    "niwla23"
-  ],
+  "maintainers": ["niwla23"],
   "media_license": "MIT",
   "name": "vote_day",
-  "provides": [
-    "vote_day"
-  ],
+  "provides": ["vote_day"],
   "release": 1350,
   "repo": "https://github.com/Niwla23/vote_day/",
   "score": 4.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3vBo9rMZnh.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3vBo9rMZnh.png"],
   "short_description": "This adds a command to vote for making day!",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["environment", "multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3vBo9rMZnh.png",
   "title": "Vote Day",
   "translation_url": null,
@@ -45,9 +35,7 @@
       {
         "is_optional": false,
         "name": "vote",
-        "packages": [
-          "rubenwardy/vote"
-        ]
+        "packages": ["rubenwardy/vote"]
       }
     ],
     "rubenwardy/vote": []

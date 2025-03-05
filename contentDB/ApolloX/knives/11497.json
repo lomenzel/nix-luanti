@@ -1,8 +1,6 @@
 {
   "author": "ApolloX",
-  "content_warnings": [
-    "violence"
-  ],
+  "content_warnings": ["violence"],
   "created_at": "2022-03-05T06:35:08.465106",
   "dev_state": null,
   "donate_url": null,
@@ -40,14 +38,10 @@
   "issue_tracker": "https://github.com/Beanzilla/knives/issues",
   "license": "MIT",
   "long_description": "# knives\n\nAdds various knives with extreme damage\n\n# Knives\n\n* Steel (10 Damage)\n* Bronze (15 Damage)\n* Mese (17 Damage)\n* Diamond (20 Damage)\n\n## Power Mode\n\nEach knife supports Power Mode, it essentially doubles the damage dealt making it quite useful for one swing kills.\n\n> While it doubles the damage it only has 1 use durability (this means it breaks on use)\n\n# Settings\n\n* Optional setting for if knives can be crafted (Supports default Minetest Game (MTG) and MineClone (MCL) games)\n* Optional setting for if knives can enter Power Mode (Power Mode is currently a toggled state, and a player chooses if they want power mode or not)\n\n### Credits\n\nAll knife textures are from default Minetest Game (MTG) thus CC-BY-SA-3.0\n\n> Looks just like default's swords, just modified to be short, where \"powered\" adds a yellow tint around the texture\n\nSee LICENSE for more information on texture license.\n\n> TLDR; BlockMen (CC BY-SA 3.0): default_tool_\\*.png (which has been renamed and modifed for knives_\\*.png which includes knives_\\*_pwr.png)\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "CC-BY-SA-3.0",
   "name": "knives",
-  "provides": [
-    "knives"
-  ],
+  "provides": ["knives"],
   "release": 11497,
   "repo": "https://github.com/Beanzilla/knives",
   "score": 3.8,
@@ -57,9 +51,7 @@
   ],
   "short_description": "Adds various knives with extreme damage",
   "state": "APPROVED",
-  "tags": [
-    "pvp"
-  ],
+  "tags": ["pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8eb5de717d.png",
   "title": "Knives",
   "translation_url": null,

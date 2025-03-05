@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,25 +443,17 @@
   "issue_tracker": null,
   "license": "EUPL-1.2",
   "long_description": "Adds ghosts.\n\n**NOTE:** This is Blockmen's [CME ghost](https://forum.minetest.net/viewtopic.php?t=8638) mob ported to Mobs Redo, and tweaked.\n\nGhosts only spawn at night-time and they don't spawn underground. They are flying in the world and attack you aswell if they notice you. Ghosts have 15 HP and don't drop any items atm (might be changed in future). They can't harm you in your house. If it becomes day Ghosts will take damage by the sunlight, so they will die after a while.\n\nGhosts can only be harmed by the following weapons:\n - Steel Sword (default)\n - Bronze Sword (default)\n - Diamond Sword (default)\n - Obsidian Sword (mobs_others)\n  - Silver Sword (moreores)\n - Mithril Sword (moreores)\n - Iron Sword (pigiron)",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mobs_ghost_redo",
-  "provides": [
-    "mobs_ghost_redo"
-  ],
+  "provides": ["mobs_ghost_redo"],
   "release": 26665,
   "repo": "https://codeberg.org/tenplus1/mobs_ghost_redo",
   "score": 42.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/baf78a5d0e.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/baf78a5d0e.jpg"],
   "short_description": "Adds ghosts.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/baf78a5d0e.png",
   "title": "Mobs Ghost Redo",
   "translation_url": null,

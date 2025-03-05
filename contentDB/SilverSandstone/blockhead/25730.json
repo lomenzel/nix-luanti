@@ -24,9 +24,7 @@
     {
       "confidence": 10,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -145,14 +143,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/blockhead/issues",
   "license": "MIT",
   "long_description": "BlockHead\n=========\n\nThis mod lets you put blocks on your head.\n\nHead blocks persist between sessions.\nThis mod is suitable for both survival and creative.\n\nRun the `/blockhead` command while holding a block to put it on your head.\nRun the command with an empty hand or with the `-r`/`--remove` switch to take\nthe block off your head.\n\nUse `-t` or `--top` to put the block on top of your head like a hat.\nUse `-T` or `--translate` to apply an arbitrary offset.\n\nUse `-b` or `--backwards` to rotate the block 180°.\nUse `--left` or `--right` to rotate the block 90°.\nUse `-R` or `--rotate` to rotate the block by any angle.\n\nUse `-S` or `--scale` to change the size of the block.\n\nIf you're in creative mode or you have the `give` privilege, you can put a\nspecific block on your head with `/blockhead <ItemString>`.",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "MIT",
   "name": "blockhead",
-  "provides": [
-    "blockhead"
-  ],
+  "provides": ["blockhead"],
   "release": 25730,
   "repo": "https://codeberg.org/SilverSandstone/blockhead",
   "score": 155.5,
@@ -163,10 +157,7 @@
   ],
   "short_description": "Lets you put a block on your head.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "skins"
-  ],
+  "tags": ["chat", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6dee9e0c94.png",
   "title": "BlockHead",
   "translation_url": null,

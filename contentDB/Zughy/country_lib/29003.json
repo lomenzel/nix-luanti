@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/country_lib/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# country_lib\n\ncountry_lib is a small util library providing country localised names and flags. It uses [alpha-2 codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) from the ISO 3166-1 international standard (basically, the same used by website domains, e.g. \".it\", \".de\"). \n\n### How to\n\nCheck the [DOCS](https://gitlab.com/zughy-friends-minetest/country_lib/-/blob/main/DOCS.md) to learn how to use it\n",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC0-1.0",
   "name": "country_lib",
-  "provides": [
-    "country_lib"
-  ],
+  "provides": ["country_lib"],
   "release": 29003,
   "repo": "https://gitlab.com/zughy-friends-minetest/country_lib.git",
   "score": 156.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3f8f453d98.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3f8f453d98.png"],
   "short_description": "small util library providing country localised names and flags",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3f8f453d98.png",
   "title": "country_lib",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/country_lib/",

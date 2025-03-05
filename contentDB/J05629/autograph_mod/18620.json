@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-autograph-mod/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Adds an Autograph Mod to Minetest.\n\n**WARNING IF YOU PLACE THE NODE DOWN AND THEN BREAK IT, YOU WILL LOSE THE AUTOGRAPH.**\n\nUse /sign_item to sign an item with your username.\n\nIf you do /sign_item |player_name|, you will autograph the item, with it being attached given to |player_name|.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "GPL-3.0-only",
   "name": "autograph_mod",
-  "provides": [
-    "autograph_mod"
-  ],
+  "provides": ["autograph_mod"],
   "release": 18620,
   "repo": "https://github.com/Jo5629/jo5629-autograph-mod",
   "score": 2.7,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Autograph Mod",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["chat", "commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/02136b8fad.png",
   "title": "Autograph Mod",
   "translation_url": null,

@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/sfence/sculpture/issues",
   "license": "MIT",
   "long_description": "This mod add players ability to make their oven sculpture/statue.\n\n* Only tin block is supported as sculpture material now (punch sculpture pedestal with tin or gold block in hand)\n*  No space for errors. What you cut out, cannot be restored.\n*  Use in mod included chisel and hammer to cut material from the sculpture. Place hammer below chisel In your inventory.\n* Use it with mod [painting 3](https://content.minetest.net/packages/SFENCE/painting/) to enable painting on sculptures with oil colors.\n* \"Shaders\" have to be enabled in minetest settings to look well (on the client-side).\n\nTo make sculpture, place pedestal and punch it with sculpture base material. After it, take chisel and hammer (below chisel in inventory) and cut out excessing material to make final sculpture. When sculpture is finished, punch pedestal again to get it like item into inventory. Finished sculpture can be place like node or place back to pedestal (by punch pedestal with sculpture in hand).\n\nSculpture node uses 6 entities. So, if you want to have many sculptures near to each others, it can be necessary to adjust server number of objects limit (max_objects_per_block).\n\n\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "sculpture",
-  "provides": [
-    "sculpture"
-  ],
+  "provides": ["sculpture"],
   "release": 11966,
   "repo": "https://github.com/sfence/sculpture",
   "score": 320,
@@ -57,10 +53,7 @@
   ],
   "short_description": "Make player possible to make his own sculture and paint on it with painting oil colors. Hades Revisited is supported.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/db06754287.png",
   "title": "Sculpture",
   "translation_url": null,

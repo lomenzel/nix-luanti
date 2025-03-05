@@ -25,23 +25,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_sloweater/issues",
   "license": "MIT",
   "long_description": "This mod adds a simple change to the default eating mechanic in Luanti: After eating something, the player must wait for 5 seconds before eating again. This also adds an eating sound.\n\nNOTE: This mod is incompatible with pretty much all other eating-related mods as well as games with their own eating mechanic. Do not use this mod together with other eating mods, otherwise conflicts are very likely. Minetest Game is fine and probably some other (untested) games as well.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "sloweater",
-  "provides": [
-    "sloweater"
-  ],
+  "provides": ["sloweater"],
   "release": 22783,
   "repo": "https://codeberg.org/Wuzzy/minetest_sloweater",
   "score": 162.2,
   "screenshots": [],
   "short_description": "After eating something, the player must wait for 5 seconds before eating again.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": null,
   "title": "Slow Eater",
   "translation_url": null,

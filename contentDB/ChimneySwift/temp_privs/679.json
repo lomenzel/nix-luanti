@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/temp_privs/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Temp Privs\nOverwrites the default grant, grantme and revoke chatcommands to add revoke or grant expiration.\n\n## Usage\nThe default commands still work for permanant grants and revokes, however you can optionally select a time period whereby the revoke/granting will be reverted.\n\n`grant <playername> <time-optional> <privstring>`\n\n`grantme <time-optional> <privstring>`\n\n`revoke <playername> <time-optional> <privstring>`\n\n`<time>` syntax:\n\n- 1s - one second.\n- 1m - one minute.\n- 1h - one hour.\n- 1D - one day (24 hours).\n- 1W - one week (7 days).\n- 1M - one month (30 days).\n- 1Y - one year (360 days).",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "MIT",
   "name": "temp_privs",
-  "provides": [
-    "temp_privs"
-  ],
+  "provides": ["temp_privs"],
   "release": 679,
   "repo": "https://github.com/ChimneySwift/temp_privs",
   "score": 3.6,
   "screenshots": [],
   "short_description": "Overwrites the default grant, grantme and revoke chatcommands to add revoke or grant expiration.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": null,
   "title": "Temp Privs",
   "translation_url": null,

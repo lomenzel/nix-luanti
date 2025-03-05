@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "**\"Waystone\"**, is inspired by the [\"Waystones\"](https://www.curseforge.com/minecraft/mc-mods/waystones) mod, but a little simpler.\nThe stone is used as a main point of some place you want to return, you can click on the stone holding a scroll to mark the position.. When using the scroll, you return and the scroll will be consumed!\n\nSee more **[HERE](https://codeberg.org/pixelzone/waystone/src/branch/main/README.md)** ..\n\n---\n\n - BY : DUCKGO\n - LICENSE : MIT\n - TEXTURE : CC BY-SA 4.0 \n - CREDITS : [N Freeman ](https://content.minetest.net/users/NathanielFreeman/)\n - depends = \n - optional_dependoptional_depends = mcl_core,defaults\n\n\n---\n",
-  "maintainers": [
-    "pixelzone"
-  ],
+  "maintainers": ["pixelzone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "waystone",
-  "provides": [
-    "waystone"
-  ],
+  "provides": ["waystone"],
   "release": 28130,
   "repo": "https://codeberg.org/pixelzone/waystone",
   "score": 7.4,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Adds a waystone that you can return to using a scroll.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e6b6c0ce52.png",
   "title": "Waystone",
   "translation_url": null,

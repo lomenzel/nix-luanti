@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,27 +377,17 @@
   "issue_tracker": "https://github.com/mt-historical/poly_decor/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "My take on a generic decor mod. Includes some cool-looking blocks and fancy particle lights.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "poly_decor",
-  "provides": [
-    "poly_decor"
-  ],
+  "provides": ["poly_decor"],
   "release": 8514,
   "repo": "https://github.com/mt-historical/poly_decor",
   "score": 2.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/sWQiZ5RjWU.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/sWQiZ5RjWU.png"],
   "short_description": "My spin on decorative stuff.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative"
-  ],
+  "tags": ["building", "creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/sWQiZ5RjWU.png",
   "title": "Poly Decor",
   "translation_url": null,
@@ -493,9 +481,7 @@
       {
         "is_optional": false,
         "name": "vision_lib",
-        "packages": [
-          "mt-mods/vision_lib"
-        ]
+        "packages": ["mt-mods/vision_lib"]
       },
       {
         "is_optional": false,
@@ -576,9 +562,7 @@
       {
         "is_optional": false,
         "name": "place_rotated",
-        "packages": [
-          "12Me21/place_rotated"
-        ]
+        "packages": ["12Me21/place_rotated"]
       }
     ],
     "mt-mods/vision_lib": []

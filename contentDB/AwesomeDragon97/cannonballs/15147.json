@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,14 +247,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Due to limitations with vanilla Minetest Game, TNT cannons cannot be constructed.\n\nThis mod addresses this by adding a new node called a cannonball, which can be launched by cannons.\n\nTo launch a cannonball, place it near TNT and ignite the TNT.\n\nI have found that the setup shown in the screenshot is ideal for launching the cannonball in a certain direction.\n\nWhen the cannonball hits something with enough force, it will cause an explosion.\n\nCreate 8 cannonballs by using the crafting recipe which is eight steel blocks surrounding gunpowder.\n\nIdeally this mod should be used in competitive multiplayer or pvp, but it can also be used in singleplayer.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "cannonballs",
-  "provides": [
-    "cannonballs"
-  ],
+  "provides": ["cannonballs"],
   "release": 15147,
   "repo": null,
   "score": 5.4,
@@ -266,10 +260,7 @@
   ],
   "short_description": "Launch explosive cannonballs at your enemies.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp"
-  ],
+  "tags": ["pve", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b777c04cf9.png",
   "title": "Cannonballs",
   "translation_url": null,
@@ -352,9 +343,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/Wout-van-Dongen/openion_yeast/issues/new/choose/",
   "license": "AGPL-3.0-or-later",
   "long_description": "A Minetest mod which adds Yeast and a Barrel to grow it in.\n",
-  "maintainers": [
-    "Wovado"
-  ],
+  "maintainers": ["Wovado"],
   "media_license": "AGPL-3.0-or-later",
   "name": "openion_yeast",
-  "provides": [
-    "openion_yeast"
-  ],
+  "provides": ["openion_yeast"],
   "release": 12462,
   "repo": "https://github.com/Wout-van-Dongen/openion_yeast.git",
   "score": 5.1,
@@ -319,10 +313,7 @@
   ],
   "short_description": "Adds Yeast and a Yeast Barrel",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming"
-  ],
+  "tags": ["food", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/48b9de4baf.png",
   "title": "Openion Yeast",
   "translation_url": null,

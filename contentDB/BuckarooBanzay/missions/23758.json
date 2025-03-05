@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/thomasrudin-mt/missions/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Minetest mod for in-game mission creation.",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "GPL-2.0-only",
   "name": "missions",
-  "provides": [
-    "missions"
-  ],
+  "provides": ["missions"],
   "release": 23758,
   "repo": "https://github.com/thomasrudin-mt/missions",
   "score": 157,
-  "screenshots": [
-    "https://content.luanti.org/uploads/iYE8EyjADE.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/iYE8EyjADE.png"],
   "short_description": "Adds blocks to create missions with rewards, timeout and penalties.",
   "state": "APPROVED",
-  "tags": [
-    "puzzle",
-    "survival"
-  ],
+  "tags": ["puzzle", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/iYE8EyjADE.png",
   "title": "Missions",
   "translation_url": null,

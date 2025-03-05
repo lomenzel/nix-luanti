@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-status_effects/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# status_effects\n\nan api for defining player status effects such as \"tired\", \"poisoned\", or \"lycanthropy\". effects can be applied\nfrom multiple sources. note that this is just an API; actual effects are *not* supplied by this mod.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "status_effects",
-  "provides": [
-    "status_effects"
-  ],
+  "provides": ["status_effects"],
   "release": 20388,
   "repo": "https://github.com/fluxionary/minetest-status_effects.git",
   "score": 1.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/de5428dfb1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/de5428dfb1.png"],
   "short_description": "api for defining player status effects",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "player_effects"
-  ],
+  "tags": ["library", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/de5428dfb1.png",
   "title": "status effects",
   "translation_url": null,
@@ -45,28 +36,19 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/persistent_monoids": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -87,25 +69,17 @@
       {
         "is_optional": false,
         "name": "persistent_monoids",
-        "packages": [
-          "rheo/persistent_monoids"
-        ]
+        "packages": ["rheo/persistent_monoids"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

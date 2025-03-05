@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/scripted_world_editor/issues",
   "license": "MIT",
   "long_description": "Scripted World Editor mod Copyright (c) 2024 Neuromancer\n\n-------------------------------------------------------------------------------\nNote: Make sure to download ascii art schematics if it doesn't automatically download.  It contains an important dependency for this mod: https://content.minetest.net/packages/Warr1024/aaschems/\n#This mod allows the user to create and run scripts that create simple shapes in a sequence. \nThese shapes can be created out of whatever nodes they want, and between each shape, the the script_runner moves the position to the end of where that shape was finished being created.\nIt works sort of the way the logo language did with a turtle to keep track of your current position. \nThere is also a move command that allows the user to move the position to wherever the user wants before drawing the next shape.\nTunnels and voids can be dug by creating shapes using the \"air\" node.\n\n###Usage:\n<ol>\n\t<li>Create a new mod.  e.g. \"your_mod_name\". </li>\n\t<li>Create a mod.config that depends on default & scripted_world_editor:</li>\n\t</ol>\n\t\t\t\n\t\t\tname = your_mod_name\n\t\t\ttitle = Your Mod Name\n\t\t\tdescription = Creates objects in my world\n\t\t\tdepends = default, scripted_world_editor\n\t\t\tauthor = Your Name\n<ol>\n\t<li> Create an init.lua.  </li>\n<li> In init.lua create a script table like the following:\n</li>\n\t\t</ol>\n\n\t\tlocal script_table = {\t\t\n\t\t\t{\"fill_box\", 3, -10, 3, \"Y\", \"air\", \"default:mese_post_light\", \"T\", -5},\n\t\t\t{\"move\", \"x\", -1},\n\t\t\t{\"fill_box\", 6, 4, 3, \"X\", \"air\", nil, nil, nil},\n\t\t\t{\"fill_box\", 1, 4, 3, \"X\", \"default:cobble\", nil, nil, nil},\n\t\t\t{\"fill_box\", 10, 4, 3, \"X\", \"air\", \"default:mese_post_light\", \"T\", 5},\n\t\t}\n\t\n* The first parameter is the CommandName.  In the case of the first record \"fill_box\".  Valid values for now are \"fill_box\" & \"move\"\n* The second parameter X_size is the size of the box in nodes along the x-axis.  In this case 3 nodes. Valid values for now are positive and negative integers.  Keep them between -500 & 500 mostly.\n* The third parameter Y_size is the size of the box in nodes along the y-axis.  In this case -10 nodes.  This means we are filling the box in a downward direction to a depth of -10 from the start position.\n* The fourth parameter Z_size is the size of the box in nodes along the z-axis.  In this case 3 nodes. Valid values for now are positive and negative integers.  Keep them between -500 & 500 mostly.\n* The fifth parm is FillAlongAxis which is used to determine where the pointer position will be at the end of the fill.  In this case it's \"Y\".  Valid values are \"X\", \"Y\", and \"Z\".\n* The sixth parm is ReplaceWith which is used to determine what nodes the new box will be filled with.  In this case it is \"air\".  This means we are opening an empty space.  Valid values are any node in default Minetest Game\nLike \"default:cobble\".  If you need nodes from other mods, let me know and I will add that mod to the optional_depends of this mod so they can be used.\n* The seventh parm is PlaceNode which allows you to place one special node anywhere along the length of the FillAlongAxis. In this case it is \"default:mese_post_light\".  Valid values are the same nodes you can use for the ReplaceWith parm.\n* The eighth parm  is PlaceLocation which is used to determine if you want to place it along the top or the bottom of the shape which is relative to the FillAlongAxis.  In this case it is \"T\" for top.   Valid values are \"T\" and \"B\"\n* The ninth parm is PlacePosition which determines where along the FillAlongAxis the 1 special node will be placed. In this case -5 nodes down. Valid values are integers, typically between 0 and the size parameter for the FillAlongAxis axis.\n\nSo to summarize: \n\n* That first fill_box command digs a hole 3x3 wide and 10 nodes deep (Y axis).  There is a default:mese_post_light that is placed along the top of the shaft (on the wall) 5 nodes down.  The pointer is now at the bottom of the shaft.\n* The second command moves back 1 node along the x axis.\n* The third command digs a tunnel 6 long, 4 high, and 3 wide.  the pointer is now at the end of that tunnel.\n* The fourth command creates a cobble wall 1 thick, 4 tall and 3 wide.  The pointer is now where the wall was created.\n* The fifth command extends the tunnel past the cobble wall for 10 nodes, 4 high, and 3 wide.  The pointer is now positioned at the end of that last tunnel.\n\nNote: you can just as easily create buildings, rooms or walls with this mod rather than just digging tunnels.\n\nNext you alter the following to create a script_runner node that when punched will execute the script you defined in your table.  The start position is wherever you place the node before you punch it.\n\nIn the init.lua register your script_runner nodes like the following example: \n\t\n\tminetest.register_node(\"your_mod_name:script_runner\", {\n\t\tdescription = \"Script Runner Script 1\",\n\t\ttiles = {\"script_runner.png\"},\n\t\tgroups = {cracky = 3, oddly_breakable_by_hand = 1},\n\t\ton_punch = function(pos, node, puncher)\n\t\t\trun_script(pos, script_table)\n\t\tend,\n\t})\n \nPlace the script_runner node and punch it.  It should run your script.\n\nIf you want to see an example of it it use check out:\nhttps://content.minetest.net/packages/Neuromancer/hero_mines/\n\nCurrently Suported Commands:\n\n* move: Move the current location along x, y, or z axis\n* fill_box: fills any size box with a specific node type, with special decorations\n* build_level:  Builds a customized level for Boulder Dig mod based on parms\n* place_node: Places an individual node\n* move_to_script_start_position: Move the current pointed position to be the position where we started running the script.\n* build_schematic:  Places a schematic at the current position\n* build_ascii_schematic : Places an ascii schematic an the current position\n\t\n###This mod will be a little bit rough to start.\nFor now, I'm going to be using this mod for creating the levels for the game \"H.E.R.O. Test\" and \"Boulder Dig\" and that will keep me busy for a bit.\nEventually I will be adding better parameter validation so the mod won't crash if you pass invalid parameters,\nand hopefully adding shapes like cylinders etc.\n\nHave fun!",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "scripted_world_editor",
-  "provides": [
-    "scripted_world_editor"
-  ],
+  "provides": ["scripted_world_editor"],
   "release": 25563,
   "repo": "https://github.com/Neuromancer56/scripted_world_editor",
   "score": 4.9,
@@ -449,12 +443,7 @@
   ],
   "short_description": "API that allows you pass in scripting tables to fill a series of shapes of different sizes with different nodes",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "developer_tools",
-    "library",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "developer_tools", "library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/474a862604.png",
   "title": "Scripted World Editor",
   "translation_url": null,
@@ -510,9 +499,7 @@
       {
         "is_optional": false,
         "name": "aaschemlib",
-        "packages": [
-          "Warr1024/aaschems"
-        ]
+        "packages": ["Warr1024/aaschems"]
       }
     ],
     "Warr1024/aaschems": []

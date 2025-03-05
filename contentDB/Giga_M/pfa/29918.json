@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "change the player animation when flying",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "LGPL-2.1-only",
   "name": "pfa",
-  "provides": [
-    "pfa"
-  ],
+  "provides": ["pfa"],
   "release": 29918,
   "repo": null,
   "score": 1.9,
@@ -435,10 +429,7 @@
   ],
   "short_description": "change the player animation when flying",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "player_effects"
-  ],
+  "tags": ["multiplayer", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bd8ed25d9f.png",
   "title": "player flying animation",
   "translation_url": null,

@@ -25,9 +25,7 @@
   "issue_tracker": "https://github.com/joe7575/techpack/issues/",
   "license": "AGPL-3.0-only",
   "long_description": "TechPack is a collection of following Mods:\n\n* tubelib, a Mod for item exchange via lumber tubes and wireless message communication between machines\n* tubelib_addons1, a Tubelib extension with mining, farming, and crafting machines\n* tubelib_addons2, a Tubelib extension with logic/control blocks\n* gravelsieve, an extension to sieve ores from gravel\n* smartline, an extension with small and smart sensors, actors and controllers to fully automate your machines, including a Lua controller\n\n**A TechPack Tutorial is available as [Wiki](https://github.com/joe7575/techpack/wiki)**\n\nTechPack is a collection of mods for an automated mining, crafting, and farming. It is no replacement for Pipeworks, Mesecons, Technic, and Co., but it is a lightweight and server friendly alternative. \n\n**You have to install the following mods in addition:**\n\n* [tubelib2](https://content.minetest.net/packages/joe7575/tubelib2/)\n* [basic_materials](https://content.minetest.net/packages/?q=basic_materials)",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC-BY-SA-3.0",
   "name": "techpack",
   "provides": [
@@ -46,16 +44,10 @@
   "release": 23111,
   "repo": "https://github.com/joe7575/techpack",
   "score": 360.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/gJpmIqDiiu.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/gJpmIqDiiu.png"],
   "short_description": "A Mining, Crafting, & Farming Modpack for Minetest",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "plants_and_farming",
-    "technology"
-  ],
+  "tags": ["crafting", "plants_and_farming", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gJpmIqDiiu.png",
   "title": "TechPack",
   "translation_url": null,

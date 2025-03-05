@@ -24,9 +24,7 @@
     {
       "confidence": 11,
       "game": {
-        "aliases": [
-          "Minetest/devtest"
-        ],
+        "aliases": ["Minetest/devtest"],
         "author": "Luanti",
         "name": "devtest",
         "release": 28405,
@@ -41,14 +39,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Roadmarks\nAdds roadmarks to minetest.",
-  "maintainers": [
-    "Luke242014"
-  ],
+  "maintainers": ["Luke242014"],
   "media_license": "MIT",
   "name": "roadmarks",
-  "provides": [
-    "roadmarks"
-  ],
+  "provides": ["roadmarks"],
   "release": 28199,
   "repo": null,
   "score": 2.1,
@@ -58,9 +52,7 @@
   ],
   "short_description": "Adds road marks.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f29ed65936.png",
   "title": "Roadmarks",
   "translation_url": null,

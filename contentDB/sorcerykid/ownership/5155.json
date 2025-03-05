@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,23 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Basic Ownership provides an abstraction layer for node-based protection schemes in Minetest Game.\n\nIt was originally released in 2017 in conjunction with my GiftBox mod. Since several of my other mods now depend on this API, I decided it would be worthwhile to create a forum topic to post announcements and bug fixes.\n\nThe API of Default is extended to simplify the process of checking ownership of individual nodes, with support for anonymous and non-existent owners as well. It also permits players to dig nodes that rightfully belong to them, even in protected areas (where normally, this would not be allowed).\n\nThe following API functions are provided:\n\n```\ndefault.is_superuser(player_name)\ndefault.is_owner(pos, player_name)\ndefault.set_owner(pos, player_name)\n```\n\nThe new 'superuser' privilege, when granted to a player, will give the player access to any owned nodes while also bypassing prorection.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "MIT",
   "name": "ownership",
-  "provides": [
-    "ownership"
-  ],
+  "provides": ["ownership"],
   "release": 5155,
   "repo": "https://bitbucket.org/sorcerykid/ownership.git",
   "score": 11.3,
   "screenshots": [],
   "short_description": "An efficient and flexible node-based protection scheme for multiplayer worlds",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Basic Ownership",
   "translation_url": null,

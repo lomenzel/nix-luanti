@@ -25,9 +25,7 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Be the last Blocker standing in this take on an arcade classic.\n\nPlace bombs, Blow up blocks, collect powerups, and become powerful enough to eliminate all other players.\n\nOriginally submitted to the 2021 game jam, Blockbomber is now available for arena_lib minigame servers.\n\nThe only difference is that the resurrect firebird item is no longer available, and players are eliminated directly.",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "CC0-1.0",
   "name": "block_bomber_mg",
   "provides": [
@@ -39,16 +37,10 @@
   "release": 29310,
   "repo": "https://gitlab.com/mistere123.coding/block-bomber-minigame",
   "score": 5.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6698206b7d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6698206b7d.png"],
   "short_description": "Blockbomber as an arena_lib minigame",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["mini-game", "multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6698206b7d.png",
   "title": "Block Bomber Mg",
   "translation_url": null,
@@ -62,9 +54,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       },
       {
         "is_optional": false,
@@ -112,9 +102,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "mt-mods/controls": []

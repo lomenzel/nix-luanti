@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-afk_api/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# afk_api\n\nan API for registering events which trigger when a player goes AFK or comes back from AFK.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "afk_api",
-  "provides": [
-    "afk_api"
-  ],
+  "provides": ["afk_api"],
   "release": 27742,
   "repo": "https://github.com/fluxionary/minetest-afk_api.git",
   "score": 0.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/49d3681779.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/49d3681779.png"],
   "short_description": "an API for registering events which trigger when a player goes AFK or comes back from AFK.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/49d3681779.png",
   "title": "afk_api",
   "translation_url": null,
@@ -43,18 +35,12 @@
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/fmod": [],
@@ -62,10 +48,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

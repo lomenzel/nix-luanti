@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/TwigGlenn4/ore_info/issues/new/choose/",
   "license": "MIT",
   "long_description": "The Ore Info mod creates a menu to view the depth and rarity of groups in which ores spawn.\nCreated by TwigGlenn4 \n\n## Usage\nType `/ore_info` or click the button in your inventory to open the menu.\nSelect an item from the list on the left to view it's stats.\n\n## Compat\nThe following inventory mods are supported and have buttons to open Ore Info.\n* [Unified Inventory](https://content.minetest.net/packages/RealBadAngel/unified_inventory/)\n* [Simple Fast Inventory](https://content.minetest.net/packages/rubenwardy/sfinv/) (This is the default inventory in Minetest Game)\n* [Inventory Plus](https://content.minetest.net/packages/TenPlus1/inventory_plus/)\n\nSince ore_info scans Minetest's registered ores, it should be compatible with most mods.\n\n### Minetest\nv1.1.0 has been developed and tested on Minetest 5.8.0",
-  "maintainers": [
-    "TwigGlenn4"
-  ],
+  "maintainers": ["TwigGlenn4"],
   "media_license": "MIT",
   "name": "ore_info",
-  "provides": [
-    "ore_info"
-  ],
+  "provides": ["ore_info"],
   "release": 26159,
   "repo": "https://github.com/TwigGlenn4/ore_info",
   "score": 5.2,
@@ -30,9 +26,7 @@
   ],
   "short_description": "Show ore depth and rarity.",
   "state": "APPROVED",
-  "tags": [
-    "gui"
-  ],
+  "tags": ["gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/017c283af0.png",
   "title": "Ore Info",
   "translation_url": null,

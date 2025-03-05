@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/AiTechEye/mesetec/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds some extra and usefull mesecons stuff.\n\n\nPlayer teleport / Player teleport target\nsend a mesecon singnal to a \"Player teleport\" block, then to a \"Player teleport target\" to move players/objects near the teleportblock to the target.\n\nMese teleport / mese teleport target\nright click a \"Mese teleport\" and choose a position of a \"Mese teleport target\" then press save.\nor punch a \"Mese teleport target\" with a \"Mese teleport target controler\" and use to send a singnal (if its not protected from you)\n\nif there are no position selected will the \"Mese teleport\" block automatically choose your position.\nevery singnal to the \"Mese teleport\" will be sent to the \"Mese teleport target\"\ndefault distance: 30\n\nObject detector\nIt detects all kinds of object/entitys (except players) and sends a singnal, or choose kind of entity/object to detect\n\nMese hack tool\nit can send a signal to every mesecon node by punch it (if its not protected from you)\n\nCodelock\nthe placer can always choose a code to use, and will automacly show in the form when the placer clicks it.\nthe placer can also code a kaycard (place on a codelock) instead of use the form.\nthe card will only work with the placers codelocks with same code (the card saves owners name and code)\n\nMese damage\nhurts when active (2 hp/s)\n\nMese ladder\nclimbable when active\n\nMese oxygen\ndrowning when active (like water)\n\nLight check\nCheck exact light level\n\nDelayer\nLonger delays gate\n\nNode switch\nReplace two nodes with each other",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mesetec",
-  "provides": [
-    "mesetec"
-  ],
+  "provides": ["mesetec"],
   "release": 898,
   "repo": "https://github.com/AiTechEye/mesetec",
   "score": 19.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BO7VksoXK6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BO7VksoXK6.png"],
   "short_description": "Adds some extra and usefull mesecons stuff",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology",
-    "tools"
-  ],
+  "tags": ["building", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BO7VksoXK6.png",
   "title": "Mesecon Technology (MeseTec)",
   "translation_url": null,

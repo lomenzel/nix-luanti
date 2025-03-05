@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/Skandarella/livingdesert/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: For a working leaf decay (Disappearing of leaves after a trees trunk is chopped) I recommend to use this mod: https://content.minetest.net/packages/Liil/winuserleafdecay/\n\nThis mod adds various plants to the deserts of Minetest. The plants are more of a decorative use, they dont provide much new building materials, but some parts can be burned.\nDate palms and fig cactus provide some food through fruits, but overall the desert stays an unpleasant place.\nIn higher latitudes small succulents can be found, near the sea level the date palm oasis appears. Euphorbia tree forest can be often found in deserts and provide some orientation.\n\nUpdate V1.1 transforms the Cold Desert biome into a landscape inspired by Mongolia and the Altai Mountains. Special building materials for yurts are included.",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "livingdesert",
-  "provides": [
-    "livingdesert"
-  ],
+  "provides": ["livingdesert"],
   "release": 19250,
   "repo": "https://github.com/Skandarella/livingdesert.git",
   "score": 40.5,
@@ -621,18 +615,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

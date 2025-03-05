@@ -2,10 +2,21 @@
   description = "a flake containing all games and mods for Luanti";
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  inputs.treefmt-nix.url = "github:numtide/treefmt-nix";
 
   outputs =
-    { self, nixpkgs, ... }:
+    {
+      self,
+      nixpkgs,
+      systems,
+      treefmt-nix,
+      ...
+    }:
     with builtins;
+    let
+      eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
+      treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
+    in
     {
       packages =
         nixpkgs.legacyPackages
@@ -60,17 +71,17 @@
                   echo "fetching ContentDB..."
                   ${pkgs.nodejs}/bin/node ./src/utils/updater/fetchContentDB.js
                 '';
-                format = pkgs.writeShellScriptBin "formatAllContent" ''
-                  echo "formatting json files"
-                  find . -type f -name "*.json" -exec sh -c '${pkgs.jq}/bin/jq . "$1" > "$1.tmp" && mv "$1.tmp" "$1"' _ {} \;
-                  echo "formatting nix files"
-                  ${pkgs.nixfmt-rfc-style}/bin/nixfmt .
-                '';
               };
           }
         )
         |> listToAttrs;
       nixosModules.default = import ./src/nixos-module.nix;
       homeManagerModules.default = import ./src/homemanager-module.nix;
+      # for `nix fmt`
+      formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+      # for `nix flake check`
+      checks = eachSystem (pkgs: {
+        formatting = treefmtEval.${pkgs.system}.config.build.check self;
+      });
     };
 }

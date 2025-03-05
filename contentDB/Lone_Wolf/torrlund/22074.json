@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/LoneWolfHT/torrlund/issues",
   "license": "MIT",
   "long_description": "# The aliens attack the most at night\n\n# Playing with a friend or two is recommended\n* Contact me on Discord `LandarVargan#8968` or [the forums](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=20964) for a server to play together on\n \n \n## Things not created during the jam\n* `mods/mtg/*` Mods from MTG\n* `mods/torrl_map/torrl_mapgen/` Base code taken from Voxel Knights\n* tnt mod code is used in torrl_effects explosion\n* `mods/show_wielded_item` and `mods/wield3d`\n\n### SPOILER/CHEAT for people having a hard time:\nYou can build your base over a ravine to pretty much 100% rule out attacks from the alien mobs.\nAll you need to do then is fly up the the alien ships and explode their power cores, and occasionally drop down to repair laster blast damage\n\n",
-  "maintainers": [
-    "Lone_Wolf"
-  ],
+  "maintainers": ["Lone_Wolf"],
   "media_license": "CC-BY-SA-4.0",
   "name": "torrlund",
   "provides": [
@@ -48,13 +46,7 @@
   ],
   "short_description": "Your ship has crashed, armed with a few tools you must harvest meteorites to repair your ship while fighting off hordes of aliens",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "multiplayer",
-    "pve",
-    "survival",
-    "tools"
-  ],
+  "tags": ["jam_game_2022", "multiplayer", "pve", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4fedce1451.png",
   "title": "Torrlund",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/basic_streets/issues",
   "license": "MIT",
   "long_description": "# Basic streets\n\nSimple tar-based street nodes with markings for straight,corner,crossing and t-junction\n\n# Mod interop\n\nOptional mods:\n\n* `moreblocks`: registers all nodes to the circular saw if available\n\n* `default`: for the sounds\n\n* `dye`: for the recipes\n\n* `unifieddyes`: makes the non-circular-saw nodes colorable\n\n* `building_blocks`: uses the `building_blocks:Tar` node if available (otherwise registers its own base-variant)\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-3.0",
   "name": "basic_streets",
-  "provides": [
-    "basic_streets"
-  ],
+  "provides": ["basic_streets"],
   "release": 23808,
   "repo": "https://github.com/BuckarooBanzay/basic_streets",
   "score": 13.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/29a2abab56.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/29a2abab56.png"],
   "short_description": "Simple tar-based street nodes with markings for straight,corner,crossing and t-junction",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/29a2abab56.png",
   "title": "Basic Streets",
   "translation_url": null,

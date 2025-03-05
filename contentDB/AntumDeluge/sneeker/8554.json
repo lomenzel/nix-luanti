@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,26 +247,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-sneeker/issues",
   "license": "MIT",
   "long_description": "### Description:\n\nAn explosive nuisance originally created by [Rui](https://content.minetest.net/users/Rui/) as \"creeper\". This re-implementation re-labels it as \"sneeker\" & updates for current Minetest versions.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-sneeker/blob/master/LICENSE.txt)\n- Textures: CC0\n- Original by Rui: WTFPL\n- tnt_function code from `minetest_game`: [MIT](https://github.com/AntumMT/mod-sneeker/blob/master/tnt_function.lua)\n\n### Usage:\n\nSettings documented in [reference][].\n\n### Links:\n\n- [Reference][reference]\n- [Changelog](https://github.com/AntumMT/mod-sneeker/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-sneeker/blob/master/TODO.txt)\n\nRui's original mod:\n\n- Forum thread (deleted: `t=11891`)\n- [Final version](https://github.com/AntumMT/mod-sneeker/releases/tag/Rui)\n- [Updated for Minetest 5.x](https://github.com/AntumMT/mod-sneeker/releases/tag/5.x)\n\n\n[reference]: https://antummt.github.io/mod-sneeker/docs/reference/",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC0-1.0",
   "name": "sneeker",
-  "provides": [
-    "sneeker"
-  ],
+  "provides": ["sneeker"],
   "release": 8554,
   "repo": "https://github.com/AntumMT/mod-sneeker",
   "score": 7.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3aec21b802.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3aec21b802.png"],
   "short_description": "An explosive nuisance.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "survival"
-  ],
+  "tags": ["mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3aec21b802.png",
   "title": "Sneeker",
   "translation_url": null,
@@ -351,9 +340,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

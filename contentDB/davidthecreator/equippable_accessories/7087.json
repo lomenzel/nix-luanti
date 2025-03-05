@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/daviddoesminetest/mt_equippable_accessories/issues/new/choose/",
   "license": "MIT",
   "long_description": "Accessories can be crafted, gotten by digging accessory chests that generate deep undeground or found in dungeon chests.  Your accessory inventories can be accessed through sfinv, unified inventory or with /accinv command. The accessories you put in your accessory equippment inventory will grant you stat bonuses (defense, attack, more HP, etc.), accessories in vanity inventory will replace the visuals of your equipped accessories and you can put accessory dyes in your accessory dye inventory to recolour the accessory you have equipped in the same equippment/vanity slot.",
-  "maintainers": [
-    "davidthecreator"
-  ],
+  "maintainers": ["davidthecreator"],
   "media_license": "CC-BY-SA-4.0",
   "name": "equippable_accessories",
-  "provides": [
-    "equippable_accessories"
-  ],
+  "provides": ["equippable_accessories"],
   "release": 7087,
   "repo": "https://github.com/daviddoesminetest/mt_equippable_accessories",
   "score": 671,
@@ -28,12 +24,7 @@
   ],
   "short_description": "adds accessories that you can equip for the looks and stat bonuses.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "player_effects",
-    "survival",
-    "tools"
-  ],
+  "tags": ["adventure__rpg", "player_effects", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WkgfPPNfQD.png",
   "title": "Equippable Accessories",
   "translation_url": null,

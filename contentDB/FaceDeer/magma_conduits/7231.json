@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/FaceDeer/magma_conduits/issues/",
   "license": "MIT",
   "long_description": "This mapgen mod modifies how lava is distributed and how lava interacts with neighboring nodes in a variety of ways. Its various features can be enabled or disabled independently via configuration settings.\n\nThis mod makes magma more sparsely distributed across the map, but where it is found it will be available in massive quantities. Using this mod in conjunction with the dynamic_liquid mod can result in !!fun!! lava flows when caves intersect with magma conduits.\n\n## Lava interaction with adjacent nodes\n\nThis mod provides an ABM that causes some types of nodes adjacent to lava to slowly convert into glowing \"hot\" forms, and then back to cool forms again if the lava goes away. Stone is converted into hot cobble and obsidian converts to a glowing red form.\n\nOther mods can hook into this ABM by adding the following to node definitions:\n\n    group:lava_heatable\n    _magma_conduits_heats_to = hot node name\n\nand\n\n    group:lava_heated\n    _magma_conduits_cools_to = cool node name\n\nso for example default:stone is added to the lava_heatable group and given _magma_conduits_heats_to = \"magma_conduits:hot_cobble\" and magma_conduits:hot_cobble is in the lava_heated group and is given _magma_conduits_cools_to = \"default:cobble\".\n\nAlso included is an ABM that causes soil adjacent to lava to be cooked into barren sand.\n\n## Magma veins\n\nMagma veins are magma-filled conduits that thread through the ground somewhat like a cave system. The veins have a bias toward vertical orientation but can curve and twist in any direction.\n\nMagma veins can be optionally be lined with a layer of obsidian. The density of vein generation is configurable.\n\n## Volcanoes\n\nVolcanoes are large cone-shaped mountains formed from magma that rises through a central vertical pipe. This mod can scatter randomly sized and shaped volcanoes across the map, with configurable spacing and probability. Volcanoes come in \"extinct\", \"dormant\" and \"active\" forms, and tall volcanoes can have a mantle of snow clinging to their peaks.\n\nIf a player has the \"findvolcano\" priviledge he can use the \"findvolcano\" console command to locate nearby volcanoes.\n\n### Namegen and named_waypoint support\n\nIf the mods namegen and named_waypoints are installed, then names and HUD markers will be automatically generated for volcanoes.\n",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "magma_conduits",
-  "provides": [
-    "magma_conduits"
-  ],
+  "provides": ["magma_conduits"],
   "release": 7231,
   "repo": "https://github.com/FaceDeer/magma_conduits",
   "score": 165.6,
@@ -448,13 +442,7 @@
   ],
   "short_description": "Removes default mapgen lava and adds widely-spaced vertical lava \"veins\".",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "education",
-    "environment",
-    "library",
-    "mapgen"
-  ],
+  "tags": ["custom_mapgen", "education", "environment", "library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vADHDjR4EJ.png",
   "title": "Magma Conduits",
   "translation_url": null,

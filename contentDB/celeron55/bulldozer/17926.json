@@ -11,20 +11,14 @@
   "issue_tracker": "https://github.com/celeron55/minetest_bulldozer",
   "license": "GPL-3.0-only",
   "long_description": "Bulldozer mod for Minetest\n==========================\n\nDriveable bulldozer for pushing nodes and flattening ground.\n\nThe entity spawner item is called bulldozer:bulldozer_item.\n\nThere's no crafting recipe and this thing is very powerful, so only creative\nmode is recommended for now.\n\nControls\n--------\n* Right click the bulldozer: Enter/exit vehicle\n* Up: Forward\n* Down: Reverse\n* Left: Turn left\n* Right: Turn right\n* Jump:\n    * Hold while moving forward to grade upwards\n* Sneak:\n    * Hold while moving forward to grade downwards\n    * Hold while reversing to prevent climbing on top of ground\n\nLicense\n-------\n* Code: GPL 3.0\n* Media: CC BY-SA 3.0\n\nCredits\n-------\nMade by Perttu \"celeron55\" Ahola\n\n",
-  "maintainers": [
-    "celeron55"
-  ],
+  "maintainers": ["celeron55"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bulldozer",
-  "provides": [
-    "bulldozer"
-  ],
+  "provides": ["bulldozer"],
   "release": 17926,
   "repo": "https://github.com/celeron55/minetest_bulldozer",
   "score": 330.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/beb7a063b7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/beb7a063b7.png"],
   "short_description": "Driveable bulldozer for pushing nodes and flattening ground",
   "state": "APPROVED",
   "tags": [

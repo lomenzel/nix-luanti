@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Giftbox2 provides an assortment of presents for special occasions. Players can craft gift boxes and place them anywhere, including protected areas and designate them to an optional receiver.\n\nThe receiver can dig the gift box and gets a random item.\n\nNote the placer cannot receive their own gift, if they dig the gift box, they will get the gift box back, not its random item.\n\nThis is a fork of the [giftbox] mod.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "giftbox2",
-  "provides": [
-    "giftbox2"
-  ],
+  "provides": ["giftbox2"],
   "release": 9426,
   "repo": "https://repo.or.cz/minetest_giftbox2.git",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a6b192bfa0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a6b192bfa0.png"],
   "short_description": "Gift boxes that players can give to other who will then receive random items",
   "state": "APPROVED",
-  "tags": [
-    "seasonal"
-  ],
+  "tags": ["seasonal"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a6b192bfa0.png",
   "title": "Giftbox2",
   "translation_url": null,
@@ -473,9 +463,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       }
     ],
     "sorcerykid/config": [

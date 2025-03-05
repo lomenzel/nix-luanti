@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/sofar/mt2fa/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Adds server and player email confirmation to add an extra layer of security.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "mt2fa",
-  "provides": [
-    "mt2fa"
-  ],
+  "provides": ["mt2fa"],
   "release": 185,
   "repo": "https://github.com/sofar/mt2fa",
   "score": 4.1,
   "screenshots": [],
   "short_description": "Adds server and player email confirmation to add an extra layer of security (2FA)",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": null,
   "title": "2-Factor Authentication",
   "translation_url": null,
@@ -43,9 +36,7 @@
       {
         "is_optional": false,
         "name": "fsc",
-        "packages": [
-          "sofar/fsc"
-        ]
+        "packages": ["sofar/fsc"]
       }
     ]
   },

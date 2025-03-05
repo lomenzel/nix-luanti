@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/brylie/minetest-manners/issues",
   "license": "MIT",
   "long_description": "A simple mod to allow players to fart and burp in a polite manner.\n\nThis mod adds two new chat commands:\n\n- toot\n- burp\n\nWhen issuing a command, one of several toot or burp sounds will play, followed by an 'excuse me' variant. Nearby players will also hear the sounds.\n\n",
-  "maintainers": [
-    "brylie"
-  ],
+  "maintainers": ["brylie"],
   "media_license": "CC0-1.0",
   "name": "manners",
-  "provides": [
-    "manners"
-  ],
+  "provides": ["manners"],
   "release": 1157,
   "repo": "https://github.com/brylie/minetest-manners",
   "score": 5.1,
@@ -28,13 +24,7 @@
   ],
   "short_description": "Polite farts and burps.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "chat",
-    "multiplayer",
-    "simulation",
-    "sound_music"
-  ],
+  "tags": ["april_fools", "chat", "multiplayer", "simulation", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/na2jio9nhz.png",
   "title": "Manners",
   "translation_url": null,

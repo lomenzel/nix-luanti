@@ -11,9 +11,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/Shadow_Forest/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "The forest has been overrun by the Shadows. They have cursed it with eternal darkness.\nYou, the Wizard of Light, are the final hope.\nFind and destroy the source of darkness and bring back the light!\n\nA game by Wuzzy made for the 2023 Minetest Game Jam.\n\n## How to play\n\nYour trusty companion, the Light Crystal, is guiding you through the game.\nTo attack the Shadows, use the Staff of Light by pressing the [Punch] key (default: left click).\n\nCollect resources by walking over them. Hint: Break vases and use the campfire!\n\n## Credits\n\nWith the exception of translations, the entire game (concept, gameplay, code, graphics, sounds, music, etc.) was created by Wuzzy.\nSee the README file for translation credits.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "shadow_forest",
   "provides": [
@@ -67,11 +65,7 @@
   ],
   "short_description": "The forest has been overrun by the Shadows who’ve cursed it with eternal darkness. You’re the Wizard of Light; you’re the only hope to break the curse.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "jam_game_2023",
-    "singleplayer"
-  ],
+  "tags": ["adventure__rpg", "jam_game_2023", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d70eb6f359.png",
   "title": "Shadow Forest",
   "translation_url": null,

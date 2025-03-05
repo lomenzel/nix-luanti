@@ -11,25 +11,17 @@
   "issue_tracker": "https://bitbucket.org/theFox6/chat_tools/issues",
   "license": "MIT",
   "long_description": "This is a mod containing some useful chat commands:\n**8ball**: write a question as parameter and the mod will answer whether it will come true  \n**8ball_quiet**: like 8ball but not shouting it out to the whole server  \n**choose**: choses a random item from a \";\" seperated list (spaces allowed)  \n**leet**: convert a text to leetspeak, first write the severity level (1-6) then the text  \nFeel free to request more commands in issues or in a thread here...\n",
-  "maintainers": [
-    "theFox"
-  ],
+  "maintainers": ["theFox"],
   "media_license": "MIT",
   "name": "chat_tools",
-  "provides": [
-    "chat_tools"
-  ],
+  "provides": ["chat_tools"],
   "release": 505,
   "repo": "https://bitbucket.org/theFox6/chat_tools",
   "score": 3.6,
   "screenshots": [],
   "short_description": "chat commands that people might need",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "tools"
-  ],
+  "tags": ["chat", "multiplayer", "tools"],
   "thumbnail": null,
   "title": "Chat Tools",
   "translation_url": null,

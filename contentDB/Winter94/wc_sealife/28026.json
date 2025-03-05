@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/NodeCore-SeaLife/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# NodeCore-SeaLife\nFill Seas & Rivers of NodeCore With Biodiveristy!\n\n# Current Features\n- Coral (A Colorful Variety)\n- Anemones\n- Urchins (Four Variants Based On Depth)\n- Seajellies (Four Variants Based On Depth)\n- Kelp\n\n# Planned Features\n- Mussels\n- Seastars\n- Bobbits (Eunice Aphroditois)\n- Kelp Cultivation\n- Life Cycles\n- Predation\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_sealife",
-  "provides": [
-    "wc_sealife"
-  ],
+  "provides": ["wc_sealife"],
   "release": 28026,
   "repo": "https://github.com/wintersknight94/NodeCore-SeaLife",
   "score": 8.7,
@@ -55,11 +51,7 @@
   ],
   "short_description": "Adds Biodiversity to NodeCore Seas & Rivers",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "mobs",
-    "pve"
-  ],
+  "tags": ["mapgen", "mobs", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/539d14b3df.png",
   "title": "NodeCore SeaLife",
   "translation_url": null,
@@ -73,83 +65,54 @@
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_staybs_api",
-        "packages": [
-          "Winter94/wc_staybs_api"
-        ]
+        "packages": ["Winter94/wc_staybs_api"]
       },
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Winter94/wc_staybs_api": [
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/minefaco/stripped_tree/issues",
   "license": "GPL-3.0-only",
   "long_description": "[RELEASE 1.3]\n\nNow you can craft a chiseling machine thats allows you to chisel a stack of trunks at once.\nAdds stripped tree trunks to minetest.\n\nYou can choose between use axes or chisel to get the stripped trees, chisel is enabled by default but you can disable it at init.lua \"stripped_tree.ENABLE_CHISEL = true\"\n\nif you are using a chisel just left clic on the trunk. if you are using axes you get the stripped log with right clic.\n\nyou can get string and paper from bark!",
-  "maintainers": [
-    "1faco"
-  ],
+  "maintainers": ["1faco"],
   "media_license": "GPL-3.0-only",
   "name": "stripped_tree",
-  "provides": [
-    "stripped_tree"
-  ],
+  "provides": ["stripped_tree"],
   "release": 25552,
   "repo": "https://github.com/minefaco/stripped_tree",
   "score": 170.8,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Adds Stripped tree trunks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "decorative"
-  ],
+  "tags": ["building", "building_mechanics", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/NsRK27P0b9.png",
   "title": "Stripped Trees",
   "translation_url": null,

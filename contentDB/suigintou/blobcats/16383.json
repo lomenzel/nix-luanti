@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This mod spawn blobcats. Created just for fan.\n\nBlocks can be processed into ores.",
-  "maintainers": [
-    "suigintou"
-  ],
+  "maintainers": ["suigintou"],
   "media_license": "Apache-2.0",
   "name": "blobcats",
-  "provides": [
-    "blobcats"
-  ],
+  "provides": ["blobcats"],
   "release": 16383,
   "repo": "https://codeberg.org/suigintou/blobcat-minetest-mod",
   "score": 150.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/59d95b129d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/59d95b129d.png"],
   "short_description": "This mod spawn blobcats.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "decorative"
-  ],
+  "tags": ["april_fools", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/59d95b129d.png",
   "title": "Blobcats",
   "translation_url": null,

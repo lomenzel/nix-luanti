@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/x2048/terraform/issues",
   "license": "AGPL-3.0-only",
   "long_description": "Features:\n\n* Flexible painting brush:\n\t* Create new terrain using sphere, cube, cylinder and plateau shapes.\n\t* Smoothen and reshape existing terrain\n\t* Mask support for conditional editing\n\t* Weighted pattern support (use item stacks)\n\t* Various modifiers to simulate gravity, replace layers, place decorations\n\t* UI-based configuration\n* Undo support both for brush operations and normal block digging/placing\n* Teleport tool for faster travel\n* Light tools:\n\t* Light up the working area, whether working during night or in a deep cave\n\t* One-click light fixer\n* All tools protected with a dedicated priviledge\n",
-  "maintainers": [
-    "x2048"
-  ],
+  "maintainers": ["x2048"],
   "media_license": "CC0-1.0",
   "name": "terraform",
-  "provides": [
-    "terraform"
-  ],
+  "provides": ["terraform"],
   "release": 7656,
   "repo": "https://github.com/x2048/terraform",
   "score": 656.1,
@@ -30,11 +26,7 @@
   ],
   "short_description": "Adds terraforming tools to your creative toolbox",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "creative",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "creative", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hnuyGhjc08.png",
   "title": "Terraform",
   "translation_url": null,

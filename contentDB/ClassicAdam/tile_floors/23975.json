@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds 24 nodes for tile flooring in different colors.  12 nodes are 16x16 and then there is another corresponding 12 nodes that are 256x256.",
-  "maintainers": [
-    "ClassicAdam"
-  ],
+  "maintainers": ["ClassicAdam"],
   "media_license": "CC0-1.0",
   "name": "tile_floors",
-  "provides": [
-    "tile_floors"
-  ],
+  "provides": ["tile_floors"],
   "release": 23975,
   "repo": null,
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fb3ed28146.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fb3ed28146.png"],
   "short_description": "Various colors of tile flooring in 16px and 256px res",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fb3ed28146.png",
   "title": "Tile Floors",
   "translation_url": null,

@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,14 +130,10 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "Adds a 16x16 graphical display for digilines.  \nTo use, send an image in the form of nested tables containing hex color values (that is, the image is one table, within there is a table for each row, and within those are strings representing the color of each pixel), or simply hook it up to the GPU from digistuff and use the GPU's \"send\" or \"sendregion\" command.  \n  \nThese can also work as a drop-in replacement for existing rgblightstone displays 16x16 or smaller.  \n  \nMultiple panels can be placed adjacent to one another without gaps, and (through somewhat careful manipulation of the image data) display a mostly seamless larger image. The screenshots are using this technique, with a 4x4 array in the gradient demo and a 4x5 array in the tic-tac-toe machine.",
-  "maintainers": [
-    "cheapie"
-  ],
+  "maintainers": ["cheapie"],
   "media_license": "The Unlicense",
   "name": "digiscreen",
-  "provides": [
-    "digiscreen"
-  ],
+  "provides": ["digiscreen"],
   "release": 27377,
   "repo": "https://cheapiesystems.com/git/digiscreen/",
   "score": 12.9,
@@ -149,9 +143,7 @@
   ],
   "short_description": "Digilines graphical screen",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/V3eGHkFrYU.png",
   "title": "Digiscreen",
   "translation_url": null,

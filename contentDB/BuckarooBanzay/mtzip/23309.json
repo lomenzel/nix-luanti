@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/mtzip/issues",
   "license": "MIT",
   "long_description": "\nzip-library for minetest\n\nLets you use zip files from within a minetest mod (both reading and writing)\n\nDocs: https://github.com/BuckarooBanzay/mtzip/blob/master/README.md\n\nSupported versions:\n\n* Does not currently support zip64 stuff, only the basics\n\nDisclaimer:\n\n* Some zip-constellations may not work, this mod isn't 100% spec-complete, PR's/issues welcome\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "MIT",
   "name": "mtzip",
-  "provides": [
-    "mtzip"
-  ],
+  "provides": ["mtzip"],
   "release": 23309,
   "repo": "https://github.com/BuckarooBanzay/mtzip",
   "score": 24,
-  "screenshots": [
-    "https://content.luanti.org/uploads/377f8e7afe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/377f8e7afe.png"],
   "short_description": " zip-library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/377f8e7afe.png",
   "title": "mtzip",
   "translation_url": null,

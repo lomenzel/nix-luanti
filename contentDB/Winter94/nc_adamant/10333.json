@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NC_Adamant/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# This mod is no longer maintained, see \n# [NodeCore Adamant: Revised ](https://content.minetest.net/packages/Winter94/wc_adamant/) instead.\nA mod for NodeCore that adds Adamant Ore deep underground, from which you can craft all the normal things, tools, shelves, anvils, etc.\nIt is more rare and harder to aquire than Lode, but makes for much better equipment once refined.",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "nc_adamant",
-  "provides": [
-    "nc_adamant"
-  ],
+  "provides": ["nc_adamant"],
   "release": 10333,
   "repo": "https://github.com/wintersknight94/NC_Adamant",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EfPN7mxeF8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EfPN7mxeF8.png"],
   "short_description": "Adds Adamant, a new metal ore, deep underground/",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EfPN7mxeF8.png",
   "title": "NodeCore Adamant",
   "translation_url": null,
@@ -71,66 +62,42 @@
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

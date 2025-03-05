@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "Say Goodbye To Dirt Scaffolding \n\n### About the Mod ###\n\nGetting sick of using dirt as scaffolding? If so this is the mod for you.\n\nThis mod adds Wooden scaffolding and Iron scaffolding to minetest\n\nThe wooden and Iron scaffolding allows the player to go up and down like a ladder when the wooden and iron platforms allow you to wall along. If you want to remove the scaffolding just remove one or the bottom blocks to take the whole thing down.\n\n> Wooden scaffolding is cheap and easy to make. However it can be destroyed by hand\n\n> Iron scaffolding needs iron, but it cannot be destroyed by hand, and needs a pick.\n\n> A Wrench can be used to reinforce your scaffolding. This will stop a long line of scaffolding to fall down. It you make the scaffolding reinforced you can remove it since reinforced scaffolding dose not make the whole lot fall down.\n\n### More Info ###\n[ website](https://minetest.thatrspiserver.co.uk/pages.html#Mods/Scaffolding)",
-  "maintainers": [
-    "Semmett9"
-  ],
+  "maintainers": ["Semmett9"],
   "media_license": "CC-BY-SA-4.0",
   "name": "scaffolding",
-  "provides": [
-    "scaffolding"
-  ],
+  "provides": ["scaffolding"],
   "release": 26542,
   "repo": "https://bitbucket.org/Infinatum/scaffolding",
   "score": 162.6,
@@ -449,11 +443,7 @@
   ],
   "short_description": "Adds wooden and Iron scaffolding.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "tools"
-  ],
+  "tags": ["building", "building_mechanics", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d7e80872ca.png",
   "title": "Scaffolding",
   "translation_url": null,

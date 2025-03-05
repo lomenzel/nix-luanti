@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/random_person_person/spawn_fixer/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Spawn Fixer\n\nThis is a luanti mod to fix any broken spawns you might have.\n\nI made it after I found much of the time I messed around with luamap, I would spawn in a hill at 0,0,0 instead of at ground level.\n\nIt provides a chat command `fix_spawn` that looks for any air nodes in a radius of 100 blocks, and if it finds any, it teleports you to it.",
-  "maintainers": [
-    "random_person_person"
-  ],
+  "maintainers": ["random_person_person"],
   "media_license": "GPL-3.0-or-later",
   "name": "spawn_fixer",
-  "provides": [
-    "spawn_fixer"
-  ],
+  "provides": ["spawn_fixer"],
   "release": 29324,
   "repo": "https://codeberg.org/random_person_person/spawn_fixer.git",
   "score": 7.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7f83678572.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7f83678572.png"],
   "short_description": "Fixes spawning inside a hill",
   "state": "APPROVED",
-  "tags": [
-    "mtg"
-  ],
+  "tags": ["mtg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7f83678572.png",
   "title": "Spawn Fixer",
   "translation_url": null,

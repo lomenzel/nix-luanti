@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/AmericanHuston/enhanced_clans/issues",
   "license": "MIT",
   "long_description": "A little something I've been working on. Adds clans, functions to manage clans, some new blocks, and some fun survival mechanics.\nIntended to be used in a civilization event.\n\nExpect some bugs every now and then, and report them on the issue tracker. If there are any improvements, let me know on github with the tag \"enhancements\".",
-  "maintainers": [
-    "AmericanHuston"
-  ],
+  "maintainers": ["AmericanHuston"],
   "media_license": "MIT",
   "name": "enhanced_clans",
-  "provides": [
-    "clans"
-  ],
+  "provides": ["clans"],
   "release": 28865,
   "repo": "https://github.com/AmericanHuston/enhanced_clans",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d72d171c0e.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d72d171c0e.jpg"],
   "short_description": "A little something I've been working on. Adds clans, functions to manage clans, some new blocks, and some fun survival mechanics.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "pvp",
-    "simulation"
-  ],
+  "tags": ["adventure__rpg", "pvp", "simulation"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d72d171c0e.png",
   "title": "Clans",
   "translation_url": null,
@@ -59,9 +49,7 @@
       {
         "is_optional": false,
         "name": "lifesteal_mod",
-        "packages": [
-          "J05629/lifesteal_mod"
-        ]
+        "packages": ["J05629/lifesteal_mod"]
       }
     ],
     "J05629/lifesteal_mod": []

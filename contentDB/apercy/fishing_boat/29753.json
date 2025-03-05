@@ -64,25 +64,17 @@
   "issue_tracker": "https://github.com/APercy/fishing_boat/issues/new/choose/",
   "license": "MIT",
   "long_description": "This mod implements a fishing boat for minetest.\n\nIt's physics comes indirectly from Sailing Kit from Thermos, as it descend from Motorboat and then Sailing Kit.\nIt can carry 5 people.\n\nTo run it's engine, it is necessary to provide biofuel. To supply it,\nbe on board and punch the necessary fuel on the boat.\nActivate the engine in the first option of the menu. Take control by activating\nthe option \"Take the Control\".\nThe information panel will be on the left and bottom of the screen. \n\nForward increases the propeller power, Backward reduces. To go reverse, hold aux (E key)\nand backward together. There is a power mode. When the lever reaches the up limit, hold E\nand forward to increase the acceleration.\nThe boat inventory can be accessed by Aux (E) + rightclick or by the captain menu.\n\nShared owners:\nThis vehicle was made to be shared with a team. So the owner can set more users to\noperate it. Inside the boat, just use the command /fishing_boat_share <name>\nTo remove someone from the sharing, /fishing_boat_remove <name>\nTo list the owners, /fishing_boat_list\nIs possible to lock the boat access, so only the owners can enter: /fishing_boat_lock true\nTo let anyone enter, /fishing_boat_lock false\nAll shared owners can access the boat inventory\nWhen the ship sunk, all permissions are ignored and anybody can get the boat treasures\n\nPainting:\nAs the planes, punch a dye against the hull, so the primary color will change\nTo change the secondary color, punch a dye, but holding Aux (E) key.\nOnly the original owner can do the paintings\n\nShortcuts:\nright click to enter and access menu\npunch with dye to paint\nforward and backward while in drive position: controls the power lever\nleft and right while in drive position: controls the direction\n\nE + right click while inside: acess inventory\nE + backward while in drive position: the machine does backward\nE + foward while in drive position: extra power\n\nTip:\nDrive it gently.\nThe captain can leave the drive position to walk too\nIf a player goes timeout or logoff, the boat will \"rescue\" him if no other player\nenter the boat, so is a good idea wait the friend at a secure place far from anyone who\nwants to enter the boat.\n\nKnow issues:\nThe walk movement inside the ship is affected by server lag, because the lack of\nan interpolation method on attach function.\nRubber-band bug is from minetest nature, just close and reopen minetest to solve.\nSome old versions of minetest can have an strange issue, the camera is set to\nthe map center. So if it happens, just type /fishing_boat_eject to be free again.\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC-BY-3.0",
   "name": "fishing_boat",
-  "provides": [
-    "fishing_boat"
-  ],
+  "provides": ["fishing_boat"],
   "release": 29753,
   "repo": "https://github.com/APercy/fishing_boat",
   "score": 574,
-  "screenshots": [
-    "https://content.luanti.org/uploads/26bda8c884.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/26bda8c884.jpg"],
   "short_description": "Adds a fishing boat",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/26bda8c884.png",
   "title": "Fishing Boat",
   "translation_url": null,
@@ -141,18 +133,12 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       },
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

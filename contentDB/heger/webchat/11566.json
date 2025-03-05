@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/seckl/webchat/-/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "This mod makes the in-game chat accessible through a web browser. The mod itself implements the Minetest server-side functions. It also contains example PHP code for the web chat GUI and the interaction with the Minetest server.",
-  "maintainers": [
-    "heger"
-  ],
+  "maintainers": ["heger"],
   "media_license": "LGPL-3.0-or-later",
   "name": "webchat",
-  "provides": [
-    "webchat"
-  ],
+  "provides": ["webchat"],
   "release": 11566,
   "repo": "https://gitlab.com/seckl/webchat.git",
   "score": 3.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/51cee783ca.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/51cee783ca.png"],
   "short_description": "Makes the in-game chat accessible through a web browser.",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/51cee783ca.png",
   "title": "Web chat",
   "translation_url": null,

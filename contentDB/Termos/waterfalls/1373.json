@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds water erosion, so flowing water forms somewhat more realistic looking waterfalls.\n\n**Warning: This will destroy some nodes, don't use near anything important until you get the hang of what it does.**\n\nUsage:\n- place a regular water source on a hill side, try to find a logical spot - concave slopes around 45 degrees seem to work the best, usually found at an intersection of two hills.\n\n- If placed on a convex slope, it will destroy a large area, placed on top of a hill it will probably destroy the whole of it.\n\n- best put the source on top of a stone node, don't place it on \"crumbly\" nodes (dirt, sand etc.) or it will get removed in the process.\n\n- don't place on desert hills with sandstone core. (sandstone node groups are more like dirt/sand than stone), unless you want it to be leveled out.\n\n- affects regular water only, river water works as usual in order not to mess up the valleys mapgen.\n\n- after everything's done, the mod can be disabled, waterfalls will stay.",
-  "maintainers": [
-    "Termos"
-  ],
+  "maintainers": ["Termos"],
   "media_license": "MIT",
   "name": "waterfalls",
-  "provides": [
-    "waterfalls"
-  ],
+  "provides": ["waterfalls"],
   "release": 1373,
   "repo": null,
   "score": 11.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/rXVzBkMmwX.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/rXVzBkMmwX.png"],
   "short_description": "Adds water erosion, so flowing water forms somewhat more realistic looking waterfalls.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment"
-  ],
+  "tags": ["building", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/rXVzBkMmwX.png",
   "title": "Waterfalls",
   "translation_url": null,

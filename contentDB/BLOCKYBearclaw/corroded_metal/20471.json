@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Steel, tin, bronze and copper can rust over time when placed by water. Acid from underground (starting at -256), can restore metal in the same manner.\n\nIf you encounter a bug, notify me immediately.\n\nThis mod was built in approximately 5 hours. StarNinjas inspired me with his dedication to building the Industrious mod with limited time.",
-  "maintainers": [
-    "BLOCKYBearclaw"
-  ],
+  "maintainers": ["BLOCKYBearclaw"],
   "media_license": "CC-BY-SA-4.0",
   "name": "corroded_metal",
-  "provides": [
-    "corroded_metal"
-  ],
+  "provides": ["corroded_metal"],
   "release": 20471,
   "repo": null,
   "score": 458.9,
@@ -449,11 +443,7 @@
   ],
   "short_description": "Metal can rust when next to water. Restore it with acid from underground.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "survival"
-  ],
+  "tags": ["building", "decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/66545af018.png",
   "title": "Corroded Metal",
   "translation_url": null,

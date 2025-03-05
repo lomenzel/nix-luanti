@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,10 +416,7 @@
   "issue_tracker": "https://github.com/sirrobzeroone/elepower/issues/new/choose/",
   "license": "MIT",
   "long_description": "Elepower is a new technology modpack currently in development. The mod is currently in alpha and is nowhere near complete.\n\n**This mod does not work below Minetest 5.0.0+! You have been warned.**\n\n## Some features\n* Power and fluid transfer\n* Ore doubling mechanics (Pulverizer + Furnace)\n* Automatic farms (Planter + Harvester)\n* High crafting complexity for crafting lovers\n* A sawmill that gives 6 planks instead of 4 per log!\n* Nuclear Power (Both fission and fusion reactors)\n* Toggle your automation on and off using Mesecons\n* Seeds and other farming produce can be turned into power via Biofuel\n* Gases and (unrealistic, sorry chem nerds!) chemical reactions/processes\n* A mining machine to get an endless supply of ores, as long as you have power!\n* A bunch of materials and derived crafting components you can use in your own mods!\n* Machine usage help available from both craftguide and unified_inventory!\n* ..and a lot more planned!\n\n",
-  "maintainers": [
-    "IcyDiamond",
-    "sirrobzeroone"
-  ],
+  "maintainers": ["IcyDiamond", "sirrobzeroone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "elepower",
   "provides": [
@@ -442,17 +437,10 @@
   "release": 8815,
   "repo": "https://github.com/sirrobzeroone/elepower.git",
   "score": 316.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/rcRK00qzVc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/rcRK00qzVc.png"],
   "short_description": "A powerful modpack",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "library",
-    "technology",
-    "tools"
-  ],
+  "tags": ["crafting", "library", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/rcRK00qzVc.png",
   "title": "Elepower",
   "translation_url": null,
@@ -565,9 +553,7 @@
       {
         "is_optional": false,
         "name": "fluid_tanks",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       }
     ],
     "IcyDiamond/fluid_lib": [

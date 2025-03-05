@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/DustyBagel/local_time_api/issues",
   "license": "MIT",
   "long_description": "Minetest Mod: local_time_api\n\nThis is a minetest mod that provides an api for other mods to use to get a user's preferred date and time format/time zone based on their configured settings for this mod. For information on how to use this api in your mod see api.md for details.\n\nLicense\nThis project is licensed under the MIT License. See the LICENSE file for details.\nIf your own software uses code directly from this work, so code that is directly from here and not just you using the api, please credit me.\nIf you have questions about the copyright of this mod, you can reach me at aldoessoftwaredevelopment@gmail.com.\n",
-  "maintainers": [
-    "Bob64"
-  ],
+  "maintainers": ["Bob64"],
   "media_license": "MIT",
   "name": "local_time_api",
-  "provides": [
-    "local_time_api"
-  ],
+  "provides": ["local_time_api"],
   "release": 22882,
   "repo": "https://github.com/DustyBagel/local_time_api",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8a13522282.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8a13522282.png"],
   "short_description": "This is a minetest mod that provides an api for other mods to use to get a user's preferred date and time format/time zone based on their configured settings for this mod.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8a13522282.png",
   "title": "Local Time and Date Api",
   "translation_url": null,

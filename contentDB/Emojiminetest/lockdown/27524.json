@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/lockdown/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod puts the server into temporary maintenance mode on admin request. If any player without `server` or `privs` privileges attempts to join during maintenance, they will be rejected for an optional reason.\n\nWhether the server is in maintenance is controlled by the existence of `<world>/lockdown.txt`; if present, its content is the reason for maintenance. It can also be controlled by a chatcommand (`/lockdown on/off [<reason>]`).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "lockdown",
-  "provides": [
-    "lockdown"
-  ],
+  "provides": ["lockdown"],
   "release": 27524,
   "repo": "https://github.com/C-C-Minetest-Server/lockdown",
   "score": 5.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c57a661942.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c57a661942.png"],
   "short_description": "Keep non-admin players away during maintainence",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c57a661942.png",
   "title": "Server Lockdown",
   "translation_url": null,

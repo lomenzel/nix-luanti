@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/AiTechEye/invisible/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Hides players nametag when they are sneaking, or invisible if you have the invisible privilege.\n\nGive yourself the invisible stick, to toggle your invisible on/off\n(your colisionbox will be removed, so players cant point you)\n/giveme i\n\nThis mod works with 3d armors and should work with skins mods too.",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "invisible",
-  "provides": [
-    "invisible"
-  ],
+  "provides": ["invisible"],
   "release": 5962,
   "repo": "https://github.com/AiTechEye/invisible",
   "score": 4.1,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Hide nametag while sneaking, or invisible",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "player_effects",
-    "tools"
-  ],
+  "tags": ["multiplayer", "player_effects", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/K3SI5V0Law.png",
   "title": "Invisible",
   "translation_url": null,

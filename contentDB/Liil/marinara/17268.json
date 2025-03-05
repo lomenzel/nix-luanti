@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,14 +247,10 @@
   "issue_tracker": "https://github.com/Skandarella/marinara/issues/new/choose/",
   "license": "MIT",
   "long_description": "This mod adds corals, plants, sea anemones and many other things to discover to the oceans of Minetest. 3 types of nautic doors can be crafted, for example to build modern and historic ships.",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "marinara",
-  "provides": [
-    "marinara"
-  ],
+  "provides": ["marinara"],
   "release": 17268,
   "repo": "https://github.com/Skandarella/marinara.git",
   "score": 373.2,
@@ -271,10 +265,7 @@
   ],
   "short_description": "adds water structures and coral reefs to the oceans of your world",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/746e17c3a6.png",
   "title": "Wilhelmines Marinara",
   "translation_url": null,
@@ -288,9 +279,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -626,18 +615,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

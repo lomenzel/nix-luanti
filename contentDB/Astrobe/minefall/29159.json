@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "MINEFALL\n========\n\nMinefall is a survival game. Its signature feature is the ability\nfor players to \"fly\" if they have enough mana. Actually, the feature is called\n\"levitation\" and is a similar to \"jetpacks\" that one can find in other games.\nAnother distinct feature is the use of ranged weapons (wands) that have various\ninteresting effects.\n\nThe game has no particular goal, but is action-oriented as hostile mobs will often be in your way. The game\nhas been designed so that players can specialize in fighting (PvE/PvP), trading, mining, exploration or building and farming. In solo play, it is worth it to play multiple characters.\n\nUse seed 12341234 at world creation to spawn in an \"easy\" location.\nServer owners: you can grant yourself the \"give\" privilege then award yourself RPs if you wish to quickly be able to invite players.\n\nDo not install mods that are not designed for Minefall (there is not any at the moment).",
-  "maintainers": [
-    "Astrobe"
-  ],
+  "maintainers": ["Astrobe"],
   "media_license": "AGPL-3.0-or-later",
   "name": "minefall",
   "provides": [
@@ -90,17 +88,10 @@
   "release": 29159,
   "repo": "https://gitlab.com/Astrobe/minefall",
   "score": -78.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f420ce16e0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f420ce16e0.png"],
   "short_description": "Fight, farm, explore, build. Solo or multiplayer.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "pve",
-    "shooter",
-    "survival"
-  ],
+  "tags": ["player_effects", "pve", "shooter", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f420ce16e0.png",
   "title": "Minefall",
   "translation_url": null,

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,26 +390,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-wardrobe_outfits/issues",
   "license": "MIT",
   "long_description": "### Description\n\nSome select skins for the [wardrobe](https://content.minetest.net/packages/AntumDeluge/wardrobe_ad/).\n\n### Usage\n\n#### Settings\n\nTo disable a skin, add `wardrobe_outfits.enable_<filename> = false` to configuration. `filename` may be different than displayed name. Special characters are not supported & whitespace is replaced with underscores.\n\nExample:\n```conf\n# disable \"Chloé\" skin\nwardrobe_outfits.enable_Chloe = false\n```\n\n### Licensing\n\n- Code: [MIT](https://github.com/AntumMT/mod-wardrobe_outfits/blob/master/LICENSE.txt)\n- Textures: See [sources in README](https://github.com/AntumMT/mod-wardrobe_outfits/blob/master/README.md#sources)\n\n### Links\n\n- [Changelog](https://github.com/AntumMT/mod-wardrobe_outfits/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-wardrobe_outfits/blob/master/TODO.txt)",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC-BY-SA-3.0",
   "name": "wardrobe_outfits",
-  "provides": [
-    "wardrobe_outfits"
-  ],
+  "provides": ["wardrobe_outfits"],
   "release": 8892,
   "repo": "https://github.com/AntumMT/mod-wardrobe_outfits",
   "score": 29,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fc8cbc37c6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fc8cbc37c6.png"],
   "short_description": "Some select skins for the wardrobe.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "skins"
-  ],
+  "tags": ["player_effects", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc8cbc37c6.png",
   "title": "Wardrobe Outfits",
   "translation_url": null,
@@ -527,9 +516,7 @@
       {
         "is_optional": false,
         "name": "wardrobe_ad",
-        "packages": [
-          "AntumDeluge/wardrobe_ad"
-        ]
+        "packages": ["AntumDeluge/wardrobe_ad"]
       }
     ]
   },

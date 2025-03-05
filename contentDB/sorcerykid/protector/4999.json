@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Protector Redux offers an efficient and flexible node-based protection scheme for players on survival and creative servers. The mod was inspired by TenPlus1's \"Protector Redo\", which continues the legacy of Zeg9 and glomie's original protection mods.\n\nThis mod is intended to act as a drop-in replacement for Protector Redo.  The only dependencies are Default (from Minetest Game) and ActiveFormspecs.\n\nHere's a quick rundown of the two types of protectors:\n\n* **Shared Protector**  \nRestricts building and mining within an 11m cubic area except by the owner or designated members. Digging and mining by members can be further restricted according to the bitmap mask of the area (see below). Shared Protectors can be useful for creating apartments and shared tree farms.\n\n* **Public Protector** \nRestricts building and mining within an 11m cubic area according to the bitmap mask of the area (see below). Public Protectors can be useful for creating public tree farms and sandbox playgrounds.\n\nThe bitmap mask of shared protectors can be manually engaged or disengaged by right-clicking the protector and clicking \"Lock Area\" or \"Unlock Area\" respectively. Locking the area stores a \"snapshot\" of all non-air and non-liquid nodes as a bitmap into the metadata of the protector (compressed for space efficiency) . For public protectors, the bitmap mask is automatically engaged at all times.\n\n*Tip: If there are overlapping protected areas owned by the same player, then the most restrictive bitmap mask is used to determine whether any given node is protected from mining or building.*\n\n*Tip: When engaging a bitmap mask, only air and liquid nodes are unmasked and all other nodes are masked. To protect an open area (like a hallway), it should be filled temporarily beforehand.*\n\nThe craftable Protection Mask adds support for copying and pasting of bitmap masks across multiple protectors. So if you are creating very large tree farms, public mines, etc. then you can construct a template of the region that you want to protect in a staging area, and then apply a snapshot of that region to any number of other protectors, either shared or public.\n\nAlso the shared protector has options to prevent unwanted griefing of public areas with undiggable nodes (locked chests or steel doors).",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "protector",
-  "provides": [
-    "protector"
-  ],
+  "provides": ["protector"],
   "release": 4999,
   "repo": "https://bitbucket.org/sorcerykid/protector",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/A236S8YchO.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/A236S8YchO.png"],
   "short_description": "An efficient and flexible node-based protection scheme for multiplayer worlds",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "multiplayer"
-  ],
+  "tags": ["building", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/A236S8YchO.png",
   "title": "Protector Redux",
   "translation_url": null,

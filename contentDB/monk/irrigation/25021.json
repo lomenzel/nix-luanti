@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Irrigation\n----------\nAdds a level of difficulty to farming with the addition of\nnon-spilling and self-exhausing water group nodes to wet dry soil.\n\nKeep their water supplies full, or let the farm dry up.\n\nOptionally discourages water griefing by limiting bucket spilling.\n\nmonk (c.2024)\n\nDetails\n-------\n## well.lua\n  - Fills with water based on timer.\n  - Provides 100 buckets of water when filled.\n  - For one bucket, time is 14.4 minutes\n  - Time to fill to max capacity: 24 hours\n\n## barrel.lua\n  - Wets dry soil like water node for up to 4 hours\n  - 4 buckets to fill max capacity\n\n## reservoir.lua\n  - Wets dry soil like water node for up to 8 hours\n  - 8 buckets to fill max capacity\n\n## pipe.lua (Incomplete)\n  - Connects to Reservoir node to extend watering\n    - How to transfer node group from Reservoir?\n    - ?\n\n## bucket.lua (Bucket from minetest_game)\n  - Disabled by default to avoid conflict with minetest_game\n    - If it is enabled, add protector dependency to mod.conf\n  - Modified to limit placing liquids at height\n  - Disallows spilling liquid if area is not protected,\n    also if y-50 contains protector not owned by player\n\n\nAttributes\n----------\n```\nIrrigation is Based on the Rainbarrel mod\n  https://notabug.org/Piezo_/rainbarrel\n  GNU Lesser General Public License, version 2.1\n  Copyright (C) 2019 Piezo_\n\n`irrigation_well.obj` model obtained from Rainbarrel mod\n  https://notabug.org/Piezo_/rainbarrel\n  Attribution-ShareAlike 4.0 (CC BY-SA 4.0)\n  Copyright (C) 2019 \"Piezo_\"\n\n`bucket.lua` modified by monk without endorsement from source obtained from:\n  https://github.com/minetest/minetest_game/tree/master/mods/bucket\n  GNU Lesser General Public License, version 2.1\n  Copyright (C) 2011-2016 Kahrl <kahrl@gmx.net>\n  Copyright (C) 2011-2016 celeron55, Perttu Ahola <celeron55@gmail.com>\n  Copyright (C) 2011-2016 Various Minetest developers and contributors\n\n`irrigation_barrel_*.png` textures modified by monk without endorsement obtained from: \n  https://codeberg.org/Wuzzy/xdecor-libre\n  CC0 1.0 Universal\n  Copyright (c) 2015-2021 kilbith <jeanpatrick.guerrero@gmail.com>\n  CC0 (credits: Gambit, kilbith, Cisoun)\n```\n\n\n##\n**`0.0.1`**",
-  "maintainers": [
-    "monk"
-  ],
+  "maintainers": ["monk"],
   "media_license": "CC-BY-SA-4.0",
   "name": "irrigation",
-  "provides": [
-    "irrigation"
-  ],
+  "provides": ["irrigation"],
   "release": 25021,
   "repo": "https://github.com/monk-afk/irrigation",
   "score": 8.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6c71de4a76.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6c71de4a76.png"],
   "short_description": "Makes dry soil wet for farming",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6c71de4a76.png",
   "title": "Irrigation",
   "translation_url": null,

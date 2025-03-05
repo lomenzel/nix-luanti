@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "# Playerfactions-ext\n\nPlayerfactions-ext is an extension of the [Playerfactions](https://github.com/mt-mods/playerfactions) mod which adds sub-commands that allow you to teleport, give/withdraw privs and/or items to all members of a faction at the same time or for one player in a faction.\n\nThey were used as part of the [UNEJ project](https://minetest.net/education/), which uses Minetest with students to rework on real areas in France. This was made possible thanks to the [IGN (French  National Institute of Geographic and Forest Information) service](https://minecraft.ign.fr/), which allows to create Minetest maps from from geographical data of France or the world (OSM data).\n\n**Requirements**: Playerfactions mod must be installed.\n\n## Commands\n\n### `/factions teleport <player_name> <player_name|factions>`\n\nThis is an increased `/teleport <player_name> <player_name>` function, accepting to teleport a player or a faction to another player.\n\n---\n\n### `/factions grant <player_name|factions> <privs|privs_group|all>`\n\nThis is an increased `/grant <player> <privs|all>` function, accepting to give a privs, a group of privs or all privs to a player, a faction or to every connected players.\n  - privs_group are initialized in **/worldpath/privs_group.conf**\n  - factions will be integrate soon\n\n### `/factions revoke <player_name|everyone|factions> <privs|privs_group|all>`\n\n  This is an increased `/revoke <player> <privs|all>` function, accepting to revoke a privs, a group of privs or all privs to a player, a faction or to every connected players.\n  - privs_group is a list of string and is initialized in **/worldpath/privs_group.conf**\n  - factions will be integrate soon\n\n### `/factions empty_inventory <player|faction>`\n\n  Empties inventory of a player or a faction.\n\n### `/factions give <player|faction> <identifier [\\<amount\\>[ \\<wear\\>]]|package>`\n\n  Gives an item or a package to a player or a faction.\n  This is an extension of the basic `/give` command.\n    <amount>: 1-65535, defaults to 1 is optional, only affects stackable nodes, has no effect otherwise (e.g. tools)\n    <wear>: 0-65535, defaults to 0 (intact), requires amount to be specified, only affects tools.\n    Configuration file **<world directory>/unej/manage_give.conf** example:\n\n```\n      { \"packages\": \n        { \n          \"my_package\": [\n            \"default:brick 100\",\n            \"default:pick_steel 1 30000\"\n          ] \n        }\n      }\n```\n\n### `/factions equip <player|faction> <identifier [\\<amount\\>[ \\<wear\\>]]|package>`\n\n  Replaces inventory for a player or a faction.\n  Have the same parameters than `u_give`.\n  Replaces player inventory instead of adding to it\n\n### `/factions packages [\\<package\\>]`\n\n  List and displays information on packages.\n  List available packages (if no argument is given) or the contents of designated package.\n\n\n## License\n\nLicensed under the AGPL (Affero General Public License).\n\n## Funding\n\nThis mod is published with [funding from the NLNet Foundation](https://nlnet.nl/project/MinetestEdu/).\n\n",
-  "maintainers": [
-    "IRI"
-  ],
+  "maintainers": ["IRI"],
   "media_license": "AGPL-3.0-only",
   "name": "playerfactions_ext",
-  "provides": [
-    "playerfactions_ext"
-  ],
+  "provides": ["playerfactions_ext"],
   "release": 28018,
   "repo": "https://forge.apps.education.fr/iri/minetest/playerfactions_ext",
   "score": 8.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/892902f532.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/892902f532.png"],
   "short_description": "extension of Playerfactions which adds sub-commands that allow you to teleport, give/withdraw privs and/or items to all members of a faction at the same time or for one player in a faction.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/892902f532.png",
   "title": "Playerfactions Ext",
   "translation_url": null,
@@ -45,10 +35,7 @@
       {
         "is_optional": false,
         "name": "playerfactions",
-        "packages": [
-          "MeseCraft/mesecraft",
-          "mt-mods/playerfactions"
-        ]
+        "packages": ["MeseCraft/mesecraft", "mt-mods/playerfactions"]
       }
     ],
     "mt-mods/playerfactions": []

@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/SamMatzko/luanti-tieless-tracks/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "#### Note: this mod uses modified code and media from the `advtrains_train_track` mod, which is part of the [Advtrains modpack](https://content.minetest.net/packages/orwell/advtrains/). See the licensing below for more information.\n\nTieless Tracks provides some basic train tracks without crossties. For use in any situation where wooden crossties would be unwanted, such as streetcars, road crossings, and stations.\n\n## Licenses\n- All code is licensed under the GNU Affero General Public License v3.0. See https://www.gnu.org/licenses/ for more information.\n- All media is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/)\n",
-  "maintainers": [
-    "sylvester_kruin"
-  ],
+  "maintainers": ["sylvester_kruin"],
   "media_license": "CC-BY-SA-3.0",
   "name": "tieless_tracks",
-  "provides": [
-    "tieless_tracks"
-  ],
+  "provides": ["tieless_tracks"],
   "release": 25854,
   "repo": "https://codeberg.org/SamMatzko/luanti-tieless-tracks",
   "score": 179.8,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Tracks without crossties for Advanced Trains (advtrains) that can be used on streets and other related things",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/20c97e9114.png",
   "title": "Tieless Tracks",
   "translation_url": null,
@@ -45,16 +39,12 @@
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

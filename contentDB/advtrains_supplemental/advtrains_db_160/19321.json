@@ -25,16 +25,10 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_db_160/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# AdvTrains Train: DB BR 160 (E 60)\n\nThe DB Class 160 is a model by mbb of an electric shunter locomotive originally\ndesignated Deutsche Reichsbahn class E60 and later Deutsche Bundesbahn 160. This\nlocomotive also has 4 passenger seats designated the *Engineers' Area*.\n\nIt has a wagon span of 3.0 m and can travel at 20 m/s (72 km/h)\n\n[View this mod at the Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_db160)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n* Portions of code (C) 2022 Blockhead\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n",
-  "maintainers": [
-    "advtrains_supplemental",
-    "Blockhead",
-    "W3RQ01"
-  ],
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_db_160",
-  "provides": [
-    "advtrains_db_160"
-  ],
+  "provides": ["advtrains_db_160"],
   "release": 19321,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_db_160",
   "score": 13.9,
@@ -45,10 +39,7 @@
   ],
   "short_description": "Adds a DB BR 160 / E60 electric shunting locomotive for advtrains",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/88a58aecfc.png",
   "title": "Advtrains DB 160 (E60)",
   "translation_url": null,
@@ -62,9 +53,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

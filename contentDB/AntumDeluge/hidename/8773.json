@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-hidename/issues",
   "license": "MIT",
   "long_description": "### Description:\n\nA mod that allows players to hide their nametags from view.\n\n### Licensing:\n\n- [MIT](https://github.com/AntumMT/mod-hidename/blob/master/LICENSE.txt)\n\n### Usage:\n\n###### Chat commands:\n\n```\n/nametag [command]\n- commands:\n\t- hide: sets nametag hidden\n\t- show: sets nametag visible\n\t- status: prints the visible/hidden state of nametag (default)\n\n/hidename\n- alias for `/nametag hide`\n\n/showname\n- alias for `/nametag show`\n```\n\n###### Settings:\n\n```\nhidename.use_alpha\n- use alpha color level to hide nametag instead of clearing text\n- type: bool\n- default: false\n```\n\n### Mod Compatibility:\n\n- [![invisibility](https://content.minetest.net/packages/TenPlus1/invisibility/shields/title/)](https://content.minetest.net/packages/TenPlus1/invisibility/) (won't try change nametag while invisible)\n- [![invisible](https://content.minetest.net/packages/AiTechEye/invisible/shields/title/)](https://content.minetest.net/packages/AiTechEye/invisible/) (won't unhide nametag if hidden before sneak)\n\n### Links:\n\n- [Reference](http://antummt.github.io/mod-hidename/reference/)\n- [Changelog](https://github.com/AntumMT/mod-hidename/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-hidename/blob/master/TODO.txt)\n\n### Similar Mods:\n\n- [![invisibility](https://content.minetest.net/packages/TenPlus1/invisibility/shields/title/)](https://content.minetest.net/packages/TenPlus1/invisibility/)\n- [![invisible](https://content.minetest.net/packages/AiTechEye/invisible/shields/title/)](https://content.minetest.net/packages/AiTechEye/invisible/)\n- [![name_hider](https://content.minetest.net/packages/Shara/name_hider/shields/title/)](https://content.minetest.net/packages/Shara/name_hider/)\n- [![cloaking](https://content.minetest.net/packages/luk3yx/cloaking/shields/title/)](https://content.minetest.net/packages/luk3yx/cloaking/)",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "MIT",
   "name": "hidename",
-  "provides": [
-    "hidename"
-  ],
+  "provides": ["hidename"],
   "release": 8773,
   "repo": "https://github.com/AntumMT/mod-hidename",
   "score": -129.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ca86f1665b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ca86f1665b.png"],
   "short_description": "Hide nametag from view.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ca86f1665b.png",
   "title": "Hide Name",
   "translation_url": null,

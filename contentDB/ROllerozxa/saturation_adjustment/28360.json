@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/saturation-adjustment/issues",
   "license": "MIT",
   "long_description": "Adds a chat command that allows you to adjust the saturation of the graphics.\n\nTo use, type `/saturation` in the chat. A slider will show up on the screen allowing you to adjust the saturation, with a scale between 0.0-2.0.\n\nCurrently saturation effects require Tonemapping (`tone_mapping`) to be enabled! This is a limitation of the engine and might not be necessary in a future update however.",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "saturation_adjustment",
-  "provides": [
-    "saturation_adjustment"
-  ],
+  "provides": ["saturation_adjustment"],
   "release": 28360,
   "repo": "https://github.com/rollerozxa/saturation-adjustment",
   "score": 302.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bea7b415e9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bea7b415e9.png"],
   "short_description": "Adds a chat command that allows you to adjust the saturation of the graphics.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bea7b415e9.png",
   "title": "Saturation Adjustment",
   "translation_url": null,

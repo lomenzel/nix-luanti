@@ -11,9 +11,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/Hades_Revisited/issues",
   "license": "LGPL-2.1-only",
   "long_description": "THIS IS AN EARLY TEST VERSION. This game might change drastically in the future.\n\nDue to a gross miscalculation of the gravitational pull of Planet Hades, the latest terraforming attempt of your space crew went horribly wrong! You managed to survive, but it seems you are stranded on this hellhole of a planet full of lava, stone and ash for good!\n\nYou still have a pickaxe and a few apples. Also, water is hidden inside the tall and chaotic stone spires. So your only chance of survival is to search for water, use your crafting skills to form some soil and plant apple trees. More plants might follow. The underground holds great riches, but also great dangers, lava is death. With your new acquired resources, maybe, just maybe, you will turn Planet Hades into a nice, habitable place.\n\nBut beware: Many were not so lucky: Mutants will haunt on the surface and who knows what dangers might hide in the deep underground?\n\nThere's no goal in this game. There's a strong focus on creativity, terraforming and digging. \nThis game is very different from other games, it's not for everyone. ;-)",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hades_revisited",
   "provides": [
@@ -107,12 +105,7 @@
   ],
   "short_description": "You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "player_effects",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mapgen", "player_effects", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9781fc4ca1.png",
   "title": "Hades Revisited",
   "translation_url": null,

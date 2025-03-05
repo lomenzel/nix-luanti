@@ -38,25 +38,17 @@
   "issue_tracker": "https://git.minetest.land/erle/mcl_mushrooms_3d/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod makes small mushrooms render as 3D objects. I have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "AGPL-3.0-or-later",
   "name": "mcl_mushrooms_3d",
-  "provides": [
-    "mcl_mushrooms_3d"
-  ],
+  "provides": ["mcl_mushrooms_3d"],
   "release": 12129,
   "repo": "https://git.minetest.land/erle/mcl_mushrooms_3d",
   "score": 11.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d28229799b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d28229799b.png"],
   "short_description": "Renders small mushrooms as 3D objects in MineClone2/MineClone5/Mineclonia",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d28229799b.png",
   "title": "Mcl Mushrooms 3D",
   "translation_url": null,

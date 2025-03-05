@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "## EXTRA ORDINANCE\nYou have several weapons to choose from. You can dig through the earth. **So can *they*.**\n\nAutomatic 200mm tank cannons, full auto grenade launching shotguns, mining lasers and antimaterial rifles are all standard issue. Tear them up and hold out until extraction!\n\n![](https://content.luanti.org/uploads/84e8067861.jpg)\n\nRemember to open the inventory. That's where all the loadouts, difficulty settings, credits, controls and so on are.\n\nThis is a top down shooter, using the destruction possible in Luanti as a core mechanic. The name says a lot; you're a walking tank made of gratuitous amounts of explosives and weaponry, against a swarm of carnivorous, car-sized bugs.\n\nThis game is singleplayer focused; you *can* play it multiplayer, but latency is the enemy. Much of the game is serverside including movement because of engine limitations, and so if you have more than about 50ms latency you're basically out of luck. If you happen to live 30min walk away from the server on the other hand, you're good to go.\n\nIt is truly a miracle that it got finished in time.\n",
-  "maintainers": [
-    "Sumianvoice"
-  ],
+  "maintainers": ["Sumianvoice"],
   "media_license": "CC-BY-4.0",
   "name": "extra_ordinance",
   "provides": [
@@ -53,13 +51,7 @@
   ],
   "short_description": "You have several weapons to choose from. You can dig through the earth. So can they.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "jam_game_2024",
-    "pve",
-    "shooter",
-    "singleplayer"
-  ],
+  "tags": ["custom_mapgen", "jam_game_2024", "pve", "shooter", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f79c1195b4.png",
   "title": "Extra Ordinance",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://edugit.org/Miniontoby/minetest-qrcode/-/issues",
   "license": "BSD-3-Clause",
   "long_description": "## Minetest QR Code\n\n### Usage:\n\nUse `/qrcode <message>` and it will make a QR Code into the positive x and positive Z directions\n\n\n### Installing mod:\n\n\nDownload from source: https://edugit.org/Miniontoby/minetest-qrcode.git \nOr use ContentDB: https://content.minetest.net/packages/Miniontoby/qrcode\n\n\nIf you minetest gives an error for the function: `dofile('qrencode.lua')` or something like that\nThen add `qrcode` to `secure.trusted_mods` in your minetest.conf and you are good to go\n",
-  "maintainers": [
-    "Miniontoby"
-  ],
+  "maintainers": ["Miniontoby"],
   "media_license": "BSD-3-Clause",
   "name": "qrcode",
-  "provides": [
-    "qrcode"
-  ],
+  "provides": ["qrcode"],
   "release": 10582,
   "repo": "https://edugit.org/Miniontoby/minetest-qrcode",
   "score": 4.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/99c1e9145f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/99c1e9145f.png"],
   "short_description": "Create QR Codes in your world",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/99c1e9145f.png",
   "title": "QR Code",
   "translation_url": null,

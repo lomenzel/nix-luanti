@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/tacotexmex/scramble/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Scramble\n\nRenames all nodes to a hashed equivalent. It does so by truncating the sha1 hash of the node name.\n\n⚠️ Once activated it cannot be uninstalled without breaking the world. \n\n## License\n\nLGPL-2.1\n",
-  "maintainers": [
-    "texmex"
-  ],
+  "maintainers": ["texmex"],
   "media_license": "LGPL-2.1-or-later",
   "name": "scramble",
-  "provides": [
-    "scramble"
-  ],
+  "provides": ["scramble"],
   "release": 19285,
   "repo": "https://github.com/tacotexmex/scramble",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9859606af0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9859606af0.png"],
   "short_description": "Renames all nodes to a hashed equivalent.",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9859606af0.png",
   "title": "Scramble",
   "translation_url": null,

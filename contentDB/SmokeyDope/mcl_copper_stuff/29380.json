@@ -38,14 +38,10 @@
   "issue_tracker": "https://git.minetest.land/MineClone2/MineClone2-Plus/issues/10",
   "license": "GPL-3.0-or-later",
   "long_description": "This adds in copper tools, armor, and decorations to Voxelibre\n\nCopper tools have a durability between stone and iron (except for shears which is half of iron). They are slightly more enchantable than stone, and dig slightly faster than stone (except with shears which dig slightly slower than iron).\n\nTools:\n* Copper Pickaxe\n* Copper Axe\n* Copper Shovel\n* Copper Sword\n* Copper Shears\n* Copper Hoe\n\n\nCopper armor has slightly more durability than leather, slightly more protective value than leather but less than chainmail, and a pink accent color.\n\nArmor:\n* Copper Helmet\n* Copper Chestplate\n* Copper Leggings\n* Copper Boots\n\nDecorations:\n* Copper Chains\n* Copper Bars\n* Copper Lantern\n\nMisc:\n* Copper Nugget",
-  "maintainers": [
-    "SmokeyDope"
-  ],
+  "maintainers": ["SmokeyDope"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_copper_stuff",
-  "provides": [
-    "mcl_copper_stuff"
-  ],
+  "provides": ["mcl_copper_stuff"],
   "release": 29380,
   "repo": null,
   "score": 73.8,
@@ -55,10 +51,7 @@
   ],
   "short_description": "This adds copper tools, armor, and decorations to voxelibre.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "tools"
-  ],
+  "tags": ["decorative", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f73c4a250c.png",
   "title": "Copper Stuff for Voxelibre",
   "translation_url": null,

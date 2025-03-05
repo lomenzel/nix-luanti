@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# X-DE Modpack\n\nIt adds different mods and i modified some of them to my liking.\n\n## License\n\nSee `LICENSE.txt`\n",
-  "maintainers": [
-    "X-DE1"
-  ],
+  "maintainers": ["X-DE1"],
   "media_license": "MIT",
   "name": "xde_modpack",
-  "provides": [
-    "xde_modpack"
-  ],
+  "provides": ["xde_modpack"],
   "release": 29923,
   "repo": "https://github.com/X-DE1/xde_modpack",
   "score": 6.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c5f641a9c1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c5f641a9c1.png"],
   "short_description": "It adds different mods and i modified some of them to my liking.",
   "state": "APPROVED",
-  "tags": [
-    "mtg"
-  ],
+  "tags": ["mtg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c5f641a9c1.png",
   "title": "X-DE Modpack",
   "translation_url": null,
@@ -458,10 +450,7 @@
       {
         "is_optional": false,
         "name": "redef",
-        "packages": [
-          "Linuxdirk/redef",
-          "Big_Caballito/no_mans_land"
-        ]
+        "packages": ["Linuxdirk/redef", "Big_Caballito/no_mans_land"]
       },
       {
         "is_optional": false,
@@ -480,9 +469,7 @@
       {
         "is_optional": false,
         "name": "easy_night",
-        "packages": [
-          "X-DE1/easy_night"
-        ]
+        "packages": ["X-DE1/easy_night"]
       },
       {
         "is_optional": false,
@@ -535,16 +522,12 @@
       {
         "is_optional": false,
         "name": "spyglass",
-        "packages": [
-          "StarNinjas/spyglass"
-        ]
+        "packages": ["StarNinjas/spyglass"]
       },
       {
         "is_optional": false,
         "name": "farming_flood",
-        "packages": [
-          "AFCM/farming_flood"
-        ]
+        "packages": ["AFCM/farming_flood"]
       },
       {
         "is_optional": false,
@@ -558,9 +541,7 @@
       {
         "is_optional": false,
         "name": "regrow",
-        "packages": [
-          "TenPlus1/regrow"
-        ]
+        "packages": ["TenPlus1/regrow"]
       },
       {
         "is_optional": false,
@@ -577,23 +558,17 @@
       {
         "is_optional": false,
         "name": "spawners_env",
-        "packages": [
-          "SaKeL/spawners"
-        ]
+        "packages": ["SaKeL/spawners"]
       },
       {
         "is_optional": false,
         "name": "tph_eating",
-        "packages": [
-          "TPH/tph_eating"
-        ]
+        "packages": ["TPH/tph_eating"]
       },
       {
         "is_optional": false,
         "name": "bucket_wooden",
-        "packages": [
-          "Hume2/bucket_wooden"
-        ]
+        "packages": ["Hume2/bucket_wooden"]
       },
       {
         "is_optional": false,
@@ -612,61 +587,42 @@
       {
         "is_optional": false,
         "name": "animalia",
-        "packages": [
-          "EmptyStar/asuna",
-          "ElCeejo/animalia"
-        ]
+        "packages": ["EmptyStar/asuna", "ElCeejo/animalia"]
       },
       {
         "is_optional": false,
         "name": "x_enchanting",
-        "packages": [
-          "SaKeL/x_enchanting"
-        ]
+        "packages": ["SaKeL/x_enchanting"]
       },
       {
         "is_optional": false,
         "name": "x_farming",
-        "packages": [
-          "EmptyStar/asuna",
-          "SaKeL/x_farming"
-        ]
+        "packages": ["EmptyStar/asuna", "SaKeL/x_farming"]
       },
       {
         "is_optional": false,
         "name": "mob_biome_mapper",
-        "packages": [
-          "Neuromancer/mob_biome_mapper"
-        ]
+        "packages": ["Neuromancer/mob_biome_mapper"]
       },
       {
         "is_optional": false,
         "name": "simple_crafting",
-        "packages": [
-          "shaft/simple_crafting"
-        ]
+        "packages": ["shaft/simple_crafting"]
       },
       {
         "is_optional": false,
         "name": "x_bows",
-        "packages": [
-          "SaKeL/x_bows"
-        ]
+        "packages": ["SaKeL/x_bows"]
       },
       {
         "is_optional": false,
         "name": "simple_woodcutter",
-        "packages": [
-          "luarocks/simple_woodcutter"
-        ]
+        "packages": ["luarocks/simple_woodcutter"]
       },
       {
         "is_optional": false,
         "name": "everness",
-        "packages": [
-          "SaKeL/everness",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["SaKeL/everness", "EmptyStar/asuna"]
       },
       {
         "is_optional": false,

@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# cinematic_zoom\n\nA simple mod that replaces the built-in zoom feature with a cool looking animation.\n\nMight lag on servers, but it *is* multiplayer compatible.\n\nIt's also very customizable in the mod settings, from the speed of the animations to what key you press to activate it.\n\nIt even has sound if you enable it in the settings!",
-  "maintainers": [
-    "Fennelfox"
-  ],
+  "maintainers": ["Fennelfox"],
   "media_license": "CC0-1.0",
   "name": "cinematic_zoom",
-  "provides": [
-    "cinematic_zoom"
-  ],
+  "provides": ["cinematic_zoom"],
   "release": 21023,
   "repo": "https://github.com/fennelfox/cinematic_zoom",
   "score": 640.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dce032af0c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dce032af0c.png"],
   "short_description": "Replaces the built-in zooming feature with a cool, nicer-looking animation.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dce032af0c.png",
   "title": "Cinematic Zoom",
   "translation_url": null,

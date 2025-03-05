@@ -51,25 +51,17 @@
   "issue_tracker": "https://github.com/sfence/painting/issues",
   "license": "MIT",
   "long_description": "Add in-game painting to game. \nThis mod is based on [painting](https://forum.minetest.net/viewtopic.php?t=2588) mod from [jin-xi](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=2266) and others.\n\n\nShould be compatible with older versions of the painting mod (https://github.com/sfence/painting/releases/tag/2.0.0 and https://github.com/sfence/painting/releases/tag/0.9.0). ***But before updating, I highly recommend making a backup of the world. ***\n\nChat commands painting_export, painting_export_tga and painting_import can be used to save paintings into files or import them from files. It requires paintint_export or painting_import privilege.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "painting",
-  "provides": [
-    "painting"
-  ],
+  "provides": ["painting"],
   "release": 29641,
   "repo": "https://github.com/sfence/painting",
   "score": 191.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1b5e2dc2b5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1b5e2dc2b5.png"],
   "short_description": "In-game painting.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1b5e2dc2b5.png",
   "title": "Painting 3",
   "translation_url": null,

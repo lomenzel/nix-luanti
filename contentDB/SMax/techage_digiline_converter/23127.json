@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/MaxSMaker/mesecons_luacontroller_term/issues",
   "license": "AGPL-3.0-only",
   "long_description": "TA3 mesecons converter exist in techage. What about the digiline converter?\n\n\"TA4 Digiline Converter\" can send messages to any TA block via digiline:\n\n```lua\n-- Enable block\ndigiline_send(\"converter\", {number = 27, command = \"on\"})\n-- Read in chest\ndigiline_send(\"converter\", {number = 32, command = \"count\", data = 1})\n-- Chest's response comes as a digiline message (if the target block responds):\n-- {type = \"digiline\", channel = \"converter\", msg = {number = 32, command = \"count\", data = 1, result = 20}}\n```\n\nOr TA message can be send in chat command format: `<number> <command> [<data>]`:\n\n```lua\n-- Enable block\ndigiline_send(\"converter\", \"27 on\")\n-- Read in chest\ndigiline_send(\"converter\", \"32 count 1\")\n-- Chest's response comes as a digiline message (if the target block responds):\n--  {type = \"digiline\", channel = \"converter\", msg = {number = 32, command = \"count\", data = 1, result = 20}}\n```\n\nThe block can process incoming messages (but cannot respond to them):\n\n```lua\n-- Event format:  {type = \"digiline\", channel = \"converter\", msg = {number = <src block number>, command = \"<command>\", data = <data>}}\n-- Src block number always income as a number\nif event.type == \"digiline\" and event.channel == \"converter\" and event.msg.number == 27 and event.msg.command == \"on\" then\n  port.a = true\nend\n```\n",
-  "maintainers": [
-    "SMax"
-  ],
+  "maintainers": ["SMax"],
   "media_license": "AGPL-3.0-only",
   "name": "techage_digiline_converter",
-  "provides": [
-    "techage_digiline_converter"
-  ],
+  "provides": ["techage_digiline_converter"],
   "release": 23127,
   "repo": "https://github.com/MaxSMaker/techage_digiline_converter",
   "score": 8,
@@ -42,9 +38,7 @@
   ],
   "short_description": "Connect your techage factory to luacontroller!",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cd24b1b9b9.png",
   "title": "Techage Digiline Converter",
   "translation_url": null,
@@ -72,9 +66,7 @@
       {
         "is_optional": false,
         "name": "techage",
-        "packages": [
-          "joe7575/techage_modpack"
-        ]
+        "packages": ["joe7575/techage_modpack"]
       }
     ],
     "joe7575/techage_modpack": [

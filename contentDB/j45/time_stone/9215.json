@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Minetest-j45/time_stone/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "# time_stone\n\n## What this mod does\nThis mod adds 2 single use stones, a day stone and a night stone, the day stone turns time to sunrise and the night stone turns time to sunset.\n\n## License\ncoding: j45, LGPL 2.1<br>\ntextures: j45, CC-BY-SA 4.0 <br>\n\n## Dependencies\nDefault\n\n## Version\nv1.0\n\n## Special thanks\nThanks to:<br>\nyayyer: the idea for this mod<br>\ndiscord: yayyer#5489<br>\n\n## Contact\nTo contact me, message me on discord, my name and hashtag is: j45#7171<br>\n",
-  "maintainers": [
-    "j45"
-  ],
+  "maintainers": ["j45"],
   "media_license": "CC-BY-SA-4.0",
   "name": "time_stone",
-  "provides": [
-    "time_stone"
-  ],
+  "provides": ["time_stone"],
   "release": 9215,
   "repo": "https://github.com/Minetest-j45/time_stone",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0311e57e3b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0311e57e3b.png"],
   "short_description": "This mod adds 2 single use stones, a day stone and a night stone, the day stone turns time to sunrise and the night stone turns time to sunset.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0311e57e3b.png",
   "title": "Time Stone",
   "translation_url": null,

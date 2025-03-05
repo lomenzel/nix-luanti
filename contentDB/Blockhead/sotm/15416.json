@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/Montandalar/secrets_of_the_moon/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# Secrets of the Moon Game for Minetest\nSecrets of the moon is a game about discovering what the moon is made of by\nexcavating it. It was made in less than a week for the [Minetest 2022 GAME\nJAM](https://forum.minetest.net/viewtopic.php?f=18&t=28802) and features many\noriginal assets: sounds, textures, a model and even a little bit of music..\n\n## Compatibility\n\nTested on Minetest 5.6.1, backwards compatibility not guaranteed.\n\n## Licence\nAll my original code is licensed under the GNU Affero General Public License 3.0 (AGPL), but there are some submodules with other licenses.\n\nAll my original media assets are licensed under the Creative Commons Attribution-ShareAlike International 4.0 Licensed (CC BY-SA 4.0), but there are some other licenses, all Creative Commons of some variety as far as I know though.\n\nSee the source tree for full licence info.\n",
-  "maintainers": [
-    "Blockhead"
-  ],
+  "maintainers": ["Blockhead"],
   "media_license": "CC-BY-SA-4.0",
   "name": "sotm",
   "provides": [
@@ -40,12 +38,7 @@
   ],
   "short_description": "Discover the true nature of the moon",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "sound_music",
-    "technology",
-    "tools"
-  ],
+  "tags": ["jam_game_2022", "sound_music", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7fc5a0c120.png",
   "title": "Secrets of the Moon",
   "translation_url": null,

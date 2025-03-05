@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,26 +377,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "# Dyed Water Mod\n\nColourful water for Minetest game.\n\nAdds the liquids and buckets for them. To craft, combine a bucket of water or river water with the dye to make a bucket of dyed water with the colour of dye you used.\n\ndisclaimer: this mod was made by someone who likes weird things so you probably cant trust me or the mod. even tho u can audit the source code ya know. its pretty small codebase.\n\n## Credit\n\n### MTG default textures modified by me and available under the following license.\n\nLicenses of media (textures, models and sounds)\n-----------------------------------------------\n\nAttribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)\nCopyright (C) 2010-2023:\n\n  celeron55, Perttu Ahola <celeron55@gmail.com>\n  Cisoun\n  G4JC\n  VanessaE\n  RealBadAngel\n  Calinou\n  MirceaKitsune\n  Jordach\n  PilzAdam\n  jojoa1997\n  InfinityProject\n  Splizard\n  Zeg9\n  paramat\n  BlockMen\n  sofar\n  Neuromancer\n  Gambit\n  asl97\n  KevDoy\n  Mito551\n  GreenXenith\n  kaeza\n  kilbith\n  tobyplowy\n  CloudyProton\n  TumeniNodes\n  Mossmanikin\n  random-geek\n  Extex101\n  An0n3m0us\n  Lopano\n\nYou are free to:\nShare — copy and redistribute the material in any medium or format.\nAdapt — remix, transform, and build upon the material for any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit, provide a link to the license, and\nindicate if changes were made. You may do so in any reasonable manner, but not in any way\nthat suggests the licensor endorses you or your use.\n\nShareAlike — If you remix, transform, or build upon the material, you must distribute\nyour contributions under the same license as the original.\n\nNo additional restrictions — You may not apply legal terms or technological measures that\nlegally restrict others from doing anything the license permits.\n\nNotices:\n\nYou do not have to comply with the license for elements of the material in the public\ndomain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary\nfor your intended use. For example, other rights such as publicity, privacy, or moral\nrights may limit how you use the material.\n\nFor more details:\nhttp://creativecommons.org/licenses/by-sa/3.0/\n\n### MTG bucket textures modified by me and available under the following license.\n\nLicenses of media (textures)\n----------------------------\n\nAttribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)\nCopyright (C) 2015-2016 ElementW\n\nYou are free to:\nShare — copy and redistribute the material in any medium or format.\nAdapt — remix, transform, and build upon the material for any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit, provide a link to the license, and\nindicate if changes were made. You may do so in any reasonable manner, but not in any way\nthat suggests the licensor endorses you or your use.\n\nShareAlike — If you remix, transform, or build upon the material, you must distribute\nyour contributions under the same license as the original.\n\nNo additional restrictions — You may not apply legal terms or technological measures that\nlegally restrict others from doing anything the license permits.\n\nNotices:\n\nYou do not have to comply with the license for elements of the material in the public\ndomain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary\nfor your intended use. For example, other rights such as publicity, privacy, or moral\nrights may limit how you use the material.\n\nFor more details:\nhttp://creativecommons.org/licenses/by-sa/3.0/",
-  "maintainers": [
-    "erov"
-  ],
+  "maintainers": ["erov"],
   "media_license": "CC-BY-SA-3.0",
   "name": "dyed_water",
-  "provides": [
-    "dyed_water"
-  ],
+  "provides": ["dyed_water"],
   "release": 21810,
   "repo": "https://gitoverit.ofafox.com/mt-server-mods/dyed_water",
   "score": 16.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f531b95d77.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f531b95d77.png"],
   "short_description": "Dyed water for mtg",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "decorative"
-  ],
+  "tags": ["creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f531b95d77.png",
   "title": "Dyed Water",
   "translation_url": null,

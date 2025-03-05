@@ -76,9 +76,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -236,14 +234,10 @@
   "issue_tracker": "https://github.com/OgelGames/minimap_radar/issues",
   "license": "MIT",
   "long_description": "A simple extension to Minetest Game's `map` mod, this mod adds a single craftable item, that when placed in a player's inventory, enables the use of the radar mode of the minimap.\n\n---\n\n### Usage\n\n1. Craft (or give yourself) the Radar item (see crafting below).\n2. Place the Radar item anywhere in your inventory.\n3. Use the **Minimap** key to toggle the minimap on, and switch between modes.\n\nNote that the Radar item also enables the surface mode of the minimap, which means you don't need to carry a Mapping Kit in your inventory if you have a Radar item.\n\n---\n\n### Crafting\n\nThe crafting recipe for the Radar item changes depending on which mods are installed:\n\n- Minetest Game only:\n\n![Default Recipe](https://content.minetest.net/uploads/oFj4FUbDs1.png \"Default Recipe\")\n\n- With Moreores installed:\n\n![Moreores Recipe](https://content.minetest.net/uploads/l2rU6qV9F7.png \"Moreores Recipe\")\n\n- With Technic installed:\n\n![Technic Recipe](https://content.minetest.net/uploads/PmXJgANc2m.png \"Technic Recipe\")",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "minimap_radar",
-  "provides": [
-    "minimap_radar"
-  ],
+  "provides": ["minimap_radar"],
   "release": 9976,
   "repo": "https://github.com/OgelGames/minimap_radar",
   "score": 169.7,
@@ -256,11 +250,7 @@
   ],
   "short_description": "A simple mod that enables the use of the minimap radar with a craftable item",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "survival",
-    "tools"
-  ],
+  "tags": ["hud", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pQ665Zs1Es.png",
   "title": "Minimap Radar",
   "translation_url": null,

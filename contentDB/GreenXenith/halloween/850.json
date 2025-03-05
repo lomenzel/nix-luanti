@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,28 +364,17 @@
   "issue_tracker": "https://github.com/GreenXenith/halloween/issues/",
   "license": "MIT",
   "long_description": "Adds Halloween costumes and treats.  \n\nDepends on Stu's 3d_armor (optional, but costumes wont register without it),  \nTenPlus1's farming_redo, dye, and default.  \n\n* **Candie Stuffs**:  \n\t* Generic Halloween Candy  \n\t* Lolipop  \n\t* Caramel Apple  \n\t* Candycorn  \n\t* Caramelized Sugar (for crafting)  \n\t\n* **Costumes**:  \n\t* Dark Unicorn  \n\t* Devil  \n\t* Female Devil  \n\t* Dinosaur  \n\t* Frankenstein (Frankenstein's Monster)  \n\t* Ghost  \n\t* Harry Potter  \n\t* Killer  \n\t* Glow-in-the-Dark Skeleton (actually glows in 5.0+)  \n\t* Grim Reaper  \n\t* Pink Dinosaur  \n\t* Pumpkin Monster  \n\t* Totoro  \n\t* Unicorn\n\t* Vampire  \n\t* Wearwolf  \n\t* Pumpkin Mask  \n\t* Cat Mask  \n\t* Halloween Hoodie  \n\t\n**IMPORTANT:** Costumes are not craftable, and are therefore only obtainable  \nusing /giveme or the creative inventory.  \n\n**Crafting:**  \n\n* Caramelized Sugar:  \nCook sugar in furnace.  \n\n* Lolipop:  \n(o = orange dye, p = paper, c = caramelized sugar, s = stick)  \n```\n+-+-+-+\n| |o| |\n+-+-+-+\n|p|c|p|\n+-+-+-+\n| |s| |\n+-+-+-+\n```\n\n* Candycorn:  \nShapeless - Orange dye, yellow dye, white dye, caramelized sugar.  \n\n* Halloween Candy  \nShapeless - Bar of Dark Chocolate (farming_redo), paper, orange dye, caramelized sugar.  \n\n* Caramel Apple  \n(c = caramelized sugar, a = apple, s = stick)  \n```\n+-+-+-+\n| |c| |\n+-+-+-+\n| |a| |\n+-+-+-+\n| |s| |\n+-+-+-+\n```\n\n",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "halloween",
-  "provides": [
-    "halloween"
-  ],
+  "provides": ["halloween"],
   "release": 850,
   "repo": "https://github.com/GreenXenith/halloween",
   "score": 324.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cRMW18GbYd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cRMW18GbYd.png"],
   "short_description": "Adds Halloween candy and costumes.",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming",
-    "player_effects",
-    "seasonal"
-  ],
+  "tags": ["food", "plants_and_farming", "player_effects", "seasonal"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cRMW18GbYd.png",
   "title": "Halloween",
   "translation_url": null,

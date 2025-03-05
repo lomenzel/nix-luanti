@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-scaffolding/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Just the scaffolding from the bridger mod:\nhttps://content.minetest.net/packages/v-rob/bridger/\n\n\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "scaffolding",
-  "provides": [
-    "scaffolding"
-  ],
+  "provides": ["scaffolding"],
   "release": 20099,
   "repo": "https://github.com/fluxionary/minetest-scaffolding.git",
   "score": 154.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/07b26aa81e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/07b26aa81e.png"],
   "short_description": "scaffolding, to help in building projects.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics"
-  ],
+  "tags": ["building", "building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/07b26aa81e.png",
   "title": "scaffolding (flux's version)",
   "translation_url": null,
@@ -45,10 +36,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

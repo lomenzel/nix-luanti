@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/one_for_all/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# One For All\n\nThis simple mod causes every player to die if any one dies,\nideally forcing everyone to work together.\n\n\nThe source is available on github.\n\nCode: LGPL2\n\nMod dependencies: none\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "LGPL-2.1-only",
   "name": "one_for_all",
-  "provides": [
-    "one_for_all"
-  ],
+  "provides": ["one_for_all"],
   "release": 12148,
   "repo": "https://github.com/mt-mods/one_for_all",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/42a9990792.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/42a9990792.png"],
   "short_description": "bans all players if one dies",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/42a9990792.png",
   "title": "One For All",
   "translation_url": null,

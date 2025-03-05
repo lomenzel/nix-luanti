@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "Artifact is a simple adventure game created for the 2024 Minetest (Luanti) game jam.\n\nThe player takes the part of an adventurer named Key, who is on a mission to find and destroy a rumored source of evil at the bottom of a cave. Little does he understand the forces and factors at play.\n\nBecause Artifact was made in 3 weeks and I let several days get away from me, puzzles are minimal and the latter cutscenes have very poor quality, for which I apologize in advance.\n",
-  "maintainers": [
-    "Signal_"
-  ],
+  "maintainers": ["Signal_"],
   "media_license": "CC0-1.0",
   "name": "artifact",
   "provides": [
@@ -28,17 +26,10 @@
   "release": 28543,
   "repo": "https://github.com/bench245/Artifact",
   "score": 1202.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/09fda35d46.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/09fda35d46.png"],
   "short_description": "An atmospheric adventure game.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "jam_game_2024",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["adventure__rpg", "jam_game_2024", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/09fda35d46.png",
   "title": "Artifact",
   "translation_url": null,

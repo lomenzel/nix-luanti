@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/TechNolaByte/Mystical-Agriculture/issues",
   "license": "MIT",
   "long_description": "# Mystical Agriculture (For Minetest)\nThe \"grow-everything\" mod.\n\n## What does it do?\nThis mod allows you to farm many resources that you otherwise would be unable to farm.  \nThe purpose is to allow passive resource generation to reduce or replace the burden of mining, exploring, etc.\nAdditionally, the mod can eliminate the need for destructive terraforming—if you love your world too much to destroy it for the sake of gathering dirt, stone, ore, etc... or if you play Skyblock and simply don't have the option of mining terrain, then this mod is for you!\n\n## How do I farm everything?\nEach compatible resource has seeds, plants, and essence.  \nCraft and place seeds on farmland (or special growth crystals) to grow plants which, when ripe and harvested, produce unique essence; collect and craft essences into the given resource. You can farm a lot of different resources, even diamonds :)\n\n## My avarice is unsatiated. How do I get MORE and FASTER?\nCrops will grow on normal farmland, but they grow slowly.  \nTo speed things up, use magical fertilizer.  \nTo invest in a permanent speed buff, place a growth crystal under the soil.  \nStill not enough? Place crops on harvest crystals instead of soil for them to automatically harvest mature crops. (Best paired with a technical mod that allows for the automatic collection of items.)\nSTILL not enough? Don't forget rule #1 of farming: invest your output back into crafting more seeds for a larger farm.\n\n## BUT MY FAVOURITE MOD/RESOURCE ISN'T SUPPORTED :( :(\nDo not be sad! It is quite easy to add new resources!  \nSee forum post for technical details.\n\n## Credits \nSee the included file (license.txt).",
-  "maintainers": [
-    "TechNolaByte"
-  ],
+  "maintainers": ["TechNolaByte"],
   "media_license": "LGPL-2.1-only",
   "name": "mystical_agriculture",
-  "provides": [
-    "mystical_agriculture"
-  ],
+  "provides": ["mystical_agriculture"],
   "release": 24099,
   "repo": "https://github.com/TechNolaByte/Mystical-Agriculture",
   "score": -128.8,
@@ -437,10 +431,7 @@
   ],
   "short_description": "Adds Resource Crops, Seeds, Essences, and other cool things!",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/57bb921aab.png",
   "title": "Mystical Agriculture",
   "translation_url": null,

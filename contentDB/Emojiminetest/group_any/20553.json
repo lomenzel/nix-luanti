@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/group_any/issues",
   "license": "MIT",
   "long_description": "## Want to allow any item to go into the crafting grid?\nThis mod registers serveral groups that can be used to include items into the grid according to their technical category.\n\n### Groups\n* `group:any`: All registered items, including craftitems, tools, and nodes. Note that `air`, `ignore`, `:` (hand) and unknown items are not in the list.\n* `group:node`: All registered nodes.\n* `group:craftitem`: All registered craftitems.\n* `group:tool`: All registered tools.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "group_any",
-  "provides": [
-    "group_any"
-  ],
+  "provides": ["group_any"],
   "release": 20553,
   "repo": "https://github.com/C-C-Minetest-Server/group_any",
   "score": 1.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/21cfe78252.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/21cfe78252.png"],
   "short_description": "Item group applied to ALL items for crafting recipes.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/21cfe78252.png",
   "title": "group:any",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/DragonWrangler1/minetest-better_roads/issues",
   "license": "MIT",
   "long_description": "Better Roads allows players to have roads with less jagged edges, giving a slightly smoother look.\n\nEthereal support coming soon\n\nMore angles coming soon\n\ntranslations coming soon",
-  "maintainers": [
-    "DragonWrangler"
-  ],
+  "maintainers": ["DragonWrangler"],
   "media_license": "CC-BY-SA-3.0",
   "name": "better_roads",
-  "provides": [
-    "better_roads"
-  ],
+  "provides": ["better_roads"],
   "release": 24915,
   "repo": "https://github.com/DragonWrangler1/minetest-better_roads",
   "score": 8.2,
@@ -448,10 +442,7 @@
   ],
   "short_description": "allows players to make roads with less jagged edges",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a56843f0c5.png",
   "title": "Better Roads",
   "translation_url": null,

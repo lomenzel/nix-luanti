@@ -25,9 +25,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_retroplus/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "This is a texture pack for Minetest Game that is based on the textures from the earliest versions of Minetest-c55 (the original name of Luanti).\n\nOn top, I created my own textures that roughly follow the same style for things that did not exist back then.\n\n**Coverage**: This texture pack guarantees full coverage for Minetest Game versions 5.4.0 to 5.9.0. Other versions may have full or high coverage as well.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "retroplus",
   "provides": [],
@@ -42,9 +40,7 @@
   ],
   "short_description": "Look and feel of the oldest versions of Minetest-c55",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8d7c38e210.png",
   "title": "Retro Plus",
   "translation_url": null,

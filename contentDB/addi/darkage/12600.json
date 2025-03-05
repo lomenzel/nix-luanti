@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/adrido/darkage/issues/",
   "license": "GPL-2.0-only",
   "long_description": "DarkAge adds several new nodes and crafts to create a pre industrial landscape. \nIt also extends the stones and provides new construction materials.",
-  "maintainers": [
-    "addi"
-  ],
+  "maintainers": ["addi"],
   "media_license": "GPL-2.0-only",
   "name": "darkage",
-  "provides": [
-    "darkage"
-  ],
+  "provides": ["darkage"],
   "release": 12600,
   "repo": "https://github.com/adrido/darkage",
   "score": 173.8,
@@ -438,10 +432,7 @@
   ],
   "short_description": "DarkAge adds several new nodes and crafts to create a pre industrial landscape.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9AbgHrP7cr.png",
   "title": "Darkage - the original plus improvements",
   "translation_url": null,

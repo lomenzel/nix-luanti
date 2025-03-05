@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/mobkit/issues/new",
   "license": "MIT",
   "long_description": "LUA API simplifying the process of creating complex entities, mobs and NPC's. \nSee mobkit_api.txt inside the package for details.\nSee this mod: https://content.minetest.net/packages/Termos/wildlife/ for usage example.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "mobkit",
-  "provides": [
-    "mobkit"
-  ],
+  "provides": ["mobkit"],
   "release": 27158,
   "repo": "https://github.com/mt-mods/mobkit",
   "score": 886.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/GDwsH5MWL4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/GDwsH5MWL4.png"],
   "short_description": "Entity API",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mobs"
-  ],
+  "tags": ["library", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GDwsH5MWL4.png",
   "title": "Mobkit",
   "translation_url": null,

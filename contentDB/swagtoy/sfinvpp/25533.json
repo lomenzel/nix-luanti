@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/swagtoy/mod_sfinvpp/issues",
   "license": "BSD-2-Clause-FreeBSD",
   "long_description": "# sfinv++\n\nSlight tweaks to sfinv and some surrounding elements. Think of this as a souped down i3.\n\n- Changes inventory size to 10x6\n\t\t\t- This will soon be modifiable\n- Adds big chests\n- Adjusts chest and furnace formspec to match inventory size\n\t\t\t- Will add support for Techage forms later\n- Adds trash button to crafting formspec\n- Tweaks some other formspecs\n\nDependencies: `default`\n\nOptional dependencies: `3d_armor, 3d_armor_sfinv`\n\n### Attributions\n\n- Original Chest textures for `minetest_game` created by BlockMen *(CC-BY-SA 3.0)*\n- Heart/bubble gone textures belong to Wuzzy from `tutorial` game *(GPL-2.0)*\n\n# License\n\nLicensed under BSD 2-Clause.",
-  "maintainers": [
-    "swagtoy"
-  ],
+  "maintainers": ["swagtoy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sfinvpp",
-  "provides": [
-    "sfinvpp"
-  ],
+  "provides": ["sfinvpp"],
   "release": 25533,
   "repo": "https://github.com/swagtoy/mod_sfinvpp",
   "score": 10.4,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Improves the inventory, and fixes some formspecs throughout some mods.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "gui",
-    "inventory"
-  ],
+  "tags": ["crafting", "gui", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7738911d6c.png",
   "title": "sfinv++",
   "translation_url": null,

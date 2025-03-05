@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,12 +416,7 @@
   "issue_tracker": "https://github.com/mt-mods/technic/issues",
   "license": "LGPL-2.1-only",
   "long_description": "The technic modpack extends the Minetest game with many new elements, mainly constructable machines and tools. \nIt is a large modpack, and tends to dominate gameplay when it is used.\n\n[Manuals and documentation](https://github.com/mt-mods/technic/blob/master/README.md)\n\n**NOTE**: This is an unofficial but extended fork of the official [technic](https://content.minetest.net/packages/RealBadAngel/technic/) mod\n\nSee [Technic Plus Beta package](https://content.minetest.net/packages/mt-mods/technic_plus_beta/) for latest, possibly unstable, development release.\n\n### Notable differences to official technic mod\n\n* Chainsaw and HV Quarry re-implementation\n* Switching station lag/polyfuse and globalstep execution\n* No forceload hacks\n* Additional HV machines\n* LV, MV, and HV digiline cables\n* Large parts of power network handling rewritten\n* Cheat mitigation through network overload mechanism\n* HV Grinder, Furnace, and Compressor\n* LV Lamp\n* Advanced chests\n* Less ABM triggers registered\n\n### Things to check if upgrading from official technic mod\n\n* As of 1.2.0 tubelib is not supported anymore.\n* Machines placed will not have all metadata used by official technic mod and might not work corretctly if reverting back to official mod.",
-  "maintainers": [
-    "mt-mods",
-    "BuckarooBanzay",
-    "OgelGames",
-    "-SX-"
-  ],
+  "maintainers": ["mt-mods", "BuckarooBanzay", "OgelGames", "-SX-"],
   "media_license": "LGPL-2.1-only",
   "name": "technic_plus",
   "provides": [
@@ -438,16 +431,10 @@
   "release": 29609,
   "repo": "https://github.com/mt-mods/technic",
   "score": 715,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9a6daD5K0t.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9a6daD5K0t.png"],
   "short_description": "Technic fork with focus on features and stability",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "technology",
-    "tools"
-  ],
+  "tags": ["mapgen", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9a6daD5K0t.png",
   "title": "Technic Plus",
   "translation_url": null,

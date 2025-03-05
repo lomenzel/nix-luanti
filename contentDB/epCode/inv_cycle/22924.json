@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "By pressing `sneak`+`use`, you can cycle your inventory rows.\n\nthis means that if you want to have different hotbar presets to quickly switch between, such as a fighting row (swords, bow, shield etc.) and a farming row (hoe, seeds, water etc.) all you have to do to swich between those two is press `sneak`+`use`!\n\n\nHope this is helpful, enjoy!\n\n\n*side note, best technique is to hold `sneak`, and tap `use`.*",
-  "maintainers": [
-    "epCode"
-  ],
+  "maintainers": ["epCode"],
   "media_license": "MIT",
   "name": "inv_cycle",
-  "provides": [
-    "inv_cycle"
-  ],
+  "provides": ["inv_cycle"],
   "release": 22924,
   "repo": "https://github.com/epCode/inv_cycle.git",
   "score": 156.5,
@@ -55,9 +51,7 @@
   ],
   "short_description": "With sneak+use, cycle rows in your inventory!",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8353cbe005.png",
   "title": "Inventory Cycle",
   "translation_url": null,

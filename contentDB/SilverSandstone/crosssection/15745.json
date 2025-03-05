@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "**WARNING: This mod is intended only for test worlds.**\n\nThis mod deletes half of the world when generating, allowing you to see a cross-section.\nThis can be useful for testing world generation.",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "crosssection",
-  "provides": [
-    "crosssection"
-  ],
+  "provides": ["crosssection"],
   "release": 15745,
   "repo": null,
   "score": 302.9,
@@ -30,9 +26,7 @@
   ],
   "short_description": "Cuts the world in half.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools"
-  ],
+  "tags": ["developer_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a3a819ed40.png",
   "title": "Cross-Section",
   "translation_url": null,

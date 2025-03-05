@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,15 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod adds sieves that are used to separate things from sand. Using a sieve destroys the sand.\n\nYou can use it on normal sand, desert sand or silver sand.\n\nYou will often get useless items (or nothing at all), but occasionally you can get valuable minerals which makes it worth it to use sieves.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sieves",
-  "provides": [
-    "junk_items",
-    "sieves"
-  ],
+  "provides": ["junk_items", "sieves"],
   "release": 21538,
   "repo": null,
   "score": 158.3,
@@ -436,9 +429,7 @@
   ],
   "short_description": "Adds sieves that are used to separate (occasionally) valuable debris from sand.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/02c5b2f57d.png",
   "title": "Sieves",
   "translation_url": null,
@@ -481,9 +472,7 @@
       {
         "is_optional": false,
         "name": "nuggets",
-        "packages": [
-          "Jolesh/nuggets"
-        ]
+        "packages": ["Jolesh/nuggets"]
       },
       {
         "is_optional": false,

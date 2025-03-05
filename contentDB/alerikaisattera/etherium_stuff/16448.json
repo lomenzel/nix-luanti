@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,26 +325,17 @@
   "issue_tracker": "https://gitlab.com/alerikaisattera/etherium_stuff/-/issues",
   "license": "GPL-2.0-only",
   "long_description": "# Etherium stuff\n\nDecorative stuff using ethereal's etherium dust\n\nMost of solid nodes can be placed in air\n\nForked from https://notabug.org/rbduck/minetest_etherium_stuff\n\n\n",
-  "maintainers": [
-    "alerikaisattera"
-  ],
+  "maintainers": ["alerikaisattera"],
   "media_license": "CC-BY-3.0",
   "name": "etherium_stuff",
-  "provides": [
-    "etherium_stuff"
-  ],
+  "provides": ["etherium_stuff"],
   "release": 16448,
   "repo": "https://gitlab.com/alerikaisattera/etherium_stuff",
   "score": 158.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/72864d95ad.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/72864d95ad.jpg"],
   "short_description": "Decorative stuff using ethereal's etherium dust",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/72864d95ad.png",
   "title": "Etherium Stuff",
   "translation_url": null,
@@ -597,18 +586,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

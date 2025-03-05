@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -275,25 +273,17 @@
   "issue_tracker": null,
   "license": "Apache-2.0",
   "long_description": "# More interesting mapping tools\n### Why did you make this?  Who FORCED you?!\n\nMe and my friends (comrades) often play on my techage survival + warfare server.  One figured out that she can craft a map and just blast players through walls with her 200-watt mapborne gaze.\n\nI ought to forbid such abuse.\n\nFor default maps can be crafted in the very beginning of survival, even with TechAge, they grant too much power to a new player.\nThis mod makes maps (GPS and the Radar) only available in TA3/TA4.\nThey require batteries and are quite limited in lifetime (replaceable batteries!).\nMoreover, it does something better than just replacing recipes: if you do not have a radar or a GPS switched on in your inventory (rephrasing: if you **don't see**), you **aren't seen** either.\n\n## Is seen the one who sees.",
-  "maintainers": [
-    "LissoBone"
-  ],
+  "maintainers": ["LissoBone"],
   "media_license": "CC0-1.0",
   "name": "nomap",
-  "provides": [
-    "nomap"
-  ],
+  "provides": ["nomap"],
   "release": 24625,
   "repo": null,
   "score": 152.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5f2976b7a3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5f2976b7a3.png"],
   "short_description": "Reject tradition, embrace modernity.  For those tired of default MTG maps.  Crafting recipes for TechAge hackers available.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5f2976b7a3.png",
   "title": "No Map",
   "translation_url": null,

@@ -219,9 +219,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://gitlab.com/lunovox/minertrade/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "![01]\n\n Other Screenshots: [02]  [03]  [04]  [05]  [06]  [07]  [08]  [09] \n\nBadge: [![ContentDB_en_icon]][ContentDB_en_link] [![DownloadsCDB_en_icon]][DownloadsCDB_en_link]\n\n# 💵 [MINERTRADE]\n\n[![minetest_icon]][minetest_link] It adds various types of money, Exchange Table, Dispensing Machines, and ATMs in stores.\n\n## 📦 **Itens adicionados:**\n\n### 💰 Types of Moneys:\n\n| Types | Amount |\n| :-- | --: |\n| ```Minercoin```\t\t\t\t| 01 minercash. (9^0 M$) |\n| ```Minermoney Blue```\t\t| 09 minercash. (9^1 M$) |\n| ```Minermoney Green```\t| 81 minercash. (9^2 M$) |\n| ```Minermoney Yellow```\t| 729 minercash. (9^3 M$) |\n| ```Minermoney Orange```\t| 6,561 minercash. (9^4 M$) |\n| ```Minermoney Red```\t\t| 59,049 minercash. (9^5 M$) |\n| ```Minermoney Black```\t| 531,441 minercash. (9^6 M$) |\n\n### 🏦 Bank Items:\n\n| Items | Descryption |\n| :--: | :-- |\n| ```Public ATM```  | Save your minercash (money type) in the ATM, and withdraw your minercash in other ATM in the shops scattered around the map. |\n| ```Credit Card``` | Transfers between bank accounts, issuing a bank transfer receipt. |\n\n### 🏙️ Store Items:\n\n| Items | Descryption |\n| :--: | :-- |\n| ```Exchange Table (P2P)```\t| It makes safe exchanges from player to player without the need to put your items on the ground. |\n| ```Dispensing Machine``` \t\t| Sells your items, even if you are not online. |\n\n## **Dependencies:**\n\n| Mod Name | Dependency Type | Descryption |\n| :--: | :--: | :-- |\n| default | Mandatory |  Minetest Game Included. | \n| dye | Mandatory | Minetest Game Included. |\n| [intllib] | Optional | Facilitates the translation of this mod into your native language, or other languages. |\n| [correio] | Optional |  Issues a letter to the owner of the ```Dispensing Machine``` when the machine needs the owner's intervention. | \n\n## **License:**\n\n* [![license_code_icon]][license_code_link]\n* [![license_media_icon]][license_media_link]\n\nSee more details in wiki: \n \n[![wiki_en_icon]][wiki_en_link] [![wiki_pt_icon]][wiki_pt_link]\n\n## **Developers:**\n\n* Lunovox Heavenfinder: [email](mailto:lunovox@disroot.org), [social web](https://qoto.org/@lunovox), [WebChat](https://cloud.disroot.org/call/9aa2t7ib), [xmpp](xmpp:lunovox@disroot.org?join), [audio conference](mumble:mumble.disroot.org), [more contacts](https://libreplanet.org/wiki/User:Lunovox)\n\n## **Downloads:**\n\n* [Stable Versions] : There are several versions in different stages of completion.  Usually recommended for servers because they are more secure.\n\n* [Git Repository] : It is the version currently under construction.  There may be some stability if used on servers.  It is only recommended for testers and mod developers.\n\n## **Translate this mod to Your Language:**\n\nSee more details in file: [locale/README.md]\n\n## **Settings:**\n\nIn **minetest.conf** file:\n\nYou don't need to do any of these presets mentioned below to make this mod work. But it's worth knowing the configuration values ​​in case you want to directly change the ````minetest.conf```` file.\n\n| Settings | Descryption |\n| :-- | :-- |\n| ````minertrade.debug = <boolean>```` \t\t\t\t\t| If show debug info of this mod. Only util to developers. Default: ````false````. | \n| ````minertrade.save_compressed = <boolean>```` \t\t| If enabled will save database bank in file '.db64', else in file '.tbl'. Default: ````true````. | \n| ````minertrade.bank.max_statements = <number>```` \t| Specifies the amount statement records to each player in databade bank.  Default: ````30````; Min: ````1````, Max: ````300````. | \n| ````minertrade.salary.enabled = <boolean>```` \t\t| Allows for daily distribution of Salary. Default: ````true````. | \n| ````minertrade.salary.value = <number>```` \t\t\t| Specifies the amount of salary paid daily.  Default: ````1````. | \n| ````minertrade.salary.intervalcheck = <number>```` \t| Specifies how many seconds the salary will be checked who still has to receive. Values below 5 can cause server lag. Default: ````60````. | \n\n[01]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot.png\n[02]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot2.png\n[03]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot3.png\n[04]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot4.png\n[05]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot5.png\n[06]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot6.png\n[07]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot7.png\n[08]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot8.png\n[09]:https://gitlab.com/lunovox/minertrade/-/raw/master/screenshot9.png\n[correio]:https://gitlab.com/lunovox/correio\n[English]:https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License\n[Git Repository]:https://gitlab.com/lunovox/minertrade\n[intllib]:https://content.luanti.org/packages/kaeza/intllib/\n\n[license_code_icon]:https://img.shields.io/static/v1?label=LICENSE%20CODE&message=GNU%20AGPL%20v3.0&color=yellow\n[license_code_link]:https://gitlab.com/lunovox/minertrade/-/raw/master/LICENSE_CODE\n[license_media_icon]:https://img.shields.io/static/v1?label=LICENSE%20MEDIA&message=CC%20BY-SA-4.0&color=yellow\n[license_media_link]:https://gitlab.com/lunovox/minertrade/-/raw/master/LICENSE_MEDIA\n\n[locale/README.md]:https://gitlab.com/lunovox/minertrade/-/tree/master/locale?ref_type=heads\n[MINERTRADE]:https://gitlab.com/lunovox/minertrade\n[minetest_icon]:https://img.shields.io/static/v1?label=Minetest&message=Mod&color=brightgreen\n[minetest_link]:https://minetest.net\n[Portuguese]:https://pt.wikipedia.org/wiki/GNU_Affero_General_Public_License\n[Stable Versions]:https://gitlab.com/lunovox/minertrade/-/tags\n[tradelands]:https://gitlab.com/Lunovox/tradelands\n\n[wiki_en_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=EN&color=blue\n[wiki_en_link]:https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License\n[wiki_pt_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=PT&color=blue\n[wiki_pt_link]:https://pt.wikipedia.org/wiki/GNU_Affero_General_Public_License\n\n[ContentDB_en_icon]:https://content.luanti.org/packages/Lunovox/minertrade/shields/title/\n[ContentDB_en_link]:https://content.luanti.org/packages/Lunovox/minertrade/\n[DownloadsCDB_en_icon]:https://content.luanti.org/packages/Lunovox/minertrade/shields/downloads/\n[DownloadsCDB_en_link]:https://gitlab.com/lunovox/minertrade/-/tags\n\n\n",
-  "maintainers": [
-    "Lunovox"
-  ],
+  "maintainers": ["Lunovox"],
   "media_license": "CC-BY-SA-4.0",
   "name": "minertrade",
-  "provides": [
-    "minertrade"
-  ],
+  "provides": ["minertrade"],
   "release": 28608,
   "repo": "https://gitlab.com/lunovox/minertrade",
   "score": 176,
@@ -403,12 +397,7 @@
   ],
   "short_description": "It adds various types of money, exchange table, Dispensing Machines, ATMs in stores.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "commerce",
-    "crafting",
-    "multiplayer"
-  ],
+  "tags": ["building", "commerce", "crafting", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c1b9b5e91f.png",
   "title": "Minertrade",
   "translation_url": "https://gitlab.com/lunovox/minertrade/-/blob/master/locale/README.md?ref_type=heads",

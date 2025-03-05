@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/commoditymarket_fantasy/issues",
   "license": "MIT",
   "long_description": "This mod depends on [commoditymarket](https://github.com/minetest-mods/commoditymarket). It implements a number of fantasy-themed marketplaces where players can post buy and sell offers for various items, allowing for organic market forces to determine the relative values of the resources in a world.\n\n* King's Market - a basic sort of \"commoner's marketplace\", only open during the day\n* Night Market - the shadier side of commerce, only open during the night\n* Trader's Caravan - a type of market that players can build and place themselves, with a small inventory capacity.\n* Goblin Exchange - a strange marketplace that uses coal as a currency\n* Undermarket - where dark powers make their trades, using Mese as a currency\n\n![](https://raw.githubusercontent.com/minetest-mods/commoditymarket_fantasy/master/screenshot.jpg)\n\nAll of these except for the Trader's Caravan are intended to be placed in specific locations by server administrators, they don't have crafting recipes.\n\nAn option exists to allow Goblin markets and Undermarkets to be automatically placed inside dungeons by world gen.\n\nThe [settlements_fantasy](https://github.com/FaceDeer/settlements_fantasy) mod scatters small settlements around on the surface of the world that can contain King's Markets and Night Markets.\n",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "commoditymarket_fantasy",
-  "provides": [
-    "commoditymarket_fantasy"
-  ],
+  "provides": ["commoditymarket_fantasy"],
   "release": 23307,
   "repo": "https://github.com/minetest-mods/commoditymarket_fantasy",
   "score": 9.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/vJNxbtFq90.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/vJNxbtFq90.jpg"],
   "short_description": "Adds a number of fantasy-themed marketplaces using commoditymarket",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "commerce",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "commerce", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vJNxbtFq90.png",
   "title": "Fantasy Commodity Markets",
   "translation_url": null,
@@ -47,10 +36,7 @@
       {
         "is_optional": false,
         "name": "commoditymarket",
-        "packages": [
-          "FaceDeer/commoditymarket",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["FaceDeer/commoditymarket", "MeseCraft/mesecraft"]
       }
     ]
   },

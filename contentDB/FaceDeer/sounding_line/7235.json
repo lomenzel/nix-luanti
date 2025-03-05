@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/sounding_line/issues/",
   "license": "MIT",
   "long_description": "This mod provides a single new block type: a sounding line on a spool. Build the sounding line in-world and right click on it to get a measure of how far down the surface of the water below it is (if any), and how far down below the first solid obstruction is.\n\nThe sounding line can be crafted using cotton (from the farming mod) or ropes and vines (from the ropes and vines mods)\n",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "CC-BY-NC-SA-3.0",
   "name": "sounding_line",
-  "provides": [
-    "sounding_line"
-  ],
+  "provides": ["sounding_line"],
   "release": 7235,
   "repo": "https://github.com/minetest-mods/sounding_line",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5Sr07lBU9h.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5Sr07lBU9h.png"],
   "short_description": "A tool for determining the depth of water or the depth of a hole.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5Sr07lBU9h.png",
   "title": "Sounding Line",
   "translation_url": null,

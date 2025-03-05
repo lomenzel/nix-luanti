@@ -38,27 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/wc_pottery/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "Extract clay from clay dirt and sandy clay, make ceramic, and make pottery.\nGlaze pottery with eggcorns.\nOnly glazed ceramic pots can hold water.\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_pottery",
-  "provides": [
-    "wc_pottery"
-  ],
+  "provides": ["wc_pottery"],
   "release": 27666,
   "repo": "https://github.com/wintersknight94/wc_pottery",
   "score": 6.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0144d99ffe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0144d99ffe.png"],
   "short_description": "Adds clay and ceramic items and nodes to NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "storage"
-  ],
+  "tags": ["building", "mapgen", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0144d99ffe.png",
   "title": "NodeCore Pottery",
   "translation_url": null,
@@ -72,58 +62,37 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_doors",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

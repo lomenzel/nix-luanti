@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/reject/issues",
   "license": "MIT",
   "long_description": "# Change the IP in the serverlist don't change the one in favourites list...\nThis \"game\" provides a minimum amount of code that kicks all players attempting to connect to the server, and shows a message. This is useful in the following circumstances:\n\n* The server is moving to a new IP\n* The server is under maintainence\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "reject",
-  "provides": [
-    "reject_core"
-  ],
+  "provides": ["reject_core"],
   "release": 16542,
   "repo": "https://github.com/C-C-Minetest-Server/reject",
   "score": 28.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dbfb7fba02.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dbfb7fba02.png"],
   "short_description": "Simply reject all login attempts and show them a message",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dbfb7fba02.png",
   "title": "REJECT ALL PLAYERS",
   "translation_url": null,

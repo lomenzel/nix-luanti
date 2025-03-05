@@ -11,9 +11,7 @@
     {
       "confidence": 10,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -80,14 +78,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/advtrains_horntrack/issues",
   "license": "MIT",
   "long_description": "Horn Track for Advanced Trains\n==============================\n\nThis mod adds a track for [Advanced Trains] that automatically activates the\nhorn or whistle of any train that passes over it.\n\nFeatures:\n\n- Horn tracks can be customised to play different patterns.\n- Horn tracks are available for standard tracks and [tieless tracks].\n- Trains can be filtered with ARS rules (requires Advanced Trains Interlocking).\n\n\nPatterns\n--------\n\nA pattern consists of a sequence of space-separated notes in the form\n`[INTENSITY*]DURATION`, where `INTENSITY` indicates the horn volume on a scale\nfrom 0.0 to 1.0, and `DURATION` indicates the length in seconds.\n\nYou can insert a delay with `0*DURATION`.\n\nTwo adjacent words of the same intensity will automatically insert a delay.\nYou can prevent this by adding a zero-length delay with `0*0`.\n\n[Advanced Trains]:  https://content.minetest.net/packages/orwell/advtrains/                 \"Advanced Trains on Minetest ContentDB\"\n[Tieless Tracks]:   https://content.minetest.net/packages/sylvester_kruin/tieless_tracks/   \"Tieless Tracks on Minetest ContentDB\"",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "advtrains_horntrack",
-  "provides": [
-    "advtrains_horntrack"
-  ],
+  "provides": ["advtrains_horntrack"],
   "release": 26387,
   "repo": "https://codeberg.org/SilverSandstone/advtrains_horntrack",
   "score": 184.5,
@@ -99,10 +93,7 @@
   ],
   "short_description": "Adds a track for automatically activating train horns.",
   "state": "APPROVED",
-  "tags": [
-    "sound_music",
-    "transport"
-  ],
+  "tags": ["sound_music", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ca73cf6029.png",
   "title": "Horn Track for Advanced Trains",
   "translation_url": null,
@@ -116,9 +107,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

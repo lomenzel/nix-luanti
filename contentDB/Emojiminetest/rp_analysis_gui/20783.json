@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/rp_analysis_gui/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# Formspec GUI for rPlace Analysis\n\nThis mod adds a GUI for rPlace Analysis. Use command `/anal_gui` to show it.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "rp_analysis_gui",
-  "provides": [
-    "rp_analysis_gui"
-  ],
+  "provides": ["rp_analysis_gui"],
   "release": 20783,
   "repo": "https://github.com/C-C-Minetest-Server/rp_analysis_gui",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ecffd18d86.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ecffd18d86.png"],
   "short_description": "Formspec GUI for rPlace Analysis",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["building", "multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ecffd18d86.png",
   "title": "rPlace Analysis GUI",
   "translation_url": null,
@@ -59,38 +49,27 @@
       {
         "is_optional": false,
         "name": "rp_nodes",
-        "packages": [
-          "Emojiminetest/r_place"
-        ]
+        "packages": ["Emojiminetest/r_place"]
       },
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "rp_mapgen_nodes",
-        "packages": [
-          "Emojiminetest/r_place"
-        ]
+        "packages": ["Emojiminetest/r_place"]
       },
       {
         "is_optional": false,
         "name": "rp_core",
-        "packages": [
-          "Emojiminetest/r_place"
-        ]
+        "packages": ["Emojiminetest/r_place"]
       },
       {
         "is_optional": false,
         "name": "rp_analysis",
-        "packages": [
-          "Emojiminetest/r_place"
-        ]
+        "packages": ["Emojiminetest/r_place"]
       }
     ],
     "luk3yx/flow": [

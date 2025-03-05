@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/magic-compass/-/issues",
   "license": "AGPL-3.0-only",
   "long_description": "### How to use it\nLook for the \"Magic Compass\" item in your inventory, put it in your hand and left click it to open the locations menu\n\n### Customisation\nCheck out the [docs](https://gitlab.com/zughy-friends-minetest/magic-compass/-/blob/master/DOCS.md) for callbacks, and the [README](https://gitlab.com/zughy-friends-minetest/magic-compass/-/blob/master/README.md#customisation) to edit graphics, title and locations\n",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "magic_compass",
-  "provides": [
-    "magic_compass"
-  ],
+  "provides": ["magic_compass"],
   "release": 28503,
   "repo": "https://gitlab.com/zughy-friends-minetest/magic-compass",
   "score": 163.6,
@@ -29,9 +25,7 @@
   ],
   "short_description": "Teleport system, all inside a compass",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4324f30965.png",
   "title": "Magic Compass",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/magic-compass/",

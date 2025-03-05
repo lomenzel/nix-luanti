@@ -51,23 +51,17 @@
   "issue_tracker": "https://github.com/MysticTempest/REFI_Textures/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "A 16px texture pack.  \nThese textures were created from scratch in an attempt to recapture the aesthetic of Minecraft, while improving upon visibility.\nThis version is fully usable in Minetest Game,  Mineclonia, MineClone2 up to v0.80,  and more.  \n\nThe 'textures' sub-folder holds the supported textures for Minetest Game, MineClone2, and Mineclonia.  \n\n##**Also included in this package is the following:**##\n*\tPartial support for the game, SkyFactory.  \n    * bonemeal  \n    * elepower  \n    * farming(_redo)  \n    * fromscratch  \n    * melterns\n    * protector\n*\tPartial support for the mods used by mcimport in converted worlds.  \n    * basic_materials  \n    * bedrock  \n    * crops  \n    * flowerpot  \n    * hardenedclay  \n    * lapis  \n    * mesecons  \n    * nether  \n    * quartz  \n    * signs_lib  \n    * vines  \n    * xdecor\n*\tSome templates for character skin creation.\n*\t Some Minetest menu textures. (Main menu, and dark/light GUI themes.)\n*\tSupport for a few Minetest Game mods.  \n    * 3d_armor  \n    * bakedclay  \n    * bees  \n    * caverealms  \n    * digilines  \n    * elevators  \n    * hbhunger  \n    * mobs_redo  \n    * new_fireworks  \n    * pipeworks  \n    * shop  \n    * simple_robots  \n    * stamina  \n    * thirsty\n    * crafting_bench\n* Miscellaneous Goodies.\n* Alternate textures moved to their own folder.",
-  "maintainers": [
-    "MysticTempest"
-  ],
+  "maintainers": ["MysticTempest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "refi_textures",
   "provides": [],
   "release": 26432,
   "repo": "https://github.com/MysticTempest/REFI_Textures",
   "score": 1744.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/75255ed9da.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/75255ed9da.png"],
   "short_description": "16px - Attempts to recapture the aesthetic of Minecraft, while improving upon visibility.",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/75255ed9da.png",
   "title": "REFI Textures",
   "translation_url": null,

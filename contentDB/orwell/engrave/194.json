@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/orwell96/engrave/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Right-click table holding an item to change it's description.\n\nPlayers need the engrave_long_names privilege to set names with more than 40 characters and/or newlines",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "GPL-2.0-only",
   "name": "engrave",
-  "provides": [
-    "engrave"
-  ],
+  "provides": ["engrave"],
   "release": 194,
   "repo": "https://github.com/orwell96/engrave",
   "score": 153.5,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds an \"Engraving Table\" that allows to change the description of items",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6gjg15v4Hw.png",
   "title": "Engrave",
   "translation_url": null,

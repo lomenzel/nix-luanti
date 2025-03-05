@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NodeCore-Stala/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# NodeCore-Stala\nStalactites & Stalagmites for NodeCore Caverns\n- Common Stone Stala\n- Rare Reactive Stala\n- Crystal Stala (if 'wc_crystals' installed)\n- Adamant Spires in Deep Caverns (if 'wc_adamant' installed)\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_stala",
-  "provides": [
-    "wc_stala"
-  ],
+  "provides": ["wc_stala"],
   "release": 27870,
   "repo": "https://github.com/wintersknight94/NodeCore-Stala",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3d772008cd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3d772008cd.png"],
   "short_description": "Generates Stalactites and Stalagmites in caverns underground.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3d772008cd.png",
   "title": "NodeCore Stalactites & Stalagmites",
   "translation_url": null,
@@ -70,50 +62,32 @@
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

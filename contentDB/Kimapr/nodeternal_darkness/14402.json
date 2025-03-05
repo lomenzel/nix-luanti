@@ -38,26 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "Kimapr"
-  ],
+  "maintainers": ["Kimapr"],
   "media_license": "MIT",
   "name": "nodeternal_darkness",
-  "provides": [
-    "nodeternal_darkness"
-  ],
+  "provides": ["nodeternal_darkness"],
   "release": 14402,
   "repo": "https://gitlab.com/Kimapr/nodeternal_darkness",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ec6e0b79c5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ec6e0b79c5.png"],
   "short_description": "make nodecore very dark",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ec6e0b79c5.png",
   "title": "Nodeternal Darkness",
   "translation_url": null,
@@ -71,26 +62,17 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

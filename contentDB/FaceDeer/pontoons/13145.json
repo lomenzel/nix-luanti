@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/pontoons/issues/",
   "license": "MIT",
   "long_description": "This mod adds some simple building blocks that can be placed on top of liquid, making it easier to construct things on a body of water without needing to first build a piling from the ground underneath.\n\nWood pontoons are for building on the surface of water and steel pontoons can be placed on either water or lava.\n\nThere is also an option to add this property to wood and tree blocks to allow them to be used this way directly.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "pontoons",
-  "provides": [
-    "pontoons"
-  ],
+  "provides": ["pontoons"],
   "release": 13145,
   "repo": "https://github.com/minetest-mods/pontoons",
   "score": 328,
-  "screenshots": [
-    "https://content.luanti.org/uploads/l7ikXdGGtg.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/l7ikXdGGtg.png"],
   "short_description": "A \"floating\" block that can be placed at the surface of a body of water without needing to build pilings first.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics"
-  ],
+  "tags": ["building", "building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/l7ikXdGGtg.png",
   "title": "Pontoons",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/SmallJoker/exchange_shop/issues",
   "license": "CC0-1.0",
   "long_description": "This mod adds an improved (\"currency\" compatible) shop to your world.\n\nFeatures:\n\n * 4 buyer and 4 seller slots\n * Much storage capacity\n * Custom shop title settable\n * pipeworks compatibilty\n\n",
-  "maintainers": [
-    "Krock"
-  ],
+  "maintainers": ["Krock"],
   "media_license": "CC0-1.0",
   "name": "exchange_shop",
-  "provides": [
-    "exchange_shop"
-  ],
+  "provides": ["exchange_shop"],
   "release": 12994,
   "repo": "https://github.com/SmallJoker/exchange_shop.git",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ydde1Q5q5p.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ydde1Q5q5p.png"],
   "short_description": "Provides a simple exchange shop (currency compatible) ",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ydde1Q5q5p.png",
   "title": "Item exchange shop",
   "translation_url": null,

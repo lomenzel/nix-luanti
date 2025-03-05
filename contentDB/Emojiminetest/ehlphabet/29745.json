@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/ehlphabet/issues",
   "license": "CC0-1.0",
   "long_description": "Fork of [LinuxForks's ehlphabet mod](https://git.bananach.space/ehlphabet.git).\nFork of the original [abjphabet mod](https://forum.minetest.net/viewtopic.php?f=11&t=11744) by ABJ\n\n## Changelist\n\n2024-03-05 modified by 1F616EMO (tidy up)\n\n2018-01-24 patched by Och_Noe to use it as replacement for abjphabet (create aliases)\n\n2018-03-29 support for UTF-8 and cyrillic letters added\n\n2018-03-31 german letters added\n\n2018-04-01 intllib support added with russian and german languages",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ehlphabet",
-  "provides": [
-    "ehlphabet"
-  ],
+  "provides": ["ehlphabet"],
   "release": 29745,
   "repo": "https://github.com/C-C-Minetest-Server/ehlphabet",
   "score": 9.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dc3bd51bea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dc3bd51bea.png"],
   "short_description": "Letter blocks",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dc3bd51bea.png",
   "title": "Ehlphabet",
   "translation_url": null,

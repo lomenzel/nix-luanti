@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "The wet mud is a replacement for water to hydrate your farmland. This is particularly useful in multiplayer servers where water could be used to grief other players by placing water outside protected areas - the water being capable of breaking various types of nodes/items. This is why some servers (like SkyBlock by Telesight) don't have water.\n\nWithout hydration crops can't grow past stage 1, so this simple mod enables proper farming without water.\n\n### How to get\n- from the creative inventory\n- crafting it by combining dirt with a bucket of water (regular or river water)\n- giving it to yourself via command; you first need the \"give\" privilege: `/grantme give`\n- after you grant yourself that privilege, use this command: `/giveme wetmud:wetmud`\n- if you want more than one, specify a number: `/giveme wetmud:wetmud 10`\n",
-  "maintainers": [
-    "Nicu"
-  ],
+  "maintainers": ["Nicu"],
   "media_license": "CC-BY-4.0",
   "name": "wetmud",
-  "provides": [
-    "wetmud"
-  ],
+  "provides": ["wetmud"],
   "release": 22316,
   "repo": null,
   "score": 165.4,
@@ -435,10 +429,7 @@
   ],
   "short_description": "Hydrates farmland without using water directly",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0801411527.png",
   "title": "Wet Mud",
   "translation_url": null,

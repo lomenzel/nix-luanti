@@ -11,9 +11,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/Lazarr/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "**This game is incomplete! It's playable, but lacks polish and levels.**\n\nYou're a pirate in the search of treasure. Find all shiny gold blocks in treasure chests in 50 levels located in tropical islands, mysterious caves, ancient ocean ruins and other lost places. To break the lock, you must first solve a laser puzzle by sending lasers to all detectors. Mirrors, beam splitters and many other things will help you.\n\n## Gameplay\n\nYour goal is to loot all treasures of the known world. To win a level, you must find all gold blocks in it.\n\nYou can walk around the level freely and take, place and rotate blocks. Mirrors, bombs, color mixers, skulls and many other special blocks assist (or hinder) you in your task.\n\n## Features of the beta version\n\n* A warning that this is an incomplete version ;-)\n* 50 levels (16 tutorial levels + 34 \"true\" levels with mind-bending puzzles)\n* Loot 99 gold blocks in ships, beautiul islands, mysterious ocean ruins, ancient temples and caves\n* Goldie the Parrot follows you on your travels\n* Lasers in 7 mixable colors\n* Laser emitters, detectors, mirrors, beam splitters, crystals, skulls, hollow barrels, color mixers, bombs, and more\n* Take, place and rotate blocks to redirect lasers\n* Plan all your operations from your pirate ship and watch your gold collection grow\n* Full German translation, partial translations (>50%) in Spanish and French\n* Powerful level editor (see `LEVEL_EDITOR.md`)\n* Custom level pack support (see `LEVEL_PACKS.md`)\n\n## History\n\nOriginally, this game was hastily made for the Minetest Game Jam 2021 in the final day of the competition. Version 1.2 was the version that was officially rated by the jury and players. The game has been massively reworked since then and is very different now, but there still needs more polishing. Stay tuned for version 2.0.0!",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "lazarr",
   "provides": [
@@ -91,11 +89,7 @@
   ],
   "short_description": "Be a pirate and solve laser puzzles (UNFINISHED!)",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2021", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/84f432d88c.png",
   "title": "Lazarr!",
   "translation_url": "https://translate.codeberg.org/projects/lazarr/",

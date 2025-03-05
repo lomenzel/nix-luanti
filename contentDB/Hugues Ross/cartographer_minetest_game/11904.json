@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://codeberg.org/HuguesRoss/cartographer-mtg/issues",
   "license": "GPL-3.0-only",
   "long_description": "Example mod for [Cartographer](https://content.minetest.net/packages/Hugues%20Ross/cartographer/) that adds mapmaking to Minetest Game.\n\n# Contact\nFor questions, requests, and other communications regarding this work, you can contact the original creator at huguesross@posteo.com or open an issue on Codeberg.",
-  "maintainers": [
-    "Hugues Ross"
-  ],
+  "maintainers": ["Hugues Ross"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cartographer_minetest_game",
-  "provides": [
-    "cartographer_minetest_game"
-  ],
+  "provides": ["cartographer_minetest_game"],
   "release": 11904,
   "repo": "https://codeberg.org/HuguesRoss/cartographer-mtg",
   "score": 175.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/rIIeYrY31E.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/rIIeYrY31E.png"],
   "short_description": "Adds regional maps that you can craft and place (Minetest Game version)",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/rIIeYrY31E.png",
   "title": "Cartographer for Minetest Game",
   "translation_url": null,
@@ -412,9 +402,7 @@
       {
         "is_optional": false,
         "name": "cartographer",
-        "packages": [
-          "Hugues Ross/cartographer"
-        ]
+        "packages": ["Hugues Ross/cartographer"]
       },
       {
         "is_optional": false,

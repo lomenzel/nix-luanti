@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/dirt_tunneler/issues",
   "license": "MIT",
   "long_description": "Dirt Tunneler mod Copyright (c) 2024 Neuromancer\n\n-------------------------------------------------------------------------------\n\nLicenses: \n\nCode: MIT\nTexture and models: CC BY-SA 3.0\n\nsee LICENSE.txt\n\n-------------------------------------------------------------------------------\n\nAdds the ability to tunnel through dirt simply by walking through it.   It also makes dirt layers deeper by default (30 nodes rather than 3).\n\nThe mod wielded_light is recommended as an addon as it let's you see while you are rapidly tunneling.   Press spacebar to tunnel up.   If you hit your head on dirt, it will dig above you and automatically place a ladder for you to climb.   Likewise press shift/sneak to tunnel down.  If you are on a ladder and hold down spacebar/shift it will rapidly tunnel up or down.\n\nThe mod boulders is recommended as an addon as it adds the challenge of being crushed by boulders if you tunnel uncautiously.\n\nThis mod can be used stand alone, but the intent was to introduce some of the fun of the 1984 game Boulder Dash.  If you want that, then you should also install the mod boulder_dig.  \n\n### Boulder Dash: The original game.\n\nBoulder Dash  gameplay can be seen here: https://www.youtube.com/watch?v=FiEVfa1OK_o&t=530s&pp=ygUMYm91bGRlciBkYXNo\n\nThe plan is to have all of these \"boulder_dig\" mods function as stand alone mods so that they can combined in other ways with other mods to work with and create other games.\n\nFrom [Wikipedia] https://en.wikipedia.org/wiki/Boulder_Dash_(video_game) :\n\n> Boulder Dash takes place in a series of caves, each of which is laid out as rectangular grid of blocks. The player guides the player character, Rockford, with a joystick or arrow keys. In each cave, Rockford has to collect as many diamonds as are needed and avoid dangers, such as falling rocks. When enough diamonds have been collected, the exit door opens, and going through this exit door completes the cave.\n\t \nYou can play it here:  https://boulder-dash.com/online-free-game/\n\nHave fun!",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "dirt_tunneler",
-  "provides": [
-    "dirt_tunneler"
-  ],
+  "provides": ["dirt_tunneler"],
   "release": 24603,
   "repo": "https://github.com/Neuromancer56/dirt_tunneler",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3f7beda157.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3f7beda157.png"],
   "short_description": "Makes dirt deeper and you can tunnel through it just by walking through it.  Press spacebar/shift to tunnel upward/downward with auto placed ladders.",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "mapgen",
-    "player_effects"
-  ],
+  "tags": ["building_mechanics", "mapgen", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3f7beda157.png",
   "title": "Dirt Tunneler",
   "translation_url": null,
@@ -465,9 +453,7 @@
       {
         "is_optional": false,
         "name": "node_touch_action",
-        "packages": [
-          "Neuromancer/node_touch_action"
-        ]
+        "packages": ["Neuromancer/node_touch_action"]
       },
       {
         "is_optional": false,

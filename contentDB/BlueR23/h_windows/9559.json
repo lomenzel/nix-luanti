@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://github.com/BrownHedgehog78/h_windows/issues/new/choose/",
   "license": "MIT",
   "long_description": "# House Windows\n\nThis minetest mod adds windows for your house.\n\nYou can open and close all windows except the biggest one.\n\n### Crafting Recipes\nSee [Crafting Recipes (GitHub)](https://github.com/BrownHedgehog78/h_windows#crafting-recipes \"Crafting Recipes (GitHub)\")\n\n#\n#### You can create your own windows with the API, see [api.md](https://github.com/BrownHedgehog78/h_windows/blob/master/api.md \"api.md\")",
-  "maintainers": [
-    "BlueR23"
-  ],
+  "maintainers": ["BlueR23"],
   "media_license": "CC-BY-SA-3.0",
   "name": "h_windows",
-  "provides": [
-    "h_windows"
-  ],
+  "provides": ["h_windows"],
   "release": 9559,
   "repo": "https://github.com/BrownHedgehog78/h_windows",
   "score": 15.1,
@@ -397,10 +391,7 @@
   ],
   "short_description": "Adds windows for your house",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "library"
-  ],
+  "tags": ["decorative", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/552084ec37.png",
   "title": "House Windows",
   "translation_url": null,

@@ -38,29 +38,17 @@
   "issue_tracker": "https://codeberg.org/rudzik8/vl_soaking/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# VoxeLibre Soaking Rain `vl_soaking`\n\n![Screenshot](https://content.minetest.net/uploads/1f62b9701d.png)\n\nThis mod makes you take damage under rain/snow, unless you are:\n\n* wearing leather helmet and leather chestplate *or*\n* holding an umbrella (a new item) in your hand (or offhand).\n\n\nThe crafting recipe for the new umbrella item is as follows:\n\n![Recipe](https://i.imgur.com/s79olpI.png)\n\n\n## License\n\n### License of source code\n\nCopyright (C) 2024, Mikita 'rudzik8' Wiśniewski <rudzik8@protonmail.com>\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see `LICENSE` file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n### License of media\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see `MEDIA_LICENSE` file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>\n\n* `vl_soaking_umbrella.png` uses [stick texture](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/textures/default_stick.png) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by [XSSheep](https://github.com/XSSheep) (drawn over)",
-  "maintainers": [
-    "rudzik8"
-  ],
+  "maintainers": ["rudzik8"],
   "media_license": "CC-BY-SA-4.0",
   "name": "vl_soaking",
-  "provides": [
-    "vl_soaking"
-  ],
+  "provides": ["vl_soaking"],
   "release": 26447,
   "repo": "https://codeberg.org/rudzik8/vl_soaking",
   "score": 8.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1f62b9701d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1f62b9701d.png"],
   "short_description": "Makes you take damage under rain/snow without leather topping or an umbrella",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "oneofakind__original",
-    "pve",
-    "survival",
-    "tools"
-  ],
+  "tags": ["environment", "oneofakind__original", "pve", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1f62b9701d.png",
   "title": "VoxeLibre Soaking Rain",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/viper968/creative_inventory/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Gives the player access to a menu that lists all registered nodes giving the player full access to any block they want to use for building without having to go through unility blocks (like a form of crafting table) to access these blocks. This is mainly meant for creative mode and adds a way to get blocks eaisly in games that dont have a proper inventory system like nodecore.\n\nThis also allows server's that run games like nodecore to allow its staff or trusted members access to a creative mode \"inventory\" via a permission without completely replacing the base inventory screen and giving normal players access to infinite resources and blocks.",
-  "maintainers": [
-    "viper968"
-  ],
+  "maintainers": ["viper968"],
   "media_license": "LGPL-2.1-only",
   "name": "cinventory",
-  "provides": [
-    "cinventory"
-  ],
+  "provides": ["cinventory"],
   "release": 29819,
   "repo": "https://github.com/viper968/creative_inventory.git",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2326a6c6e9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2326a6c6e9.png"],
   "short_description": "helps players access a creative mode like menu for games like nodecore that dont have an inventory system",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "gui",
-    "inventory"
-  ],
+  "tags": ["creative", "gui", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2326a6c6e9.png",
   "title": "CInventory",
   "translation_url": null,

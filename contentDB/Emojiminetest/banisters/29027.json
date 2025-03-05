@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/banisters/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Adds straight and diagonal banisters for stairs railings.\n\nThis mod is a fork of [Felfa's banisters mod](https://gitlab.com/Felfa/banisters).\n\n## How can I craft them?\n\nYou can craft normal banisters simply by using this recipe:\n\n```text\n[M] [M] [M]\n[S] [ ] [S]\n[ ] [ ] [ ]\n```\n\nOr you can craft a (little) more fancy one using this recipe:\n\n```text\n[M] [M] [M]\n[S] [S] [S]\n[ ] [ ] [ ]\n```\n\nWhere \"M\" is the material you want to use (wood, stone, etc) and \"S\" is `default:stick`.\n\n## How to use them?\n\nYou can place them diagonally by pointing to a side of a stair or slope while facing slightly left or right. If you want to put a horizontal banister, just put it looking straight ahead to a wall or over the ground.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "banisters",
-  "provides": [
-    "banisters"
-  ],
+  "provides": ["banisters"],
   "release": 29027,
   "repo": "https://github.com/C-C-Minetest-Server/banisters",
   "score": 348.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/84f1be92d8.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/84f1be92d8.jpg"],
   "short_description": "Adds straight and diagonal banisters for stairs railings.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/84f1be92d8.png",
   "title": "Banisters",
   "translation_url": null,

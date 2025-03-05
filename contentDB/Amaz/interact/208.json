@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/interact/issues/",
   "license": "MIT",
   "long_description": "When a player joins the server, they are asked if they want the interact priv. If they do, they are presented with the rules, asked a few questions, and given a brief quiz on the rules (which can be disabled). If they answer correctly, they are granted interact, if not, they are kicked (can also be changed).\n\nYou need to configure this mod before it can be used on a server!",
-  "maintainers": [
-    "Amaz"
-  ],
+  "maintainers": ["Amaz"],
   "media_license": "MIT",
   "name": "interact",
-  "provides": [
-    "interact"
-  ],
+  "provides": ["interact"],
   "release": 208,
   "repo": "https://github.com/minetest-mods/interact",
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fCeKVnSMI9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fCeKVnSMI9.png"],
   "short_description": "A mod that gives the interact priv to players who want it and who have agreed to the rules.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fCeKVnSMI9.png",
   "title": "Interact",
   "translation_url": null,

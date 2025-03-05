@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-item_magnet/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "A very simple tool for picking up items from the ground without having to click on each item. \n\nComes with a configurable radius.\n\nlicense: LGPL\n\nresource license:\n* item_magnet_magnet.png CC0 from https://purepng.com/photo/20580/clipart-magnet\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "item_magnet",
-  "provides": [
-    "item_magnet"
-  ],
+  "provides": ["item_magnet"],
   "release": 20095,
   "repo": "https://github.com/fluxionary/minetest-item_magnet.git",
   "score": 157.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4b795c8884.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4b795c8884.png"],
   "short_description": "a magnet for picking up items",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4b795c8884.png",
   "title": "item_magnet",
   "translation_url": null,
@@ -45,10 +36,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

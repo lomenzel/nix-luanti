@@ -103,29 +103,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-or-later",
   "long_description": "Modpack to add WWI era planes to Minetest. The main goal of this modpack is to make the the possibility of dogfights over\nMinetest skies and some bombing missions.\nFuel is needed to operate the planes, and ammunition to combat. The ammunition can be fed through plane inventory.\nTo shot bullets, just punch. To drop bombs, hold AUX (E key) and punch. The plane can be armed with 300 rounds of bullets\nand more can be loaded from the plane inventory using the \"Reload\" button. The bombs don't need a reload, it will drop\ndirectly from plane inventory. So choose wisely what you carry on plane's inventory.\n\nAnd to fly it, the user must have the priv \"WW1_flight_licence\"\n\n## Vehicle Operation\nW: nose down\n\nS: nose up\n\nA: Left\n\nD: Right\n\nE: special key - hold to drop bomb when punch\n\nShift: reduce engine power\n\nSpace: increase engine power\n\nPlanes can be colored by punching them with dye (left for primary color, right for secondary). To fuel a vehicle, punch it with biofuel.\n\n## Server Command Lines:\n- /damage_bypass_protection true\n\n    destruction can be made on protected areas if this is enabled. Default value: false\n\n- /no_fixed_owner true\n\n    there is no ownership on the planes, so beware, the enemy can steal it. Default: false\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ww1_planes",
-  "provides": [
-    "albatros_d5",
-    "sopwith_f1_camel",
-    "ww1_planes_lib"
-  ],
+  "provides": ["albatros_d5", "sopwith_f1_camel", "ww1_planes_lib"],
   "release": 29326,
   "repo": "https://github.com/APercy/ww1_planes",
   "score": 383.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6360465464.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6360465464.jpg"],
   "short_description": "A modpack for WWI aerial combat",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "transport"
-  ],
+  "tags": ["pvp", "shooter", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6360465464.png",
   "title": "World War I Planes",
   "translation_url": null,
@@ -140,10 +128,7 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       }
     ]
   },

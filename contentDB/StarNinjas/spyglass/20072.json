@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/starninjas/spyglass/issues/new/choose/",
   "license": "MIT",
   "long_description": "This mod adds the ability to zoom with a spyglass item.\n\n## Usage\nUse the use key (default: rightclick), to zoom in while holding the Spyglass. Note, that this blocks your\nhotbar, be conscious of your surroundings!\n\n## Crafting\nspyglass:spyglass\n\ndefault:glass G\ndefault:copper_ingot C\n\n_G_\n_C_\n_C_",
-  "maintainers": [
-    "StarNinjas"
-  ],
+  "maintainers": ["StarNinjas"],
   "media_license": "CC-BY-SA-3.0",
   "name": "spyglass",
-  "provides": [
-    "spyglass"
-  ],
+  "provides": ["spyglass"],
   "release": 20072,
   "repo": "https://github.com/starninjas/spyglass",
   "score": 169.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/44e35babfd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/44e35babfd.png"],
   "short_description": "Adds the ability to zoom in via a Spyglass",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/44e35babfd.png",
   "title": "Spyglass",
   "translation_url": null,

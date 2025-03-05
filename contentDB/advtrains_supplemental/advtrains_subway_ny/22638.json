@@ -25,16 +25,10 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_subway_ny/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# AdvTrains Train Pack: New York City Subway\n\nThis mod provides a control car and intermediate cars for a New York City-like\nsubway train that could fit in just about any American rapid transit type\nsetting.\n\nThis mod was originally made by MBB. It is not without its problems. The door\nanimation is broken. The UV unwrapping and geometry have a few warped spots.\n\n[View this mod at the Train\nCatalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_subway_ny)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n* Some code copyright (C) 2022 Blockhead\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n    * Fixed drops\n    * Fixed attachment and viewpoint offsets\n    * Fixed engine model to not be off-centre\n    * Changed floor texture (lino-ish)\n* Contributions by: W3RQ01\n    * Changed texture (small improvements)\n    * Added sound function\n* Contributions by: y5nw\n    * i18n, Locale template and German locale",
-  "maintainers": [
-    "advtrains_supplemental",
-    "Blockhead",
-    "W3RQ01"
-  ],
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_subway_ny",
-  "provides": [
-    "advtrains_subway_ny"
-  ],
+  "provides": ["advtrains_subway_ny"],
   "release": 22638,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_subway_ny",
   "score": 49.4,
@@ -44,10 +38,7 @@
   ],
   "short_description": "Subway cars loosely based on New York/American transit",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b3b966aeab.png",
   "title": "Advtrains Subway NY",
   "translation_url": null,
@@ -61,9 +52,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

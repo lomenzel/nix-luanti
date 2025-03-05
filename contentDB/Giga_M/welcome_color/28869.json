@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "adds a welcome message in green with ramdom messages and a message when a player leaves in red\n\nañade un mensaje de bienvenida en color verde con mensajes ramdom y un mensajecuando un jugador se retira en rojo",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "CC-BY-SA-3.0",
   "name": "welcome_color",
-  "provides": [
-    "welcome_color"
-  ],
+  "provides": ["welcome_color"],
   "release": 28869,
   "repo": null,
   "score": 2.6,
@@ -448,12 +442,7 @@
   ],
   "short_description": "adds a welcome message in green with ramdom messages and a message when a player leaves in red",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "singleplayer",
-    "skins",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "singleplayer", "skins", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2b75eaee11.png",
   "title": "welcome color",
   "translation_url": null,

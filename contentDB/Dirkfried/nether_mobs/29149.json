@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,14 +247,10 @@
   "issue_tracker": "https://github.com/GreenDirkfried/minetest-nether-monsters/issues",
   "license": "MIT",
   "long_description": "## Nether Monsters\nThis mod adds monsters to your Nether.\n\n### Nether Man\nThe nether man is the principal habitant of the nether world, it transforms nodes like sand and dirt into nether sand.\n\n### Nether Dragon\nThe legendary nether dragon is the nether king and breathes deadly fire upon players. It drops a special item with more resistance, called nether dragon scale, and a dragon egg to spawn a tamed nether dragon.\n\n### Nether Dragon Scales\nWith that item the players can craft resistant dragon scale blocks (including stairs and slabs) and of course the dragon armor (if using the 3d-armor mod).\n\n### Tamed Nether Dragon\nThe tamed nether dragon can only be spawned with a dragon egg. If you right click on it with a saddle, you (as the owner) can start to drive and fly with the dragon. You also can catch the dragon using the lasso.\n\n### Settings\nIn the init.lua file you can enable or disable the spawning of the netherman and dragon by setting nethermobs.NETHERMAN_ENABLED and nethermobs.DRAGON_ENABLED to true or false.\nYou can also change the spawn heights for the netherman and dragon (for example to allow them to spawn in the overworld and transform the ground to nether sand).\n\n### Acknowledgements\nThis mod was originally made by rael5 and is based on the mob API Mobs Redo from TenPlus1.\n",
-  "maintainers": [
-    "Dirkfried"
-  ],
+  "maintainers": ["Dirkfried"],
   "media_license": "MIT",
   "name": "nether_mobs",
-  "provides": [
-    "nether_mobs"
-  ],
+  "provides": ["nether_mobs"],
   "release": 29149,
   "repo": "https://github.com/GreenDirkfried/minetest-nether-monsters",
   "score": 99,
@@ -266,11 +260,7 @@
   ],
   "short_description": "Add monsters and dragons to your nether world.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3fb199a8c6.png",
   "title": "Nether Mobs",
   "translation_url": null,
@@ -411,9 +401,7 @@
       {
         "is_optional": false,
         "name": "glow",
-        "packages": [
-          "Hybrid Dog/glow_pack"
-        ]
+        "packages": ["Hybrid Dog/glow_pack"]
       },
       {
         "is_optional": false,
@@ -460,9 +448,7 @@
       {
         "is_optional": false,
         "name": "riesenpilz",
-        "packages": [
-          "Hybrid Dog/riesenpilz"
-        ]
+        "packages": ["Hybrid Dog/riesenpilz"]
       }
     ],
     "TenPlus1/mobs": [],
@@ -470,18 +456,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

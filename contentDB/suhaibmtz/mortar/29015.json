@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,14 +260,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "adds mortars to minetest\n\nfeel free to suggest or report a bug ",
-  "maintainers": [
-    "suhaibmtz"
-  ],
+  "maintainers": ["suhaibmtz"],
   "media_license": "GPL-3.0-only",
   "name": "mortar",
-  "provides": [
-    "mortar"
-  ],
+  "provides": ["mortar"],
   "release": 29015,
   "repo": "https://github.com/suhaibmtz/Mortar",
   "score": 9,
@@ -279,9 +273,7 @@
   ],
   "short_description": "Adds a mortar cannon",
   "state": "APPROVED",
-  "tags": [
-    "pvp"
-  ],
+  "tags": ["pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0783e44bfb.png",
   "title": "Mortar",
   "translation_url": null,
@@ -295,9 +287,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

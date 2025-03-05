@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/minetest-mods/mylandscaping/issues/",
   "license": "MIT",
   "long_description": "This mod includes two machines, one for making concrete and another for turning concrete into decorative walls nodes. There are three styles of walls along with some decorative column toppers and patio blocks.",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mylandscaping",
-  "provides": [
-    "mylandscaping"
-  ],
+  "provides": ["mylandscaping"],
   "release": 999,
   "repo": "https://github.com/minetest-mods/mylandscaping",
   "score": 158.6,
@@ -449,10 +443,7 @@
   ],
   "short_description": "Lets you put up decorative walls around your gardens, and make pretty hardscapes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/E15AeKHQXE.png",
   "title": "Mylandscaping",
   "translation_url": null,

@@ -24,9 +24,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -106,26 +104,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/cottonseed_oil/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Cottonseed Oil Fertilizer is a type of bone meal (technically) with a much stronger effect. It is either crafted or extracted from 4 cotton seeds, depending on whether Technic mod is installed.\n\nThis is a portion of Technics mod from [Smacker's fork](https://github.com/h-v-smacker/technic), the fork used on LinuxForks Minetest Server.\n\nAccording to the original license notice, all components of this mod are licensed under LGPLv2.1.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "cottonseed_oil",
-  "provides": [
-    "cottonseed_oil"
-  ],
+  "provides": ["cottonseed_oil"],
   "release": 22853,
   "repo": "https://github.com/C-C-Minetest-Server/cottonseed_oil",
   "score": 4.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dfb78199e0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dfb78199e0.png"],
   "short_description": "Powerful fertilizer from cotton seed",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dfb78199e0.png",
   "title": "Cottonseed Oil Fertilizer",
   "translation_url": null,

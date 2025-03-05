@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/zaners123/Computertest/issues/new/choose/",
   "license": "MPL-2.0",
   "long_description": "# Computertest\n\nA ComputerCraft-inspired mod for Minetest!\n\n## Working Features\n\n- LUA can be uploaded and ran on a turtle (see [/examples]())\n- Actions like mining, moving and turning the turtle\n- Turtles take time to do actions such as moving,mining,turning,etc\n\n## Security Problems\n\n- The turtle code isn't sandboxed, so turtles could call dangerous functions (Add sandboxing)\n- Anyone can upload code (Add code-uploading privilege)\n\n## Features to Add\n\n- Add dumping into chests to create fully-auto mining\n- Add fuel, so everything consumes fuel until it runs out or refuels\n- Inventory management commands, such as crafting, sorting, and dropping\n\nAnyone interested in adding these features can try in entity/turtle.lua, I'd be interested in any great working pull requests!\n",
-  "maintainers": [
-    "zaners123"
-  ],
+  "maintainers": ["zaners123"],
   "media_license": "MPL-2.0",
   "name": "computertest",
-  "provides": [
-    "computertest"
-  ],
+  "provides": ["computertest"],
   "release": 10465,
   "repo": "https://github.com/zaners123/Computertest",
   "score": 463.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2c30b07e19.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2c30b07e19.png"],
   "short_description": "A ComputerCraft-inspired mod! Program them with LUA and watch them work!",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "survival"
-  ],
+  "tags": ["education", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2c30b07e19.png",
   "title": "Computertest",
   "translation_url": null,

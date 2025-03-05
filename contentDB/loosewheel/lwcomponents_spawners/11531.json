@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -444,23 +442,17 @@
   "issue_tracker": "https://github.com/loosewheel/lwcomponents_spawners/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Register spawners for the [lwcomponents](https://content.minetest.net/packages/loosewheel/lwcomponents/) mod for the following:\n\n* Mobs - all spawn eggs and 10% chance of chicken spawning when egg is thrown.\n* Projectiles - all projectiles.\n\nIf these mods register their own spawners with lwcomponents they will be used instead.",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "LGPL-2.1-or-later",
   "name": "lwcomponents_spawners",
-  "provides": [
-    "lwcomponents_spawners"
-  ],
+  "provides": ["lwcomponents_spawners"],
   "release": 11531,
   "repo": "https://github.com/loosewheel/lwcomponents_spawners",
   "score": 3.9,
   "screenshots": [],
   "short_description": "Register spawners for lwcomponents.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": null,
   "title": "LWComponents Spawners",
   "translation_url": null,

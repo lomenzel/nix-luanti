@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,28 +338,17 @@
   "issue_tracker": "https://github.com/mt-mods/hangglider/issues",
   "license": "GPL-3.0-only",
   "long_description": "Adds a functional hang glider for exploring. Also works as a parachute to save yourself when falling.\n\nRewritten and improved fork of https://content.minetest.net/packages/Piezo_/hangglider/.\n\n### Usage\n\nTo deploy the hang glider, hold the item in your hand and use it (left-click). The same action also closes the hang glider when it's deployed.\n\nWhile deployed you can glide around just like walking in the air. Your decent will be slowed until you land on a safe node, which can be any solid node, or a safe liquid like water. Upon landing the hang glider will automatically close.\n\n### Coloring\n\nYou can color the hang glider by crafting it with any dye. Also supports all `unifieddyes` colors.\n\nNote that the color will only be visible on the item if you are using Minetest 5.8.0 or above.\n\n### Repairing\n\nThe hang glider will wear out every time you use it. The hang glider can be repaired by crafting it with wool or paper, or any other method used to repair tools.\n\n### Area Flak\n\nIf the `areas` mod is installed, airspace restrictions can be added to areas using the `/area_flak` command.\n\nWhen using a hang glider in an area with flak enabled, you will get shot down a few seconds after entering the area, this reduces your HP to 1 and destroys your hang glider.\n",
-  "maintainers": [
-    "mt-mods",
-    "OgelGames"
-  ],
+  "maintainers": ["mt-mods", "OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "hangglider",
-  "provides": [
-    "hangglider"
-  ],
+  "provides": ["hangglider"],
   "release": 29400,
   "repo": "https://github.com/mt-mods/hangglider",
   "score": 2857,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4c9962c020.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4c9962c020.png"],
   "short_description": "Adds a functional hang glider for exploring",
   "state": "APPROVED",
-  "tags": [
-    "sports",
-    "tools",
-    "transport"
-  ],
+  "tags": ["sports", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4c9962c020.png",
   "title": "Hang Glider",
   "translation_url": null,

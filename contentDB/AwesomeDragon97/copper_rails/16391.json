@@ -76,9 +76,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -223,14 +221,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "<h1>Copper Rails</h1>\n\nThis mod adds a new type of rail.\n\nIt is placed differently from normal rails, rather than connecting by default it faces whatever direction you place it in.\n\nDue to engine limitations, it cannot go up or down hills and other rails won't connect to it.\n\nThis mod is useful if you want to enforce a certain direction on railways, or if you want to make a cart go back when it reaches the end of the track.\n\nOne copper rail is not enough to stop a full speed minecart, you must place multiple rails adjacent to each other.\n\nThe direction of the arrow shape of the rails indicates which direction carts are pushed.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "copper_rails",
-  "provides": [
-    "copper_rails"
-  ],
+  "provides": ["copper_rails"],
   "release": 16391,
   "repo": null,
   "score": 304.8,
@@ -240,10 +234,7 @@
   ],
   "short_description": "Adds a new directional rail made from copper and mese crystals.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "transport"
-  ],
+  "tags": ["building", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/41a6e727ff.png",
   "title": "Copper Rails",
   "translation_url": null,

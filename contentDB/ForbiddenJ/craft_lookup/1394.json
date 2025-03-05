@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/JustinLaw64/craft_lookup/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "The Craft Lookup mod provides an sfinv-based means of looking up craft-able items and their crafting recipes via a page accessible from the inventory window. It supports displaying which recipes create an item and which recipes an item fits in.\n\nIn addition to being a craft recipe lookup tool, it also supports a discovery mode (toggled via a configuration setting) While the mode is enabled, the mod will keep track of which items have been discovered while limiting the list of items. A player can discover items by two means: One is to have an item in the inventory, and the other is to punch it.",
-  "maintainers": [
-    "ForbiddenJ"
-  ],
+  "maintainers": ["ForbiddenJ"],
   "media_license": "CC-BY-SA-3.0",
   "name": "craft_lookup",
-  "provides": [
-    "craft_lookup"
-  ],
+  "provides": ["craft_lookup"],
   "release": 1394,
   "repo": "https://github.com/JustinLaw64/craft_lookup.git",
   "score": 158.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/DyDPcZxxfe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/DyDPcZxxfe.png"],
   "short_description": "Provides you with a way to lookup recipes to make items.",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/DyDPcZxxfe.png",
   "title": "Craft Lookup",
   "translation_url": null,

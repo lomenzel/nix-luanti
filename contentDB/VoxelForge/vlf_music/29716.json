@@ -51,26 +51,17 @@
   "issue_tracker": "https://github.com/VoxelForge/vlf_music/issues",
   "license": "GPL-3.0-only",
   "long_description": "as of VoxelForge version Alpha 0.4.0 this has been debundled due to performance issues and complaints.\n\nThis mod checks whether the player is in the overworld, nether, or end. Then it plays music.\n\nMusic from Sn0wShepherd. From the Sn0wSong minecraft resource pack. Licensed under CC-BY-SA-4.0",
-  "maintainers": [
-    "VoxelForge",
-    "DragonWrangler"
-  ],
+  "maintainers": ["VoxelForge", "DragonWrangler"],
   "media_license": "CC-BY-SA-4.0",
   "name": "vlf_music",
-  "provides": [
-    "vlf_music"
-  ],
+  "provides": ["vlf_music"],
   "release": 29716,
   "repo": "https://github.com/VoxelForge/vlf_music",
   "score": 7.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/413cf53859.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/413cf53859.png"],
   "short_description": "plays music",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/413cf53859.png",
   "title": "Vlf Music",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Hoverboards for minetest\n\n## Description\n\nAdd hoverboards to minetest\n\n* Hummer: controls really to review\n* I-Wheel: Done\n* Scooter: No model yet\n* Auto stabilize model:  No model yet\n\nIt is mostly intended to be used with minetest_game, but other games may be compatible.\nNot ultra laggy but there is really improvements to be done\n \n## Licence\n\nCode under [MIT](https://gitlab.com/mazes_80/hoverboard/-/raw/master/license.txt) licence terms\nArtwork under [Free Art License](https://artlibre.org/licence/lal/en/)\n\n## Current state\nThe logic for hoverboard moves is wrong and should be reworked.",
-  "maintainers": [
-    "mazes"
-  ],
+  "maintainers": ["mazes"],
   "media_license": "LAL-1.3",
   "name": "hoverboard",
-  "provides": [
-    "hoverboard"
-  ],
+  "provides": ["hoverboard"],
   "release": 17644,
   "repo": "https://gitlab.com/mazes_80/hoverboard",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/da1054e1bd.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/da1054e1bd.png"],
   "short_description": "Hoverboards",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/da1054e1bd.png",
   "title": "Hoverboard",
   "translation_url": null,

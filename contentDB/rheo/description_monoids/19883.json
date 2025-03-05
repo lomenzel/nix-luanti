@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-description_monoids/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# description_monoids\n\nAPI to allow multiple mods to make modifications to an itemstack's description without clobbering each other.\n\nsee README.md for usage.",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "description_monoids",
-  "provides": [
-    "description_monoids"
-  ],
+  "provides": ["description_monoids"],
   "release": 19883,
   "repo": "https://github.com/fluxionary/minetest-description_monoids.git",
   "score": 2.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/138a7b60a1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/138a7b60a1.png"],
   "short_description": "API to allow multiple mods to make modifications to an itemstack's description",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/138a7b60a1.png",
   "title": "description_monoids",
   "translation_url": null,
@@ -43,25 +35,17 @@
       {
         "is_optional": false,
         "name": "item_monoids",
-        "packages": [
-          "rheo/item_monoids"
-        ]
+        "packages": ["rheo/item_monoids"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/fmod": [],
@@ -69,28 +53,19 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/item_monoids": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

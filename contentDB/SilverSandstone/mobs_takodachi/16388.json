@@ -24,9 +24,7 @@
     {
       "confidence": 11,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -352,9 +350,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -473,14 +469,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod adds [Ninomae Ina'nis]'s takodachis to Minetest.\n\nTakodachis are friendly creatures that float around and wah.\nThey can be found in various sizes.\n\n\nFeatures\n--------\n\n- [Wah]\n\n[Ninomae Ina'nis]:  https://youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg    \"Ninomae Ina'nis on YouTube\"\n[Wah]:              https://youtu.be/IzSG6FBKNPg                            \"Wah\"",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mobs_takodachi",
-  "provides": [
-    "mobs_takodachi"
-  ],
+  "provides": ["mobs_takodachi"],
   "release": 16388,
   "repo": null,
   "score": 9.7,
@@ -494,9 +486,7 @@
   ],
   "short_description": "Adds takodachis.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b18c62f03c.png",
   "title": "Mobs Takodachi",
   "translation_url": null,

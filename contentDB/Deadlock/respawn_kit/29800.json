@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/Distributed-DeadLock/respawn_kit/issues",
   "license": "MIT",
   "long_description": "-- provides a craftable chest, that can be filled with a players personal respawn kit.\n\n-- whatever the player puts in the chest, will be duplicated and put into the players main-inventory when he respawns after dying.\n\n-- use either a Blacklist(default) or a Whitelist to control what can be put in the chest. Both lists will be created in the worldpath on first startup of the world:\n\nBlackList = worldpath/respawn_kit_blacklist.txt\n\nWhiteList = worldpath/respawn_kit_whitelist.txt \n\nBoth lists must contain the item-names of the black/white-listed items, one name per line.\n\nBlackList comes preconfigured with all mt-default ores. \nWhiteList comes preconfigured with 2 example items.\n\n-----\ndefault recipe for the \"respawn_kit:respawn_chest\"\n\n'default:steelblock',  'default:mese',          'default:steelblock'\n\n'default:steelblock',  'default:chest',         'default:steelblock'\n\n'default:steelblock',  'default:diamondblock',  'default:steelblock'\n\n----- \n**Intent**:\n\nThis mod is meant as an tool to change the balance of a server towards more Rogue-like experience.\nIt's trying to encourage pvp and enganging in dangerous activities without totally negating the need for resource gathering.\n \nI suggest to:\n\nturn-off keep-inventory & keep-armor,\ndisable the protection-time of the bone-block,\ndon't give cepter of return/resurection_wand on death(make it craftable instead) & \ndon't give any other \"respawn-kits\".\n\n-----\n**License**: Code: MIT , Textures: CC0\n\n**Mod dependencies**: default\n\n**Thanks**:   \nMy Knowledge about how to expand the player-inventory & how to do smth on player_death is based on parts of :  \nhttps://github.com/minefaco/death_cetro by 1faco &  \nhttps://github.com/MeseCraft/void_chest by MeseCraft  ",
-  "maintainers": [
-    "Deadlock"
-  ],
+  "maintainers": ["Deadlock"],
   "media_license": "CC0-1.0",
   "name": "respawn_kit",
-  "provides": [
-    "respawn_kit"
-  ],
+  "provides": ["respawn_kit"],
   "release": 29800,
   "repo": "https://github.com/Distributed-DeadLock/respawn_kit",
   "score": 2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0426c79df6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0426c79df6.png"],
   "short_description": "Adds a \"respawn-kit\"-Chest. A Copy of everything you put in it, will be given to you on respawn. (With configurable Black/White-List)",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "oneofakind__original",
-    "storage"
-  ],
+  "tags": ["multiplayer", "oneofakind__original", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0426c79df6.png",
   "title": "Respawn Kit",
   "translation_url": null,

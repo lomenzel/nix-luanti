@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/better_fences/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "# Better Fences\nBetter fences overrides default fences and walls and replaces them with 2 fence types, one which connects to all nodes and one which only connects to other fences and walls.\n\nWhenever you place or dig a fence, this mod will determine if the fence you just placed will connect to 2 or more adjacent fences or walls, if it will it places the fence which only connects to fences, otherwise it places the fence which connects to all nodes. Every dig and place will result in the surrounding 4 fences (if they exist) being checked and updated if necessary as well.\n\nThis behaviour results in only the fences at the end of a line of fences connecting to all nodes",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "LGPL-2.1-only",
   "name": "better_fences",
-  "provides": [
-    "better_fences"
-  ],
+  "provides": ["better_fences"],
   "release": 18823,
   "repo": "https://github.com/ChimneySwift/better_fences",
   "score": -131.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dh8sHE7UB9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dh8sHE7UB9.png"],
   "short_description": "A Minetest mod which improves the usability of fences by making fences which connect to less than 2 other fences connect to all nodes.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dh8sHE7UB9.png",
   "title": "Better Fences",
   "translation_url": null,

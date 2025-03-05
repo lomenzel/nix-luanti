@@ -103,14 +103,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# savoia_s21\nSavoia S21 for Minetest\n\nThis is Savoia S.21 from 1992 anime movie \"Porco Rosso\", also known as \"Kurenai no Buta\".\n\n\nSome info about movie - http://en.wikipedia.org/wiki/Porco_Rosso\n\nThis mod depends on WW1 Planes modpack installed.\n\nThe plane flies and shoot as the same of WW1 modpack, but with it's own flight parameters\n\n\nLicence of the code: MIT\n\nLicence of textures and 3d model: CC0\n\nsee licence file\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "savoia_s21",
-  "provides": [
-    "savoia_s21"
-  ],
+  "provides": ["savoia_s21"],
   "release": 26774,
   "repo": "https://github.com/APercy/savoia_s21",
   "score": 500,
@@ -121,10 +117,7 @@
   ],
   "short_description": "Savoia S-21",
   "state": "APPROVED",
-  "tags": [
-    "shooter",
-    "transport"
-  ],
+  "tags": ["shooter", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a82b719ca.png",
   "title": "Savoia S-21",
   "translation_url": null,
@@ -139,27 +132,19 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       },
       {
         "is_optional": false,
         "name": "ww1_planes_lib",
-        "packages": [
-          "apercy/ww1_planes"
-        ]
+        "packages": ["apercy/ww1_planes"]
       }
     ],
     "apercy/ww1_planes": [
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       }
     ]
   },

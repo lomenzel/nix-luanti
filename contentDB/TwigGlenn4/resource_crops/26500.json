@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/TwigGlenn4/resource_crops/issues",
   "license": "MIT",
   "long_description": "Resource Crops adds crops to to grow many ores and elements, inspired by Mark719's Magical Crops mod for Minecraft\n\n## Suggestions\nIt is extremely helpful to install a crafting guide such as [Unified Inventory](https://content.minetest.net/packages/RealBadAngel/unified_inventory/)\nas there is no documentation (yet).\n\n\n## Features\n### Essence Ore\nEssence Ore is found between depths of -5 and -5000.\n### Essence Harvester\nThe Essence Harvester will harvest any fully grown resource crop directly under it and drop the item(s).\n### Punch Harvesting\nYou can punch a fully grown crop to harvest it.\n### Seeds\nSeeds are placed on farmland, and only grow when it is wet and there is a light level of at least 8. Excess seeds can be crafted into their respective essence.\n### Essences \nEssences are usually crafted into materials by filling the crafting grid, see special recipies with a crafting guide mod.\n### Elemental Essences\nMostly used as another way to get misc items. Fire essence can be crafted with an item to smelt it.\nEssence Smelting only currently works with metals that have existing crops and recipes from `minetest_game`\n### Inferno Stone\nThe Inferno Stone can be crafted with an item to get the twice the result of smelting that item, it is not consumed by the recipe.\nThis only works on the same items as fire essence.\n\n\n## Settings\nMost features can be disabled at will through the settings.\nThe options have short descriptions found in the client interface settings or [`settingtypes.txt`](https://github.com/TwigGlenn4/resource_crops/blob/main/settingtypes.txt)\nTo change the config options of this mod, you have two options:\n\n### Client Interface\n1. With Minetest running, click the menu tab called \"Settings\".\n2. Click the \"Advanced Setting\".\n3. Open the \"Mods\" section.\n4. Open the \"resource_crops\" subsection.\n5. Change values as you wish!\n\n### Text Editor or Server\n1. Find \"resource_crops\" in your \"mods\" folder.\n2. Open \"settingtypes.txt\", copy options you want to change, but not the lines starting with \"#\".\n3. Find \"minetest.conf\" in minetest's main folder, it might be beside the \"mods\" folder.\n4. Paste the options you copied into minetest.conf, change them to your liking.\n\n## Compat\n### Mods\n\n~~This mod alters the growth of crops from the `farming` mod in `minetest_game`. Cotton and wheat now have a 4-step growth cycle like the other added crops.~~<br>\nStarting with v2.0.0, Resource Crops properly uses the `farming` API and no longer alters behavior.\n\nIncludes support for\n\n- [More Ores](https://content.minetest.net/packages/Calinou/moreores/)<br>\n- [Technic](https://content.minetest.net/packages/RealBadAngel/technic/)<br>\n- [Xtraores](https://forum.minetest.net/viewtopic.php?t=12798)<br>\n\nNote, only the xtraores version by daviddoesminetest has been tested, other versions may be incompatible. <br>\nNote 2, xtraores metals level 9 (Rarium) and above are disabled by default for balancing, they can be enabled in settings.\n\n### Minetest\nResource Crops v2.0.0 was developed on Minetest 5.8.0.\nIt might work on older versions, but I have not tested them.\n\n## Changelog\nSee [`CHANGELOG.md`](https://github.com/TwigGlenn4/resource_crops/blob/main/CHANGELOG.md) for the changelog.\n\n## License\n\n- Resource Crops is licensed with the MIT license, see\n  [`LICENSE.md`](https://github.com/TwigGlenn4/resource_crops/blob/main/LICENSE.md) for details.",
-  "maintainers": [
-    "TwigGlenn4"
-  ],
+  "maintainers": ["TwigGlenn4"],
   "media_license": "MIT",
   "name": "resource_crops",
-  "provides": [
-    "resource_crops"
-  ],
+  "provides": ["resource_crops"],
   "release": 26500,
   "repo": "https://github.com/TwigGlenn4/resource_crops",
   "score": 471.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/PXM0Tvz8L5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/PXM0Tvz8L5.png"],
   "short_description": "Simple crops to grow resources inspired by Mystical Agriculture for Minecraft",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["magic", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/PXM0Tvz8L5.png",
   "title": "Resource Crops",
   "translation_url": null,

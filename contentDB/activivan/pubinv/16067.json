@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/activivan/mt-pubinv/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Public Inventory Plus\n\nThis mod adds a public inventory, which can be used by all players.\n\nTo open the public inventory, type:\n```\n/pi\n```\nAlternatively, if you are using SFINV (included in Minetest Game) or Unified Inventory, you can open the corresponding tab or click the corresponding button.\n\n## Features\n* MineClone support\n* Custom size\n* SFINV and Unified Inventory integration\n\n## Configuration\nConfigure the size of the public inventory by setting the number of rows and columns in your `minetest.conf` file:\n```conf\npubinv_rows = 3\npubinv_cols = 9\n```\n\n## Credits\nThis is a fork of FreeBSD's [Public Inventory Revisited](https://content.minetest.net/packages/FreeBSD/public_inventory/)\n",
-  "maintainers": [
-    "activivan"
-  ],
+  "maintainers": ["activivan"],
   "media_license": "LGPL-2.1-or-later",
   "name": "pubinv",
-  "provides": [
-    "pubinv"
-  ],
+  "provides": ["pubinv"],
   "release": 16067,
   "repo": "https://github.com/activivan/mt-pubinv",
   "score": 156.4,
@@ -29,11 +25,7 @@
   ],
   "short_description": "Adds a public inventory.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "storage",
-    "survival"
-  ],
+  "tags": ["multiplayer", "storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ca1dc90ce2.png",
   "title": "Public Inventory Plus",
   "translation_url": null,

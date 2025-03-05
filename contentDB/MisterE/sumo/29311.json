@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/sumo/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "A staff can be very powerful in the hands of a martial arts master\n\nPunch other players with the pushstick to shove them far away. Right click with the stick to vault yourself up over walls to escape your pursuers. Sneak+punch to sneakily switch positions with nearby players and throw them over your shoulder! Knock all the other players off the board to win!\n\n\n\nSetting up an arena:\n\nSumo mod by MisterE for use with arena_lib (minigame_lib) You should be familiar with how to set up arena_lib arenas.\n\nCode snippets from https://gitlab.com/zughy-friends-minetest/arena_lib/-/blob/master/DOCS.md and from Zughy's minigames\n\n\nto set up an arena, create a confined space that floats in the air, with lava or other damage blocks beneath. Set the spawners on the platform. You can use mesecons to make the board more interesting.\n\nIn this game, each player gets a tool that pushes other players... the goal is to knock all other players off and be the last one standing. Each player has 3 lives\n\n\nBasic setup:\n\n1) type /sumo create <arena_name>\n2) type /sumo edit <arena_name>\n3) use the editor to place a minigame sign, assign it to your minigame.\n4) while in the editor, move to where your arena will be.\n5) Make your arena. There should be some type of platform, with a lava pool underneath to kill players that fall off.\n6) using the editor tools, mark player spawner locations. Protect the arena.\n7) exit the editor mode\n8) type /minigamesettings sumo \n9) change the hub spawnpoint to be next to the signs.\n\n\n\n\n\n\n\n\n\n\n",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "GPL-3.0-only",
   "name": "sumo",
-  "provides": [
-    "sumo"
-  ],
+  "provides": ["sumo"],
   "release": 29311,
   "repo": "https://gitlab.com/zughy-friends-minetest/sumo",
   "score": 155.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/28d41fcda8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/28d41fcda8.png"],
   "short_description": "Sumo Minigame (Arena_lib)",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "pvp",
-    "sports"
-  ],
+  "tags": ["mini-game", "pvp", "sports"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/28d41fcda8.png",
   "title": "Sumo",
   "translation_url": null,
@@ -507,9 +495,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ],
     "Zughy/arena_lib": [
@@ -540,9 +526,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ]
   },

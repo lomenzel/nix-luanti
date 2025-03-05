@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/super_sam/issues",
   "license": "MIT",
   "long_description": "Super sam adventures\n\n![](https://github.com/BuckarooBanzay/super_sam/workflows/luacheck/badge.svg)\n![GitHub repo size](https://img.shields.io/github/repo-size/buckaroobanzay/super_sam)\n[![License](https://img.shields.io/badge/License-MIT%20and%20CC%20BY--SA%204.0-green.svg)](license.txt)\n[![Download](https://img.shields.io/badge/Download-ContentDB-blue.svg)](https://content.minetest.net/packages/BuckarooBanzay/super_sam)\n\nState: **Playable prototype**\n\nGuide sam through the various levels and score points\n\nBuilt with [mapsync](https://github.com/BuckarooBanzay/mapsync)\n\nOfficial discord server: https://discord.gg/JcyaETW3zz\n\nMinetest server on the serverlist: `supersam.minetest.ch:30002`\n\n# Commands\n\n* `/ambience [on|off]` enable or disable ambient sounds\n* `/mode [edit|play]` switch between play- and edit-mode (to edit the map)\n\n# Map editing / contributing\n\nContact me on IRC (*BuckarooBanzai*) or discord (*BuckarooBanzai#6742*)\n\n# License\n\n* Code: MIT\n* Textures: (unless otherwise noted) CC-BY SA 4.0\n* `menu/icon.png` CC-BY SA 4.0 https://opengameart.org/content/mario-like-stuff\n* Others: see the `readme.md` or `license.txt` files in the various `mods/*` folders\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-4.0",
   "name": "super_sam",
   "provides": [
@@ -49,10 +47,7 @@
   ],
   "short_description": "Super sam adventures",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "oneofakind__original"
-  ],
+  "tags": ["adventure__rpg", "oneofakind__original"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1f33d10745.png",
   "title": "Super sam",
   "translation_url": null,

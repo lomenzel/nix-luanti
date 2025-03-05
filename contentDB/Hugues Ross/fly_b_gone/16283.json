@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,26 +247,17 @@
   "issue_tracker": "https://codeberg.org/HuguesRoss/fly_b_gone/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "# Fly-B-Gone!\nA brand new product for those who dislike insects, the Fly-B-Gone mod is\na breath of fresh and bugless air. By enabling this mod, Minetest\nGame's butterflies and fireflies will vanish from your world. The change is\n*non-destructive*; if you ever change your mind about the 'flies, bringing them\nback is as easy as removing this mod.\n\n## Settings\nFly-B-Gone offers several settings to tweak your now arthropod-free life:\n\n- `hide_butterflies`: Hide all butterflies (On by default)\n\n- `hide_fireflies`: Hide all fireflies (On by default)\n\n- `keep_bottled_fireflies`: Keep the 'Firefly in a Bottle' node when\n  `hide_fireflies` is active, allowing you to keep using it for decoration\n  without letting wild fireflies roam free. (Off by default)\n\n## Contact\nFor questions, requests, and other communications regarding this work, you can\ncontact the original creator at hugues.ross@gmail.com\n",
-  "maintainers": [
-    "Hugues Ross"
-  ],
+  "maintainers": ["Hugues Ross"],
   "media_license": "CC-BY-SA-4.0",
   "name": "fly_b_gone",
-  "provides": [
-    "fly_b_gone"
-  ],
+  "provides": ["fly_b_gone"],
   "release": 16283,
   "repo": "https://codeberg.org/HuguesRoss/fly_b_gone",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7609efe39a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7609efe39a.png"],
   "short_description": "Hides butterflies/fireflies",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "world_tools"
-  ],
+  "tags": ["mapgen", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7609efe39a.png",
   "title": "Fly-B-Gone!",
   "translation_url": null,

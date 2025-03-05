@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "This mod adds a throwable snowball to your inventory. This snowball can damage mobs.\nYou can get it by putting a normal snowball in the furnance or in your crafting.",
-  "maintainers": [
-    "ComputeGraphics"
-  ],
+  "maintainers": ["ComputeGraphics"],
   "media_license": "The Unlicense",
   "name": "snowball",
-  "provides": [
-    "snowball"
-  ],
+  "provides": ["snowball"],
   "release": 5395,
   "repo": null,
   "score": 5.3,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Adds a throwable Snowball",
   "state": "APPROVED",
-  "tags": [
-    "pvp"
-  ],
+  "tags": ["pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Be2DbUVlfJ.png",
   "title": "Throwable Snowball",
   "translation_url": null,

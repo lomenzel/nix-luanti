@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/kestral246/realcompass/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "An interactive compass that will continuously point north when placed in one of the first eight slots of your inventory.\n\nMore immersive than the numerical display provided by F5 (debug info).\n\nCompass textures are based on the ones tacotexmex created for ccompass, with his approval.\n\n**Update:** Version 1.21 now with 16 directions instead of 12.\n\n",
-  "maintainers": [
-    "kestral"
-  ],
+  "maintainers": ["kestral"],
   "media_license": "CC0-1.0",
   "name": "realcompass",
-  "provides": [
-    "realcompass"
-  ],
+  "provides": ["realcompass"],
   "release": 8333,
   "repo": "https://github.com/kestral246/realcompass",
   "score": 2.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/HkegVZ7lNf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/HkegVZ7lNf.png"],
   "short_description": "A simple compass that only points north.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HkegVZ7lNf.png",
   "title": "Real Compass",
   "translation_url": null,

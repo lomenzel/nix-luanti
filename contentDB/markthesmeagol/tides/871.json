@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/smeagolthellama/tides/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "Adds a tidal effect to the world. \n\n**WARNING** all default:water_source above the tide-line will be **removed**. Use river_water instead.",
-  "maintainers": [
-    "markthesmeagol"
-  ],
+  "maintainers": ["markthesmeagol"],
   "media_license": "GPL-2.0-only",
   "name": "tides",
-  "provides": [
-    "tides"
-  ],
+  "provides": ["tides"],
   "release": 871,
   "repo": "https://github.com/smeagolthellama/tides",
   "score": 158.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9kQZT0L43H.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9kQZT0L43H.png"],
   "short_description": "Adds tides, WARNING: will delete water sources above sea level",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9kQZT0L43H.png",
   "title": "Tides",
   "translation_url": null,

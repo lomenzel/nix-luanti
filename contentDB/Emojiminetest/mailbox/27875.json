@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/mailbox/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Mailboxes: Inbox for items\n\nThis mod provides blocky inboxes for items. Mailboxes can be unrent (creating a free mailbox) and rent, and set to be accepting or not accepting non-book items.\n\nThis mod is a fork of, and compatible with, [LinuxForks's mailbox mod](https://git.bananach.space/mailbox.git), an extract of the [old `xdecor` mod](https://github.com/minetest-mods/xdecor).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC0-1.0",
   "name": "mailbox",
-  "provides": [
-    "mailbox"
-  ],
+  "provides": ["mailbox"],
   "release": 27875,
   "repo": "https://github.com/C-C-Minetest-Server/mailbox",
   "score": 8.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cf2386fcf7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cf2386fcf7.png"],
   "short_description": "Inbox for items",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["commerce", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cf2386fcf7.png",
   "title": "Mailbox",
   "translation_url": null,

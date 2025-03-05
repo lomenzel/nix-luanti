@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/sfence/travelnet/issues",
   "license": "GPL-3.0-only",
   "long_description": "Code is keep in branch [sfence_hades_revisited](https://github.com/sfence/travelnet/tree/sfence_hades_revisited).\n\nThis is modified version of mod [travelnet](https://content.minetest.net/packages/mt-mods/travelnet/)\n from [Sokomine](https://content.minetest.net/users/Sokomine/), now mantained by mt-mods.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC0-1.0",
   "name": "hades_travelnet",
-  "provides": [
-    "hades_travelnet"
-  ],
+  "provides": ["hades_travelnet"],
   "release": 9501,
   "repo": "https://github.com/sfence/travelnet/",
   "score": 9.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a93346addf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a93346addf.png"],
   "short_description": "Network of teleporter-boxes that allow easy travelling to other boxes on the same network. Compatible with travelnet removed from Hades Revisited in release 0.13.0.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a93346addf.png",
   "title": "Travelnet for Hades Revisited",
   "translation_url": null,
@@ -57,9 +49,7 @@
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

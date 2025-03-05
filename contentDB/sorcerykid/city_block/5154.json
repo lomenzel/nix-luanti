@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/sorcerykid/city_block/issues",
   "license": "GPL-3.0-only",
   "long_description": "City Block II disables use of water and lava buckets within a designated area and sends aggressive players to a central jail. The mod was inspired by the original \"city_block\", developed by lag01 for the just test server.\n\nThe default behavior of the city block is to intercept placement of lava buckets, lava nodes, water buckets, and water nodes according to the following validation logic (this is for lava, but the conditions are the same for water):\n\n   1. If player has \"server\" privilege, then always allow placement of lava.\n   2. If player is below -250 meters, then always allow placement of lava.\n   3. Otherwise, check permissions of the most restrictive city block in range.\n   4. If lava buckets are permitted by city block and player has \"lava\" privilege, then \n      allow placement of lava.\n   5. Otherwise deny placement of lava under any other conditions.\n\nThere are also restrictions on TNT nodes (cannot be placed nor ignited above -500 meters) and on Protection nodes (cannot be placed anywhere closer than 21 meters from the world origin (0,0,0), which is usually spawn. This validation logic can be fully customized according to your world needs simply by editing the \"hooks.lua\" and \"config.lua\" files.\n\nTo craft a city block, you will need to arrange seven sandstone blocks in a square around one mese block in the craft grid (this is a less expensive recipe than the original mod, which hopefully encourages players to co-operatively protect public spaces from griefing.\n\nThe range of each city block is 21 meters in all four cardinal directions, extending infinitely upward, but downward only to -100 meters. Placing a city block at any depth below -100 will result in it being non-functional.\n\nAs a convenience, you can punch the city block to activate the boundary display which can aid in more accurate placement.\n\nBy right-clicking on a city block, you can override the default protection behavior and monitor the corresponding interception metrics.\n\n* Disable Jail on PvP\n* Allow Water Buckets\n* Allow Lava Buckets\n\nKeep in mind, if you install this mod in a world that has city blocks from the original \"city_block\" mod, then they will continue to function as expected. However, the interface to override the default protection behavior and to monitor the interception metrics will be unavailable until you manually dig and replace the city block.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "city_block",
-  "provides": [
-    "city_block"
-  ],
+  "provides": ["city_block"],
   "release": 5154,
   "repo": "https://bitbucket.org/sorcerykid/city_block",
   "score": 154.7,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Disables use of water and lava buckets within a designated area",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["library", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/zG16FXwQC8.png",
   "title": "City Block II",
   "translation_url": null,
@@ -521,9 +511,7 @@
       {
         "is_optional": false,
         "name": "antigrief",
-        "packages": [
-          "sorcerykid/antigrief"
-        ]
+        "packages": ["sorcerykid/antigrief"]
       },
       {
         "is_optional": false,
@@ -570,9 +558,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

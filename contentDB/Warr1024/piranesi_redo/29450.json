@@ -11,9 +11,7 @@
   "issue_tracker": "https://gitlab.com/sztest/piranesi_redo/-/issues",
   "license": "MIT",
   "long_description": "### *Explore the space-bending house and learn its secrets.*\n\nA challenging, Myst-like adventure/puzzle game set in a unique and mysterious mansion.  Read the clues, find key items, solve puzzles, unlock new areas, learn the story of the labyrinth, and ultimately find your escape.\n\n---\n\nThis is a polished and well-maintained recreation and continuation of the 2022 Game Jam silver medalist game, **Piranesi** by **[iarbat](https://content.minetest.net/users/cool_beans/)**.  Created using [Minetest Definition Ripper](https://content.minetest.net/packages/Warr1024/defripper/), and new original code.\n\n## Features\n\n- Complete game end to end, without the major bugs that plagued the original.\n- Clean and simplified UI, dynamically expanding hotbar inventory, on-screen compass.\n- Improved visual and sound effects, music.\n- Improve accessibility, HUD tips for colorblind or low vision players.\n\n\n### Translations\n\n[Chinese (Traditional)](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/zh_Hant/)(36%) — [Deutsch](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/de/)(99%) — [Español](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/es/)(99%) — [Français](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/fr/)(99%) — [Indonesia](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/id/)(99%) — [Magyar](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/hu/)(12%) — [Norwegian Bokmål](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/nb_NO/)(26%) — [Slovenčina](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/sk/)(20%) — [Spanish (American)](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/es_US/)(93%) — [Русский](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/ru/)(99%) — [українська](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/uk/)(99%)\n\n… and more on [Weblate](https://hosted.weblate.org/projects/minetest/game-piranesi-redo/)",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "CC-BY-SA-4.0",
   "name": "piranesi_redo",
   "provides": [
@@ -41,12 +39,7 @@
   ],
   "short_description": "Discover the secrets of the space-bending house, in this polished remake of iarbat's award-winning original game.",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "oneofakind__original",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2022", "oneofakind__original", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/123f9526f6.png",
   "title": "Piranesi Restoration Project",
   "translation_url": "https://hosted.weblate.org/projects/minetest/game-piranesi-redo/",

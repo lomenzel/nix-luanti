@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/edu-minetest/quiz/issues",
   "license": "MIT",
   "long_description": "# Quiz - Play Challenge\n\nThis mod requires players to answer question before they can play. If you answer correctly, you will get a award and continue to play, otherwise you will not be able to play.\n\nThis mod is already builtin in [Minetest:Education Edition](https://edu.ihom.app/)\n\nSee Also [Quiz-UI](https://content.minetest.net/packages/snowyu/quiz_ui/) mod.\n\nMore info: [Quiz Play Challenge Mod](https://edu.ihom.app/en/guide/mods/quiz/)\n\nPlayers are required to answer questions at regular intervals(`idleInterval`), and the answer is correct to continue playing.\n\nWhen the game time(`totalPlayTime`) is up, kick the player out.\n\nWhen logging in, check whether you have enough rest time, based on the recorded last time you left. If you do not have enough rest, you will be kicked out.\n\n* Chat Commands to mange quiz(need quiz privilege)\n  * `loadQuiz`: reload quizzes from config file.\n  * `quiz <list>`: list all quiz\n  * `quiz <del> <Index|Id>`: delete a quiz\n  * `quiz <set> <Index|Id> title=\"Title\" answer=\"Answer\"`: edit/add the quiz\n  * `quiz reset [<playerName>]`: reset the game time of a player\n  * `quizAward <list>`: list all awards\n  * `quizAward <del> <Index|name>`: delete a award\n  * `quizAward <set> <Index|name> title=\"Title\" [mod=\"default\"] [count=<Number>]`: edit/add the award\n  * `saveQuiz`: save quizzes to config file.\n  * `totalPlayTime [<minutes>]`: get or set the total play time at most.\n  * `restTime [<min>]`: get or set the rest time at least.\n  * `skipAnswered [true|false]`: get or set whether skip the correct answered.\n  * `idleInterval [<minutes>]`: get or set the time between answering quiz.\n  * `forceAdminRest [true|false]`: get or set the whether force the administrator reset too.\n  * `kickDelay [<seconds>]`: get or set the delay time to kick off.\n  * `checkInterval [<seconds>]`: get or set the interval time to check quiz.\n  * `forceAdminQuiz [true|false]`: get or set the whether force the administrator answer the quiz too. defaults to false.\n  * `immediateQuiz [true|false]`: get or set the whether ask the quiz immediately after joining the game. defaults to true.\n\n`quiz_config.yml` in world folder:\n\n```yaml\n# the revoke or grant privileges, defaults to \"interact,shout\"\ngrant: interact,shout\n# totalPlayTime unit is minute, 0 means disable totalPlayTime\ntotalPlayTime: 30\n# the rest time after playing, unit is minute, 0 means disable resetTime\nrestTime: 20\n# Whether skip the question which has already be answered correctly.\n# The number is answered count correctly to skip\nskipAnswered: 1\n# checkInterval unit is second\ncheckInterval: 5\n# idleInterval unit is minute\nidleInterval: 5\n# the delay time to kick off, unit is second\nkickDelay: 2\n# the awards to give\nawards:\n  # the item name to give\n  # minetest_game/mods/default/nodes.lua\n  - id: coalblock\n    # optional, for translation\n    title: Coal Block\n    # optional, the defaults to default mod\n    mod: default\n    # the item count, optional the defaults to 1\n    count: 1\n  - id: wood\n    title: Apple Wood Planks\n    count: 3\n  - id: stone\n    title: Stone\n    count: 3\n  - id: torch\n    title: Torch\n  - id: steel_ingot\n    title: Steel Ingot\n    count: 3\n# the quiz list\nquiz:\n  - id: favorColor\n    title: \"What's my favor color?\"\n    answer: red\n  - id: theYear\n    title: \"What's the year?\"\n    answer: 2021\n  - title: \"18/7=?\"\n    answer: \"/^2%.%.%.+4/\" # the lua string pattern: 2...4 (three dots and more)\n  - title: \"$calc=?\"\n    type: calc\n    forceInt: true         # the result must be an integer\n    answer: \"(Nn*n+n)/(Nn-n)\"\n  - title: \"What is the part of the plant that uses light to make food?\"\n    type: \"select\"\n    options:\n      - leaves\n      - roots\n      - stem\n      - flowers\n    answer: 1\n```\n\n1. The `answer` supports the [Lua string pattern](https://www.lua.org/pil/20.2.html) enclosed in \"/\" slashes. (0.6.0)\n2. The `answer` supports generate simple four arithmetic expressions randomly(`type: calc`)  (0.7.0)\n     * The division operation must be the last one\n     * `forceInt` means the result of the expression is integer only.\n     * `N`: generate a none-zero number(1-9)\n     * `n`: generate a number(0-9)\n     * `[1-39]`: the set(range) of numbers(from 1 to 3) and number 9\n\t\t * `[+-*/]`: the set(range) of operations.\n\t\t\t     * Note: The division operation must be the last!\n3. Multiple choice questions supported(`type: select`)(0.8.0)\n     * `options`: list items to be selected.\n     * `answer`: the sequence number of the correct option.\n\t\t\t  * **Note**: must sort from small to large\n",
-  "maintainers": [
-    "snowyu"
-  ],
+  "maintainers": ["snowyu"],
   "media_license": "MIT",
   "name": "quiz",
-  "provides": [
-    "quiz"
-  ],
+  "provides": ["quiz"],
   "release": 19653,
   "repo": "https://github.com/edu-minetest/quiz",
   "score": 2.6,
@@ -30,10 +26,7 @@
   ],
   "short_description": "This mod requires players to answer question before they can play. If you answer correctly, you will get a award and continue to play, otherwise you will not be able to play.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "puzzle"
-  ],
+  "tags": ["education", "puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e566455bc5.png",
   "title": "Quiz - Play Challenge",
   "translation_url": null,
@@ -57,9 +50,7 @@
       {
         "is_optional": false,
         "name": "yaml",
-        "packages": [
-          "snowyu/yaml"
-        ]
+        "packages": ["snowyu/yaml"]
       }
     ],
     "snowyu/yaml": [],

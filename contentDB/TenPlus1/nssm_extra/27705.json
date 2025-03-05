@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -158,25 +156,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "# nssm_extra\n\nAdditional nssm mobs to add into your worlds created by the NPX Team.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-4.0",
   "name": "nssm_extra",
-  "provides": [
-    "nssm_extra"
-  ],
+  "provides": ["nssm_extra"],
   "release": 27705,
   "repo": "https://codeberg.org/tenplus1/nssm_extra",
   "score": 170.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bb1423381c.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bb1423381c.jpg"],
   "short_description": "Even more creatures to add into your worlds",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bb1423381c.png",
   "title": "Nssm Extra",
   "translation_url": null,
@@ -361,9 +351,7 @@
       {
         "is_optional": false,
         "name": "nssm",
-        "packages": [
-          "TenPlus1/nssm"
-        ]
+        "packages": ["TenPlus1/nssm"]
       }
     ]
   },

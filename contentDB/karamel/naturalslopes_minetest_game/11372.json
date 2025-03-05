@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Smoothen the edges by adding natural slopes at generation time and when the landscape changes for Minetest Game. Most of the default ground nodes can have their \"stair\" shape which is set automatically when they are put on edges.\n\nThose slopes are not craftable, they just happen by themselves at generation time and when the landscape changes. You can also use your digging tools to soften the edges with their secondary use. This will wear the tool a little on success, and works better with higher-grade tools.\n\nThis mod is an usage of naturalslopeslib for Minetest Game. Please check the library page for the forum topic and details about its settings and optional dependencies.\n\n*Settings tip*: if the map generation is too long, check the naturalslopeslib settings and set *Generation method* to *Progressive*.",
-  "maintainers": [
-    "karamel"
-  ],
+  "maintainers": ["karamel"],
   "media_license": "LGPL-2.1-only",
   "name": "naturalslopes_minetest_game",
-  "provides": [
-    "naturalslopes_minetest_game"
-  ],
+  "provides": ["naturalslopes_minetest_game"],
   "release": 11372,
   "repo": null,
   "score": 621.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aC7a1rGsFi.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aC7a1rGsFi.png"],
   "short_description": "Add natural slopes for Minetest Game",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aC7a1rGsFi.png",
   "title": "Natural slopes for Minetest Game",
   "translation_url": null,

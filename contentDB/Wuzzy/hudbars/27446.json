@@ -25,27 +25,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_hudbars/issues",
   "license": "MIT",
   "long_description": "This mod replaces the builtin health and breath indicators by nice little “progress bars” which show an icon, a label and a numerical value plus maximum.\n\nThere are many settings to customize them.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "hudbars",
-  "provides": [
-    "hudbars"
-  ],
+  "provides": ["hudbars"],
   "release": 27446,
   "repo": "https://codeberg.org/Wuzzy/minetest_hudbars",
   "score": 1383.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/v176SM4tbS.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/v176SM4tbS.png"],
   "short_description": "Replaces the default health and breath symbols by horizontal colored bars with text showing the number. Extensible.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "player_effects",
-    "survival"
-  ],
+  "tags": ["hud", "player_effects", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/v176SM4tbS.png",
   "title": "HUD Bars",
   "translation_url": null,

@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/mt-mods/mcl_extra_structures/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Extra Structures for MineClone2\n====================\nAdds extra structures to the MineClone2 game. Includes structures based on YouTube videos about what could be in future Minecraft updates. This will hopefully be continuously updated and expanded.\n\nStructure List\n--------------\n* Oasis (PrairieWind)\n* Birch Forest Temple Ruins (PrairieWind)\n* Brick Pyramid (PrairieWind)\n* Graveyard (PrairieWind)\n* Loggers Camp (Cora)\n* Sandstone Obelisks (Michieal)\n* Ice Tower (PrairieWind)\n\nDisabling Specific Structures\n-----------------------------\nIn the minetest.conf file, create a new line (if it doesn't already exist) called `mcl_disabled_structures` and list the structures you wish to disable with each structure seperated by a comma.\nExample: `mcl_disabled_structures = desert_oasis, brick_pyramid`\n\nContributing\n------------\nIf you wish to contribute a structure, create a schematic of the structure and upload it in an issue. If you are knowledgeable about the mineclone2 structure api, git, and coding, create a pull request with the code and schematics.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_extra_structures",
-  "provides": [
-    "mcl_extra_structures"
-  ],
+  "provides": ["mcl_extra_structures"],
   "release": 18551,
   "repo": "https://github.com/mt-mods/mcl_extra_structures.git",
   "score": 361.3,
@@ -56,9 +52,7 @@
   ],
   "short_description": "Adds extra structures to MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/262d764146.png",
   "title": "Extra Structures for MineClone 2",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds a hubbar with the amount of life of the bosses, making their battle more interesting. <br>\nThis mod only works with mobs created using the TenPlus1 \"[Mobs redo](https://content.minetest.net/packages/TenPlus1/mobs/)\" API...\n\n - BY : DuckGo / [PixelZone](https://codeberg.org/pixelzone)\n - LICENSE : MIT\n - TEXTURE : CC BY-SA 4.0 \n - depends = \n - optional_depends = nssm,forgotten_monsters,ethereal_bosses,livingnether,lottmobs,dmobs\n\n---\n\n",
-  "maintainers": [
-    "pixelzone"
-  ],
+  "maintainers": ["pixelzone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "boss_s_hudbar",
-  "provides": [
-    "boss_s_hudbar"
-  ],
+  "provides": ["boss_s_hudbar"],
   "release": 27912,
   "repo": "https://codeberg.org/pixelzone/boss_s_hudbar",
   "score": 10.2,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds a hubbar with the amount of life of the bosses..",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg"
-  ],
+  "tags": ["adventure__rpg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ce46ce0862.png",
   "title": "Boss'S Hudbar",
   "translation_url": null,

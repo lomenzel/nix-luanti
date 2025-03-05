@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,14 +260,10 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "This mod allows players to spawn buildings\n\nIt is a pretty simple mod to use by players, just right click on any surface with build spawner to spawn builds.\nUsers can also add their own structures in build spawner, for more details on how it is done check readme file.\n\nFor now in this mod the following basic builds are added-\n\n* School\n\n* Hotel\n\n* Houses\n\n* Mini Shops\n\n* Bank\n\n* Bakery\n\n* Police station\n\n* Church\n\n* Cemetery\n\n* Mall\n\n* Hospital\n\n* Restruant\n\n* Towers\n\n\nThis mod also features few colorful building blocks called concrete\n\n\n",
-  "maintainers": [
-    "Thunder1035"
-  ],
+  "maintainers": ["Thunder1035"],
   "media_license": "AGPL-3.0-only",
   "name": "the_build_spawner",
-  "provides": [
-    "the_build_spawner"
-  ],
+  "provides": ["the_build_spawner"],
   "release": 22288,
   "repo": null,
   "score": 364.6,
@@ -286,12 +280,7 @@
   ],
   "short_description": "Gives build spawner for spawning builds which makes city creation easy",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "creative",
-    "decorative"
-  ],
+  "tags": ["building", "building_mechanics", "creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/80f926e641.png",
   "title": "The Build Spawner",
   "translation_url": null,
@@ -601,18 +590,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

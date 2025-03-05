@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/enchantments_extractor/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "## Introduction\nEnchantments extractor enables MineClone2 users(mineclonia, MineClone5, etc) to extract separate enchantments from items into books, or from books into separate books. The Enchantment Extractor takes books and the item you want to extract, as input.\n\n### Technical's\nThere is 1 item slot for the regular books, 1 item slot for the item you want to extract. and 9 output slots where the extracted enchants go.\n\nTHe first input slot you can only put \"mcl_books:book\" the second, you can put any item with an enchant on it. the output you cannot put only take items\nPut labels above the inputs and outputs.",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "enchantments_extractor",
-  "provides": [
-    "enchantments_extractor"
-  ],
+  "provides": ["enchantments_extractor"],
   "release": 22596,
   "repo": "https://github.com/JamesClarke7283/enchantments_extractor",
   "score": 155.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9d1e81d88f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9d1e81d88f.png"],
   "short_description": "The Enchantment Extractor is a utility that separates enchantments from items, transferring them to books for storage or later application to other items.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "magic"
-  ],
+  "tags": ["gui", "magic"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9d1e81d88f.png",
   "title": "Enchantments Extractor",
   "translation_url": null,

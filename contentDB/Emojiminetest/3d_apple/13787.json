@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/3d_apple/issues",
   "license": "MIT",
   "long_description": "# Apples should not be 2D...\nWe turn apples to 3D! Textures from [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game/), avaliable under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), for their original authors please refer to [their license document](https://github.com/minetest/minetest_game/blob/master/mods/default/license.txt).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "3d_apple",
-  "provides": [
-    "3d_apple"
-  ],
+  "provides": ["3d_apple"],
   "release": 13787,
   "repo": "https://github.com/C-C-Minetest-Server/3d_apple",
   "score": 332,
-  "screenshots": [
-    "https://content.luanti.org/uploads/49b1bee6e7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/49b1bee6e7.png"],
   "short_description": "Apples aren't flat!",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/49b1bee6e7.png",
   "title": "3D Apple",
   "translation_url": null,

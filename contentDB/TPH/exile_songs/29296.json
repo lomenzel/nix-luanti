@@ -25,25 +25,17 @@
   "issue_tracker": "https://codeberg.org/TPH/exile_songs/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Adds music to your Exile playthrough that plays quietly in the background\n\nhttps://content.luanti.org/packages/Mantar/exile/\n\nFeel free to add your own music into the sounds folder! It'll play them in the background too! Perfectly-so!\n\nUtilizes io.open(path, \"rb\") to read the sound files and get their duration - only ran on world/server start\n\nDebating making the internal functions an API at some point - they're quite powerful :3\n\nThis is actually compatible with just about any game to my knowledge (as long as it doesn't have background music shrugshrug), but it's most enjoyed in Exile I imagine pfft. So I don't think I'll mention any other game as compatible just  for that reason",
-  "maintainers": [
-    "TPH"
-  ],
+  "maintainers": ["TPH"],
   "media_license": "CC0-1.0",
   "name": "exile_songs",
-  "provides": [
-    "exile_songs"
-  ],
+  "provides": ["exile_songs"],
   "release": 29296,
   "repo": "https://codeberg.org/TPH/exile_songs",
   "score": 14,
-  "screenshots": [
-    "https://content.luanti.org/uploads/02d3ac83f7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/02d3ac83f7.png"],
   "short_description": "CC0 music tracks that play while you're playing Exile. Permits and will play any ogg vorbis sounds you put in the sounds folder!",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/02d3ac83f7.png",
   "title": "Exile Ambient Music",
   "translation_url": null,

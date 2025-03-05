@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/AFCMS/no_lag/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# No Lag\nThis mods remove lag on minetest servers.\n\nApril fool's joke, removes chat messages containing the word \"lag\", eventually kick players complaining too much 😅\n",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "GPL-3.0-or-later",
   "name": "no_lag",
-  "provides": [
-    "no_lag"
-  ],
+  "provides": ["no_lag"],
   "release": 9960,
   "repo": "https://github.com/AFCMS/no_lag",
   "score": 304,
-  "screenshots": [
-    "https://content.luanti.org/uploads/93ae803e3f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/93ae803e3f.png"],
   "short_description": "[April fool's joke] Removes Lag",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "server_tools"
-  ],
+  "tags": ["april_fools", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/93ae803e3f.png",
   "title": "No Lag",
   "translation_url": null,

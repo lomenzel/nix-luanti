@@ -51,14 +51,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# Frakturmod für Luanti\n\nUnterstützte Sprachen/Supported Languages: Deutsch, English, Dansk, Norsk, Svenska, Suomi\n\n## Deutsch:\n\nEnthält Herstellungsbaupläne für  MTG, Voxelibre, Mineclonia.\n\nDiese Mod folgt den Regeln des Sperrsatzes und beinhaltet deshalb nur die Zwangsligaturen ch, ck, ſt, tz, ß\n\nSie fügt 90 Blöcke hinzu. Herstellbar und Kreativinventar ist aber nur einer, der beim Platzieren in einen der 90 Blöcke umgewandelt wird.\n\nDes Weiteren sind die Umlaute, Satzzeichen ( . , + - : ! ? ) und die skandinavischen Ligaturen enthalten.\n\nDie Regeln zum langen ſ findest du hier:\n\nhttps://www.typografie.info/3/faq.htm/wie-setzt-man-das-lange-s-im-klassischen-fraktursatz-r12/\n\nVerwende das Apostroph bloß nicht im Deutschen. Es ist nur für Englischsprachler enthalten und kommt im Deutschen nicht vor.\n\n## English:\n\nFraktur refers to German blackletters.\n\nContains crafting recipes for MTG, Voxelibre, Mineclonia.\n\nIt adds 90 nodes but only one is in the creative inventory and craftable and will be converted into one of the others when placed.\n\nAn ſs ligature and an apostrophe is provided.\n\nLong ſ usage rules: write ſ instead of s except for wordendings. There s is used instead of ſ and ſs instead of ſſ/ss.\n\nExample: graſs, leſſon, kiſs, is, this\n\nFurthermore there are punctuation characters ( . , + - : ! ? ) and German and Skandinavian ligatures.\n",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "fraktur",
-  "provides": [
-    "fraktur"
-  ],
+  "provides": ["fraktur"],
   "release": 29456,
   "repo": "https://gitgud.io/blut/fraktur",
   "score": 4.4,
@@ -71,11 +67,7 @@
   ],
   "short_description": "Adds a whole set of Fraktur type metals in the form of nodes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "education"
-  ],
+  "tags": ["building", "decorative", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a514acc0e2.png",
   "title": "Fraktur (alphabet digits letters)",
   "translation_url": null,

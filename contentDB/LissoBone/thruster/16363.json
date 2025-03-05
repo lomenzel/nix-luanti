@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Recommended settings:\n1. Zero or small gravity (vertical acceleration);\n2. Zero acceleration in mid-air.\n\n# Ride a fire in the sky (it doesn't look like fire, to be honest).\n\nUsage manual:\n\nUpon crafting an unloaded thruster, you should craft a propellant canister. You can manufacture an empty one just in case you are planning on crafting a loaded one later.\nA full propellant tank can be loaded into an unloaded thruster: right-click while holding the thruster. A clicking sound I recorded with my phone should indicate that the task has been completed.\nNow you're ready to take off.\n\n# Note:\nIn settings you may want to disable the mid-thrust pause. Disabling it is recommended if you want to have some fun in a normal world with strong enough gravity, and disabling it is also NOT recommended due to insane speeds you can reach. Fun for races, though.",
-  "maintainers": [
-    "LissoBone"
-  ],
+  "maintainers": ["LissoBone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "thruster",
-  "provides": [
-    "thruster"
-  ],
+  "provides": ["thruster"],
   "release": 16363,
   "repo": null,
   "score": 12.2,
@@ -320,12 +314,7 @@
   ],
   "short_description": "Propel yourself through space with this new invention. Zero-G recommended. Check settings for tweaks.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "sports",
-    "tools",
-    "transport"
-  ],
+  "tags": ["player_effects", "sports", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4a86d58737.png",
   "title": "Thruster",
   "translation_url": null,

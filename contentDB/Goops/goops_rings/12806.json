@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -119,14 +117,10 @@
   "issue_tracker": "https://github.com/MT-Goops/rings/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "Minetest mod that adds rings with temporary player effects\n\n* _Celestial Ring_ : allows to fly\n\n* _Infernal Ring_ : gives fire resistance\n\n* _Abyssal Ring_ : gives water resistance\n\n* _Hardening Ring_ : gives Iron Fist (via Activation Ring)\n\n* _Enlightning Ring_ : makes player shine\n\n* _Activation Ring_ : provides control of the rings:\n    - activates/desactivates the rings (primary/secondary usage) ;\n    - applies special effects (cf. Iron Fist) ;\n    - in sneak mode: toggles automatic activation/toggles hud (primary/secondary usage).\n\n* _Random Ring_ : drops a random ring\n\nGlooptest mod dependency was made optional by including part of its code.",
-  "maintainers": [
-    "Goops"
-  ],
+  "maintainers": ["Goops"],
   "media_license": "CC-BY-SA-4.0",
   "name": "goops_rings",
-  "provides": [
-    "goops_rings"
-  ],
+  "provides": ["goops_rings"],
   "release": 12806,
   "repo": "https://github.com/MT-Goops/rings",
   "score": 157.7,
@@ -138,9 +132,7 @@
   ],
   "short_description": "Add rings with temporary player effects",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc7145d588.png",
   "title": "Rings",
   "translation_url": null,

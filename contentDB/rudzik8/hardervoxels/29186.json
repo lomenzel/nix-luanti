@@ -38,9 +38,7 @@
   "issue_tracker": "https://codeberg.org/rudzik8/hardervoxels/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the\ngameplay more difficult: from permanent death (like MC hardcore), to burning out\ntorches, to defensive \"passive\" animals. All while trying to avoid adding up to\nthe boring grind that we all know and ~~love~~ hate.\n\n\n## Usage\n\nFirst-of-all, just enable the modpack! It's that easy!\n\nThis modpack is also really, *really* modular, with all the mods properly\nlabeled. If you don't want an aspect this modpack brings, you can just disable\nit through the mod menu. So, for example, if you don't want permadeath, just disable the mod\ncalled \"You Only Live Once\".\n\nIt is recommended that you also tweak VoxeLibre settings to pair with the\ndifficulty HarderVoxels provides. Primarily the mob settings: chance of passive\nmobs spawning, hostile mobs rates, damage dealt by mobs, etc. Also it is very\nrecommended that you turn off night skip. See the `minetest.conf` example\nincluded in the modpack root.\n\nOnce you're done, good luck surviving. You knew what you were going for. :D\n\n\n## Aspects\n\n* You only have one life. Death is permanent.\n* Torches now go out with time and when left under rain or near water. To lit\n  them up, either ignite them manually with flint and steel, or place them near\n  lava or a similar block.\n* Previously passive mobs now will respond with violence if you attack them.\n* Hostile mobs (monsters) are now immune to sunlight, taking no damage from it.\n* Lava now deals twice as much damage as before. It's a lava lake, dammit, not a\n  kids pool!\n* Cacti and dead bushes deal damage when punched with bare hands.\n* Crafting tables, chests and barrels are now all flammable. Yes, I was\n  just as surprised as you to learn that they aren't flammable in the base game.\n\n\n## License\n\n\nThe *licences* referenced below apply to all mods in this modpack. For the\n*copyright notices* of each individual included mod, please refer to that mod's\nREADME files.\n\n\n**License of source code:**\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see LICENSE file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n**License of media:**\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see MEDIA_LICENSE file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>",
-  "maintainers": [
-    "rudzik8"
-  ],
+  "maintainers": ["rudzik8"],
   "media_license": "CC-BY-SA-4.0",
   "name": "hardervoxels",
   "provides": [
@@ -56,15 +54,10 @@
   "release": 29186,
   "repo": "https://codeberg.org/rudzik8/hardervoxels",
   "score": 322.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cf9774d9d5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cf9774d9d5.png"],
   "short_description": "A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the gameplay more difficult",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cf9774d9d5.png",
   "title": "HarderVoxels",
   "translation_url": null,

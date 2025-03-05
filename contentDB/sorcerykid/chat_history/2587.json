@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod is intended to be compatible with all versions of Minetest 0.4.16+. It has been in continuous use on the Just Test Tribute server since July 2017 with only minor revisions and no known bugs.\n\n# Usage Instructions:\n\nWith the /chat command, you can view the entire chat history (up to 100 messages) or you can filter messages by a specific player as well as by PM or shout. When filtering by PM, you will only see private messages sent to you or that you sent to other players. You can also copy the output text directly to the clipboard. For convenience sake, messages are sorted newest first.\n\nWith the /c [search_phrase] command, you can search for messages containing only a specific phrase in addition to the existing filters. For more refined queries, DOS-like wildcards are supported: ? matches a single character, + matches one or more characters, and * matches any number of characters.\n\nBest of all, since the messages are stored server-side, it is possible to view chat history that occurred prior to logging in, including offline private messages. An alert sound will also play if you receive a private message while logged into the server. No more wading through pages of text just to catch up on any important discussions while you were away!\n\nThe primary impetus for this mod was to aid in moderation and administration tasks. For example, copying text into a translator is impossible given the existing chat interface. On a multi-lingual server, however, that is near essential. Likewise, the ability to search and filter text can be beneficial when investigating chat-related misconduct while in-game.\n\n**For complete usage instructions, including working code examples, please refer to the official forum topic.**",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "LGPL-3.0-only",
   "name": "chat_history",
-  "provides": [
-    "chat_history"
-  ],
+  "provides": ["chat_history"],
   "release": 2587,
   "repo": "https://bitbucket.org/sorcerykid/chat_history.git",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/WXLQKOhAmf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/WXLQKOhAmf.png"],
   "short_description": "Interactive chat history viewer with a variety of message filtering options",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "server_tools"
-  ],
+  "tags": ["chat", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WXLQKOhAmf.png",
   "title": "Chat History",
   "translation_url": null,

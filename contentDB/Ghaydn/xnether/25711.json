@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "# XNether mod\n\nBrings PilzAdam's Nether more life: trees, grass, firefly particles. It's just a\ndecorative mod that makes nether less desert-like.\nTrees and grass won't burn; though, grass can be destroyed by liquids, like lava.\nTree parts (wood, leaves) can be used in default crafts - fences, meseposts. \nFruit is eatable (damages on eat).\n\nDo not use with HybridDog's Nether.\n\n\n# Copyright and licensing\n\nLicense for all code: AGPL 3.0\n\nLicense for all media and all other assets:  CC-BY-SA 3.0\n\n© 2024, Nikita Egorov <ghaydn@mail.ru> and others\n\nsee LICENSE for details\n",
-  "maintainers": [
-    "Ghaydn"
-  ],
+  "maintainers": ["Ghaydn"],
   "media_license": "CC-BY-SA-3.0",
   "name": "xnether",
-  "provides": [
-    "xnether"
-  ],
+  "provides": ["xnether"],
   "release": 25711,
   "repo": "https://github.com/Ghaydn/xnether",
   "score": 34.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8b0f2ade40.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8b0f2ade40.png"],
   "short_description": "Adds trees, grass and ores to PilzAdam's Nether",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["building", "decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8b0f2ade40.png",
   "title": "XNether",
   "translation_url": null,
@@ -466,9 +454,7 @@
       {
         "is_optional": false,
         "name": "glow",
-        "packages": [
-          "Hybrid Dog/glow_pack"
-        ]
+        "packages": ["Hybrid Dog/glow_pack"]
       },
       {
         "is_optional": false,
@@ -515,9 +501,7 @@
       {
         "is_optional": false,
         "name": "riesenpilz",
-        "packages": [
-          "Hybrid Dog/riesenpilz"
-        ]
+        "packages": ["Hybrid Dog/riesenpilz"]
       }
     ]
   },

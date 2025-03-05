@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/thomasrudin-mt/jumpdrive/issues/",
   "license": "GPL-2.0-only",
   "long_description": "A simple Jumpdrive for minetest\nTake your buildings with you on your journey",
-  "maintainers": [
-    "BuckarooBanzay",
-    "mt-mods"
-  ],
+  "maintainers": ["BuckarooBanzay", "mt-mods"],
   "media_license": "GPL-2.0-only",
   "name": "jumpdrive",
-  "provides": [
-    "jumpdrive"
-  ],
+  "provides": ["jumpdrive"],
   "release": 29279,
   "repo": "https://github.com/thomasrudin-mt/jumpdrive",
   "score": 482.4,
@@ -29,9 +24,7 @@
   ],
   "short_description": "Take your buildings with you on your journey.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bnGzlsIg4L.png",
   "title": "Jumpdrive",
   "translation_url": null,

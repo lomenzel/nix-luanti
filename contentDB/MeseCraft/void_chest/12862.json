@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/MeseCraft/void_chest/issues",
   "license": "AGPL-3.0-only",
   "long_description": "mesecraft mod: void_chest\n=====================================\nCopyright 2020-2022 mesecraft.com\n\n\nDescription\n-------------------------------------\nA chest that uses the mysterious power of the void to store your items remotely. All void chests appear to have the same inventory. Void chests can also be mined and picked up, even when they appear to have stuff in them. Lastly, as everyone gets their own void chest account, the items you see in the void chest are not the same items that other players see. This chest's properties make it nice for keeping secrets, as well as essentially almost doubling your inventory space, if you choose to carry one with you!\n\n\nRecipe\n-------------------------------------\nif the magic_materials mod is installed:\n\n> {'default:steelblock','magic_materials:void_rune','default:steelblock'},\n> {'magic_materials:void_rune','default:chest_locked','magic_materials:void_rune'},\n> {'default:steelblock','magic_materials:void_rune','default:steelblock'}\n\nif no magic_materials mod is present then we can just use materials from default:\n\n> {'default:steelblock','default:obsidian_block','default:steelblock'},\n> {'default:obsidian_block','default:chest_locked','default:obsidian_block'},\n> {'default:steelblock','default:obsidian_block','default:steelblock'}\n\n\nLicense of source code\n-------------------------------------\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published by\nthe Free Software Foundation; either version 3 of the License, or\n(at your option) any later version.\nhttps://www.gnu.org/licenses/agpl-3.0.en.html\n\n\nLicense of textures\n-------------------------------------\nvoid_chest_front.png, void_chest_side.png, void_chest_top.png by PixelBox Reloaded (WTFPL)\nvoid_chest_void_particle.png by MisterE (CC-BY 4.0) \nhttps://creativecommons.org/licenses/by/4.0/\n\n\nCredits and Ackowledgements\n-------------------------------------\nThis mod is a fork of morechests, which itself is a fork of 0gb.us's mod called chests_0gb_us.\nhttps://forum.minetest.net/viewtopic.php?f=11&t=4366\n\nThe textures used for void chests are from jp's \"xdecor\" mod, which in turn are from the PixelBOX Reloaded texture pack for Minetest.\nhttps://github.com/minetest-mods/xdecor\n",
-  "maintainers": [
-    "MeseCraft"
-  ],
+  "maintainers": ["MeseCraft"],
   "media_license": "CC-BY-4.0",
   "name": "void_chest",
-  "provides": [
-    "void_chest"
-  ],
+  "provides": ["void_chest"],
   "release": 12862,
   "repo": "https://github.com/MeseCraft/void_chest",
   "score": 178.1,
@@ -449,12 +443,7 @@
   ],
   "short_description": "Access your belongings anywhere by using the power of the void chest!",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "magic",
-    "storage",
-    "tools"
-  ],
+  "tags": ["inventory", "magic", "storage", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hCV2rkKnXr.png",
   "title": "Void Chest",
   "translation_url": null,

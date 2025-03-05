@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_bedrock2/issues",
   "license": "MIT",
   "long_description": "This simple mod adds a layer of bedrock at the bottom of world. Bedrock cannot be broken or manipulated, neither in normal gameplay nor in Creative Mode.\n\nBedrock is at Y coordinate -30912 by default but this can be changed with a setting.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "bedrock2",
-  "provides": [
-    "bedrock2"
-  ],
+  "provides": ["bedrock2"],
   "release": 17352,
   "repo": "https://codeberg.org/Wuzzy/minetest_bedrock2",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/AUaf3NKwr6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/AUaf3NKwr6.png"],
   "short_description": "Adds an indestructable bedrock layer at the bottom of the world.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/AUaf3NKwr6.png",
   "title": "Indestructible Bedrock Layer",
   "translation_url": null,

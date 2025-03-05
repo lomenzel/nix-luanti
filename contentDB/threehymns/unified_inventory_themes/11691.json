@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Unified Inventory Themes\n\nThis minetest mod adds a modern theme to the unified_inventory mod.\n\nTODO: add more themes.\n\n## License\n\nCode: MIT (by threehymns and wsor)\n\nAssets: CC0 (threehymns)\n\nIcons: CC0 (mostly from https://www.kenney.nl/assets/game-icons)",
-  "maintainers": [
-    "threehymns"
-  ],
+  "maintainers": ["threehymns"],
   "media_license": "CC0-1.0",
   "name": "unified_inventory_themes",
-  "provides": [
-    "unified_inventory_themes"
-  ],
+  "provides": ["unified_inventory_themes"],
   "release": 11691,
   "repo": "https://gitlab.com/threehymns1/unified_inventory_themes",
   "score": 20.7,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Adds a new theme to the unified_inventory. Support for multiple themes may come later.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "inventory"
-  ],
+  "tags": ["gui", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ef6da2b265.png",
   "title": "Unified Inventory Themes",
   "translation_url": null,

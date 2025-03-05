@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -457,23 +455,17 @@
   "issue_tracker": "https://github.com/Bremaweb/landrush/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Imagine the entire map is divided into chunks. You place your land rush land claim block and it protects that chunk (then the land claim block disappears). ",
-  "maintainers": [
-    "BrandonReese"
-  ],
+  "maintainers": ["BrandonReese"],
   "media_license": "LGPL-2.1-only",
   "name": "landrush",
-  "provides": [
-    "landrush"
-  ],
+  "provides": ["landrush"],
   "release": 2153,
   "repo": "https://github.com/Bremaweb/landrush",
   "score": 153,
   "screenshots": [],
   "short_description": "Chunk-based protection.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": null,
   "title": "Land Rush",
   "translation_url": null,

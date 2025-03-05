@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/MeseCraft/MeseCraft/issues",
   "license": "AGPL-3.0-only",
   "long_description": "MeseCraft\n==========================\nCopyright (C) 2019-2023 MeseCraft, www.mesecraft.com\n\nDescription\n-------------------------\nThe best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured. Join our cause: https://www.mesecraft.com\n\nCurrently, this game is stable and has been debugged on an online server environment with many players. There is active development so new bugs may come and go.\n\nMinetest Engine Compatability\n--------------------------\nMinetest engine version 5.2.0 or greater is currently recommended to run this game.\nMinetest engine version 5.1.1 is compatabile but not all mods and function completely.\n\nCredits and Acknowledgements\n-------------------------\nThis game has been primary designed and developed by Komodo (Jeremy Weston). A special thanks goes out to everyone who has contributed to this project, mods, and the awesome MeseCraft community. Also, to the Minetest community, core developers, and modders. This game was built using the Minetest game engine, minetest_game, and the mods of many others.\n\nLicense\n--------------------------\nGNU AFFERO GENERAL PUBLIC LICENSE V3",
-  "maintainers": [
-    "MeseCraft"
-  ],
+  "maintainers": ["MeseCraft"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecraft",
   "provides": [
@@ -281,11 +279,7 @@
   ],
   "short_description": "The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mtg",
-    "survival"
-  ],
+  "tags": ["building", "mtg", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
   "title": "MeseCraft",
   "translation_url": null,

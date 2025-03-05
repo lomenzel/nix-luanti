@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Atlante1952/atl_path/tree/main",
   "license": "LGPL-3.0-or-later",
   "long_description": "This mod allows players to create dirt paths using a shovel. When a player right-clicks on a dirt block, the mod transforms that block into a dirt path, provided there is nothing above the block.\nIf there is grass, ferns, flowers, or mushrooms above, they will be dropped to the ground. \nAdditionally, the shovel used to create the path will wear down slightly with each use. \n\nThe mod can create paths on any dirt block regardless of the mods used (as long as the dirt block has the group soil = 1). The same goes for shovels; it works with all tools classified as shovels, regardless of the mods used.  (as long as the shovel tools has the group shovel = 1).",
-  "maintainers": [
-    "Atlante"
-  ],
+  "maintainers": ["Atlante"],
   "media_license": "CC-BY-SA-3.0",
   "name": "atl_path",
-  "provides": [
-    "atl_path"
-  ],
+  "provides": ["atl_path"],
   "release": 26262,
   "repo": "https://github.com/Atlante1952/atl_path/tree/main",
   "score": 483.9,

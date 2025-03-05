@@ -25,10 +25,7 @@
   "issue_tracker": "https://github.com/minetest-texture-packs/Pixel-Perfection/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "This is a well-featured MT texture pack that speaks true to many players for it's atmosphere and consistency. It is adopted by MCL2 as default and this texture pack will allow you to get the same look and feel under Minetest Game and many online servers.\n\nThis is one of the better 16px texture packs out there and the mcresonver converter did an amazing job on this. The texture pack is curated by Texmex to refine it and add mod support.\n\nThe texture pack is CC-BY-SA-4.0 by xssheep.\n\n[Link to original location](http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1242533-pixel-perfection-full-1-8-support)\n\n[Link to sofar's mcresconvert](https://forum.minetest.net/viewtopic.php?f=4&t=14283)",
-  "maintainers": [
-    "sofar",
-    "texmex"
-  ],
+  "maintainers": ["sofar", "texmex"],
   "media_license": "CC-BY-SA-4.0",
   "name": "pixelperfection",
   "provides": [],
@@ -41,9 +38,7 @@
   ],
   "short_description": "A perfect texture pack by Hugh \"XSSheep\" Rutland",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/oWjEUm3yZF.png",
   "title": "PixelPerfection",
   "translation_url": null,

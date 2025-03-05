@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,26 +286,17 @@
   "issue_tracker": "https://github.com/Ezhh/fireflies/issues/",
   "license": "MIT",
   "long_description": "This mod was originally adapted from the Hidden Worlds game to work with Minetest Game, and has since been added to Minetest Game itself. This version (at https://github.com/Ezhh/fireflies) is now maintained independently from the main Minetest Game version for the purpose of possible expansions to the mod which may or may not also be added to Minetest Game at a later time.\n\nThis version of the mod is also intended for use with other games that use the default mod from Minetest Game.",
-  "maintainers": [
-    "Shara"
-  ],
+  "maintainers": ["Shara"],
   "media_license": "MIT",
   "name": "fireflies",
-  "provides": [
-    "fireflies"
-  ],
+  "provides": ["fireflies"],
   "release": 56,
   "repo": "https://github.com/Ezhh/fireflies",
   "score": 170,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cBPObZ95Tj.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cBPObZ95Tj.png"],
   "short_description": "Adds fireflies which can be caught in a net and placed in bottles for lighting.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cBPObZ95Tj.png",
   "title": "Fireflies",
   "translation_url": null,

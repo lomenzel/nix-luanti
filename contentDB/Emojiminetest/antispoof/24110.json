@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/antispoof/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod rejects the registration of usernames too similar to the existing ones. For example, if `1F616EMO_c` is registered, the following usernames are banned:\n\n1. `1F616EM0_c` (\"0\" is a number zero)\n2. `IF616EMO_c` (\"I\" is an capital letter)\n3. `lF616EMO_c` (\"l\" is a small letter)\n4. `1F616EMO-c` (underscore replaced with a dash)\n\nDo not forget to run the database update script (chat command `/as_db_init`) after the installation and every time after the `_as.flattern_map` table is updated (or if you are unsure, every time you update this mod).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "antispoof",
-  "provides": [
-    "antispoof"
-  ],
+  "provides": ["antispoof"],
   "release": 24110,
   "repo": "https://github.com/C-C-Minetest-Server/antispoof",
   "score": 1.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8652de373b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8652de373b.png"],
   "short_description": "Preventing confusable usernames",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8652de373b.png",
   "title": "AntiSpoof",
   "translation_url": null,
@@ -44,10 +35,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/logging": []

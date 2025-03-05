@@ -38,26 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "(aka No Floating Falling Blocks)\n\nThis mod ensures that falling blocks like sand and gravel will not remain floating for long. It works with any game that has gravity blocks.\n\n## Features\n- Ensures gravity blocks don't remain floating\n- Compatible with any Minetest game featuring gravity blocks\n- No dependencies or complexities",
-  "maintainers": [
-    "nneett"
-  ],
+  "maintainers": ["nneett"],
   "media_license": "MIT",
   "name": "nofloatingfallingblocks",
-  "provides": [
-    "nofloatingfallingblocks"
-  ],
+  "provides": ["nofloatingfallingblocks"],
   "release": 25800,
   "repo": null,
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7cabf06639.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7cabf06639.png"],
   "short_description": "Registers an abm to not leave falling blocks floating",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "world_tools"
-  ],
+  "tags": ["environment", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7cabf06639.png",
   "title": "No Floating Gravity Blocks",
   "translation_url": null,

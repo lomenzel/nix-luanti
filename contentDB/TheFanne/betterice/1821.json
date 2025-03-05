@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/nwdamgaard/betterice/issues",
   "license": "AGPL-2.0-only",
   "long_description": "Ice now turns into water when broken, but only if the node underneath it is NOT air. Ice also is melted by torches.",
-  "maintainers": [
-    "TheFanne"
-  ],
+  "maintainers": ["TheFanne"],
   "media_license": "AGPL-2.0-only",
   "name": "betterice",
-  "provides": [
-    "betterice"
-  ],
+  "provides": ["betterice"],
   "release": 1821,
   "repo": "https://github.com/nwdamgaard/betterice.git",
   "score": 7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/HTum85tZxU.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/HTum85tZxU.png"],
   "short_description": "Modifies ice so that it melts into water when broken, and will be melted by torches",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "survival"
-  ],
+  "tags": ["building", "environment", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HTum85tZxU.png",
   "title": "Better Ice",
   "translation_url": null,

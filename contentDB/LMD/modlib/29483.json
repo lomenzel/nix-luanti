@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/appgurueu/modlib/issues/new/choose/",
   "license": "MIT",
   "long_description": "# ![Logo](https://github.com/appgurueu/modlib/raw/master/logo.svg) Modding Library (`modlib`)\nMultipurpose Minetest Modding Library\n\n## At a glance\nNo dependencies. Licensed under the MIT License. Written by Lars Mueller aka LMD or appguru(eu). Requires Lua 5.1 / LuaJIT.\n\n### Acknowledgement\n* [luk3yx](https://github.com/luk3yx): Various suggestions, bug reports and fixes\n* [grorp](https://github.com/grorp) (Gregor Parzefall): [Bug reports & proposed fixes for node box code](https://github.com/appgurueu/modlib/pull/8)\n* [NobWow](https://github.com/NobWow/): [Another bugfix](https://github.com/appgurueu/modlib/pull/7)\n\n### Principles\n* Game-agnostic: Modlib aims to provide nothing game-specific;\n* Minimal invasiveness: Modlib should not disrupt other mods;\n  even at the expense of syntactic sugar, changes to the global\n  environment - apart from the addition of the modlib scope - are forbidden\n* Architecture: Modlib is organized hierarchically\n* Performance: Modlib tries to not compromise performance for convenience; modlib loads lazily",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "MIT",
   "name": "modlib",
-  "provides": [
-    "modlib"
-  ],
+  "provides": ["modlib"],
   "release": 29483,
   "repo": "https://github.com/appgurueu/modlib",
   "score": 629.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/moaxTJ4YPC.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/moaxTJ4YPC.png"],
   "short_description": "Multipurpose Minetest Modding Library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/moaxTJ4YPC.png",
   "title": "Modding Library",
   "translation_url": null,

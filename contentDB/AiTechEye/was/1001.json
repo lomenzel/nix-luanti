@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/AiTechEye/was/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Just programming ingame\n\nThis is a basic programing/language (not lua), that you can do in game, even players can do it because functions requires privileges to be used.\nAlso some functions requires the \"was\" privilege to be able.\nfind info about functions in the gui.\n\nFind Instruktions here https://github.com/AiTechEye/was",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "was",
-  "provides": [
-    "was"
-  ],
+  "provides": ["was"],
   "release": 1001,
   "repo": "https://github.com/AiTechEye/was",
   "score": 3.8,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Programming+ electronics",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "technology"
-  ],
+  "tags": ["education", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bH5sTCu8uj.png",
   "title": "World Action Script",
   "translation_url": null,

@@ -38,14 +38,10 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "GPL-3.0-only",
   "long_description": "This is an updated and revised version of the original NodeCore Nature mod,\nwith significant fixes, enhancements, and incorporating some new content\nfrom the base game.\n\nBased on the original [NodeCore Nature by Winter94](/packages/Winter94/nc_nature/)\n\nThis mod is intended as a drop-in replacement for the original Nature mod\nfor existing worlds.  This mod may make lasting changes to your world as\nmapblocks are loaded or new content is accessed.  Make sure you\n**back up your world** before upgrading.\n\n## Features\n\nAll features from WintersKnight's original NodeCore Nature mod, plus...\n\n- Actively maintained\n- High-Priority Fixes\n\t- Reed/rush, lilypads spreading in mid-air\n\t- Reed/rush shape consistency\n\t- Bamboo lighting/shadows\n- Some features migrated to vanilla NodeCore\n\t- Replacements\n\t\t- Tall Grass -> Sedges\n\t\t- Flowers (N.B. some colors were changed to maintain balance)\n\t\t- Reeds -> Rushes (added dormant state)\n\t\t- Thatch\n\t- Recipe to grind vanilla dry flora into plant fibers\n\t- Preserve mod flora consistent with vanilla mechanics\n- Moss Complete Overhaul\n\t- Moss now dies if suffocated, no more hidden spreaders\n  \t- Moss wasting disease to clear large areas\n  \t- More mossable nodes, extensible API\n- Dungeons improved\n\t- Merge with vanilla complex dungeons with bricks/concrete/loot\n- Plant fibers more distinguishable from vanilla rushes\n\n",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "GPL-3.0-only",
   "name": "nc_nature",
-  "provides": [
-    "nc_nature"
-  ],
+  "provides": ["nc_nature"],
   "release": 27510,
   "repo": "https://gitlab.com/sztest/nc_nature",
   "score": 4.3,
@@ -58,12 +54,7 @@
   ],
   "short_description": "Updated, fixed, enhanced edition of Winter94's NodeCore Nature",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["building", "decorative", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/96a2317583.png",
   "title": "NodeCore Nature: Revised",
   "translation_url": null,
@@ -77,58 +68,37 @@
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,14 +286,10 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "# *Credits*\n\n*For the original mod you will find the forum topic  [here.](https://forum.minetest.net/viewtopic.php?t=16449)*\n\n*Originally created by Semmett9*\n\n*Modifed by DragonWrangler*\n\n\n\n# *Changes*\n\n\n\nThis fork was made to remove a few unnecessary items, remove unneeded textures, add recipes for certain items that didn't already have one, add some settings to change how the formspec looks, and hopefully add new nodes in the future.\n\n\n# *Notes*\n\nI recommend you install TenPlus1's farming mod, because with MTG's farming mod, not all recipes work.\nthe box with fish has no recipe yet, I will add it with the next update\n\nall formspec and/or hud textures are completely optional, and by default are not enabled. To enable them you can go to settings -> medieval then find the correct setting for each function.\n\nif you place a sign after turning on the setting  \"medieval_sign_formspec\" but then later turn that feature off. You will have to remove the sign and replace it to get it to the correct inv formspec. Same goes for the other way as well.\n\nIf \"medieval_sign_formspec\" is disabled and \"medieval_inv_formspec\" is enabled then the sign's formspec background will be the same as the inv. if both settings are disabled then they will both be at default look.\n\n\"medieval_inv_formspec\" setting is incompatible with \"unified_inventory\" mod.\n\n\"medieval_hotbar\" setting is incompatible with \"dreambuilder_hotbar\" mod.\n\nif both of these packages are enabled then \"medieval_hotbar\" setting and \"medieval_inv_formspec\" setting will not work.",
-  "maintainers": [
-    "DragonWrangler"
-  ],
+  "maintainers": ["DragonWrangler"],
   "media_license": "CC-BY-SA-4.0",
   "name": "medieval",
-  "provides": [
-    "medieval"
-  ],
+  "provides": ["medieval"],
   "release": 24375,
   "repo": null,
   "score": 5.3,
@@ -306,11 +300,7 @@
   ],
   "short_description": "an addon to darkage",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "tools"
-  ],
+  "tags": ["building", "decorative", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7168ee9230.png",
   "title": "Medieval (Fork)",
   "translation_url": null,
@@ -396,10 +386,7 @@
       {
         "is_optional": false,
         "name": "darkage",
-        "packages": [
-          "Amaz/lordofthetest",
-          "addi/darkage"
-        ]
+        "packages": ["Amaz/lordofthetest", "addi/darkage"]
       },
       {
         "is_optional": false,

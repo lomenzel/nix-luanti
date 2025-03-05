@@ -11,9 +11,7 @@
   "issue_tracker": "https://git.brn.systems/blocky_portaling/blocky_portaling/issues",
   "license": "LGPL-2.1-only",
   "long_description": "meant to be played with this map: https://git.brn.systems/blocky_portaling/blocky_portaling_testmap\n\ngit repo for this: https://git.brn.systems/blocky_portaling/blocky_portaling\n\nThe licences are individual for each mod.\n\nIf you want the full list of changes for all mods check the repo.\n\nMy server running this: brn.systems ; port 30000\n\nIf you want to help me with map building, make a pull request\n\nMods used:\n\n- https://content.minetest.net/packages/NoctisLabs/an_televator/\n- https://content.minetest.net/packages/OgelGames/digicontrol/\n- https://github.com/jogag/digiline-stuff\n- https://content.minetest.net/packages/Jeija/digilines/\n- https://content.minetest.net/packages/cheapie/digistuff/\n- https://content.minetest.net/packages/ROllerozxa/enable_shadows/\n- https://github.com/Mossmanikin/memorandum\n- https://content.minetest.net/packages/Jeija/mesecons/\n- https://content.minetest.net/packages/GreenXenith/mesecons_wireless/\n- https://content.minetest.net/packages/Wuzzy/no_fall_damage/\n- https://content.minetest.net/packages/VanessaE/nixie_tubes/\n- https://github.com/minetest-game-mods/player_api\n- https://content.minetest.net/packages/AiTechEye/portalgun/\n- https://content.minetest.net/packages/RealBadAngel/unified_inventory/\n\n- https://content.minetest.net/packages/BuckarooBanzay/modgen/(generated the mod for mapgen)\n",
-  "maintainers": [
-    "BRNSystems"
-  ],
+  "maintainers": ["BRNSystems"],
   "media_license": "CC-BY-SA-4.0",
   "name": "blocky_portaling",
   "provides": [
@@ -88,13 +86,7 @@
   ],
   "short_description": "A WIP game based on AiTechEye's portalgun",
   "state": "APPROVED",
-  "tags": [
-    "puzzle",
-    "pve",
-    "singleplayer",
-    "technology",
-    "tools"
-  ],
+  "tags": ["puzzle", "pve", "singleplayer", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c01dd4b01d.png",
   "title": "Blocky portaling",
   "translation_url": null,

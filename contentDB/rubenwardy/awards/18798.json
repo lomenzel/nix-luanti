@@ -25,26 +25,17 @@
   "issue_tracker": "https://gitlab.com/rubenwardy/awards/issues/",
   "license": "MIT",
   "long_description": "This mod introduces awards (or achievements). These are simple optional goals/challenges for various things you can do in the game, like “Place 100 torches” or “Mine your first gold ore”. Can you collect all awards? There are over 70 awards for Minetest Game. This mod also works without Minetest Game.\n\nYou can view the awards in your inventory or with the `/awards` chat command.\n\nThere is a powerful API for game/mod developers add custom awards as well. Developers: Please refer to the [README file](https://gitlab.com/rubenwardy/awards/-/blob/master/README.md) to learn more.",
-  "maintainers": [
-    "rubenwardy"
-  ],
+  "maintainers": ["rubenwardy"],
   "media_license": "MIT",
   "name": "awards",
-  "provides": [
-    "awards"
-  ],
+  "provides": ["awards"],
   "release": 18798,
   "repo": "https://gitlab.com/rubenwardy/awards",
   "score": 386.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e1135b8b37.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e1135b8b37.png"],
   "short_description": "Adds achievements",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "gui"
-  ],
+  "tags": ["adventure__rpg", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e1135b8b37.png",
   "title": "Awards",
   "translation_url": null,

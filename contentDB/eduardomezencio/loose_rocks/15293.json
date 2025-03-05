@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/eduardomezencio/loose_rocks/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "This mod adds Loose Rocks to Minetest.\n\n- Loose Rocks generate naturally on the surface of the world\n- Collect Loose Rocks with bare hands\n- Loose Desert Rocks generate in deserts\n- Craft a Cobblestone with 4 Loose Rocks in a 2x2 grid (same with Desert\nCobblestone, using Loose Desert Rocks)\n- A Cobblestone will give you 4 Loose Rocks\n- Also great for decoration!\n\nHave fun!\n",
-  "maintainers": [
-    "eduardomezencio"
-  ],
+  "maintainers": ["eduardomezencio"],
   "media_license": "CC-BY-SA-3.0",
   "name": "loose_rocks",
-  "provides": [
-    "loose_rocks"
-  ],
+  "provides": ["loose_rocks"],
   "release": 15293,
   "repo": "https://github.com/eduardomezencio/loose_rocks",
   "score": 158.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d6fd5c976f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d6fd5c976f.png"],
   "short_description": "Adds loose rocks which generate randomly on the surface.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d6fd5c976f.png",
   "title": "Loose Rocks",
   "translation_url": null,

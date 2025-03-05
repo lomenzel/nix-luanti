@@ -38,26 +38,17 @@
   "issue_tracker": "https://git.minetest.land/erle/mcl_quick_harvest_replant/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod allows players to harvest a crop and plant the item the player is holding with a single right-click.\n\nIt supports the following crops from mcl_farming and mcl_nether:\n\n* Beetroot\n* Carrot\n* Potato\n* Wheat\n* Nether Wart\n\nI have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "AGPL-3.0-or-later",
   "name": "mcl_quick_harvest_replant",
-  "provides": [
-    "mcl_quick_harvest_replant"
-  ],
+  "provides": ["mcl_quick_harvest_replant"],
   "release": 20784,
   "repo": "https://git.minetest.land/erle/mcl_quick_harvest_replant",
   "score": 333.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8d0bbc2feb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8d0bbc2feb.png"],
   "short_description": "Harvest and replant crops with one right-click in MineClone2/MineClone5/Mineclonia",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8d0bbc2feb.png",
   "title": "Mcl Quick Harvest & Replant",
   "translation_url": null,

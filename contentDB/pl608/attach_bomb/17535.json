@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/pl608/attachable_bomb/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Attachable Bomb\nAdds a bomb that can be left-click attached to a player in standard rubenwardy capture the flag.\n# Stats:\n* Time to explode = default is 10 seconds\n* Damage = 52(double a standard grenade so that it will one-shot ALL types players(except invincable medics and just spawned players))\n*  Has a beep sound that increases in rapidity as the timer gets closer to explosion\n*  Has a blink effect on the sprite(color ≠team color its just red)\n*  Punch the Entity on top of the player to set it off with double the radius(In future it will detatch the bomb)\n# Issues:\n* Declines to take the bomb away from the attacher once it is used\n* No way to obtain the item except creative inventory and /give\n",
-  "maintainers": [
-    "pl608"
-  ],
+  "maintainers": ["pl608"],
   "media_license": "MIT",
   "name": "attach_bomb",
-  "provides": [
-    "attach_bomb"
-  ],
+  "provides": ["attach_bomb"],
   "release": 17535,
   "repo": "https://github.com/pl608/attachable_bomb",
   "score": 4.7,
@@ -55,10 +51,7 @@
   ],
   "short_description": "Adds a bomb that can be attached to players and go off on timer",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9d57b67045.png",
   "title": "Attachable Bomb(ctf)",
   "translation_url": null,
@@ -72,10 +65,7 @@
       {
         "is_optional": false,
         "name": "ctf_teams",
-        "packages": [
-          "hilol/epic_combat",
-          "rubenwardy/capturetheflag"
-        ]
+        "packages": ["hilol/epic_combat", "rubenwardy/capturetheflag"]
       }
     ]
   },

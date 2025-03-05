@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/rock_piles/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Rock Piles mod by Neuromancer\nbased on Loose Rocks mod by Eduardo Mezêncio\n\n-------------------------------------------------------------------------------\n\nLicenses: \n\nCode: GPLv3\nTexture and models: CC BY-SA 3.0\n\nsee LICENSE.txt\n\n'textures/loose_rock_inv.png' is copied from 'nodetest_rock_item.png', from\nthe game Voxelgarden by Casimir (CC BY-SA 3.0)\nhttps://forum.minetest.net/viewtopic.php?f=15&t=6346\n\n-------------------------------------------------------------------------------\n\nThis mod adds Rock Piles to Minetest.\n\n- Rocks piles generate naturally on the surface of the world and in caves\n- Collect Rock Piles with bare hands\n- Desert Rock Piles generate in deserts\n- Craft a Cobblestone with 4 Rocks Piles in a 2x2 grid (same with Desert\nCobblestone, using Loose Desert Rocks)\n- A Cobblestone will give you 4 Rock Piles\n- Also great for decoration!\n- There are a variety of Rock Pile sizes\n- Walking on rocks sounds like walking on gravel\n\n\nHave fun!\n",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-3.0",
   "name": "rock_piles",
-  "provides": [
-    "rock_piles"
-  ],
+  "provides": ["rock_piles"],
   "release": 24172,
   "repo": "https://github.com/Neuromancer56/rock_piles",
   "score": 11.1,
@@ -437,9 +431,7 @@
   ],
   "short_description": "Adds rock piles which generate randomly on the surface and in caves",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/633af68551.png",
   "title": "Rock Piles",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "I finally broke down and decided to release one of the mods from the just_test_tribute subgame. The Giftbox Mod has been in continuous use on the JT2 server for the past year, so it should be stable and secure enough for a production environment. The concept for this mod was inspired by mt_seasons from maikerumine.\n\nThere are only two principal dependences, both of which are part of the same subgame. To enjoy the full capabilities, however, I would also recommend downloading and installing protector_redo from TenPlus1.\n\nFor the most part, this mod should be usable right out of the box (no pun intended). It has been tested extensively in Minetest 0.4.15 with the default subgame. However, you will want to skim through the configuration settings (described below) to ensure that all of the items are supported by your subgame.\n\nFor the latest release notes, as well as technical support requests, please visit the forum topic.\n\n## Gift Box Tutorial\n\n![](https://i.imgur.com/yJXBVUO.png)\n\nGift boxes are craftable by any player with one mese crystal, one cotton, three paper, and four colored wool. There are 8 possible gift boxes including black, white, red, green, blue, cyan, magenta, and yellow.\n\n![](https://i.imgur.com/uyH7ksm.png)\n\nA player is permitted to place a gift box like any normal node, thereby obeying protection (if any). Once placed, the gift box is only customizable by that same player or by an administrator with the protection_bypass privilege. This is true regardless of the whether the gift box is actually placed within a protected area or not.\n\n* **With no recipient and a greeting:**\n*\"Thank you for a wonderful year!\" (from sorcerykid)*\n\n* **With a recipient and a greeting:**\n*Dear maikerumine: \"Thank you for a wonderful year!\" (from sorcerykid)*\n\n* **With only a recipient and Anonymous Gift checked**\n*Gift Box for maikerumine*\n\n* **With no recipient and no greeting**\n*Gift Box (from sorcerykid)*\n\nBy right-clicking on the gift box, a customization screen is opened that allows for a personalized greeting and a designated recipient, both of which are optional. If \"Anyonmous Gift\" is checked, then the sender's name is not disclosed.\n\n![](https://i.imgur.com/hiS5q3a.png)\n\nThe infotext will change depending on which values are supplied by the player. Here are samples of the default strings:\n\nIf a recipient is specified, then the gift box is private, and only the player with that name may dig it for a random item. However, if a recipient is not specified, then the gift box is public and any player may dig the gift box for a random item drop. In this way it is also possible to share gifts, whether or not the gift box is placed inside a protected area.\n\nFor example, here is a gift box for maikerumine, placed by sorcerykid in her own protected area. If maikerumine were to dig this gift box, he would get a random item drop with no protection violation. However, if sorcerykid digs the gift box, then it will be returned to her inventory as expected since she owns the gift box.\n\n![](https://i.imgur.com/PGJveD7.png)\n\nNote, that sorcerykid can also dig the gift box even if the protected area belongs to a different player, since she retains ownership. However, she obviously can't replace the gift box, since that would incur a protection violation.\n\nItem drops for gift boxes are selected at random from the giftbox.giftbox_drops table in config.lua:\n\n    giftbox.giftbox_drops = {\n        -- digging gift box allows for a single drop of items with a given a rarity\n        { items = { \"default:sword_diamond\" }, rarity = 50 },\n        { items = { \"default:sword_bronze\" }, rarity = 25 },\n\n        { items = { \"default:pick_diamond\" }, rarity = 50 },\n        { items = { \"default:pick_bronze\" }, rarity = 25 },\n\n        -- default drop must be placed last and have rarity of 0 to avoid empty drops\n        { items = { \"default:gold_lump 5\", \"default:coal_lump 10\" }, rarity = 0 },\n    }\n\nEach gift box can only drop one set of items, so it is important to set \"items\" and \"rarity\" accordingly. The order is not important, except the default drop must be placed last and must have a rarity of 0 to ensure that it is selected whenever the preceding random drops fail.\n\nIt is also possible to change the infotext strings, if required for your subgame. However, in most cases the provided values should suffice:\n\n    giftbox.giftbox_public_infotext1 = \"Gift Box\"\n    giftbox.giftbox_public_infotext2 = \"'%s'\"\n    giftbox.giftbox_private_infotext1 = \"Gift Box for %s\"\n    giftbox.giftbox_private_infotext2 = \"Dear %s: '%s'\"\n\nBe certain to retain all of the %s tokens so that the appropriate values can be inserted into the string whenever the infotext is updated.\n\n## Present Tutorial\n\n![](https://i.imgur.com/TQmPUS1.png)\n\nPresents are made available for administrators with the \"give\" and \"protection_bypass\" privileges. Therefore they have no associated crafting recipe. They offer limited customization in comparison to gift boxes, since they are intended for widespread distribution as part of a delivery route on a public server (think Santa Claus).\n\nFor sake of expediency, the administrator will typically login to the server and issue the following command:\n\n`/giveme giftbox:present 99`\n\nThese presents can be placed anywhere, even in protected areas of other players. By right-clicking on the present, the administrator can select from any one of several preset items. At least one item must be selected, otherwise the present will be nonfunctional.\n\n![](https://i.imgur.com/01ytlfc.png)\n\nThe ability of other players to open a present is contingent on protection. Therefore, to deliver a present to a specific player, it must be placed inside that player's protected area. If, however, a present is intended to be opened by anyone (except players with the \"give\" privilege, of course), then it should be placed in an unprotected area.\n\nBy opening a present, a visual greeting will appear with a single inventory slot containing the preset item. After the item is taken from the inventory, then the present will be deleted from the world automatically.\n\n![](https://i.imgur.com/fAVF6sJ.png)\n\nConfiguration of item presets is possible by editing the respective itemstrings from the giftbox.present_items table in config.lua. The infotext and greeting image can also be configured here, if necessary.\n\n    giftbox.present_infotext = \"Christmas Present\"\n    giftbox.present_greeting = \"present_greeting.png\"\n\n    giftbox.present_items = {\n        \"default:torch 60\",\n        \"default:apple 40\",\n        \"farming:bread 20\",\n        \"mt_seasons:pumpkin_slice 10\",\n\n        \"default:junglesapling 5\",\n        \"default:pine_sapling 5\",\n        \"default:aspen_sapling 5\",\n        \"default:acacia_sapling 5\",\n\n        \"default:pick_diamond\",\n        \"default:sword_diamond\",\n        \"default:pick_bronze\",\n        \"default:sword_bronze\",\n\n        \"3d_armor:helmet_diamond\",\n        \"3d_armor:leggings_diamond\",\n        \"3d_armor:chestplate_diamond\",\n        \"3d_armor:boots_diamond\",\n\n        \"default:coalblock 20\",\n        \"tnt:tnt 15\",\n        \"default:obsidian 10\",\n        \"default:snowblock 5\",\n\n        \"mobs:cursed_stone\",\n        \"jt_mods:griefer_soul_block\",\n        \"default:meselamp_white 10\",\n        \"default:meselamp 10\",\n    }\n\nThe dimensions for the greeting image should be at least 480 x 240 pixels (with an aspect ratio of 2:1). The graphic used in the screenshot was obtained from DreamsTime, a royalty-free stock image service. However, the individual license terms do not permit distribution. Therefore, you will need to supply your own graphic.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "giftbox",
-  "provides": [
-    "giftbox"
-  ],
+  "provides": ["giftbox"],
   "release": 14460,
   "repo": "https://bitbucket.org/sorcerykid/giftbox",
   "score": -130.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aQjjmAmihQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aQjjmAmihQ.png"],
   "short_description": "An assortment user-customizable presents for special occasions",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aQjjmAmihQ.png",
   "title": "GiftBox",
   "translation_url": null,
@@ -508,16 +498,12 @@
       {
         "is_optional": false,
         "name": "ownership",
-        "packages": [
-          "sorcerykid/ownership"
-        ]
+        "packages": ["sorcerykid/ownership"]
       },
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

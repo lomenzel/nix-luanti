@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,20 +429,14 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod will add a archaeology mechanic.\n# Items\n* **Brush**: *Item can be crafted by stick, bronze ingot and 3 strings. When player use it on suspicous gravel or sand, node will drop random item or drop nothing.*\n* **Suspicious Sand**: *Can be randomly spawned near player by replacing sand*\n* **Suspicious Gravel**: *Can be randomly spawned near player by replacing gravel*\n* **Ceramic Vase**: *Can be only crafted by player, by 4 piece of ceramic. Can storage only one item opf any count, cant be digged by other player, or, if vase contains item inside.*\n* **Ceramic Piece**: *Can be fined in suspicous blocks by brush*\n* **Ceramic Converter**: *Can be only crafted by player. Can convert \"Clay Block\" to \"Ceramic Piece\"*\n* **Check Sus Stick**: *Admin item. Used for debuging archaeology items.*",
-  "maintainers": [
-    "SkyBuilder1717"
-  ],
+  "maintainers": ["SkyBuilder1717"],
   "media_license": "MIT",
   "name": "archaeology",
-  "provides": [
-    "archaeology"
-  ],
+  "provides": ["archaeology"],
   "release": 28230,
   "repo": "https://github.com/SkyBuilder1717/archaeology",
   "score": 6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e60a37f5b5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e60a37f5b5.png"],
   "short_description": "Adds an looting and API in archaeologing",
   "state": "APPROVED",
   "tags": [

@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/NC-Vuga/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# NC-Vuga\nGenerates various vuga underground.\nTry it with and without 'Nodecore Crystals' (\"wc_crystals\")\n\nUses code from \nhttps://content.minetest.net/packages/AwesomeDragon97/geodes/\nby AwesomeDragon97\n\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-or-later",
   "name": "wc_vuga",
-  "provides": [
-    "wc_vuga"
-  ],
+  "provides": ["wc_vuga"],
   "release": 27315,
   "repo": "https://github.com/wintersknight94/NC-Vuga",
   "score": 2.8,
@@ -56,10 +52,7 @@
   ],
   "short_description": "Generates Vuga Underground.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen"
-  ],
+  "tags": ["building", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6ceadf00c4.png",
   "title": "NodeCore Vuga",
   "translation_url": null,
@@ -73,50 +66,32 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

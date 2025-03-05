@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Dragonop/infchest/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# infchest\nAdds a configurable node, the Infinite Chest, that replicates indefinitely whatever item is put into it.\n\nOnly players with the 'infchest' priv can configure the chest.\n\nThe slot to the left configures what item is to be replicated (only modifyable with 'infchest' priv), and the items in the slots to the right can be taken by anyone.\n\nTODO: \nPreserve replicated items metadata.\nAdd global interval configuration using commands.\nAdd per-chest local interval configuration using the formspec.\n\nThis is an old unreleased mod of mine, I haven't worked on this mod for a long time, but since it works, I figured I would upload it to the CDB\n\n#### License for code\nCode by Dragonop (LGPLv3)\n\n#### License for media\nTextures by Dragonop (CC-BY-SA 4.0)",
-  "maintainers": [
-    "Dragonop"
-  ],
+  "maintainers": ["Dragonop"],
   "media_license": "CC-BY-SA-4.0",
   "name": "infchest",
-  "provides": [
-    "infchest"
-  ],
+  "provides": ["infchest"],
   "release": 25386,
   "repo": "https://github.com/Dragonop/infchest",
   "score": 159.5,
@@ -448,12 +442,7 @@
   ],
   "short_description": "Adds a configurable chest that gives an infinite amount of something.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "creative",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["commerce", "creative", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aaa12e9858.png",
   "title": "Infinite Chest",
   "translation_url": null,

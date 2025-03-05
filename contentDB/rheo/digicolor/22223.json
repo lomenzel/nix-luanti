@@ -37,9 +37,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,27 +130,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-digicolor/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "minetest mod which provides a simple node which can change color when sent a signal.\n\nusage:\n\n1. program a channel\n2. send a digiline signal\n\n```lua\ndigiline_send(\"test\", 255) -- set the color to white\n```\n\nsee README.md for an index of color codes. ",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "digicolor",
-  "provides": [
-    "digicolor"
-  ],
+  "provides": ["digicolor"],
   "release": 22223,
   "repo": "https://github.com/fluxionary/minetest-digicolor.git",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/563ba67c23.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/563ba67c23.png"],
   "short_description": "node whose color can be set via digilines",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "technology"
-  ],
+  "tags": ["building", "decorative", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/563ba67c23.png",
   "title": "digicolor",
   "translation_url": null,
@@ -180,18 +168,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/fmod": [],
@@ -199,10 +181,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

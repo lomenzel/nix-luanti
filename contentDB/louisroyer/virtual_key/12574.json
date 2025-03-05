@@ -129,26 +129,17 @@
   "issue_tracker": "https://github.com/louisroyer-minetest/virtual-key/issues",
   "license": "CC0-1.0",
   "long_description": "# Virtual key\nThis minetest mod add virtual keys you can add in your keyring.\n\nCraft a virtual keys registerer and start using it as regular skeleton-keys.\nContent of registerer can be copied without loss on any other registerer and added on any keyring.\n\n## Craft\n### Virtual keys registerer (shapeless)\n- `keys:skeleton_key`\n- `basic_materials:ic`\n\n### Personal virtual keys registerer (shapeless)\n- `keys:skeleton_key`\n- `basic_materials:ic`\n- `basic_materials:padlock`\n\nor\n\n- `virtual_key:virtual_key_registerer`\n- `basic_materials:padlock`\n\n### Synchronize virtual keys (shapeless)\n- `group:virtual_key`\n- `virtual_key:virtual_key_registerer`\n\nor\n\n- `group:virtual_key`\n- `virtual_key:personal_virtual_key_registerer`\n\nNotes:\n\n- if you use a personal virtual keys registerer in the craft, then it must belong to you, else the craft will be forbidden.\n- you cannot register a virtual key using a key/keyring in a craft: you need to click on the locked node to register the virtual key, then if you borrow a regular key to another player, no clandestine copy can be done.\n- since it is a synchronization, all registerer will contains the same virtual keys\n- if the same virtual key is registered in both registerer with a different name, one of the name will be overwritten\n\n## How to use your registered virtual keys\nOnce you have registered virtual keys, you need to copy them to a keyring. You can use the following craft provided by `keyring` mod:\n\n- `group:virtual_key`\n- `keyring:keyring`\n\nor\n\n- `group:virtual_key`\n- `keyring:personal_keyring`\n\nNotes:\n\n- if you use a personal virtual keys registerer or a personal keyring in the craft, then it must belong to you, else the craft will be forbidden.\n- since it is a copy from the register to the keyring, you will get your registerer back will all its virtual keys\n\n## Dependencies\n- [basic_materials](https://content.minetest.net/packages/mt-mods/basic_materials/)\n- [keyring](https://content.minetest.net/packages/louisroyer/keyring/)\n- keys (from MTG)\n\n## Settings\nSetting `virtual_key.personnal_vkeys_registerer` is available to disable/enable personal virtual keys registerer (enabled by default).\n",
-  "maintainers": [
-    "louisroyer"
-  ],
+  "maintainers": ["louisroyer"],
   "media_license": "CC0-1.0",
   "name": "virtual_key",
-  "provides": [
-    "virtual_key"
-  ],
+  "provides": ["virtual_key"],
   "release": 12574,
   "repo": "https://github.com/louisroyer-minetest/virtual-key",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/WT9Ag5gMru.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/WT9Ag5gMru.png"],
   "short_description": "Adds virtual keys registerers.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "storage"
-  ],
+  "tags": ["multiplayer", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WT9Ag5gMru.png",
   "title": "Virtual Key",
   "translation_url": null,
@@ -208,9 +199,7 @@
       {
         "is_optional": false,
         "name": "keyring",
-        "packages": [
-          "louisroyer/keyring"
-        ]
+        "packages": ["louisroyer/keyring"]
       },
       {
         "is_optional": false,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/teacher_tutorial_elevator/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Teacher: Realtime ELevator\n\nThis mod adds tutorial for [Realtime Elevator](https://content.minetest.net/packages/shacknetisp/elevator/).\n\nView the tutorial online: <https://wiki-twi.1f616emo.xyz/wiki/Tutorial/Using_the_Elevator...>",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "teacher_tutorial_elevator",
-  "provides": [
-    "teacher_tutorial_elevator"
-  ],
+  "provides": ["teacher_tutorial_elevator"],
   "release": 26523,
   "repo": "https://github.com/C-C-Minetest-Server/teacher_tutorial_elevator",
   "score": 8.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fb0801a97b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fb0801a97b.png"],
   "short_description": "Tutorial for Realtime Elevator",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "transport"
-  ],
+  "tags": ["education", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fb0801a97b.png",
   "title": "Teacher: Realtime Elevator",
   "translation_url": null,
@@ -44,10 +35,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
@@ -63,34 +51,24 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/teacher_tutorial_elevator": [
       {
         "is_optional": false,
         "name": "teacher_core",
-        "packages": [
-          "Emojiminetest/teacher"
-        ]
+        "packages": ["Emojiminetest/teacher"]
       },
       {
         "is_optional": false,
         "name": "elevator",
-        "packages": [
-          "shacknetisp/elevator",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["shacknetisp/elevator", "MeseCraft/mesecraft"]
       }
     ],
     "shacknetisp/elevator": []

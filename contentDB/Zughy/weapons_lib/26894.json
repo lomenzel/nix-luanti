@@ -11,29 +11,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "**BEWARE: this is not a 1.x.x release, expect breakages: use it at your own risk** \n\n### How to\nCheck the [DOCS](https://gitlab.com/zughy-friends-minetest/weapons_lib/-/blob/main/DOCS.md)",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "weapons_lib",
-  "provides": [
-    "weapons_lib"
-  ],
+  "provides": ["weapons_lib"],
   "release": 26894,
   "repo": "https://gitlab.com/zughy-friends-minetest/weapons_lib",
   "score": 15.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c6d720e680.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c6d720e680.png"],
   "short_description": "API to easily create weapons of any kind",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "pve",
-    "pvp",
-    "shooter",
-    "tools"
-  ],
+  "tags": ["library", "pve", "pvp", "shooter", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c6d720e680.png",
   "title": "weapons_lib",
   "translation_url": null,
@@ -48,10 +36,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       }
     ]
   },

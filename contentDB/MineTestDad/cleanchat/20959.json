@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# cleanchat\nA minetest mod that filters out curse words and replaces them with a generic word. \n\nThe word list is editable and future development can include the ability of players to have words that add to their own list.\n\n",
-  "maintainers": [
-    "MineTestDad"
-  ],
+  "maintainers": ["MineTestDad"],
   "media_license": "MIT",
   "name": "cleanchat",
-  "provides": [
-    "cleanchat"
-  ],
+  "provides": ["cleanchat"],
   "release": 20959,
   "repo": "https://github.com/devBurgSto/cleanchat",
   "score": 0.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bd89d53182.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bd89d53182.png"],
   "short_description": "Parents wish to protect their children from possibly harmful words in chat. This allows them to maintain a list per player, which the parents in lieu of their children can extend by themselves.",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bd89d53182.png",
   "title": "Clean Chat",
   "translation_url": null,

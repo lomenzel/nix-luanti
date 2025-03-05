@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NC_Furniture/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "#At my 74yr old Nana's request: Decorative Furniture Nodes\n- Some have specific functionality.\n- Make Toast!\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_furniture",
-  "provides": [
-    "wc_furniture"
-  ],
+  "provides": ["wc_furniture"],
   "release": 27867,
   "repo": "https://github.com/wintersknight94/NC_Furniture",
   "score": 9.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8467ea8807.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8467ea8807.png"],
   "short_description": "At My Nana's Request: Adds Decorative Furniture To NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "singleplayer"
-  ],
+  "tags": ["decorative", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8467ea8807.png",
   "title": "NodeCore Furniture",
   "translation_url": null,
@@ -71,114 +62,74 @@
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_storage",
-        "packages": [
-          "Winter94/wc_storage"
-        ]
+        "packages": ["Winter94/wc_storage"]
       }
     ],
     "Winter94/wc_storage": [
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_basket",
-        "packages": [
-          "Winter94/wc_basket"
-        ]
+        "packages": ["Winter94/wc_basket"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

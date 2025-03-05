@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/minetest-mods/ccompass/issues/new/choose/",
   "license": "MIT",
   "long_description": "1. Craft the compass using 4x steel around the mese fragment. The new compass points to the origin / Zero point and is already usable.\n2. Punch the compass to a compatible node (all by default) and enter the target name\n3. Now this compass leads you always to this location. You can give it away to allow other users to find this place.\n4. Punch a teleport compatible node (by default mese block) to teleport back to the calibrated place\n",
-  "maintainers": [
-    "bell07"
-  ],
+  "maintainers": ["bell07"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ccompass",
-  "provides": [
-    "ccompass"
-  ],
+  "provides": ["ccompass"],
   "release": 9247,
   "repo": "https://github.com/minetest-mods/ccompass",
   "score": 8.4,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Adds a calibratable compass to the minetest",
   "state": "APPROVED",
-  "tags": [
-    "tools",
-    "transport"
-  ],
+  "tags": ["tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/E2Ov4lgExd.png",
   "title": "CCompass",
   "translation_url": null,

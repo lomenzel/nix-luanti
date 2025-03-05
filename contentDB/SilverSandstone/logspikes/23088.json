@@ -11,9 +11,7 @@
     {
       "confidence": 11,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -184,14 +182,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/logspikes/issues",
   "license": "MIT",
   "long_description": "Log Spikes\n==========\n\nThis mod adds log spikes for decoration, defence, traps, etc.\n\nSpikes can be crafted from various types of tree, and placed in any direction.\nPlayers and mobs take damage when touching spikes, and extra damage can be dealt by extending the spike on a piston.\n\n\nSupported Games and Mods\n------------------------\n\nGames:\n\n- Minetest Game and derivatives (Dreambuilder, Mesecraft, VoxelGarden, Survivetest, etc.)\n- MineClone2 / Mineclonia\n- Repixture\n- KSurvive Revival\n- Lord of the Test\n- Exile\n- Hades Revisited\n- Asuna\n\nTrees from these mods:\n\n- Aotearoa\n- Cool Trees\n- Conifer\n- DFCaverns\n- Ethereal\n- Everness\n- Maple\n- More Trees\n- Rubber Addon for MineClone\n- Swamp\n- Wilhelmines Living Jungle\n- Wilhelmines Natural Biomes\n\nExtra functionality is available for these mods:\n\n- Stripped Trees\n- Mesecons MVPS",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "logspikes",
-  "provides": [
-    "logspikes"
-  ],
+  "provides": ["logspikes"],
   "release": 23088,
   "repo": "https://codeberg.org/SilverSandstone/logspikes",
   "score": 20.9,
@@ -208,10 +202,7 @@
   ],
   "short_description": "Adds spikes made of various types of tree.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "survival"
-  ],
+  "tags": ["decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/095b1c1959.png",
   "title": "Log Spikes",
   "translation_url": null,

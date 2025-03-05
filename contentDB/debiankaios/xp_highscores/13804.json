@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,24 +429,17 @@
   "issue_tracker": "https://gitlab.com/debiankaios/xp_highscores/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Description\n\nAdd a better highscore system for xp_redo. Requested by a player on the server your-land.\n\n# License\n\nSee LICENSE.txt\nThankyou to https://github.com/mt-mods/xp_redo/ because i have a bit of source code from there.\n\n# Warnings\nThis isn't final but fully playable! This project is to time marked as pending for debiankaios, this means he don't make changes to time but it's on a Queue. This mark is only for debiankaios, means other people can continue all time",
-  "maintainers": [
-    "debiankaios"
-  ],
+  "maintainers": ["debiankaios"],
   "media_license": "CC-BY-SA-4.0",
   "name": "xp_highscores",
-  "provides": [
-    "xp_highscores"
-  ],
+  "provides": ["xp_highscores"],
   "release": 13804,
   "repo": "https://gitlab.com/debiankaios/xp_highscores",
   "score": 3.8,
   "screenshots": [],
   "short_description": "Add a better highscore system for xp_redo.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "player_effects"
-  ],
+  "tags": ["gui", "player_effects"],
   "thumbnail": null,
   "title": "XP Highscores",
   "translation_url": null,
@@ -462,9 +453,7 @@
       {
         "is_optional": false,
         "name": "xp_redo",
-        "packages": [
-          "mt-mods/xp_redo"
-        ]
+        "packages": ["mt-mods/xp_redo"]
       }
     ],
     "mt-mods/xp_redo": [

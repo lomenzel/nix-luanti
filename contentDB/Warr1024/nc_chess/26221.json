@@ -38,29 +38,17 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "Chisel decorative, easy to move chess pieces out of etched (patterned) tarstone and cloudstone.\n\nPlaying chess itself is currently almost entirely manual; no chess engines, rules, or other aids are programmed into the mod.  The pieces can be used for anything: playing chess on a server, setting up chess puzzles, or just as decoration.  Board design/building is left entirely up to the players.\n\nPlacing a chess piece atop any other (placed) piece will \"capture\" that piece: the new piece replaces the original one, and the original piece is put into the capturing player's inventory (or ejected above if there is no room).",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "CC0-1.0",
   "name": "nc_chess",
-  "provides": [
-    "nc_chess"
-  ],
+  "provides": ["nc_chess"],
   "release": 26221,
   "repo": "https://gitlab.com/sztest/nc_chess",
   "score": 4.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/27474d9c74.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/27474d9c74.webp"],
   "short_description": "Chess pieces for NodeCore.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "decorative",
-    "mini-game",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["crafting", "decorative", "mini-game", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/27474d9c74.png",
   "title": "NodeCore Chess",
   "translation_url": null,
@@ -74,26 +62,17 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_player_pickup",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

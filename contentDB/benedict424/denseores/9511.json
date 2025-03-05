@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "The Dense Ores mod allows ores to occasionally show up in a dense form alongside their normal form inside ore clusters. When a dense ore is mined, it will give you double the resources. Textures are WIP.\n\nThis mod will also create dense versions of the ores in the More Ores mod.",
-  "maintainers": [
-    "benedict424"
-  ],
+  "maintainers": ["benedict424"],
   "media_license": "GPL-3.0-or-later",
   "name": "denseores",
-  "provides": [
-    "denseores"
-  ],
+  "provides": ["denseores"],
   "release": 9511,
   "repo": "https://notabug.org/Oswald/denseores.git",
   "score": 334.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c137d1e346.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c137d1e346.png"],
   "short_description": "Adds rare ores with twice the drops of their normal counterpart.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c137d1e346.png",
   "title": "Dense Ores",
   "translation_url": null,

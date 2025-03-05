@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_calendar/issues",
   "license": "LGPL-3.0-only",
   "long_description": "This mod adds a simple and customizable calender system.\n\nThe calendar supports days, weeks, months and years. Holidays are also supported.\n\nTo make things simpler, all months have the same length.\n\nBy default, a year has 12 months (January to December) with 30 days each. There are 7 weekdays from Monday to Sunday, starting at Monday. The calendar starts at Day 1, Month 1 (January), Year 1.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "LGPL-3.0-only",
   "name": "calendar",
-  "provides": [
-    "calendar"
-  ],
+  "provides": ["calendar"],
   "release": 18411,
   "repo": "https://codeberg.org/Wuzzy/minetest_calendar",
   "score": 160.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/izqv5lrrdQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/izqv5lrrdQ.png"],
   "short_description": "A simple calender system to track the passage of days",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/izqv5lrrdQ.png",
   "title": "Calendar",
   "translation_url": null,

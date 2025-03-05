@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/appgurueu/online_craftguide/issues",
   "license": "MIT",
   "long_description": "Generates a static online craftguide.\n\n## About\n\nSee this [Minetest Game craftguide](https://appgurueu.github.io/online_craftguide/) for an example.\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib). Requires inventory images rendered using [`online_craftguide_csm`](https://github.com/appgurueu/modlib) to work (which are not copied automatically). Code written by Lars Mueller aka LMD or appguru(eu) and licensed under the MIT license. The Minetest logo is licensed as CC BY-SA 3.0 with credits going to erlehmann. Generated inventory images (files in the `docs/images` folder) are derived from [Minetest Game](https://github.com/minetest/minetest_game) and therefore CC BY-SA 3.0, with credits going to [various contributors](https://github.com/minetest/minetest_game/blob/master/LICENSE.txt). Uses & embeds [Bootstrap icons](https://icons.getbootstrap.com) which are licensed under the MIT license, with credits going to [mdo](https://github.com/mdo).\n\n## Features\n\n* Responsive website using Bootstrap\n* Good layout & design\n* Search\n\n## Instructions\n\n* Install [`modlib`](https://github.com/appgurueu/modlib) and this mod as well as the [`online_craftguide_csm`](https://github.com/appgurueu/modlib)\n* Join a game with the `online_craftguide_csm` and wait for the rendering to finish\n* Copy the `online_craftguide_csm/images` folder to your `online_craftguide/docs/images` folder\n* Start a game with the mod enabled - it will generate the website for you\n* Your online craftguide is now stored in your `online_craftguide/docs` folder",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "CC-BY-SA-3.0",
   "name": "online_craftguide",
-  "provides": [
-    "online_craftguide"
-  ],
+  "provides": ["online_craftguide"],
   "release": 15341,
   "repo": "https://github.com/appgurueu/online_craftguide",
   "score": -139.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BQ0Zn0LNCj.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BQ0Zn0LNCj.png"],
   "short_description": "Generates a static craftguide website",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BQ0Zn0LNCj.png",
   "title": "Online Craftguide",
   "translation_url": null,

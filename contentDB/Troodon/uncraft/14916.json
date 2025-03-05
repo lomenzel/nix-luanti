@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds an uncraft table, it allows you to recover the resources that were necessary for a craft. You can add items/blocks yourself by completing the allow_items table",
-  "maintainers": [
-    "Troodon"
-  ],
+  "maintainers": ["Troodon"],
   "media_license": "MIT",
   "name": "uncraft",
-  "provides": [
-    "uncraft"
-  ],
+  "provides": ["uncraft"],
   "release": 14916,
   "repo": null,
   "score": 153.7,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Adds an uncraft table",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "technology"
-  ],
+  "tags": ["crafting", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c495a5d0b1.png",
   "title": "Un-Craft Table",
   "translation_url": null,

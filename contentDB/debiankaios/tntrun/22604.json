@@ -11,16 +11,10 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/tntrun/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "**How to play**\n\nPlayers spawn on an unstable layer of of TNT which will fall when stepped on or when punched with a torch. The last player standing wins.\n\n\n**Thanks to**\n\n* Zughy\n* TalkLounge\n* MisterE\n* Wuzzy",
-  "maintainers": [
-    "debiankaios",
-    "MisterE",
-    "Wuzzy"
-  ],
+  "maintainers": ["debiankaios", "MisterE", "Wuzzy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "tntrun",
-  "provides": [
-    "tntrun"
-  ],
+  "provides": ["tntrun"],
   "release": 22604,
   "repo": "https://gitlab.com/zughy-friends-minetest/tntrun",
   "score": 156.9,
@@ -30,10 +24,7 @@
   ],
   "short_description": "Players compete to be the last one standing on a layer of falling TNT",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "pvp"
-  ],
+  "tags": ["mini-game", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43ecaa84b5.png",
   "title": "Tntrun",
   "translation_url": null,
@@ -71,18 +62,14 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "debiankaios/tntrun": [
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ]
   },

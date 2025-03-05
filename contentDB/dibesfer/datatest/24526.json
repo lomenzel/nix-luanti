@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Inspired by digital data as represented in matrix or Tron, here they come 7 colored data blocks biomes. \n\nAnd pure white data blocks biome.\n\nIt feels better without clouds, blooming and sky plain to black.\n\nThis mod is included by default in [Colorlandia](https://content.minetest.net/packages/dibesfer/colorlandia/)\n\n",
-  "maintainers": [
-    "dibesfer"
-  ],
+  "maintainers": ["dibesfer"],
   "media_license": "CC-BY-SA-4.0",
   "name": "datatest",
-  "provides": [
-    "datatest"
-  ],
+  "provides": ["datatest"],
   "release": 24526,
   "repo": "https://codeberg.org/dibesfer/datatest.git",
   "score": 308.5,
@@ -34,11 +30,7 @@
   ],
   "short_description": "8 new biomes with nodes, ores and schematics, inspired by digital data",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["building", "decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bdce242aa8.png",
   "title": "Datatest",
   "translation_url": null,

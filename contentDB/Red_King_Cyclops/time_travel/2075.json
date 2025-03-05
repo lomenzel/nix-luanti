@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,14 +195,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Note: you should check out ElCeejo's [paleotest](https://content.minetest.net/packages/ElCeejo/paleotest/). [Multidimensions](https://content.minetest.net/packages/AiTechEye/multidimensions/) is also important, because this mod replaces Multidimensions's dimensions with its own dimensions; without multidimensions, this mod doesn't work.\n\nThis mod adds in a craftable time machine that can be used to time travel to different time periods of Earth’s history. You can now see paleotest’s mobs in their natural habitats.\n\nWiki:\nhttps://git.minetest.land/Red_King_Cyclops/time_travel/wiki\n\nDeep underground, there is a new rare ore called Metamese (purple mese). Metamese can be crafted into a time core, and a time core can be crafted into an inactive time machine. Once placed down, the inactive time machine can be right clicked by certain items to activate the time machine and set it to a particular time period. Jungle grass sets it to the Dinosaur Age, snow sets it to the Ice Age, a dead shrub sets it to Prehistoric Australia, and a coral skeletion sets it to the Water Age. Upon activating a time machine, the player is given one green mese block that, if placed in another time period, can send the player back to the present. If the time machine is one end of the portal, the green mese is the other end. To deactive a time machine, mine it and place it again. Time machines have protection support (untested) and can be used with mesecons (if active).\n\nAt the moment there are 4 time periods: Dinosaur Age, Ice Age, Prehistoric Australia, and Water Age. The dinosaur age is set in the Mesozoic era, the Ice Age is set in Illinois during the last Ice Age, Prehistoric Australia is set in Australia during the Pleistocene, and the Water Age is set in the early Paleozoic era (Cambrian through Devonian periods). The Dinosaur Age has 10 animals, the Ice Age has 4, Prehistoric Australia has 2, and the Water Age has 1. The Water Age is a work in progress and it is very incomplete.\n\nIt is possible to survive in every time period except for the incomplete Water Age. The Dinosaur Age, the Ice Age, and Prehistoric Australia all have trees, water, dirt, and ores. In Prehistoric Australia, if red dirt touches water, after a maximum of 5 seconds it will become normal dirt. The Dinosaur Age has jungle grass and normal grass, so the player can get wheat and cotton seeds without importing them from the present.\n\nThe mod depends on paleotest, mobs_redo, multidimensions, and default. Mesecons is an optional dependency. Several nodes have been taken from the australia mod, but the australia mod is not a dependency. Paleotest and mobs redo are used to fill the dimensions with prehistoric animals. Multidimensions is used to make the dimensions (the time periods) and the time machine’s teleportation action. Nodes from default and australia have been used for the dimensions. Thanks a lot to ElCeejo, TenPlus1, aiTechEye, the Minetest development team, demon_boy, and Jeija for making these mods.\n\nThis mod is licenced as LGPL-2.1-or-later for the code and CC-BY-SA-3.0 for the media. This mod was made by Red_King_Cyclops (me), but much of the code and textures came from other mods. The australian nodes’ textures, node registrations, and associated crafting recipes were taken from the australia mod. The metamese textures are modified mese textures from default (however, the time core texture was made by myself). The time machine textures are modified versions of the steel block texture from default. The tree lbm and the teleportation code, protection support code, and mesecon support code for the time machine nodes are modified code taken from multidimensions. If there is a licence incompatibility between the overall licence and a licence from one of the used mods, please tell me.",
-  "maintainers": [
-    "Red_King_Cyclops"
-  ],
+  "maintainers": ["Red_King_Cyclops"],
   "media_license": "CC-BY-SA-3.0",
   "name": "time_travel",
-  "provides": [
-    "time_travel"
-  ],
+  "provides": ["time_travel"],
   "release": 2075,
   "repo": "https://git.minetest.land/Red_King_Cyclops/time_travel",
   "score": 12.5,
@@ -219,9 +213,7 @@
   ],
   "short_description": "Adds in a craftable time machine that can be used to time travel to different time periods of Earth's history.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nhB8xeAcQu.png",
   "title": "Time Travel",
   "translation_url": null,
@@ -262,10 +254,7 @@
       {
         "is_optional": false,
         "name": "mob_core",
-        "packages": [
-          "talas/colourhop",
-          "mt-mods/mob_core"
-        ]
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
       },
       {
         "is_optional": false,
@@ -401,17 +390,12 @@
       {
         "is_optional": false,
         "name": "multidimensions",
-        "packages": [
-          "AiTechEye/xaenvironment",
-          "AiTechEye/multidimensions"
-        ]
+        "packages": ["AiTechEye/xaenvironment", "AiTechEye/multidimensions"]
       },
       {
         "is_optional": false,
         "name": "paleotest",
-        "packages": [
-          "ElCeejo/paleotest"
-        ]
+        "packages": ["ElCeejo/paleotest"]
       },
       {
         "is_optional": false,

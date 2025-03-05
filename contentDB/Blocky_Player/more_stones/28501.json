@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-3.0",
   "long_description": "[![ContentDB](https://content.minetest.net/packages/Blocky_Player/more_stones/shields/downloads/)](https://content.minetest.net/packages/Blocky_Player/more_stones/)\n\nDesigned to educate the Minetest community about the different types of rocks and minerals that are useful in real life, but often mistaken for other materials, as well as being useful to the average Minetest survival player. Adds original blocks and items, each with their own and unique textue. Works well with facade, may add recipes for the facade blocks in the future.\n\n##Thank you to the Minetest community for 1000 downloads!\n\n## Leave a review!\n\n\n",
-  "maintainers": [
-    "Blocky_Player"
-  ],
+  "maintainers": ["Blocky_Player"],
   "media_license": "CC-BY-SA-3.0",
   "name": "more_stones",
-  "provides": [
-    "more_stones"
-  ],
+  "provides": ["more_stones"],
   "release": 28501,
   "repo": null,
   "score": 168.8,
@@ -450,13 +444,7 @@
   ],
   "short_description": "Provides a variety of educational and decorative minerals and rocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative",
-    "education",
-    "survival"
-  ],
+  "tags": ["building", "creative", "decorative", "education", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c1978dd88.png",
   "title": "More Stones",
   "translation_url": null,
@@ -470,9 +458,7 @@
       {
         "is_optional": false,
         "name": "mud",
-        "packages": [
-          "Blocky_Player/mud"
-        ]
+        "packages": ["Blocky_Player/mud"]
       },
       {
         "is_optional": false,

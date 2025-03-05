@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/irc/issues/new/choose/",
   "license": "BSD-2-Clause-FreeBSD",
   "long_description": "",
-  "maintainers": [
-    "kaeza"
-  ],
+  "maintainers": ["kaeza"],
   "media_license": "BSD-2-Clause-FreeBSD",
   "name": "irc",
-  "provides": [
-    "irc"
-  ],
+  "provides": ["irc"],
   "release": 21620,
   "repo": "https://github.com/minetest-mods/irc",
   "score": 153.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b3517dcb5d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b3517dcb5d.png"],
   "short_description": "Connect your server to an IRC channel, and install irc_commands to control the server from IRC",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "complex_installation",
-    "world_tools"
-  ],
+  "tags": ["chat", "complex_installation", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b3517dcb5d.png",
   "title": "Internet Relay Chat",
   "translation_url": null,

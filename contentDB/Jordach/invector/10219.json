@@ -11,16 +11,10 @@
   "issue_tracker": "https://github.com/Dumpster-Studios/Invector/issues",
   "license": "MIT",
   "long_description": "# Solar Plains: Invector\nMario Kart with a twist of Psygnosis' Wipeout.\n\n### Please note, due to a lack of time, the ability to detect track progress and basic multiplayer has been disabled.\nDue to the aforementioned issues, the game is currently as of GameJam endless and is a tech demo with a somewhat functional game element. Please note that a second client will be instantly kicked on join due to incomplete multiplayer support.\n\n## Starting your game:\n\n| Game Mode | Effect |\n| -------- | -------- |\n| Survival | Regular Race |\n| Creative | Track Editor |\n\n## Controls:\n\n| Key | Result |\n| -------- | -------- |\n| W     | Drive Forwards |\n| A | Turn/Drift Left |\n| S | Brake/Reverse |\n| D | Turn/Drift Right |\n| E/Aux1/Fast | Exit Testing Kart in Creative Mode |\n| Sneak/Shift | Freely Rotating Camera |\n| Dig/Left Mouse | Fire/Use Carried Weapon |\n| Place/Right Mouse | Fire/Use Carried Weapon Alternative Mode |",
-  "maintainers": [
-    "Jordach"
-  ],
+  "maintainers": ["Jordach"],
   "media_license": "CC-BY-SA-4.0",
   "name": "invector",
-  "provides": [
-    "invector",
-    "solarsail",
-    "superidx"
-  ],
+  "provides": ["invector", "solarsail", "superidx"],
   "release": 10219,
   "repo": "https://github.com/Dumpster-Studios/Invector.git",
   "score": 1345.9,
@@ -32,11 +26,7 @@
   ],
   "short_description": "A karting game with built in track editor",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "oneofakind__original",
-    "transport"
-  ],
+  "tags": ["jam_game_2021", "oneofakind__original", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ac72c788b4.png",
   "title": "Solar Plains: Invector",
   "translation_url": null,

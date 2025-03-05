@@ -37,9 +37,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -327,26 +325,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Easy night\n\nAdds to Minetest Game a crafting recipe for torches with leafs, a sleeping bag, sleep at 18:44 and modify when to sleep.\n\n## License\n\nSee `LICENSE.txt`\n",
-  "maintainers": [
-    "X-DE1"
-  ],
+  "maintainers": ["X-DE1"],
   "media_license": "MIT",
   "name": "easy_night",
-  "provides": [
-    "easy_night"
-  ],
+  "provides": ["easy_night"],
   "release": 29954,
   "repo": "https://github.com/X-DE1/easy_night",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fdbcea1188.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fdbcea1188.png"],
   "short_description": "Adds crafting recipe for torches with leafs, a sleeping bag, you can sleep at 18:44 and modify when to sleep",
   "state": "APPROVED",
-  "tags": [
-    "mtg",
-    "survival"
-  ],
+  "tags": ["mtg", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fdbcea1188.png",
   "title": "Easy night",
   "translation_url": null,
@@ -538,9 +527,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

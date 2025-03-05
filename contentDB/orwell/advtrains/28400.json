@@ -11,9 +11,7 @@
   "issue_tracker": "https://lists.sr.ht/~gpcf/advtrains-discuss",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod features realistic trains and various equipment for railways, with a focus on automated train operation.\n\nMain features:\n\n- Almost-realistic tracks with actual curves and switches\n- Railway signals, controllable by various means\n- ATC: Simple, command-like automatic train control\n- LuaATC: Powerful Lua-scripted automatic train operation(requires some programming knowledge)*\n- An Interlocking system, featuring track sections, routes and automatic stopping before signals\n\nPlease note that the base modpack does not include any trains. Please see the [Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:start)\n\n[General user manual](https://advtrains.de/manual)\n\n[Guide for the interlocking system](https://advtrains.de/interlocking)\n\n[Wiki](http://advtrains.de/wiki/)",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains",
   "provides": [
@@ -34,11 +32,7 @@
   ],
   "short_description": "Adds good-looking, realistic trains with realistic rails.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "technology",
-    "transport"
-  ],
+  "tags": ["library", "technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2Xv6lj0sLE.png",
   "title": "Advanced Trains",
   "translation_url": null,

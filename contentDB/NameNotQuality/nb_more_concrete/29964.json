@@ -38,26 +38,17 @@
   "issue_tracker": "https://savannah.nongnu.org/bugs/?group=nb-concrete&func=additem",
   "license": "AGPL-3.0-or-later",
   "long_description": "[web cgit interface](https://git.savannah.nongnu.org/cgit/nb-concrete.git) ([experimental gitweb](https://git.savannah.nongnu.org/gitweb/?p=nb-concrete.git)) | [open bugs](https://savannah.nongnu.org/bugs/?group=nb-concrete)\n\n# Introduction\nNodeCore is really a sandbox game of its own kind,\nfeaturing immersive gameplay different from every other game.\nHowever, it is still a sandbox, and a big part of sandbox gameplay\nis building. NodeCore is pretty minimalistic in that aspect.\n\nWhile trying to make builds in the game, I found concrete\nas one of the best building blocks. Creating it is fascinating\ntoo: it goes in a similar fashion to real life. What is not so\nfascinating though is that there are only 5, mostly boring\ncolors/shades: black, grey, white, yellow and brown.\n\nThere are mods that already add more concrete, such as\n[NodeCore Sealife](https://content.minetest.net/packages/Winter94/wc_sealife/), but I have never saw one that focuses\non the concrete part and makes the most of the default\nblocks available. I also tried asking the main developer\nof NodeCore, Warr1024, if he would like more concrete\nin the main game, which he didn't. This is what inspired\nme to create my 1st ever mod: NB* More Concrete.\n\n---\n\nWhen you enable NB More Concrete, you will be able\nto discover **5 (for now)** more types of concrete, which\nyou will be able to use to create much more elaborate\nstructures than ever before. WIth the power of sky, nature, sea, eggcorn and sun,\nyou will be able to realise your imagination in a much more\naccurate way and create even more beatiful structures.\n\nOf course, as in the spirit of NodeCore, I will not immiedately\ntell you about the recipes; you will have to discover them\nyourself. If you give up, I recommend you take a look in the\n**settings,** which call them by color (and also allow you to\ntoggle specific concretes).\n\nAs a last resort, you can also take\na look at the `concretesolution` file in the mod directory,\nwhich is a draft I was making the whole time while creating\nthe mod, kept for curiousity/historical purposes (and so\nyou can talk about some ideas in there with me and add new\nones).\n\n*Thank you for reading and good luck!*\n\n### Note\nNB - I was thinking of naming my mods similarly to [Winter94](https://content.minetest.net/users/Winter94/)\n(who appended 'wc', meaning 'wintercore', to the start of his mod names)\nand making them easier to distinguish from others (which is really also\nrecommended by NodeCore, in their CONTRIBUTING file).\nI came up with 'NB', because I found the shortcut 'N.B.', which stands for\n'note well' (nota bene), used in the descriptions of Warr1024's NodeCore\nand (some) mods.\nI think this could mean e.g. 'NodeBene', but I didn't explicitely define\nthe meaning and will just use the abbrevation 'NB' like the NodeCore\ndescs did with nota bene (N.B.).\n\n\n**N.B.: this mod is currently WIP:** some things (e.g. textures) may\nbe subject to change, there are more concretes to be added, and you\nare *highly* recommended to suggest changes. You can submit bugs\nanonymously on the project page if you don't want to create an account.\nYou may also create a new thread on this page (ContentDB).\n\n### Recent breaking changes\n\n#### 0.3.0 (fix)\nThe setting for toggling the 3rd dark concrete has been changed\nto have a spoiler-free technical name. If you changed this setting,\ngo to the settings and change it again.\n\n#### 0.4.2 (reversible)\nThe recipe for the green concrete has been made cheaper, so\ninstead of using a decently expensive block mixed with ash,\nyou're now supposed to make a specific mix greener in a\nmanner similar to normally mixing a block and ash.\n\nYou can *change this back* to the old recipe in the settings.\n\n# Licensing/Technical\n(Almost) all of the files in this project (including media) are licensed under\nthe AGPL-3.0-or-later.\nIt is a copyleft license, which grants [the four fundamental freedoms](https://www.gnu.org/philosophy/free-sw.html)\nand also requires modified versions running on a online, multiplayer server to be able\nto offer its source code (I commented out such a function in the code,\nwhich you can uncomment and use to comply with the requirement).\nSee COPYING for details.\n\nFor you to be sure [that this](https://savannah.nongnu.org/register/requirements.php) [is free software](https://savannah.nongnu.org/task/?16593), and that you don't\nneed to interact [with nonfree JS, spyware](https://www.gnu.org/software/repo-criteria-evaluation.en.html#gitlab-com), [and possibly other schenanigans](https://librecmc.org/github.html), I have chosen a <s>git</s> project hosting platform that cares\nabout freedom and privacy, which is hosted by GNU themselves:\n[Nongnu Savannah](https://savannah.nongnu.org/).\n\nIt's a bit different than other popular code hosters though, so here\nare some tips about navigation:\n\n* You can find the [main project page](https://savannah.nongnu.org/projects/nb-concrete/) in the website link. It has many\nresources such as the things said below, which can also be found at the top of this text.\n\n* The repository link is only meant for git commands and not for\ngeneral browsing using a web browser.  You can find the web browser\nversion [here](https://git.savannah.nongnu.org/cgit/nb-concrete.git).\n\n* There's a similar situation with bug reporting; the bug tracker link\ngoes to the bug submit form. You can view all bugs [here](https://savannah.nongnu.org/bugs/?group=nb-concrete).",
-  "maintainers": [
-    "NameNotQuality"
-  ],
+  "maintainers": ["NameNotQuality"],
   "media_license": "AGPL-3.0-or-later",
   "name": "nb_more_concrete",
-  "provides": [
-    "nb_more_concrete"
-  ],
+  "provides": ["nb_more_concrete"],
   "release": 29964,
   "repo": "https://git.savannah.nongnu.org/git/nb-concrete.git",
   "score": 156.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e8adc1a07e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e8adc1a07e.png"],
   "short_description": "Adds more concrete to NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e8adc1a07e.png",
   "title": "NB More Concrete",
   "translation_url": null,
@@ -71,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/AntumLuanti/mod-tasks/issues",
   "license": "MIT",
   "long_description": "## About\n\nTasks & questing framework inspired by [Stendhal's](https://stendhalgame.org/) quest API.\n\n___WARNING:__ This mod is in early development & may not be suitable for production servers._\n\nSimilar to [TeTpaAka's Quest Framework](https://forum.luanti.org/viewtopic.php?t=11265), this mod aims to be a library for adding quests & tasks to games. It is meant to be a minimalist library, so does not include any formspec interfaces. Games must create their own which can be populated using the functions:\n\n- `tasks.get_registered()`: Returns list of all registered task IDs.\n- `tasks.get_title(id)`: Returns task title string.\n- `tasks.get_description(id)`: Returns task description string.\n- `tasks.get_player_log(player, id)`: Returns list of task string descriptors for player's state.\n\n## Media\n\nIcon source by [Arvin61r58](https://openclipart.org/detail/286082) (CC0).\n\n## Links\n\n- [API reference](https://antumluanti.codeberg.page/mod-tasks/) ([mirror](https://antummt.github.io/mod-tasks/))\n- [GitHub mirror](https://github.com/AntumMT/mod-tasks)\n- [sample task mod](https://codeberg.org/AntumLuanti/mod-sample_task) ([mirror](https://github.com/AntumMT/mod-sample_task))\n",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "MIT",
   "name": "tasks",
-  "provides": [
-    "tasks"
-  ],
+  "provides": ["tasks"],
   "release": 29479,
   "repo": "https://codeberg.org/AntumLuanti/mod-tasks",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/453856360c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/453856360c.png"],
   "short_description": "Framework for adding tasks & quests.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/453856360c.png",
   "title": "Tasks Framework",
   "translation_url": null,

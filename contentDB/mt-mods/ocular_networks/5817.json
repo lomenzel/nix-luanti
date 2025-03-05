@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,20 +286,14 @@
   "issue_tracker": "https://github.com/mt-historical/ocular_networks/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "Ocular Networks is a magitech mod with a steep difficulty curve and a rewarding payoff.\nMany new materials, tools, weapons and building blocks await along with a myriad of interesting and useful machines to make automation simple and efficient.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ocular_networks",
-  "provides": [
-    "ocular_networks"
-  ],
+  "provides": ["ocular_networks"],
   "release": 5817,
   "repo": "https://github.com/mt-historical/ocular_networks",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/az942bsZ2L.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/az942bsZ2L.png"],
   "short_description": "Draw power from the world, and use it to power machines and tools.",
   "state": "APPROVED",
   "tags": [
@@ -473,9 +465,7 @@
       {
         "is_optional": false,
         "name": "vision_lib",
-        "packages": [
-          "mt-mods/vision_lib"
-        ]
+        "packages": ["mt-mods/vision_lib"]
       },
       {
         "is_optional": false,

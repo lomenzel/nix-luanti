@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/MikeRedwood/basic_anvil/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Adds a basic anvil craftitem to the game, which enables you to repair any tool with on of its key components, i.e. a single diamond and a used diamond sword allong with the anvil craftitem will return a new diamond sword.\n",
-  "maintainers": [
-    "MikeRedwood"
-  ],
+  "maintainers": ["MikeRedwood"],
   "media_license": "LGPL-2.1-only",
   "name": "basic_anvil",
-  "provides": [
-    "basic_anvil"
-  ],
+  "provides": ["basic_anvil"],
   "release": 6133,
   "repo": "https://github.com/MikeRedwood/basic_anvil",
   "score": 158.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/j7vdy0usjh.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/j7vdy0usjh.png"],
   "short_description": "Adds an easy tool repair craft",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival",
-    "tools"
-  ],
+  "tags": ["crafting", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/j7vdy0usjh.png",
   "title": "Basic Anvil",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/APercy/direction_compass/issues/new/choose/",
   "license": "MIT",
   "long_description": "# direction_compass\nA mod that adds a compass with clockwise orientation, against the counter-clockwise of the debug info\n\nThe intention of creating this mod was to avoid the error and mistake of players who use minetest debug\ninformation for guidance. While the debug yaw may somehow guide the player, it does not match the\norientation that a real compass uses, whether for cartography or navigation. So this mod implements a\ncompass that is oriented by the left hand rule, oriented clockwise, considering east at 090 and west\nat 270. Also to help players, it displays position information and the names of cardinal and collateral\npoints. To display the analog version, which actually displays the player's direction, the compass must\nbe in the player's hand. For other information, the compass just needs to be in the inventory.\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "direction_compass",
-  "provides": [
-    "direction_compass"
-  ],
+  "provides": ["direction_compass"],
   "release": 13620,
   "repo": "https://github.com/APercy/direction_compass.git",
   "score": 8.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/81f8216d08.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/81f8216d08.jpg"],
   "short_description": "Adds a compass",
   "state": "APPROVED",
-  "tags": [
-    "education"
-  ],
+  "tags": ["education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/81f8216d08.png",
   "title": "Direction Compass",
   "translation_url": null,

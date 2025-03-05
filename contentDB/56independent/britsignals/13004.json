@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Introduction\nThis mod adds british-inspired signals to minetest.\n",
-  "maintainers": [
-    "56independent"
-  ],
+  "maintainers": ["56independent"],
   "media_license": "MIT",
   "name": "britsignals",
-  "provides": [
-    "britsignals"
-  ],
+  "provides": ["britsignals"],
   "release": 13004,
   "repo": "https://gitlab.com/56independent/britsignals",
   "score": -127,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds british-inspired signs and signals",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d69795c01b.png",
   "title": "Britsignals",
   "translation_url": null,
@@ -44,9 +38,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,

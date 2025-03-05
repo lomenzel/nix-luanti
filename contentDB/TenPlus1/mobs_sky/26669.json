@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,27 +443,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "A few sky critters ported from other mob frameworks to \"Mobs-Redo\".\n\nBats, Butterfly and Birds.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-3.0",
   "name": "mobs_sky",
-  "provides": [
-    "mobs_bat",
-    "mobs_birds",
-    "mobs_butterfly"
-  ],
+  "provides": ["mobs_bat", "mobs_birds", "mobs_butterfly"],
   "release": 26669,
   "repo": "https://codeberg.org/tenplus1/mobs_sky",
   "score": 35.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1cb51c8adb.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1cb51c8adb.jpg"],
   "short_description": "Sky Mobs for Mobs Redo",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1cb51c8adb.png",
   "title": "Sky Mobs",
   "translation_url": null,

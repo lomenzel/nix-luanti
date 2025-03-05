@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -287,9 +285,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -447,14 +443,10 @@
   "issue_tracker": "https://github.com/Can202/minetest_icecream/issues",
   "license": "GPL-3.0-only",
   "long_description": "#Ice Cream Mod\n\none mod to create your favorite ice cream, and more!!!!\n\nFirst create a Cone, with the specific Dough, give it the shape, and then on the Furnace.\n\nThis Dough is created with 2 Wheat Dough and one Egg. \n\nA cone, snow and. . . .  Chocolate? Or more. \n\nThis mod Depend (mobs, mobs_animal, farming) (not necessarily \"mobs\", you can also use any other that has an egg \"group: food_egg\")\n\nThis is my first mod\n\nWith the time i add more ice creams\n\nIf you want help:\n\nTranslate: Use the template.txt, and send me the file, https://github.com/Can202/minetest_icecream/issues/2\n\nIdeas or Sprites: Send me Ideas or Sprites, https://github.com/Can202/minetest_icecream/issues/2\n\n\n\n----------\nv2.1:\n\nadd an Award\n\nv2.0:\n\nnew screenshot\n\nv1.9:\n\nadd more awards\n\nv1.7:\n\nadd Awards support\n\nv1.6:\n\nadd Translate\n\nv1.5:\n\nadd Vanilla with Cookies, Chocolate with Cookies\n\nv1.4:\n\nadd Strawberry, Blueberries\n\nv1.3: \n\nChange mobs:egg to group:food_egg\n\nadd Changes.txt\n\nadd Mint, Pumpkin, Vanilla\n\nv1.2: Correction\n\nv1.1: add Cone-shaped dough\n\nv1.0: Add Ice Creams, Cone, Dough\n\nApple, Banana, Carrot, Chocolate, Watermelon, Orange, Pineapple.\n\n\nhttps://github.com/Can202/minetest_icecream",
-  "maintainers": [
-    "Can202"
-  ],
+  "maintainers": ["Can202"],
   "media_license": "GPL-3.0-only",
   "name": "icecream",
-  "provides": [
-    "icecream"
-  ],
+  "provides": ["icecream"],
   "release": 13949,
   "repo": "https://github.com/Can202/minetest_icecream",
   "score": 320.5,
@@ -464,9 +456,7 @@
   ],
   "short_description": "Add some Ice Creams",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/lgZeAsKTFZ.png",
   "title": "Ice Cream Mod",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "ISC",
   "long_description": "Replaces textures of all nodes with their names.\n\n## Cache\n\nToggle `texttext_cache_enabled`, cache is disabled by default.\nCache requires an insecure environment.\nTextures are cached in the mod's folder.\n\nTo clear the texture cache run `/texttext_clear`.\nThis requires the `server` priv (operator).\n\nIf you plan to run Text Text on a server, it is reccomended to enable cache.\nWithout it `[png` is used, which has a larger network impact.\n\n## Config\n\nTo change the name format see option `texttext_name_format`.  \nYou may use:  \n\n- The full techical name.\n- The techincal name, excluding modname.\n- The short description / user-facing name. [BROKEN]\n- The full description. [BROKEN]\n",
-  "maintainers": [
-    "GoodClover"
-  ],
+  "maintainers": ["GoodClover"],
   "media_license": "ISC",
   "name": "texttext",
-  "provides": [
-    "texttext"
-  ],
+  "provides": ["texttext"],
   "release": 12288,
   "repo": null,
   "score": 303.4,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Replace textures of nodes with their names.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools"
-  ],
+  "tags": ["april_fools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/124aaf4a23.png",
   "title": "Text Text.",
   "translation_url": null,

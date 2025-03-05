@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/alpha_workaround/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# `use_texture_alpha` workaround\n\nThis mod converts boolean `use_texture_alpha` values to string on the server, allowing MT5.9+ clients to join.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "alpha_workaround",
-  "provides": [
-    "alpha_workaround"
-  ],
+  "provides": ["alpha_workaround"],
   "release": 23246,
   "repo": "https://github.com/C-C-Minetest-Server/alpha_workaround",
   "score": 152.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/82016ca205.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/82016ca205.png"],
   "short_description": "Fix boolean use_texture_alpha on MT5.9+",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "world_tools"
-  ],
+  "tags": ["library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/82016ca205.png",
   "title": "use_texture_alpha workaround",
   "translation_url": null,

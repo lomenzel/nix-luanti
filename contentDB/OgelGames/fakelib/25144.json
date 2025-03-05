@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/OgelGames/fakelib/issues",
   "license": "MIT",
   "long_description": "This mod is a code library for creating fake userdata (players, inventories and metadata), replicating their functionality as closely as possible.\n\n---\n\n### Usage\n\nSimply add `fakelib` to your mod's dependencies, and call any of the API functions from your code.\n\nSee [API.md](https://github.com/OgelGames/fakelib/blob/master/API.md) for detailed documentation.",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "MIT",
   "name": "fakelib",
-  "provides": [
-    "fakelib"
-  ],
+  "provides": ["fakelib"],
   "release": 25144,
   "repo": "https://github.com/OgelGames/fakelib",
   "score": 248.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/54fc9d4e11.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/54fc9d4e11.png"],
   "short_description": "Fake userdata library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/54fc9d4e11.png",
   "title": "FakeLib",
   "translation_url": null,

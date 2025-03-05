@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://codeberg.org/Desour/meseconometer/issues",
   "license": "Apache-2.0",
   "long_description": "<!--\nSPDX-FileCopyrightText: 2023 DS\n\nSPDX-License-Identifier: CC0-1.0\n-->\n\n## What is this?\n\nIn mesecons, events, such as activation of a effector (= thing that receives a signal), or activation of a gate, don't happen immediately, but get inserted into the so-called actionqueue. All actions in the queue are then run in the next server-step. As a result, circuits can run very deterministically. But it also causes interesting delays for different nodes.\n\nThe meseconometer measures exact timings (in server-steps) of mesecons signals.\nThis can be useful for players that want to test properties of their circuits, or get a feeling at how mesecons works, as well as for mod developers that want to test their mesecons node, and for people that want to test mesecons itself.\n\nWarning: This mod is not intended to be used on public servers. There's no crafting recipe, and I don't remember if there's some easy way to crash the server with this mod.\n\n## How to use / Example\n\n- Place a meseconometer and open its formspec by rightclicking it.\n- Set the activation port (eg. A) and connect a mesecons receptor with this port (eg. a switch).\n- Connect your circuit with the meseconometer (eg. a switch to port B and the same switch with a diode gate to port C).\n- Actiave the activation port. The time when it gets activated will be step `0`. All other events are relative to this one.\n- Send some signals via your circuit (in the example: enable the 2nd switch).\n- Also try punching the meseconometer (this is also logged).\n- Deactivate the activation port. The meseconometer will no longer receive events.\n- Open the formspec of the meseconometer and look at the events. (In the example, port C should be activated exactly `2` steps after port B, as gates have a delay of 2 steps. The punch event has a step like `a<num>`, this means that the punch happened *a*fter step `<num>`, as opposed to *in* globalstep `<num>`.)\n- (Note that the graph feature is very experimental, and doesn't usually work.)\n\n",
-  "maintainers": [
-    "Desour"
-  ],
+  "maintainers": ["Desour"],
   "media_license": "CC-BY-SA-4.0",
   "name": "meseconometer",
-  "provides": [
-    "meseconometer"
-  ],
+  "provides": ["meseconometer"],
   "release": 20521,
   "repo": "https://codeberg.org/Desour/meseconometer",
   "score": 5.6,
@@ -436,11 +430,7 @@
   ],
   "short_description": " Device to meassure time of mesecon signals in globalsteps",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "developer_tools",
-    "technology"
-  ],
+  "tags": ["creative", "developer_tools", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/07671455c0.png",
   "title": "Meseconometer",
   "translation_url": null,

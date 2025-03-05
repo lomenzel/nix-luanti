@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/skylar-eng/morebiomes/issues/new/choose/",
   "license": "MIT",
   "long_description": "# morebiomes\nA simple mod adding extra biomes to Minetest Game\n\n# luna\nRight now, Luna is the only new biome in the mod. It is a desolate landscape composed primarily of gravel, silver sand and stone.\nIt is supposed to be kind of like a lunar landscape on Earth.\n",
-  "maintainers": [
-    "mzs.112000"
-  ],
+  "maintainers": ["mzs.112000"],
   "media_license": "MIT",
   "name": "morebiomes",
-  "provides": [
-    "morebiomes"
-  ],
+  "provides": ["morebiomes"],
   "release": 9637,
   "repo": "https://github.com/skylar-eng/morebiomes",
   "score": 4.4,
@@ -448,9 +442,7 @@
   ],
   "short_description": "A simple mod adding a few biomes to Minetest Game",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e296904797.png",
   "title": "morebiomes",
   "translation_url": null,

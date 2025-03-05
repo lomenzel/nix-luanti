@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/insanity54/matterbridge_player_events/issues",
   "license": "The Unlicense",
   "long_description": "# matterbridge_player_events Minetest mod\n\nRequires the [yl_matterbridge](https://content.minetest.net/packages/AliasAlreadyTaken/yl_matterbridge/) mod which must be configured first for this mod to work.\n\nThis mod adds the following features\n\n  * When a player joins, a message is sent to yl_matterbridge\n  * When a player dies, a message is sent to yl_matterbridge\n  * When a player leaves, a message is sent to yl_matterbridge\n  * When a player cheats, a message is sent to yl_matterbridge\n\nEach feature is optional, and can be enabled/disabled with the following settings in your minetest.conf\n\n  * matterbridge_player_events.report_join   (default true)\n  * matterbridge_player_events.report_die    (default true)\n  * matterbridge_player_events.report_leave  (default true)\n  * matterbridge_player_events.report_cheats (default false) (Use with caution: this can cause lag because there are lots of false positives which are rapidly fired)\n\n",
-  "maintainers": [
-    "cj_clippy"
-  ],
+  "maintainers": ["cj_clippy"],
   "media_license": "The Unlicense",
   "name": "matterbridge_player_events",
-  "provides": [
-    "matterbridge_player_events"
-  ],
+  "provides": ["matterbridge_player_events"],
   "release": 14165,
   "repo": "https://github.com/insanity54/matterbridge_player_events",
   "score": 1.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e27402455c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e27402455c.png"],
   "short_description": "Sends a message to the matterbridge when a player joins/parts",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e27402455c.png",
   "title": "Matterbridge Player Events",
   "translation_url": null,
@@ -46,9 +36,7 @@
       {
         "is_optional": false,
         "name": "yl_matterbridge",
-        "packages": [
-          "AliasAlreadyTaken/yl_matterbridge"
-        ]
+        "packages": ["AliasAlreadyTaken/yl_matterbridge"]
       }
     ]
   },

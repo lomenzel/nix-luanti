@@ -37,9 +37,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,25 +338,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/wormball/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "Screenshot: Wormball Screenshot by (c) Zughy 2021 CC-BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/\n\nAn easy-to-play 3d single or multiplayer snake minigame, with singleplayer highscores and multiplayer elimination rounds. 3rd person is suggested but not necassary for playability.\n\nWormball mod by MisterE for use with arena_lib (minigame_lib) You should be familiar with how to set up arena_lib arenas.\n\nCode snippets from https://gitlab.com/zughy-friends-minetest/arena_lib/-/blob/master/DOCS.md and from Zughy's minigames\nall assets cc0. Models by MisterE, textures by MisterE, and sounds CC0 from opengameart\n\nto set up an arena, create a completely enclosed arena out of any nodes you wish except those provided by this mod. \nYou should place lights in the walls, or have glass to allow light in. In this version, you can have any shape arena you like. \nYou may decorate the walls how you wish. Keep in mind that very large arenas may cause server lag during loading, and they are in general not fun to play in anyways.\nMake the arena,\n\nTHEN note 2 position that bound your arena.... The game will place powerups and erase game peices within these locations.\nenter these locations in the editor settings (described below)\n\nBasic setup:\n\n1) type /wormball create <arena_name>\n2) type /wormball edit <arena_name>\n3) use the editor to place a minigame sign, assign it to your minigame.\n4) while in the editor, move to where your arena will be.\n5) Make your arena. It should be a completely enclosed area, but can be any shape.\n6) using the editor tools, mark player spawner locations. Protect the arena.\n7) note to locations of 2 positions that completely bound the arena. From the minigame editor, go to settings > arena_settings.\n8) type in the locations of the 2 opposite corners. Click on area_to_clear_after_game_pos1 and enter the correct values. then do the same with pos2. \n\n\nCAUTION: in the arena_settings, Y COMES FIRST! In the regular coordinate system, X COMES FIRST! Type the CORRECT values in... if you get it wrong, you may freeze your world and cause damage to it. \nBE CAREFUL TO GET THE CORRECT VALUES!!!!! also, if you get them wrong, the game will not work... the game tries to clear that when it loads, if you get it wrong, then it will clear the wrong area.\n\nIf you wish, you may change the other settings (except high_scores)\n\nthe formula used to determine whether to start erasing powerup dots is: \nif # dots in existence > min_food_factor * #players + min_food then\n--have a 1/2 chance to erase a dot\nend\n\n\n9) exit the editor mode\n10) type /minigamesettings wormball\n11) change the hub spawnpoint to be next to the signs.\n\n\nbackground music is available: it is in the sounds folder, and titled: wormball_bgm\n\n\n\n\n\n\n\n\n\n\n\n\n",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "CC0-1.0",
   "name": "wormball",
-  "provides": [
-    "wormball"
-  ],
+  "provides": ["wormball"],
   "release": 29123,
   "repo": "https://gitlab.com/zughy-friends-minetest/wormball",
   "score": 153.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8a6c5ae060.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8a6c5ae060.png"],
   "short_description": "Wormball subgame",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8a6c5ae060.png",
   "title": "Wormball",
   "translation_url": null,
@@ -372,9 +362,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       },
       {
         "is_optional": false,
@@ -550,9 +538,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "rubenwardy/lib_chatcmdbuilder": []

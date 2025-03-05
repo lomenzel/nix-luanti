@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/epCode/mt_build_easy/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Build Easy\nA Minetest mod that creates the ability to create large structures very quickly\n\nUsing `Aux1` + `Place` you can easliy make large node structures fast.",
-  "maintainers": [
-    "epCode"
-  ],
+  "maintainers": ["epCode"],
   "media_license": "LGPL-3.0-only",
   "name": "mt_build_easy",
-  "provides": [
-    "mt_build_easy"
-  ],
+  "provides": ["mt_build_easy"],
   "release": 23331,
   "repo": "https://github.com/epCode/mt_build_easy.git",
   "score": 155.6,
@@ -28,9 +24,7 @@
   ],
   "short_description": "A handy tool allowing the creation of large structures with minimal effort (in survival!).",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d7782d2488.png",
   "title": "Build Easy Box",
   "translation_url": null,

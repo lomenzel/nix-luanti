@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "Apache-2.0",
   "long_description": "# QiskitBlocks - Fork by MIROptics\n\nThis fork is part of a science outreach project by the Millenium Institute for Research in Optics (MIRO).\n\nThis initial version is modified from the unmantained original version by JavaFXpert. This fork will diverge incrementally.\n\n## Compatibility\n\nFrom minetest v5.2.\n\n## Configuration\n\nAfter installing, some minor configuration is required. Refer to the [official repo](https://github.com/MIROptics/QiskitBlocks) for further instructions.",
-  "maintainers": [
-    "miroptics"
-  ],
+  "maintainers": ["miroptics"],
   "media_license": "Apache-2.0",
   "name": "qiskitblocks_miro",
   "provides": [
@@ -52,15 +50,10 @@
   "release": 26302,
   "repo": "https://github.com/MIROptics/QiskitBlocks",
   "score": 46.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f34178cf2b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f34178cf2b.png"],
   "short_description": "Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "education"
-  ],
+  "tags": ["complex_installation", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
   "title": "QuantumBuilder - a QiskitBlocks fork",
   "translation_url": null,

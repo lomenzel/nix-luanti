@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -457,14 +455,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod adds an explosion proof obsidian block, craftable with a blast shield (craftable with 4 trapdoors and a door) and an obsidian.\n\n# 0.1.1 update list\n\n* Fixed bug that gives an error and makes blast shield without texture\n* Fixed crafting for explosion resistant obsidian",
-  "maintainers": [
-    "Miner34"
-  ],
+  "maintainers": ["Miner34"],
   "media_license": "CC-BY-SA-3.0",
   "name": "explosion_resistant_obsidian",
-  "provides": [
-    "explosion_resistant_obsidian"
-  ],
+  "provides": ["explosion_resistant_obsidian"],
   "release": 16335,
   "repo": "https://gitlab.com/Miner34/minetest-mods/explosion-resistant-obsidian/",
   "score": 4.7,
@@ -476,9 +470,7 @@
   ],
   "short_description": "Adds an explosion proof obsidian.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cec3467f2b.png",
   "title": "Explosion proof obsidian",
   "translation_url": null,

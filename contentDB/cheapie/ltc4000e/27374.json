@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -93,14 +91,10 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "The LTC-4000E is an advanced traffic signal controller, scaling from simple 2-phase intersections up to as high as 12 (4 straight, 4 left turn, 4 pedestrian), capable of operating in actuated, pre-timed, and flash modes with many configurable settings.  \nWhile they are not required for the mod to work, you will probably want to also download either 'roads' or 'streets' (either version 1 or 2 in the case of the latter) so that you have some traffic lights to control. 'digistuff' is also highly recommended, as it provides player detectors that work with this controller.  \n  \nThe digilines channels are as follows:  \n\"a\" - Straight-through signal for direction A  \n\"b\" - Straight-through signal for direction B  \n\"c\" - Straight-through signal for direction C  \n\"d\" - Straight-through signal for direction D  \n\"at\" - Signal for left turns from direction A  \n\"bt\" - Signal for left turns from direction B  \n\"ct\" - Signal for left turns from direction C  \n\"dt\" - Signal for left turns from direction D  \n\"ap\" - Pedestrian signal for crossing the direction A approach to the intersection. Note that this is **crossing** A, not **moving in** direction A.  \n\"bp\" - Same, but direction B  \n\"cp\" - Same, but direction C  \n\"dp\" - Same, but direction D  \n\"detector_\" followed by one of the above channels - Vehicle/pedestrian detector corresponding to the appropriate signal.  \n\"preempt_\" followed by a/b/c/d - Preemption for the corresponding direction.  \n  \nIn most cases, A and C will be one street, and B and D will be the other.  \nFor preemption and detectors, the digilines message does not matter, only the channel.  \n  \nConfiguration is performed by right-clicking the controller cabinet and using the menu system. If using the larger (NEMA-style) cabinet, punch it first to open the door.",
-  "maintainers": [
-    "cheapie"
-  ],
+  "maintainers": ["cheapie"],
   "media_license": "The Unlicense",
   "name": "ltc4000e",
-  "provides": [
-    "ltc4000e"
-  ],
+  "provides": ["ltc4000e"],
   "release": 27374,
   "repo": "https://cheapiesystems.com/git/ltc4000e/",
   "score": 12.5,
@@ -110,10 +104,7 @@
   ],
   "short_description": "Advanced traffic signal controller",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology"
-  ],
+  "tags": ["building", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7SNgptw1pj.png",
   "title": "LTC-4000E",
   "translation_url": null,

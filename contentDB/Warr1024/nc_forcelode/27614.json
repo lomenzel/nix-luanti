@@ -38,27 +38,17 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "Keep your farms and furnaces running and working, even when you're not around!  Craft a powerful but dangerous Force Lode anchor (see screenshot for recipe hint), and power it with optical pulses, to keep mapblock(s) around it always loaded and active in the world.  Particle effects show you exactly what areas are covered.  Anchors that receive more/faster oscillating optical signals will maintain larger loaded volumes.\n\nThe maximum total number of affected mapblocks can be adjusted via settings, as well as the maximum per-anchor level and difficulty; see `settingtypes.txt` for more details.  All settings can be adjusted at runtime, though block load limits may take up to a minute to take effect.\n",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_forcelode",
-  "provides": [
-    "nc_forcelode"
-  ],
+  "provides": ["nc_forcelode"],
   "release": 27614,
   "repo": "https://gitlab.com/sztest/nc_forcelode",
   "score": 3.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9c0032e02d.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9c0032e02d.webp"],
   "short_description": "In-game force-loading anchor for NodeCore.",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "technology",
-    "world_tools"
-  ],
+  "tags": ["survival", "technology", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9c0032e02d.png",
   "title": "NodeCore Force Lode",
   "translation_url": null,
@@ -72,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tote",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

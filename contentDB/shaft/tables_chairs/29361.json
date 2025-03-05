@@ -90,14 +90,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds basic functional furniture (Chairs, Stools, Tables, Small Tables, Tiny Tables, Benches) to Minetest Game, VoxeLibre, Mineclonia, Exile and other MTG based games.\n\nUpdate 1.1 and higher: All woods types supported. The mod now automatically generates furniture for all games and mods that register new wood types.\n\nIt's a fork of [ts_furniture](https://content.minetest.net/packages/Thomas-S/ts_furniture/). The eye_height bugs have been fixed, Mineclone support has been added, you no longer sit in air and the nonfunctional disabled by default kneeling bench has been removed and a stool and a bench with backrest has been added.\n\nIf you are using ts_furniture and did not place down any kneeling benches, you can replace it with this.\n\nTranslation is now easier. Just post the following with the right side in your language (pls format as code block) and I will add your language.\n```\n# textdomain:tables_chairs\nTables and Chairs=Tische und Stühle\n of = aus \nTable=Tisch\nSmall Table=Kleiner Tisch\nTiny Table=Winziger Tisch\nChair=Stuhl\nStool=Hocker\nBench=Bank\nComfortable Bench=Behagliche Bank\nYou tried to sit but hit your head.=Du hast versucht, dich zu setzen, hast dir aber den Kopf gestoßen.\nYou can only sit down when you are not moving.=Du kannst dich nur hinsetzen, wenn du dich nicht bewegst.\n```\n\nts_furniture was originally made by Thomas-S and published under the MIT license.\n\nCode from \"Get Comfortable [cozy]\" (by everamzah; published under WTFPL) was used and modified.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "MIT",
   "name": "tables_chairs",
-  "provides": [
-    "tables_chairs"
-  ],
+  "provides": ["tables_chairs"],
   "release": 29361,
   "repo": "https://gitgud.io/blut/tables_chairs",
   "score": 541.7,
@@ -108,9 +104,7 @@
   ],
   "short_description": "Adds tables and seating furniture",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/174c191072.png",
   "title": "Tables and Chairs",
   "translation_url": null,

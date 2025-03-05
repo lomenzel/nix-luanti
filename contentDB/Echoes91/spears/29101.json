@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds spears to your games. They are versatile weapons that can be used to attack like a normal sword, even if slower, or safely thrown to the bad ones from the distance. Spears can also be used to dig, like weak pickaxes.\n\nThrow a spear using right mouse button, it will either hurt someone or hit and stick (or ding) on a block.\nDamage dealt depends on speed and material, flight trajectory is ballistic with (unrealistic) drag.\n\n Craft your spear using recipes below, they work also mirrored. Any member of the same group can be used.\n\n* **Stone spear:** Lowest damage and resistance, easiest and cheapest to craft.\n|             |             | stone |\n|             | stick |              |\n| stick |             |              |\n\n* **Iron spear:** Average damage and resistance, like iron tools. *Requires pigiron mod\n|             |             | iron ingot  |\n|             | stick |                           |\n| stick |             |                           |\n\n* **Steel spear:** Good damage and resistance, like steel** tools.\n|             |             | steel ingot  |\n|             | stick |                           |\n| stick |             |                           |\n\n* **Copper spear:** Softer than the steel** one, but lasts longer.\n|             |             | copper ingot  |\n|             | stick |                                |\n| stick |             |                                |\n\n* **Bronze spear:** Like bronze tools, it's as powerful as steel** and lasts longer.\n|             |             | bronze ingot  |\n|             | stick |                                |\n| stick |             |                                |\n\n** Steel spear becomes stronger and harder to get if pigiron mod is installed.\n\n* **Diamond spear:** Best damage and resistance, like diamond tools.\n|             |             |       diamond     |\n|             | stick |                                |\n| stick |             |                                |\n\n* **Obsidian spear:** It deals the same damage of a diamond spear but last as long as a steel spear.\n|             |             |       obsidian     |\n|             | stick |                                |\n| stick |             |                                |\n\n* **Golden spear:** A golden-plated celebratory spear, soft like copper but lasting as long as diamond.\n|             |             |    gold ingot     |\n|             | stick |                                |\n| stick |             |                                |",
-  "maintainers": [
-    "Echoes91"
-  ],
+  "maintainers": ["Echoes91"],
   "media_license": "CC-BY-3.0",
   "name": "spears",
-  "provides": [
-    "spears"
-  ],
+  "provides": ["spears"],
   "release": 29101,
   "repo": "https://gitlab.com/echoes91/spears",
   "score": 340.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/y3rt2R7N8c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/y3rt2R7N8c.png"],
   "short_description": "Adds spears, versatile weapons that can be thrown.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/y3rt2R7N8c.png",
   "title": "Spears",
   "translation_url": null,

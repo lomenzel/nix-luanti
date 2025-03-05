@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds usable nodes, such as kill block, or move block.\n### Blocks list\n- Kill block: Kills player\n- Move block: Moves player to `player.x` + 1, `player.y` + 1, `player.z` + 1\n- Heal block: Adds 1 hp to player\n- Damage block: Removes 1 hp from player\n- Eatable block: Adds maximum hp - 1 to player\n- Inedible block: Removes maximum hp - 1 from player\n- Breath block: Adds 1 breath bubble to player\n- Suffocation block: Remvoes 1 breath bubble from player\n- Question block: ???<br>\n### How to\nDig the block you need to interact!<br>\n### Credits\nTextures drawn in **LibreSprite**.",
-  "maintainers": [
-    "Volik"
-  ],
+  "maintainers": ["Volik"],
   "media_license": "MIT",
   "name": "usable_nodes",
-  "provides": [
-    "usable_nodes"
-  ],
+  "provides": ["usable_nodes"],
   "release": 16124,
   "repo": null,
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a3647dcae0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a3647dcae0.png"],
   "short_description": "Adds usable nodes, such as kill block, or move block.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "singleplayer"
-  ],
+  "tags": ["building", "creative", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a3647dcae0.png",
   "title": "Usable Nodes",
   "translation_url": null,

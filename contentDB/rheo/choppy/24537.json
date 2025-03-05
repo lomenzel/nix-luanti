@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-choppy/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# choppy\n\nyet another tree-cutting mod\n\n## differences from other tree-cutting mods\n\n* no lag\n* cuts from the top down\n* recognizes specific species of tree (new trees must be registered)\n* recognizes tree boundaries (very approximate, but can be extended)\n* axes must be whitelisted (commonly known axe names are whitelisted by default)\n* respects protection\n* can be \"on by default\"\n* will automatically stop before breaking your axe\n* digs nodes in proportion to the axe's true speed, and will \"catch up\" if there's lag.\n* differentiates player-built and natural trees when possible (NOTE: this only applies to structures built after this mod is installed)\n\n### commands\n\n* `/toggle_choppy`\n\n  toggles whether you have to hold down \"sneak\" to enable choppy, or whether it will be enabled by default.\n\n### settings\n\nsee [settingtypes.txt]\n\n### public api\n\n* `choppy.api.register_axe(itemstring)`\n\n  register a tool that will work as an axe\n\n* `choppy.api.unregister_axe(itemstring)`\n\n  unregister a tool that will work as an axe\n\n* `choppy.api.is_enabled(player)`\n\n  returns \"true\" if choppy mode is enabled for a player. this means that existing processes will continue,\n  and new processes can be started.\n\n* `choppy.api.toggle_enabled(player_name)`\n\n  toggles whether the player has to hold down \"sneak\" to enable choppy, or whether it will be enabled by default.\n\n* `choppy.api.register_on_choppy_start(function(process, player, start_pos, tree_node))`\n\n  called when a choppy process is started. return \"true\" to abort the process.\n\n* `choppy.api.register_on_choppy_stop(function(player_name))`\n\n  called when a choppy process is stopped.\n\n* `choppy.api.register_on_before_chop(function(process, player, pos, node))`\n\n  called before chopping a node. return \"true\" to skip the node.\n\n* `choppy.api.register_tree_shape(shape_name, def)`\n\n  register a tree \"shape\", which allows limited ways of preventing multiple trees from being felled simultaneously.\n  def includes two callbacks:\n\n  * `in_bounds = function(pos, start_pos, shape)`\n\n    called for each node which may be chopped.\n\n  * `player_in_bounds = function(player_pos, start_pos, shape)`\n\n    called to check whether the player has wandered away from the tree\n\n* `choppy.api.register_tree(tree_name, def)`\n\n  register a tree. def defines a shape and a map of nodes to their type (trunk, leaves, etc.)\n\n* `choppy.api.unregister_tree(tree_name)`\n\n  removes a tree from the registry\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "choppy",
-  "provides": [
-    "choppy"
-  ],
+  "provides": ["choppy"],
   "release": 24537,
   "repo": "https://github.com/fluxionary/minetest-choppy.git",
   "score": 306.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6f70e7345d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6f70e7345d.png"],
   "short_description": "yet another tree-cutting mod",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6f70e7345d.png",
   "title": "choppy",
   "translation_url": null,
@@ -44,18 +35,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/fmod": [],
@@ -63,10 +48,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Craft a machine to project simple wooden block bridges across a gap. \nUse the crafting grid to fill that machine with eight items from the wood group.\nPlace the full machine, right click to rotate it into the correct direction, \nthen left click to shoot up to eight blocks in that direction, as long as there is a space for them.\nOnce used it can be refilled and used again.\n\nThis mod is destined to be enhanced in the future as and when I have the time.",
-  "maintainers": [
-    "mike.monkeybiter"
-  ],
+  "maintainers": ["mike.monkeybiter"],
   "media_license": "GPL-3.0-or-later",
   "name": "bridgemaker",
-  "provides": [
-    "bridgemaker"
-  ],
+  "provides": ["bridgemaker"],
   "release": 25206,
   "repo": null,
   "score": 9,
@@ -448,10 +442,7 @@
   ],
   "short_description": "A refillable machine to easily create simple block bridges across caverns and valleys.",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "technology"
-  ],
+  "tags": ["survival", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d691eb8237.png",
   "title": "bridgemaker",
   "translation_url": null,

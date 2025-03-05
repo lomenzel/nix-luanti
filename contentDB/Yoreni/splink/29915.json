@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Splink storeage allows you to store massive amounts of 1 item in an item.\nAt the moment splinks do not have crafting recipies. They can be obtained from the creative menu.\nThis is my first luanti mod.\n\n**Tiers**\n\nSpink - can hold 1,000 items\n\nBig Splink - can hold 7,500 items\n\nMega Splink - can hold 40,000 items\n\nInsane Splink - can hold 500,000 items\n\nEndless Splink - can hold 10 trillion items\n\n**How to use**\n\nLeft click: Opens a GUI to allow you to deposit and take items from Splink\n\nRight click: If splink is holding nodes, a node from the splink is placed at the position you are looking at. \n\n**Things to improve**\n\n- Add crafting recipies\n\n- Add unique textures for each splink\n\n- Automaticly put items inside spinks on item pickup\n\n- Split up code\n \n Let me know if you have any sugestions",
-  "maintainers": [
-    "Yoreni"
-  ],
+  "maintainers": ["Yoreni"],
   "media_license": "MIT",
   "name": "splink",
-  "provides": [
-    "splink"
-  ],
+  "provides": ["splink"],
   "release": 29915,
   "repo": null,
   "score": 0.9,
@@ -436,10 +430,7 @@
   ],
   "short_description": "Adds items that can store massive amounts of other items in your inventory",
   "state": "APPROVED",
-  "tags": [
-    "storage",
-    "survival"
-  ],
+  "tags": ["storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d3b36649fb.png",
   "title": "Splink Storage",
   "translation_url": null,

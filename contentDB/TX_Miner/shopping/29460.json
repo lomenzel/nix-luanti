@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Xeno333/shopping/issues",
   "license": "MIT",
   "long_description": "## Basics\nLets players by and sell via, /sell, /buy and /shop\n\nBuilt on Jean's Economy\n\n\n## Usage\n\n/buy <index in shop> (mostly for dev)\n\t\n/sell <price> (sell stuff)\n\t\n/shop (opens shop)\n\nor use /nukeshop to clear shop as admin.",
-  "maintainers": [
-    "TX_Miner"
-  ],
+  "maintainers": ["TX_Miner"],
   "media_license": "MIT",
   "name": "shopping",
-  "provides": [
-    "shopping"
-  ],
+  "provides": ["shopping"],
   "release": 29460,
   "repo": "https://github.com/Xeno333/shopping.git",
   "score": -129.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c79e564106.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c79e564106.png"],
   "short_description": "A shopping mod for Jean's Economy (By TX_Miner aka Xeno333)",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c79e564106.png",
   "title": "Shopping",
   "translation_url": null,
@@ -508,9 +497,7 @@
       {
         "is_optional": false,
         "name": "jeans_economy",
-        "packages": [
-          "Jean3219/jeans_economy"
-        ]
+        "packages": ["Jean3219/jeans_economy"]
       }
     ]
   },

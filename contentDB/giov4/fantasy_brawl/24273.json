@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "# Fantasy Brawl\n\nThe first class-based fighting minigame on Minetest. Choose your class, prepare your skills and defeat them all!  \n\n```\nHow to set it up:   \n\n1) Creating the arena using:  \n \n/fbrawl create <arena name> [min players] [max players]  \nwhere min players is equal to the minimun amount of players \nto make the arena start, and max players to the maximum \namount of players that an arena can have.\n \n \n2) Editing the arena using:  \n \n/fbrawl edit <arena name>  \nin this menu you can add spawn points and set up the sign to\nenter the arena: the spawn points are where the players will\nspawn when they enter the arena, while the sign is just the \nway to enter it (by clicking it).  \n\n\n3) Setting the match duration in the editor menu by \nclicking on the clock in the settings.    \n\n\n4) Enabling the arena in the editor or using:  \n  \n/fbrawl enable <arena name>\n\n\nOnce you've done this you can click the sign and start \nplaying :)  \nUse /help fbrawl to see all the commands \n```",
-  "maintainers": [
-    "giov4"
-  ],
+  "maintainers": ["giov4"],
   "media_license": "GPL-3.0-only",
   "name": "fantasy_brawl",
-  "provides": [
-    "fantasy_brawl"
-  ],
+  "provides": ["fantasy_brawl"],
   "release": 24273,
   "repo": "https://gitlab.com/zughy-friends-minetest/fantasy-brawl",
   "score": 456.4,
@@ -29,11 +25,7 @@
   ],
   "short_description": "Class-based fighting minigame. Choose your class, prepare your skills and defeat them all!",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["mini-game", "multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/15be820152.png",
   "title": "Fantasy Brawl",
   "translation_url": null,
@@ -71,9 +63,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "Zughy/panel_lib": [],
@@ -98,16 +88,12 @@
       {
         "is_optional": false,
         "name": "skills",
-        "packages": [
-          "giov4/skills"
-        ]
+        "packages": ["giov4/skills"]
       },
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       },
       {
         "is_optional": false,
@@ -122,10 +108,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       }
     ],
     "giov4/skills": [

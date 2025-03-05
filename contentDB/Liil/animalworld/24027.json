@@ -1,8 +1,6 @@
 {
   "author": "Liil",
-  "content_warnings": [
-    "gore"
-  ],
+  "content_warnings": ["gore"],
   "created_at": "2021-01-31T20:28:26.639892",
   "dev_state": null,
   "donate_url": null,
@@ -104,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -315,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -449,14 +443,10 @@
   "issue_tracker": "https://github.com/Skandarella/Animal-World/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: To see the models of the mobs correctly you have to activate Shaders in the Main Menu. Without Shaders they will appear not fully textured.\n\nThis mod for Mobs Redo adds various animals to your Minetest world and makes it harder to survive, because of dangerous and strong beasts.\n\nSupports Mineclone 2 + Mineclonia.\n\nCurrent available animals:\n\n* Ant\n* Anteater \n* Bat\n* Bear\n* Beaver\n* Beluga Whale\n* Blackbird\n* Black Grouse\n* Boar\n* Camel\n* Carp\n* Clamydosaurus\n* Cobra\n* Cockatoo\n* Cockroach\n* Crab\n* Crocodile\n* Diving Beetle\n* Dragonfly\n* Echidna\n* Elephant\n* Frog\n* Giraffe\n* Gnu\n* Goby\n* Golden Mole\n* Goose\n* Hare \n* Hermitcrab\n* Hippo\n* Hyena\n* Ibex\n* Iguana\n* Indian Rhino\n* Kangaroo\n* Koala\n* Leopard Seal\n* Lobster\n* Locust\n* Manatee\n* Marmot\n* Monitor Lizard\n* Monkey\n* Moose\n* Mosquito\n* Muskox\n* Nandu\n* Notoptera\n* Olm\n* Orang Utan\n* Oryx\n* Otter\n* Owl\n* Panda\n* Parrot\n* Polar Bear\n* Polar Fox\n* Puffin\n* Rat\n* Reindeer\n* Roadrunner\n* Robin\n* Scorpion\n* Seahorse\n* Seal\n* Shark\n* Snail\n* Snow Leopard\n* Spiders\n* Squid\n* Stellers Sea Eagle\n* Stingray\n* Tapir\n* Termite\n* Tiger\n* Tortoise\n* Toucan\n* Tree Lobster\n* Trout\n* Wasp\n* Wild Boar\n* Wolf\n* Wolverine\n* Viper\n* Vulture\n* Yak\n* Zebra",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "animalworld",
-  "provides": [
-    "animalworld"
-  ],
+  "provides": ["animalworld"],
   "release": 24027,
   "repo": "https://github.com/Skandarella/Animal-World.git",
   "score": 2209.4,
@@ -476,10 +466,7 @@
   ],
   "short_description": "Adds various wild animals to your Minetest Game world.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "survival"
-  ],
+  "tags": ["mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pArqK4XiLZ.png",
   "title": "Wilhelmines Animal World",
   "translation_url": null,

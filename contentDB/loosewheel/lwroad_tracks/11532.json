@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://github.com/loosewheel/lwroad_tracks/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Provides cars and road tracks, similar in function to rail carts. This mod is derived from the boost_cart mod.\n\nThe road tracks act the same as rail tracks but have a tyre track texture.\n\nThe cars work the same as rail carts but also respond to the up/forward (W) key to start and accelerate.\n\nControls:\n\n* Right click - mount/dismount.\n* Sneak+Right click - open car inventory.\n* Punch - start/accelerate.\n* Sneak+Punch - Dig (will not dig if inventory is not empty).\n* Up/forward (W) - start/accelerate.\n* Down/Back (S) - decelerate/stop.\n* Left (A) - turn left (if track allows).\n* Right (D) - turn right (if track allows).\n\nBoom gates and the stop line can only be placed on flat straight track. Tracks do not automatically connect to them, the layout of tracks must be led up to it. Their rotation depends on player direction when placed.\n\nTracks that accept mesecons power can be connected on the sides and below, including a vertical mesecons wire below the block the track is on.\n\nAn api is exposed to register cars and tracks. See mod_api.txt.",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "CC-BY-4.0",
   "name": "lwroad_tracks",
-  "provides": [
-    "lwroad_tracks"
-  ],
+  "provides": ["lwroad_tracks"],
   "release": 11532,
   "repo": "https://github.com/loosewheel/lwroad_tracks",
   "score": 197.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cc656b2bb2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cc656b2bb2.png"],
   "short_description": "Cars and road tracks (function similar to rail carts).",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cc656b2bb2.png",
   "title": "LWRoad_Tracks",
   "translation_url": null,

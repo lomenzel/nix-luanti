@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,25 +651,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Quite a few players complain about difficulties with certain devices [apple?] and possibly clients, in being able to change their skin.\nThis mod simply provides a node that you right-click to open skinsdb.\nI'ts not craftable, it's intended for admins to place.\n\nI have improved the appearance by adding infotext,  a rotating figure, and changing skin to try to make it more obvious what the mod does.\n\nI was taught how to use a nodebox by the very helpful @Annalysa",
-  "maintainers": [
-    "mike.monkeybiter"
-  ],
+  "maintainers": ["mike.monkeybiter"],
   "media_license": "GPL-3.0-or-later",
   "name": "skinchooser",
-  "provides": [
-    "skinchooser"
-  ],
+  "provides": ["skinchooser"],
   "release": 24975,
   "repo": null,
   "score": 10.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b201f33c5d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b201f33c5d.png"],
   "short_description": "Open skinsdb by right clicking a node",
   "state": "APPROVED",
-  "tags": [
-    "skins"
-  ],
+  "tags": ["skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b201f33c5d.png",
   "title": "SkinChooser",
   "translation_url": null,

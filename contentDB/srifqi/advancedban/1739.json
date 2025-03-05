@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/srifqi/advancedban/issues",
   "license": "MIT",
   "long_description": "This mod will ban player based on its username, not its IP address. You can also add some username manually in `bannedplayerlist.txt`.\n\n**Usage**\n\n* Check ban for a player: `/abancheck <player name>`\n* Simple ban/unban: `/aban <player name>` and `/unaban <player name>`\n* Ban with kick: `/abankick <player name>`\n* Ban with IP: `/aban+ <player name>` and `/unaban+ <player name>`",
-  "maintainers": [
-    "srifqi"
-  ],
+  "maintainers": ["srifqi"],
   "media_license": "MIT",
   "name": "advancedban",
-  "provides": [
-    "advancedban"
-  ],
+  "provides": ["advancedban"],
   "release": 1739,
   "repo": "https://github.com/srifqi/advancedban",
   "score": 1.8,
   "screenshots": [],
   "short_description": "Advanced Ban: Ban a player based on its username",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": null,
   "title": "Advanced Ban",
   "translation_url": null,

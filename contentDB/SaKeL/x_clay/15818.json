@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://bitbucket.org/minetest_gamers/x_clay/issues?status=new&status=open",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds hardened clay and color variations of hardened clay.\n\n## Features\n\n- raw and smooth variations of hardened clay\n- uses texture coloring\n- optionally can add light blue wool\n- supports stairs and slabs\n- custom clay sounds",
-  "maintainers": [
-    "SaKeL"
-  ],
+  "maintainers": ["SaKeL"],
   "media_license": "CC-BY-SA-4.0",
   "name": "x_clay",
-  "provides": [
-    "x_clay"
-  ],
+  "provides": ["x_clay"],
   "release": 15818,
   "repo": "https://bitbucket.org/minetest_gamers/x_clay/src/master",
   "score": 11.6,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Adds hardened clay.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "survival"
-  ],
+  "tags": ["building", "decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a358340394.png",
   "title": "X Clay",
   "translation_url": null,

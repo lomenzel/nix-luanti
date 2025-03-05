@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -405,14 +403,10 @@
   "issue_tracker": "https://codeberg.org/AntumLuanti/mod-lighted_helmets/issues",
   "license": "MIT",
   "long_description": "Light-emitting helmets.\n\nSupports helmets from the following mods:\n\n- [3d_armor](https://content.minetest.net/packages/stu/3d_armor/)\n- [technic_armor](https://github.com/stujones11/technic_armor)\n- [xtraarmor](https://forum.minetest.net/viewtopic.php?t=16645)\n- [amber](https://forum.minetest.net/viewtopic.php?t=18186)\n- [rainbow_ore](https://content.minetest.net/packages/KingSmarty/rainbow_ore/)\n\n### Usage:\n\n#### Crafting:\n\nSee [README](https://github.com/AntumMT/mod-lighted_helmets/blob/master/README.md#crafting)\n\nSettings:\n```\nlighted_helmets.exclude\n- List of mods or helmets to exclude.\n- Example: lighted_helmets.exclude = xtraarmor,amber:helmet\n```\n\n### Links:\n\n- [Changelog](https://codeberg.org/AntumLuanti/mod-lighted_helmets/src/branch/master/changelog.txt)\n- [TODO](https://codeberg.org/AntumLuanti/mod-lighted_helmets/src/branch/master/TODO.txt)",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC0-1.0",
   "name": "lighted_helmets",
-  "provides": [
-    "lighted_helmets"
-  ],
+  "provides": ["lighted_helmets"],
   "release": 29022,
   "repo": "https://codeberg.org/AntumLuanti/mod-lighted_helmets",
   "score": 316.6,
@@ -422,9 +416,7 @@
   ],
   "short_description": "Light-emitting helmets.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2c89590817.png",
   "title": "Lighted Helmets",
   "translation_url": null,
@@ -473,9 +465,7 @@
       {
         "is_optional": false,
         "name": "3d_armor_light",
-        "packages": [
-          "AntumDeluge/3d_armor_light"
-        ]
+        "packages": ["AntumDeluge/3d_armor_light"]
       }
     ],
     "stu/3d_armor": [

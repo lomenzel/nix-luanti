@@ -38,25 +38,17 @@
   "issue_tracker": "https://codeberg.org/cora/mcla_goldberg/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "## mcla_goldberg\nBach's goldberg varations as mineclonia music disks. Powered by the open goldberg\nvariatons project by Kimiko Ishizaka.\n\nThe media files have been reencoded to mono and to a bit- and samplerate of 32k\nto achieve a more reasonable media size of 15M vs. the original 47M.\n\n### Credits\nKimiko Ishizaka - https://www.opengoldbergvariations.org/\n(CC0 1.0) https://creativecommons.org/public-domain/cc0/\n",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "CC0-1.0",
   "name": "mcla_goldberg",
-  "provides": [
-    "mcla_goldberg"
-  ],
+  "provides": ["mcla_goldberg"],
   "release": 24717,
   "repo": "https://codeberg.org/cora/mcla_goldberg.git",
   "score": 8.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a2a0afec63.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a2a0afec63.png"],
   "short_description": "Bach's Goldberg Variations as mineclonia jukebox records and/or tracks for mcla_music_api",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a2a0afec63.png",
   "title": "Mineclonia Goldberg Variations",
   "translation_url": null,

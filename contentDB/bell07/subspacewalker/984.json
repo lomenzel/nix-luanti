@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/subspacewalker/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "The mod contains a tool that allow you to go trough blocks. If the tool is active you are in a Subspace bubble, so the real blocks around you are not there and you can walk trough them.\n\nHow to use:\n\n    You need to hold the Subspace Walker tool in the hand and use them (right-click) for activation.\n    Sneaking results in a lower Subspace and you go downwards.\n    Jumping bring the nodes below you back to outside Subspace so you can go upwards\n    To disable the Subspace Walker Tool just try to place it (left click) or take something other in the hand\n",
-  "maintainers": [
-    "bell07"
-  ],
+  "maintainers": ["bell07"],
   "media_license": "GPL-3.0-only",
   "name": "subspacewalker",
-  "provides": [
-    "subspacewalker"
-  ],
+  "provides": ["subspacewalker"],
   "release": 984,
   "repo": "https://github.com/minetest-mods/subspacewalker",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/S685eWiWva.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/S685eWiWva.png"],
   "short_description": "Go trough walls, rock or lava using Subspace Walker tool",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "transport"
-  ],
+  "tags": ["player_effects", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/S685eWiWva.png",
   "title": "Subspacewalker",
   "translation_url": null,

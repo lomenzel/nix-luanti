@@ -11,29 +11,17 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-death-swap/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "Death Swap is where you switch places with someone random.\nThis mod can be used for many gamemodes:\n\na. Death Swap (obviously).\n\nb. Swapping with people to reach a certain achievement.\n\n\n**How to Start Game:**\nDo /start_swap to start the game.\n\n\n**Possible Bug(s):**\n\n1. You might stay the same place during the switch. (You switch with yourself.)",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "LGPL-3.0-only",
   "name": "death_swap",
-  "provides": [
-    "death_swap"
-  ],
+  "provides": ["death_swap"],
   "release": 15516,
   "repo": "https://github.com/Jo5629/jo5629-death-swap",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4c7edbfad7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4c7edbfad7.png"],
   "short_description": "Switch places with someone random.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "multiplayer",
-    "pvp",
-    "strategy_rts",
-    "survival"
-  ],
+  "tags": ["april_fools", "multiplayer", "pvp", "strategy_rts", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4c7edbfad7.png",
   "title": "Death Swap",
   "translation_url": null,

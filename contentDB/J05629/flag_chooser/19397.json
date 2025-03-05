@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-flag_chooser/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "This tool will help you select a specific flag in pride_flags instead of pushing your luck.\n\nYou can view the flag that you want to have before you choose that same flag.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "LGPL-3.0-only",
   "name": "flag_chooser",
-  "provides": [
-    "flag_chooser"
-  ],
+  "provides": ["flag_chooser"],
   "release": 19397,
   "repo": "https://github.com/Jo5629/jo5629-flag_chooser/",
   "score": 163,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bf9cfd5ce5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bf9cfd5ce5.png"],
   "short_description": "Change to a specific flag in pride_flags with this tool.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bf9cfd5ce5.png",
   "title": "Flag Chooser",
   "translation_url": null,
@@ -57,10 +49,7 @@
       {
         "is_optional": false,
         "name": "pride_flags",
-        "packages": [
-          "Wuzzy/pride_flags",
-          "Kimapr/nonsensical_skyblock"
-        ]
+        "packages": ["Wuzzy/pride_flags", "Kimapr/nonsensical_skyblock"]
       }
     ],
     "Wuzzy/pride_flags": []

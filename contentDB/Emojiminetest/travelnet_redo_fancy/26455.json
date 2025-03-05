@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/travelnet_redo_fancy/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Travelnet Redo: Fancy Travelnets\n\nThis mod adds fancy travelnets compactible with Travelnet Redo.\n\nThis is a rewrite of [wsor4035's Fancy travelnets](https://github.com/mt-mods/fancy_travelnet) mod.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "travelnet_redo_fancy",
-  "provides": [
-    "travelnet_redo_fancy"
-  ],
+  "provides": ["travelnet_redo_fancy"],
   "release": 26455,
   "repo": "https://github.com/C-C-Minetest-Server/travelnet_redo_fancy",
   "score": 9.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/07aeeefce2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/07aeeefce2.png"],
   "short_description": "Travelnets with fancy textures for Travelnet Redo",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "transport"
-  ],
+  "tags": ["magic", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/07aeeefce2.png",
   "title": "Travelnet Redo: Fancy Travelnets",
   "translation_url": null,
@@ -44,17 +35,12 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       },
       {
         "is_optional": false,
@@ -70,10 +56,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "Emojiminetest/travelnet_redo_fancy": [
@@ -93,9 +76,7 @@
       {
         "is_optional": false,
         "name": "travelnet_redo",
-        "packages": [
-          "Emojiminetest/travelnet_redo"
-        ]
+        "packages": ["Emojiminetest/travelnet_redo"]
       }
     ],
     "mt-mods/xcompat": []

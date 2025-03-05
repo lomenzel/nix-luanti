@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/TheTermos/sailing_kit/issues/new/choose/",
   "license": "MIT",
   "long_description": "features:\n\n    physics, simplified but should work in the proper direction for the most part.\n    indirect control - instead of controlling the boat directly, \n\t\tyou control the sail and the rudder which exert forces on the hull. \n\ncontrols:\n\n    left/right: rudder left/right\n    space: raise/lower the sail\n    up/down:\n        sail raised: loosen/tighten the sheet\n        sail lowered: row forward/backwards\n\nUpdates: </br>\n210110 Fix possible crash related to engine attachments bug \n\n191116 Turn rate improved </br>\n191022 Smash the boat with some dye to color the sail. </br>\n191026 Hit the boat a few times with something harder than hand to destroy it and reclaim some material.",
-  "maintainers": [
-    "Termos"
-  ],
+  "maintainers": ["Termos"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sailing_kit",
-  "provides": [
-    "sailing_kit"
-  ],
+  "provides": ["sailing_kit"],
   "release": 6033,
   "repo": "https://github.com/TheTermos/sailing_kit",
   "score": 184.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/gCIfrJNbdK.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/gCIfrJNbdK.jpg"],
   "short_description": "Adds a craftable sailboat",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gCIfrJNbdK.png",
   "title": "Sailing Kit",
   "translation_url": null,

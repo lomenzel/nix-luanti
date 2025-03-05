@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/SmallJoker/simple_protection/issues",
   "license": "CC0-1.0",
   "long_description": "simple_protection\n=================\n\nA Minetest area protection mod, based on a fixed claim grid,\nlike seen in [landrush](https://github.com/Bremaweb/landrush).\n\nYou can claim areas by punching those with a claim stick.\n\n![Screenshot](https://raw.githubusercontent.com/SmallJoker/simple_protection/master/screenshot.png)\n\n\nLicense: CC0\n\n**Dependencies**\n- Minetest 5.0.0+\n- `default` mod or `mcl_*`: Crafting recipes\n\n**Optional dependencies**\n- [areas](https://github.com/minetest-mods/areas): HUD compatibility\n\n\nFeatures\n--------\n\n- Easy, single-click protection\n- Minimap-like radar to see areas nearby: `/area radar`\n- Visual area border feedback, as seen in the [protector](https://codeberg.org/tenplus1/protector) mod\n- List of claimed areas\n- World specific settings -> see `default_settings.lua` header text\n\t- Customizable fixed claim grid. 16x150x16 by default.\n\t- Optional setting to protect unclaimed areas\n- Shared Chest for exchanging items\n- VoxeLibre (= MineClone2) and Minetest Game support\n- Translation support\n\n\nChat command(s)\n--------------\n\n```\n/area <command> [<args> ...]\n\tshow              -> Provides information about the current area\n\tradar             -> Displays a minimap-like area overview\n\tshare <name>      -> Shares the current area with <name>\n\tunshare <name>    -> Unshares the current area with <name>\n\tshareall <name>   -> Shares all your areas with <name>\n\tunshareall <name> -> Unshares all your areas with <name>\n\tlist [<name>]     -> Lists all areas (optional <name>)\n\tunclaim           -> Unclaims the current area\n\tdelete <name>     -> Removes all areas of <name> (requires \"server\" privilege)\n```\n\n\nAbout \"/area show\"\n------------------\n\nArea status: Not claimable\n\n- Shown when the area can not be claimed\n- Happens (by default) in the underground\n\nAccess notation of shared areas:\n\n- `mrturtle`: Single shared area with player `mrturtle`\n- `mrturtle*`: All areas of the same owner are shared with `mrturtle`.\n- `*all`: Wild west area. Everyone has access.\n\nThis notation is also valid for the other chat commands, where a `<name>` placeholder is used.",
-  "maintainers": [
-    "Krock"
-  ],
+  "maintainers": ["Krock"],
   "media_license": "CC0-1.0",
   "name": "simple_protection",
-  "provides": [
-    "simple_protection"
-  ],
+  "provides": ["simple_protection"],
   "release": 14476,
   "repo": "https://github.com/SmallJoker/simple_protection.git",
   "score": 308.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/umIgg5utGF.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/umIgg5utGF.png"],
   "short_description": "Fixed-grid quadratic area protection mod with graphical area \"minimap\"",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/umIgg5utGF.png",
   "title": "Simple protection",
   "translation_url": null,

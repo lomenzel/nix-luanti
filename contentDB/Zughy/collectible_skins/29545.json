@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -339,9 +337,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,14 +651,10 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/collectible-skins/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "### How to\n\nTo add a skin:  \n1. be sure the world has been launched at least once with Collectible Skins active  \n2.  go to `your_world_folder/skins`  \n3. open an existing `.yml` file or create a new one (Collectible Skins can read multiple skins from multiple files)  \n4. follow the template down below (`skin_name` is the technical name without spaces of sort, `name` is the readable name)  \n```yaml\nskin_name:\n    name:\n    description:\n    texture:\n    hint: (optional, default \"(locked)\")\n    model: (optional, default none)\n    tier: (optional, default 1)\n```\n\nFor more information check out the `instructions.txt` file inside that folder.  \n\nFor using the API, check out the [DOCS](https://gitlab.com/zughy-friends-minetest/collectible-skins/-/blob/master/DOCS.md)\n\n### Commands\n* `/skins remove <p_name> <skin_name>`: removes a skin\n* `/skins unlock <p_name> <skin_name>`: unlocks a skin",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "collectible_skins",
-  "provides": [
-    "collectible_skins"
-  ],
+  "provides": ["collectible_skins"],
   "release": 29545,
   "repo": "https://gitlab.com/zughy-friends-minetest/collectible-skins",
   "score": 660.7,
@@ -672,10 +664,7 @@
   ],
   "short_description": "Wear and unlock skins",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "skins"
-  ],
+  "tags": ["library", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2841313ad0.png",
   "title": "Collectible Skins",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/collectible-skins/",

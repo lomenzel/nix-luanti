@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# The Library\nRegulus' Submission to the 2024 Minetest/Luanti Game Jam.\n\n![The Library Logo](https://raw.githubusercontent.com/regulus79/regulus_mtgj2024/refs/heads/main/menu/header.png)\n\n>Darkness has come upon the world. Can you find the spell to banish it?\n\n\n# License\nCode is licensed under the MIT License, a copy of which is included in the file `LICENSE`.\nMedia is licensed under CC0, a copy of which is included in the file `CC0`.\n\nNote: I used the Fluid R3 GM sounfont to create the music, but I believe it is under CC0 and would count as transformative content either way. I also used three default drum samples (kick04.ogg, clap01.ogg, and shaker01.ogg) from LMMS. I have heard rumours that the origins of these samples are unknown, and that the licensing is questionable, but since I am simply using them as minor percussive elements in my music, I believe it should count as transformative use.\n\n## Credits\n- Code, textures, music, and dialogue by **Regulus**. \n- Beta testing (and one of the village buildings) by **Dalgamer**",
-  "maintainers": [
-    "regulus"
-  ],
+  "maintainers": ["regulus"],
   "media_license": "CC0-1.0",
   "name": "regulus_mtgj2024",
   "provides": [
@@ -39,12 +37,7 @@
   ],
   "short_description": "Darkness has come upon the world. Can you find the spell to banish it?",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "custom_mapgen",
-    "jam_game_2024",
-    "puzzle"
-  ],
+  "tags": ["adventure__rpg", "custom_mapgen", "jam_game_2024", "puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5f903e3995.png",
   "title": "The Library",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/PiDemon/moth/issues",
   "license": "MIT",
   "long_description": "# Moth\n<p> A simple mod for minetest which adds moths that can send messages (like in Lord of the Rings). </p>\n<p> Use a white dandilion to summon a moth, and use a moth to send a message. </p>\n<p> Unfortunately, there aren't giant eagles to call for to save you from Isengard! </p>\n",
-  "maintainers": [
-    "cool_beans"
-  ],
+  "maintainers": ["cool_beans"],
   "media_license": "CC-BY-SA-4.0",
   "name": "moth",
-  "provides": [
-    "moth"
-  ],
+  "provides": ["moth"],
   "release": 7652,
   "repo": "https://github.com/PiDemon/moth.git",
   "score": 4.3,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Adds moths which can send messages (from Lord of the Rings)",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "mobs",
-    "multiplayer"
-  ],
+  "tags": ["gui", "mobs", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/13NO1vhbby.png",
   "title": "Moth",
   "translation_url": null,

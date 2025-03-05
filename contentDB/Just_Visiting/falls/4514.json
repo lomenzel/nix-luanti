@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/ExeVirus/falls/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "**Be sure to checkout my other mod: [Rocks](https://content.minetest.net/packages/Just_Visiting/rocks/)**\n\n## Adds following Nodes:\n\n### Waterfall Block: \n  A block that spawns particles in a defined direction that fall a defined height. Can be adjusted with right click\n  Can swim through, but will drown\n  \n*Invisible Waterfall Block:*\nA air-like drawtype version of a waterfall block\n \n### Waterfall Basin:\n  A block for placing at the bottom of a given waterfall, spawns particles that rebound from the ground in a defined direction and       \n  height. Can be ajusted with right click. Not water, nor can you drown. May be changed in future\n  \n*Invisible Waterfall Basin:*\nA air-like drawtype version of a waterfall basin\n\n### Fountain:\n  A Beautiful Fountain with a simple particle animation, non-adjustable.\n  \n### Lavafall Block, Basin, Fountain, etc\nWorks the same way for lava as above nodes, using turbulent lava buckets\n\n### Whirlpool Machine:\n  A furnace-like node that allows a user to input a bucket of water (or lava) and a mese fragment (or quartz crystal). Then after pulling a lever, the device  \n  runs for 10 seconds, outputing a turbulent water (or lava) bucket.\n  \n## Adds following items:\n\n### Turbulent Water Bucket:\n  A crafting item used for making the three active waterfall nodes of this mod. Does not make a new liquid type.\n  \n### Turbulent Lava Bucket:\n  A crafting item used for making the three active lavafall nodes of this mod. Does not make a new liquid type.\n\n--------------\n\n*Special Thanks to [@JamieStanton96](https://github.com/JamieStanton96), for creating many of the textures, helping with node design and functionality, and general testing support and feedback!*",
-  "maintainers": [
-    "Just_Visiting"
-  ],
+  "maintainers": ["Just_Visiting"],
   "media_license": "GPL-3.0-only",
   "name": "falls",
-  "provides": [
-    "falls"
-  ],
+  "provides": ["falls"],
   "release": 4514,
   "repo": "https://github.com/ExeVirus/falls",
   "score": 14.9,
@@ -449,11 +443,7 @@
   ],
   "short_description": "A Particle-based Waterfalls/Lavafalls Mod",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "survival"
-  ],
+  "tags": ["building", "environment", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/DPTG53KdGs.png",
   "title": "Falls",
   "translation_url": null,

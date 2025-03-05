@@ -51,14 +51,10 @@
   "issue_tracker": "https://github.com/ThePython10110/better_command_blocks/issues",
   "license": "MIT",
   "long_description": "# Better Command Blocks\nAdds command blocks similar to those of a certain other voxel game (hereafter referred to as ACOVG). It is the only command block mod to support my [Better Commands](https://github.com/thepython10110/better_commands) mod. It includes impulse, repeating, and chain command blocks, and *should* be game-agnostic (although you kind of need Mesecons/redstone for impulse command blocks to be useful).\n\nTo use the command blocks, you must have the `better_command_blocks` priv.\n\n## License:\n* Code: Licensed under MIT\n* Textures: Created by me, inspired by ACOVG's (and various ACOVG texture packs that I considered using instead), and licensed under CC-BY-SA-4.0",
-  "maintainers": [
-    "ThePython"
-  ],
+  "maintainers": ["ThePython"],
   "media_license": "CC-BY-SA-4.0",
   "name": "better_command_blocks",
-  "provides": [
-    "better_command_blocks"
-  ],
+  "provides": ["better_command_blocks"],
   "release": 25310,
   "repo": "https://github.com/thepython10110/better_command_blocks",
   "score": 157.3,
@@ -68,13 +64,7 @@
   ],
   "short_description": "Adds command blocks similar to those from a certain other voxel game.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "developer_tools",
-    "gui",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["chat", "developer_tools", "gui", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/25b852f331.png",
   "title": "Better Command Blocks",
   "translation_url": null,

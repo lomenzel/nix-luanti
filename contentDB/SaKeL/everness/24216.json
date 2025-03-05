@@ -11,14 +11,10 @@
   "issue_tracker": "https://bitbucket.org/minetest_gamers/everness/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Everness is a mapgen, which aims to provide an endless array of\nbeautiful biomes from the surface lands to the caverns with custom-painted\ntextures. It creates both a sense of discovery and of danger when one lands in the wrong biome.\nIt also adds structures, dungeons with loot chests, and custom skyboxes based on the biome.\n\n## Features\n\n* supports MineClone2 - see attached `minetest.example.mcl.conf` for best optimized settings (looking for testing and contributors)\n* player name tag will hide when sneaking\n* item magnet pickup when holding sneak\n* granular biome settings\n* custom sounds, biomes\n* custom textures\n* custom biomes and cavern biomes\n* custom tools, blocks\n* custom skyboxes based on biome\n* inlcudes (not for all) e.g. walls, doors, glass, stairs, vines, tools, panes, trees...\n* unique set of tools\n* pottery\n\n## Biomes\n\nAdditionally adds extra biomes to the MT game default biomes:\n\n* Coral Forest\n* Coral Forest Dunes\n* Coral Forest Ocean\n* Coral Forest Deep Ocean\n* Coral Forest Under\n* Frosted Icesheet\n* Frosted Icesheet Ocean\n* Frosted Icesheet Under\n* Cursed Lands\n* Cursed Lands Dunes\n* Cursed Lands Swamp\n* Cursed Lands Ocean\n* Cursed Lands Deep Ocean\n* Cursed Lands Under\n* Crystal Forest\n* Crystal Forest Dunes\n* Crystal Forest Shore\n* Crystal Forest Ocean\n* Crystal Forest Deep Ocean\n* Crystal Forest Under\n* Bamboo Forest\n* Bamboo Forest Under\n* Forsaken Desert\n* Forsaken Desert Ocean\n* Forsaken Desert Under\n* Baobab Savanna\n* Forsaken Tundra\n* Forsaken Tundra Beach\n* Forsaken Tundra Ocean\n* Forsaken Tundra Under\n* Mineral Waters\n\n## Wiki\n\nYou can follow the [Wiki Page](https://bitbucket.org/minetest_gamers/everness/wiki/Home) to learn more information about the mod. This page will be progressivelly updated as needed.\n\n## Report Bug / New Suggestion\n\nPlease create ticket in the issue tracker above in the menu toolbar or click [here](https://bitbucket.org/minetest_gamers/everness/issues).",
-  "maintainers": [
-    "SaKeL"
-  ],
+  "maintainers": ["SaKeL"],
   "media_license": "CC-BY-SA-4.0",
   "name": "everness",
-  "provides": [
-    "everness"
-  ],
+  "provides": ["everness"],
   "release": 24216,
   "repo": "https://bitbucket.org/minetest_gamers/everness/src/master/",
   "score": 3797.9,
@@ -51,12 +47,7 @@
   ],
   "short_description": "Adds many new biomes, items and blocks.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "survival",
-    "tools"
-  ],
+  "tags": ["environment", "mapgen", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/40b4e281b3.png",
   "title": "Everness ",
   "translation_url": null,

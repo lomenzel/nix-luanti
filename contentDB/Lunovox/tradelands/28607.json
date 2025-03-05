@@ -219,9 +219,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://gitlab.com/lunovox/tradelands/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "![screeshot]\n\n# [TRADELANDS][repository_tradelands]\n\nProtection of land on payment of periodic rate. The Minetest player can set permissions of PVP for his terrain. Need to craft a land protection charter.\n\nBadge: [![ContentDB_en_icon]][ContentDB_en_link] [![DownloadsCDB_en_icon]][DownloadsCDB_en_link]\n\n-----------------------------------------\n\n## **Dependencies:**\n\n* default : Minetest Game Included\n* dye : Minetest Game Included\n* door : Minetest Game Included\n* [minertrade][content_minertrade] : Monetary money mod.\n\n## **Optional Dependencies:**\n\n* [intllib][content_intllib] : Facilitates the translation of several other mods into your native language, or other languages.\n* [computing][repository_computing] : Adding integration with 'computing' mod applications.\n* [eurn][repository_eurn] : Allows the elected president to access protected land, and access the money collected from land protection to use to hire players to build public works.\n\n-----------------------------------------\n\n## **License:**\n\n* [![license_code_icon]][license_code_link]\n* [![license_media_icon]][license_media_link]\n\nSee more details in wiki: \n \n[![wiki_en_icon]][wiki_en_link] [![wiki_pt_icon]][wiki_pt_link]\n\n-----------------------------------------\n\n## **Developers:**\n\n* Lunovox Heavenfinder: [email](mailto:lunovox@disroot.org), [social web](http:mastodon.social/@lunovox), [WebChat](https://cloud.disroot.org/call/9aa2t7ib), [xmpp](xmpp:lunovox@disroot.org?join), [audio conference](mumble:mumble.disroot.org), [more contacts](https://libreplanet.org/wiki/User:Lunovox)\n\n-----------------------------------------\n\n## **Translate this mod to Your Language:**\n\nSee more details in file: [locale/README.md]\n\n-----------------------------------------\n\n[config.lua]:https://gitlab.com/lunovox/tradelands/-/blob/master/config.lua?ref_type=heads\n[locale/README.md]:https://gitlab.com/lunovox/tradelands/-/blob/master/locale/README.md?ref_type=heads\n[screeshot]:https://gitlab.com/lunovox/tradelands/-/raw/master/screenshot.png\n\n[repository_computing]:https://gitlab.com/lunovox/computing/\n[repository_eurn]:https://gitlab.com/lunovox/e-urn/\n[repository_tradelands]:https://gitlab.com/lunovox/tradelands/\n[content_intllib]:https://content.luanti.org/packages/kaeza/intllib/\n[content_minertrade]:https://content.luanti.org/packages/Lunovox/minertrade/\n\n[ContentDB_en_icon]:https://content.luanti.org/packages/Lunovox/tradelands/shields/title/\n[ContentDB_en_link]:https://content.luanti.org/packages/Lunovox/tradelands/\n[DownloadsCDB_en_icon]:https://content.luanti.org/packages/Lunovox/tradelands/shields/downloads/\n[DownloadsCDB_en_link]:https://gitlab.com/lunovox/tradelands/-/tags\n\n[license_code_icon]:https://img.shields.io/static/v1?label=LICENSE%20CODE&message=GNU%20AGPL%20v3.0&color=yellow\n[license_code_link]:https://gitlab.com/lunovox/tradelands/-/raw/master/LICENSE_CODE\n[license_media_icon]:https://img.shields.io/static/v1?label=LICENSE%20MEDIA&message=CC%20BY-SA-4.0&color=yellow\n[license_media_link]:https://gitlab.com/lunovox/tradelands/-/raw/master/LICENSE_MEDIA\n[wiki_en_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=EN&color=blue\n[wiki_en_link]:https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License\n[wiki_pt_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=PT&color=blue\n[wiki_pt_link]:https://pt.wikipedia.org/wiki/GNU_Affero_General_Public_License\n\n\n\n\n",
-  "maintainers": [
-    "Lunovox"
-  ],
+  "maintainers": ["Lunovox"],
   "media_license": "CC-BY-SA-4.0",
   "name": "tradelands",
-  "provides": [
-    "tradelands"
-  ],
+  "provides": ["tradelands"],
   "release": 28607,
   "repo": "https://gitlab.com/lunovox/tradelands.git",
   "score": 3.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/24f8fc05b4.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/24f8fc05b4.jpg"],
   "short_description": "Protection of land on payment of periodic rate.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/24f8fc05b4.png",
   "title": "Tradelands",
   "translation_url": "https://gitlab.com/lunovox/tradelands/locale",
@@ -490,9 +480,7 @@
       {
         "is_optional": false,
         "name": "minertrade",
-        "packages": [
-          "Lunovox/minertrade"
-        ]
+        "packages": ["Lunovox/minertrade"]
       },
       {
         "is_optional": false,

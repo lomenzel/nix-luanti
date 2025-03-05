@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# LuaWand\n### Usage\n* The itemname is `luawand:luawand`\n* Grant yourself `luawand` privilege\n* Click RMB(place key) while holding LuaWand in the hand to open the configuration formspec\n* Write your custom code there. The variables(`itemstack, player, pointed_thing`) are provided.\n* Press \"Save\" button to apply configuration.\n---\n* You can also use [ItemEdit](https://github.com/zmv7/minetest-mod-itemedit) to apply custom inventory/wield images to the LuaWand\n## Media Licenses\n* `luawand.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-luawand/blob/master/CC-BY-SA-4.0)",
-  "maintainers": [
-    "Zemtzov7"
-  ],
+  "maintainers": ["Zemtzov7"],
   "media_license": "CC-BY-SA-4.0",
   "name": "luawand",
-  "provides": [
-    "luawand"
-  ],
+  "provides": ["luawand"],
   "release": 26460,
   "repo": "https://github.com/zmv7/minetest-mod-luawand",
   "score": 155,
@@ -28,11 +24,7 @@
   ],
   "short_description": " Tool with programmable on_use ",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["developer_tools", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc1a20f407.png",
   "title": "Lua Wand",
   "translation_url": null,

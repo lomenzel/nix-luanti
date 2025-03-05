@@ -25,16 +25,10 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_bboe_1080/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# AdvTrains Train: BBÖ 1080 (BBOE 1080)\n\nThe BBÖ 1080 is a small mod with a class 1080 locomotive of the Österreichischen\nBundesbahnen (BBÖ, which later become ÖBB, Austrian Railways), as well as a\ngeneric flat wagon with small sides and leaf springs on the wheelsets/trucks.\n\n[View this mod at the Train\nCatalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_bboe1080)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n* Portions of code (C) 2020, 2021 Blockhead\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n",
-  "maintainers": [
-    "advtrains_supplemental",
-    "Blockhead",
-    "W3RQ01"
-  ],
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_bboe_1080",
-  "provides": [
-    "advtrains_bboe_1080"
-  ],
+  "provides": ["advtrains_bboe_1080"],
   "release": 19322,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_bboe_1080",
   "score": 13.3,
@@ -45,10 +39,7 @@
   ],
   "short_description": "BBÖ electric locomotive 1080 and ware wagon",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/62abe59e52.png",
   "title": "Advtrains BBÖ 1080",
   "translation_url": null,
@@ -62,9 +53,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

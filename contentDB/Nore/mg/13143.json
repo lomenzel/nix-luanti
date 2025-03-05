@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": "https://github.com/minetest-mods/mg/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "A custom Lua mapgen, with biomes, caves, villages, cliffs and ore generation.\n\nBiomes:\n\n* Ocean\n* Dry grasslands\n* Wet grasslands\n* Forest\n* Jungle\n* Savanna\n* Desert\n* Tundra\n* Taiga\n* Beach",
-  "maintainers": [
-    "Nore"
-  ],
+  "maintainers": ["Nore"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mg",
-  "provides": [
-    "mg"
-  ],
+  "provides": ["mg"],
   "release": 13143,
   "repo": "https://github.com/minetest-mods/mg",
   "score": 531.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cUfRBBPcqr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cUfRBBPcqr.png"],
   "short_description": "Changes the way ores are placed, add new biomes and villages.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cUfRBBPcqr.png",
   "title": "Experimental Villages Mapgen",
   "translation_url": null,
@@ -501,18 +491,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

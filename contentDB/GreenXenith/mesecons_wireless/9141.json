@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/GreenXenith/mesecons_wireless/issues",
   "license": "MIT",
   "long_description": "# Wireless Mesecons #\n(includes Digiline support)\n\n### Items ###\n* Wireless Transmitter\n* Wireless Receiver\n* Antenna (craftitem)\n* Radio Dish (craftitem)\n\n### Crafting ###\n\n#### Wireless Transmitter ####\n![Imgur](https://i.imgur.com/H5tyvxE.png)  \nSwap Digiline wire for Mesecon wire if Digilines is disabled\n\n#### Antenna ####\n![Imgur](https://i.imgur.com/Dz0mX5V.png)\n\n#### Wireless Receiver ####\n![Imgur](https://i.imgur.com/7i1G2Dg.png)  \nSwap Digiline wire for Mesecon wire if Digilines is disabled\n\n#### Radio Dish ####\n![Imgur](https://i.imgur.com/fgylNAI.png)  \n(Reversed direction is also acceptable)\n\n### Usage ###\nThe `network` field in both the transmitter and receiver tell each node which channel to send and listen on, respectively. This is in no way related to Digiline channels.\n\nThe `range` field in the transmitter will set how far away a receiver can be to get a signal.\n\nUp to 100 receivers can listen on one network. Multiple transmitters can send to the same network, however, behavior can be unexpected. This should really only be used in combination with luacontrollers.\n\nSending a Mesecon signal will result in a yellow signal indicator.\n![Imgur](https://i.imgur.com/s40ZePy.png)\n\nSending a Digiline signal will result in a blue indicator (for a short time).\n![Imgur](https://i.imgur.com/58ufKuI.png)\nTransmitters and receivers are not digiline devices, they only carry the signal. They are similar to wires, except, wireless. Yes, Digiline and Mesecon signals can be sent in unison. Digiline signals will transmit regardless of the transmitter being active.\n\n#### Overheating ####\nTransmitters are limited to 20 signals per second. A Mesecon signal counts as 5, as they are much harder to send rapidly. When a transmitter overheats, the signal will appear red until it cools down a second later. No signals will transmit during this time.  \n![Imgur](https://i.imgur.com/dccE0AR.png)\n",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "mesecons_wireless",
-  "provides": [
-    "mesecons_wireless"
-  ],
+  "provides": ["mesecons_wireless"],
   "release": 9141,
   "repo": "https://github.com/GreenXenith/mesecons_wireless",
   "score": 33.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/137e13e549.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/137e13e549.png"],
   "short_description": " Wireless Mesecons and Digilines ",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/137e13e549.png",
   "title": "Wireless Mesecons",
   "translation_url": null,

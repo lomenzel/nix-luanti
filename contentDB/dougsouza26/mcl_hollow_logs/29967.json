@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/JoseDouglas26/mcl_hollow_logs/issues",
   "license": "MIT",
   "long_description": "# Hollow Logs for Mineclonia (mcl_hollow_logs)\n## Description\nAdds hollow logs to each Mineclonia tree/hypha. Equivalent to [**vl_hollow_logs**](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/ITEMS/vl_hollow_logs) in Voxelibre. These logs can be crafted from their normal variants, whether stripped or not. Like normal logs, hollow logs can be oriented on all three axes. Also like overworld logs, overworld hollow logs can be used as fuel and can also be used to make charcoal when burned in a furnace. Unstripped hollow logs can be stripped using axes.\n### Crafting\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>\n[ \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] ] &rarr; [<span style=\"color:red\">**Hollow log 4**</span>] <br>\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>",
-  "maintainers": [
-    "dougsouza26"
-  ],
+  "maintainers": ["dougsouza26"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mcl_hollow_logs",
-  "provides": [
-    "mcl_hollow_logs"
-  ],
+  "provides": ["mcl_hollow_logs"],
   "release": 29967,
   "repo": "https://github.com/JoseDouglas26/mcl_hollow_logs",
   "score": 12.7,
@@ -55,10 +51,7 @@
   ],
   "short_description": "Adds hollow logs to each Mineclonia tree/hypha.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b7de6c806d.png",
   "title": "Hollow Logs for Mineclonia",
   "translation_url": null,
@@ -72,10 +65,7 @@
       {
         "is_optional": false,
         "name": "mcl_trees",
-        "packages": [
-          "VoxelForge/voxelforge",
-          "ryvnf/mineclonia"
-        ]
+        "packages": ["VoxelForge/voxelforge", "ryvnf/mineclonia"]
       },
       {
         "is_optional": false,

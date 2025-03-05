@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds a new kind of tree that will start out as a sapling, but. It will grow gradually as time goes on. Some may grow large and full, others might stay small and compact. You can still use the original MT saplings if you don't like certain trees, since the DT trees have their own saplings/seedlings.\n\nEach tree will generate random nodes that will affect the resulting appearance of the tree once it's growth is capped, to tell if a tree is no longer able to grow, it's base will usually be as big as a full node. You can harvest trees whenever you feel like it, and get wood or other resources in any stage of it's life. But keep in mind that the larger a tree gets, the more wood that can be harvested from it. \n\n**The Tree Types and Other plants in the mod:**\n\nAcacia Tree - Savanna\n\nApple Tree - Deciduous Forest, Grassland\n\nAspen Tree - Deciduous Forest, Grassland\n\nBamboo - Rainforest, Deciduous Forest\n\nCactus - Deserts\n\nDry Tree - Deserts\n\nPine Tree - Coniferous Forest, Tundra\n\nJungle Tree - Rainforest\n\n**Update 1.0.7:**\n\n-Added the DT Jungle Tree, the sapling can be found in the Rainforest and/or be crafted from Jungle Leaves.\n\n-The Jungle Tree is technically the tallest tree in this mod, being able to grow 88 nodes tall, but the probability they will grow that tall is up to random chance.\n\n-Changed some values that determine the chance potentially tall trees will grow taller (like Aspen and Pine trees). They should have more time to grow before they are capped, but it's still up to RNG.",
-  "maintainers": [
-    "Tarruvi"
-  ],
+  "maintainers": ["Tarruvi"],
   "media_license": "MIT",
   "name": "dynamic_trees",
-  "provides": [
-    "dynamic_trees"
-  ],
+  "provides": ["dynamic_trees"],
   "release": 17177,
   "repo": null,
   "score": 649,
@@ -439,9 +433,7 @@
   ],
   "short_description": "Adds trees that can grow dynamically",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f6a1855575.png",
   "title": "Dynamic Trees",
   "translation_url": null,
@@ -613,18 +605,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

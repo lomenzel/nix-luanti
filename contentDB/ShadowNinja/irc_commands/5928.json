@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/irc_commands/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "",
-  "maintainers": [
-    "ShadowNinja"
-  ],
+  "maintainers": ["ShadowNinja"],
   "media_license": "WTFPL",
   "name": "irc_commands",
-  "provides": [
-    "irc_commands"
-  ],
+  "provides": ["irc_commands"],
   "release": 5928,
   "repo": "https://github.com/minetest-mods/irc_commands",
   "score": 2.8,
   "screenshots": [],
   "short_description": "Control your server from IRC",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["server_tools", "world_tools"],
   "thumbnail": null,
   "title": "IRC Commands",
   "translation_url": null,
@@ -42,9 +35,7 @@
       {
         "is_optional": false,
         "name": "irc",
-        "packages": [
-          "kaeza/irc"
-        ]
+        "packages": ["kaeza/irc"]
       }
     ],
     "kaeza/irc": []

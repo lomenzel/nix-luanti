@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_doc_encyclopedia/issues",
   "license": "MIT",
   "long_description": "# Encyclopedia [`doc_encyclopedia`]\nThis mod adds an item to access the help (based on the Documentation System [`doc`]). Just hold the item in hand and punch.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "doc_encyclopedia",
-  "provides": [
-    "doc_encyclopedia"
-  ],
+  "provides": ["doc_encyclopedia"],
   "release": 28640,
   "repo": "https://codeberg.org/Wuzzy/minetest_doc_encyclopedia",
   "score": 15.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3JLWdkzecs.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3JLWdkzecs.png"],
   "short_description": "Adds an encyclopedia item which allows you to access the help.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "tools"
-  ],
+  "tags": ["gui", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3JLWdkzecs.png",
   "title": "Encyclopedia",
   "translation_url": null,

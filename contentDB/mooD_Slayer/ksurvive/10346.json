@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/MadKamel/ksurvive/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "KSurvive is a game that was designed to drastically change certain aspects of Minetest's gameplay, such as removing furnaces and replacing them with in-game smelting of nodes. This game was very much inspired by [Warr1024's NodeCore](https://content.minetest.net/packages/Warr1024/nodecore/).\n\n\nv0.0.7 adds Nobelisks — small, hard rock formations that contain metal and eclogite. This release also contains some other changes made since the last release.\n\nv0.0.6.1 fixes some minor gameplay issues, redecorated the main menu.\n\nv0.0.6 introduces some new mechanics and tools, as well as new plants. v7 mapgen supported.\n\nv0.0.4 is the initial release. Added metal smelting and new tools. v6 mapgen supported.",
-  "maintainers": [
-    "mooD_Slayer"
-  ],
+  "maintainers": ["mooD_Slayer"],
   "media_license": "LGPL-2.1-only",
   "name": "ksurvive",
   "provides": [

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29825,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/ancientrunes/issues",
   "license": "Apache-2.0",
   "long_description": "Ancient Runes\n=============\n\nAncient Runes adds the 24 runes of the Scandinavian runes alphabet (fuþark).\nYou can craft burins to gather Iron Dust and Mese Dust which can be crafted\nto Rune Dust. You will only collect Iron and Mese Dust if you punch stone.\nThe probability of receiving a certain sort of dust is increased by certain\nore lodes.\n\nLicense\n=======\n\n* The following files are Copyright 2018 Marius Spix and licensed under the\n  SIL Open Font License 1.1. See OFL-1.1.txt for further information:\n    * ancientrunes_overlay_algiz.png\n    * ancientrunes_overlay_ansuz.png\n    * ancientrunes_overlay_berkanan.png\n    * ancientrunes_overlay_dagaz.png\n    * ancientrunes_overlay_ehwaz.png\n    * ancientrunes_overlay_fehu.png\n    * ancientrunes_overlay_gyfu.png\n    * ancientrunes_overlay_hagalaz.png\n    * ancientrunes_overlay_ihwa.png\n    * ancientrunes_overlay_isaz.png\n    * ancientrunes_overlay_jera.png\n    * ancientrunes_overlay_kaunan.png\n    * ancientrunes_overlay_laguz.png\n    * ancientrunes_overlay_mannaz.png\n    * ancientrunes_overlay_naudiz.png\n    * ancientrunes_overlay_othala.png\n    * ancientrunes_overlay_peorth.png\n    * ancientrunes_overlay_raido.png\n    * ancientrunes_overlay_sowilo.png\n    * ancientrunes_overlay_thurisaz.png\n    * ancientrunes_overlay_tiwaz.png\n    * ancientrunes_overlay_ur.png\n    * ancientrunes_overlay_wynn.png\n    * ancientrunes_overlay_yngvi.png\n* Unless otherwise stated, all other files in the textures subdirectory are\n  Copyright 2018 Marius Spix and licensed under the Creative Commons\n  Attribution-ShareAlike 3.0 Unported License. See CC-by-SA-3.0.txt for\n  further information:\n    * ancientrunes_item_iron_powder.png\n    * ancientrunes_item_mese_powder.png\n    * ancientrunes_item_rune_powder.png\n    * ancientrunes_particle_iron_powder.png\n    * ancientrunes_particle_mese_powder.png\n    * ancientrunes_tool_burin_bronze.png\n    * ancientrunes_tool_burin_diamond.png\n    * ancientrunes_tool_burin_mese.png\n    * ancientrunes_tool_burin_mithril.png\n    * ancientrunes_tool_burin_silver.png\n    * ancientrunes_tool_burin_steel.png\n    * ancientrunes_tool_burin_stone.png\n    * ancientrunes_tool_burin_wood.png\n* Unless otherwise stated, all other files are Copyright 2018 by Marius Spix\n  <marius.spix@web.de> and licensed under the Apache License. See\n  Apache-2.0.txt for further information.\n",
-  "maintainers": [
-    "spixi"
-  ],
+  "maintainers": ["spixi"],
   "media_license": "Other (Free/Open)",
   "name": "ancientrunes",
-  "provides": [
-    "ancientrunes"
-  ],
+  "provides": ["ancientrunes"],
   "release": 29822,
   "repo": "https://github.com/minetest-mods/ancientrunes",
   "score": 2.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9a6a4f2c92.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9a6a4f2c92.png"],
   "short_description": "Ancient Runes",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "decorative"
-  ],
+  "tags": ["building_mechanics", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9a6a4f2c92.png",
   "title": "Ancient Runes",
   "translation_url": null,

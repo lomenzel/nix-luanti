@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,9 +325,7 @@
   "issue_tracker": "https://github.com/jbbgameich/agriculture/issues",
   "license": "WTFPL",
   "long_description": "This Mod adds many new farming-plants:\n- corn\n- tomatoes\n- strawberries\n- carrots\n- sugar-beets\n- huckleberries\n\nEvery Plant has got a use: you can make different food like cakes or breads.\nYou can get the different seeds by digging plants or dirt.\nAnother item which is added is:\n- salt.",
-  "maintainers": [
-    "jbb"
-  ],
+  "maintainers": ["jbb"],
   "media_license": "CC-BY-SA-4.0",
   "name": "agriculture",
   "provides": [
@@ -342,15 +338,10 @@
   "release": 3948,
   "repo": "https://github.com/jbbgameich/agriculture",
   "score": -187,
-  "screenshots": [
-    "https://content.luanti.org/uploads/YEHUOKyFzM.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/YEHUOKyFzM.png"],
   "short_description": "Adds many useful farming plants",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming"
-  ],
+  "tags": ["food", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/YEHUOKyFzM.png",
   "title": "Agriculture",
   "translation_url": null,
@@ -506,18 +497,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

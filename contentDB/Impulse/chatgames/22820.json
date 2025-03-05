@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/chatgames/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "A full implementation of chatgames functionality.\nGet rewards for answering questions in the chat.\n\n## Current games\n- Write Out Exactly: Write out a item in the game exactly to get a reward.\n- Write Out Random: Write out a specific given random stream of text to get a reward.\n- Unscramble the Words: Write the unscrambled version of the word to gain a reward.\n",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "chatgames",
-  "provides": [
-    "chatgames"
-  ],
+  "provides": ["chatgames"],
   "release": 22820,
   "repo": "https://github.com/JamesClarke7283/chatgames",
   "score": 2.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d37fcd1681.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d37fcd1681.png"],
   "short_description": "Get rewards for answering questions in the chat.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d37fcd1681.png",
   "title": "Chat Games",
   "translation_url": null,
@@ -71,16 +62,12 @@
       {
         "is_optional": false,
         "name": "chatgames_api",
-        "packages": [
-          "Impulse/chatgames_api"
-        ]
+        "packages": ["Impulse/chatgames_api"]
       },
       {
         "is_optional": false,
         "name": "emeraldbank",
-        "packages": [
-          "NathanielFreeman/emeraldbank"
-        ]
+        "packages": ["NathanielFreeman/emeraldbank"]
       }
     ],
     "Impulse/chatgames_api": [],

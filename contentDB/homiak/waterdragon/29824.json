@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/homiak/waterdragon/issues",
   "license": "MIT",
   "long_description": "# Draigh-uisge means in Scottish Gaelic a Water Dragon.\n\n**Water Dragons:** The mod introduces two types of Water Dragons - the Pure Water Dragon and the Rare Water Dragon. These Dragons inhabit their Water Nests, each with unique abilities and characteristics.\n\n**Draconic Blocks:** The mod features various decorative and functional blocks, including Draconic Bricks, slabs, stairs, and more.\n\n**Water-Forged Draconic Armour:** Gather the Water-Forged Draconic Steel material and craft powerful armor to protect you during battles.\n\n## Installation\nStandard installation via Minetest Mod Menu, or just from ContentDB.\n\n## Usage\nAfter installing the mod, you will be able to encounter Water Dragons in their Nests. Interact with them to discover their unique abilities and obtain Draconic materials for crafting blocks and armor.\n\nMore information you will find in the Book about Water Dragons - search inventory for it.\n\nThis mod is based on Draconis and created by Scottii.\n\n## Release log\n\n### Release v 4.0.1\n- Fix bugs\n\n### Release v 4.0.0\n- Core Integration\n- Fix bugs\n\n### Release v 3.1.0\n- Fix bugs\n- Fix Scottish Dragon mounting\n- Add Wing Horn throwing\n- Better bowing\n\n### Release v 3.0.0\n- Add the Water Dragon Armour\n- Fix bugs\n- Add the rescue behavior for Pegasi (mod: Pegasus)\n- Fix slam\n- Minor tweaks\n\n### Release v 2.3.1\n- Fix many bugs\n\n### Release v 2.2.0\n- Fix bugs\n- Add shields\n- A new function for the Scottish Dragon Crate\n- Add the Water Dragon Eye craftitem\n- Add bowing\n- Add healing water\n\n### Release v 2.1.0\n- Adds the Scottish Water Dragon\n- Fix bugs\n- Fix translation\n- Fix Wing Horn\n- A new setting\n- A new chatcommand\n\n### Release v. 1.1.0\n- Add the throwable Wing Horn\n- A new chatcomannd - call_wtd\n- Fix bugs\n- Fix view points\n- Translation\n\n### Release v 1.0.0\n- Initial release",
-  "maintainers": [
-    "homiak"
-  ],
+  "maintainers": ["homiak"],
   "media_license": "MIT",
   "name": "waterdragon",
-  "provides": [
-    "waterdragon"
-  ],
+  "provides": ["waterdragon"],
   "release": 29824,
   "repo": "https://github.com/homiak/waterdragon",
   "score": 31.6,

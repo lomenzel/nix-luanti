@@ -25,9 +25,7 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "The inventory textures in MineClone2  are now darker to be easier on the eyes.\n\nWarning: Some of the text may be difficult to read because, as far as I know, there is not a way to change the color of Minetest's default black text. Setting font_bold (font bold by default) in the advanced settings to true can help make it easier to read.",
-  "maintainers": [
-    "TrafficSignal2217"
-  ],
+  "maintainers": ["TrafficSignal2217"],
   "media_license": "GPL-3.0-only",
   "name": "mcl_dark_inv",
   "provides": [],
@@ -42,9 +40,7 @@
   ],
   "short_description": "Dark inventory textures for MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dcd10ecc0b.png",
   "title": "MineClone2 Dark Mode Inventory",
   "translation_url": null,

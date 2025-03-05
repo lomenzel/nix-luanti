@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/AiTechEye/chakram/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "The tool is a weapon at same time\nThrow it and it will always return as long there still is velocity/power left\nIt can pick up stuff that is breakable by hand (like no use by tools) and mobs/drops that have 10hp or less.\nPlayers (or mobs that have more then 10 hp) will be damaged.\n\n+ Mese can break more stuff, more times at same throw, and can break stuff like stone / ores, makes a flash when hit something\n\n- Wood cant pick up stuff, less damage, fails if it hit something else then air & leaves.",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "chakram",
-  "provides": [
-    "chakram"
-  ],
+  "provides": ["chakram"],
   "release": 894,
   "repo": "https://github.com/AiTechEye/chakram",
   "score": 306.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/yBXmWtLY4f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/yBXmWtLY4f.png"],
   "short_description": "Chakram: weapon & tool at same time",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/yBXmWtLY4f.png",
   "title": "Chakram",
   "translation_url": null,

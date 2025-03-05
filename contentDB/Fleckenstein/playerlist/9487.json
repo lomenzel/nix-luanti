@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/EliasFleckenstein03/playerlist/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# playerlist\nShow a list of all online players (similar to minecrafts tab-list) when a player is pressing the playerlist key (by default: sneak).\nProvides an API that can be used to hide or nick players, sort them and display them with different colors. (E.g. Display admins at the top of the list and make their name red). There is also a ping bar for every player (<= 20ms -> 4, <= 40ms -> 3, <= 60ms -> 2, > 60ms -> 1).\n\nThe playerlist key can be configured by changing the playerlist_key setting. Possible values are up, down, left, right, jump, aux1, sneak, dig, place or zoom.",
-  "maintainers": [
-    "Fleckenstein"
-  ],
+  "maintainers": ["Fleckenstein"],
   "media_license": "GPL-3.0-only",
   "name": "playerlist",
-  "provides": [
-    "playerlist"
-  ],
+  "provides": ["playerlist"],
   "release": 9487,
   "repo": "https://github.com/EliasFleckenstein03/playerlist",
   "score": 630.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/72bd27dec9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/72bd27dec9.png"],
   "short_description": "Show a list of all online players (similar to minecrafts tab-list) when a player is sneaking.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "multiplayer"
-  ],
+  "tags": ["hud", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/72bd27dec9.png",
   "title": "Playerlist",
   "translation_url": null,

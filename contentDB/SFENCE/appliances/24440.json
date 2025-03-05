@@ -51,25 +51,17 @@
   "issue_tracker": "https://github.com/sfence/appliances/issues",
   "license": "MIT",
   "long_description": "This mod provides an object-based API for easier creation of appliances, machines, etc. \nAppliances support power by technic electricity, mesecenos, hand. Production can depend on the usage of something, connected water.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-3.0",
   "name": "appliances",
-  "provides": [
-    "appliances"
-  ],
+  "provides": ["appliances"],
   "release": 24440,
   "repo": "https://github.com/sfence/appliances",
   "score": 27.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/98d8c18f70.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/98d8c18f70.png"],
   "short_description": "API for create appliances in other mods powered by technic, mesecons or hand.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/98d8c18f70.png",
   "title": "Appliances API",
   "translation_url": null,

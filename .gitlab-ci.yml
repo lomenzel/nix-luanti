@@ -1,7 +1,6 @@
 stages:
   - update
   - test
-
 update_contentDB:
   stage: update
   tags:
@@ -9,6 +8,7 @@ update_contentDB:
   script:
     - git checkout -B "$CI_COMMIT_BRANCH"
     - nix run --extra-experimental-features "nix-command flakes pipe-operators" .\#fetchContentDB
+    - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
     - git config --global user.email "ci-pipeline@menzel.lol"
     - git config --global user.name "CI Pipeline"
     - git add *
@@ -16,11 +16,8 @@ update_contentDB:
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
     - git push origin "$CI_COMMIT_BRANCH"
     - echo "updates pushed"
-
 build_test_pipeline:
   stage: test
-  needs:
-    - job: update_contentDB
   tags:
     - nix
   script:
@@ -28,7 +25,6 @@ build_test_pipeline:
   artifacts:
     paths:
       - test_pipeline.yml
-
 trigger_test_pipeline:
   stage: test
   needs:

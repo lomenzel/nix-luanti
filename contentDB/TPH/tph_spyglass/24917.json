@@ -64,14 +64,10 @@
   "issue_tracker": "https://codeberg.org/TPH/tph_spyglass/issues",
   "license": "0BSD",
   "long_description": "Based off of my work on [Exile's spyglass](https://codeberg.org/Mantar/Exile/pulls/670), I bring you a separately and freshly 0BSD code licensed and CC0-1.0 licensed media Spyglass :D\n\nHas sounds for opening (guess I should've said entering lol) and exiting the spyglass and utilizes minetest.after() to avoid some issues maintained by StarNinjas' https://content.minetest.net/packages/StarNinjas/spyglass/ which uses a dtime loop.\n\nAs long as a game doesn't modify set_fov and get_fov, item registration, and HUD handling, this mod should work with it. Games listed under compatible games have been tested by myself and confirmed to be compatible.\n\nRecipes may NOT appear in custom inventory systems due to purposeful usage of on_mods_loaded to determine whether or not to add the recipe.\n\nUses  a bronze ingot for crafting otherwise will override with brass if **basic_materials** is enabled\nhttps://content.minetest.net/packages/AwesomeDragon97/better_basic_materials/\nhttps://content.minetest.net/packages/mt-mods/basic_materials/",
-  "maintainers": [
-    "TPH"
-  ],
+  "maintainers": ["TPH"],
   "media_license": "CC0-1.0",
   "name": "tph_spyglass",
-  "provides": [
-    "tph_spyglass"
-  ],
+  "provides": ["tph_spyglass"],
   "release": 24917,
   "repo": "https://codeberg.org/TPH/tph_spyglass",
   "score": 154,
@@ -85,9 +81,7 @@
   ],
   "short_description": "Provides a Spyglass for zooming in and out (if RMB is pressed)",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/15f24660b6.png",
   "title": "TPH's Spyglass",
   "translation_url": null,

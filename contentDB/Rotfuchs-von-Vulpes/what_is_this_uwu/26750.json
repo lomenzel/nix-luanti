@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/Rotfuchs-von-Vulpes/what_is_this_uwu-minetest/issues",
   "license": "MIT",
   "long_description": "This mod says at the top of your screen what you're looking at in real time, it also says which mod it belongs to.\n\n# What is this? UwU\n\nA mod that says at the top of your screen what you're looking at.\n\n## Chatcommands\n\nTo unshow the pop-up, typed this in console:\n\n```\n/wituwu\n```\n\nAnd typed again to show.\n\n## For Servers\n\nSee [what_is_this_owo](https://github.com/Rotfuchs-von-Vulpes/what_is_this_owo-minetest) for optimized version\n\nEnjoy! 🦊",
-  "maintainers": [
-    "Rotfuchs-von-Vulpes"
-  ],
+  "maintainers": ["Rotfuchs-von-Vulpes"],
   "media_license": "MIT",
   "name": "what_is_this_uwu",
-  "provides": [
-    "what_is_this_uwu"
-  ],
+  "provides": ["what_is_this_uwu"],
   "release": 26750,
   "repo": "https://github.com/Rotfuchs-von-Vulpes/what_is_this_uwu-minetest/",
   "score": 669.5,
@@ -45,9 +41,7 @@
   ],
   "short_description": "That shows at the top of your screen what you're looking at.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9a8478f147.png",
   "title": "What is This? UwU",
   "translation_url": null,

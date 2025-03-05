@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,14 +364,10 @@
   "issue_tracker": "https://github.com/CowboyLva/ebiomes/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "## General \n\nThis is a vanilla themed mod for minetest game, designed to bring vanilla like biomes with least amount of changes to the vanilla minetest.\n\nSeveral popular mods are supported - bonemeal, mobs_animal, mobs_monster, mobs_npc, mob_horse, moreblocks, flowerpot\nPost 1.0.0 - forgotten_monsters, animalworld, nssm\n\nAs of 1.2.0 the player can disable bamboo in Extra Biomes modmenu, either as a preference.\nOr if a different mod will be used for adding bamboo.\n\nDon't use v6 mapgen, every other common mapgen is fine.\n\n## Additions\n\n- Deciduous forest variants - Warm and Cold Deciduous forests\n- A swamp biome on humid Cold Deciduous Forest zones near sea level.\n- Mediterranean biome.\n- Dry grasslands - Found between grasslands and deserts\n- Warm grassland - Intended as a transition biome\n- Steppes - Between Grassland and Snowy Grassland\n- Bog - Internal Swamp biome (1.1.0)\n- Humid Savanna (1.2.0)\n- Japanese Rainforest (1.2.0)\n- Jungle Savanna (1.4.0)\n- Temperate Rainforest (1.4.0)\n- Grassland and Deciduous Forest Extensions (1.4.0)\n\n## Notes\n**Tips**\n\nBonemeal mod is highly recommended\n\nThere is a hurful bush in game which can only be cut with bronze or a better sword.\n\nBog is nasty, watch your step.\n\nAs of version 1.2.0 the player can encounter moss patches in the Japanese Rainforest. Those are useful for making mossy cobblestone. Or the player can use bonemeal to grow the occasional moss patch out of the rainforest litter there.\n\nBamboo patches also occur on regular rainforest. (On default)\n\n**Things lacking**\n\nFireflies on the mods biomes(a bug on mtg end as of July 13th 2022, the code for them is in the mod)\n\n## Changelog\n\n1.5.3\n\nToggles for disabling mobs (mobs, forgotten_monsters)\n\nAddition of eatable group\n\nRussian and Latvian translations\n\n1.5.2\n\nMerged changes by adikalon to eliminate conflicts with nether mods\n\n1.5.1\n\nAdded setting descriptions\n\nImplemented a setting to make quagmires generate without cranberries\n\n1.5.0\n\nAdded Maple and Oak trees which are found in deciduous forest variants if extensions are enabled(default on)\n\nMade cooking recipes with buckets have the cookable item be placed on top, instead of right\n\nAdded dyes to flowers - Credit to Skivling\n\nAdded sands with debris\n\nReworked reregistration so it only affects snowy grassland without touching other mods\n\n1.4.1\n\nImplemented a 'light mapgen'(decorations) toggle to reduce mapgen lag on the denser biomes\n\n1.4.0\n\nBiomes:\n\nJungle Savanna - Biome between Humid Savanna and Rainforest\n\nTemperate Rainforest - Thick wet forest found near various Temperate forest biomes, has beech tree\n\nGrassland and Deciduous Forest extensions that blend with nearby biomes\n\nColor adjustments in steppes and warm grass biomes\n\nVarious tweaks and fixes\n\n1.3.0\n\nCode refactor - Biomes made before 1.2.0 release are now toggleable, closely related biomes are lumped into groups.\n\nCowberries can also be now disabled, disabling them will disable reregistering of decorations even if reregistering toggle is set to enabled. (Since they are the only reason for that to begin with)\n\nSupport for nssm. However nssm seems to significantly slow down mapgen, even when it's the only mod active. Therefore it's recommended only for the biggest fans of it. Support toggle can be left on, it's fine as long as nssm isn't actually loaded.\n\nPlayer can now also disable buffer biomes. (Since 1.2.0 there were only two Sandstone Desert Buffer and Cold Desert Buffer)\n\nSlight adjustments to mob spawns - e.g. Bunnies now spawn in more biomes. (When using mobs_animal)\n\nVersion 1.2.3\n\nTypo fixes.\n\nUppdated grassland code with normal_grass group to match current minetest game versions.\n\nWilhelmines Animal World (animalworld) by liil support.\n\nVersion 1.2.2\n\nWarm steppe underground parameters fixed, small general cleanup.\nBefore version bump - Reeds fixed and cranberries retexture.\n\nVersion 1.2.1\n\nFixed ground layer in Humid Savanna.\n\nAdded settings for Humid Savanna and Japanese Rainforest.\n\nVersion 1.2.0\n\nAdded Humid Savanna and Japanese Rainforest biomes.\n\nBamboo - Can be turned off if need be. (Don't do this on worlds where it was on)\n\nFilled in missing aliases.\n\nRemoved 2 biome fillers(Humid Rainforest, Humid Deiciduous Forest). Those do not add anything, they merelly fill space with a preexisting biome to prevent abnormalities.\n\nTweaks in arid grasslands. Colors and Cool Arid Grassland now has more grass.\n\nVersion 1.1.2\n\nAdded a setting to disable reregistering decorations, so that the mod can be made compatible with other biome mods.\n\nVersion 1.1.1\n\nReduced the unregisters.\nPreviously reregister.lua unregistered all biomes, ore and decorations before reregistering them.\nNow it unregisters and reregisters decorations only.\n\nVersion 1.1.0 - Reworked Swamp \n\nSwamp has 2 zones now:\nThe external wetland - For the most part the swamp biome from before (uses the swamp name in code)\n\nThe internal zone - The Bog. **Watch where You step!**\nHas peat, which has many uses.\nAlso most of the swamp plants have been moved there.\n\nVersion 1.0.1 - Added Forgotten Monsters support\n\nVersion 1.0.0 - Release\n\n## Issues\n\nTo remove blackberry from snowy_grassland the default mods snowy grassland biome has been reregistered. So far there is no method(dev term, look up the minetest modding wiki or doc folder in install/build minetest directory(not .minetest)) designed to remove or change a single decoration.\n\nFireflies are bugged outside of mtg. Tested this in Ethereal as well.",
-  "maintainers": [
-    "CowboyLv"
-  ],
+  "maintainers": ["CowboyLv"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ebiomes",
-  "provides": [
-    "ebiomes"
-  ],
+  "provides": ["ebiomes"],
   "release": 28084,
   "repo": "https://github.com/CowboyLva/ebiomes.git",
   "score": 1482.7,
@@ -394,9 +388,7 @@
   ],
   "short_description": "Adds extra biomes, while keeping its looks close to the vanilla MTG",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9c619543ac.png",
   "title": "Extra Biomes",
   "translation_url": null,
@@ -525,18 +517,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

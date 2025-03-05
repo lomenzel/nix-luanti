@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "This mod replaces the default earthlike setting with a generic moon of Saturn. Currently, this moon has not been named yet since I have not found a real moon of Saturn that is generic enough.\n\nThe only ores on the moon so far are the default ones and ice. Dungeons are still present, but the mossy cobblestone looks like ice.\n\nThis mod was an experiment to see the effects of changing a Minetest world into something otherworldly. This mod isn't complete enough for a normal game (for example, there is no way to get wood). At the moment there is no oxygen system.\n\nSince this mod only uses default blocks, virtually all texture packs are supported.\n\nThe code is licenced under LGPL 2.1 and the textures are licenced under CC-BY-SA. This mod was made by Red_King_Cyclops, but the textures are from Minetest Saturn by Foghrye4, the skybox code is modified code taken from https://forum.minetest.net/viewtopic.php?f=9&t=13775&hilit=skybox by emperor_genshin, and all of the ore registrations (except for the ice) are copied from default.",
-  "maintainers": [
-    "Red_King_Cyclops"
-  ],
+  "maintainers": ["Red_King_Cyclops"],
   "media_license": "CC-BY-SA-4.0",
   "name": "saturn_moon",
-  "provides": [
-    "saturn_moon"
-  ],
+  "provides": ["saturn_moon"],
   "release": 1608,
   "repo": null,
   "score": 9.6,
@@ -452,10 +446,7 @@
   ],
   "short_description": "Replaces the default earthlike setting with a generic moon of Saturn.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/I4Q8VYwPXY.png",
   "title": "Generic moon of Saturn",
   "translation_url": null,

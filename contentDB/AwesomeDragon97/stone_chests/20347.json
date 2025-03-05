@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,14 +195,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod replaces the wooden chests found in dungeons with stone chests, which match their surroundings better than the wooden chests. There is also desert stone chests.\n\nThe stone chests are uncraftable so if you want one you have to go exploring. This serves to add an exclusive item to dungeons.\n\nI am working on stone chests for different types of stone, which will come at a later release (sandstone chests, silver sandstone chests, etc.).",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "stone_chests",
-  "provides": [
-    "stone_chests"
-  ],
+  "provides": ["stone_chests"],
   "release": 20347,
   "repo": null,
   "score": 310.4,
@@ -214,12 +208,7 @@
   ],
   "short_description": "Replaces the wooden chests found in dungeons with stone chests.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen",
-    "storage"
-  ],
+  "tags": ["building", "decorative", "mapgen", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2e452a835f.png",
   "title": "Stone Chests",
   "translation_url": null,

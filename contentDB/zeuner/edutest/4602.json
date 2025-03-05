@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/zeuner/edutest/issues/new/choose/",
   "license": "AGPL-3.0-only",
   "long_description": "",
-  "maintainers": [
-    "zeuner"
-  ],
+  "maintainers": ["zeuner"],
   "media_license": "CC0-1.0",
   "name": "edutest",
-  "provides": [
-    "edutest"
-  ],
+  "provides": ["edutest"],
   "release": 4602,
   "repo": "https://github.com/zeuner/edutest",
   "score": 9.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/n9batn70Ba.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/n9batn70Ba.png"],
   "short_description": "Provides a GUI frontend for the educational staff.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["education", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/n9batn70Ba.png",
   "title": "Edutest",
   "translation_url": null,
@@ -59,9 +49,7 @@
       {
         "is_optional": false,
         "name": "edutest_chatcommands",
-        "packages": [
-          "zeuner/edutest_chatcommands"
-        ]
+        "packages": ["zeuner/edutest_chatcommands"]
       }
     ],
     "zeuner/edutest_chatcommands": []

@@ -51,14 +51,10 @@
   "issue_tracker": "https://github.com/thepython10110/spawncraft/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# SpawnCraft\nA mod for MineClone that allows players to craft spawners and spawn eggs.\n\nI think the recipes are reasonably fair (most of them require Ancient Debris or Netherite), and they can be individually toggled off in the Settings menu.\n\nThe recipes appear in the crafting guide, so I'm not going to include a full list here. I recommend turning off \"learn crafting recipes progressively\" in the settings menu to make it easier to figure out what you need to craft certain eggs.",
-  "maintainers": [
-    "ThePython"
-  ],
+  "maintainers": ["ThePython"],
   "media_license": "GPL-3.0-or-later",
   "name": "spawncraft",
-  "provides": [
-    "spawncraft"
-  ],
+  "provides": ["spawncraft"],
   "release": 26136,
   "repo": "https://github.com/thepython10110/spawncraft",
   "score": 162.3,
@@ -71,11 +67,7 @@
   ],
   "short_description": "Adds crafting recipes for spawners and spawn eggs to MineClone",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["crafting", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d103855a1a.png",
   "title": "SpawnCraft",
   "translation_url": null,

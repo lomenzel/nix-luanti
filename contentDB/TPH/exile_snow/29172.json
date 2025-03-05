@@ -25,14 +25,10 @@
   "issue_tracker": "https://codeberg.org/TPH/exile_snow/issues",
   "license": "MIT",
   "long_description": "I do plan to add more things - maybe like snowmen or other snowy crafts - but as it stands - you can throw snowballs at eachother for as long as your heart desires!!!\n\nSnowballs have particles when they land and they can blind your opponents if you hit 'em right on the head or face! Throwing + hit sounds too. Have to charge up those snowballs as well! x3\n\nWill send messages about players being hit in the face - hopefully funny! :D\n\nPretty rudimentary, likely to change a lot of this up in the future - but for now - enjoyyyy",
-  "maintainers": [
-    "TPH"
-  ],
+  "maintainers": ["TPH"],
   "media_license": "CC0-1.0",
   "name": "exile_snow",
-  "provides": [
-    "exile_snow"
-  ],
+  "provides": ["exile_snow"],
   "release": 29172,
   "repo": "https://codeberg.org/TPH/exile_snow",
   "score": 3.5,
@@ -43,10 +39,7 @@
   ],
   "short_description": "Adds throwable snowballs to Exile",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/13527ffd90.png",
   "title": "Exile Snow Fun",
   "translation_url": null,
@@ -60,9 +53,7 @@
       {
         "is_optional": false,
         "name": "tech",
-        "packages": [
-          "Mantar/exile"
-        ]
+        "packages": ["Mantar/exile"]
       },
       {
         "is_optional": false,
@@ -76,16 +67,12 @@
       {
         "is_optional": false,
         "name": "nodes_nature",
-        "packages": [
-          "Mantar/exile"
-        ]
+        "packages": ["Mantar/exile"]
       },
       {
         "is_optional": false,
         "name": "minimal",
-        "packages": [
-          "Mantar/exile"
-        ]
+        "packages": ["Mantar/exile"]
       }
     ]
   },

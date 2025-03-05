@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Gerold55/minetest-laptop/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "This mod adds in formspec laptops. The laptops/computers give you the ability to play games and send emails plus many other things. \n\nAdditional Apps to use: https://github.com/Gerold55/laptop_apps",
-  "maintainers": [
-    "GamingAssociation39"
-  ],
+  "maintainers": ["GamingAssociation39"],
   "media_license": "CC-BY-SA-4.0",
   "name": "laptop",
-  "provides": [
-    "laptop"
-  ],
+  "provides": ["laptop"],
   "release": 12776,
   "repo": "https://github.com/Gerold55/minetest-laptop",
   "score": 1142,
-  "screenshots": [
-    "https://content.luanti.org/uploads/oZvFdjCG75.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/oZvFdjCG75.png"],
   "short_description": "Adds laptops/computers to your MT world. ",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/oZvFdjCG75.png",
   "title": "Laptop",
   "translation_url": null,

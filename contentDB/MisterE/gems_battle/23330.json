@@ -50,9 +50,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,30 +390,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "A Bedwars-like PVP experience. For 2-3 teams. Each team has a \"Great Gem\" to protect; if they lose it then that team will not respawn. Destroy great gems with gem tools; tools of the same gem are especially effective. Get gems from gem droppers (mines) and sell them to NPCs to get tools, blocks and weapons. Be the last team standing. Supports spectate mode, and has an updated and polished HUD.\nAlso has an editor section for arena_lib editor to make setup easy.",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "gems_battle",
-  "provides": [
-    "gems_battle"
-  ],
+  "provides": ["gems_battle"],
   "release": 23330,
   "repo": "https://gitlab.com/mistere123.coding/gems",
   "score": 8.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c7457b04a7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c7457b04a7.png"],
   "short_description": "Bedwars-like team battle minigame",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "mini-game",
-    "multiplayer",
-    "pvp",
-    "sports",
-    "tools"
-  ],
+  "tags": ["hud", "mini-game", "multiplayer", "pvp", "sports", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c7457b04a7.png",
   "title": "Gems Battle",
   "translation_url": null,
@@ -447,9 +432,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       },
       {
         "is_optional": false,
@@ -522,9 +505,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "stu/3d_armor": [

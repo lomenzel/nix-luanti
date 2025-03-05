@@ -11,23 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_playerphysics/issues",
   "license": "MIT",
   "long_description": "This mod makes it possible for multiple mods to modify player physics (speed, jumping strength, gravity) without conflict.\n\nThis mod is an API mod for modders. Players only might need it as dependency.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "playerphysics",
-  "provides": [
-    "playerphysics"
-  ],
+  "provides": ["playerphysics"],
   "release": 14972,
   "repo": "https://codeberg.org/Wuzzy/minetest_playerphysics",
   "score": 14.1,
   "screenshots": [],
   "short_description": "This makes it possible for multiple mods to modify player physics (speed, jumping strength, gravity) without conflict.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Player Physics API",
   "translation_url": null,

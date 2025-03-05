@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Sokomine/cottages/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Adds several blocks for building medieval houses: Bed, table, bench, open storage shelf, tub, barrel, wheel, washing place, glass pane, small fence, fence gate, half doors, hatches, wheel etc. Window shuttes close automaticly at night and open in the morning. Build houses using loam.\n\nDiffrent roof types like straw, thatch, wood, black (shingles), clay (shingles) and slate are included.\n\nDirt roads allow access to your fields. Harvest your wheat and use the threshing floor to get more seeds. The handmill turns seeds into flour.\n\nRepair your tools and armor unsing the anvil.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "cottages",
-  "provides": [
-    "cottages"
-  ],
+  "provides": ["cottages"],
   "release": 22105,
   "repo": "https://github.com/Sokomine/cottages",
   "score": 1045.2,
@@ -31,12 +27,7 @@
   ],
   "short_description": "Build medieval cottages with furniture, window shutters and roofs, thresh your wheat, repair your tools.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "plants_and_farming",
-    "technology"
-  ],
+  "tags": ["building", "creative", "plants_and_farming", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/OQhLTT5I5b.png",
   "title": "Cottages",
   "translation_url": null,

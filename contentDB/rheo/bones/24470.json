@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-bones_redo/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# bones: a redo of the mod from minetest_game\n\n## features\n\nassuming you know how the old bones mod worked:\n\n* if a bones node cannot be placed, a bones \"entity\" is placed instead\n* tries to put bones on the ground instead of floating in the air\n* api allows for adding custom behavior\n\n## settings\n\nsee setingtypes.txt\n\n## old surrealist poetry\n\nIts combination of instant and eternal action ensures that DEATH is absolutely harmless to man or mammals.\n\nDEATH DOES NOT STAIN\n\n*DIRECTIONS*\n\nRemove the self-preserving seal, hold DEATH vertically, value upwards, and apply by pressing the stopper.\n\nFor heart complaints: Use DEATH centre-stage. A few seconds only is sufficient.\n\nFor gambling debts, dishonour, tedium vitae etc.: Apply DEATH liberally around the edges of the room, near skirting-boards, in cracks in the floor, in any dark cranny. Repeat every four to five hours.\n\nFor mystical ecstasy: Use DEATH having placed yourself approximately one meter from clothing, curtains, carpets.\n\nDEATH can be used in wardropes and wall-cupboards. Shut them immediately after each application.\n\nDEATH is recommened in Spring, from April onwards.\n\nDEATH IS GOOD FOR YOU. NON-TOXIC.\n\n## license\n\nsee LICENSE.md\n\n### Authors of source code\n* Originally by PilzAdam (MIT)\n* Various Minetest developers and contributors ?-2022, (MIT)\n* Flux 2022 (LGPL)\n\n### Authors of media (textures)\nAll textures: paramat (CC BY-SA 3.0)\n\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bones",
-  "provides": [
-    "bones"
-  ],
+  "provides": ["bones"],
   "release": 24470,
   "repo": "https://github.com/fluxionary/minetest-bones_redo",
   "score": 10.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bc709723b6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bc709723b6.png"],
   "short_description": "the bones mod from minetest_game, but with updates to make them much more reliable",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "storage",
-    "survival"
-  ],
+  "tags": ["pve", "storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bc709723b6.png",
   "title": "bones (redo)",
   "translation_url": null,
@@ -45,18 +35,12 @@
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/fmod": [],
@@ -64,10 +48,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/AndrejIT/climbing_pick/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Mod for Minetest game \"Climbing pick\"\nStarting from version 5.1\nClimbing pick - allow to jump over more than one block.\nMeant to partially replace \"sneak glitch\" feature.\n\nThis mod code is licensed under the GNU LGPLv2.\n\nUses texture from Mountain Climbing mod (CC BY-SA 4.0)\nhttps://forum.minetest.net/viewtopic.php?t=17069\n\nObviously, uses tools from minetest_game as reference.\nhttps://github.com/minetest/minetest_game\n",
-  "maintainers": [
-    "lag01"
-  ],
+  "maintainers": ["lag01"],
   "media_license": "CC-BY-SA-4.0",
   "name": "climbing_pick",
-  "provides": [
-    "climbing_pick"
-  ],
+  "provides": ["climbing_pick"],
   "release": 9129,
   "repo": "https://github.com/AndrejIT/climbing_pick",
   "score": 8.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ee3ba6143e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ee3ba6143e.png"],
   "short_description": "Tool to climb, double jump, and do good damage to mobs.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "tools"
-  ],
+  "tags": ["player_effects", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ee3ba6143e.png",
   "title": "Climbing Pick",
   "translation_url": null,

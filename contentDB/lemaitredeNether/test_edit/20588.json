@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "**Have you ever dreamed of using WorldEdit in Minetest? Well, it’s now possible thanks to our \"test_edit\" mod! This mod allows you to quickly and easily manipulate the world around you to create amazing structures, custom landscapes, or anything your creativity can imagine**\n\n## How to Use the \"testedit\" Mod\n\n### Command /replace\n\nThe/replace command is one of the most powerful features of this mod. It allows you to quickly replace blocks in a selected region. Here’s how to use it:\n\n/replace <node_name_old> <node_name_new> <x1> <y1> <z1> <x2> <y2> <z2>: This command replaces all blocks of <node_name_old> with <node_name_new> in the region defined by the coordinates (x1, y1, z1) and (x2, y2, z2).\n\t\n### Command /paste\n\t\nThe/paste command is useful when you want to paste a region that you copied from a file. Here’s how to use it:\n\n/paste <filename> <x> <y> <z>: This command pastes the region copied from the <filename> file. json to the coordinates (x, y, z) in the world.\n\t\n### Command /undo\n\nThe error is human, and that’s why we included the/undo command to allow you to undo your last action. Here’s how to use it:\n\n/undo: This command not work because it's so hard to code him...\n\nThe/copy command allows you to copy a region and paste it elsewhere. Here’s how to use it:\n\n/copy <x1> <y1> <z1> <x2> <y2> <z2>: This command copies / saves the region defined by coordinates (x1, y1, z1) and (x2, y2, z2) in a shematics-like file,  but in .json in \"./world/[Your World Name]/build\"folder.\n\t\n### Command /set\n\t\nThe/set command allows you to quickly place blocks in a specified region. Here’s how to use it:\n\n/set <node_name> <x1> <y1> <z1> <x2> <y2> <z2>: This command places the <node_name> block in the region defined by the coordinates (x1, y1, z1) and (x2, y2, z2).\nTool \"Selection Stick\"\nThe \"Select Stick\" tool is essential to define the coordinates of the region you want to change. Here is how to use it:\n\t\nconstruction. Enjoy the adventure!\nLeft click: Left click to set the first position.\nLeft Click + Shift: Hold down the Shift key and click with the left mouse button to set the second position, forming the region.\n\n## Tips and Tricks\n\nBe sure to use the \"Select Stick\" tool to simplify the definition of coordinates.\nWith the \"test_edit\" mod, you now have the power to shape the world of Minetest in your image. Whether for massive construction projects, subtle landscape adjustments or simply to experiment with world creation, this mod offers you powerful tools to make your builder dreams come true",
-  "maintainers": [
-    "lemaitredeNether"
-  ],
+  "maintainers": ["lemaitredeNether"],
   "media_license": "MIT",
   "name": "test_edit",
-  "provides": [
-    "test_edit"
-  ],
+  "provides": ["test_edit"],
   "release": 20588,
   "repo": null,
   "score": -145.9,
@@ -450,9 +444,7 @@
   ],
   "short_description": "Have you ever dreamed of using world edit on minetest?... well it’s possible!!",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dd3369fdec.png",
   "title": "Test Edit",
   "translation_url": null,

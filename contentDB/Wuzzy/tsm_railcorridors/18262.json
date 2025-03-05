@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,14 +195,10 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_tsm_railcorridors/issues",
   "license": "MIT",
   "long_description": "Adds underground corridors with rails and wood constructions with a few treasure chests here and there.\nOptional support for the Treasurer mod is available for adding treasures from various mods.\nCobwebs are added if the `mobs_monster` mod is found.\n\nUse the advanced settings to finetune the railway corridors.\n\n## Info for game makers\nWant to include this mod in a game, but you have problems with the dependencies?\nEdit `gameconfig.lua` to fit your needs. :-)\n",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "tsm_railcorridors",
-  "provides": [
-    "tsm_railcorridors"
-  ],
+  "provides": ["tsm_railcorridors"],
   "release": 18262,
   "repo": "https://codeberg.org/Wuzzy/minetest_tsm_railcorridors",
   "score": 360.1,
@@ -216,9 +210,7 @@
   ],
   "short_description": "Adds simple underground mines with railways and occasional treasure chests.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b0304bb0d6.png",
   "title": "Rail Corridors + Treasures",
   "translation_url": null,
@@ -232,9 +224,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

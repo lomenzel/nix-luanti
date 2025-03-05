@@ -38,26 +38,17 @@
   "issue_tracker": "https://codeberg.org/rudzik8/mcl_cozy/issues",
   "license": "0BSD",
   "long_description": "# VoxeLibre Get Comfortable\n\nAdds commands to /lay or /sit to VoxeLibre (ex. MineClone2) or Mineclonia, as well as the ability to sit on some blocks (stairs and slabs out-of-the-box) by right-clicking them.\n\n![Screenshot](https://content.luanti.org/uploads/d80f36718f.png)\n\nPort of the good old [cozy mod](https://forum.minetest.net/viewtopic.php?f=11&t=14143) (originally made for MTG by everamzah) to work with VL/MCLA properly and even provide some nice new features!\n\n## License\n\nThe source code is licensed under 0BSD (\"public domain\"). See `LICENSE` file for details.\n\n## API\n\nThis mod provides its own APIs for other mods to use. See [`API.md`](https://codeberg.org/rudzik8/mcl_cozy/src/branch/master/API.md) for details.\n",
-  "maintainers": [
-    "rudzik8"
-  ],
+  "maintainers": ["rudzik8"],
   "media_license": "0BSD",
   "name": "mcl_cozy",
-  "provides": [
-    "mcl_cozy"
-  ],
+  "provides": ["mcl_cozy"],
   "release": 29116,
   "repo": "https://codeberg.org/rudzik8/mcl_cozy",
   "score": 427.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d80f36718f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d80f36718f.png"],
   "short_description": " Sit and lay using chat commands (/sit and /lay) and by right-clicking blocks in VoxeLibre (ex. MineClone2) or Mineclonia ",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer"
-  ],
+  "tags": ["chat", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d80f36718f.png",
   "title": "VoxeLibre Get Comfortable",
   "translation_url": null,

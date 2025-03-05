@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/activivan/mt-dcwebhook/issues",
   "license": "MIT",
   "long_description": "This Minetest mod allows you to mirror chat messages, server status updates as well as player connections and deaths to your Discord server. Unlike other mods, this one uses webhooks to directly post messages to Discord - there is no need to run a proxy or waste your time setting up a Discord bot, which makes getting started only a matter of seconds. On top of that, you can literally customize everything! What information you want to be mirrored, what color notification boxes should have, or in what way to style a player name - everything is up to you - and it's available in 7 different languages. Give it a try!\n\nDo note that since it uses webhooks rather than a full Discord bot, it only bridges in one way from Minetest to Discord, and not the other way around.\n\n> ⚠ **WARNING**\n> Version v2.1.0 comes with new setting keys for the Webhook URL and language parameter. Mod tries to migrate automatically.\n\n\n## Getting started\n\n### Install Minetest mod\n\nTo install this mod, you have two options:\n\n* Clone this repository into the `minetest/mods` directory by executing\n\n  ```shell\n  git clone https://github.com/activivan/mt-dcwebhook.git\n  ```\n\n* Download this repository as an archive: https://github.com/activivan/mt-dcwebhook/archive/refs/heads/master.zip and extract the downloaded file into the `minetest/mods` directory. Rename the folder to `dcwebhook`\n\n\n### Creating a Discord Webhook\n\n1. Go to your Discord server settings\n2. Go to \"Integrations\"\n3. Go to \"Webhooks\" and create a new Webhook\n4. Copy the URL of the webhook to your clipboard\n\n### Configuring the mod\n\nThe Discord Webhook URL setting is the only one required for this mod to work. Paste the URL of the webhook you created into `minetest.conf`:\n\n```conf\ndcwebhook.url = https://discord.com/api/webhooks/blablabla\n```\n\nOptionally, set the language you want the system notifications to be in. Languages currently available: English: `en` (default), German: `de`, Russian: `ru`, Dutch: `nl`, French: `fr`, Spanish: `es`, Italian: `it`, Japanese: `ja`, Chinese: `zh`, Malay: `ms` and Indonesian: `id`\n\n```conf\ndcwebhook.lang = de\n```\n\n### Add mod to http_mods\n\nAs this mod needs access to the Minetest HTTP API to work, it has to be added to the `secure.http_mods` property in the `minetest.conf` file. Alternatively, it can be added to `secure.trusted_mods`.\n\n***Note:** Due to the need for the Minetest HTTP API, this mod only works on Minetest Servers built with cURL support*\n\n\n## Customizing the mod\n\nThere are many different ways in which you can customize this mod. All available settings are listed in `settingtypes.txt`. Go check it out!\n",
-  "maintainers": [
-    "activivan"
-  ],
+  "maintainers": ["activivan"],
   "media_license": "MIT",
   "name": "dcwebhook",
-  "provides": [
-    "dcwebhook"
-  ],
+  "provides": ["dcwebhook"],
   "release": 23302,
   "repo": "https://github.com/activivan/mt-dcwebhook.git",
   "score": 304.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/223b7c0e10.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/223b7c0e10.png"],
   "short_description": "Mirror your in-game chat to Discord using webhooks",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer"
-  ],
+  "tags": ["chat", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/223b7c0e10.png",
   "title": "Minetest Discord Webhook",
   "translation_url": null,

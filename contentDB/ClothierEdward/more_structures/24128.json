@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,14 +195,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds 16 new structures to Minetest Game to make your world feel more alive. It also comes with support for the LootChests modpack so you can find loot in some of these awesome structures.\n\n**Structure List**\n\nCommon Structures\n\n* Desert Pillars (found in deserts. Comes in Sandstone, Desert Sandstone, Silver Sandstone, and a rare obsidian variant)\n* Desert Arches (found in deserts. Comes in Sandstone, Desert Sandstone, Silver Sandstone, and a rare obsidian variant)\n\nUncommon Structures\n\n* Tower (Found in grasslands, forests, and taigas. Is based off of the tower found in the Minetest Game thumbnail)\n* Well (Found in grasslands, snowy grasslands, deserts, and sandstone deserts. Will have unique designs in deserts and sandstone deserts)\n* Campsite (Found  in deciduous and coniferous forests, rainforests, and grasslands. Comes in 3 unique variants)\n* Igloo (Found in taigas, snowy grasslands and icesheets. May sometimes come with loot chests)\n* Desert Outpost (Found in deserts and sandstone deserts. Comes in 2 unique variants)\n* Tradewagon (Found in grasslands and savannas as a minor decoration)\n\nRare Structures\n\n* Ruined Hut (Found in deciduous forests. May act as a good starter base)\n* Graveyard (Found in deciduous forests)\n* Jungle Temple (Found in rainforests featuring a new trap in the Spike block and some loot chests)\n* Stonehenge (Found in grasslands with a couple of ore deposits such as coal)\n* Flame Obelisk (Found in cold deserts as a minor decoration)\n* Totem Pole (Found in rainforests and savannas as a minor decoration)\n\nVery Rare Structures\n\n* Fortress (Found underground below Y=-512 featuring multiple floors and hallways with high-quality loot chests)\n* Mese Hoard (Found underground below Y=-1024 featuring lots of mese and overpowered loot chests)",
-  "maintainers": [
-    "ClothierEdward"
-  ],
+  "maintainers": ["ClothierEdward"],
   "media_license": "CC-BY-SA-4.0",
   "name": "more_structures",
-  "provides": [
-    "more_structures"
-  ],
+  "provides": ["more_structures"],
   "release": 24128,
   "repo": null,
   "score": 186.3,
@@ -222,12 +216,7 @@
   ],
   "short_description": "Adds several new structures to make your world more alive.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mapgen",
-    "singleplayer",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "mapgen", "singleplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fac379e1f9.png",
   "title": "More Structures",
   "translation_url": null,
@@ -914,28 +903,19 @@
       {
         "is_optional": false,
         "name": "magic_materials",
-        "packages": [
-          "mt-mods/magic_materials",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/magic_materials", "MeseCraft/mesecraft"]
       }
     ],
     "rheo/moreblocks": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -1032,9 +1012,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

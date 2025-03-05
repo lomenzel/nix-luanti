@@ -38,14 +38,10 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "Adorable cats for NodeCore!\n\nThey come in 7 different colors and have almost a hundred unique names.  They meow when you pick them up, purr when you pet them, (sometimes cough up hairballs) but for the most part, they sit still and contentedly watch you work, occasionally reminding you of their presence.  These perfectly cubic indestructible cats will fit nicely into any build, even serving as load-bearing structural members, though beware that future updates may bring different, and possibly less desirable, behaviors.\n\nIf you want cats in your world, this mod will add the necessary materials to mapgen, but you will need to find them and figure out how to make the actual cats yourself.  The in-game Discovery system provides some guidance, and here are a few extra clues:\n\n- Incubating cats love immersion in intense heat.\n- Cat prills can only be forced into cobble that is energetic enough.\n- There is a \"skyblock\" recipe for cat prills for situations where finding ore is impossible.  It requires quite a lot of seed material, which needs to accumulate a lot of energy.\n\n***N.B. Not all mechanics are final.***  Future versions should retain compatibility, but all items, behaviors, and mapgen parameters may be subject to change, including changes that may not match already-generated map areas.\n\nCats may contain hidden features, and are processed in a facility that also processes hidden features.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_cats",
-  "provides": [
-    "nc_cats"
-  ],
+  "provides": ["nc_cats"],
   "release": 26829,
   "repo": "https://gitlab.com/sztest/nc_cats",
   "score": 308.1,
@@ -55,11 +51,7 @@
   ],
   "short_description": "Add adorable cats to NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen",
-    "mobs"
-  ],
+  "tags": ["decorative", "mapgen", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bb1b8d0e75.png",
   "title": "NodeCore Cats",
   "translation_url": null,
@@ -73,34 +65,22 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

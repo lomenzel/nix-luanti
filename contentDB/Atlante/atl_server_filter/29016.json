@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Message Filtering Mod for Minetest\n\nThis mod is designed to enhance the moderation capabilities of your server by providing an efficient way to filter unwanted messages. It helps maintain a friendly and calm environment for all players by automatically blocking inappropriate or banned words.\n\nAvailable Commands:\n\n> * /ban_word <word>: Adds the specified word to the banned list. Any messages containing this word will be blocked.\n* /ban_word_list: Displays the current list of all banned words.\n* /ban_word_remove <word>: Removes the specified word from the banned list, allowing its use again.",
-  "maintainers": [
-    "Atlante"
-  ],
+  "maintainers": ["Atlante"],
   "media_license": "LGPL-2.1-or-later",
   "name": "atl_server_filter",
-  "provides": [
-    "atl_server_filter"
-  ],
+  "provides": ["atl_server_filter"],
   "release": 29016,
   "repo": null,
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6e7c8cbe08.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6e7c8cbe08.png"],
   "short_description": "This mod allows you to filter the messages sent in order to maintain calm in your server.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "creative",
-    "server_tools"
-  ],
+  "tags": ["chat", "creative", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6e7c8cbe08.png",
   "title": "Messages Filter",
   "translation_url": null,

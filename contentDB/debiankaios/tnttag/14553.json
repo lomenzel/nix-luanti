@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/tnttag/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "TNTTag  is a fast-paced minigame for `arena_lib` where players try to run away from the player holding TNT.\n\n### Gameplay\n\nAt the start of the game, one or more players are chosen at random. These players are forced to carry TNT which will explode soon! Players carrying TNT are called \"taggers\".\n\nAs a tagger, you have to chase any other player and punch them so they have to carry the TNT instead.\n\nWhen the TNT timer reaches 0, it will explode together with the tagger holding. The tagger is eliminated. Once the TNT has gone boom, there's a short pause, then the next \"wave\" begins with new player(s) being chosen at random to become taggers.\n\nPlayers will explode that way, one after another, until only one is left. The last player standing wins the game.\n\n### Setting up\n\nSee the README.md file in the code repository to learn how to set up a TNTTag arena yourself.",
-  "maintainers": [
-    "debiankaios",
-    "Wuzzy"
-  ],
+  "maintainers": ["debiankaios", "Wuzzy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "tnttag",
-  "provides": [
-    "tnttag"
-  ],
+  "provides": ["tnttag"],
   "release": 14553,
   "repo": "https://gitlab.com/zughy-friends-minetest/tnttag",
   "score": 6.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/09664ac504.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/09664ac504.png"],
   "short_description": "A player is holding TNT which is about to explode; they must tag other players to get rid of it",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/09664ac504.png",
   "title": "TNTTag",
   "translation_url": null,
@@ -488,9 +477,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "debiankaios/tnttag": [
@@ -539,9 +526,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ]
   },

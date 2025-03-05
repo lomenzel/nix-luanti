@@ -103,26 +103,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Minetest 5.4 mod: Heli\n========================================\n\nB47 Helicopter\n\nThis is an implementarion for minetest of a simple helicopter using airutils new module\n\nNeeds biofuel mod to refuel and fly\n\nShortcuts:\n\n    right click to enter and access menu\n    punch with dye to paint (left or right, it have 2 colors)\n    forward and backward: controls the movement to front and back\n    left and right: controls the direction\n    jump and sneak: controls the collective -> up and down movement\n\n-----------------------\nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\nCC0\n\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "heli",
-  "provides": [
-    "heli"
-  ],
+  "provides": ["heli"],
   "release": 28672,
   "repo": "https://github.com/APercy/b47_heli",
   "score": 357,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b5fda47ebb.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b5fda47ebb.jpg"],
   "short_description": "Adds a craftable B47 Helicopter",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b5fda47ebb.png",
   "title": "B47 Helicopter",
   "translation_url": null,
@@ -137,10 +128,7 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       }
     ]
   },

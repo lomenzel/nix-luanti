@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/prestidigitator/minetest-mod-prestibags/issues",
   "license": "WTFPL",
   "long_description": "Prestibags are simple bags that act like chests you can pick up. They do not modify the player's normal inventory formspec, so they will not interfere with any mods that do. Here are some of their features:\n\n* Retain their inventory when picked up or unloaded/reloaded by the server.\n* Can be stored in other bags, nested as deeply as you like.\n* Are NOT owned, so any player can open them and pick them up.\n* Are flammable, so don't put them near lava or fire!\n* Fit in spaces with non-solid nodes (e.g. water, torches), but don't build solid stuff on top of them!\n\n\nNote that bags are \"active entities\", although they are non-physical and act in many ways like nodes. This means that the \"/clearobjects\" command will destroy them, and they can potentially take damage from sources other than fire. They will show wear like a tool when taken into inventory if they have taken any damage.",
-  "maintainers": [
-    "prestidigitator"
-  ],
+  "maintainers": ["prestidigitator"],
   "media_license": "WTFPL",
   "name": "prestibags",
-  "provides": [
-    "prestibags"
-  ],
+  "provides": ["prestibags"],
   "release": 2156,
   "repo": "https://github.com/prestidigitator/minetest-mod-prestibags",
   "score": 11.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/wgvXJ67424.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/wgvXJ67424.png"],
   "short_description": "Prestibags are simple bags that act like chests you can pick up.",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/wgvXJ67424.png",
   "title": "Prestibags",
   "translation_url": null,

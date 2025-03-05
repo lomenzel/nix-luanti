@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/moretubes/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Some more tubes!\n\nSome are made for fun and some serves real purposes.\n\n## Decelerating Pneumatic Tube Segment (craftable)\n\nThis type of tube is the opposite of the Accelerating Pneumatic Tube Segment. While Accelerating Pneumatic Tube Segments would increase the speed of item by 1, Decelerating Pneumatic Tube Segments would decrease it by 0.5.\n\n## Eject Tube\n\nThis type of tube will eject items going by in the same direction they went into the tube. This is a neat alternative to dispensers that require mesecon power to eject items out.\n\n## Low Priority Tube Segment (craftable)\n\nThis type of tube is the opposite of the High Priority Tube Segment, where items will choose to try to go to other tube segments before going into this one. This is useful in situations where it's hard to set up High Priority Tube Segments.\n\n## Reversing Tube Segment\n\nThis type of tube will reverse the way items go by. In other words, the tube sends the items back to where they came from.\n\n## One Way Tube, Straight Only Tube, and their variants (craftable)\n\nThese tubes are always straight. One way tubes only alllow items to flow from left to right. Conducting, Digilines and Digilines conducting variants are avaliable.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "moretubes",
-  "provides": [
-    "moretubes"
-  ],
+  "provides": ["moretubes"],
   "release": 25475,
   "repo": "https://github.com/C-C-Minetest-Server/moretubes",
   "score": 180.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/34e3628ab9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/34e3628ab9.png"],
   "short_description": "More fun tubes for Pipeworks",
   "state": "APPROVED",
-  "tags": [
-    "storage",
-    "technology"
-  ],
+  "tags": ["storage", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/34e3628ab9.png",
   "title": "Moretubes",
   "translation_url": null,

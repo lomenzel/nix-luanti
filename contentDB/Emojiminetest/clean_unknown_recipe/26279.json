@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/clean_unknown_recipe/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Clean unknown recipes\n\nThis mod cleans all recipes with unknown recipe items / groups, hiding them from craftguides.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "clean_unknown_recipe",
-  "provides": [
-    "clean_unknown_recipe"
-  ],
+  "provides": ["clean_unknown_recipe"],
   "release": 26279,
   "repo": "https://github.com/C-C-Minetest-Server/clean_unknown_recipe",
   "score": 158.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bbfff91686.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bbfff91686.png"],
   "short_description": "Remove recipes referencing to unknown items",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "server_tools",
-    "survival"
-  ],
+  "tags": ["crafting", "server_tools", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bbfff91686.png",
   "title": "Clean unknown recipes",
   "translation_url": null,
@@ -45,10 +35,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/logging": []

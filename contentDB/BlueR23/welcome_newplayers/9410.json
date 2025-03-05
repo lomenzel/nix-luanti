@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/DiamondPlane/welcome_newplayers/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# welcome_newplayers\nMinetest mod that sends a welcome message to new players\n\n![image](https://user-images.githubusercontent.com/69259430/127742159-c9b7f6f9-dd9b-4803-9a75-73240e85cd42.png)\n#\nYou can edit the welcome messages or change the welcome message position (by default it's in HUD), use /welcome_msg, it will show a formspec where you can edit.\n",
-  "maintainers": [
-    "BlueR23"
-  ],
+  "maintainers": ["BlueR23"],
   "media_license": "GPL-3.0-only",
   "name": "welcome_newplayers",
-  "provides": [
-    "welcome_newplayers"
-  ],
+  "provides": ["welcome_newplayers"],
   "release": 9410,
   "repo": "https://github.com/DiamondPlane/welcome_newplayers",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f1e51478bf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f1e51478bf.png"],
   "short_description": "Sends a welcome message to new players",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f1e51478bf.png",
   "title": "Welcome New Players",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/skygrid/issues",
   "license": "MIT",
   "long_description": "Custom skygrid mapgen for Luanti.\n\nAs with all custom Lua mapgens, it overwrites the 'singlenode' mapgen. The node selection is based off the current world seed, but will change if mods containing nodes are enabled/disabled.\n\nIt generates a list of nodes from `core.registered_nodes`, so all mods and games should work with it, including its nodes into the list of potential nodes.",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "skygrid",
-  "provides": [
-    "skygrid"
-  ],
+  "provides": ["skygrid"],
   "release": 29249,
   "repo": "https://github.com/rollerozxa/skygrid",
   "score": 314.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3f11bd233f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3f11bd233f.png"],
   "short_description": "Custom skygrid mapgen.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "survival"
-  ],
+  "tags": ["custom_mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3f11bd233f.png",
   "title": "Skygrid",
   "translation_url": null,

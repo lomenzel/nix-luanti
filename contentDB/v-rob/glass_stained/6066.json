@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/v-rob/glass_stained/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds stained glass of many different fancy designs, making wonderful looking windows.  Each glass type comes in six different shapes that can be partially embedded inside other nodes, like arches or upside-down stairs.  In addition, these shapes also have glass and obsidian glass variants, allowing normal glass to be embedded as well.  Finally, it adds spiked iron railing that makes for great courtyard boundaries.",
-  "maintainers": [
-    "v-rob"
-  ],
+  "maintainers": ["v-rob"],
   "media_license": "CC-BY-SA-3.0",
   "name": "glass_stained",
-  "provides": [
-    "glass_stained"
-  ],
+  "provides": ["glass_stained"],
   "release": 6066,
   "repo": "https://github.com/v-rob/glass_stained",
   "score": 329.4,
@@ -322,9 +316,7 @@
   ],
   "short_description": "Adds fancy and highly adaptable stained glass and spiked iron railing.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GRGRovTgBb.png",
   "title": "Fancy Stained Glass",
   "translation_url": null,

@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Living Grass\n=====\nThe default grass doesn't change once it's spawned into the world. This mod makes grass grow, dry out, regrow, and die.\n\nIt makes worlds feel more alive, since the grass will change over time.\n\nAuthor of source code\n-----\nWritten by karlexceed (LGPL-2.1-or-later)",
-  "maintainers": [
-    "karlexceed"
-  ],
+  "maintainers": ["karlexceed"],
   "media_license": "LGPL-2.1-or-later",
   "name": "living_grass",
-  "provides": [
-    "living_grass"
-  ],
+  "provides": ["living_grass"],
   "release": 29668,
   "repo": "https://github.com/karlexceed/living_grass",
   "score": 157.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a547457e67.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a547457e67.png"],
   "short_description": "Adds a simple lifecycle to grass",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a547457e67.png",
   "title": "Living Grass",
   "translation_url": null,

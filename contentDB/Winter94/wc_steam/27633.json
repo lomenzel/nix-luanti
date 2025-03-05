@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/wc_steam/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# wc_steam\nA revitalized nc_steam, with slightly better performance.\nAdds steam and basic steam behavior to NodeCore\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "wc_steam",
-  "provides": [
-    "wc_steam"
-  ],
+  "provides": ["wc_steam"],
   "release": 27633,
   "repo": "https://github.com/wintersknight94/wc_steam",
   "score": 7.7,
@@ -55,10 +51,7 @@
   ],
   "short_description": "Adds Steam & Basic Steam Behavior To NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "technology"
-  ],
+  "tags": ["environment", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2563c1d5d7.png",
   "title": "NodeCore Steam: Resurrected",
   "translation_url": null,
@@ -72,26 +65,17 @@
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

@@ -11,9 +11,7 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/Glitch/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Glitch\n\nA singleplayer platformer game created for the 2022 Minetest Game Jam by Wuzzy.\n\nYou’re One, a bit who’s lost in cyberspace after a mysterious distortion interrupts a typical data transmission. Can you figure out what caused this and get back on track?\n\nExplore the System, collect electrons to unlock new sectors, learn new abilities to become more powerful and maybe you will find the path to your true destination.\n\n## Basic controls\n\n* Move mouse: Look around\n* Place key [right mouse click]: Interact with beings\n* Movement keys [WASD]: Slide on flat ground and small slopes\n* Aux1 key [E]: Use gateway (hold key pressed)\n* Inventory key [I]: Show your electrons and abilities\n\nYou will learn more abilities along the way. Check the tooltips in your inventory for a reminder.\n\nYou can change the music volume with a setting in Luanti.\n\n## Version history\n\nSee [`README.md`](https://codeberg.org/Wuzzy/Glitch/src/branch/master/README.md).\n\n## Credits\n\n* Idea, design, coding, graphics, sounds effects, story and testing by Wuzzy (2022).\n* Music by Visager (2016).\n* Translations by various people (see [`README.md`](https://codeberg.org/Wuzzy/Glitch/src/branch/master/README.md))\n\n(Detailed credits and license notes in [`README.md`](https://codeberg.org/Wuzzy/Glitch/src/branch/master/README.md))",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-4.0",
   "name": "glitch",
   "provides": [
@@ -54,11 +52,7 @@
   ],
   "short_description": "You’re lost in cyberspace. Collect electrons, unlock new sectors and find your destination",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "pve",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2022", "pve", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f8309307c6.png",
   "title": "Glitch",
   "translation_url": "https://translate.codeberg.org/projects/glitch/",

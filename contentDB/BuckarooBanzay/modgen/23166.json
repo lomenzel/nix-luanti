@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/modgen/issues",
   "license": "MIT",
   "long_description": "modgen mod for minetest\n\n# Overview\n\nAllows you to export a part of the map as a standalone mod which can be used as a mapgen\n\nApi docs: https://buckaroobanzay.github.io/modgen/\n\nManual: https://github.com/BuckarooBanzay/modgen\n\n**Note**: if you want better separation of code (mod) and data (world-data) you might want to use the [mapsync](https://content.minetest.net/packages/BuckarooBanzay/mapsync/) mod instead.\n\n# Commands\n\n* `/pos1`, `/pos2` Set opposite corners of the export map\n* `/export [fast]` Exports the map as a standalone mod into `${worldfolder}/modgen_mod_export`\n* `/autosave [on|off]` enables autosave feature\n\n# In-place saving\n\nAfter an initial mod-export the resulting mod can be edited live and in-place\nif the `modgen` mod is also present (optional).\n\nTo enable the saving directly into the exported mod you have to add it to the \"trusted_mods\" setting:\n\n```\nsecure.trusted_mods = modgen\n```\n\nAfterwards if you mark a region and execute `/export` the mapblocks are written to the exported mod itself\n\n# License\n\nMIT",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "modgen",
-  "provides": [
-    "modgen"
-  ],
+  "provides": ["modgen"],
   "release": 23166,
   "repo": "https://github.com/BuckarooBanzay/modgen",
   "score": 771,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c4196bacd5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c4196bacd5.png"],
   "short_description": "mapgen mod creator",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "mapgen",
-    "storage",
-    "world_tools"
-  ],
+  "tags": ["developer_tools", "mapgen", "storage", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c4196bacd5.png",
   "title": "Modgen",
   "translation_url": null,

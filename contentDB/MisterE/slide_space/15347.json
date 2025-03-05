@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "An object in motion remains in motion unless acted upon by an outside force. In this simple puzzle game, choose your direction by the direction you look, and then press space to go. Climb through the void to your ship by solving each puzzle. \n\nUse `/go <level_number>` to teleport to levels you have already unlocked.\n\nUse `[E]` to restart a level.\n\nI saw this idea for a game ... somewhere",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "slide_space",
   "provides": [
@@ -25,16 +23,10 @@
   "release": 15347,
   "repo": "https://gitlab.com/mistere123.coding/slide_space",
   "score": 1098.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2f16b29e47.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2f16b29e47.png"],
   "short_description": "Choose your direction wisely. A simple puzzle game.",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2022", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2f16b29e47.png",
   "title": "SlideSpace",
   "translation_url": null,

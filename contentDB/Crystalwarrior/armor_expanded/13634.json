@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,29 +390,17 @@
   "issue_tracker": "https://github.com/Crystalwarrior/armor_expanded/issues",
   "license": "MIT",
   "long_description": "# armor_expanded\nExpanded armors for the 3D Armors Minetest mod.\n\nCurrently, it introduces 2 early game armors: Woven Armor and Leather Armor. You can enable or disable any armor you want as it's structured like a modpack! More armors may be added in the future.\n\n## Woven Armor\nEspecially useful if you don't want to play with wooden/cactus armor, it's a great starter armor to give you *some* protection.\n\nTo craft, use the normal armor crafting recipe with anything belonging to `group:grass` (basically most default MTG grass will work).\n\n| Piece     | Durability| Level | Heal |Damage Groups |\n| --------- | --------- | ----- | ---- | ------------- |\n| Helmet    | 26 Hits   | 3     | 0    | cracky=3, snappy=2, choppy=3, crumbly=2 |\n| Chestplate| 26 Hits   | 8     | 0    | cracky=3, snappy=2, choppy=3, crumbly=2 |\n| Leggings  | 26 Hits   | 8     | 0    | cracky=3, snappy=2, choppy=3, crumbly=2 |\n| Boots     | 26 Hits   | 3     | 0    | cracky=3, snappy=2, choppy=3, crumbly=2 |\n\n## Leather Armor\nGood upgrade after Woven, Wooden or Cactus armor. Same durability as Steel armor but slightly worse in level, great for when you haven't found steel yet or for above-ground adventurers who don't mine.\n\nTo craft, use the normal armor crafting recipe with `group:leather` (\"leather\" items, accessible through [mobs redo](https://content.minetest.net/packages/TenPlus1/mobs/) mods or [Animalia](https://content.minetest.net/packages/ElCeejo/animalia/)).\n\n| Piece     | Durability| Level | Heal |Damage Groups |\n| --------- | --------- | ----- | ---- | ------------- |\n| Helmet    | 82 Hits   | 7     | 0    | cracky=3, snappy=2, choppy=2, crumbly=2 |\n| Chestplate| 82 Hits   | 12    | 0    | cracky=3, snappy=2, choppy=2, crumbly=2 |\n| Leggings  | 82 Hits   | 12    | 0    | cracky=3, snappy=2, choppy=2, crumbly=2 |\n| Boots     | 82 Hits   | 7     | 0    | cracky=3, snappy=2, choppy=2, crumbly=2 |\n",
-  "maintainers": [
-    "Crystalwarrior"
-  ],
+  "maintainers": ["Crystalwarrior"],
   "media_license": "CC-BY-SA-3.0",
   "name": "armor_expanded",
-  "provides": [
-    "armor_leather",
-    "armor_woven"
-  ],
+  "provides": ["armor_leather", "armor_woven"],
   "release": 13634,
   "repo": "https://github.com/Crystalwarrior/armor_expanded.git",
   "score": 25.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8ecca32c1e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8ecca32c1e.png"],
   "short_description": "Expanded armors for 3d armors",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8ecca32c1e.png",
   "title": "Armor Expanded",
   "translation_url": null,

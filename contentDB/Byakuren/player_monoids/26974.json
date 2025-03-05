@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/player_monoids/issues/",
   "license": "Apache-2.0",
   "long_description": "",
-  "maintainers": [
-    "Byakuren"
-  ],
+  "maintainers": ["Byakuren"],
   "media_license": "Apache-2.0",
   "name": "player_monoids",
-  "provides": [
-    "player_monoids"
-  ],
+  "provides": ["player_monoids"],
   "release": 26974,
   "repo": "https://github.com/minetest-mods/player_monoids",
   "score": 242.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/72cf5857bf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/72cf5857bf.png"],
   "short_description": "player_monoids is a library for managing global player state, such as physicsoverrides or player visual size.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/72cf5857bf.png",
   "title": "Player Monoids",
   "translation_url": null,

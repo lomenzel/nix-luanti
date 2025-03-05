@@ -38,14 +38,10 @@
   "issue_tracker": "https://codeberg.org/usrib/emeraldbank/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# Emerald Bank (MineClonia)\n\nCode under [AGPLv3-or-later](https://www.gnu.org/licenses/agpl-3.0.html) License\n\nEmeraldBank Mod is [Libre/Free Software](https://www.gnu.org/philosophy/free-sw.html), copy and share.\n\n[This is not open source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)!\n\n## Bank\n\nKeep your Emeralds in a bank!\n\nWhy Emeralds? In MineClonia the emerald is money to trade with villagers!\n\nMultiplayer support!\n\nAdd a crafteable Emerald bank node.\n\nWorks like gpcf's ATMs but with Emeralds!\n\nRightclick on bank open the bank interface, where you can deposit or withdraw your Emeralds.\n\nYou can transfer money to other players in Bank interface.\n\n## Shops?\n\nWhat has happened to my emerald shops?\n\n**This mod has been split into three**, now emeraldbank mod only focuses on the emerald bank and the **economy API**, the shops have been separated in the [emerald fancy_vend mod](https://codeberg.org/usrib/fancy_vend) and [emeraldshop mod](https://content.minetest.net/packages/NathanielFreeman/emeraldshop/)\n\n## Commands\n\nUser /pay command. Pay emeralds to another player:\n\n```\n/pay <player> <num>\n```\n\nUser /money command. Show you the emeralds in your bank account in the chat.\n\n```\n/money\n```\n\nEmeraldBank mod also include a variety of tools for server administrators.\n\n**Admin Emerald command**\nAdmin command to add emeralds in bank accounts:\n\n```\n/emeralds <player> <num>\n```\n\nAdd `<num>` emeralds to `<player>` account.\n\nIf num is 0 return emeralds in player account.\n\n## More Info\n\nThis mod is for [MineClonia](https://content.minetest.net/packages/ryvnf/mineclonia/) or [VoxeLibre](https://content.minetest.net/packages/Wuzzy/mineclone2/) Games, dont work with MTG\n\nFeel free to contribute, send MR/PR or issues.\n\n## Forum thread:\n\nhttps://forum.gnuhacker.org/d/4-minetest-mod-emeraldbank",
-  "maintainers": [
-    "NathanielFreeman"
-  ],
+  "maintainers": ["NathanielFreeman"],
   "media_license": "CC0-1.0",
   "name": "emeraldbank",
-  "provides": [
-    "emeraldbank"
-  ],
+  "provides": ["emeraldbank"],
   "release": 29490,
   "repo": "https://codeberg.org/usrib/emeraldbank.git",
   "score": -123.7,
@@ -55,13 +51,7 @@
   ],
   "short_description": "Keep your Emeralds in a Bank, a complete economy API",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "library",
-    "simulation",
-    "storage",
-    "survival"
-  ],
+  "tags": ["commerce", "library", "simulation", "storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bbe17a4e5d.png",
   "title": "Emerald Bank (MineClonia)",
   "translation_url": null,

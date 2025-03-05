@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Lemente/tidesandfloods/issues",
   "license": "MIT",
   "long_description": "# tides & floods - Work in Progress\n\n# Disclaimers\nThis mod is not actively being worked on, and multiple features are broken.\n\nIt replaces all the default water with custom water nodes.\nRemoving the mod will cause these nodes to become unknown nodes.\nThe water nodes from the mod are not compatible with the buckets, or any mechanics involving default:water.\nHence this mod is not recommanded in a survival world.\n\n# How to use\n\nIn its current state, the tide level has to be changed with the /sealevel [height] command.\nRaising or lowering the sea level by more than one node is possible, but not necessarily the goal of the mod.\n\n# Goal\n\nThe goal of this mod is to make simulation of water level rising and lowering in realtime in a visually pleasant way.\nIt uses multiple liquid nodes :\n\n- seawater : the main water node that fills the ocean. Doesn't contain any ABM.\n\n- shorewater : a node generated where the sea meets the land. It contains a slow ABM that will start the receding tide process\n\n- offshorewater : a node generated at the surface, at every cmapblock corner. It uses a slow ABM too trigger rising tides starting at the edge of the map (when it neighbours a \"ignore\" node)\n\n- waves : a flowing liquid node with a fast ABM that takes care of everything inbetween and disappear once it is finished.\n\nSome of those nodes contain an LBM so loading mapblocks will \"catchup\" instantaneously to to current sea level\n\n\n# ~~To~~ *Won't* Do\n(any help or advice ~~will be~~ *would still be* greatly appreciated!)\n\n## high-priority\n- replace water during terrain gen (still keep LBMs as an option to support already loaded worlds)\n- re-implement filling \"pools\" that stays filled at low tide\n## low priority\n- fixe shorewater forming around vegetation\n- fixe shorewater lines forming with LBMs\n## next\n- re-implement naturally occurring tides\n- load visible mapblock once to update their tide levels (avoid messy looking horizon)\n- add plantmatter layer node\n- make plants turn into plantmatter layer, make it float, react to moving water, deposit as wrack lines\n- or turn plants into items\n- trigger falling lilypads/float group\n## later/maybe\n- tweak texture colors\n- make all water nodes work with the bucket\n- create new seawater node not affected by tides\n- add sound\n- add mechanic to allow formation of pockets of air in coastal caves\n- make game agnostic?\n- add tidal currents/water currents?\n- improve river connections?\n- settingtype option for tidal range, supertide events, water continuously rising, speed\n\n# Futur plans\n\n- adapt mod for lava and eruptions\n- make it work with dynamic liquid?",
-  "maintainers": [
-    "Lemente"
-  ],
+  "maintainers": ["Lemente"],
   "media_license": "CC0-1.0",
   "name": "tidesandfloods",
-  "provides": [
-    "tidesandfloods"
-  ],
+  "provides": ["tidesandfloods"],
   "release": 26338,
   "repo": "https://github.com/Lemente/tidesandfloods",
   "score": 150,
@@ -448,10 +442,7 @@
   ],
   "short_description": "[WIP] [Warning: read full description] Adds the /sealevel command to rise/lower the sealevel.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "environment"
-  ],
+  "tags": ["creative", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/46d19d2918.png",
   "title": "tides & floods",
   "translation_url": null,

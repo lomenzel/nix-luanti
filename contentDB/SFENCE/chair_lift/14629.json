@@ -103,14 +103,10 @@
   "issue_tracker": "https://github.com/sfence/chair_lift/issues",
   "license": "MIT",
   "long_description": "Chair lift\n=======\n\nThis mod add buildable and craftable chair lift into the minetest world.\n\nChair lift is powered by shaft from power_generators mod.\n\nTIPS: Use gearbox, grease parts (hemp oil), check grease with inspect tool, combine more engines...",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "chair_lift",
-  "provides": [
-    "chair_lift"
-  ],
+  "provides": ["chair_lift"],
   "release": 14629,
   "repo": "https://github.com/sfence/chair_lift",
   "score": 9.2,
@@ -122,11 +118,7 @@
   ],
   "short_description": "Add craftable and usable chair lift. TIPS: Use gearbox, grease parts (hemp oil), check grease with inspect tool, combine more engines...",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology",
-    "transport"
-  ],
+  "tags": ["building", "technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7db4e84e8a.png",
   "title": "Chair lift",
   "translation_url": null,
@@ -142,58 +134,42 @@
       {
         "is_optional": false,
         "name": "adaptation_hades_revisited",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farlands_reloaded",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_technic",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "power_generators",
-        "packages": [
-          "SFENCE/power_generators"
-        ]
+        "packages": ["SFENCE/power_generators"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mineclone",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_lib",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_basic_materials",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
@@ -212,39 +188,29 @@
       {
         "is_optional": false,
         "name": "adaptation_minetest_game",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       }
     ],
     "SFENCE/power_generators": [
       {
         "is_optional": false,
         "name": "adaptation_technic",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_lib",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_minetest_game",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mesecons",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
@@ -272,79 +238,57 @@
       {
         "is_optional": false,
         "name": "adaptation_basic_materials",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_elepower",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_techage",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farming_redo",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_biofuel",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_rubber",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mineclone",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farlands_reloaded",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
         "name": "adaptation_pipeworks",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_hades_revisited",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       }
     ],
     "mt-mods/basic_materials": [

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,26 +260,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Makes it so that you can eat Horsetails from the PaleoTest mod.\nThis is realy helpful when exploring caves.\nRecomended to all Players who use PaleoTest!",
-  "maintainers": [
-    "TX_Miner"
-  ],
+  "maintainers": ["TX_Miner"],
   "media_license": "MIT",
   "name": "horsetail_addon",
-  "provides": [
-    "horsetail_addon"
-  ],
+  "provides": ["horsetail_addon"],
   "release": 22255,
   "repo": null,
   "score": 9.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d2fc1c7487.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d2fc1c7487.png"],
   "short_description": "Lets you eat Horsetails from Paleotest. Very helpful in caves!!!",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming"
-  ],
+  "tags": ["food", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d2fc1c7487.png",
   "title": "Horsetail++",
   "translation_url": null,
@@ -321,10 +310,7 @@
       {
         "is_optional": false,
         "name": "mob_core",
-        "packages": [
-          "talas/colourhop",
-          "mt-mods/mob_core"
-        ]
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
       },
       {
         "is_optional": false,
@@ -425,9 +411,7 @@
       {
         "is_optional": false,
         "name": "paleotest",
-        "packages": [
-          "ElCeejo/paleotest"
-        ]
+        "packages": ["ElCeejo/paleotest"]
       },
       {
         "is_optional": false,

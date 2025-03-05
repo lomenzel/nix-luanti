@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# mcl_chameleon_creeper\n\nAdapts the color of the mineclonia creeper to the grass color of the biome it currently resides in.\n\nAfter an idea from @erlehmann\n\n## Options\nBy default creepers will simply be tinted according to the grass color of the biome they are in.\n\nFor advanced difficulty, if you enable the \"Super Chameleon Creeper\" setting they will be colored using the texture of the node they are standing on.\n\n## Media Credits\n * Creeper texture desaturated mineclonia creeper texture which in turn comes from PixelPerfection TexturePack (https://www.planetminecraft.com/texture_pack/131pixel-perfection/)\n",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mcl_chameleon_creeper",
-  "provides": [
-    "mcl_chameleon_creeper"
-  ],
+  "provides": ["mcl_chameleon_creeper"],
   "release": 25627,
   "repo": "https://codeberg.org/cora/mcl_chameleon_creeper.git",
   "score": 163.1,
@@ -56,9 +52,7 @@
   ],
   "short_description": "Creeper adapts color to the biome it is currently in",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dc91568d28.png",
   "title": "Mineclonia Chameleon Creeper",
   "translation_url": null,

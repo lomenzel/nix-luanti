@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Beanzilla/chest2/issues",
   "license": "MIT",
   "long_description": "# Chest2\n\nThe Advanced Chest mod\n\n## What's in the box\n\n- A chest (single node, but unlike all other chests, somewhat larger inventory size, but gains paging, so you get multiple inventories in 1 chest)\n- Simple to use features\n- Settings by `minetest.conf`\n- A remote (Access your Chest2 chests via remote) \\*\n\n\\* **Remote is a WIP feature**, and currently works within 10 blocks from the chest.\n\n## How the `chest2:chest` differs from say `default:chest`?\n\nWhile a standard chest requires you to make keys for others to access it too, Chest2 simply requires the `Members` setting and 1 player name per line (that's `bob123` or `tv_frank` but one on each line, then click Save)\n\nWhile a standard chest is 8x3 the Chest2 is 12x5 not to mention Chest2 supports multiple pages (which are seperate inventories, so 12x5 times each page)\n\nWhile there is no way to remotely access a standard chest, Chest2 comes with a Remote, just punch a `chest2:chest` with the remote to connect it to that Chest, then from there punch (left click), use (right click) to access that chest from anywhere in the world (unlimited distance included).\n\n> Note, the remote will reset to a unconnected remote if it looses connection/i.e. someone broke the chest/moved the chest. (When the mod refers to chest it refers to `chest2:chest`)\n\n## Settings\n\nThis mod comes with almost full customization from crafting a remote, to crafting a `chest2:chest`, even the number of pages in a `chest2:chest`.\n\nJust run this mod, (it auto-generates the settings into your `minetest.conf`),\nthen edit `minetest.conf` or for singleplayer worlds change it via Minetest Settings (under the Mods section will be Chest2)\n\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "MIT",
   "name": "chest2",
-  "provides": [
-    "chest2"
-  ],
+  "provides": ["chest2"],
   "release": 11546,
   "repo": "https://github.com/Beanzilla/chest2",
   "score": 5.4,
@@ -55,9 +51,7 @@
   ],
   "short_description": "The Advanced Chest",
   "state": "APPROVED",
-  "tags": [
-    "storage"
-  ],
+  "tags": ["storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4ef9f834dd.png",
   "title": "Chest2",
   "translation_url": null,

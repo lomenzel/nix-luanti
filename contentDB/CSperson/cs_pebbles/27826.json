@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "A very simple mod with pebbles, sticks, and other natural detritus. Doesn't do anything with them aside from registration though. Intended to be part of a larger game, where they can be used as a way to make a crude axe or something, to avoid \"tree punching\".  I'll probably make a game of my own using this, but anyone else making a game can do so as well. If you're not a developer though, these items can as is be placed in a world, if you really just need them for decoration.\n\nNOTE: I will update this. Right now it only has pebbles and sticks. The scope has shifted slightly, I'll need to actually do some things to get this how I want it though.",
-  "maintainers": [
-    "CSperson"
-  ],
+  "maintainers": ["CSperson"],
   "media_license": "CC0-1.0",
   "name": "cs_pebbles",
-  "provides": [
-    "cs_pebbles"
-  ],
+  "provides": ["cs_pebbles"],
   "release": 27826,
   "repo": null,
   "score": 2.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/125d95b887.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/125d95b887.png"],
   "short_description": "A very simple mod that adds natural detritus. Doesn't do much besides that.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "survival"
-  ],
+  "tags": ["environment", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/125d95b887.png",
   "title": "CSperson's Simple Pebbles",
   "translation_url": null,

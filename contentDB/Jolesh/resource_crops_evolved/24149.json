@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/jolesh/resource_crops_evolved/issues",
   "license": "CC0-1.0",
   "long_description": "# Resource_Crops_Evolved\nThis mod only adds a few recipes. Credit for the main mod goes to [Resource Crops](https://content.minetest.net/packages/TwigGlenn4/resource_crops/) by [TwigGlenn4](https://content.minetest.net/users/TwigGlenn4/)",
-  "maintainers": [
-    "Jolesh"
-  ],
+  "maintainers": ["Jolesh"],
   "media_license": "CC0-1.0",
   "name": "resource_crops_evolved",
-  "provides": [
-    "resource_crops_evolved"
-  ],
+  "provides": ["resource_crops_evolved"],
   "release": 24149,
   "repo": "https://github.com/jolesh/resource_crops_evolved",
   "score": 3.9,
@@ -45,12 +41,7 @@
   ],
   "short_description": "Adds new recipes for Resource Crops to make a progression through them possible",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "magic",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["crafting", "magic", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/172b299041.png",
   "title": "Resource Crops Evolved",
   "translation_url": null,
@@ -64,9 +55,7 @@
       {
         "is_optional": false,
         "name": "resource_crops",
-        "packages": [
-          "TwigGlenn4/resource_crops"
-        ]
+        "packages": ["TwigGlenn4/resource_crops"]
       },
       {
         "is_optional": false,

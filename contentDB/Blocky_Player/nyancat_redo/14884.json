@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-3.0",
   "long_description": "Adds sugar, Nyan lazer and Nyan soda! Drink and kill with nyan!",
-  "maintainers": [
-    "Blocky_Player"
-  ],
+  "maintainers": ["Blocky_Player"],
   "media_license": "CC-BY-SA-3.0",
   "name": "nyancat_redo",
-  "provides": [
-    "nyancat_redo"
-  ],
+  "provides": ["nyancat_redo"],
   "release": 14884,
   "repo": null,
   "score": 4.3,
@@ -55,12 +51,7 @@
   ],
   "short_description": "nyan lazer, nyan soda and sugar. What's not to love?",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "decorative",
-    "food",
-    "survival"
-  ],
+  "tags": ["april_fools", "decorative", "food", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/59b2fdaabe.png",
   "title": "Nyan Cat Redo",
   "translation_url": null,
@@ -74,19 +65,12 @@
       {
         "is_optional": false,
         "name": "nyancat",
-        "packages": [
-          "1248/regnum",
-          "1248/regnum2",
-          "1248/labyrinthus"
-        ]
+        "packages": ["1248/regnum", "1248/regnum2", "1248/labyrinthus"]
       },
       {
         "is_optional": false,
         "name": "rainbow_ore",
-        "packages": [
-          "hilol/epic_combat",
-          "KingSmarty/rainbow_ore"
-        ]
+        "packages": ["hilol/epic_combat", "KingSmarty/rainbow_ore"]
       },
       {
         "is_optional": false,

@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/rollerozxa/upscaled_gtex/issues",
   "license": "MIT",
   "long_description": "Make node textures span across several nodes using global textures.\n\nBy default the scale is 4, which makes a 16x16 texture span across 4x4 nodes. You could also try a scale of 16, which will span it across 16x16 nodes, one pixel on each node.\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "upscaled_gtex",
-  "provides": [
-    "upscaled_gtex"
-  ],
+  "provides": ["upscaled_gtex"],
   "release": 18457,
   "repo": "https://github.com/rollerozxa/upscaled_gtex",
   "score": 458,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Make node textures span across several nodes using global textures.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d64a9363e3.png",
   "title": "Upscaled Global Textures",
   "translation_url": null,

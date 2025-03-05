@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/wc_vulcan_improved/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# Nodecore Vulcan Improved\nThe new and improved version of NC Vulcan. \nNot a port but based heavily on the voxelmanip code from 'Magma Conduits' by Facedeer.\nChanges pumwater generation to be more realistic, including pumwater conduits, volcanoes, hydrothermal vents on the seafloor, and more!\n#Improvements over my old 'nc_vulcan':\n- changed vulcanization nodes to groups\n- added 'pumcrete', ('scoria' if wc_strata installed), a new concrete type!\n- more stone covering around pumwater conduits to reduce abm bogging\n- merged functionality from \"PumMINE\", toggleable by setting\n- made hydrothermal vents toggleable by setting\n- made vulcanization effects toggleable by setting\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-or-later",
   "name": "wc_vulcan",
-  "provides": [
-    "wc_vulcan"
-  ],
+  "provides": ["wc_vulcan"],
   "release": 27871,
   "repo": "https://github.com/wintersknight94/wc_vulcan_improved",
   "score": 6.6,
@@ -56,11 +52,7 @@
   ],
   "short_description": "Improved version of nc_vulcan.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "pve"
-  ],
+  "tags": ["environment", "mapgen", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/603ed5b909.png",
   "title": "Nodecore Vulcan Improved",
   "translation_url": null,
@@ -74,98 +66,62 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_flora",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_doors",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

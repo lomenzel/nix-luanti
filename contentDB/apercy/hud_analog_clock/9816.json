@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/APercy/hud_analog_clock/issues/new/choose/",
   "license": "MIT",
   "long_description": "# An analogic clock to Minetest HUD\n\nIt just adds an analogic clock in the upper left corner of the player's screen, indicating the time of day in the game.",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "MIT",
   "name": "hud_analog_clock",
-  "provides": [
-    "hud_analog_clock"
-  ],
+  "provides": ["hud_analog_clock"],
   "release": 9816,
   "repo": "https://github.com/APercy/hud_analog_clock",
   "score": 167.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7e93659766.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7e93659766.png"],
   "short_description": "Adds an analogic clock to hud",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7e93659766.png",
   "title": "HUD Analogic Clock",
   "translation_url": null,

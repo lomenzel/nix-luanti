@@ -11,26 +11,17 @@
   "issue_tracker": "https://gitlab.com/xenonca/limited_lives/-/issues",
   "license": "MIT",
   "long_description": "# Description\nLimits the times players can die. Exceeding the limit will cause them to turn into a ghost or ban them.\nYou can define how many times a player will be able to respawn after dying and whether they will be completely excluded from the game (banned) or just turn into a ghost (has no interact priv).\n# Commands\nUse `/deaths [<player>]` to check how often you or another player (requires `lim_lives` priv) has died.  \nUse `/reset_deaths [<player>]` to reset your own or another palyer's (requires `lim_lives` priv) deaths.",
-  "maintainers": [
-    "xenonca"
-  ],
+  "maintainers": ["xenonca"],
   "media_license": "CC-BY-SA-4.0",
   "name": "limited_lives",
-  "provides": [
-    "limited_lives"
-  ],
+  "provides": ["limited_lives"],
   "release": 13240,
   "repo": "https://gitlab.com/xenonca/limited_lives",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dc0a452fd0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dc0a452fd0.png"],
   "short_description": "Limits the times players can die.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival"
-  ],
+  "tags": ["player_effects", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dc0a452fd0.png",
   "title": "Limited Lives",
   "translation_url": null,

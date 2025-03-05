@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": "https://github.com/appgurueu/deathlist/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Kill History (`deathlist`)\n\nA mod displaying a colored list of recent kills/deaths and the causes(killer, used item).\n\n## About\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib) and - depending on your configuration - also other mods. If you use the default configuration, it depends on `default` and `fire`.\n**Note: If there are other mods registering `on_punchplayer` or `on_hp_change` handlers, add them to the dependency list to make sure they execute before `deathlist`.**\nLicensed under MIT.\n\n## Screenshot\n\n![Screenshot](https://raw.githubusercontent.com/appgurueu/deathlist/master/screenshot.png)\n\n## API\n\n`deathlist` provides a few internal functions, but the most common way to trigger a custom message is passing a custom type to `set_hp`:\n\n```lua\n-- example, kills player\nplayer:set_hp(0, {\n    -- killer, required\n    killer = {\n        -- name, required\n        name = \"singleplayer\",\n        -- color, optional integer, will be completed if valid playername\n        color = 0xFFFFFF\n    },\n    -- method, required\n    method = {\n        -- image of used method, required\n        image = \"blank.png\",\n        -- name for logging, optional\n        name = \"blank\"\n    }\n    -- victim, optional overrides\n    victim = {\n        -- name, optional\n        name = \"singleplayer\",\n        -- color, optional\n        color = 0xFFFFFF\n    }\n})\n```\n\n## Configuration\n\n### Default Configuration\n\n```json\n{\n  \"max_messages\":5,\n  \"mode\":\"list\",\n  \"autoremove_interval\":30,\n  \"hud_pos\":{\"x\":0.75,\"y\":1},\n  \"hud_base_offset\": {\"x\":0,\"y\":-122},\n  \"enable_environmental\": true,\n  \"enable_unknown\": false,\n  \"enable_forbidden_playernames\": true,\n  \"environmental_reasons\": {\n    \"falling\":{\n      \"name\":\"Falling\",\n      \"color\":{\"r\": 255, \"g\": 255, \"b\":  255},\n      \"method\":\"deathlist_tombstone.png\"\n    },\n    \"unknown\":{\n      \"name\":\"Something\",\n      \"color\":{\"r\": 255, \"g\": 255, \"b\":  255},\n      \"method\":\"deathlist_tombstone.png\"\n    },\n    \"drowning\":{\n      \"color\":{\"r\": 105, \"g\": 201, \"b\":  231},\n      \"method\":\"bubble.png\",\n      \"nodes\": {\n        \"default:water_flowing\" : { \"name\" : \"Water\" }\n      }\n    },\n    \"node_damage\":{\n      \"color\":{\"r\": 255, \"g\": 255, \"b\":  255},\n      \"method\":\"generate\",\n      \"nodes\": {\n        \"default:lava_flowing\" : { \"name\" : \"Lava\", \"color\" : {\"r\": 244, \"g\": 114, \"b\": 9}, \"method\" : \"fire_basic_flame.png\" },\n        \"default:lava_source\" : { \"color\" : {\"r\": 244, \"g\": 114, \"b\": 9}, \"method\" : \"fire_basic_flame.png\" }\n      }\n    }\n  }\n}\n```\n\n### Usage\n\n#### `max_messages`\n\nMaximum amount of messages to be displayed. Number > 0.\n\n#### `mode`\n\nString, either `\"stack\"` or `\"list\"`. Specifies message orientation. A stack means that the most recent message is always on the top, while list means exactly the opposite.\n\n#### `autoremove_interval`\n\nCan be set to `false` or a positive number in seconds. Specifies how often messages are removed despite having enough space left for the purpose of not cluttering the HUD.\n\n#### `hud_pos`\n\nX- and Y-Coordinate, numbers, position on HUD.\n\n#### `hud_base_offset`\n\nX- and Y-Offset, numbers in pixels(?).\n\n#### `enable_environmental`\n\nBoolean, whether to enable environmental reasons inside kill history.\n\n#### `enable_unknown`\n\nBoolean, whether to enable unknown (none of `falling`, `drowning` or `node_damage`) reasons inside kill history.\n\n#### `enable_forbidden_playernames`\n\nBoolean, whether to disallow certain playernames in order to reduce confusion(such as \"Lava\", \"Water\", \"Falling\" or \"Something\")\n\n#### `environmental_reasons`\n\nTable/Dictionairy of possible deaths due to environment.\n\n##### Basic structure of a kill message\n\n* `name` of killing thing, colorized using a `color`(table/dictionairy, r/g/b)\n* `method` used by the killing thing, a texture. If `\"generate\"` is specified and a node is responsible, the node texture will be used.\n\n##### `falling` / `unknown`\n\nPlayer died through falling or an unknown reason; no node responsible. One definition of `name`, `color` and `method`.\n\n##### `drowning` / `node_damage`\n\nPlayer died by drowning node or by taking node damage. A node *must* be responsible.\nUsing the `nodes` table/dictionairy, you can specify overrides for each specific node concerning `name`, `color`, and `method`. If not specified, default values are taken.",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "MIT",
   "name": "deathlist",
-  "provides": [
-    "deathlist"
-  ],
+  "provides": ["deathlist"],
   "release": 15323,
   "repo": "https://github.com/appgurueu/deathlist",
   "score": 7.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/uCcKBhV557.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/uCcKBhV557.png"],
   "short_description": "Adds a kill history",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/uCcKBhV557.png",
   "title": "Kill History",
   "translation_url": null,

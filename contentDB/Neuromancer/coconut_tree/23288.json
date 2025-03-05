@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/coconut_tree/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Adds coconut trees with edible coconuts. Palm leaves can be crafted into thatch that you can build huts with.  Works well with Islands mod https://content.minetest.net/packages/Termos/islands/ by Termos.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-4.0",
   "name": "coconut_tree",
-  "provides": [
-    "coconut_tree"
-  ],
+  "provides": ["coconut_tree"],
   "release": 23288,
   "repo": "https://github.com/Neuromancer56/coconut_tree",
   "score": 8.4,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Adds coconut trees with edible coconuts & thatch blocks",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["decorative", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ce25d21533.png",
   "title": "Coconut Trees",
   "translation_url": null,

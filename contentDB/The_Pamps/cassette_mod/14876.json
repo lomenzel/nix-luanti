@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/ThePamps/opencassettemod/issues/new/choose/",
   "license": "MIT",
   "long_description": "The Pamps - Mod creation (super easy thanks to the jukebox mod API)\nCreamMcGee - Cassette textures\nEMLYN, heliogram and Silencerized - Music\n\nThis mod adds 9 new cassettes that function as music discs for the jukebox mod.\n\nThe Jukebox mod code and api:\n    Copyright (C) 2013 BlockMen blockmen2015@gmail.com\n    Copyright (C) 2015-2016 LNJ lnj.git@gmail.com\n    Copyright (C) 2016 Rui\n\n\n\n",
-  "maintainers": [
-    "The_Pamps"
-  ],
+  "maintainers": ["The_Pamps"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cassette_mod",
-  "provides": [
-    "cassette_mod"
-  ],
+  "provides": ["cassette_mod"],
   "release": 14876,
   "repo": "https://github.com/ThePamps/opencassettemod",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/669af90c19.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/669af90c19.png"],
   "short_description": "Adds jukebox compatible cassettes.",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/669af90c19.png",
   "title": "Cassette Mod",
   "translation_url": null,
@@ -507,9 +497,7 @@
       {
         "is_optional": false,
         "name": "jukebox",
-        "packages": [
-          "LNJ/jukebox"
-        ]
+        "packages": ["LNJ/jukebox"]
       },
       {
         "is_optional": false,

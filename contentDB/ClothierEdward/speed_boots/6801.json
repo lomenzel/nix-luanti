@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://github.com/ClothierEdward/speed_boots-MT-Mod/issues/new/choose/",
   "license": "MIT",
   "long_description": "This mod adds a new pair of boots to Minetest Game called the Boots of Swiftness. The Boots of Swiftness are made using Silk (a new material made out of cotton). The speed_boots is a helpful mod to add if you want a good form of mobility in the form of a cheap piece of armor.",
-  "maintainers": [
-    "ClothierEdward"
-  ],
+  "maintainers": ["ClothierEdward"],
   "media_license": "CC-BY-SA-4.0",
   "name": "speed_boots",
-  "provides": [
-    "speed_boots"
-  ],
+  "provides": ["speed_boots"],
   "release": 6801,
   "repo": "https://github.com/ClothierEdward/speed_boots-MT-Mod",
   "score": 4,
@@ -396,10 +390,7 @@
   ],
   "short_description": "Adds a new pair of boots called the Boots of Swiftness.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "tools"
-  ],
+  "tags": ["player_effects", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/AcWsEa5SXM.png",
   "title": "Boots of Swiftness Mod",
   "translation_url": null,

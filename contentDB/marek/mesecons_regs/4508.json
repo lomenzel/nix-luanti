@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/deetmit/mesecons_regs/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Adds \n\n* latch D: (data input = left, data output = right, clk = bottom)\n* flip flop D : (data input = left, data output = right, clk = bottom)",
-  "maintainers": [
-    "marek"
-  ],
+  "maintainers": ["marek"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecons_regs",
-  "provides": [
-    "mesecons_regs"
-  ],
+  "provides": ["mesecons_regs"],
   "release": 4508,
   "repo": "https://gitlab.com/deetmit/mesecons_regs.git",
   "score": 9.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/FPIjKpY7xB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/FPIjKpY7xB.png"],
   "short_description": "Adds Latch and Flipflop circuits.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/FPIjKpY7xB.png",
   "title": "Mesecon Register Circuits",
   "translation_url": null,

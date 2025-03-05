@@ -11,28 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Built upon pvp_toggle by Impulse.\nAllow players to set their own ability to hurt or be hurt in PvP, by chat commands or by pressure pads.\nPlayer's nametag colour changes to reflect status. \nPlayers default to pvp off, and in that state they can't be hurt by others.\n\nImportant, If using protectors mod, disable protection against PvP in minetest.conf using protector_pvp = false",
-  "maintainers": [
-    "mike.monkeybiter"
-  ],
+  "maintainers": ["mike.monkeybiter"],
   "media_license": "GPL-3.0-or-later",
   "name": "pvp_control",
-  "provides": [
-    "pvp_control"
-  ],
+  "provides": ["pvp_control"],
   "release": 23261,
   "repo": null,
   "score": 3.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5232f24b90.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5232f24b90.png"],
   "short_description": "Allow players to set their own ability to hurt or be hurt in PvP, by chat command or by pressure pads. Nametag colour changes to reflect status. ",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "player_effects",
-    "pvp"
-  ],
+  "tags": ["chat", "multiplayer", "player_effects", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5232f24b90.png",
   "title": "PvP Control",
   "translation_url": null,

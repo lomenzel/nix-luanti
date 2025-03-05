@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,28 +260,17 @@
   "issue_tracker": "https://github.com/ElCeejo/manny/issues",
   "license": "MIT",
   "long_description": "We were laughing about that reddit post while in a voice call and I thought this would be a funny quick mod to make. I'm sorry.\n\nManny is a Hamster. Manny loves Vinegar and Baking Soda. Don't let your kids use this mod.\n\n### LEGAL DISCLAIMERS:\nIf you install this on a server and give players access to the contents of this mod things will ikely explode (server hardware included)\n\nThere is no hard limit for how much Vinegar and Baking Soda you can give to Manny and therefore there is no set limit to how big the explosion will be. Use common sense. Too big of an explosion can crash the game or worse on lower end hardware.\n\nHave fun!",
-  "maintainers": [
-    "ElCeejo"
-  ],
+  "maintainers": ["ElCeejo"],
   "media_license": "MIT",
   "name": "manny",
-  "provides": [
-    "manny"
-  ],
+  "provides": ["manny"],
   "release": 22902,
   "repo": "https://github.com/ElCeejo/manny",
   "score": 305.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/81c84512d3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/81c84512d3.png"],
   "short_description": "Adds Manny from that one Reddit post.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "mobs",
-    "pve",
-    "tools"
-  ],
+  "tags": ["april_fools", "mobs", "pve", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/81c84512d3.png",
   "title": "Manny",
   "translation_url": null,
@@ -297,9 +284,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -405,10 +390,7 @@
       {
         "is_optional": false,
         "name": "animalia",
-        "packages": [
-          "ElCeejo/animalia",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["ElCeejo/animalia", "EmptyStar/asuna"]
       },
       {
         "is_optional": false,

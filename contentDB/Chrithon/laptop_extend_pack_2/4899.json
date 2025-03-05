@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Chrithon/laptop_extend_pack_2/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Extend Pack for Laptop Mod with 4 computers and a theme.",
-  "maintainers": [
-    "Chrithon"
-  ],
+  "maintainers": ["Chrithon"],
   "media_license": "CC-BY-4.0",
   "name": "laptop_extend_pack_2",
-  "provides": [
-    "laptop_extend_pack_2"
-  ],
+  "provides": ["laptop_extend_pack_2"],
   "release": 4899,
   "repo": "https://github.com/Chrithon/laptop_extend_pack_2",
   "score": 367.4,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Extend Pack for Laptop Mod with 4 computers and a theme.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1QI4NVnTjX.png",
   "title": "Laptop Extend Pack 2",
   "translation_url": null,
@@ -464,10 +456,7 @@
       {
         "is_optional": false,
         "name": "laptop",
-        "packages": [
-          "GamingAssociation39/laptop",
-          "bell07/whynot_game"
-        ]
+        "packages": ["GamingAssociation39/laptop", "bell07/whynot_game"]
       }
     ],
     "GamingAssociation39/laptop": [

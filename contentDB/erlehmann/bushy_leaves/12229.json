@@ -11,25 +11,17 @@
   "issue_tracker": "https://git.minetest.land/erle/bushy_leaves/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod changes leaves to render bushy instead of boxy. I have tested it with Minetest Game, Repixture, NodeCore and Mineclonia, so it should work with MineClone2 or MineClone5.",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "AGPL-3.0-or-later",
   "name": "bushy_leaves",
-  "provides": [
-    "bushy_leaves"
-  ],
+  "provides": ["bushy_leaves"],
   "release": 12229,
   "repo": "https://git.minetest.land/erle/bushy_leaves",
   "score": 482.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0ac1b27d5e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0ac1b27d5e.png"],
   "short_description": "Makes leaves render bushy instead of boxy.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0ac1b27d5e.png",
   "title": "Bushy Leaves",
   "translation_url": null,

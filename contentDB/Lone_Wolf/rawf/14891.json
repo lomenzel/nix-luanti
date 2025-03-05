@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/LoneWolfHT/rawf/issues",
   "license": "MIT",
   "long_description": "A raycast-based ranged weapon framework for Minetest\n\nPrimarily used by CTF https://content.minetest.net/packages/rubenwardy/capturetheflag/",
-  "maintainers": [
-    "Lone_Wolf"
-  ],
+  "maintainers": ["Lone_Wolf"],
   "media_license": "MIT",
   "name": "rawf",
-  "provides": [
-    "rawf"
-  ],
+  "provides": ["rawf"],
   "release": 14891,
   "repo": "https://github.com/LoneWolfHT/rawf",
   "score": 156.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8355c46d9c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8355c46d9c.png"],
   "short_description": "A ranged weapon framework for Minetest",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "shooter",
-    "tools"
-  ],
+  "tags": ["library", "shooter", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8355c46d9c.png",
   "title": "Ranged Weapon Framework (rawf)",
   "translation_url": null,

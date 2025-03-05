@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/phonics_spanish/issues",
   "license": "MIT",
   "long_description": "Spanish by Neuromancer\n\nThe purpose of this mod is to teach people to sound out words and read in Spanish.   Initially it will be used to teach Spanish, but there is no reason it could not be adapted to any language that relates symbols to sounds.   The idea is that there are a certain number of sounds in Spanish, and not an exact match with the characters to represent them,  so we will improvise and invent some new characters so that we have one per sound.   For example \"au\", \"rr\" \"ll\",\"ch\".   By having 1 character represent 1 sound, you have simplified the language and given a beginner an easier way to start to learn how to read.   Reading words then becomes an exercise in sounding out words.\n\nThe best way to teach someone a new skill is to immerse them in it.  This Spanish phonics mod will allow you to immerse new readers in Spanish phonics the same way they are immersed in speech.    By allowing you to easily create page objects and use chat commands to fill them with phonics (type \"/w espa_nol\") you can create massive amounts of phonics for your new reader.   But the cool part is that with Minetest, you are only limited by your imaginations.    Follow the lead of your learner and whatever they are interested in at the moment.  Say they want to play an RPG type game.    Pretend you are an elf or some other magical creature who can't speak and can only communicate by thinking phonics onto magical pages.    These pages are automatically created with mouth blocks which allow the new reader to sound out any word you have typed. The best way to do this is through multiplayer which is easy to set up.  If you do not have 2 computers, then you can still easily create pages beforehand and place them throughout your Minetest world/map beforehand.\n\n\nExisting Functionality:\n--left click the blue blocks and they make phonics sounds and light up.  \n--Place a \"sound out word\" block (the one with a mouth on it) and then build a word by placing the blue blocks next to it.\n--Left Click (punch) the mouth block to hear the word you built sounded out.\n--more advanced readers can use the gray silent letters to have more accurate word spelling\n--punctuation symbols are also included on green blocks\n\nCreate Pages:\n--place a Scroll block (\"StartPage\") on top of a column as high as you want it (try 3 high).    Then in the same row (in any direction, place the Checkered Flag block (\"PageFinish\") on the ground 5 away and 3 down from the Scroll Block.  A blank page is created.\n\nWrite on Pages:\ntype \"/w \" followed by any phrase you want to appear on the page.   Remember to spell based on how the phonics sound, not on how the letters sound.    example: \"/w amarillo\".    Notice how \"ll\" was automatically converted into 1 phonic.  If you want to use silent letters, preceed them with \"0\".   If you want to use ~n, preceed them with \"_\".  example \"/w espa_nol\" gives you \"n\" with a tilde.  example: \"/w aq0ui\" gives you aqui with a silent \"u\".\nClear Page (and re-enable writing to it):\nTo clear a page with writing on it, and to enable it to be written on again, left click (punch) the scroll block at the upper left hand corner of the page.\nRemove Page Blocks:\nDig (Left click with a pickaxe in your hand)  \n\nCrafting Recipes:\nCrafting recipes have been added, so if you spell a word in crafting grid, you get rewarded with objects.  Please let me know if there are specific crafting recipes you want added, as it will take a while even to just add those from minetest_game.\n\nIf you are teaching someone to read, have them try the following games:\n-guess the sound each phonic makes until they know them all.  \n-Give them word endings and have them come up will as many words as they can by placing blocks in front of the endings.  (let them use the mouth block so they can hear the word sounded out).\n-give them words to spell.\n-spell out a word for them and have them read it to you.  If they get stuck, let them sound it out with the mouth block. \n\nSpawn in Stone: You can control how often phonics spawn in stone nodes by going into \"settings\" > \"All Settings\"> \"Content :Mods\" > \"phonics\" and setting the phonics_scarcity setting to a suggested value between 125 & 3500. You can go outside of this range if you like. The smaller the number, the more likely phonic nodes are to spawn in stone. Setting to a value of 0 will make it so no phonics nodes spawn in stone.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC0-1.0",
   "name": "phonics_spanish",
-  "provides": [
-    "phonics_spanish"
-  ],
+  "provides": ["phonics_spanish"],
   "release": 21361,
   "repo": "https://github.com/Neuromancer56/phonics_spanish",
   "score": 151.5,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Learn how to sound out words and read in Spanish",
   "state": "APPROVED",
-  "tags": [
-    "education"
-  ],
+  "tags": ["education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ae1b2dbf7a.png",
   "title": "Spanish Phonics Learn to Read",
   "translation_url": null,
@@ -550,9 +542,7 @@
       {
         "is_optional": false,
         "name": "phonics_lib",
-        "packages": [
-          "Neuromancer/phonics_lib"
-        ]
+        "packages": ["Neuromancer/phonics_lib"]
       }
     ]
   },

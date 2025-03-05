@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://git.0x7be.net/dirk/redef/issues",
   "license": "MIT",
   "long_description": "Changes smaller things that are issues for either [Luanti](https://github.com/minetest/minetest) or [Minetest Game](https://github.com/minetest/minetest_game) that are technically fixable but won’t be fixed due to several non-technical reasons.\n\nAll configuration options are set to values intended by the redefinitions. For changing or disabling the values set the corresponding options to the preferred values or to the value that disables the redefinition.\n\nThe configurations can be set in the  configuration file used for the server, as well as in a world-specific configuration file located at `./worlds/worldname/_redef.conf`. Global settings overwrite the given defaults and world-specific settings overwrite the global settings and defaults.",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "redef",
-  "provides": [
-    "redef"
-  ],
+  "provides": ["redef"],
   "release": 28636,
   "repo": "https://git.0x7be.net/dirk/redef",
   "score": 466,
@@ -453,11 +447,7 @@
   ],
   "short_description": "Changes smaller things that are issues for either Luanti or Minetest Game that are technically fixable but won’t be fixed due to several non-technical reasons.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "mtg"
-  ],
+  "tags": ["building", "environment", "mtg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/DmPgjo77Ej.png",
   "title": "Minor Redefinitions",
   "translation_url": null,

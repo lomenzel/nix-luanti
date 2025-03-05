@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/Andrey2470T/real_elevators/issues",
   "license": "MIT",
   "long_description": "Adds realistic elevators with smooth moving. Currently this adds only one sort of elevator. In future more ones will be added.\n\n## Features:\n* Flexible & dynamic floors net system.\n* Cabin hangs on rope.\n* Smooth moving of elevator cabin from one point to other.\n* Smooth opening/closing doors (outer/inner).\n* Allows to transport all entities (not only players).\n* Support for basic_materials (also luxury_decor in next versions) for crafting.\n\n## How to build elevator shaft?\nRead [README.md](https://github.com/Andrey2470T/real_elevators/blob/master/README.md#how-to-build-elevator-shaft)\n\n## Craft recipes:\nUse crafting guide mod or default one.\n\n## Mod Dependencies:\ndefault, farming, stairs, basic_materials.\n\n## Mod License:\nMIT (Code and media).\n\n## Mod version:\n1.0.1.\n",
-  "maintainers": [
-    "Andrey01"
-  ],
+  "maintainers": ["Andrey01"],
   "media_license": "MIT",
   "name": "real_elevators",
-  "provides": [
-    "real_elevators"
-  ],
+  "provides": ["real_elevators"],
   "release": 12205,
   "repo": "https://github.com/Andrey2470T/real_elevators",
   "score": -150,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5bc4a8973c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5bc4a8973c.png"],
   "short_description": "Adds realistic elevators with smooth moving.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "transport"
-  ],
+  "tags": ["building", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5bc4a8973c.png",
   "title": "Real Elevators",
   "translation_url": null,
@@ -590,18 +579,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

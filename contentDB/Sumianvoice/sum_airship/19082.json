@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Airship\nsum_airship\n\n[Video](https://youtube.com/shorts/rLseuY2unXY?feature=share)\n\nThis adds an airship to minetest_game or mcl2. Not tested on any other games. If it uses `default:steel_ingot` or `mcl_core:iron_ingot` for example, then it should work. It should not crash no matter what game you use though, this is only for the crafting recipes.\nThe dependency on `MTG` or `MCL2` is only for crafting, otherwise the ship it self can still be used just not crafted (because I don't know what your game calls each item / node etc)\n\nFlies like a boat, `WSAD`, `jump` and `aux1` (sprint) for up and down. Shift to dismount. Does not require fuel but will go faster when given any type of coal.\n\n## Crafting (mcl)\nCraftable with wool > canvas and boats > hull. All items: wool: 27, string: 4, wood: 15, iron_ingot: 4\n\n[Crafting Guide GIF](https://codeberg.org/SumianVoice/sum_airship/raw/branch/main/airship%20crafting.gif)\n\n## Air Currents\nThis optionally uses [sum_air_currents](https://content.minetest.net/packages/Sumianvoice/sum_air_currents/) to apply force based on the weather. Both this mod and the air currents mod are in development so expect changes made regularly. ",
-  "maintainers": [
-    "Sumianvoice"
-  ],
+  "maintainers": ["Sumianvoice"],
   "media_license": "CC-BY-4.0",
   "name": "sum_airship",
-  "provides": [
-    "sum_airship"
-  ],
+  "provides": ["sum_airship"],
   "release": 19082,
   "repo": "https://codeberg.org/SumianVoice/sum_airship.git",
   "score": 656.8,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Adds a simple airship for getting around the floatlands. Also optionally uses air currents.",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "technology",
-    "transport"
-  ],
+  "tags": ["survival", "technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f6eab9b357.png",
   "title": "Simple Airship (sum)",
   "translation_url": null,

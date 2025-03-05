@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This adds nodes for dogs and dog fur. They can be crafted with wool.\nMany dogs bark if another dog is next to them or an object such as a player or dropped item is near them. They also make a sound when punched. And they glow.\n\nThe mod is based on Dogzilla131's DogBlocks mod. \nFor more details, please read the forum topic.\n",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "CC-BY-3.0",
   "name": "dogblocks",
-  "provides": [
-    "dogblocks"
-  ],
+  "provides": ["dogblocks"],
   "release": 27443,
   "repo": "https://codeberg.org/HybridDog/dogblocks",
   "score": 157.6,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Cute, adorable dog nodes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mobs",
-    "sound_music"
-  ],
+  "tags": ["building", "mobs", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0643245eac.png",
   "title": "DogBlocks",
   "translation_url": null,

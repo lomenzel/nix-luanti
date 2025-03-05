@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/starninjas/nextgen_compass/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "This mod is simply a conversion of the mcl_compass mod from MineClone2 to work with Minetest Game.\nThe compass will point to the spawnpoint.\nTo craft a compass, put 4 steel ingots in a diamond shape and one mese crystal in the center.\nEnjoy!",
-  "maintainers": [
-    "StarNinjas"
-  ],
+  "maintainers": ["StarNinjas"],
   "media_license": "CC-BY-SA-4.0",
   "name": "nextgen_compass",
-  "provides": [
-    "nextgen_compass"
-  ],
+  "provides": ["nextgen_compass"],
   "release": 9199,
   "repo": "https://github.com/starninjas/nextgen_compass",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a4047af01f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a4047af01f.png"],
   "short_description": "A compass item which points towards the world origin.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a4047af01f.png",
   "title": "Nextgen Compass",
   "translation_url": null,

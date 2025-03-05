@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/Droog71/random_teleport/issues",
   "license": "AGPL-3.0-only",
   "long_description": "Random Teleport (\"/rtp\") allows a user to teleport to a random location in Minetest.\nThis mod is primarily intended for use on multiplayer servers.\nPlayers can use the command to teleport away from the spawn area and find a place to build.\n\nReport bugs or request help on the forum topic or here https://github.com/Droog71/random_teleport/issues",
-  "maintainers": [
-    "Droog71"
-  ],
+  "maintainers": ["Droog71"],
   "media_license": "AGPL-3.0-only",
   "name": "random_teleport",
-  "provides": [
-    "random_teleport"
-  ],
+  "provides": ["random_teleport"],
   "release": 8420,
   "repo": "https://github.com/Droog71/random_teleport",
   "score": 322.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5afc9f8a9e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5afc9f8a9e.png"],
   "short_description": "Allows players to teleport to a random location using the /rtp command.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools",
-    "transport"
-  ],
+  "tags": ["multiplayer", "server_tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5afc9f8a9e.png",
   "title": "Random Teleport",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/extended_protection/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Extended Protection\n\n**This mod does not contain any protection policies. Write your policies in the form of mods.**\n\nThis mod provides extended control over player interaction, i.e. node placement and destruction.\n\nThe API is similar to the built-in `minetest.is_protected` and related functions, see `src/item_place_node.lua` and `src/node_dig.lua` for more information.\n\nExample: <https://github.com/C-C-Minetest-Server/twi_mods/blob/main/func_areas_limitations/init.lua>\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "extended_protection",
-  "provides": [
-    "extended_protection"
-  ],
+  "provides": ["extended_protection"],
   "release": 24873,
   "repo": "https://github.com/C-C-Minetest-Server/extended_protection",
   "score": 2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5b7d625a2c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5b7d625a2c.png"],
   "short_description": "Extended interaction restriction rule",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["library", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5b7d625a2c.png",
   "title": "Extended Protection",
   "translation_url": null,
@@ -45,10 +35,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/logging": []

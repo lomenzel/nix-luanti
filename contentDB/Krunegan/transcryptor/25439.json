@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Krunegan/transcryptor/issues",
   "license": "MIT",
   "long_description": "## TransCryptor\n\nPerform the following conversions:<br>\n1. Text to Binary. <br>\n2. Binary to Text.<br>\n4. Text to Morse.<br>\n5. Morse to Text.<br>\n6. Binary to Morse.<br>\n7. Morse to Binary.\n\n## License\n\n* MIT License (MIT) for the code.",
-  "maintainers": [
-    "Krunegan"
-  ],
+  "maintainers": ["Krunegan"],
   "media_license": "MIT",
   "name": "transcryptor",
-  "provides": [
-    "transcryptor"
-  ],
+  "provides": ["transcryptor"],
   "release": 25439,
   "repo": "https://github.com/Krunegan/transcryptor",
   "score": 2.6,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Text to Binary, Binary to Text, Text to Morse, Morse to Text, Binary to Morse, Morse to Binary.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "gui"
-  ],
+  "tags": ["chat", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fb3bb17c03.png",
   "title": "TransCryptor",
   "translation_url": null,

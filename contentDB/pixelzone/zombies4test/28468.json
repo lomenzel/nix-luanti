@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,14 +443,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "\n---\n#### This is a rework of \"Zombies4Test,\" a mod that adds simple structures with loot and zombies to your world, making it more challenging.\n<br>\n#### Learn more **[here](https://codeberg.org/pixelzone/zombies4test_reload/src/branch/main/README.md)** !\n\n---\n<br>\nBY : DuckGo / PixelZone\t\t<br>\nCREDITS : TenPlus1,Darth_Tiktaalik <br>\n LICENSE : MIT <br>\n TEXTURE :CC BY-SA 4.0 <br>\n  depends = mobs <br>\n optional_depends = visual_harm_1ndicators,rp_crafting\n\n",
-  "maintainers": [
-    "pixelzone"
-  ],
+  "maintainers": ["pixelzone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "zombies4test",
-  "provides": [
-    "zombies4test"
-  ],
+  "provides": ["zombies4test"],
   "release": 28468,
   "repo": "https://codeberg.org/pixelzone/zombies4test_reload",
   "score": 209.1,
@@ -464,11 +456,7 @@
   ],
   "short_description": "Adding zombies, structures and weapons to your world..",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d05e4d385c.png",
   "title": "Zombies4Test ( Reload )",
   "translation_url": null,

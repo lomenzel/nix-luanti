@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/pl608/rand_cool/issues/new/choose/",
   "license": "MIT",
   "long_description": "Produces random ores when flowing lava cools\n## Things to Note:\n1. No real probabilty built in yet. \n2. The only real control over what spawns is how often stone is mixed in (currently every cool has about a 50% chance of being stone and a 50% chance of being a random ore)\n3. Cooled lava source still will simply add obsidian on spawn which is the default setting",
-  "maintainers": [
-    "pl608"
-  ],
+  "maintainers": ["pl608"],
   "media_license": "MIT",
   "name": "random_cool",
-  "provides": [
-    "random_cool"
-  ],
+  "provides": ["random_cool"],
   "release": 17245,
   "repo": "https://github.com/pl608/rand_cool",
   "score": 154.7,
@@ -450,10 +444,7 @@
   ],
   "short_description": "Adds random ores on lava cool",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "survival"
-  ],
+  "tags": ["environment", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3f2dddcb30.png",
   "title": "Random Cool",
   "translation_url": null,

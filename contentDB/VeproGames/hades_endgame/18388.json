@@ -25,28 +25,17 @@
   "issue_tracker": "https://github.com/veprogames/mt-hades-endgame/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Minetest Mod: hades_endgame\n\nAdds lategame stuff to [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited)\n\n* Onyx (worth 2 Diamonds ~ 16 Emeralds)\n* Onyx Pickaxe (better than Prism Pickaxe)\n* Void Pickaxe (better than Onyx Pickaxe)\n* Higher Ore density far down, generation maxes out at Y -28k ([hades_travelnet](https://content.minetest.net/packages/SFENCE/hades_travelnet) recommended)\n* Moister for making efficient Moss farms\n* Revival Item to supress death\n* Grassifier to get grassy landscapes more easily\n\nAssets used are derivatives of assets from [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited) (CC BY-SA 3.0), see [LICENSE_MEDIA](./LICENSE_MEDIA)",
-  "maintainers": [
-    "VeproGames"
-  ],
+  "maintainers": ["VeproGames"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hades_endgame",
-  "provides": [
-    "hades_endgame"
-  ],
+  "provides": ["hades_endgame"],
   "release": 18388,
   "repo": "https://github.com/veprogames/mt-hades-endgame",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e92f711432.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e92f711432.png"],
   "short_description": "Adds various goodies to Hades Revisited, focused on Late/Endgame",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "plants_and_farming",
-    "singleplayer",
-    "tools"
-  ],
+  "tags": ["mapgen", "plants_and_farming", "singleplayer", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e92f711432.png",
   "title": "Hades Endgame",
   "translation_url": null,
@@ -60,30 +49,22 @@
       {
         "is_optional": false,
         "name": "hades_grass",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_vessels",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

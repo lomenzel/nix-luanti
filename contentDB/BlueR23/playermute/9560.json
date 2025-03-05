@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/BrownHedgehog78/playermute/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# Player Mute\n\nThis mod allows you to mute players in minetest.\n\n## Usage:\n#### 1. /p_mute \\<player> - mutes the player.\n#### 2. /p_unmute \\<player> - unmutes the player.\n\n",
-  "maintainers": [
-    "BlueR23"
-  ],
+  "maintainers": ["BlueR23"],
   "media_license": "GPL-3.0-only",
   "name": "playermute",
-  "provides": [
-    "playermute"
-  ],
+  "provides": ["playermute"],
   "release": 9560,
   "repo": "https://github.com/BrownHedgehog78/playermute",
   "score": 2.8,
   "screenshots": [],
   "short_description": "Allows to mute players",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": null,
   "title": "Player Mute",
   "translation_url": null,

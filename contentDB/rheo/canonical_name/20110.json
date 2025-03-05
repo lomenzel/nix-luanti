@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-canonical_name/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# canonical_name\n\nan API to get the proper capitalization of a name. \n\nminetest only allows a single capitalization of a name, but mods generally have no way to figure out whether a string corresponds to a player's name, if it were capitalized properly.\n\n## public API\n\n* `canonical_name.get(name)`\n\n  gets the name's proper capitalization. if the name doesn't correspond to an actual user, returns `nil`.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "canonical_name",
-  "provides": [
-    "canonical_name"
-  ],
+  "provides": ["canonical_name"],
   "release": 20110,
   "repo": "https://github.com/fluxionary/minetest-canonical_name.git",
   "score": 1.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/375468c57b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/375468c57b.png"],
   "short_description": "api to get the proper capitalization of a name",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "multiplayer"
-  ],
+  "tags": ["library", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/375468c57b.png",
   "title": "canonical name",
   "translation_url": null,
@@ -44,10 +35,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/fmod": []

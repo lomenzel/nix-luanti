@@ -90,14 +90,10 @@
   "issue_tracker": "https://github.com/APercy/airutils/issues/new/choose/",
   "license": "MIT",
   "long_description": "# airutils\nAirport Utils for Minetest\n\nAs a lib for flight and painting, now it have basic support for ground effect.\n\nNow MIT licence since version 0.3\n\nThis mod is a lib and offers utilities to be used in airports.\nWe have only 2 items now, but will be expanded as needed.\n\nThe first is PAPI (Precision Approach Path Indicator), to guide you in approaching landings. I recommend this article from wikipedia to understand how it works: https://en.wikipedia.org/wiki/Precision_approach_path_indicator\n\nThe PAPI is usually located on the left-hand side of the runway at right angles to the runway center line, so, if you want to place it at right side, just right click it to invert lights order.\n\n\nThe second, the tug, allows the repositioning of aircraft that may be blocking the runway or taxiways. In my mods only the owner can fly his own plane, so with this tool, if the person owns the area or the area has no owner, it is possible to move the aircraft without the presence of the pilot. Just click to move, and shift + click to rotate in your direction\n\n2022-04-10: added skin support for uniforms. But disabled when skinsdb and armor mods are enabled together, because the skinsdb mod overrides some functions of the armor mod and makes the use of other skins unfeasible. But if one or the other is installed, it will work correctly. The command is /au_uniform\n\n2022-05-31: added 4 parameters to disable \"modern\" tools, so the blimp can fit a fantasy medieaval world\n\n* airutils.disable_papi\n\n* airutils.disable_tug\n\n* airutils.disable_repair\n\n* airutils.disable_uniforms\n\n\n\nMedia license:\nnovaskin textures (identified by prefix file name):\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 as pointed on item 3 at https://forum.novaskin.me/tos from anonymous users\n\nall other files made by myself: CC0-1.0",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "airutils",
-  "provides": [
-    "airutils"
-  ],
+  "provides": ["airutils"],
   "release": 29929,
   "repo": "https://github.com/APercy/airutils",
   "score": 610.8,
@@ -107,10 +103,7 @@
   ],
   "short_description": "A lib for airplanes and some useful tools",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "tools"
-  ],
+  "tags": ["library", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9252a95f02.png",
   "title": "AirUtils",
   "translation_url": null,

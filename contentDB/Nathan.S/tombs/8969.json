@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/NathanSalapat/tombs/issues",
   "license": "GPL-3.0-only",
   "long_description": "If you've ever wanted to honor a fallen friend, or just create a neat cemetery this is the mod for you. There are only two craft recipes, one for the tombstone creator, and one for the chisel. All of the stones are made in the machine with a bones node or tool and the material of your choice.",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC-BY-SA-4.0",
   "name": "tombs",
-  "provides": [
-    "tombs"
-  ],
+  "provides": ["tombs"],
   "release": 8969,
   "repo": "https://github.com/NathanSalapat/tombs",
   "score": 157.7,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds many shapes and styles of tombstones.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nmglz1tkJe.png",
   "title": "Tomb Stones",
   "translation_url": null,

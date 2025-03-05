@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "This mod gives you two *old broken stone brick* nodes with slabs and stairs too, two *old broken stone block* nodes with slabs and stairs too, two old ladders for both the steel and for the wooden one, and it also adds a brand new cobweb!",
-  "maintainers": [
-    "pampogokiraly"
-  ],
+  "maintainers": ["pampogokiraly"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cracked_castle",
-  "provides": [
-    "cracked_castle"
-  ],
+  "provides": ["cracked_castle"],
   "release": 3770,
   "repo": "https://gitlab.com/pampogokiraly/cracked-castle-mod",
   "score": 10.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/X6cRHBQsM4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/X6cRHBQsM4.png"],
   "short_description": "Nodes to help you making an old broken castle!",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/X6cRHBQsM4.png",
   "title": "Cracked Castle",
   "translation_url": null,
@@ -81,18 +73,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

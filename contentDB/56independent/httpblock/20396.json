@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -93,14 +91,10 @@
   "issue_tracker": "https://gitlab.com/56independent/httpblock/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "## Nodes\n### HTTPblock\nThe HTTPBlock takes in a digilines message containing a URL and then returns the content of it. \n\n```\ndigiline_send(\"httpblock\", \"http://example.com/textfile.txt\")\n```\n\nwill return somthing like this:\n\n```\n\n<!doctype html>\n<html>\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href=\"https://www.iana.org/domains/example\">More information...</a></p>\n</div>\n</body>\n</html>\n\n```\n\nThis is a script which returns raw HTML and sends it to a processing block:\n\n```lua\nif event.type ==  \"on\" or event.type == \"program\" then\n    digiline_send(\"httpblock\", \"http://example.com\")\nend\n\nif event.type == \"digiline\" and event.channel == \"lol\" then\n    digiline_send(\"processor\", event.msg)\nend\n```\n\n### Selector\n**Note** This node is not usable; Implementation is mostly done except the actual selecting bit.\n\nThe selector takes in HTML and a selector: \n\n```\ndigiline_send([[\n    <li id='breaking'>Breaking: The server enables the HTTPBlock mod, making the world an IOT device!</li>\n    <li>The boring player does yet another thing</li>\n    <li id='breaking'>The server goes into recession. Sell your houses before they become worthless!</li>}},\n    \"#breaking\"\n)\n```\n\nTo those familiar with Jquery, this returns the same text as `$(\"#breaking\").html()` would.\n\nYou will then recieve a table which contains the contents of all HTML elements which match:\n\n```\n{\n    \"Breaking: The server enables the HTTPBlock mod, making the world an IOT device!\",\n    \"Breaking: The server goes into recession. Sell your houses before they become worthless!\"\n}\n```\n\n### Poster\nSend a table containing the URL and data to post:\n\n```\ndigiline_send(\"poster\", {\n    url = \"thing.com\",\n    data = \"stuff\"\n})\n```\n\nWhen the post request is done, you will recieve the error code. If it's not 200, something's gone wrong.\nContentDB\n## Installation/Setup/Set Up\nInstall like any other mod, but ensure you add this mod to trusted mods or Minetest probably won't let you send HTTP requests.\n\n## Roadmap\nCurrently, the mod only contains the `httpblock:httpblock`. However, there are plans for more complicated blocks now that the Minetest interfacing code is mostly done:\n\nHere are the ones which are 75% the way there but need a little more effort to become stable:\n\n* HTML Query block - give it table containing HTML and a query (like `#id` or `.class`), and it will return the contents of all elements matching the query. (i am currently working on this as we speak)\n* HTTP Posters - sends a post request\n\nAnd here are the hypothetical ones:\n\n* JSON converters - turns JSON into a lua table for use later\n* Image-shower - Takes in images and turns them into a format suitable for use with the digilines screen\n\nThere are also plans for a web-based service to allow Minetest to interface with, allowing for admins to have an API to interface with scripts. For example, the server wiki might have a script scraping the first news item and sending it to endpoint `127.0.0.1/news.txt` for the mod to send to LCD screens across the server.\n\nIn any case, if i don't make these before 2023-10-01, feel free to make them yourself.\n\n## Credits\nThe code and textures are a lightly modified version of the digilines RTC - credit to the devs!\n\n## Beurocracy\nThe license for the code is LGPL and the license for the image is CC0.\n",
-  "maintainers": [
-    "56independent"
-  ],
+  "maintainers": ["56independent"],
   "media_license": "CC0-1.0",
   "name": "httpblock",
-  "provides": [
-    "httpblock"
-  ],
+  "provides": ["httpblock"],
   "release": 20396,
   "repo": "https://gitlab.com/56independent/httpblock",
   "score": 5.8,
@@ -115,9 +109,7 @@
   ],
   "short_description": "This mod adds a simple HTTP request device for digilines.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d6908b4123.png",
   "title": "HTTPBlocks",
   "translation_url": null,

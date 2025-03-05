@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,9 +338,7 @@
   "issue_tracker": "https://github.com/EmptyStar/abdecor/issues",
   "license": "MIT",
   "long_description": "Advanced Biome Decoration Modpack\n=================================\n\nThis modpack contains a collection of biome decorations implemented via the [Advanced Biome Decoration API](https://content.minetest.net/packages/EmptyStar/abdecor/). Each mod in this modpack adds some decoration that cannot be easily achieved or achieved at all with the normal Minetest biome decoration API.\n\nIn addition to the decorations they provide, the mods in this modpack serve as practical working examples of the kind of decorations that can be created with the Advanced Biome Decoration API.\n\nDecorations\n-----------\n\n- [Boulders](https://github.com/EmptyStar/abdecor_modpack/tree/main/abdecor_boulders/): Small boulders of different types scattered throughout the world\n- [Cave Flows](https://github.com/EmptyStar/abdecor_modpack/tree/main/abdecor_cave_flows/): Water and lava sources that flow from high cave ceilings\n- [Cave Pools](https://github.com/EmptyStar/abdecor_modpack/tree/main/abdecor_cave_pools/): Water and lava pools that generate inside of caves\n- [Hanging Vines](https://github.com/EmptyStar/abdecor_modpack/tree/main/abdecor_hanging_vines/): Vines that hang from stone and soil nodes in swampy biomes\n- [Ocean Waterfalls](https://github.com/EmptyStar/abdecor_modpack/tree/main/abdecor_ocean_waterfalls/): Small waterfalls that pour from sheer cliffs into the ocean below",
-  "maintainers": [
-    "EmptyStar"
-  ],
+  "maintainers": ["EmptyStar"],
   "media_license": "MIT",
   "name": "abdecor_modpack",
   "provides": [
@@ -355,14 +351,10 @@
   "release": 19706,
   "repo": "https://github.com/EmptyStar/abdecor_modpack",
   "score": 6.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/804bc4f6b8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/804bc4f6b8.png"],
   "short_description": "A collection of advanced biome decorations",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/804bc4f6b8.png",
   "title": "Advanced Biome Decoration Modpack",
   "translation_url": null,
@@ -428,10 +420,7 @@
       {
         "is_optional": false,
         "name": "abdecor",
-        "packages": [
-          "EmptyStar/abdecor",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["EmptyStar/abdecor", "EmptyStar/asuna"]
       }
     ],
     "TenPlus1/ethereal": [

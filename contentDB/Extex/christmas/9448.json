@@ -25,28 +25,17 @@
   "issue_tracker": "https://github.com/Extex101/christmas/issues",
   "license": "MIT",
   "long_description": "# Christmas\nThis is a Mod for [Minetest](https://www.minetest.net/) ( [Github Repo](https://github.com/Minetest/minetest)), that adds festive christmas items and nodes.\n\n# Provides\n - Candy canes (If you eat too many you could get a sugar rush!)\n - Gingerbread man* (Just plain food)\n - Eggnog* (Just plain food)\n - Mince pie (Just plain food)\n - Stocking (You need one to get cool rewards every 1 hour and 30 minutes)\n - Christmas lights* (A nice way to decorate for christmas)\n - Red Bauble* (To decorate your tree)\n - Star* (The topper of your tree)\n - Present (Give a gift to a firend)\n - Sugar* (To craft your sweets)\n - Tree (The center of all decorations)\n\n\n*Only obtainable as a Stocking reward\n\n\nView the Minetest forum post [here](https://forum.minetest.net/viewtopic.php?f=9&t=23782&)\n\n\nHave fun and Merry Christmas!!\n",
-  "maintainers": [
-    "Extex"
-  ],
+  "maintainers": ["Extex"],
   "media_license": "CC-BY-SA-3.0",
   "name": "christmas",
-  "provides": [
-    "christmas"
-  ],
+  "provides": ["christmas"],
   "release": 9448,
   "repo": "https://github.com/Extex101/christmas",
   "score": 172.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/uCAChbKJDZ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/uCAChbKJDZ.png"],
   "short_description": "Adds festive christmas items and nodes",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food",
-    "player_effects",
-    "seasonal"
-  ],
+  "tags": ["decorative", "food", "player_effects", "seasonal"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/uCAChbKJDZ.png",
   "title": "Christmas",
   "translation_url": null,

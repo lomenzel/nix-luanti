@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Polynium/minetest_rotting_wood/issues/new/choose/",
   "license": "MIT",
   "long_description": "Causes wood and trees to rot after being directly exposed to water for ~5 minutes.\n\nRotting causes wood and trees to weaken considerably and become inflammable. Also makes it useless for crafting in any form. \n\nStages of rotting may be added in the future to replace the current binary system.",
-  "maintainers": [
-    "polynium"
-  ],
+  "maintainers": ["polynium"],
   "media_license": "CC-BY-SA-3.0",
   "name": "rotting_wood",
-  "provides": [
-    "rotting_wood"
-  ],
+  "provides": ["rotting_wood"],
   "release": 19941,
   "repo": "https://github.com/Polynium/minetest_rotting_wood",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4c8dd1776a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4c8dd1776a.png"],
   "short_description": "Causes wood to slowly rot while exposed to water",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment"
-  ],
+  "tags": ["building", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4c8dd1776a.png",
   "title": "Rotting Wood",
   "translation_url": null,

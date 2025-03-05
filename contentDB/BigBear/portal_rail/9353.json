@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,14 +260,10 @@
   "issue_tracker": "https://github.com/gramsey/portal_rail/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "# What is it?\nA simple rail type that will teleport cart and contents (including players) a fixed distance in one direction depending on the direction of travel.  The distance teleported is fixed to specific value (500 blocks by default, configurable in settings)\n\n# Construction\nLay down some normal railtrack on flat surface in the direction you want the portal to jump in.\nAdd a single 'portal track' at the point you want to jump from (there should be normal track either side)\nThen walk exactly 500 blocks in the appropriate direction and lay some track to land on. \n\nIf you want to travel up or down (e.g. for fast access to caves or sky islands) you do the same but up or down. The track must be sloped upwards or downwards (i.e. the piece of rail track after the portal rail will be a block higher or a block lower than the portal rail). \n\n# Usage\nGet in cart ride over the portal rail in the appropriate direction. It will 'pop' and teleport you 500m (blocks) in that direction. \nThis only works if there is appropriate rail already laid at the destination. You can only travel in one dimension at a time (up, down, north, south, east or west)\n\n# Why use it?\n\nI used to use tpad mod or similar because long distance travel gets tedious. The problem I found is that tpad and simlar are overpowered, taking you anywhere instantly and make building good old rail cart transport systems a waste of time. I feel the game suffered as a result, I wanted a simple and convenient way to travel long distances, without making carts redundant. \n\nPortal Rail is fast and easy for long distance travel, but will likely not take you to exactly where you need to go. Instead it encourages use of imagination in building of supporting infrastructure (signs, bridges, tunnels). It also integrates nicely with 'local' normal minecart rail networks. \n\n",
-  "maintainers": [
-    "BigBear"
-  ],
+  "maintainers": ["BigBear"],
   "media_license": "CC-BY-SA-3.0",
   "name": "portal_rail",
-  "provides": [
-    "portal_rail"
-  ],
+  "provides": ["portal_rail"],
   "release": 9353,
   "repo": "https://github.com/gramsey/portal_rail",
   "score": 7.9,
@@ -279,9 +273,7 @@
   ],
   "short_description": "Minecart rail that teleports exactly 500m in direction of travel",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0952a8a511.png",
   "title": "Portal Rail",
   "translation_url": null,

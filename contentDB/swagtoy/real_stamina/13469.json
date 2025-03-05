@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/nekobbbbbbit/staminaplusplus/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Minetest mod \"REAL Stamina\"\n=====================\n\nModifications: 2022 - Nekobit\n(C) 2015 - BlockMen\n(C) 2016 - Auke Kok <sofar@foo-projects.org>\n\nAbout this mod modification:\n-------------------\nThis version of Stamina is a modification of the mod.\n\nIt not only updates the previous source code to match the modern Minetest Lua API, but strips\nout the Hunger altogether to add a \"real stamina\" system. Stamina is capped at a time limit.\n\nIt's really lazy and hacked together, but I did this for a server who I host for my friends and community.\nPlease improve and send suggestions\n\nTextures are reused from the Stamina mod. It looks fine for now but I may change it in the future if I\ndecide to care.\n\nAlso adds FOV multipliers, thought it looked cool\n\nLicense:\n--------\nCode:\n- all code LGPL-2.1+\nTextures:\n- stamina_hud_poison.png - BlockMen (CC-BY 3.0)\n- stamina_hud_fg.png - PilzAdam (WTFPL), modified by BlockMen\n- stamina_hud_bg.png - PilzAdam (WTFPL), modified by BlockMen\nSounds:\n- stamina_eat.*.ogg - http://www.freesound.org/people/sonictechtonic/sounds/242215/ CC-BY-3.0\n\n",
-  "maintainers": [
-    "swagtoy"
-  ],
+  "maintainers": ["swagtoy"],
   "media_license": "CC-BY-3.0",
   "name": "real_stamina",
-  "provides": [
-    "real_stamina"
-  ],
+  "provides": ["real_stamina"],
   "release": 13469,
   "repo": "https://github.com/nekobbbbbbit/staminaplusplus",
   "score": 23,
-  "screenshots": [
-    "https://content.luanti.org/uploads/26fa517e79.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/26fa517e79.png"],
   "short_description": "Adds stamina and sprinting (no hunger!)",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/26fa517e79.png",
   "title": "Stamina++",
   "translation_url": null,

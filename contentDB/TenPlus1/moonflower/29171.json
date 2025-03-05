@@ -323,9 +323,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,20 +429,14 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "\nMoonflower by MirceaKitsune and TenPlus1\n\nThis mod adds a rare moon flower to the world which opens during the night if the sky above is clear, new features include eating the flower for temporary moon-vision so you can see at night, and a special item drop to transform items.\n\n\nApi functions include:\n\nmoonflower.transform_item(from_item, to_item)\n\nmoonflower.clear_items()\n\n\nChangelog:\n\n - 0.1 - Original mod (https://github.com/MirceaKitsune/minetest_mods_moonflower)\n - 0.2 - Added moon-vision feature\n - 0.3 - Added item transform feature\n - 0.4 - Tweaked and tidied code\n - 0.5 - Added particle and sound effects\n\n",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "moonflower",
-  "provides": [
-    "moonflower"
-  ],
+  "provides": ["moonflower"],
   "release": 29171,
   "repo": "https://codeberg.org/tenplus1/moonflower",
   "score": 12.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c15e304aa3.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c15e304aa3.jpg"],
   "short_description": "Moon Flower, when touched by the moon, it opens up a casting light.",
   "state": "APPROVED",
   "tags": [],

@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/street_signs/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "Adds street signs of all kinds, many with editable text or numbers.  Sizes, colors, and content are generally MUTCD 2009 compliant.\n\nSigns_lib must be commit f6673dc0 (tag \"2019-09-14-1\") or later to use this mod.",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "street_signs",
-  "provides": [
-    "street_signs"
-  ],
+  "provides": ["street_signs"],
   "release": 25451,
   "repo": "https://github.com/mt-mods/street_signs",
   "score": 39.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c1HJVk3pyp.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c1HJVk3pyp.png"],
   "short_description": "Road signs galore!",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "transport"
-  ],
+  "tags": ["decorative", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c1HJVk3pyp.png",
   "title": "Street Signs",
   "translation_url": null,

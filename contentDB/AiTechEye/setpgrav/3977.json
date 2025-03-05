@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/AiTechEye/setpgrav/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "The other gravity mods does not changing players gravity exactly how you want it from a command, so i made this one :-)\nrequires: ban  \ncommand: /setgrav <name> <number>  \n\nDefault gravit: 1  \nHalf gravity: 0.5  \nExtreamly high grav: 100 (not recmomanded)  \nVery low gravity 0.01  \nExtreamly low gravity 0.001 (let you jump over the cloads [not recmomanded])  \nAnti gravity starts from -0.001  \nand all other combinations...  ",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "setpgrav",
-  "provides": [
-    "setpgrav"
-  ],
+  "provides": ["setpgrav"],
   "release": 3977,
   "repo": "https://github.com/AiTechEye/setpgrav",
   "score": 310.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/PcWk6tc0Pv.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/PcWk6tc0Pv.png"],
   "short_description": "Change players gravity exactly how you'd like using a command",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "server_tools"
-  ],
+  "tags": ["player_effects", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/PcWk6tc0Pv.png",
   "title": "Set Player Gravity",
   "translation_url": null,

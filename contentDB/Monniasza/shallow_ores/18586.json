@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Monniasza/shallow_ores/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Shallow Ores\nPlaces ores shallower in your Minetest world!\n<br> [Place a review here](https://content.minetest.net/packages/Monniasza/shallow_ores/review/)\n<br> New ore generation:\n\n- Tin ore: below 12 blocks\n- Copper ore: below 16blocks\n- Iron ore: below 20 blocks\n- Gold ore: below 32 blocks\n- Mese ore: below 40 blocks\n- Diamond ore: below 60 blocks\n- Mese block: below 72 blocks",
-  "maintainers": [
-    "Monniasza"
-  ],
+  "maintainers": ["Monniasza"],
   "media_license": "GPL-3.0-or-later",
   "name": "shallow_ores",
-  "provides": [
-    "shallow_ores"
-  ],
+  "provides": ["shallow_ores"],
   "release": 18586,
   "repo": "https://github.com/Monniasza/shallow_ores",
   "score": 328.2,
@@ -450,10 +444,7 @@
   ],
   "short_description": "Places ores shallower in your world! No more time wasted digging!",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cb56b99c8f.png",
   "title": "Shallow Ores",
   "translation_url": null,

@@ -1,8 +1,6 @@
 {
   "author": "cracksmoka420",
-  "content_warnings": [
-    "violence"
-  ],
+  "content_warnings": ["violence"],
   "created_at": "2022-01-19T18:43:38.263984",
   "dev_state": "BETA",
   "donate_url": null,
@@ -104,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -433,32 +429,17 @@
   "issue_tracker": "https://github.com/natelastname/ctf_guns/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# Nate's CTF guns\nJoin my Minetest server  [chud.wtf:30000](http://chud.wtf) (Address: chud.wtf Port: 30000) if you want to try this mod out!\n\n**Update \t03-25-2022: Support for Mineclone 2 and Mineclone 5. \n**Known issue: scopes don't work.\n\nThis mod combines the best parts of the guns from [Capture the Flag](https://github.com/MT-CTF/capturetheflag) by rubenwardy and Lone_Wolf with the best parts of davidthecreator's [rangedweapons](https://forum.minetest.net/viewtopic.php?t=15173) to create a gun mod for Minetest that is usable on both PVP servers and survival worlds.\n\nAlso includes the \"darkness_nerf\" mod from capture the flag that makes players and item entities more visible in the dark.\n\n## Licenses\n\n- CTF by rubenwardy and Lone_Wolf: LGPLv2.1+\n- Rangedweapons by davidthecreator: CC-BY-SA-4.0\n\n## Dependencies \n\n1. default\n2. [Basic Materials](https://content.minetest.net/packages/VanessaE/basic_materials/)\n3. [Controls](https://content.minetest.net/packages/BuckarooBanzay/controls/)\n\n\n## Optional dependencies\n\nIf the mod [mobs\\_mc](https://forum.minetest.net/viewtopic.php?t=17751) is installed, the crafting recipe for ammo will make use of mobs_mc:slimeballs. This is done to give slimeballs a purpose.\n",
-  "maintainers": [
-    "cracksmoka420"
-  ],
+  "maintainers": ["cracksmoka420"],
   "media_license": "GPL-3.0-or-later",
   "name": "ctf_guns",
-  "provides": [
-    "ctf_core",
-    "ctf_ranged",
-    "darkness_nerf",
-    "grenades",
-    "rawf"
-  ],
+  "provides": ["ctf_core", "ctf_ranged", "darkness_nerf", "grenades", "rawf"],
   "release": 12348,
   "repo": "https://github.com/natelastname/ctf_guns.git",
   "score": 516.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3a15652ff9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3a15652ff9.png"],
   "short_description": "Adds craftable guns that feel like hit scan",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pvp", "shooter", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3a15652ff9.png",
   "title": "Nate's CTF Guns",
   "translation_url": null,

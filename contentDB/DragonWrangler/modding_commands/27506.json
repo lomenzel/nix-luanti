@@ -11,20 +11,14 @@
   "issue_tracker": "https://github.com/DragonWrangler1/modding_commands/issues",
   "license": "MIT",
   "long_description": "Adds several hopefully helpful commands to help you with modding.\n\nYou renaming a big game ? This may help.\nYou accidently mess up on schematics ? This may help.\nYou want to verify if your schematics have known nodes ? This may help.\nYou want to go through all you many mods and find a certain word to replace ? This may help.\nYou have a file that you want to check for whitespace errors ? This may help.\n\nThis mod is Singleplayer only. DO NOT USE IN MULTIPLAYER\n\nYou can find the readme.md file [here](https://github.com/DragonWrangler1/modding_commands/blob/main/README.md)\n\nPlease view the readme if you have questions. And please MAKE BACKUPS. This is experimental. It works, but just as a precaution.\n\nThis mod requires minetest.request_insecure_environment.",
-  "maintainers": [
-    "DragonWrangler"
-  ],
+  "maintainers": ["DragonWrangler"],
   "media_license": "MIT",
   "name": "modding_commands",
-  "provides": [
-    "modding_commands"
-  ],
+  "provides": ["modding_commands"],
   "release": 27506,
   "repo": "https://github.com/DragonWrangler1/modding_commands",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ebedc4a881.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ebedc4a881.png"],
   "short_description": "Adds Hopefully helpful commands for modding",
   "state": "APPROVED",
   "tags": [

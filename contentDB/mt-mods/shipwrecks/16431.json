@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,26 +195,17 @@
   "issue_tracker": "https://github.com/mt-historical/shipwrecks/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Shipwrecks\nThis mod adds configurable shipwrecks to the ocean.  \nShipwrecks come in various wood types, shapes (full ship, halves, etc) and their combinations.  \nShipwrecks contain various loot.\n\n## Requirements\n\n- Minetest 5.0.0+\n- Minetest_game 5.0.0+\n- [lootchests_modpack](https://github.com/mt-historical/lootchests_modpack), Necessary for lootchest spawn in shipwrecks\n\n## Recommended mods\n\n- [decorations_sea](https://github.com/mt-historical/decorations_sea), Adds many new sea decorations\n\n## Settingtypes\nModpack provides some settings, accessible via \"Settings->All Settings->Mods->shipwrecks  \nYou can also put these settings directly to your minetest.conf:\n\n```\nshipwrecks_chance = 10, int, chance to spawn a shipwreck in a mapblock\nshipwrecks_horizontal_displacement = 16, int, displacement from the center of mapblock\nshipwrecks_vertical_displacement = 5, int, vertical displacement of the shipwreck\nshipwrecks_seed = 0, int, general seed for shipwreck generation\n\n```\n\n## License\nAll code is GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  ",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-only",
   "name": "shipwrecks",
-  "provides": [
-    "shipwrecks"
-  ],
+  "provides": ["shipwrecks"],
   "release": 16431,
   "repo": "https://github.com/mt-historical/shipwrecks",
   "score": 355.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/200684d172.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/200684d172.png"],
   "short_description": "A simple mod that adds various shipwrecks with treasures into the ocean",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/200684d172.png",
   "title": "Shipwrecks",
   "translation_url": null,
@@ -641,10 +630,7 @@
       {
         "is_optional": false,
         "name": "magic_materials",
-        "packages": [
-          "mt-mods/magic_materials",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/magic_materials", "MeseCraft/mesecraft"]
       }
     ],
     "mt-mods/shipwrecks": [
@@ -740,18 +726,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

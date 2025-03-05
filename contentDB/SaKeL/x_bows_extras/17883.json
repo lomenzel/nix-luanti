@@ -25,28 +25,17 @@
   "issue_tracker": "https://bitbucket.org/minetest_gamers/x_bows_extras/issues?status=new&status=open",
   "license": "LGPL-2.1-or-later",
   "long_description": "Add more bows/guns and arrows to Minetest using X Bows API.\n\nJust some quick examples for usage of X Bows API. New items are not in any way balanced, fine-tuned or pretty. This means that some of the sounds, recipes, damage... might not be completely finished but the main goal of this MOD is to demonstrate the API usage.\n\nIf there is strong desire from others to balance or adjust the items I can certainly do so. Code contributions are also welcome.\n\n## Features\n\n### Guns/Bows\n\n#### Bow training\n\n Training arrow with NO (or little) damage. Compatible with all arrows from this MOD.\n\n#### Bubble gun\n\nShoots bubbles. No damage.\n\n#### Bazooka\n\nVery strong and dangerous weapon. Needs TNT mod for explosions.\n\n### Arrows\n\n#### Bazooka bullet\n\nAmmo for bazooka.\n\n#### Bubble gun bubble\n\nAmmo for bubble gun.\n\n#### Arrow training\n\nNo damage arrow - just for trainig.\n\n#### Arrow rip\n\nBury player or entities under ground.\n\n#### Arrow flyup\n\nFly players to the air and let them drop.\n\n#### Arrow cluster\n\nShoots cluster arrow.\n\n#### Arrow torch\n\nPlaces torch.\n\n#### Arrow teleport\n\nTeleports player to location where the arrow hit the ground. If player or entity is hit they will switch places.\n\n#### Arrow knockback\n\nPushes players/entities with high power away.\n\n#### Arrow healing\n\nDamage points to players/entities will be added as hearts to you.\n\n#### Arrow poison\n\nDealing damage for 5s but will not kill the target.\n\n#### Arrow lightning\n\nStrikes lightning damaging sourrounded objects/players, setting the striked area on fire (non-spreading).",
-  "maintainers": [
-    "SaKeL"
-  ],
+  "maintainers": ["SaKeL"],
   "media_license": "CC-BY-SA-4.0",
   "name": "x_bows_extras",
-  "provides": [
-    "x_bows_extras"
-  ],
+  "provides": ["x_bows_extras"],
   "release": 17883,
   "repo": "https://bitbucket.org/minetest_gamers/x_bows_extras/src/master/",
   "score": 56.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f62cba5959.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f62cba5959.png"],
   "short_description": "Adds more bows/guns and arrows to Minetest using X Bows API.",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pvp", "shooter", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f62cba5959.png",
   "title": "X Bows Extras",
   "translation_url": null,
@@ -61,9 +50,7 @@
       {
         "is_optional": false,
         "name": "x_bows",
-        "packages": [
-          "SaKeL/x_bows"
-        ]
+        "packages": ["SaKeL/x_bows"]
       }
     ]
   },

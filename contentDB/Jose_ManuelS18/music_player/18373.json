@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds the Music Player, a block that allows players to compose music using individual sounds through codes, the codes can be found in the guide, it has some limitations, though.\n\nAlso adds the Disc, a item used to store the \"music\" made by the players so they can share their music with their friends or just copy and paste it somewhere else easily.\n\nTo add music codes in the Music Player sets you have to separate each code with a space.\n\nCurrent Update:\n\n* Guide now is truly a guide, it still contains the sounds \"Codes\" and their origins\n*  the sound \"Codes\" are now displayed aside the sets, no more going back and forth to read then write, only the codes are displayed in the sets, however the origin appears in the guide.",
-  "maintainers": [
-    "Jose_ManuelS18"
-  ],
+  "maintainers": ["Jose_ManuelS18"],
   "media_license": "MIT",
   "name": "music_player",
-  "provides": [
-    "music_player"
-  ],
+  "provides": ["music_player"],
   "release": 18373,
   "repo": null,
   "score": 159.1,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds a music player and discs",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c0bd47e9e5.png",
   "title": "Music Player",
   "translation_url": null,

@@ -103,14 +103,10 @@
   "issue_tracker": "https://github.com/sfence/power_generators/issues",
   "license": "MIT",
   "long_description": "Power generators\n==============\n\nThis mod add liquid fuel powered generators into minetest worlds.\nShaft electric engines is alse added, and can be powered from included electric generators or from technic electric sources.\nGeneratos supports Minetest default game and Hades Revisited.\n\nGenerators are powered by appliances mod API. So, on appliances APi based machines can easy access the power from generator.\n\nTo get fuel, use biofuel mod.\n\nThe electric engines and rmp_meter can be powered by power generators, technic, elepower, techage or factory electric.\n\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "power_generators",
-  "provides": [
-    "power_generators"
-  ],
+  "provides": ["power_generators"],
   "release": 14628,
   "repo": "https://github.com/sfence/power_generators",
   "score": 159.8,
@@ -120,9 +116,7 @@
   ],
   "short_description": "Add power generators based on appliances API.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2b748f0def.png",
   "title": "Power generators",
   "translation_url": null,
@@ -138,30 +132,22 @@
       {
         "is_optional": false,
         "name": "adaptation_technic",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_lib",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_minetest_game",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mesecons",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
@@ -189,79 +175,57 @@
       {
         "is_optional": false,
         "name": "adaptation_basic_materials",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_elepower",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_techage",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farming_redo",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_biofuel",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_rubber",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mineclone",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farlands_reloaded",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
         "name": "adaptation_pipeworks",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_hades_revisited",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       }
     ],
     "joe7575/techage_modpack": [

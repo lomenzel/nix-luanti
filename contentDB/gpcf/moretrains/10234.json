@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,9 +338,7 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "a wip modpack that provides more trains for advtrains. It contains various good looking trains for advtrains, including a steam train, vintage diesel engines with Silberling rail cars, Couchette and corridor coaches and nice freight cars. ",
-  "maintainers": [
-    "gpcf"
-  ],
+  "maintainers": ["gpcf"],
   "media_license": "CC-BY-SA-3.0",
   "name": "moretrains",
   "provides": [
@@ -366,9 +362,7 @@
   ],
   "short_description": "Nice trains for Advtrains",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/77f60b02ab.png",
   "title": "Moretrains",
   "translation_url": null,
@@ -382,9 +376,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
@@ -498,9 +490,7 @@
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

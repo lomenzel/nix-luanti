@@ -11,28 +11,17 @@
   "issue_tracker": "https://gitlab.com/xenonca/luckysweeper/-/issues",
   "license": "LGPL-2.1-only",
   "long_description": "LuckySweeper\n=========\nProof of concept of a minesweeper game in Minetest.  \nNOTE: This game is in a beta state, some things might not yet work properly. Expect bugs.\n\n## Description\n[Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))\n\n## Licence\nCode: LGPLv2.1 by xenonca  \nMedia: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by xenonca  \nMod `player_api`: see corresponding licence",
-  "maintainers": [
-    "xenonca"
-  ],
+  "maintainers": ["xenonca"],
   "media_license": "CC-BY-SA-4.0",
   "name": "luckysweeper",
-  "provides": [
-    "ls_game",
-    "player_api"
-  ],
+  "provides": ["ls_game", "player_api"],
   "release": 10307,
   "repo": "https://gitlab.com/xenonca/luckysweeper",
   "score": 319.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1aa559039d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1aa559039d.png"],
   "short_description": "Proof of concept of a minesweeper game using the MTE.",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["mini-game", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1aa559039d.png",
   "title": "LuckySweeper",
   "translation_url": null,

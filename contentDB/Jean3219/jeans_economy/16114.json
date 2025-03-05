@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://github.com/Jean28518/jeans_economy/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Jean's Economy\nhttps://github.com/Jean28518/jeans_economy\n\n## Features:\n- Keep track to your your economy on the server by listing all transactions your players did (with time stamps) (even individually), or listing some balances of the players.\n- bank statements individually for players\n- Handling of transactions between players with automatic checks and filling the database (Modders have to implement just one single line for that)\n- Fully automated database cleaning, which can be adjusted too.\n- Another usefull commands such as `/pay`, `/money`, or `/money_give`\n- Daily Rewards, when a player joins on the server\n- Frequently Rewards, for all currently online players.\n- Optional Complete Support for the atm mod https://forum.minetest.net/viewtopic.php?t=15029\n- easy integration into ecosystems from servers.\n\n## Commands:\n`/money <player>` See the current balance of `<player>`. The default ist the player itself\n\n`/pay <player> <amount> <description>` Pay to another player some money.\n\n`/transactions <count> <player>` Get the last `<count>` transactions of `<player>`. The default is the 10, and the player itself. You need the `economy` priv, if you want to see the bank statements of other players. Press F10 to get a better overview over your bank statements.\n\n`/balances <min_balance>` List all Player Accounts, whose accounts are above the limit. The Default is 0. You need the `economy` priv for that.\n\n`/server_transactions <count>` Get the last `<count>` transactions of the whole Server. The default is 25. You need the `economy` priv for that.\n\n`/money_give <player> <amount>` Give a player some money. You need the `economy` priv for that. You can also type in a negative amount. Then the money will be removed from the account\n\n`/economy_sync_from_atm` Sync all ATM-Accounts to the own database of jeans_economy. Needed, if you want to remove the atm mod from your server.\n\n## Configuration:\nAll configurations are found in the config.lua file. You can configure:\n- The database size (detailed transactions)\n- The Frequently Payout. (activated, period, amount per player)\n- The Daily Rewards (activated, award per every single day).\n\n## Privileges:\nThe mod comes with a privilege called `economy`. Every Player with the `economy` Privilege could see all transactions of every player, and could !cheat! money too!. Just give that privilege to admins.\n\n## Coexistence with ATM Mod:\nAs long the ATM mod is active on the server, Jeans Economy uses the ATM Accounts. If you want to remove the atm mod from your server, you can sync the accounts from the atm to jeans_economy database with `/economy_sync_from_atm`. When you dont have the atm mod, everything is cool too.\n\n## Coexistence with other economy Mods:\nIf you have another econmy mod on your server, but want that jeans_economy works with this mod too, you just have to change in the accounts.lua file follwing functions:\n- `function jeans_economy.set_account(player_name, value)`\n- `function jeans_economy.get_account(player_name)`\n- `function jeans_economy.get_accounts_array()`\n\n\n\n## For Modders:\nTo use this mod, you have to implement one of the following line in to your code.\n- `jeans_economy.book(payor_name, recipient_name, amount, description)` This function checks, if the payor have enough money, do the transaction between these players (atm accounts), and save this transaction to the database. It returns true, if the transaction was successfully done, otherwise it returns false.\n- `jeans_economy.get_account(player_name)` Returns the ballance of the player. If you only want to check with this function wether the player has enough money to do something or not, you can use `jeans_economy.book` instead.\n- `jeans_economy.get_accounts_array()` Returns all accounts of the server in an array. The Array has following format: `{[\"Player1\"] = 300, [\"Player2\"] = 12450, [\"Player3\"] = 10,}`\n- The Server has also an unlimited bank-account. It is called `!SERVER!`.\n- There are other functions in the code you could use, but it would be good, if you just restrict it to the functions above.\n\n**Please insert only Charakters (a-z and A-Z) and numbers 0-9) to the inputs!!**\n\n### Example:\n`if jeans_economy_book(\"Player1\", \"Player2\", 500, \"Buyed 10 Diamonds\") then -- give diamonds else -- Player1 doenst have enough money!`\n\n## Feedback?\nIf you have found bugs, or have some ideas, let me know it in the github issues section!",
-  "maintainers": [
-    "Jean3219"
-  ],
+  "maintainers": ["Jean3219"],
   "media_license": "CC0-1.0",
   "name": "jeans_economy",
-  "provides": [
-    "jeans_economy"
-  ],
+  "provides": ["jeans_economy"],
   "release": 16114,
   "repo": "https://github.com/Jean28518/jeans_economy.git",
   "score": 13.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ljpXqGCvjH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ljpXqGCvjH.png"],
   "short_description": "Full Economy for Servers like, paying, individual bank statemants, daily rewards, easy api for modders, easy integration with other mods ...",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "library",
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["commerce", "library", "multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ljpXqGCvjH.png",
   "title": "Jean's Economy",
   "translation_url": null,

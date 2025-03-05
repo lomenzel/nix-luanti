@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/D00Med/scifi_nodes/issues",
   "license": "LGPL-2.1-only",
   "long_description": "## About\n\nscifi_nodes adds **space-themed** nodes for your **space-station** or **space-ship** projects.\nIncluding some space-themed doors and buttons\n\n## Compatibility\n\n### Slopes/Stairs\n\nif the **stairsplus** mod is available, some of the nodes can be cut with the table-saw\n\n### Mesecons\n\nSome buttons work as mesecon emitter if the **mesecons** mod is available",
-  "maintainers": [
-    "D00Med",
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["D00Med", "BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "scifi_nodes",
-  "provides": [
-    "scifi_nodes"
-  ],
+  "provides": ["scifi_nodes"],
   "release": 29830,
   "repo": "https://github.com/D00Med/scifi_nodes",
   "score": 227.3,
@@ -33,9 +28,7 @@
   ],
   "short_description": "Adds some nodes for building futuristic/sci-fi themed constructions",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GSvxs9HZ2O.png",
   "title": "Scifi Nodes",
   "translation_url": null,

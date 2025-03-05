@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,14 +338,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "# Flowerbeds\nFlowerbeds are blocks that allow easier growing of flowers.\nOnce you place a flower on top of a flowerbed, the same flower will quickly grow in nearby empty flowerbeds.\n\nThis growing is not limited by the usual restriction of flora density, so a single flower planted in a large flowerbed field will eventually fill the entire flowerbed field with the flower.\n\nIn order to grow new flowers, flowerbeds must be on the same vertical height, and horizontally adjecent - even diagonally - to each other. Flowerbeds do not work at depths of -50 or deeper.\n\nFlowerbeds are crafted from 1 coal, 1 dirt and 1 wood placed vertically. Different woods yields different looking flowerbeds, but they all share the same functionality and can work with each other.\n\nThis mod is compatible with the Beautiful Flowers mod, as it does not work on individual flowers by name, but rather by checking for for the \"flower\" group - so it should be compatible with any other flower mods so long as they set the \"flower\" group on their flowers.",
-  "maintainers": [
-    "ZenonSeth"
-  ],
+  "maintainers": ["ZenonSeth"],
   "media_license": "CC-BY-SA-3.0",
   "name": "flowerbeds",
-  "provides": [
-    "flowerbeds"
-  ],
+  "provides": ["flowerbeds"],
   "release": 21523,
   "repo": "https://github.com/ZenonSeth/flowerbeds",
   "score": 155.7,
@@ -357,9 +351,7 @@
   ],
   "short_description": "Flower Beds for growing flowers",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0e98a1cad7.png",
   "title": "Flower Beds",
   "translation_url": null,

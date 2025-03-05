@@ -11,23 +11,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod is simple. A level is a worldedit schematic with some metadata. The level can be loaded or restarted using lua commands. The mod as such is unplayable, it is designed to be a library for a game.\nIn creative mode, you can also create custom levels.\n\nThe game can also store its own data like highest accessible level, score etc...",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "CC0-1.0",
   "name": "level",
-  "provides": [
-    "level"
-  ],
+  "provides": ["level"],
   "release": 7434,
   "repo": "https://gitlab.com/h2mm/level",
   "score": 1.4,
   "screenshots": [],
   "short_description": "A library for games to load levels defined as schematics",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Level API",
   "translation_url": null,

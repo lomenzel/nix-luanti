@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds some new player effects:\n\n- Slow down player when walking on snow.\n- Speed up player when walking on ice.\n- Hurt player when touching cactus.\n- Suffocate player when head is inside a solid block.\n- Add node check for on_walk_over function.\n- Setting to enable old sneak glitch.\n- Enable player knockback when hurt (has setting to disable).\n",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "playerplus",
-  "provides": [
-    "playerplus"
-  ],
+  "provides": ["playerplus"],
   "release": 28324,
   "repo": "https://codeberg.org/tenplus1/playerplus",
   "score": 17.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Tnn6aDM8eZ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Tnn6aDM8eZ.png"],
   "short_description": "Adds effects to player to change speeds, cause damage, knockback and more...",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Tnn6aDM8eZ.png",
   "title": "Player Plus Mod",
   "translation_url": null,

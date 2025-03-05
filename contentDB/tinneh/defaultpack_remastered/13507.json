@@ -64,9 +64,7 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "_A remastered version of the Minetest Game default texture pack._\n\n ~ It aims for a smoother and realistic look which still is pretty much based on the defaultpack.\n\nCause in general I like the realistic and rather simple style, there are some textures I really love (above all the permafrost nodes). But some others tend to be a bit expressionless, with no real substance or structure - for example dirt - and some just have weird colors (Sand(stone) has a greenish tint to it?!).\n\nSo for most of the textures I only minimized the color palette and shifted color shades a bit to overall have a uniform look:\n\n## Status\n\nContains so far:\n\n - default (~39%)\n - unified_inventory\n\n## ToDo\n\n- [ ] Complete the textures for default mod\n- [ ] Do the rest 👌\n- [ ] ...and then also provide all the licensing informations\n",
-  "maintainers": [
-    "tinneh"
-  ],
+  "maintainers": ["tinneh"],
   "media_license": "CC-BY-SA-4.0",
   "name": "defaultpack_remastered",
   "provides": [],
@@ -80,9 +78,7 @@
   ],
   "short_description": "~Remastered version of the Minetest Game default texture pack – aims for a smoother and realistic look",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3eefd24469.png",
   "title": "defaultpack Remastered",
   "translation_url": null,

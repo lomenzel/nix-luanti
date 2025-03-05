@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/joe7575/ta4_paraglider/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "**A Paraglider for techage with TA4 recipe**\n\nThis mod is based on the work from m492\t \n(https://forum.minetest.net/viewtopic.php?t=24639)\n\n\n### Instruction\n\nJump from a hill and use the paraglider to start the flight.  \nW = increases speed  \nS = decreases speed  \nD = right turn  \nA = left turn  ",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC-BY-3.0",
   "name": "ta4_paraglider",
-  "provides": [
-    "ta4_paraglider"
-  ],
+  "provides": ["ta4_paraglider"],
   "release": 6466,
   "repo": "https://github.com/joe7575/ta4_paraglider",
   "score": 163,
-  "screenshots": [
-    "https://content.luanti.org/uploads/87382d277d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/87382d277d.png"],
   "short_description": "Techage Paraglider Mod",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/87382d277d.png",
   "title": "Ta4 Paraglider",
   "translation_url": null,
@@ -57,9 +49,7 @@
       {
         "is_optional": false,
         "name": "techage",
-        "packages": [
-          "joe7575/techage_modpack"
-        ]
+        "packages": ["joe7575/techage_modpack"]
       },
       {
         "is_optional": false,

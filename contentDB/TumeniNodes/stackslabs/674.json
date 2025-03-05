@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/TumeniNodes/stackslabs/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "",
-  "maintainers": [
-    "TumeniNodes"
-  ],
+  "maintainers": ["TumeniNodes"],
   "media_license": "CC-BY-SA-3.0",
   "name": "stackslabs",
-  "provides": [
-    "stackslabs"
-  ],
+  "provides": ["stackslabs"],
   "release": 674,
   "repo": "https://github.com/TumeniNodes/stackslabs",
   "score": 5.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/u7XhmX5t3m.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/u7XhmX5t3m.png"],
   "short_description": "stackable slabs for Minetest",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "decorative"
-  ],
+  "tags": ["building", "building_mechanics", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/u7XhmX5t3m.png",
   "title": "Stack Slabs",
   "translation_url": null,

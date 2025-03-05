@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# NewHorizons\n\nThis mod is perfect for building and exploring, it adds\n\n- 4 new biomes\n- Dozens of new blocks\n- Animated blocks!\n- Custom Block Models\n\nIts still in early development and is unlikely to be the finished product.\n\nAny criticism or bugs can be addressed at the minetest forums page:\n<https://forum.minetest.net/viewtopic.php?f=9&t=24714>\n\n# Download\n\n\ndownload the ZIP file",
-  "maintainers": [
-    "Hi_World"
-  ],
+  "maintainers": ["Hi_World"],
   "media_license": "MIT",
   "name": "newhorizons",
-  "provides": [
-    "newhorizons"
-  ],
+  "provides": ["newhorizons"],
   "release": 3860,
   "repo": null,
   "score": 8.9,
@@ -449,10 +443,7 @@
   ],
   "short_description": "Adds 4 new biomes and TONS of new blocks!",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen"
-  ],
+  "tags": ["building", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HPrr19Hmyf.png",
   "title": "New Horizons",
   "translation_url": null,

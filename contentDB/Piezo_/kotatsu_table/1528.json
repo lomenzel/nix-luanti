@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,25 +338,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This mod adds kotatsu tables to Minetest, as well as a function for other mods to register their own kotatsu tables in addition to the default wool ones.",
-  "maintainers": [
-    "Piezo_"
-  ],
+  "maintainers": ["Piezo_"],
   "media_license": "CC-BY-SA-4.0",
   "name": "kotatsu_table",
-  "provides": [
-    "kotatsu_table"
-  ],
+  "provides": ["kotatsu_table"],
   "release": 1528,
   "repo": "https://notabug.org/Piezo_/kotatsu_table",
   "score": 6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BvyLi5xcQy.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BvyLi5xcQy.png"],
   "short_description": "Adds a new piece of furniture based on Japanese kotatsu tables",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BvyLi5xcQy.png",
   "title": "Kotatsu Tables",
   "translation_url": null,

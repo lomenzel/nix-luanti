@@ -25,26 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds CC songs to Unlit created by yours truly.\n#### Volume 1:\n\n1. Snub\n2. Drangle Fangle\n3. Big Wivelfracker\n4. Dudu Duludulu Du D'du",
-  "maintainers": [
-    "nurd3"
-  ],
+  "maintainers": ["nurd3"],
   "media_license": "CC-BY-4.0",
   "name": "ul_music",
-  "provides": [
-    "ul_music"
-  ],
+  "provides": ["ul_music"],
   "release": 29812,
   "repo": null,
   "score": 0.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4702615c77.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4702615c77.png"],
   "short_description": "Official OST for Unlit",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "sound_music"
-  ],
+  "tags": ["environment", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4702615c77.png",
   "title": "Unlit Music",
   "translation_url": null,
@@ -58,9 +49,7 @@
       {
         "is_optional": false,
         "name": "ul_ambience",
-        "packages": [
-          "nurd3/ul_game"
-        ]
+        "packages": ["nurd3/ul_game"]
       }
     ]
   },

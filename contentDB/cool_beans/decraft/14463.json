@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/PiDemon/decraft-minetest/issues",
   "license": "MIT",
   "long_description": "# Decraft\nIt's like a crafting table, but in reverse! <br><br>\nMake sure to input the correct number of items (e.g. putting in one fence won't do anything, you have to put in four because fences are crafted in batches of four). <br><br>\nThe decrafting workbench only uses the last registered recipe. **This means with simple items that have multiple recipes, such as planks or blocks of ores, decrafting may not have the intended result. This mod is intended for scavenging complicated items, such as technic machines or tools. Do not complain about this please, I can not fix it.**<br><br>\nThe decrafting workbench doesn't work with groups, so sticks, wood, and other grouped items will likely be lost in decrafting.\n",
-  "maintainers": [
-    "cool_beans"
-  ],
+  "maintainers": ["cool_beans"],
   "media_license": "CC-BY-4.0",
   "name": "decraft",
-  "provides": [
-    "decraft"
-  ],
+  "provides": ["decraft"],
   "release": 14463,
   "repo": "https://github.com/PiDemon/decraft-minetest.git",
   "score": 3.7,
@@ -450,10 +444,7 @@
   ],
   "short_description": "De-craft items with the decrafting workbench.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival"
-  ],
+  "tags": ["crafting", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/302fed8469.png",
   "title": "Decraft",
   "translation_url": null,

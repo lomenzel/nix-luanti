@@ -11,14 +11,10 @@
   "issue_tracker": "https://notabug.org/X5DragonFire/city-commoditymarkets/issues",
   "license": "MIT",
   "long_description": "# City Commoditymarkets\n\nAdds multiple commoditymarkets for use in city's towns etc to minetest\nusing the commoditymarket api https://content.minetest.net/packages/FaceDeer/commoditymarket/\n\n**where you can trade betwen players in a central market using minegeld from the Currency modpack **https://content.minetest.net/packages/VanessaE/currency/\n\n**includes 4 markets**\n\nto add a icon to the front of a market replace \ncentral_market_front 1 2 3 or 4 in\n/your-mods-dir/city_commoditymarket/textures \nwith the icon of your choosing \n\n\n",
-  "maintainers": [
-    "x5dragonfire"
-  ],
+  "maintainers": ["x5dragonfire"],
   "media_license": "MIT",
   "name": "city_commoditymarket",
-  "provides": [
-    "city_commoditymarket"
-  ],
+  "provides": ["city_commoditymarket"],
   "release": 11341,
   "repo": "https://notabug.org/X5DragonFire/city-commoditymarkets",
   "score": 7.6,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Adds simple CommodityMarkets for city's towns etc.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dd8a7a5528.png",
   "title": "City CommodityMarket",
   "translation_url": null,
@@ -48,18 +41,12 @@
       {
         "is_optional": false,
         "name": "commoditymarket",
-        "packages": [
-          "FaceDeer/commoditymarket",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["FaceDeer/commoditymarket", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,
         "name": "currency",
-        "packages": [
-          "mt-mods/currency",
-          "mt-mods/dreambuilder_game"
-        ]
+        "packages": ["mt-mods/currency", "mt-mods/dreambuilder_game"]
       }
     ]
   },

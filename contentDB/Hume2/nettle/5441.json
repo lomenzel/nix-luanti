@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://gitlab.com/h2mm/nettle/issues",
   "license": "MIT",
   "long_description": "This mod makes weed spawning on griefed plots. The weed spawns sparsely on naturally generated terrain too, mainly at cliff edges. If the plot is griefed, nettles and other weed spawn much more frequently. Finally, owners of junky plots will get a revenge!\n\nNettles and carduus cause 1 damage per second. Cleavers slow down player's movement. Impatiens don't harm the player as such, it only doesn't look well. Scotch broom acts like a solid block. Giant hogweed causes 2 damage and hurts the players on punch. Other than that, all these plants can be used as fuel and burn 3 seconds each, scotch broom burns 6 seconds.\n\n**WARNING:** Applying this mod to an old world might have serious consequences, i.e. rapid growth of weeds. Before doing so, make sure that no weeds will spawn in key areas of your world.",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "MIT",
   "name": "nettle",
-  "provides": [
-    "nettle"
-  ],
+  "provides": ["nettle"],
   "release": 5441,
   "repo": "https://gitlab.com/h2mm/nettle.git",
   "score": 162.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ZWnInZYU7F.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ZWnInZYU7F.jpg"],
   "short_description": "Nettles spawning on junky plots",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ZWnInZYU7F.png",
   "title": "Nettles and Other Weeds",
   "translation_url": null,

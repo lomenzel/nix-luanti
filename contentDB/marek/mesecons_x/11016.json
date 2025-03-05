@@ -11,9 +11,7 @@
   "issue_tracker": "https://gitlab.com/deetmit/mesecons_x/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "(Still work in progress, may contain bugs! You can use [discord](https://discord.gg/eGHkdQj) for discussion and suggestions. If you spot a bug you can use [discord](https://discord.gg/eGHkdQj)  or  [issue tracker](https://gitlab.com/deetmit/mesecons_x/-/issues)). \n\nTutorial [Youtube](https://www.youtube.com/watch?v=UpLv-TkpCwE)\n\nThis mod adds some new elements to Mesecons mod, to make it easier to build more complex circuits.\n\n\n\n**New elements:**\n\n*  **black tool**:  creates wires \n*  **red tool**: removes wires \n*  **blue tool**: selects region used by other tools\n* **yellow tool** : moves circuit\n* **orange tool** : stack circuit\n* **white tool** : change selection\n* **circuits books**: allows to copy/paste circuits\n*  3input logic gates\n*  registers: **latch** and **flipflop**\n\nhttps://discord.gg/eGHkdQj",
-  "maintainers": [
-    "marek"
-  ],
+  "maintainers": ["marek"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecons_x",
   "provides": [
@@ -34,9 +32,7 @@
   ],
   "short_description": "Adds Latch, Flipflop, tools for automatic wireing, 3-input gates etc.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/IFVA4monhx.png",
   "title": "Mesecons Extended",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,9 +429,7 @@
   "issue_tracker": null,
   "license": "WTFPL",
   "long_description": "**WARNING:** This mod is abandoned and I don’t intend to develop this further. But it should still work.\n\nThis is a framework to define and distribute random treasures into the world. Treasurer itself does neither define any items nor does it attempt to distribute them because it is a framework.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "WTFPL",
   "name": "treasurer",
   "provides": [
@@ -448,9 +444,7 @@
   "screenshots": [],
   "short_description": "A framework to define and distribute random treasures into the world.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Treasurer",
   "translation_url": null,

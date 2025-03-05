@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,25 +338,17 @@
   "issue_tracker": "https://codeberg.org/Desour/bed_rock/issues",
   "license": "Apache-2.0",
   "long_description": "<!--\nSPDX-FileCopyrightText: 2024 DS\n\nSPDX-License-Identifier: CC-BY-4.0\n-->\n\n# Bed-Rock\n\nLuanti mod that adds a rock that you can sleep on.\n\nIt's cheaper than a normal bed (only one wool required), but it hurts when you\nsleep in it.\n\nThe mod is written for Minetest Game. Please open PRs for compatibility with\nother subgames!\n\n## License\n\nTrivial things are licensed under CC0-1.0, code is under Apache-2.0, and nontrivial\nmedia under CC-BY-4.0. Look into the indiviual files and into REUSE.toml for details.\n\nThis repo uses REUSE.\n",
-  "maintainers": [
-    "Desour"
-  ],
+  "maintainers": ["Desour"],
   "media_license": "CC-BY-4.0",
   "name": "bed_rock",
-  "provides": [
-    "bed_rock"
-  ],
+  "provides": ["bed_rock"],
   "release": 28467,
   "repo": "https://codeberg.org/Desour/bed_rock",
   "score": 312.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f045757856.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f045757856.jpg"],
   "short_description": "Adds a bed-rock, for sleeping",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f045757856.png",
   "title": "Bed Rock",
   "translation_url": null,
@@ -550,9 +540,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

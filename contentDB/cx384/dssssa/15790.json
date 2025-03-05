@@ -11,10 +11,7 @@
   "issue_tracker": "https://codeberg.org/Desour/dssssm/issues",
   "license": "MIT",
   "long_description": "\n# DSSSSA\n\nMade by DS and cx384.\n\nFor the 2022 Minetest GAME JAM.\n\nA hint if you actually want to play this game. Don't put your rocks into the GPU, it is a wast of rocks.\nInstead gather all 8 types of different rocks and put them at the same time into your CPU.\nI think this could work, maybe. Oh and don't forget to toggle your handbreak.\n\n## License\n\n### Code\n\nMIT (Expat) by DS and cx384\n\n### Media\n\n* `mods/dssssa_player/textures/dssssa_skybox_*.jpg`, `menu/header.png`, `menu/icon.png`:\n  by Westbeam (WTFPL) (or based on their art, with trivial changes)\n  https://opengameart.org/content/space-skybox-0\n\n* drill2 stuff in `mods/dssssm_crafting/textures/*`: by cx384 with modification by DS (both CC-BY-SA-4.0)\n* everything else in `mods/dssssm_crafting/textures/*`: by cx384 (CC-BY-SA-4.0)\n\n* `mods/dssssa_rocks/textures/dssssa_rocks_rock*`:\n  by cx384 (CC-BY-SA-4.0)\n\n* blackbox and gravel mix in `mods/dssssa_rocks/textures/`:\n  by DS (CC-BY-SA-4.0)\n\n* model and textures in `mods/dssssa_ship`:\n  by DS (CC-BY-SA-4.0)\n\n* player and wieldhand textures in `mods/dssssa_player/textures`:\n  by DS (CC-BY-SA-4.0)\n\n* `mods/dssssa_player/sounds/dssssa_music.ogg`:\n  \"Space 1990-B\" Kevin MacLeod (incompetech.com)\n  Licensed under Creative Commons: By Attribution 4.0 License\n  http://creativecommons.org/licenses/by/4.0/\n  (modified trivially by DS for looping)\n",
-  "maintainers": [
-    "cx384",
-    "Desour"
-  ],
+  "maintainers": ["cx384", "Desour"],
   "media_license": "CC-BY-SA-4.0",
   "name": "dssssa",
   "provides": [
@@ -33,10 +30,7 @@
   ],
   "short_description": "DS's Space Search Adventure",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2022",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2022", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d7a2ebe7c3.png",
   "title": "DSSSSA",
   "translation_url": null,

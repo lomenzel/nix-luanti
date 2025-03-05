@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,25 +390,17 @@
   "issue_tracker": "https://github.com/dacmot/moarmour/issues",
   "license": "GPL-2.0-only",
   "long_description": "Adds many new types of armours to minetest. Some useful, some tough, some crazy looking... some are even tasty! Hmmm... waffles...",
-  "maintainers": [
-    "Duvalon"
-  ],
+  "maintainers": ["Duvalon"],
   "media_license": "GPL-2.0-only",
   "name": "moarmour",
-  "provides": [
-    "moarmour"
-  ],
+  "provides": ["moarmour"],
   "release": 23054,
   "repo": "https://github.com/dacmot/moarmour",
   "score": 176.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/182e15ca8d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/182e15ca8d.png"],
   "short_description": "Additional armours to build and wear",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/182e15ca8d.png",
   "title": "MOAR! ARMOUR!",
   "translation_url": null,

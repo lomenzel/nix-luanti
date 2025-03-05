@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/hkzorman/itemshelf/issues/",
   "license": "MIT",
   "long_description": "Itemshelf\n=========\n\nThe item shelf mod is a simple mod that adds to shelves that can hold up to 4 or 6 items. This small limitation is due to the fact that shelves show the items they are holding using entities. The entities are purely static and consume 0 CPU (like the ones in itemframes for example), but still the limitation is to avoid lag.\n\nShelves should work with protection mods (currently only tested with `areas` mod). Without any protection they are public, otherwise they obey the proection of the area\n\nThere are three different types of shelves, and all three come in two different flavors: holding 4 or 6 items.\n*   Shelf: like a bookshelf, one cube wide\n*   Half shelf: while not exactly half a cube, it is less deep\n*   Half open shelf: like the above, but with no back\n\n### License\nAll code is copyright (C) 2018-2022 Hector Franqui (zorman2000), licensed under the MIT license. See `LICENSE` for details.\n",
-  "maintainers": [
-    "zorman2000"
-  ],
+  "maintainers": ["zorman2000"],
   "media_license": "MIT",
   "name": "itemshelf",
-  "provides": [
-    "itemshelf"
-  ],
+  "provides": ["itemshelf"],
   "release": 13969,
   "repo": "https://github.com/hkzorman/itemshelf",
   "score": 325.9,
@@ -435,12 +429,7 @@
   ],
   "short_description": "Generic item shelf with 3D items on display",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative",
-    "storage"
-  ],
+  "tags": ["building", "creative", "decorative", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d1f8f8aa68.png",
   "title": "Itemshelf",
   "translation_url": null,
@@ -454,18 +443,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/skybox/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Allows changing your sky to unimaginably epic scenes.\n\nThis mod adds 6 360x360 degree skybox texture sets that are extremely high resolution. The mod combines the textures with 6 preselected light (day/night) levels and fog colors so that the landscape and skybox blend seamlessly. If you use this mod, day/night disappears and light will remain at the same level, and sun and moon will no longer be present. You can disable the skybox per player, if you have the permissions.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "skybox",
-  "provides": [
-    "skybox"
-  ],
+  "provides": ["skybox"],
   "release": 17368,
   "repo": "https://github.com/minetest-mods/skybox",
   "score": 343.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4zsYsbscUQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4zsYsbscUQ.png"],
   "short_description": "Allows changing your sky to unimaginably epic scenes.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4zsYsbscUQ.png",
   "title": "Skybox",
   "translation_url": null,

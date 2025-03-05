@@ -25,9 +25,7 @@
   "issue_tracker": "https://codeberg.org/csirolli/luanti_stoneage/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Stone Age Modpack for Luanti\n\nThis mod adds basic stone age and survival tools and makes the start in the world harder. You can make a campfire. Torches just burn half a day. Several mods have been merged or are depended on that adjust the game-play.\n\n## Game Play\n\nWhen you first spawn, you start with nothing. No tools, no resources, no weapons, no armor. You only have your hands and the environment.\n\nLook around. Notice the sticks under the trees. Notice the light-colored silex occasionally in the ground. Notice the piles of rocks scattered across the land. In your fortunate, maybe some nearby trees or plants will have food to sustain you.\n\nGather whatever food you find. Pick up sticks and rocks. Dig up silex. These are your basic resources to survive.\n\nYou can craft silex into a biface, an early multi-use tool. Use it for digging and cutting and attacking as needed. With this tool, you can begin to chop down your first tree.\n\nWhen you open your inventory for the first time, you will notice that your craft grid is only 2x2. Break up the tree trunk into planks, and use the planks to build a craft table. Here you will create everything you need.\n\nIt won't be daytime forever. You should focus on settling down for the night. You need a campfire and a bed. Gather 3 sticks, 3 tree trunks, and something flamable like grass or leaves. Assemble the campfire on your craft table like so:\n\n(s: stick, f: flamable, t: trunk)\n\n```\n_ s _\ns f s\nt t t\n```\n\nNow you need a tool to ignite it. Grab some silex, and some rocks. Put the rocks on the craft table by itself to change it into cobble, then join the cobble with the silex to make a rudimentary firestarter.\n\nNow gather 6 bunches of grass, and put them on the craft table in the shape of a bed:\n\n(g: grass)\n\n```\ng g g\ng g g\n```\n\nUse this grass bed to rest during the night.\n\nSet up camp somewhere safe. Place the campfire close by to keep you warm and aware of your surroundings. Lay down your bed and go to sleep after a long day of getting ready to survive.\n\n## License\n\nUnless otherwise noted, code is licensed under GPLv3 or later. The original stoneage mod was made by CasimirKaPazi, and expanded to include prehistoric by Mossmanikin, mcl_campfires from Mineclonia, nc_wooden_mattock by Fancticwor, liquid_pressure by Richard Try, and rainbarrel by Piezo_. See LICENSE.txt for full information.\n\nAll models and textures, unless mentioned otherwise in LICENSE.txt, fall under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) http://creativecommons.org/licenses/by-sa/3.0/.",
-  "maintainers": [
-    "csirolli"
-  ],
+  "maintainers": ["csirolli"],
   "media_license": "CC-BY-SA-3.0",
   "name": "stoneage_pack",
   "provides": [
@@ -703,52 +701,37 @@
       {
         "is_optional": false,
         "name": "sickles",
-        "packages": [
-          "TestificateMods/sickles"
-        ]
+        "packages": ["TestificateMods/sickles"]
       },
       {
         "is_optional": false,
         "name": "charcoal",
-        "packages": [
-          "Noodlemire/voxeldungeon",
-          "X17/charcoal"
-        ]
+        "packages": ["Noodlemire/voxeldungeon", "X17/charcoal"]
       },
       {
         "is_optional": false,
         "name": "armor_leather",
-        "packages": [
-          "Crystalwarrior/armor_expanded"
-        ]
+        "packages": ["Crystalwarrior/armor_expanded"]
       },
       {
         "is_optional": false,
         "name": "farming_flood",
-        "packages": [
-          "AFCM/farming_flood"
-        ]
+        "packages": ["AFCM/farming_flood"]
       },
       {
         "is_optional": false,
         "name": "nettle",
-        "packages": [
-          "Hume2/nettle"
-        ]
+        "packages": ["Hume2/nettle"]
       },
       {
         "is_optional": false,
         "name": "wetmud",
-        "packages": [
-          "Nicu/wetmud"
-        ]
+        "packages": ["Nicu/wetmud"]
       },
       {
         "is_optional": false,
         "name": "grass_string",
-        "packages": [
-          "Skivling/grass_string"
-        ]
+        "packages": ["Skivling/grass_string"]
       },
       {
         "is_optional": false,
@@ -766,10 +749,7 @@
       {
         "is_optional": false,
         "name": "sloweater",
-        "packages": [
-          "StarNinjas/ssp",
-          "Wuzzy/sloweater"
-        ]
+        "packages": ["StarNinjas/ssp", "Wuzzy/sloweater"]
       },
       {
         "is_optional": false,
@@ -818,24 +798,17 @@
       {
         "is_optional": false,
         "name": "armor_woven",
-        "packages": [
-          "Crystalwarrior/armor_expanded"
-        ]
+        "packages": ["Crystalwarrior/armor_expanded"]
       },
       {
         "is_optional": false,
         "name": "craft_table",
-        "packages": [
-          "BrunoMine/craft_table",
-          "Astrobe/minefall"
-        ]
+        "packages": ["BrunoMine/craft_table", "Astrobe/minefall"]
       },
       {
         "is_optional": false,
         "name": "handmill",
-        "packages": [
-          "Nordal/handmill"
-        ]
+        "packages": ["Nordal/handmill"]
       },
       {
         "is_optional": false,
@@ -882,45 +855,32 @@
       {
         "is_optional": false,
         "name": "fallen_nodes",
-        "packages": [
-          "csirolli/fallen_nodes"
-        ]
+        "packages": ["csirolli/fallen_nodes"]
       },
       {
         "is_optional": false,
         "name": "sleeping_mat",
-        "packages": [
-          "kestral/sleeping_mat"
-        ]
+        "packages": ["kestral/sleeping_mat"]
       },
       {
         "is_optional": false,
         "name": "quarry",
-        "packages": [
-          "kestral/quarry"
-        ]
+        "packages": ["kestral/quarry"]
       },
       {
         "is_optional": false,
         "name": "pigiron",
-        "packages": [
-          "MeseCraft/mesecraft",
-          "TenPlus1/pigiron"
-        ]
+        "packages": ["MeseCraft/mesecraft", "TenPlus1/pigiron"]
       },
       {
         "is_optional": false,
         "name": "bettertrees",
-        "packages": [
-          "csirolli/bettertrees"
-        ]
+        "packages": ["csirolli/bettertrees"]
       },
       {
         "is_optional": false,
         "name": "wooden_bucket",
-        "packages": [
-          "mt-mods/wooden_bucket"
-        ]
+        "packages": ["mt-mods/wooden_bucket"]
       },
       {
         "is_optional": false,
@@ -967,24 +927,17 @@
       {
         "is_optional": false,
         "name": "hardcore_farming",
-        "packages": [
-          "Neuromancer/hardcore_farming"
-        ]
+        "packages": ["Neuromancer/hardcore_farming"]
       },
       {
         "is_optional": false,
         "name": "rock_piles",
-        "packages": [
-          "Neuromancer/rock_piles"
-        ]
+        "packages": ["Neuromancer/rock_piles"]
       },
       {
         "is_optional": false,
         "name": "footprints",
-        "packages": [
-          "FaceDeer/footprints",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["FaceDeer/footprints", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,

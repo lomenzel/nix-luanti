@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/node_placer/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# Node Placer Saving\n\nThis mod saves the placer of a node into their metadata, allowing easier moderation.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-only",
   "name": "node_placer",
-  "provides": [
-    "node_placer"
-  ],
+  "provides": ["node_placer"],
   "release": 25894,
   "repo": "https://github.com/C-C-Minetest-Server/node_placer",
   "score": 1.8,
   "screenshots": [],
   "short_description": "Put node placer data into the node",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": null,
   "title": "Node Placer Saving",
   "translation_url": null,

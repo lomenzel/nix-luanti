@@ -11,26 +11,17 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "Adds two different sizes of protector blocks that automatically create protected areas (via the 'areas' mod) when placed and remove them when dug.  \n  \nAreas created by the protector blocks are completely normal 'areas'-mod areas and can be manipulated with the chat commands provided by that mod - /rename_area, /add_owner, etc.  \n  \nSome simple checks are provided to prevent players from just building structures out of these - they can't be placed such that another protector block would be within the resulting area (but the areas can overlap), and by default only 16 can be used (even if the player is allowed to have more areas) unless some of the areas are, at the very least, renamed to something more descriptive.",
-  "maintainers": [
-    "cheapie"
-  ],
+  "maintainers": ["cheapie"],
   "media_license": "The Unlicense",
   "name": "areasprotector",
-  "provides": [
-    "areasprotector"
-  ],
+  "provides": ["areasprotector"],
   "release": 27382,
   "repo": "https://cheapiesystems.com/git/areasprotector/",
   "score": 13.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/71RzdjWxCG.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/71RzdjWxCG.png"],
   "short_description": "Simple protector block for ShadowNinja's areas system",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/71RzdjWxCG.png",
   "title": "Protector Blocks",
   "translation_url": null,
@@ -59,10 +50,7 @@
       {
         "is_optional": false,
         "name": "areas",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "ShadowNinja/areas"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
       }
     ],
     "mt-mods/basic_materials": [

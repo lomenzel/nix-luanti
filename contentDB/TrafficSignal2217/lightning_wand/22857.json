@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds a lightning wand that can strike lightning on nodes and mobs.\nIf you are playing Mineclone2, it is crafted with 2 lightning rods and 1 amethyst block. Otherwise, it is crafted with\n2 diamonds and 1 mese lamp.\nThis mod depends on sofar's Lightning mod. It is optionally compatible with MineClone2.\n\nThe code for this mod was modified from TenPlus1's Lucky Block mod. His mod has a lightning staff item that you can only\nget as a rare drop from his lucky blocks. This mod makes the lightning staff a standalone mod.\nTenPlus1's Lucky Block mod: https://content.minetest.net/packages/TenPlus1/lucky_block/",
-  "maintainers": [
-    "TrafficSignal2217"
-  ],
+  "maintainers": ["TrafficSignal2217"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lightning_wand",
-  "provides": [
-    "lightning_wand"
-  ],
+  "provides": ["lightning_wand"],
   "release": 22857,
   "repo": null,
   "score": 320.8,
@@ -59,9 +55,7 @@
   ],
   "short_description": "A craftable wand that strikes lightning wherever you point it",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/061c6b9eb7.png",
   "title": "Lightning Wand",
   "translation_url": null,
@@ -75,9 +69,7 @@
       {
         "is_optional": false,
         "name": "lighting_monoid",
-        "packages": [
-          "TestificateMods/lighting_monoid"
-        ]
+        "packages": ["TestificateMods/lighting_monoid"]
       }
     ],
     "TrafficSignal2217/lightning_wand": [

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "I created this mod as a point of concept. It uses the webhook option in [Home Assistant](https://www.home-assistant.io/) to turn real lights and switches on and off in your smarthome. It uses Mesecons to connect buttons and inputs to it. \nJust put in your Home Assistant URL and a webhook token and you are ready to go. \n\nThis is my first draft and I used it in my classroom to teach students some programming.\n\n\n\n",
-  "maintainers": [
-    "Jeff"
-  ],
+  "maintainers": ["Jeff"],
   "media_license": "LGPL-3.0-only",
   "name": "homeassistant",
-  "provides": [
-    "homeassistant"
-  ],
+  "provides": ["homeassistant"],
   "release": 25305,
   "repo": "https://github.com/JSchilders1966/Minetest_HomeAssistant",
   "score": 0,
@@ -435,9 +429,7 @@
   ],
   "short_description": "An experimental mod to turn real lights and switches on and off in your smarthome within a minetest world.",
   "state": "APPROVED",
-  "tags": [
-    "creative"
-  ],
+  "tags": ["creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0c87b42a3a.png",
   "title": "Home Assistant Mod",
   "translation_url": null,

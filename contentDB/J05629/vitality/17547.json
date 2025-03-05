@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-vitality-mod/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "The Vitality Mod is where you start at 1 heart and when you die, you gain an extra heart. When you die at full health (10 hearts), you are kicked from the server and cannot rejoin.\n\nBased off of [https://www.youtube.com/watch?v=VkU8AP0dC9A](https://)\n\n#####2022-17-10 - The rejoining bug to set 1 heart is fixed.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "LGPL-3.0-only",
   "name": "vitality",
-  "provides": [
-    "vitality"
-  ],
+  "provides": ["vitality"],
   "release": 17547,
   "repo": "https://github.com/Jo5629/jo5629-vitality-mod",
   "score": 151.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8324f2ad96.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8324f2ad96.png"],
   "short_description": "Provides a Heartgiving Mod.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "pvp",
-    "survival"
-  ],
+  "tags": ["player_effects", "pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8324f2ad96.png",
   "title": "Vitality Mod",
   "translation_url": null,

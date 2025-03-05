@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,23 +651,17 @@
   "issue_tracker": "https://github.com/minetest-mods/spectator_mode/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "",
-  "maintainers": [
-    "jp"
-  ],
+  "maintainers": ["jp"],
   "media_license": "WTFPL",
   "name": "spectator_mode",
-  "provides": [
-    "spectator_mode"
-  ],
+  "provides": ["spectator_mode"],
   "release": 13846,
   "repo": "https://github.com/minetest-mods/spectator_mode",
   "score": 5.5,
   "screenshots": [],
   "short_description": "A mod for Minetest allowing you to watch other players in their 3rd person view.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": null,
   "title": "Spectator Mode",
   "translation_url": null,

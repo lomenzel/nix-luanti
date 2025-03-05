@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/Panquesito7/minetest-precise_jump/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Calculates jump time and reduces the speed of the player for a more realistic feeling.<br>\nThis is something that's being used in a lot of **platformer** games. Very useful in:\n\n- Advanced parkours.\n- The full jump isn't required in various cases.\n- Very specific cases, such as PvE and PvP.\n\n## To-do\n\n- Make it a more smooth feeling when jumping.\n- Adjust the velocity values.\n- Make sure the mod doesn't conflict with the Double Jump, Wall Jump, and other physics mods.\n\n## License\n\nSee [`LICENSE.txt`](https://github.com/Panquesito7/minetest-precise_jump/blob/main/LICENSE.txt) for full license information and [`AUTHORS.md`](https://github.com/Panquesito7/minetest-precise_jump/blob/main/AUTHORS.md) for all the contributors.\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "CC-BY-SA-4.0",
   "name": "precise_jump",
-  "provides": [
-    "precise_jump"
-  ],
+  "provides": ["precise_jump"],
   "release": 23264,
   "repo": "https://github.com/Panquesito7/minetest-precise_jump",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/752d1f54f5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/752d1f54f5.png"],
   "short_description": "Time your jumps to go higher or lower!",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/752d1f54f5.png",
   "title": "Precise Jump",
   "translation_url": null,

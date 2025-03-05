@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,25 +651,17 @@
   "issue_tracker": "https://github.com/minetest-mods/emote/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This mod allows players to /sit, /wave, /point and a few other character animations based on the default player model animations. These allow players to be more expressive to other players and make world a little bit more sociable.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "CC-BY-3.0",
   "name": "emote",
-  "provides": [
-    "emote"
-  ],
+  "provides": ["emote"],
   "release": 24880,
   "repo": "https://github.com/minetest-mods/emote",
   "score": 36.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/vBjc6V1E3e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/vBjc6V1E3e.png"],
   "short_description": "Provides player emotes and an api to make the player model sit, lie down and perform other actions.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vBjc6V1E3e.png",
   "title": "Emote",
   "translation_url": null,

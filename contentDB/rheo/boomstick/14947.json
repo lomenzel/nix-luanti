@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,27 +247,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-boomstick/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "a mod for testing the behavior of tnt\n\nusage:\n* `/giveme boomstick:stick`\n\ngives the player a stick which triggers tnt explosions. right-click to configure the parameters. \n\n* `/giveme boomstick:node 99`\n\ngives the player nodes which should be unbreakable\n\nLICENSE:\n\nCODE: LGPL\n\nMEDIA: \n* boomstick_stick.png CC0 - thanks FrostRanger!\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC0-1.0",
   "name": "boomstick",
-  "provides": [
-    "boomstick"
-  ],
+  "provides": ["boomstick"],
   "release": 14947,
   "repo": "https://github.com/fluxionary/minetest-boomstick",
   "score": 165,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8d06110a04.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8d06110a04.png"],
   "short_description": "a tool for testing the behavior of tnt",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "developer_tools",
-    "tools"
-  ],
+  "tags": ["creative", "developer_tools", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8d06110a04.png",
   "title": "boomstick",
   "translation_url": null,
@@ -283,9 +271,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

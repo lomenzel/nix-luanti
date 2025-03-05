@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/mt-historical/emojis_lite/issues",
   "license": "GPL-3.0-only",
   "long_description": "# emojis_lite\n\n## Overview\nEmojis_lite adds an inventory menu, from which a player can display various emojis. The mod also provides an api for easy emoji registration. This mod is an independent implementation of idea from [this mod](https://github.com/bosapara/emoji) by Bosapara.\n\n## Requirements\n\n- Minetest 5.0.0+\n- Minetest_game 5.0.0+\n\n## Adding your own emoji\nCall emojis_api.register_emoji() in your mod with following parameters:\n\n```Lua\nemojis_api.register_emoji(name, image, sound)\n```\n\n- name - unique id of the emoji. Please use only alphanumeric symbols, since this ID is used in the formspec string.\n- image - name of the image file to use\n- sound - name of the sound file to play\n\nThe emoji grid will scale automatically so there's no need worry about excess emojis.\n\n\n## Settingtypes\nAvailable settings that you can put in your minetest.conf directly, or access them via \"Settings->All Settings->Mods->emojis_api\" menu.\n\n```\nemojis_api_sound_gain - float, master gain of emoji sounds\n\nemojis_lite_duration - float, duration of spawned emoji in seconds\n\nemojis_lite_glow - bool, should emojis be visible in darkness\n\nemojis_lite_size - float, size of the emoji particle\n\n```\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-only",
   "name": "emojis_modpack",
-  "provides": [
-    "emojis_api",
-    "emojis_php"
-  ],
+  "provides": ["emojis_api", "emojis_php"],
   "release": 17540,
   "repo": "https://github.com/mt-historical/emojis_lite",
   "score": 5.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c872e67ab9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c872e67ab9.png"],
   "short_description": "A modpack allowing players to display emojis",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "decorative"
-  ],
+  "tags": ["chat", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c872e67ab9.png",
   "title": "Emojis Modpack",
   "translation_url": null,

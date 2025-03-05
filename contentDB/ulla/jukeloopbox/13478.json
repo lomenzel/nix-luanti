@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/IIIullaIII/jukebox/issues/new/choose/",
   "license": "CC-BY-SA-3.0",
   "long_description": "A simple jukebox that can be used for small looped tracks, or simply to listen to music  , just put your sound .ogg in the sounds folder and  rename the tracks with \na number from 1 to 16,       \n1.ogg  \n2.ogg  \n3.ogg ........ \nStartable whit mesecons too.\nDo not remove the juke if the music is in loop \nor will remain active until you exit the game \nor reposition it in the exact point where you started the loop before breaking the juke",
-  "maintainers": [
-    "ulla"
-  ],
+  "maintainers": ["ulla"],
   "media_license": "MIT",
   "name": "jukeloopbox",
-  "provides": [
-    "jukeloopbox"
-  ],
+  "provides": ["jukeloopbox"],
   "release": 13478,
   "repo": "https://github.com/IIIullaIII/jukebox.git",
   "score": 158.8,
@@ -448,9 +442,7 @@
   ],
   "short_description": "A simple jukebox that can be used for small looped tracks, or simply to listen to music  ",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/937c9a4e7f.png",
   "title": "Jukeloopbox ",
   "translation_url": null,

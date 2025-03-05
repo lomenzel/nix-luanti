@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/mt-historical/mese_restriction/issues",
   "license": "MIT",
   "long_description": "Many mesecons nodes can only be placed by players with the mesemaker priv.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "mese_restriction",
-  "provides": [
-    "mese_restriction"
-  ],
+  "provides": ["mese_restriction"],
   "release": 17062,
   "repo": "https://github.com/mt-historical/mese_restriction",
   "score": 7.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3bf64e70ec.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3bf64e70ec.png"],
   "short_description": "Minetest mod: restrict mesecons use to priv",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3bf64e70ec.png",
   "title": "Mese Restriction",
   "translation_url": null,

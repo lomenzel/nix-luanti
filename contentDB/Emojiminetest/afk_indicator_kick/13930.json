@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/afk_indicator_kick/issues",
   "license": "MIT",
   "long_description": "# AFK Kick using AFK Indicator\nThis is a configurable AFK Kick mod, see `settingtypes.txt` for help.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "afk_indicator_kick",
-  "provides": [
-    "afk_indicator_kick"
-  ],
+  "provides": ["afk_indicator_kick"],
   "release": 13930,
   "repo": "https://github.com/C-C-Minetest-Server/afk_indicator_kick",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8d77ec2f3c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8d77ec2f3c.png"],
   "short_description": "Kick inactive players",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8d77ec2f3c.png",
   "title": "AFK Kick (AFK Indicator)",
   "translation_url": null,
@@ -44,9 +36,7 @@
       {
         "is_optional": false,
         "name": "afk_indicator",
-        "packages": [
-          "Emojiminetest/afk_indicator"
-        ]
+        "packages": ["Emojiminetest/afk_indicator"]
       }
     ]
   },

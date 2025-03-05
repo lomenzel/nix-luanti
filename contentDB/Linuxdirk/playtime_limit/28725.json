@@ -11,24 +11,17 @@
   "issue_tracker": "https://git.0x7be.net/dirk/playtime_limit/issues",
   "license": "MIT",
   "long_description": "*Playtime Limit – Limit how long players are allowed to play*\n\nThis mod allows server owners to configure a playtime limit for individual players and a reset interval for this limit.\n\nThe playtime is counted up until the limit is reached and the player will then be disconnected. After the given reset interval the player can reconnect to the server. If the player disconnects while still within the limit the counter for that player is paused and resumed when the player reconnects.\n\nThis mod can be used to limit the playtime on highly frequented server or when running a server for kids and you do not want them to play for too long.\n\n## Configuration\n\nThe mod can be configured to provide default values for new players. Players that were on the server while the mod was enabled with older configuration won’t get the new configuration. You need to change their values manually.\n\nThe following values and defaults are used. Those values can either be set in the config file for the server or in the client’s configuration when running an ad-hoc server.\n\n```\nplaytime_limit_default_limit = 1800\nplaytime_limit_default_interval = 86400\nplaytime_limit_step_size = 60\n```\n\n* `playtime_limit_default_limit`: Playtime limit in seconds. If players were that long on the server they’re disconnected.\n* `playtime_limit_default_interval`: The interval for resetting the playtime counter in seconds. When the playtime is up, players need to wait this long before being able to reconnect again.\n* `playtime_limit_step_size`: How often the validity is checked. After this amount of seconds the mod iterates over all players and validates if their playtime limits are reached.\n\nYou should not use “invalid values” like step size being lager than playtime limit or interval being lower than playtime limit, etc.\n\nAlso keep in mind that too high step sizes allow “cheating” the playtime limit by disconnecting before the validity check is being done. Too low values on high-load server cause additional lag because the validity check is done more often. Lower step values are more precise, though.\n\n## Chat command\n\nPlayers with `server` privilege can configure other players playtime limits and reset intervals.\n\n* `/playtime_limit_set MyCoolPlayer limit 1200` -> Limit the playtime of “MyCoolPlayer” to 20 minutes. If the limit is already reached or passed the player will be disconnected on the next validity check step.\n* `/playtime_limit_set MyCoolPlayer limit -1` -> Disable playtime limit for “MyCoolPlayer”. The player will not receive any further playtime notifications. If re-enabling with another value the player might get kicked because the join timestamp is used to determine the playtime.\n* `/playtime_limit_set MyCool Player interval 43200` -> Set the playtime reset interval to 12 hours. After those 12 hours the player can reconnect after being disconnected. On reconnect the playtime counter is reset.\n",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "playtime_limit",
-  "provides": [
-    "playtime_limit"
-  ],
+  "provides": ["playtime_limit"],
   "release": 28725,
   "repo": "https://git.0x7be.net/dirk/playtime_limit",
   "score": 3.3,
   "screenshots": [],
   "short_description": "Limit how long players are allowed to play",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": null,
   "title": "Playtime Limit",
   "translation_url": "https://translate.codeberg.org/projects/linuxdirks-luanti-mods/playtime_limit/",

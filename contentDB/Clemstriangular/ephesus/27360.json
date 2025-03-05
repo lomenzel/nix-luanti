@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "EUPL-1.2",
   "long_description": "The \"Ephesus\" mod adds new blocks, decorations and building elements in in an ancient Mediterranean style.\nYou will discover a variety of textures, including marble blocks, tiles, mosaics, as well as architectural elements such as columns, plinths.\nBut that's not all, the mod also includes new types of Mediterranean trees (fruit trees, cypresses...).                            \n**Ephesus is Compatible with i3 and moreblocks**\n",
-  "maintainers": [
-    "Clemstriangular"
-  ],
+  "maintainers": ["Clemstriangular"],
   "media_license": "EUPL-1.2",
   "name": "ephesus",
-  "provides": [
-    "ephesus"
-  ],
+  "provides": ["ephesus"],
   "release": 27360,
   "repo": null,
   "score": 167.3,
@@ -438,11 +432,7 @@
   ],
   "short_description": "Added ancient architectural blocks from the Mediterranean",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative"
-  ],
+  "tags": ["building", "creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bfec1aa59b.png",
   "title": "Ephesus",
   "translation_url": null,
@@ -536,18 +526,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

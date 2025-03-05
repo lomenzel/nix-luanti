@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Adds bamboo as well as a few others blocks.\n\nTo get bamboo, go to a jungle and find it naturally growing.\n\nBamboo can be crafted into bamboo bundles for decoration or storage by placing nine bamboo sticks in the crafting grid. This recipe is reversible.\n\nBamboo can be made into dry bamboo by placing it on a non-dirt block and waiting for it to die.\n\nDry bamboo can be used as a fuel in a furnace.\n\nDry bamboo can be used to make sticks and dry bamboo bundles.\n\nAll of these blocks make nice decorations.\n\nThis mod uses the same technical name as these mods and can be used as a drop-in replacement.\n\nhttps://forum.minetest.net/viewtopic.php?id=4542\n\nhttps://content.minetest.net/packages/runs/cool_trees/ (only the bamboo mod)\n\n(This mod uses entirely original code and assets.)",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bamboo",
-  "provides": [
-    "bamboo"
-  ],
+  "provides": ["bamboo"],
   "release": 16084,
   "repo": null,
   "score": 9.8,
@@ -437,10 +431,7 @@
   ],
   "short_description": "Adds bamboo which generates in jungles and can be used as a crafting ingredient.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a7df1e1f8.png",
   "title": "Bamboo",
   "translation_url": null,
@@ -612,18 +603,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

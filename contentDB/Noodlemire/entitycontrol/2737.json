@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/Noodlemire/entitycontrol/issues/new/choose/",
   "license": "Apache-2.0",
   "long_description": "Adds functions to override and unregister entities.\n\nentitycontrol.override_entity(name, definition): override an entity with the given name, by providing new values in the definition table.\n\nentitycontrol.unregister_entity(name): Unregister the given entity",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "Apache-2.0",
   "name": "entitycontrol",
-  "provides": [
-    "entitycontrol"
-  ],
+  "provides": ["entitycontrol"],
   "release": 2737,
   "repo": "https://github.com/Noodlemire/entitycontrol",
   "score": 2.9,
   "screenshots": [],
   "short_description": "Adds functions to override and unregister entities.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Entity Control Function Library",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/GreenXenith/tac_nayn/issues/",
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "tac_nayn",
-  "provides": [
-    "tac_nayn"
-  ],
+  "provides": ["tac_nayn"],
   "release": 22104,
   "repo": "https://github.com/GreenXenith/tac_nayn",
   "score": 5.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/SIfP6SgEDv.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/SIfP6SgEDv.png"],
   "short_description": "Adds Nyan Cat's evil twin, Tac Nayn (and a gray-scale rainbow).",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen"
-  ],
+  "tags": ["building", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/SIfP6SgEDv.png",
   "title": "Tac Nayn",
   "translation_url": null,

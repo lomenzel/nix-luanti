@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitlab.com/SonoMichele/betterpm-minetest/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "# BetterPM\n\nBetterPM is a minetest mod that improves private messages. It is completely customizable but also ready to use.\n\n## Config\n\nAll these values can be changed in the file `settings.lua`\n\n* `target` represents who receives the message, `sender` represents who sends the message.\n* You can customize message text color by changing `targetMsgColor` and `senderMsgColor`.\n* You can customize prefix color by changing `targetPrefixColor` and `senderPrefixColor`.\n* You can customize the prefix text by changing `targetPrefix` and `senderPrefix`. You can use `{target}` and `{sender}` placeholders to respectively represent the target and the sender names.\n\n## Usage\n\n* `/msg <name> <message>` to send a private message to _name_.\n* `/w <name> <message>` as an alias for /msg\n* `/r <message>` to reply to the latest private message you received.\n* `/pmignore` to ignore all private messages (do the command again to stop ignoring private messages)\n* `/pmignore <name>` to ignore all private messages from specific players (do the same command again to stop ignoring private messages)\n\n## Note\nThe icon was created by Giov4.\n",
-  "maintainers": [
-    "SonoMichele"
-  ],
+  "maintainers": ["SonoMichele"],
   "media_license": "CC-BY-SA-4.0",
   "name": "betterpm",
-  "provides": [
-    "betterpm"
-  ],
+  "provides": ["betterpm"],
   "release": 27550,
   "repo": "https://gitlab.com/SonoMichele/betterpm-minetest",
   "score": 305.9,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Improves private messages and makes them more customizable ",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gYSMA5i0Mw.png",
   "title": "BetterPM",
   "translation_url": null,

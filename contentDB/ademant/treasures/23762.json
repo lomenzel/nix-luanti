@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://notabug.org/ademant/treasures/issues",
   "license": "CC-BY-3.0",
   "long_description": "# Minetest mod: Treasure\n\nMain repository:\n\nhttps://notabug.org/ademant/treasures.git\n\n## Short description\nTreasure nodes as diggable element somewhere in the world\n\n## Longer description\nFive loot nodes are defined (treasures:treasure1 .. treasures:treasure5), which can be found in different depths. The possible drop items can be extended by other mods.\n\nAPI:\n\n- treasures.add_treasure(name,treasure_def) add a new node <name> similar to minetest.register_node\n- treasures.map_treasure(name,map_def) add the definition for map generation to treasure <name>\n- treasures.add_drop(name,drop_def) add to treasure <name> a new drop item (and optional rarety).\n\nAdopted from the idea of daviddoesminetest in his minerdream mod.\n\n# Authors of source code\n\nademant (CC BY 3.0)\n\n# Authors of media (textures)\n  \ndaviddoesminetest (CC BY 3.0)",
-  "maintainers": [
-    "ademant"
-  ],
+  "maintainers": ["ademant"],
   "media_license": "CC-BY-3.0",
   "name": "treasures",
-  "provides": [
-    "treasures"
-  ],
+  "provides": ["treasures"],
   "release": 23762,
   "repo": "https://notabug.org/ademant/treasures",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/825010ebcf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/825010ebcf.png"],
   "short_description": "Treasure nodes with useful items",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mapgen"
-  ],
+  "tags": ["adventure__rpg", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/825010ebcf.png",
   "title": "treasures",
   "translation_url": null,

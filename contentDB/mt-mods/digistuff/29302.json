@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,15 +130,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Adds many new nodes that support doing various things via digilines:  \n(in no particular order)  \n\n* **Player Detector**: Reports which players are within a configurable range.  \n* **Camera**: Like the player detector, but can be \"aimed\" at the ground some distance in front of the node itself. Originally intended for use with traffic signals, but many players have been using them as \"security cameras\" instead.  \n* **Magnetic Card Reader/Writer**: Allows writing data to and reading data back out from magnetic cards (included).  \n* **Extra Conductors**: Vertical digilines, digimese (connects in all directions), junction box (conducts through one solid node into another junction box)  \n* **Game Controller**: Allows players to control your program using normal movement commands (as in walking, looking around, punching, etc.)  \n* **I/O Expander**: Adds an additional four mesecons I/O ports that can be used as any combination of input or output.  \n* **Dimmable Light**: Can be set to any of 14 light levels (or 15 if \"off\" counts as one)  \n* **SRAM**: Stores data.  \n* **EEPROM**: Stores data like SRAM, but can be dug and then placed elsewhere without losing it.  \n* **Piston**: Behaves like both mesecons pistons rolled into one, with some extra features - can extend, retract, retract pulling one node, or retract pulling a whole stack of nodes like a movestone.  \n* **Movestone**: It's a stone, that moves. Can move to arbitrary positions (with some restrictions of course). Not real well-tested yet.  \n* **Noteblock**: Can play any sound that a mesecons noteblock can, and several that those can't. Supports pitch and volume control.  \n* **NIC**: Allows fetching (quite small amounts of) data from the Internet/Web (HTTP).  \n* **Control Panel**: Text display and a few buttons rolled into one.  \n* **Touchscreen**: Shows custom UI elements and sends input back to the Luacontroller.  \n* **Piezo Beeper**: It, uh, beeps.  \n* **Button**: Sends a (configurable) message when pressed.  \n* **Wall Knob**: Can be turned to enter a numeric value, goes well with the dimmable lights.  \n* **Timer**: Sends a digilines message after a configurable delay, with optional looping functionality. Uses node timers, so automatically pauses when the mapblock is unloaded and resumes when loaded again.  \n* **GPU**: Contains enough video memory for 8 64x64 buffers, can draw (very) simple shapes and text on them, can load images into them from a Luacontroller, contains a fully(ish)-featured BitBLT engine for manipulating data and copying it between buffers, and can output the results to rgblightstone panels, digiscreens, or other similar mods using the same data format (nested tables of hex colors).  \n* **Heatsink**: Does absolutely nothing except look kinda neat. Fits most ICs and can also be placed on normal nodes.  \n* **Channel Copier**: Makes it easier to copy digilines channels between nodes. Supports items from this mod and a few others.  \n\nDocumentation for most of these nodes is available in the \"docs\" directory.",
-  "maintainers": [
-    "cheapie",
-    "mt-mods"
-  ],
+  "maintainers": ["cheapie", "mt-mods"],
   "media_license": "CC-BY-SA-3.0",
   "name": "digistuff",
-  "provides": [
-    "digistuff"
-  ],
+  "provides": ["digistuff"],
   "release": 29302,
   "repo": "https://github.com/mt-mods/digistuff/",
   "score": 1172.2,
@@ -150,9 +143,7 @@
   ],
   "short_description": "Random digilines devices",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3ayDzd1aSr.png",
   "title": "digistuff",
   "translation_url": null,

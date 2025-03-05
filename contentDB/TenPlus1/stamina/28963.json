@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "A simple mod that adds simple hunger into your game which slowly ticks down as you play.\n\n- Sprint by holding down Aux1 key which is usually (E), only with enough stamina.\n- Get drunk by eating 4x food or drink with {alcohol} group.\n- Drink milk from mobs or farming mod to counteract poison and drunk effects.\n\nSupports 3d_armor, POVA and player_monoids mods.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-3.0",
   "name": "stamina",
-  "provides": [
-    "stamina"
-  ],
+  "provides": ["stamina"],
   "release": 28963,
   "repo": "https://codeberg.org/tenplus1/stamina",
   "score": 507.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/09OYo1XIPf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/09OYo1XIPf.png"],
   "short_description": "Adds stamina and hunger (this fork adds drunk effects and player_monoids/pova support)",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/09OYo1XIPf.png",
   "title": "Stamina (Fork)",
   "translation_url": null,

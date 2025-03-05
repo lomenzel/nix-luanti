@@ -206,9 +206,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://git.0x7be.net/dirk/uniham/issues",
   "license": "MIT",
   "long_description": "The mod registers various hammers. Those hammers can be crafted from sticks and their respective material. Different material hammers can be used different times before they break. Crafting the hammers needs two sticks and two of the material. Crafting is then done very similar to the other tools.\n\nThe recipe shape is always the same, just interchange the head material. If the moreores mod is installed and loaded hammers can be crafted from the mod’s ores in the same way as shown above.\n\nSince the Content Database does not allow external screenshots to be shown I cannot show crafting examples here. Please check out the readme on GitLab for that.\n\n## Functionality\n\nThe hammers added by this mod can be used to crush material into “softer” material. The three default sandstone types can be crushed into the corresponding three default sand types, too. Durability ranges from 30 uses (wooden hammer) to obsidian (400 uses). If installed, moreores’ Mithril allows 450 uses.",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "uniham",
-  "provides": [
-    "uniham"
-  ],
+  "provides": ["uniham"],
   "release": 28717,
   "repo": "https://git.0x7be.net/dirk/uniham",
   "score": 156.1,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Various hammers that can be used to crush nodes.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/AqU8ZiF4tq.png",
   "title": "Unified Hammers",
   "translation_url": "https://translate.codeberg.org/projects/linuxdirks-luanti-mods/uniham/",

@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,14 +130,10 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/holoemitter/issues",
   "license": "MIT",
   "long_description": "Digilines holographic emitter\n\nCreate and react to holograms configured with digiline commands\n\n**Note**: use on multiplayer servers on your own risk! (Some parameters are passed to the minetest-api unsanitized)\n\n## Examples\n\nMore examples: https://github.com/BuckarooBanzay/holoemitter/blob/master/readme.md\n\n### Rotating sam\n**Note**: needs the `player_api` mod (included in the `minetest_game`)\n\n```lua\nif event.type == \"program\" then\n  digiline_send(\"holoemitter\", {\n    command = \"emit\",\n    pos = { x=2, y=2, z=0 },\n    id = \"my_entity_id\",\n    properties = {\n      visual = \"mesh\",\n      mesh = \"character.b3d\",\n      visual_size = {x=1,y=1},\n      textures = {\"character.png\"},\n      automatic_rotate = 1,\n      glow = 10,\n      physical = false,\n      collide_with_objects = false,\n      pointable = true,\n      nametag = \"test\"\n    }\n  })\nend\n```\n\n### Display text\n\n**Note**: needs the `display_modpack` to work\n\n```lua\nif event.type == \"program\" then\n\tdigiline_send(\"holoemitter\", { command = \"reset\" })\n\tdigiline_send(\"holoemitter\", {\n\t\tcommand = \"emittext\",\n\t\tpos = { x=0, y=2, z=0 },\n\t\tid = \"my_entity_id\",\n\t\ttext = \"Test\",\n\t\tsize_x = 2,\n\t\tsize_y = 1,\n\t\trotation = { x=0, y=0, z=0 }\n\t})\nend\n```\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "holoemitter",
-  "provides": [
-    "holoemitter"
-  ],
+  "provides": ["holoemitter"],
   "release": 6519,
   "repo": "https://github.com/BuckarooBanzay/holoemitter.git",
   "score": 302.9,
@@ -149,10 +143,7 @@
   ],
   "short_description": "Holo emitter mod",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "technology"
-  ],
+  "tags": ["decorative", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/V40HDhiyky.png",
   "title": "Holoemitter",
   "translation_url": null,

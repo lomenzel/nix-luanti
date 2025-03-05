@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,14 +195,10 @@
   "issue_tracker": "https://github.com/TheAlchemist0033/alchemy/issues",
   "license": "MIT",
   "long_description": "## Alchemy Mod\n-adds multiple potions into the game with timed effects\n-adds a few different mobs \n-clones some mobs_monster mobs by TenPlus1 with special loot tables \n-throwable potions with timed effects\n\nThis mod has has its first stable release! The mod is now fully playable. People who download the development release may see a number of bugs or severe glitches. \n\n**Potions:**\n-speed (doubles speed for 60s)\n-jump (doubles jump height for 60s)\n-lunar (halves gravity for 60s)\n-nightvision (lets you see at night {doesnt work in caves} for 60s)\n-fortitude (increases hp to double for 60s)\n-slow healing (increases hp by 1 every 3s for 60s (1 is half of a heart)\n-water breathing (lets you breath underwater for 60s)\n-poison (decreases hp by 1 every 3s for 60s)\n-throwable versions of all of the above \n\n**Flora:**\n-adds a number of different flora with some cool effects. Will not spoil what they do for gameplay reasons. \n\n**Mobs:**\nCurrently mobs are being redone. There is one Earthmob (gaea spawnling) that has the most hp and the best loot. Other mobs (dirt, sand, lava flan, tree mob) have been cloned and had their loot tables in order to make this mob as dependency free as possible. It is not likely that these mobs will remain in the mod. Some potions require special loot which is rare. You can change the loot rarity in the mobs.lua file.   \n\n#### This mod is not very friendly with Stamina. Uninstall and reintall stamina mod after installing alchemy to ensure compatability. \nv",
-  "maintainers": [
-    "TheAlchemist0033"
-  ],
+  "maintainers": ["TheAlchemist0033"],
   "media_license": "MIT",
   "name": "alchemy",
-  "provides": [
-    "alchemy"
-  ],
+  "provides": ["alchemy"],
   "release": 7635,
   "repo": "https://github.com/TheAlchemist0033/alchemy",
   "score": 479.1,
@@ -217,11 +211,7 @@
   ],
   "short_description": "adds throwable and regular potions to game (beta)",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "player_effects",
-    "pvp"
-  ],
+  "tags": ["magic", "player_effects", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/YqlnK4I4N4.png",
   "title": "Alchemy",
   "translation_url": null,

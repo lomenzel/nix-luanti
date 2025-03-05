@@ -1,8 +1,6 @@
 {
   "author": "Irremann",
-  "content_warnings": [
-    "violence"
-  ],
+  "content_warnings": ["violence"],
   "created_at": "2024-11-04T18:27:44.530309",
   "dev_state": "MAINTENANCE_ONLY",
   "donate_url": null,
@@ -143,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -186,14 +182,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "# ufowreck\n> UFO wreck mod for Minetest by Irremann\n\nThis mod creates a fleet of 4-6 UFOs when generating a map. Although UFOs are damaged during landing, you can find alien artifacts and plants inside them. ( Our researchers are not sure about plants, perhaps they are animals).\n\nBut be careful! Somewhere in the hull is hidden a cloning unit that creates armed crew members. They call themselves \"floob\" and attack all living things around them without hesitation.\n\nOur researchers also report that electrical devices from UFOs operate at high voltage. This can be useful!\n\n## License\nGNU GPL 3.0\n",
-  "maintainers": [
-    "Irremann"
-  ],
+  "maintainers": ["Irremann"],
   "media_license": "GPL-3.0-only",
   "name": "ufowreck",
-  "provides": [
-    "ufowreck"
-  ],
+  "provides": ["ufowreck"],
   "release": 28668,
   "repo": "https://github.com/Irremann/ufowreck",
   "score": 5.1,
@@ -204,13 +196,7 @@
   ],
   "short_description": "UFO wreck",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen",
-    "technology",
-    "tools",
-    "transport"
-  ],
+  "tags": ["decorative", "mapgen", "technology", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d9a3532d27.png",
   "title": "UFO wreck",
   "translation_url": null,
@@ -224,9 +210,7 @@
       {
         "is_optional": false,
         "name": "xdecor",
-        "packages": [
-          "Wuzzy/xdecor"
-        ]
+        "packages": ["Wuzzy/xdecor"]
       },
       {
         "is_optional": false,

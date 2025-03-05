@@ -25,26 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Introduces an item, *the Tool Watcher*, for monitoring the durability of the player wield tool. After using the tool watcher once it will alert the player whenever their equipment is close to breaking through a HUD text as long as it is kept in that player inventory.\n\nThe Tool Watcher recipe consists of: mese crystal, glass, stick and steel ingot, it requires the default mod in order to be crafted.",
-  "maintainers": [
-    "j0j0n4th4n"
-  ],
+  "maintainers": ["j0j0n4th4n"],
   "media_license": "CC0-1.0",
   "name": "tool_watcher",
-  "provides": [
-    "tool_watcher"
-  ],
+  "provides": ["tool_watcher"],
   "release": 29765,
   "repo": "https://codeberg.org/j0j0/tool_watcher",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dcb6c0111b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dcb6c0111b.png"],
   "short_description": "Introduces an  item for monitoring the wield tool durability and alerting players when their equipment is close to breaking through a HUD text.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "tools"
-  ],
+  "tags": ["hud", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dcb6c0111b.png",
   "title": "Tool Watcher",
   "translation_url": null,

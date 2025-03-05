@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,14 +286,10 @@
   "issue_tracker": "https://github.com/Skandarella/naturalbiomes/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: For a working leaf decay (Disappearing of leaves after a trees trunk is chopped) I recommend to use this mod: https://content.minetest.net/packages/Liil/winuserleafdecay/\n\nThis mod adds 9 new biomes to your Minetest world:\n\n* Wet Savanna\n* Outback\n* Alder Swamp\n* Alpine\n* Beach\n* Bamboo Forest\n* Mediterranean\n* Heath\n* Bushland\n\nIt is designed for people who like survival gameplay and gives you the ability to craft new slabs, stairs and walls from the biomes plants and rocks, also a few new foods.\n\n* Update V1.1 - Should fix the errors with biome generation, saplings and tree growth\n* Update V1.2 - Missing recipes for walls added\n* Update V1.3 - Added Ethereal support/compatibility\n* Update V1.4 - Added the correct growth position of trees from saplings without deleting surrounding nodes. It also includes some little fixes, a new alpine biome cowberry bush and minimal texture changes.\n* Update V1.4 - Added heath biome, some more precise tree descriptions/names\n* Update V1.42 - Should fix the leaf decay problem thanks to the help of ShadMOrdre\n* Update V1.43 - Fixed cowberries and added dye crafting from flowers\n* Update V1.45 - Adds Bushland Biome\n* Update V1.47 - Adds doors and trapdoors",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "naturalbiomes",
-  "provides": [
-    "naturalbiomes"
-  ],
+  "provides": ["naturalbiomes"],
   "release": 17269,
   "repo": "https://github.com/Skandarella/naturalbiomes.git",
   "score": 364.6,
@@ -312,12 +306,7 @@
   ],
   "short_description": "Adds 9 new biomes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["building", "mapgen", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/496b454416.png",
   "title": "Wilhelmines Natural Biomes",
   "translation_url": null,
@@ -519,18 +508,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

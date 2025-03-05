@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_sfinv_buttons/issues",
   "license": "MIT",
   "long_description": "Adds a tab to your default Minetest Game inventory in which other mods can add simple buttons to access special functionality.\n\nJust open the inventory menu, select the “More” tab and click on a button.\n\nThe mod itself does not add these buttons on its own, instead other mods need to depend on this mod.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "sfinv_buttons",
-  "provides": [
-    "sfinv_buttons"
-  ],
+  "provides": ["sfinv_buttons"],
   "release": 18232,
   "repo": "https://codeberg.org/Wuzzy/minetest_sfinv_buttons",
   "score": 168,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dvfyplwIxt.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dvfyplwIxt.png"],
   "short_description": "Adds a tab to the Simple Fast Inventory on which mods can add buttons for easy access.",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dvfyplwIxt.png",
   "title": "Simple Fast Inventory Buttons",
   "translation_url": null,

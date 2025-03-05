@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/trading/issues/new/choose/",
   "license": "MIT",
   "long_description": "Allows players to trade items with each other via the use of the /trade and /accepttrade commands.\n\nForked from GunshipPenguin's original mod.\n\n## Usage\nPlayers must have the \"trade\" privilege in order to request trades. This privilege is given to players by default, if a player newly joins after this mod is enabled.\n\n- To request a trade use `/trade <player_name>`\n- To accept a trade offer from a specific player, use `/accepttrade <player_name>`\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "trading",
-  "provides": [
-    "trading"
-  ],
+  "provides": ["trading"],
   "release": 28363,
   "repo": "https://github.com/rollerozxa/trading",
   "score": 4.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3924c3c475.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3924c3c475.png"],
   "short_description": "Trade items with other players.",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "multiplayer"
-  ],
+  "tags": ["inventory", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3924c3c475.png",
   "title": "Trading",
   "translation_url": null,

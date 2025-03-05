@@ -129,25 +129,17 @@
   "issue_tracker": "https://gitlab.com/mazes_80/lock_replica/-/issues",
   "license": "MIT",
   "long_description": "# Lock replica\nAdds only one simple tool to allow to replicate a \"lock\" and/or reshape it :)\n\n## Use cases\n* You gave key to a friend , and you are planning changes which involve moving this door/chest, the lock replicator tool will allow to save the node \"lock\" before removing it, and use it back when node is move to another place. Your friend can still use his key :)\n\n* You can also use the same \"lock\" for every doors and/or chest of a house that is accessible to some friends. One key for all.\n\n## Compatibility\n* The mod was designed to be used altogether with [doors redo](https://content.minetest.net/packages/TenPlus1/doors/), there is also one \"[mazes_80 flavor](https://gitlab.com/mazes_80/doors)\" of doors redo on my gitlab with a sneaky extra feature. Still it is usable with classic doors mod.\n\n* It was also designed with [entity keys](https://gitlab.com/mazes_80/entity_keys) in mind.\n\n# Licence\n* Code: [MIT license](https://gitlab.com/mazes_80/lock_replica/-/raw/master/license.txt)  terms\n\n* Artwork: [Free Art License](https://artlibre.org/licence/lal/en/)",
-  "maintainers": [
-    "mazes"
-  ],
+  "maintainers": ["mazes"],
   "media_license": "LAL-1.3",
   "name": "lock_replica",
-  "provides": [
-    "lock_replica"
-  ],
+  "provides": ["lock_replica"],
   "release": 26903,
   "repo": "https://gitlab.com/mazes_80/lock_replica",
   "score": 151,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cbd2e0f8c5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cbd2e0f8c5.png"],
   "short_description": "A tool to replicate locks",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cbd2e0f8c5.png",
   "title": "Lock Replicator",
   "translation_url": null,

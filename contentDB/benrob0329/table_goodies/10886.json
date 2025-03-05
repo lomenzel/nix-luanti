@@ -11,23 +11,17 @@
   "issue_tracker": "https://gitlab.com/benrob0329/lua-table_goodies/-/issues",
   "license": "CC0-1.0",
   "long_description": "# table_goodies\nThis is a small package for extra (can't live without) functions for working with tables.\n\nThis includes:\n\n* `table.equals(t1, t2)` -> `bool`, a recursive (deep) equality function\n* `table.merge(t1, t2, ...)` -> `t1`, a table merging function (t2 -> t1)\n* `table.map(t, f)` -> `t`, a mapping (apply f to every value) function\n\n## Why?\nBecause Lua needs more atomic modules which add functionality without creating a huge library. This module is supposed to be dead-simple to grab and start using in your project without adding anything extra. One of Lua's strengths is minimalism, and I think that it's ecosystem would do well to mirror that.\n",
-  "maintainers": [
-    "benrob0329"
-  ],
+  "maintainers": ["benrob0329"],
   "media_license": "CC0-1.0",
   "name": "table_goodies",
-  "provides": [
-    "table_goodies"
-  ],
+  "provides": ["table_goodies"],
   "release": 10886,
   "repo": "https://gitlab.com/benrob0329/lua-table_goodies",
   "score": 2.2,
   "screenshots": [],
   "short_description": "A small package for extra (can't live without) functions for working with tables.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Table Goodies",
   "translation_url": null,

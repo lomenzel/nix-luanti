@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/BrownHedgehog78/death_pos/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Death Position\n\nMinetest mod that adds a command to teleport to player's last death position\n\n### Usage\n\nUse ``/death_pos`` command to return back to the last death position.\n\n#### Settings\nTo disable message that sends a tip when player dies, add setting ``death_pos.send_tip_on_die`` in ``minetest.conf`` and set it to ``false``, it should be like this: ``death_pos.send_tip_on_die = false``. When player uses the ``/death_pos`` command it clears the death pos and the player can't teleport to the last death position again, but you can disable it, add this setting in ``minetest.conf``: ``death_pos.clear_pos = false``.\n",
-  "maintainers": [
-    "BlueR23"
-  ],
+  "maintainers": ["BlueR23"],
   "media_license": "MIT",
   "name": "death_pos",
-  "provides": [
-    "death_pos"
-  ],
+  "provides": ["death_pos"],
   "release": 9841,
   "repo": "https://github.com/BrownHedgehog78/death_pos",
   "score": 4.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/64d39ac22a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/64d39ac22a.png"],
   "short_description": "Adds a command to return back to position where you died",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "transport"
-  ],
+  "tags": ["survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/64d39ac22a.png",
   "title": "Death Position",
   "translation_url": null,

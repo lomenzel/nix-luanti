@@ -11,14 +11,10 @@
   "issue_tracker": "https://notabug.org/rr/pixel_fonts/issues",
   "license": "MIT",
   "long_description": "# Pixel Fonts\n\nThe mod installs or removes multilingual pixel fonts: [LanaPixel] (default) and\n[Monogram] (monospace).\n\nFiles with license information provided by font authors are located\nin the `fonts` directory.\n\n## Known issues\n\nSegmentation fault is possible on some devices when you install fonts. This is an engine bug. I'm not able to fix it, but even if your game crash, fonts still should be installed correctly.\n\n---\n\nThis mod was created in [Rustroot Forge].\n\nAll my mods uses [Luanti LSP-API] annotations, [StyLua] and [Luacheck].\n\n[Rustroot Forge]: https://notabug.org/rr\n[Luanti LSP-API]: https://notabug.org/rr/luanti_lsp_api\n[StyLua]: https://github.com/JohnnyMorganz/StyLua\n[Luacheck]: https://github.com/mpeterv/luacheck\n[LanaPixel]:\n  https://opengameart.org/content/lanapixel-localization-friendly-pixel-font\n[Monogram]: https://datagoblin.itch.io/monogram\n",
-  "maintainers": [
-    "luarocks"
-  ],
+  "maintainers": ["luarocks"],
   "media_license": "CC-BY-4.0",
   "name": "pixel_fonts",
-  "provides": [
-    "pixel_fonts"
-  ],
+  "provides": ["pixel_fonts"],
   "release": 20580,
   "repo": "https://notabug.org/rr/pixel_fonts",
   "score": 6.2,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Install or uninstall pixel fonts.",
   "state": "APPROVED",
-  "tags": [
-    "gui"
-  ],
+  "tags": ["gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/99e40b610a.png",
   "title": "Pixel Fonts",
   "translation_url": null,

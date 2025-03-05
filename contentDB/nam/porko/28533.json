@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/nmccamish/porko/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# Porko, the Dice Game\n\nYou wake up inside a strange, dice-like room, way up in the sky, with a dice, a button, some screens... and pigs. Lots of pigs. You vaguely recall a children's game you played many years ago. What was it called again? Something porcine, perhaps?\n\nSubmission for the 2024 Luanti Game Jam.\n\n## Instructions\n\nInstall like any other Luanti game.\n\nTo play, you must reach a score of 100 or more before the AI does, by rolling the die, or passing. If you roll anything but a one, great, you add it to your score, and keep rolling, or pass, if you wish. Otherwise, your score gets reset to where it was last at the start of your turn.\n",
-  "maintainers": [
-    "nam"
-  ],
+  "maintainers": ["nam"],
   "media_license": "CC0-1.0",
   "name": "porko",
   "provides": [
@@ -34,9 +32,7 @@
   "release": 28533,
   "repo": "https://github.com/nmccamish/porko",
   "score": -112.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a999ae8591.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a999ae8591.png"],
   "short_description": "Porko, the Dice Game",
   "state": "APPROVED",
   "tags": [

@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/AntumMT/mod-skeleton/issues",
   "license": "MIT",
   "long_description": "### Description\n\nA skeleton mob using the [cmer (Creatures Revived)](https://forum.minetest.net/viewtopic.php?t=26684) or [mobs_redo](https://content.minetest.net/packages/TenPlus1/mobs/) API.\n\n### Usage\n\nSettings:\n```\nskeleton.lifetime\n- Entity lifespan (cmer only).\n- type:    int\n- default: 900\n\nskeleton.spawn_interval\n- Spawn interval in seconds.\n- type:    int\n- default: 120\n\nskeleton.spawn_chance\n- Chance of spawn at interval.\n- type:    int\n- default: 7000\n```\n\n### Licensing\n\n- Code: [MIT](https://github.com/AntumMT/mod-skeleton/blob/master/LICENSE.txt)\n- Textures:\n\t- [skeleton_mesh](https://github.com/MultiCraft/MultiCraft_game/blob/df93498/files/mobs/mobs_monster/textures/mobs_skeleton.png): © 2016 MultiCraft Development Team (CC BY-SA 4.0)\n\t- [skeleton_bone](https://opengameart.org/node/3755): by bart (CC0)\n- Models:\n\t- [creatures_zombie.b3d](https://github.com/BlockMen/cme): by BlockMen (CC-BY-SA 3.0)\n\n### Requirements\n\n```\nMinetest min version: 5.0\n\nDepends: none\n\nOptional depends:\n  - mobs\n  - cmer\n  - creatures\n  - asm_spawneggs\n  - sounds\n```\n\n***NOTE:** `mobs` & `cmer` are listed as optional depends so that either can be used. But it is required that at least one is installed. `mobs` will take precedence over `cmer`.*\n\n### Links\n\n- [Changelog](https://github.com/AntumMT/mod-skeleton/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-skeleton/blob/master/TODO.txt)",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC-BY-SA-3.0",
   "name": "skeleton",
-  "provides": [
-    "skeleton"
-  ],
+  "provides": ["skeleton"],
   "release": 9000,
   "repo": "https://github.com/AntumMT/mod-skeleton",
   "score": 164.1,
@@ -28,9 +24,7 @@
   ],
   "short_description": "A skeleton mob.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f853b680e6.png",
   "title": "Skeleton",
   "translation_url": null,

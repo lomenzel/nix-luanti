@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Luanti-Extended-Engine-Features/LEEF-class/issues/",
   "license": "MIT",
   "long_description": "# LEEF-class\nimplements classes and immutable tables (proxy tables.). Documetation soon TM\n",
-  "maintainers": [
-    "fatalerror420"
-  ],
+  "maintainers": ["fatalerror420"],
   "media_license": "MIT",
   "name": "leef_class",
-  "provides": [
-    "leef_class"
-  ],
+  "provides": ["leef_class"],
   "release": 29314,
   "repo": "https://github.com/Luanti-Extended-Engine-Features/LEEF-class",
   "score": 181,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Simple class system for minetest, with a inbuilt read only table system",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c7dd17db48.png",
   "title": "LEEF class lib",
   "translation_url": null,

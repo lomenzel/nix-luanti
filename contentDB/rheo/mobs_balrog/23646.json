@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -158,27 +156,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-mobs_balrog/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "### Mobs Balrog\n\na fork of Hamlet's balrog, but much scarier!\n\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mobs_balrog",
-  "provides": [
-    "mobs_balrog"
-  ],
+  "provides": ["mobs_balrog"],
   "release": 23646,
   "repo": "https://github.com/fluxionary/minetest-mobs_balrog.git",
   "score": 784.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/16c11b438c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/16c11b438c.png"],
   "short_description": "adds balrogs.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/16c11b438c.png",
   "title": "balrog (flux's fork)",
   "translation_url": null,
@@ -192,9 +180,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -289,20 +275,14 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/mobs_balrog": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
@@ -409,10 +389,7 @@
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

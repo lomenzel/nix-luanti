@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,14 +325,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# strange-weapons\nAdds many strange and improbable weapons as a demon teddy bear, a mud ball or a spoon!\nNote: the Pixel Power weapon is a gun that can be reloaded with pixels (they have the same inventory texture of Pixel Power gun).\n\n# Authors\nRobot10 and scheletor",
-  "maintainers": [
-    "Robot10_Scheletor"
-  ],
+  "maintainers": ["Robot10_Scheletor"],
   "media_license": "MIT",
   "name": "strange_weapons",
-  "provides": [
-    "strange_weapons"
-  ],
+  "provides": ["strange_weapons"],
   "release": 26571,
   "repo": "https://github.com/robot10-scheletor/strange-weapons",
   "score": 7.3,
@@ -344,11 +338,7 @@
   ],
   "short_description": "Adds many strange and improbable weapons",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "survival"
-  ],
+  "tags": ["pve", "pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/58ed97cc09.png",
   "title": "Strange Weapons",
   "translation_url": null,

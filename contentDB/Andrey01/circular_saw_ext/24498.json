@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Andrey2470T/circular_saw_ext/issues",
   "license": "Zlib",
   "long_description": "An extension for the circular saw from the original moreblocks mod (https://github.com/minetest-mods/moreblocks) with adding a big set of new microblocks shapes (columns, two/three-sided slabs, corners, slats and more). Also, for a convenience the mod adds the scrollable container for the circular saw output inventory list. Depends on moreblocks.\n\n**Imprortant: the release 02.04.24 fixed the registration of all microblocks added by this mod. Before they even didn't show in the circular saw and as a result only a half of all shapes was in the output inventory. Now it works fine.**\n\n",
-  "maintainers": [
-    "Andrey01"
-  ],
+  "maintainers": ["Andrey01"],
   "media_license": "Zlib",
   "name": "circular_saw_ext",
-  "provides": [
-    "circular_saw_ext"
-  ],
+  "provides": ["circular_saw_ext"],
   "release": 24498,
   "repo": "https://github.com/Andrey2470T/circular_saw_ext",
   "score": 333.6,
@@ -29,10 +25,7 @@
   ],
   "short_description": "An extension for the circular saw from the original moreblocks mod adding a big set of new microblocks shapes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/971b0a39d9.png",
   "title": "Extended Circular Saw",
   "translation_url": null,
@@ -63,18 +56,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/mt-mods/otp/issues",
   "license": "MIT",
   "long_description": "\n\nLets security-aware players use the `/otp_enable` command to protect their account with a second factor.\n\nPlayers that have the OTP enabled have to enter a verification code upon joining the game.\n\nRecommended OTP Authenticator app: https://github.com/helloworld1/FreeOTPPlus\n",
-  "maintainers": [
-    "mt-mods",
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["mt-mods", "BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "otp",
-  "provides": [
-    "otp"
-  ],
+  "provides": ["otp"],
   "release": 26466,
   "repo": "https://github.com/mt-mods/otp",
   "score": 3.1,
@@ -29,10 +24,7 @@
   ],
   "short_description": "(T)OTP Verification for player accounts",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4762341d80.png",
   "title": "OTP",
   "translation_url": null,

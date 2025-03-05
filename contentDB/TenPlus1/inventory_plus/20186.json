@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "BSD-3-Clause",
   "long_description": "Changes inventory so that mods can add tabs to navigate for other mods (bags, armor etc.)",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "inventory_plus",
-  "provides": [
-    "inventory_plus"
-  ],
+  "provides": ["inventory_plus"],
   "release": 20186,
   "repo": "https://codeberg.org/tenplus1/inventory_plus",
   "score": 165.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/injAxQFSfH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/injAxQFSfH.png"],
   "short_description": "Simple Inventory replacement",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/injAxQFSfH.png",
   "title": "Inventory Plus",
   "translation_url": null,

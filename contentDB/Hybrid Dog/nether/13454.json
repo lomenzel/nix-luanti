@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://codeberg.org/HybridDog/nether-pack/issues",
   "license": "GPL-3.0-only",
   "long_description": "For a description of this mod, please refer to the forum topic.",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "GPL-3.0-only",
   "name": "nether",
-  "provides": [
-    "nether"
-  ],
+  "provides": ["nether"],
   "release": 13454,
   "repo": "https://codeberg.org/HybridDog/nether-pack",
   "score": 508.9,
@@ -436,10 +430,7 @@
   ],
   "short_description": "The underworld for Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "pve"
-  ],
+  "tags": ["mapgen", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/16dc1ab36e.png",
   "title": "Nether",
   "translation_url": null,
@@ -497,9 +488,7 @@
       {
         "is_optional": false,
         "name": "glow",
-        "packages": [
-          "Hybrid Dog/glow_pack"
-        ]
+        "packages": ["Hybrid Dog/glow_pack"]
       },
       {
         "is_optional": false,
@@ -546,9 +535,7 @@
       {
         "is_optional": false,
         "name": "riesenpilz",
-        "packages": [
-          "Hybrid Dog/riesenpilz"
-        ]
+        "packages": ["Hybrid Dog/riesenpilz"]
       }
     ],
     "Hybrid Dog/riesenpilz": [

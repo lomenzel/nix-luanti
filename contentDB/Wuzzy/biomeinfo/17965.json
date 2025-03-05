@@ -11,23 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_biomeinfo/issues",
   "license": "MIT",
   "long_description": "This is an API mod for mod developers to add a couple of missing biome-related functions. Currently, this mod only adds v6-related functions. Most importantly, you can get the heat, humidity and biome in the v6 mapgen.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "biomeinfo",
-  "provides": [
-    "biomeinfo"
-  ],
+  "provides": ["biomeinfo"],
   "release": 17965,
   "repo": "https://codeberg.org/Wuzzy/minetest_biomeinfo",
   "score": 22,
   "screenshots": [],
   "short_description": "Simple API to get data about biomes.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Biome Info API",
   "translation_url": null,

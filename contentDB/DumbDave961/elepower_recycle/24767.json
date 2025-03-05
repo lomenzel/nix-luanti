@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/DustyDave961/elepower_recycle/issues",
   "license": "MIT",
   "long_description": "A collection of recipes for Elepower machines to recycle items. To be merged with More Recycle.\n",
-  "maintainers": [
-    "DumbDave961"
-  ],
+  "maintainers": ["DumbDave961"],
   "media_license": "MIT",
   "name": "elepower_recycle",
-  "provides": [
-    "elepower_recycle"
-  ],
+  "provides": ["elepower_recycle"],
   "release": 24767,
   "repo": "https://github.com/DustyDave961/elepower_recycle",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d9ffee5634.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d9ffee5634.png"],
   "short_description": "Recycling recipes for Elepower items.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d9ffee5634.png",
   "title": "Elepower Recycle",
   "translation_url": null,
@@ -450,16 +440,12 @@
       {
         "is_optional": false,
         "name": "elepower_dynamics",
-        "packages": [
-          "IcyDiamond/elepower"
-        ]
+        "packages": ["IcyDiamond/elepower"]
       },
       {
         "is_optional": false,
         "name": "elepower_machines",
-        "packages": [
-          "IcyDiamond/elepower"
-        ]
+        "packages": ["IcyDiamond/elepower"]
       },
       {
         "is_optional": false,
@@ -579,9 +565,7 @@
       {
         "is_optional": false,
         "name": "fluid_tanks",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       }
     ],
     "mt-mods/basic_materials": [

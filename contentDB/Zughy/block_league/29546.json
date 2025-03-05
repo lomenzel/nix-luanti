@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,16 +429,10 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/block_league/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "**>>> BETA RELEASE <<<**\n\nInspired by the online game S4 League, Block League is a team hack'n'slash minigame where alertness and strategy are everything. Choose between Touchdown and Deathmatch mode, customise your weapons set, and jump into the action!\n\nTry this minigame on our server \"A.E.S\"  \n\n[Older changelogs](https://gitlab.com/zughy-friends-minetest/block_league/-/releases)\n",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "block_league",
-  "provides": [
-    "bl_decoblocks",
-    "bl_tutorial",
-    "block_league"
-  ],
+  "provides": ["bl_decoblocks", "bl_tutorial", "block_league"],
   "release": 29546,
   "repo": "https://gitlab.com/zughy-friends-minetest/block_league",
   "score": 1087,
@@ -451,11 +443,7 @@
   ],
   "short_description": "S4 League inspired shooter minigame",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["mini-game", "multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/80ffa1fb24.png",
   "title": "Block League",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/block-league/",
@@ -469,10 +457,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       },
       {
         "is_optional": false,
@@ -513,33 +498,24 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ],
     "Zughy/block_league": [
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       },
       {
         "is_optional": false,
         "name": "achievements_lib",
-        "packages": [
-          "Zughy/achievements_lib"
-        ]
+        "packages": ["Zughy/achievements_lib"]
       },
       {
         "is_optional": false,
         "name": "skills",
-        "packages": [
-          "giov4/skills"
-        ]
+        "packages": ["giov4/skills"]
       },
       {
         "is_optional": false,
@@ -561,16 +537,12 @@
       {
         "is_optional": false,
         "name": "weapons_lib",
-        "packages": [
-          "Zughy/weapons_lib"
-        ]
+        "packages": ["Zughy/weapons_lib"]
       },
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       },
       {
         "is_optional": false,
@@ -634,10 +606,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       }
     ],
     "giov4/skills": [

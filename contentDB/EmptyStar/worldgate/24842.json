@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/EmptyStar/worldgate/issues",
   "license": "MIT",
   "long_description": "Worldgate\n=========\n\nDiscover the Worldgates, an ancient teleportation network that can carry you to distant lands in an instant. Despite their long abandonment, the Worldgates are still highly functional. They can be found throughout the world, some more intact than others, and each adorned in stone by the elder hands that wrought them.\n\nGates found at the surface of the world are linked randomly to neighboring gates, and gates found at elevations above and below ground are linked to gates on the surface. To use a Worldgate, right-click its active teleportation beacon. But understand the danger of teleporting through a random gate as it may take you very far from your starting point with no way back!\n\nThe gates can be linked to any gate through use of mese crystal fragments, and additional teleportation beacons can be crafted. To learn more, see [the Telemosaic mod](https://content.minetest.net/packages/mt-mods/telemosaic/) which is the teleportation technology that underpins the Worldgates.\n\nFor the truly brave of heart who wish to fundamentally alter their Worldgate experience, see the mod settings and [the API documentation](https://github.com/EmptyStar/worldgate/blob/main/API.md).\n\nNotes\n-----\n\n- Worldgates will only generate in parts of the world that have not yet been explored.\n- By default, Worldgates will generate roughly every 1000 nodes between (0,0,0) and 29000 nodes in every direction for a possible total of 195112 Worldgates per world (although many will not generate if midair spawning is disabled which it is by default); this can be configured via mod settings.\n\nCaveats\n-------\n\n- When you first approach a newly discovered Worldgate, it may take a few seconds to become fully active.\n- Teleportation has a five-second cooldown to prevent spamming and to give new Worldgates a little extra time to configure themselves.\n- Rarely, a Worldgate may fail to link to a neighboring Worldgate, thus leaving you stranded at your destination.\n- Rarely, depending on the terrain, a Worldgate can fail to generate.",
-  "maintainers": [
-    "EmptyStar"
-  ],
+  "maintainers": ["EmptyStar"],
   "media_license": "MIT",
   "name": "worldgate",
-  "provides": [
-    "worldgate"
-  ],
+  "provides": ["worldgate"],
   "release": 24842,
   "repo": "https://github.com/EmptyStar/worldgate",
   "score": 331,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f7c2183e85.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f7c2183e85.png"],
   "short_description": "Randomly generated teleportation network that can teleport players between gates throughout the world",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f7c2183e85.png",
   "title": "Worldgate",
   "translation_url": null,
@@ -450,10 +440,7 @@
       {
         "is_optional": false,
         "name": "telemosaic",
-        "packages": [
-          "mt-mods/telemosaic",
-          "EmptyStar/asuna"
-        ]
+        "packages": ["mt-mods/telemosaic", "EmptyStar/asuna"]
       },
       {
         "is_optional": false,
@@ -616,18 +603,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -129,14 +129,10 @@
   "issue_tracker": "https://github.com/louisroyer-minetest/keyring/issues",
   "license": "CC0-1.0",
   "long_description": "# Keyring\nThis minetest mod adds keyrings.\nKeyrings can be used to store keys.\nOnce keys are stored in the keyring, keyrings can be used as a regular key.\n\nPersonal keyrings are a variant of keyrings allowing to set access and configuration to keys private.\n\n## Craft\n### Keyring\n```text\nempty        group:wire    empty\ngroup:wire   group:key     group:wire\nempty        group:wire    empty\n```\n\nor\n```text\ngroup:key    group:wire   group:key\ngroup:wire   empty        group:wire\ngroup:key    group:wire   group:key\n```\n\nThis gives back 4 `basic_materials:empty_spool`.\nIn both crafts, keys (or `group:key`) items will be added to the resulting keyring.\n\n### Personal keyring (shapeless)\n- `keyring:keyring`\n- `basic_materials:padlock`\n\n### Add a key to the keyring (shapeless)\n- `group:key` (`keys:key` or `keyring:keyring`/`keyring:personal_keyring`)\n- `keyring:keyring`/`keyring:personal_keyring`\n\nor\n\n- `group:virtual_key`\n- `keyring:keyring`/`keyring:personal_keyring`\n\nNotes:\n\n- if you use a personal keyring in the craft, then it must belong to you, else the craft will be forbidden.\n- when merging two keyrings, an empty keyring will be returned back\n\n## Dependencies\n- [basic_materials](https://content.minetest.net/packages/mt-mods/basic_materials/)\n- keys (from MTG)\n\n## Supported\n- default (from MTG): you can automatically select key in the keyring when the interaction check is done with `default.can_interact_with_node`.\n- [playerfactions](https://bytecrab.org/git/playerfactions.git/): you can share a personal keyring with factions using syntax `faction:<faction_name>`.\n    - [playerfactions's fork](https://github.com/mt-mods/playerfactions)\n\n## Suggested\n- [virtual_key](https://content.minetest.net/packages/louisroyer/virtual_key/): you can create virtual keys using a registerer and import them into your keyring; virtual keys is a good way to share access with friends without having to craft a lot of keys or to share a keyring.\n\n## Settings\n- Setting `keyring.personal_keyring` is available to disable/enable personal keyring (enabled by default).\n- Setting `keyring.playerfactions` is available to disable/enable the possiblity to share personal keyrings with factions (enabled by default).\n- Setting `keyring.override_default_can_interact_with_node` allow to automatically select key in the keyring when the interaction check is done with `default.can_interact_with_node`. This allow better integration with mods like `technic_chests`, where chests interaction is not checked on openning but when moving items.\n\n## Privileges\nYou can grant the privilege `keyring_inspect` to allow a player to list keys of personal keyrings owned by other players.",
-  "maintainers": [
-    "louisroyer"
-  ],
+  "maintainers": ["louisroyer"],
   "media_license": "CC0-1.0",
   "name": "keyring",
-  "provides": [
-    "keyring"
-  ],
+  "provides": ["keyring"],
   "release": 12573,
   "repo": "https://github.com/louisroyer-minetest/keyring",
   "score": 2.3,
@@ -146,10 +142,7 @@
   ],
   "short_description": "Adds keyrings.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "storage"
-  ],
+  "tags": ["multiplayer", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/QJEmIdSQ8h.png",
   "title": "Keyring",
   "translation_url": null,

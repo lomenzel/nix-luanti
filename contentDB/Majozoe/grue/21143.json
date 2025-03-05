@@ -1,8 +1,6 @@
 {
   "author": "Majozoe",
-  "content_warnings": [
-    "horror"
-  ],
+  "content_warnings": ["horror"],
   "created_at": "2022-08-08T03:51:00.027739",
   "dev_state": "MAINTENANCE_ONLY",
   "donate_url": null,
@@ -286,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -433,25 +429,17 @@
   "issue_tracker": "https://github.com/Majozoe/Minetest-Gruemod/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "< - What is this mod? - >\n\nThe 'Grue' mod is a mod for Minetest that implements a nefarious creature lurking in the dark. As long as you stay in well lit areas, you will be perfectly safe, but stray too far into the dark caves, and you may get eaten.\n\n\n\n< - That's cool and all, but how does it work? - >\n\nAs of right now, the game is constantly checking your light level. If it falls below a light level of 2 (0 is the lowest), then a timer starts ticking down. This timer is reset if you retreat back to a brighter area.\n\nAfter 5 seconds, you'll get a warning, and after an additional 5 seconds, you will die.\n\n\n\n< - Can I see the Grue? - >\n\nNope. The Grue hates light so will stay in pitch black darkness at all times.\n\nThat's the lore reason anyway. Technically speaking, there is not a visible Grue. It's really just a couple of audio files and a timer counting to your doom. :)\n\n\n\n< - Does this work in multiplayer? - >\n\nAccording to my own testing, yes it does!\n\n\n\n< - Are you going to add..? - >\n\nMe adding anything to this mod is INCREDIBLY unlikely. Really the only point of this mod was to just add the one thing, and I did it! I might still listen to requests, but do be prepared to be let down, especially since I'm a newbie at this at the time of writing.\n\n\n\n< - Does this work with other versions of Minetest? - >\n\nNo clue! This mod was created on Minetest 5.6.0. If it breaks on newer versions, I'll do my best to fix it, but I cannot make the same claims for older versions.\n\n\n< - Heeeelp! I have an issue! - >\n\nDon't worry! In the event of something crazy happening, just refer to the forum post located [here](https://forum.minetest.net/viewtopic.php?f=9&t=28523) or create an issue on [Github](https://github.com/Majozoe/Minetest-Gruemod/issues).\n\nBe sure to include a description of what is going on, what you were doing, whether or not you were on singleplayer, what other mods or even what game you were using, as well as any other info you might think is necessary such as a crash log or a screenshot, etc. \n\nIf you do not include enough information, then I'm afraid I am incapable of helping you unless I ask for more info.\n",
-  "maintainers": [
-    "Majozoe"
-  ],
+  "maintainers": ["Majozoe"],
   "media_license": "CC0-1.0",
   "name": "grue",
-  "provides": [
-    "grue"
-  ],
+  "provides": ["grue"],
   "release": 21143,
   "repo": "https://github.com/Majozoe/Minetest-Gruemod",
   "score": 153.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a997744f81.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a997744f81.png"],
   "short_description": "It is pitch black. You are likely to be eaten by a Grue.",
   "state": "APPROVED",
-  "tags": [
-    "pve"
-  ],
+  "tags": ["pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a997744f81.png",
   "title": "The Grue mod",
   "translation_url": null,

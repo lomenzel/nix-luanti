@@ -38,28 +38,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod makes NodeCore a pain in the ass according to Warr1024(NodeCore's developer). uhh yeah thats literally it, go have fun. ",
-  "maintainers": [
-    "Fanticwor"
-  ],
+  "maintainers": ["Fanticwor"],
   "media_license": "CC0-1.0",
   "name": "nc_1slot",
-  "provides": [
-    "nc_1slot"
-  ],
+  "provides": ["nc_1slot"],
   "release": 18606,
   "repo": null,
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6c747987b9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6c747987b9.png"],
   "short_description": "makes Nodecore 8 times harder by removing 7 slots from your inventory",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "inventory",
-    "player_effects",
-    "survival"
-  ],
+  "tags": ["april_fools", "inventory", "player_effects", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6c747987b9.png",
   "title": "NodeCore 1 slot mod",
   "translation_url": null,
@@ -73,18 +62,12 @@
       {
         "is_optional": false,
         "name": "nc_api_active",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_player_health",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

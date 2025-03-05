@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "DataMiner provides comprehensive daily server and player statistics within a graphical user-interface, in addition to an API for custom-tailored log analysis and reporting via mods or command-line scripts.\n\nDataMiner is intended to be compatible with all versions of Minetest 0.4.14+, and has been tested under CentOS/Red Hat Linux.\n\n**For complete usage instructions, including working code examples, please refer to the official forum topic.**",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "MIT",
   "name": "dataminer",
-  "provides": [
-    "dataminer"
-  ],
+  "provides": ["dataminer"],
   "release": 2589,
   "repo": "https://bitbucket.org/sorcerykid/dataminer",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/TvxtXBsJm6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/TvxtXBsJm6.png"],
   "short_description": "DataMiner is an analytical tool for server operators with a feature-rich API for customized report generation",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "library",
-    "server_tools"
-  ],
+  "tags": ["complex_installation", "library", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/TvxtXBsJm6.png",
   "title": "DataMiner",
   "translation_url": null,
@@ -45,9 +35,7 @@
       {
         "is_optional": false,
         "name": "polygraph",
-        "packages": [
-          "sorcerykid/polygraph"
-        ]
+        "packages": ["sorcerykid/polygraph"]
       },
       {
         "is_optional": false,

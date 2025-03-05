@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Sokomine/locked_travelnet/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "If you want to keep networks private, you can now use locked travelnets. Locked travelnets can be used by their owner, people with a keychain who have been granted access (see locks mod), and finally people who entered the right password (provided the owner did set one).\n\nNote: If you add a locked travelnet to an existing network that contains normal stations, people can still travel from the normal station *to* your locked travelnets. But they can't travel *from* the locked travelnet to other destinations on the network unless they are authorized.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "locked_travelnet",
-  "provides": [
-    "locked_travelnet"
-  ],
+  "provides": ["locked_travelnet"],
   "release": 1159,
   "repo": "https://github.com/Sokomine/locked_travelnet",
   "score": 10.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/br1hWr7FeT.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/br1hWr7FeT.jpg"],
   "short_description": "Protect travelnet stations with locks and/or passwords",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/br1hWr7FeT.png",
   "title": "Locked Travelnet",
   "translation_url": null,
@@ -475,10 +465,7 @@
       {
         "is_optional": false,
         "name": "locks",
-        "packages": [
-          "Sokomine/locks",
-          "mt-mods/dreambuilder_game"
-        ]
+        "packages": ["Sokomine/locks", "mt-mods/dreambuilder_game"]
       }
     ],
     "Sokomine/locks": [

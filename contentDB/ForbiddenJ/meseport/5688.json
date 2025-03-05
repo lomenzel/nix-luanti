@@ -64,25 +64,17 @@
   "issue_tracker": "https://github.com/JustinLaw64/meseport/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "Grants special effects to Mese blocks allowing for teleporters made of gold and Mese. When a player punches a gold block which is next to a Mese block, he/she is teleported 100 blocks in the direction of the Mese block relative to the gold block. More Mese placed in a line adds to the transport distance.\n\nLines of Mese can be placed on more than one side of a gold block to create diagonal teleporters! However, Mese blocks on opposing sides cancel each other's power.\n\nIf used carefully, complex teleportation networks can be set up allowing for teleporting around the land or for traveling up and down vertical mineshafts quickly.\n\nAs of December 11, 2020, this mod also has compatibility with MineClone2",
-  "maintainers": [
-    "ForbiddenJ"
-  ],
+  "maintainers": ["ForbiddenJ"],
   "media_license": "CC0-1.0",
   "name": "meseport",
-  "provides": [
-    "meseport"
-  ],
+  "provides": ["meseport"],
   "release": 5688,
   "repo": "https://github.com/JustinLaw64/meseport.git",
   "score": 160.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3Qxj0rDIWb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3Qxj0rDIWb.png"],
   "short_description": "Allows for the creation of Meseportation systems.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3Qxj0rDIWb.png",
   "title": "Meseport",
   "translation_url": null,

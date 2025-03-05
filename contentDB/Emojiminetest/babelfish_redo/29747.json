@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/babelfish_redo/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# BabelFish... but done in another way\n\nThis mod allows Luanti players to communicate across language barriers.\n\n## ... but why not the original BabalFish mod?\n\n[BabelFish](https://github.com/taikedz-mt/babelfish) was (and if you aren't a developer, still is) a great mod for breaking langauge barrier between players speaking different languages. However, it was unmaintained for 7 years, and many code became messy and inefficient. This rewrite is a drop-in replacement for most end users, and provides more method for developers to interact with BabelFish. Notable changes include:\n\n* Guessing preferred language from the player's client language code\n* Allow specifying source language in translations\n* Translate into multiple languages at once\n* Automatically translate into the player's preferred language\n* Handles [Beerchat](https://content.luanti.org/packages/mt-mods/beerchat/) properly\n* Shipped with [Lingva Translate](https://github.com/thedaviddelta/lingva-translate) support (Yandex Translate port will be avaliable soon)\n* Register new translation engine with new mods instead of adding files into the core mod\n\n## How to use? (as an end-user)\n\nAvaliable in `babelfish_core` mod:\n\n* Use `/bbcodes` to list all avaliable languages and their alias.\n\nAvaliable in `babelfish_chat` mod:\n\n* Write `%<language code>:[<source language>]` in a message to boardcast translation to other players\n    * e.g. \"Hello %fr\" would yield \"Bonjour\"\n    * Specifying source language may be userful in translating shorter phrases, e.g. \"Ja %en\" would yield \"And\" (Estonian), but \"Ja %en:de\" would yield \"Yes\" (German).\n    * You can translate into multiple languages at once by seperating targets with comma without spaces, e.g. \"Hello %zh,fr\" would yield both \"Bonjour\" and \"你好\"\n    * Unlike the original BabelFish, you must leave spaces between the tag and other texts.\n* Use `/bb <language code>[:<source language>] <sentence>` to send a message in another language.\n    * (Beerchat only) Use `/bb #<channel> (other arguments...)` to send to a channel.\n* (With `babelfish_preferred_langauge`) Use `/bbactive` to toggle active translation.\n\nAvaliable in `babelfish_preferred_langauge` mod:\n\n* Your preferred language is guessed when you first join the server.\n    * Fallbacks to English if your language is not supported.\n* Use `/bblang <language code>` to set your preferred language.\n* Use `/bbget` to check your preferred language.\n* Use `/bbget <player name>` to check other's preferred language\n* (Moderators only) Use `/bbset <player name> <language code>` to set other's preferred language\n\nAvaliable in `babelfish_chat_history` mod:\n\n* Use `/babel <username>` to translate the last message sent by a user\n* (Beerchat only) Use `/babel <username> <channel>` to translate the last message sent by a user on a channel\n    * If channel is unspecified, defaults to the executer's channel.\n\nAvaliable in `babelfish_private_chat`\n\n* User `/bmsg <username> <message>` to send private messages to a player in their preferred language.\n\n## How to set up? (as a server maintainer)\n\nTo start, you must enable the following mods:\n\n* `babelfish_core`\n* Any BabelFish Redo translation engines (e.g. `babelfish_engine_lingva`)\n    * Check their `README.md` for installation instructions. Most backends requires adding them to `secure.http_mods`.\n\nTo enable all features the original BabelFish have, enable the following mods:\n\n* `babelfish_chat`: Translate using `%<code>` shortcuts\n* `babelfish_preferred_langauge`: Detect and set preferred languages\n* `babelfish_chat_history`: Use `/babel` to translate chat history\n* `babelfish_private_chat`: Use `/bmsg` to send private messages in the receiver's preferred language\n\nYou may want to run `/bbmigrate` to import old preferred languages. Use `/bbmigrate override` to override data collected under this new mod.\n\n## How to develop my mods? (as a developer)\n\nCheck out API.md for how to use BabelFish Redo in your mod.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "babelfish_redo",
   "provides": [
@@ -27,17 +25,10 @@
   "release": 29747,
   "repo": "https://github.com/C-C-Minetest-Server/babelfish_redo",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e171ff6a74.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e171ff6a74.jpg"],
   "short_description": "Translate chat messages into other languages",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "complex_installation",
-    "library",
-    "multiplayer"
-  ],
+  "tags": ["chat", "complex_installation", "library", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e171ff6a74.png",
   "title": "Babelfish Redo",
   "translation_url": null,

@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/nc_pummine/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# nc_pummine\nMineable Pumice in NodeCore\n-Hahaha! \n\n# NodeCore Vulcan Improved ('wc_vulcan') now has a setting that adds this functionality. \n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "nc_pummine",
-  "provides": [
-    "nc_pummine"
-  ],
+  "provides": ["nc_pummine"],
   "release": 7284,
   "repo": "https://github.com/wintersknight94/nc_pummine",
   "score": 2.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/qhIWxY7wA9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/qhIWxY7wA9.png"],
   "short_description": "Mineable pumice",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/qhIWxY7wA9.png",
   "title": "NodeCore PumMINE ",
   "translation_url": null,
@@ -70,26 +62,17 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

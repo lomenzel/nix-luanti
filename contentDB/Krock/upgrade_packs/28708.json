@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,26 +299,17 @@
   "issue_tracker": "https://github.com/SmallJoker/upgrade_packs/issues/new/choose/",
   "license": "MIT",
   "long_description": "This server mod provides upgradeable packs in form of items to players which give them additional health or breath. However, the better the health packs are and the more of them you use, the faster they will wear out.\nPlease note that the builtin HP bar maximum is always 10 hearts. With two additional \"+10 HP\" packs, one heart equals 4 HP (instead of previously 2).",
-  "maintainers": [
-    "Krock"
-  ],
+  "maintainers": ["Krock"],
   "media_license": "MIT",
   "name": "upgrade_packs",
-  "provides": [
-    "upgrade_packs"
-  ],
+  "provides": ["upgrade_packs"],
   "release": 28708,
   "repo": "https://github.com/SmallJoker/upgrade_packs.git",
   "score": 169.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/sCVyQF0POx.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/sCVyQF0POx.png"],
   "short_description": "Provides craftable packs to players to increase their health and breath",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "pvp"
-  ],
+  "tags": ["player_effects", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/sCVyQF0POx.png",
   "title": "Upgrade Packs",
   "translation_url": null,

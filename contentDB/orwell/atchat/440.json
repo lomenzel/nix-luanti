@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "BSD-2-Clause-FreeBSD",
   "long_description": "Imagine you are 'alice' and want to send a PM to 'bob' and 'charlie'.\n\nThe normal way to do this would be:\n\n`/msg bob Hey, check out my new house!`\n\n`/msg charlie Hey, check out my new house!`\n\nUsing this mod makes it a lot easier: just write:\n\n`@bob,charlie Hey, check out my new house!`\n\nBob and Charlie will then see something like\n\n`(alice) Hey, check out my new house!`\n\nLater, whenever you want to send a message to Bob and Charlie again, or whoever is the last person(s) you *sent* a message to, just use:\n\n`@ Isn't it cool?`\n\nNote: using a ':' instead of the space behind the receiver list will also work. However, you should not put spaces inside the player list.",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "BSD-2-Clause-FreeBSD",
   "name": "atchat",
-  "provides": [
-    "atchat"
-  ],
+  "provides": ["atchat"],
   "release": 440,
   "repo": null,
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/D9kIOLxafV.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/D9kIOLxafV.png"],
   "short_description": "Adds an alternative Private Message (PM) system",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/D9kIOLxafV.png",
   "title": "@-Chat",
   "translation_url": null,

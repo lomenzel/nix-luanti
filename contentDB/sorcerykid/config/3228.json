@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Configuration Panel is an API extension for Minetest that allows seamless loading of mod configuration at runtime. It provides much greater flexibility than Minetest's builtin 'Settings' interface, since the mod configuration itself is read as a native Lua script. Hence it's possible to include simple data structures without the need for serialization, in addition to temporary variables, mathematical expressions, and conditional branching.\n\n> \"An important use of Lua is as a configuration language....\"  \n*from Programming in Lua: Extending your Application (https://www.lua.org/pil/25.html)*\n\n> \"Lua started off as a configuration language. This has some nice quirks in that it's great for creating and configuring things - which is what you want to do in a game.\"  \n*from Lua Users Wiki: Lua versus Python (http://lua-users.org/wiki/LuaVersusPython)*\n\nWhile some might be opposed to using Lua for configuration purposes, arguing that it is anti-pattern, that's not actually true. In fact, Lua itself was originally intended to double as a configuration language, like JSON, so it is very befitting of its purpose.\n\nThere is only one function call necessary to load your mod's configuration:\n\n**minetest.load_config( base_config, options )**  \nAutomatically loads the mod configuration at server-startup according to the options and returns a table of key-value pairs.\n\n* 'base_config' is the default mod configuration (optional)\n* 'options' are the additional options that effect loading behavior (optional)\n\nBy default, the configuration is first loaded from the 'config.lua' script within the mod directory. If not found, it will instead be loaded from a script residing within the 'config' subdirectory of the current world. That script must be named the same as the mod but with a '.lua' extension, of course.\n\nThis would be the typical order of loading on Linux distros of Minetest:\n\n```\n/usr/local/share/minetest/games/minetest_game/mods/sample_mod/config.lua\n/home/minetest/.minetest/worlds/sample_world/config/sample_mod.lua\n```\n\nBy specifying the option `can_override = true`, both scripts will be loaded, allowing for the world configuration to override the game configuration. So for example\n\n```\n/usr/local/share/minetest/games/minetest_game/mods/sample_mod/config.lua\n        allow_fly = false\n        allow_walk = false\n        allow_swim = false\n\n/home/minetest/.minetest/worlds/sample_world/config/sample_mod.lua\n        allow_swim = true\n```\n\nHence, 'allow_fly' and 'allow_walk' will be false, whereas 'allow_swim' will be true. By default, however, all three would remain false since the world configuration is ignored whenever the game configuration is found.\n\nA chat command is also available for editing the configuration directly in-game. Simply type '/config' followed by the mod name to configure. The interface is self-explanatory.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "MIT",
   "name": "config",
-  "provides": [
-    "config"
-  ],
+  "provides": ["config"],
   "release": 3228,
   "repo": "https://bitbucket.org/sorcerykid/config",
   "score": 44.4,
@@ -435,10 +429,7 @@
   ],
   "short_description": "API extension that allows seamless loading of mod configuration at runtime",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "library"
-  ],
+  "tags": ["complex_installation", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gYIk5sFgD9.png",
   "title": "Configuration Panel",
   "translation_url": null,

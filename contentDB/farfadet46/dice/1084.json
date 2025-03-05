@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/farfadet46/minetest-dice/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "You can change the max value with commands like that : /dice_max 6 to get a number from 1 to 6 the default maximum is 10 (due to texture count)\n\nI made this mod to test randomness.",
-  "maintainers": [
-    "farfadet46"
-  ],
+  "maintainers": ["farfadet46"],
   "media_license": "CC0-1.0",
   "name": "dice",
-  "provides": [
-    "dice"
-  ],
+  "provides": ["dice"],
   "release": 1084,
   "repo": "https://github.com/farfadet46/minetest-dice",
   "score": 3.8,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Simple dice for little games ;)",
   "state": "APPROVED",
-  "tags": [
-    "education"
-  ],
+  "tags": ["education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/55f2424a5d.png",
   "title": "Simple Dice",
   "translation_url": null,

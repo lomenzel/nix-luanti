@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NodeCore-Fossils/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# NodeCore Fossil\nNew fossiliferous content for your worlds!\nPlay NodeCore as an archaeologist!\n\n# Amber\n- Amber (may or may not contain bugs)\n- Amber-Tipped Tools\n\n# Fossils\n- Sponge Fossil\n- Leaf Fossil\n- Shell Fossil\n\n# Hydrocarbons\n- Natural Gas (highly flammable)\n- Crude Oil (toxic to flora)\n\n# AFTERWORD\n- I do not add this to the game lightly. Human caused climate change is an\n- extremely serious issue. There are so many things we are doing that are\n- causing irreparable damage to the environment, and mining fossil fuels\n- is only the tip of the iceberg. If you care about future generations,\n- or animal rights, or your own health, please take notice and due anything\n- and everthing you can to reduce your carbon footprint, and help protect\n- the planet and the various organisms that we share it with. Thank You.",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_fossil",
-  "provides": [
-    "wc_fossil"
-  ],
+  "provides": ["wc_fossil"],
   "release": 28031,
   "repo": "https://github.com/wintersknight94/NodeCore-Fossils",
   "score": 6.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fa6c3238a3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fa6c3238a3.png"],
   "short_description": "Discover fossils, oil, natural gas, amber, and more!",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "pve"
-  ],
+  "tags": ["mapgen", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fa6c3238a3.png",
   "title": "NodeCore Fossil",
   "translation_url": null,
@@ -71,124 +62,81 @@
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_steam",
-        "packages": [
-          "Winter94/wc_steam"
-        ]
+        "packages": ["Winter94/wc_steam"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "wc_lib_resources",
-        "packages": [
-          "Winter94/wc_lib_resources"
-        ]
+        "packages": ["Winter94/wc_lib_resources"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Winter94/wc_lib_resources": [
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Winter94/wc_steam": [
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

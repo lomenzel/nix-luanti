@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/random-geek/cg_plus/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "Crafting Guide Plus is a simple and intuitive crafting guide and auto-crafting mod for Minetest. CGP is compatible with\nMinetest Game and any other games that use sfinv. It was built mostly from the ground up, with some inspiration from\njp's mod as well as Unified Inventory.\n\n## Features:\n\n- \"Intelligent\" auto-crafting, or rather, automatic craft staging. This feature can be disabled if it is not wanted.\n- Group support, including group search and support for craft recipes requiring items in multiple groups.\n- Shaped and shapeless crafting recipe previews of any size.\n- Fuel and cooking recipes, including fuel replacements and burning/cooking times.\n- Digging and digging by chance (item drop) previews.\n\n## Known issues:\n\n- The auto-crafting algorithm is not *perfect*. For craft recipes requiring items in a group, only the item with the\ngreatest count from the player's inventory will be utilized.\n- Items in multiple groups will not always display correctly in craft view.",
-  "maintainers": [
-    "random_geek"
-  ],
+  "maintainers": ["random_geek"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cg_plus",
-  "provides": [
-    "cg_plus"
-  ],
+  "provides": ["cg_plus"],
   "release": 24932,
   "repo": "https://github.com/random-geek/cg_plus",
   "score": 490.1,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds an intuitive and full-featured craft guide with auto-crafting to the player's inventory.",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/jBuRARtV8N.png",
   "title": "Crafting Guide Plus",
   "translation_url": null,

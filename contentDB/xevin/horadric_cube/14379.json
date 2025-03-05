@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Horadric Cube mod\n\nMod adds legendary artifact that can transmute items\n\nNo other mods dependencies\n\n## Recipes\n\nYou can register own transmute recipe\n\n```horadric_cube.register_craft(craftDef)```\n\nwhere **craftDef** is table with next structure:\n\n```\n{\n  hidden = false,\n  input = <ItemStackString>,\n  output = <ItemStackString>,\n}\n```\n\nAlso visible (hidden=false) recipes automatically register in [i3](https://content.minetest.net/packages/jp/i3/). if mod installed\n\n\n## Examples:\n\n```\nhoradric_cube:register_craft({\n  input = \"default:coal 9\",\n  output = \"default:diamond\"\n})\n\nhoradric_cube:register_craft({\n  input = \"default:tree\",\n  output = \"default:coal\"\n})\n```\n",
-  "maintainers": [
-    "xevin"
-  ],
+  "maintainers": ["xevin"],
   "media_license": "CC-BY-SA-3.0",
   "name": "horadric_cube",
-  "provides": [
-    "horadric_cube"
-  ],
+  "provides": ["horadric_cube"],
   "release": 14379,
   "repo": "https://gitlab.com/xevin/horadric_cube",
   "score": 3.8,
@@ -28,10 +24,7 @@
   ],
   "short_description": "An artifact that can transmute items",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "magic"
-  ],
+  "tags": ["crafting", "magic"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b267954d16.png",
   "title": "Horadric cube",
   "translation_url": null,

@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "BSD-3-Clause",
   "long_description": "# minetest-diamond_arts\n\nBuild and craft with fake diamonds in your minetest worlds\n",
-  "maintainers": [
-    "teltalila"
-  ],
+  "maintainers": ["teltalila"],
   "media_license": "BSD-3-Clause",
   "name": "diamond_arts",
-  "provides": [
-    "diamond_arts"
-  ],
+  "provides": ["diamond_arts"],
   "release": 23462,
   "repo": "https://github.com/LailaPerry/minetest-diamondArts",
   "score": 4.2,
@@ -44,10 +40,7 @@
   ],
   "short_description": "Adds decorational fake diamond blocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/924054c1dc.png",
   "title": "Diamond Arts",
   "translation_url": null,

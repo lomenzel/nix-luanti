@@ -11,28 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Railgun\nColorable railgun using raycast and particles.  \nDamages entities and players, breaks the nodes.\n### Usage\n* Railgun uses rods as ammo for players without `creative` priv.\n* Railgun can be colored using dyes(at craft grid) or by `/railgun_color` command(if player have `creative` priv)\n\n## Media Licenses\n* `railgun_particle.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-railgun/blob/master/CC-BY-SA-4.0)\n\n---\n\n* `railgun_railgun.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-railgun/blob/master/CC-BY-SA-4.0)\n\n---\n\n* `railgun_railgun_rod.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-railgun/blob/master/CC-BY-SA-4.0)\n\n---\n\n* `nexfire.ogg`\n    * **Source:** [Xonotic Data Repository](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/blob/master/sound/weapons/nexfire.ogg)\n    * **License:** [GPLv3+](https://github.com/zmv7/minetest-mod-railgun/blob/master/GPL-3)\n\n---\n\n* `unavailable.ogg`\n    * **Source:** [Xonotic Data Repository](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/blob/master/sound/weapons/unavailable.ogg)\n    * **License:** [GPLv3+](https://github.com/zmv7/minetest-mod-railgun/blob/master/GPL-3)\n",
-  "maintainers": [
-    "Zemtzov7"
-  ],
+  "maintainers": ["Zemtzov7"],
   "media_license": "GPL-3.0-or-later",
   "name": "railgun",
-  "provides": [
-    "railgun"
-  ],
+  "provides": ["railgun"],
   "release": 26471,
   "repo": "https://github.com/zmv7/minetest-mod-railgun",
   "score": 339.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b17f21a62e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b17f21a62e.png"],
   "short_description": " Colorable railgun using raycast and particles ",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pvp",
-    "shooter",
-    "tools"
-  ],
+  "tags": ["multiplayer", "pvp", "shooter", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b17f21a62e.png",
   "title": "Railgun",
   "translation_url": null,

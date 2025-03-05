@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/raymoo/cmi/issues",
   "license": "Apache-2.0",
   "long_description": "A standard for mob usage.\n\nProvides some global callback registrations for things that can happen to mobs,\nand also outlines a standard for the interface mobs expose to other mobs.\n\nThis mod also introduces \"components\" to mobs, in the sense of entity component\nsystem.",
-  "maintainers": [
-    "Byakuren"
-  ],
+  "maintainers": ["Byakuren"],
   "media_license": "Apache-2.0",
   "name": "cmi",
-  "provides": [
-    "cmi"
-  ],
+  "provides": ["cmi"],
   "release": 612,
   "repo": "https://github.com/raymoo/cmi",
   "score": 7.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5e930d24ea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5e930d24ea.png"],
   "short_description": "A standard modding interface for interacting with mobs",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mobs"
-  ],
+  "tags": ["library", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5e930d24ea.png",
   "title": "Common Mob Interface",
   "translation_url": null,

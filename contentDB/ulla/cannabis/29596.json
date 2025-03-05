@@ -1,8 +1,6 @@
 {
   "author": "ulla",
-  "content_warnings": [
-    "drugs"
-  ],
+  "content_warnings": ["drugs"],
   "created_at": "2020-05-04T00:34:21.109589",
   "dev_state": "BETA",
   "donate_url": null,
@@ -52,9 +50,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -420,14 +416,10 @@
   "issue_tracker": "https://github.com/IIIullaIII/CANNABIS_MOD/issues/new/choose/",
   "license": "MIT",
   "long_description": "#Version 03.02.2025\nChangelog :\n\n.fixed mapgen,\n\n.removed canapa spawn in water \n\n#Version 20.02.2024\nChangelog : \n\n.Upgrade for armor ,boots with more speed and gravity, protection against fire or lava, depending on the type of armor,radiation protection\n#Version 01.01.2022\nChangelog :   \n.Added clothing , (depends: clothing mod but facoltative) \n#Version 22.12.2021\nChangelog :                                                                                                                                                                                                \n. Fixed error for the inflorescence that was not collected                                                                                                  \n. Additional compatibility with farming, now the plants can be grown in the garden, planting the seeds                                                                                                                                                                                                                           \n. Added effects if joint is used\n## Used in this server:\n! [ITALIA_ULLA_SERVER] ( https://raw.githubusercontent.com/IIIullaIII/IMMAGINI/master/LOGO_SERVER.jpg \"ITALIA ULLA SERVER\" )\n\n## EN\n\nThis mod aims to illustrate the vast possibilities and sectors of use of hemp, its importance in the various medical culinary industrial bioenergetic recreational sectors etc\nit also aims to dispel the lies that have so far been said about it\nand let people know how it can be useful to clean the air and the soil from pollution this mod will not only illustrate the recreational side\nas they have shown us so far, that is, in a distorted way.\nThis is the reason why I created this mod to eradicate the ignorance and misinformation about hemp in an educational way,\ncompleting all the twists of the mod requires a bit of work for this and is still in the processing and expansion phase\n\nCONSIDERING THE CURRENT TERMS OF USE OF ContentDB, THE RECREATIONAL PART OF THE MOD IS DISABLED OF DEFAULT,\nEVEN IF STILL WIP IS ALWAYS PRESENT AND WORKING SEE init.lua\n\n",
-  "maintainers": [
-    "ulla"
-  ],
+  "maintainers": ["ulla"],
   "media_license": "CC0-1.0",
   "name": "cannabis",
-  "provides": [
-    "cannabis"
-  ],
+  "provides": ["cannabis"],
   "release": 29596,
   "repo": "https://github.com/IIIullaIII/CANNABIS_MOD.git",
   "score": 164.7,
@@ -437,10 +429,7 @@
   ],
   "short_description": "Hemp with all possible utility  see readme.md | La canapa e tutti i suoi usi guardare il readme.md",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "tools"
-  ],
+  "tags": ["plants_and_farming", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/71Jcx7c32l.png",
   "title": "Hemp mod ",
   "translation_url": null,

@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,14 +130,10 @@
   "issue_tracker": "https://github.com/nitro2010/mesecons_soundblock/issues/new/choose/",
   "license": "CC-BY-4.0",
   "long_description": "This is mod allows to play OGG file.\n\nEasy to set up.\n\n1. Copy OGG file to mesecons_soundblock\\sounds folder.\n1. Take soundblock (type /give mesecons_soundblock:block on the chat or search block in the inventory).\n2. Place soundblock on the ground.\n3. Click right button of mouse on soundblock - it opens configuration window.\n**Channel** - (string) channel's name,\n**Hearing distance** - (int) max. distance between block and player. If is greater than declared, player don't hear anything from block\n**Volume**\n4. Next connect soundblock using digilines with e.g. microcontroller.\n5. If you want play sound, type in e.g. controller:\n\ndigiline_send(\"channel\", \"oggfilename\")\n\nwhere: channel - name of earlier declared channel \noggfilename - name of ogg file in \"mesecons_soundblock\\sounds folder\" without file extension\n\nIf is correct you should listen sound file.",
-  "maintainers": [
-    "nitro2012pl"
-  ],
+  "maintainers": ["nitro2012pl"],
   "media_license": "CC-BY-4.0",
   "name": "mesecons_soundblock",
-  "provides": [
-    "mesecons_soundblock"
-  ],
+  "provides": ["mesecons_soundblock"],
   "release": 5149,
   "repo": "https://github.com/nitro2010/mesecons_soundblock",
   "score": 6.5,
@@ -149,9 +143,7 @@
   ],
   "short_description": "Mesecons Soundblock",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xQqYzn1UMu.png",
   "title": "Mesecons Soundblock",
   "translation_url": null,

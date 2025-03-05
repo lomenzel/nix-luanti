@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "abre un forsmpec que muestra las acciones de un jugador desde que se conecto\n\nopens a forsmpec that shows a player's actions since they connected\n\n/control (player)",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "LGPL-2.1-only",
   "name": "control",
-  "provides": [
-    "control"
-  ],
+  "provides": ["control"],
   "release": 28876,
   "repo": null,
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/40bee75731.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/40bee75731.png"],
   "short_description": "shows the actions of a player",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "developer_tools",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "developer_tools", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/40bee75731.png",
   "title": "player actions",
   "translation_url": null,

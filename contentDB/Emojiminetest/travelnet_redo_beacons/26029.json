@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/travelnet_redo_beacons/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Travelnet Redo Beacons\n\nThis is a one-node version of the travelnet, working with the [Travelnet Redo](https://content.minetest.net/packages/Emojiminetest/travelnet_redo/) mod. It teleports players onto its top.\n\nThis mod took textures and sounds from [Telemosaic](https://content.minetest.net/packages/mt-mods/telemosaic/).",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "travelnet_redo_beacons",
-  "provides": [
-    "travelnet_redo_beacons"
-  ],
+  "provides": ["travelnet_redo_beacons"],
   "release": 26029,
   "repo": "https://github.com/C-C-Minetest-Server/travelnet_redo_beacons",
   "score": 8.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ed9be50151.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ed9be50151.png"],
   "short_description": "Travelnet components in Telemosaic style",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ed9be50151.png",
   "title": "Travelnet Redo: Beacons",
   "translation_url": null,
@@ -450,17 +440,12 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       },
       {
         "is_optional": false,
@@ -476,10 +461,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "Emojiminetest/travelnet_redo_beacons": [
@@ -528,9 +510,7 @@
       {
         "is_optional": false,
         "name": "travelnet_redo",
-        "packages": [
-          "Emojiminetest/travelnet_redo"
-        ]
+        "packages": ["Emojiminetest/travelnet_redo"]
       }
     ]
   },

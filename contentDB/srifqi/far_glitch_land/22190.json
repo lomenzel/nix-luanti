@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/srifqi/far_glitch_land/issues",
   "license": "MIT",
   "long_description": "**Far Glitch Land**\n\nThis mod adds glitchy-looking lands at the edge of the world. It is inspired by [Minecraft's Far Lands](https://minecraft.wiki/w/Far_Lands).\n\n**Configuration**\n\nTo configure this mod, use the Settings menu > Content: Mods > Far Glitch Land. The configuration is _not_ saved per world, but saved globally, and affects new world generations.\n\nSee [README](https://github.com/srifqi/far_glitch_land#readme) for more information.",
-  "maintainers": [
-    "srifqi"
-  ],
+  "maintainers": ["srifqi"],
   "media_license": "MIT",
   "name": "far_glitch_land",
-  "provides": [
-    "far_glitch_land"
-  ],
+  "provides": ["far_glitch_land"],
   "release": 22190,
   "repo": "https://github.com/srifqi/far_glitch_land",
   "score": 156.3,
@@ -36,9 +32,7 @@
   ],
   "short_description": "Add glitchy-looking lands at the edge of the world",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e7c98d9cec.png",
   "title": "Far Glitch Land",
   "translation_url": null,

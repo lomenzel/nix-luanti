@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,29 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Adds a kill, deaths, and kd counter to players.\n\n/top command to see the global statistics\n\n/stats command to view personal statistics\n\n**note: only works with luanti 5.10.0 onwards\n\n**note:A stats.txt file is created in the world folder where the data is stored. Once created, it is recommended not to alter it, since an incorrect modification will cause it to not show any player's data.",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "CC-BY-SA-3.0",
   "name": "pvp_center",
-  "provides": [
-    "pvp_center"
-  ],
+  "provides": ["pvp_center"],
   "release": 29671,
   "repo": null,
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5ce615d46e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5ce615d46e.png"],
   "short_description": "Adds a kill, deaths, and kd counter to players.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "chat",
-    "inventory",
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["adventure__rpg", "chat", "inventory", "multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5ce615d46e.png",
   "title": "Top players",
   "translation_url": null,

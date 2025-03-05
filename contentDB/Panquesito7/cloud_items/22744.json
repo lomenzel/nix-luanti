@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,14 +390,10 @@
   "issue_tracker": "https://github.com/minetest-mods/cloud_items/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds powerful cloud tools for Minetest.  \nStronger than diamond and other materials. \n\n## A remaster will be done soon. For now, this is just \"yet another ore mod\".\n\n## Features\n\nTake a look at this mod's features.<br>\nHave any questions/comments? Submit an [issue](https://github.com/minetest-mods/cloud_items/issues/new) or [contact me](mailto:halfpacho@gmail.com).\n\n### Difference beetwen normal ores\n\nThis \"ore\", doesn't spawn underground!<br>\nInstead, it spawns at the sky; that's why it's called \"cloud\".\n\nAn ore will be spawned somewhere in the schematic!<br>\nYou'll have certain probabilities to have an ore or not!\n\n- For small clouds: 2.5% of getting an ore per node.\n- For medium clouds: 5% of getting an ore per node.\n- For big clouds: 7.5% of getting an ore per node.\n\n### Types of cloud\n\nThere are 4 types of cloud:\n\n- Normal cloud\n  - Hard to find.\n  - You may find from 1 to 4 ores.\n  - Stronger than diamond.\n  - Damage: 11\n    - Can kill players with 2 hits.\n  - Spawns at 200 blocks and above.\n- Cloud star (comming soon)\n  - Difficult to find.\n  - You may find from 1 to 4 ores.\n  - Stronger than cloud and diamond.\n  - Damage: 12\n    - Can kill players with 2 hits.\n  - Spawns at 350 blocks and above.  \n- Cloud meteor (comming soon)\n  - Very hard to find.\n  - You may find from 1 to 3 ores.\n  - Stronger than cloud (star) and diamond.\n  - Damage: 14\n    - Can kill players with 2 hits.\n  - Spawns at 500 blocks and above.\n- Cloud comet (comming soon)\n  - Very difficult to find.\n  - You may find only 1 ore.\n  - Stronger than all materials.\n  - Damage: 17\n    - Very strong, can kill a player with 2 hits.\n  - Spawns at 800 blocks and above.\n\n## Requirements\n\nCloud Items is currently tested with Minetest 5.4.0-dev.<br>\nIssues may arise if you use older or newer versions.\n\nIt shall work with MT 5.0.0 and above, though.\n\n## License\n\nSee [`LICENSE.md`](https://github.com/minetest-mods/cloud_items/blob/master/LICENSE.md) for full information.\n\n## Credits\n\nCredits to (in no particular order):\n\n- Various Minetest developers/contributors\n- [Brett O'Donnell](https://github.com/cornernote)\n  - For the function to load an schematic.\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "CC BY-NC-SA-4.0",
   "name": "cloud_items",
-  "provides": [
-    "cloud_items"
-  ],
+  "provides": ["cloud_items"],
   "release": 22744,
   "repo": "https://github.com/minetest-mods/cloud_items",
   "score": 300,
@@ -417,11 +411,7 @@
   ],
   "short_description": "Powerful cloud tools.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "tools"
-  ],
+  "tags": ["building", "mapgen", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/LRvW4ygXxK.png",
   "title": "Cloud Items",
   "translation_url": null,
@@ -477,9 +467,7 @@
       {
         "is_optional": false,
         "name": "vehicle_mash",
-        "packages": [
-          "Panquesito7/vehicle_mash"
-        ]
+        "packages": ["Panquesito7/vehicle_mash"]
       },
       {
         "is_optional": false,
@@ -544,9 +532,7 @@
       {
         "is_optional": false,
         "name": "lib_mount",
-        "packages": [
-          "Panquesito7/lib_mount"
-        ]
+        "packages": ["Panquesito7/lib_mount"]
       },
       {
         "is_optional": false,

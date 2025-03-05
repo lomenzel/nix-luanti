@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/opfromthestart/frames/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Frames from the Technic mod that were removed in recent commits.\n\nFrames on top of a frame motor will move in the direction of the arrow. Frames will stick to blocks on sides that are hollow, and will not on sides that are solid. Hit a block to toggle a side between hollow and solid.\nUse setting \"max_frame_push\" to control the number of blocks a frame pusher can push. Default is 20.",
-  "maintainers": [
-    "opfromthestart"
-  ],
+  "maintainers": ["opfromthestart"],
   "media_license": "LGPL-2.1-or-later",
   "name": "frames",
-  "provides": [
-    "frames"
-  ],
+  "provides": ["frames"],
   "release": 19702,
   "repo": "https://github.com/opfromthestart/frames",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bc7a205fb0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bc7a205fb0.png"],
   "short_description": "Frames from Technic since it was removed.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bc7a205fb0.png",
   "title": "Frames",
   "translation_url": null,

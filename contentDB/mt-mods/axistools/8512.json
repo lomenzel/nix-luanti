@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,29 +429,17 @@
   "issue_tracker": "https://github.com/mt-historical/axistools/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "**Make a Tool from Anything.**\n\nThe tools module from fliptest.\nAxis Tools allows you to make a multipart tool from three (or in some cases more) types of material.\nFor example, you could make a magma pickaxe with a gold binding and a mithril handle.\n\n**Tool types available:**\n\n* Pickaxe\n\n* Axe\n\n* Shovel\n\n* Sword\n\n* Battleaxe\n\n* Greatsword\n\n* Bow\n\n* Crossbow\n\n\n**Material types Available (Sorted By Mod)**\n\ndefault:\n\n* \tsteel\n\n* \tapple wood\n\n* \tacacia\n\n* \tpine\n\n* \tjungle wood\n\n* \taspen\n\n* \tbronze\n\n* \tcopper\n\n* \ttin\n\n* \tgold\n\n* \tobsidian\n\n* \tmese\n\n* \tbone\n\nethereal:\n\n* \tmushroom\n\n* \tbirch wood\n\n* \tbanana wood\n\n* \tpalm wood\n\n* \tfrost wood\n\n* \tredwood\n\n* \thealing wood\n\n* \tcrystal\n\ndfcaverns:\n\n* \tblack cap wood\n\n* \tblood thorn wood\n\n* \tgoblin cap wood\n\n* \tnether cap wood\n\n* \tfungi wood \n\n* \ttunnel tube wood\n\n* \tspore tree wood\n\n* \ttower cap wood\n\n* \tglow ruby\n\nmoreores:\n\n*  silver\n\n*  \tmithril\n\nbonemeal:\n\n* \tbone\n\nmobs:\n\n* \tlava orb\n\ntechnic:\n\n*  zinc\n\n*  chromium\n\n*  lead\n\n*  rubber\n\n*  brass\n\nrandomthings:\n\n* living steel\n\n**Planned Features**\n\ntools:\n\n*  spear\n\n*  hoe?\n\nsupport:\n\nI will add support for pretty much anything requested, as long as it adds value to the mod.\n\nmaterials:\nsee 'support'.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "axistools",
-  "provides": [
-    "axistools"
-  ],
+  "provides": ["axistools"],
   "release": 8512,
   "repo": "https://github.com/mt-historical/axistools",
   "score": 153.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/HNHS5JUo12.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/HNHS5JUo12.png"],
   "short_description": "All the functionality of tinkers construct, but all in your inventory.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "pve",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["crafting", "pve", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HNHS5JUo12.png",
   "title": "Axis Tools",
   "translation_url": null,

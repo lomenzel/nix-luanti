@@ -38,27 +38,17 @@
   "issue_tracker": "https://github.com/Lazerbeak12345/falling_stairs/issues",
   "license": "MIT",
   "long_description": "# Falling Stairs and Slabs\n\n## Dependancies\n\nUses one of (in this preference order)\n\n- `moreblocks`\n- `mcl_stairs`\n- `stairs`\n\nTo create slabs and stairs for each falling block.\n\n- `default` for\n\t\t - `default:gravel`\n\t\t - `default:sand`\n\t\t - `default:desert_sand`\n\t\t - `default:silver_sand`\n- `mcl_core` for\n\t\t\t- `mcl_core:gravel`\n\t\t\t- `mcl_core:sand`\n\t\t - `mcl_core:redsand`\n",
-  "maintainers": [
-    "lazerbeak12345"
-  ],
+  "maintainers": ["lazerbeak12345"],
   "media_license": "MIT",
   "name": "falling_stairs",
-  "provides": [
-    "falling_stairs"
-  ],
+  "provides": ["falling_stairs"],
   "release": 10994,
   "repo": "https://github.com/Lazerbeak12345/falling_stairs",
   "score": 4.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/84ea37f1ed.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/84ea37f1ed.png"],
   "short_description": "Adds falling stairs and slabs for gravel, sand and others.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "building",
-    "decorative"
-  ],
+  "tags": ["april_fools", "building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/84ea37f1ed.png",
   "title": "Falling Stairs",
   "translation_url": null,

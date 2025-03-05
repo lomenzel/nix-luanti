@@ -103,25 +103,17 @@
   "issue_tracker": "https://github.com/APercy/ju52/issues/new/choose/",
   "license": "LGPL-3.0-or-later",
   "long_description": "Minetest 5.4 mod: Ju52\n========================================\n\nThis mod is a version of the german ju52 for minetest.\nIt is under development, so it does not yet have an autopilot nor the planned automated\nairline system for the future. But it is already flyable, and can carry up to 12 occupants.\n\n**Note for beginners: it is not recommended to fly it without previously acquired proficiency. So it is recommended that you know how to fly the Super Cub and Demoiselle beforehand, especially how to land them without damage.**\n\nThe main functions of the aircraft are found in the internal menu, activated with the right click.\nThere is a second menu, for applying skins, but it only appears when hitting a dye on the aircraft,\nbeing INSIDE it. For other colors, you can use a dye on the OUTSIDE with the desired color,\nit is also possible to use the painter from the bike mod or from the automobiles_pck mod.\n\nIn order for passengers to board, it is necessary to open the door, otherwise no one will be able to enter.\n\nWhile the machine is off, it is possible to move it using the sneak and jump keys (shift and space).\nW ans S controls the pitch (elevator).\nRight and Left (A and D) controls the yaw (rudder).\n\nThen to fly, first load the airplane fuel punching it from outside (it uses 3 gallons or 30 bottles of biofuel). Then go onboard and start the engine on the menu. Then press jump (space) to increase the engine power. Set it to the maximum. Pull the elevator control (S) when it have the speed to lift.\n\nUse the climb indicator to stabilize altitude,\nas at high altitudes you lose sustentation and you spend more fuel. \n\nFor landing, just lower the power and stabilize the airplane. Pay attention at air speed\nindicator, keeping it at green range, otherwise you will stall.\n\nCare must be taken with impacts, as it causes damage to the aircraft and the pilot, \nso training landings is essential. \n\nTo brake the aircraft, use the sneak (shift) key until it comes to a complete stop.\nDo not stop the engine before this, or it will reverse when it stops \n\n\n**Controls overview:**\n\n* Right click: enter in/get off plane\n\n* Left click (with biofuel): add fuel to plane\n\n* Jump: Increase power, forward on ground\n\n* Sneak: Decrease power, brake on ground\n\n* Backward: go up flying - nose up\n\n* Forward: go down flying - nose down\n\n* Left/right: Turn to left/right, work on and out ground.\n\n* Left and Right together: center all commands\n\n* E and Right Click (while outside): access airplane inventory\n\n\nPS: NO recipe yet\n\n-----------------------\nLicense of source code:\nLGPL v3 (see file LICENSE) \n\nLicense of media (textures and sounds):\nCC0\n\n\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "ju52",
-  "provides": [
-    "ju52"
-  ],
+  "provides": ["ju52"],
   "release": 29756,
   "repo": "https://github.com/APercy/ju52",
   "score": 917.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/43b56cc85d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/43b56cc85d.png"],
   "short_description": "Adds a Ju52 airplane",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43b56cc85d.png",
   "title": "Ju52",
   "translation_url": null,
@@ -136,10 +128,7 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       }
     ]
   },

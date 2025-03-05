@@ -206,9 +206,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://codeberg.org/csirolli/luanti_bounty_mod/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# bounty\n\nBounty mod for MTG. Originally written by **Bas808** in May of 2014, modified by CSirolli in May of 2018. My GitHub repo was lost, so I had to start over in December of 2024. Original concept and code can be found here: https://forum.minetest.net/viewtopic.php?f=9&t=9355\n\nThis mod can be used for placing bounties on players. Bounties are placed or removed in increments of 20 points. If a player with a bounty is killed, that player drops a reward, which the killer can collect.\n\n## Chat Commands\n\nUsing the chat command `/bounty <player_name>` adds a 20 point bounty to that player.\n\nThe chat command `/forgive <player_name>` removes 20 points from the player's bounty.\n\nThe third chat command is `/bounties` and is used for displaying all bounties on players.\n\n## Rewards\n\nWhenever a player with a bounty is killed, they drop different items depending on how large the bounty is. Here is a table showing this relationship:\n\n    Points = Reward\n    ---------------------------------\n    20     = \"default:wood 50\"\n    40     = \"default:cobble 50\"\n    60     = \"default:stone 40\"\n    100    = \"default:steel_ingot 2\"\n    200    = \"default:steel_ingot 5\"\n\nThese values and items can be changed in the `init.lua` file.\n\n## To Do\n\n* Require users with special privs to use chat commands\n* Lower bounty on one player if they kill/capture another player with bounty\n* Allow for capturing\n\nCode: LGPLv2.1+\n\nMod dependencies: default\n",
-  "maintainers": [
-    "csirolli"
-  ],
+  "maintainers": ["csirolli"],
   "media_license": "LGPL-2.1-only",
   "name": "bounty",
-  "provides": [
-    "bounty"
-  ],
+  "provides": ["bounty"],
   "release": 28866,
   "repo": "https://codeberg.org/csirolli/luanti_bounty_mod",
   "score": 4.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c9eb5bc6e1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c9eb5bc6e1.png"],
   "short_description": "Place bounties on players",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pvp",
-    "server_tools",
-    "survival"
-  ],
+  "tags": ["multiplayer", "pvp", "server_tools", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c9eb5bc6e1.png",
   "title": "Bounty",
   "translation_url": null,

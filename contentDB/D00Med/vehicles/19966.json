@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,25 +651,17 @@
   "issue_tracker": "https://github.com/D00Med/vehicles/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "A mod that adds an api for cars, planes, and other vehicles.\nSeveral vehicles are included in the mod.",
-  "maintainers": [
-    "D00Med"
-  ],
+  "maintainers": ["D00Med"],
   "media_license": "LGPL-2.1-only",
   "name": "vehicles",
-  "provides": [
-    "vehicles"
-  ],
+  "provides": ["vehicles"],
   "release": 19966,
   "repo": "https://github.com/D00Med/vehicles",
   "score": 370.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/NuZeKr0BCr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/NuZeKr0BCr.png"],
   "short_description": "A mod that adds an api for cars, planes, and other vehicles.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/NuZeKr0BCr.png",
   "title": "Vehicles",
   "translation_url": null,

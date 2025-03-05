@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Emojigit/lava_n_water/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Once upon a time, there was a incident...\nThat was a long time ago, when somebody placed a bucket of water, and then lava, on a tall mountain near urban areas. The liquid created a swarm of lavastones wherever it flowed, and when the moderators arrived, they couldn't clear them all with their [adeptus powers](https://content.minetest.net/packages/sfan5/worldedit/)<!-- Well, even Morax, the Geo Archon, cannot help... --> and had to dig them one by one with their pickaxe.\n\nWhy can't adeptus powers be used? That’s because if //replace all the stones with air, the entire tall mountain where the incident starts will be hollowed out, and that was not what the moderators wanted to see.\n\nUsing this mod, all lavastones will be \"tagged,\"  so that WorldEdit or other world cleanup tools can identify them and only clear them. Moderators can then use //replace lnw air to clear all lavastones. By removing the liquid sources before executing this command, this should clear up any disasters.\n\n## Technical Details\nThis mod registers one node, `lava_n_water:lava_water_aftermath_stone`, which is the lavastone. When flowing lava contact water, it will cool down into this form of stone instead of normal stone.\n\nThree alias, `lava_n_water`, `lavawater`, and `lnw`, are registered to point to the said node. This is for easier cleanup with WorldEdit.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "lava_n_water",
-  "provides": [
-    "lava_n_water"
-  ],
+  "provides": ["lava_n_water"],
   "release": 16726,
   "repo": "https://github.com/Emojigit/lava_n_water",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fc9893e5ea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fc9893e5ea.png"],
   "short_description": "Cool Lava into technically special stones for easier cleanup",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "world_tools"
-  ],
+  "tags": ["environment", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc9893e5ea.png",
   "title": "Lava + Water > Stone",
   "translation_url": null,

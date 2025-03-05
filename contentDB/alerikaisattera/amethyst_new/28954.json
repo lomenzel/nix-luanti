@@ -336,9 +336,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "Building blocks:\n\n* Amethyst\n* Basalt, block and brick\n* Calcite, block and brick\n* Checkerboard block\n* Tinted glass, visually transparent but blocks light",
-  "maintainers": [
-    "alerikaisattera"
-  ],
+  "maintainers": ["alerikaisattera"],
   "media_license": "CC-BY-SA-4.0",
   "name": "amethyst_new",
-  "provides": [
-    "amethyst_new"
-  ],
+  "provides": ["amethyst_new"],
   "release": 28954,
   "repo": "https://gitlab.com/alerikaisattera/amethyst_new",
   "score": 333.5,
@@ -435,11 +429,7 @@
   ],
   "short_description": "Amethyst, basalt, calcite and related building blocks",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["building", "decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6a40df5f21.png",
   "title": "Amethyst",
   "translation_url": null,
@@ -453,9 +443,7 @@
       {
         "is_optional": false,
         "name": "geodes_lib",
-        "packages": [
-          "alerikaisattera/geodes_lib"
-        ]
+        "packages": ["alerikaisattera/geodes_lib"]
       },
       {
         "is_optional": false,

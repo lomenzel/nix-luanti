@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/joe7575/ta4_jetpack/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "**A Jetpack for techage with hydrogen as fuel and TA4 recipe**\n\nThe Jetpack is inspired by the jetpack from spirit689 (https://github.com/spirit689/jetpack)\nand by the historical game Lunar Lander.\n\nInstructions:\n\n- Craft TA4 Jetpack, Jetpack Controller and Training Mat\n- Use the armor extension (3d_armor) of the player menu to strap the Jetpack on your back\n- You can refuel the jetpack by left-clicking with the controller on a TA3/TA4 tank previously charged with hydrogen\n- Turn the controller on by right-click and check the fuel tank level (the small colored bar below the controller icon)\n- Use the space bar to activate the Jetpack and the WASD keys to control the direction\n- Before your first flight you should do some training starts and landings on the Training Mat \n  (The Jetpack is a bit stubborn, it takes some practice to keep the JetPack in the air) \n  \nImportant to know:\n\n- 12 units of hydrogen are sufficient for a flight of 6 minutes\n- Maximum of 99 items in your inventory are allowed including the controller.\n  Otherwise you would be too heavy :-)\n- The Jetpack also wears out and can be used for approximately 10 flights\n- Always hold the controller tight during the flight, otherwise it will switch off :)\n",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC-BY-3.0",
   "name": "ta4_jetpack",
-  "provides": [
-    "ta4_jetpack"
-  ],
+  "provides": ["ta4_jetpack"],
   "release": 21561,
   "repo": "https://github.com/joe7575/ta4_jetpack",
   "score": 174.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/603b2bf6ce.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/603b2bf6ce.png"],
   "short_description": "JetPack for Techage",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/603b2bf6ce.png",
   "title": "Ta4 Jetpack",
   "translation_url": null,
@@ -57,9 +49,7 @@
       {
         "is_optional": false,
         "name": "techage",
-        "packages": [
-          "joe7575/techage_modpack"
-        ]
+        "packages": ["joe7575/techage_modpack"]
       },
       {
         "is_optional": false,

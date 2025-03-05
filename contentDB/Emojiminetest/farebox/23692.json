@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/farebox/issues",
   "license": "ISC",
   "long_description": "This mod adds a farebox that emits a mesecons signal whenever a payment is accepted.\n\nIt also adds fare gates that open when a payment is received and close when they receive a mesecons signal, e.g. from a pressure pad right behind them that verifies that the player has passed through the fare gate.\n\nThe Farebox texture was created by azekillDIABLO.\n\nThis is a fork of [Gabriel's farebox mod](https://github.com/gpcf/farebox).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "ISC",
   "name": "farebox",
-  "provides": [
-    "farebox"
-  ],
+  "provides": ["farebox"],
   "release": 23692,
   "repo": "https://github.com/C-C-Minetest-Server/farebox",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/81d6753db4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/81d6753db4.png"],
   "short_description": "Signal-emitting fareboxes and faregates",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer",
-    "technology"
-  ],
+  "tags": ["commerce", "multiplayer", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/81d6753db4.png",
   "title": "Fareboxes and Faregates",
   "translation_url": null,

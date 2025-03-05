@@ -1,8 +1,6 @@
 {
   "author": "ElCeejo",
-  "content_warnings": [
-    "gore"
-  ],
+  "content_warnings": ["gore"],
   "created_at": "2019-10-25T08:11:44.206513",
   "dev_state": "DEPRECATED",
   "donate_url": "https://www.patreon.com/ElCeejo",
@@ -286,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -433,29 +429,17 @@
   "issue_tracker": "https://github.com/ElCeejo/grave/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "The Grave is a cold, eerie biome found near taigas and coniferous forests. Currently it contains 3 new mobs: The Lich, Skeletons, and dead Horses.\n\n***The Lich*** is a mini-boss of sorts that spawns in groups and summons hoards of Skeletons and is occasionally seen riding the backs of their dead Horse mounts. Once they've spawned minions they will begin using their scepter to attack the player from afar.\n\n***The Skeletons*** are weak enemies that specialize in overwhelming any nearby life, they are not especially smart and don't do much aside from kill and aimlessly wander.\n\n***Dead Horses*** are the mounts of the Lich. They are moderately fast and make for a good shield for the Lich if a player gets too close. They are aggressive towards Players whether ridden or not, and all nearby dead Horses will attack when one is punched.\nAs of right now the biome is mostly a good source of bones (from tenplus1's bonemeal mod) and can reward players with the Lich Scepter.\n\n***To-Do***\n- Add more resources\n- Add more mobs\n- Add more structures\n- Feel free to request things",
-  "maintainers": [
-    "ElCeejo"
-  ],
+  "maintainers": ["ElCeejo"],
   "media_license": "GPL-3.0-only",
   "name": "grave",
-  "provides": [
-    "grave"
-  ],
+  "provides": ["grave"],
   "release": 5399,
   "repo": "https://github.com/ElCeejo/grave",
   "score": 150,
-  "screenshots": [
-    "https://content.luanti.org/uploads/BuUBOzZ0up.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/BuUBOzZ0up.png"],
   "short_description": "Adds an eerie biome with multiple mobs.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mapgen",
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "mapgen", "mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/BuUBOzZ0up.png",
   "title": "Grave",
   "translation_url": null,
@@ -469,10 +453,7 @@
       {
         "is_optional": false,
         "name": "mob_core",
-        "packages": [
-          "talas/colourhop",
-          "mt-mods/mob_core"
-        ]
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
       },
       {
         "is_optional": false,

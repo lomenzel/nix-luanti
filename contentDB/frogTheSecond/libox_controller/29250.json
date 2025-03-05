@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,25 +130,17 @@
   "issue_tracker": "https://github.com/TheEt1234/libox_controller/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Libox controller \n- Fork of mooncontroller, that makes use of helper functions from libox\n\n# The one huge difference\nEverything, when it can be handled by libox, is handled by libox\n\nThis means that:\n- The environment is mostly handled by libox, see [libox's env_docs.md](https://github.com/TheEt1234/libox/blob/master/env_docs.md) for the docs of that\n\n- The code is limited by time, not instructions\n- \n - It may be a bit inconsistant, i am sorry about that but it's needed for... you not being able to blow the server up (string concatination can be slow, yet it counts as very few instructions)\n \n- You get a traceback\n\n# Small differences\n- you can't store userdata and threads in `mem` now (not like you can obtain that anyway)\n- *if* enabled (not by default), `digiline_send` can send functions (but their environment gets erased)\n- extra environment stuffs: \n    - `code` - the code that the luacontroller was ran with\n    - `conf` - the configuration table (*the settings*)\n- if the libox controller overheats, you now *know* why (memory or overheated) because it makes an error message\n- your `digiline_send`s and `interrupt`s get executed even when the libox controller errors, and your memory gets saved too (i think this is a huge qol change)\n\n# *Mostly* technical differences\n- Doesn't use itbl anymore, instead doing string sandbox escaping\n\n# Oh yeah also the support (different from the mooncontroller also)\n- wrench: the libox controller can now be picked up by a wrench\n- luatool: can be operated by luatool\n- mesecons_debug: lightweight interrupts now respect penalty\n\n### Almost everything besides that is *basically* identical to the mooncontroller\n\n# Test goals\n- coverage of 90+% of `controller.lua`\n- problem: coverage is really jumbled up and i have no idea how to get m o a r coverage\n\n# TODOs:\n- user generated libraries\n- more tests maybe\n- more features maybe\n\n# Oh yeah also what is mooncontroller?\nMooncontroller is a fork of [chiepie's luacontroller modifications](https://cheapiesystems.com/git/mesecons/tree/mesecons_luacontroller), you can find mooncontroller [here](https://github.com/mt-mods/mooncontroller)  \n\nIt adds the terminal, tutorial and changes the source code so it isn't all in one file\n\nIt's not on contentDB because it's not finished, but i feel like libox_controller is decent enough",
-  "maintainers": [
-    "frogTheSecond"
-  ],
+  "maintainers": ["frogTheSecond"],
   "media_license": "CC-BY-SA-3.0",
   "name": "libox_controller",
-  "provides": [
-    "libox_controller"
-  ],
+  "provides": ["libox_controller"],
   "release": 29250,
   "repo": "https://github.com/TheEt1234/libox_controller",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/43ebc0d241.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/43ebc0d241.png"],
   "short_description": "A fork of mooncontroller made to use libox, also has QOL improvements",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43ebc0d241.png",
   "title": "Libox Controller",
   "translation_url": null,
@@ -200,10 +190,7 @@
       {
         "is_optional": false,
         "name": "libox",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "frogTheSecond/libox"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "frogTheSecond/libox"]
       }
     ]
   },

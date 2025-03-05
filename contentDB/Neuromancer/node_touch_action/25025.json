@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/node_touch_action/issues",
   "license": "MIT",
   "long_description": "Pass in a node name and a function, and every time a player touches that node, your custom function executes. This mod is heavilly based on the cactus_damage mod by VMan_2002\n\n## Example:\nWhen adding gameplay, one thing that comes in handy is performing an action when a player touches a node.  For example making a player take hitpoint damage when touching a cactus.\nIn my Hero Mines game I needed a light to break when a player touched it, and for the player to take damage when touching magma nodes. You can see the magma example below.\n\n## Usage:\nAdd the node_touch_action to the depends statement in your mod.conf file:\n\n```\ndepends = default, node_touch_action\n```\n\nAfter you register your node create a function to be executed when the node is touched:\n\n```lua\nlocal function magmaTouchAction(player)\n    player:set_hp(player:get_hp() - 1, \"magma\")\nend\n```\n\nThen Register the action to occur when node is touched.  The first parameter is the node name, the second parameter is the function that happens when the node is touched.\n\n```lua\nregisterNodeTouchAction(\"hero_mines:magma\", magmaTouchAction)\n```\n",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "MIT",
   "name": "node_touch_action",
-  "provides": [
-    "node_touch_action"
-  ],
+  "provides": ["node_touch_action"],
   "release": 25025,
   "repo": "https://github.com/Neuromancer56/node_touch_action",
   "score": 157.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bdd42a775e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bdd42a775e.png"],
   "short_description": "Pass in a node name and a function, and every time a player touches that node, the function happens",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bdd42a775e.png",
   "title": "Node Touch Action",
   "translation_url": null,

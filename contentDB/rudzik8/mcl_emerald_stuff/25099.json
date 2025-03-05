@@ -38,25 +38,17 @@
   "issue_tracker": "https://codeberg.org/rudzik8/mcl_emerald_stuff/issues",
   "license": "GPL-3.0-only",
   "long_description": " Adds emerald tools and armor to VoxeLibre (ex. MineClone2)\n\n## Credits\n I've used default VoxeLibre textures (from PixelPerfection, texture pack by xssheep) for diamond tools and armor to create emerald ones. \n There are some more CC-attributions:\n \n - Emerald Pickaxe texture uses [default_tool_diamondpick.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_tools/textures/default_tool_diamondpick.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Shovel texture uses [default_tool_diamondshovel.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_tools/textures/default_tool_diamondshovel.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Axe texture uses [default_tool_diamondaxe.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_tools/textures/default_tool_diamondaxe.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Sword texture uses [default_tool_diamondsword.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_tools/textures/default_tool_diamondsword.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Boots (including inv/preview) texture uses [mcl_armor_boots_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_boots_diamond.png), [mcl_armor_inv_boots_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_diamond.png) and [mcl_armor_boots_diamond_preview.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_boots_diamond_preview.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Chestplate (including inv/preview) texture uses [mcl_armor_chestplate_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_chestplate_diamond.png), [mcl_armor_inv_chestplate_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_diamond.png) and [mcl_armor_chestplate_diamond_preview.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_chestplate_diamond_preview.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Helmet (including inv/preview) texture uses [mcl_armor_helmet_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_helmet_diamond.png), [mcl_armor_inv_helmet_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_diamond.png) and [mcl_armor_helmet_diamond_preview.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_helmet_diamond_preview.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n\n - Emerald Leggings (including inv/preview) texture uses [mcl_armor_leggings_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_leggings_diamond.png), [mcl_armor_inv_leggings_diamond.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_diamond.png) and [mcl_armor_leggings_diamond_preview.png](https://git.minetest.land/MineClone2/MineClone2/src/branch/master/mods/ITEMS/mcl_armor/textures/mcl_armor_leggings_diamond_preview.png) by [XSSheep](https://github.com/XSSheep) under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / Recolored (blue -> green) from original\n",
-  "maintainers": [
-    "rudzik8"
-  ],
+  "maintainers": ["rudzik8"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mcl_emerald_stuff",
-  "provides": [
-    "mcl_emerald_stuff"
-  ],
+  "provides": ["mcl_emerald_stuff"],
   "release": 25099,
   "repo": "https://codeberg.org/rudzik8/mcl_emerald_stuff",
   "score": 42.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e6ac80362a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e6ac80362a.png"],
   "short_description": "Adds emerald tools and armor to VoxeLibre (ex. MineClone2)",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e6ac80362a.png",
   "title": "VoxeLibre Emerald Stuff",
   "translation_url": null,

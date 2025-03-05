@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/The4codeblocks/compression/issues",
   "license": "GPL-3.0-only",
   "long_description": "# compression\nUses `compression_api` to generate compressed nodes. (Only supports MTG for now)\n\nSettings: \"Maximum compression level\" changes how much each provided material is compressed.\n",
-  "maintainers": [
-    "The4spaceconstants"
-  ],
+  "maintainers": ["The4spaceconstants"],
   "media_license": "GPL-3.0-only",
   "name": "compression",
-  "provides": [
-    "compression"
-  ],
+  "provides": ["compression"],
   "release": 23443,
   "repo": "https://github.com/The4codeblocks/compression",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5d3f4a4d8e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5d3f4a4d8e.png"],
   "short_description": "Uses compression_api to generate compressed nodes.",
   "state": "APPROVED",
-  "tags": [
-    "storage"
-  ],
+  "tags": ["storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5d3f4a4d8e.png",
   "title": "Compression",
   "translation_url": null,

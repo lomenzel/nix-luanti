@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,15 +429,10 @@
   "issue_tracker": "https://codeberg.org/Nazalassa/sim_trains/issues",
   "license": "GPL-2.0-or-later",
   "long_description": "# Sim Trains\n\nA mod that adds \"various\" trains (currently only the Red Comet) to Minetest, for use with Advtrains. It also adds crafting recipes for those trains, which may use game-specific items, as well as liveries if Advtrains Livery Tools is present.\n\n## Available trains\n\n* The **Red Comet** (engine + car) can go up to 20 nodes/s. The cars can also be used standalone with any other engine. An underground-style engine going at 15 nodes/s is also available.\n\n## Features\n\n### Lights\n\nThe Red Comet engine has lights that try to work more or less realistically. An engine's lights will turn on when it goes forwards, and off when it goes backwards. This allows lights to remain on when the train is stopped at stations. But since that would mean that, at terminal stations, the lights would remain onuntil the train departs (which is not realistic), they will also turn off when the train reverses. Thus, if the train reverses after entering a terminal station, both the front and back lights will turn off, as it does in reality.\n\n### Info displays\n\nAll trains provided by the mod optionally support [Advtrains Info Displays](https://content.minetest.net/packages/Nazalassa/advtrains_info_displays). The available display slots are:\n\n* \"front\"\n* \"side\"\n* \"line\"\n* \"inside_doors\" (the small display above the doors; it can be used to display e.g a line map)\n\n### Liveries\n\nAll trains provided by the mod optionally support [Advtrains Livery Tools](https://content.minetest.net/packages/Marnack/advtrains_livery_tools).\n\nFor the Red Comet, a default \"Crimson Special\" livery is supplied in the `Red Comet` mod, whereas additional liveries can be found in the `Red Comet Liveries` mod. Note that the `Red Comet Liveries` mod will have no effect if `Advtrains Livery Tools` is not enabled.\n\n#### Other means of coloring trains\n\nAll trains provided by the mod support recoloring through the `Bike` mod's painter, and through being punched with dyes. `dark_green` and `dark_grey` dyes do not work yet.",
-  "maintainers": [
-    "Nazalassa"
-  ],
+  "maintainers": ["Nazalassa"],
   "media_license": "CC-BY-SA-4.0",
   "name": "sim_trains",
-  "provides": [
-    "redcom",
-    "redcom_liveries"
-  ],
+  "provides": ["redcom", "redcom_liveries"],
   "release": 28803,
   "repo": "https://codeberg.org/Nazalassa/sim_trains.git",
   "score": 361.5,
@@ -451,9 +444,7 @@
   ],
   "short_description": "Adds some trains, for use with Advtrains.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f06f3be4bf.png",
   "title": "Sim Trains",
   "translation_url": null,
@@ -467,9 +458,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
@@ -516,9 +505,7 @@
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "An easy way to manage students in-game, with support for bulk actions and macros.\n\nAn action is something that can be performed on a selection of students. You can use actions to move players, grant/revoke privs, and more. A list of built-in actions can be found below, however, you can add more actions using the API for this mod.\n\nAlso see [Account Manager](https://content.minetest.net/packages/rubenwardy/accountmgr/)\n\n## Usage\n\nFirst, make sure that you grant the `teacher` priv to any teachers like so:\n\n\t/grant username teacher\n\nThis allows them to access the classroom control panel, and exempts them from\nbeing included in actions.\n\nTo open the classroom control panel:\n\n* If sfinv is installed, open the Inventory (I) and switch to the classroom tab\n* If unified_inventory is installed, open the Inventory (I) and click the classroom icon\n* You can also use `/classroom`\n\nIn the control panel:\n\n* The set of students that an action works on depends on the toggle bar at the top.\n\t* **All:** apply the action to all students, but not teachers.\n\t* **Group:** apply the action to all students in the currently selected group.\n\t* **Selected:** apply the action only to the student that is currently selected.\n* You can changed the selected group using the tab header to the left.\n* You can manage groups using the New/Edit Group buttons in the\n  top-right.\n\t* Use `>` to add the selected player to the group, `<` to remove.\n\n### Actions\n\n\n| Name        | Behaviour                                                          |\n|-------------|--------------------------------------------------------------------|\n| Bring       | Teleports users to your position                                   |\n| Look        | Rotates the users to look at the teacher                           |\n| Mute/Unmute | Grants or revokes the ability to use chat                          |\n| Fly/No fly  | Grants or revokes the ability to fly (key: K)                      |\n| Kick        | Remove from the server                                             |\n| Ban         | Permanently exclude from the server                                |\n| Audience    | Move to the crosshair location, spread out and facing you          |\n",
-  "maintainers": [
-    "rubenwardy"
-  ],
+  "maintainers": ["rubenwardy"],
   "media_license": "MIT",
   "name": "classroom",
-  "provides": [
-    "classroom"
-  ],
+  "provides": ["classroom"],
   "release": 13684,
   "repo": "https://gitlab.com/rubenwardy/classroom",
   "score": 156.5,
@@ -29,11 +25,7 @@
   ],
   "short_description": "An easy way to manage students in-game, with support for bulk actions and macros.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["education", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a9d4349576.png",
   "title": "Classroom",
   "translation_url": null,

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/HeroOfTheWinds/minetest-caverealms/issues/",
   "license": "WTFPL",
   "long_description": "",
-  "maintainers": [
-    "HeroOfTheWinds"
-  ],
+  "maintainers": ["HeroOfTheWinds"],
   "media_license": "WTFPL",
   "name": "caverealms",
-  "provides": [
-    "caverealms"
-  ],
+  "provides": ["caverealms"],
   "release": 38,
   "repo": "https://github.com/HeroOfTheWinds/minetest-caverealms",
   "score": 178.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/26kmCVqaL4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/26kmCVqaL4.png"],
   "short_description": "A mod for Minetest to add underground realms.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/26kmCVqaL4.png",
   "title": "Caverealms",
   "translation_url": null,

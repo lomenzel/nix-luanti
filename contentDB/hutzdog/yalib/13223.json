@@ -11,25 +11,17 @@
   "issue_tracker": "https://sr.ht/~hutzdog/YALib/trackers",
   "license": "MPL-2.0",
   "long_description": "YALib (Yet Another Library) is a library mod written in Fennel. It provides a few utilities, a small module system with similar design to Lua's `require`, and a set of macros to make Fennel feel more native (NOTE: due to limitations of Fennel and how it must be used in the context of Minetest, the macro module needs to be available at compile time if they are to be used).",
-  "maintainers": [
-    "hutzdog"
-  ],
+  "maintainers": ["hutzdog"],
   "media_license": "MPL-2.0",
   "name": "yalib",
-  "provides": [
-    "yalib"
-  ],
+  "provides": ["yalib"],
   "release": 13223,
   "repo": "https://hg.sr.ht/~hutzdog/yalib",
   "score": 1.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ced246c1a7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ced246c1a7.png"],
   "short_description": "Yet Another Library",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ced246c1a7.png",
   "title": "YALib",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_spawnbuilder/issues",
   "license": "MIT",
   "long_description": "Generates a stone platform at world origin or the static spawn point.\nIdeal to get started in the *singlenode* mapgen, but can be used in other mapgens as well.\n\nDefault size: 33×2×33. All stone, with a single cobblestone in the center.\nThe width can be changed with the `spawnbuilder_width` setting.\n\nBy default, the platform will be centered at (0,-1,0), but if the setting “`static_spawnpoint`” is present, the platform appears below that instead.\nAlso, 3 layers of air are generated above the platform, so it works in the underground, too.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "spawnbuilder",
-  "provides": [
-    "spawnbuilder"
-  ],
+  "provides": ["spawnbuilder"],
   "release": 17591,
   "repo": "https://codeberg.org/Wuzzy/minetest_spawnbuilder",
   "score": 5.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/So2M2JoWhF.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/So2M2JoWhF.png"],
   "short_description": "Generates a stone platform below the world origin or static spawn point.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/So2M2JoWhF.png",
   "title": "Spawn Builder",
   "translation_url": null,

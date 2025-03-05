@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/j-r/touch_config/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Override every item's touch_interaction table according to user configuration.\n\n## Configuration\n\nThe mode provides a configuration entry for each of the three components of the\ntouch_interaction table. Each can be set to one of three states:\n\n1. don't override that entry\n2. set entry to \"long dig, short place\"\n3. set entry to \"short dig, long place\"\n\nOne can also choose not to override the 'hand' item. This isn't really useful except\nas a simple test scenario giving different tools different touch_interaction values.",
-  "maintainers": [
-    "j-r"
-  ],
+  "maintainers": ["j-r"],
   "media_license": "GPL-3.0-or-later",
   "name": "touch_config",
-  "provides": [
-    "touch_config"
-  ],
+  "provides": ["touch_config"],
   "release": 23863,
   "repo": "https://codeberg.org/j-r/touch_config",
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a0b6e4d45b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a0b6e4d45b.png"],
   "short_description": "Configure item touch_interaction property to your preferences",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a0b6e4d45b.png",
   "title": "Touch interaction configuration",
   "translation_url": null,

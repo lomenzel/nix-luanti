@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/fennelfox/mcl_heart_animations/issues",
   "license": "MIT",
   "long_description": "This mod takes a somewhat hacky approach to adding a shaking and flashing animation to the heart bar in Mineclone 2.\n\nExample:\n[Gif Link](https://i.ibb.co/nr1gfWn/demo4.gif)\n\nChangelog\n\n3.0 - Fixed and improved most of the code in the mod. Now it should actually work as well as adjusting for creative/survival mode. Also changed the hearts to flash three times for taking damage and twice for healing (actually like minecraft).\n\n2.1 - Fixed the background not flashing sometimes\n\n2.0b - Added a shaking animation when low on health (4 hp or less)\n\n1.1 - Changed the animation so that it flashes twice for damage but only once for healing. (More like Minecraft).\n\n1.0 - Added basic flashing animation",
-  "maintainers": [
-    "Fennelfox"
-  ],
+  "maintainers": ["Fennelfox"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mcl_heart_animations",
-  "provides": [
-    "mcl_heart_animations"
-  ],
+  "provides": ["mcl_heart_animations"],
   "release": 21139,
   "repo": "https://github.com/fennelfox/mcl_heart_animations.git",
   "score": 190.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/26a1bd4d56.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/26a1bd4d56.png"],
   "short_description": "Adds a simple (and hacky) animation to the heart bar in Mineclone2 similar to Minecraft.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/26a1bd4d56.png",
   "title": "Mineclone2 Heart bar animations",
   "translation_url": null,

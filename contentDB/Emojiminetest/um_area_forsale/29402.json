@@ -25,27 +25,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/um_area_forsale/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# For Sale Sign for Unified Money\n\nThis mod provides a \"For Sale Sign\" for selling areas. This mod provides a \"For Sale Sign\" for selling areas. Players can set up those signs, and buy areas from one, by right-clicking them.\n\nThis mod uses the [Unified Money System](https://content.minetest.net/packages/Emojiminetest/unified_money/) for money exchange, and [ShadowNinja's area mod](https://content.minetest.net/packages/ShadowNinja/areas/) for protection areas handling. The GUI formspec is built with [flow](https://content.minetest.net/packages/luk3yx/flow/). Optionally, this mod sends notification via [in-game mail](https://content.minetest.net/packages/mt-mods/mail/) to the original owwner upon successful transaction.\n\nThis mod is a rewrite of [gpcf's realestate mod](https://forum.minetest.net/viewtopic.php?p=390335#p390335).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "AGPL-3.0-or-later",
   "name": "um_area_forsale",
-  "provides": [
-    "um_area_forsale"
-  ],
+  "provides": ["um_area_forsale"],
   "release": 29402,
   "repo": "https://github.com/C-C-Minetest-Server/um_area_forsale",
   "score": 8.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/50bf2db3ab.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/50bf2db3ab.png"],
   "short_description": "Area Exchange with Unified Money System",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["commerce", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/50bf2db3ab.png",
   "title": "For Sale Sign for Unified Money",
   "translation_url": null,
@@ -59,39 +49,27 @@
       {
         "is_optional": false,
         "name": "um_plugin_playername",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       },
       {
         "is_optional": false,
         "name": "areas",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "ShadowNinja/areas"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
       },
       {
         "is_optional": false,
         "name": "um_translate_common",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       },
       {
         "is_optional": false,
         "name": "um_core",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       },
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "Emojiminetest/unified_money": [

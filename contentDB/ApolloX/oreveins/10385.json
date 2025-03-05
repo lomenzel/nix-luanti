@@ -51,26 +51,17 @@
   "issue_tracker": "https://github.com/Beanzilla/oreveins/issues",
   "license": "MIT",
   "long_description": "# oreveins\nA node which produces ores for Minetest\n\n* [Github Repo](https://github.com/Beanzilla/oreveins)\n\n\n## Disclamer\n\nThis mod uses textures from other mods/games with an overlay on top of them.\n\nThe textures/oreveins_overlay.png image is MIT however most of the mods/games this mod by default can interface/use provide a different license.\n\n\n## What's in the box\n\n* Public [API](https://github.com/Beanzilla/oreveins/blob/v1.2/API.md) for registering your mod's ores so your mod's ores can have oreveins too.\n* Simplistic node which uses a node timer to \"generate\" ores in a radius around itself.\n\n## Usage\n\nFor optimal performance of a orevein place a block down then place the orevein,\n on top then break the block under the orevein,\n make sure there is a 3x3x3 space with the orevein in the middle of that.\n\n## Mods Supported\n\n* MTG ([default](https://github.com/minetest/minetest_game))\n* MCL2 ([mcl_core](https://git.minetest.land/MineClone2/MineClone2)) and MCL5 ([mcl_core](https://git.minetest.land/MineClone5/MineClone5))\n* MTG EXTERN ([technic](https://github.com/minetest-mods/technic)) \\*\n* MTG EXTERN ([moreores](https://github.com/minetest-mods/moreores)) \\*\n* MCL EXTERN ([mcl_copper](https://github.com/NO411/mcl_copper)) \\*\n\n\\* These mods are not directly part of a game but I added support for anyway (They can be game specific, I.E. Technic only works in MTG)\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "MIT",
   "name": "oreveins",
-  "provides": [
-    "oreveins"
-  ],
+  "provides": ["oreveins"],
   "release": 10385,
   "repo": "https://github.com/Beanzilla/oreveins",
   "score": -131.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5acfd05619.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5acfd05619.png"],
   "short_description": "A node which produces ores",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "pve"
-  ],
+  "tags": ["library", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5acfd05619.png",
   "title": "Oreveins",
   "translation_url": null,

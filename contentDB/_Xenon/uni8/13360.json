@@ -38,10 +38,7 @@
   "issue_tracker": "https://gitlab.com/xenonca/uni8/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "# uni8\nSimple and plain texture pack with 8px textures.  \nFeel free to [request](https://xenonca.github.io/contact.html) support for a mod or game. \n## Support\nThe texture pack currently supports the following mods and games:  \n- [MTG (Minetest Game)](https://content.minetest.net/packages/Minetest/minetest_game/)  \n- [CTF](https://content.minetest.net/packages/rubenwardy/capturetheflag/)  \n- [ethereal](https://content.minetest.net/packages/TenPlus1/ethereal/)  \n- [LuckyDude](https://content.minetest.net/packages/xenonca/luckydude/)  \n- [Handholds](https://content.minetest.net/packages/Shara/handholds/)  \n- [HBHunger](https://content.minetest.net/packages/Wuzzy/hbhunger/)  \n- [Hudbars](https://content.minetest.net/packages/Wuzzy/hudbars/)  \n- [shooter](https://content.minetest.net/packages/stu/shooter/)  \n- [grenades](https://content.minetest.net/packages/Lone_Wolf/grenades_basic/)  \n- [crafting](https://content.minetest.net/packages/rubenwardy/crafting/)  \n\nPlanned support/features:  \n- [darks](https://content.minetest.net/packages/_Xenon/darks/)  \n- [lavastuff](https://content.minetest.net/packages/Lone_Wolf/lavastuff/)  \n- Texture color overhaul",
-  "maintainers": [
-    "_Xenon",
-    "xenonca"
-  ],
+  "maintainers": ["_Xenon", "xenonca"],
   "media_license": "CC-BY-SA-4.0",
   "name": "uni8",
   "provides": [],
@@ -57,9 +54,7 @@
   ],
   "short_description": "Simple and plain texture pack with 8px textures.",
   "state": "APPROVED",
-  "tags": [
-    "less_than_px"
-  ],
+  "tags": ["less_than_px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WD0dotNnEw.png",
   "title": "uni8",
   "translation_url": null,

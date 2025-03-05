@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/greenscreen/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds various brightly-coloured and glowing nodes intended to be used to easily chroma-key out in screenshots or video. They can only be obtained in creative or with commands.\n\nFor best results, disable antialiasing!\n\nThis is a fork of the old `greenscreen` mod by Glory with various improvements added to it, and both are fully compatible with eachother.\n\n## Colours\n\n| Colour |   Hex   |\n|:------:|:-------:|\n| Black  | #000000 |\n| Grey   | #888888 |\n| White  | #FFFFFF |\n| Red    | #FF0000 |\n| Orange | #FF8800 |\n| Yellow | #FFFF00 |\n| Green  | #00FF00 |\n| Cyan   | #00FFFF |\n| Blue   | #0000FF |\n| Purple | #FF00FF |",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "greenscreen",
-  "provides": [
-    "greenscreen"
-  ],
+  "provides": ["greenscreen"],
   "release": 28354,
   "repo": "https://github.com/rollerozxa/greenscreen",
   "score": 153.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9cb4aa4c58.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9cb4aa4c58.png"],
   "short_description": "Brightly coloured nodes for chroma-keying. (greenscreens)",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative"
-  ],
+  "tags": ["building", "creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9cb4aa4c58.png",
   "title": "Greenscreen",
   "translation_url": null,

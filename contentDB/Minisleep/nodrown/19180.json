@@ -11,25 +11,17 @@
   "issue_tracker": "https://git.minetest.land/Minisleep/nodrown/issues",
   "license": "Zlib",
   "long_description": "Minetest mod to disable drowning, so you can swim and live underwater forever.  \n\nAir/breathing limits are a timer that prevents thinking, planning and generally having fun.  Underwater effectively becomes a desert that people avoid where possible.  Water should be interesting, not gameplay mud.\n\nMinetest already does underwater a lot better than Minecraft traditionally has.  You're not blind and mining speed is not reduced.  I think underwater would be more interesting if so many people did not grow up with Minecraft teaching them that it's punishment.",
-  "maintainers": [
-    "Minisleep"
-  ],
+  "maintainers": ["Minisleep"],
   "media_license": "Zlib",
   "name": "nodrown",
-  "provides": [
-    "nodrown"
-  ],
+  "provides": ["nodrown"],
   "release": 19180,
   "repo": "https://git.minetest.land/Minisleep/nodrown",
   "score": 157,
-  "screenshots": [
-    "https://content.luanti.org/uploads/53bb4be37f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/53bb4be37f.png"],
   "short_description": "Disables drowning, so you can swim and live underwater forever.",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/53bb4be37f.png",
   "title": "Nodrown",
   "translation_url": null,

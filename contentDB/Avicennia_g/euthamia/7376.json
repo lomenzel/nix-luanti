@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Avicennia/euthamia/issues",
   "license": "MIT",
   "long_description": "# euthamia\nA simple annual plant mod for Nodecore.  \nAdds a plant that is similar (only vaguely so) to *Euthamia graminifolia* (The Grass-leaved Goldenrod) to the game.  \n\nThis plant does not require much water, and reproduces via ballochory (seed-launching).  \nHarvesting currently only provides fibres (more like foliage than fibres). Some plants will produce more fibres than others; careful selection of when you harvest may prove to help.  \n",
-  "maintainers": [
-    "Avicennia_g"
-  ],
+  "maintainers": ["Avicennia_g"],
   "media_license": "CC-BY-4.0",
   "name": "euthamia",
-  "provides": [
-    "euthamia"
-  ],
+  "provides": ["euthamia"],
   "release": 7376,
   "repo": "https://github.com/Avicennia/euthamia",
   "score": 1.2,
@@ -58,11 +54,7 @@
   ],
   "short_description": "Grassy Goldenrod plant for Nodecore",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["decorative", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/TF1AcKvgy3.png",
   "title": "Euthamia",
   "translation_url": null,
@@ -76,34 +68,22 @@
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

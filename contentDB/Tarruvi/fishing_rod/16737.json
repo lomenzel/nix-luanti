@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod adds a fishing rod that uses the bow funtionality from the x_bows mod to get it working.\n\nWhen casting, there is a limit to how far you can cast to keep the bobbers from launching way too far.\nThere is a technical reason for this, and that is the bobbers will sink and not float.\nTo clarify, the bobber \"catches\" fish by hitting the bottom of a body of water and flooding, causing it to spawn the fish that bobber is meant to catch.\n\nIf the bobbers land on a surface, they will attach themselves to that surface until that surface is removed, or, they are broken themselves.\nDo not worry, the bait used to craft the bobber is retrievable when they're destroyed.\n\nThere are 6 fish that can be caught with the 6 types of bait added by this mod.\nAll can be cooked for a good source of food.\nHowever, you will have to find the ingredients to make the bait to catch the fish in the first place.\nThe difficulty of making the bait may vary based on your immediate surroundings,\nbecuase a few of the recipes require ingredients from different regions.\n\n**Update 1.0.1:**\n\n-Added 4 furnace recipes that use the bush saplings to get Dry Shrubs, it should be easier to make the Grand Bait recipe with this small update.",
-  "maintainers": [
-    "Tarruvi"
-  ],
+  "maintainers": ["Tarruvi"],
   "media_license": "MIT",
   "name": "fishing_rod",
-  "provides": [
-    "fishing_rod"
-  ],
+  "provides": ["fishing_rod"],
   "release": 16737,
   "repo": null,
   "score": 178.5,
@@ -42,10 +38,7 @@
   ],
   "short_description": "Adds a fishing rod",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c42cd58425.png",
   "title": "Fishing Rod",
   "translation_url": null,
@@ -121,9 +114,7 @@
       {
         "is_optional": false,
         "name": "x_bows",
-        "packages": [
-          "SaKeL/x_bows"
-        ]
+        "packages": ["SaKeL/x_bows"]
       },
       {
         "is_optional": false,

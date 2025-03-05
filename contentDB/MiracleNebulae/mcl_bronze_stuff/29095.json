@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Adds bronze & copper stuff to Mineclone 2.<br>\n\nBronze item - 80% durability of iron, but dig_speed_class + 1.<br>\nBronze sword - speed = speed diamond sword, 80% durability of iron.<br>\nBronze armor - protection = chainmail armor +1 , 80% durability of iron. <br>\nCopper stuff - 80% durability of bronze.<br>\n\n! tin is not realized, use an iron ingot to obtain bronze.<br>\n\nALTERNATIVE RECIPES:<br>\n(instead of an iron ingot, a bronze one, but the functions of the items are the same).<br>\n* Bucket <br>\n* Rails <br>\n* Shield <br>\n\n\nRECIPES:<br>\n* Broze Armor <br>\n* Bronze tools: shovel, sword, pickaxe, axe, shears, hoe... <br>\n* Bronze Ingot <br>\n* Copper tools: shovel, hoe, shears... <br>",
-  "maintainers": [
-    "MiracleNebulae"
-  ],
+  "maintainers": ["MiracleNebulae"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_bronze_stuff",
-  "provides": [
-    "mcl_bronze_stuff"
-  ],
+  "provides": ["mcl_bronze_stuff"],
   "release": 29095,
   "repo": "https://codeberg.org/MiracleNebule/BronzeMod",
   "score": 32.9,
@@ -59,9 +55,7 @@
   ],
   "short_description": "Add Bronze & Copper stuff for VoxeLibre",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4220720c53.png",
   "title": "Bronze & Copper stuff for VoxeLibre(ex.Mineclone 2)",
   "translation_url": null,

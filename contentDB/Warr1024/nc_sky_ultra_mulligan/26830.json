@@ -38,28 +38,17 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "*This mod is an add-on for [Nodecore Skyblock Ultra Hardcore](/packages/Kimapr/nc_sky_ultra_hard/)*\n\nIf you fall off of your island, under most circumstances, you will start over on a fresh island and lose all progress, unless you manage to bridge back to your original island.  This can happen for unfair reasons, like being pushed out of a node, or network lag prediction glitches. This mod makes it possible to construct an Antipyre which will save you from starting over.\n\n**To construct one**, plant 5 trees in a + shape underneath an open sky.  The outer 4 need to be grown to their first stage (a growing tree trunk atop a stump) and the center one to its second stage (growing tree trunk, atop a tree trunk, atop a stump).  Then plant eggcorn sprouts on top of all 5, and pummel the center one with another eggcorn.\n\nOnce you have an antipyre, if you fall off of your island, you will be teleported to the top of that antipyre.\n\nThe antipyre is destroyed if it is disturbed in any way, including being used to save you from a fall, being dug, having its supporting platform dug out from under it, having anything fall and rest on it, or having its view of the sky obstructed.  If it's broken or consumed, it will burst into flames.\n\nEach player can only have one antipyre at a time, though they can be replaced if destroyed for any reason.  An antipyre can be destroyed by other players, but the craft cannot be completed on another player's behalf.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_sky_ultra_mulligan",
-  "provides": [
-    "nc_sky_ultra_mulligan"
-  ],
+  "provides": ["nc_sky_ultra_mulligan"],
   "release": 26830,
   "repo": "https://gitlab.com/sztest/nc_sky_ultra_mulligan",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/49177e4f45.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/49177e4f45.webp"],
   "short_description": "Safety net against falling off your island",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "player_effects",
-    "survival",
-    "transport"
-  ],
+  "tags": ["building", "player_effects", "survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/49177e4f45.png",
   "title": "Antipyre",
   "translation_url": null,
@@ -73,75 +62,49 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Warr1024/nc_sky_ultra_mulligan": [
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_sky_ultra_hard",
-        "packages": [
-          "Kimapr/nc_sky_ultra_hard"
-        ]
+        "packages": ["Kimapr/nc_sky_ultra_hard"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

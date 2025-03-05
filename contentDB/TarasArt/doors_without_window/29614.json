@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# Doors without window\nThis mod adds doors and trapdoors without windows, and also slightly modifies the crafting recipes for the original doors and trapdoors.\n\n# Двері без віконець\nЦей мод додає люки та двері без віконця, а також він трохи змінює рецепт крафту оригінальних дверей та люків.",
-  "maintainers": [
-    "TarasArt"
-  ],
+  "maintainers": ["TarasArt"],
   "media_license": "CC-BY-SA-3.0",
   "name": "doors_without_window",
-  "provides": [
-    "doors_without_window"
-  ],
+  "provides": ["doors_without_window"],
   "release": 29614,
   "repo": null,
   "score": 163.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0359d1ff3f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0359d1ff3f.png"],
   "short_description": "Adds doors and trapdoors without windows to Minetest Game",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0359d1ff3f.png",
   "title": "Doors without window",
   "translation_url": null,

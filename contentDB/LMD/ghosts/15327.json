@@ -1,8 +1,6 @@
 {
   "author": "LMD",
-  "content_warnings": [
-    "horror"
-  ],
+  "content_warnings": ["horror"],
   "created_at": "2021-09-19T11:53:44.233072",
   "dev_state": null,
   "donate_url": null,
@@ -13,27 +11,17 @@
   "issue_tracker": "https://github.com/appgurueu/ghosts/issues",
   "license": "MIT",
   "long_description": "Adds purely (audio-)visual ghosts of players you have killed that will haunt you at midnight. Supports arbitrary player models and textures with a few limitations. Easter eggs included!\n\nAll code written by [Lars Müller](https://github.com/appgurueu) and licensed under the MIT license.\n\nMedia (sound files) use different licenses, of which the most restrictive is [**CC BY 3.0**](https://creativecommons.org/licenses/by/3.0/):\n\n* [Ghost (`ghosts_ghost.1.ogg`)](https://freesound.org/people/yunusakademi/sounds/515865/) - **CC0**\n* [Horror ghost (`ghosts_ghost.2.ogg`)](https://freesound.org/people/HaraldDeLuca/sounds/380510/) - **CC0**\n* [Horror ghost and whoosh (`ghosts_ghost.3.ogg`)](https://freesound.org/people/klankbeeld/sounds/169979/) - **CC BY 3.0**\n\n## Limitations\n\nThere are three mechanisms to display things in Minetest:\n\n* Entities, significant overhead per entity, disallowed per the inspirational challenge\n* Nodes, fast but fairly limited (only one node per position)\n* HUD\n* Particles\n\nProjecting everything onto the HUD would mean more work for the server and would look pretty bad with lag; besides, this isn't needed here, so particles are used.\n\nOverally, Minetest imposes the following limitations:\n\n* Each particle gets it's own packet. Some packets might be delayed, resulting in a partially \"separated\" ghost.\n* Particle performance is rather poor, as each particle also gets it's own drawcall. This might affect client performance.\n* Texture pack provided skins must ideally have the same dimensions as the mod textures (or at the very least, a multiple of it) because the \"sheet\" modifier, which requires image dimensions, is used.\n* As multithreading isn't possible currently, ghosts have to be spawned rather *fast* as to not block the server step.\n* [This fills up your memory.](https://github.com/minetest/minetest/issues/11531)\n\nOther limitations are specific to the implementation:\n\n* Only the B3D file format for models (ghosts using a different model file format won't appear) and PNG for images (otherwise, it resizes the texture to fallback dimensions, leading to even more client lag) are supported\n* If image dimensions can't be determined easily (non-PNG image or complex texture modifier), it will fall back to resizing the ghost texture to the specified fallback resolution, further hurting client performance due to [cached parts not being taken advantage of](https://github.com/minetest/minetest/issues/11587).\n\n### Server-side texture packs\n\nServer-side texture packs aren't supported, as there's no proper API for getting their paths yet. You can however use a \"texture pack mod\" to override textures (and other media) - all you have to do is add all mods as (optional) dependencies of that mod, ensuring it loads last. You may want to have your mod rewrite it's `mod.conf` to achieve that:\n\n```lua\nlocal current_mod_name = minetest.get_current_modname()\nlocal mod_conf = Settings(minetest.get_modpath(current_mod_name))\nlocal mod_names = minetest.get_modnames()\nfor index, mod_name in pairs(mod_names) do\n\tif mod_name == current_mod_name then\n\t\t-- Remove the mod itself so we don't get a circular dependency\n\t\ttable.remove(mod_names, index)\n\t\tbreak\n\tend\nend\nlocal depends = table.concat(modnames, \", \")\nif mod_conf:get\"optional_depends\" ~= depends then\n\tmod_conf:set(\"optional_depends\", depends)\n\tmod_conf:write()\n\tminetest.request_shutdown\"Server-side resource pack mod: Updated dependencies, please restart\"\nend\n```\n\n## Configuration\n\n<!--modlib:conf:2-->\n### `chance_reduction_per_night`\n\nDecrease in chance of ghost spawning per night\n\n* Type: number\n* Default: `0.5`\n\n### `fallback_resolution`\n\n#### `1`\n\nFallback resolution width\n\n* Type: number\n* Default: `64`\n\n#### `2`\n\nFallback resolution height\n\n* Type: number\n* Default: `64`\n\n\n### `force_fallback_resolution`\n\nWhether to always resize textures to the given fallback dimensions. Guarantees support for arbitrary resolution texture packs. If this is not set, texture packs with a resolution lower than the server texture resolution won't work at all; texture packs with a multiple of said resolution will work well, however. A resolution of 64x64 or lower is usually acceptable performance-wise.\n\n* Type: boolean\n* Default: `false`\n\n### `forget_duration_nights`\n\nHow many nights it takes for a ghost to forget their victim\n\n* Type: number\n* Default: `10`\n\n### `particles_per_metre`\n\nParticles per one metre (= node size)\n\n* Type: number\n* Default: `10`\n\n### `spawn_chance`\n\nChance of a ghost spawning the first night\n\n* Type: number\n* Default: `1`\n<!--modlib:conf-->\n\n## API\n\n### `ghosts.spawn_ghost(params)`\n\nSpawns a ghost. Returns success: `nil` if spawning the ghost failed, `true` if it succeeded. `params` is a table with the following mandatory fields:\n\n* `expiration_time`: In seconds. Time it takes for the ghost to disappear.\n* `pos`: Minetest vector: Ghost spawn position\n* `velocity`: Minetest vector.\n* `implode`: Number, how much the ghost particles go towards their center during expiration time. Value of `1` will collapse the ghost to a point, `-10` will explode it to 10x it's size.\n* `model`: String. B3D model filename. Example: `\"character.b3d\"`.\n* `textures`: List (table) of model textures (strings). Example: `{\"character.png\"}`.\n\nOptional fields:\n\n* `playername`: String. Ghost will be visible (and audible) to all players if not given.\n* `sound`: No ghost sound is played if `sound` is falsey.\n* `disperse`: Number. How fast the ghost should disperse. Default is `0`.\n\n### `victim_player:set_hp(hp, reason)`\n\nIf `reason.object` is set to a player (the \"`killer_player`\") and `victim_player` dies, `killer_player` will be haunted by `victim_player`. If you use `victim_player:punch`, this is already the case.",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "CC-BY-3.0",
   "name": "ghosts",
-  "provides": [
-    "ghosts"
-  ],
+  "provides": ["ghosts"],
   "release": 15327,
   "repo": "https://github.com/appgurueu/ghosts",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0abe16a207.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0abe16a207.png"],
   "short_description": "Adds fancy particle ghosts",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "multiplayer",
-    "pvp"
-  ],
+  "tags": ["adventure__rpg", "multiplayer", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0abe16a207.png",
   "title": "Ghosts",
   "translation_url": null,
@@ -47,9 +35,7 @@
       {
         "is_optional": false,
         "name": "moblib",
-        "packages": [
-          "LMD/moblib"
-        ]
+        "packages": ["LMD/moblib"]
       },
       {
         "is_optional": false,

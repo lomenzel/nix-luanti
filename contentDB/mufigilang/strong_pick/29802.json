@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/mufigilang/strong_pick/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "#### Description\nA mod to make mining easier, but still respect pickaxe progression.\n\nStrong wooden pickaxe is just a faster wooden pickaxe (diamond pickaxe fast). It cannot mine stone containing iron ore, so you still need stone pickaxe. The durabilty is set to mine around 100 stone.\n\nTo craft this pickaxe, you need 2 strong sticks and 3 woods. Strong sticks can be crafted using 3 sticks.\n\nAlternative to Shallow ore.\n\n#### Credits\nTo luanti/minetest core developer and contributor. Keep up the good work. ",
-  "maintainers": [
-    "mufigilang"
-  ],
+  "maintainers": ["mufigilang"],
   "media_license": "CC-BY-3.0",
   "name": "strong_pick",
-  "provides": [
-    "strong_pick"
-  ],
+  "provides": ["strong_pick"],
   "release": 29802,
   "repo": "https://github.com/mufigilang/strong_pick.git",
   "score": 2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/51b12a1c6e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/51b12a1c6e.png"],
   "short_description": "Add strong wooden pickaxe that destroy stone as fast as diamond pickaxe",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/51b12a1c6e.png",
   "title": "Strong Wooden Pickaxe",
   "translation_url": null,

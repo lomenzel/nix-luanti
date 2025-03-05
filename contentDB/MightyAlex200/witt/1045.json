@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/MightyAlex200/WiTT/issues",
   "license": "GPL-3.0-only",
   "long_description": "# WiTT\nWiTT is a mod that allows players to see the name of the block they're looking at and the mod it came from.\n\n## Commands:\n- `/witt <on/off>`\n- `/wanim <on/off>`\n \t- Controls animation when new block is moused over.",
-  "maintainers": [
-    "MightyAlex200"
-  ],
+  "maintainers": ["MightyAlex200"],
   "media_license": "GPL-3.0-only",
   "name": "witt",
-  "provides": [
-    "witt"
-  ],
+  "provides": ["witt"],
   "release": 1045,
   "repo": "https://github.com/MightyAlex200/WiTT",
   "score": 7.4,
   "screenshots": [],
   "short_description": "Small indicator to show what the player is looking at.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": null,
   "title": "WiTT",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_flying_carpet/issues",
   "license": "MIT",
   "long_description": "Quickly explore the vast terrain with the magical flying carpet. But only the skilled users can master its speed, the fools will crash and hurt themselves.\n\nThe carpet flies fast horizontally, but very slowly is it able to move vertically. It constantly reduces your mana resources (if Mana mod is enabled) and will wear out over time.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "flying_carpet",
-  "provides": [
-    "flying_carpet"
-  ],
+  "provides": ["flying_carpet"],
   "release": 22608,
   "repo": "https://codeberg.org/Wuzzy/minetest_flying_carpet",
   "score": 210.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/x3VgAzmi7A.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/x3VgAzmi7A.png"],
   "short_description": "Quickly explore the vast terrain with the magical flying carpet.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "magic",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "magic", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/x3VgAzmi7A.png",
   "title": "Flying Carpet",
   "translation_url": null,

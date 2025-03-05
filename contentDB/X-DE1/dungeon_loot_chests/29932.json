@@ -50,9 +50,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -197,25 +195,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Dungeon loot chests\n\nAdds a loot chests, a command to prevent spawning loot in the chest so you can save a schematic with a loot chest:\n<br>\n/loot enable\n<br>\n/loot disable\n\nAlso adds 2 functions to create loot in other chests and/or with a different dungeon type (dungeon type is optional):\n<br>\nadd_loot(\"name\", \"description\", \"mod:chest\", \"dungeontype\")\n<br>\nadd_loot_adv(\"mod:node\", \"mod:chest\", \"dungeontype\")\n\nYou can add a new item to the loot pool with this function:\n<br>\ndungeon_loot.register({name = \"default:dirt\", chance = 0.6, count = {2, 16}, y = {-64, 32768}, types = {\"normal\", \"sandstone\", \"desert\"}})\n\nIf you want to create a new dungeon type only in types = {\" \"} write the new dungeontype\n\nHere are all the dungeon types that are already created:\n<br>\n\"normal\", \"sandstone\", \"desert\", \"ice\"\n\nIf you don't put count, the item in the loot will always be 1, if you don't put y, it will appear on any coordinate, if you don't put types, it will appear in all loot chests\n\nDungeon loot chests was created with code from [dungeon_loot](https://github.com/luanti-org/minetest_game/tree/master/mods/dungeon_loot) by [sfan5](https://github.com/sfan5)\n\n## Installation\n\n### ContentDB\n\n* Content > Browse Online Content\n* Search for \"Dungeon loot chests\"\n* Click Install\n\n### Manually\n\n- Unzip the archive, rename the folder to `dungeon_loot_chests` and\nplace it in `.../minetest/mods/`\n\n- GNU/Linux: If you use a system-wide installation place it in `~/.minetest/mods/`.\n\nThe Luanti engine can be found at [GitHub](https://github.com/minetest/minetest).\n\nFor further information or help, see: [Installing Mods](https://wiki.luanti.org/Installing_Mods).\n\n## License\n\nSee `LICENSE.txt`\n",
-  "maintainers": [
-    "X-DE1"
-  ],
+  "maintainers": ["X-DE1"],
   "media_license": "MIT",
   "name": "dungeon_loot_chests",
-  "provides": [
-    "dungeon_loot_chests"
-  ],
+  "provides": ["dungeon_loot_chests"],
   "release": 29932,
   "repo": "https://github.com/X-DE1/dungeon_loot_chests",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fcb7fe4e60.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fcb7fe4e60.png"],
   "short_description": "Adds loot chests, a command to prevent spawning loot in the chest so you can save a schematic with a loot chest, adds 2 functions to create loot in other chests",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fcb7fe4e60.png",
   "title": "Dungeon loot chests",
   "translation_url": null,

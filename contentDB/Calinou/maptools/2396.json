@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/calinou/maptools/issues/",
   "license": "Zlib",
   "long_description": "This mod adds some “map tools” that can be useful for creating custom maps or preventing griefing on multiplayer servers.\n\n- unbreakable blocks: some common blocks available in an unbreakable, non-flammable, non-falling, non-decaying form, plus a \"full grass\" block with grass texture on all sides. They can only be destroyed with the Admin pickaxe.\n- infinite fuel: some fuel item lasting for a (near)-infinite time. Don't worry about the \"near\" — it lasts for about 50 in-real-life years.\n- admin pickaxe: some purple pickaxe with an infinite durability, mining very fast - can remove unbreakable blocks, swinging instantly. Available in two variants: \"with drops\" and \"without drops\", the latter can dig non-empty containers.\n- super apples: apples which heal 10 hearts, non-flammable.\n- player clip and \"full\" clip: invisible blocks or faces (the faces also prevent fall damage), preventing players from leaving the map, or preventing players from interacting with objects.\n- \"light blocks\" and \"light bulbs\": invisble nodes blocking or emitting light.\n- \"damage blocks\": dealing 0.5, 1, 1.5, 2, 2.5 hearts of damage a second (or killing instantly).\n- \"climb blocks\": invisible blocks which act as ladders, can be used to slow down falls.\n- pushers: bouncy!\n- \"build prevention\" and \"interact prevention\": prevents building or interacting with objects on certain types of blocks, can be used to avoid griefing.\n- \"smoke\" blocks: some smoke (doesn't deal damage).\n- fake ladders: unbreakable ladders that can't be climbed.\n- permanent fire, fake fire, igniters: the first two do not spread to flammable blocks (permanent fire does damage, fake fire doesn't), the third one is an invisible block that will set nearby flammable blocks on fire.",
-  "maintainers": [
-    "Calinou"
-  ],
+  "maintainers": ["Calinou"],
   "media_license": "Zlib",
   "name": "maptools",
-  "provides": [
-    "maptools"
-  ],
+  "provides": ["maptools"],
   "release": 2396,
   "repo": "https://github.com/calinou/maptools",
   "score": 315.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1ff88bfa55.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1ff88bfa55.png"],
   "short_description": "Adds various special versions of normal blocks, tools, and other map maintainer tools.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "world_tools"
-  ],
+  "tags": ["creative", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1ff88bfa55.png",
   "title": "Map Tools",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_mesecons_window/issues",
   "license": "MIT",
   "long_description": "This mod adds 3 glass blocks for the Mesecons modpack. They change their transparency when powered with Mesecon energy.\n\nThey conduct energy to their 6 direct neighbors.\n\n## Block transparency\n\nThere are three transparency states: Full, partial and opaque. Full transparency means the block is transparent to light and sunlight. Partial transparency means the block lets light through but not sunlight, so if sunlight goes through, the brightness will reduce below the window block. Opaque means the block doesn't let any light through.\n\nEach block can either be on (powered by mesecon energy) or off (not powered). The blocks change their transparency status according to the on/off state:\n\n* Mesecon Window\n    * On: Full transparency\n    * Off: Opaque\n* Mesecon Filter Glass\n    * On: Full transparency\n    * Off: Partial transparency\n* Mesecon Filter Window\n    * On: Partial transparency\n    * Off: Opaque",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "mesecons_window",
-  "provides": [
-    "mesecons_window"
-  ],
+  "provides": ["mesecons_window"],
   "release": 17328,
   "repo": "https://codeberg.org/Wuzzy/minetest_mesecons_window",
   "score": 14.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/hd1vzPakTC.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/hd1vzPakTC.png"],
   "short_description": "Adds 3 glass blocks which change their transparency when supplied with Mesecons power.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hd1vzPakTC.png",
   "title": "Mesecons Windows",
   "translation_url": null,

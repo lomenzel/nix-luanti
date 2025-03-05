@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/Distributed-DeadLock/thelowerroad/issues/new/choose/",
   "license": "MIT",
   "long_description": "# thelowerroad\n\nThe Lower Road (a Minetest Mod)\n====================\n\nAdds a long road from -Z to +Z to the world, during world-generation.\n\nThe road partially follows the terrain and tunnels through higher ground otherwise.\n\nThe road materials depend on the environment. \n\nSmall amounts of loot can be found in little buildings beside the road.\n\nPer default the road will be generated at around x = 100.\n\n\nVersion: 1.2\n\nLicense: The MIT License (MIT)\n\nDependencies: default, stairs, farming (found in minetest_game)\nOptional Dependencies: lualandmg?\n\nDownload from: https://github.com/Distributed-DeadLock/thelowerroad\n\nCompatibility with Mapgens:\ngenerally works with all mapgens which provide a heightmap via minetest.get_mapgen_object\nworks better when a heatmap is provided as well.\n\nFully compatible with : v5, v7, flat, fractal, valleys, lualandmg\n\nCompatible with slightly different behaviour with: v6\n\nNot compatible with singlenode unless you provide at least a heightmap in the corresponding lua-mapgenerator, \nsee https://github.com/SmallJoker/lualandmg/blob/b72ef91/init.lua#L97-L109 for an example on how to provide heightmap and heatmap properly.\n\nInstallation\n------------\nUnzip the archive, (optionally rename the folder to thelowerroad) and\nplace it in minetest/mods/\n\nActivate this mod when generating a new world.\nThe road is generated during world-generation, so\nactivating it on already existing worlds might not generate one.\n\nCheck the advanced configuration-section of Minetest to change the configurable parameters.\n\nFor further information or help see:\nhttp://wiki.minetest.com/wiki/Installing_Mods\n",
-  "maintainers": [
-    "Deadlock"
-  ],
+  "maintainers": ["Deadlock"],
   "media_license": "MIT",
   "name": "thelowerroad",
-  "provides": [
-    "thelowerroad"
-  ],
+  "provides": ["thelowerroad"],
   "release": 13102,
   "repo": "https://github.com/Distributed-DeadLock/thelowerroad",
   "score": 320.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a6aa2cc7e1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a6aa2cc7e1.png"],
   "short_description": "Adds a long road from -Z to +Z to the world, during world-generation.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "transport"
-  ],
+  "tags": ["mapgen", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a6aa2cc7e1.png",
   "title": "The Lower Road",
   "translation_url": null,
@@ -561,18 +550,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

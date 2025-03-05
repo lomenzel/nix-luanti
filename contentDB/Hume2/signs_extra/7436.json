@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod provides extraneous signs with text display. Text is locked if area is protected.\n\n**Dependancies**: default, display\\_lib, font\\_lib, signs\n\n**License**: Code under LGPL, texture under CC-BY-SA\n\n## Recipes\n\n**Blue Banner**\n\nShapeless recipe : four blue road signs.\n\n\t\tS S S\n\t\tS - -\n\t\t- - -\n\nS = Blue road sign\n\n**Billboard**\n\n\t\tT B W\n\t\t- - -\n\t\t- - -\n\nT = Tin Block, B = Black Dye, W = White Dye\n\n",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "CC-BY-SA-3.0",
   "name": "signs_extra",
-  "provides": [
-    "signs_extra"
-  ],
+  "provides": ["signs_extra"],
   "release": 7436,
   "repo": "https://gitlab.com/Hume2/signs_extra/",
   "score": 325,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1TC6jjaU8f.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1TC6jjaU8f.jpg"],
   "short_description": "Two new signs: blue banner and billboard",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1TC6jjaU8f.png",
   "title": "Signs Extra",
   "translation_url": null,

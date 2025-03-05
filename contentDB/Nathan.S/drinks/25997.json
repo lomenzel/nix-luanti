@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,27 +286,17 @@
   "issue_tracker": "https://github.com/minetest-mods/drinks/issues/new/choose/",
   "license": "MIT",
   "long_description": "You can put fruits in the fruit press and either fill a cup or bottle with juice, which you can consume, or fill a bucket that you can use to transport larger amounts of liquids around. If you place the juice press on top of the liquid barrel/silo and put papyrus in the output slot the juice will go directly into the barrel/silo.\n\nYou can watch an overview video of the mod on [Youtube](https://www.youtube.com/watch?v=QDjlOFFNhdk).",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC-BY-SA-3.0",
   "name": "drinks",
-  "provides": [
-    "drinks"
-  ],
+  "provides": ["drinks"],
   "release": 25997,
   "repo": "https://github.com/minetest-mods/drinks",
   "score": 164,
-  "screenshots": [
-    "https://content.luanti.org/uploads/eQIXoJuuGr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/eQIXoJuuGr.png"],
   "short_description": "Adds a juice press and two juice storage containers.",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["food", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/eQIXoJuuGr.png",
   "title": "Drinks",
   "translation_url": null,
@@ -502,18 +490,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

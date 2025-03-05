@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "This package allows different ways to heal yourself and allow you to breathe. It also creates a mod for creating your own cooldowns with per player cooldown rate adjustment.\n\nTODO: fix a breath restore bug (result of hacking the breath thing together)\n\nTODO: fix bug of inital combat healing hudbar not updating properly (max and current values aren't updating)\n\nChanges:\n0.0.1: added proper credits\n0.0.2: added proper license files\n0.0.3: combined license files and added API.txt to adjustable cooldowns\n0.1.0: added per player group drowning to alternate_breathing_methods (may be buggy, solution was hacky)\n1.0.0: added content to amphibus_player and fixed a crash that couldn't allow alternate_breathing_methods to load",
-  "maintainers": [
-    "liteninglazer"
-  ],
+  "maintainers": ["liteninglazer"],
   "media_license": "CC-BY-SA-4.0",
   "name": "advanced_health_and_breath_apis",
   "provides": [
@@ -33,15 +31,10 @@
   "release": 20287,
   "repo": null,
   "score": 2.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5bb0d3d072.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5bb0d3d072.png"],
   "short_description": "Creates APIS to allow different players to heal health and allow different players to breathe different items.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "survival"
-  ],
+  "tags": ["library", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5bb0d3d072.png",
   "title": "Advanced Breath and Health APIS",
   "translation_url": null,

@@ -80,9 +80,7 @@
   "maintainers": [],
   "media_license": "MIT",
   "name": "01_a_mountain",
-  "provides": [
-    "01_a_mountain"
-  ],
+  "provides": ["01_a_mountain"],
   "release": 29734,
   "repo": "https://github.com/Distributed-DeadLock/01_a_mountain",
   "score": 180,
@@ -97,10 +95,7 @@
   ],
   "short_description": "Adds a Mountain (4000x2000 blocks large, 1000 blocks tall)during worldgen around a configurable position",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cb5314a55d.png",
   "title": "Just a Mountain",
   "translation_url": null,

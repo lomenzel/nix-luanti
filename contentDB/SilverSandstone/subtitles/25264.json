@@ -64,14 +64,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/subtitles/issues",
   "license": "MIT",
   "long_description": "Subtitles\n=========\nThis mod adds multiple styles of on-screen subtitles for sound effects.\n\nSubtitles are disabled by default in multiplayer, and can be enabled and configured for each player.\nYou can access your subtitle preferences by clicking the ![Subtitles icon] button in the inventory or by typing `/subtitles` in chat.\n\n\nSupported Games and Mods\n------------------------\n\nDescriptions are provided for these games:\n\n- Alter\n- Builda City\n- Glitch\n- Jail Escape\n- Mineclonia\n- Minetest Game\n- Moontest\n- NodeCore\n- Repixture\n- Subway Miner\n- Super Sam\n- VoxeLibre\n\nDescriptions are provided for these mods:\n\n- Advanced Trains\n    - Basic Trains\n    - More Trains\n    - DlxTrains\n    - Neat Trains\n    - Freight Train\n    - JR E231\n- Ambience\n- Animalia\n    - Creatura\n- Anvil\n- APercy's aeroplanes\n    - Demoiselle\n    - Ju52\n    - PA28\n    - Super Cub\n    - Super Duck Hydroplane\n    - Ultralight Trike\n- Arena_Lib\n- Automobiles Pack\n- Awards\n- Bedrock\n- Bees\n- Bell\n- Bows\n- BWeapons Modpack\n- Castle Weapons\n- Death Compass\n- DFCaverns\n- Digtron\n- Documentation System\n- Draconis\n- CCompass\n- Enderpearl\n- Fishing!\n- Gunslinger\n- Home Decor\n- Hudbars\n- i3\n- Mesebox\n- Mesecons\n- Mese Portals\n- MineClone 2 C418 Records\n- Minetest Game Plus\n- Mobs\n    - Mobs Animal\n    - Mobs Monster\n    - Mobs Creature\n    - Mobs Skeleton\n    - Mobs MC\n    - Mob Horse\n    - Extra Mobs\n- Nether\n- New Fireworks\n- NextGen Bows\n- Pedology\n- Pyramids\n- Radiant Damage\n- Real Torch\n- Regional Weather\n- Ropes\n- Scythes and Sickles\n- Shifter Tool\n- Sounds\n- Spyglass\n- Stamina\n- Steampunk Blimp\n- Storage Drawers\n- Torch Bomb\n- Travelnet\n- Unified Inventory\n- Vacuum\n- Vehicles\n- Weather\n- X Clay\n- X Enchanting\n\nUI integration is provided for these games and mods:\n\n- Simple Fast Inventory (via SFInv Buttons)\n- Unified Inventory\n- i3\n- Repixture\n\n\nSupporting Subtitles in Your Mod\n--------------------------------\n\nThere are two ways a mod can support subtitles.\n\nYou can associate a description with a sound name using\n`subtitles.register_description(sound_name, description)`:\n\n\tsubtitles.register_description('default_dig_metal', S'Metal clangs');\n\nAlternatively, you can specify a description by setting `description` or\n`subtitle` in either the sound spec or the parameters when playing a sound:\n\n\tminetest.sound_play('default_dig_metal', {gain = 0.5, description = S'Metal clangs'});\n\tminetest.sound_play({name = 'default_dig_metal', description = S'Metal clangs'}, {gain = 0.5});\n\nThis also works in node definitions:\n\n\tminetest.register_node('foomod:foobarium',\n\t{\n\t\tdescription = S'Foobarium';\n\t\tsounds =\n\t\t{\n\t\t    dig      = {name = 'default_dig_metal', description = S'Foobarium breaks'};\n\t\t    footstep = {name = 'default_dig_metal', description = S'Footsteps on foobarium'};\n\t\t};\n\t});\n\nYou can specify how long to display the subtitle by setting `duration` on\neither the spec or the parameters.\n\nYou can disable the subtitle for a sound by setting `no_subtitle = true` on\nthe spec or parameters, or by setting the description to an empty string.\n\n[Subtitles icon]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEUAAAAAAAD///+D3c/SAAAAAXRSTlMAQObYZgAAAC5JREFUCFtjYEAFrKGhAQxSq1YtQSckp6WmQFmR06As1tDMAKCeFJBGEIPBgQEAwEwSV24kTgQAAAAASUVORK5CYII=\n \"Subtitles\"",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "subtitles",
-  "provides": [
-    "subtitles"
-  ],
+  "provides": ["subtitles"],
   "release": 25264,
   "repo": "https://codeberg.org/SilverSandstone/subtitles",
   "score": 314.1,
@@ -88,9 +84,7 @@
   ],
   "short_description": "Adds on-screen subtitles for sound effects.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1aa22e6def.png",
   "title": "Subtitles",
   "translation_url": "https://translate.codeberg.org/projects/minetest-subtitles/",

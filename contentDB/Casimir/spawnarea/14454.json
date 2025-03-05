@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/CasimirKaPazi/spawnarea/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Takes the average positions of online players and moves the spawn to the center. Players then spawn and respawn randomly within an area (256x256 nodes) around the new spawn. The spawn area adjusts slowly, so there aren't big jumps, but it moves faster the more players are online.\n",
-  "maintainers": [
-    "Casimir"
-  ],
+  "maintainers": ["Casimir"],
   "media_license": "LGPL-2.1-only",
   "name": "spawnarea",
-  "provides": [
-    "spawnarea"
-  ],
+  "provides": ["spawnarea"],
   "release": 14454,
   "repo": "https://github.com/CasimirKaPazi/spawnarea",
   "score": 3.2,
   "screenshots": [],
   "short_description": "Players spawn and respawn within an area around the center of active players.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "transport",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "transport", "world_tools"],
   "thumbnail": null,
   "title": "Spawnarea",
   "translation_url": null,

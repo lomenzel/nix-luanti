@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/mathyscraft/potions_and_magic/issues",
   "license": "MIT",
   "long_description": "This is **beta** version, if you find **issues** please report them [on this page](https://github.com/mathyscraft/potions_and_magic/issues)\n# Potions and Magic\nPotions & Magic add sevral potions and items or blocks to craft them.\nEffects have a player hud when they are applied.\n![Screenshot_hud](https://content.minetest.net/uploads/ff32f7a18d.png)\n\n### Effects list :\n- ***health***: give 10 additionals hearts \n- ***jump***: double the jump height\n- ***nightvision***: light up the night sky\n- ***speed***: tripple the speed\n- ***water breathing***: give the ability to breathe underwater\n- ***weightlessness***: reduce by 4 the gravity\n\nNB: All effect last **1min**\n\n### Crafts :\n![craft_guide](https://content.minetest.net/uploads/dc0b78158c.png)\n\nNew items :\n- slime\n- golden_apple (**reverses the gravity** for a short time)\n\nAnd new blocks :\n- vitality plant\n- sugar cane\n- slime block **(bouncy propriety)**\n- gillykelp\n- glow mushroom (naturally ligh the caves a bit)\n\n\n![screenchot_block](https://content.minetest.net/uploads/783e968021.png)\n\n---\n\n---\n### Work in progress :\n- a camouflage effect\n![screenchot](https://content.minetest.net/uploads/a18e23653f.png)\n- make the nightvision effect effective in caves\n![screenchot](https://content.minetest.net/uploads/12046c0dec.png)\n- add particles",
-  "maintainers": [
-    "mathys"
-  ],
+  "maintainers": ["mathys"],
   "media_license": "MIT",
   "name": "potions_and_magic",
-  "provides": [
-    "potions_and_magic"
-  ],
+  "provides": ["potions_and_magic"],
   "release": 17581,
   "repo": "https://github.com/mathyscraft/potions_and_magic",
   "score": 10.2,
@@ -321,11 +315,7 @@
   ],
   "short_description": "Add potions and their hud",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "magic",
-    "player_effects"
-  ],
+  "tags": ["hud", "magic", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dc0b78158c.png",
   "title": "Potions And Magic",
   "translation_url": null,

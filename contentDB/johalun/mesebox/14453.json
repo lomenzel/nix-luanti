@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/johalun/mesebox/issues/new/choose/",
   "license": "MIT",
   "long_description": "A mod for Minetest that provides a mobile storage called Mesebox.\n\nThere are still many mysteries surrounding Mese, the ore that can be found deep underground. Some say even it's of alien origin. Recently, however, scientists have unlocked one of its mysteries and invented the Mesebox. The power of Mese combined with a storage box creates a storage that can be dug and carried without losing its content. Truly revolutionary! The original recipe crafts a Mese-colored Mesebox and if combined with dye, Meseboxes of various colors can be crafted.",
-  "maintainers": [
-    "johalun"
-  ],
+  "maintainers": ["johalun"],
   "media_license": "MIT",
   "name": "mesebox",
-  "provides": [
-    "mesebox"
-  ],
+  "provides": ["mesebox"],
   "release": 14453,
   "repo": "https://github.com/johalun/mesebox",
   "score": 9,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Mobile storage box powered by Mese",
   "state": "APPROVED",
-  "tags": [
-    "storage",
-    "survival"
-  ],
+  "tags": ["storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/36ecc96a00.png",
   "title": "Mesebox",
   "translation_url": null,

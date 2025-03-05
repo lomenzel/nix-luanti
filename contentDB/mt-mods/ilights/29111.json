@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/ilights/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "A simple industrial light.\n\nCan be turned on/off by right-clicking, or by a Mesecons signal, or by sending a Digilines message (\"on\" or a number greater than 3, or \"off\" or a number less than 4; set the channel by shift-punching the light).  These lights use Unified Dyes, so you can colorize one by crafting along with dye, or with the airbrush.",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ilights",
-  "provides": [
-    "ilights"
-  ],
+  "provides": ["ilights"],
   "release": 29111,
   "repo": "https://github.com/mt-mods/ilights",
   "score": 210.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7BFJo8bcSE.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7BFJo8bcSE.png"],
   "short_description": "Adds various lights.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7BFJo8bcSE.png",
   "title": "Ilights",
   "translation_url": null,

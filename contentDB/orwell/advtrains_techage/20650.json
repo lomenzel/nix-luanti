@@ -25,25 +25,17 @@
   "issue_tracker": "https://notabug.org/advtrains/advtrains_techage/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# advtrains_techage\n\nTechage integrations add-on for advtrains\n\n## Liquids in tank wagons\n\nLiquids can be pumped into and out of tank wagons.\n\n### Placement of spigots\n\nThe filling spigot needs to be placed 3 nodes above the tracks. It needs to be vertically above a track node, as follows:\n\n```\n        |Spigot|\n...     |      |     ...\n...     |      |     ...\n...Track|Track |Track...\n```\n\nThe draining funnel needs to be placed directly below a track:\n```\n...Track |Track|Track...\n...Ground|Drain|Ground..\n```\n\nFor a tank wagon to be filled/drained, the wagon needs to be positioned with its center at the spigot (+-1m) and it must not move. Then, use a regular TechAge pump to pump a liquid into or out of a wagon.\n\n### Tank wagon support\n\nTank wagons need to add the following field to the wagon definition:\n\n```\ntechage_liquid_capacity = <capacity_in_liquid_units>\n```\n\nThe tank wagons from Basic Trains have a capacity of 1000 units (like the TA3 tanks)\n\n## Media\nTextures for spigots are adapted from Techage (c) Joachim Stolberg CC-BY-SA 3.0",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_techage",
-  "provides": [
-    "advtrains_techage"
-  ],
+  "provides": ["advtrains_techage"],
   "release": 20650,
   "repo": "https://notabug.org/advtrains/advtrains_techage.git",
   "score": 352.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c6703752c0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c6703752c0.png"],
   "short_description": "Various interoperability tweaks between TechAge and Advtrains",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c6703752c0.png",
   "title": "Advanced Trains TechAge addons",
   "translation_url": null,
@@ -351,16 +343,12 @@
       {
         "is_optional": false,
         "name": "techage",
-        "packages": [
-          "joe7575/techage_modpack"
-        ]
+        "packages": ["joe7575/techage_modpack"]
       },
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

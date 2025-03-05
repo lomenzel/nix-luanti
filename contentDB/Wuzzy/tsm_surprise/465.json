@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "WTFPL",
   "long_description": "Randomly spawns surprise blocks closely about ground level. When mined, those blocks drop random low-grade treasures.\n",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "WTFPL",
   "name": "tsm_surprise",
-  "provides": [
-    "tsm_surprise"
-  ],
+  "provides": ["tsm_surprise"],
   "release": 465,
   "repo": "http://repo.or.cz/minetest_tsm_surprise.git",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/SFp9WQrc2k.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/SFp9WQrc2k.png"],
   "short_description": "Randomly spawns surprise blocks closely about ground level.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/SFp9WQrc2k.png",
   "title": "Surprise Blocks",
   "translation_url": null,
@@ -508,10 +497,7 @@
       {
         "is_optional": false,
         "name": "treasurer",
-        "packages": [
-          "Wuzzy/treasurer",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["Wuzzy/treasurer", "MeseCraft/mesecraft"]
       }
     ]
   },

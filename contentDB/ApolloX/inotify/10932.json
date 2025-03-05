@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/Beanzilla/iNotify/issues",
   "license": "MIT",
   "long_description": "# iNotify\n\nAn in-game notification system.\n\n## Goals\n\n- Allow players to see their position, health, and other information without F5.\n- Adds a world clock to visibly see what the current in-game world time is.\n- Provide MineClone support for multiple dimentions based on y layers.\n- Uses `minetest.conf` to define settings\n\n## Links\n\n- [Github (Source)](https://github.com/Beanzilla/iNotify)\n- [MineClone5](https://content.minetest.net/packages/kay27/mineclone5/)\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "MIT",
   "name": "inotify",
-  "provides": [
-    "inotify"
-  ],
+  "provides": ["inotify"],
   "release": 10932,
   "repo": "https://github.com/Beanzilla/iNotify",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aad5c62b24.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aad5c62b24.png"],
   "short_description": "A notification tool for players in-game.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aad5c62b24.png",
   "title": "Inotify",
   "translation_url": null,

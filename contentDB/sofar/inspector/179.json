@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/inspector/issues/",
   "license": "GPL-2.0-only",
   "long_description": "An in-game tool to inspect node parameters and metadata.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "inspector",
-  "provides": [
-    "inspector"
-  ],
+  "provides": ["inspector"],
   "release": 179,
   "repo": "https://github.com/minetest-mods/inspector",
   "score": 156.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/qgeAYU3zZM.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/qgeAYU3zZM.png"],
   "short_description": "An in-game tool to inspect node parameters and metadata.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "tools"
-  ],
+  "tags": ["developer_tools", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/qgeAYU3zZM.png",
   "title": "Inspector",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": null,
   "license": "Zlib",
   "long_description": "This mod adds Meze, a special node that kills you when mined. Very rare, spawns at surface in stone and desert stone.",
-  "maintainers": [
-    "Calinou"
-  ],
+  "maintainers": ["Calinou"],
   "media_license": "CC-BY-SA-3.0",
   "name": "meze",
-  "provides": [
-    "meze"
-  ],
+  "provides": ["meze"],
   "release": 12987,
   "repo": null,
   "score": 151.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b488d23460.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b488d23460.png"],
   "short_description": "A special ore that kills you when mined.",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["april_fools", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b488d23460.png",
   "title": "Meze",
   "translation_url": null,

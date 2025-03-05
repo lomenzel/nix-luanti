@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/MT-Companion/dialog_redo/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Dialog Redo\n\nThis mod provides a feature-rich dialog interface. All methods and classes are documented as [Lua Language Server annotations](https://luals.github.io/wiki/annotations/), refer to the comments in the source code for how to use this library.\n\nThis mod came from [Wuzzy's Glitch game](https://content.minetest.net/packages/Wuzzy/glitch/) but is completely redesigned and is not compatible with it.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "dialog_redo",
-  "provides": [
-    "dialog_redo"
-  ],
+  "provides": ["dialog_redo"],
   "release": 26396,
   "repo": "https://github.com/MT-Companion/dialog_redo",
   "score": 2.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/69bbff99dc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/69bbff99dc.png"],
   "short_description": "Flexable dialog API",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "library"
-  ],
+  "tags": ["adventure__rpg", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/69bbff99dc.png",
   "title": "Dialog Redo",
   "translation_url": null,

@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,14 +390,10 @@
   "issue_tracker": "https://github.com/MistUnky/alien_tools/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "#alien_tools\n\nAlien Tools Mod for Minetest - adds Alien Tool, Shield, biome, etc\n\nAlien Biome (Stone, Soil, Plant, Plasma) - replaces all other biomes\n\nAlien Tools (Core, Flame, Shield)\n\nMade for fun I guess\n\n\n\ndepends: default, 3d_armor, shields, wielded_light\n\nrecommends: galaxybox | (for lighting and skybox), or a similar mod\n\nSettings:\n\nalien_replace : default true - if true replace all biomes with alien biome and disable caves and dungeons, otherwise just add the biome",
-  "maintainers": [
-    "chaosomnium"
-  ],
+  "maintainers": ["chaosomnium"],
   "media_license": "CC0-1.0",
   "name": "alien_tools",
-  "provides": [
-    "alien_tools"
-  ],
+  "provides": ["alien_tools"],
   "release": 9023,
   "repo": "https://github.com/MistUnky/alien_tools",
   "score": 6.6,
@@ -410,12 +404,7 @@
   ],
   "short_description": "Alien Tools Mod for Minetest - adds Alien Tool, Shield, biome, etc",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen",
-    "tools"
-  ],
+  "tags": ["building", "decorative", "mapgen", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6618f01506.png",
   "title": "Alien Tools",
   "translation_url": null,

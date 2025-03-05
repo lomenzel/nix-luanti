@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/face_object/issues",
   "license": "MIT",
   "long_description": "# Where should I look at?\nThis mod provides helper scripts for handing the yaw of objects. All the methods are well-documented as comments in the source code.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "face_objects",
-  "provides": [
-    "face_object",
-    "face_object_example"
-  ],
+  "provides": ["face_object", "face_object_example"],
   "release": 19059,
   "repo": "https://github.com/C-C-Minetest-Server/face_object",
   "score": 4.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/543036dd99.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/543036dd99.png"],
   "short_description": "Calculate the facing of objects",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/543036dd99.png",
   "title": "Face Objects",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/castle_masonry/issues/",
   "license": "MIT",
   "long_description": "This is a mod all about creating castles and castle dungeons. Many of the nodes are used for the outer-walls or dungeons.\n\n=-=-=-=-=-=-=-=-=-=\n\nContains:\n\n* Walls, Corner-walls,\n* Castlestone Stairs, Slabs, and Pillars\n* Arrowslits and embrasures\n* Rubble (to fill the interior of thick castle walls)\n* Murder holes and machicolations\n* Pillars and crossbraces\n* Roof slate\n* Paving stone\n* Dungeon stone\n\nMod settings can allow for the basic castle masonry forms to be made for the following material types (all optional):\n\n* Cobble\n* Desert stone\n* Desert stone brick\n* Sandstone\n* Sandstone brick\n* Stone\n* Stone brick\n* Castle wall\n* Wood\n* Snow\n* Ice\n* Obsidian Brick",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "castle_masonry",
-  "provides": [
-    "castle_masonry"
-  ],
+  "provides": ["castle_masonry"],
   "release": 28434,
   "repo": "https://github.com/minetest-mods/castle_masonry",
   "score": 33.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2pDZOiGh1b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2pDZOiGh1b.png"],
   "short_description": "This is a mod all about creating castles and castle dungeons.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2pDZOiGh1b.png",
   "title": "Castle Masonry",
   "translation_url": null,

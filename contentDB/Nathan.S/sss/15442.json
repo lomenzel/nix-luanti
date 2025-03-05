@@ -11,18 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "You awake in a seemingly deserted spaceship. What happened to the crew, and what will happen to you, explore the ship and find out.",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC-BY-SA-4.0",
   "name": "sss",
-  "provides": [
-    "sfinv",
-    "sss_core",
-    "sss_items",
-    "sss_map",
-    "sss_mapgen"
-  ],
+  "provides": ["sfinv", "sss_core", "sss_items", "sss_map", "sss_mapgen"],
   "release": 15442,
   "repo": "https://notabug.org/NathanS21/Secret_Story_of_Space",
   "score": 831.2,
@@ -34,10 +26,7 @@
   ],
   "short_description": "2022 game jame entry",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "jam_game_2022"
-  ],
+  "tags": ["adventure__rpg", "jam_game_2022"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/47e6111fee.png",
   "title": "The secret story of spacetravel",
   "translation_url": null,

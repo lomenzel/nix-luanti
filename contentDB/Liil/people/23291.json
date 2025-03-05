@@ -1,9 +1,6 @@
 {
   "author": "Liil",
-  "content_warnings": [
-    "gambling",
-    "gore"
-  ],
+  "content_warnings": ["gambling", "gore"],
   "created_at": "2021-03-02T07:58:04.546773",
   "dev_state": null,
   "donate_url": null,
@@ -92,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -252,28 +247,17 @@
   "issue_tracker": "https://github.com/Skandarella/people/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: To see the models of the mobs correctly you have to activate Shaders in the Main Menu. Without Shaders they will appear not fully textured.\n\nBased on Mobs Redo.\nAdds the possibility to build living Villages in your Minetest Game world.\nTrade items for random stuff from your villagers, recruit mounts and warriors.\n\nAvailable content:\n\n* Spawning plunderers near cobblestone + sandstone ruins\n* Villagers spawning near beds and roaming around \n* Blacksmith spawning at anvil, trades default tools and weapons for gold ingots\n* Farmer spawning at feeder, trades dogs, goats, dogfood, and mounts for gold ingots\n* Doctor spawning at first aid node, trades bandages, hemp and golden carrots for gold lumps\n* Miner spawning at mineshaft, trades default lumps for farming dishes\n* Instructor spawning at weaponstand, trades warriors for emblems of triumph\n* Warrior defends your village with melee + range attacks\n\nRead the guide for more information",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "CC0-1.0",
   "name": "people",
-  "provides": [
-    "people"
-  ],
+  "provides": ["people"],
   "release": 23291,
   "repo": "https://github.com/Skandarella/people.git",
   "score": 428.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/D92za5LnoQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/D92za5LnoQ.png"],
   "short_description": "Adds the possibility to build living Villages. Trade items for random stuff from your villagers, recruit mounts and warriors.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "building",
-    "mobs",
-    "pve"
-  ],
+  "tags": ["adventure__rpg", "building", "mobs", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/D92za5LnoQ.png",
   "title": "Wilhelmines People",
   "translation_url": null,

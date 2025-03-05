@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "**BETA RELEASE**\n\nIn this minigame you need to reach as soon as possible the correct platform to stay alive and don't fall down.\nThe last one who still alive will be the winner of the game.\n\n# **# HOW TO INSTALL THE MOD:**\nAfter the download of the mod, put it inside the folder  \"mods\", enable this mod and  follow these steps in the game:\n\n1) type /colour_jump create <arena_name>  (this will create your minigame)\n\n2) type /colour_jump edit <arena_name>  (start to edit the arena of the game)\n \n3) use the editor to place a minigame sign, assign it to your minigame. \n \n4) While in the editor, move to where your arena will be. \n \n5) Make your arena. \n \n6) Using the editor tools, and change the coords of the blocks and change the Ids/Name if you want to change the type of blocks. To change the coords of the blocks you need to do it in the \"init.lua\" and change the \"properties\" node or do it direclty by the editor tools in game. Remember that  you need to put the coords of the block of the center of the platform you are working on. Don't forget to put also the spawners of the player, always inside the editor tool. \n\n7) Set the arena_y (this is the height where the platforms will be placed) \n \n8) Exit the editor mode \n \n9) Type /minigamesettings colour_jump \n\n10) Change the hub spawnpoint to be next to the signs.\n \n11) Enjoy the game :)",
-  "maintainers": [
-    "MrFreeman"
-  ],
+  "maintainers": ["MrFreeman"],
   "media_license": "CC-BY-SA-4.0",
   "name": "colour_jump",
-  "provides": [
-    "colour_jump"
-  ],
+  "provides": ["colour_jump"],
   "release": 29257,
   "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
   "score": 154.1,
@@ -449,9 +443,7 @@
   ],
   "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/216b4d468d.png",
   "title": "ColourJump",
   "translation_url": null,
@@ -507,9 +499,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ],
     "Zughy/arena_lib": [
@@ -540,9 +530,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ]
   },

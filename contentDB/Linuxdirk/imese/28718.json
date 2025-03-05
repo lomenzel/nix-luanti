@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://git.0x7be.net/dirk/imese/issues",
   "license": "MIT",
   "long_description": "**_Industrial Mese_ – A quality of life mod for Minetest Game**\n\n## Intention\n\nIn *Minetest Game* Mese is a very rare material coming in the form of crystals or blocks. Mese can be used for crafting fast and long-lasting tools and some other items. With additional mods Mese becomes more versatile. Various mods use it as ingredients for technical or magical items.\n\nIf you like the challenge of Mese being a rare and harder to get element, or if you use a game that adds a different mechanic for better tools or magic/technic then this mod might not be the right mod for you. But if you see Mese as “just another thing to use” then you could be interested in this mod.\n\n*Industrial Mese* adds, well, industrial Mese. Created as described below it can be used just like regular Mese. The mod automatically adds alternative recipes for all recipes using Mese. Just replace the Mese items in recipes with the corresponding *Industrial Mese* items (see compatibility section for details).\n\n## Functionality\n\nSince the Content Database does not allow external screenshots to be shown I cannot show crafting screenshots here. Please check out the readme on GitLab for that.\n\nCreating an industrial Mese crystal needs some steps of preparation and crafting the base materials. First You need to get a Mese crystal fragment. This can be done by either crafting them using a Mese crystal or by fighting Mese monsters when you have *Mobs Redo* installed.\n\nYou also need a cutting agent to dilute the Mese powder. For this, loosed cobblestone is used. It can be crafted from regular cobblestone. Then you need to mix those two ingredients together to create diluted Mese powder. Then you need to add water to the diluted Mese powder. This wet diluted Mese powder can be molded into a crystal using a Mese crystal mold. The molded Crystal then needs to be cooked.\n\nWith the crystals you can now craft all things you can usually craft with regular Mese crystals, too. Some recipes only yield ~70 percent of the result due to the lower quality of the industrial Mese crystals.\n\n## Compatibility\n\nThe mod was tested with and is intended for Mesecons, Pipeworks, and Technic as mods for *Minetest Game*.\n\nIt uses delayed registration of alternate recipes. That means that all mods are automatically supported by *Industrial Mese* without any further action (assumed that those mods do not use delayed registration of their items. In this case race conditions could occur).\n\nDuring testing it was made sure that no loopholes for creation of unlimited Mese were present. If mods allow uncrafting of the default tools for example then regular Mese crystals are returned which can be used to create industrial Mese crystals.\n",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "imese",
-  "provides": [
-    "imese"
-  ],
+  "provides": ["imese"],
   "release": 28718,
   "repo": "https://git.0x7be.net/dirk/imese",
   "score": 308,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Craft and use industrial Mese",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival"
-  ],
+  "tags": ["crafting", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/iM1nQVy5eD.png",
   "title": "Industrial Mese",
   "translation_url": "https://translate.codeberg.org/projects/linuxdirks-luanti-mods/imese/",

@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/HybridDog/bookmarks/issues",
   "license": "MIT",
   "long_description": "*For an up to date description, please refer to the github page.*\n\nThis mod adds chatcommands for locations to which players can teleport:\n\n* Teleport to a location: `/go <bookmark_name>`\n* List all locations: `/listgo`\n* Add a new location (admin only): `/setgo <bookmark_name>`\n* Remove a location (admin only): `/delgo <bookmark_name>`\n\nBy default, in Minetest there is only the `spawn` chatcommand which\nspecifies a location where any player can teleport to at any time\n(correct me if I'm wrong).\nHowever, on many servers there are more than just one interesting location.\nFor example, there may be multiple spawn positions because the spawn point\nhas been migrated over time.\nIn my experience, the `go` chatcommand is a convenient way for the player to\nmove to a well-known public location.\nIn comparison to other teleportation mods, such as travelnet and teleporter\nstones, the player does not need to go to, for example, a travelnet centre to\nvisit another location.\n\nThe mod is based on [mauvebic's bookmarks mod\n](https://forum.minetest.net/viewtopic.php?t=2321).",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "MIT",
   "name": "bookmarks",
-  "provides": [
-    "bookmarks"
-  ],
+  "provides": ["bookmarks"],
   "release": 9486,
   "repo": "https://codeberg.org/HybridDog/bookmarks",
   "score": 455,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5a2386698f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5a2386698f.png"],
   "short_description": "Add commands to manage public positions of interest",
   "state": "APPROVED",
-  "tags": [
-    "transport",
-    "world_tools"
-  ],
+  "tags": ["transport", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a2386698f.png",
   "title": "Public teleport location bookmarks",
   "translation_url": null,

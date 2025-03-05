@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,26 +390,17 @@
   "issue_tracker": "https://github.com/APercy/helicopter/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "Minetest 5.4 mod: Not So Simple Helicopter\n========================================\n\nThis is the \"Not So Simple Helicopter\", fork of the old \"Simple Helicopter\".\nThis version is more expensive to produce and that uses biofuel from crops. So far we have a helicopter that consumes fuel, has its consumption changed according to the level of flight. It dependes on a second mod (based on the wine mod), with a distiller that allows to transform some inputs into biofuel and fly with them.\nA passenger can go onboard when the pilot is inside\nNow the direction is controlled by A and D keys, but if you want do change direction by mouse, just type E key to change the flight dynamics and A and D just tilt the helicopter to sides again\n\nTo put biofuel on it, just punch the seat with the fuel bottle or gallon. And see at the gauge on panel how much fuel you have.\n\nIt can be painted using dye of any color you want, you must punch the seat with the dye.\n\n-----------------------\noriginally Simple helicopter by Pavel_S \nreworked by DS \nre-reworked by A_Percy\n\nLicense of source code:\n-----------------------\noriginal code by Pavel_S: GPL_v2 (see file LICENSE) \nchanges / complete rework by DS and A_Percy\n`matrix.lua` file: CC0 \n\nLicense of media (textures and sounds):\n---------------------------------------\n\nhelicopter_motor.ogg by  Robinhood76 | License: Attribution Noncommercial \n\nhelicopter_water_driblet.png by DS | License: CC0\n\nhelicopter model and texture: \n\nHelicube is a model made by Alexsandro Percy, based in original model aesthetic but made from zero. But using on rotors an adaptation of the texture from 3D model made by Melkor and his animations. \n\nthe item textures are probably by Pavel_S \n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "nss_helicopter",
-  "provides": [
-    "nss_helicopter"
-  ],
+  "provides": ["nss_helicopter"],
   "release": 25797,
   "repo": "https://github.com/APercy/helicopter",
   "score": 819.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ccd0838d38.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ccd0838d38.png"],
   "short_description": "It adds an expensive helicopter with power consumption.",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "transport"
-  ],
+  "tags": ["technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ccd0838d38.png",
   "title": "Not So Simple Helicopter",
   "translation_url": null,
@@ -469,10 +458,7 @@
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

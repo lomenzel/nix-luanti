@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -236,27 +234,17 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "Adds many new types of rails for carts:  \n  \nMesecons-Controlled Powered Rail: Accelerates carts when powered, also available in stronger version.  \nMesecons-Controlled Brake Rail: Decelerates carts when powered, also available in stronger version.  \nMesecons-Controlled Start-Stop Rail: Stops carts when not powered, and allows them to continue when powered again.  \nMesecons Detector Rail: Emits a mesecons pulse when carts drive over it.  \nMesecons Conducting Rail: Behaves like a normal rail, but conducts mesecons signals.  \n  \nIf digilines is installed, the following are also available:  \n  \nDigilines Conducting Rail: Behaves like a normal rail, but conducts digilines signals.  \nMesecons and Digilines Conducting Rail: Behaves like a normal rail, but conducts both mesecons and digilines signals.  \nDigilines-Controlled Rail: Sends information (position/driver/velocity) about carts that drive over it, can stop carts, then allow them to continue (\"grab\" and \"release\" commands), or apply an adjustable power or braking force (\"idle\", \"brake1\" through \"brake15\", and \"power1\" through \"power15\" commands).",
-  "maintainers": [
-    "cheapie"
-  ],
+  "maintainers": ["cheapie"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecons_carts",
-  "provides": [
-    "mesecons_carts"
-  ],
+  "provides": ["mesecons_carts"],
   "release": 27379,
   "repo": "https://cheapiesystems.com/git/mesecons_carts/",
   "score": 23.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c1J83R2oqI.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c1J83R2oqI.png"],
   "short_description": "Mesecons and digilines-controllable rails",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology",
-    "transport"
-  ],
+  "tags": ["building", "technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c1J83R2oqI.png",
   "title": "Mesecons Cart Control",
   "translation_url": null,

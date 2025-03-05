@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -353,27 +351,17 @@
   "issue_tracker": "https://github.com/DustyBagel/bed_notify/issues",
   "license": "MIT",
   "long_description": "Bed Notifications adds a feature that when a player leaves or enters a bed a chat massage is sent to all players telling them that a specific player entered or left a bed so that it is easier to skip the night on multiplayer worlds. It also sends a message to all players when they are able to sleep. There is also some functions to add support for other beds. See api.md for details and documentation.",
-  "maintainers": [
-    "Bob64"
-  ],
+  "maintainers": ["Bob64"],
   "media_license": "MIT",
   "name": "bed_notify",
-  "provides": [
-    "bed_notify"
-  ],
+  "provides": ["bed_notify"],
   "release": 24850,
   "repo": "https://github.com/DustyBagel/bed_notify",
   "score": 156.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b750c05f1d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b750c05f1d.png"],
   "short_description": "This adds chat messages that tell other players when a player leaves or enters a bed and when players can sleep. ",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["chat", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b750c05f1d.png",
   "title": "Bed Notifications",
   "translation_url": null,
@@ -491,9 +479,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

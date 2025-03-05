@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,15 +247,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Splooshy Bombs\n\nWeapons using the Splooshy Bombs API.\n\nCurrent weapons:\nGrenade (explodes on contact)\nRPG\n\nNote: The RPG has some intentionally funky ballistics. Aim high to account for gravity and the burn characteristics.",
-  "maintainers": [
-    "ekl"
-  ],
+  "maintainers": ["ekl"],
   "media_license": "CC0-1.0",
   "name": "splooshy_bombs",
-  "provides": [
-    "splooshy_bombs_grenade",
-    "splooshy_bombs_rpg"
-  ],
+  "provides": ["splooshy_bombs_grenade", "splooshy_bombs_rpg"],
   "release": 16564,
   "repo": "https://codeberg.org/ekl/splooshy_bombs",
   "score": 15.7,
@@ -267,9 +260,7 @@
   ],
   "short_description": "Block-flinging explosive weapons (grenade and RPG)",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/514cadf2fb.png",
   "title": "Splooshy Bombs",
   "translation_url": null,
@@ -283,9 +274,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -434,9 +423,7 @@
       {
         "is_optional": false,
         "name": "splooshy_bombs_api",
-        "packages": [
-          "ekl/splooshy_bombs_api"
-        ]
+        "packages": ["ekl/splooshy_bombs_api"]
       },
       {
         "is_optional": false,

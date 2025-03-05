@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/insanity54/msg_color/issues",
   "license": "The Unlicense",
   "long_description": "# msg_color\n\nAdd colored chat messages to your server. \n\n## privs\n\nFor a player to chat using color, the `msg_color` priv is required.\n\n## Chat commands\n\n    /msg_color [<color>] -- get or set the color of one's chat messages.\n\nIf a color parameter is supplied, the color is set as the player's color.\nIf no parameter is supplied, the set color is displayed.\n",
-  "maintainers": [
-    "cj_clippy"
-  ],
+  "maintainers": ["cj_clippy"],
   "media_license": "The Unlicense",
   "name": "msg_color",
-  "provides": [
-    "msg_color"
-  ],
+  "provides": ["msg_color"],
   "release": 14250,
   "repo": "https://github.com/insanity54/msg_color",
   "score": 152.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0b7fe4afd9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0b7fe4afd9.png"],
   "short_description": "Add colored chat messages to your server.",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0b7fe4afd9.png",
   "title": "Msg Color",
   "translation_url": null,

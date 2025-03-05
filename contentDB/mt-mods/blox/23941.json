@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/mt-mods/blox/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds a variety of new blocks to the game, including stone, wood, and cobble blocks. These blocks can be used for construction and decoration, and they come in a variety of colors and textures. The mod also adds a new type of ore called Glow Ore, which can be used to craft Glowstone. Glowstone emits light, so it can be used to illuminate dark areas. Overall, the blox mod is a great addition to Minetest, and it provides players with a lot of new building and decorating options.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "blox",
-  "provides": [
-    "blox"
-  ],
+  "provides": ["blox"],
   "release": 23941,
   "repo": "https://github.com/mt-mods/blox",
   "score": 8.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3e4a759720.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3e4a759720.png"],
   "short_description": "Adds lots of differently colored and textured blocks to Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3e4a759720.png",
   "title": "Blox",
   "translation_url": null,

@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/Elagoht/MineClone2RottenFleshToLeather/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Rotten Flesh to Leather Mod for MineClone 2\n\nThis is a mod for MineClone 2 to be able to craft leather. You need to craft a needle by 2 iron nugget.\n\n![needle](https://raw.githubusercontent.com/Elagoht/MineClone2RottenFleshToLeather/main/screenshots/needle.png)\n\nAfter that you need 2 rotten flesh and 1 string to craft sewed flesh. \n\n![sewed flesh](https://raw.githubusercontent.com/Elagoht/MineClone2RottenFleshToLeather/main/screenshots/sewed_flesh.png)\n\nFinally you can cook that sewed flesh to get leather.\n\n![leather](https://raw.githubusercontent.com/Elagoht/MineClone2RottenFleshToLeather/main/screenshots/leather.png)",
-  "maintainers": [
-    "Elagoht"
-  ],
+  "maintainers": ["Elagoht"],
   "media_license": "GPL-3.0-or-later",
   "name": "flesh2leather",
-  "provides": [
-    "flesh2leather"
-  ],
+  "provides": ["flesh2leather"],
   "release": 18883,
   "repo": "https://github.com/Elagoht/MineClone2RottenFleshToLeather",
   "score": 9.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/48dda876c2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/48dda876c2.png"],
   "short_description": "Adds recipe to craft leather for MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/48dda876c2.png",
   "title": "Rotten Flesh To Leather",
   "translation_url": null,

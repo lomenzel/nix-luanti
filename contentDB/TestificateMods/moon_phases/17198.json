@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/t-affeldt/minetest_moon_phase/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Moon phases\nChanges the moon to follow a cycle between eight different phases.\nThe mod uses either custom made textures or free NASA photography to rotate between multiple textures.\nIt provides an API for other mods to change or retrieve the current phase as well as chat commands.\nThe cycle length of 32 days can be adjusted with the configuration.\n\nCompatible with Climate API.\nVersion 2.0.0 will also brighten up your sky during a full moon.\n\n**Important**: Requires at least Minetest 5.2.0",
-  "maintainers": [
-    "TestificateMods"
-  ],
+  "maintainers": ["TestificateMods"],
   "media_license": "CC-BY-SA-3.0",
   "name": "moon_phases",
-  "provides": [
-    "moon_phases"
-  ],
+  "provides": ["moon_phases"],
   "release": 17198,
   "repo": "https://github.com/t-affeldt/minetest_moon_phase.git",
   "score": 16.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/20TVIK81xt.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/20TVIK81xt.png"],
   "short_description": "Changes the moon to follow a cycle between eight different phases.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/20TVIK81xt.png",
   "title": "Moon Phases",
   "translation_url": null,

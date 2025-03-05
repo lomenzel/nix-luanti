@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/sfence/clothing/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Add clothes with crafting to game. \nThis mod is based on [clothing](https://forum.minetest.net/viewtopic.php?f=9&t=11362) mod from [stu](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=4188) and others.\n\nSupport for dual color clothes, shirt and capes with picture.\nFor available machines and clothes, use this with [appliances](https://content.minetest.net/packages/SFENCE/appliances/) mod.\n\nUse [skinsdb](https://content.minetest.net/packages/bell07/skinsdb/) mod to make clothes visible.\n\nFrom version 2.0.3, when you are updating the clothing mod from stu to this one, old looms should be automatically updated to new ones by lbm function.\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-3.0",
   "name": "clothing",
-  "provides": [
-    "clothing"
-  ],
+  "provides": ["clothing"],
   "release": 13740,
   "repo": "https://github.com/sfence/clothing",
   "score": -108.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EOaMyG4Gb0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EOaMyG4Gb0.png"],
   "short_description": "Add clothes to game, based on clothing from stu. For available machines and clothes, use this with appliances mod. Skinsdb makes clothing visible.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "skins"
-  ],
+  "tags": ["decorative", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EOaMyG4Gb0.png",
   "title": "Clothing  2",
   "translation_url": null,

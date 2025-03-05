@@ -11,24 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Latency Protection\nLatency protection mod attempts to prevent players from glitching through protected nodes.    \nBy either teleporting the player or damaging them.\n\n## Damage mode\nThis mode attempts to prevent players from glitching through protected nodes. By damaging players who interact with a protected position too fast.\n\n## Teleport mode\nThis mode attempts to prevent players from glitching through protected nodes. By recording position every 20 seconds (This can be changed in settings) and teleporting them if the protection interaction happens in a very quick time frame. If a player interacts with a protected node the position will not be recorded for an extra cycle. Before recording a position, the player’s avg_jitter is checked to make sure the player is not lagging out.\n\n## Setting types\nThe timer for when to record a player position.   \nThis only works if punishment is set to teleport.\n\n```lua\nlatency_protection.timer = 20\n```\n\nThe max jitter a player can have before refusing the position update.    \nThis only works if punishment is set to teleport.\n```lua\nlatency_protection.jitter_max = 1.5\n```\n\nThe time limit between is_protected calls.    \nIf the function is called too fast the player will be teleport or damaged.    \n`time_max` is read in microseconds.\n\n```lua\nlatency_protection.time_max = 10000\n```\n\nDamage amount to apply to the player.   \nThis only works if punishment is set to damage.\n\n```lua\nlatency_protection.damage = 16\n```\n\nSet what type of punishment will be given to a player:\n- Teleport the player.\n- Damage the player.\n\n```lua\nlatency_protection.punishment = \"damage\"\n```\n",
-  "maintainers": [
-    "Coder12"
-  ],
+  "maintainers": ["Coder12"],
   "media_license": "MIT",
   "name": "latency_protection",
-  "provides": [
-    "latency_protection"
-  ],
+  "provides": ["latency_protection"],
   "release": 14466,
   "repo": "https://gitlab.com/Coder12a/latency_protection",
   "score": 5,
   "screenshots": [],
   "short_description": "Latency protection attempts to prevent players from glitching through protected nodes. By either teleporting the player or damaging them.",
   "state": "APPROVED",
-  "tags": [
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["server_tools", "world_tools"],
   "thumbnail": null,
   "title": "Latency Protection",
   "translation_url": null,

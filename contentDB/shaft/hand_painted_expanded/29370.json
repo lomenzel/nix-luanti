@@ -25,9 +25,7 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# Hand Painted Pack Expanded \n\n128×128 hand painted style texture pack made by shaft and Miloslav Číž (drummyfish) under CC0 license. It is covers all textures of MTG but aims to cover many mods too.\nThe original Hand Painted Pack is unmaintained (I asked him) and has opaque water due to not getting updated.\n\nCurrently supported:\n\n* Minetest Game (compared to the original pack the water is transparent and the colors of sandstone and wool have been changed)\n\n* [Timber Frame](https://content.minetest.net/packages/jbb/fachwerk/)\n\n* [Mesecons](https://content.minetest.net/packages/Jeija/mesecons/)\n\n* Partial support for Digiline and Digistuff\n\n* some items and nodes from, Animalia, Ethereal\n\n* [Claycrafter](https://content.minetest.net/packages/Dragonop/claycrafter/)\n\n* [Better Screwdriver](https://content.minetest.net/packages/12Me21/screwdriver2/)\n\n* [Wrench](https://content.minetest.net/packages/mt-mods/wrench/)\n\n* [C(entered) Doors](https://content.minetest.net/packages/TumeniNodes/c_doors/)\n\n* i3 backpacks\n\n* All items and nodes from Mobs API, Mobs Animals\n\n* Most Items from Animalia, Creatura\n\n* Bonemeal\n\n* [Bow2](https://content.luanti.org/packages/shaft/bow2/)\n\n* [Colored beds](https://content.luanti.org/packages/shaft/cbeds/)\n\nPartial support:\n\n* [Rifles](https://content.luanti.org/packages/shaft/rifles/)\n\n* Farming Redo\n\n* Ethereal (blocked by https://github.com/minetest/minetest/issues/12694)\n\n* GUI (blocked by https://github.com/minetest/minetest/issues/14578)\n\nObviously mods that inherit textures from default work well:\n\n* [Facade](https://content.minetest.net/packages/TumeniNodes/facade/)\n\n* [Tables and Chairs](https://content.minetest.net/packages/shaft/tables_chairs/)\n\n* [Extra Wool Stuff](https://content.minetest.net/packages/Impulse/extra_wool_stuff/), [Cement](https://content.minetest.net/packages/Linuxdirk/cement/), [Colored Concrete](https://content.minetest.net/packages/Niklp/colored_concrete/) (textureless nodes), [Carpets](https://content.minetest.net/packages/bell07/carpets/)\n\nPlease change to this one and contribute nice CC0 textures if you can! You don't need to know git,  just handing over the files with litterbox.catbox.moe when I'm reachable will work fine too.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "hand_painted_expanded",
   "provides": [],
@@ -45,9 +43,7 @@
   ],
   "short_description": "128×128 hand painted cartoony texture pack",
   "state": "APPROVED",
-  "tags": [
-    "128px"
-  ],
+  "tags": ["128px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e463d695da.png",
   "title": "Hand Painted Pack Expanded",
   "translation_url": null,

@@ -11,9 +11,7 @@
   "issue_tracker": "http://bugs.linux-forks.de/advtrains/",
   "license": "AGPL-3.0-only",
   "long_description": "This modpack contains the trains which were the \"default\" trains in advtrains up to version 2.2.1.\n\nYou can find more details on the [advtrains wiki](http://advtrains.de/wiki/doku.php?id=usage:trains:basic_trains).",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "CC-BY-SA-3.0",
   "name": "basic_trains",
   "provides": [
@@ -25,15 +23,10 @@
   "release": 19843,
   "repo": "http://git.bananach.space/basic_trains.git/",
   "score": 410.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/epkJBaZ6cy.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/epkJBaZ6cy.png"],
   "short_description": "Collection of basic trains for the Advanced Trains mod. Formerly included in main advtrains modpack (until 2.3.0)",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "transport"
-  ],
+  "tags": ["technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/epkJBaZ6cy.png",
   "title": "Advtrains Basic Trains",
   "translation_url": null,
@@ -48,16 +41,12 @@
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

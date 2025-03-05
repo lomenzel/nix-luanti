@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "0BSD",
   "long_description": "Creates a base for an adventure map around the origin. The sky island is a 500-radius circle. It is split up into 4 biomes: desert, mountians, canyons, and grassland. It also has a lake with an island in the center. Use the mod as a starting point for your own adventure map. Some helpful tools:\n\nworldedit,\n\nworldedit_additions\n\nterraform\n\nbonemeal (enables worldedit_additions' //forest command)\n\nStreetbuilder",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "0BSD",
   "name": "mistere_adventure_map_island_creator",
-  "provides": [
-    "mistere_adventure_map_island_creator"
-  ],
+  "provides": ["mistere_adventure_map_island_creator"],
   "release": 21019,
   "repo": "https://github.com/MisterE123/mistere_adventure_map_island_creator",
   "score": 157.7,
@@ -450,9 +444,7 @@
   ],
   "short_description": "A 1000x1000 canvas for your imagination",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7dfd68141c.png",
   "title": "Mistere's Adventure Map Island Creator",
   "translation_url": null,
@@ -467,9 +459,7 @@
       {
         "is_optional": false,
         "name": "luamap",
-        "packages": [
-          "MisterE/luamap"
-        ]
+        "packages": ["MisterE/luamap"]
       },
       {
         "is_optional": false,

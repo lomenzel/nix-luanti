@@ -38,14 +38,10 @@
   "issue_tracker": "https://codeberg.org/usrib/emeraldshop/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# Emerald Shop (MineClonia)\n\nCode under [AGPLv3-or-later](https://www.gnu.org/licenses/agpl-3.0.html) License\n\nEmeraldShop Mod is [Libre/Free Software](https://www.gnu.org/philosophy/free-sw.html), copy and share.\n\n[This is not open source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)!\n\n## Shops\n\nBuy or sell items in your shop!\n\nThis mod use [EmeraldBank](https://content.minetest.net/packages/NathanielFreeman/emeraldbank/) mod to work.\n\nShops keep the earned emeralds in your bank account automaticly!\n\n### Fancy_vend like shops\n\n**What has happened to my fancy_vend like emerald shops?**\n\n**This mod has been split into two**, now fancy_vend like shops have been separated in the [emerald_fancy_vend mod](https://codeberg.org/usrib/fancy_vend)",
-  "maintainers": [
-    "NathanielFreeman"
-  ],
+  "maintainers": ["NathanielFreeman"],
   "media_license": "MIT",
   "name": "emeraldshop",
-  "provides": [
-    "emeraldshop"
-  ],
+  "provides": ["emeraldshop"],
   "release": 25660,
   "repo": "https://codeberg.org/usrib/emeraldshop.git",
   "score": 6.4,
@@ -55,12 +51,7 @@
   ],
   "short_description": "Currency like shops to trade with emeralds in your Emeraldbank.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "decorative",
-    "server_tools",
-    "survival"
-  ],
+  "tags": ["commerce", "decorative", "server_tools", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6de58c383e.png",
   "title": "Emeraldshop",
   "translation_url": null,
@@ -157,9 +148,7 @@
       {
         "is_optional": false,
         "name": "emeraldbank",
-        "packages": [
-          "NathanielFreeman/emeraldbank"
-        ]
+        "packages": ["NathanielFreeman/emeraldbank"]
       }
     ]
   },

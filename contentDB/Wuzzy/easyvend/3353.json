@@ -11,27 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_easyvend/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Adds vending and depositing machines which allow to buy and sell items from other players, using a currency item.\nVending machines *take* currency (gold ingots by default) and *give* items of the owner's choice. Depositing machines *give* currency and *take* items of the owner's choice.\nThe currency of all machines is gold ingots by default. But it can be changed via the setting easyvend_currency.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-3.0",
   "name": "easyvend",
-  "provides": [
-    "easyvend"
-  ],
+  "provides": ["easyvend"],
   "release": 3353,
   "repo": "https://codeberg.org/Wuzzy/minetest_easyvend",
   "score": 10.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/SVsnH9xqrh.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/SVsnH9xqrh.png"],
   "short_description": "Adds vending and depositing machines which allow to buy and sell items from other players, using a currency item.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "inventory",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "inventory", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/SVsnH9xqrh.png",
   "title": "Easy Vending Machines",
   "translation_url": null,

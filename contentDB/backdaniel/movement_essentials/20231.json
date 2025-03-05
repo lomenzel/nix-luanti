@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/backdaniel/movement_essentials/issues",
   "license": "MIT",
   "long_description": "Designed to encourage strategic movement and exploration. Umbrella provides controlled descents, like when you're exploring caves or crossing difficult areas. Mese Crystal lets you go back quickly to base, which saves time. There's a throwable teleportation mechanic for sites you can't reach. Mese items are costly, so you have to manage them wisely.\n\nCreated for [minetest_game](https://content.minetest.net/packages/Minetest/minetest_game/), with gameplay balance in mind.\n\n## Features\n- Umbrella tool (hold for slow fall).\n- Mese recall (consume crystal to recall).\n- Mese teleport (throw crystal shard to teleport).\n",
-  "maintainers": [
-    "backdaniel"
-  ],
+  "maintainers": ["backdaniel"],
   "media_license": "MIT",
   "name": "movement_essentials",
-  "provides": [
-    "movement_essentials"
-  ],
+  "provides": ["movement_essentials"],
   "release": 20231,
   "repo": "https://github.com/backdaniel/movement_essentials",
   "score": 7.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/08e56720c8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/08e56720c8.png"],
   "short_description": "Adds umbrella for slow fall (hang gliders), consume mese crystal to recall (return to spawn), and throw fragments to teleport.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival",
-    "transport"
-  ],
+  "tags": ["player_effects", "survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/08e56720c8.png",
   "title": "Movement Essentials",
   "translation_url": null,

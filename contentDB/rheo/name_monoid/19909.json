@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-name_monoid/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "player monoid for controlling the nametag",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "name_monoid",
-  "provides": [
-    "name_monoid"
-  ],
+  "provides": ["name_monoid"],
   "release": 19909,
   "repo": "https://github.com/fluxionary/minetest-name_monoid.git",
   "score": 2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/447c1f8d12.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/447c1f8d12.png"],
   "short_description": "flexible control of a player's nametag",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/447c1f8d12.png",
   "title": "name monoid",
   "translation_url": null,
@@ -45,10 +37,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,

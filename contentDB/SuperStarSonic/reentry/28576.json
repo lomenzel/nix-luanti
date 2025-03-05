@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# Reentry\n\nReentry is a Space Survival game built for the Luanti 2024 Game Jam.\n\n## Compatibility\n\nBuilt for minetest 5.9, also compatible with luanti 5.10.\nShould work for minetest 5.8 as well, and possibly earlier.\n\nThe bugs in 5.10 have been fixed so you can now play without jitter!",
-  "maintainers": [
-    "SuperStarSonic"
-  ],
+  "maintainers": ["SuperStarSonic"],
   "media_license": "CC-BY-SA-3.0",
   "name": "reentry",
   "provides": [

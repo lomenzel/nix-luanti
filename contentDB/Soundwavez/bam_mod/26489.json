@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,14 +390,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "A mod that adds a cool, badass mech that can be used for transport. In the future, the mechs will be able to fight each other.\n\nAh yes, and it can fire frickin’ lasers out of its face! (Press sneak, as suggested by the big red “F” button on the control pad.)\n\nAnd it can fly using a cool-ass jetpack that is activated by: (Space bar or jump.)\n\nMuch more will be added very soon!\n\nIn this case, “soon” means today or the next day. -5\n\nUpdate!!! Crafting recipes!!! Customizable mech colors, mech details, and mech eye glows!!! Also allows for use in survival mode!!! This update allows you to build, craft, and personalize your very own mech!!! Infinite possibilities for creating your very own ideal mech skin!!!\n\nHere is how to make your very own mech skin and details:\n\nYou need to be holding the Bam Custom Mech item (rainbow block looking craft item) while you are inside of the mech, and use the command: /set_mymech (color)\n\n            Valid_colors = {\"black\", \"white\", \"red\", \"orange\", \"yellow\", \"green\", \"blue\", \"purple\",        \"fire\",       \"red_tapes\", \"orange_tapes\", \"yellow_tapes\", \"green_tapes\", \"blue_tapes\", \"purple_tapes\",           \"red_eye\", \"orange_eye\", \"yellow_eye\", \"green_eye\", \"blue_eye\", \"purple_eye\",           \"red_eye_noise\", \"orange_eye_noise\", \"yellow_eye_noise\", \"green_eye_noise\", \"blue_eye_noise\", \"purple_eye_noise\",       \"red_eye_half\", \"orange_eye_half\", \"yellow_eye_half\", \"green_eye_half\", \"blue_eye_half\", \"purple_eye_half\",           \"red_half\", \"orange_half\", \"yellow_half\", \"green_half\", \"blue_half\", \"purple_half\", \"black_half\", \"white_half\",          \"happy\", \"fu\", \"bru\", \"love\", \"target\", \"ko\", \"face1\", \"face2\", \"noface\", \"skull\",         \"metal_1\", \"metal_2\", \"metal_3\"}\n\nAll of these are relevant overlay textures for customization.  i also added the \"color\"_half codes which allows to make lighter or darker ormixed colors! Have fun mixing and matching!",
-  "maintainers": [
-    "Soundwavez"
-  ],
+  "maintainers": ["Soundwavez"],
   "media_license": "MIT",
   "name": "bam_mod",
-  "provides": [
-    "bam_mod"
-  ],
+  "provides": ["bam_mod"],
   "release": 26489,
   "repo": null,
   "score": 320.5,
@@ -411,12 +405,7 @@
   ],
   "short_description": "An addon that adds a badass mech, or “BAM” (this is a cool mech if the name is in any way confusing).",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "player_effects",
-    "skins",
-    "transport"
-  ],
+  "tags": ["creative", "player_effects", "skins", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0bdd8f5a2f.png",
   "title": "Badass Mech (or cool mech)",
   "translation_url": null,
@@ -532,10 +521,7 @@
       {
         "is_optional": false,
         "name": "vehicles",
-        "packages": [
-          "D00Med/vehicles",
-          "Kimapr/nonsensical_skyblock"
-        ]
+        "packages": ["D00Med/vehicles", "Kimapr/nonsensical_skyblock"]
       }
     ]
   },

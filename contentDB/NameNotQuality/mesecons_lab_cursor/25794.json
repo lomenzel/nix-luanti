@@ -25,9 +25,7 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-3.0",
   "long_description": "# Introduction\nThe [Mesecons Lab](https://content.minetest.net/packages/BuckarooBanzay/mesecons_lab/) is a game where you can view builds made with mesecons, digilines, etc.. If you were wandering around there, you may have realised that the crosshair looks slightly different.\n\nIf you deem it cool, now you can have it anywhere you go by using this texture pack!\n\nIf you're not familiar with the game at all, then you can just look at the screenshots to see the crosshair's appearance.\n\n# Note\n\nIf you cannot use this texture pack alongside another, then you can simply try copying the files 'crosshair.png' and 'object_crosshair.png' from the minetest folder/textures/mesecons_lab_crosshair (or something like that) to the directory of your favourite texture pack. You can simply do this with an ordinary file manager. On example, on GNU-Linux it is under your home directory/.minetest (hidden folder). On \"smart\" phones you can probably use a [minetest file manager](https://content.minetest.net/packages/Zemtzov7/mtfm/) from the mods page on ContentDB, because all apps are forcibly sandboxed and can't access files of other apps.\n\n---\n# Legal\n\nCopyright 2021 BuckarooBanzay, who made Mesecons Lab https://github.com/mesecons-lab/mesecons_lab\n\nThis is an extraction of the files \"crosshair.png\" and \"object_crosshair.png\" from the 'textures' folder of the Mesecons Lab game, which are licensed under CC-BY-SA 3.0. They were not modified here.\n\nCopyright 2024 NameNotQuality\n\nThis work is freely licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en).",
-  "maintainers": [
-    "NameNotQuality"
-  ],
+  "maintainers": ["NameNotQuality"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecons_lab_cursor",
   "provides": [],
@@ -41,11 +39,7 @@
   ],
   "short_description": "The cursor from Mesecons Lab",
   "state": "APPROVED",
-  "tags": [
-    "64px",
-    "gui",
-    "hud"
-  ],
+  "tags": ["64px", "gui", "hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6887929d3f.png",
   "title": "Mesecons Lab Cursor",
   "translation_url": null,

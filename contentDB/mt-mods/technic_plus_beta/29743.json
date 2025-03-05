@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,12 +416,7 @@
   "issue_tracker": "https://github.com/mt-mods/technic/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Technic Plus Beta package contains latest updates for Technic Plus mod, this version might not be as stable as Technic Plus release version as it contains latest changes and additions which might include somewhat experimental features and is not tested as well as stable release.\n\nSee [Technic Plus package](https://content.minetest.net/packages/mt-mods/technic_plus/) for stable and better tested release.",
-  "maintainers": [
-    "mt-mods",
-    "BuckarooBanzay",
-    "-SX-",
-    "OgelGames"
-  ],
+  "maintainers": ["mt-mods", "BuckarooBanzay", "-SX-", "OgelGames"],
   "media_license": "LGPL-2.1-only",
   "name": "technic_plus_beta",
   "provides": [
@@ -436,16 +429,10 @@
   "release": 29743,
   "repo": "https://github.com/mt-mods/technic.git",
   "score": 348.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9384d4d096.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9384d4d096.png"],
   "short_description": "The technic modpack extends the Minetest game with many new elements, mainly constructable machines and tools.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "technology",
-    "tools"
-  ],
+  "tags": ["mapgen", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9384d4d096.png",
   "title": "Technic Plus Beta",
   "translation_url": null,

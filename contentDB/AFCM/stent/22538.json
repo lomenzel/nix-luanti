@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/AFCMS/stent/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "> **Note**\n>\n> Code has been build by [MisterE123](https://github.com/MisterE123) to help me with the [2023 Minetest Game Jam](https://jam.minetest.net)\n\nA formspec based arena entrance type for arena_lib.\n\nAn example menu is included.\n\nTyping annotations for [LuaLS](https://luals.github.io) are included in the code (doesn't rely on any Minetest specific headers).\n\nCheckout the [documentation](https://github.com/AFCMS/stent/blob/master/README.md#how-to-use)",
-  "maintainers": [
-    "AFCM",
-    "MisterE"
-  ],
+  "maintainers": ["AFCM", "MisterE"],
   "media_license": "AGPL-3.0-or-later",
   "name": "stent",
-  "provides": [
-    "stent"
-  ],
+  "provides": ["stent"],
   "release": 22538,
   "repo": "https://github.com/AFCMS/stent",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a79e9c0b8b.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a79e9c0b8b.jpg"],
   "short_description": "A formspec based arena entrance type for arena_lib",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a79e9c0b8b.png",
   "title": "Stent",
   "translation_url": null,
@@ -44,9 +35,7 @@
       {
         "is_optional": false,
         "name": "arena_lib",
-        "packages": [
-          "Zughy/arena_lib"
-        ]
+        "packages": ["Zughy/arena_lib"]
       }
     ],
     "Zughy/arena_lib": [
@@ -77,9 +66,7 @@
       {
         "is_optional": false,
         "name": "audio_lib",
-        "packages": [
-          "Zughy/audio_lib"
-        ]
+        "packages": ["Zughy/audio_lib"]
       }
     ]
   },

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Ancient Ice Stuff\n\nThis mod adds a new material to Minetest Game that is used to craft a new set of armor that is a bit more powerful than diamond set.\nIt also adds several new powerful tools and weapons.\n\n# Authors\n\nRobot10 and scheletor",
-  "maintainers": [
-    "Robot10_Scheletor"
-  ],
+  "maintainers": ["Robot10_Scheletor"],
   "media_license": "MIT",
   "name": "ancient_ice_stuff",
-  "provides": [
-    "ancient_ice_stuff"
-  ],
+  "provides": ["ancient_ice_stuff"],
   "release": 26609,
   "repo": "https://github.com/robot10-scheletor/ancient-ice-stuff",
   "score": 9.2,
@@ -450,12 +444,7 @@
   ],
   "short_description": "Adds a new powerful ore to the game",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "pve",
-    "pvp",
-    "tools"
-  ],
+  "tags": ["mapgen", "pve", "pvp", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f88fcc9ce1.png",
   "title": "Ancient Ice Stuff",
   "translation_url": null,

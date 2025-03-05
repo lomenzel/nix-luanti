@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/ExeVirus/Rocks/issues/new/choose/",
   "license": "MIT",
   "long_description": "Created for the Minetest Building Event, \"Nature\", June 2020.\n\nThe rocks mod uses 8 different models to create 5 differently skinned rock model shapes. These are intentionally NOT SQUARE, so that you can use your creativity to build new spaces and creations. These are best used so far in caves, sculptures, fountains, rivers, and other natural landscapes. Each has a simple crafting recipe corresponding to the standard MTG blocks for stone, cobble, and sand. \n\nThe 5 types of rocks are:\nstone\ndesert\nsand\nsilver_sand\ndesert_sand\n\nIf you want to extend Rocks, feel free to submit a Github issue and I'll do my best to support your game/mod. Just make sure you specify the nodes you want, and the 2 crafting nodes for recipes. ",
-  "maintainers": [
-    "Just_Visiting"
-  ],
+  "maintainers": ["Just_Visiting"],
   "media_license": "MIT",
   "name": "rocks",
-  "provides": [
-    "rocks"
-  ],
+  "provides": ["rocks"],
   "release": 4375,
   "repo": "https://github.com/ExeVirus/Rocks",
   "score": 473,
@@ -449,10 +443,7 @@
   ],
   "short_description": "Adds fun rocks to bring new life to your survival and creative creations!",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/i1sl0V0fVF.png",
   "title": "Rocks",
   "translation_url": null,

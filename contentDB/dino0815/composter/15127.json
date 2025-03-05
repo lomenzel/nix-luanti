@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/dino0815/mt_composter/issues",
   "license": "CC0-1.0",
   "long_description": "# mt_composter\nMinetest Mod with composter\n",
-  "maintainers": [
-    "dino0815"
-  ],
+  "maintainers": ["dino0815"],
   "media_license": "CC0-1.0",
   "name": "composter",
-  "provides": [
-    "composter"
-  ],
+  "provides": ["composter"],
   "release": 15127,
   "repo": "https://github.com/dino0815/mt_composter",
   "score": 10.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a017a08009.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a017a08009.png"],
   "short_description": "Adds a composter to make dirt out of your leaves.",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a017a08009.png",
   "title": "The Composter",
   "translation_url": null,

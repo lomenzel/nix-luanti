@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/OgelGames/powerbanks/issues",
   "license": "MIT",
   "long_description": "This mod adds portable powerbanks used to charge technic tools.\n\n---\n\n### Features\n\n- **Fully portable** - charge will remain no matter how many times you place and pick it up!\n- **Self-protected** - no need to worry about leaving your powerbank while it's charging your tools, only you can pick it up!\n- **Fast charging** - each version charges faster than its technic battery equivalent (LV, MV, HV).\n- **Multiple charging slots** - powerbanks can charge more than one tool at once! (except for Mk1)\n\n---\n\n### Usage\n\n1. Obtain a powerbank (obviously :P).\n2. Charge the powerbank.\n3. Place the powerbank down in the world, and open it by interacting with it.\n4. Put your tool(s) in the charging slot(s) and watch them charge! (or leave it to charge while you do something else...)\n",
-  "maintainers": [
-    "OgelGames"
-  ],
+  "maintainers": ["OgelGames"],
   "media_license": "CC-BY-SA-4.0",
   "name": "powerbanks",
-  "provides": [
-    "powerbanks"
-  ],
+  "provides": ["powerbanks"],
   "release": 25860,
   "repo": "https://github.com/OgelGames/powerbanks",
   "score": 321.5,
@@ -435,11 +429,7 @@
   ],
   "short_description": "Adds portable powerbanks used to charge technic tools",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "technology",
-    "tools"
-  ],
+  "tags": ["survival", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/p7DO1IqfYh.png",
   "title": "Powerbanks",
   "translation_url": null,

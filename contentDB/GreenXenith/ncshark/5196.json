@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/GreenXenith/ncshark/issues",
   "license": "MIT",
   "long_description": "# NodeCore Sharks\n_Disclaimer: Not mobs_\n\nTurns immersed ~~mallet~~ hammer heads into hammerheads.  \nCaution: May bite.  \n\n### Config\nProvides one minetest.conf setting:  \n`ncshark.hostile = true`: Determines if sharks will do stuff while in the player inventory.  \n\nSee top of `init.lua` to tweak internal settings.\n\nThis mod is mostly a joke.",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "ncshark",
-  "provides": [
-    "ncshark"
-  ],
+  "provides": ["ncshark"],
   "release": 5196,
   "repo": "https://github.com/GreenXenith/ncshark.git",
   "score": 6.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/OxF5ZnP92x.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/OxF5ZnP92x.png"],
   "short_description": "Hammerhead \"sharks\" for NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "pve"
-  ],
+  "tags": ["pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/OxF5ZnP92x.png",
   "title": "NodeCore Sharks",
   "translation_url": null,
@@ -70,10 +62,7 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

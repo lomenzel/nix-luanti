@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/pauldpickell/colorbrewer4minetest/issues/new/choose/",
   "license": "Apache-2.0",
   "long_description": "# colorbrewer4minetest\nA mod for implementing Prof. Cynthia Brewer's [colorbrewer palettes](https://github.com/axismaps/colorbrewer/) in Minetest for cartography. \n\n## Credit\nThe colorbrewer palettes were created by Prof. Cynthia Brewer at Pennsylvannia State University and licensed under an Aphache License 2.0. \n\n[Prof. Paul Pickell](https://github.com/pauldpickell) (University of British Columbia) implemented the palettes in 8-bit (256 colors) as an installable mod for Minetest. \n\n## Install the palettes\nUnpackage the `colorbrewer` folder into your mod directory, located wherever you installed Minetest.\n\n## Use\n`colorbrewer4minetest` utilizes [hardware coloring](https://minetest.gitlab.io/minetest/textures/#hardware-coloring) and supports passing a `param2` value to a `colorbrewer` node. As of v1.0.0, the mod only registers the 27 colorbrewer palettes, which may be used by other mods.",
-  "maintainers": [
-    "pauldpickell"
-  ],
+  "maintainers": ["pauldpickell"],
   "media_license": "Apache-2.0",
   "name": "colorbrewer",
-  "provides": [
-    "colorbrewer"
-  ],
+  "provides": ["colorbrewer"],
   "release": 22929,
   "repo": "https://github.com/pauldpickell/colorbrewer4minetest",
   "score": 2.8,
@@ -46,9 +42,7 @@
   ],
   "short_description": "8-bit ColorBrewer palettes texture pack",
   "state": "APPROVED",
-  "tags": [
-    "creative"
-  ],
+  "tags": ["creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/43ede9c8ee.png",
   "title": "ColorBrewer palettes for cartography",
   "translation_url": null,

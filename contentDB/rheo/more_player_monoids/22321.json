@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-more_player_monoids/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "This mod does not add any new content of its own. ",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "more_player_monoids",
-  "provides": [
-    "more_player_monoids"
-  ],
+  "provides": ["more_player_monoids"],
   "release": 22321,
   "repo": "https://github.com/fluxionary/minetest-more_player_monoids.git",
   "score": 1.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e5c4c6e677.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e5c4c6e677.png"],
   "short_description": "more player monoids",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e5c4c6e677.png",
   "title": "more_player_monoids",
   "translation_url": null,
@@ -45,20 +37,14 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/more_player_monoids": [
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -77,10 +63,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/jkoop/better-bookmarks/issues",
   "license": "GPL-2.0-only",
   "long_description": "## Commands:\n\n| Command  | Parameters        | Description                                                                            |\n| -------- | ----------------- | -------------------------------------------------------------------------------------- |\n| `/bm`    | `<bookmark-name>` | Show waypoint for bookmark. \"-\" is where you were when you last successfully ran `/bm` |\n| `/bmset` | `<bookmark-name>` | Set a bookmark to your current position. Bookmark names may not contain \".\"            |\n| `/bmdel` | `<bookmark-name>` | Delete a bookmark                                                                      |\n| `/bmls`  |                   | List all your bookmarks                                                                |\n\n## Privileges\n\n| Privilege                   | Description                                                                    |\n| --------------------------- | ------------------------------------------------------------------------------ |\n| `better_bookmarks_teleport` | Teleport player to bookmark instead of showing waypoint. `teleport` will also allow this |\n",
-  "maintainers": [
-    "jkoop"
-  ],
+  "maintainers": ["jkoop"],
   "media_license": "GPL-2.0-only",
   "name": "better_bookmarks",
-  "provides": [
-    "better_bookmarks"
-  ],
+  "provides": ["better_bookmarks"],
   "release": 10969,
   "repo": "https://github.com/jkoop/better-bookmarks",
   "score": 5.4,
@@ -28,10 +24,7 @@
   ],
   "short_description": "keep location bookmarks, like /sethome",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "transport"
-  ],
+  "tags": ["chat", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3f714b519c.png",
   "title": "Better Bookmarks",
   "translation_url": null,

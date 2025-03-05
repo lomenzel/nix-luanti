@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/TerraQuest-Studios/ufo_ship/issues",
   "license": "MIT",
   "long_description": "# Minetest UFO_Ship Mod\n\n[![ContentDB](https://content.minetest.net/packages/wsor4035/ufo_ship/shields/downloads/)](https://content.minetest.net/packages/wsor4035/ufo_ship/)\n![Luacheck](https://www.github.com/TerraQuest-Studios/ufo_ship/workflows/luacheck/badge.svg)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://spdx.org/licenses/MIT)\n[![License: CC-BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://spdx.org/licenses/CC-BY-4.0)\n\nAdds a ufo for players to fly around in  \n\n## About\n\nMod made for fun with open source model found by Lemente\n\n## Links\n\n* [Github](https://github.com/TerraQuest-Studios/ufo_ship)\n* [Contentdb](https://content.minetest.net/packages/wsor4035/ufo_ship/)\n* [forums](not avaible yet)\n\n## Setup\n\ndownload mod, make sure its named ufo_ship  ",
-  "maintainers": [
-    "wsor4035"
-  ],
+  "maintainers": ["wsor4035"],
   "media_license": "CC-BY-4.0",
   "name": "ufo_ship",
-  "provides": [
-    "ufo_ship"
-  ],
+  "provides": ["ufo_ship"],
   "release": 27209,
   "repo": "https://github.com/TerraQuest-Studios/ufo_ship",
   "score": 340,
-  "screenshots": [
-    "https://content.luanti.org/uploads/468ccb9738.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/468ccb9738.png"],
   "short_description": "adds a ufo for flying around in",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/468ccb9738.png",
   "title": "UFO Ship",
   "translation_url": null,

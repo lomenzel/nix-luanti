@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# NodeCore Flood\n\nChanges some water mechanics in NodeCore.\n\n- Sufficiently large connected bodies of non-sponge water flood down and horizontally into open spaces.\n- Water does not flood upward, so if a cave slopes down, then up, an air pocket or un-flooded passage will remain. There are some cases where an \"air-pocket\" is actually open to the sky. The water level in these doesn't rise to sea level, even though it would in the real world.\n- Nonetheless, many caves, chasms, and dungeons previously accessible in the early-game will be filled with water. Many sources of light don't work underwater, so this makes flooded caves nearly impossible to navigate until later in the game.\n- Realism is enhanced: no more impossible walls of water in chasms and caves adjacent to oceans and rivers. Large bodies of water behave more intuitively.\n- Digging arbitrarily long canals becomes possible, making it easier to farm some things and easier to move [redacted] and [redacted] from one body of water to another.\n- On the other hand, there are now exciting new mine flood disasters! Better plug that hole before you've got a new underground sea...\n- Floods never create water above the level of existing water, and small bodies of water don't flood, so sponges are still important. Sponges are also important because their water flow can be turned off...\n- The threshold for a \"sufficiently large\" body of connected water is configurable. Default 100 contiguous water sources.\n- The ABM which handles flooding is as efficient as is reasonably possible. There's some slowdown as new mapblocks are explored, but after the floods fill up all the caves they can, the computational load decreases to almost nothing. If necessary, the mod can be activated for a while then deactivated once explored areas are sufficiently flooded.\n- Warning: this mod permanently changes most worlds in ways which cannot be undone by simply deactivating the mod. The changes will only be in map blocks which are visited while the mod is active, but removing water from a flooded area is not easy.\n",
-  "maintainers": [
-    "Hussell"
-  ],
+  "maintainers": ["Hussell"],
   "media_license": "MIT",
   "name": "flood",
-  "provides": [
-    "flood"
-  ],
+  "provides": ["flood"],
   "release": 28670,
   "repo": "https://gitlab.com/Hussell/flood",
   "score": 2.9,
@@ -69,10 +65,7 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

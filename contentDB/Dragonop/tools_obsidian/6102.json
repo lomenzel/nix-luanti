@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://github.com/Dragonop/tools_obsidian/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "### Obsidian Swords (and Tools)\nAdds the obsidian sword, dagger and longsword.  \nAlso adds the obsidian pickaxe, axe, and shovel, all an upgrade to diamond tools.  \n\nEach weapon has its uses, advantages, and tradeoffs.  \n\n**Obsidian Sword:** Slightly stronger than a regular diamond sword, at the expense of being slightly slower.  \n**Obsidian Dagger:** Quick and durable, with a shorter range and low per-hit damage.  \n**Obsidian Longsword:** Very powerful with a long reach, slow but strong swings.  ",
-  "maintainers": [
-    "Dragonop"
-  ],
+  "maintainers": ["Dragonop"],
   "media_license": "CC-BY-SA-3.0",
   "name": "tools_obsidian",
-  "provides": [
-    "tools_obsidian"
-  ],
+  "provides": ["tools_obsidian"],
   "release": 6102,
   "repo": "https://github.com/Dragonop/tools_obsidian",
   "score": 175.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/isi5Pj0cpr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/isi5Pj0cpr.png"],
   "short_description": "Adds the Obsidian Dagger, Sword, and Longsword. Also Obsidian tools, for completeness.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/isi5Pj0cpr.png",
   "title": "Obsidian Swords",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/BenjieFiftysix/sponge/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "### Sponges that remove water in an area around them.\n\nThey can be used to remove large amounts of water in survival, where worldedit would not be an option\n\n- Soggy sponges are found deep in the sea, where it is dark (below -11), and are quite rare (lights are recommended).\n- These can be cooked into dry sponges, and then placed near a liquid to remove an area of it.\n- They will hold the water away until they are removed.\n- They turn in to soggy sponges when used, so to use them again, they have to be cooked.\n\n### How it works:\n- Sponges create a 9x9x9 cube of air-like nodes that water can't flow through *(checks for protection in each position)*.\n- If sponges have cleared more than 3 nodes of liquid, they become soggy sponges.\n- Removing a sponge or soggy sponge will turn air-like nodes in the 9x9x9 cube back into air, as long as they are not in the area of another sponge.\n\n*(Air-like nodes can be removed even if protected, by removing a sponge outside the protection. they are not meant to be permanent)*\n\n### Options:\n**Replace air nodes** (sponge_replace_air_nodes): boolean, default true\nCauses sponges not to replace air with water blocking airlike nodes. Disabling this may cause unusual behaviour with flowing water.\n\n**Group list** (sponge_group_list): list, default: water\nList of group names as group1,group2,... (common groups are water, liquid and lava)\nSee \"Group list type\" (sponge_group_list_type) for the behaviour of this list.\n\n**Group list type** (sponge_group_list_type): multi-choice, default whitelist_source\nIf the groups in the group list should be treated as a whitelist or blacklist for removing liquids.\nThe *_source variants will remove all flowing liquids regardless of the list.\n\n**Radius** (sponge_radius): number, default 4.5\nRadius of the sphere or cube of liquid that gets removed.\n\n**Sphere shape** (sponge_shape_sphere): boolean, default true\nWhether to use a sphere shape to remove liquids.\n\n**Replace with air** (sponge_replace_with_air): boolean, default false\nReplace liquids with air instead of liquid blocking nodes.\nThis causes water to flow back immediately after placing the sponge.",
-  "maintainers": [
-    "FiftySix"
-  ],
+  "maintainers": ["FiftySix"],
   "media_license": "AGPL-3.0-or-later",
   "name": "sponge",
-  "provides": [
-    "sponge"
-  ],
+  "provides": ["sponge"],
   "release": 24407,
   "repo": "https://github.com/BenjieFiftysix/sponge",
   "score": 13.2,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Water-removing sponges.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xqRpp90VG1.png",
   "title": "Sponge",
   "translation_url": null,

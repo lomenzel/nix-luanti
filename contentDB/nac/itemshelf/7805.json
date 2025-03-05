@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://codeberg.org/nac/itemshelf/issues",
   "license": "MIT",
   "long_description": "# itemshelf\n\nFork from [itemshelf](https://github.com/hkzorman/itemshelf)\n\n## Changelog\n- add crafting recipes in \"recipes.lua\"\n- crafting with all wood planks\n\n## Original readme\n\n### Itemshelf\n\nThe item shelf mod is a simple mod that adds to shelves that can hold up to 4 or 6 items. This small limitation is due to the fact that shelves show the items they are holding using entities. The entities are purely static and consume 0 CPU (like the ones in itemframes for example), but still the limitation is to avoid lag.\n\nThere are no crafting recipes at the moment. To get an item shelf, play on `creative` or use:\n`/giveme itemshelf:small_shelf` or `/giveme itemshelf:large_shelf`. Both shelves are of the same size, however they can hold 4 or 6 items respectively.\n\n#### Developers\nDevelopers using this mod can register a particular node to use the item shelf functionality. To do that, the following function is used:\n```lua\nitemshelf.register_shelf(name, def)\n```\nwhere `name` is the name of the node (`itemshelf:` will be the prefix) and `def` is a Lua table defining the following:\n  - `description`: shown in inventory\n  - `textures` (if drawtype is nodebox)\n  - `nodebox` (like default minetest.register_node def). Do not use with `mesh`.\n  - `mesh` (like default minetest.register_node def). Do not use with `nodebox`.\n  - `item capacity` (how many items will fit into the shelf, use even numbers, max 16)\n  - `shown_items` (how many items to show, will always show first (shown_items/2) items of each row, max 6)\n\n#### License\nAll code is copyright (C) 2018 Hector Franqui (zorman2000), licensed under the MIT license. See `LICENSE` for details.\n\n#### Roadmap\n  - Add shelves in all varieties of woods\n  - Add crafting recipe\n  - Add sounds when placing items\n  - Allow shelves to contain only specific items\n  - Allow overlays if shelf holds specific items\n",
-  "maintainers": [
-    "nac"
-  ],
+  "maintainers": ["nac"],
   "media_license": "MIT",
   "name": "itemshelf",
-  "provides": [
-    "itemshelf"
-  ],
+  "provides": ["itemshelf"],
   "release": 7805,
   "repo": "https://codeberg.org/nac/itemshelf.git",
   "score": 3.2,
@@ -452,10 +446,7 @@
   ],
   "short_description": "Generic item shelf with 3D items on display",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "storage"
-  ],
+  "tags": ["decorative", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9ba8c950a0.png",
   "title": "itemshelf (Fork)",
   "translation_url": null,

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,26 +364,17 @@
   "issue_tracker": "https://github.com/minetest-streets/streets/issues/",
   "license": "MIT",
   "long_description": "You can build realistic and good-looking streets, roads and highways in your Minetest world. Guide the traffic with arrows and trafficlight and warn the world about dangerous situations with eye-catching signs!\nNeed to do some roadworks? Go ahead and style your construction area with detours, construction fences and yellow road labels. Be careful! Don't fall into the manhole!\nBring some light to your roads with delineators and streetlamps.",
-  "maintainers": [
-    "webdesigner97"
-  ],
+  "maintainers": ["webdesigner97"],
   "media_license": "MIT",
   "name": "streets",
-  "provides": [
-    "streets"
-  ],
+  "provides": ["streets"],
   "release": 105,
   "repo": "https://github.com/minetest-streets/streets",
   "score": 362.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/GUwCzvfXtU.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/GUwCzvfXtU.png"],
   "short_description": "Adds modern roads to Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "transport"
-  ],
+  "tags": ["building", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GUwCzvfXtU.png",
   "title": "Streets",
   "translation_url": null,
@@ -400,18 +389,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -434,9 +417,7 @@
       {
         "is_optional": false,
         "name": "ts_workshop",
-        "packages": [
-          "Thomas-S/ts_workshop"
-        ]
+        "packages": ["Thomas-S/ts_workshop"]
       },
       {
         "is_optional": false,

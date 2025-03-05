@@ -103,25 +103,17 @@
   "issue_tracker": "https://github.com/sfence/feed_buckets/issues",
   "license": "MIT",
   "long_description": "Minetest mod: `feed_buckets`\n========================\n\nAdd buckets of feeds which can be used to feed up to 8 nearby animals.\n\nSource code:\n-----------------------\nCopyright (c) 2022 SFENCE\nMIT - check LICENSE file\n\nLicense of media (textures, sounds and models):\n-----------------------------------------------\nCC BY-SA 4.0 - check LICENSE file\n\nCopyright (c) 2022 Sinky (CC BY-SA 4.0):\nAll textures not mentioned below.\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "feed_buckets",
-  "provides": [
-    "feed_buckets"
-  ],
+  "provides": ["feed_buckets"],
   "release": 14974,
   "repo": "https://github.com/sfence/feed_buckets",
   "score": 16,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a8089d476c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a8089d476c.png"],
   "short_description": "Craftable bucket of feeds which can be used for feed nearby animals.",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a8089d476c.png",
   "title": "Bucket of feeds for easier feeding",
   "translation_url": null,
@@ -136,51 +128,37 @@
       {
         "is_optional": false,
         "name": "adaptation_mineclone",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_xocean",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_hades_revisited",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_farming_redo",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_hades_extensionmods",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_lib",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_minetest_game",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       }
     ]
   },

@@ -38,27 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This is the most brutal skyblock challenge for NodeCore.  How much can *you* create with it?\n\nThe world has been replaced with an array of identical floating sky islands scattered a considerable distance from each other.  Each player starts in a different island.  If you fall off into the void, you may restart on a *new island* and finding your way back to your old one will be difficult, if not infeasible.\n\nEach island has all the starting resources needed to build a supply of every major resource in the game using only vanilla renewal mechanics:\n\n- 15 lux stones\n- 4 amalgamation\n- 1 sand\n- 2 living sponges\n- 1 lode ore\n- 1 tree\n- some humus\n- some pumice\n\nNote that your starting island is guaranteed to be \"viable\", in that the tree will definitely yield enough sticks and wood to make tools, and enough eggcorns to start tree farming.  Beyond that, you are on your own.",
-  "maintainers": [
-    "Kimapr",
-    "Warr1024"
-  ],
+  "maintainers": ["Kimapr", "Warr1024"],
   "media_license": "MIT",
   "name": "nc_sky_ultra_hard",
-  "provides": [
-    "nc_sky_ultra_hard"
-  ],
+  "provides": ["nc_sky_ultra_hard"],
   "release": 17669,
   "repo": "https://gitlab.com/Kimapr/nc_sky_ultra_hard",
   "score": 157.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/843d09314e.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/843d09314e.jpg"],
   "short_description": "The ultimate skyblock challenge",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "survival"
-  ],
+  "tags": ["custom_mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/843d09314e.png",
   "title": "NodeCore Skyhell",
   "translation_url": null,
@@ -72,42 +62,27 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

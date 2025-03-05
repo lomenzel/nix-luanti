@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -353,25 +351,17 @@
   "issue_tracker": "https://github.com/MeseCraft/bouncy_bed/issues",
   "license": "AGPL-3.0-only",
   "long_description": "## Description\nAdd some childish fun to the game by making the default beds bouncy! Yes it does exactly what it says on the tin! Enjoy reckless bounces by abusing your in-game mattresses and getting some airtime.\n\n## How does it work?\nThe mod essentially just appends the bouncy and fall damage groups onto the default beds in the game and adds a cute bouncing sound! This creative mod was a suggestion from a player, kiopy7, in the server, Sara's Simple Survival Server. Thank you!\n\n#### depends: beds\n\nCode license is AGPLv3 | bouncy.ogg, Blender Foundation, CC-BY-3\n\n",
-  "maintainers": [
-    "MeseCraft"
-  ],
+  "maintainers": ["MeseCraft"],
   "media_license": "CC-BY-3.0",
   "name": "bouncy_bed",
-  "provides": [
-    "bouncy_bed"
-  ],
+  "provides": ["bouncy_bed"],
   "release": 6308,
   "repo": "https://github.com/MeseCraft/bouncy_bed",
   "score": 315.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ziR7FXGmUB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ziR7FXGmUB.png"],
   "short_description": "Simply makes beds bouncy.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ziR7FXGmUB.png",
   "title": "Bouncy Bed",
   "translation_url": null,
@@ -489,9 +479,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

@@ -11,26 +11,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Adds /spawn and /city commands to your server|world.\n\nHow to use:\n\n* /spawn (set): Teleport to spawn or set a place for spawn\n\n* /city (set): Teleport to city or set a place for city **Optional**\n\nHope this help you ^-^",
-  "maintainers": [
-    "KareaGhandTrail"
-  ],
+  "maintainers": ["KareaGhandTrail"],
   "media_license": "LGPL-2.1-only",
   "name": "spw",
-  "provides": [
-    "spw"
-  ],
+  "provides": ["spw"],
   "release": 28956,
   "repo": null,
   "score": 10.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2799512665.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2799512665.png"],
   "short_description": "Adds /spawn and /city to your world, you can set places ingame without restarting the server",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "server_tools"
-  ],
+  "tags": ["chat", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2799512665.png",
   "title": "Spawn Command",
   "translation_url": null,

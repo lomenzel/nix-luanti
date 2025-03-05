@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,27 +377,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Allows Players to dye Steel for decorative blocks. This mod works in both creative and survival modes. Intended to work with the default game (minetest_game).\n\nMade with the mobile (Android) version, so it should work great on both PC, Mac, Linux, and mobile!",
-  "maintainers": [
-    "nemokitty9"
-  ],
+  "maintainers": ["nemokitty9"],
   "media_license": "MIT",
   "name": "dyediron",
-  "provides": [
-    "dyediron"
-  ],
+  "provides": ["dyediron"],
   "release": 15693,
   "repo": null,
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2e006d3b4a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2e006d3b4a.png"],
   "short_description": "Allows Players to dye Steel for decorative blocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "survival"
-  ],
+  "tags": ["building", "decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2e006d3b4a.png",
   "title": "Dyeable Steel Blocks",
   "translation_url": null,

@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Avicennia/yctie",
   "license": "MIT",
   "long_description": "# You Can't Touch It Either\n\nA simple protected node storage mod for Nodecore servers.\n\nDesigned in similar spirit to [nc_yctiwy (You Can't Take it With You) by Warr1024](https://content.minetest.net/packages/Warr1024/nc_yctiwy/)\n\n### Includes:                                     \n\n##### Golden Lockbox node\n_Behaves like a typical Nodecore lode shelf, but is owned by it's placer and is able to be gently locked._\n\n##### Golden Lockbox Key\n_Used to lock a lockbox, or claim an unclaimed lockbox._\n\n##### Securium Shard\n_A mineral found underground that is obtained as a secondary product of mining lode ore._\n\n\n### Considerations:\n\n##### Tote-transport\nUse of lockboxes with totes is supported, but unlocked lockboxes may still be moved by others using a tote (Though they are still soulbound to their original owners).\n\n##### Licensing\nYCTIE is (C)2020 by AvicenniaG [<a.germinans@gmail.com>]\n\nMIT License (http://www.opensource.org/licenses/MIT)\n\nCC BY 4.0 \nhttps://creativecommons.org/licenses/by/4.0/legalcode\n\nSee included LICENSE file for full details and credits\n\n* A Recent bug causing lode ore to be deleted has been patched.\n\nFeel free to report any issues or contact via the above email address or GitHub [<https://github.com/Avicennia/yctie>]\n\n- Avi",
-  "maintainers": [
-    "Avicennia_g"
-  ],
+  "maintainers": ["Avicennia_g"],
   "media_license": "CC-BY-4.0",
   "name": "yctie",
-  "provides": [
-    "yctie"
-  ],
+  "provides": ["yctie"],
   "release": 6559,
   "repo": "https://github.com/Avicennia/yctie",
   "score": 1.2,
@@ -57,12 +53,7 @@
   ],
   "short_description": "Simple mod adding lockable storage shelves to Nodecore.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "inventory",
-    "survival",
-    "tools"
-  ],
+  "tags": ["building", "inventory", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CKzR0sbnAn.png",
   "title": "You Can't Touch It Either",
   "translation_url": null,
@@ -76,42 +67,27 @@
       {
         "is_optional": false,
         "name": "nc_api",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_storebox",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_craft",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

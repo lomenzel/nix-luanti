@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,14 +325,10 @@
   "issue_tracker": "https://github.com/Krunegan/firemaster/issues",
   "license": "MIT",
   "long_description": "## Fire Master\n\nThis tool allows you to create impressive circles of fire anywhere you want. Just aim at a spot on the floor or wall and click the tool to create a circle of fire at that spot. The Fire Master tool uses fire magic to create a spectacular and long-lasting ring of fire that extends up to 6 nodes in diameter.\n\nNote: that the Fire Master Tool has a 60 second cooldown to prevent overuse.\n\n## License\n\n* MIT License (MIT) for the code.\n* Attribution 4.0 International (CC BY 4.0) for textures.",
-  "maintainers": [
-    "Krunegan"
-  ],
+  "maintainers": ["Krunegan"],
   "media_license": "CC-BY-4.0",
   "name": "firemaster",
-  "provides": [
-    "firemaster"
-  ],
+  "provides": ["firemaster"],
   "release": 28834,
   "repo": "https://github.com/Krunegan/firemaster",
   "score": 170.3,
@@ -344,12 +338,7 @@
   ],
   "short_description": "Fire Master is a powerful weapon that can shoot fire",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["magic", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4ffee789a5.png",
   "title": "Fire Master",
   "translation_url": null,

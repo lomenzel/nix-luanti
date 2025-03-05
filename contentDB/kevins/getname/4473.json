@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This Minetest mod is intended as a helper to other mods that need to generate random names for NPCs and other mobs. I originally wanted to add proper names to the AliveAI mod, and it seemed sensible to just make it generic so other mods could use it too.\n\nIt also adds a 'stamper' tool that can be used to 'stamp' random names onto signs that are managed by signs_lib (`/giveme getname:stamper`, right-click something that's not a sign to configure, and left-click a sign to stamp a new name on the sign).\n\nThe names are chosen from text files in the mod's 'lists' directory, which can be modified to add or remove names. It's also easy to add new lists and API functions, so it can be used to generate any composite string values from large lists.\n\nIt currently provides the following convenience functions: -\n\n    forename() - return a forename (any gender)\n    surname() - return a surname\n\n    genderlessName() - return genderless forename\n    feminineName() - return feminine forename\n    masculineName() - return masculine forename\n\n    dogName()\n    dogNameFemale()\n    dogNameMale()\n\n    catName()\n    catNameFemale()\n    catNameMale()\n\t\t\n\t\t-- Use like this...\n\t\tlocal myKitty = getname.catNameFemale()\n\nThese functions may be invoked by name using `getnameCall()` as follows: -\n\n    local myKitty = getnameCall('catNameFemale')\n\nIt also adds a chat command that outputs the chosen name to the player's chat window: -\n\n    /getname catNameFemale\n\t\t\nThe current  list of place-name generators is as follows: -\n\n    place_village, place_street, place_hamlet, place_hill, place_mountain, place_wetland, place_coastal, place_island\n\nThese can also be used with `/getname`: -\n\n    /getname place_coastal\n\nAlternatively, programmatically, use `getnameCall()`: -\n\n    local myVillage = getnameCall('place_village')\n\t\t\nI'm undecided, but I think getnameCall() should be the main API. Having two ways to call a function can be confusing.\n\t\t\n\n\t\t\n\n",
-  "maintainers": [
-    "kevins"
-  ],
+  "maintainers": ["kevins"],
   "media_license": "CC0-1.0",
   "name": "getname",
-  "provides": [
-    "getname"
-  ],
+  "provides": ["getname"],
   "release": 4473,
   "repo": "https://gitlab.com/ksangeelee/getname",
   "score": 4.6,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds an API and tool to generate random names for NPCs, mobs, and places.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/JJ1QmyfN93.png",
   "title": "GetName",
   "translation_url": null,

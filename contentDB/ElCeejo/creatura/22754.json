@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/ElCeejo/creatura/issues/new/choose/",
   "license": "MIT",
   "long_description": "Creatura aims to be a Animal focused API, with features to make advanced mobs without extra effort.\n\n**Notable Features:**\n\n```\n- A* and Theta* Pathfinding\n- Performant simple physics\n- Multiple useful entity methods\n- Simple built-in mob registration\n```\n\n**Planned Features:**\n\n```\n- Sight API\n- Improved Tracking API\n- Improved Terrain Traversal API\n```\n\n***Documentation is not currently finished.***",
-  "maintainers": [
-    "ElCeejo"
-  ],
+  "maintainers": ["ElCeejo"],
   "media_license": "MIT",
   "name": "creatura",
-  "provides": [
-    "creatura"
-  ],
+  "provides": ["creatura"],
   "release": 22754,
   "repo": "https://github.com/ElCeejo/creatura",
   "score": 1416.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f5c2fe1c5f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f5c2fe1c5f.png"],
   "short_description": "A performant, semi-modular, Animal focused mob API",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mobs"
-  ],
+  "tags": ["library", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f5c2fe1c5f.png",
   "title": "Creatura",
   "translation_url": null,

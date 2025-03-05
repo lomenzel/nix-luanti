@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://bitbucket.org/minetest_gamers/x_obsidianmese/issues?status=new&status=open",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds more use for Mese and Obsidian. This is the original mod from Survival X server.\n\n## Items\n\n### Sword\n\nFast, sharp and durable. Cuts through Mithril.\n\n### Sword Engraved\n\nFast, sharp and durable. Cuts through Mithril. Shoots basic projectiles on right click (secondary click).\n\n### Pickaxe\n\nFast, sharp and durable. Ideal for long mining - specially obsidian, without crafting multiple pickaxes.\nMines through sand and gravel easily for faster mining.\n\n### Pickaxe Engraved\n\nMore durable than diamond pickaxe. Additionally it can place item from hotbar - next to the pickaxe to the right.\nIdeal for building when you can place/dig blocks without switching selected item in hotbar or mining and placing torches.\n\n### Axe\n\nWill dig the whole tree at once. All trees with group `{ tree = 1 }` are compatible. Additionally cactus is supported also.\n\n### Shovel\n\nRight-click/secondary click will create paths on supported blocks (all dirt, sand, snow, permafrost from MTG are supported).\n\n### Hoe\n\nRegular use will plow 5 block in the direction you are looking. Right-click/secondary use will place 5 seeds in the direction you are looking - seeds have to be somewhere in your main inventory.\nAdditionally if you dig a hole (1 block deep), drop bucket (item from inventory) of water inside the hole (bucket has to be surrounded by blocks to prevent water leakage) then punch the water bucket with this hoe - a plowed field (3 block radius) will be created with water source in the middle (where the bucket was placed).\n\n### Chest\n\nThis chest holds the same inventory for a player. You can store items in this chest and the same items will be available in different obsidianmese chest on a different place in the world.\nGood for mining while carrying this chest - place the chest and store you items in it to free up some inventory space for more mining.\nAll stored items will be available in the same chest when you get back home.\n\n### Apple\n\nHeals full amount of health.\n\n# API\n\n## Types\n\n`PathNodeDef`\n\n```typescript\n// node what should get support for path, e.g. `mymod:dirt_with_grass`\n[key: string] = {\n    // name of the node what will be used to construct new path node, e.g. `dirt_with_grass`\n    name: string\n    // mod name registering this path node, e.g. `mymod`\n    mod_origin: string\n    // description for the node definition\n    descritption: string\n    // short description for the node definition, will use descirption if not defined\n    short_descritption?: string\n    // node to drop when the path node is dug, will drop `default:dirt` if not defined\n    drop?: string\n    // tile definition, see minetest lua api for more details\n    tiles: table\n}\n```\n\n## Class `x_obsidianmese`\n\n### Other mods can register new path nodes for the shovel.\n\nMethod\n\n`register_path_node(self: x_obsidianmese, defs: PathNodeDef[]): void`\n\nexample\n\n```lua\n x_obsidianmese:register_path_node({\n    ['mymod:dirt_with_grass'] = {\n        name = 'dirt_with_grass',\n        mod_origin = 'mymod',\n        descritption = 'Dirt with Grass Path',\n        drop = 'mymod:dirt',\n        tiles = {\n            'x_obsidianmese_path_dirt_base.png^(mymod_grass_top.png^[mask:x_obsidianmese_path_overlay.png)',\n            'x_obsidianmese_path_dirt_base.png',\n            'x_obsidianmese_dirt_path_side.png'\n        }\n    }\n})\n```\n\n",
-  "maintainers": [
-    "SaKeL"
-  ],
+  "maintainers": ["SaKeL"],
   "media_license": "CC-BY-SA-4.0",
   "name": "x_obsidianmese",
-  "provides": [
-    "x_obsidianmese"
-  ],
+  "provides": ["x_obsidianmese"],
   "release": 23146,
   "repo": "https://bitbucket.org/minetest_gamers/x_obsidianmese/src/master/",
   "score": 351.4,
@@ -449,12 +443,7 @@
   ],
   "short_description": "Shooting sword, woodcutting / treecapitator axe, multiple plow blocks / plant seeds hoe, path creating shovel, pickaxe can place secondary items (e.g. torches) and more...",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pvp", "shooter", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/878bb65422.png",
   "title": "X Obsidianmese",
   "translation_url": null,

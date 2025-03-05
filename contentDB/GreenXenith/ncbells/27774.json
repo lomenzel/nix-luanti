@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/GreenXenith/ncbells/issues/",
   "license": "MIT",
   "long_description": "# NodeCore Bells\n_Totally tubular!_\n\nBells are crafted like grooved panels, but on an anvil. Ring bells using a lode bar or rod.\n\nShorter bell = higher note, taller bell = lower note. Each node of height lowers the octave. The default note is A.\n",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "ncbells",
-  "provides": [
-    "ncbells"
-  ],
+  "provides": ["ncbells"],
   "release": 27774,
   "repo": "https://github.com/GreenXenith/ncbells/",
   "score": 2.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4a535bc442.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4a535bc442.png"],
   "short_description": "Glass bells for NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "jam_weekly_2021",
-    "sound_music"
-  ],
+  "tags": ["jam_weekly_2021", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4a535bc442.png",
   "title": "NodeCore Bells",
   "translation_url": null,
@@ -71,26 +62,17 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

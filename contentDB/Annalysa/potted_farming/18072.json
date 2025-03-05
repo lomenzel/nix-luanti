@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://github.com/AnnalysaTheMinetester/potted_farming/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Hello there! Thank you for checking out my mod!\n\n# Potted Farming\n\nThis is a new farming mechanic for MineTest, not on soil, but on nice pots, even inside your house or castle!\nI inteded this mod also to provide some nice plants to decorate your rooms.\nHave you ever wanted to grow plants in your nice house, and maybe get some nice fruit in the meantime?\nWell now you can! Make sure you give it enough light and water to sustain the little tree, and get your fresh apples now!\n\n## Things that you will need\n\n#### Pot with dirt\n\nThe essential item, the whole point of the mod. You will need bricks and dirt, and some dye to make it somewhat stylish.\n\n#### Watering Can\n\nSome plants require your care, with you having to craft a watering can to give them water from time to time.\nAfter all, you are planting in a pot, not in the soil near water, so you are its only source of hydration.\nIt can hold very little water, afterall the plants do not require much, therefor filling the watering can doesn't clear a whole water node. Speaking of which, you can fill it also with homedecor items like the sink and well.\n\n## Plants and Herbs\n\nYou can find some new plants in your world, wild herbs in different biomes, break them to obtain a *stem* from them.\nPlanting it in a pot starts your journey as a pot farmer!\nIf there is enough light, it will grow and after a while you can harvest some leaves, without removing the whole plant!\nIf you don't harvest it, it will become thirsty  and you'll have to use the watering can. You will not loose the plant.\n\n#### Plants currently present:\n\n- Basil\n- Rosemary\n- Sage\n- Parsley\n- Mint\n- Oregano\n\nRosemary could be preexisting from [cucina_vegana](https://content.minetest.net/packages/Clyde/cucina_vegana/),\nwhile Parsley and Mint from [farming](https://content.minetest.net/packages/TenPlus1/farming/).\nIf you change the settings you can have the potted plant give you that mod item instead of a new one defined by this mod.\n\n## Mushrooms\n\nAre you tired of building a dark room to grow mushrooms and wait for them ages to grow only to harvest few of them?\nWell ... you still need the same dark room (mushrooms require darkness after all!) but at least you can harvest more than one\n and they will regrow from the same pot!\n\n#### Mushrooms currently present:\n\n- Brown Mushroom from [default]\n- Chanterelle from [herbs](https://content.minetest.net/packages/Clyde/herbs/)\n- Boletus also from [herbs]\n\n## Fruit trees\n\nYeah you read that right. I present you a way to grow a potted little tree that can regrow fruits!\nPlant a regular sapling and wait, it will eventually grow into a 2 node tall tree.\nThe leaves after some time will either grow 2 to 3 fruits that you can harvest, without hurting the tree (again no\nneed to replant over and over) or they will be tinted in yellow, meaning the tree is now thirsty, in that case\nyou need to pour water into the pot.\n\n#### Fruit trees currently present:\n\n- Apple from [default]\n- Orange from [ethereal](https://content.minetest.net/packages/TenPlus1/ethereal/)\n- Lemon from [ethereal]\n- Banana from [ethereal]\n- Cherry from  [cool_trees](https://forum.minetest.net/viewtopic.php?t=22356) ~~[cool_trees modpack broken git link]~~\n- Plum from [cool_trees]\n- Pomegranate from [cool_trees]\n\nFurthermore, the settings allow some trees to be changed, for example the Apple small tree could use the [moretrees](https://content.minetest.net/packages/mt-mods/moretrees/) texture instead, and the Orange and Lemon small tree could\ninstead use the [cool_trees] sapling and textures.\n\n### License\n\nCode and Textures by Annalysa.\nSounds have their own license file in the sounds folder.\nA special thanks to *clyde*, that helped me a lot with the code.\n\n##### Italian, Dutch, French, Spanish traslations available",
-  "maintainers": [
-    "Annalysa"
-  ],
+  "maintainers": ["Annalysa"],
   "media_license": "CC-BY-SA-3.0",
   "name": "potted_farming",
-  "provides": [
-    "potted_farming"
-  ],
+  "provides": ["potted_farming"],
   "release": 18072,
   "repo": "https://github.com/AnnalysaTheMinetester/potted_farming",
   "score": 20,
@@ -398,9 +392,7 @@
   ],
   "short_description": "A new way to farm in pots herbs, mushrooms and regrow fruits on small trees.",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/388828039b.png",
   "title": "Potted Farming",
   "translation_url": null,

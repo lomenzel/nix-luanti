@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,25 +390,17 @@
   "issue_tracker": "https://github.com/EmptyStar/aerial/issues",
   "license": "MIT",
   "long_description": "Aerial\n======\n\nTake to the skies of your Minetest world with a fantastic array of wings! Wings grant players feather falling plus varying amounts of jump height and flight speed, ranging from basic wings that grant little or no flight to wings that will let you dart through the air at incredible speeds.\n\nThis mod can optionally integrate with the [Stamina](https://content.minetest.net/packages/sofar/stamina/) and [Player Monoids](https://content.minetest.net/packages/Byakuren/player_monoids/) mods for better game balance in survival worlds and better compatibility with other mods, respectively. See the relevant sections below for more information.\n\nHow To Craft\n------------\n\nLike most items in Minetest, wings are crafted from their component materials. Each pair of wings is crafted from seven of their component material arranged in the following pattern where `[M]` represents a material and `[ ]` represents an empty square in the crafting grid:\n\n```\n[M] [ ] [M]\n[M] [M] [M]\n[M] [ ] [M]\n```\n\nHow To Use\n----------\n\nWings are implemented as [3D Armor](https://content.minetest.net/packages/stu/3d_armor/) items which are placed into an equipment slot like any typical armor item. All equipped wings provide feather falling and prevent fall damage from any height. Additionally, wings may provide flight and jump boosts depending on the quality of the material used to make the wings.\n\nWings that grant flight allow players to toggle fly mode; by default, fly mode is toggled by pressing the `k` key. Flight speed is reduced when touching the ground. Flight is not possible while submerged in water or other liquids.\n\nWings Reference\n---------------\n\nThe following wings are defined with the following attributes:\n\n- **Wooden Wings**\n    - Material: any wood\n    - Flight: no\n    - Jump boost: no\n    - Can be used as furnace fuel\n- **Cactus Wings**\n    - Material: cactus\n    - Flight: no\n    - Jump boost: no\n    - Can be used as furnace fuel\n- **Bronze Wings**\n    - Material: bronze ingot\n    - Flight: yes, very slow speed\n    - Jump boost: yes, small\n- **Steel Wings**\n    - Material: steel ingot\n    - Flight: yes, average speed\n    - Jump boost: yes, average\n- **Golden Wings**\n    - Material: gold ingot\n    - Flight: yes, moderate speed\n    - Jump boost: yes, moderate\n- **Diamond Wings**\n    - Material: diamond\n    - Flight: yes, fast speed\n    - Jump boost: yes, high\n\nMod Integration: Stamina\n------------------------\n\nIf the [Stamina](https://content.minetest.net/packages/sofar/stamina/) mod is installed, Aerial will cause flight to exhaust players over time and will prevent flight for players who are below a certain threshold of hunger saturation. This can bring game balance to flight in a typical survival world as players will no longer be able to fly indefinitely without consequence.\n\nFlight exhaustion will disable flight and jump boosts for affected players, but feather falling and fall damage prevention will still remain in effect despite low hunger levels. It is also possible to sprint while flying which can allow players to reach blistering speeds, but beware that sprinting while flying is *very* exhausting!\n\nThe Stamina-related settings are as follows:\n\n- **Enable Stamina integration?**\n    - Enabled by default\n    - Toggling this setting off will cause Aerial to ignore the Stamina mod\n- **Stamina loss per second of flying**\n    - The amount of stamina drained per second of flying\n    - Flight drains 16 stamina per second by default\n    - Higher values will exhaust the player more rapidly while flying and vice-versa with smaller values\n- **Minimum saturation needed to fly**\n    - The minimum amount of hunger saturation required to be able to fly\n    - Flight requires 4 points of saturation by default\n    - Each point of saturation represents \"one half bread\" of a player's hunger/saturation meter\n\nMod Integration: Player Monoids\n-------------------------------\n\nIf the [Player Monoids](https://content.minetest.net/packages/Byakuren/player_monoids/) mod is installed, Aerial will leverage it so that jump boosts and speed boosts during flight do not conflict with physics modifications from other mods. **It is generally recommended to use Player Monoids with Aerial in almost all cases** and especially if you use Stamina or other mods that modify players' speed and/or jump height. This mod makes a best effort to be as compatible as possible with the mods that it depends on, but Player Monoids offers the best compatibility solution available.\n\nOther Notes\n-----------\n\nSome wings grant players a tremendous degree of mobility that may upset the balance of a typical survival experience. While costs introduced by the Stamina mod can help game balance by adding consequences to flight, you may wish to disable the more powerful wings if you're concerned about players being able to move too quickly. You can disable any individual wings via the 'Settings' tab of Minetest, under All Settings -> Content: Mods -> Aerial.\n\nThe other setting for this mod, 'milliseconds per flight tick', should be left at its default value unless you understand the implications of changing it.\n\nAlso note that wings enable and disable flight via automatic manipulation of a player's fly privilege. Any manual changes to fly privilege will be overridden and disregarded by this mod when wings are equipped.\n\nThis mod also manipulates a player's physics speed which may interact with other mods that do the same. While many measures are taken to ensure that the physics changes from Aerial, Stamina, and 3D Armor mesh well together, the use of Player Monoids will more thoroughly prevent any negative interactions and is highly recommended.\n\nLicense\n-------\n\nAll code and assets in this project are licensed under the MIT license as described in [the LICENSE file](https://github.com/EmptyStar/aerial/blob/main/LICENSE). Other licenses and credits are noted in [CREDITS.md](https://github.com/EmptyStar/aerial/blob/main/CREDITS.md).\n",
-  "maintainers": [
-    "EmptyStar"
-  ],
+  "maintainers": ["EmptyStar"],
   "media_license": "MIT",
   "name": "aerial",
-  "provides": [
-    "aerial"
-  ],
+  "provides": ["aerial"],
   "release": 25850,
   "repo": "https://github.com/EmptyStar/aerial",
   "score": 562.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dabdb0df09.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dabdb0df09.png"],
   "short_description": "Adds wings that allow players to fly and feather fall",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dabdb0df09.png",
   "title": "Aerial",
   "translation_url": null,

@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": "https://github.com/kestral246/sleeping_mat/issues/new/choose/",
   "license": "MIT",
   "long_description": "I was getting tired of having to go through the process of getting wool to make a bed, so I made a simpler to craft sleeping mat.\n\nNote that sleeping on this mat will overwrite an existing bed respawn point, which will then get reset after destroying—i.e. picking up the sleeping mat (as of Jan 26, 2020 commit to mtg).\n\n# How to craft\n\nFor crafting this sleeping mat, three grass nodes are required from three different types of grass—nine total grass nodes using any order (shapeless recipes).\n\nSupported types are: grass, dry_grass, jungle_grass, and marram_grass.\n\nThis means that players have to travel to several different biomes before they can build a sleeping mat.",
-  "maintainers": [
-    "kestral"
-  ],
+  "maintainers": ["kestral"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sleeping_mat",
-  "provides": [
-    "sleeping_mat"
-  ],
+  "provides": ["sleeping_mat"],
   "release": 3151,
   "repo": "https://github.com/kestral246/sleeping_mat",
   "score": 14.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/p4qvyWx5qI.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/p4qvyWx5qI.png"],
   "short_description": "Simple sleeping mat made out of grass.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/p4qvyWx5qI.png",
   "title": "Sleeping Mat",
   "translation_url": null,
@@ -505,9 +495,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

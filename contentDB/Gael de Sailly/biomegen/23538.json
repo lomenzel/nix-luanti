@@ -11,26 +11,17 @@
   "issue_tracker": "https://gitlab.com/gaelysam/biomegen/-/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Biome generator mod for Minetest, reproducing closely the biome generator provided by Minetest's core, but in Lua. Also includes an optional elevation adjustment parameter.\n\nIt allows to use the biome systems on Lua mapgens (that do no allow to use core biome system). Since it reads registered biomes and decorations, it is compatible with all mods adding biomes/decos.\n\nIt is supposed to be used with compatible Lua mapgens, and does not add anything standalone.\n\nSee the README for the API functions.\n\n(Screenshot comes from [File:Euclidean Voronoi Diagram](https://commons.wikimedia.org/wiki/File:Euclidean_Voronoi_diagram.svg) by By Balu Ertl, CC BY-SA 4.0)",
-  "maintainers": [
-    "Gael de Sailly"
-  ],
+  "maintainers": ["Gael de Sailly"],
   "media_license": "LGPL-3.0-only",
   "name": "biomegen",
-  "provides": [
-    "biomegen"
-  ],
+  "provides": ["biomegen"],
   "release": 23538,
   "repo": "https://gitlab.com/gaelysam/biomegen",
   "score": 23.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/683d058717.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/683d058717.png"],
   "short_description": "Library to provide biomes and decorations for compatible Lua mapgens.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mapgen"
-  ],
+  "tags": ["library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/683d058717.png",
   "title": "Biome generator for Lua mapgens",
   "translation_url": null,

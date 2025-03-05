@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "<h1>AMETHYST GEODES</h1>\n\nAdds amethyst geodes that generate underground.\n\nIf the geode intersects with a cave, the cave will cut into the geode.\n\nGeodes generate in a variety of different sizes.\n\nAPI:\n\nUse the API to make custom geodes\n\nExample Usage:\n\n```lua\ngeodes.register_geode(\n\t\t\"geodes:basalt\", -- the outermost layer of the geode\n\t\t\"geodes:calcite\", -- the middle layer of the geode\n\t\t\"geodes:amethyst_block\", -- the innermost layer of the geode\n\t\t\"geodes:amethyst_crystal\", -- the crystals that will appear in the geode (optional)\n\t\t\"air\", -- the node that fills the inner cavity of the geode (optional)\n\t\t6, -- the minimum size of the geode (optional)\n\t\t11 -- the maximum size of the geode (optional)\n)\n```\n\nFor the optional paramaters, a standard value is selected if none is provided.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "geodes",
-  "provides": [
-    "amethyst_geodes",
-    "geodes"
-  ],
+  "provides": ["amethyst_geodes", "geodes"],
   "release": 20395,
   "repo": null,
   "score": 163.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2c95826706.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2c95826706.png"],
   "short_description": "Adds amethyst geodes and an API for making custom geodes.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "library",
-    "mapgen"
-  ],
+  "tags": ["decorative", "library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2c95826706.png",
   "title": "Geodes",
   "translation_url": null,

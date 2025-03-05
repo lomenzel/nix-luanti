@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Gerold55/PCPack1/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "",
-  "maintainers": [
-    "GamingAssociation39"
-  ],
+  "maintainers": ["GamingAssociation39"],
   "media_license": "CC-BY-SA-4.0",
   "name": "laptop_pc1",
-  "provides": [
-    "laptop_pc1"
-  ],
+  "provides": ["laptop_pc1"],
   "release": 962,
   "repo": "https://github.com/Gerold55/PCPack1",
   "score": 23.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/VPEnaYI1Xa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/VPEnaYI1Xa.png"],
   "short_description": "This is an addition to the laptop mod.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/VPEnaYI1Xa.png",
   "title": "Laptop PC Pack 1",
   "translation_url": null,
@@ -507,10 +497,7 @@
       {
         "is_optional": false,
         "name": "laptop",
-        "packages": [
-          "GamingAssociation39/laptop",
-          "bell07/whynot_game"
-        ]
+        "packages": ["GamingAssociation39/laptop", "bell07/whynot_game"]
       }
     ]
   },

@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Stellua\n=======\n\nAn original sandbox game for the 2024 Luanti game jam and beyond, inspired loosely by space exploration games and mods such as Galacticraft, No Man's Sky, Nodeverse, doctor4t's Minecraft space mod, etc. Focuses more on building and voxelly stuff, not quite so much exploration and collecting.\n\nAll code by theidealist except a few basic libraries (see the license file for details), most media borrowed from Minetest Game and Mineclonia although I intend to make unique textures once the game jam is over.\n\nRequires at least Luanti/Minetest 5.10.0.\n\nFeatures\n--------\n\n- 16 star systems containing a total of 60 unique planets, whose attributes are generated procedurally per world\n- Some basic resources and decoration nodes to be gathered\n- A skybox system showing the positions of the other planets and stars\n- Constructible spacecraft that can be used to fly around and go into space (unfinished)\n- Weather and environmental hazards\n\nPlanned\n-------\n\n- A basic spacecraft spawned with the player, giving a sort of starting tutorial to repair and refuel the spacecraft and build an impulse engine for it\n- Derelict space stations and starships in space, which can be claimed and renovated\n- Impulse engines for travelling between planets, and warp drives in starships for travelling between stars\n- Space battles and multiplayer support",
-  "maintainers": [
-    "theidealist101"
-  ],
+  "maintainers": ["theidealist101"],
   "media_license": "CC-BY-SA-3.0",
   "name": "stellua",
   "provides": [
@@ -29,9 +27,7 @@
   "release": 29442,
   "repo": "https://github.com/theidealist101/stellua",
   "score": -382.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fd49ce4093.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fd49ce4093.png"],
   "short_description": "A sandbox game about exploring alien planets and building starships.",
   "state": "APPROVED",
   "tags": [

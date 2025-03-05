@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_tt/issues",
   "license": "MIT",
   "long_description": "This mod extends the support of tooltip for items to make it possible for mods to add more informative texts.\n\nThe mod itself does nothing and is meant to be integrated into games to use the API to define custom tooltips (see [API.md](https://codeberg.org/Wuzzy/minetest_tt/src/branch/master/API.md)). Game authors can use this to add small pieces of additional info to the item tooltip in a consistent manner. There's also support for automatically generating tooltip extensions.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "tt",
-  "provides": [
-    "tt"
-  ],
+  "provides": ["tt"],
   "release": 5069,
   "repo": "https://codeberg.org/Wuzzy/minetest_tt",
   "score": 342.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d8tEVysjL5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d8tEVysjL5.png"],
   "short_description": "Support for custom tooltip extensions for items",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d8tEVysjL5.png",
   "title": "Extended Tooltips",
   "translation_url": null,

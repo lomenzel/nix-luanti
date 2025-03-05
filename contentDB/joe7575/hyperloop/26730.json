@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/joe7575/Minetest-Hyperloop/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "The fast and modern way of travelling.\n\n* Hyperloop allows travelling from point point in seconds (900 km/h) :-)\n* Hyperloop tubes can be build in teamwork together with other players\n* It can be used even on small servers (Raspberry PI) without lagging\n* No configuration or programming of the tube network is necessary (only the station names have to be entered)\n\nTo the [Tutorial](https://github.com/joe7575/Minetest-Hyperloop/wiki)",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC0-1.0",
   "name": "hyperloop",
-  "provides": [
-    "hyperloop"
-  ],
+  "provides": ["hyperloop"],
   "release": 26730,
   "repo": "https://github.com/joe7575/Minetest-Hyperloop",
   "score": 500.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/h7BSyhX5tH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/h7BSyhX5tH.png"],
   "short_description": "Allows building of tubes to let players travel from point point in seconds (900 km/h)",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "transport"
-  ],
+  "tags": ["plants_and_farming", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/h7BSyhX5tH.png",
   "title": "Hyperloop",
   "translation_url": null,

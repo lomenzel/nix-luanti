@@ -11,10 +11,7 @@
   "issue_tracker": "https://github.com/minetest-LOTR/Lord-of-the-Test/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "* Explore the world of Middle-Earth with custom races, mobs, mapgen, trees, plants, potions, armour, weapons and much more!\n* Hire mob guards, enter Mordor and fight the orcs with your army, explore abandoned structures and loot the precious items.\n* Side with the evil side and become an orc, and venture the rest of the world, slaying all that cross your path.\n* Find old hidden forges and craft the rings of power!\n* This is the one subgame to rule them all!\n\nThere are various [guides](https://github.com/minetest-LOTR/Lord-of-the-Test/wiki) that can be found in generated structures that can provide more information regarding certain features.\nFor more information, refer to the [forum topic](https://forum.minetest.net/viewtopic.php?f=15&t=5578).",
-  "maintainers": [
-    "Amaz",
-    "fishyWET"
-  ],
+  "maintainers": ["Amaz", "fishyWET"],
   "media_license": "LGPL-2.1-only",
   "name": "lordofthetest",
   "provides": [
@@ -65,12 +62,7 @@
   ],
   "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "oneofakind__original",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "oneofakind__original", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
   "title": "Lord of the Test",
   "translation_url": null,

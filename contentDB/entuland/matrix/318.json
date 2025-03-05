@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/entuland/lua-matrix/issues/new/choose/",
   "license": "MIT",
   "long_description": "This mod doesn't do anything on its own, it's only meant to be used by other mods.\n\nPlease see [davidm/lua-matrix](https://github.com/davidm/lua-matrix) for the original version.",
-  "maintainers": [
-    "entuland"
-  ],
+  "maintainers": ["entuland"],
   "media_license": "MIT",
   "name": "matrix",
-  "provides": [
-    "matrix"
-  ],
+  "provides": ["matrix"],
   "release": 318,
   "repo": "https://github.com/entuland/lua-matrix",
   "score": 25.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xn7W1D2ywx.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xn7W1D2ywx.png"],
   "short_description": "A wrapper around the Lua Matrix library to make it available to other mods",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xn7W1D2ywx.png",
   "title": "Matrix Math Library",
   "translation_url": null,

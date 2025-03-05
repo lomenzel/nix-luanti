@@ -24,9 +24,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,14 +247,10 @@
   "issue_tracker": "https://github.com/Jo5629/jo5629-guns4dworkbench/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Guns4dWorkbench\nGuns, ammo, and magazines are now craftable. Also has a customizable API for modders to add their own weapons.\n\n##### **WARNINGS:**\nYou might need to double-click the button in order for the images to load correctly. This is also stated in the formspec.\n\n##### **ROADMAP:**\nI plan on adding support for other games in the future.",
-  "maintainers": [
-    "J05629"
-  ],
+  "maintainers": ["J05629"],
   "media_license": "CC-BY-SA-3.0",
   "name": "guns4dworkbench",
-  "provides": [
-    "guns4dworkbench"
-  ],
+  "provides": ["guns4dworkbench"],
   "release": 26025,
   "repo": "https://github.com/Jo5629/jo5629-guns4dworkbench",
   "score": 45.2,
@@ -266,10 +260,7 @@
   ],
   "short_description": "Craft guns and their components with an added workbench.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "tools"
-  ],
+  "tags": ["library", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6665badf6e.png",
   "title": "Guns4dWorkbench",
   "translation_url": null,
@@ -283,9 +274,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -403,10 +392,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
@@ -453,18 +439,14 @@
       {
         "is_optional": false,
         "name": "guns4d_pack_1",
-        "packages": [
-          "fatalerror420/guns4d_pack_1"
-        ]
+        "packages": ["fatalerror420/guns4d_pack_1"]
       }
     ],
     "fatalerror420/guns4d_pack_1": [
       {
         "is_optional": false,
         "name": "guns4d",
-        "packages": [
-          "fatalerror420/guns4d"
-        ]
+        "packages": ["fatalerror420/guns4d"]
       }
     ],
     "luk3yx/flow": [

@@ -11,27 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_returnmirror/issues",
   "license": "WTFPL",
   "long_description": "The Mirror of Returning is a magical item, which, when activated, will teleport you to a certain spot which it has previously remembered.\n\nA new mirror will always be black and has no knowledge of any destination. You can not teleport by using it yet.\n\nRightclick with it while pointing to something to set the mirror's destination. The mirror will magically remember your position and it becomes gray.\nTo teleport to the previously set position, leftclick with the mirror once. This will make a loud sound at both source and destination and creates a lot of visible particles, so you will probably catch the attention of others.\nYou can set a new mirror's destination with a rightclick, but the mirror will then forget the previous destination. A mirror does not have that much memory, after all.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "WTFPL",
   "name": "returnmirror",
-  "provides": [
-    "returnmirror"
-  ],
+  "provides": ["returnmirror"],
   "release": 466,
   "repo": "https://codeberg.org/Wuzzy/minetest_returnmirror",
   "score": 6.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/NipntRqkKU.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/NipntRqkKU.png"],
   "short_description": "Adds a magical item which teleports the user to a previously set location.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "magic",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "magic", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/NipntRqkKU.png",
   "title": "Mirror of Returning",
   "translation_url": null,

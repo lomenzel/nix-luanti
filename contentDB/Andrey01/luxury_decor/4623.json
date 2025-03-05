@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Andrey2470T/luxury_decor/issues/new/choose/",
   "license": "MIT",
   "long_description": "*This mod is abandoned in favour of [Multidecor](https://content.minetest.net/packages/Andrey01/multidecor/).*\n\nThis mod has a goal to add large amount of furniture elements (kitchen, bathroom, living room, bedroom of different styles), decorations and exterior stuff. Many of them are luxurious and have expensive crafting recipes. Most planned stuff is missing now, unfortunately and intended to be added in coming updates.\n\n# Features:\n\n*Fine models and textures.\n*Cabinets can be **visually** opened/closed. Unfortunately, a bug exists on double opening attempt when put items may seem be lost.\n*Sofas and footstools will be connected between themselves if click it sideways with identical sofa.\n\n# Crafting Recipes:\n\nSee forum topic https://forum.minetest.net/viewtopic.php?f=9&t=22352&sid=facf8f112ebf2a174d83a37cf8c2947d or github page in README.md https://github.com/Andrey2470T/luxury_decor\n\n# TODO List:\n\nSee forum topic https://forum.minetest.net/viewtopic.php?f=9&t=22352&sid=facf8f112ebf2a174d83a37cf8c2947d\n\n",
-  "maintainers": [
-    "Andrey01"
-  ],
+  "maintainers": ["Andrey01"],
   "media_license": "MIT",
   "name": "luxury_decor",
-  "provides": [
-    "luxury_decor"
-  ],
+  "provides": ["luxury_decor"],
   "release": 4623,
   "repo": "https://github.com/Andrey2470T/luxury_decor",
   "score": 150.6,
@@ -450,9 +444,7 @@
   ],
   "short_description": "This mod has a goal to add large amount of luxurious various furniture elements, decorations and exterior stuff.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vWXN0Emu7l.png",
   "title": "Luxury Decor",
   "translation_url": null,

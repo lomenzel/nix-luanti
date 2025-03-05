@@ -24,9 +24,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Doors Redo replaces the default doors mod and adds the following features:\n\n- Lock Tool that can flip all doors between open, locked and protected.\n- Keys can still be used to allow fellow players to open your locked doors and chests.\n- Doors, Trapdoors and Fence Gates have Mesecons support baked-in (disable 'mesecons_doors' mod).\n- Registered doors only require 2x nodes instead of the default 4.\n- Adds two new decorative doors and one decorative trapdoor.\n\nNote: A protection mod is required when using protected door option.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-3.0",
   "name": "doors",
-  "provides": [
-    "doors"
-  ],
+  "provides": ["doors"],
   "release": 28382,
   "repo": "https://codeberg.org/tenplus1/doors",
   "score": 367.9,
@@ -435,11 +429,7 @@
   ],
   "short_description": "Doors mod with lock tool to open, lock or protect any registered door.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "survival",
-    "tools"
-  ],
+  "tags": ["multiplayer", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a91888ccda.png",
   "title": "Doors Redo",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/gabri-viane/minebase_core/issues/new/choose/",
   "license": "Apache-2.0",
   "long_description": "# [API Docs HERE](https://github.com/gabri-viane/minebase/blob/main/API.md)\n#**This mod is under development and subject to strong changes**\n\nSorry for my english.\n\nTo test in-game features preview (this mod doesn't aim to add content but functionalities) use these commands:\n\n- Testing effects: `/test effects`\n- Testing hud text and box component: `/test hudtext`\n- Testing hud list,iconBox and blockBox components: `/test hudlist`\n- Testing hud list,iconBox and blockBox components: `/test hudlist`\n- HUD Animations:\n\t-  `/test slide` \n\t-  `/test fade` \n\t-  `/test anim` (animation for images (vertical pngs)) \n\t-  `/test animt` (animation for text) \n-  Env:\n\t-  `/lookingat` check first non-air node where player is facing (max. 10 blocks, it's hard-coded for this command, in the api it's just a parameter)\n- External utils:\n\t- Read image file effective dimension (width and height):  `/test imgread`\n\t- Storing mod data",
-  "maintainers": [
-    "gabri.viane"
-  ],
+  "maintainers": ["gabri.viane"],
   "media_license": "Apache-2.0",
   "name": "minebase",
-  "provides": [
-    "minebase"
-  ],
+  "provides": ["minebase"],
   "release": 14084,
   "repo": "https://github.com/gabri-viane/minebase_core",
   "score": 2.1,
@@ -448,12 +442,7 @@
   ],
   "short_description": "Adds APIs and new dynamic functionalities.  ",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "developer_tools",
-    "hud",
-    "library"
-  ],
+  "tags": ["chat", "developer_tools", "hud", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8e3d43bfb5.png",
   "title": "Minebase Core",
   "translation_url": null,

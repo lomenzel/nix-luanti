@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/warps/issues/new/choose/",
   "license": "AGPL-2.0-only",
   "long_description": "A simple \"physical\" teleportation mod for making it easy for players to travel back and forth from specific points. It's not meant as a custom teleport mod for players - more for the admin to create some teleports at a server spawn.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "AGPL-2.0-only",
   "name": "warps",
-  "provides": [
-    "warps"
-  ],
+  "provides": ["warps"],
   "release": 13147,
   "repo": "https://github.com/minetest-mods/warps",
   "score": 7.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aNS46sZPon.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aNS46sZPon.png"],
   "short_description": "Warp locations and warp stones (portal stones)",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aNS46sZPon.png",
   "title": "Warps",
   "translation_url": null,

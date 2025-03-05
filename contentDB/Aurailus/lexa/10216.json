@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/Aurailus/MinetestCompetition/issues/new/choose/",
   "license": "CC-BY-4.0",
   "long_description": "**Deprecated:** this package doesn't reach the minimum content requirement, but has been kept on CDB anyway because it's a gamejam entry\n\nUnfortunately, this ended up very unfinished. Time management is a bitch, right? Anyways, to play, **move the `map` file from the game folder into your your `worlds` folder and use that.**\n\nKNOWN ISSUES I DIDNT HAVE TIME TO FIX\n- Junctions don't work\n- Turrets don't work\n- Enemies spawn, but don't attack or get damaged. Instant-kill from punching\n\nSTUFF THAT DOES WORK\n- Resources\n- Cool custom hud\n- Mining and conveyoring ores into the inputs",
-  "maintainers": [
-    "Aurailus"
-  ],
+  "maintainers": ["Aurailus"],
   "media_license": "CC-BY-4.0",
   "name": "lexa",
   "provides": [
@@ -35,15 +33,10 @@
   "release": 10216,
   "repo": "https://github.com/Aurailus/MinetestCompetition",
   "score": -599.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9638dd76d1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9638dd76d1.png"],
   "short_description": "WIP Tower Defense Game",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "mini-game"
-  ],
+  "tags": ["jam_game_2021", "mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9638dd76d1.png",
   "title": "TowerDefense",
   "translation_url": null,

@@ -11,20 +11,14 @@
   "issue_tracker": "https://codeberg.org/fran4codes/bm_quartz_compat/issues",
   "license": "MIT",
   "long_description": "If both Quartz and Everness are installed, it aliases Everness' quartz items to Quartz's quartz items.\nIf Basic Materials is installed, it adds a recipe for silicon that uses quartz instead of sand.",
-  "maintainers": [
-    "fran4codes"
-  ],
+  "maintainers": ["fran4codes"],
   "media_license": "MIT",
   "name": "bm_quartz_compat",
-  "provides": [
-    "bm_quartz_compat"
-  ],
+  "provides": ["bm_quartz_compat"],
   "release": 26673,
   "repo": "https://codeberg.org/fran4codes/bm_quartz_compat.git",
   "score": 5.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/32c677a8fe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/32c677a8fe.png"],
   "short_description": "Compatibility between Basic Materials, Quartz, and Everness.",
   "state": "APPROVED",
   "tags": [],

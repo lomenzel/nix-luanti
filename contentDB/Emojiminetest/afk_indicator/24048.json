@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/afk_indicator/issues",
   "license": "MIT",
   "long_description": "# API to check player AFK status\nWant to know that is a player away-from-keyboard? This mod is for you!\n\n## API Methods\n### `afk_indicator.update(name)`\nAllow mods to report that the player is active at the time.\n\n* `name`: The name of the player\n\n### `afk_indicator.delete(name)`\nINTERNAL: Remove the record of a player. Should only call once when the player leaves.\n\n* `name`: The name of the player\n\n### `afk_indicator.get(name)`\nGet the record of a specific player, return the AFK duration, or `false` if the player is not online.\n\n* `name`: The name of the player\n\n### `afk_indicator.get_all()`\nGet list of AFK records. It returns a table, with player name as key and AFK duration as value.\n\n### `afk_indicator.get_all_longer_than(p)`\nSimilar to `afk_indicator.get_all()`, but only return records with AFK duration longer than `p`.\n\n* `p`: The minimum AFK duration for the returned records.\n\n## Variables\n### `afk_indicator.last_updates`\nA key-value pair of player names and AFK start time.\n\nIt's recommended to use `afk_indicator.get_all()` or `afk_indicator.get(name)`, as it calculate the AFK time for you.\n\n## Chatcommands\n### `/afk_stat`\nA command mostly for debugging purpose, showing the AFK time of the online players.\n\n`basic_privs` is required to use this command.\n\nExecuting the chatcommand is also an action. Therefore, it's pointless to include the command executor's own AFK time as it's always `0`.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "afk_indicator",
-  "provides": [
-    "afk_indicator"
-  ],
+  "provides": ["afk_indicator"],
   "release": 24048,
   "repo": "https://github.com/C-C-Minetest-Server/afk_indicator",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c5c8f50e01.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c5c8f50e01.png"],
   "short_description": "API to check player AFK status",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "world_tools"
-  ],
+  "tags": ["library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c5c8f50e01.png",
   "title": "AFK Indicator",
   "translation_url": null,

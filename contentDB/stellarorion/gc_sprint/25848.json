@@ -25,20 +25,14 @@
   "issue_tracker": "https://github.com/stellarorion/gc_sprint/issues",
   "license": "MIT",
   "long_description": "A simple sprinting utility for Minetest Game without the need for food consumption :^)\n\nSimply press `ctrl` (or any button that is assigned to `aux1`) while walking and your walking speed will automagically increase :^)",
-  "maintainers": [
-    "stellarorion"
-  ],
+  "maintainers": ["stellarorion"],
   "media_license": "MIT",
   "name": "gc_sprint",
-  "provides": [
-    "gc_sprint"
-  ],
+  "provides": ["gc_sprint"],
   "release": 25848,
   "repo": "https://github.com/stellarorion/gc_sprint",
   "score": 10.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d4b8003988.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d4b8003988.png"],
   "short_description": "A simple sprinting utility without the need for food consumption :^) ",
   "state": "APPROVED",
   "tags": [

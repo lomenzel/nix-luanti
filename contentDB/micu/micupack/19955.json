@@ -25,9 +25,7 @@
   "issue_tracker": "https://github.com/realmicu/minetest-micupack/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "#### MicuPack is a collection of mods for engineers and miners. \n\n##### It supports TechPack, but works also with Technic and Pipeworks.\n\n\nContents :\n\n* **moderntables** \nFull height wooden and metal tables in two variants: simple and with storage drawer (inventory for 16 items). If Tubelib mod is installed, four-legged machine stand and 4 more tables (designed to match both plain Tubelib and BiogasMachines style) are added as well.\n\n* **minertools**\nElectronic gadgets for professional miners :\n\t* Geothermometer - shows temperature variations of solid blocks (water and lava affect block relative temperature - water cools it down while lava warms it up); useful for underground mining to search - or avoid - flooded caverns or lava pools\n\t* Mineral Scanner - shows ore count in cubic area around player (selectable range)\n\t* Mineral Finder - short range directional scanner to find nearby deposits of selected mineral; very picky, especially at angles, but driven by simple logic\n\t* all-in-one versions of above devices, each one with improved characteristics\n\n\n* **slprogtools**\nDevices for interacting with SaferLua Controller from TechPack mod :\n\t* Memory Copier - portable dongle to transfer code between SL Controllers in much simpler and faster way than copying it with text books; can be write-protected and labelled\n\t* Memory Programmer - improved Memory Copier, with read/write protection to prevent accidental memory loss and code injection functionality (works like original Programmer but for SL Controllers); it allows to replace special marker in *init()* section code with array containing collected Tubelib numbers, making redeployments of SL Controllers much easier (for example for mobile mining with Quarries and Pushers)\n\n\n* **slmodules**\nAdditional nodes for SmartLine (electronic part of TechPack) :\n\t* Furnace Monitor - enables monitoring of Minetest Game standard furnace with Tubelib/Smartline devices\n\t* Digital Switch - configurable multi-state switch with one-digit simple decimal LCD display\n\t* AutoSieve Sensor - sensor pad for Techpack Automated Gravel Sieve\n\t* Crops Watcher - area scanner that assists in crop farming automation; it scans rectangular area of selected radius for crops (wheat, tomatoes etc) and checks if all crops are fully grown so they can be collected either manually or by machines\n\t* Digilines Message Relay - chip that forwards communication between Digilines and Tubelib networks; gateway that allows Techpack SaferLua Controllers and Mesecons LuaControllers to send text packets to each other\n\n\n* **biogasmachines**\nExpands TechPack with various Tubelib-compatible machines that use Biogas either as a product or a power source :\n\t* Water Freezer - freezing machine that converts water to ice using Biogas as coolant; water can be supplied in buckets or (if pipeworks mod is installed) through pipes\n\t* Gasifier - machine to extract Biogas from compressed dry organic material, such as coal blocks or straw blocks\n\t* Biogas Furnace - Biogas-fuelled version of standard furnace; it burns gas only when working; all cooking recipes (and durations) apply\n\t* Biogas Jet Furnace - upgraded Biogas Furnace that is 2 times faster than standard version in both item cooking time and Biogas consumption\n\t* Compactor - heavy press with heating, compacting and cooling functions that can compress stone-like resources into very dense and hard materials, like obsidian; default recipes include converting cobble and compressed gravel to obsidian, flint to obsidian shards and coal blocks to diamonds; requires Biogas and ice\n\t* Biogas Tank - dedicated storage for Biogas units, a convenient replacement for chests when it comes to stockpiling Biogas; 3 sizes are available (2, 32, 72)\n\t* Biogas Torch - a Biogas-powered eternal light source, a modern version of standard torch with various metal handles; heat source when placed, removes nearby snow and melts down ice to water (in a 3x3 cube around torch)\n\n* **minerchest**\nA high capacity storage chest (60 universal slots) that automatically combines selected resources  into respective blocks.  Chest is compatible with Techpack (Tubelib2 framework) and Pipeworks (pneumatic tubes and injectors). It has capacity of 60 items. When used with Tubelib it supports stack pulling (can be paired with HighPerf Pusher). The unique feature of this storage node is that it automatically combines configured base items (like ingots, crystals or coal lumps) into blocks to save space in storage infrastructure. Chest also automatically merges stacks to further increase free space in its inventory.  \nWhen used in Tubelib network, node prioritizes items it sends out into tubes -  so ingots and all other items that can be later combined into blocks are scheduled to be sent last. This increases the chance that elements pushed into chest will be successfully combined and passed further in compacted form. Node provides both visual indication and infotext information about its free capacity.\n",
-  "maintainers": [
-    "micu"
-  ],
+  "maintainers": ["micu"],
   "media_license": "CC-BY-SA-3.0",
   "name": "micupack",
   "provides": [
@@ -48,9 +46,7 @@
   ],
   "short_description": "Various devices and machines for experienced miners and TechPack engineers.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/v0XCJ9kaap.png",
   "title": "MicuPack",
   "translation_url": null,
@@ -559,9 +555,7 @@
       {
         "is_optional": false,
         "name": "smartline",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       },
       {
         "is_optional": false,
@@ -608,16 +602,12 @@
       {
         "is_optional": false,
         "name": "sl_controller",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       },
       {
         "is_optional": false,
         "name": "tubelib_addons1",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       },
       {
         "is_optional": false,
@@ -667,16 +657,12 @@
       {
         "is_optional": false,
         "name": "tubelib",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       },
       {
         "is_optional": false,
         "name": "tubelib_addons2",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       },
       {
         "is_optional": false,
@@ -710,27 +696,19 @@
       {
         "is_optional": false,
         "name": "gravelsieve",
-        "packages": [
-          "joe7575/techpack"
-        ]
+        "packages": ["joe7575/techpack"]
       }
     ],
     "rheo/moreblocks": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

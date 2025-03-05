@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,25 +364,17 @@
   "issue_tracker": "https://codeberg.org/Skivling/ebiomes_dyes/issues",
   "license": "MIT",
   "long_description": "#### Deprecation notice\n\nAs of ebiomes v1.5.0, this mod is no longer necessary because the dye recipes are included in the main mod. This mod (`ebiomes_dyes`), will only be useful if you are using an older version of `ebiomes` and still want to have dye recipes. \n\nThis mod adds the recipes for crafting dyes for all the flowers included in [`ebiomes`](https://content.minetest.net/packages/CowboyLv/ebiomes/). It gives 4 dyes per flower, just like the default ones.\n\n##### Reason for making this:\n\n[Extra Biomes](https://github.com/CowboyLva/ebiomes) includes lots of flowers (16), but originally had no recipes for turning them into dyes. This was very annoying because if someone wanted to get dyes, and they lived in a biome from `ebiomes`, they would have to travel far to find a different biome to get a flower with the correct colour dye. With this mod, the flowers found in `ebiomes` can be crafted into dyes.\n\n##### How it works:\n\nIf you want to know the specific colour for each flower, go in `init.lua` and look at `ebiomes_dyelist`. Each pair next to each other are the flower to dye colour.\n\nThe craft registering is handled by a loop function registering each pair in that list. \n\nThis is all accomplished in only **40 lines**, including the list of dye colours at the top.\n\n##### License:\n\nby Skivling (MIT License) - see `LICENCE.txt`.",
-  "maintainers": [
-    "Skivling"
-  ],
+  "maintainers": ["Skivling"],
   "media_license": "MIT",
   "name": "ebiomes_dyes",
-  "provides": [
-    "ebiomes_dyes"
-  ],
+  "provides": ["ebiomes_dyes"],
   "release": 23763,
   "repo": "https://codeberg.org/Skivling/ebiomes_dyes",
   "score": 150,
-  "screenshots": [
-    "https://content.luanti.org/uploads/acae633543.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/acae633543.jpg"],
   "short_description": "Deprecated because after ebiomes v1.5.0, dye recipes are included by default, making this unnecessary. Adds dye recipes for the flowers from Extra Biomes. ",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/acae633543.png",
   "title": "Dyes for Extra Biomes",
   "translation_url": null,
@@ -548,9 +538,7 @@
       {
         "is_optional": false,
         "name": "ebiomes",
-        "packages": [
-          "CowboyLv/ebiomes"
-        ]
+        "packages": ["CowboyLv/ebiomes"]
       }
     ]
   },

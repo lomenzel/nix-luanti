@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,24 +364,17 @@
   "issue_tracker": "https://github.com/cdqwertz/colored_steel/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod adds various new colors of steel blocks.\n",
-  "maintainers": [
-    "cd2"
-  ],
+  "maintainers": ["cd2"],
   "media_license": "CC-BY-SA-3.0",
   "name": "colored_steel",
-  "provides": [
-    "colored_steel"
-  ],
+  "provides": ["colored_steel"],
   "release": 12992,
   "repo": "https://github.com/cdqwertz/colored_steel",
   "score": 2.3,
   "screenshots": [],
   "short_description": "Adds colored steel blocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": null,
   "title": "Colored Steel",
   "translation_url": null,
@@ -512,18 +503,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

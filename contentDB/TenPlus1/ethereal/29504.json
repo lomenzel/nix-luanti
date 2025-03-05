@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,27 +325,17 @@
   "issue_tracker": "https://codeberg.org/tenplus1/ethereal/issues",
   "license": "MIT",
   "long_description": "Ethereal adds many new biomes, plants, food items and tweaks to your world that makes for an interesting adventure :)\n\nHere are some of the new additions:\n\nBiomes: glacier, bamboo, mesa, alpine, healing, snowy, frost, grassy, caves, grayness, grassytwo, prairie, jumble, junglee, desert, grove, mushroom, sandstone, quicksand, plains, savannah, fiery, sandclay, swamp, reefs, sakura, tundra, mediterranean.\n\nTrees: willow, healing, big, banana, frost, mushroom, palm, redwood, orange, birch, sakura, lemon, olive.\n\nFood: wild onion, strawberry, lemon, olives, many fish, banana, pine nuts, coconut, golden apple, hearty stew, mushroom soup, firethorn jelly, sushi, teriyaki.\n\nSpecial items and features: potion of flight, crystal tools, staff of light, gilly staff, a working fishing rod, cold blocks freeze water, hot blocks melt snow and ice, torch drops near water, falling leaf particles.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ethereal",
-  "provides": [
-    "ethereal"
-  ],
+  "provides": ["ethereal"],
   "release": 29504,
   "repo": "https://codeberg.org/tenplus1/ethereal",
   "score": 4035,
-  "screenshots": [
-    "https://content.luanti.org/uploads/edb41f2e48.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/edb41f2e48.jpg"],
   "short_description": "Adds many new biomes, items and mechanics into the world.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "plants_and_farming",
-    "tools"
-  ],
+  "tags": ["mapgen", "plants_and_farming", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/edb41f2e48.png",
   "title": "Ethereal NG",
   "translation_url": null,

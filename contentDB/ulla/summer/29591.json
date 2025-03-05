@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/IIIullaIII/summer_22_08_15/issues/new/choose/",
   "license": "CC-BY-SA-3.0",
   "long_description": "SUMMER STUFF AND  MORE\n#V03_02_2025\n\nCHANGELOG\n\n.decreased rock generation \n\n.decreased rock size fixed sitting and lying on deck chairs and towels \n\n.improved boat driving visibility \n\n.changed position on life ring",
-  "maintainers": [
-    "ulla"
-  ],
+  "maintainers": ["ulla"],
   "media_license": "MIT",
   "name": "summer",
-  "provides": [
-    "summer"
-  ],
+  "provides": ["summer"],
   "release": 29591,
   "repo": "https://github.com/IIIullaIII/summer_22_08_15.git",
   "score": -106,
@@ -439,10 +433,7 @@
   ],
   "short_description": "SUMMER",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/079387818d.png",
   "title": "summer",
   "translation_url": null,
@@ -456,18 +447,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

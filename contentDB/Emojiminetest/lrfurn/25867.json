@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,26 +338,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/lrfurn/issues",
   "license": "CC0-1.0",
   "long_description": "Living Room Furniture (lrfurn) mod for Minetest\n\n\nby thefamilygrog66 and 1F616EMO\n\nDescription:\nColoured Long Sofas (3 blocks wide), Sofas (2 blocks wide), Armchairs, Coffee Tables and End Tables, loosely based on PilzAdam's beds mod. There are 9 colours in all: red, orange, yellow, green, blue, violet, black, grey and white.\n\nWhen you right-click on a long sofa, sofa or armchair, it transports you onto it, and replenishes your HP. Good if you've just escaped nasty mobs, didn't fare so well in battle, or just had a bad fall. The coffee table - which isn't coloured, just wooden - is pretty much just for decoration. It stands half a block high and nearly 2 blocks long. The end table is similar to the coffee table, though roughly half the length (i.e. only one block) and square.\n\nRecipes:\n\n\tLong Sofa\n\n\t+---------------+---------------+---------------+\n\t| coloured wool | coloured wool | coloured wool |\n\t+---------------+---------------+---------------+\n\t|   wood slab   |   wood slab   |   wood slab   |\n\t+---------------+---------------+---------------+\n\t|     stick     |     stick     |     stick     |\n\t+---------------+---------------+---------------+\n\t\n\tSofa\n\n\t+---------------+---------------+-------+\n\t| coloured wool | coloured wool |       |\n\t+---------------+---------------+-------+\n\t|   wood slab   |   wood slab   |       |\n\t+---------------+---------------+-------+\n\t|     stick     |     stick     |       |\n\t+---------------+---------------+-------+\n\t\n\tArmchair\n\t\n\t+---------------+-------+-------+\n\t| coloured wool |       |       |\n\t+---------------+-------+-------+\n\t|   wood slab   |       |       |\n\t+---------------+-------+-------+\n\t|     stick     |       |       |\n\t+---------------+-------+-------+\n\t\n\tCoffee Table (only wood texture)\n\t\n\t+-----------+-----------+-----------+\n\t|           |           |           |\n\t+-----------+-----------+-----------+\n\t| wood slab | wood slab | wood slab |\n\t+-----------+-----------+-----------+\n\t|   stick   |           |   stick   |\n\t+-----------+-----------+-----------+\n\t\n\tEnd Table (only wood texture)\n\t\n\t+-----------+-----------+-----------+\n\t|           |           |           |\n\t+-----------+-----------+-----------+\n\t| wood slab | wood slab |           |\n\t+-----------+-----------+-----------+\n\t|   stick   |   stick   |           |\n\t+-----------+-----------+-----------+\n\t\n\nMod dependencies: default, wool\n\nNew in this fork:\n\nAllowing sitting onto every slots of (long)sofas\n\nRemoved deprecated calls\n\nTranslation of German (text by Xanthin) and Traditional Chinese using the built-in engine\n\nLicense:\n\nThe origial license is WTFPL. However, because it is not an OSI-approved FOSS license, it is changed to CC0 in this fork.\n\nLiving Room Furniture by thefamilygrog66 and 1F616EMO is marked with CC0 1.0. To view a copy of this license, visit http://creativecommons.org/publicdomain/zero/1.0\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC0-1.0",
   "name": "lrfurn",
-  "provides": [
-    "lrfurn"
-  ],
+  "provides": ["lrfurn"],
   "release": 25867,
   "repo": "https://github.com/C-C-Minetest-Server/lrfurn",
   "score": 363,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5a6b743f0e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5a6b743f0e.png"],
   "short_description": "Sofas, armchairs and tables",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5a6b743f0e.png",
   "title": "Living Room Furnitures",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "Adds 10 types of birds.  If Mobs Animals, Animalia, Mineclone2 or Mineclonia is installed, they drop raw chicken upon death.\n\nThe birds aren't saved in the world file which means if you leave and enter your world, they all disappear and new ones spawn. So you can't put them inside a cage. However it also means you can uninstall this mod at any time.\nI did this because they primarily serve a decorative purpose.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC-BY-4.0",
   "name": "birds",
-  "provides": [
-    "birds"
-  ],
+  "provides": ["birds"],
   "release": 28427,
   "repo": "https://gitgud.io/blut/birds",
   "score": 168.1,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds birds which drop raw chicken upon death",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4f12f3b270.png",
   "title": "Birds",
   "translation_url": null,

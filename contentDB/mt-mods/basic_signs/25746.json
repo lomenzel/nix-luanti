@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/mt-mods/basic_signs/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "This project provides colored metal wall signs, locked wooden sign (the one with the steel edges), and an extension to the default wooden signs, to place either a wall sign, a yard sign, or a hanging-from-ceiling sign, depending on where the user points (in addition to placing on a post/fence).\n\nMost items herein were originally part of signs_lib.\n\nSigns_lib must be commit bcb6a3aa (tag \"2019-09-15-1\") or later to use this mod properly",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "basic_signs",
-  "provides": [
-    "basic_signs"
-  ],
+  "provides": ["basic_signs"],
   "release": 25746,
   "repo": "https://github.com/mt-mods/basic_signs.git",
   "score": 22.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/rGb6R8HsAO.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/rGb6R8HsAO.png"],
   "short_description": "A small selection of metal wall signs, and a few kinds of wooden signs.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/rGb6R8HsAO.png",
   "title": "Basic signs",
   "translation_url": null,

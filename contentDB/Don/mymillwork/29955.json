@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29956,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/mymillwork/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "mymillwork\n========\n\nCrown Mold, Baseboards, Columns and more To minetest\n\nLicence - DWYWPL\n\nIf you want to add or remove a texture simply edit the materials.lua file.\n\nEach texture has 24 nodes so careful that you don't add too many textures.\n\n\n\nAPI example:\n\n```lua\nmymillwork.register(\"default:stone\",\n    \"default_stone\",\n    \"Stone\",\n    \"default_stone.png\",\n    {cracky=3, stone=1, not_in_creative_inventory=1},\n)\n```\n",
-  "maintainers": [
-    "Don"
-  ],
+  "maintainers": ["Don"],
   "media_license": "WTFPL",
   "name": "mymillwork",
-  "provides": [
-    "mymillwork"
-  ],
+  "provides": ["mymillwork"],
   "release": 29955,
   "repo": "https://github.com/minetest-mods/mymillwork",
   "score": 309.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/febd1578cf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/febd1578cf.png"],
   "short_description": "Crown molding, columns and baseboards of different styles.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/febd1578cf.png",
   "title": "mymillwork",
   "translation_url": null,

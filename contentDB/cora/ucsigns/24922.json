@@ -116,25 +116,17 @@
   "issue_tracker": "https://codeberg.org/cora/uc_signs",
   "license": "AGPL-3.0-or-later",
   "long_description": "The ultra cool signs mod uses unicode_text and tga_encoder to add unicode support to signs without the need for texture files per character.\n\nNote about support of connecting and non-LTR scripts: Connecting features seem to sometimes work while RL-TB does not work at all currently and Top-to-Bottom(vertical writing systems) seem to have issues as well. If you can read any of these scripts any help would be appreciated although probably best at https://git.minetest.land/erlehmann/unicode_text which is the rendering engine used here.\n\nOther than the \"classic\" method of having multiple textures that each represent one character and which are then stitched together by texture modifiers, this uses unicode_text and tga_encoder to create a texture for each sign using a (hex-)font. The texture is then stored in the node meta of the sign alongside of the text so the texture can be regenerated if needed.\n\nThe main upside of this approach is the support of many different scripts, symbols emojis etc. (all of unifont + some of unifont csur).\n\n![](https://mister-muffin.de/p/7WyA.png)\nUC signs can show characters the builtin minetest font can't!\n\nSupports unified dyes and mcl_dyes for coloring signs (rightclick sign with dye)\n\nConfirmed to work out of the box with the following games:\n\n* Minetest Game\n* Mineclonia\n* MineClone2 (until the shipped tga_encoder is updated, you need to force load the most recent version)\n* Repixture\n* Xaenvironment\n* Lord of the Test\n* MeseCraft\n* Asuna\n\nShould generally work out of the box with all games that define nodes with the itemgroup wood (craft recipe also needs an item of group:stick).\n\nFor all other games you will need to supply your own sign registration where you need to at least define the desired color of your sign - see API.md for how to do that.\n\n### Credits\nAll textures and model files are from mineclonia / mineclone2 mcl_signs.\n\n### Fonts used\n* unifont https://unifoundry.com/unifont/index.html\n* unifont csur planes 00 and 0f from https://github.com/trevorld/hexfont",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ucsigns",
-  "provides": [
-    "ucsigns"
-  ],
+  "provides": ["ucsigns"],
   "release": 24922,
   "repo": "https://codeberg.org/cora/uc_signs.git",
   "score": 465.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ab79b85657.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ab79b85657.png"],
   "short_description": "Signs that allow unicode text",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ab79b85657.png",
   "title": "Unicode Signs",
   "translation_url": null,
@@ -158,10 +150,7 @@
       {
         "is_optional": false,
         "name": "unicode_text",
-        "packages": [
-          "erlehmann/unicode_text",
-          "Wuzzy/repixture"
-        ]
+        "packages": ["erlehmann/unicode_text", "Wuzzy/repixture"]
       }
     ],
     "erlehmann/tga_encoder": [],

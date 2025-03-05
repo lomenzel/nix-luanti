@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/CodeScratcher/factions-mod/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "# Cooperative Factions\nA mod that allows players to team together\n\n## Usage:\nGrant yourself the faction_add and set_faction privilege.\nThen, create a faction with the `/add_faction` command and use the `/set_faction` command to set the faction one user, the leader of the faction, to the newly added faction. Grant them the faction_leader privilege. They can invite people with the `/invite_to_faction` command, and others can join the faction (if they're invited) with the `/join_faction` command\n\n## Caveats\n- Displaying factions in usernames can clash with other mods that mess with the username displaying UI\n- Displaying factions in chat can clash with chat altering mods\n- In order to use faction protection, you must change the optional dependencies of the `protector` mod. \n",
-  "maintainers": [
-    "skiscratcher"
-  ],
+  "maintainers": ["skiscratcher"],
   "media_license": "CC-BY-SA-3.0",
   "name": "coop_factions",
-  "provides": [
-    "coop_factions"
-  ],
+  "provides": ["coop_factions"],
   "release": 13549,
   "repo": "https://github.com/CodeScratcher/factions-mod",
   "score": 152.7,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Adds factions, allowing players to team together",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "commerce",
-    "hud"
-  ],
+  "tags": ["chat", "commerce", "hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4bb0e689bf.png",
   "title": "Cooperative Factions",
   "translation_url": null,

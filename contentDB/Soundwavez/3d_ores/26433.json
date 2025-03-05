@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "A 3D remake of the original Minetest ores from default! Mese and diamond have cool models and glow quite nicely! All other default ores have cool new models!\n\nThis mod simply makes the default ores 3D and and in some cases, glow in a badass way!",
-  "maintainers": [
-    "Soundwavez"
-  ],
+  "maintainers": ["Soundwavez"],
   "media_license": "MIT",
   "name": "3d_ores",
-  "provides": [
-    "3d_ores"
-  ],
+  "provides": ["3d_ores"],
   "release": 26433,
   "repo": null,
   "score": 166.3,
@@ -452,11 +446,7 @@
   ],
   "short_description": "a slick new take on the default ores!",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["environment", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1c28c12c9f.png",
   "title": "3d ores!",
   "translation_url": null,

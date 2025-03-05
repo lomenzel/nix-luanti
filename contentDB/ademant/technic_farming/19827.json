@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,16 +416,10 @@
   "issue_tracker": null,
   "license": "CC-BY-3.0",
   "long_description": "Now with Coffee machine!\n\nWith farming mod you get a lot of new items to generate food and drinks, but you have to craft essential things by hand.\n\nIn this mod pack new machines are defined, to make food and drink production with farming much easier.\n\nBeside electric machines for usage with the technic mod, also pre-electric machines are defined, which uses water and/or wind power (like old water mill or wind mills).\n\n## Pre-electric tier\nFollowing machines are defined:\n1. water mill\n2. wind mill\n3. mill-powered grinder\n4. mill-powered juice press\n5. Fermenter\n6. mill-powered compactor\n7. mill-powered lv generator (todo)\n\nThe water mill works like LV/MV water generator: Placed in moving water the mill creates energy, usable by machines placed on top of water mill.\n\nThe wind mill has to be placed directly on top of the receiver (grinder or press). On the sides and above there are no other nodes allowed (meaning the wind mill has to be sourrunded by air).\n\nThe grinder is designed to grind wheat to flour like the lv/mw grinder craft dust out of ingots. Due to the higher effectiveness you only need 3 wheat to get 1 flour.\n\nThe juice press works analouge to the alloy furnace, beside you are using fruits and enclosures like buckets or bottles. So you need 16 apples and a bucket to get one bucket of apple juice.\n\nThe compactor compress input like pressing grass into charcoal.\n\nWith the fermenter you can create vinegar out of juice/must. It does not use any kind of energy.\n\nIn contrast to the technic the pre electric tier offer no possibility to store energy or to create a energy network. So the energy has to be used, where it is generated. Also they are not as fast as electric powered machines. Depending on (randomly) air/water flow the machines need 25% more time for grinding/juicing.\n\nLV/MV/HV\n---\n\nFor the electric tiers following machines are defined:\n1. juice press\n2. coffee maker (!)\n\nFor the grinder a new recipe is added to enforce a pre-electric grinder to the lv grinder defined by technic mod.\n\nRecipes\n----\n\nThe recipes are laid into an own mod, so that the recipes can be declared later and respect dependencies to other mods.\n\nRecipe types\n----\n\nFollowing types of recipes are defined/used:\n* grinding (from technic): One input -> one output\n* juicing : Two input (fruit and bucket) -> one output\n* fermenter: One input -> one output\n* brewing: Three input (bean, vessel, liquid) -> two output (hot beverage and empty vessel)\n",
-  "maintainers": [
-    "ademant"
-  ],
+  "maintainers": ["ademant"],
   "media_license": "CC-BY-3.0",
   "name": "technic_farming",
-  "provides": [
-    "technic_farming",
-    "tf_coffee",
-    "tf_recipes"
-  ],
+  "provides": ["technic_farming", "tf_coffee", "tf_recipes"],
   "release": 19827,
   "repo": "https://notabug.org/ademant/technic_farming",
   "score": 15.8,
@@ -437,11 +429,7 @@
   ],
   "short_description": "The technic farming modpack extends the technic modpack game with new machines for farming.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "food",
-    "technology"
-  ],
+  "tags": ["crafting", "food", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fa177cb157.png",
   "title": "Technic Farming",
   "translation_url": null,

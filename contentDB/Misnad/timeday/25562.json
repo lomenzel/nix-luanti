@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/Misnad/minetest-mod-timeday/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# TimeDay\n\n**TimeDay** displays current time and days since start on bottom right of screen.",
-  "maintainers": [
-    "Misnad"
-  ],
+  "maintainers": ["Misnad"],
   "media_license": "GPL-3.0-or-later",
   "name": "timeday",
-  "provides": [
-    "timeday"
-  ],
+  "provides": ["timeday"],
   "release": 25562,
   "repo": "https://gitlab.com/Misnad/minetest-mod-timeday",
   "score": 8.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/040601c1df.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/040601c1df.png"],
   "short_description": "Display current time and days since start on bottom right of screen.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/040601c1df.png",
   "title": "TimeDay",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds some stair-like nodes from soft ground nodes (sand, dirt, gravel...) that may change shape automatically according to their surroundings.\n\nThe aim of this mod is to make a visual improvement on the world with more curves and smooth movement not to jump on every little height. The library adds an API to register all the alternative 4 shapes and the change shape behavior with one line of code, while keeping some flexibility for the new nodes.\n\nRegistering a natural slope has the following effects:\n\n* Four new nodes are registered based upon the original node definition: the straight slope, the inner corner, the outer corner and the \"pike\" (slab-like)\n* When the map is generated, the blocks are changed to slopes according to the surrounding and the material hardness (defined when registering the slope)\n* When blocks are placed around slopes, they may update their shape to match the new state\n* Nodes that are just placed may also update their shape to match the surroundings\n* If enabled, walking on edges may update the slope shape\n* If enabled, some node may update from time to time\n\nThis mod doesn't add anything by itself. Check out other mods using the library for effective changes, like naturalslopes_minetest_game.\n\nLinks:\n\n* [Documentation and changelog](https://files.creativekara.fr/minetest/naturalslopeslib/doc/)\n* [All versions](https://files.creativekara.fr/minetest/naturalslopeslib/)\n* Clone the repository: <code>git clone https://files.creativekara.fr/git/naturalslopeslib.git</code>",
-  "maintainers": [
-    "karamel"
-  ],
+  "maintainers": ["karamel"],
   "media_license": "LGPL-2.1-only",
   "name": "naturalslopeslib",
-  "provides": [
-    "naturalslopeslib"
-  ],
+  "provides": ["naturalslopeslib"],
   "release": 12020,
   "repo": null,
   "score": 166.4,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Library to simply add slopes to regular nodes and include them on map generation and when changing the landscape.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mapgen"
-  ],
+  "tags": ["library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4bec765c22.png",
   "title": "Natural slopes library",
   "translation_url": null,

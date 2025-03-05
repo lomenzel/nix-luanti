@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,14 +325,10 @@
   "issue_tracker": "https://github.com/Gerold55/mt_expansion/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "This mod expands on MTG (MineTest Game). \n\nWhat's New!:\n\nColored bookshelves,\nWool stairs,\nColored bricks,\nSlate, Limestone, etc",
-  "maintainers": [
-    "GamingAssociation39"
-  ],
+  "maintainers": ["GamingAssociation39"],
   "media_license": "LGPL-3.0-only",
   "name": "mt_expansion",
-  "provides": [
-    "mt_expansion"
-  ],
+  "provides": ["mt_expansion"],
   "release": 26193,
   "repo": "https://github.com/Gerold55/mt_expansion",
   "score": 163.2,
@@ -344,10 +338,7 @@
   ],
   "short_description": "An expansion for MTG",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/tU8xBma4F8.png",
   "title": "MT Expansion",
   "translation_url": null,
@@ -508,18 +499,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

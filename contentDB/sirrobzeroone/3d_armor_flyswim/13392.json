@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,25 +651,17 @@
   "issue_tracker": "https://github.com/sirrobzeroone/3d_armor_flyswim/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "# Features\n**Animation additions for player_api**   \n* Swimming   \n* Swimming Attacking   \n* Flying   \n* Flying Attacking   \n* Falling   \n* Falling Attacking (okay flailing wildly while you plumet to your death)   \n\n**Supports**\n\n* 3d_armor  \n* simple_skins  \n* skinsdb  \n* clothing  \n\nIncorporates \"headanim\" functionality by LoneWolfHT (Must use MT 5.3 to see/use otherwise auto-disabled)\n\nAutomated detection of Swimmable, Flyable, Climbable nodes, Crouching allows you to duck through spaces 1.5 nodes tall\n\nCapes have also been added as an armor item disabled by default - only 1 demo cape provided if enabled\n# Licence\n* Licence code - LGPL v2.1\n* \"Headanim\" code by LoneWolfHT - MIT Licence                        \n* Cape Textures - CC0                          \n* Blender Model/B3Ds as per base MTG - CC BY-SA 3.0\n* \"3d_armor_trans.png\" CC-BY-SA 3.0\n \n",
-  "maintainers": [
-    "sirrobzeroone"
-  ],
+  "maintainers": ["sirrobzeroone"],
   "media_license": "CC-BY-SA-3.0",
   "name": "3d_armor_flyswim",
-  "provides": [
-    "3d_armor_flyswim"
-  ],
+  "provides": ["3d_armor_flyswim"],
   "release": 13392,
   "repo": "https://github.com/sirrobzeroone/3d_armor_flyswim",
   "score": 1074.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9waaAEfCkP.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9waaAEfCkP.png"],
   "short_description": "Adds Flying and Swimming animations to base character model for 3d_armor",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9waaAEfCkP.png",
   "title": "3D Armor Flyswim",
   "translation_url": null,

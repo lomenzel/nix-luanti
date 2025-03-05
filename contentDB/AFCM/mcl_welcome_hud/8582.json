@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/AFCMS/mcl_welcome_hud/issues",
   "license": "GPL-3.0-only",
   "long_description": "# mcl_welcome_hud\n Add a customisable welcome bossbar in the HUD\n \n **WARNING: this mod only works with [MineClone5](https://content.minetest.net/packages/kay27/mineclone5/) 0.71.5 or above and [MineClone2](https://content.minetest.net/packages/Wuzzy/mineclone2/) master branch**\n \n You can change the default message and color by adding a setting to your `minetest.conf`\n \n* `mcl_welcome_hud.msg=Your message`\n* `mcl_welcome_hud.color=white`\n* `mcl_welcome_hud.timeout=6` \n(A value of 0 make the bar stay in place.)\n\nYou can change these settings from the `Settings` tab.",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "GPL-3.0-only",
   "name": "mcl_welcome_hud",
-  "provides": [
-    "mcl_welcome_hud"
-  ],
+  "provides": ["mcl_welcome_hud"],
   "release": 8582,
   "repo": "https://github.com/AFCMS/mcl_welcome_hud",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/52E2kCJE7l.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/52E2kCJE7l.png"],
   "short_description": "Show welcome bossbar in the HUD",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "multiplayer"
-  ],
+  "tags": ["hud", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/52E2kCJE7l.png",
   "title": "MineClone2 Welcome HUD",
   "translation_url": null,

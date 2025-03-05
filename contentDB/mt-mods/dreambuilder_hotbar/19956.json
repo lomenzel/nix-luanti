@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/mt-mods/dreambuilder_hotbar/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Based on code originally written by Calinou.  Simply do `/hotbar xx` (xx = 1 to 32)",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "dreambuilder_hotbar",
-  "provides": [
-    "dreambuilder_hotbar"
-  ],
+  "provides": ["dreambuilder_hotbar"],
   "release": 19956,
   "repo": "https://github.com/mt-mods/dreambuilder_hotbar",
   "score": 977.7,
@@ -29,9 +24,7 @@
   ],
   "short_description": "Expands the hotbar to up to 32 slots",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nsE0AuPGz1.png",
   "title": "Dreambuilder hotbar expander",
   "translation_url": null,

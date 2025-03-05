@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/josegamestest/gold_hunter/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Gold_hunter\n## Mod minetest to get gold\n\nGold hunter is a simple minigame, the idea is to play a minigame simply from a mod,\nThe challenge level will be the shape of the arena that the player himself can ride.\n\n### Command jose_gold_hunter\nDigitando o comando jose_gold_hunter onde o jogador é modificado e perdera energia ao cair de meio bloco de altura Item, o jogador sera agora um boneco de capacete vermelho a ideia não é alterar minetest, mas apenas dar ao jogador possibilidades de se divertir fazendo modificações na fisica e tornar o desafio mais dificil.\n\n### Item dispenser\nThe mod has a box that the player places on the ground inside the created arena, by clicking on it with the right mouse button to spread items on the map at a random distance and limited to the top of the box.\n\n### Climbing\nAs the player cannot fall from a high block, he must use stairs to climb up and down.\nto climb other high places use a hook\n\n### Hook\nThe player will be able to throw a grappling hook and hang from the ceiling or the side of blocks to climb or drop without taking damage.\nWhen a hook fixes, it extends the ropes, when clicking on the rope with the right button if it is on the ceiling, only the rope will fall and the hook will get stuck on the wall\nTo remove even the hook must be removed by clicking on it and not on the rope, if you remove a hook close to others all will fall, if it is hanging on the rope the player will also fall\n\n### Gold\nGet the gold with the right mouse button, if you click with the left button, the gold will break if it is lost\n\n### Arena\nPara entender melhor o mod criei um mapa para usar com o mod, assim tera um arena simples que pode ser atualisada de acordo com as novidades que surgir",
-  "maintainers": [
-    "joseanastacio"
-  ],
+  "maintainers": ["joseanastacio"],
   "media_license": "MIT",
   "name": "gold_hunter",
-  "provides": [
-    "gold_hunter"
-  ],
+  "provides": ["gold_hunter"],
   "release": 12184,
   "repo": "https://github.com/josegamestest/gold_hunter",
   "score": 150.7,
@@ -449,9 +443,7 @@
   ],
   "short_description": "get gold minigame",
   "state": "APPROVED",
-  "tags": [
-    "puzzle"
-  ],
+  "tags": ["puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e82c54009b.png",
   "title": "Gold Hunter",
   "translation_url": null,

@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/SkyBuilder1717/hardcore_mode/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "This mod just adds Simple Hardcore Mode with hearts. Added [Xban2](https://content.minetest.net/packages/kaeza/xban2/) for bans.",
-  "maintainers": [
-    "SkyBuilder1717"
-  ],
+  "maintainers": ["SkyBuilder1717"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hardcore_mode",
-  "provides": [
-    "hardcore_mode"
-  ],
+  "provides": ["hardcore_mode"],
   "release": 29262,
   "repo": "https://github.com/SkyBuilder1717/hardcore_mode",
   "score": 170.3,
@@ -449,13 +443,7 @@
   ],
   "short_description": "Adds a hardcore mode.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "mini-game",
-    "pvp",
-    "singleplayer",
-    "survival"
-  ],
+  "tags": ["hud", "mini-game", "pvp", "singleplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9beae734f0.png",
   "title": "Hardcore mode",
   "translation_url": null,
@@ -511,9 +499,7 @@
       {
         "is_optional": false,
         "name": "xban2",
-        "packages": [
-          "kaeza/xban2"
-        ]
+        "packages": ["kaeza/xban2"]
       }
     ],
     "kaeza/xban2": []

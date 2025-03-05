@@ -51,26 +51,17 @@
   "issue_tracker": "https://github.com/VoxelForge/vlf_cozy/issues",
   "license": "MIT",
   "long_description": "# VoxelForge Cozy\n\n### What is VoxelForge Cozy ?\n\nIt is a port of (https://content.minetest.net/packages/rudzik8/mcl_cozy/). To Voxelforge\n\n#### What does it do ?\n\nIt adds two commands. /sit and /lay allowing you to sit or lay down",
-  "maintainers": [
-    "VoxelForge",
-    "DragonWrangler"
-  ],
+  "maintainers": ["VoxelForge", "DragonWrangler"],
   "media_license": "MIT",
   "name": "vlf_cozy",
-  "provides": [
-    "vlf_cozy"
-  ],
+  "provides": ["vlf_cozy"],
   "release": 29717,
   "repo": "https://github.com/VoxelForge/vlf_cozy",
   "score": -125.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5152d898ec.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5152d898ec.png"],
   "short_description": "Sit and lay using chat commands",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5152d898ec.png",
   "title": "Voxelforge /sit and lay commands",
   "translation_url": null,

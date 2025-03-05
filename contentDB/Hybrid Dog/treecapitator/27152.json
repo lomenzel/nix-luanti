@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/HybridDog/treecapitator/issues/",
   "license": "MIT",
   "long_description": "When a player digs part of a tree's stem, the whole tree is felled at once.\n\nThere are many settings, for example an option to control whether leaves are\ndropped, too, or only saplings, resembling leafdecay behaviour.\nSupport for moretrees is disabled by default and can be enabled with a setting.\n\nIf players want to dig single trunk nodes instead of whole trees, they can hold\nthe shift key.\nWhen felling a tree, neighbouring trees are detected and left unharmed.",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "CC0-1.0",
   "name": "treecapitator",
-  "provides": [
-    "treecapitator"
-  ],
+  "provides": ["treecapitator"],
   "release": 27152,
   "repo": "https://github.com/HybridDog/treecapitator",
   "score": 173.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dda0f56ab5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dda0f56ab5.png"],
   "short_description": "Fell whole trees at once",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dda0f56ab5.png",
   "title": "TreeCapitator",
   "translation_url": null,

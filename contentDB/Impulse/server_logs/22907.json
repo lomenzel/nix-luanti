@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/server_logs/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Shows server logs to privileged users.\nYou need to add the mod to your 'trusted_mods' for this to work.\nuse setting 'server_logs.log_file' in your minetest.conf to set the path to the log file, otherwise it defaults to \"/var/log/minetest/minetest.log\".",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "server_logs",
-  "provides": [
-    "server_logs"
-  ],
+  "provides": ["server_logs"],
   "release": 22907,
   "repo": "https://github.com/JamesClarke7283/server_logs",
   "score": 4.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/064b4a8f00.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/064b4a8f00.png"],
   "short_description": "Shows server logs to privileged users",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "server_tools"
-  ],
+  "tags": ["complex_installation", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/064b4a8f00.png",
   "title": "Server Logs",
   "translation_url": null,

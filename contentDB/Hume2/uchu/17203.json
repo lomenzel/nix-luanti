@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,9 +325,7 @@
   "issue_tracker": "https://gitlab.com/h2mm/uchu/issues",
   "license": "MIT",
   "long_description": "If you like the mod Underground Challenge (underch), you can use this extension pack. It adds more usages for the new blocks and items in Underground Challenge (underch). It highly depends on which other mods you use, so there are only small separate mods, so you can choose which to turn on.\n\nShort descriptions of each mod:\n\n* bakedeye: Cook an eye in furnace and eat it.\n* bluecheese: Use cheese and mould to craft blue cheese.\n* compressed: Craft 9 cobblestone to 1 compressed cobblestone and vice-versa.\n* condensed: Get one more level of cobblestone compression. Condensed cobblestone is crafted from 9 compressed cobblestone and can be stacked up to 999.\n* froststaff: Use this staff to magically freeze water and lava.\n* gemenergy: This mod is for technic. Recipes for energy crystals and mining lasers now require rubbies, emeralds and saphires.\n* gemtools: Adds tools made of ruby, saphire and emerald\n* gravelcraft: Craft underch stones into gravel. If technic is enabled, grinding works too.\n* octu: A total redo of Octumese mod. Combine two mese crystals and two saphire crystals to make the octu gem. Octu can be used for crafting powerful tools.\n* quartzmese: This mod changes the recipes in mesecons. All recipes involving silicon now use quartz instead.\n* slime_cans: Allow cans from technic to contain slime\n* stonemese: Use underch stones in recipes from mesecons mod.\n* stonetechnic: Use underch stones in recipes from technic mod.\n* tuber_honey: Extract a delicious food from dark tubers.\n* uchu_stone: (not recomended) Allows crafting default stone from any kind of stone. Use this only if you use a mod which cannot work with underch stones.\n* uchutechnic: Adds some recipes involving machines from technic. \n\nLicese:\nEach mod has its own license.\n\n* bakedeye: MIT\n* bluecheese: MIT\n* compressed: MIT\n* condensed: MIT\n* froststaff: MIT\n* gemenergy: MIT\n* gemtools: code: MIT, textures CC-BY-SA 3.0\n* gravelcraft: MIT\n* octu: code: MIT, textures CC-BY-SA 3.0\n* quartzmese: MIT\n* slime_cans: MIT\n* stonemese: MIT\n* stonetechnic: MIT\n* tuber_honey: MIT\n* uchu_stone: MIT\n* uchutechnic: MIT\n\nDependencies:\nEach mod has its own dependencies. All depend on underch. Additional dependencies are:\n\n* bakedeye: (none)\n* bluecheese: mobs_animal\n* compressed: (none)\n* condensed: compressed\n* froststaff: bucket\n* gemenergy: technic\n* gemtools: (none)\n* gravelcraft: technic? compressed?\n* octu: gemtools\n* quartzmese: mesecons_solarpanel?, mesecons_microcontroller?, mesecons_fpga?, mesecons_materials?, mesecons_gates?, mesecons_luacontroller?\n* slime_cans: technic\n* stonemese: mesecons\n* stonetechnic: technic\n* tuber_honey: technic\n* uchu_stone: (none)\n* uchutechnic: technic, ethereal?\n\n",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "MIT",
   "name": "uchu",
   "provides": [
@@ -354,15 +350,10 @@
   "release": 17203,
   "repo": "https://gitlab.com/h2mm/uchu",
   "score": 153.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/mvIhjKrVk4.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/mvIhjKrVk4.jpg"],
   "short_description": "Extend the Underground Challenge by miscelaneous utilities and change some recipes",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/mvIhjKrVk4.png",
   "title": "Utilities for Underch - extension pack",
   "translation_url": null,
@@ -455,9 +446,7 @@
       {
         "is_optional": false,
         "name": "underch",
-        "packages": [
-          "Hume2/underch"
-        ]
+        "packages": ["Hume2/underch"]
       },
       {
         "is_optional": false,

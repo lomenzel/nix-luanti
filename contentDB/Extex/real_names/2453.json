@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Extex101/real_names/issues",
   "license": "MIT",
   "long_description": "# NOTICE:\nI would suggest using the fork [real_names_redo](https://github.com/axcore/real_names_redo)  it has a far better setup and supports more name systems.\n\n# Real Names\nThis is a Mod for [Minetest](https://www.minetest.net/) ( [Github Repo](https://github.com/Minetest/minetest)), that gives realistic name to very player\n\nExample:\n\n*** Sam joined the game.\n\nSam has joined the game for the first time, under the name of 'Jayce Carpenter'\n\nor\n\nSam has joined the game for the first time, under the name of 'Samantha Collins'\n\nThere is a total of 454,000 possible names.\n\n227000 possible boy names and 227000 possible girl names.\n\nView the Minetest forum post here [here](https://forum.minetest.net/viewtopic.php?f=9&t=23729)\n\n\n\n/change | Shows the real_name gender choice formspec to yourself\n\n/change [player] | Shows the real_name gender choice formspec to the chosen player\n\n/change [player] [First name] [Last name] | Changes the chosen players name\n  \n All of the above require the 'change_name' priv",
-  "maintainers": [
-    "Extex"
-  ],
+  "maintainers": ["Extex"],
   "media_license": "MIT",
   "name": "real_names",
-  "provides": [
-    "real_names"
-  ],
+  "provides": ["real_names"],
   "release": 2453,
   "repo": "https://github.com/Extex101/real_names",
   "score": 309.5,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Gives players realistic names when they join, great for role-playing servers!!",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "multiplayer"
-  ],
+  "tags": ["adventure__rpg", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cxzaTjfjWD.png",
   "title": "Realistic Player Names",
   "translation_url": null,

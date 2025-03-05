@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://github.com/mt-historical/music_modpack/issues",
   "license": "GPL-3.0-only",
   "long_description": "# music_modpack\n\n## Overview\nMusic modpack with API for easy in-game music playback and custom track registration.\n\n## Requirements\n\n- Minetest 5.0.0+\n- Minetest_game 5.0.0+\n- [sfinv_buttons](https://repo.or.cz/minetest_sfinv_buttons.git) (Optional, but highly recommended: easy way to open music settings menu)\n\n## Features\n\n- Time-based music\n- Elevation-based music\n- Formspec for music settings\n\n## Settings\nBy default, settings menu is only available with `/musicsettings` command. If you have sfinv_buttons installed, music menu is available in inventory->more->music settings\n\n## Adding your own music\nCall music.register_track() with following definition:\n\n```Lua\nmusic.register_track({\n    name = \"my_track\",\n    length = 200,\n    gain = 1,\n    day = true,\n    night = true,\n    ymin = 0,\n    ymax = 31000,\n})\n```\n\n- name - name of the sound file in your mod sounds folder, without extension (.ogg)\n- length - length of the track in seconds\n- gain - volume, value from 0 to 1\n- day - track will be played at day\n- night - track will be played at night\n- ymin - minimum elevation for track to play\n- ymax - maximum elevation for track to play\n\n## Settingtypes\nAvailable settings that you can put in your minetest.conf directly, or access them via \"Settings->All Settings->Mods->music_modpack\" menu.\n\n```\nmusic_time_interval = integer, Interval between attempts to play music, default is 60\nmusic_cleanup_interval = integer, interval between attempts to clean up player state, default is 5\nmusic_global_gain = float, global music volume, default is 0.3\nmusic_add_random_delay = boolean, if to add a random delay to interval between attempts, default is true\nmusic_maximum_random_delay = - integer, maximum random delay in seconds, default is 30\nmusic_display_playback_messages = boolean, display messages when music starts for a certain player, default is true\n```\n\nMusic packs also provide settingtypes with corresponding height limits.\n\n## Content\nDefault pack features 11 tracks from composer Kevin McLeod. Tracks are split into day tracks and night tracks. If music_dfcaverns is not enabled, night tracks also play underground (up to -31000).  \nMusic_dfcaverns is an additional pack of music for underground layers from [dfcaverns](https://github.com/FaceDeer/dfcaverns/), featuring 13 tracks from composer Kevin McLeod. Tracks split into three categories, each for one cavern layer from dfcaverns, and their heights are set accordingly. Dfcaverns modpack is not required, however, and it is recommended to enable this pack even without dfcaverns, unless client connection speed is an issue.\n\n## License\n\nCode is licensed under GPLv3.  \n\nAll music used in this mod was produced by Kevin McLeod and released under CC BY 4.0. [link to the license](https://creativecommons.org/licenses/by/4.0/).  \nOriginal music can be found [here](https://incompetech.com/music/royalty-free/music.html).",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-4.0",
   "name": "music_modpack",
-  "provides": [
-    "music_api",
-    "music_default",
-    "music_dfcaverns"
-  ],
+  "provides": ["music_api", "music_default", "music_dfcaverns"],
   "release": 25536,
   "repo": "https://github.com/mt-historical/music_modpack.git",
   "score": 659.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2d2bb1e9b2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2d2bb1e9b2.png"],
   "short_description": "Music modpack with API for easy in-game music playback and custom track registration.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "library"
-  ],
+  "tags": ["environment", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2d2bb1e9b2.png",
   "title": "music modpack",
   "translation_url": null,

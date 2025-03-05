@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_stoneblock",
-  "provides": [
-    "mcl_stoneblock"
-  ],
+  "provides": ["mcl_stoneblock"],
   "release": 25168,
   "repo": "https://codeberg.org/cora/mcl_stoneblock",
   "score": 163.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f19fb2dae9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f19fb2dae9.png"],
   "short_description": "The claustrophobic anti-skyblock challenge - everything is there but covered in stone, mine-to-win DO NOT USE WITH EXISTING MAPS!",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f19fb2dae9.png",
   "title": "Mineclonia Stoneblock",
   "translation_url": null,
@@ -84,10 +76,7 @@
       {
         "is_optional": false,
         "name": "mcl_bonus_chest",
-        "packages": [
-          "VoxelForge/voxelforge",
-          "ryvnf/mineclonia"
-        ]
+        "packages": ["VoxelForge/voxelforge", "ryvnf/mineclonia"]
       }
     ]
   },

@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,31 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Melterns is an in-development mod for **Minetest 5.0.0+** that adds molten metals, melting, casting and creating tools.\n\nThis mod is inspired by the Tinkers Construct mod for Minecraft, however it's much less-featured due to the current limitations of the Minetest API.\n\nNone of the components used in this mod have been taken from TC - everything is my original creation.\n\n",
-  "maintainers": [
-    "IcyDiamond"
-  ],
+  "maintainers": ["IcyDiamond"],
   "media_license": "CC-BY-SA-4.0",
   "name": "melterns",
-  "provides": [
-    "fluidity",
-    "metal_melter",
-    "tinkering"
-  ],
+  "provides": ["fluidity", "metal_melter", "tinkering"],
   "release": 955,
   "repo": "https://git.icynet.eu/evert/melterns.git",
   "score": 634.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8uiKzHnTj5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8uiKzHnTj5.png"],
   "short_description": "Tinkers Construct in Minetest!",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "library",
-    "mapgen",
-    "technology",
-    "tools"
-  ],
+  "tags": ["building", "library", "mapgen", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8uiKzHnTj5.png",
   "title": "Melterns",
   "translation_url": null,
@@ -513,16 +497,12 @@
       {
         "is_optional": false,
         "name": "fluid_lib",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       },
       {
         "is_optional": false,
         "name": "fluid_tanks",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       },
       {
         "is_optional": false,

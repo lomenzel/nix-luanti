@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/RisingLeaf/holosurveilance/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "## Holo Surveilance\n\nProvides one new node (holosurveilance:holo) when placed this block will display the heightprofile and all players(red cubes) of a region with 16x16x16 dimensions.\nThe lower corner(min x, min y, min z) of this region can be defined by rightclicking the block, these coordinates are relative to the position of the block and aligned to world coordinates  so it doesnt matter how the block is facing.\n\nThere is also an option to outline the area that gets scanned, this option is available through the same menu as the rest.\n",
-  "maintainers": [
-    "thvk"
-  ],
+  "maintainers": ["thvk"],
   "media_license": "CC-BY-SA-4.0",
   "name": "holosurveilance",
-  "provides": [
-    "holosurveilance"
-  ],
+  "provides": ["holosurveilance"],
   "release": 19006,
   "repo": "https://github.com/RisingLeaf/holosurveilance",
   "score": 935.8,
@@ -29,9 +25,7 @@
   ],
   "short_description": "Observe terrain and players from anywhere.",
   "state": "APPROVED",
-  "tags": [
-    "creative"
-  ],
+  "tags": ["creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4b74145109.png",
   "title": "Holo-Surveilance",
   "translation_url": null,

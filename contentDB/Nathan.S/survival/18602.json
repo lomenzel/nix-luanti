@@ -38,23 +38,17 @@
   "issue_tracker": "https://github.com/NathanSalapat/survival/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# Mod Contributors\nNathan\n\n# Survival\nAdds several survival related items.\n\n## Forum Topic\nhttps://forum.minetest.net/viewtopic.php?f=9&t=11517\n\n## Licensing\nCC0\n\n## Dependencies\n- farming\n- default\n- wool\n- beds\n- thirsty?\n\n\n#\nItems currently included:\nMachete\nBugs/food\nSleeping bags\nLeafy beds\nbarrels, like chests but barrel shapes\n\n#\nPlanned:\nBetter integration with the Thirsty mod\n",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC0-1.0",
   "name": "survival",
-  "provides": [
-    "survival"
-  ],
+  "provides": ["survival"],
   "release": 18602,
   "repo": "https://github.com/NathanSalapat/survival",
   "score": 3.1,
   "screenshots": [],
   "short_description": "Adds several survival related items.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": null,
   "title": "Survival",
   "translation_url": null,
@@ -68,10 +62,7 @@
       {
         "is_optional": false,
         "name": "thirsty",
-        "packages": [
-          "csirolli/thirsty",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["csirolli/thirsty", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,
@@ -285,9 +276,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

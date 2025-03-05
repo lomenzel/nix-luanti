@@ -11,30 +11,17 @@
   "issue_tracker": "https://github.com/Emojigit/langton/issues",
   "license": "MIT",
   "long_description": "# Langton's Ant!\n*See also: [Langton's Ant on Wikipedia](https://en.wikipedia.org/wiki/Langton%27s_ant)*\n\nYeah, Langton's Ant! Place a Langton's Ant Block to start it, rightclick on an Ant to pause it (and to resume it), and dig it to remove it from the world.\n\nYou can have multiple Ants!\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC0-1.0",
   "name": "langton",
-  "provides": [
-    "langton",
-    "lg_mapgen",
-    "startup",
-    "void_hand"
-  ],
+  "provides": ["langton", "lg_mapgen", "startup", "void_hand"],
   "release": 13037,
   "repo": "https://github.com/Emojigit/langton",
   "score": 27.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8cc03e3468.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8cc03e3468.png"],
   "short_description": "Langton's Ant!",
   "state": "APPROVED",
-  "tags": [
-    "oneofakind__original",
-    "simulation",
-    "technology"
-  ],
+  "tags": ["oneofakind__original", "simulation", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8cc03e3468.png",
   "title": "Langton's Ant",
   "translation_url": null,

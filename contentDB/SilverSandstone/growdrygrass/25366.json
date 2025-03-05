@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://codeberg.org/SilverSandstone/growdrygrass/issues",
   "license": "CC0-1.0",
   "long_description": "Grow Dry Grass\n==============\n\nThis mod makes dry grass spread on savanna dirt.\n\nDry grass grows at half the speed of normal grass.",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "growdrygrass",
-  "provides": [
-    "growdrygrass"
-  ],
+  "provides": ["growdrygrass"],
   "release": 25366,
   "repo": "https://codeberg.org/SilverSandstone/growdrygrass",
   "score": 3.9,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Makes dry grass spread on savanna dirt.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "environment"
-  ],
+  "tags": ["decorative", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/87a891a39c.png",
   "title": "Grow Dry Grass",
   "translation_url": null,

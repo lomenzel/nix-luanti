@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,14 +247,10 @@
   "issue_tracker": "https://gitlab.com/freelikegnu/witches/-/issues",
   "license": "MIT",
   "long_description": "# [witches] Witches (Mobs Redo addon) [mod] for Minetest \n\nWitches is copyright 2022 Francisco Athens, Ramona Athens, Damon Athens and Simone Athens\nThe MIT License (MIT)\n\n* code/issue tracking :https://gitlab.com/freelikegnu/witches\n* forum discussion: https://forum.minetest.net/viewtopic.php?t=25084\n* ContentDB: https://content.minetest.net/packages/FreeLikeGNU/witches/\n  \nWitches inhabit the land! They are currently in development but, can already:\n\n* Spawn near wood above ground and in their cottages.\n  \n* Witches have magic!  They will defend themselves and each other against aggressive players and mobs!\n  \n* If you are repeatedly helpful to a witch something good is likely to happen!\n  \n* New Witch cottage code with no additional mod requirements!\n\n* If protector (or similar) mod is available and enabled, Witches will not build in these areas! \n  \n* Chance of cottage to spawn over a dungeon if it is generated near the surface.\n\n* Have a name and origin location which they will tell player.\n\n* Randomly choose hair color and style\n\n* Randomly choose hat style and hat ornaments\n\n* mod_storage (found in the worlds/worldname folder) is now used to seperate customizable content from code updates! \n\n* Witches quest requested items and rewards are now fully customizable in generated mod_storage database!\n\n* Witches cottage funiture can be changed or added via generated mod_storage database!   \n\n* Basic interactivity:\n    will follow player for holding certain items.\n    one of those items they will request with randomly chosen text, if player right clicks\n    if player is holding that requested item and right click witch player will receive a reward!\n    the reward is a personalized tool with increased stats!\n\n## Required Mods:\n* Mobs Redo by TenPlus1 API as of version 20200516: to run\n    * https://forum.minetest.net/viewtopic.php?f=9&t=9917\n    * Mobs Redo git repository:  https://notabug.org/TenPlus1/mobs_redo\n\n## Optional Mods:\n* protector (or similar) - to prevent Witches from placing cottages or spawning in protected areas! \n  \n* Any mobs from any mobs mod attacking Witches may be turned into a sheep!\n\n* Fireflies, vessels, and doors from Minetest Game for certain effects and rewards\n  \n## Licenses of Source Media Files:\n* witches_witch.b3d and witch.blend \n    * copyright 2020 Francisco Athens, Ramona Athens, Damon Athens and Simone Athens\n      Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)\n    * http://creativecommons.org/licenses/by-sa/3.0/\n\n* above meshes based on character from minetest_game\n    * by MirceaKitsune (WTFPL)\n    * https://github.com/minetest/minetest_game/blob/master/mods/default/README.txt#L71\n\n* witches_*.png files and witches_*.xcf files:\n    * copyright 2020 Francisco Athens, Ramona Athens, Damon Athens and Simone Athens\n      Creative Commons  Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) \n    * http://creativecommons.org/licenses/by-sa/3.0/\n\n* sheep.blend, sheep.xcf witches_sheep.b3d, witches_sheep.png witches_sheep_wool.png:\n    * copyright 2020 Francisco Athens\n      Creative Commons  Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) \n    * http://creativecommons.org/licenses/by-sa/3.0/\n\n* sheep.lua code adapted from mobs_animals by TenPlus1 and authors credited in sheep.lua\n  \n* Sound files:\n    witches_magic01.ogg  MATRIXXX_ December 28th, 2018 CC-BY 3.0\n      https://freesound.org/people/MATRIXXX_/sounds/455205/\n\n    witches_magic02.ogg RICHERlandTV January 28th, 2014 CC-BY 3.0\n      https://freesound.org/people/RICHERlandTV/sounds/216089/\n\n    witches_sheep.ogg - zachrau March 6th, 2017 CC0\n      https://freesound.org/people/zachrau/sounds/383144/\n    \n    witches_water.ogg - InspectorJ  March 10th, 2018 CC BY 3.0 \n      https://freesound.org/people/InspectorJ/sounds/421184/\n   \n  Thanks to TenPlus1 for keeping the Mobs_Redo going!\n  Thanks to rubenwardy for awesome help and the Minetest ContentDB\n  Thanks to everyone in the Minetest forums and IRC for just being great!\n  Thanks to ctate for naming the witches first spell \"Yeet\"!\n  Thanks to kristovish for testing and providing crash reports from their live populated server!\n\nGET MINETEST: https://www.minetest.net/\n",
-  "maintainers": [
-    "FreeLikeGNU"
-  ],
+  "maintainers": ["FreeLikeGNU"],
   "media_license": "CC-BY-SA-3.0",
   "name": "witches",
-  "provides": [
-    "witches"
-  ],
+  "provides": ["witches"],
   "release": 22348,
   "repo": "https://gitlab.com/freelikegnu/witches",
   "score": 475.6,
@@ -271,9 +265,7 @@
   ],
   "short_description": "Helpful and unique witches inhabit the land adding a magical touch and interact with player! Work in progress, but playable!",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6pKvpeRDSf.png",
   "title": "Witches",
   "translation_url": null,

@@ -38,26 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "***This mod is for NodeCore only.***\n\nCapture opposing team(s)'s crystals and bring them to yours. Trap your enemies and don't get trapped!\nFight opposing team with complex machines in Nodecorian gameplay.\n# Features:\n* Nice colored crystals, 4 per team.\n* Up to 6 teams, every team has it's own color.\n* No direct PvP, build traps.\n* Map size is limited and has nice neon borders.\n* Democracy: players decide when to start the game, and when to end it.",
-  "maintainers": [
-    "Kimapr"
-  ],
+  "maintainers": ["Kimapr"],
   "media_license": "CC0-1.0",
   "name": "nc_ctf",
-  "provides": [
-    "nc_ctf"
-  ],
+  "provides": ["nc_ctf"],
   "release": 2848,
   "repo": "https://git.minetest.land/Kimapr/nc_ctf/",
   "score": 0.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Robr6FwxAL.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Robr6FwxAL.png"],
   "short_description": "(NOT IN DEVELOPMENT AND IS BAD - DO NOT USE) Capture The Flag for NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "pvp"
-  ],
+  "tags": ["mini-game", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Robr6FwxAL.png",
   "title": "NodeCore CTF",
   "translation_url": null,
@@ -71,18 +62,12 @@
       {
         "is_optional": false,
         "name": "nc_api_craft",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

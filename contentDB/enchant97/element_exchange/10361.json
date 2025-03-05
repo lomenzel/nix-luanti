@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/enchant97/minetest_element_exchange/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Element Exchange\n[![ContentDB](https://content.minetest.net/packages/enchant97/element_exchange/shields/downloads/)](https://content.minetest.net/packages/enchant97/element_exchange/)\n![GitHub license](https://img.shields.io/github/license/enchant97/minetest_element_exchange)\n![GitHub issues](https://img.shields.io/github/issues/enchant97/minetest_element_exchange)\n\nA [Minetest](https://www.minetest.net/) mod to exchange nodes into other nodes. This is mod is inspired by the \"Equivalent Exchange\" mod for Minecraft.\n\n## Stopping Development\nI am no longer working on this project.\n\nAnother user has taken up development of this project and whilst I am not affiliated with this project (nor tested) but seems like a good continuation: <https://content.minetest.net/packages/ThePython/exchangeclone/>.\n\n## Features\n- Orb that holds energy\n- Collector that collects energy from the sun\n- Constructor that can convert one node into different node\n- Deconstructor that can extract energy from a node\n\n## Config\nYou can change the default values in the minetest settings under `mods > element_exchange`.\n\n## License\nCopyright (C) 2021 Leo Spratt\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.",
-  "maintainers": [
-    "enchant97"
-  ],
+  "maintainers": ["enchant97"],
   "media_license": "GPL-3.0-or-later",
   "name": "element_exchange",
-  "provides": [
-    "element_exchange"
-  ],
+  "provides": ["element_exchange"],
   "release": 10361,
   "repo": "https://github.com/enchant97/minetest_element_exchange.git",
   "score": 2.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/899abab567.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/899abab567.png"],
   "short_description": "Exchange nodes into other nodes",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "technology"
-  ],
+  "tags": ["magic", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/899abab567.png",
   "title": "Element Exchange",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/DomtronVox/minetest-SkillsFramework/issues/",
   "license": "MIT",
   "long_description": "SkillsFramework gives modders an API for registering and using skills in Minetest.\n\nSkillsFramework provides an API for creating and managing skills. Modders define skills by providing some basic information like experience cost per level or the max/min level that is attainable. Then collections of unique skill data, called a skillset, can be created at anytime by a modder using an id and a list of skill names. Modders can then manipulate the skillset's skill using a handful of functions rewarding actions with experience.\n\nSkillsFramework is flexible enough that skillsets can be used for individuals, like the player, or groups, like all level 1 skeletons. Modders can also easily use multiple skills for an action or make skills dependent on the successes of other skills. ",
-  "maintainers": [
-    "domtron vox"
-  ],
+  "maintainers": ["domtron vox"],
   "media_license": "MIT",
   "name": "skillsframework",
-  "provides": [
-    "skillsframework"
-  ],
+  "provides": ["skillsframework"],
   "release": 210,
   "repo": "https://github.com/DomtronVox/minetest-SkillsFramework",
   "score": 153.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/sCdbw1andF.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/sCdbw1andF.png"],
   "short_description": "SkillsFramework provides an API for creating and managing skills.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/sCdbw1andF.png",
   "title": "SkillsFramework",
   "translation_url": null,

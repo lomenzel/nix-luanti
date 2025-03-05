@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,14 +338,10 @@
   "issue_tracker": "https://github.com/phseiff/randungeon/issues",
   "license": "AGPL-3.0-only",
   "long_description": "# Randungeon\n\na minetest mod that adds highly randomized (incl. materials used for individual parts of each separate level) dungeons into the world, as well as tools to generate these dungeons at chosen locations with chosen or randomized properties.\n\nPlease note: This manual/README only documents how you can modify dungeon generation and the parts you can modify & influence, but not how generation of individual dungeon part works or all the dungeon offers in regards to dungeon generation apart from that.\n\nSee the \"Some Images\" section at the end of this manual/README for some screenshots of the actual dungeon generation.\n\n## Natural Generation\n\nBy default around every tenth 200x200 block area of the world has one dungeon in it, with its heighest level being at y=-50 and its top starcases reaching the ground.\nThese dungeons can range from 10 to 50 levels deep, weighted towards shallower dephs.\n\nNote that dungeon generation can take many seconds and that during this time many normal operations of ones world (e.g. crops growing) will be blocked.\nYou may consider deactivating dungeon generation (or not playing with this mod) if this bothers you.\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_image_dungeon_generation_settings.png)\n\n\nThere are severals new settings added to the \"All Settings\" page of minetest (under \"Mods -> randungeon\") for this; these being:\n\n`Allow randungeon to generate dungeons naturally in worlds`\n\nEnabled/Disabled depending on whether dungeons should generate naturally within the world anywhere.\nDefaults to `true`. When disabled, dungeons can only be spawned using the tools available in creative mode.\n\n`Worlds for which dungeon generation should be specifically enabled`\n\nComma-separated list of worlds, e.g. \"world1,world2,world3\" for which dungeon generation should be specifically enabled.\nDon't append whitespace that isn't actually there in the world name to the world names in this list.\n  \n`Worlds for which dungeon generation should be specifically disabled`\n\nComma-separated list of worlds, e.g. \"world1,world2,world3\" for which dungeon generation should be specifically disabled.\nDon't append whitespace that isn't actually there in the world name to the world names in this list.\nIf a world name is both in both aforementioned lists we'll apply the default setting to it.\n \n`Chance for a dungeon to be generated per 200x200 block area in percent`\n\nFor every 200x200 block wide chunk of the world there is a chance that a dungeon will be generated in it.\nThis chance can be modified with this option. Must be larger than 0 and not more than 100, since it's in percent.\n\n## Manual Dungeon Generation\n\nWhen you're in creative mode (or have creative privileges) you can alsoc reate dungeons manually, regardless of randungeon's settings in minetest's menu.\n\nThere are items for this (\"Dungeon Spawn Sticks) that you can left-click with to generate a dungeon beneath you, as well as two special inventory tabs (\"Make Dungeon\" and \"Make Dungeon (unrand)\") where you can configure (on a per-player basis) what they can do, none of which are only accessible in creative mode.\n\nSee https://github.com/phseiff/randungeon#manual-dungeon-generation for documentation on these.\n\n### Manual\n\nThere's also a manual item (the gray little book) that you can left-click with to open & read this manual/READMe in-game.\n\n## Nodes\n\nRandungeon strives to not add any survival-mode-obtainable (and ideally no non-technical creative-mode-obtainable) blocks to the game, since it is decidedly not a block mod.\n\nHowever, some blocks still got added:\n\n### Obtainable blocks:\n\n`The five exemplary dungeon part blocks`:\n\nThere is one special block each for pillar, floor, both wall parts and roof of the dungeon. They are colorcoded, labeled, glow in the dark, and are the default blocks for non-randomized dungeon generation via dungeon sticks. They are only obtainable via creatve mode.\n\n`Treasure Blocks`:\n\nThere are Treasure Blocks found in treasure faults when dungeons are naturally generated; these don't have any special proeprties except for remembering & displaying the location they were found at. If natural dungeon generation is disabled, these blocks cannot be naturally found and aren't present in the creative inventory either.\n\nThere are also exemplary Treasure Blocks used as the default value for treasure blocks in manually generated dungeons, which are always present in the creative inventory and don't have any gameplay-enhancing value.\n\n### Unobtainable blocks:\n\n`Doors`:\n\nThe dungeon has doors in it, which are unobtainable in that\n\n• they only drop the block they were made from when dug\n\n• they aren't in the creative inventory\n\n• they consist of multiple parts each in contra-intuitive ways so even getting the item via command doesn't make it easily constructable\n\nThese doors are different from normal minetest game doors in mor eways than just their looks, in that:\n\n• they are double doors with both sides opening\n\n• they come in all different wood materials that the mod uses\n\n• they have a separate doorframe block above them, which comes in all block types that the mod uses\n\n• doorframe and door are dug separately, and don't drop themselves but rather their material, as mentioned above\n\n`Technical blocks`:\n\nThere are some blocks that mimic blocks already present in minetest game, but display alternative behavior, that are used in some part of the dungeon (not necessarily in all parts that the block they mimic is used in, though) such as\n\n• lava whose source block doesn't ignite anything (in rooms with lava pools)\n\n• water that only flows one block wide (in bubble caves with swamps)\n\n• air that emits light (for dungeons that are lit up)\n\n• bookshelfs with book textures on all four sides and with no book inventory (for when dungeon walls are made from bookshelfs)\n\n• permafrost with snow (for snowy bubble caves; unobtainable due to dropping regular permafrost)\n\nNone of these blocks are obtainable without commands; trying to obtain one of them the usual way simply yields the block it is mimiking.\n\n`Very Technical Blocks`:\n\nThere are also some blocks that are placed to mark certain positions during dungeon generation, all of whem get removed at the end of dungeon generation, so you will never get to see them during normal gameplay.\n\n## Some Images\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.1.png)\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.2.png)\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.3.png)\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.4.png)\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.5.png)\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/randungeon_screenshot.6.png)\n\n## Better Gold Blocks\n\nI recommend replacing the `default_gold_block.png` texture in the default mod with the alternative texture provided by this mod, to make treasure rooms/pools look nicer.\n\n![img](https://raw.githubusercontent.com/phseiff/randungeon/main/textures/default_gold_block.png)\n\n^-- the texture in question",
-  "maintainers": [
-    "Phii"
-  ],
+  "maintainers": ["Phii"],
   "media_license": "CC-BY-SA-3.0",
   "name": "randungeon",
-  "provides": [
-    "randungeon"
-  ],
+  "provides": ["randungeon"],
   "release": 21590,
   "repo": "https://github.com/phseiff/randungeon",
   "score": 490,
@@ -361,11 +355,7 @@
   ],
   "short_description": "adds highly randomized vivid dungeons to the world, and tools to spawn/customize them.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "mapgen"
-  ],
+  "tags": ["building", "building_mechanics", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c15976c912.png",
   "title": "Randungeon",
   "translation_url": null,
@@ -545,10 +535,7 @@
       {
         "is_optional": false,
         "name": "biomeinfo",
-        "packages": [
-          "Wuzzy/mineclone2",
-          "Wuzzy/biomeinfo"
-        ]
+        "packages": ["Wuzzy/mineclone2", "Wuzzy/biomeinfo"]
       }
     ],
     "TenPlus1/doors": [

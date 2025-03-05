@@ -25,9 +25,7 @@
   "issue_tracker": "https://github.com/sfence/mesecons/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nMod [Mesecons](https://content.minetest.net/packages/Jeija/mesecons/) modified for [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\nIn github code follow branch [hades_mesecons](https://github.com/sfence/mesecons/tree/hades_mesecons).\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hades_mesecons",
   "provides": [
@@ -67,15 +65,10 @@
   "release": 13026,
   "repo": "https://github.com/sfence/mesecons.git",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7c6f19e751.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7c6f19e751.png"],
   "short_description": "Adds digital circuitry, including wires, buttons, lights, and even programmable controllers for Hades Revisited.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology"
-  ],
+  "tags": ["building", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c6f19e751.png",
   "title": "Mesecons for Hades Revisited",
   "translation_url": null,
@@ -89,58 +82,42 @@
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_glowcrystals",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_doors",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_torches",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_dye",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_materials",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_chests",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

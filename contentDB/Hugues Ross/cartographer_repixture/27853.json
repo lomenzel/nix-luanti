@@ -25,25 +25,17 @@
   "issue_tracker": "https://codeberg.org/HuguesRoss/cartographer-repixture/issues",
   "license": "GPL-3.0-only",
   "long_description": "Example mod for [Cartographer](https://content.minetest.net/packages/Hugues%20Ross/cartographer/) that adds mapmaking to [Repixture](https://content.minetest.net/packages/Wuzzy/repixture/).\n\n# Contact\nFor questions, requests, and other communications regarding this work, you can contact the original creator at huguesross@posteo.com or open an issue on Codeberg.",
-  "maintainers": [
-    "Hugues Ross"
-  ],
+  "maintainers": ["Hugues Ross"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cartographer_repixture",
-  "provides": [
-    "cartographer_repixture"
-  ],
+  "provides": ["cartographer_repixture"],
   "release": 27853,
   "repo": "https://codeberg.org/HuguesRoss/cartographer-repixture",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/VsQz8ajAc2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/VsQz8ajAc2.png"],
   "short_description": "Adds regional maps that you can craft and place (Repixture version)",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/VsQz8ajAc2.png",
   "title": "Cartographer for Repixture",
   "translation_url": null,
@@ -58,16 +50,12 @@
       {
         "is_optional": false,
         "name": "rp_crafting",
-        "packages": [
-          "Wuzzy/repixture"
-        ]
+        "packages": ["Wuzzy/repixture"]
       },
       {
         "is_optional": false,
         "name": "cartographer",
-        "packages": [
-          "Hugues Ross/cartographer"
-        ]
+        "packages": ["Hugues Ross/cartographer"]
       }
     ]
   },

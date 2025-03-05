@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "\nA simple mod which allows player created factions. Not very useful on its own, it becomes very powerful when combined with other mods.\n\n## Usage\nWe can choose a mode : single or multi factions.\nBy default players can only be in one faction at a time. If you want to allow players to join multiple factions at once, add `player_factions.mode_unique_faction = false` to minetest.conf\n\nParameters marked with square brackets ([]) are optional; most of these are only used if mode_unique_faction is false.\n\nThere is an admin privs to enable every functions for every faction : playerfactions_admin\n\n\nThese commands can be used by anyone:\n\n- `/factions create <faction> <password>`: Create a new faction\n- `/factions list`: List available factions\n- `/factions info <faction>`: See information on a faction. For faction with lot of member we can choose the length of the member's list that's going to be shown by adding `player_factions.max_members_list = int` to minetest.conf, default is 50.\n- `/factions player_info <player>` See information on a player : joined, owned and administered factions.\n- `/factions join <faction> <password>`: Join an existing faction\n- `/factions leave [faction]`: Leave your faction\n\nThese commands can only be used by faction owners and players with the playerfactions_admin privilege:\n\n- `/factions kick <player> [faction]`: Kick someone from your faction\n- `/factions disband <password> [faction]`: Disband your faction\n- `/factions passwd <password> [faction]`: Change your faction's password\n- `/factions chown <player> <password> [faction]`: Transfer ownership of your faction\n\nThis command can only be used by players with the playerfactions_admin privilege:\n- `/factions invite <player> <faction>`: Add player to a faction\n\n\n## Translations\n\nIf you know English and another language, please submit a translation! It would be greatly appreciated, and your name will be added to the acknowledgements at the bottom of this page. Thanks!\n\n## Mod integration\n\nThe following mods have optional support for `playerfactions`:\n\n- `areas`: Protect faction territory using areas.\n- `protector`: Allow faction to be added as a member to protection blocks.\n\n### Using `playerfactions` in your own mod\n\nI strongly recommend reading through the `init.lua` file; the functions at the top give you a pretty good idea of how to use it, but just in case you're short on time I'll list the most important functions below.\n\n- `factions.version` is a variable made to check the version of the playerfactions mod to assert compatibility:  \n* factions.version == nil for firsts version of playerfactions mod\n* factions.version == 2 is the first time this variable is added, with adding multi-faction mode\n- `player_is_in_faction(fname, player_name)`: `true` if the player is in the faction, `nil` in other cases (faction or player doesn't exists or player is not a member of the faction)\n- `get_facts()`: Get a copied table with all data. The structure is :\n```\n{[\"name_of_faction1\"]={\n      [\"owner\"]=name_of_the_owner,\n      [\"members\"]={[\"name_of_a_member1\"]=true, [\"name_of_a_member2\"]=true}\n  }}\n```\n- `get_player_faction(player)`: Get a string with the faction a player belongs to, `nil` if they haven't joined a faction. In multi-faction mode, it will return the oldest created faction which player is into. (it's not necessarily the one they joined first. It checks the facts variable from the top)\n- `get_player_factions(player)`: Get a table with the faction(s) a player belongs to, `nil` if they haven't joined a faction. The structure is: {name_of_faction1, name_of_faction2}\n- `get_owned_factions(player)`: Get a table with the faction(s) owned by a player, `nil` if they have the ownership of no faction. The structure is: {name_of_faction1, name_of_faction2}\n- `get_owner(faction)`: Get the owner of a faction\n- `chown(fname, owner)`: Change the owner of a faction\n- `register_faction(faction, player, password)`: Create a new faction\n- `disband_faction(faction)`: Disband a faction\n- `get_password(faction)`: Gets a faction's password\n- `set_password(faction, password)`: Sets a faction's password\n- `join_faction(faction, player)`: Sets the given player as belonging to this faction\n- `leave_faction(faction, player)`: Remove the given player from the specified faction\n\nNote that all of these functions have sanity checks : if faction or player does not exists, it return false. If operation succeed, it return true or the needed value.\n\n## Acknowledgements\n\nMulti-faction mode and various other improvements added by Kalio_42.\n\nThis mod is loosely based off of the (unmaintained) [factions mod made by Jonjeg](https://github.com/Jonjeg/factions).\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-only",
   "name": "playerfactions",
-  "provides": [
-    "playerfactions"
-  ],
+  "provides": ["playerfactions"],
   "release": 29168,
   "repo": "https://github.com/mt-mods/playerfactions/",
   "score": 161.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fde2344ac4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fde2344ac4.png"],
   "short_description": "A simple mod which allows player created factions. Not very useful on its own, it becomes very powerful when combined with other mods.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fde2344ac4.png",
   "title": "Playerfactions",
   "translation_url": null,

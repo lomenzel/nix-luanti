@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/GreenXenith/hexagonal/issues",
   "license": "MIT",
   "long_description": "# Hexagonal #\nA **proof of concept** mod to make non-cube shapes.  \nExpect bugs.\n\nBy default registers a few nodes from existing default nodes.  \nNodes are meshes, so expect frame drops with larger quantities.\n\nInspiration:  \n![Image](https://camo.githubusercontent.com/ab1c74fd52a6b83da7af58ba31adaf6e0a462abc6274b5af93418002fdb8bdf8/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3338343830333138383234303534373835302f3535383232353033333335333233323431342f696d616765302e6a7067)\n\nReality:  \n![Image](https://camo.githubusercontent.com/7173ae14fe1dfcf9615a1979e2d79f9e83e73b4682568bf8f06339a2d4638c00/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3336393132333137353538333138363936342f3535383432343831393636323731363933352f73637265656e73686f745f32303139303332315f3135353931392e706e67)\n",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "hexagonal",
-  "provides": [
-    "hexagonal"
-  ],
+  "provides": ["hexagonal"],
   "release": 1213,
   "repo": "https://github.com/GreenXenith/hexagonal",
   "score": 5.6,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Proof of concept for hexagonal nodes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "oneofakind__original"
-  ],
+  "tags": ["building", "oneofakind__original"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Q95IvviwLJ.png",
   "title": "Hexagonal",
   "translation_url": null,

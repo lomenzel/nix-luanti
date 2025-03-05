@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,14 +338,10 @@
   "issue_tracker": "https://github.com/ExeVirus/smoke_signals/issues",
   "license": "LGPL-3.0-only",
   "long_description": "Signal your friends, or warn your enemies!\n\n### Colors Included\nEvery wool makes a different colored smoke!\n\n### Crafting\nThis is a simple mod, that adds a craftable \"Smoke Fire\", with the following crafting recipe:\n\n| |torch | |\n| -------- | -------- | -------- |\n| stick| torch | stick |\n| cobble| stick | cobble |\n\n### How to use\n\nOnce placed, simply hit the fire with any color wool and... *poof*, a burst of smoke emerges and rises.\n\n### Why wool?\nWell, original smoke signals were done with a blanket covering the fire...\n",
-  "maintainers": [
-    "Just_Visiting"
-  ],
+  "maintainers": ["Just_Visiting"],
   "media_license": "CC-BY-SA-4.0",
   "name": "smoke_signals",
-  "provides": [
-    "smoke_signals"
-  ],
+  "provides": ["smoke_signals"],
   "release": 7772,
   "repo": "https://github.com/ExeVirus/smoke_signals",
   "score": 166.3,
@@ -357,11 +351,7 @@
   ],
   "short_description": "Signal your friends, or warn your enemies!",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "decorative",
-    "jam_weekly_2021"
-  ],
+  "tags": ["adventure__rpg", "decorative", "jam_weekly_2021"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/28673854bc.png",
   "title": "Smoke Signals",
   "translation_url": null,

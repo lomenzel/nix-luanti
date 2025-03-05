@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -223,14 +221,10 @@
   "issue_tracker": "https://github.com/Amaz1/fragments/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Fragments\n**Version 0.1.0**\n\nA mapgen and quests mod.\n\nThis mod adds a new base mapgen (based on a mapgen from the early days of minetest, in the versions 0.2.0) which has \"floatblobs.\" In this first realm, the player has to collect ores and find a tower which will lead him to a new floatlands realm, if he passes the test...\n\nNew means of transport have been added for the floatlands (a bouncing slingshot!) and more are planned. \n\nA goal for the floatlands, forcing the exploration of different biomes, as well as more new, exciting realms are planned for the future. Any suggestions or ideas for new realms are welcome!\n\nThis mod has been developed on minetest 5.7.0-dev, but should work on 5.6.0. It **will not work** on versions under 5.6.0.\n\n\n### Notes\nAs this mod has several lua mapgens (but only one should be working at any one time in singleplayer...), it is fairly slow and can cause severe lag, but from my tests, it remains consistantly playable on singleplayer. \n\nUse the welcome book or /welcome for information about how to start out.\n\n\n### License\nCode: LGPL v2.1\n\nTextures & models: CC BY-SA 3.0\n\nThank you very much to @theraven262 for lots of the textures!\n\nThanks also to paramat for all his help with mapgen, and for his example mods. The code of the floatlands is, for its starting point, based on his [fracture](https://github.com/paramat/fracture) mod.\n\n### Depends:\n- [Biomegen](https://gitlab.com/gaelysam/Biomegen)\n- [Ethereal](https://notabug.org/tenplus1/ethereal)\n- Dependencies in Minetest Game: default, stairs, fire, flowers, butterflies, fireflies\n",
-  "maintainers": [
-    "Amaz"
-  ],
+  "maintainers": ["Amaz"],
   "media_license": "CC-BY-SA-3.0",
   "name": "fragments",
-  "provides": [
-    "fragments"
-  ],
+  "provides": ["fragments"],
   "release": 16379,
   "repo": "https://github.com/Amaz1/fragments.git",
   "score": 4.3,
@@ -242,12 +236,7 @@
   ],
   "short_description": "A mapgen with a goal, with things needed to advance to the next level.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "custom_mapgen",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "custom_mapgen", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9ed7ee23e5.png",
   "title": "Fragments",
   "translation_url": null,
@@ -261,9 +250,7 @@
       {
         "is_optional": false,
         "name": "biomegen",
-        "packages": [
-          "Gael de Sailly/biomegen"
-        ]
+        "packages": ["Gael de Sailly/biomegen"]
       },
       {
         "is_optional": false,
@@ -619,18 +606,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

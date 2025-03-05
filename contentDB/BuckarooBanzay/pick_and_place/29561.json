@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/pick_and_place/issues",
   "license": "MIT",
   "long_description": "Pick and place tool for minetest\n\n# Features\n\n* Select and place areas on the fly\n* Configure an area with \"handles\" to pick and place them quickly\n* Rotation around the y-axis\n\n# Howto\n\nSee: https://github.com/BuckarooBanzay/pick_and_place?tab=readme-ov-file#howto\n\n# Portability\n\nThe placement tool can be shared across worlds if the nodes are available there.\n\n# Limitations\n\nThe schematic data is stored in the tool and may not scale well beyond a certain size\n\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "pick_and_place",
-  "provides": [
-    "pick_and_place"
-  ],
+  "provides": ["pick_and_place"],
   "release": 29561,
   "repo": "https://github.com/BuckarooBanzay/pick_and_place",
   "score": 10.9,
@@ -29,11 +25,7 @@
   ],
   "short_description": "Pick and place utility",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "tools",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/13129f6a8e.png",
   "title": "Pick And Place",
   "translation_url": null,

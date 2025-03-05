@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Truemmerer/invisible-blocks/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# invisible-blocks\nThis mod is intended for server admins. \n\n\nThe blocks prepared by the mod are parts of the MineLife Blocks mod from the following server:\nminelife-minetest.de\n\n## Barriers\nThese can be placed to prevent others from entering an area.\n**!!These blocks can only be removed by World-Edit!!**\n\n## Invisible light sources\n\nThis block can be used to place invisible light sources.\nAs soon as a block is built over it, it disappears.\nYou can thus beautifully illuminate large squares or even buildings.",
-  "maintainers": [
-    "Truemmerer"
-  ],
+  "maintainers": ["Truemmerer"],
   "media_license": "GPL-3.0-only",
   "name": "invisible_blocks",
-  "provides": [
-    "invisible_blocks"
-  ],
+  "provides": ["invisible_blocks"],
   "release": 6135,
   "repo": "https://github.com/Truemmerer/invisible-blocks",
   "score": 4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/DwXKdg5eek.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/DwXKdg5eek.png"],
   "short_description": "Add invisible Blocks",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "server_tools"
-  ],
+  "tags": ["building", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/DwXKdg5eek.png",
   "title": "Invisible Blocks",
   "translation_url": null,

@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,28 +195,17 @@
   "issue_tracker": "https://github.com/KaylebJay/molten_sailor/issues",
   "license": "MIT",
   "long_description": "Molten Sailor\n========================\nBoat for sailing on lava, and armor for diving in lava.\n\nAdaptations of Minetest Game mod Boats, and Spacesuit mod by Thomas Rudin / Buckaroo Banzay\n\nRequires 3d_armor fire protection setting to be set to true (off by default)\n\n\nBoat Controls\n--------\nRight mouse button = Enter or exit boat when pointing at boat.\n\nForward  = Speed up. Slow down when moving backwards.\n\nForward + backward = Enable cruise mode: Boat will accelerate to maximum forward speed and remain at that speed without needing to hold the forward key.\n\nBackward  = Slow down. Speed up when moving backwards. Disable cruise mode.\n\nLeft = Turn to the left. Turn to the right when moving backwards.\n\nRight = Turn to the right. Turn to the left when moving backwards.\n",
-  "maintainers": [
-    "CalebJ"
-  ],
+  "maintainers": ["CalebJ"],
   "media_license": "CC-BY-SA-3.0",
   "name": "molten_sailor",
-  "provides": [
-    "molten_sailor"
-  ],
+  "provides": ["molten_sailor"],
   "release": 16464,
   "repo": "https://github.com/KaylebJay/molten_sailor",
   "score": 11,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f27cd9534a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f27cd9534a.png"],
   "short_description": "Boat for sailing on lava, suit for diving in lava.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival",
-    "tools",
-    "transport"
-  ],
+  "tags": ["player_effects", "survival", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f27cd9534a.png",
   "title": "Molten Sailor by Dokimi",
   "translation_url": null,

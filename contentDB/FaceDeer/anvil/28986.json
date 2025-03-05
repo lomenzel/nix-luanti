@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/anvil/issues/",
   "license": "GPL-3.0-only",
   "long_description": "This anvil (and its associated hammer) allows a player to repair worn tools. Place the worn tool in the anvil's inventory and strike it with the hammer to improve its condition.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "GPL-3.0-only",
   "name": "anvil",
-  "provides": [
-    "anvil"
-  ],
+  "provides": ["anvil"],
   "release": 28986,
   "repo": "https://github.com/minetest-mods/anvil",
   "score": 1289.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/pnXJpIczuQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/pnXJpIczuQ.png"],
   "short_description": "Hammer and anvil for repairing tools",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pnXJpIczuQ.png",
   "title": "Anvil",
   "translation_url": null,

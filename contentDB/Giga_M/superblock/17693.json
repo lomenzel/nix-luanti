@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds invisible and unbreakable blocks - not in inventory, use /giveme\n\nsupertool=  /giveme superblock:supertool\n\nglass = /giveme superblock:glass\n\nstone = /giveme superblock:stone\n\nwood=/giveme superblock:wood\n\nwood acacia=/giveme superblock:woodacacia\n\nwood pine=/giveme superblock:woodpino\n\nleaves=/giveme superblock:leave\n\nair=/giveme superblock:air\n\ntotal air=/giveme superblock:totalair\n\n/giveme superblock:candado or /giveme superblock:candado1",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "CC-BY-SA-3.0",
   "name": "superblock",
-  "provides": [
-    "superblock"
-  ],
+  "provides": ["superblock"],
   "release": 17693,
   "repo": null,
   "score": 4.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/863272a5f0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/863272a5f0.png"],
   "short_description": "Adds invisible and unbreakable blocks - not in inventory, use /giveme",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/863272a5f0.png",
   "title": "super blocks",
   "translation_url": null,

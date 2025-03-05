@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,16 +377,10 @@
   "issue_tracker": "https://github.com/benjaminpants/bens_gear/issues",
   "license": "MIT",
   "long_description": "Ben's Gear is a mod that overhauls the default crafting system. Inspired off of [Silent Gear for Minecraft](https://www.curseforge.com/minecraft/mc-mods/silent-gear), you now craft tools via creating rods and tool heads. If you have them enabled, you can even add charms to boost the stats of your tools even more.\n\nYou can strategize about what rods and pickaxe heads to use, and what charms to use and how they may fit your needs. Maybe you want to stack durability so your tool lasts for a long time. Maybe you want need to create a really weak and fast tool for a quick mining job. Ben's Gear adds an extra layer of complexity to how you craft your tools.\n\nNOTE: The source code link doesn't link to the main repo! It links to the *modpack repo!* [Here](https://github.com/benjaminpants/bens_gear) is the actual repo.\n\nNOTE AGAIN: bens_gear_charms gets an extra charm if you also have bens_gear_bonus_materials ;)\n\n# How do I get started?\nWhen you spawn in a survival world, you should start off with a \"Blueprint Package\". Use it and you'll get a set of blueprints.\n\nEach one says how much material it needs. Of course, you'll need material first, so do your typical Minetest stuff like Mining trees.\n\nOnce you've gotten wood, put in any of the blueprints and the amount of material it requests. It should give you a tool head. You'll now you need to craft a rod.\n\nYou'll have to craft a rod template, since you have no blueprint paper to craft a rod blueprint. Craft a stick then put it into the crafting grid, you'll get two half sticks. Put the two half sticks ontop of eachother and you'll get a rod template.\n\nThen just use the template like you did the blueprint(note: not all materials that can be used as heads can be used as rods and vise versa). Because they are identicle. The only difference is that templates can only be used once.\n\nFinally, put the two rods stacked ontop of eachother in the grid, and put the head at the very top. (Or just 1 rod if its a sword!) \n\nNow you crafted a basic stable wooden tool, if you need more assitance check the craft guide. Which has a bunch of recipes featuring placeholder items.\n\n**You can still craft tools the regular way in a pinch, however they will be incredibly weak!**\n\n# I3 Incompatibility Notice\nSorry but I3 currently does not show items registered during on_mods_loaded for some reason and this is something that I can not fix.\n\n# What about my favorite ore mod? Will that be compatible?\nUnless the mod supports Ben's Gears directly or Ben's Gears supports the mod, yes and no. The mod will function normally, and Ben's Gears will not mess with it. However, that does mean that you won't be able to use any of said mods materials with Ben's Gear.\n\nBen's Gear currently natively supports:\n\n* [Cloud Items](https://content.minetest.net/packages/Panquesito7/cloud_items/)\n\n* [More Ores](https://content.minetest.net/packages/Calinou/moreores/)(Uses were tweaked to be less... insanely overpowered)\n\n* [Nether](https://content.minetest.net/packages/PilzAdam/nether/)(has extra functionality if [Wielded Light](https://content.minetest.net/packages/bell07/wielded_light/) is installed!)\n\n* [Draconis](https://content.minetest.net/packages/ElCeejo/draconis/)\n\n# Why is everything split into multiple mods?\nSimple. Some people may not like some of the mechanics introduced in bens_gear_bonus_materials, and others may not like the magical nature of bens_gear_charms.\n\nAnd some people may want to implement things that those mods implement but better.\n\n# This is really cool! How do I make my mod compatible?\nUhm. Yeah I haven't written proper documenation about the API. The best bet for that right now is to go to the [Github](https://github.com/benjaminpants/bens_gear) and look through stuff like vanilla_materials.lua to see material definitions and rod.lua to see rod definitions. If you want to go through the effort of trying to make a tool that uses Ben's Gear's system, look in pickaxes.lua or any of the other tool luas.\n\n# Does this work outside of Minetest Game?\nNo. Not in its current state. Though you are absolutely free to make a fork that works in whatever game you please.\n\n# Where is Localization Support?\nIn the latest version. No languages have actually been translated yet.",
-  "maintainers": [
-    "missingtextureman101"
-  ],
+  "maintainers": ["missingtextureman101"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bens_gear",
-  "provides": [
-    "bens_gear",
-    "bens_gear_bonus_materials",
-    "bens_gear_charms"
-  ],
+  "provides": ["bens_gear", "bens_gear_bonus_materials", "bens_gear_charms"],
   "release": 13075,
   "repo": "https://github.com/benjaminpants/bens_gear_everything",
   "score": 3,
@@ -400,11 +392,7 @@
   ],
   "short_description": "Attach tool parts to create new tools and add a whole new layer of strategy to your tool crafting!",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival",
-    "tools"
-  ],
+  "tags": ["crafting", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0136f39eeb.png",
   "title": "Ben's Gear",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/citorva/Pillars/issues/new/choose/",
   "license": "AGPL-2.0-only",
   "long_description": "his mod adds pillars from various base nodes like cobblestone or stone bricks. The pillar automatically connects to all other pillars created by Pillars API mod.\n\nIt creates by default pillars based on these nodes:\n\n * stone (with cobble, mossy cobble, brick, block)\n * desert stone (with cobble, brick, block)\n * sandstone (with cobble, brick, block)\n * desert sandstone (with cobble, brick, block)\n * silver sandstone (with cobble, brick, block)\n * obsidian (with brick and block)\n * all woods\n\n",
-  "maintainers": [
-    "citorva"
-  ],
+  "maintainers": ["citorva"],
   "media_license": "AGPL-2.0-only",
   "name": "pillars",
-  "provides": [
-    "pillars"
-  ],
+  "provides": ["pillars"],
   "release": 1547,
   "repo": "https://github.com/citorva/Pillars",
   "score": 14.5,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Add a lot of pillars for fun.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "library"
-  ],
+  "tags": ["building", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xmIOeYOcDL.png",
   "title": "Pillars",
   "translation_url": null,

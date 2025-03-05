@@ -11,23 +11,17 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "Title mod\n\nThis is a mod inspired by the Minecraft /title command\n\n# Commands\n\n- [/title {playername} set {title/subtitle} {text}](#set command)\n- [/title {playername} clear](#clear command)\n- [/title {playername} times {time}](#times command)\n\n---\n\n## set command\n\n> params = {playername} set {title/subtitle} {text}\n\n- playername = name of online player you want to show it\n- title/subtitle = or title (middle screen) or subtitle (above inv)\n- text = the text you want to show\n\n---\n\n## clear command\n\n> params = {playername} clear\n\n- playername = name of online player you want to show it\n- clear = remove all\n\n---\n\n## times command\n\n> params = {playername} times {time}\n\n- playername = name of online player you want to show it\n- time = the time it needs to stay in miliseconds\n\n---",
-  "maintainers": [
-    "Miniontoby"
-  ],
+  "maintainers": ["Miniontoby"],
   "media_license": "The Unlicense",
   "name": "title",
-  "provides": [
-    "title"
-  ],
+  "provides": ["title"],
   "release": 5055,
   "repo": null,
   "score": 150.6,
   "screenshots": [],
   "short_description": "A HUD Title mod",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": null,
   "title": "HUD Title",
   "translation_url": null,

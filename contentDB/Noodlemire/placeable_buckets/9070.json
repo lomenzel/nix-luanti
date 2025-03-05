@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,29 +429,17 @@
   "issue_tracker": "https://github.com/Noodlemire/placeable_buckets/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This is a mod with a fairly specific purpose. In situations where water isn't renewable, such as with the dynamic_liquid mod if that weird damp clay mechanic is disabled. My intention is to create a method of gathering new water, without making it easy to infinitely generate it.\n\nWith this mod, the types of buckets added by the bucket mod will now be placeable as nodes. Once placed, they'll have a few different configurable properties, with the most notable being their ability to collect rain. With the climate_api mod installed, suitably humid conditions will slowly cause empty buckets to fill with water. Once it's full to the brim, you can pick it up and use it like a normal water bucket, or shift-right click to put it back down.\n\nThe other main feature is compatability with a modification I made to the waterworks mod. With it, you can use buckets as inlets simply by putting them on top of pipes. Whenever a bucket attached to a pipe fills up completely, it will send that water through the pipe and out of and outlet. (I had to modify the api to make this possible)\n\nLastly, lava buckets can be used as light sources and, with the entitycontrol api, as incinerators by throwing items into them.\n\nYou can check the included readme for more details about configurations.",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "LGPL-2.1-only",
   "name": "placeable_buckets",
-  "provides": [
-    "placeable_buckets"
-  ],
+  "provides": ["placeable_buckets"],
   "release": 9070,
   "repo": "https://github.com/Noodlemire/placeable_buckets.git",
   "score": 155.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/g503ualu2I.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/g503ualu2I.png"],
   "short_description": "Allows empty buckets to be placed as nodes in order to collect rainwater.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "library",
-    "survival",
-    "technology"
-  ],
+  "tags": ["building", "environment", "library", "survival", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/g503ualu2I.png",
   "title": "Placeable Buckets for Catching Rainwater",
   "translation_url": null,

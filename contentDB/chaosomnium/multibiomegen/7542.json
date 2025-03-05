@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/MistUnky/multibiomegen/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "230 Pseudorandomly Generated Biomes, Trees, Fruits, Ores, Tools, and Liquids\n\n**WARNING: TAKES TIME TO LOAD AND POTENTIALLY TAKES UP RAM: USE WITH CARE**\n\nNOT COMPATIBLE WITH V6 MAPGEN",
-  "maintainers": [
-    "chaosomnium"
-  ],
+  "maintainers": ["chaosomnium"],
   "media_license": "WTFPL",
   "name": "multibiomegen",
-  "provides": [
-    "multibiomegen"
-  ],
+  "provides": ["multibiomegen"],
   "release": 7542,
   "repo": "https://github.com/MistUnky/multibiomegen",
   "score": 316,

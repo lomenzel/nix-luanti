@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/purplesena/Lakemaker-Mod/issues/new/choose/",
   "license": "MIT",
   "long_description": "~ Lakemaker Mod for Minetest ~\n~ Version 1.0 ~\n\n~ License of mod code and textures: MIT ~\n\n~ License of sounds:\n- nuke_explode.ogg: Jose Ortiz 'MindChamber' (CC0)\n- nuke_ignite.ogg: Wuzzy's derivative work of a sound by Ned Bouhalassa (CC0)\n\t<https://freesound.org/people/Ned%20Bouhalassa/sounds/8320/> ~\n\n~ Most of the code is from the Nuke Mod made by sfan5, not mine, I simply made some changes so it creates a lake instead of a hole. ~\n",
-  "maintainers": [
-    "sunnysideup"
-  ],
+  "maintainers": ["sunnysideup"],
   "media_license": "CC0-1.0",
   "name": "lakemaker",
-  "provides": [
-    "lakemaker"
-  ],
+  "provides": ["lakemaker"],
   "release": 7149,
   "repo": "https://github.com/purplesena/Lakemaker-Mod",
   "score": -127.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/P1i7Jr4xtm.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/P1i7Jr4xtm.png"],
   "short_description": "A TNT block that makes lakes/bodies of water.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/P1i7Jr4xtm.png",
   "title": "Lakemaker Mod",
   "translation_url": null,

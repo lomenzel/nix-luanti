@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,28 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/pathv7/issues",
   "license": "LGPL-2.1-only",
   "long_description": "pathv7 by paramat, forked and edited by Emoji\nFor Minetest 0.4.13 and later\nDepends on default stairs\nLicenses: Code LGPLv2.1, textures CC BY-SA 3.0\nSee license.txt for license information\n\nUse with mapgen v7 only.\nCreates a worldwide network of paths, bridges and tunnels.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "pathv7",
-  "provides": [
-    "pathv7"
-  ],
+  "provides": ["pathv7"],
   "release": 8135,
   "repo": "https://github.com/C-C-Minetest-Server/pathv7",
   "score": 1279.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/30955aaede.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/30955aaede.png"],
   "short_description": "Creates a worldwide network of paths, bridges and tunnels.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "decorative",
-    "mapgen",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "decorative", "mapgen", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/30955aaede.png",
   "title": "pathv7 redo! (Mapgen V7 only)",
   "translation_url": null,
@@ -533,18 +520,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

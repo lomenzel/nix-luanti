@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/RisingLeaf/spacetest/issues/new/choose/",
   "license": "MIT",
   "long_description": "### Space Test\n\nA game about mining in space, for now early development stage but functional.\n\nYou mine asteroids, shoot down aliens and expand your base.\nDetailed description of how to play can be found in the inventory.\n\n#### Current Features:\n* Energy: your spaceship runs on energy, energy gets used when attacking but also when enemies attack, once it runs out you die (dying right now has no threat at all, will be implemented later)\n* Mining: you can mine asteroids by shooting at them\n* Building: use mined asteroids to build various(ahem four) structures, including, a base metall which is needed because other structure have to be placed on top of it, an energy core which will recharge your energy,  a defense turret that shoots nearby enemies, a reasearch facility that will increase your research progress over time\n* Research: gets leveled up by research facilities, leveling gets slower over time, new levels will boost certain parts of the game(right now only two levels)\n\n#### Planned Features:\n* Expanding the research mechanic\n* More asteroid types\n* More enemy types\n* More structures\n* More envoirement features\n* (will take a while to get here) a goal, which will be building a hyperspace gate to get back home\n\n#### The Envoiremental Update (0.2.0):\n* Black Holes (very seldom)\n* Meteors (faster unminable asteroids that have some particle effects applied)\n* seldom envoiremental clouds\nother:\n* turrets are now available for build\n",
-  "maintainers": [
-    "thvk"
-  ],
+  "maintainers": ["thvk"],
   "media_license": "CC-BY-SA-4.0",
   "name": "spacetest",
-  "provides": [
-    "st_core",
-    "st_nodes"
-  ],
+  "provides": ["st_core", "st_nodes"],
   "release": 25503,
   "repo": "https://github.com/RisingLeaf/spacetest",
   "score": 32.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/96089ef470.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/96089ef470.png"],
   "short_description": "A mining game but in space",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "singleplayer"
-  ],
+  "tags": ["pve", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/96089ef470.png",
   "title": "Space Test",
   "translation_url": null,

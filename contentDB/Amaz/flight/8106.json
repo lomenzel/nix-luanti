@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/Amaz1/flight/issues/new/choose/",
   "license": "MIT",
   "long_description": "##Flight: A modpack for Minetest\n###Intro:\nThis modpack is currently made made up of three mods: wings, jetpack and flyingcarpet!\nTwo of these mods have a dependency on [Wuzzy's playereffects mod](https://forum.minetest.net/viewtopic.php?f=11&t=9689)\nAll of the mods can be configured extensively through the config.lua file found in each mod.\n\nLook at the readme's of the mods for more info.\n",
-  "maintainers": [
-    "Amaz"
-  ],
+  "maintainers": ["Amaz"],
   "media_license": "MIT",
   "name": "flight",
-  "provides": [
-    "flyingcarpet",
-    "jetpack",
-    "wings"
-  ],
+  "provides": ["flyingcarpet", "jetpack", "wings"],
   "release": 8106,
   "repo": "https://github.com/Amaz1/flight",
   "score": 169.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/87a692a49d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/87a692a49d.png"],
   "short_description": "Adds three different methods of flying, wings, jetpacks and flying carpets.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/87a692a49d.png",
   "title": "Flight",
   "translation_url": null,

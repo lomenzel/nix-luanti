@@ -25,9 +25,7 @@
   "issue_tracker": "https://github.com/sirrobzeroone/DungeonSoup/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "A texture pack that started off based on the textures that were created for Dungeon Crawl Stone Soup and then added to over time. \n\nVersion 1 - Broth Soup covers the below mods almost 100% and includes around  1400 images, I will keep working but it wont be a fast process.\n\n\n\n|  |  |  |  |  |\n| -------- | -------- | -------- |-------- |-------- |\n| 3d_armor     | 3d_armor_shields | awards      | basic_materials | bedrock     |\n| bedrock2     | beds_bed         | binoculars  | boats           | bonemeal    |\n| bones        | buckets          | butterflies | carts           | creative    |\n| default      | doors            | dye         | ethereal        | farming     |\n| farming_redo | fire             | fireflies   | flowers         | itemframes  |\n| keys         | map              | menu        | minimap         | mobs_animal |\n| mobs_redo    | moreblocks       | moreores    | nextgen_bedrock | pbj_pup     |\n| pigiron      | player_api       | protector   | screwdriver     | stairs      |\n| sun_moon     | tnt              | vessels     | wool            | worldedit   |\n| xpanes       |                  |             |                 |             |    \n\n\n\n**Notes  **     \n\n* awards is covered although I supplied those textures to the awards mod directly long ago, I do need to make some new ones to cover new awards.       \n\t\n* 3d_armor, curently missing nether armor and re-inforced shields",
-  "maintainers": [
-    "sirrobzeroone"
-  ],
+  "maintainers": ["sirrobzeroone"],
   "media_license": "CC0-1.0",
   "name": "dungeonsoup",
   "provides": [],
@@ -42,9 +40,7 @@
   ],
   "short_description": "CC0 32x texture pack",
   "state": "APPROVED",
-  "tags": [
-    "32px"
-  ],
+  "tags": ["32px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/de9a58de23.png",
   "title": "Dungeon Soup",
   "translation_url": null,

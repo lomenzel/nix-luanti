@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/terraria/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Atlante created this Mod a while ago, but he hasn't had time to release it. I love what it adds to Minetest so much that I asked him if I could release it to the community until he gets around to releasing it (which seems like it might be a very long time). He calls it TerraRia. I call it Better Biomes because it takes the empty boring biomes of Minetest and makes them more interesting, and adds interesting beautiful biomes of its own. It makes playing Minetest like you are in a more real living world.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-3.0",
   "name": "terraria",
-  "provides": [
-    "terraria"
-  ],
+  "provides": ["terraria"],
   "release": 22138,
   "repo": "https://github.com/Neuromancer56/terraria",
   "score": 176.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/703b532965.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/703b532965.png"],
   "short_description": "This mod adds some of the subtle understated beauty of nature to your biomes to make the world look more natural.   It was created by Atlante.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/703b532965.png",
   "title": "Better Biomes by Atlante",
   "translation_url": null,

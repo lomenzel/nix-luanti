@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/mover/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Mover\nA Minetest mod which adds a tool that makes moving nodes containing metadata such as chests and protection blocks extremely simple.\n\nThe tool abides by protection rules, including owner metadata and the `protection_bypass` priv.\n\nIt copies all node metadata to the tool on left click and on rightclick places the node and copies metadata over to the node. Including inventories.\n\nSince the device uses the on_place function there is no worrying about unconfigured nodes (such as protection blocks without owners).",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "MIT",
   "name": "mover",
-  "provides": [
-    "mover"
-  ],
+  "provides": ["mover"],
   "release": 676,
   "repo": "https://github.com/ChimneySwift/mover",
   "score": -140,
   "screenshots": [],
   "short_description": "Adds a tool that makes moving nodes containing metadata such as chests and protection blocks extremely simple.",
   "state": "APPROVED",
-  "tags": [
-    "tools",
-    "world_tools"
-  ],
+  "tags": ["tools", "world_tools"],
   "thumbnail": null,
   "title": "Mover",
   "translation_url": null,

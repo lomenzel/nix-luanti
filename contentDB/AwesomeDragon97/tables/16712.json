@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This is a simple mod that adds wooden tables.\n\nIt should work with all mods that add wood types provided that they do it properly.\n\nTo craft tables,  arrange five wood planks in a T shape.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "LGPL-3.0-only",
   "name": "tables",
-  "provides": [
-    "tables"
-  ],
+  "provides": ["tables"],
   "release": 16712,
   "repo": null,
   "score": 6,
@@ -448,10 +442,7 @@
   ],
   "short_description": "A simple mod that adds decorative wooden tables.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/49e7568b63.png",
   "title": "Tables",
   "translation_url": null,

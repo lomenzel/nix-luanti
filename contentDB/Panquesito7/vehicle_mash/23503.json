@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,25 +390,17 @@
   "issue_tracker": "https://github.com/minetest-mods/vehicle_mash/issues",
   "license": "WTFPL",
   "long_description": "## **Want to use this mod for API purposes? Enable the [API mode](https://github.com/minetest-mods/vehicle_mash/commit/6b3bdac4d880a6fde298a286b3bd5043750e904e) in your Minetest settings!**\n\nAdds many types of vehicles.\n\n- Current version: 2.4.0\n- By [blert2112](https://github.com/blert2112), and handed over to [Panquesito7](https://github.com/Panquesito7).\n\nA merge of all the vehicles from:\n\n-  \"Mesecars\" by paramat.\n- \"Car\" by Esteban.\n- \"Boats\" by PilzAdam.\n- \"Hovercraft\" by Stuart Jones.\n\n- 28 vehicles currently.\n- All CAR01's can carry 3 passengers.\n\n- Disable vehicles by going to your Minetest Settings.\n-  Adding new vehicles is a simple matter of:\n\t- Create/acquire vehicle model and textures.\n\t- Create, and name appropriately, a new `.lua` file on its appropiate folder for the vehicle based on one of the existing ones.\n\t- Add a setting in `settingtypes.txt` for users to enable/disable it.\n\t- Change settings in the file you created to reflect the new vehicle.\n  - Add a new line to `init.lua` to load the vehicle `dofile(minetest.get_modpath(\"vehicle_mash\") .. \"/NAME_OF_VEHICLE.lua\")`\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "CC-BY-NC-SA-3.0",
   "name": "vehicle_mash",
-  "provides": [
-    "vehicle_mash"
-  ],
+  "provides": ["vehicle_mash"],
   "release": 23503,
   "repo": "https://github.com/minetest-mods/vehicle_mash",
   "score": 1.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/IXsbe9UuMt.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/IXsbe9UuMt.png"],
   "short_description": "Adds many types of vehicles: cars, boats, hovercrafts and more.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/IXsbe9UuMt.png",
   "title": "Vehicle Mash",
   "translation_url": null,
@@ -526,9 +516,7 @@
       {
         "is_optional": false,
         "name": "lib_mount",
-        "packages": [
-          "Panquesito7/lib_mount"
-        ]
+        "packages": ["Panquesito7/lib_mount"]
       },
       {
         "is_optional": false,

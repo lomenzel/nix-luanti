@@ -1,8 +1,6 @@
 {
   "author": "Nazalassa",
-  "content_warnings": [
-    "gore"
-  ],
+  "content_warnings": ["gore"],
   "created_at": "2024-12-08T15:46:02.037613",
   "dev_state": "MAINTENANCE_ONLY",
   "donate_url": null,
@@ -27,14 +25,10 @@
   "issue_tracker": null,
   "license": "GPL-2.0-or-later",
   "long_description": "Adds eyeballs that can be used as wagons on Advtrains tracks. That's it. (that's a stupid mod isn't it?)",
-  "maintainers": [
-    "Nazalassa"
-  ],
+  "maintainers": ["Nazalassa"],
   "media_license": "GPL-2.0-or-later",
   "name": "eyeball_train",
-  "provides": [
-    "eyeball_train"
-  ],
+  "provides": ["eyeball_train"],
   "release": 28809,
   "repo": null,
   "score": 4.1,
@@ -58,23 +52,17 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "eb_eyeballs",
-        "packages": [
-          "Wuzzy/eyeballs"
-        ]
+        "packages": ["Wuzzy/eyeballs"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

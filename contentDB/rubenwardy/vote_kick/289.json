@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/rubenwardy/vote_kick/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "",
-  "maintainers": [
-    "rubenwardy"
-  ],
+  "maintainers": ["rubenwardy"],
   "media_license": "LGPL-2.1-only",
   "name": "vote_kick",
-  "provides": [
-    "vote_kick"
-  ],
+  "provides": ["vote_kick"],
   "release": 289,
   "repo": "https://github.com/rubenwardy/vote_kick",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/35050153d8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/35050153d8.png"],
   "short_description": "Adds kick voting using the vote API",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/35050153d8.png",
   "title": "Kick Vote",
   "translation_url": null,
@@ -45,9 +36,7 @@
       {
         "is_optional": false,
         "name": "vote",
-        "packages": [
-          "rubenwardy/vote"
-        ]
+        "packages": ["rubenwardy/vote"]
       }
     ]
   },

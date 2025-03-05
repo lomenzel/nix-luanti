@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Bituvo/markdown_poster/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Markdown Poster\n\n**IMPORTANT:** Install [this markdown2formspec mod](https://github.com/exevirus/markdown2formspec) and not the one from ContentDB.\n\nThis mod adds a markdown-capable variant to the poster from display modpack.\n\nFor more information about display modpack, see the [mod on ContentDB](https://content.minetest.net/packages/mt-mods/display_modpack/).\n\n**Dependencies**: `signs_api`, `markdown2formspec`\n\n**License**: LGPL (code)\n\n## Recipe\n\nCombine a normal poster and a mese crystal.",
-  "maintainers": [
-    "Thresher"
-  ],
+  "maintainers": ["Thresher"],
   "media_license": "LGPL-3.0-only",
   "name": "markdown_poster",
-  "provides": [
-    "markdown_poster"
-  ],
+  "provides": ["markdown_poster"],
   "release": 21967,
   "repo": "https://github.com/Bituvo/markdown_poster",
   "score": 2.3,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds a markdown variant to the signs mod (from display modpack)",
   "state": "APPROVED",
-  "tags": [
-    "gui"
-  ],
+  "tags": ["gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5563ea6051.png",
   "title": "Markdown Poster",
   "translation_url": null,

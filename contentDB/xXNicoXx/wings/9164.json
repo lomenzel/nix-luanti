@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/NoNameDude/Minetest-wings/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Minetest-wings\n\n#This mod allows players to fly (perfect privs handeling)\nCommands /wings_effect playername on off if your like to perm fly or someone else to perm fly turn it to on!\n",
-  "maintainers": [
-    "xXNicoXx"
-  ],
+  "maintainers": ["xXNicoXx"],
   "media_license": "MIT",
   "name": "wings",
-  "provides": [
-    "wings"
-  ],
+  "provides": ["wings"],
   "release": 9164,
   "repo": "https://github.com/NoNameDude/Minetest-wings",
   "score": 176.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/gAH9nGG1zX.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/gAH9nGG1zX.png"],
   "short_description": "Wings is a mod whiche allows server owners to give players fly privs while holding the wings (Like binoculars) made by xXNicoxx",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "player_effects",
-    "survival"
-  ],
+  "tags": ["building_mechanics", "player_effects", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/gAH9nGG1zX.png",
   "title": "Wings",
   "translation_url": null,

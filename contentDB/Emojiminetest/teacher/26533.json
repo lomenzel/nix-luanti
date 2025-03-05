@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/teacher/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Teacher: Minetest Tutorial API and Interface\n\nThis mod provides an API and user interface for handling tutorials. This mod got inspiration from [GSI's tutorial system](https://genshin-impact.fandom.com/wiki/Tutorial) and shared similar designs.\n\nThe API is documented as Lua Language Server annotations. An example of registering tutorials can be found in the shipped example mod, `teacher_tutorial_self`.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "teacher",
-  "provides": [
-    "teacher_core",
-    "teacher_tutorial_self"
-  ],
+  "provides": ["teacher_core", "teacher_tutorial_self"],
   "release": 26533,
   "repo": "https://github.com/C-C-Minetest-Server/teacher",
   "score": 15.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9d8ae86fa6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9d8ae86fa6.png"],
   "short_description": "Turotial API",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "library"
-  ],
+  "tags": ["education", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9d8ae86fa6.png",
   "title": "Teacher",
   "translation_url": null,
@@ -46,20 +36,14 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/teacher": [
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
@@ -75,17 +59,12 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "LMD/modlib": [],

@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/boulders/issues",
   "license": "MIT",
   "long_description": "Boulders mod Copyright (c) 2024 Neuromancer\n\n-------------------------------------------------------------------------------\n\nLicenses: \n\nCode: MIT\nTexture and models: CC BY-SA 3.0\n\nsee LICENSE.txt\n\n-------------------------------------------------------------------------------\n\nThis mod adds boulders which are found in dirt and stone.  When they fall they cause sigificant harm to the player.  Boulders can be pushed/rolled to a new location.  When a boulder winds up on top of another boulder, it tumbles off of it.  You can craft them into stone and vice versa.   You could try creating traps to drop boulders on mobs or other players.  You can use the dirt_tunneler mod to find them more quickly.\nThis mod can be used stand alone, but the intent was to introduce some of the fun of the 1984 game Boulder Dash.  If you want that, then you should also install the mod boulder_dig.  \n\nThere are also boulder dropper nodes that spawn falling boulders beneath them every few seconds.  If boulders fall in lava they melt.\n\n### Boulder Dash: The original game.\n\nBoulder Dash  gameplay can be seen here: https://www.youtube.com/watch?v=FiEVfa1OK_o&t=530s&pp=ygUMYm91bGRlciBkYXNo\n\nThe plan is to have all of these \"boulder_dig\" mods function as stand alone mods so that they can combined in other ways with other mods to work with and create other games.\n\nFrom [Wikipedia] https://en.wikipedia.org/wiki/Boulder_Dash_(video_game) :\n\n> Boulder Dash takes place in a series of caves, each of which is laid out as rectangular grid of blocks. The player guides the player character, Rockford, with a joystick or arrow keys. In each cave, Rockford has to collect as many diamonds as are needed and avoid dangers, such as falling rocks. When enough diamonds have been collected, the exit door opens, and going through this exit door completes the cave.\n\t \nYou can play it here:  https://boulder-dash.com/online-free-game/\n\nHave fun!",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "boulders",
-  "provides": [
-    "boulders"
-  ],
+  "provides": ["boulders"],
   "release": 25842,
   "repo": "https://github.com/Neuromancer56/boulders",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7800a3b75a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7800a3b75a.png"],
   "short_description": "Adds pushable boulders which spawn in dirt & stone.   They tumble when they wind up on top of each other and cause damage when they fall on you.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7800a3b75a.png",
   "title": "Boulders",
   "translation_url": null,
@@ -58,9 +49,7 @@
       {
         "is_optional": false,
         "name": "falling_item",
-        "packages": [
-          "TenPlus1/falling_item"
-        ]
+        "packages": ["TenPlus1/falling_item"]
       },
       {
         "is_optional": false,
@@ -107,9 +96,7 @@
       {
         "is_optional": false,
         "name": "node_touch_action",
-        "packages": [
-          "Neuromancer/node_touch_action"
-        ]
+        "packages": ["Neuromancer/node_touch_action"]
       }
     ],
     "Neuromancer/node_touch_action": [],

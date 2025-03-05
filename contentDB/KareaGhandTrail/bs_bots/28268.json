@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Bots for BlockAssault.\nThis is a mod that adds bots to the game, for training.\n\nBots has:\n\n1. Many favorite weapons\n\n2. Path finder\n\n3. Who to kill\n\n4. His own currency (to dont conflict with **bs_bank**)\n\n5. Hunter\n\n6. Advanced movements system\n\n7. His own PvB engine (to dont conflict with **bs_pvp_engine**)\n\n8. His Match core (to dont conflict with **bs_core:match_core**)\n\n9. His own bullet mechanism\n\nOverrides:\n\n* Match core **(bs_core)**\n\n* PvP Engine\n\n* BAS helpers\n\n* BAS core functions\n\nPlease report any issue/crash from this mod in issues!\n\n",
-  "maintainers": [
-    "KareaGhandTrail"
-  ],
+  "maintainers": ["KareaGhandTrail"],
   "media_license": "MIT",
   "name": "bs_bots",
-  "provides": [
-    "bs_bots"
-  ],
+  "provides": ["bs_bots"],
   "release": 28268,
   "repo": "https://github.com/EISHU-MT/bs_bots",
   "score": 6,
@@ -44,12 +40,7 @@
   ],
   "short_description": "Add bots to your game for training",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "pve",
-    "shooter",
-    "strategy_rts"
-  ],
+  "tags": ["library", "pve", "shooter", "strategy_rts"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f3a5cb417a.png",
   "title": "CSMT Bots (Obsolete)",
   "translation_url": null,
@@ -63,9 +54,7 @@
       {
         "is_optional": false,
         "name": "bs_core",
-        "packages": [
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["KareaGhandTrail/block_assault"]
       },
       {
         "is_optional": false,
@@ -78,9 +67,7 @@
       {
         "is_optional": false,
         "name": "bs_configuration",
-        "packages": [
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["KareaGhandTrail/block_assault"]
       }
     ]
   },

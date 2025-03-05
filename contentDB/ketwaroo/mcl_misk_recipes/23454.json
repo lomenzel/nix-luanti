@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/ketwaroo/minetest-mcl-misk-recipes/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "This is a companion mod for [k_recyclebin](https://content.minetest.net/packages/ketwaroo/k_recyclebin/)\n\nAnd no it's not a typo. `misk` instead of `misc` to keep up the `k` naming theme of my mods and to avoid collisions in case someone else comes up with an actually useful list of miscellaneous recipes in the future.\n\n### But, Why?\n\nIn `mineclonia`, and other minecraft clones, there are many items that can be found in the wild that cannot be crafted.\n\nFor example, saddles and various horse armors.\n\nIf you are using the recycle bin in `k_recyclebin`, it sets a damper on things to discover that you cannot break down those items and have to resort to having a lava pool in your back yard, use them as really inadequate fuel sources, or even toss em down a chasm somewhere.\n\nIt is a limited use mod but it adds the options to get some useful materials out of these misc items.\n\n### Recipes included\n\nThese are best guess recipes. I've taken some liberties here.\n\n * Saddle `mcl_mobitems:saddle`\n * ~~leather horse armor~~ doesn't exist in mineclonia right now. It should though. Will investigate later if bored.\n * Iron Horse Armor `mcl_mobitems:iron_horse_armor`\n * Golden Horse Armor `mcl_mobitems:gold_horse_armor`\n * Diamond Horse Armor `mcl_mobitems:diamond_horse_armor`\n * Various records `mcl_jukebox:record_*` (see notes below)\n * A few rare heads (disabled by default)\n * Cherry blossom pink petals -> pink dye.\n\nCheck settings for this mod to enable/disable a few things.\n\n## IMPORTANT\n\n### Mineclone 2 not technically supported.\n\nMineclone 2/5 not supported. I don't have those installed locally, at least for now. I prefer the cherry blossom biomes of Mineclonia way more, and so should you. Many of the item names are shared between those minecraft clones so it may work to some extent. Supply a pull request if something is broken on your end in Mineclone 2.\n\n### Jukebox records (and other randomness)\n\nSome items like vinyl records never had any business being craftable. To be able to differentiate between each record, some random craft item is used in each recipe. Because I'm lazy and there's nothing you can do to stop me, the randomness is programmatic and determined at load time. So each time you create a server, the recipe for each record can be different from last time.\n\nCurrently limited to music records but there may be other non craftables that will use the same strategy.\n",
-  "maintainers": [
-    "ketwaroo"
-  ],
+  "maintainers": ["ketwaroo"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_misk_recipes",
-  "provides": [
-    "mcl_misk_recipes"
-  ],
+  "provides": ["mcl_misk_recipes"],
   "release": 23454,
   "repo": "https://github.com/ketwaroo/minetest-mcl-misk-recipes",
   "score": 167.1,
@@ -55,9 +51,7 @@
   ],
   "short_description": "Recipes for saddle, horse armors, and other uncraftables for mineclonia. Companion mod for k_recyclebin.",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f0854d4f5c.png",
   "title": "Unsolicited Crafting Recipes for Mineclonia",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Speed Manipulation\nChange your movement speed. In order to run any of the commands, you will need the `change_speed` privilege. There are also some settings which you can change.\n## Commands\nTo set your speed, run: `/set_speed <speed>` where `<speed>` is a number determining your movement speed.\nTo reset your speed to default: `/reset_speed`.\n## Note\nAfter death the speed will reset.",
-  "maintainers": [
-    "Volik"
-  ],
+  "maintainers": ["Volik"],
   "media_license": "MIT",
   "name": "speed_manipulation",
-  "provides": [
-    "speed_manipulation"
-  ],
+  "provides": ["speed_manipulation"],
   "release": 22425,
   "repo": null,
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3dd331e75f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3dd331e75f.png"],
   "short_description": "Change your speed!",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "player_effects",
-    "singleplayer"
-  ],
+  "tags": ["multiplayer", "player_effects", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3dd331e75f.png",
   "title": "Speed Manipulation",
   "translation_url": null,

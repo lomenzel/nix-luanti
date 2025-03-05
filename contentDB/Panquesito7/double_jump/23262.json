@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/Panquesito7/minetest-double_jump/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds the ability to **double jump** in Luanti!<br>\nThis can ultimately improve your experience in a few ways. Here are some:\n\n- Exploring: This will make it easier to reach areas with a double jump.\n- Parkour: Level your parkour skills and play on extreme parkour maps!\n- PvP: Dodge your enemies' attacks and have intense battles.\n\n![Double Jump GIF](https://raw.githubusercontent.com/Panquesito7/minetest-double_jump/main/double_jump.gif)\n\n## Settings\n\nThese settings can be customized by modifying [`minetest.conf`](https://dev.luanti.org/minetest-conf/) or directly in the settings.\n\n- `double_jump.max_jump`: The maximum number of **extra** jumps. This does NOT count the builtin jump. Default is `1`.\n- `double_jump.infinite_jumps`: Whether to have infinite jumps or not. Disabled (`false`) by default.\n- `double_jump.max_height`: Maximum height gained on each jump. Default is [`movement_speed_jump`](https://github.com/minetest/minetest/blob/2b99dabdac823fee3ea843a9ded8bbe7718c3b44/builtin/settingtypes.txt#L935) (or `6.5`).\n\n## License\n\nSee [`LICENSE.txt`](https://github.com/Panquesito7/minetest-double_jump/blob/main/LICENSE.txt) for full license information and [`AUTHORS.md`](https://github.com/Panquesito7/minetest-double_jump/blob/main/AUTHORS.md) for all the contributors.\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "CC-BY-SA-4.0",
   "name": "double_jump",
-  "provides": [
-    "double_jump"
-  ],
+  "provides": ["double_jump"],
   "release": 23262,
   "repo": "https://github.com/Panquesito7/minetest-double_jump",
   "score": 344.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/66a66192d4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/66a66192d4.png"],
   "short_description": "Allows the player to jump twice or more times!",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/66a66192d4.png",
   "title": "Double Jump",
   "translation_url": null,

@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "- Drop in replacement for default stairs mod.\n - Has many stairs registered for default and other mods.\n - Has ability to make transparent stairs.\n - Has ability to make glowing stairs.\n - Has stair, slab, corners and slopes.\n - Burnable stairs can be used as fuel.\n - Uses old style placement feature and sneak key for copy rotation.\n- 'stairs.glass_sides' setting to revert to older glass stair look.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "LGPL-2.1-only",
   "name": "stairs",
-  "provides": [
-    "stairs"
-  ],
+  "provides": ["stairs"],
   "release": 26295,
   "repo": "https://codeberg.org/tenplus1/stairs",
   "score": 993.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0bUDJgW5mK.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0bUDJgW5mK.png"],
   "short_description": "Adds more stair types to Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0bUDJgW5mK.png",
   "title": "Stairs Redo",
   "translation_url": null,

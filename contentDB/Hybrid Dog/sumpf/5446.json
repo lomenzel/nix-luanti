@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,15 +416,10 @@
   "issue_tracker": "https://codeberg.org/HybridDog/sumpf/issues",
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "CC-BY-3.0",
   "name": "sumpf",
-  "provides": [
-    "jungletree",
-    "sumpf"
-  ],
+  "provides": ["jungletree", "sumpf"],
   "release": 5446,
   "repo": "https://codeberg.org/HybridDog/sumpf",
   "score": 156.5,
@@ -436,10 +429,7 @@
   ],
   "short_description": "Adds swamps",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Ua5ESuIqP5.png",
   "title": "Swamps",
   "translation_url": null,
@@ -575,27 +565,19 @@
       {
         "is_optional": false,
         "name": "riesenpilz",
-        "packages": [
-          "Hybrid Dog/riesenpilz"
-        ]
+        "packages": ["Hybrid Dog/riesenpilz"]
       }
     ],
     "rheo/moreblocks": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

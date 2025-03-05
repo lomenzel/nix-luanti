@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/Firefall666/Minetest-multiplant/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# Minetest-multiplant\n\nThis is a Mod for Minetest.\nIt adds a Multiplant to the game.\nMultiplants can grow on farmland and switch to any other plant or flower if grown.\nVery usefull for UnterNull-Mod.\n\n\nLicence for code:\nGPLv3 or later\n\nLicence for media:\nCC-BY-SA\n",
-  "maintainers": [
-    "Firefall"
-  ],
+  "maintainers": ["Firefall"],
   "media_license": "CC-BY-SA-4.0",
   "name": "multiplant",
-  "provides": [
-    "multiplant"
-  ],
+  "provides": ["multiplant"],
   "release": 21818,
   "repo": "https://github.com/Firefall666/Minetest-multiplant.git",
   "score": 152.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/06f5fef8c3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/06f5fef8c3.png"],
   "short_description": "Grow Multiplants and get a random seed or flower!",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/06f5fef8c3.png",
   "title": "Multiplant",
   "translation_url": null,

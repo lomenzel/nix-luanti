@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/aa6/minetest_hardcorebrix/issues/new/choose/",
   "license": "AGPL-3.0-only",
   "long_description": "Adds some hardcore bricks and durable building materials to the game. Say goodbye to swiss-cheese map with giant holes, these new blocks are hard to dig and can be a real help for house protection. It's hardcore time!",
-  "maintainers": [
-    "drkwv"
-  ],
+  "maintainers": ["drkwv"],
   "media_license": "AGPL-3.0-only",
   "name": "minetest_hardcorebrix",
-  "provides": [
-    "minetest_hardcorebrix"
-  ],
+  "provides": ["minetest_hardcorebrix"],
   "release": 11394,
   "repo": "https://github.com/aa6/minetest_hardcorebrix",
   "score": 2.7,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds durable building materials that won't break on a first dig.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e472a670bb.png",
   "title": "Hardcorebrix",
   "translation_url": null,

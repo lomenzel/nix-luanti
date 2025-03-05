@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Nazalassa/advtrains_moreslopes/issues",
   "license": "GPL-2.0-or-later",
   "long_description": "This mod adds more slopes to Advtrains' default tracks, ranging from 4- to 8-nodes long. Only straight slopes for now.\n\n\n#### Media licensing\n\nAll models provided in the mod were made by me (Nazalassa) and are based on the default advtrains 2-node-long slope model, originally by DS-minetest under the CC-BY-SA 3.0 license.\n",
-  "maintainers": [
-    "Nazalassa"
-  ],
+  "maintainers": ["Nazalassa"],
   "media_license": "CC-BY-SA-4.0",
   "name": "advtrains_moreslopes",
-  "provides": [
-    "advtrains_moreslopes"
-  ],
+  "provides": ["advtrains_moreslopes"],
   "release": 29643,
   "repo": "https://codeberg.org/Nazalassa/advtrains_moreslopes.git",
   "score": 530.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4b0268cb6b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4b0268cb6b.png"],
   "short_description": "More, longer slopes for Advtrains",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4b0268cb6b.png",
   "title": "Advtrains More Slopes",
   "translation_url": null,
@@ -43,16 +35,12 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

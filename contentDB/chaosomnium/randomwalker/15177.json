@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/MistUnky/randomwalker/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# randomwalker\n# **WARNING: Even in singlenode worlds that are very small with 3 random walk generators the world size can easily reach 8GB or so. Please use caution when using this mod.**\n\n3d Random Walk Blocks in Minetest\n\nWarning: for low end computers don't place too many blocks or it may cause lag.\n\nNote: Generators tend to die out when they either \"eat\" each other or if they go too far away from the map into the ignore zone.",
-  "maintainers": [
-    "chaosomnium"
-  ],
+  "maintainers": ["chaosomnium"],
   "media_license": "CC0-1.0",
   "name": "randomwalker",
-  "provides": [
-    "randomwalker"
-  ],
+  "provides": ["randomwalker"],
   "release": 15177,
   "repo": "https://github.com/MistUnky/randomwalker",
   "score": 3.9,
@@ -63,10 +59,7 @@
   ],
   "short_description": "3d Random Walker Blocks that create interesting structures in the world",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "creative"
-  ],
+  "tags": ["building_mechanics", "creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/oy8Mm4znPm.png",
   "title": "3d Random Walk Blocks",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/josegamestest/school_furniture/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "<h2>Types of decorations</h2>\n<h3>school_furniture:table_canteen</h3>\nThey are uncomfortable model school desks that were part of childhood, only right-handers could get a little comfort in it\n<pre>\nrecipe\n🪵,🪵,🪵\n🪵,\"\",🪵\n🤘,\"\",🤘\n</pre>\n\n<h2>steel_water_cooler</h2>\n And a decorative water machine for hallways\nlarge industrial model\n<pre>\n🤘,:iron_faucet,🤘,\n🤘,\" \",🤘,\n🤘,\" \",🤘,\n</pre>\n \n<h3>school_furniture:table_teacher</h3>  \nA big table for the teacher, simple\n<pre>\nrecipe\n🪵,🪵,🪵,\n🤘,\"\",🤘,\n🤘,\"\",🤘,\n </pre>\n \n<h3>school_furniture:colored_hands #colored</h3>\nHands drawn and colored the same in children's schools,\n<pre>\nrecipe\n🗞️,🗞️,🗞️,\n🗞️,🌻,🗞️,\n🗞️,🗞️,🗞️,\n        \nrecipe colored\n✋, ✏️\n</pre>\n  \n<h3>school_cabinet</h3>\n  Different colors of school cabinets for decoration\n<pre>\n  no recipes now\n</pre>\n</div>\n",
-  "maintainers": [
-    "joseanastacio"
-  ],
+  "maintainers": ["joseanastacio"],
   "media_license": "MIT",
   "name": "school_furniture",
-  "provides": [
-    "school_furniture"
-  ],
+  "provides": ["school_furniture"],
   "release": 22875,
   "repo": "https://github.com/josegamestest/school_furniture.git",
   "score": 178,
@@ -448,9 +442,7 @@
   ],
   "short_description": " Decorations to build schools with classrooms and create a welcoming environment for teachers and students",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/948e78ed2d.png",
   "title": "School Furniture",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/wsor4035/areas_interlocking_patch/issues",
   "license": "MIT",
   "long_description": "Makes players with the interlocking priv still respect areas. Born because lminus asked me to make it since people kept griefing on a server.\n\n## FAQ\n__Message is always in English__   \nOpen a PR with translation support\n\n__Why Not PR to Advtrains Repo__  \nNeeded a fix now, and didnt want to deal with a terrible git host/mostly \ninactive group. They are free to add this functionality if they wish and \nmake this mod pointless",
-  "maintainers": [
-    "wsor4035"
-  ],
+  "maintainers": ["wsor4035"],
   "media_license": "MIT",
   "name": "areas_interlocking_patch",
-  "provides": [
-    "areas_interlocking_patch"
-  ],
+  "provides": ["areas_interlocking_patch"],
   "release": 17657,
   "repo": "https://github.com/wsor4035/areas_interlocking_patch",
   "score": 154.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1e23497597.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1e23497597.png"],
   "short_description": "make advtrains interlocking priv respect areas",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1e23497597.png",
   "title": "Areas Interlocking Patch",
   "translation_url": null,

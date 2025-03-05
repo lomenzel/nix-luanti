@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/sfence/wateringcan/issues",
   "license": "MIT",
   "long_description": "Fork of original [wateringcan](https://content.minetest.net/packages/Wuzzy/wateringcan/) mod with added support or Hades Revisited and added APi for registering new wettable nodes by another mods.\n\nA watering can to wetten soil.\nComposting supported this mod.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "MIT",
   "name": "wateringcan",
-  "provides": [
-    "wateringcan"
-  ],
+  "provides": ["wateringcan"],
   "release": 12470,
   "repo": "https://github.com/sfence/wateringcan.git",
   "score": 6.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ca71e64811.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ca71e64811.png"],
   "short_description": "A watering can to wetten soil. Support for Hades Revisited. Supported by composting.",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ca71e64811.png",
   "title": "Watering Can",
   "translation_url": null,

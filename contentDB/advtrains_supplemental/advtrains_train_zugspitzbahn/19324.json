@@ -25,16 +25,10 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_train_zugspitzbahn/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# AdvTrains Train Pack: Zugspitzbahn\n\nThis train pack provides a locomotive and passenger wagon from the Bavarian\nZugspitzbahn, a rack railway system and with a height difference of 1945\nmetres, the railway with the greatest height difference in Europe.\n\nThese wagons run on ordinary rails, since nobody has yet made rack rails for advtrains. \n\n[View this mod at the Train\nCatalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_train_zugspitzbahn)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n* Some code copyright (C) 2018 orwell96\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: orwell96\n",
-  "maintainers": [
-    "advtrains_supplemental",
-    "Blockhead",
-    "W3RQ01"
-  ],
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_train_zugspitzbahn",
-  "provides": [
-    "advtrains_train_zugspitzbahn"
-  ],
+  "provides": ["advtrains_train_zugspitzbahn"],
   "release": 19324,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_train_zugspitzbahn",
   "score": 16.9,
@@ -45,10 +39,7 @@
   ],
   "short_description": "A locomotive and passenger wagon of the Bavarian Zugspitzbahn",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/add05d4ee9.png",
   "title": "Advtrains Zugspitzbahn",
   "translation_url": null,
@@ -62,9 +53,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

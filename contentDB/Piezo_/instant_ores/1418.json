@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "A tool for registering entire materials, complete with ore generation, tool-sets and automatically generated sprites with almost no effort required.\n\nThis mod also makes the work of texture pack creators much easier, as only a few sprites are needed in order to cover all minerals created with this mod.",
-  "maintainers": [
-    "Piezo_"
-  ],
+  "maintainers": ["Piezo_"],
   "media_license": "CC-BY-SA-3.0",
   "name": "instant_ores",
-  "provides": [
-    "instant_ores"
-  ],
+  "provides": ["instant_ores"],
   "release": 1418,
   "repo": "https://notabug.org/Piezo_/instant_ores",
   "score": 160.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Dk2SzKqtEk.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Dk2SzKqtEk.png"],
   "short_description": "A tool for registering entire materials, complete with ore generation, tool-sets and automatically generated sprites with almost no effort required",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mapgen",
-    "tools"
-  ],
+  "tags": ["library", "mapgen", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Dk2SzKqtEk.png",
   "title": "Zero-Effort Custom Minerals",
   "translation_url": null,

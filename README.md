@@ -62,7 +62,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
        # this whitelist is applied to all servers that dont define its own
        # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
        whitelist = [ "singleplayer" ];
-       
+
        servers = with nix-luanti; {
          cool-server = {
            # VoxeLibre is the default
@@ -77,7 +77,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
            port = 30000;
          };
          other-cool-server = {
-          
+
           # overrides the default whitelist
           whitelist = [ "alice" "bob" ];
 
@@ -95,17 +95,18 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
    }
    ```
 
-    A minimal Config may look like this:
+   A minimal Config may look like this:
 
-      ```nix
-        services.luanti = {
-          enable = true;
-          servers.default.port = 30000;
-        };
+   ```nix
+     services.luanti = {
+       enable = true;
+       servers.default.port = 30000;
+     };
 
-      ```
-    it would deploy a VoxeLibre server without a whitelist and without additional mods on UDP port 30000 with prometheus metrics at tcp port 30000
- 
+   ```
+
+   it would deploy a VoxeLibre server without a whitelist and without additional mods on UDP port 30000 with prometheus metrics at tcp port 30000
+
 3. **Rebuild and Start the Server:**
 
    apply your configuration:

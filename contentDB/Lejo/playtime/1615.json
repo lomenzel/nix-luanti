@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/Lejo1/playtime/issues",
   "license": "MIT",
   "long_description": "This mod allows you to get your playtime on a server or a world.\nJust use /playtime to get it.\n\nThis mod has the functions as API: playtime.get_current_playtime(name) / playtime.get_total_playtime(name)",
-  "maintainers": [
-    "Lejo"
-  ],
+  "maintainers": ["Lejo"],
   "media_license": "MIT",
   "name": "playtime",
-  "provides": [
-    "playtime"
-  ],
+  "provides": ["playtime"],
   "release": 1615,
   "repo": "https://github.com/Lejo1/playtime",
   "score": 302.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d28b9f0c22.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d28b9f0c22.png"],
   "short_description": "Use /playtime to get the time you played",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "world_tools"
-  ],
+  "tags": ["library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d28b9f0c22.png",
   "title": "Playtime Recorder",
   "translation_url": null,

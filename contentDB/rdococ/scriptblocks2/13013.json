@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/rdococ/scriptblocks2/issues/new/choose/",
   "license": "MIT",
   "long_description": "Scriptblocks 2\n==============\n\nScriptblocks 2 is a Minetest mod and toy programming language using nodes called scriptblocks. Scriptblocks are nodes which can be used to build reusable programs.\n\n## Features\n\n* Support for nested expressions and variables.\n* Custom, named procedures with up to 2 named parameters and dynamic scoping.\n* First-class lists, dictionaries, and lexically scoped closures with up to 1 named parameter.\n* Coroutines, closures that can be paused and resumed.\n* Processes can run for more than one tick.\n* Ability to interface with digiline networks.\n\n## Experiments\n\n* Spawnable processes, enabling pre-emptive multitasking.\n* Introspective blocks for debug purposes, such as one to report a string representation of the call stack.\n\nThese features can be accessed through the 'Enable Experiments' setting. Some of these features can cause a lot of lag, even with the limits that have been imposed. Others are only useful for debugging purposes. Either way, don't enable these on a server!\n\nFirst-class continuations have been moved to their own mod, [SB2 Continuations](https://github.com/rdococ/sb2_continuations).",
-  "maintainers": [
-    "rdococ"
-  ],
+  "maintainers": ["rdococ"],
   "media_license": "MIT",
   "name": "scriptblocks2",
-  "provides": [
-    "scriptblocks2"
-  ],
+  "provides": ["scriptblocks2"],
   "release": 13013,
   "repo": "https://github.com/rdococ/scriptblocks2",
   "score": 151,
@@ -31,10 +27,7 @@
   ],
   "short_description": "Adds nodes that can be used to build reusable programs.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "education"
-  ],
+  "tags": ["creative", "education"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b536c20e8f.png",
   "title": "Scriptblocks 2",
   "translation_url": null,

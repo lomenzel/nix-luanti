@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/MistUnky/underbed_toilet_math_mg/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Adds a multilayered mapgen with zones:\nTop layer - Sky Toilet Zone (y>=20000)\nLayer 2 - Fractal math mapgen Mandelbox rework zone (y>=100)\nLayer 3 - RandomWalk fractal terrain zone (y ~=0)\nBottom Layer - Underneath Bedrock Hell Zone(y<=-20000)\nnot exact (there are more layers technically) but is a good guide to it",
-  "maintainers": [
-    "chaosomnium"
-  ],
+  "maintainers": ["chaosomnium"],
   "media_license": "LGPL-2.1-only",
   "name": "underbed_toilet_math_mg",
-  "provides": [
-    "underbed_toilet_math_mg"
-  ],
+  "provides": ["underbed_toilet_math_mg"],
   "release": 7326,
   "repo": "https://github.com/MistUnky/underbed_toilet_math_mg",
   "score": 155,
@@ -454,9 +448,7 @@
   ],
   "short_description": "Voxelmanip mapgen with strange layered zone experimental mapgens.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a6kh3zyWO2.png",
   "title": "voxelmanip experiments and remade math mandelbox mapgen",
   "translation_url": null,

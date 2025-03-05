@@ -38,23 +38,17 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "The standard textures for nodecore, passed through [ScaleFX](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#Scale3%C3%97/AdvMAME3%C3%97_and_ScaleFX) twice, scaling the base 16px textures up to 144px.\n\nThe scaling algorithm can't make \"artistic\" decisions, and doesn't attempt to \"understand\" the content or context, and can make some things look a little weird. Overall though, it offers significant improvements in some areas (the contours of complex transparent things like flora) and isn't notably deterimental in others (at least preserving the original information). Algorithmically generated texturepacks are also eminently maintainable, making it easy to rebuild in the case of upstream changes or new textures/materials, and easy to adapt to other games or content.\n\nSupports [NodeCore](https://content.minetest.net/packages/Warr1024/nodecore/) and most/all of the [mods in its ecosystem](https://content.minetest.net/packages/?type=mod&sort=score&order=desc&game=Warr1024/nodecore), except ones that use more restrictive licensing. Note that some mods may not support high-resolution texturepacks (e.g. due to using compositing with pixel offsets without resizing) and would need to be fixed to work with it.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "ncep9x",
   "provides": [],
   "release": 28154,
   "repo": "https://gitlab.com/sztest/nchqx",
   "score": 11,
-  "screenshots": [
-    "https://content.luanti.org/uploads/95dd0f6c66.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/95dd0f6c66.webp"],
   "short_description": "Textures via Pixel Art Scaling Algorithm",
   "state": "APPROVED",
-  "tags": [
-    "128px"
-  ],
+  "tags": ["128px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/95dd0f6c66.png",
   "title": "NodeCore EP9x",
   "translation_url": null,

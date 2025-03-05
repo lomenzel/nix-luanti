@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,26 +338,17 @@
   "issue_tracker": "https://github.com/APercy/minekart/issues/new/choose/",
   "license": "MIT",
   "long_description": "Minetest 5.2 mod: Kart Car\n========================================\n\nThis is a kart car, a mod that provides a little race car. \nIt can be painted using dye of any color you want, you must punch the seat with the dye.\n\nYour kart starts with fuel.\nTo refuel you need stop, turn the engine off and punch a biofuel vial or gallon against the kart.\n\n- arrows to control acceleration, brake, direction.\n- shift to go backwards\n- E key to turn the engine on\n\nThe kart runs better on solid blocks like stones, clay, etc. If you try to run over grass, snow or permafrost, the speed will be severely reduced.\n\n-----------------------\nIt uses some code from Sailing Kit (by TheTermos)\n\nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\n---------------------------------------\nengine.ogg, drift.ogg and collision.ogg by APercy. See License file\n\nKart model by APercy. See License file\n\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "MIT",
   "name": "kartcar",
-  "provides": [
-    "kartcar"
-  ],
+  "provides": ["kartcar"],
   "release": 25929,
   "repo": "https://github.com/APercy/minekart",
   "score": 722.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ae6276c004.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ae6276c004.png"],
   "short_description": "Adds a craftable kart",
   "state": "APPROVED",
-  "tags": [
-    "sports",
-    "transport"
-  ],
+  "tags": ["sports", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ae6276c004.png",
   "title": "Kart Car",
   "translation_url": null,
@@ -417,10 +406,7 @@
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

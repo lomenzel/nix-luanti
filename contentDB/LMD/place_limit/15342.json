@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/appgurueu/place_limit/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Place Limit(`place_limit`)\nA mod limiting how fast players can place nodes.\n\n> Let's kill 'em ! Got... where's he gone ? Wait... up there, on the tower... how could he build it so fast ?!\n\n\\- me, playing Minetest\n\nProblem solved by this mod.\n\n## About\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib) and [`hud_timers`](https://github.com/appgurueu/hud_timers).\n\n**Please note that this mod may not work along well with other mods overriding registering on_placenodes and that it may be recommended to use the API.**\n\nLicensed under the MIT License. Written by Lars Mueller alias LMD or appguru(eu).\n\n## Configuration\n\n### Default Configuration\n\n```json\n{\n  \"cooldown\": {\n    \"default\": 3.0,\n    \"by_name\": {},\n    \"by_group\": {}\n  }\n}\n```\n\n### Usage\n\n#### `cooldown`\n\n##### `default`\nDefault cooldown value - only used if no `by_group` or `by_node` cooldown specified for given node.\n\n##### `by_name`\nCooldown by node name.\n\n##### `by_group`\nCooldown by node group. Will be multiplied with node group value.\n\n*In the end, maximum cooldown value of all `by_group` and the `by_name` cooldown is used*",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "MIT",
   "name": "place_limit",
-  "provides": [
-    "place_limit"
-  ],
+  "provides": ["place_limit"],
   "release": 15342,
   "repo": "https://github.com/appgurueu/place_limit",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3sykreQzix.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3sykreQzix.png"],
   "short_description": "Limits node placement",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3sykreQzix.png",
   "title": "Place Limit",
   "translation_url": null,
@@ -68,10 +60,7 @@
       {
         "is_optional": false,
         "name": "hud_timers",
-        "packages": [
-          "LMD/cellestial_game",
-          "LMD/hud_timers"
-        ]
+        "packages": ["LMD/cellestial_game", "LMD/hud_timers"]
       }
     ]
   },

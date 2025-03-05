@@ -38,27 +38,17 @@
   "issue_tracker": "https://github.com/AFCMS/mcl_speedrun/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Add a customisable speedrun engine for MineClone2\n\n**WARNING: this mod only works with [MineClone5](https://content.minetest.net/packages/kay27/mineclone5/) 0.71.5 or above and [MineClone2](https://content.minetest.net/packages/Wuzzy/mineclone2/) master branch**\n\n**WARNING: this mod can only be played in singleplayer and do not save speedrun data on exit**\n\nYou can create additional speedrun type (see `speedrun.lua`) and send me a pull request if you want.\n\nBe sure to fit the rules of an existing minecraft speedrun type (https://www.speedrun.com/mcce)\n\n",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "CC0-1.0",
   "name": "mcl_speedrun",
-  "provides": [
-    "mcl_speedrun"
-  ],
+  "provides": ["mcl_speedrun"],
   "release": 11927,
   "repo": "https://github.com/AFCMS/mcl_speedrun.git",
   "score": 460.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/80e845ed5c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/80e845ed5c.png"],
   "short_description": "Speedrun features for MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "singleplayer",
-    "survival"
-  ],
+  "tags": ["crafting", "singleplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/80e845ed5c.png",
   "title": "MineClone2 Speedrun",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod adds a sound effect when chat messages are sent. The sound effect can be disabled per-player using the `/chatsound` command.",
-  "maintainers": [
-    "Hanicef"
-  ],
+  "maintainers": ["Hanicef"],
   "media_license": "CC0-1.0",
   "name": "chatsound",
-  "provides": [
-    "chatsound"
-  ],
+  "provides": ["chatsound"],
   "release": 29213,
   "repo": "https://codeberg.org/Hanicef/chatsound",
   "score": 163,
-  "screenshots": [
-    "https://content.luanti.org/uploads/66bb0a8fd9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/66bb0a8fd9.png"],
   "short_description": "Adds a notification sound when a player sends a chat message",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "sound_music"
-  ],
+  "tags": ["chat", "multiplayer", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/66bb0a8fd9.png",
   "title": "Chatsound",
   "translation_url": null,

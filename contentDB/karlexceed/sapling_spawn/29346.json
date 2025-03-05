@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Sapling Spawn\n=====\nA mod that makes trees spread out and become dense forests over time.\n\nSaplings will only spawn on well-lit soil blocks with trees close by. The sapling will be the same species as a random nearby tree.\n\nSince this mod uses an ABM, the sapling spawning will only happen in map chunks that are active. As a result, areas that are uninhabited will remain unchanged, but active areas will feel even more dynamic and alive.\n\nI spent a lot of time trying to balance the growth rate and maximum tree density. My goal is that it would be noticeable over time, but not so aggressive that it chokes the landscape in just a few days.\n\n**Current compatibility:**\n\n* Luanti/Minetest Default mod - Fully compatible\n* Extra Biomes mod - Fully compatible\n* Moretrees mod - Fully compatible\n* Ethereal mod - Mostly compatible\n* Everness mod - Mostly compatible\n\nNote: If a tree species is not compatible with Sapling Spawn, those species will simply not spawn saplings.\n\nSee license.txt for license information.\n\nAuthors of source code\n-----\n* Written by karlexceed (LGPL-2.1-or-later)\n* Inspired by flower_spread function from the flowers mod by Ironzorg (MIT) and VanessaE (MIT) and Various Luanti/Minetest developers and contributors (MIT)\n",
-  "maintainers": [
-    "karlexceed"
-  ],
+  "maintainers": ["karlexceed"],
   "media_license": "LGPL-2.1-or-later",
   "name": "sapling_spawn",
-  "provides": [
-    "sapling_spawn"
-  ],
+  "provides": ["sapling_spawn"],
   "release": 29346,
   "repo": "https://github.com/karlexceed/sapling_spawn",
   "score": 162.3,
@@ -30,9 +26,7 @@
   ],
   "short_description": "Spawns tree saplings",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/58b90063ca.png",
   "title": "Sapling Spawn",
   "translation_url": null,

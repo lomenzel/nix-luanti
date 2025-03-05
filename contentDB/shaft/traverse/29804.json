@@ -51,14 +51,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "## Note to users upgrading to 2.0 or higher\nThe new cannon pipe for the cannon will appear on cannons placed in previous versions once you right click and send the formspec by pressing enter.\n# Traverse\nTravers introduces three nodes which move players, animals and items around: A cannon, a pipe and a tractor beam\n\nComplete with digilines support. Missing arguments are not changed, unknown arguments are ignored.\n\nDue to their capabilities they are prone to abuse. Be mindful of that for multiplayer servers.\n\nThey are currently only available from the creative inventory. Feel free to suggest recipes and translations. If you post the translation on ContentDB please use an existing translation file as template format it as code block.\n\nAll of the mechanics work perfectly fine with Mesecons’ pistons or movestones and Mineclonia's pistons. If you use Mineclonia make sure to enable Mesecons Gamecompat. However moving with Mineclonia piston resets the cannon rotation visually at the moment. The tractor beam generator's force field will move with it. The cannon's entity moves with the cannon. The pipe will destruct the pipe on the other end and create a new pipe where it's moved to.\n\n## Cannon\nShoots subject with a starting velocity defined by the player.\n\n`Digilines example: digiline_send(\"1\",{[number],[number],[number]})`\n\n## Tractor Beam Generator\nHolds the subject in air and moves it towards or away from the node. Can be turned off. Closer nodes have stronger forcefields than nodes farther away.\n\n`Digilines example: digiline_send(\"1\",{pull=[bool],off=[bool],reach=[number]})`\n\n## Pipe\nAutomatically creates a second one.\nTeleports the subject two blocks after the other pipe.\nNot configurable.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "traverse",
-  "provides": [
-    "traverse"
-  ],
+  "provides": ["traverse"],
   "release": 29804,
   "repo": "https://gitgud.io/blut/traverse",
   "score": 9.7,
@@ -69,12 +65,7 @@
   ],
   "short_description": "Adds cannons, pipes and tractor beams to allow players and entities to traverse the world in new ways.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "player_effects",
-    "transport"
-  ],
+  "tags": ["building", "creative", "player_effects", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b42b11a4a3.png",
   "title": "Traverse",
   "translation_url": null,

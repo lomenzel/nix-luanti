@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,16 +299,10 @@
   "issue_tracker": "https://github.com/Andrey2470T/multidecor/issues",
   "license": "MIT",
   "long_description": "# MultiDecor 1.3.5. Modpack For Minetest.\n![logo](https://user-images.githubusercontent.com/25750346/185758916-9acf0ba5-5953-484f-825c-347c6ca7cddd.png)\n\n## Description\nThis modpack adds various detailed furniture components, decorations and exterior stuff with various designs and styles of each epoch. Inspired by Homedecor and based on my abandoned Luxury Decor. Currently it contains the decor stuff only of \"modern\" style. A simple cheap style without any quaintness and luxury. In future there will be added still few sorts of that: baroque, high-tech, classic and royal.\n\nCurrently it contains following furniture components:\n\n* Modern kitchen garniture (with granite and marble tabletops).\n* Modern bathroom furniture with six sorts of tiles (bathtubs, wall sets with mirror, washbasins and wall shelves).\n* Two bathroom taps and shower heads.\n* Six sorts of chairs (one armchair, four chairs and one stool).\n* Six sorts of tables (including one desk).\n* Nine sorts of lightings (brass candlestick, copper wall sconce, two desk lamps, three chandeliers and two ceiling lamps).\n* Plinths from various wood (aspen, pine, apple and redwood).\n* Four sorts of wallpapers.\n* Stairs (simple/ledged/spiral) from granite/stone/marble.\n* Plank stairs (simple/spiral) from redwood/plastic/metal.\n* Windows and window doors.\n* Louvers.\n* Books and books stack.\n* Alarm clock.\n* Floor clock.\n* Tableware.\n* Three sorts of pots and also one vase.\n* Toilet paper with reel.\n* Bathroom rug.\n* Bathroom mirror.\n* Bathroom slatted ceiling.\n* Bathroom shower base.\n* Bathroom underwear.\n* Toilet.\n* Bathroom curtain and cornice.\n* Dresser with mirror.\n* Seventeen paintings (including one with physical world map).\n* Fifteen sorts of doors (simple/patterned/locked/with glass) including two gates, one-block and two-block sizes.\n* Three sorts of fences (all with one-block and two-block variations).\n* Two types of beds.\n* Six sorts of floor tiles and three sorts of wall tiles and tiles blocks.\n* Six sorts of bathroom tiles and tiles blocks.\n* Bedside table.\n* Wardrobe.\n* Shelves with various types of wood (apple, pine, aspen), with and without backs, with books and without books, corner.\n* Sofa.\n* Three-level rack.\n\n## Changelog List\n### [10.01.25] Release 1.3.5.\n### [14.12.24] Release 1.3.4.\n### [08.12.24] Release 1.3.3.\n### [27.06.24] Release 1.3.2.\n### [10.06.24] Release 1.3.1.\n### [30.03.24] Release 1.3.0.\n### [07.11.23] Release 1.2.5.\n### [26.10.23] Release 1.2.4.\n### [08.10.23] Release 1.2.3.\n### [24.09.23] Release 1.2.2.\n### [09.09.23] Release 1.2.1.\n### [28.08.23] Release 1.2.0.\n### [20.08.23] Release 1.1.3.\n### [17.08.23] Release 1.1.2.\n### [16.08.23] Release 1.1.1.\n### [09.03.23] Release 1.1.0.\n### [22.01.23] Release 1.0.5.\n### [13.12.22] Release 1.0.4.\n### [30.08.22] Release 1.0.3.\n### [28.08.22] Release 1.0.2.\n### [22.08.22] Release 1.0.1.\n### [20.08.22] Release 1.0.0.\n### [20.08.22] 1.0.0-beta.\n### [10.01.22] The mod is born.\n\nLicense (code & media): MIT.\n\nDependencies: default, wool, dye, xpanes, beds, flowers, moreores.\n\nMinimal MT version supported: 5.5.0.",
-  "maintainers": [
-    "Andrey01"
-  ],
+  "maintainers": ["Andrey01"],
   "media_license": "MIT",
   "name": "multidecor",
-  "provides": [
-    "craft_ingredients",
-    "decor_api",
-    "modern"
-  ],
+  "provides": ["craft_ingredients", "decor_api", "modern"],
   "release": 29298,
   "repo": "https://github.com/Andrey2470T/multidecor",
   "score": 720.8,
@@ -326,10 +318,7 @@
   ],
   "short_description": "Adds various detailed furniture components, decorations and exterior stuff with various designs and styles of each epoch.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d4da291788.png",
   "title": "Multidecor",
   "translation_url": null,
@@ -555,18 +544,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -663,9 +646,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

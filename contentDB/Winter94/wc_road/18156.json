@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/wintersknight94/NC-TheLongRoad/issues/new/choose/",
   "license": "MIT",
   "long_description": "# The Long Road of NodeCore\n\nThe Long Road (a NodeCore Mod)\n====================\n\nAdds a long road from -Z to +Z to the world, during world-generation.\n\nThe road partially follows the terrain and tunnels through higher ground otherwise.\n\nThe road materials depend on the environment. \n\nSmall amounts of loot can be found in little buildings beside the road.\n\nPer default the road will be generated at around x = 100.\n\n\nVersion: 1.2\n\nLicense: The MIT License (MIT)\n\nDependencies: nc_api_all, nc_terrain, nc_concrete \n\nDownload original for MTG from: https://github.com/Distributed-DeadLock/thelowerroad\n\nCompatibility with Mapgens:\ngenerally works with all mapgens which provide a heightmap via minetest.get_mapgen_object\nworks better when a heatmap is provided as well.\n\nFully compatible with : v5, v7, flat, fractal, valleys, lualandmg\n\nCompatible with slightly different behaviour with: v6\n\nNot compatible with singlenode unless you provide at least a heightmap in the corresponding lua-mapgenerator, \nsee https://github.com/SmallJoker/lualandmg/blob/b72ef91/init.lua#L97-L109 for an example on how to provide heightmap and heatmap properly.\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "MIT",
   "name": "wc_road",
-  "provides": [
-    "wc_road"
-  ],
+  "provides": ["wc_road"],
   "release": 18156,
   "repo": "https://github.com/wintersknight94/NC-TheLongRoad",
   "score": 158.4,
@@ -56,11 +52,7 @@
   ],
   "short_description": "This is a port of thelowerroad for NodeCore that adds a long road from -Z to +Z to the world, during world-generation.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mapgen",
-    "transport"
-  ],
+  "tags": ["adventure__rpg", "mapgen", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e489cf0122.png",
   "title": "The Road (NC)",
   "translation_url": null,
@@ -74,50 +66,32 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_torch",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

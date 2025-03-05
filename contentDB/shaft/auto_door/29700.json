@@ -51,25 +51,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "Do you enjoy tripping over doorsteps and breaking some bones? You don't? May I present you:\n\n# Auto Door\n\nAuto Door automatically opens and closes doors for players. You will no longer abuse pressure plates.\n\nIt does this by checking for doors every 0.2 seconds. That means the performance impact of this is per player and not per door.\n\nAlready open doors will not be closed and automatically opened doors will be automatically closed if the player moves away, leaves the server or the server shuts down.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "auto_door",
-  "provides": [
-    "auto_door"
-  ],
+  "provides": ["auto_door"],
   "release": 29700,
   "repo": "https://gitgud.io/blut/auto_door",
   "score": 12.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cf02fbe59c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cf02fbe59c.png"],
   "short_description": "Automatically opens and closes doors for players",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cf02fbe59c.png",
   "title": "Automatic Door Opening and Closing",
   "translation_url": null,

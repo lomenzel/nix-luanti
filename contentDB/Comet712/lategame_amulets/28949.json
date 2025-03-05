@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Comet712/lategame_amulets",
   "license": "MIT",
   "long_description": "Steel Amulet: When you mine an iron ore, you get 1 steel block. Very useful.\n(Crafting: Combine 81 of the drops from Megastructure Ore. Megastructure Ore spawns rarely below Y = -4, and is bright green.)\n\nSuper Steel Amulet: Get 4 steel blocks per 1 iron mined.\n(Search \"amulet\" in crafting to view recipies.)\n\nSkyscraper Amulet: Get 9 steel blocks per 1 iron mined.\n\nCoal Amulet: Get 3 coal per 1 coal mined. (Search \"amulet\" in crafting to view recipies.)\n\nSuper Coal Amulet: Get 9 coal per 1 coal mined.\n\nYour strongest amulet for a specific material determines your drops for it. Simply have the amulet in your inventory to get the effect.",
-  "maintainers": [
-    "Comet712"
-  ],
+  "maintainers": ["Comet712"],
   "media_license": "CC-BY-SA-4.0",
   "name": "lategame_amulets",
-  "provides": [
-    "lategame_amulets"
-  ],
+  "provides": ["lategame_amulets"],
   "release": 28949,
   "repo": "https://github.com/Comet712/lategame_amulets.git",
   "score": 4,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Mine rare ore. Make amulets. Get tons of steel blocks. Build megastructures.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "survival"
-  ],
+  "tags": ["building", "building_mechanics", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7404aca026.png",
   "title": "Lategame Amulets",
   "translation_url": null,

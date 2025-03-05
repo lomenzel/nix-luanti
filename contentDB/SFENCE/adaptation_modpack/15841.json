@@ -103,9 +103,7 @@
   "issue_tracker": "https://github.com/sfence/adaptation_modpack/issues",
   "license": "MIT",
   "long_description": "Minetest mod: `adaptation_modpack`\n==================================\n\nThis modpack can be used by other mods which wants to be adapted to more than one minetest game.\nMain mod is `adaptation_lib`, which define adaptation API. See [API.md ](https://github.com/sfence/adaptation_modpack/blob/master/API.md)for details. Other mods primary add items to a database grouped by generic keys.\n\nSo, you can use provided API functions to easier finding aviable items, which you need to use by the key.\n\nExample of get informations about carbon steel if aviable and normal steel if carbon steel is not aviable:\n\n`metal_ingot = adaptation_lib.get_item({\"ingot_carbon_steel\", \"ingot_steel\"}) `\n\nSource code:\n-----------------------\nCopyright (c) 2022 SFENCE\nMIT - check LICENSE file\n\nHow to use:\n-----------------------\n\nAdd `adaptation_lib` and other `adaptation_*` mods to your mod dependence list.\nUse `adaptation_lib` functions to translate keys to item data.\n\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "MIT",
   "name": "adaptation_modpack",
   "provides": [
@@ -141,14 +139,10 @@
   "release": 15841,
   "repo": "https://github.com/sfence/adaptation_modpack",
   "score": 16.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/983d8b08dc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/983d8b08dc.png"],
   "short_description": "Key based adaptation database of items.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/983d8b08dc.png",
   "title": "Adaptation lib and mods",
   "translation_url": null,

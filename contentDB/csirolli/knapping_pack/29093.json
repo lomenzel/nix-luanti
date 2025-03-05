@@ -323,9 +323,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://codeberg.org/csirolli/luanti_knapping/issues",
   "license": "MIT",
   "long_description": "# Knapping Mechanics [knapping]\n\n## About\n\nThis mod provides an api which makes it possible to register in-world knapping recipes.\nIt is inspired by the knapping mechanic in the game 'Vintage story' (<www.vintagestory.at>).\n\nTo craft something the user has to hold the 'input' material and place it\non the top of a walkable node, above which is air, while sneaking.\nA menu will appear, from which they can choose which recipe they want to place down,\nor abort the operation.\n\nOnce placed down, the pieces of the plane which have to be knapped away are made\ndarker and can be knapped by hitting them with another of the 'input' item.\nThe pieces which have to stay can't be destroyed.\nOnce the knapping is finished the remaining pieces are replaced with the output item.\n\nIf the knapping plane is left laying around, it will disappear after some time.\n\n## Settings\n\nThis mod has two settings which can be configured from in game.\n\n* 'knapping_timeout' - time in seconds after which ongoing knapping processes\n      get aborted and associated entities deleted\n* 'knapping_max_crafts' - number of knapping processes which can be going on at once\n\nBoth serve to control the amount entities placed by this mod to prevent players\nfrom causing lag on servers.\n\n## Recipes\n\n```lua\nknapping.register_recipe(recipe)\n```\n\n`recipe` is a table in this format:\n\n```lua\n{\n    input = \"mymod:foo\", -- this overrides the items on_place, but unless\n    -- all the conditions are met it tries to retain\n    -- it's original behavior\n    -- having multiple input items is not suported\n    output = \"mymod:bar 2\", -- here it's fine\n    recipe = {\n            { 0, 0, 0, 1, 1, 0, 0, 0 }, -- 1's stay, 0's have to go\n            { 0, 0, 0, 1, 1, 0, 0, 0 },\n            { 0, 0, 0, 1, 1, 0, 0, 0 },\n            { 1, 1, 1, 1, 1, 1, 1, 1 },\n            { 1, 1, 1, 1, 1, 1, 1, 1 },\n            { 0, 0, 0, 1, 1, 0, 0, 0 },\n            { 0, 0, 0, 1, 1, 0, 0, 0 },\n            { 0, 0, 0, 1, 1, 0, 0, 0 },\n    },\n    texture = \"mymod_mytexture.png\", --if no texture is provided, a fallback is used\n}\n\n```\n\n## Callbacks\n\ncalled when a recipe is finished\n\n```lua\nknapping.register_on_craft(func(recipe, node_pos, player))\n```\n\n* `recipe` - same table as above\n* `pos` - position of node in which it happened\n* `player` - name of player who started the knapping process\n\n note that they may have since then walked away or even left the game,\n since anyone can complete the craft\n\n## Translation\n\nThere are a few user facing strings to clarify to the player what is going on.\nThe mod is set up to support translations, which won't be of any use until I\nactually have some translations.\n\nA template is provided in the locale folder.\n\n## License\n\nMIT License\n\nCopyright (c) 2020 Skamiz Kazzarch\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
-  "maintainers": [
-    "csirolli"
-  ],
+  "maintainers": ["csirolli"],
   "media_license": "CC-BY-SA-4.0",
   "name": "knapping_pack",
-  "provides": [
-    "knapping",
-    "knapping_mtg"
-  ],
+  "provides": ["knapping", "knapping_mtg"],
   "release": 29093,
   "repo": "https://codeberg.org/csirolli/luanti_knapping",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/430e27c86a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/430e27c86a.png"],
   "short_description": "Adds knapping mechanics API inspired by Vintage story",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "crafting",
-    "tools"
-  ],
+  "tags": ["building_mechanics", "crafting", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/430e27c86a.png",
   "title": "Knapping Mechanics",
   "translation_url": null,

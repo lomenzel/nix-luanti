@@ -103,14 +103,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod adds rivets made of various metals.\nRivets can be placed on the surface of a block, preventing the block from being broken or moved.\n\nContents:\n\n- Steel Rivet (Minetest Game, Repixture)\n- Bronze Rivet (Minetest Game, Repixture)\n- Wrought Iron Rivet (Repixture)\n- Carbon Steel Rivet (Repixture)\n- Iron Rivet (MineClone)\n- Netherite Rivet (MineClone)\n- Brass Rivet (Basic Materials)\n- Titanium Rivet (Titanium)",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC0-1.0",
   "name": "rivets",
-  "provides": [
-    "rivets"
-  ],
+  "provides": ["rivets"],
   "release": 16926,
   "repo": null,
   "score": 5,
@@ -123,9 +119,7 @@
   ],
   "short_description": "Adds rivets for decoration or locking blocks.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0b117b26f3.png",
   "title": "Rivets",
   "translation_url": null,

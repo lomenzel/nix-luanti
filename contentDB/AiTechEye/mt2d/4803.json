@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/AiTechEye/mt2d/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Simply transforms the minetest world into 2d dimension.\nAlmost everything are completely flat\n\nplayers with the leave2d privilege can hold \"special\" to leave the 2d world or revert\n\nPlayers can walk, jump, swim, hurt by heights, blocks, drop bones, /sethome /home etc like normal players...\n\nHold sneak to: sneak, fly/fast, noclip (requires the privileges like default)\n\nif you grant or revoke fly or noclip privileges, the player have to die or respawn to take effect\n\nYou can use any mapgen",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mt2d",
-  "provides": [
-    "mt2d"
-  ],
+  "provides": ["mt2d"],
   "release": 4803,
   "repo": "https://github.com/AiTechEye/mt2d",
   "score": 162.5,
@@ -449,9 +443,7 @@
   ],
   "short_description": "Transforms the minetest world into 2d dimension",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3drscMBYAn.png",
   "title": "Minetest 2D",
   "translation_url": null,

@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,26 +377,17 @@
   "issue_tracker": "https://github.com/acmgit/beamer/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "A mod for minetest to transport items from the own inventory to the inventory of another player.\n\nBeamer adds a node, where player are able to send items from their inventoriy to the other inventory.\nThe beamer checks, do you have enough items, is the target player online, have the target player enough room in his inventory, is it allowed to beam in his inventory.\n\nWith the release 1.3, beamen is now borderless. You're are now able to beam between different server.\nIt's recommended to install a mod like [smart_chat](https://github.com/acmgit/smart_chat.git) for this release.",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "GPL-3.0-or-later",
   "name": "beamer",
-  "provides": [
-    "beamer"
-  ],
+  "provides": ["beamer"],
   "release": 19270,
   "repo": "https://github.com/acmgit/beamer.git",
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7465b872f8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7465b872f8.png"],
   "short_description": "Beam items or nodes from your inventory to the inventory of your friend. ",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "multiplayer"
-  ],
+  "tags": ["inventory", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7465b872f8.png",
   "title": "Beamer",
   "translation_url": null,

@@ -129,25 +129,17 @@
   "issue_tracker": "https://github.com/Lejo1/adv_keys/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This mod replaces the skeleton_key with a multiple use skeleton_key.\n\nSo you can open multiple chests with it.\n\nIt is also player specific so if you lost it nobody can access your chests.\n\nCreated by [Lejo](https://github.com/Lejo1)\n\nParts Derived from [minetest_game](https://github.com/minetest/minetest_game)",
-  "maintainers": [
-    "Lejo"
-  ],
+  "maintainers": ["Lejo"],
   "media_license": "CC-BY-SA-3.0",
   "name": "adv_keys",
-  "provides": [
-    "adv_keys"
-  ],
+  "provides": ["adv_keys"],
   "release": 19943,
   "repo": "https://github.com/Lejo1/adv_keys",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/G3oexYkdxI.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/G3oexYkdxI.png"],
   "short_description": "Replaces the Skeleton Key with one with multiple chests.",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/G3oexYkdxI.png",
   "title": "Advanced Keys",
   "translation_url": null,

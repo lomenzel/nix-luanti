@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "adds a visible health bar above the player\nrpg style\n\n\nconfigurable options: \nhp_bar_1 = true \nactivates model 1\n\nhp_bar_1 = false\nactivates model 2",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "CC-BY-SA-3.0",
   "name": "rph_hp",
-  "provides": [
-    "rph_hp"
-  ],
+  "provides": ["rph_hp"],
   "release": 26934,
   "repo": null,
   "score": 152,
@@ -448,11 +442,7 @@
   ],
   "short_description": " adds a visible health bar above the player",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "hud",
-    "multiplayer"
-  ],
+  "tags": ["adventure__rpg", "hud", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7b6e03f376.png",
   "title": " visible health bar",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/gonoahwhere/chatvisual/issues",
   "license": "CC0-1.0",
   "long_description": "This mod adds a tag to each user based on their priviledges\n\n`player` -> given to all users who do not have the `server` or `ownerTag` priviledges  \n`admin` -> given to all users who have the `server` but not the `ownerTag` priviledge  \n`owner` -> given to all users who have the `server` and `ownerTag` priviledges\n\nThe visual mod also works well with IRC and other mods such as the robot spawner mods some servers use.\nPlayers requested that I release what I had written for the visual so here you go.\n\nFeedback is welcome.",
-  "maintainers": [
-    "Itz-Noah"
-  ],
+  "maintainers": ["Itz-Noah"],
   "media_license": "CC0-1.0",
   "name": "chatvisual",
-  "provides": [
-    "chatvisual"
-  ],
+  "provides": ["chatvisual"],
   "release": 19181,
   "repo": "https://github.com/gonoahwhere/chatvisual",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e05e71740a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e05e71740a.png"],
   "short_description": "Need a way to distinguish between staff and players?",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e05e71740a.png",
   "title": "Chat Visual",
   "translation_url": null,
@@ -43,9 +35,7 @@
       {
         "is_optional": false,
         "name": "irc",
-        "packages": [
-          "kaeza/irc"
-        ]
+        "packages": ["kaeza/irc"]
       }
     ],
     "kaeza/irc": []

@@ -51,14 +51,10 @@
   "issue_tracker": "https://github.com/Beanzilla/climb_glove/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Adds magic gloves which allow you to climb up on things\n\n## What's in the box\n- 2 pairs of gloves (one requires you to be pointing at nodes or entities, the other doesn't require anything)\n- Supports Minetest Game and Mineclone (2, 5 & Mineclonia)\n\n## How to climb\nWith a basic glove just look at say some nodes (like a tree), then just rapidly click the punch key (left mouse button by default).\n\n> The only difference between the basic glove and advanced glove is that the advanced doesn't need you looking at anything.\n\n## Credits\n- I thank the author of [climbing_pick](https://github.com/AndrejIT/climbing_pick) for the general idea.\n- I thank the author of [tardis_new](https://github.com/PiDemon/Taridis_New) for the concept of the glove textures, which I modified.\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "CC-BY-SA-3.0",
   "name": "climb_glove",
-  "provides": [
-    "climb_glove"
-  ],
+  "provides": ["climb_glove"],
   "release": 25358,
   "repo": "https://github.com/Beanzilla/climb_glove",
   "score": 159.1,
@@ -68,11 +64,7 @@
   ],
   "short_description": "A magic glove which allows you to punch nodes to travel vertically.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "tools",
-    "transport"
-  ],
+  "tags": ["player_effects", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/989061f6c9.png",
   "title": "Climb Glove",
   "translation_url": null,

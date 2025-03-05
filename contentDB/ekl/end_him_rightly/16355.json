@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://codeberg.org/ekl/end_him_rightly/issues",
   "license": "MIT",
   "long_description": " This mod gives you the option of ending your oppenent rightly.\n\nSwords can be placed in the crafting grid to unscrew the pommel. Drop the pommel to throw it vigorously.\n\nThrown pommels deal some damage (this also works with collidable mobs, sort of).\n\nOnce you are done with your shenanigans, you can screw the pommel back on in the crafting grid.\n\nThere is currently no recipe for replacement pommels (though pommels are interchangable).",
-  "maintainers": [
-    "ekl"
-  ],
+  "maintainers": ["ekl"],
   "media_license": "CC-BY-SA-3.0",
   "name": "end_him_rightly",
-  "provides": [
-    "end_him_rightly"
-  ],
+  "provides": ["end_him_rightly"],
   "release": 16355,
   "repo": "https://codeberg.org/ekl/end_him_rightly.git",
   "score": 1.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6a03a06d1a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6a03a06d1a.png"],
   "short_description": "Unscrewable and throwable pommel",
   "state": "APPROVED",
-  "tags": [
-    "april_fools"
-  ],
+  "tags": ["april_fools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6a03a06d1a.png",
   "title": "End Him Rightly",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/cakenggt/sailing/issues/new/choose/",
   "license": "AGPL-2.0-only",
   "long_description": "The sailing mod brings much more to your world than sailing. After turning the world into a tropical archipeligo, you must use your wits to craft a canoe and venture out onto the surrounding islands using ancient wayfaring techniques. \n\nFeatures:\n\n* Wind powered sailing with adjustable sail position for speed\n* Wind changes over time\n* Torches which show wind direction and speed with their wonderful particles\n* Kukui nut bushes\n* Palm trees with falling coconuts\n* Kapa fabric for wall, floor, and ceiling decorations\n* Birds show the way to the nearest islands\n* Island chains kilometers apart and across\n* A prettier shallow water texture\n\nRecipes:\nLegend: K = Kukui nut, W = wood plank, F = Palm fiber, S = stick\n\n1x2 vertical\n\nK\nS = Kukui nut torch\n\n2x2\n\nFF\nFF = Kapa fabric\n\n3x3\n\nFFF\nFFF\nFFF = Sail\n\n3x3\n\n\\_F\\_\nW\\_W\nWWW = Canoe\n\nNew Mechanics:\n\n* When boarding a canoe, press space to put the sail up or down.\n* On a canoe, hold shift and press left or right (or a or d) to change the angle of attack of the sail. The wind particles show you which way the wind is blowing.\n* Right click on a coconut to make it drop. Coconuts will regrow as long as the central block is present. Dropped coconuts will spawn into trees after a while.\n* Right click on a kukui nut bush to make it give up it's kukui nuts. They will regrow.",
-  "maintainers": [
-    "cakenggt"
-  ],
+  "maintainers": ["cakenggt"],
   "media_license": "AGPL-2.0-only",
   "name": "sailing",
-  "provides": [
-    "sailing"
-  ],
+  "provides": ["sailing"],
   "release": 1005,
   "repo": "https://github.com/cakenggt/sailing",
   "score": 155.7,
@@ -448,12 +442,7 @@
   ],
   "short_description": "Live in a tropical paradise where you can sail, mine coconuts, etc.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "pve",
-    "survival"
-  ],
+  "tags": ["environment", "mapgen", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/UiU6uj4j7v.png",
   "title": "Sailing",
   "translation_url": null,

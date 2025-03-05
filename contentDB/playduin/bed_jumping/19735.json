@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -353,25 +351,17 @@
   "issue_tracker": "https://github.com/playduin/bed_jumping/issues/new/choose/",
   "license": "MIT",
   "long_description": "Mod that allows you to jump on the bed\n\nHold the jump button to jump higher\n",
-  "maintainers": [
-    "playduin"
-  ],
+  "maintainers": ["playduin"],
   "media_license": "MIT",
   "name": "bed_jumping",
-  "provides": [
-    "bed_jumping"
-  ],
+  "provides": ["bed_jumping"],
   "release": 19735,
   "repo": "https://github.com/playduin/bed_jumping.git",
   "score": 4.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ab837d7a06.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ab837d7a06.png"],
   "short_description": "You may jump on the bed",
   "state": "APPROVED",
-  "tags": [
-    "sports"
-  ],
+  "tags": ["sports"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ab837d7a06.png",
   "title": "Bed Jumping",
   "translation_url": null,
@@ -489,9 +479,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

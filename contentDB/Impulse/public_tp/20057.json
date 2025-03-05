@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/public_tp/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "## Commands\nuse '/public_tp' to open up the tp UI\n\n## Permissions\n* public_tp_add - allows player to add a tp place\n* public_tp_admin - allows player to remove any tp place, and add as many places as they want.\n* public_tp_extra - allows player to register extra tp places",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "public_tp",
-  "provides": [
-    "public_tp"
-  ],
+  "provides": ["public_tp"],
   "release": 20057,
   "repo": "https://github.com/JamesClarke7283/public_tp",
   "score": 303.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ec43f47c87.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ec43f47c87.png"],
   "short_description": "Allows players to create, manage and use public teleport places.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "transport"
-  ],
+  "tags": ["chat", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ec43f47c87.png",
   "title": "Public Tp",
   "translation_url": null,

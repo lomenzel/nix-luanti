@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://github.com/sbrl/minetest-floating_anchor/issues/",
   "license": "MPL-2.0",
   "long_description": "Based on the Angel Block from the ExtraUtilities mod for Minecraft, the floating anchor, when used (right click like you're placing a block), places a block directly at your feet in mid-air. When broken, it returns to your inventory.\n\nCode licensed under Mozilla Public License 2.0 (MPL-2.0), and the textures under Creative Commons Attribution Share-Alike 4.0 (CC-BY-SA 4.0).",
-  "maintainers": [
-    "Starbeamrainbowlabs"
-  ],
+  "maintainers": ["Starbeamrainbowlabs"],
   "media_license": "CC-BY-SA-4.0",
   "name": "floating_anchor",
-  "provides": [
-    "floating_anchor"
-  ],
+  "provides": ["floating_anchor"],
   "release": 8478,
   "repo": "https://github.com/sbrl/minetest-floating_anchor",
   "score": 3.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/mmjDYrJzRw.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/mmjDYrJzRw.jpg"],
   "short_description": "ExtraUtilities' Angel Block for Minecraft in Minetest! Place structures in mid-air with ease.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "creative",
-    "tools"
-  ],
+  "tags": ["building", "building_mechanics", "creative", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/mmjDYrJzRw.png",
   "title": "Floating Anchor",
   "translation_url": null,

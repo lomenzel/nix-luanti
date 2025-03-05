@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,28 +325,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/cottages/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Cottages: Decorations that fit to medieval settlements and small cottages\n\nThis mod is a rewrite of [Sokomine's cottage mod](https://content.minetest.net/packages/Sokomine/cottages/), commit [`dbe69bc`](https://github.com/Sokomine/cottages/commit/dbe69bcfafa2efc256554b9fa3b9196b35928f1e). Some bug fixes and enhancements are adopted from [Smacker's fork](https://github.com/h-v-smacker/cottages).\n\nThis mod is a drop-in replacement in terms of player experience; most things will work as they were. However, some changes are made, and API compatibility is not guaranteed.\n\n\n## List of notable changes\n\n### Initial fork release\n\n* Players with `protection_bypass` or `server` can interact with any private nodes.\n* Window shutters no longer close or open with the sunlight.\n* Only one type of feldweg is left: the mesh type with 45 degree slope.\n* Removed the over-complicated sleeping mechanics (Hope to be added back one day)\n* Beds are now handled by a single item (the bed foot): placing it will automatically place the another one.\n* Table is not longer looking for workbenches\n* Washing place now accepts river water\n* Removed the akward hud of threshing floor. It is replaced by infotext alteration.\n* The operating bucket in Tree Trunk Well is now handled with an inventory slot, not metadata field. The object is also generated every time the mapblock is loaded, not stored on disk.\n* Tree Trunk Well now supports Wooden bucket from Hume2.\n* Selection box of fences now matches their appearance; double fence is added (Thx Smacker)\n\n### Added later\n\n* Whether ropes can be dug without starting from the bottom is now configurable. (`cottages.rope_dig_without_support`)\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "cottages",
-  "provides": [
-    "cottages"
-  ],
+  "provides": ["cottages"],
   "release": 29114,
   "repo": "https://github.com/C-C-Minetest-Server/cottages",
   "score": 13.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/705d4f2c1b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/705d4f2c1b.png"],
   "short_description": "Decorations that fit to medieval settlements and small cottages",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "plants_and_farming",
-    "technology"
-  ],
+  "tags": ["building", "decorative", "plants_and_farming", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/705d4f2c1b.png",
   "title": "Cottage and Medieval Decorations",
   "translation_url": null,
@@ -582,18 +569,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

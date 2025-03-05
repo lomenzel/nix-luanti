@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/loosewheel/lwcomputers_software/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Floppy disks with software for lwcomputers.\n\n* WIN Installer floppy. \n* Server Installer floppy.\n* Open Software Installer floppy.\n* App Templates floppy.\n\nWIN is a multi-tasking, windowed operating system. It can run desktops on multiple devices, the terminal and any number of monitors.\n\nThe server provides simple file and email hosting. It can be installed stand alone or with an OS.\n\nThe Open Software floppy contains the files for a web site for downloading common software.\n\nThe App Templates floppy is just a data disk with starter applications to copy and then extend upon to write your own applications. These starter applications are also in the docs.\n\nWhen disposing of these disks use the trash provided with lwcomputers to\nremove the disk data as well.\n\nThe docs/api folder has full documentation of the WIN api and server.",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lwcomputers_software",
-  "provides": [
-    "lwcomputers_software"
-  ],
+  "provides": ["lwcomputers_software"],
   "release": 12575,
   "repo": "https://github.com/loosewheel/lwcomputers_software",
   "score": 18.6,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Software for LWComputers.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8b2971860c.png",
   "title": "LWComputers Software",
   "translation_url": null,
@@ -550,9 +542,7 @@
       {
         "is_optional": false,
         "name": "lwcomputers",
-        "packages": [
-          "loosewheel/lwcomputers"
-        ]
+        "packages": ["loosewheel/lwcomputers"]
       }
     ]
   },

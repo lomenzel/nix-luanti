@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,23 +651,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "I had an idea of re-creating classical platform games in 3D using Minetest. There were many games in which the player moves in a grid and performs some kind of actions.\n\nThis API attaches the player to an entity which performs discrete moves along the node grid. There is an animation played during the move but it can be forced to finish when needed. If the mod \"creative\" is found, the player moves normally in creative mode.\n",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "CC0-1.0",
   "name": "discrete_player",
-  "provides": [
-    "discrete_player"
-  ],
+  "provides": ["discrete_player"],
   "release": 7433,
   "repo": "https://gitlab.com/h2mm/discrete_player",
   "score": 3.3,
   "screenshots": [],
   "short_description": "A library for games which attaches players to node grid",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Discrete Player API",
   "translation_url": null,

@@ -1,8 +1,6 @@
 {
   "author": "shaft",
-  "content_warnings": [
-    "gore"
-  ],
+  "content_warnings": ["gore"],
   "created_at": "2023-10-23T17:02:23.475392",
   "dev_state": "ACTIVELY_DEVELOPED",
   "donate_url": null,
@@ -53,26 +51,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "Blood splatter for players and **all creatures using Mobs API, Creatura (Animalia), VoxeLibre and Mineclonia.\n\nAutomatically gets removed after 5 minutes (configurable) or when mapblocks are unloaded (including exiting the game). Thus safe to uninstall at any time without leaving objects behind. Even works with complex blocks such as stairs, corners and slabs.\n\nThere is a particle effect  too. Both the node blood and the particle blood can be disabled in settings.\n\nBased on GGraffiti by grorp",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "AGPL-3.0-only",
   "name": "blood_splatter",
-  "provides": [
-    "blood_splatter"
-  ],
+  "provides": ["blood_splatter"],
   "release": 29557,
   "repo": "https://gitgud.io/blut/blood_splatter",
   "score": 343.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/23849ec711.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/23849ec711.jpg"],
   "short_description": "Blood splatter for players and creatures",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "survival"
-  ],
+  "tags": ["environment", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/23849ec711.png",
   "title": "Blood Splatter",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# M.Y.K.O.T.A\n\nMinetest mod that adds mykota and dry mykota blocks.\n\n\nM.Y.K.O.T.A is mushroom-like liveform. It grows in horizontal direction and falls down.\nIf mykota cant grow (adjacent blocks are occupied) then it turns to dry mykota and stop grow.\n\nDry mykota can be used as fuel.\n\n## Settings\n\n**mykota_fertility** - number of iterations after which it dies. Default is 5\n\nExample:\n\n```mykota_fertility = 13```\n",
-  "maintainers": [
-    "xevin"
-  ],
+  "maintainers": ["xevin"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mykota",
-  "provides": [
-    "mykota"
-  ],
+  "provides": ["mykota"],
   "release": 14830,
   "repo": "https://gitlab.com/xevin/mt-mykota",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3ddcd816df.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3ddcd816df.png"],
   "short_description": "Adds M.Y.K.O.T.A self-propagating mushroom liveform ",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "plants_and_farming"
-  ],
+  "tags": ["environment", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3ddcd816df.png",
   "title": "M.Y.K.O.T.A",
   "translation_url": null,

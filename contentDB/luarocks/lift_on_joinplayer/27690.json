@@ -11,25 +11,17 @@
   "issue_tracker": "https://notabug.org/rr/lift_on_joinplayer/issues",
   "license": "MIT",
   "long_description": "# Lift on joinplayer\n\nThis simple, any game compatible mod lifts the player up if they are buried\nunderground upon entering the game.\n\n---\n\nThis mod was created in [Rustroot Forge].\n\nAll my mods uses [Luanti LSP-API] annotations, [StyLua] and [Luacheck].\n\n[Rustroot Forge]: https://notabug.org/rr\n[Luanti LSP-API]: https://notabug.org/rr/luanti_lsp_api\n[StyLua]: https://github.com/JohnnyMorganz/StyLua\n[Luacheck]: https://github.com/mpeterv/luacheck",
-  "maintainers": [
-    "luarocks"
-  ],
+  "maintainers": ["luarocks"],
   "media_license": "MIT",
   "name": "lift_on_joinplayer",
-  "provides": [
-    "lift_on_joinplayer"
-  ],
+  "provides": ["lift_on_joinplayer"],
   "release": 27690,
   "repo": "https://notabug.org/rr/lift_on_joinplayer.git",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8f443dc426.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8f443dc426.png"],
   "short_description": "Lift player up on login until he has no air block under his legs.",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8f443dc426.png",
   "title": "Lift On Joinplayer",
   "translation_url": null,

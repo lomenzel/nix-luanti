@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/sfence/rope_bridges/issues",
   "license": "MIT",
   "long_description": "Add planks rope bridge to minetest in many styles.\n\nSupport for Minetest default game and Hades Revisited game. Also support for cool_trees mod.\n\nYou will need mod moreblocks or hades_moreblocks to make craft recipes working well.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "rope_bridges",
-  "provides": [
-    "rope_bridges"
-  ],
+  "provides": ["rope_bridges"],
   "release": 9565,
   "repo": "https://github.com/sfence/rope_bridges.git",
   "score": 177,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3542271bed.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3542271bed.png"],
   "short_description": "Buildable rope bridge. Should be used with moreblocks or hades_moreblocks.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg"
-  ],
+  "tags": ["adventure__rpg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3542271bed.png",
   "title": "Rope Bridges",
   "translation_url": null,

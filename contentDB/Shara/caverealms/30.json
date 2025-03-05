@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,29 +416,17 @@
   "issue_tracker": "https://github.com/Ezhh/caverealms_lite/issues/",
   "license": "BSD-2-Clause-FreeBSD",
   "long_description": "A mod for Minetest to add underground realms.",
-  "maintainers": [
-    "Shara"
-  ],
+  "maintainers": ["Shara"],
   "media_license": "BSD-2-Clause-FreeBSD",
   "name": "caverealms",
-  "provides": [
-    "caverealms"
-  ],
+  "provides": ["caverealms"],
   "release": 30,
   "repo": "https://github.com/Ezhh/caverealms_lite",
   "score": 991.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/TtO7gMlvWY.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/TtO7gMlvWY.png"],
   "short_description": "A mod for Minetest to add underground realms.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "environment",
-    "mapgen",
-    "plants_and_farming",
-    "tools"
-  ],
+  "tags": ["building", "environment", "mapgen", "plants_and_farming", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/TtO7gMlvWY.png",
   "title": "Caverealms Lite",
   "translation_url": null,
@@ -534,18 +520,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

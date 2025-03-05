@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/citygen/issues",
   "license": "MIT",
   "long_description": "Procedural city mapgen\n\n* **Note**: works only with \"singlenode\" mapgen\n* Creates procedurally configured buildings along a street-network\n* Recommended mod: `morelights` (for the sewers)",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "citygen",
-  "provides": [
-    "citygen"
-  ],
+  "provides": ["citygen"],
   "release": 12286,
   "repo": "https://github.com/BuckarooBanzay/citygen.git",
   "score": 190.5,
@@ -436,9 +430,7 @@
   ],
   "short_description": "city mapgenerator",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/r3DDFbcr0m.png",
   "title": "Citygen",
   "translation_url": null,
@@ -467,9 +459,7 @@
       {
         "is_optional": false,
         "name": "mapblock_lib",
-        "packages": [
-          "BuckarooBanzay/mapblock_lib"
-        ]
+        "packages": ["BuckarooBanzay/mapblock_lib"]
       },
       {
         "is_optional": false,
@@ -529,18 +519,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,26 +247,17 @@
   "issue_tracker": "https://github.com/AndrejIT/lighting_rocket/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Lighting rocket (flare)\n=========\n\nMod \"Lighting rocket\" for minetest game.\n\nAllow to lit large areas, like big caves.\nBy default light persists for 2 minutes.\n\nDepends on default mod tnt for gunpowder and sound.\n\nThis mod code is licensed under the GNU LGPLv2.\nMadia - CC BY-SA 3.0.\n",
-  "maintainers": [
-    "lag01"
-  ],
+  "maintainers": ["lag01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lighting_rocket",
-  "provides": [
-    "lighting_rocket"
-  ],
+  "provides": ["lighting_rocket"],
   "release": 9136,
   "repo": "https://github.com/AndrejIT/lighting_rocket",
   "score": 9.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e92e29baef.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e92e29baef.png"],
   "short_description": "For temporary lighting large areas",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e92e29baef.png",
   "title": "Lighting Rocket",
   "translation_url": null,
@@ -282,9 +271,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

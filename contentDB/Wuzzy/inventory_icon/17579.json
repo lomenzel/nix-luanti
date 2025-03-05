@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_inventory_icon/issues",
   "license": "MIT",
   "long_description": "This simple mod adds an icon to the player's HUD at the bottom right corner. It shows how many inventory slots are available and how many of them are occupied.\n\nThis mod also supports the Bags and Unified Inventory mods. If one of these mods are used, icons for each bag are displayed, too.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "inventory_icon",
-  "provides": [
-    "inventory_icon"
-  ],
+  "provides": ["inventory_icon"],
   "release": 17579,
   "repo": "https://codeberg.org/Wuzzy/minetest_inventory_icon",
   "score": 179.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/hEHDFJ6NfX.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/hEHDFJ6NfX.png"],
   "short_description": "Shows a backpack icon in the HUD, which shows how many slots are available and free in the player inventory and equipped bags (if available).",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "inventory"
-  ],
+  "tags": ["hud", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hEHDFJ6NfX.png",
   "title": "Inventory Icon",
   "translation_url": null,

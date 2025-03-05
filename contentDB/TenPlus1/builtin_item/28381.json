@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "Friction based dropped items that can be pushed by water, slide on ice or be destroyed by lava, and if stuck inside a block will free itself.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-3.0",
   "name": "builtin_item",
-  "provides": [
-    "builtin_item"
-  ],
+  "provides": ["builtin_item"],
   "release": 28381,
   "repo": "https://codeberg.org/tenplus1/builtin_item",
   "score": 655,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Pl33e33j5w.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Pl33e33j5w.jpg"],
   "short_description": "Dropped items can now be pushed by water, burn quickly in lava and have their own custom functions.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Pl33e33j5w.png",
   "title": "Builtin Item",
   "translation_url": null,

@@ -25,26 +25,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "The Analogue Clock mod introduces fully functional, animated analogue clocks into Minetest. These clocks display the in-game time with moving hour, minute, and second hands. The hands rotate in intervals of 15 degrees, simulating the passage of time in a visually appealing way that still abides to the pixelated visual of Luanti minetest.\n\nClocks can rotate but so far the hands don't follow the correct rotation, this is being worked on. To ensure proper alignment is best to break and place the node again in the desired direction.\n\nThe clock recipe is just an iron ingot and the desired plank.\n\nIt has settings to make the clocks silent, toggle the second's hand and to display the current time in a infobox, if the analogue is too hard to read the time.\n\nPerfect for decorating homes, towers, or public buildings, the analogue clock adds a touch of realism and immersion to your world!",
-  "maintainers": [
-    "j0j0n4th4n"
-  ],
+  "maintainers": ["j0j0n4th4n"],
   "media_license": "CC0-1.0",
   "name": "analogue_clock",
-  "provides": [
-    "analogue_clock"
-  ],
+  "provides": ["analogue_clock"],
   "release": 29338,
   "repo": "https://codeberg.org/j0j0/analogue_clock/",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d2e87a851b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d2e87a851b.png"],
   "short_description": "A set of analogue clocks, one for each type of wood.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d2e87a851b.png",
   "title": "Analogue clock",
   "translation_url": null,

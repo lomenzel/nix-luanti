@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod limits you to the spawn chunk, to increase difficulty. It also builds a nice obsidian marker around your 16-by-16 area of freedom (that you cannot mine).\n\nIt works by constraining your position within the chunk, and disallowing any mining and building outside the chunk.",
-  "maintainers": [
-    "ymte"
-  ],
+  "maintainers": ["ymte"],
   "media_license": "MIT",
   "name": "spawn_chunk",
-  "provides": [
-    "spawn_chunk"
-  ],
+  "provides": ["spawn_chunk"],
   "release": 14234,
   "repo": null,
   "score": -132.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1ae96ce30b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1ae96ce30b.png"],
   "short_description": "Limits the player and its actions to the spawn chunk",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1ae96ce30b.png",
   "title": "Spawn Chunk",
   "translation_url": null,

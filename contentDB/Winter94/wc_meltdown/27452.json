@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NC-Meltdown/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# NC-Meltdown\nA new challenge with serious implications...\n\n-----\n-----\n\nLux reactors can now go into catastrophic meltdown if left at critical charge for too long!",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "wc_meltdown",
-  "provides": [
-    "wc_meltdown"
-  ],
+  "provides": ["wc_meltdown"],
   "release": 27452,
   "repo": "https://github.com/wintersknight94/NC-Meltdown",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7c6eae0fdf.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7c6eae0fdf.png"],
   "short_description": "A new challenge, with serious implications...",
   "state": "APPROVED",
-  "tags": [
-    "pve"
-  ],
+  "tags": ["pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c6eae0fdf.png",
   "title": "NC Reactor Meltdown",
   "translation_url": null,
@@ -70,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

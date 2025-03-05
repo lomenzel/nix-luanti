@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Skandarella/moretorches/issues",
   "license": "MIT",
   "long_description": "This mod adds new types of torches and lamps that can be crafted. For Minetest Game without mods there are only 4 new torches (Jungle, Aspen, Pine, Acacia) \nBut if you are using Living Floatlands, Natural Biomes, Living Desert and Living Jungle, you will get many new light sources.",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "moretorches",
-  "provides": [
-    "moretorches"
-  ],
+  "provides": ["moretorches"],
   "release": 16953,
   "repo": "https://github.com/Skandarella/moretorches.git",
   "score": 184.6,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Adds new types of torches and lamps",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "survival"
-  ],
+  "tags": ["decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d31578f4db.png",
   "title": "Wilhelmines More Torches",
   "translation_url": null,

@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,25 +364,17 @@
   "issue_tracker": "https://github.com/loosewheel/lwwires/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod provides wires, bundle cables and bundle blocks. 16 colored wires and 16 colored bundle cables. Bundle blocks are the same as bundle cables but full node size. A digilines controlled bundle switch, and through wire and termails are also provided. This mod works with mesecons power and components.\n\n\n**Limitations**\n\nBreaking or placing wires sends notifications for that color even if the power state wasn't changed at the notified position. (See definition interface in mod_api.txt about notifications).\n\nIndividual mesecons circuits connected to wires may flick off and then on if multiple power sources are connected via the wires, and the power source connected to the mesecons circuit is turned off.\n\nIf wires visually connect to a mesecons item they connect on any side. This is only visual and only functionally connect on the sides the item can.\n\nIf mesecons devices are moved against wires (as with pistons) they are not automatically activated if the circuit is on.\n\n\n**Through Wires and Terminals**\n\nThrough wires and terminals penetrate a block to connect to a mesecons device on the opposing side. The device must have the necessary rules to\naccommodate the connection (such as levers and buttons).\n\nThrough wires penetrate the surface they are placed against and transmit in the other 5 directions.\n\nTerminals only penetrate in a horizontal direction and only transmit in the downward direction.\n\nTwo through wires or terminals placed one to two blocks apart opposing each other will transmit power.\n\n\n**Bundle Switch**\n\nThe bundle switch is only defined if digilines is loaded. The bundle switch controls every bundle cable on any of the 6 sides with digilines messages. See readme.txt for available messages.\n\n\n**Wire colors and numbers**\n\n* black\t\t= 0\n* orange\t= 1\n* magenta\t= 2\n* sky\t\t= 3\n* yellow\t= 4\n* pink\t\t= 5\n* cyan\t\t= 6\n* gray\t\t= 7\n* silver\t= 8\n* red\t\t= 9\n* green\t\t= 10\n* blue\t\t= 11\n* brown\t\t= 12\n* lime\t\t= 13\n* purple\t= 14\n* white\t\t= 15\n\n\nAn api is exposed to interact with the mod. See mod_api.txt.",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lwwires",
-  "provides": [
-    "lwwires"
-  ],
+  "provides": ["lwwires"],
   "release": 12356,
   "repo": "https://github.com/loosewheel/lwwires",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1f8639d5e1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1f8639d5e1.png"],
   "short_description": "Wires and bundle cables.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1f8639d5e1.png",
   "title": "LW Wires",
   "translation_url": null,

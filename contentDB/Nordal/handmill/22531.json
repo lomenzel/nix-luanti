@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://gitlab.com/Nordal/handmill/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Handmill Mod\n\nHandmill is a logical and realistic way to get seeds and straw from grain and flour from seeds. Obtain more seeds, more straw and more flour than by crafting recipes of farming mods. You can configure the amount of seeds and straw you get via settings.\n\nThis Mod is a separation and development of Sokomines handmill and threshing floor provided by her cottages mod. The formspecs are modernized and simplified, functionality is extended. The mod also adds a new multigrain handmill. \n\nThe use with Farming Redo mod is strongly recommended, because it introduces the four main grains and their seeds along with flour. But handmill mod is also working without it. So you can use handmill with the farming mod of minetest game. \n\n## Threshing floor\n\nThe threshing floor can process the four grains of farming redo. The output of seeds and straw is configurable via settings.\n\n## Handmill\n\nThe handmill grinds flour plus rice flour according to the input, which can be rice and seeds of wheat, barley, oat, rye.\n\n## Multigrain Handmill\n\nThe mod adds a new multigrain handmill that produces multigrain flour from the four grain seeds.\n\n## Code Licence \n\nLicence of the code is GPLv3. The Code is completely rewritten. Only some parts are written following the cottages mod's code.\n\n## Graphics Licence\n\nCC-BY-SA 3.0:\n-handmill model\n-cottages_minimal_wood.png by celeron55\n\nWTFPL: \n-cottages_stone.png by Cisoun\n-cottages_junglewood.png by PilzAdam\n\n\n\n\n\n",
-  "maintainers": [
-    "Nordal"
-  ],
+  "maintainers": ["Nordal"],
   "media_license": "CC-BY-SA-3.0",
   "name": "handmill",
-  "provides": [
-    "handmill"
-  ],
+  "provides": ["handmill"],
   "release": 22531,
   "repo": "https://gitlab.com/Nordal/handmill",
   "score": 11.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/733774fb38.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/733774fb38.png"],
   "short_description": "Adds handmills and threshing floor.",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/733774fb38.png",
   "title": "Handmill",
   "translation_url": null,

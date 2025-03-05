@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://github.com/PiDemon/Fakery/issues",
   "license": "MIT",
   "long_description": "# Fakery\nTry to rip off your friends with counterfeit diamonds and other rare materials!\n### Features:\n- Forgery Table: Used to create fake materials from dye and plastic sheets (or steel ingots, if you don't have `basic_materials` installed). Right click to use, simply put materials in and wait 7 seconds.\n- Fake materials: Don't work in crafting recipes, are basically useless (besides for trying to rip people off with!).\n### Recipes  (Using a Forgery Table) :\n-  Cyan Dye=Fake Diamond\n-  Blue Dye=Fake Mithril Ingot\n-  Yellow Dye=Fake Mese Crystal\n-  Red Dye=Fake Lava Ingot\n-  White Dye=Fake Cloud Ingot\n-  Green Dye=Fake OP Ingot",
-  "maintainers": [
-    "cool_beans"
-  ],
+  "maintainers": ["cool_beans"],
   "media_license": "CC-BY-4.0",
   "name": "fakery",
-  "provides": [
-    "fakery"
-  ],
+  "provides": ["fakery"],
   "release": 6978,
   "repo": "https://github.com/PiDemon/Fakery.git",
   "score": 2.2,
@@ -396,10 +390,7 @@
   ],
   "short_description": "Adds counterfeit diamonds and other fake  precious materials.",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "survival"
-  ],
+  "tags": ["pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ZdsIlNu85E.png",
   "title": "Fakery",
   "translation_url": null,

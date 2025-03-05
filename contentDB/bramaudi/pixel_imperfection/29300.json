@@ -38,9 +38,7 @@
   "issue_tracker": "https://codeberg.org/bramaudi/pixel_imperfection/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "Pixel Im(proved)Perfection are based on Pixel Perfection textures but with adjustment on some texture part that aim to be close and familiar to Minecraft texture, designed especially for Mineclonia.\nWhat's changed compared to default Pixel Perfection:\n- Iron Golem\n- Gold Block (Gold Block, Gold Block Stair, Gold Block Slab)\n- Zombie Villagers\n- Mossy Cobblestone\n- Stone Bricks (Stone Brick, Carved Stone Brick, Cracked Stone Brick, Mossy Stone Brick)\n- Birch & Acacia Planks [by rudzik8]\n- etc.\n\nMore detailed changelog with comparison image can be found in repo release:\nhttps://codeberg.org/bramaudi/pixel_imperfection/releases\n\n### Credit:\n* [Pixel Perfection](https://www.planetminecraft.com/texture-pack/131pixel-perfection/) by XSSheep\n* Acacia & Birch planks by [rudzik8](https://codeberg.org/rudzik8)",
-  "maintainers": [
-    "bramaudi"
-  ],
+  "maintainers": ["bramaudi"],
   "media_license": "CC-BY-SA-4.0",
   "name": "pixel_imperfection",
   "provides": [],
@@ -57,13 +55,7 @@
   ],
   "short_description": "Pixel Im(proved)Perfection aim to be close and familiar to Minecraft texture.",
   "state": "APPROVED",
-  "tags": [
-    "16px",
-    "creative",
-    "environment",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["16px", "creative", "environment", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/02b91596d8.png",
   "title": "Pixel ImPerfection",
   "translation_url": null,

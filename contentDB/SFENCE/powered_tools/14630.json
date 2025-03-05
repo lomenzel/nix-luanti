@@ -103,25 +103,17 @@
   "issue_tracker": "https://github.com/sfence/powered_tools/issues",
   "license": "MIT",
   "long_description": "Add tools powered by electric from battery and by combustion engine.\n\nCombustion engine-powered tools are powered on/off by right-click (place) and refueled by left-click (use) in a powered-off state.\n\nIncludes brush cutter and chainsaw.\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-4.0",
   "name": "powered_tools",
-  "provides": [
-    "powered_tools"
-  ],
+  "provides": ["powered_tools"],
   "release": 14630,
   "repo": "https://github.com/sfence/powered_tools",
   "score": 8.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/95983be71a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/95983be71a.png"],
   "short_description": "Tools powered by electric/combustion engine. Includes brush cutter and chainsaw.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/95983be71a.png",
   "title": "Powered Tools",
   "translation_url": null,
@@ -137,79 +129,57 @@
       {
         "is_optional": false,
         "name": "adaptation_moretrees",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_minetest_game",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_lib",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_power_generators",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_cool_trees",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
         "name": "adaptation_basic_materials",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_rubber",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_hades_revisited",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_technic",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,
         "name": "adaptation_mineclone",
-        "packages": [
-          "SFENCE/adaptation_modpack"
-        ]
+        "packages": ["SFENCE/adaptation_modpack"]
       },
       {
         "is_optional": false,

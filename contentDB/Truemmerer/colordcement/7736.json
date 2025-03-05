@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/Truemmerer/coloredcement/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# Minetest ColoredCement\n\nColor the blocks with the Dye Airbrush. The full color palette of Unifydyes is available for this purpose.\n\n______________________________________\n> Adds the following blocks\n  - Hard Cement\n  - Sanded Cement\n  - Hard Cement Wall\n  - Sanded Cement Wall\n\n> Dependencies\n  - Unifydyes\n  - Default\n\n\n_______________________________________",
-  "maintainers": [
-    "Truemmerer"
-  ],
+  "maintainers": ["Truemmerer"],
   "media_license": "GPL-3.0-only",
   "name": "colordcement",
-  "provides": [
-    "colordcement"
-  ],
+  "provides": ["colordcement"],
   "release": 7736,
   "repo": "https://github.com/Truemmerer/coloredcement.git",
   "score": 11.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/MEMGZ7vsfr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/MEMGZ7vsfr.png"],
   "short_description": "Add Cement Blocks with unifieddyes support",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "survival"
-  ],
+  "tags": ["building", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/MEMGZ7vsfr.png",
   "title": "ColoredCement",
   "translation_url": null,

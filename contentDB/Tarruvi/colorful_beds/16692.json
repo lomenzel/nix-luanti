@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,26 +338,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds 28 beds in the 14 wool colors not in the MineTest Game.\n\nThe beds are crafted with the usual recipe using the 3 wool in the color you want and 3 of any wood, plus a stick in the fancy bed's case.\n\nThe Light Blue Beds make use of the Light Blue Dye made from the Flax crop in my other mod (Cropocalypse).\nThe beds are available in creative without that mod though, alongside the Light Blue Wool made for them.\n\n**On the original beds:**\n\nAdditionally, the original beds are still in the game and can still be crafted.\nTechnically making 2 sets of red beds available in game.\nThe new red beds have a brighter red, to make them distinguishable from one another.\n\n**Update 1.0.2:**\n\n-Added the bouncy group to the beds, now they all should have some bounciness when jumping on them.\n\n-Your height gained/lost while jumping is based on the part of the bed you jump off of.\nLanding on the Top Half of the bed will decrease your next bounce by 5%.\nLanding on the Bottom Half of the bed will increase your next bounce by 5%.\nThis is to give some control over how high you want to bounce.",
-  "maintainers": [
-    "Tarruvi"
-  ],
+  "maintainers": ["Tarruvi"],
   "media_license": "CC-BY-SA-3.0",
   "name": "colorful_beds",
-  "provides": [
-    "colorful_beds"
-  ],
+  "provides": ["colorful_beds"],
   "release": 16692,
   "repo": null,
   "score": 548.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/384ef80667.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/384ef80667.png"],
   "short_description": "Adds the other 14 colors to the simple and fancy beds",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "survival"
-  ],
+  "tags": ["building", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/384ef80667.png",
   "title": "Colorful Beds",
   "translation_url": null,
@@ -551,9 +540,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,25 +247,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/hardcore_farming/issues",
   "license": "MIT",
   "long_description": "My idea is to make farming much more challenging and interesting. This mod is an experiment in how to do that. For now it adds pests that devour your crops far more often than they normally do. Thanks to Liil for the locust and rat mobs, DuckGo for the crow mob. This mod is compatible with the default farming, farming redo, crops mod, and x_farming mods. I intend to add support for more farming mods.  I have added rat-traps & crows fly away from the scarecrow (also from the scarecrow in x_farming).    Locusts are also caught by the rat-traps.\n\nYou can configure how often the pests spawn, how likely they are to spawn, and how often they eat your crops by clicking on Settings>All Settings>Content:Mods>hardcore_farming and changing the values there.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-4.0",
   "name": "hardcore_farming",
-  "provides": [
-    "hardcore_farming"
-  ],
+  "provides": ["hardcore_farming"],
   "release": 25100,
   "repo": "https://github.com/Neuromancer56/hardcore_farming",
   "score": 171.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/22e91ec5d9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/22e91ec5d9.png"],
   "short_description": "Makes farming a hardcore challenge by adding very hungry pests.   Can you overcome them or will they defeat you?",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/22e91ec5d9.png",
   "title": "Hardcore Farming",
   "translation_url": null,

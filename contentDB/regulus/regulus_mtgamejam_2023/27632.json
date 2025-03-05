@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "![Logo image for The Velvet Crystal](https://github.com/regulus79/regulus_mtgamejam_2023/blob/main/menu/header.png?raw=true)\n\n# The Velvet Crystal\nRegulus's submission to the 2023 Minetest Game Jam\n\n> Recover the lost crystal and bring the light back into the world.\n\n## Note\nThe parkour in the most recent version has been made easier; this was due to the many comments about how the parkour was way too hard.\n\n## Licensing\nThis game code is licensed under the MIT license, a copy of which is contained in the file named LICENSE.\n\nThe textures, sounds, and any other media other than the code are licensed under the CC0 license, a copy of which is contained in the file named CC0.\n\n### Credits\nAll of the original code, textures, and sounds from the jam version are authored by me.\n\nDalgamer also contributed suggestions regarding plot and level design.\n\nAfter the game jam, Warr1024 and luatic contributed some code.\n\nAdditionally, Warr1024 contributed his voice acting skills to make the game fully-voiced.\n\n### Beta-testers:\n* Dalgamer -- Lead Beta-tester\n* Josiah VanderZee\n* Archfan\n* Maple8",
-  "maintainers": [
-    "regulus"
-  ],
+  "maintainers": ["regulus"],
   "media_license": "CC0-1.0",
   "name": "regulus_mtgamejam_2023",
   "provides": [
@@ -39,10 +37,7 @@
   ],
   "short_description": "Recover the crystal and bring light back into the world",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2023",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2023", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4e29904768.png",
   "title": "The Velvet Crystal",
   "translation_url": null,

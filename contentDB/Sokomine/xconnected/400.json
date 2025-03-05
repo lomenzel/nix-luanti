@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Sokomine/xconnected/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Xconnected nodes are like xpanes or xfences - they change their visual look depending on the nodes arround them. This mod needs less nodes than xpanes (only 5-6 instead of 15 per x-object) due to making use of the nodes symmetry and the option to set facedir values. Diffrent shapes can be used. The nodes connect to other xconnected nodes and to solid nodes. In contrast to xpanes, these nodes are not updated whenever something (else!) is digged, and thus cannot react to changes of their environment after they have been placed. If you want the node to re-adjust, dig it and place it again if needed. Automatic updates only happens to neighbouring xconnected nodes. The screwdriver can be used to rotate the nodes - don't complain about it looking odd if you use it.\n\nComes with definitions for panes, fences and walls and some sample applications of them.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "xconnected",
-  "provides": [
-    "xconnected"
-  ],
+  "provides": ["xconnected"],
   "release": 400,
   "repo": "https://github.com/Sokomine/xconnected",
   "score": 12,
@@ -452,11 +446,7 @@
   ],
   "short_description": "connected nodes like xpanes, xfences, walls",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mobs",
-    "plants_and_farming"
-  ],
+  "tags": ["building", "mobs", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/m1j2xj8Vj8.png",
   "title": "XConnected",
   "translation_url": null,

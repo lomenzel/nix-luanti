@@ -38,27 +38,17 @@
   "issue_tracker": "https://github.com/AFCMS/mcl_uhc/issues",
   "license": "GPL-3.0-only",
   "long_description": "# mcl_uhc\nUHC aditions to MineClone2\n\n## Provide\n\n* Auto enchantement for crafted pick, axe ans shovel\n* Iron and Gold ore drop ingots insteed of themselves\n* Coal ore drop 4 torches insteed of coal lumps\n* Lightning on death\n\n## TODO\n\n* Score and timer system (need mcl2 changes)",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "GPL-3.0-only",
   "name": "mcl_uhc",
-  "provides": [
-    "mcl_uhc"
-  ],
+  "provides": ["mcl_uhc"],
   "release": 8559,
   "repo": "https://github.com/AFCMS/mcl_uhc",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0f2394a06c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0f2394a06c.png"],
   "short_description": "UHC additions to MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pve",
-    "pvp"
-  ],
+  "tags": ["multiplayer", "pve", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0f2394a06c.png",
   "title": "MineClone2 UHC",
   "translation_url": null,
@@ -125,9 +115,7 @@
       {
         "is_optional": false,
         "name": "lighting_monoid",
-        "packages": [
-          "TestificateMods/lighting_monoid"
-        ]
+        "packages": ["TestificateMods/lighting_monoid"]
       }
     ]
   },

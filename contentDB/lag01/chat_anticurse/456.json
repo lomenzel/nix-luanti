@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/chat_anticurse/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "",
-  "maintainers": [
-    "lag01"
-  ],
+  "maintainers": ["lag01"],
   "media_license": "LGPL-2.1-only",
   "name": "chat_anticurse",
-  "provides": [
-    "chat_anticurse"
-  ],
+  "provides": ["chat_anticurse"],
   "release": 456,
   "repo": "https://github.com/minetest-mods/chat_anticurse",
   "score": 2.9,
   "screenshots": [],
   "short_description": "Kick player out when they type a curse word in chat or using /me or /msg command.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "multiplayer", "server_tools"],
   "thumbnail": null,
   "title": "Chat Anticurse",
   "translation_url": null,

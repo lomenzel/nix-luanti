@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/theFox6/pirate_story/issues",
   "license": "MIT",
   "long_description": "An showcase for the [journal mod](https://content.minetest.net/packages/theFox/journal/).  \nIt's mainly made for modders who want to know what they can do with the journal mod and how.  \nThe story is about about some stranded pirate captain. It's not really well developed though.",
-  "maintainers": [
-    "theFox"
-  ],
+  "maintainers": ["theFox"],
   "media_license": "MIT",
   "name": "pirate_story",
-  "provides": [
-    "pirate_story"
-  ],
+  "provides": ["pirate_story"],
   "release": 3273,
   "repo": "https://github.com/theFox6/pirate_story.git",
   "score": 4,
@@ -42,9 +38,7 @@
   ],
   "short_description": "a story about a wannabe pirate",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/KY5xvtTXTQ.png",
   "title": "Pirate Story",
   "translation_url": null,
@@ -59,9 +53,7 @@
       {
         "is_optional": false,
         "name": "journal",
-        "packages": [
-          "theFox/journal"
-        ]
+        "packages": ["theFox/journal"]
       }
     ]
   },

@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/Lokrates/Biofuel/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "A Minetest-Mod to produce biofuel from unused plants such as seedlings, flowers, grass, leaves and wood.",
-  "maintainers": [
-    "Lokrates"
-  ],
+  "maintainers": ["Lokrates"],
   "media_license": "CC-BY-SA-4.0",
   "name": "biofuel",
-  "provides": [
-    "biofuel"
-  ],
+  "provides": ["biofuel"],
   "release": 26326,
   "repo": "https://github.com/Lokrates/Biofuel",
   "score": 679.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/33c4b67742.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/33c4b67742.png"],
   "short_description": "Produce biofuel from unused plants.",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/33c4b67742.png",
   "title": "Biofuel",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/sedimentology/issues/",
   "license": "GPL-2.0-only",
   "long_description": "A mod that adds realistic erosion and degradation of rocks.\n\nNo natural material is safe for weather. Rocks will erode to cobble and gravel, sand, clay and eventually slide down steep slopes in mud flows. Water makes erosion go even faster - rivers can carve large canyons if you're not careful.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "sedimentology",
-  "provides": [
-    "sedimentology"
-  ],
+  "provides": ["sedimentology"],
   "release": 15476,
   "repo": "https://github.com/minetest-mods/sedimentology",
   "score": 155.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Dg9r29BqbD.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Dg9r29BqbD.png"],
   "short_description": "A mod that adds realistic erosion and degradation of rocks.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Dg9r29BqbD.png",
   "title": "Sedimentology",
   "translation_url": null,

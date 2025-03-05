@@ -1,8 +1,6 @@
 {
   "author": "mt-mods",
-  "content_warnings": [
-    "gambling"
-  ],
+  "content_warnings": ["gambling"],
   "created_at": "2018-11-09T23:27:40.151829",
   "dev_state": null,
   "donate_url": null,
@@ -286,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -433,10 +429,7 @@
   "issue_tracker": "https://gitlab.com/VanessaE/minislots/issues",
   "license": "LGPL-3.0-only",
   "long_description": "",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "minislots_modpack",
   "provides": [
@@ -448,15 +441,10 @@
   "release": 7502,
   "repo": "https://github.com/mt-mods/minislots.git",
   "score": 7.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dLSfT2v9Il.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dLSfT2v9Il.png"],
   "short_description": "Provides an \"engine\" to drive simple slot machines (includes two). Spins reels, takes in/pays out in Minegeld (Dan's currency mod), etc.",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "mini-game"
-  ],
+  "tags": ["commerce", "mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dLSfT2v9Il.png",
   "title": "Slot Machine Mini-games",
   "translation_url": null,
@@ -471,10 +459,7 @@
       {
         "is_optional": false,
         "name": "currency",
-        "packages": [
-          "mt-mods/currency",
-          "mt-mods/dreambuilder_game"
-        ]
+        "packages": ["mt-mods/currency", "mt-mods/dreambuilder_game"]
       },
       {
         "is_optional": false,

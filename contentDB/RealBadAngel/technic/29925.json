@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -418,9 +416,7 @@
   "issue_tracker": "https://github.com/minetest-mods/technic/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "This Minetest modpack adds machinery and automation procedure content to your world. A few notable features:\n\n* Electric circuits\n* Automated material processing (ores, wood, ...)\n* Extended chest functionalities\n\nFor more information, see the [Technic User Manual](https://github.com/minetest-mods/technic/blob/master/manual.md), or the [Technic Wiki](https://github.com/minetest-mods/technic/wiki).",
-  "maintainers": [
-    "RealBadAngel"
-  ],
+  "maintainers": ["RealBadAngel"],
   "media_license": "LGPL-2.1-only",
   "name": "technic",
   "provides": [
@@ -435,16 +431,10 @@
   "release": 29925,
   "repo": "https://github.com/minetest-mods/technic",
   "score": 1527.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Fj8DVPSCtk.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Fj8DVPSCtk.png"],
   "short_description": "Extensive machinery mod with electricity and ores.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "technology",
-    "tools"
-  ],
+  "tags": ["mapgen", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Fj8DVPSCtk.png",
   "title": "Technic",
   "translation_url": null,

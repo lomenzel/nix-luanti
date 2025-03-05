@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/TurkeyMcMac/shifter_tool/issues/",
   "license": "LGPL-3.0-or-later",
   "long_description": "This mod implements a tool for shifting nodes as with the pistons from Mesecons. It uses the API of `mesecons_mvps`, meaning that it is quite compatible with other mods (the API is widely used.)\n\nTo push a node, left-click the face you want to push while wielding the shifter. To pull the node, right-click the face instead.\n\n(If you want to move nodes quicker, a good choice is [![ContentDB](https://content.minetest.net/packages/ApolloX/teleporter_tool/shields/title/)](https://content.minetest.net/packages/ApolloX/teleporter_tool/).)\n\nThe tool can be crafted when the right ingredients are available, i.e. in Minetest Game (with `mesecons_pistons`) or MineClone 2:\n\n```\nP\nPS\n S\n\nP = sticky piston\nS = stick\n```",
-  "maintainers": [
-    "jwmhjwmh"
-  ],
+  "maintainers": ["jwmhjwmh"],
   "media_license": "CC-BY-SA-3.0",
   "name": "shifter_tool",
-  "provides": [
-    "shifter_tool"
-  ],
+  "provides": ["shifter_tool"],
   "release": 11882,
   "repo": "https://github.com/TurkeyMcMac/shifter_tool/",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3d938fee49.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3d938fee49.png"],
   "short_description": "Adds a tool for moving nodes as pistons would",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3d938fee49.png",
   "title": "Shifter Tool",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/sfence/cave_exploring/issues",
   "license": "MIT",
   "long_description": "Minetest mod: `cave_exploring`\n=============================\nMod which add geologist's hammer for acustic cave exploring.\n\nSource code:\n-----------------------\nCopyright (c) 2024 SFENCE\nMIT - check LICENSE file\n\nLicense of media (textures, sounds and models):\n-----------------------------------------------\nCC BY-SA 4.0 - check LICENSE file\n\nCopyright (c) 2024 SFENCE (CC BY-SA 4.0):\nAll textures not mentioned below.\n\nCopyright (c) 2024 BlockMen and SFENCE (CC BY-SA 3.0):\n\t`cave_exploring_hammer_steel.png` - Edited `default_tool_steelpick.png` from Minetest game default mod.\n\nCopyright (c) 2014,2024 Kerim Yalcin(Agaxly) and SFENCE (CC0):\n\t`cave_exploring_stone_*.ogg` - Edited sound from https://freesound.org/people/abstraktgeneriert/sounds/233630/\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cave_exploring",
-  "provides": [
-    "cave_exploring"
-  ],
+  "provides": ["cave_exploring"],
   "release": 27392,
   "repo": "https://github.com/sfence/cave_exploring.git",
   "score": 2.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b8318b92b3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b8318b92b3.png"],
   "short_description": "Cave explorer tool to use acoustic signals for undergound exploring.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "singleplayer",
-    "tools"
-  ],
+  "tags": ["pve", "singleplayer", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b8318b92b3.png",
   "title": "Cave explorer tool",
   "translation_url": null,

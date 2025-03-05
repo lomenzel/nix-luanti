@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -158,26 +156,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "NSSB by NPX Team is a mapgen mod for Not So Simple Mobs (NSSM mod) that adds a new underground biome called Morlendor, and also spawns 20 new structures throughout the world for multiple mobs.\n\nForum page: https://forum.minetest.net/viewtopic.php?f=11&t=14135",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-4.0",
   "name": "nssb",
-  "provides": [
-    "nssb"
-  ],
+  "provides": ["nssb"],
   "release": 26783,
   "repo": "https://codeberg.org/tenplus1/nssb",
   "score": 165,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dd7443705d.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dd7443705d.jpg"],
   "short_description": "BIOME integration for nssm, the not so simple buildings.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "mobs"
-  ],
+  "tags": ["mapgen", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dd7443705d.png",
   "title": "Nssb",
   "translation_url": null,
@@ -191,9 +180,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,
@@ -286,9 +273,7 @@
       {
         "is_optional": false,
         "name": "nssm",
-        "packages": [
-          "TenPlus1/nssm"
-        ]
+        "packages": ["TenPlus1/nssm"]
       },
       {
         "is_optional": false,

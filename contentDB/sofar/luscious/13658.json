@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/sofar/luscious/issues/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Bring color into the mgv7 mapgen world.\n\nThis mod uses `hardware node coloring` and uses biome data from the heat and humidity maps to color various nodes based on their climate environment. This works even for player-placed nodes. The result is a smooth blend of pleasing color gradients in the landscape that make the world much more vibrant and moody.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "CC-BY-SA-4.0",
   "name": "luscious",
-  "provides": [
-    "luscious"
-  ],
+  "provides": ["luscious"],
   "release": 13658,
   "repo": "https://github.com/sofar/luscious",
   "score": 156.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1KeBBYW861.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1KeBBYW861.jpg"],
   "short_description": "Bring color into the mgv7 mapgen world.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1KeBBYW861.png",
   "title": "Luscious",
   "translation_url": null,

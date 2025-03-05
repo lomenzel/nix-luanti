@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/neko259/telegram/issues/new/choose/",
   "license": "Apache-2.0",
   "long_description": "Link a telegram chat (or chats, in the future) to the game chat. Also allows commands to ping the server, get player list and status, from the chat.",
-  "maintainers": [
-    "neko259"
-  ],
+  "maintainers": ["neko259"],
   "media_license": "Apache-2.0",
   "name": "telegram",
-  "provides": [
-    "telegram"
-  ],
+  "provides": ["telegram"],
   "release": 6870,
   "repo": "https://github.com/neko259/telegram",
   "score": 1.7,
   "screenshots": [],
   "short_description": "Integration with telegram messenger chat",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "complex_installation",
-    "library"
-  ],
+  "tags": ["chat", "complex_installation", "library"],
   "thumbnail": null,
   "title": "Telegram",
   "translation_url": null,

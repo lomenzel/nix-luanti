@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "CalebJ"
-  ],
+  "maintainers": ["CalebJ"],
   "media_license": "MIT",
   "name": "morebricks",
-  "provides": [
-    "morebricks"
-  ],
+  "provides": ["morebricks"],
   "release": 2250,
   "repo": "https://gitlab.com/KaylebJay/morebricks",
   "score": 161.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/kGUykhxmAE.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/kGUykhxmAE.png"],
   "short_description": "Adds an assortment of new bricks to build with.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/kGUykhxmAE.png",
   "title": "Morebricks",
   "translation_url": null,
@@ -509,18 +499,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

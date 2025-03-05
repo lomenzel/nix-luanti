@@ -11,29 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "The Chess for minetest.\n\nUses a real-sized board, node-to-node.  Provides the player with a board and pieces.  No rules as of now.\n\nhttps://forum.minetest.net/viewtopic.php?t=2784 is the original discussion of this mod.\nOriginal contributors are listed there.\n\nThe license was WTFPL, but it's harmful for the free software community due to its unclear nature and offensive language, so I relicensed it under GPLv3 (since the original license allows that) -- to keep the software free as in freedom and allow for clearer licensing terms.\n\nThe original had some sort of piece ownerships, but who needs that?\nLike in real life, you can take and place ANY piece on the board.\nComing soon: registering your own chess pieces.\nANARCHY chess!\nPLAY your CHESS normally! PUNCH your board and your opponent! KICK, KISS, ENSLAVE! Spread RADIOACTIVE WASTE all over the BOARD! BLOW EVERYTHING UP! And then get banned for griefing.",
-  "maintainers": [
-    "LissoBone"
-  ],
+  "maintainers": ["LissoBone"],
   "media_license": "CC-BY-4.0",
   "name": "chess",
-  "provides": [
-    "chess"
-  ],
+  "provides": ["chess"],
   "release": 17036,
   "repo": null,
   "score": 158.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/afcee667b5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/afcee667b5.png"],
   "short_description": "Chess.  No rules as of now, only pieces and a board.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "mini-game",
-    "multiplayer",
-    "pvp",
-    "sports"
-  ],
+  "tags": ["decorative", "mini-game", "multiplayer", "pvp", "sports"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/afcee667b5.png",
   "title": "Chess",
   "translation_url": null,

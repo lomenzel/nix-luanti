@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/entuland/tpad/issues",
   "license": "MIT",
   "long_description": "## Features\n\nWith these pads players can build their own Local Network and collaborate to build a Global Network shared among all players.\n\nPads are sorted by name in the lists, the Global Network list groups them by owner name first.\n\n## Pad types\n\nEach pad can be set as one of these three types:\n\n- `Private` (default): only accessible to its owner or by an admin\n- `Public`: accessible to anyone from any Public pad of the owner's Local Network\n- `Global`: accessible to anyone from any Public pad\n\nA pad can be edited and destroyed only by its owner or by an admin.\n\n## Pad interaction\n\n- place a pad down, it will be immediately active and set as \"Private\"\n- right click a pad edit its name/type and to access the Networks\n- select a pad from a list and hit \"Teleport\", or doubleclick on the list item\n- delete any remote pad by selecting it on the Local Network list and clicking \"Delete\"\n\n## Closest pad waypoint\n\nIssue `/tpad` on the chat to get a waypoint to the closest of your pads.\n\nIssue `/tpad off` to remove the waypoint from the HUD - it will also be removed when you teleport from any pad.\n\nPlease see the [Gihub repo](https://github.com/entuland/tpad) for additional details",
-  "maintainers": [
-    "entuland"
-  ],
+  "maintainers": ["entuland"],
   "media_license": "CC0-1.0",
   "name": "tpad",
-  "provides": [
-    "tpad"
-  ],
+  "provides": ["tpad"],
   "release": 28854,
   "repo": "https://github.com/entuland/tpad",
   "score": 342.5,
@@ -28,9 +24,7 @@
   ],
   "short_description": "A simple but powerful pad to create teleporting networks",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6sq9ScHsLq.png",
   "title": "Teleporter Pads",
   "translation_url": null,

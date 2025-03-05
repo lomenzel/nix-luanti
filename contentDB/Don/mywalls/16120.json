@@ -76,9 +76,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,15 +260,10 @@
   "issue_tracker": "https://github.com/minetest-mods/mywalls/issues/",
   "license": "WTFPL",
   "long_description": "Adds more wall types for [`walls` mod from `minetest_game`](https://content.minetest.net/packages/Minetest/minetest_game/).\n\nWalls mod comes with Minetest Game. It includes **only** 3 types of walls.\n\nThis mod extends it to include 19 more types.  \nAll walls are added into the `walls` mod namespace and use its API.\n\nIncluded in this mod walls are:\n\n - wall for `\"default:brick\"`\n - walls for:\n    - `\"default:sandstone\"`\n    - `\"default:sandstonebrick\"`\n    - `\"default:sandstone_block\"`\n - walls for:\n    - `\"default:stone\"`\n    - `\"default:stonebrick\"`\n    - `\"default:stone_block\"`\n - walls for:\n    - `\"default:desert_stone\"`\n    - `\"default:desert_stonebrick\"`\n    - `\"default:desert_stone_block\"`\n - walls for:\n    - `\"default:desert_sandstone\"`\n    - `\"default:desert_sandstone_brick\"`\n    - `\"default:desert_sandstone_block\"`\n - walls for:\n    - `\"default:silver_sandstone\"`\n    - `\"default:silver_sandstone_brick\"`\n    - `\"default:silver_sandstone_block\"`\n - walls for:\n    - `\"default:obsidian\"`\n    - `\"default:obsidian_brick\"`\n    - `\"default:obsidian_block\"`\n",
-  "maintainers": [
-    "Don",
-    "alek13"
-  ],
+  "maintainers": ["Don", "alek13"],
   "media_license": "WTFPL",
   "name": "mywalls",
-  "provides": [
-    "mywalls"
-  ],
+  "provides": ["mywalls"],
   "release": 16120,
   "repo": "https://github.com/minetest-mods/mywalls",
   "score": 315.8,
@@ -280,10 +273,7 @@
   ],
   "short_description": "Adds more wall types for walls mod.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0936e5b4fd.png",
   "title": "My Walls",
   "translation_url": null,

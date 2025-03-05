@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-modinfo/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# modinfo\n\nget info about the mods running on a server.\n\nrequires access to the insecure environment in order to read modpack configuration.\ndo not use this mod unless you trust it.\n\nnote: does not currently work w/ recursive modpacks. if you require such functionality, please request it or submit\na PR.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "modinfo",
-  "provides": [
-    "modinfo"
-  ],
+  "provides": ["modinfo"],
   "release": 14362,
   "repo": "https://github.com/fluxionary/minetest-modinfo.git",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7831ee15c1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7831ee15c1.png"],
   "short_description": "get info about the mods running on a server",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "complex_installation",
-    "gui"
-  ],
+  "tags": ["chat", "complex_installation", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7831ee15c1.png",
   "title": "modinfo",
   "translation_url": null,
@@ -45,20 +35,14 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/modinfo": [
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

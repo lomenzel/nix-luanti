@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,28 +377,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/hazmat_suit/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Hazmat Suit\n\nThis mod affs hazmat suit to [3d_armor](https://content.luanti.org/packages/stu/3d_armor/). It protects rather well from fire and radiation, and it has built-in oxygen supply.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC0-1.0",
   "name": "hazmat_suit",
-  "provides": [
-    "hazmat_suit"
-  ],
+  "provides": ["hazmat_suit"],
   "release": 29374,
   "repo": "https://github.com/C-C-Minetest-Server/hazmat_suit",
   "score": 19.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6c64cbba15.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6c64cbba15.jpg"],
   "short_description": "Protect wearer from fire and radiation",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "pve",
-    "survival",
-    "tools"
-  ],
+  "tags": ["player_effects", "pve", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6c64cbba15.png",
   "title": "Hazmat Suit",
   "translation_url": null,

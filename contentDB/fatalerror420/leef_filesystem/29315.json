@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Luanti-Extended-Engine-Features/LEEF-filesystem/issues",
   "license": "MIT",
   "long_description": "# leef-filesystem\nImplements binary file reading, and media tracking.\nCredits to Appgurue: he basically wrote all original code, it's been highly modified to be modular and to have a working documented interface- but nonetheless none of it would be possible without him.\ndocumentation: https://luanti-extended-engine-features.github.io/LEEF-filesystem/\n",
-  "maintainers": [
-    "fatalerror420"
-  ],
+  "maintainers": ["fatalerror420"],
   "media_license": "MIT",
   "name": "leef_filesystem",
-  "provides": [
-    "leef_filesystem"
-  ],
+  "provides": ["leef_filesystem"],
   "release": 29315,
   "repo": "https://github.com/Luanti-Extended-Engine-Features/LEEF-filesystem",
   "score": 179.1,

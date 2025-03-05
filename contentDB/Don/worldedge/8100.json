@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/worldedge/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "worldedge\n=========\n\nA Minetest Mod that teleports you to the other side of the map when you reach its edge.\nThis gives the illusion that that world is round and you can walk all the way around.\n\nYou can change the worlds edge by changing the first variable in init.lua\n\tlocal edge = 30000\n\nLicense of code: DWYWPL\n\nWritten by Amaz\nModified by Don\n",
-  "maintainers": [
-    "Don"
-  ],
+  "maintainers": ["Don"],
   "media_license": "WTFPL",
   "name": "worldedge",
-  "provides": [
-    "worldedge"
-  ],
+  "provides": ["worldedge"],
   "release": 8100,
   "repo": "https://github.com/minetest-mods/worldedge",
   "score": 156.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dacb6a77a8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dacb6a77a8.png"],
   "short_description": " Teleports the player to the other side of the world when they reach the edge.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dacb6a77a8.png",
   "title": "Worldedge",
   "translation_url": null,

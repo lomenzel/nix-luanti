@@ -38,20 +38,14 @@
   "issue_tracker": "https://codeberg.org/erisMT/aotearoa/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Aotearoa REDO\n\nA Minetest mod that complements the default map biomes with Aotearoa, land of the long white cloud, New Zealand.\n\nContains a large number of realistic native flora, biomes, and more. A land of dark towering forests, windswept mountains, and more.\n\nOriginal mod created by Dokimi (provided all floral and geological knowledge, completed the original base for the mod by themselves).\n\nContributed to by Josselin2 (various improvements, fixes) and erisMT (maintainer of this fork).\n\n# Instructions:\n\nDesigned for use with mg_valleys.\n(Will work with other default mapgens but may not display well. )\n\n# License:\n\nCode is licensed under GNU LGPLv2+ and GNU LGPLv3+.\n\nTextures are licensed under CC BY-SA 3.0 Unported.\n\nSee LICENSE.txt for details.\n\n# Credit:\n\nNZ birdsongs adapted from New Zealand Department of Conservation. CC BY 4.0\nhttps://www.doc.govt.nz/nature/native-animals/birds/bird-songs-and-calls/\n(bellbirds, tuis, kokako, parakeet, si_kaka, tuis2, tuis3, tuis4, silvereye, fantail1, grey_warbler, ni_robin, si_robin, cicada_kereru, whitehead, kea, takahe, morepork, male_kiwi, female_kiwi, kakapo, shearwater, yellow_eyed_penguin)\n\nboiling_mud sound adapted from Bubbling Cauldron, Mike Koenig , http://soundbible.com/51-Bubbling-Cauldron.html\n\nmud footstep sounds (http://www.freesound.org/people/dobroide/sounds/16771) copyright (C) 2006 by dobroide, [CC by 3.0]\n\nte_kore_whakapapa adapted from https://teara.govt.nz/en/speech/30768/te-kore-whakapapa  Creative Commons Attribution-NonCommercial 3.0 New Zealand Licence. See below for text and translation.\n\n# Te Kore Whakapapa:\n\nThe Geneaology of Creation:\n\nI te timatanga Te Kore.\nTe Kore.\nTe Kore-te-whiwhia.\nTe Kore-te-rawea.\nTe Kore-i-ai.\nTe Kore-te-wiwia.\n\nTe Kore Te Po.\nTe Po-nui.\nTe Po-roa.\nTe Po-uriuri.\nTe Po-kerekere.\nTe Po-tiwhatiwha.\nTe Po-te-kitea.\nTe Po-tangotango.\nTe Po-whawha.\nTe Po-namunamu-ki-taiao.\nTe Po-tahuri-atu.\nTe Po-tahuri-mai-ki-taiao.\n\nTe Whai-ao.\nTe Ao-marama.\nTihei mauri-ora.\n\n-----\n\nIn the beginning was the Void.\nThe Void.\nThe Void in which nothing is possessed.\nThe Void in which nothing is felt.\nThe Void with nothing in union.\nThe Void without boundaries.\n\nFrom the void the Night.\nThe great Night.\nThe long Night.\nThe deep Night.\nThe intense Night.\nThe dark Night.\nThe Night in which nothing is seen.\nThe intensely dark Night.\nThe Night of feeling.\nThe Night of seeking the passage to the world.\nThe Night of restless turning.\nThe Night of turning towards the revealed world.\n\nThe glimmer of dawn.\nThe bright light of day.\nThere is life.\n",
-  "maintainers": [
-    "Eris"
-  ],
+  "maintainers": ["Eris"],
   "media_license": "CC-BY-NC-SA-3.0",
   "name": "aotearoa",
-  "provides": [
-    "aotearoa"
-  ],
+  "provides": ["aotearoa"],
   "release": 16057,
   "repo": "https://codeberg.org/erisMT/aotearoa.git",
   "score": 1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b88145bcc7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b88145bcc7.png"],
   "short_description": "Fork of aotearoa by Dokimi. Complements the default map biomes with Aotearoa, land of the long white cloud, New Zealand.",
   "state": "APPROVED",
   "tags": [

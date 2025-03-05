@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/edu-minetest/quiz_ui/issues/new/choose/",
   "license": "MIT",
   "long_description": "The Manager UI of the [Quiz Play Challenge mod](https://content.minetest.net/packages/snowyu/quiz/).\n\n* `/quiz` Chat Command to mange quiz(need `quiz` privilege)\n\nThis mod is already builtin in [Minetest:Education Edition](https://edu.ihom.app/)\n\nMore info: [Quiz Play Challenge Mod](https://edu.ihom.app/en/guide/mods/quiz/)",
-  "maintainers": [
-    "snowyu"
-  ],
+  "maintainers": ["snowyu"],
   "media_license": "MIT",
   "name": "quiz_ui",
-  "provides": [
-    "quiz_ui"
-  ],
+  "provides": ["quiz_ui"],
   "release": 19500,
   "repo": "https://github.com/edu-minetest/quiz_ui",
   "score": 151.4,
@@ -29,10 +25,7 @@
   ],
   "short_description": "The Manager UI for the Quiz mod.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "gui"
-  ],
+  "tags": ["education", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3ac1fadf39.png",
   "title": "Quiz UI",
   "translation_url": null,
@@ -70,33 +63,24 @@
       {
         "is_optional": false,
         "name": "yaml",
-        "packages": [
-          "snowyu/yaml"
-        ]
+        "packages": ["snowyu/yaml"]
       }
     ],
     "snowyu/quiz_ui": [
       {
         "is_optional": false,
         "name": "yaml",
-        "packages": [
-          "snowyu/yaml"
-        ]
+        "packages": ["snowyu/yaml"]
       },
       {
         "is_optional": false,
         "name": "quiz",
-        "packages": [
-          "snowyu/quiz"
-        ]
+        "packages": ["snowyu/quiz"]
       },
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,

@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/acmgit/smart_chat/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Extends the plain chat of Minetest with the abilities of joining channels, leave them, writes Messages to all players, moderate the chat and many more.\nThe system is modular, so you can easy add your own modules and you can config the chat about the settings of minetest.",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "GPL-3.0-only",
   "name": "smart_chat",
-  "provides": [
-    "smart_chat"
-  ],
+  "provides": ["smart_chat"],
   "release": 23399,
   "repo": "https://github.com/acmgit/smart_chat.git",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/qZUzENpiR4.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/qZUzENpiR4.jpg"],
   "short_description": "A new, lightweight, simple and modular Chatsystem",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "library",
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["chat", "library", "multiplayer", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/qZUzENpiR4.png",
   "title": "Smart Chat",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://gitlab.com/xenonca/mese_trains/-/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# Mese Trains\nSome more modern trains for the [advtrains](https://content.minetest.net/packages/orwell/advtrains/) mod.  \nCurrently the modpack includes only one new train, the MeseJet, which is based on the Japanese train from [moretrains](https://content.minetest.net/packages/gpcf/moretrains/) but with modified textures, a different horn sound and line display support.\n\n## Features\n**MeseJet:** Line numbers from 1 to 9 will be displayed on the outside as well as on the inside of the train, differing in color.\n\n## Notices\n**License Notice**  \nLicense of textures and models: [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) (unless stated otherwise)  \nLicense of sounds: [CC-0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (unless stated otherwise)  \nLicense of code: [LGPL 2.1-only](https://spdx.org/licenses/LGPL-2.1-only.html) (unless stated otherwise)  \n\n**Changes**  \nsee README file",
-  "maintainers": [
-    "xenonca"
-  ],
+  "maintainers": ["xenonca"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mese_trains",
-  "provides": [
-    "mese_trains_mesejet"
-  ],
+  "provides": ["mese_trains_mesejet"],
   "release": 15767,
   "repo": "https://gitlab.com/xenonca/mese_trains",
   "score": 354,
@@ -450,9 +444,7 @@
   ],
   "short_description": "Some more trains for the advtrains mod.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7faeb1559e.png",
   "title": "Mese Trains",
   "translation_url": null,
@@ -509,16 +501,12 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

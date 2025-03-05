@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/frame/issues/",
   "license": "LGPL-2.1-or-later",
   "long_description": "A stylish item and node frame that causes no lag/server load.\n\nThis is an entity-free implementation of item frames. The upside is that there are no entities and therefore no special lua code needed to spawn item entities and clean them up. However, a downside is that items can't just be inserted randomly - there needs to be code added to mods that add nodes and items to allow inserting them into frames. For really busy servers this may be highly beneficial.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "CC-BY-SA-3.0",
   "name": "frame",
-  "provides": [
-    "frame"
-  ],
+  "provides": ["frame"],
   "release": 22098,
   "repo": "https://github.com/minetest-mods/frame",
   "score": 168.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/peiYZKPhO6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/peiYZKPhO6.png"],
   "short_description": "A stylish item and node frame that causes no lag/server load.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/peiYZKPhO6.png",
   "title": "Frame",
   "translation_url": null,

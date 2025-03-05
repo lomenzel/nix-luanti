@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_doc_basics/issues",
   "license": "MIT",
   "long_description": "# Basic Help [`doc_basics`]\nAdds basic help texts about Luanti, controls, gameplay and other basics.\nThis mod uses the Documentation System [`doc`] as a basis and adds these categories:\n\n* Basics: Basic gameplay information (e.g. how to craft)\n* Advanced usage: Advanced Luanti information (not gameplay-releavant) for power users (e.g. how to use commands)",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "doc_basics",
-  "provides": [
-    "doc_basics"
-  ],
+  "provides": ["doc_basics"],
   "release": 28638,
   "repo": "https://codeberg.org/Wuzzy/minetest_doc_basics",
   "score": 9.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/sQietz5CDB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/sQietz5CDB.png"],
   "short_description": "Adds some help texts explaining how to use Luanti.",
   "state": "APPROVED",
-  "tags": [
-    "gui"
-  ],
+  "tags": ["gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/sQietz5CDB.png",
   "title": "Basic Help",
   "translation_url": null,

@@ -38,25 +38,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# NodeCore Mod Resource Library\nA collection of resources I keep finding myself using in mods,\nso I've compiled them here so you don't have to have multiple \ncopies of the same redundant data if using multiple NC mods.",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_lib_resources",
-  "provides": [
-    "wc_lib_resources"
-  ],
+  "provides": ["wc_lib_resources"],
   "release": 27658,
   "repo": "https://github.com/wintersknight94/wc_lib_resources",
   "score": 8.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/89966d622f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/89966d622f.png"],
   "short_description": "Resources to be used for NC Content",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/89966d622f.png",
   "title": "Nodecore Mod Resource Library",
   "translation_url": null,
@@ -70,50 +62,32 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

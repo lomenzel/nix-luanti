@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/areas/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "Features:\n\n- Players with the 'areas' privilege can dig and place in protected areas without having to \ngrant themselves control over it.\n- Areas can be named.\n- Simpler to use.\n- Players that have a certain privilege will be able to protect a set number of areas within a\nsize limit by themselves using the /protect command. (If the server administrator enables it)\n- Areas made with node_ownership can be converted with one simple command.\n- Areas can intersect.\n- Area owners are displayed on the HUD.\n- Players do not have to be online for you to grant them areas.\n- Cleaner and faster code. :-)",
-  "maintainers": [
-    "ShadowNinja"
-  ],
+  "maintainers": ["ShadowNinja"],
   "media_license": "LGPL-2.1-only",
   "name": "areas",
-  "provides": [
-    "areas"
-  ],
+  "provides": ["areas"],
   "release": 27748,
   "repo": "https://github.com/minetest-mods/areas/",
   "score": 512,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1ad0c33353.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1ad0c33353.png"],
   "short_description": "Areas is a advanced area protection mod based on node_ownership.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1ad0c33353.png",
   "title": "Areas",
   "translation_url": null,

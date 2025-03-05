@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "# Description\n\n**GamerIPVault** is a Minetest mod designed to track players' IP addresses and check connections between different players based on their IP addresses. It is intended to help server administrators manage abuse and monitor suspicious behavior by associating IP addresses with players.\n\n## Features\n\n- Records hashed IP addresses of players upon their connection.\n- Searches for players who have used the same IP address.\n- Searches for IP addresses associated with a specific player.\n- Displays results in Minetest chat and formspecs.\n\n## Installation\n\n1. Download the **GamerIPVault** mod from GitHub or another trusted source.\n2. Extract the downloaded archive (if necessary).\n3. Copy the `gameripvault` folder into the `mods` directory of your Minetest server.\n4. Ensure the mod is enabled in the `minetest.conf` file or via the server administration interface.\n\n## Configuration\n\nNo specific configuration is required to use **GamerIPVault**. The mod works immediately after installation.\n\n## Commands\n\nHere are the available commands with this mod:\n\n### `/getip <username>`\n\nDisplays the IP addresses where the specified player has connected.\n\n- **Example:** `/getip player1`\n\n### `/getplayers <hash>`\n\nDisplays the players who have used the same hashed IP address as the one provided.\n\n- **Example:** `/getplayers abcdef1234567890`\n\n### `/findsameips <username>`\n\nDisplays players who have used the same IPs as the specified player.\n\n- **Example:** `/findsameips player1`\n\n## Permissions\n\nTo use the commands provided by the mod, a player must have the `gameripvault` privilege. Server administrators should ensure that the appropriate permissions are assigned:\n\n- **gameripvault**: Allows the use of GamerIPVault commands.\n\nPermissions can be assigned via the `minetest.conf` file or through Minetest's privilege management commands.\n\n## Notes\n\n- This mod stores players' IP addresses in a hashed format for privacy reasons.\n- Make sure to comply with local laws and regulations regarding the management of personal data and player privacy.\n\n## Contributions\n\nContributions are welcome! If you would like to improve the mod or add new features, please submit a pull request on the GitHub repository.\n\n## License\n\nThis mod is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). You are free to use, modify, and distribute it under the terms of this license, provided you attribute the original author and share derivative works under the same license.\n\n## Contact\n\nFor any questions or support, please contact the mod author at the email address provided in the Codeberg repository or on Minetest forums.\n\n---\n\nThank you for using **GamerIPVault**! We hope this mod helps you maintain a healthy and secure gaming environment for your players.",
-  "maintainers": [
-    "neocraft1293"
-  ],
+  "maintainers": ["neocraft1293"],
   "media_license": "CC-BY-SA-4.0",
   "name": "gameripvault",
-  "provides": [
-    "gameripvault"
-  ],
+  "provides": ["gameripvault"],
   "release": 28118,
   "repo": "https://codeberg.org/neocraft1293/GamerIPVault-minetest",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f6002d2165.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f6002d2165.png"],
   "short_description": "mod for storing hashed player IPs",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f6002d2165.png",
   "title": "GamerIPVault",
   "translation_url": null,

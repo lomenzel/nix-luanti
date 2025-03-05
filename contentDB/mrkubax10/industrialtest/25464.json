@@ -64,14 +64,10 @@
   "issue_tracker": "https://git.weirdcore.net/mrkubax10/industrialtest/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# IndustrialTest\nIndustrialTest implements electricity which can be used to power various machines and tools featured in mod. At this point this project should be stable enough and things won't break between versions. IndustrialTest takes strong inspiration from other similar mods while\nimproving player experience and working around previous mods' limitations. It's written in a way that it can support multiple incompatible games, see *Compatibilty* section.\n\n## Compatibility\nCurrently IndustrialTest supports following games:\n\n- [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game) and derivatives\n- [VoxeLibre](https://content.minetest.net/packages/Wuzzy/mineclone2/) and derivatives\n\n## Additional dependencies\n- Minetest Game\n    - [3D Armor](https://content.minetest.net/packages/stu/3d_armor)\n- VoxeLibre\n    - none\n\n## Contributors\n- mrkubax10 <mrkubax10@onet.pl or mrkubax10 at irc.libera.chat> [programming, some graphics]\n- HandfulOfFrogs <<handfuloffrogs@gmail.com>> [some programming, graphics]\n- LuanHawk <Discord: LuanHawk#8733> [lead graphics]\n- Migdyn <<temp1@cubesoftware.xyz>> [graphics]\n",
-  "maintainers": [
-    "mrkubax10"
-  ],
+  "maintainers": ["mrkubax10"],
   "media_license": "CC-BY-4.0",
   "name": "industrialtest",
-  "provides": [
-    "industrialtest"
-  ],
+  "provides": ["industrialtest"],
   "release": 25464,
   "repo": "https://git.weirdcore.net/mrkubax10/industrialtest",
   "score": 500,
@@ -86,10 +82,7 @@
   ],
   "short_description": "Features electricity and various useful machines. Inspired by Technic and IC2.",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "tools"
-  ],
+  "tags": ["technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2a4cf7354f.png",
   "title": "IndustrialTest",
   "translation_url": null,

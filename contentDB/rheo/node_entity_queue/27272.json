@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-node_entity_queue/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# node_entity_queue\n\nan API which creates a common queue for updating \"node entities\", a term i use for non-physical\nentities which are semantically bound to a specific node.\n\n## api\n\n* `function api.register_node_entity_loader(node_name, action)`\n  `action = function(pos, node, params, dtime, n)`\n  the initializer action will be queued for calling whenever it is \"loaded\" (mapblock becomes active).\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "node_entity_queue",
-  "provides": [
-    "node_entity_queue"
-  ],
+  "provides": ["node_entity_queue"],
   "release": 27272,
   "repo": "https://github.com/fluxionary/minetest-node_entity_queue.git",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ed9696bea8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ed9696bea8.png"],
   "short_description": "a queue for spreading out the generation of node entities over multiple server steps (smartshops, signs, itemframes, etc).",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ed9696bea8.png",
   "title": "node entity queue",
   "translation_url": null,
@@ -43,18 +35,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/fmod": [],
@@ -62,35 +48,24 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/node_entity_queue": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "action_queues",
-        "packages": [
-          "rheo/action_queues"
-        ]
+        "packages": ["rheo/action_queues"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

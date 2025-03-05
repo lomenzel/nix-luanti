@@ -11,27 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_findbiome/issues",
   "license": "MIT",
   "long_description": "This is a mod to help with mod/game development for Luanti. It adds a command (“`findbiome`”) to find a biome nearby and teleport you to it and another command (“`listbiomes`”) to list biomes.\n\n The biome finding functionality is also available to mod developers (see the readme file).\n\nNote: To find biomes in v6 mapgen, you need to activate the `biomeinfo` mod as well.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "findbiome",
-  "provides": [
-    "findbiome"
-  ],
+  "provides": ["findbiome"],
   "release": 24362,
   "repo": "https://codeberg.org/Wuzzy/minetest_findbiome",
   "score": 833.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/82eea1117e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/82eea1117e.png"],
   "short_description": "Add commands to list and find biomes",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["chat", "developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/82eea1117e.png",
   "title": "Find Biome",
   "translation_url": null,

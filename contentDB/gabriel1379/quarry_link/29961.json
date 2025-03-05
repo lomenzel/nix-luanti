@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29956,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Quarry Link [quarry_link]\n===========\n\nBy gabriel1379\n\nThis mod links the mod Quarry Mechanics [ContentDB](https://content.luanti.org/packages/kestral/quarry/) [Source](https://github.com/kestral246/quarry) with other mods, to make its mechanics usable with the stone-type and resource nodes of those too.\n\nCurrently supported mods:\n-------------------------\n- Everness [ContentDB](https://content.luanti.org/packages/SaKeL/everness/) [Source](https://bitbucket.org/minetest_gamers/everness/src/master/)\n- More Ores [ContentDB](https://content.luanti.org/packages/Calinou/moreores/) [Source](https://github.com/minetest-mods/moreores)\n- Technic [ContentDB](https://content.luanti.org/packages/RealBadAngel/technic/) [Source](https://github.com/minetest-mods/technic)\n\nCurrently supported features:\n-----------------------------\n- The resource nodes from the above mods will behave according to Quarry Mechanics (will turn to cobble and fall after being mined).\n- **Everness**: Most stones, stairs, slabs and blocks can now be quarried/pickaxed/mortarred normally with **Quarry** tools, like their default variants. However, some lack the required variants (e.g. cobble, brick, or block), so some operations may not be possible with some nodes yet; dummy images may also appear.\n- **Technic**:\n1. Granite and Marble can now be quarried/pickaxed/mortarred normally with **Quarry** tools, like their default variants.\n2. Replaced `default:stone` with `quarry:cut_stone` in machine crafting recipes that required the former (LV compressor, LV generator).\n",
-  "maintainers": [
-    "gabriel1379"
-  ],
+  "maintainers": ["gabriel1379"],
   "media_license": "MIT",
   "name": "quarry_link",
-  "provides": [
-    "quarry_link"
-  ],
+  "provides": ["quarry_link"],
   "release": 29961,
   "repo": "https://github.com/gabriel1379/quarry_link",
   "score": 3.6,
@@ -435,10 +429,7 @@
   ],
   "short_description": "Enables seamless integration between Quarry Mechanics and other mods' resource and stone-like nodes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics"
-  ],
+  "tags": ["building", "building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4a686d6739.png",
   "title": "Quarry Link",
   "translation_url": null,
@@ -452,9 +443,7 @@
       {
         "is_optional": false,
         "name": "quarry",
-        "packages": [
-          "kestral/quarry"
-        ]
+        "packages": ["kestral/quarry"]
       }
     ],
     "kestral/quarry": [

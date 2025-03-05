@@ -77,25 +77,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "a mod that aims to facilitate other mods to be game agnostic by handling sounds and crafting\n\nthanks to:  \n\n* MisterE, OgelGames, and Blockhead for naming advice/suggestion  \n* luk3yx, Blockhead, Buckaroo for bouncing ideas on the concept of this mod  \n\ndev docs can be found at https://github.com/mt-mods/xcompat/tree/master/doc",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "xcompat",
-  "provides": [
-    "xcompat"
-  ],
+  "provides": ["xcompat"],
   "release": 27623,
   "repo": "https://github.com/mt-mods/xcompat",
   "score": 532.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f81f21f7f1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f81f21f7f1.png"],
   "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f81f21f7f1.png",
   "title": "Xcompat",
   "translation_url": null,

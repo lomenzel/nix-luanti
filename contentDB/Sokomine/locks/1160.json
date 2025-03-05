@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Sokomine/locks/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Grant access to chests, doors, furnaces and signs from this mod by either entering the player name who is allowed to access the shared object or by setting a password. Anyone who knows the password and has a general key(chain) can then access your object after entering the correct password.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "locks",
-  "provides": [
-    "locks"
-  ],
+  "provides": ["locks"],
   "release": 1160,
   "repo": "https://github.com/Sokomine/locks",
   "score": 14.1,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Shared chests, doors, furnaces and signs - with keys",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "multiplayer",
-    "puzzle"
-  ],
+  "tags": ["inventory", "multiplayer", "puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2fbpMXgFSU.png",
   "title": "Locks",
   "translation_url": null,

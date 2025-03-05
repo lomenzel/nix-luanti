@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/acmgit/mesecons_stealthnode/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "Add Ghoststones who looks like default wood or jungletrees. With an integrated API, you can register easy your own ghoststones from other mods.\nWith the new release, the mod registers conducting-blocks too. It has an own register for counducting nodes in the api.",
-  "maintainers": [
-    "Clyde"
-  ],
+  "maintainers": ["Clyde"],
   "media_license": "LGPL-3.0-only",
   "name": "mesecons_stealthnode",
-  "provides": [
-    "mesecons_stealthnode"
-  ],
+  "provides": ["mesecons_stealthnode"],
   "release": 19114,
   "repo": "https://github.com/acmgit/mesecons_stealthnode",
   "score": 7.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/wF8JkCWPBA.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/wF8JkCWPBA.jpg"],
   "short_description": "Register your own Ghoststones.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "technology"
-  ],
+  "tags": ["library", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/wF8JkCWPBA.png",
   "title": "Mesecons Stealthnodes",
   "translation_url": null,

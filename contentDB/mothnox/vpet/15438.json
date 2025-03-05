@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/mothnox/adopt-a-space-worm/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "You've found a virtual pet device... from outer space! It's a bit strange, but you're sure to figure it out with enough time. After all, it's just a game...right?\n\nNOTE: This is very unfinished. I wasn't able to finish implementing the pathfinding, which was required in order to implement the core gameplay loop, so... Well, I plan to continue working on it after the jam, so consider this a (kind of bad) teaser. \n\nThird-party code/assets:\n\nSound assets: CC0\n\nAStar.lua: MIT license (see license information in file)",
-  "maintainers": [
-    "mothnox"
-  ],
+  "maintainers": ["mothnox"],
   "media_license": "CC-BY-3.0",
   "name": "vpet",
   "provides": [
@@ -26,9 +24,7 @@
   "release": 15438,
   "repo": "https://github.com/mothnox/adopt-a-space-worm.git",
   "score": -654.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5efb5c945c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5efb5c945c.png"],
   "short_description": "(Extremely unfinished) An alien virtual pet",
   "state": "APPROVED",
   "tags": [

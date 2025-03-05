@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,26 +130,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/digibuilder/issues",
   "license": "MIT",
   "long_description": "Allows the mesecons luacontroller to build things to the world\n\n# Settings\n\n* **digibuilder.max_radius** max radius, default: 15 nodes\n* **digibuilder.setnode_delay** delay between setnode calls in seconds, default: 0.5\n\n# Examples\n\nSee: https://github.com/BuckarooBanzay/digibuilder/tree/master/examples\n\n# Commands\n\n## Get node\n\n```lua\ndigiline_send(\"digibuilder\", {\n  command = \"getnode\",\n  pos = { x=1, y=0, z=0 }\n})\n\nif event.type == \"digiline\" and event.channel == \"digibuilder\" then\n  -- { error = true, message = \"...\" }\n  -- { pos = { x=1, y=0, z=0 }, name = \"default:stone\" }\n  -- { pos = { x=1, y=0, z=0 }, name = \"stairs:stair_stone\", param2 = 3 }\nend\n```\n\n## Set node\n\n```lua\ndigiline_send(\"digibuilder\", {\n  command = \"setnode\",\n  pos = { x=1, y=0, z=0 },\n  param2 = 3,\n  name = \"stairs:stair_stone\"\n})\n\nif event.type == \"digiline\" and event.channel == \"digibuilder\" then\n  -- { error = true, message = \"...\" }\n  -- { pos = { x=1, y=0, z=0 }, success = true, name = \"default:stone\" }\n  -- { pos = { x=1, y=0, z=0 }, success = true, name = \"stairs:stair_stone\", param2 = 3 }\nend\n```\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "digibuilder",
-  "provides": [
-    "digibuilder"
-  ],
+  "provides": ["digibuilder"],
   "release": 25159,
   "repo": "https://github.com/BuckarooBanzay/digibuilder",
   "score": 6.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xV5roLLZVB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xV5roLLZVB.png"],
   "short_description": "Build nodes with digiline commands",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "technology"
-  ],
+  "tags": ["building_mechanics", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xV5roLLZVB.png",
   "title": "Digibuilder",
   "translation_url": null,

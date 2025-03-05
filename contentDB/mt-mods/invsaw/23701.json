@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/invsaw/issues",
   "license": "Zlib",
   "long_description": "This mod adds a button in unified_inventory that opens a formspec that works exactly like the moreblocks circular saw. It requires that either the server is in creative mode, you have the \"creative\" priv, or you have one or more circular saws (moreblocks:circular_saw) in your inventory.\n\nContains large amounts of code based on Calinou's moreblocks mod, and a texture based on some textures from the same mod.\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-3.0",
   "name": "invsaw",
-  "provides": [
-    "invsaw"
-  ],
+  "provides": ["invsaw"],
   "release": 23701,
   "repo": "https://github.com/mt-mods/invsaw",
   "score": 18.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/21c9c49d5f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/21c9c49d5f.png"],
   "short_description": "adds a circular saw feature and button to the unified_inventory",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics"
-  ],
+  "tags": ["building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/21c9c49d5f.png",
   "title": "Invsaw",
   "translation_url": null,
@@ -77,18 +69,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

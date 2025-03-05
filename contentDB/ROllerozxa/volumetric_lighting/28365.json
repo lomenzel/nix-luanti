@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/volumetric-lighting/issues",
   "license": "MIT",
   "long_description": "This is a tiny mod that enables Volumetric Lighting for any game in Minetest. Requires a relatively recent version of Minetest 5.9.0-dev.\n\nIn order to enable volumetric lighting, go into the settings and first enable bloom, then enable the volumetric lighting setting that shows up when bloom is enabled. Then enable this mod for the world you want to use it.\n\nThe default light strength is `0.1`. You can change this in-game with the `/light_strength` command.",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "volumetric_lighting",
-  "provides": [
-    "volumetric_lighting"
-  ],
+  "provides": ["volumetric_lighting"],
   "release": 28365,
   "repo": "https://github.com/rollerozxa/volumetric-lighting",
   "score": 201.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0e9e286ba0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0e9e286ba0.png"],
   "short_description": "Enable Volumetric Lighting for any game",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0e9e286ba0.png",
   "title": "Volumetric Lighting",
   "translation_url": null,

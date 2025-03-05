@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NC_WK_LIGHT/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "##NOTE## This mod has been replaced by WC Luminous\nhttps://content.minetest.net/packages/Winter94/wc_luminous/\n\nAdds new light sources to NodeCore for exploration, technical, and decorative use.",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "nc_light",
-  "provides": [
-    "nc_light"
-  ],
+  "provides": ["nc_light"],
   "release": 7478,
   "repo": "https://github.com/wintersknight94/NC_WK_LIGHT",
   "score": 150.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/hqy6yQOP6U.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/hqy6yQOP6U.png"],
   "short_description": "New light sources for NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hqy6yQOP6U.png",
   "title": "NodeCore Light",
   "translation_url": null,
@@ -71,42 +62,27 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

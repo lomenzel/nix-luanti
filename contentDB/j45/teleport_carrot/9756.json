@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/Minetest-j45/teleport_carrot/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "# Teleport carrot\n\n## What this mod does\nThis mod is makes a craftable eatable item that has a 1 in 10 chance of teleporting you to a nearby location. It was inspired by chorus fruit in Minecraft.\n\n## License\nCode- j45, LGPL 2.1   \nTextures- j45, CC-BY-SA 3.0\n\n## Dependencies\nFarming\n\n## Installation\nGo to Teleportcarrot:v1.0 in minetest forums and either use the github link and download or download the .zip attachment, then it should be in you download folder, from here you want to unzip it and move the unzipped version to /minetest/mods.\n\n\n## Version\nv1.0\n\n## Special thanks\nThanks to:<br />\nHimbeerserverDE: help programming<br />\nshoutout: https://himbeerserver.de<br />\ndiscord: HimbeerserverDE#3585<br />\n\n## Contact\nTo contact me, message me on discord, my name and hashtag is: j45#7171\n\n",
-  "maintainers": [
-    "j45"
-  ],
+  "maintainers": ["j45"],
   "media_license": "CC-BY-SA-3.0",
   "name": "teleport_carrot",
-  "provides": [
-    "teleport_carrot"
-  ],
+  "provides": ["teleport_carrot"],
   "release": 9756,
   "repo": "https://github.com/Minetest-j45/teleport_carrot/",
   "score": 151,
-  "screenshots": [
-    "https://content.luanti.org/uploads/52c862ad50.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/52c862ad50.png"],
   "short_description": "This mod is adds a craftable, eatable item that has a 1 in 10 chance of teleporting you to a nearby location.",
   "state": "APPROVED",
-  "tags": [
-    "food"
-  ],
+  "tags": ["food"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/52c862ad50.png",
   "title": "Teleport Carrot",
   "translation_url": null,

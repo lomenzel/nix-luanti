@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,23 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/loot/issues/new/choose/",
   "license": "Apache-2.0",
   "long_description": "This is a framework for registering and generating loot. It also adds loot chests to dungeons.",
-  "maintainers": [
-    "Byakuren"
-  ],
+  "maintainers": ["Byakuren"],
   "media_license": "Apache-2.0",
   "name": "loot",
-  "provides": [
-    "loot"
-  ],
+  "provides": ["loot"],
   "release": 15294,
   "repo": "https://github.com/minetest-mods/loot",
   "score": 6.8,
   "screenshots": [],
   "short_description": "A loot framework.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Loot",
   "translation_url": null,

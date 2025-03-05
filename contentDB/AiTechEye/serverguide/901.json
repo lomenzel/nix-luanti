@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/AiTechEye/serverguide/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "A easy way to make your own serverguide!\nAll new players will get ther own book.\nYou can easy add / change tabs, content and the title.\n\nCraft 2 sticks to make it\nOr just type /guide\n\n\n/giveme serverguide:book or /giveme guide",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "serverguide",
-  "provides": [
-    "serverguide"
-  ],
+  "provides": ["serverguide"],
   "release": 901,
   "repo": "https://github.com/AiTechEye/serverguide",
   "score": 3.4,
@@ -448,10 +442,7 @@
   ],
   "short_description": "The serverguide",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2S4t5wTNf2.png",
   "title": "Serverguide",
   "translation_url": null,

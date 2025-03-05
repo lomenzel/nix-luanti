@@ -362,9 +362,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -638,9 +636,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -655,25 +651,17 @@
   "issue_tracker": "https://github.com/LoneWolfHT/headanim/issues",
   "license": "MIT",
   "long_description": "## Similar mods\n* <https://content.minetest.net/packages/Rui/playeranim/>: A lot more complex (and probably slower) than Headanim but looks nicer",
-  "maintainers": [
-    "Lone_Wolf"
-  ],
+  "maintainers": ["Lone_Wolf"],
   "media_license": "MIT",
   "name": "headanim",
-  "provides": [
-    "headanim"
-  ],
+  "provides": ["headanim"],
   "release": 28921,
   "repo": "https://github.com/LoneWolfHT/headanim/",
   "score": 1492.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/suJkIUJBMX.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/suJkIUJBMX.png"],
   "short_description": "Makes player heads follow their look direction",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/suJkIUJBMX.png",
   "title": "Headanim",
   "translation_url": null,

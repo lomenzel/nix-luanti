@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/DustyDave961/stairs_recycle/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Adds recipes to recycle stairs. Inner stairs can be crafted into normal stairs. Outer stairs can be crafted into slabs. Furnaces can smelt metal stairs into ingots using a furnace.  Normal stairs can be crafted into outer stairs. Special thanks to Bob64 aka DustyBagel for debugging version 0.3.0. All content contained within is licensed under GNU Lesser General Public License version 3.0 or later.",
-  "maintainers": [
-    "DumbDave961"
-  ],
+  "maintainers": ["DumbDave961"],
   "media_license": "LGPL-3.0-or-later",
   "name": "stairs_recycle",
-  "provides": [
-    "stairs_recycle"
-  ],
+  "provides": ["stairs_recycle"],
   "release": 23647,
   "repo": "https://github.com/DustyDave961/stairs_recycle",
   "score": 5.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/711b9616e3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/711b9616e3.png"],
   "short_description": "Turn stairs into ingots, slabs, or different stairs. Smelt cobble stairs into stone stairs. Highly recommended for Oneblock survival. Based on Simple Recycle by Jolesh.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival"
-  ],
+  "tags": ["crafting", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/711b9616e3.png",
   "title": "Stairs Recycle",
   "translation_url": null,

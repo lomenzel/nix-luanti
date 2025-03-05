@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/buckaroobanzay/particlefountain/issues",
   "license": "MIT",
   "long_description": "Features:\n\n* Spawns particles in the configured direction\n* Configurable amount,  offset, item, interval, delay",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "particlefountain",
-  "provides": [
-    "particlefountain"
-  ],
+  "provides": ["particlefountain"],
   "release": 23792,
   "repo": "https://github.com/buckaroobanzay/particlefountain.git",
   "score": 457.3,
@@ -28,9 +24,7 @@
   ],
   "short_description": "decorative and configurable particle spawner",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/twILEyLUaH.png",
   "title": "Particlefountain",
   "translation_url": null,

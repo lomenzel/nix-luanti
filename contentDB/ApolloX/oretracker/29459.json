@@ -51,16 +51,10 @@
   "issue_tracker": "https://github.com/programmerjake/OreTracker/issues",
   "license": "MIT",
   "long_description": "# Ore Tracker\n\nFor tracking what ores are around the player.\n\n## About this mod\n\nThis is now a modpack, of Orehud and Xray\n\nThis mod can be used for both MTG and MCL. (Both MCL2 and MCL5)\n\n## Orehud\n\nDisplays waypoints at positions where ores are present.\n\nJust give yourself the orehud priv and then type `/orehud` to toggle it on or off.\n\n## Xray\n\nA swapnode xray where it replaces MTG and MCL nodes with counterparts (to retain particular drops).\n\nJust give yourself the xray priv then type `/xray` to toggle it on or off.\n\n> I use a ABM to fix xray nodes when a server crashes. (Else everything is swapnodes instead)",
-  "maintainers": [
-    "ApolloX",
-    "programmerjake"
-  ],
+  "maintainers": ["ApolloX", "programmerjake"],
   "media_license": "MIT",
   "name": "oretracker",
-  "provides": [
-    "orehud",
-    "xray"
-  ],
+  "provides": ["orehud", "xray"],
   "release": 29459,
   "repo": "https://github.com/programmerjake/OreTracker",
   "score": 173.8,
@@ -70,9 +64,7 @@
   ],
   "short_description": "For tracking what ores are around the player.",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6f81ebe69c.png",
   "title": "Oretracker",
   "translation_url": null,

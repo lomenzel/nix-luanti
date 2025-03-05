@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/josegamestest/soil_weeded/issues",
   "license": "GPL-3.0-only",
   "long_description": "EN\nTransforms the weeded soil to be lower, creating a relief of 1 pixel in height, it looks like the soil was cut with exax, If you want to remove the mod after using all the blocks, they are normal again.\nErrors: Dark floor\nAll blocks placed on the ground before the mod will be dark, to resolve remove and place another block nearby.\nHeight, as it is a lower block, it is even good in relation to the grams, but the water is higher on its side, and it is strange but does not interfere with the operation.\n\nPT-BR\nTransforma o solo capinado para ficar mais baixo, ciando um relevo de 1 pixel de altura, fica parecendo que o solo foi cortado com exada, Caso queira remover o mod depois de usar todos os blocos ficaram normal novamente.\nErros: Chão escuro\nTodos os blocos colocados no chão antes do mod ficarão escuros, para resolver remova e coloque novamente algum bloco próximo.\nAltura, por ser um bloco mais baixo fica ate bom em relação as gramas, porem as água ficam mais altas do lado dele, e estranho mas não interfere no funcionamento.\n",
-  "maintainers": [
-    "joseanastacio"
-  ],
+  "maintainers": ["joseanastacio"],
   "media_license": "GPL-3.0-only",
   "name": "soil_weeded",
-  "provides": [
-    "soil_weeded"
-  ],
+  "provides": ["soil_weeded"],
   "release": 16987,
   "repo": "https://github.com/josegamestest/soil_weeded.git",
   "score": 150.6,
@@ -436,9 +430,7 @@
   ],
   "short_description": "Leaves the soil finer after clearing",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e6ae68c611.png",
   "title": "Soil Weeded",
   "translation_url": null,

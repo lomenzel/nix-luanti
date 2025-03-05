@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/appgurueu/strictest/issues",
   "license": "MIT",
   "long_description": "## Runtime Strictness for Minetest Mods\n\n*Strictest* consists of two components:\n\n* Lua strictness: Will disallow string indexing and string - number coercion.\n* Minetest strictness: Disallows usage of deprecated APIs & using entity-only or player-only methods on the wrong type of object.\n\nParticularly useful when writing new mods that don't target older Minetest versions.\n\n## Configuration\n\n`strictest.action` can be set to either `error` or `log`:\n\n* `error`: Immediately throw an error on strictness violations.\n* `log`: Merely log the error (including a stacktrace).\n\nPotentially partially redundant with the `deprecated_lua_api_handling` setting.\n\n## Usage\n\nInstall & enable `strictest`, then **make sure to optionally depend on it** in `mod.conf`.",
-  "maintainers": [
-    "LMD"
-  ],
+  "maintainers": ["LMD"],
   "media_license": "MIT",
   "name": "strictest",
-  "provides": [
-    "strictest"
-  ],
+  "provides": ["strictest"],
   "release": 23722,
   "repo": "https://github.com/appgurueu/strictest/",
   "score": 153,
   "screenshots": [],
   "short_description": "Disallows questionable usage of the Lua API & Lua itself to help catch errors",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools"
-  ],
+  "tags": ["developer_tools"],
   "thumbnail": null,
   "title": "Runtime Strictness",
   "translation_url": null,

@@ -11,15 +11,10 @@
   "issue_tracker": "https://github.com/theFox6/journal_modpack/issues/",
   "license": "MIT",
   "long_description": "A minetest mod that adds a journal the player will write into.\n\nMods can add story into the game and the player can write his own journal.\nThe journal can be accessed from the inventory and via /journal.\n\nCheck out the [wiki on GitHub](https://github.com/theFox6/journal_modpack/wiki) to learn how to write story using journal.",
-  "maintainers": [
-    "theFox"
-  ],
+  "maintainers": ["theFox"],
   "media_license": "MIT",
   "name": "journal",
-  "provides": [
-    "extra_triggers",
-    "journal"
-  ],
+  "provides": ["extra_triggers", "journal"],
   "release": 5119,
   "repo": "https://github.com/theFox6/journal_modpack",
   "score": 4,
@@ -29,11 +24,7 @@
   ],
   "short_description": "Do you want to add story to your game? Make your protagonist write notes into his Journal.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "gui",
-    "library"
-  ],
+  "tags": ["adventure__rpg", "gui", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cv95gEFjy3.png",
   "title": "Journal",
   "translation_url": null,

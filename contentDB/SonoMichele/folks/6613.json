@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitlab.com/SonoMichele/folks/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Features\n* Create an NPC\n* Delete an NPC\n* Despawn created NPCs without deleting them\n* Respawn created NPCs (can spawn copies of the same NPC and every copy will be updated when one is changed)\n* Custom name and name color\n* Custom texture\n* Custom messages (the NPC will cycle through them and send them in order every time a player right clicks the NPC)\n* Can bind name and texture to a specific player ([skins_collectible](https://gitlab.com/zughy-friends-minetest/skins-collectible) needed)\n\t*  You need to change line 224 on skins_collectible on file api.lua with `player_api.set_textures(player, {loaded_skins[skin_ID].texture})`\n* NPCs stare at near players\n* Geolocalize your custom messages\n# How To\nI have written an How To on the forum post, you can check it out [here](https://forum.minetest.net/viewtopic.php?f=9&t=26121&p=389081#p389081)",
-  "maintainers": [
-    "SonoMichele"
-  ],
+  "maintainers": ["SonoMichele"],
   "media_license": "CC-BY-SA-4.0",
   "name": "folks",
-  "provides": [
-    "folks"
-  ],
+  "provides": ["folks"],
   "release": 6613,
   "repo": "https://gitlab.com/SonoMichele/folks",
   "score": 321.3,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Adds customizable NPCs",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mobs"
-  ],
+  "tags": ["adventure__rpg", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/zpTkaycK8q.png",
   "title": "Folks",
   "translation_url": null,

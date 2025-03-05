@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "\nThe \"Chat Guide\" mod is a virtual assistant for Luanti that provides players with helpful information and tips to enhance their gameplay experience. By using simple commands like /chat_help <topic>, /chat_tip, and /chat_find <resource>, players can instantly receive answers to common questions about resources, building, enemies, food, exploration, and more. For example, if a player needs to know where to find iron ore or how to craft a sword, the assistant will offer detailed instructions on how to proceed.\n\nThe mod also features a resource-finding tool, allowing players to quickly locate specific materials in the world, such as rare ores, fruit trees, and more. An interactive help menu lets players explore various available topics and directly interact with the assistant to get quick guidance. Players can open this menu with /chat_menu, which presents them with a list of topics they can click for more information.\n\nAdditionally, the notes system provides players with a way to record their thoughts, reminders, or important information during gameplay. With the /note command, players can open a text field where they can write down anything they want to save for later. These notes are stored and can be viewed at any time using the /note_list command. Players can also delete or update their notes through an interactive interface",
-  "maintainers": [
-    "Ludus"
-  ],
+  "maintainers": ["Ludus"],
   "media_license": "MIT",
   "name": "chat_guide",
-  "provides": [
-    "chat_guide"
-  ],
+  "provides": ["chat_guide"],
   "release": 29072,
   "repo": null,
   "score": 4.8,
@@ -58,10 +54,7 @@
   ],
   "short_description": "A virtual assistant that helps players with tips, guides, and useful information.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "singleplayer"
-  ],
+  "tags": ["chat", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f2c3c2f0c2.png",
   "title": "Chat guide",
   "translation_url": null,

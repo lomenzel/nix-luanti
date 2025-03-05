@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/activivan/mt-boosts/issues/new/choose/",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Minetest Boosts\nThis Minetest mod adds boosts, technically privileges that are granted temporarily. Users can buy or gift them.\n\n## Configuration\nYou can configure your boosts in the `boosts.lua` file in the mod folder or configure them world-specific by creating a `boosts.lua` file in your world folder.\n\nThe file has to return a table including the configured boosts:\n\n#### **`boosts.lua`**\n```lua\nreturn {\n    [\"fly\"] = { -- ID of boost, to be used with /boost\n        priv = \"fly\", -- Name of the privilege the player should be granted temporarily\n        duration = 90, -- Duration of the temporary privilege grant in seconds\n        cost = {\n            type = \"item\", -- Cost type \"item\" when paying with item\n            stack = {\n                item = \"default:diamond\", -- Item name (id-string)\n                count = 3 -- Item count\n            }\n        }\n    },\n    [\"fast\"] = {\n        priv = \"fast\",\n        duration = 60,\n        cost = {\n            type = \"money\", -- Cost type \"money\" when using supported payment mod\n            amount = 20 -- Amount to be withdrawn\n        }\n    },\n    [\"time\"] = {\n        priv = \"settime\",\n        duration = 15,\n        cost = false -- Cost equal to false when boost should be free\n    },\n    ...\n}\n```\n\nA boost configuration is made up of (all fields are required):\n\n* `priv` - Name of the privilege the player should be granted temporarily\n* `duration` - Timespan of the temporary privilege grant in seconds\n* `cost` - Table defining the cost of the boost - for a boost to be free set this to `false`\n    * `type` - \"item\" when paying with item, \"money\" when using payment mod\n    * `stack` - ***conditionally required** with \"item\" cost type* - table defining an ItemStack\n        * `item` - Name (id-string) of item\n        * `count` - Item count\n    * `amount` - ***conditionally required** with \"money\" cost type* - amount to be withdrawn from user\n\nThe mod validates the configuration. If any errors occur, the boost will be disabled.\n\nWhen listing the available boosts using `/boosts`, the formspec includes a currency string into the description of boosts with the \"money\" cost type to indicate the amount of money. The money mods feature a setting to set the currency name. This will be adopted, otherwise it defaults to \"Minegeld\". If you want to overwrite this, set the `currency` parameter in your `minetest.conf` file.\n\n## Supported payment mods\nThis mod supports the following payment mods when using the \"money\" cost type:\n\n* [money3](https://content.minetest.net/packages/luk3yx/money3/) by luk3yx\n* [jeans_economy](https://content.minetest.net/packages/Jean3219/jeans_economy/) by Jean3219 (please make sure to update to the latest version, as the previous contained a bug that made this mod not work)\n\nWhen using item-based money mods like [currency](https://content.minetest.net/packages/VanessaE/currency/), please use the \"item\" cost type instead.\n\n### Deprecated\nThe following mods are also supported, but it's strongly recommended to use money3 instead:\n\n* [money](https://github.com/ChaosWormz/minetest-money) by kotolegokot and Xiong\n* [money2](https://github.com/Bremaweb/money2) by kotolegokot and Bad_Command\n\n## Usage\nUsers can list all available boosts using the `/boosts` command. \nTo buy or gift a boost, you have to use the `/boost` command.\n\n### Examples\n* `/boost buy fly` User buys a fly boost for himself\n* `/boost gift userB fly` User gifts userB a fly boost\n\n## booster-Privilege\nThis mod ships with a `booster` privilege, with which users can buy and gift boosts for free.\n\n## License\nCopyright © 2022 activivan activivan.studios@gmail.com\n\nLicensed under GNU Lesser General Public License v3 or later\n",
-  "maintainers": [
-    "activivan"
-  ],
+  "maintainers": ["activivan"],
   "media_license": "LGPL-3.0-or-later",
   "name": "boosts",
-  "provides": [
-    "boosts"
-  ],
+  "provides": ["boosts"],
   "release": 16142,
   "repo": "https://github.com/activivan/mt-boosts",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a60abd708e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a60abd708e.png"],
   "short_description": "Adds boosts, technically temporarily granted privileges.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["chat", "commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a60abd708e.png",
   "title": "Boosts",
   "translation_url": null,

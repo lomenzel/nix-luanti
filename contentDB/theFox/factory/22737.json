@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/theFox6/factory/issues/",
   "license": "MIT",
   "long_description": "The mod adds industrial machines machines like miners, conveyor belts and many more...  \nBuild and automate your own factory!  \n\nChat with the developer and other factory builders in the [discord support server](https://discord.gg/jqQVbRA).  \nYou can also find polls about the mod in discord.",
-  "maintainers": [
-    "theFox"
-  ],
+  "maintainers": ["theFox"],
   "media_license": "MIT",
   "name": "factory",
-  "provides": [
-    "factory"
-  ],
+  "provides": ["factory"],
   "release": 22737,
   "repo": "https://github.com/theFox6/factory",
   "score": 166.8,
@@ -43,12 +39,7 @@
   ],
   "short_description": "Industrialization for minetest",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "crafting",
-    "technology",
-    "transport"
-  ],
+  "tags": ["building", "crafting", "technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9c18b24eea.png",
   "title": "New Factory",
   "translation_url": null,

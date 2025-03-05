@@ -25,9 +25,7 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "# STG Texture Pack (Local Testing)  \nA simple texture pack for STG Local Testing. (px:128+)   \n\nSTG: Simple Town Game.  \n\n## Important Notice  \nThis texture pack is used for testing by mtvisitor since 2023.11.18.  \n\nThis texture pack support minetest_game before simpletown_game is ready.  \n\n## Done Textures  \n\nTexture Effects:  \n- Round Shape of Sun and Moon,  \n- Default apple and stick texture Provided.  \n- Game Pause Menu Form Background Picture Changed.  \n\nThere are 3 sub folders:  \nsky, default and backup  \n\nCHANGELOG.md was included in this texture package.  \n\n## ToDo Textures  \n\n- Update default_wood in default folder.  \n- Update torch texture in default folder.  \n  (static and dynamic)  \n\n## Game Support  \nThe following games are supported:  \n\n- Minetest Game  \n\n## Mod Support  \nIn addition to this game, the following mods are supported:  \n\n- None  \n\n## Contact  \nFor questions, requests, and other communications regarding this work, you can  \ncontact the original creator at crane_zhou@163.com  \n\nIf there are some license issues, please also let the author(mtvisitor) know.  \n\n## License & CopyRight  \nThis Project is released under the terms of the BSD license.   \nSee LICENSE_BSD_3.txt in the package for more information or see:   \nhttps://opensource.org/licenses/BSD-3-Clause.  \n\nSTG TexturePack is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.  \nA copy of this license should be bundled with this work, if one was not  \nprovided then you can find the license [here](https://creativecommons.org/licenses/by-sa/4.0/)",
-  "maintainers": [
-    "mtvisitor"
-  ],
+  "maintainers": ["mtvisitor"],
   "media_license": "CC-BY-SA-4.0",
   "name": "stg_texturepack_lab",
   "provides": [],
@@ -40,10 +38,7 @@
   ],
   "short_description": "A simple texture pack for STG Local Testing. (128+px) ",
   "state": "APPROVED",
-  "tags": [
-    "128px",
-    "64px"
-  ],
+  "tags": ["128px", "64px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7ae594527c.png",
   "title": "STG Texture Pack (Test version)",
   "translation_url": null,

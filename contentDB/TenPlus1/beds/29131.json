@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Beds Redo uses 3d models for beds (by jp from mesh beds) instead of nodes, and has the full functionality of the original beds mod with some extras including a new setting 'bed_sleep_divide' which allows you to set what percentage of players are required to sleep before skipping the night, and 'bed_show_sleep_msg' that shows when a player sleeps in chat.\n\nComes with the default red normal and fancy beds with additional white, pink and blue beds added.\n\nAlso players can bounce on the beds :) and mini-game respawn support added.\n\nBeds can now be registered with a custom on_sleep(pos, player) function that allows you to add all manner of features to specific beds.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-3.0",
   "name": "beds",
-  "provides": [
-    "beds"
-  ],
+  "provides": ["beds"],
   "release": 29131,
   "repo": "https://codeberg.org/tenplus1/beds",
   "score": 355.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/69fe9a8d71.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/69fe9a8d71.jpg"],
   "short_description": "beds which allows sleep, featured to (auto) skip the night.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/69fe9a8d71.png",
   "title": "Beds Redo",
   "translation_url": null,

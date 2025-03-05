@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# death_timer\nThis mod adds a spawn cooldown for players. on death and respawn the player will be held in place by a entity, the player will be hidden, interact will be revoked, and also if the player leaves they will not be able to rejoin on till the countdown is over.\n\nFeature list:\n\n- Players are forced to wait an amount of time on re-spawn. \n- On death players are cloaked and their interact privilege is removed. \n- Players are held in place by a entity.\n- Temp death bans on players that leave and try to rejoin when the countdown is still going.\n\n# config\nThe respawn cooldown.\n```\ndeath_timer.timeout = 8\n```\n",
-  "maintainers": [
-    "Coder12"
-  ],
+  "maintainers": ["Coder12"],
   "media_license": "MIT",
   "name": "death_timer",
-  "provides": [
-    "death_timer"
-  ],
+  "provides": ["death_timer"],
   "release": 3120,
   "repo": null,
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0DLKdgY9wr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0DLKdgY9wr.png"],
   "short_description": "This will force players to wait a specified amount of time on death.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0DLKdgY9wr.png",
   "title": "Death Timer",
   "translation_url": null,

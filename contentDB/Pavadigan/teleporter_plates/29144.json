@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "VoxeLibre Teleporter was created due to Travelnet not completely working in the new VoxeLibre game.\n\nIt is just the plate\n\n\nIt is simple to use, edit and it can store entries with different networks.\n\nCreate different teleport networks\n\nRECIPE\n\nYou can either get by the console commandline or craft it.\n\nThe command is:  /giveme teleporter_plates:net_plate\n\nOnce placed, it can only be removed through Creative mode.",
-  "maintainers": [
-    "Pavadigan"
-  ],
+  "maintainers": ["Pavadigan"],
   "media_license": "GPL-3.0-or-later",
   "name": "teleporter_plates",
-  "provides": [
-    "teleporter_plates"
-  ],
+  "provides": ["teleporter_plates"],
   "release": 29144,
   "repo": "https://github.com/itguy217/VoxeLibre_Teleporter",
   "score": 13.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/81adf9816f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/81adf9816f.png"],
   "short_description": "VoxeLibre Teleporter was created due to Travelnet not completely working in the new VoxeLibre game.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/81adf9816f.png",
   "title": "VoxelLibre Teleporter",
   "translation_url": null,

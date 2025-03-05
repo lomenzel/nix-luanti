@@ -103,26 +103,17 @@
   "issue_tracker": "https://github.com/APercy/demoiselle/issues/new/choose/",
   "license": "LGPL-3.0-or-later",
   "long_description": "Minetest 5.4 mod: Demoiselle\n========================================\n\nThe Demoiselle\n\nThis is an historic aircraft, the Demoiselle. It was an aircraft developed between 1907 and 1909\nby the Brazilian inventor Alberto Santos Dumont. This mod for minetest is a cartooned version\nadapted to the engine, with a fun and slow flight. I hope you have fun exploring the map and\nexperiencing the beginnings of aviation. \nIn order to fly, it is necessary to first supply the airplane with biofuel.\nThen with a bottle or gallon selected, punch it against the airplane.\nYou can use 5 bottles them to fill the tank. To embark, click with the right button.\nWhile the machine is off, it is possible to move it using the sneak and jump keys (shift an space).\nW ans S controls the pitch (elevator).\nRight and Left (A and D) controls the yaw (rudder).\n\nThen to fly, start the engine with the special key E. Press jump (space)\nto increase the engine power. Set it to the maximum. Pull the elevator control (S)\nwhen it have the speed to lift.\n\nUse the climb indicator to stabilize altitude,\nas at high altitudes you lose sustentation and you spend more fuel. \n\nFor landing, just lower the power and stabilize the airplane. Pay attention at air speed\nindicator, keeping it at green range, otherwise you will stall.\n\nCare must be taken with impacts, as it causes damage to the aircraft and the pilot, \nso training landings is essential. \n\nTo brake the aircraft, use the sneak (shift) key until it comes to a complete stop.\nDo not stop the engine before this, or it will reverse when it stops \n\n**Controls overview:**\n* Right click: enter in/get off plane\n* Left click (with biofuel): add fuel to plane\n* E: Start engine\n* Jump: Increase power, forward on ground\n* Sneak: Decrease power, brake on ground\n* Backward: go up flying - nose up\n* Forward: go down flying - nose down\n* Left/right: Turn to left/right, work on and out ground.\n* Left and Right together: center all commands\n* Up and Down together: enable/disable HUD\n\n**Chat Commands: **\n\n/demoiselle_eject - ejects from the vehicle\n\n-----------------------\nLicense of source code:\nLGPL v3 (see file LICENSE) \n\nLicense of media (textures and sounds):\nCC0\n\n\n",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "CC0-1.0",
   "name": "demoiselle",
-  "provides": [
-    "demoiselle"
-  ],
+  "provides": ["demoiselle"],
   "release": 25962,
   "repo": "https://github.com/APercy/demoiselle",
   "score": 649.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/08137ccb0e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/08137ccb0e.png"],
   "short_description": "Adds a Demoiselle, an historical airplane",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/08137ccb0e.png",
   "title": "Demoiselle",
   "translation_url": null,
@@ -137,10 +128,7 @@
       {
         "is_optional": false,
         "name": "airutils",
-        "packages": [
-          "apercy/airutils",
-          "bell07/whynot_game"
-        ]
+        "packages": ["apercy/airutils", "bell07/whynot_game"]
       }
     ]
   },

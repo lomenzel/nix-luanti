@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/wield_events/issues",
   "license": "MIT",
   "long_description": "Events for wield item switching\n\nProvides callbacks for `on_select`, `on_step` and `on_deselect` on wielded items\n\nDocumentation and api: https://github.com/mt-mods/wield_events/",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "wield_events",
-  "provides": [
-    "wield_events"
-  ],
+  "provides": ["wield_events"],
   "release": 21494,
   "repo": "https://github.com/mt-mods/wield_events/",
   "score": 4.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a9b614e72e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a9b614e72e.png"],
   "short_description": "Events for wield item switching",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a9b614e72e.png",
   "title": "Wield Events",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Zoonami 3D Mobs\nA Minetest mod that changes the 2D monsters mobs in [Zoonami](https://content.minetest.net/packages/isaiah658/zoonami/) to be 3D. The 3D models are not animated.\n\n## Updates\nInformation on updates can be found in the [CHANGELOG.md](https://codeberg.org/isaiah658/zoonami_3d_mobs/src/branch/main/CHANGELOG.md) file.\n\n## Licensing\nLicensing can be found in the [LICENSE.txt](https://codeberg.org/isaiah658/zoonami_3d_mobs/src/branch/main/LICENSE.txt) file.\n",
-  "maintainers": [
-    "isaiah658"
-  ],
+  "maintainers": ["isaiah658"],
   "media_license": "CC0-1.0",
   "name": "zoonami_3d_mobs",
-  "provides": [
-    "zoonami_3d_mobs"
-  ],
+  "provides": ["zoonami_3d_mobs"],
   "release": 27598,
   "repo": "https://codeberg.org/isaiah658/zoonami_3d_mobs",
   "score": 177.2,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds 3D monster mobs to Zoonami.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fe48de2359.png",
   "title": "Zoonami 3D Mobs",
   "translation_url": null,

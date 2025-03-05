@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/minetest-mods/framedglass/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "",
-  "maintainers": [
-    "RealBadAngel"
-  ],
+  "maintainers": ["RealBadAngel"],
   "media_license": "LGPL-2.1-or-later",
   "name": "framedglass",
-  "provides": [
-    "framedglass"
-  ],
+  "provides": ["framedglass"],
   "release": 24893,
   "repo": "https://github.com/minetest-mods/framedglass",
   "score": 11,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Framed glass adds glass nodes with a frame that connects automatically to neighbouring nodes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/429e55f543.png",
   "title": "Framed glass",
   "translation_url": null,

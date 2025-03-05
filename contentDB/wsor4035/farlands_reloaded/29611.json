@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/TerraQuest-Studios/farlands_reloaded/issues",
   "license": "MIT",
   "long_description": "# Minetest Farlands Reloaded Game\n\n![Luacheck](https://github.com/terraquest-studios/farlands_reloaded/workflows/luacheck/badge.svg)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)\n[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)](https://creativecommons.org/licenses/by-sa/4.0/)\n\n## About\n\ngame built on the minetest engine currently in beta. This game current provides minimal \nplayable experience but in the long term hopes to become more tech and train focused.\nsee the [roadmap.md](https://github.com/TerraQuest-Studios/farlands_reloaded/blob/master/ROADMAP.md) file for proposed direction.\n\n## Test Server\n\nA test server running this game can be found at  \nAddress: creativeworks.terraqueststudios.net\nPort: 30016\n\n## License\n\nCode: MIT  \nMedia: CC BY-SA 4.0.\n\n## Links\n\n* [Github](https://github.com/TerraQuest-Studios/farlands_reloaded)\n* [Contentdb](https://content.minetest.net/packages/wsor4035/farlands_reloaded/)\n* [forums](not available yet)\n\n## Setup\n\n  * Git  \n    download game, install in /games, if using git, make sure to get the submodules as well  \n  * Github zip download  \n    github zip download does not include submodules so you will need to obtain copys of those mods\n    and insert them in there proper place\n  * Contentdb\n    should be able to download the game from the content tab and play\n\n## minetest.conf settings\n\ncurrently none provided\n\n## FAQ\n\n__This game is missing xyz feature__  \nPlease open a issue for it, or better yet open a pull request for it",
-  "maintainers": [
-    "wsor4035"
-  ],
+  "maintainers": ["wsor4035"],
   "media_license": "CC-BY-SA-4.0",
   "name": "farlands_reloaded",
   "provides": [
@@ -71,11 +69,7 @@
   ],
   "short_description": "lightweight game to explore and create",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "oneofakind__original"
-  ],
+  "tags": ["building", "creative", "oneofakind__original"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc00acef4f.png",
   "title": "Farlands Reloaded",
   "translation_url": null,

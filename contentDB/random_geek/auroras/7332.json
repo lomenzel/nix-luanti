@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/random-geek/auroras/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Auroras mod for Minetest. Adds northern/southern lights at night.\nSince the Minetest world doesn't exactly have polar regions, auroras will appear in any sufficiently cold place.\nBe patient—auroras aren't always visible!\n\n### Features:\n\n- Different auroras every night, with semi-realistic colors.\n- Players near each other see similar colors.\n- Configurable, no media/assets.\n\nThis mod works with Minetest 5.2.0 or later, and is compatible with TestificateMods' Climate API/Regional Weather mods.\nIt probably won't work with other mods/games that regularly change the skybox.",
-  "maintainers": [
-    "random_geek"
-  ],
+  "maintainers": ["random_geek"],
   "media_license": "GPL-3.0-only",
   "name": "auroras",
-  "provides": [
-    "auroras"
-  ],
+  "provides": ["auroras"],
   "release": 7332,
   "repo": "https://github.com/random-geek/auroras",
   "score": 519.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/vCc6v7kvPp.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/vCc6v7kvPp.png"],
   "short_description": "Adds auroras (northern/southern lights) at night in cold places.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vCc6v7kvPp.png",
   "title": "Auroras",
   "translation_url": null,

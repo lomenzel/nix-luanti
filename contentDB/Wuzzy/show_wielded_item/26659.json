@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_show_wielded_item/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This mod shows the name of the wielded item above the statbars.\n\n----\n\nNote: If you use Unified Inventory, you don't need this mod, as it has this feature built-in (see `README.md` for details).",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "LGPL-2.1-only",
   "name": "show_wielded_item",
-  "provides": [
-    "show_wielded_item"
-  ],
+  "provides": ["show_wielded_item"],
   "release": 26659,
   "repo": "https://codeberg.org/Wuzzy/minetest_show_wielded_item",
   "score": 497.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/VHLrCRopaR.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/VHLrCRopaR.png"],
   "short_description": "Displays the name of the wielded item.",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/VHLrCRopaR.png",
   "title": "Show Wielded Item",
   "translation_url": null,

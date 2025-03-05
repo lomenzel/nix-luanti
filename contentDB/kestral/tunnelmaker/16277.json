@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/kestral246/tunnelmaker/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "Tunnelmaker is a simple to use tool to create tunnels, paved pathways, and bridges—all with arbitrary curves—and with **no** assembly required.\n\nQuick Use Guide\n---------------\n\n- Needs *tunneling* privileges, which are granted by default for singleplayer. On server use chat command: */grant (player) tunneling.*\n- No crafting recipe, so either use creative inventory or use chat command: */give (player) tunnelmaker:tool1.*\n- Left-click mouse to dig just about any node with one click.\n- To dig train tunnel:\n    - Point cursor at ground level.\n    - Point character in direction to dig (inventory icon will change to show direction).\n    - Right-click mouse to dig tunnel and place ground fill.\n    - Note that reference nodes are placed in the ground. Just follow these to make nice curves based on Advanced trains track. Don't worry, these reference marks can be easily removed when done digging.\n- Shift-left-click brings up User Options menu.\n\nFeatures\n----------\n- Create paths, bridges, and tunnels in all sixteen possible advtrains track directions with one click.\n- Also digs up or down in the eight possible advtrains slope track directions.\n- New User Options menu to set digging mode and other options.\n    - Mode 1: General purpose excavation with unlined and lined tunnels.\n    - Mode 2: Advanced trains mode with gravel embankment, arched and optionally lined tunnels, and two widths of bridges.\n    - Mode 3: Bike mode with two widths of cobblestone pathways and bridges, along with unlined tunnels.\n- Adds reference nodes to help digging and laying advtrains track—now easy to remove when done.\n- Adds glass enclosure when in water to create water tunnels.\n- Requires \"tunneling\" privilege, and checks protections before digging.\n- No crafting recipe, so needs to be given to player.\n- Works in both creative and survival modes, but tunneling does not place any nodes into user's inventory.\n- Supports client-side translation files. Currently only have Russian and my attempt at a French translation. **Other languages will be gratefully accepted.** Reference template file is available in locale directory.\n\nControls\n--------\n- **Left-click:** Super dig one node. One click digs nearly any node (non-repeating) and places it in player's inventory.\n- **Shift-left-click:** Bring up User Options menu. (Can also use Aux-right-click for Android.)\n- **Right-click:** - Dig tunnel in direction player pointed. Note that this won't place any of the dug nodes in player's inventory.\n- **Shift-right-click:** Cycle through vertical digging modes, up, down, and horizontal.\n\nBut wait, there's more!\n---------\nThis is only the first half of the manual. See the complete [User Manual](https://github.com/kestral246/tunnelmaker#readme) for more information.  This includes:\n\n- Tips for digging.\n- Explanation of the User options menu.\n- And Configuration options, which allow things like changing the lights added while digging.\n",
-  "maintainers": [
-    "kestral"
-  ],
+  "maintainers": ["kestral"],
   "media_license": "CC0-1.0",
   "name": "tunnelmaker",
-  "provides": [
-    "tunnelmaker"
-  ],
+  "provides": ["tunnelmaker"],
   "release": 16277,
   "repo": "https://github.com/kestral246/tunnelmaker",
   "score": 347.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/tHi6LVGgnb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/tHi6LVGgnb.png"],
   "short_description": "Easily create arbitrarily curved tunnels, paths, and bridges.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "tools",
-    "transport"
-  ],
+  "tags": ["creative", "tools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/tHi6LVGgnb.png",
   "title": "Tunnelmaker",
   "translation_url": null,
@@ -532,18 +520,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

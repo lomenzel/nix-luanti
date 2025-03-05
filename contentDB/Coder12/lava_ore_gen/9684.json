@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod makes the lava turn stone into ore over time. When lava comes in contact with stone it turns red hot. After a specific time it turns into ore.\n\n## api\nlava_ore_gen.blacklist is a table where you can blacklist node names.\n\nExample code:\n\n``` lua\nlava_ore_gen.blacklist[\"default:stone_with_iron\"] = true\n```\n\n## config\nFixed interval of when stone is changed into ore.\n```\nlava_ore_gen.interval = 3600\n```\n\n\nRandom chance of when to change stone into ore.\n```\nlava_ore_gen.chance = 86400\n```\n\nMake ores random instead of being based on how rare they are.\n```\nlava_ore_gen.random = false\n```",
-  "maintainers": [
-    "Coder12"
-  ],
+  "maintainers": ["Coder12"],
   "media_license": "MIT",
   "name": "lava_ore_gen",
-  "provides": [
-    "lava_ore_gen"
-  ],
+  "provides": ["lava_ore_gen"],
   "release": 9684,
   "repo": "https://gitlab.com/Coder12a/lava_ore_gen",
   "score": 162,
-  "screenshots": [
-    "https://content.luanti.org/uploads/qQErmDMIpq.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/qQErmDMIpq.png"],
   "short_description": "Makes the lava turn stone into ore over time.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["environment", "plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/qQErmDMIpq.png",
   "title": "Lava Ore Gen",
   "translation_url": null,

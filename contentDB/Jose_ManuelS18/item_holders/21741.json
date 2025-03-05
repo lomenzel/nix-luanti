@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds the 'Item Holders', as the name states, holders of items for others to see, includes multi-slot itemframes, pose-able dummies and mannequins, pedestals, etc.\nAlso provides a API for modders to create item holders.\n\n= What's New? =\n\n1.0.1: Modified dummies and mannequins, now they can be partially moved and rotated via their GUI, added more poses, and fixed bug where 1-faced blocks wouldn't display as itemframe background for normal itemframes.",
-  "maintainers": [
-    "Jose_ManuelS18"
-  ],
+  "maintainers": ["Jose_ManuelS18"],
   "media_license": "MIT",
   "name": "item_holders",
-  "provides": [
-    "item_holders"
-  ],
+  "provides": ["item_holders"],
   "release": 21741,
   "repo": null,
   "score": 6.3,
@@ -450,10 +444,7 @@
   ],
   "short_description": "Adds 'Item Holders', blocks that hold your items in display, also provides a API.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "library"
-  ],
+  "tags": ["decorative", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b8b3206bbf.png",
   "title": "Item Holders",
   "translation_url": null,

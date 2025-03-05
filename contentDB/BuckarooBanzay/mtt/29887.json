@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/buckarooBanzay/mtt/issues",
   "license": "MIT",
   "long_description": "# mtt\n\nMinetest test framework\n\nProvides an api to register test functions for integration-tests.\n\n**NOTE**: this mod is inert by default and only here for completeness and to provide the test-api stubs\n\nMore documentation is available here: https://github.com/buckarooBanzay/mtt\n\n# Related work\n\n* https://github.com/S-S-X/mineunit unit test framework\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "MIT",
   "name": "mtt",
-  "provides": [
-    "mtt"
-  ],
+  "provides": ["mtt"],
   "release": 29887,
   "repo": "https://github.com/buckarooBanzay/mtt",
   "score": 5.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c0828186a8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c0828186a8.png"],
   "short_description": "Provides an api to register test functions for integration-tests.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c0828186a8.png",
   "title": "Minetest test framework",
   "translation_url": null,

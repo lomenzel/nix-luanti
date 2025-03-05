@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://github.com/GenesisMT/realm_lamp/issues/new/choose/",
   "license": "MIT",
   "long_description": "A rainbow gradient block for decoration and with differents speeds.\n\n```\nminetest.register_node(\"realm_lamp:realm_lamp\", {\n\tdescription = \"\".. core.colorize(\"#ff0000\", \"R\")..core.colorize(\"#ff9900\", \"e\")..core.colorize(\"#ffd000\", \"a\")..core.colorize(\"#fffb00\", \"l\")..core.colorize(\"#aaff00\", \"m \")..core.colorize(\"#04ff00\", \"L\")..core.colorize(\"#00ffee\", \"a\")..core.colorize(\"#005eff\", \"m\")..core.colorize(\"#8400ff\", \"p\"),\n\ttiles = {{\n\t\t    name = \"rainbow_lamp.png\",\n\t\t    animation = {type = \"vertical_frames\", aspect_w = 16, aspect_h = 16, length = 12}\n\t}},\n\tparamtype2 = \"facedir\",\n\tplace_param2 = 0,\n\tis_ground_content = false,\n\tstack_max= 1,\n\tgroups = {cracky = 3},\n\tlight_source = 16,\n\ton_blast = function() end,\n\tsounds = default.node_sound_stone_defaults(),\n})\n\n\n\nminetest.register_craft({\n  output = \"realm_lamp:realm_lamp\",\n\trecipe = {\n\t\t{\"dye:red\", \"dye:orange\", \"dye:yellow\"},\n\t\t{\"dye:green\", \"default:meselamp\", \"dye:cyan\"},\n\t\t{\"dye:blue\", \"dye:violet\", \"dye:pink\"},\n\t}\n})\n\n\nminetest.register_node(\"realm_lamp:realm_lamp_x2\", {\n\tdescription = \"\".. core.colorize(\"#ff0000\", \"R\")..core.colorize(\"#ff9900\", \"e\")..core.colorize(\"#ffd000\", \"a\")..core.colorize(\"#fffb00\", \"l\")..core.colorize(\"#aaff00\", \"m \")..core.colorize(\"#04ff00\", \"L\")..core.colorize(\"#00ffee\", \"a\")..core.colorize(\"#005eff\", \"m\")..core.colorize(\"#8400ff\", \"p\")..core.colorize(\"#bb00ff\", \" x2\"),\n\ttiles = {{\n\t\t    name = \"rainbow_lamp.png\",\n\t\t    animation = {type = \"vertical_frames\", aspect_w = 16, aspect_h = 16, length = 6}\n\t}},\n\tparamtype2 = \"facedir\",\n\tplace_param2 = 0,\n\tis_ground_content = false,\n\tstack_max= 1,\n\tgroups = {cracky = 3},\n\tlight_source = 16,\n\ton_blast = function() end,\n\tsounds = default.node_sound_stone_defaults(),\n})\n\n\n\nminetest.register_craft({\n  output = \"realm_lamp:realm_lamp_x2\",\n\trecipe = {\n\t{\"dye:red\", \"dye:orange\", \"dye:yellow\"},\n\t\t{\"dye:green\", \"default:meselamp\", \"dye:cyan\"},\n\t\t{\"dye:blue\", \"dye:violet\", \"dye:pink\"},\n\t}\n})\n\nminetest.register_node(\"realm_lamp:realm_lamp_d2\", {\n\tdescription = \"\".. core.colorize(\"#ff0000\", \"R\")..core.colorize(\"#ff9900\", \"e\")..core.colorize(\"#ffd000\", \"a\")..core.colorize(\"#fffb00\", \"l\")..core.colorize(\"#aaff00\", \"m \")..core.colorize(\"#04ff00\", \"L\")..core.colorize(\"#00ffee\", \"a\")..core.colorize(\"#005eff\", \"m\")..core.colorize(\"#8400ff\", \"p\")..core.colorize(\"#bb00ff\", \" d2\"),\n\ttiles = {{\n\t\t    name = \"rainbow_lamp.png\",\n\t\t    animation = {type = \"vertical_frames\", aspect_w = 16, aspect_h = 16, length = 36}\n\t}},\n\tparamtype2 = \"facedir\",\n\tplace_param2 = 0,\n\tis_ground_content = false,\n\tstack_max= 1,\n\tgroups = {cracky = 3},\n\tlight_source = 16,\n\ton_blast = function() end,\n\tsounds = default.node_sound_stone_defaults(),\n})\n\n\n\nminetest.register_craft({\n  output = \"realm_lamp:realm_lamp_d2\",\n\trecipe = {\n\t\t{\"dye:red\", \"dye:orange\", \"dye:yellow\"},\n\t\t{\"dye:green\", \"default:meselamp\", \"dye:cyan\"},\n\t\t{\"dye:blue\", \"dye:violet\", \"dye:pink\"},\n\t}\n})\n```\n\n",
-  "maintainers": [
-    "GenesisMT"
-  ],
+  "maintainers": ["GenesisMT"],
   "media_license": "MIT",
   "name": "realm_lamp",
-  "provides": [
-    "realm_lamp"
-  ],
+  "provides": ["realm_lamp"],
   "release": 7413,
   "repo": "https://github.com/GenesisMT/realm_lamp",
   "score": 5.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/jYjBh27l3f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/jYjBh27l3f.png"],
   "short_description": "A rainbow gradient block for decoration and with differents speeds.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/jYjBh27l3f.png",
   "title": "Realm Lamp",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -457,25 +455,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Extra Doors adds a set of 18 new doors to Minetest. They encompass a wide variety of different building styles, so players are no longer restricted to the four basic steel, wood, glass, and obsidian glass doors that come shipped with the default game.\n\n## Installation\n\n* Unzip the archive into the mods directory of your game\n* Rename the extra_doors-master directory to \"extra_doors\"\n\n## Getting Started\n\nI designed all of the door textures for the JT2 server, with the exception of the Cottage Exterior Door and the Japanese Door which I borrowed from _X-Decor_ mod with slight modifications. A couple of the designs were loosely inspired by the _mydoors_ mod.\n\n<!--\n![](https://i.imgur.com/zx4xJsk.png)\n\n![](https://i.imgur.com/LOPrQ4N.png)\n\n![](https://i.imgur.com/BqbXCmI.png)\n\n![](https://i.imgur.com/SqdTNtw.png)\n\n![](https://i.imgur.com/STA67eS.png)-->\n\nI truly believe that doors are one of the most essential but often overlooked elements of good architectural design. They set the tone and character of both a living and working space. Have the wrong style of door can make or break the underlying visual aesthetic of any building, which is why I accounted for several possible uses. Enjoy!",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "extra_doors",
-  "provides": [
-    "extra_doors"
-  ],
+  "provides": ["extra_doors"],
   "release": 627,
   "repo": "https://bitbucket.org/sorcerykid/extra_doors",
   "score": 35.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/UutulSSn3O.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/UutulSSn3O.png"],
   "short_description": "Extra Doors provides a range of interior and exterior doors for builders",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/UutulSSn3O.png",
   "title": "Extra Doors",
   "translation_url": null,

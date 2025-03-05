@@ -11,20 +11,14 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This overrides the giveme chat command so that players do not need to type the full item name in many cases and get selectable hints about item names if there are ambiguities.",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "MIT",
   "name": "giveme_completion",
-  "provides": [
-    "giveme_completion"
-  ],
+  "provides": ["giveme_completion"],
   "release": 27004,
   "repo": "https://codeberg.org/HybridDog/giveme_completion",
   "score": 11.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d89f28bdfa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d89f28bdfa.png"],
   "short_description": "Autocompletion of item names for the /giveme chat command",
   "state": "APPROVED",
   "tags": [

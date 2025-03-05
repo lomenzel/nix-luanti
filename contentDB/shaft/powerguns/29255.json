@@ -51,14 +51,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "This mod adds\n\n* Power Pistol\n\n* Fully automatic Power Rifle\n\n* Power Shotgun\n\n* Force Gun that shoots a force field throwing players and creatures around\n\n* Power Generator that generates Power Particles\n\n* Power Particles that serve as ammunition\n\n* Power Workbench to craft the all that.\n\nThe intermediate items in rangedweapons do not exist in this mod. I decided on making a workbench for crafting directly from source materials instead because the intermediate items were not easily discoverable and looking up the recipes defeats the puzzle game purpose of the crafting grid.\n\nThe media is from *rangedweapons* but the code is fully rewritten. Everything is raytraced and integrates with my Accuracy mod\n\nStop moving or sneak to gain more accuracy. Accuracy is indicated by the size of the circle. You'll also get a hit indicator if you hit a mob or player.\n\nLasers pass through leaves and glass. TNT explodes if shot.\n\n# Please let me know\n* if you'd like damage adjustments\n* if you'd like crafting adjustments\n* if you want to contribute a translation (if you don't know git you can just paste it here but please format as code block < / >)\n\nKnown issues:\n\n* https://github.com/minetest/minetest/issues/15528\n\nSometimes the rifle keeps fireing until you move the mouse. This is a problem with the engine and not the mod and will hopefully be fixed in the next release.\n\n* https://github.com/minetest/minetest/issues/15574\n\nBullet holes don't face the right direction yet.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC-BY-SA-4.0",
   "name": "powerguns",
-  "provides": [
-    "powerguns"
-  ],
+  "provides": ["powerguns"],
   "release": 29255,
   "repo": "https://gitgud.io/blut/powerguns",
   "score": 52.5,
@@ -68,12 +64,7 @@
   ],
   "short_description": "A mod that adds laser guns and a force gun",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pvp", "shooter", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f17516a1df.png",
   "title": "Power Guns",
   "translation_url": null,
@@ -88,9 +79,7 @@
       {
         "is_optional": false,
         "name": "accuracy",
-        "packages": [
-          "shaft/accuracy"
-        ]
+        "packages": ["shaft/accuracy"]
       }
     ]
   },

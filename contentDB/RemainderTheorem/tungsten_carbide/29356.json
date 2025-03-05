@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,14 +390,10 @@
   "issue_tracker": "https://github.com/RemainderTheorem/tungsten-carbide-mod/issues",
   "license": "MIT",
   "long_description": "# Tungsten Carbide\n\nAdds tools that are made up of tungsten carbide to minetest (download:https://www.minetest.net/).\n\n# Present Features\n\nAdded tools\n* tungsten carbide pickaxe\n*  tungsten carbide axe  \n*  tungsten carbide shovel  \n*  tungsten carbide sword\n\n# Future planned additions \n* Armor\n* Decorative blocks using added minerals (tungsten and cobalt)\n# Recipes to craft the tools\n\n * Look at the screenshots for recipes.\n \n # Credits \n  \n\t[dye](https://github.com/minetest/minetest_game/tree/master/mods/dye) by Perttu Ahola (celeron55) <celeron55@gmail.com>, Remaindertheorem  (CC BY-SA 3.0)\n\n* Tungsten_carbide_black_carbon.png\n* Tungsten_carbide_cobalt_powder.png\n* Tungsten_carbide_tungsten_powder.png\n* Tungsten_carbide_W_bc_mix.png\n* Tungsten_carbide_WCCo.png\n\n[default](https://github.com/minetest/minetest_game/tree/master/mods/default) by BlockMen, Remaindertheorem (CC BY-SA 3.0)\n\n* Tungsten_carbide_axe.png\n* Tungsten_carbide_cobalt_ingot.png\n* Tungsten_carbide_cobalt_lump.png\n* Tungsten_carbide_cobalt_ore.png\n* Tungsten_carbide_mold_axe.png\n* Tungsten_carbide_mold_axe_filled.png\n* Tungsten_carbide_mold_pick.png\n* Tungsten_carbide_mold_pick_filled.png\n* Tungsten_carbide_mold_shovel.png\n* Tungsten_carbide_mold_shovle_filled.png\n* Tungsten_carbide_mold_sword.png\n* Tungsten_carbide_mold_sword_filled.png\n* Tungsten_carbide_pickaxe.png\n* Tungsten_carbide_shovel.png\n* Tungsten_carbide_sword.png\n* Tungsten_carbide_tungsten_ingot.png\n* Tungsten_carbide_tungsten_lump.png\n* Tungsten_carbide_tungsten_ore.png\n \n\n\n",
-  "maintainers": [
-    "RemainderTheorem"
-  ],
+  "maintainers": ["RemainderTheorem"],
   "media_license": "CC-BY-SA-3.0",
   "name": "tungsten_carbide",
-  "provides": [
-    "tungsten_carbide"
-  ],
+  "provides": ["tungsten_carbide"],
   "release": 29356,
   "repo": "https://github.com/RemainderTheorem/tungsten-carbide-mod",
   "score": 8.5,
@@ -417,9 +411,7 @@
   ],
   "short_description": "Adds tools made from tungsten carbide that are more durable.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ada77014a3.png",
   "title": "Tungsten Carbide",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# drop_blacklisted\nThis mod adds the /drop [param...] command, which sets a blacklist for unwanted drops. Very useful for mining if used to blacklist cobble and silver sand as shown:\n\n/drop default:cobble default:silver_sand\n\nEach player has their own blacklist. For now, every blacklist is reset when the server resets.\n\nSpecial thanks to tacotexmex, creator of item_drop of which I... inspired some code, and N7na who helped in the development.\n\n",
-  "maintainers": [
-    "uyku"
-  ],
+  "maintainers": ["uyku"],
   "media_license": "LGPL-2.1-only",
   "name": "drop_blacklisted",
-  "provides": [
-    "drop_blacklisted"
-  ],
+  "provides": ["drop_blacklisted"],
   "release": 20503,
   "repo": "https://github.com/uyku-git/drop_blacklisted",
   "score": 154.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c79fd2b011.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c79fd2b011.png"],
   "short_description": "\"Don't add the specified drop(s) to the inventory when digging\"",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c79fd2b011.png",
   "title": "Drop Blacklisted",
   "translation_url": null,

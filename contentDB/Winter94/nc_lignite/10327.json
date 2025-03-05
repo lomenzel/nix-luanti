@@ -38,27 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/NC-Lignite/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Adds Lignite, an ore of coal, to NodeCore. Burning wood is no longer the only way to get fuel.\n Now outdated, please use NodeCore Coal instead. \nhttps://content.minetest.net/packages/Winter94/wc_coal/\n\nThank you,      \n\n\t\t\t\t\t--Winter94 (WintersKnight) (WintersKnight94)",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "GPL-3.0-only",
   "name": "nc_lignite",
-  "provides": [
-    "nc_lignite"
-  ],
+  "provides": ["nc_lignite"],
   "release": 10327,
   "repo": "https://github.com/wintersknight94/NC-Lignite",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EwRBLcDf4R.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EwRBLcDf4R.png"],
   "short_description": "Adds Lignite, an ore of coal. Now outdated, please use NodeCore Coal instead. See Below.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["environment", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EwRBLcDf4R.png",
   "title": "NodeCore Lignite",
   "translation_url": null,
@@ -72,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

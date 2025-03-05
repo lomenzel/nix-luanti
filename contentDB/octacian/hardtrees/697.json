@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,23 +416,17 @@
   "issue_tracker": "https://github.com/octacian/hardtrees/issues",
   "license": "MIT",
   "long_description": "hardtrees is a mod with a very simple concept. Trees are made harder, meaning you cannot punch them with your fists. Instead, you must find rocks on cobble, stone, mossy cobble, or sandstone, and make the appropriate rock tool, in this case, an axe. However, to make an axe you must have sticks, for which there are two methods to obtain. When leaves are broken then have a 1 out of 13 chance to drop not only the broken node, but also a stick. Once every day, sticks also drop from trees to the group. The mod uses overrides to make trees unbreakable by hand, and also modifies leaves so that they drop the needed items. Leaves are also modified to act as ladders, so you can climb through the tops of trees.\n\n## Mod Support\nhardtrees supports all trees within the moretrees and default mod as of July 7th, 2016. To add support for more trees, use the code below modified to fit the new tree and save it in hardtrees/override.lua.\n\n```lua\n-- override tree node\nhardtrees.override.tree(\"modname:treename\")\n-- override leaves\nhardtrees.override.leaf(\"modname:leavesname\", \"modname:saplingname\")\n```\n\n`treename` is the name of the tree node so that it can be overrided to not be `oddly_breakable_by_hand`. The `leavesname` is the name of the leaves node which is modified to drop sticks. `saplingname` is also required to allow the leaves to drop both sticks and saplings.\n\n## Configuration\nWithin the mod directory, is `conf.txt` within which you can specify many of the settings used within this mod. You can also create world specific configuration files by placing another `conf.txt` file within the world directory. Remember, you do not have to specify all settings in either configuration file, however, only those that you would like to change from the default.\n\n### `config.txt` Example\n```lua\n-- hardtrees config --\n\n-- require tools to break trees (default: true)\nrequire_tools = true\n\n-- rock tools (default: true)\nrock_tools = true\n\n-- generate rocks (default: true)\ngen_rocks = true\n\n-- distance between rocks (default: 5)\n-- gen_rocks must be true\nrock_distance = 5\n\n-- rock generation interval (default: 60)\n-- gen_rocks must be true\nrock_interval = 60\n\n-- rock abm chance (default: 13)\n-- gen_rocks must be true\nrock_chance = 13\n\n-- generate sticks (default: true)\ngen_sticks = true\n\n-- distance between stick and tree (default: 3)\n-- gen_sticks must be true\nstick_distance = 3\n\n-- stick generation interval (default: 1440.0)\n-- gen_sticks must be true\nstick_interval = 1440.0\n\n-- stick abm chance (default: 50)\n-- gen_sticks must be true\nstick_chance = 50\n```",
-  "maintainers": [
-    "octacian"
-  ],
+  "maintainers": ["octacian"],
   "media_license": "MIT",
   "name": "hardtrees",
-  "provides": [
-    "hardtrees"
-  ],
+  "provides": ["hardtrees"],
   "release": 697,
   "repo": "https://github.com/octacian/hardtrees",
   "score": 5.9,
   "screenshots": [],
   "short_description": "Require tools to break trees and introduce beginner-tier rock tools.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": null,
   "title": "Hard Trees",
   "translation_url": null,

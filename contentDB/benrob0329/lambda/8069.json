@@ -11,23 +11,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# lua-lambda\nTakes a string, returns a function for quick function definition.\n\n## Usage\nThe lambda format is as follows:\n```Lua\nl\"(args) expr\"\n```\n\nExample:\n```Lua\nlocal add_one = l\"(x) x+1\"\nprint(add_one(5)) --> 6\n```\n\n## Why?\nBecause Lua needs more atomic modules which add functionality without creating a huge library. This module is supposed to be dead-simple to grab and start using in your project without adding anything extra. One of Lua's strengths is minimalism, and I think that it's ecosystem would do well to mirror that.",
-  "maintainers": [
-    "benrob0329"
-  ],
+  "maintainers": ["benrob0329"],
   "media_license": "CC0-1.0",
   "name": "lambda",
-  "provides": [
-    "lambda"
-  ],
+  "provides": ["lambda"],
   "release": 8069,
   "repo": "https://gitlab.com/benrob0329/lua-lambda.git",
   "score": 1.7,
   "screenshots": [],
   "short_description": "Atomic lambda string-parser for Lua.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Lambda",
   "translation_url": null,

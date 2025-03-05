@@ -258,9 +258,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://git.0x7be.net/dirk/pixelart/issues",
   "license": "MIT",
   "long_description": "## Using the Mod\nThe mod operates in two ways. In creative mode a player can take pixel (nodes) from the palette and place them in the world without any cost. For doing so the player needs to open the inventory and switch to the “Pixelart” tab and select one of the available palettes. Alternatively a custom *Unified Inventory* page or a node are available.\n\nWhen the world does not run in creative mode taking pixels costs a base node. The name of the base node is shown to the player via a chat line. When a player has one of the defined base node taking out one pixel (node) from the palette is possible.\n\nIn both cases the player needs at least one free inventory slot where the node can be placed in.\n\n## Palettes\nThe built-in palettes all use *Silver Sandstone* as base node (`default:silver_sandstone`) when not in creative mode. All palettes are carefully created using original sources. Feel free to suggest interesting palettes for implementation.\n\nThe mod also allows using custom palettes on a per-world basis. Those custom palettes take precedence over the built-in palettes when having the same name as them. This allows overriding built-in palettes as well as removing them from the palettes list.",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "pixelart",
-  "provides": [
-    "pixelart"
-  ],
+  "provides": ["pixelart"],
   "release": 28726,
   "repo": "https://git.0x7be.net/dirk/pixelart",
   "score": 154.8,
@@ -448,11 +442,7 @@
   ],
   "short_description": "Nodes for pixelart grouped in color palettes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "inventory"
-  ],
+  "tags": ["building", "creative", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3FjqxTR6Rq.png",
   "title": "Pixelart",
   "translation_url": "https://translate.codeberg.org/projects/linuxdirks-luanti-mods/pixelart/",

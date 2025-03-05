@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "# Train remote\nThis mod allows you to remotely control certain properties of a train using a formspec.\n\n**This mod is superseded by [Maverick2797's implementation](https://content.minetest.net/packages/Maverick2797/advtrains_portable_remote_control/).**",
-  "maintainers": [
-    "yw05"
-  ],
+  "maintainers": ["yw05"],
   "media_license": "AGPL-3.0-only",
   "name": "train_remote",
-  "provides": [
-    "train_remote"
-  ],
+  "provides": ["train_remote"],
   "release": 12055,
   "repo": "https://gitlab.com/yw05/minetest-mod-train-remote",
   "score": 0,
@@ -28,10 +24,7 @@
   ],
   "short_description": "This mod allows you to remotely control trains. This is the implementation by Y. Wang.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "transport"
-  ],
+  "tags": ["gui", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5507e0f165.png",
   "title": "Remote Control for Advtrains (Old)",
   "translation_url": null,
@@ -46,9 +39,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

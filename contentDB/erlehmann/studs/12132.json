@@ -11,25 +11,17 @@
   "issue_tracker": "https://git.minetest.land/erle/studs/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod changes many full nodes, slabs, and stairs to have studs on top to look like interlocking bricks.\nI have tested it with Minetest Game and Mineclonia, so it should work with MineClone2 or MineClone5.\n\nMany naturally generated nodes do not have studs, to avoid a Minetest rendering performance problem.\nYou can read more about that here: https://forum.minetest.net/viewtopic.php?f=7&t=28068&p=409857",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "AGPL-3.0-or-later",
   "name": "studs",
-  "provides": [
-    "studs"
-  ],
+  "provides": ["studs"],
   "release": 12132,
   "repo": "https://git.minetest.land/erle/studs",
   "score": 158.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/df657ea74c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/df657ea74c.png"],
   "short_description": "Adds studs on top of many nodes that are not ground content. This makes the decorated nodes look like interlocking bricks, similar to LEGO.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/df657ea74c.png",
   "title": "Studs",
   "translation_url": null,

@@ -24,9 +24,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29825,
@@ -249,14 +247,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Chemistry\nA mod where chemical elements, compounds and mixtures, are around the world.\nThis mod has a variety of Ores, Liquids and even moving Gases, explore the radioactive, Toxic and flammable environments in caves, Get a variety of corrosive or volatile liquids that explode with a touch of water, Tough metals that can be used for tool crafting and strong enough to withstand powerful explosions.\nYou can make intense explosives with some rare materials.\nOr you can get building and decorative blocks to make a house or nice buildings.\n\n***Recommended for the use of this mod***\n*Technic* Modpack can be used to make radioactive nodes work and damage entities around them\n*3D Armor* Mod can be used to get working armor from some tough 3 metals\n*Mesecons* Mod can also be used to unlock an exclusive explosive\n\n***Might be added:***\n\n**Rangedweapons mod Compatibility**\nNew weapons and ammunition compatible for *Rangedweapons* could be added soon in next updates\n\n**Foods**\nFood could be crafted with baking soda or another compound that is not toxic or not edible\n\n**Radiation to Mese Power**\nRadiation detectors could be used to generate power for mesecons *only exclusive when the mod is enabled*\n\n**Thermite**\nThermite could be ignited to melt everything around it, even some metals, and liquids that can be melted in a furnace or using thermite but they will eventually cool down and solidify\n\n**More Biomes**\nBiomes and new items",
-  "maintainers": [
-    "Emiliano"
-  ],
+  "maintainers": ["Emiliano"],
   "media_license": "CC-BY-SA-3.0",
   "name": "chemistry",
-  "provides": [
-    "chemistry"
-  ],
+  "provides": ["chemistry"],
   "release": 29847,
   "repo": null,
   "score": 20.7,
@@ -271,13 +265,7 @@
   ],
   "short_description": "A package with some elements and compounds ",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "crafting",
-    "decorative",
-    "mapgen",
-    "survival"
-  ],
+  "tags": ["building", "crafting", "decorative", "mapgen", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/70c90f3efc.png",
   "title": "Chemistry ",
   "translation_url": null,
@@ -291,9 +279,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

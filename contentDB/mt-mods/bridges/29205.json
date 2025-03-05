@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/mt-historical/bridges/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Mod for Minetest that adds bridges (only one node wide!), slim handrails and a self-building-one-node-wide bridge.\n\nCrafting recipes:\n<br> S stands for stick\n<br> W stands for wooden slab\n<br> V stands for either vines or leaves (both can be used)\n<br> G stands for groundplate of bridge\n<br> H stands for handrail\n<br> - stands for \"leave empty\"\n\nGroundplate: yields 2 \"G\" parts which are the basis for further bridges:\n<br> V V V\n<br> V W V\n<br> V V V\n\nHandrail: yields 4 \"H\" parts which are needed in further receipes:\n<br> - - -\n<br> - G -\n<br> - - -\n\nsmall bridge:\n<br> S - S\n<br> H G H\n<br> S - S\n\nmiddle part (fits between small bridges):\n<br> - - -\n<br> H G H\n<br> - - -\n\ncorner of a bridge:\n<br> S H S\n<br> - G H\n<br> S - S\n\nT junction of a bridge:\n<br> S H S\n<br> - G -\n<br> S - S\n\nend of a bridge.\n<br> S H S\n<br> H G H\n<br> S - S\n\nhandrail, one side closed:\n<br> - - -\n<br> - - -\n<br> S H S\n\nhandrail, two sides closed:\n<br> S - -\n<br> H - -\n<br> S H S\n\nhandrail, three sides closed (if you want to walk around it):\n<br> S H S\n<br> H - -\n<br> S H S\n\na large, 3 nodes long bridge:\n<br> - small_bridge -\n<br> - middle_part_of_bridge -\n<br> - small_bridge -\n\n\nthe self-building automatic bridge:\n<br> large_bridge large_bridge large_bridge\n<br> large_bridge large_bridge large_bridge\n<br> large_bridge large_bridge large_bridge\n\n\n    Copyright (C) 2012/2013 Sokomine\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>.\n\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-or-later",
   "name": "bridges",
-  "provides": [
-    "bridges"
-  ],
+  "provides": ["bridges"],
   "release": 29205,
   "repo": "https://github.com/mt-historical/bridges",
   "score": 11.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c2774bbdf8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c2774bbdf8.png"],
   "short_description": "bridges....and auto bridges",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c2774bbdf8.png",
   "title": "bridges",
   "translation_url": null,

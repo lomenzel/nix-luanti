@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/nc_pumbob/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# nc_pumbob\nFloating Pumice Bobbers for Nodecore\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "nc_pumbob",
-  "provides": [
-    "nc_pumbob"
-  ],
+  "provides": ["nc_pumbob"],
   "release": 10564,
   "repo": "https://github.com/wintersknight94/nc_pumbob",
   "score": 1.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xDYE6BJGHa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xDYE6BJGHa.png"],
   "short_description": "adds carvable and sealable pumice bobbers/floaters",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics"
-  ],
+  "tags": ["building", "building_mechanics"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xDYE6BJGHa.png",
   "title": "NC Pumbob",
   "translation_url": null,
@@ -71,42 +62,27 @@
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

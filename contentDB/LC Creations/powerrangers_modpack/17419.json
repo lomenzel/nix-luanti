@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -275,9 +273,7 @@
   "issue_tracker": "https://github.com/LandonAConway/powerrangers_modpack/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This mod adds power rangers to minetest. It includes an API called 'morphinggrid' that can also be used to create your own power rangers.\n\n \"Morphers\" are a type of item that are either registered as craftitems or tools. Clicking on them morphs you into a power ranger. Alternatively you can type the command \"/morph <player> <rangername>\" or \"/morph <rangername>\" where \"rangername\" is usually \"modname:rangercolor\". To demorph just type the command \"/demorph <player>\" or \"/demorph\" to demorph yourself. There is also an inventory accessed by typing \"/morphers\" which is used to store morphers. the single slot can store a designated morpher and if you type \"/morph\" you will morph into the ranger that the designated morpher is associated with. Using morphers is the right way to morph whereas if your not using a morpher, it is pretty much cheating or for admin purposes. (or whatever you want really).\n\t\nThere is not really a documention showing how the entire mod works. The [morphinggrid] mod is the API that allows all this to be possible, so every mod that has ranger mods thst work differently. (so far [mighty_morphin], [zeo], [turbo] and [beast_morphers] have been added and hopefully more are coming.)  If you are familiar with power rangers, you may understand the mod better. However, the best guide I can give you is to look at the commands, and privs in the game, and see what you can do with that. Have fun.\n\t\nSome of my future plans are to add more ranger mods such as [in_space] & [lightspeed_rescue] which are already in the works. not sure how long these will take to release. Maybe a month or a year as I do not have unlimited time (only weekends).\n\t\nAlso, zords are possible to make but I'm not making the models. If anybody wants to collaborate to make zords by creating the 3d models for me, let me know and I'll do all the programming.",
-  "maintainers": [
-    "LC Creations"
-  ],
+  "maintainers": ["LC Creations"],
   "media_license": "LGPL-2.1-only",
   "name": "powerrangers_modpack",
   "provides": [
@@ -300,14 +296,7 @@
   ],
   "short_description": "Adds power rangers and an API to create your own.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "library",
-    "mobs",
-    "pve",
-    "pvp",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "library", "mobs", "pve", "pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1596c8439e.png",
   "title": "Power Rangers Modpack",
   "translation_url": null,

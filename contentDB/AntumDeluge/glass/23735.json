@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-glass/issues",
   "license": "MIT",
   "long_description": "### Description:\n\nMod that makes [default glass nodes][default] colorable with *unifieddyes:airbrush*.\n\nThis will also become standalone, independent of *default* in the future.\n\n### Licensing:\n\n- [MIT](https://github.com/AntumMT/mod-glass/blob/master/LICENSE.txt)\n\n### Requirements:\n\nDepends:\n\n- [![default](https://img.shields.io/static/v1?label=GitHub&message=default&color=%23375a7f\n)][default]\n- [![unifieddyes](https://img.shields.io/static/v1?label=ContentDB&message=unifieddyes&color=%23375a7f\n)](https://content.minetest.net/packages/VanessaE/unifieddyes/)\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-glass/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-glass/blob/master/TODO.txt)\n\n\n[Minetest]: http://www.minetest.net/\n[default]: https://github.com/minetest/minetest_game/blob/master/mods/default",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC0-1.0",
   "name": "glass",
-  "provides": [
-    "glass"
-  ],
+  "provides": ["glass"],
   "release": 23735,
   "repo": "https://github.com/AntumMT/mod-glass",
   "score": 15.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b5b18788e8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b5b18788e8.png"],
   "short_description": "Enhances default glass to make it colorable.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b5b18788e8.png",
   "title": "Glass",
   "translation_url": null,

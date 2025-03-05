@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/admin_mail/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Admin mailing list and report\n\nThis mod defines two mailing lists, `admin_mail:admins` and `admin_mail:moderators`, for contacting all players with `privs` and `ban` privileges respectively. Additionally, a form accessible via `/report` command is created, giving players a way to submit tickets without messing up with the name of the mailing lists.\n\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "admin_mail",
-  "provides": [
-    "admin_mail"
-  ],
+  "provides": ["admin_mail"],
   "release": 29006,
   "repo": "https://github.com/C-C-Minetest-Server/admin_mail",
   "score": 4.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bb2b0aecb2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bb2b0aecb2.png"],
   "short_description": "Add mailing list for admins and moderators, and a report function",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bb2b0aecb2.png",
   "title": "Admin mailing list and report",
   "translation_url": null,
@@ -44,17 +35,12 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "mail",
-        "packages": [
-          "mt-mods/mail"
-        ]
+        "packages": ["mt-mods/mail"]
       }
     ],
     "luk3yx/flow": [

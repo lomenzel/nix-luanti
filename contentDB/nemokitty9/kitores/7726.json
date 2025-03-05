@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": null,
   "license": "Zlib",
   "long_description": "# Based on the mod moreores as the base.\n\n**Currently has the following new minerals:**\n* Rude\n* Ramenion\n\n**Unchanged Ores:**\n* Tin* (used for in case if tin is not found in default)*\n* All default ores\n\nTechnical Notes:\nThis mod will work beside original mod moreores without issue. The modpack block/tool define pack is \"kitores:\".",
-  "maintainers": [
-    "nemokitty9"
-  ],
+  "maintainers": ["nemokitty9"],
   "media_license": "CC-BY-SA-3.0",
   "name": "kitores",
-  "provides": [
-    "kitores"
-  ],
+  "provides": ["kitores"],
   "release": 7726,
   "repo": null,
   "score": 7.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/NxWaFqtWuo.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/NxWaFqtWuo.png"],
   "short_description": "Nemokitty9's own ore pack. Includes Tools!",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival",
-    "tools"
-  ],
+  "tags": ["mapgen", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/NxWaFqtWuo.png",
   "title": "Kitty/Kitto Ores",
   "translation_url": null,

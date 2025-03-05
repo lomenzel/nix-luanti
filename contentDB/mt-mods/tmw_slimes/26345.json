@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -197,27 +195,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "Anyone here ever played [The Mana World?](https://www.themanaworld.org/) It's another libre game out there, maybe not quite as popular as Minetest, but still very nice. Anyway, I've been there, and I decided to bring back some exotic slimes for y'all, inspired by the ones found in that game!\n\nYou want slimes? We got 'em! You want* lava* slimes? Yup, we got those, too!\nYou want *poison* slimes? No? Well, I added them, anyway! We've got every kind of slime this side of *mars*!\n...And the other side, too, if you have other_worlds installed!\nMake your Minetest experience a little (or a lot) more gooey, with tmw_slimes!\n\nI've also added something special for those mad adventurers who would dare to challenge nature itself and create the perfect slime...",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "tmw_slimes",
-  "provides": [
-    "tmw_slimes"
-  ],
+  "provides": ["tmw_slimes"],
   "release": 26345,
   "repo": "https://github.com/mt-historical/tmw_slimes",
   "score": 473.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/vOsDET33dr.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/vOsDET33dr.png"],
   "short_description": "Adds several types of slimes inspired by TheManaWorld",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "player_effects",
-    "pve"
-  ],
+  "tags": ["mobs", "player_effects", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/vOsDET33dr.png",
   "title": "Slimes inspired by TheManaWorld",
   "translation_url": null,

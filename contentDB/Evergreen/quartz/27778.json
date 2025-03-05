@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/quartz/issues/",
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "Evergreen"
-  ],
+  "maintainers": ["Evergreen"],
   "media_license": "MIT",
   "name": "quartz",
-  "provides": [
-    "quartz"
-  ],
+  "provides": ["quartz"],
   "release": 27778,
   "repo": "https://github.com/minetest-mods/quartz",
   "score": 182.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/riMK1urHL2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/riMK1urHL2.png"],
   "short_description": "Adds quartz ore and some decorative quartz blocks",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen"
-  ],
+  "tags": ["building", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/riMK1urHL2.png",
   "title": "Quartz",
   "translation_url": null,
@@ -531,18 +520,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

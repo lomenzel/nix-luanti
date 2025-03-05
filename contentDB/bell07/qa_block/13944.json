@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/qa_block/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "The mod is for mods developers. The mod allow run ad-hoc lua scripts and browsing trough lua golbal variables namespace.",
-  "maintainers": [
-    "bell07"
-  ],
+  "maintainers": ["bell07"],
   "media_license": "GPL-3.0-only",
   "name": "qa_block",
-  "provides": [
-    "qa_block"
-  ],
+  "provides": ["qa_block"],
   "release": 13944,
   "repo": "https://github.com/minetest-mods/qa_block",
   "score": 151.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/uYsd4THPwe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/uYsd4THPwe.png"],
   "short_description": "A mods development / QA helper",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library",
-    "world_tools"
-  ],
+  "tags": ["developer_tools", "library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/uYsd4THPwe.png",
   "title": "QA-Block",
   "translation_url": null,

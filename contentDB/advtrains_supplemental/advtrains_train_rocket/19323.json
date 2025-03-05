@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_train_rocket/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# Advtrains Train: Rocket\n\nThe Rocket is a model of Stephenson's Rocket, a very early steam locomotive and\nthe winner of the Rainhill Trials in 1829. Also included is the rocket's tender\nand a larger open wagon in the same style.\n\nAll but one of the wagons in this mod are craftable. There are also some barrels\nincluded in the mod that act like chests; they form the load of the cargo wagons\nand are used in their crafting recipes.\n\nThe Rocket locomotive itself is quite slow and limited to 5 m/s, so don't expect\nto travel fast with it.\n\n[View this mod at the Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_train_rocket)\n\n## License\n\n* Original code and assets copyright (C) 2017, 2022 MBB \n* Portions of code (C) 2020 Peter Nerlich\n* Portions of code (C) 2021 Blockhead\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\nOriginal Author: MBB\nContributions by: Peter Nerlich, Blockhead\n",
-  "maintainers": [
-    "advtrains_supplemental",
-    "W3RQ01",
-    "Blockhead"
-  ],
+  "maintainers": ["advtrains_supplemental", "W3RQ01", "Blockhead"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_train_rocket",
-  "provides": [
-    "advtrains_train_rocket"
-  ],
+  "provides": ["advtrains_train_rocket"],
   "release": 19323,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_train_rocket",
   "score": 178.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0415dce88a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0415dce88a.png"],
   "short_description": "A model Stephenson's rocket and some barrel wagons",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0415dce88a.png",
   "title": "Advtrains Train Rocket",
   "translation_url": null,
@@ -466,9 +453,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,

@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/filter/issues/",
   "license": "GPL-2.0-only",
   "long_description": "The filter mod adds a simple word-based chat filter. Meant for servers, this mod will allow admins to have a simple way to tell players to keep chat free of certain expressions without being overly dramatic about it. As well as normal chat, this mod also automatically supports any chat commands which require shout.\n\nThe mod supports the following actions on players who violate a rule:\n\n* **Warning formspec** - informs the user that bad language is not permitted (first violation in rolling period)\n* **Mute** for a minute (on second or third violation)\n* **Kick** player (on fourth violation)\n\n### FAQs\n\n**Why use an automatic filter?**\n\nAutomatic filters cannot detect any time of swearing, and must be kept lenient enough not to be disruptive.\n\nAn automatic filter is a way to educate about the rules. If a well-meaning player swears, they will see a warning. If someone tries to work-around the swear filter, you'll know that they know about the rules but are violating it anyway\n",
-  "maintainers": [
-    "sofar",
-    "rubenwardy"
-  ],
+  "maintainers": ["sofar", "rubenwardy"],
   "media_license": "GPL-2.0-only",
   "name": "filter",
-  "provides": [
-    "filter"
-  ],
+  "provides": ["filter"],
   "release": 178,
   "repo": "https://github.com/minetest-mods/filter",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/C4isfkODIW.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/C4isfkODIW.png"],
   "short_description": "A chat filter for servers, to warn/kick/ban on swearing",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/C4isfkODIW.png",
   "title": "Filter",
   "translation_url": null,

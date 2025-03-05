@@ -11,17 +11,10 @@
   "issue_tracker": "https://github.com/rollerozxa/sudoku/issues",
   "license": "LGPL-2.1-only",
   "long_description": "A game of sudoku for Minetest. Solve the sudoku by placing number nodes in the correct slots on the grid.\n\nThis is a fork of 1248's [Sudoku](https://content.minetest.net/packages/1248/sudoku/) game with various cleanups, additions and improvements done. Old worlds created in 1248's Sudoku game are compatible with this fork but not the other way around.",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sudoku",
-  "provides": [
-    "sudoku",
-    "sudoku_gui",
-    "sudoku_hud_message",
-    "sudoku_player"
-  ],
+  "provides": ["sudoku", "sudoku_gui", "sudoku_hud_message", "sudoku_player"],
   "release": 19953,
   "repo": "https://github.com/rollerozxa/sudoku",
   "score": 325.7,
@@ -31,11 +24,7 @@
   ],
   "short_description": "A game of sudoku.",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["mini-game", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aaf0300234.png",
   "title": "Sudoku",
   "translation_url": null,

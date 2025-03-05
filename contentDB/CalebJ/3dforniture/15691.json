@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/KaylebJay/3dforniture/issues",
   "license": "GPL-2.0-or-later",
   "long_description": "This is a fork of tonyka's repository, compatible with newer minetest versions and optimized.\n\n**Furniture nodes added:**\n\n*    Deco Home\n*         Table\n*         Chair\n*         Armchair\n*         Table Lamp (adjustable)\n*     Bathroom Kit\n*         Toilet\n*         Sink\n*         Taps\n*         Showers Tray\n*         Showers Head\n*     Medieval Furniture\n*         Bars\n*         L Binding Bars\n*         Chains\n*         Wall Torches",
-  "maintainers": [
-    "CalebJ"
-  ],
+  "maintainers": ["CalebJ"],
   "media_license": "GPL-2.0-or-later",
   "name": "3dforniture",
-  "provides": [
-    "3dforniture"
-  ],
+  "provides": ["3dforniture"],
   "release": 15691,
   "repo": "https://github.com/KaylebJay/3dforniture",
   "score": 562.5,
@@ -448,10 +442,7 @@
   ],
   "short_description": "A lightweight mod which adds various home and bathroom furniture nodes, and some castle/medieval-themed nodes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4b6bb20fba.png",
   "title": "3D Furniture by tony-ka",
   "translation_url": null,

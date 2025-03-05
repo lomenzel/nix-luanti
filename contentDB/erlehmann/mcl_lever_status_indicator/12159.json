@@ -25,25 +25,17 @@
   "issue_tracker": "https://git.minetest.land/erle/mcl_lever_status_indicator/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod makes levers in the “on” position have a red tip. I have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n\nThe redstone torch lever overlay is based on the file “jeija_torches_on.png” from the mesecons_torches mod in MineClone2 by Wuzzy.\nIts License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>\n",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mcl_lever_status_indicator",
-  "provides": [
-    "mcl_lever_status_indicator"
-  ],
+  "provides": ["mcl_lever_status_indicator"],
   "release": 12159,
   "repo": "https://git.minetest.land/erle/mcl_lever_status_indicator",
   "score": 10.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7c25ba99c4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7c25ba99c4.png"],
   "short_description": "Makes levers in the “on” position have a red tip in MineClone2/MineClone5/Mineclonia",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c25ba99c4.png",
   "title": "Mcl Lever Status Indicator",
   "translation_url": null,

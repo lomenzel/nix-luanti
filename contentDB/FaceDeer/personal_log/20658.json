@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/personal_log/issues",
   "license": "MIT",
   "long_description": "# Personal Logs\n\n![](https://raw.githubusercontent.com/minetest-mods/personal_log/master/screenshot.png)\n\nThis mod adds a \"Personal Logs\" feature to the Unified Inventory or the SFInv Minetest interfaces. There's also an option (disabled by default) to add a craftable item players can use to access the log screen, if that's preferred or if this mod is being used with an unsupported inventory interface.\n\nPersonal logs are private notes that players can keep for themselves. There's also the ability to export or import them to and from the default mod's \"book\" items, allowing players to share their notes with others if they want.\n\nLogs can be entered into three different categories:\n\n- Locations\n- Events\n- General\n\nLocation logs will automatically have the player's coordinates saved with them when they're created. If the [ccompass](https://github.com/minetest-mods/ccompass) mod is installed there will be an interface that allows players to set a compass to track the location of one of these entries. Players can also read and write maps belonging to the [compassgps](https://github.com/Kilarin/compassgps/) mod. If a player has the teleport privilege they will also be presented with a \"teleport\" button for locations they've logged.\n\nEvent logs automatically have the current date saved with them when they're created. They're intended to allow a player to keep a diary of sorts, tracking the story of their game over time.\n\nGeneral logs have a free-form text field for their topic, players can use these to record any other sort of general information they desire.\n\nThere's no limit to how many logs a player can write.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "personal_log",
-  "provides": [
-    "personal_log"
-  ],
+  "provides": ["personal_log"],
   "release": 20658,
   "repo": "https://github.com/minetest-mods/personal_log",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4NZ8czo1qH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4NZ8czo1qH.png"],
   "short_description": "A personal log where players can track events and places",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4NZ8czo1qH.png",
   "title": "Personal Log",
   "translation_url": null,

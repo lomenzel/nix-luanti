@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/mapsync/issues",
   "license": "MIT",
   "long_description": "Synchronize the ingame map with a lua-backend\n\nSuccessor/Complementary to https://content.minetest.net/packages/BuckarooBanzay/modgen/\n\nGames built with mapsync:\n\n* https://content.minetest.net/packages/BuckarooBanzay/mesecons_lab/\n* https://content.minetest.net/packages/BuckarooBanzay/super_sam/\n\nSupported lua-backends:\n\n* `fs` local filesystem (can be in a world- or mod-folder)\n\nPlanned backends:\n\n* `http` http/webdav backend\n\nFeatures:\n\n* Auto-update chunks if a newer version on the backend is found\n\nPlanned features:\n\n* Diffing/Merging/Applying changes from multiple sources (git merges for example)\n\n\nMore details here: https://github.com/BuckarooBanzay/mapsync/blob/master/readme.md",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mapsync",
-  "provides": [
-    "mapsync"
-  ],
+  "provides": ["mapsync"],
   "release": 29630,
   "repo": "https://github.com/BuckarooBanzay/mapsync",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/970392c305.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/970392c305.png"],
   "short_description": " Synchronize the ingame map with a lua-backend",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "world_tools"
-  ],
+  "tags": ["library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/970392c305.png",
   "title": "Mapsync",
   "translation_url": null,

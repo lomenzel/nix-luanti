@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,27 +416,17 @@
   "issue_tracker": "https://github.com/korinrider/kor_fruit_trees/issues",
   "license": "MIT",
   "long_description": "This mod adds fruit trees of different types.\n\n# Fruit trees\n\n### Currently added:\n- cherry\n- pear\n- orange\n- lemon\n- pawpaw\n\n### PAY ATTENTION!\nthere are several setting for timing of the leaf cycles\nI put \"fast\" in this versio as default which will make it chage the step every 200s which is ok for demo\nbut way to fast for balanced survival PLEASE USE \"normal\" or \"slower\" for your survival games\n(You can also switch to \"debug\" if you want even shorter time or set your own time)\n\n### Features:\n* Trees go throug cycles: vegetation->bloom->fruitting\n* Unlike most other mods fruits grow on the leaf blocks on the whole tree and not only dangle from the bottom of the tree\n* Fruit regrow and decay if not harvested\n* Can collect fruits by right-clicking on the block with fruits or use the fruit pole to easily collect fruit in an area of the tree\n* Can eat fruits to replenish helth/hunger\n* Saplings can be planted and grow into one of the several tree variants (agains monotony of the same tees)\n* Fast and beutiful leaf decay with particles WoW!\n* Colourful woods to use in your builds\n* Different modes for leaf stage in the leaf cycles\n* Bonemeal integration\n* Craft a sapling by combining apple tree sapling with a dye (guess the colour!) now shapeless\n\nThe mod is still WIP (at leas I am thinking about reworking some texture and/or adding more trees)\nPlease make suggestions, and voice ideas!",
-  "maintainers": [
-    "korin_rider"
-  ],
+  "maintainers": ["korin_rider"],
   "media_license": "MIT",
   "name": "kor_fruit_trees",
-  "provides": [
-    "kor_fruit_trees"
-  ],
+  "provides": ["kor_fruit_trees"],
   "release": 25680,
   "repo": "https://github.com/korinrider/kor_fruit_trees",
   "score": 17.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/875c39de5a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/875c39de5a.png"],
   "short_description": "Fruit trees of diferent types",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food",
-    "plants_and_farming"
-  ],
+  "tags": ["decorative", "food", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/875c39de5a.png",
   "title": "Fruit Trees",
   "translation_url": null,
@@ -610,18 +598,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

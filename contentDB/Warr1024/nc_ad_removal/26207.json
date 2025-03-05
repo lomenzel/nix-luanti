@@ -38,14 +38,10 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "### Ad Removal for NodeCore\n\n...cleanly removes every ad from NodeCore, collapsing the space they occupied.\n\n...has no side effects and can safely be disabled/reenabled, or removed, at any time.\n\n...is *not* an advertisement removal mod.  It only removes ads, and will not be expanded to include removal of vertisements.\n\n...may *break translations*.  It is not recommended on public servers, or anywhere else non-English language options may be used.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_ad_removal",
-  "provides": [
-    "nc_ad_removal"
-  ],
+  "provides": ["nc_ad_removal"],
   "release": 26207,
   "repo": "https://gitlab.com/sztest/nc_ad_removal",
   "score": 151.9,
@@ -55,12 +51,7 @@
   ],
   "short_description": "Removes all ads from NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "gui",
-    "hud",
-    "singleplayer"
-  ],
+  "tags": ["april_fools", "gui", "hud", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dc1fb16565.png",
   "title": "NodeCore Ad Removal",
   "translation_url": null,
@@ -74,10 +65,7 @@
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

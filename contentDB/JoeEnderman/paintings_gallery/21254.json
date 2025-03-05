@@ -128,9 +128,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,26 +338,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "## Now Survival Friendly\n\nThe latest update will not apply unless you update Paintings Library do to a bug in the old code. You will get unknown node warnings if any paintings were placed in the world. Sorry in advance.\n\nPaintings Gallery uses Paintings Library to add over 200 paintings of various topics and styles. It is meant to be a good edition to creative or survival. It will not work without paintings_lib. Go here for the dependency: https://content.luanti.org/packages/JoeEnderman/paintings_lib/\n\n####\nUses AI generated art from the following AI generators:\n####\nBlue Willow https://www.bluewillow.ai/\n####\nStable Diffusion https://huggingface.co/spaces/stabilityai/stable-diffusion-1\n#\n#### New version\nTemp [link](https://gitlab.com/TheOnlyJoeEnderman/Paintings_Gallery_II) until it gets approved.\n#####\nhttps://content.luanti.org/packages/JoeEnderman/paintings_galleryii/",
-  "maintainers": [
-    "JoeEnderman"
-  ],
+  "maintainers": ["JoeEnderman"],
   "media_license": "CC0-1.0",
   "name": "paintings_gallery",
-  "provides": [
-    "paintings_gallery"
-  ],
+  "provides": ["paintings_gallery"],
   "release": 21254,
   "repo": "https://git.minetest.land/TheOnlyJoeEnderman/Paintings_Gallery",
   "score": 176.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2ded631564.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2ded631564.png"],
   "short_description": "Adds a large selection of curated AI paintings using Paintings Library.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "survival"
-  ],
+  "tags": ["decorative", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2ded631564.png",
   "title": "Paintings Gallery",
   "translation_url": null,
@@ -408,9 +397,7 @@
       {
         "is_optional": false,
         "name": "paintings_lib",
-        "packages": [
-          "JoeEnderman/paintings_lib"
-        ]
+        "packages": ["JoeEnderman/paintings_lib"]
       },
       {
         "is_optional": false,

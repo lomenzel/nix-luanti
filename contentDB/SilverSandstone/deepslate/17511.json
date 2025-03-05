@@ -24,9 +24,7 @@
     {
       "confidence": 11,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,14 +130,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Deepslate\n=========\n\nThis mod adds deepslate and related building materials.\n\nDeepslate is a type of stone that can be found deep underground.\nIt can be crafted into bricks, blocks, tiles, and pillars for building, or\nused in place of stone when crafting tools.\n\nOres and dungeons in the deepslate layer will generate as deepslate variants.\n\nBy default, deepslate starts generating below -768, and replaces all stone\nbelow -1024. This can be changed in the settings.\n\n\nContents\n--------\n\n- Deepslate\n- Cobbled Deepslate\n- Deepslate Brick\n- Cracked Deepslate Brick\n- Deepslate Block (Polished Deepslate in MineClone)\n- Chiselled Deepslate\n- Deepslate Tiles\n- Cracked Deepslate Tiles\n- Deepslate Pillar\n- Deepslate variants of ores\n\n\nCompatible Games and Mods\n-------------------------\n\nGames:\n\n- Minetest Game and derivatives (Dreambuilder, Mesecraft, VoxelGarden, Survivetest, etc.)\n- MineClone (integrates into mcl_deepslate, providing only additional features.)\n- Repixture\n\nOres from these mods:\n\n- Blox\n- Ethereal\n- Glooptest\n- Lapis Lazuli\n- Legendary Ore\n- Magic Materials\n- More Ores\n- Quartz\n- Rainbow Ore\n- Silver\n- Technic\n- Techage\n- Titanium\n- Zinc\n\nShapes and variants from these mods:\n\n- Advanced Trains\n- Castle Masonry\n- Rocks\n- Stairs+ (More Blocks)\n- Stairs Redo",
-  "maintainers": [
-    "SilverSandstone"
-  ],
+  "maintainers": ["SilverSandstone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "deepslate",
-  "provides": [
-    "deepslate"
-  ],
+  "provides": ["deepslate"],
   "release": 17511,
   "repo": null,
   "score": 169.2,
@@ -156,11 +150,7 @@
   ],
   "short_description": "Adds deepslate and related building materials.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["building", "decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4de32a927d.png",
   "title": "Deepslate",
   "translation_url": null,

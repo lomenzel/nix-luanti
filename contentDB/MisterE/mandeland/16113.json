@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/MisterE123/mandeland/issues/new/choose/",
   "license": "MIT",
   "long_description": "Experience the mandelbrot fractal\n\nThe landscape has been carved by a mysterious, fractal, force.\n\nOpen the code and mess with the fractal settings to change what the landscape looks like.",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "MIT",
   "name": "mandeland",
-  "provides": [
-    "mandeland"
-  ],
+  "provides": ["mandeland"],
   "release": 16113,
   "repo": "https://github.com/MisterE123/mandeland",
   "score": 468.1,
@@ -29,9 +25,7 @@
   ],
   "short_description": "Mandeland- a landscape carved by the mandelbrot fractal",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a5bc6f7c95.png",
   "title": "Mandeland",
   "translation_url": null,
@@ -47,16 +41,12 @@
       {
         "is_optional": false,
         "name": "biomegen",
-        "packages": [
-          "Gael de Sailly/biomegen"
-        ]
+        "packages": ["Gael de Sailly/biomegen"]
       },
       {
         "is_optional": false,
         "name": "luamap",
-        "packages": [
-          "MisterE/luamap"
-        ]
+        "packages": ["MisterE/luamap"]
       }
     ]
   },

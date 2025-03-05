@@ -38,28 +38,17 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "Stairs and slabs are one of the most often-requested features of the [NodeCore](/packages/Warr1024/nodecore/) game, even though they didn't fit the game themes/mechanics and had to be removed from a very early version.  This mod adds them back in as an optional feature, in a uniquely Nodecorian way.\n\nStairs/slabs are defined for:\n\n* Wooden Planks\n* Cobble\n* Bonded Bricks (of various types)\n* Lode Cubes (but not Glowing)\n* Chromatic Glass\n\nTo craft stairs or slabs:\n\n* Build the shape of the stairs or slab in a 2x2x2 space, only these 2 basic shapes are currently supported.  You must use only one of the supported materials and cannot mix them.\n* Make sure you have nothing else but air, and the flat work surface you're building the stair/slab unit on, in the space or surrounding that 2x2x2 space.\n* Place an eggcorn on top of one of the base nodes (i.e. for stairs, on the bottom step, not the top).\n* Use a mallet to mash the eggcorn and glue the nodes together into a unit.\n\nStairs and slabs can be recycled by chopping them apart with a hatchet.",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "nc_stairs",
-  "provides": [
-    "nc_stairs"
-  ],
+  "provides": ["nc_stairs"],
   "release": 26217,
   "repo": "https://gitlab.com/sztest/nc_stairs",
   "score": 307.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4989b2f1cf.webp"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4989b2f1cf.webp"],
   "short_description": "Adds an assortment of stairs and slabs to NodeCore",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "building",
-    "crafting",
-    "decorative"
-  ],
+  "tags": ["april_fools", "building", "crafting", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4989b2f1cf.png",
   "title": "NodeCore Stairs",
   "translation_url": null,
@@ -73,66 +62,42 @@
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_items",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

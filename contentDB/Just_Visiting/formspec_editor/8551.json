@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/ExeVirus/formspec_editor/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Formspec Editor\n## REALTIME formspec viewer/editor \"game\" for minetest\n\n## Getting Started \n\nThis mod needs access to an insecure environment in order to work.\n\nAdd `formspec_edit` to `secure.trusted_mods` in your `minetest.conf` file.\n\nThe file *formspec.spec* in your:\n\n```minetest_folder/games/formspec_editor/mods/formspec_edit```\n\ncontains a formspec you can edit and see updates of in real time. (You can also specify a file location with the `formspec_editor.file_path` setting.)\nSimply add the game to MT, load up a level of *Formspec Editor*, and you will be greeted with the formspec. \n\n- To make edits, open the file in your editor of choice and make changes as you see fit. When you hit save, the formspec will auto-update. Best when used side by side. \n- To exit just hit <escape> or use a button_exit[] button. Both send the\nfields.quit message.\n- You can test with images if you want, adding a \"textures\" folder to the \nformspec_edit gamemod folder, otherwise images will default to random colors.\n- You can show the formspec with builtin, minetest_game or mineclone2 styling (see the `formspec_editor.style` setting)\n- You can change the refresh rate by changing the `formspec_editor.update_time` setting\n",
-  "maintainers": [
-    "Just_Visiting"
-  ],
+  "maintainers": ["Just_Visiting"],
   "media_license": "MIT",
   "name": "formspec_editor",
-  "provides": [
-    "formspec_edit"
-  ],
+  "provides": ["formspec_edit"],
   "release": 8551,
   "repo": "https://github.com/ExeVirus/formspec_editor",
   "score": 782.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/91324ef4f9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/91324ef4f9.png"],
   "short_description": "A Realtime in-game formspec viewer/editor",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "gui"
-  ],
+  "tags": ["developer_tools", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/91324ef4f9.png",
   "title": "Formspec Editor",
   "translation_url": null,

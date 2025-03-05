@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "The only purpose of this mod is to provide a node that looks like an Unknown Node but actually is not. I think the texture is worth it.\n\nYou can craft this node by arranging cobblestone in the shape of an U into the crafting grid:\n\n```\nC C\nC C\nCCC\n```\n\nMod dependencies:\ndefault (for crafting, should work with all modified 'default' mods.)\n\nThe mod also adds basic stairs and slabs like the ones found in default Minetest Game.\n\nCompatible with moreblocks: Will register stairs, slabs and microblocks when moreblocks is present.\n",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "LGPL-2.1-only",
   "name": "unknownnode",
-  "provides": [
-    "unknownnode"
-  ],
+  "provides": ["unknownnode"],
   "release": 437,
   "repo": null,
   "score": 303.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0Wf5zEQCX8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0Wf5zEQCX8.png"],
   "short_description": "Adds a node that looks like an unknown node",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0Wf5zEQCX8.png",
   "title": "Fake unknown node",
   "translation_url": null,

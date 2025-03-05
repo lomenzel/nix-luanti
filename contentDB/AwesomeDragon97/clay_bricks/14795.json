@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod adds colorful clay bricks to the game.\n\nThis mod depends on the baked clay mod: https://content.minetest.net/packages/TenPlus1/bakedclay\n\nThe bricks can be made by putting 4 baked clay blocks of the corresponding color in a 2x2 square on the crafting grid.\n\nYou can charge the color of the bricks by putting eight of them on the crafting grid surrounding dye.\n\nAll of the colors have corresponding stairs and slabs.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "clay_bricks",
-  "provides": [
-    "clay_bricks"
-  ],
+  "provides": ["clay_bricks"],
   "release": 14795,
   "repo": null,
   "score": 169.1,
@@ -436,10 +430,7 @@
   ],
   "short_description": "Adds colorful clay bricks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/70a4ce44e2.png",
   "title": "Clay Bricks",
   "translation_url": null,
@@ -588,18 +579,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

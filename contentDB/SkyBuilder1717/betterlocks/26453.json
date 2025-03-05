@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds new locks system for doors!\n\n### Items\n* **Locked door:** Can be crafted by *door* and *lock*.\n* **Lock:** Can be crafted by 1 *titanium block*, 5 *golden ingot*s and 2 *steel ingot*s.\n* **Empty Key:** Can be crafted by 4 *titanium ingot*s, 1 *steel ingot* and 1 *tin ingot*.\n* **Connected Key:** Cannot be crafted. Used only for *locked door*s.\n* **Titanium ingot:** Can be cooked by *titanium ore*.\n* **Titanium block:** Can be crafted by 9 *titanium ingot*s.\n* **Titanium ore:** *Rare ore*. Can be mined below -100. After -255 spawns more.",
-  "maintainers": [
-    "SkyBuilder1717"
-  ],
+  "maintainers": ["SkyBuilder1717"],
   "media_license": "CC-BY-SA-3.0",
   "name": "betterlocks",
-  "provides": [
-    "betterlocks"
-  ],
+  "provides": ["betterlocks"],
   "release": 26453,
   "repo": null,
   "score": 162.9,

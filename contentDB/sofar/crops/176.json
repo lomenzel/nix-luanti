@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/crops/issues/",
   "license": "GPL-2.0-only",
   "long_description": "This mod expands the basic set of farming-related crops that minetest_game offers. It adds melons, potatoes, tomatoes, green beans and corn. The mod also implements plant humidity - you will have to water plants to make sure they're not dried out, or make sure they don't get over-watered.\n\n## Configuration\n\nA default configuration file, `crops_settings.txt` will be added\nto your world folder that contains suggested `easy`, `normal` (the\ndefault) and `difficult` settings for this mod. You can currently tune\nthe ABM interval/chance, and required light level for plant growth.\n\n## Hydration mechanic\n\nThis feature is disabled in the `easy` setting.\n\nPlants need water. Plants need more water when they grow. This mod\nimplements mechanics of plant hydration and what happens when you\nover-water or not water your plants properly: Plants may wither or\nsoak, and if they wither/soak too much, the plant will get damaged.\n\nYou can see that plants are under stress visually. When a plant\nwithers, there will be particles that are steam/smoke-like floating\nupwards from the plant. When a plant is over-watered, water bubbles\ncan be seen at the plant base. These are implemented as particles.\n\nIn the default difficulty settings, plants don't accrue enough damage\nto kill the plant. But at difficult settings, withering will end up\nresulting in plant death, or the loss of crop entirely. At default\nsettings, plants will yield significantly less harvest if not taken\ncare of! So if you do decide to not water your plants, make sure you\ndon't let them sit around for days and harvest them as soon as they\nare ripe to limit the effects.\n\nEnvironment factors can influence hydration: nearby water, night time\nmoisture. And of course, the watering can. The watering can holds\n20 watering charges, and it takes 3-4 charges to water a plant from\ncompletely dry to maximum wetness. Some plants will want more water,\nsome will do better with less, so make sure you use a hydrometer to\nmeasure plant humidity. Recipes for the watering can and hydrometer\nare listed below.\n\n## Plants\n\n### Melons and pumpkins\n\nMelon plants grow from melon seeds. Once a plant is mature (there\nare 5 stages) it will spawn a melon block adjacent to the plant.\nThe melon block can be harvested by punching, and yields 3-5\nmelon slices. The melon slice can be crafted to a melon seed.\n\nPumpkins grow from pumpkin seeds, and are harvested to yield a\npumpkin block. Each block can be cooked to yield one or more\nroast pumpkin chunks, which can be eaten. You can also craft\nthe blocks to seeds. A pumpkin plant will only yield limited amounts\nof pumpkins. After a while they automatically wither.\n\n### Corn.\n\nCorn plants are 2 blocks high, and yield corn cobs. These can be\ncooked to corn-on-the-cob, or processed to make corn seed (corn\nkernels, basically).\n\nDigging a mature plant yields the corn cob. A harvested corn plant\n\"wilts\", and needs to be dug away to make the land usable, or can\nbe left as ornamental 2-block plant. Digging either top or bottom\nblock works in all cases.\n\n### Tomatoes.\n\nTomatoes appear to work simple enough, until you harvest them\nthe first time: The plant stays! However, after the 3rd to 5th\nharvest, the plant wilts and needs to be removed, since no more\ntomatoes will grow on the plant. Per harvest you can get 1-2\ntomatoes only. You can craft the tomatoes to tomato seeds, as\nexpected.\n\n### Potatoes.\n\nThe plants themselves don't drop anything. Only if the plant matures\ncan you dig potatoes from the soil. If you can reach the soil from the\nside you can save yourself one dig by digging the soil as that will\nremove the plant from the top, but otherwise you need to dig twice:\nonce to remove the plant, once to dig out the potatoes.\n\nYou get 3-5 potatoes. Each potato gives one (set of) \"potato eyes\"\nwhich are the clones that can grow back to potatoes. Be careful not\nto dig the plant when there's flowers! You have to wait until the soil\nbelow shows potatoes. It's fairly easy to see the difference, though.\n\n### Green Beans\n\nThese green beans are unnaturally green, but there's so many\nof them that grow on a vine! Sadly, these beans don't grow beans\nunsupported, so you stick some sticks together to make a beanpole,\nsomething like this way:\n\nempty empty empty\nstick empty stick\nstick empty stick\n\nThere, that should help the viney bean plant to grow to 2 meters\nhigh. It has remarkable purple flowers, that pop all over the plant\njust before the beans grow.\n\nSadly, once the beans are picked, this plant turns into an unusable\nmess that makes it hard for the next plant to grow on the beanpole,\nso you salvage the beanpole's sticks after harvesting in order to\nmake more beanpoles again. It's a bit of work, but worth it, these\nbeans are delicious!\n\n\n## Cooking / Crafting\n\nThe corn cobs can be cooked directly to make Corn-on-the-Cob.\n\nThis mod includes a bowl recipe. The bowl is made from clay lumps,\nwhich results in an unbaked clay bowl that needs to be baked in an\noven to be usable:\n\n```\nempty     empty     empty\nclay_lump empty     clay_lump\nempty     clay_lump empty\n```\n\nPumpkin blocks can be cooked whole, and yield roasted pumpkin. It's\nokay as food, but it takes a lot of work.\n\nYou can fill these bowls (or any group:food_bowl) with vegetables to\ncraft an uncooked vegetable stew:\n\n```\nempty       empty     empty\ngrean_beans potato    tomato\nempty       clay_bowl empty\n```\n\nThe uncooked vegetable stew obviously needs to be cooked as well in\nan oven. The resulting Vegetable Stew bowl gives a lot of hears back,\nwhich is worth the effort.\n\nThe watering can can be made as follows:\n\n```\nsteel_ingot empty       empty\nsteel_ingot empty       steel_ingot\nempty       steel_ingot empty\n```\n\nTo fill the watering can, left click any block of water. To use,\nleft click a plant. The damage bar on the icon indicates the fill\nlevel of the watering can.\n\nThe hydrometer can be crafted like this:\n\n```\nmese_crystal_fragment empty         empty\nempty                 steel_ingot   empty\nempty                 empty         steel_ingot\n```\n\nLeft-click any plant with the hydrometer, and the charge bar indicates\nthe humidity level of the plant: a dry plant will have 0% humidity\nand be a small red bar or no bar at all, and a soaked plant will\nhave a full green bar. Be careful though! Some plants prefer to be\nat mid-level (yellow) instead of full wetness!\n\n",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "GPL-2.0-only",
   "name": "crops",
-  "provides": [
-    "crops"
-  ],
+  "provides": ["crops"],
   "release": 176,
   "repo": "https://github.com/minetest-mods/crops",
   "score": 190.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7azAW4mjWH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7azAW4mjWH.png"],
   "short_description": "This mod expands the basic set of farming-related crops that minetest_game offers.",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7azAW4mjWH.png",
   "title": "Crops",
   "translation_url": null,

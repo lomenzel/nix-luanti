@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_schemedit/issues",
   "license": "MIT",
   "long_description": "This tool allows you to create, edit and save schematics.\n\nA schematic is a data structure in Luanti which contains data to place a pre-defined structure in the world, like trees or buildings.\n\nThis mod also supports the advanced schematic features such as per-node probabilities, force-placed nodes, and Y slice probabilities. \n\nServer commands: `placeschem` (place schematic), `mts2lua` (convert .mts to .lua file).\n\nThis mod is for modders and advanced users, the goal of this mod is to become the #1 schematic editing tool. If you don't understand anything of this, you should read the Luanti Lua API documentation on schematics.\n\nTo learn how to use this mod, see the [README.md](https://codeberg.org/Wuzzy/minetest_schemedit/src/branch/master/README.md) file.\n",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "schemedit",
-  "provides": [
-    "schemedit"
-  ],
+  "provides": ["schemedit"],
   "release": 22550,
   "repo": "https://codeberg.org/Wuzzy/minetest_schemedit",
   "score": 2011.2,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Advanced tool for modders and advanced users to create and edit schematics.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools"
-  ],
+  "tags": ["developer_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/wRBk3DPI4k.png",
   "title": "Schematic Editor",
   "translation_url": null,

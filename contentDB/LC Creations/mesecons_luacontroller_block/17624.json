@@ -50,9 +50,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -93,26 +91,17 @@
   "issue_tracker": "https://github.com/LandonAConway/mesecons_luacontroller_block/issues",
   "license": "LGPL-3.0-only",
   "long_description": "NOTICE: This mod is a modification of the [mesecons_luacontroller] mod in the [mesecons] modpack.\nThe original source code can be found below:\nhttps://github.com/minetest-mods/mesecons/blob/master/mesecons_luacontroller/init.lua\n\nLua Controller Block v1.0\n\n\nDESCRIPTION\n==============================\nAdds a node to Minetest that functions like a Lua Controller with added functionality.\n\n\nLICENSE\n==============================\nCopyright (C) 2011-2016 Mesecons Mod Developer Team and contributors\n\nCopyright (C) 2023 LandonAConway\n\n\nINSTALLATION\n==============================\nPlace this folder inside Minetest Directory>mods\n\n\nSUPPORT\n==============================\nReport bugs here on GitHub",
-  "maintainers": [
-    "LC Creations"
-  ],
+  "maintainers": ["LC Creations"],
   "media_license": "CC-BY-3.0",
   "name": "mesecons_luacontroller_block",
-  "provides": [
-    "mesecons_luacontroller_block"
-  ],
+  "provides": ["mesecons_luacontroller_block"],
   "release": 17624,
   "repo": "https://github.com/LandonAConway/mesecons_luacontroller_block",
   "score": 6.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ce399c2f9a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ce399c2f9a.png"],
   "short_description": "Adds a block that functions like a Lua Controller but has 'e' (down) and 'f' (up) pins and ports",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "technology"
-  ],
+  "tags": ["building_mechanics", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ce399c2f9a.png",
   "title": "Lua Controller Block",
   "translation_url": null,

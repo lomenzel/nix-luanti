@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/thepython10110/bignum/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "A library mod that adds a data type for arbitrary precision integers.\n\nI did not write this code; it came from [here](https://github.com/RoStrap/Math/blob/master/BigNum.lua). I made two tiny changes to make it work with Minetest.\n\nThe documentation can be found [here](https://rostrap.github.io/Libraries/Math/BigNum/).",
-  "maintainers": [
-    "ThePython"
-  ],
+  "maintainers": ["ThePython"],
   "media_license": "GPL-3.0-or-later",
   "name": "bignum",
-  "provides": [
-    "bignum"
-  ],
+  "provides": ["bignum"],
   "release": 24175,
   "repo": "https://github.com/ThePython10110/bignum",
   "score": 150.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/004220fa7c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/004220fa7c.png"],
   "short_description": "A library that adds a data type for arbitrary precision integers",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/004220fa7c.png",
   "title": "BigNum",
   "translation_url": null,

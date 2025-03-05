@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,25 +364,17 @@
   "issue_tracker": "https://github.com/mt-mods/abripanes/issues",
   "license": "MIT",
   "long_description": "abripanes\n===\n\nMod for Minetest by Shara RedCat which adds faintly glowing coloured glass panes.These can be used for stained glass windows or for gentle lighting. \n\nNOTE: This mod is only fully functional from version 0.4.15.\n\n\nCrafting\n---------\n\nColoured glass panes can be made from six glass nodes and the matching dye.\n\n\nLicenses and Attribution \n-----------------------\n\nCode for this mod is released under MIT (https://opensource.org/licenses/MIT).\n\nTextures for this mod are released under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), attribution: Shara RedCat.\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "abripanes",
-  "provides": [
-    "abripanes"
-  ],
+  "provides": ["abripanes"],
   "release": 24010,
   "repo": "https://github.com/mt-mods/abripanes.git",
   "score": 23.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7b46d8c0d5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7b46d8c0d5.png"],
   "short_description": "Adds faintly glowing coloured glass panes which can be used for stained glass windows or for gentle lighting.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7b46d8c0d5.png",
   "title": "Abripanes",
   "translation_url": null,

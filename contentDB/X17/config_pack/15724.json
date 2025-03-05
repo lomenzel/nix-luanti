@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,17 +299,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This mod modifies existing blocks to change some of\ntheir settings, like fall damage on them, drops or\ncrafting recipes.",
-  "maintainers": [
-    "X17"
-  ],
+  "maintainers": ["X17"],
   "media_license": "GPL-3.0-only",
   "name": "config_pack",
-  "provides": [
-    "craftings",
-    "drops",
-    "falling_damage",
-    "other_changes"
-  ],
+  "provides": ["craftings", "drops", "falling_damage", "other_changes"],
   "release": 15724,
   "repo": null,
   "score": 2.7,
@@ -321,9 +312,7 @@
   ],
   "short_description": "Contains several node setting changes",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/80df75762c.png",
   "title": "Configuration Pack",
   "translation_url": null,

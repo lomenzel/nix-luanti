@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/phonograph_album_1f616emo/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Phonograoh album: 1F616EMO Collection\n\nThis album includes tracks composed by 1F616EMO. Use a [phonograph](https://content.minetest.net/packages/Emojiminetest/phonograph/) to play them.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "phonograph_album_1f616emo",
-  "provides": [
-    "phonograph_album_1f616emo"
-  ],
+  "provides": ["phonograph_album_1f616emo"],
   "release": 27068,
   "repo": "https://github.com/C-C-Minetest-Server/phonograph_album_1f616emo",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/165ff07883.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/165ff07883.png"],
   "short_description": "Songs from 1F616EMO for phonographs",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/165ff07883.png",
   "title": "Phonograph album: 1F616EMO Collection",
   "translation_url": null,
@@ -54,27 +46,19 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/phonograph_album_1f616emo": [
       {
         "is_optional": false,
         "name": "phonograph_core",
-        "packages": [
-          "Emojiminetest/phonograph"
-        ]
+        "packages": ["Emojiminetest/phonograph"]
       }
     ]
   },

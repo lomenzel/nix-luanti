@@ -11,27 +11,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/audio_lib/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "A library/API to manage audio tracks on Luanti\n\n##### How To\nHave a look at the [DOCS](https://gitlab.com/zughy-friends-minetest/audio_lib/-/blob/main/DOCS.md)\n\n##### Known conflicts\nAny mod that overrides `minetest.sound_play`, adding new parameters (done here to natively support MTG sounds)\n\n##### Commands\n* `/audiosettings`: open the audio settings menu (or use the built-in item)",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "CC-BY-SA-4.0",
   "name": "audio_lib",
-  "provides": [
-    "audio_lib"
-  ],
+  "provides": ["audio_lib"],
   "release": 29542,
   "repo": "https://gitlab.com/zughy-friends-minetest/audio_lib",
   "score": 385,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5b22685a6d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5b22685a6d.png"],
   "short_description": "Library to easily manage sounds (accessibility options!)",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library",
-    "sound_music"
-  ],
+  "tags": ["developer_tools", "library", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5b22685a6d.png",
   "title": "audio_lib",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/audio_lib/",
@@ -45,10 +35,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       }
     ],
     "Zughy/panel_lib": []

@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/benjaminpants/minetest-randomizer/issues",
   "license": "MIT",
   "long_description": "# Basic Info\nBen's Drop Randomizer is a game agnostic node-drop randomizer based off of [Sethbling's Randomizer for Minecraft](https://www.youtube.com/watch?v=3JEXAZOrykQ) and takes some inspiration from [Fasguy's version](https://fasguy.net/minecraft_randomizer/) for the search commands.\n\nThe randomization is based off of the world seed, so avoid changing that if your running this on a server. (For whatever reason)\n\n\nThe randomizer comes with various commands, all of which you'll need the randomizerspoilers privilage to use. This permission is not granted in singleplayer. Server admins will spawn with the privilage.\n\nPlease note that adding/removing mods with this mod installed will reshuffle all randomizations.\n\n# Commands\nIf any of the descriptions are confusing please give me a better way of describing it I'm not good with descriptions.\n\n*randomizerspoiler <nodeid>*\n\t\nWill show the node that the specified node will drop the drops of.\n\t\nExample input and output:\n\t\n/randomizerspoiler default:dirt\n\t\ndefault:dirt has the drops of default:cobble\n\n\t\n*randomizersearch <nodeid>*\n\t\nWill display the node that drops the drops of the specified node\n\t\nExample input and output:\n\t\n/randomizersearch default:cobble\n\t\ndefault:dirt has the drops of default:cobble\n\t\n\n\t\n*randomizersearchforstable*\n\t\nWill display a list of nodes that drop themselves, most randomizations wont have any of these though.\n\t\nExample input and output:\n\t\n/randomizersearchforstable\n\t\ndefault:diamondblock,default:default:cactus\n\t",
-  "maintainers": [
-    "missingtextureman101"
-  ],
+  "maintainers": ["missingtextureman101"],
   "media_license": "MIT",
   "name": "ben_randomizer",
-  "provides": [
-    "ben_randomizer"
-  ],
+  "provides": ["ben_randomizer"],
   "release": 11472,
   "repo": "https://github.com/benjaminpants/minetest-randomizer",
   "score": 1.8,
   "screenshots": [],
   "short_description": "A game agnostic node-drop randomizer",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": null,
   "title": "Ben's Drop Randomizer",
   "translation_url": null,

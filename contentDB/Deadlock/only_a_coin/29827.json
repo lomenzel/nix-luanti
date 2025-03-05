@@ -11,20 +11,14 @@
   "issue_tracker": "https://github.com/Distributed-DeadLock/only_a_coin/issues",
   "license": "MIT",
   "long_description": "This mod adds a simple coin to luanti/minetest, to be used as currency.   \n\nNo gameplay modification,   \nno crafting recipe,   \nno dependencies.  \nStacks up to 65535.  \n \n-------------\n\nYou can change the image, name, description or even the name of the mod without risking complications.  \nTo change the image, just put a new coin.png (32x32 pixels) in the texture folder.  \ncoin_base.png in the texture-folder can be used as a template for the new image.  \n\n-------------\n\n**Credits**:   \ncoin.png & coin_mt.png are based on work by erle :  \nhttps://github.com/luanti-org/luanti/blob/master/misc/luanti.svg\n",
-  "maintainers": [
-    "Deadlock"
-  ],
+  "maintainers": ["Deadlock"],
   "media_license": "CC-BY-SA-3.0",
   "name": "only_a_coin",
-  "provides": [
-    "only_a_coin"
-  ],
+  "provides": ["only_a_coin"],
   "release": 29827,
   "repo": "https://github.com/Distributed-DeadLock/only_a_coin",
   "score": 0.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/de043883f3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/de043883f3.png"],
   "short_description": "just a simple coin, to be used as currency",
   "state": "APPROVED",
   "tags": [],

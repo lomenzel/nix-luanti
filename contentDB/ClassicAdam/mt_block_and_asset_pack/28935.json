@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod just contains a lot of random nodes.  Some of what's included:\n\n* Various colorful blocks\n\n* Mugs, copper and tin\n\n* A plane sphere the size of a block\n\n* Salt and pepper shakers\n\n* Some decorative floor nodes\n\n* Bowls\n\nHoping to continue adding more on an ongoing basis.\n\nTo install, just drop into your Minetest mods folder.\n\nPlease enjoy and share!",
-  "maintainers": [
-    "ClassicAdam"
-  ],
+  "maintainers": ["ClassicAdam"],
   "media_license": "CC-BY-4.0",
   "name": "mt_block_and_asset_pack",
-  "provides": [
-    "mt_block_and_asset_pack"
-  ],
+  "provides": ["mt_block_and_asset_pack"],
   "release": 28935,
   "repo": "https://github.com/ClassicAdam/mt_block_and_asset_pack.git",
   "score": 5.9,
@@ -31,9 +27,7 @@
   ],
   "short_description": "Variety of blocks and other mesh nodes.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0b2b3dff89.png",
   "title": "MT Block and Asset Pack",
   "translation_url": null,

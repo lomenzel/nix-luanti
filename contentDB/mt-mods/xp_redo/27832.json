@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/mt-mods/xp_redo/issues/",
   "license": "GPL-2.0-only",
   "long_description": "Minetest mod for player experience management (xp) It adds an xp counter per player and ranks according to your xp level. The xp level, your rank and a progress bar to the next rank will show up in your hud. On every rank level up you get a award-like notification. There is also a xpgate block which, when placed under a wooden door will only allow players with a certain xp level to go through.\n",
-  "maintainers": [
-    "BuckarooBanzay",
-    "mt-mods"
-  ],
+  "maintainers": ["BuckarooBanzay", "mt-mods"],
   "media_license": "GPL-2.0-only",
   "name": "xp_redo",
-  "provides": [
-    "xp_redo"
-  ],
+  "provides": ["xp_redo"],
   "release": 27832,
   "repo": "https://github.com/mt-mods/xp_redo",
   "score": 166.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/uNuux1d3L5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/uNuux1d3L5.png"],
   "short_description": "Adds experience, ranks, and doors only accessible to those above a certain rank. Not actually a redo of any mod.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/uNuux1d3L5.png",
   "title": "XP Redo",
   "translation_url": null,

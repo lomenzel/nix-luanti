@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "\"golden lava\" adds a fun gold lava decoration (gold color) for decorative use, can appear underground very rarely, a very nice achievement for those who spend time mining \n\nnot in inventory /giveme lavagold:bucketlavagold",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lavagold",
-  "provides": [
-    "lavagold"
-  ],
+  "provides": ["lavagold"],
   "release": 22521,
   "repo": null,
   "score": 5.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4cd42dfbe3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4cd42dfbe3.png"],
   "short_description": "add golden lava",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "environment",
-    "mapgen"
-  ],
+  "tags": ["decorative", "environment", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4cd42dfbe3.png",
   "title": "golden lava",
   "translation_url": null,

@@ -25,16 +25,10 @@
   "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_transib/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "# AdvTrains Train Pack: Trans-Siberian\n\nThis mod adds a Russian TEM-2 locomotive and large coal hopper.\n\n[View this mod at the Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_transib)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n* Portions of code (C) 2020 Blockhead\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n",
-  "maintainers": [
-    "advtrains_supplemental",
-    "Blockhead",
-    "W3RQ01"
-  ],
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
   "media_license": "CC-BY-SA-3.0",
   "name": "advtrains_transib",
-  "provides": [
-    "advtrains_transib"
-  ],
+  "provides": ["advtrains_transib"],
   "release": 19319,
   "repo": "https://codeberg.org/advtrains_supplemental/advtrains_transib",
   "score": 15.8,
@@ -45,10 +39,7 @@
   ],
   "short_description": "A Russian TEM-2 and large coal hopper for AdvTrains",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d18bcf86ab.png",
   "title": "Advtrains Trans-Siberian (Transib)",
   "translation_url": null,
@@ -62,9 +53,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

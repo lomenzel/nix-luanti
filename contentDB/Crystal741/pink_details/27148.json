@@ -25,10 +25,7 @@
   "issue_tracker": "https://github.com/Crystal741/pink_details/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "A texture pack that makes various nodes and items pink!\n\n## 📖 Supported mods 📖\n\nThe currently supported mods are all included in [Minetest Game][MTG].<br>\nHere's the complete list of supported mods. May be updated in the future:\n\n- `beds` (included in [Minetest Game][MTG]).\n- `binoculars` (included in [Minetest Game][MTG]).\n- `butterflies` (included in [Minetest Game][MTG]).\n- `creative` (included in [Minetest Game][MTG]).\n- `default` (included in [Minetest Game][MTG]).\n- `doors` (included in [Minetest Game][MTG]).\n- `farming` (included in [Minetest Game][MTG]).\n- `fireflies` (included in [Minetest Game][MTG]).\n- `flowers` (included in [Minetest Game][MTG]).\n- `player_api` (included in [Minetest Game][MTG]).\n- `screwdriver` (included in [Minetest Game][MTG]).\n- `stairs` (included in [Minetest Game][MTG]).\n- `tnt` (included in [Minetest Game][MTG]).\n- `vessels` (included in [Minetest Game][MTG]).\n- `wool` (included in [Minetest Game][MTG]).\n\n[MTG]: https://github.com/minetest/minetest_game",
-  "maintainers": [
-    "Crystal741",
-    "Panquesito7"
-  ],
+  "maintainers": ["Crystal741", "Panquesito7"],
   "media_license": "CC-BY-SA-4.0",
   "name": "pink_details",
   "provides": [],
@@ -51,9 +48,7 @@
   ],
   "short_description": "Makes various color blocks and tools to pink. If you like pink, this is for you!",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7a72fda586.png",
   "title": "Pink Details",
   "translation_url": null,

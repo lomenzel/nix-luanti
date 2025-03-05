@@ -38,26 +38,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# wc_staybs_api\nA movement API for NodeCore staybs\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_staybs_api",
-  "provides": [
-    "wc_staybs_api"
-  ],
+  "provides": ["wc_staybs_api"],
   "release": 27737,
   "repo": "https://github.com/wintersknight94/wc_staybs_api",
   "score": 5.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1126606ad3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1126606ad3.png"],
   "short_description": "Movement parameters for various 'staybs'",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "mobs"
-  ],
+  "tags": ["library", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1126606ad3.png",
   "title": "NodeCore Staybs API",
   "translation_url": null,
@@ -71,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

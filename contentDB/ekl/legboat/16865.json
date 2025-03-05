@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -210,26 +208,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Legboat\n\nLand transportation for a civilized age.\n\nUses procedurally animated raycast legs, may be buggy.\n\nPunch to mount, sneak to dismount. Can be spawned with a legboat egg.\n\nNote: The boat model (boats_boat.obj) and wood texture (default_wood.png) are provided by dependencies, and are copyright of their respective authors. Dependencies may be subject to different licensing terms.\n\n## Changelog\n### 2023-01-31\nSpawning/riding legboats is now done with right click.\n\nFootstep sounds are now produced\n\nSelecting the legboat should now be more accurate",
-  "maintainers": [
-    "ekl"
-  ],
+  "maintainers": ["ekl"],
   "media_license": "CC0-1.0",
   "name": "legboat",
-  "provides": [
-    "legboat"
-  ],
+  "provides": ["legboat"],
   "release": 16865,
   "repo": "https://codeberg.org/ekl/legboat",
   "score": 1730.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e36a14ef6e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e36a14ef6e.png"],
   "short_description": "A rideable boat with legs",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "transport"
-  ],
+  "tags": ["april_fools", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e36a14ef6e.png",
   "title": "Legboat",
   "translation_url": null,

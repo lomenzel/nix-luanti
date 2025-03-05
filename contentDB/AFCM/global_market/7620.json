@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/AFCMS/global_market/issues",
   "license": "GPL-3.0-only",
   "long_description": "# global_market\nAdd a chat command /market to Minetest \n\nBased on comoditymarket\n",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "GPL-3.0-only",
   "name": "global_market",
-  "provides": [
-    "global_market"
-  ],
+  "provides": ["global_market"],
   "release": 7620,
   "repo": "https://github.com/AFCMS/global_market",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9ikgMgFw38.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9ikgMgFw38.png"],
   "short_description": "Market command",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer"
-  ],
+  "tags": ["multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9ikgMgFw38.png",
   "title": "Global Market",
   "translation_url": null,
@@ -43,10 +35,7 @@
       {
         "is_optional": false,
         "name": "commoditymarket",
-        "packages": [
-          "FaceDeer/commoditymarket",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["FaceDeer/commoditymarket", "MeseCraft/mesecraft"]
       }
     ],
     "FaceDeer/commoditymarket": []

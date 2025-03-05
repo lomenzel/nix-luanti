@@ -11,26 +11,17 @@
   "issue_tracker": "https://gitlab.com/h2mm/minesweeper-3d/-/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "Break blocks which don't contain any mine, right-click blocks with mines. The numbers show how many mines are in their 26-neighbourhood.\n\nThere is currently no punishment for a wrong decision. I plan adding a scoreboard later.",
-  "maintainers": [
-    "Hume2"
-  ],
+  "maintainers": ["Hume2"],
   "media_license": "CC-BY-SA-3.0",
   "name": "minesweeper_3d",
-  "provides": [
-    "3dmines",
-    "player_api"
-  ],
+  "provides": ["3dmines", "player_api"],
   "release": 17250,
   "repo": "https://gitlab.com/h2mm/minesweeper-3d.git",
   "score": 348.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5f58f02d32.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5f58f02d32.png"],
   "short_description": "Play Minesweeper in an unlimited space and in 3D!",
   "state": "APPROVED",
-  "tags": [
-    "puzzle"
-  ],
+  "tags": ["puzzle"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5f58f02d32.png",
   "title": "Minesweeper 3D",
   "translation_url": null,

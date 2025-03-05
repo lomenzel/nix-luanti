@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Kick player on death or respawn\nWhen player dies or respawns, he gets kicked. Currently, there is no check if it's a player or not, so be careful!\n**(upcoming in new updates)**",
-  "maintainers": [
-    "Volik"
-  ],
+  "maintainers": ["Volik"],
   "media_license": "MIT",
   "name": "kick_on_death",
-  "provides": [
-    "kick_on_death"
-  ],
+  "provides": ["kick_on_death"],
   "release": 17028,
   "repo": null,
   "score": 2.8,
@@ -29,10 +25,7 @@
   ],
   "short_description": "Kicks player on death or respawn.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0b20ee44a2.png",
   "title": "Kick Player on Death/Respawn",
   "translation_url": null,

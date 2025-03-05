@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Ezhh/handholds/issues/",
   "license": "MIT",
   "long_description": "Adds a climbing pick which creates handholds in:\n\n- Stone\n- Desert stone\n- Sandstone\n- Desert sandstone\n- Silver sandstone\n- Ice\n\nAlso adds an API for registering new handholds nodes.",
-  "maintainers": [
-    "Shara"
-  ],
+  "maintainers": ["Shara"],
   "media_license": "MIT",
   "name": "handholds",
-  "provides": [
-    "handholds"
-  ],
+  "provides": ["handholds"],
   "release": 290,
   "repo": "https://github.com/Ezhh/handholds",
   "score": 8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EMxAtzZHoj.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EMxAtzZHoj.png"],
   "short_description": "Adds a climbing pick which creates handholds in stone, desert stone, sandstones and ice nodes.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EMxAtzZHoj.png",
   "title": "Handholds",
   "translation_url": null,

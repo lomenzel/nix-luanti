@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/get-biome-data/issues",
   "license": "MIT",
   "long_description": "Get the biome data available from `core.get_biome_data()` at a given node's position, using the Biome Data Wand (itemstring `get_biome_data:wand`) or chatcommand `/get_biome_data` (`debug` privilege required).\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "get_biome_data",
-  "provides": [
-    "get_biome_data"
-  ],
+  "provides": ["get_biome_data"],
   "release": 29020,
   "repo": "https://github.com/rollerozxa/get-biome-data",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e5bd648cff.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e5bd648cff.png"],
   "short_description": "Get biome data from core.get_biome_data",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools"
-  ],
+  "tags": ["developer_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e5bd648cff.png",
   "title": "Get Biome Data",
   "translation_url": null,

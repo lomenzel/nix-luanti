@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/ts_doors/issues/new/choose/",
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "Thomas-S"
-  ],
+  "maintainers": ["Thomas-S"],
   "media_license": "MIT",
   "name": "ts_doors",
-  "provides": [
-    "ts_doors"
-  ],
+  "provides": ["ts_doors"],
   "release": 22949,
   "repo": "https://github.com/minetest-mods/ts_doors",
   "score": 178.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2DTnfJ3Ny6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2DTnfJ3Ny6.png"],
   "short_description": "Adds doors for all kinds of wood.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2DTnfJ3Ny6.png",
   "title": "ts_doors",
   "translation_url": null,
@@ -507,9 +497,7 @@
       {
         "is_optional": false,
         "name": "ts_workshop",
-        "packages": [
-          "Thomas-S/ts_workshop"
-        ]
+        "packages": ["Thomas-S/ts_workshop"]
       },
       {
         "is_optional": false,

@@ -25,26 +25,17 @@
   "issue_tracker": "https://codeberg.org/Skivling/minetest_grass_string/issues",
   "license": "MIT",
   "long_description": "Adds grass string, made from 9 of any grass. You can craft grass string into normal string (`farming:string`) to use it in crafting recipes.\n\nThis mod was made because normally the only way to get string is to make it from cotton, which is really hard to find, and string is used so much I needed another way to get it. Hope you find it useful!",
-  "maintainers": [
-    "Skivling"
-  ],
+  "maintainers": ["Skivling"],
   "media_license": "CC-BY-SA-3.0",
   "name": "grass_string",
-  "provides": [
-    "grass_string"
-  ],
+  "provides": ["grass_string"],
   "release": 24142,
   "repo": "https://codeberg.org/Skivling/minetest_grass_string",
   "score": 165.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/365cebdbd1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/365cebdbd1.png"],
   "short_description": "Adds string made from grass, which can be converted into normal string.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival"
-  ],
+  "tags": ["crafting", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/365cebdbd1.png",
   "title": "Grass String",
   "translation_url": null,

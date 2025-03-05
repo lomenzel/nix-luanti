@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,28 +247,17 @@
   "issue_tracker": "https://github.com/Ineva-A/ostereier/issues/new/choose/",
   "license": "MIT",
   "long_description": "# easter-eggs_MT\nDo you want to go back to your childhood? Search with your friends and family the wild spawned eggs! \nThis mod adds to your world's spawned eggs. You can craft easter eggs and eat the chocolate.\n\nYou can find here 6 various eggs.\n\nThanks to my helpers:\n- Glubux\n- Sven\n- APercy\n",
-  "maintainers": [
-    "Ineva"
-  ],
+  "maintainers": ["Ineva"],
   "media_license": "MIT",
   "name": "ostereier",
-  "provides": [
-    "ostereier"
-  ],
+  "provides": ["ostereier"],
   "release": 17973,
   "repo": "https://github.com/Ineva-A/ostereier",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f8cdd8fe62.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f8cdd8fe62.png"],
   "short_description": "Adds various coloured eggs for Easter!",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food",
-    "mapgen",
-    "seasonal"
-  ],
+  "tags": ["decorative", "food", "mapgen", "seasonal"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f8cdd8fe62.png",
   "title": "Easter Eggs / Ostereier",
   "translation_url": null,
@@ -284,10 +271,7 @@
       {
         "is_optional": false,
         "name": "hunger_ng",
-        "packages": [
-          "Big_Caballito/no_mans_land",
-          "Linuxdirk/hunger_ng"
-        ]
+        "packages": ["Big_Caballito/no_mans_land", "Linuxdirk/hunger_ng"]
       },
       {
         "is_optional": false,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "`voxeload` allows to place voxel data into Minetest by mapping colors to \nnodes.\n\n## usage\n`voxeload` expects a nodemap mapping RGB colors to Minetest nodes, and\na voxel file in XYZRGB format.\n\nThe nodemap is a text file consisting of lines that contain 4 space-separated\nvalues: a node name, and values for three color components in RGB color space\nranging from 0 to 255. It's the same format also understood by `voxelizer`\n(https://github.com/appgurueu/voxelizer).\n\nThe voxel file consists of lines that contain 6 space-separated values, the\nthree coordinates X, Y, Z as integers, followed by the three color components\nin RGB color space ranging from 0 to 255. It can be written e.g. by `voxel-io`\n(https://github.com/Eisenwave/voxel-io).\n\n### /place_voxel <nodemap> <voxelmap>\n\nPlace a voxel object from file <voxelmap> with colors mapped to nodes as\nspecified in the file <nodemap>\n",
-  "maintainers": [
-    "zeuner"
-  ],
+  "maintainers": ["zeuner"],
   "media_license": "MIT",
   "name": "voxeload",
-  "provides": [
-    "voxeload"
-  ],
+  "provides": ["voxeload"],
   "release": 19630,
   "repo": "https://codeberg.org/zeuner/voxeload",
   "score": 3.6,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Load voxel data, mapping colors to nodes",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5046a19eee.png",
   "title": "Voxeload",
   "translation_url": null,

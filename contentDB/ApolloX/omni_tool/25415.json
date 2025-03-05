@@ -38,14 +38,10 @@
   "issue_tracker": "https://gitlab.com/ApolloX939/omnitool/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "3 tools in 1.\n\nTo switch using 'auto-switch', just right click on the designated node you want to break, the tool will switch to the correct tool that can mine it the fastest.\n\n> You can manually switch via holding the SNEAK (default left shift) while right clicking (on either a node or air) to cycle thru (in the pattern of Axe -> Pickaxe -> Shovel -> Axe).\n\nPlease note however, the tool shares it's durability among all 3 states. (As such it comes with a hefty durability)\n\nThe tool tries not to interfere with nodes like doors, chests, and other nodes that might have a use on right click (like opening an inventory or formspec)\n\nThe Pickaxe can now mine invisible walls from mods like [invisible_wall by X17](https://content.minetest.net/packages/X17/invisible_wall/).\n\nThe tool can now be used with [toolranks by lisacvuk](https://content.minetest.net/packages/lisacvuk/toolranks/).\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "GPL-3.0-only",
   "name": "omni_tool",
-  "provides": [
-    "omni_tool"
-  ],
+  "provides": ["omni_tool"],
   "release": 25415,
   "repo": "https://gitlab.com/ApolloX939/omnitool.git",
   "score": 4.2,
@@ -58,9 +54,7 @@
   ],
   "short_description": "3 tools in 1",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fc091a0de9.png",
   "title": "Omni Tool",
   "translation_url": null,

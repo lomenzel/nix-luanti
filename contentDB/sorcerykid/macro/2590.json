@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "This mod is intended to be compatible with all versions of Minetest 0.4.14+. It has been in continuous use on the Just Test Tribute server since August 2017 with only minor revisions and no known bugs.\n\nNow even the most complex crafts like stairs, ladders, chests, rails, and fences are a breeze. What used to be a tiresome and mundane task of moving stacks endlessly around a craft grid, is literally as simple as dragging and dropping -- and voila! \n\nIf you have inventory_plus installed, you can access the the Macro Crafting Manager by clicking the \"Macro\" button from within your main inventory. Otherwise, you can simply use the \"/x\" chat command as a shortcut. In the near future I will add support for Unified Inventory.\n\nFor complete usage instructions, including code examples, please refer to the official forum topic.",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "CC-BY-SA-3.0",
   "name": "macro",
-  "provides": [
-    "macro"
-  ],
+  "provides": ["macro"],
   "release": 2590,
   "repo": "https://bitbucket.org/sorcerykid/macro",
   "score": 3.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ROo0FQ4HsB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ROo0FQ4HsB.png"],
   "short_description": "Macro Crafting Manager provides a streamlined drag-and-drop interface for dividing and arranging item stacks within the craft-grid",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ROo0FQ4HsB.png",
   "title": "Macro Crafting Manager",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/AiTechEye/multidimensions/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Multi dimensions\nThis mod adds a few dimensions to the game (you can add more)\n\nYou can find the \"Dimensions teleport tool\" in creative to go to them, or type \"/giveme dim\"\n(You need the \"dimensions\" privilege to use it)\nTeleport yourself to dimensions by point in air/blocks, or teleport other players/objects by pointing them.\n\nThere are also crafable \"teleport blocks\" (click to teleport, and works with mesecons)\n\nAll teleported players that not have the \"dimensions\" privilege will get there spawnpoint and home set in the new dimension (using \"beds\" and \"sethome\")\nThey cant get back unless teleporting in somehow or have/making \"teleport blocks\"\n\nPlayers cant see or hear players from \"other diamnsions\" or just if they are 800 blocks away\n\nYou can change settings in the init.lua",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "multidimensions",
-  "provides": [
-    "multidimensions"
-  ],
+  "provides": ["multidimensions"],
   "release": 24657,
   "repo": "https://github.com/AiTechEye/multidimensions",
   "score": 321.5,
@@ -36,9 +32,7 @@
   ],
   "short_description": "Adds a few dimensions/worlds",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hahiS4jsnO.png",
   "title": "Multidimensions",
   "translation_url": null,

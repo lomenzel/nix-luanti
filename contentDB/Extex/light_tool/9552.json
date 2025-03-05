@@ -51,25 +51,17 @@
   "issue_tracker": "https://github.com/Extex101/light_tool/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Light Tool\n\nThis is a mod that adds a Torch/Flashlight to [Minetest](https://www.minetest.net/) ( [Github Repo](https://github.com/Minetest/minetest))\n\n# Animated gif\n\nHere's how it works\n\n\n![GIF](https://github.com/Extex101/light_tool/blob/master/in%20use%20(animated).gif)\n\nThe beam is obstructed by blocks and go through glass and other nodes (with sunlight_propagates = true)\n\nMinetest forumn topic [here](https://forum.minetest.net/viewtopic.php?f=9&t=23031&p=354005#p354005)\n\n# Technic\n\nI have also added support for technic\nBut since I can't actually edit the mod itself\nI have provided a file \"flashlight.lua\"\ngo into your technic mod at mods/technic/technic/tools/\nand replace the existing flashlight.lua with the one I have provided\nthen go into the depends.txt and add light_tool\n",
-  "maintainers": [
-    "Extex"
-  ],
+  "maintainers": ["Extex"],
   "media_license": "CC-BY-SA-3.0",
   "name": "light_tool",
-  "provides": [
-    "light_tool"
-  ],
+  "provides": ["light_tool"],
   "release": 9552,
   "repo": "https://github.com/Extex101/light_tool",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1uHgkhmVn6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1uHgkhmVn6.png"],
   "short_description": "Adds a tool and api that creates beams of light",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1uHgkhmVn6.png",
   "title": "Light Tool",
   "translation_url": null,

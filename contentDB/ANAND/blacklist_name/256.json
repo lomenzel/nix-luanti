@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/clobberxd/blacklist_name/issues",
   "license": "MIT",
   "long_description": "# Blacklist [blacklist_name]\n\nBlacklist is a mod for servers which helps in restricting **player names only**, and the players would still be able to join using a different name. This functionality is useful in preventing players with offensive and inappropriate names from joining.\n\n[ChatCmdBuilder](https://github.com/rubenwardy/chatcmdbuilder) by [rubenwardy](https://github.com/rubenwardy) has been integrated into this mod.\n\n### Dependencies\nNone\n\n### Chat-commands\n- `/blacklist add <name>`\n  - Add a name to the blacklist.\n- `/blacklist remove <name>`\n  - Remove a name from the blacklist.\n- `/blacklist list`\n  - List all the blacklisted names.\n  \n### TODO\n- Support for adding lua patterns to the blacklist.",
-  "maintainers": [
-    "ANAND"
-  ],
+  "maintainers": ["ANAND"],
   "media_license": "MIT",
   "name": "blacklist_name",
-  "provides": [
-    "blacklist_name"
-  ],
+  "provides": ["blacklist_name"],
   "release": 256,
   "repo": "https://github.com/clobberxd/blacklist_name",
   "score": 1.1,
   "screenshots": [],
   "short_description": "Blacklist offensive names, forcing players to join with different names.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "multiplayer", "server_tools"],
   "thumbnail": null,
   "title": "Blacklist Name",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/GloopMaster/glooptest/issues/",
   "license": "CC-BY-SA-3.0",
   "long_description": "Ore Module: Adds a variety of ores into minetest, for use here and possibly in other mods.\n\nOtherGen Module: Adds generation aside from ores.\n\nParts Module: Adds some bits and bobs for machinery and some minor blocks.\n\nTech Module: Adds the \"tech\" of glooptest.\n\nTools Module: Adds extra kinds of tools.\n\nCompat Module: Puts into place a number of aliases for cross-mod-compatibility.",
-  "maintainers": [
-    "GloopMaster"
-  ],
+  "maintainers": ["GloopMaster"],
   "media_license": "CC-BY-SA-3.0",
   "name": "glooptest",
-  "provides": [
-    "glooptest"
-  ],
+  "provides": ["glooptest"],
   "release": 65,
   "repo": "https://github.com/GloopMaster/glooptest",
   "score": 161.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/M99OwGL25g.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/M99OwGL25g.png"],
   "short_description": "Adds a collection of things into minetest. As it stands, this adds three different modules.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/M99OwGL25g.png",
   "title": "GloopTest Pack",
   "translation_url": null,

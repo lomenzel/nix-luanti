@@ -11,9 +11,7 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "This is a game about fighting monsters, collecting resources and accumulating money.\n\nThis game is very unfinished. It was made for the 2021 Minetest Game Jam by a team of 2 people: crabycowman123 and MeepyMeeper123 (see credits.txt for more information).\n\nfeatures:\n\n\t* completely handcrafted map\n\t\n\t* 1 monster type\n\t\n\t* shop\n\t\n\t* melee weapons\n\t\n\t* throwable weapons\n\t\n\t* random crashes\n\n\nChangelog:\n\tv0.1.2 (2022-01-31)\n\t\tfix crash on first launch",
-  "maintainers": [
-    "crabycowman123"
-  ],
+  "maintainers": ["crabycowman123"],
   "media_license": "CC-BY-SA-4.0",
   "name": "spmeter",
   "provides": [
@@ -34,15 +32,10 @@
   "release": 11007,
   "repo": "https://codeberg.org/crabycowman123/mtr-no-history",
   "score": -406.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0c3d9497bb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0c3d9497bb.png"],
   "short_description": "game jam submission",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "jam_game_2021"
-  ],
+  "tags": ["adventure__rpg", "jam_game_2021"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0c3d9497bb.png",
   "title": "spMeTeR",
   "translation_url": null,

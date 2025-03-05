@@ -11,9 +11,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/MikeRedwood/craftable_lava/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Basically enables crafting lava in Minetest from 8 of a new node called Hot Stone and a bucket, the hot stone can be obtained from baking default:stone in a furnace.",
-  "maintainers": [
-    "MikeRedwood"
-  ],
+  "maintainers": ["MikeRedwood"],
   "media_license": "LGPL-2.1-only",
   "name": "craftable_lava",
-  "provides": [
-    "craftable_lava"
-  ],
+  "provides": ["craftable_lava"],
   "release": 29506,
   "repo": "https://github.com/MikeRedwood/craftable_lava",
   "score": 174.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/wAwRszng8M.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/wAwRszng8M.png"],
   "short_description": "Enables the crafting of lava from baked stone",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/wAwRszng8M.png",
   "title": "Craftable Lava",
   "translation_url": null,

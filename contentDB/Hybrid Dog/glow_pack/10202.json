@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "minetest-glow\n=============\n\nAdds 2 glowing blocks for minetest:\nGlowing stone and glowing lantern.\n\nThe mod was initially created by by john and Zeg9.",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "CC-BY-3.0",
   "name": "glow_pack",
-  "provides": [
-    "glow"
-  ],
+  "provides": ["glow"],
   "release": 10202,
   "repo": "https://codeberg.org/HybridDog/glow",
   "score": 44.6,
@@ -435,9 +429,7 @@
   ],
   "short_description": "Adds glowing stone and lantern.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bd6d8af557.png",
   "title": "Glow",
   "translation_url": null,

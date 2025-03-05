@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/luk3yx/minetest-flow_inspector/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "A probably buggy inspector for flow GUIs to help with debugging layouting.\n\n## Usage\n\n - `/inspector`: Toggles the inspector for all flow forms opened with\n    `form:show()`.\n\n### Hot reload\n\nWhen the \"hot reload\" button is pressed, the server reloads the file containing\nthe function passed to `flow.make_gui`. This file must have exactly one\n`flow.make_gui` call for hot reload to work. Existing values in `ctx` are\npreserved when hot reloading.\n\nThe file containing `flow.make_gui` shouldn't contain any registrations (for\nexample `minetest.register_globalstep`) as it may result in them being\nregistered multiple times.\n\n### Open debug shell\n\nIf you're running Minetest in a terminal, an \"open debug shell\" button will\nbe shown which will call `debug.debug()` (or `dbg.dd()` if the dbg mod is\ninstalled) when pressed. `player`, `ctx`, and `name` variables are set when the\ndebug shell is open.\n\n## API\n\n - `flow_inspector.enable(player)`: Enables the inspector.\n - `flow_inspector.disable(player)`: Disables the inspector.\n - `flow_inspector.inspect(player, form)`: Opens the inspector for `form`.\n",
-  "maintainers": [
-    "luk3yx"
-  ],
+  "maintainers": ["luk3yx"],
   "media_license": "LGPL-2.1-only",
   "name": "flow_inspector",
-  "provides": [
-    "flow_inspector"
-  ],
+  "provides": ["flow_inspector"],
   "release": 29950,
   "repo": "https://gitlab.com/luk3yx/minetest-flow_inspector/",
   "score": 154.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8158a2fbfa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8158a2fbfa.png"],
   "short_description": "An \"inspect element\" helper for flow GUIs",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "gui"
-  ],
+  "tags": ["developer_tools", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8158a2fbfa.png",
   "title": "Flow Inspector",
   "translation_url": null,
@@ -57,10 +48,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ]
   },

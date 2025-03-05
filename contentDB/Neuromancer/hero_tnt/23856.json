@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,26 +299,17 @@
   "issue_tracker": "https://github.com/Neuromancer56/hero_tnt/issues",
   "license": "MIT",
   "long_description": "Hero TNT\n======================\nSee license.txt for license information.\n\nAuthor of hero_tnt fork \nNeuromancer (MIT)\n\nIntroduction\n------------\nThis mod adds a special kind of TNT to Minetest that only destroys those nodes that can be destroyed in the game H.E.R.O. (for now just default:cobble).\nThis mod recreates the TNT mechanic of the game H.E.R.O.\nhero_tnt is a fork of tnt mod in Minetest Game\nThe point of this mod is to be a part of a set of mods that recreate the game H.E.R.O. in Minetest.  (one of my favorite childhood games)  \nTo that end, one of the major changes is that this forked version of mod only destroys those nodes that can be destroyed in the game\nH.E.R.O. (for now just default:cobble).  However this mod can also be used even if it is not part of H.E.R.O. game.\n\nIf you want to try out where I'm going with the game (very early phases) check out this collection.  Be sure to adjust the settings as I have noted in the comments.  https://content.minetest.net/collections/Neuromancer/hero_test/\n\nH.E.R.O. gameplay can be seen here: https://www.youtube.com/watch?v=nD0VTuVQ6Tg\nH.E.R.O. Player Manual: https://atariage.com/software_page.php?SoftwareLabelID=228\nThere will be a number of mods all beginning with \"hero_\" so that eventually if you enable all of them you will essentially be playing the game hero.\nThe plan is to have all of these \"hero\" mods function as stand alone mods so that they can combined in other ways with other mods to work with and create other games.\n\n\nHow to use the mod:\n\nCraft gunpowder by placing coal and gravel in the crafting area.\nThe gunpowder can be used to craft TNT sticks or as a fuse trail for TNT.\n\nTo craft 2 TNT sticks:\nG_G\nGPG\nG_G\nG = gunpowder\nP = paper\nThe sticks are not usable as an explosive.\n\nCraft TNT from 9 TNT sticks.\n\nThere are different ways to ignite TNT:\n  1. Hit it with a torch.\n  2. Hit a gunpowder fuse trail that leads to TNT with a torch or\n     flint-and-steel.\n  3. Activate it with mesecons (fastest way).\n\nFor 1 TNT:\nNode destruction radius is 3 nodes.\nPlayer and object damage radius is 6 nodes.\n",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hero_tnt",
-  "provides": [
-    "hero_tnt"
-  ],
+  "provides": ["hero_tnt"],
   "release": 23856,
   "repo": "https://github.com/Neuromancer56/hero_tnt",
   "score": 11.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ddb8827952.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ddb8827952.png"],
   "short_description": "TNT that only destroys cobble like in H.E.R.O. game.",
   "state": "APPROVED",
-  "tags": [
-    "mini-game",
-    "tools"
-  ],
+  "tags": ["mini-game", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ddb8827952.png",
   "title": "Hero TNT",
   "translation_url": null,

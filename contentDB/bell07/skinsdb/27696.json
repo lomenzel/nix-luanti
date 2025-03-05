@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,26 +651,17 @@
   "issue_tracker": "https://github.com/minetest-mods/skinsdb/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Custom player skins manager with support for 1.0 and 1.8er skins and inventory skins selector.\n\nThis mod version contains 8 pre-installed skins.\n\nOwn skins you can place into mod textures folder named as\n\n`character_[name or number].png` for skins available to all players or\n`player_[playername]_[name or number].png` for private skins available to the specific player\n\nOptional a preview picture (photo) for inventory skin view can be added to the textures folder too, called\n`[same_name_as_skin]_preview.png`\nIf no preview file is in place, the skinsdb shows preview generated from skin file.\n\nOptional place a metadata text file for inventory skin details view to the \"meta\" folder, called\n`[same_name_as_skin].txt` with content\n\n```\nSkin name\nAuthor\nLicense\n```",
-  "maintainers": [
-    "bell07"
-  ],
+  "maintainers": ["bell07"],
   "media_license": "GPL-3.0-only",
   "name": "skinsdb",
-  "provides": [
-    "skinsdb"
-  ],
+  "provides": ["skinsdb"],
   "release": 27696,
   "repo": "https://github.com/minetest-mods/skinsdb",
   "score": 2173.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Ut6r6YXEj8.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Ut6r6YXEj8.png"],
   "short_description": "Custom player skins manager with support for 1.0 and 1.8er skins and inventory skins selector",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "skins"
-  ],
+  "tags": ["multiplayer", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Ut6r6YXEj8.png",
   "title": "SkinsDB",
   "translation_url": null,

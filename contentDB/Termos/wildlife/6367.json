@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/TheTermos/wildlife/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds some wild animals that interact with each other, and are fairly neutral to players, unless provoked.\n\nThis is a demo of Mobkit entity API, currently at an early stage of development, and **requires it to run**\nGet the latest version of the api at https://github.com/TheTermos/mobkit/archive/master.zip\n\nHighlights:\n\n**No dependencies:** It should work with any game, although it's best if it fits thematically, i.e. there's some sort of natural environment.\n\n**Very lightweight:** no ABMs, self-adjusting spawns, and mobs don't get to 'think' every single engine step. Theoreticly it should run well on servers, although I haven't had an opportunity to test it online.",
-  "maintainers": [
-    "Termos"
-  ],
+  "maintainers": ["Termos"],
   "media_license": "CC-BY-SA-3.0",
   "name": "wildlife",
-  "provides": [
-    "wildlife"
-  ],
+  "provides": ["wildlife"],
   "release": 6367,
   "repo": "https://github.com/TheTermos/wildlife",
   "score": 541.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/NmoH5tNcME.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/NmoH5tNcME.png"],
   "short_description": "Adds some wild animals that interact with each other.",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/NmoH5tNcME.png",
   "title": "Wildlife",
   "translation_url": null,

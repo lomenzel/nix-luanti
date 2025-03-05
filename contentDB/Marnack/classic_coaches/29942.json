@@ -77,14 +77,10 @@
   "issue_tracker": "https://github.com/Marnack/classic_coaches/issues",
   "license": "AGPL-3.0-only",
   "long_description": "This mod is an extension for [Advanced Trains](https://content.minetest.net/packages/orwell/advtrains/) that adds a set of four intercity style passenger wagons as well as a bistro wagon, all of which have liveries that can be customized in-game by their owning players.\n\n## Wagons\n\nAll of the wagons in this mod are loosely based on passenger coaches used for European inter city railway service during the late 20th and early 21st centuries.\n\n## Game Support\nAs with **AdvTrains**, the Classic Coaches mod is compatible with many games when playing in creative mode and fully supports survival mode in [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game/) and its many variants.  However, Classic Coaches also supports survival mode in games that are not based on **Minetest Game** including the following:\n\n- [Farlands Reloaded](https://content.minetest.net/packages/wsor4035/farlands_reloaded/)\n- [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/)\n- [Minecloneia](https://content.minetest.net/packages/ryvnf/mineclonia/)\n- [VoxeLibre](https://content.minetest.net/packages/Wuzzy/mineclone2/)\n\nNote that support for survival mode in those games is subject to potential breakage in the future if those games change their materials or crafting system.\n\nSome of the crafting recipes defined by Classic Coaches require items that are defined in AdvTrains.  Thus, for full support of survival mode in the games listed above, also consider using the [AdvTrains Crafting Compatibility Patch](https://content.luanti.org/packages/Marnack/advtrains_crafting_compatibility_patch/) to enable crafting of those items that are defined in AdvTrains.\n\n## Recent Changes\n\n### [1.1.0] - 2025-03-02\n- Add bistro coach\n- Optimize PNGs\n- Add support for advtrains_attachment_offset_patch\n\n### [1.0.0] - 2024-05-24\n- Remove dependencies on mods from Minetest Game\n- Add support for survival mode in additional games\n\nSee CHANGELOG.md for older changes.",
-  "maintainers": [
-    "Marnack"
-  ],
+  "maintainers": ["Marnack"],
   "media_license": "CC-BY-SA-4.0",
   "name": "classic_coaches",
-  "provides": [
-    "classic_coaches"
-  ],
+  "provides": ["classic_coaches"],
   "release": 29942,
   "repo": "https://github.com/Marnack/classic_coaches",
   "score": 201.2,
@@ -101,10 +97,7 @@
   ],
   "short_description": "Passenger coaches with customizable liveries for use with the advtrains mod.",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0117e91a4c.png",
   "title": "Classic Coaches",
   "translation_url": null,
@@ -118,9 +111,7 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "orwell/advtrains": []

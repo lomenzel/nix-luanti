@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,23 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Spawn redo\nDrop-in replacement for default/spawn for more third-party biomes.\n\nSupported mods:\n\n- Minetest game default\n- ethereal\n- australia\n- developer API: `spawn.register_habitable_biome`\n\n## Authors of source code\nparamat (MIT)\ncathaya7d4 (MIT)\n",
-  "maintainers": [
-    "cathaya7d4"
-  ],
+  "maintainers": ["cathaya7d4"],
   "media_license": "MIT",
   "name": "spawn",
-  "provides": [
-    "spawn"
-  ],
+  "provides": ["spawn"],
   "release": 12734,
   "repo": "https://notabug.org/wycero/spawn.git",
   "score": 4.5,
   "screenshots": [],
   "short_description": "Drop-in replacement for default/spawn for more third-party biomes",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": null,
   "title": "Spawn redo",
   "translation_url": null,

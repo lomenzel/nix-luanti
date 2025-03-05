@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/MikeRedwood/simple_xray/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This is intended as a debuging mod to help with fine tuning ore generation,\nI made it when I was first playing about with my opal ore (not published, I plan to but no promises)\nso I could actually see what was going on with the ore generation.  \nI extended it to optionally support the nether mod because I am also playing \nwith expanding the valuables you can find in the nether.  \n\nI added a green post_effect_color for default stone and a red one for desert stone,\nalso a purple one for nether rack and a blue one for deep nether rack.\n\nThe mod seems to stop the spawning of trees and decorations on the map, I\nhonestly have no idea how, though this doesn't interfere with its intended purpose.\n\nAll testing done in Minetest 5.3.0 on windows 10 20H2 and with the V7 mapgen.\n\nOn the whole though this simple mod really helped me with my ores!\n\nBest used in combination with my other mod ambient_light, which lights up blocks underground.\n\nHope you find it useful too :)",
-  "maintainers": [
-    "MikeRedwood"
-  ],
+  "maintainers": ["MikeRedwood"],
   "media_license": "LGPL-2.1-only",
   "name": "simple_xray",
-  "provides": [
-    "simple_xray"
-  ],
+  "provides": ["simple_xray"],
   "release": 7038,
   "repo": "https://github.com/MikeRedwood/simple_xray",
   "score": 328.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/GF41KY5rRk.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/GF41KY5rRk.png"],
   "short_description": "Makes stone and desert stone see through, also works with nether mod",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "environment"
-  ],
+  "tags": ["creative", "environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GF41KY5rRk.png",
   "title": "Simple Xray",
   "translation_url": null,

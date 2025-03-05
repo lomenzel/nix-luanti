@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "0BSD",
   "long_description": "# Player Info\n\n**DEPRECATED**: Avoid using for new projects. This is bloated and does more than it should, and tried to overextend its functionality. It was written before I understood I shouldn't have written it. Instead, it would be better to create or find a player API that does only what you need it to.\n\nFor now, covers controls.\n\nThis includes:\n\n- controls copy themselves\n- just_pressed\n- just_released\n- since_released\n- since_pressed\n\n\n```LUA\nplayer_info\n  [player name]\n    ctrl\n    just_released\n    just_pressed\n    since_released\n    since_pressed\n```\n\n## player_info.get(player_ref)\nUse this to get the player profile. This is the same as player_info.p[player_name] but you don't have to test for `is_player`.\n\n## ctrl\nbool or nil\n\nctrl is just whether the control is pressed.\n\n## just_pressed\nbool or nil\n\nIs available for one step after you start pressing a key.\n\n## just_released\nbool or nil\n\nIs available for one step after you start letting go of a key.\n\n## since_pressed\nnumber or nil\n\nHow long the player has been holding the key.\n\n## since_released\nnumber or nil\n\nHow long it has been since the player released the key.",
-  "maintainers": [
-    "Sumianvoice"
-  ],
+  "maintainers": ["Sumianvoice"],
   "media_license": "0BSD",
   "name": "player_info",
-  "provides": [
-    "player_info"
-  ],
+  "provides": ["player_info"],
   "release": 19586,
   "repo": "https://codeberg.org/SumianVoice/player_info.git",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c9b73a117b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c9b73a117b.png"],
   "short_description": "[DEPRECATED] Adds a way to track information about the player and controls.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c9b73a117b.png",
   "title": "Player Info [deprecated]",
   "translation_url": null,

@@ -25,9 +25,7 @@
   "issue_tracker": "https://codeberg.org/HuguesRoss/rpg16/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "## Important Notice\n_RPG16 us no longer actively supported. Merge Requests to fix content may be accepted, as long as they meet the basic quality and style criteria. However, no further active development should be expected. Use of this texture pack is no longer recommended as support will gradually fail when supported mods/games are updated_\n\n## Game Support\nThe following games are supported:\n\n- Minetest Game\n\n## Mod Support\nIn addition to this game, the following mods are supported:\n\n- 3D Armor\n- Awards\n- Basic Grenades\n- Basic Materials\n- Caverealms\n- Darks\n- Email\n- Handholds\n- HBArmor\n- HBHunger\n- HBSprint\n- Hudbars\n- Lava Stuff\n- Magma Conduits\n- Minetest Wadsprint\n- Moon Phases\n- More Blocks\n- More Ores\n- More Trees\n- Multitools\n- Simple Shooter\n- [Stamina](https://content.minetest.net/packages/sofar/stamina/)\n\n**The following mods/games are deprecated. Textures from them remain for backwards-compatibility, but they are no longer supported:**\n\n- (Game) Capture the Flag\n- (Game) Repixture\n- Baked Clay\n- Ethereal NG\n- Mobs Monster\n- Mobs Redo\n\n## Contact\nFor questions, requests, and other communications regarding this work, you can\ncontact the original creator at hugues.ross@gmail.com\n",
-  "maintainers": [
-    "Hugues Ross"
-  ],
+  "maintainers": ["Hugues Ross"],
   "media_license": "CC-BY-SA-4.0",
   "name": "rpg16",
   "provides": [],
@@ -41,9 +39,7 @@
   ],
   "short_description": "A simple texturepack reminiscent of classic RPGs",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3hk9bjq0tx.png",
   "title": "RPG16",
   "translation_url": null,

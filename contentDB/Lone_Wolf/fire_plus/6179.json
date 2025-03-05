@@ -219,9 +219,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -366,14 +364,10 @@
   "issue_tracker": "https://github.com/Dumpster-Studios/fire_plus/issues",
   "license": "MIT",
   "long_description": "Visuals include HUD effect and fire particles around player.\nYou can put yourself out by jumping into water/snow.\n\n## Credits\n* Thanks to **TenPlus1** for 3d_armor support and some other things\n\n## API\n\n* `fire_plus.burn_player(player, burns, damage)`\n  * Sets `player` on fire and burns them `burns` times with `damage` damage every second\n* `fire_plus.tnt_explode_radius`\n  * How close to a TNT node a player has to be to detonate it\n* `fire_plus.ignition_nodes`\n  * Nodes that set players on fire. See the init.lua for examples\n* `fire_plus.extinguishers`\n  * Nodes that put out burning players. See the init.lua for examples\n* **Fire tools**\n  * You can allow modders to make tools light punched players on fire\n  * Just set `tool_capabilities.damage_groups.burns = <How much damage to do each burn>`\n  * There's also `tool_capabilities.damage_groups.burn_time = <How many times to burn the player>`",
-  "maintainers": [
-    "Lone_Wolf"
-  ],
+  "maintainers": ["Lone_Wolf"],
   "media_license": "CC-BY-4.0",
   "name": "fire_plus",
-  "provides": [
-    "fire_plus"
-  ],
+  "provides": ["fire_plus"],
   "release": 6179,
   "repo": "https://github.com/Dumpster-Studios/fire_plus",
   "score": 319.2,
@@ -383,11 +377,7 @@
   ],
   "short_description": "Allows players to be lit on fire.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "player_effects",
-    "pve"
-  ],
+  "tags": ["library", "player_effects", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xCUMkQMkPa.png",
   "title": "Fire Plus",
   "translation_url": null,

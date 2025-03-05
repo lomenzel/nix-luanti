@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/cermak-petr/uraniumstuff/issues/new/choose/",
   "license": "Zlib",
   "long_description": "# Uranium Stuff\nMod for Minetest, adds Uranium tools and armor, compatible with Technic.  \nSource code: [GitHub](https://github.com/cermak-petr/uraniumstuff)  \nDiscuss: [Reddit](https://www.reddit.com/r/Minetest/comments/xrycj0/uranium_stuff_mod_release/) | [Forum](https://forum.minetest.net/viewtopic.php?t=28729)\n\nHave you ever wondered what to do with your waste 0% uranium?  \nWorry no more! Now you can use it to make tools and armor.  \nTools are fast and deal a lot of damage, armor also provides radiation protection.  \n\n__NEW FEATURES__  \n - Tools will now irradiate mobs to drain their health over time.  \n - Armor will drain your health if the \"Uranium Protection Gem\" is not in your inventory.  \n - Uranium tool in hand will now also drain your health without the gem  \n - Irradiated mobs have a radioactive green glow  \n - Mobs killed by radiation will leave Green Goo residue  \n - Green goo can be turned into Evil Green Goo that follows and kills mobs  \n - Most settings can be configured  \n - Dropped MineClone support for now  \n\nIf the technic mod is not present, this mod will provide uranium ore generation.  \nUranium ore will be found at the same heights as with technic, but at much lower quantities,  \nto compensate for the lack of need for centrifuging.  \n\n__Tools added__  \n - Uranium Sword  \n - Uranium Axe  \n - Uranium Shovel  \n - Uranium Pickaxe  \n - Uranium Hoe  \n - Uranium Multitool  \n    \n__Armor added__  \n - Uranium Chestplate  \n - Uranium Leggings  \n - Uranium Boots  \n - Uranium Helmet  \n - Uranium Shield  \n\n__Special items__  \n - Uranium Gem  \n - Uranium Protection Gem  \n - Green Goo  \n - Evil Green Goo  \n\n__Textures adapted from the following mods__  \nLava Stuff - [ContentDB](https://content.minetest.net/packages/Lone_Wolf/lavastuff/) | [GitHub](https://github.com/minetest-mods/lavastuff)  \nMultitools - [ContentDB](https://content.minetest.net/packages/ChimneySwift/multitools/) | [GitHub](https://github.com/ChimneySwift/multitools)  \nMore Ores - [ContentDB](https://content.minetest.net/packages/Calinou/moreores/) | [GitHub](https://github.com/minetest-mods/moreores)  \nTechnic Plus - [ContentDB](https://content.minetest.net/packages/mt-mods/technic_plus/) | [GitHub](https://github.com/mt-mods/technic)  \nMinetest Game - [GitHub](https://github.com/minetest/minetest_game)  ",
-  "maintainers": [
-    "Epoxum"
-  ],
+  "maintainers": ["Epoxum"],
   "media_license": "LGPL-2.1-or-later",
   "name": "uraniumstuff",
-  "provides": [
-    "uraniumstuff"
-  ],
+  "provides": ["uraniumstuff"],
   "release": 14477,
   "repo": "https://github.com/cermak-petr/uraniumstuff",
   "score": 176.3,
@@ -449,11 +443,7 @@
   ],
   "short_description": "Adds Uranium tools and armor, compatible with technic.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/071a5b6af2.png",
   "title": "Uranium Stuff",
   "translation_url": null,

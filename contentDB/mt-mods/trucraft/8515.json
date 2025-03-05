@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,29 +429,17 @@
   "issue_tracker": "https://github.com/mt-historical/trucraft/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "An alternative crafting system done entirely in the world.\ncan be used as a library mod  - see forum page for api",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "trucraft",
-  "provides": [
-    "trucraft"
-  ],
+  "provides": ["trucraft"],
   "release": 8515,
   "repo": "https://github.com/mt-historical/trucraft",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/alYoTtjkNa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/alYoTtjkNa.png"],
   "short_description": "An alternative crafting system done entirely in the world.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "library",
-    "mapgen",
-    "survival",
-    "tools"
-  ],
+  "tags": ["crafting", "library", "mapgen", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/alYoTtjkNa.png",
   "title": "Trucraft",
   "translation_url": null,

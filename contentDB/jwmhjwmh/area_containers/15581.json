@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/TurkeyMcMac/area_containers/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "## Overview\n\nAn area container is a node that contains an area. You can enter this area and build stuff inside. An area container can be used as a compact machine. Its ports conduct Mesecon signals between the inside and the four horizontal outside faces. These ports can also act as Pipeworks tubes, carrying items in and out. Digiline communication is supported using a separate node on the inside floor. As you can see from the optional dependencies, none of these mod integrations are necessary to use this mod.\n\n\n## Locking\n\nArea containers can be locked. To do so, first craft a lock. Then punch a container with the lock (you must be either the one who built the container or one able to bypass protection.)\n\nIf a container is unowned and you can bypass protection, you can claim it by locking it.\n\nTo let other people in, first craft a blank key. Then punch your container with the key, binding the key to the container. Other people can enter the container while holding the key. The container contents themselves are not protected in any way.\n\nYou can unlock your container by punching it with your bare hand. You must remove the lock before breaking the container. All keys to the container will continue to work even if you uninstall and reinstall the lock.\n\n## Crafting\n\nThe container can be crafted in Minetest Game (and similar games) and MineClone 2. All crafting recipes can be disabled by changing the \"Enable crafts\" setting of the mod.\n\n### Minetest Game and Modpack \"Zero\"\n\n#### Container\n\n```\nsSs\nSMS\nsSs\n\ns = steel ingot\nS = steel block\nM = mese block\n```\n\n#### Lock\n\n```\ns\nms\nss\n\ns = steel ingot\nm = mese crystal fragment\n```\n\n#### Blank key\n\n```\nsss\nm\n\ns = steel ingot\nm = mese crystal fragment\n```\n\n### MineClone 2\n\n#### Container\n\n```\nIdI\ndrd\nIdI\n\nI = iron block\nd = diamond\nr = redstone dust\n```\n\n#### Lock\n\n```\ni\nri\nii\n\ni = iron ingot\nr = redstone dust\n```\n\n#### Blank key\n\n```\niii\nr\n\ni = iron ingot\nr = redstone dust\n```\n\n### Key recycling\n\nWhatever other crafting recipes are available, you can recycle a used key back into an blank key. The recipe is shapeless.\n\n## Caveats\n\n- Due to an unfortunate technical limitation, area containers cannot be moved by pistons.\n- This mod does not load the insides of containers without players in them. If you need this feature, you can use the world anchor node from Technic.\n- While a container is not diggable until you empty it of nodes and objects, other mods may let you pick it up in order to move it. Doing so will probably lead to loss of the contents. (But [teleporter\\_tool](https://content.minetest.net/packages/ApolloX/teleporter_tool/) will work.)\n- Only up to 65535 containers may exist at any one time.\n- This mod will not work if Digilines is enabled but Mesecons is not.",
-  "maintainers": [
-    "jwmhjwmh"
-  ],
+  "maintainers": ["jwmhjwmh"],
   "media_license": "CC-BY-SA-3.0",
   "name": "area_containers",
-  "provides": [
-    "area_containers"
-  ],
+  "provides": ["area_containers"],
   "release": 15581,
   "repo": "https://github.com/TurkeyMcMac/area_containers",
   "score": 614.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ad58459ffe.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ad58459ffe.png"],
   "short_description": "Adds nodes that contain areas in which you can build",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "storage",
-    "technology"
-  ],
+  "tags": ["building_mechanics", "storage", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ad58459ffe.png",
   "title": "Area Containers",
   "translation_url": null,

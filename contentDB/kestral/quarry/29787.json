@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,28 +416,17 @@
   "issue_tracker": "https://github.com/kestral246/quarry/issues/new/choose/",
   "license": "MIT",
   "long_description": "Quarry Mechanics (quarry)\n==============\n\nBy David G [kestral246@gmail.com]\n\nThis mod adds quarry mechanics to stone nodes.\n\nWhat do I mean by that?\n--------------------------\n\n- Stone can now either be broken with a pickaxe (into cobble), or cut with a Quarry Hammer (into cut\\_stone).\n\n- The resulting cobble or cut\\_stone nodes remain in place after digging, but since they're now falling nodes, they will fall if not supported. They can then be dug by hand to pick them up into ones inventory.\n\n- For building, a Trowel and Mortar tool is provided. It can mortar placed cobble nodes into stonebrick nodes, and mortar placed cut\\_stone nodes back into stone nodes.\n\nAdditional notes\n----------------\n\n- Stone, Desert Stone, Sandstone, Desert Sandstone, and Silver Sandstone are supported. Sandstone_rubble nodes are added, which correspond to cobble nodes for stone.\n\n- A Quarry Hammer is only able to cut out a stone node if it has at least two faces open to the air (or water)—to be able to cut all its sides with the implied chisel. (With only one face open, it will break the stone to cobble.)\n\n- When digging stone\\_with\\_ore nodes, the ore lump will enter inventory, while the remaining cobble node will be left behind.\n\n- A scaffold node is provided to support the cobble and cut\\_stone nodes while digging and mortaring them.\n\nCrafting changes\n----------------\n\n- Cobble cannot be converted back into stone by melting it in a furnace.\n\n- Cut\\_stone\\_blocks can be crafted from cut\\_stone, which can then be mortered into the uncut versions.\n\n- Stairs and slabs are supported for all stone types. However, they have to be crafted from cut or cobble versions, and then mortared into the solid or brick versions.\n\nOptional recommended mods\n----------------------\n\n**Falling Dirt** by karlexceed ([falling\\_dirt](https://content.minetest.net/packages/karlexceed/falling_dirt/)):\n\n- Since the quarry mod makes cobblestone a falling node, using this mod will make dirt nodes more consistent by making them also falling.\n\n**Stonebrick Dungeons** by Hamlet—**Dropped**\n\n- **Note:** I've dropped the dependency on Stonebrick Dungeons by Hamlet, since this mod has been abandoned by the developer and deleted from ContentDB.\n\n- The alternatives are to either live with collapsing dungeons, or to disable the \"Dungeons\" mapgen flag during world creation.",
-  "maintainers": [
-    "kestral"
-  ],
+  "maintainers": ["kestral"],
   "media_license": "CC-BY-SA-3.0",
   "name": "quarry",
-  "provides": [
-    "quarry"
-  ],
+  "provides": ["quarry"],
   "release": 29787,
   "repo": "https://github.com/kestral246/quarry",
   "score": 168,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cb4ddab786.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cb4ddab786.png"],
   "short_description": "Adds quarry mechanics to stone nodes.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "survival",
-    "tools"
-  ],
+  "tags": ["building", "building_mechanics", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cb4ddab786.png",
   "title": "Quarry Mechanics",
   "translation_url": null,
@@ -605,18 +592,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/paramat/snowdrift/issues/",
   "license": "MIT",
   "long_description": "Precipitation stops and starts with time but is also is affected by biomes humidity and temperature.\nMore precipitation in more humid areas, which becomes snow in frozen biomes.\nSoothing rainfall sound.\n12 snowflake designs.\nSky becomes overcast during precipitation, the cloud cover brightness changes smoothly during day/night transitions and becomes dark at night.\nTo avoid precipitation when inside buildings it is disabled when the player is not under open sky, this behavior is not ideal (precipitation stops when under trees) but the related issue are difficult to solve, work will continue on this.\n",
-  "maintainers": [
-    "paramat"
-  ],
+  "maintainers": ["paramat"],
   "media_license": "MIT",
   "name": "snowdrift",
-  "provides": [
-    "snowdrift"
-  ],
+  "provides": ["snowdrift"],
   "release": 51,
   "repo": "https://github.com/paramat/snowdrift",
   "score": 333.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/WISY1AItF4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/WISY1AItF4.png"],
   "short_description": "Light-weight weather mod  with snow, rain, and clouds.",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/WISY1AItF4.png",
   "title": "Snowdrift",
   "translation_url": null,

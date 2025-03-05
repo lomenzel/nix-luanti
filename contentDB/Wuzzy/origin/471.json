@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "WTFPL",
   "long_description": "Useful for creative players who want to build their world from scratch.\n\n### **Deprecated:** Use [spawnbuilder](https://content.minetest.net/packages/Wuzzy/spawnbuilder/) instead",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "WTFPL",
   "name": "origin",
-  "provides": [
-    "origin"
-  ],
+  "provides": ["origin"],
   "release": 471,
   "repo": "http://repo.or.cz/minetest_origin.git",
   "score": 0.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/R1SYShpZHL.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/R1SYShpZHL.png"],
   "short_description": "Adds a single starter block below the first spawn position in singlenode, called “The Origin”",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/R1SYShpZHL.png",
   "title": "The Origin",
   "translation_url": null,

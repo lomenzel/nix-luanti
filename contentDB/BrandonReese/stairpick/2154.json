@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,24 +429,17 @@
   "issue_tracker": "https://github.com/Bremaweb/stairpick/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This is a specialized pick for making stairs. Don't worry about gathering material, crafting stairs then placing stairs. Just hit a block with this tool and it's becomes a stair node if it's a material that can be crafted into stairs. Supports the default stairs mod, and stairs+.",
-  "maintainers": [
-    "BrandonReese"
-  ],
+  "maintainers": ["BrandonReese"],
   "media_license": "LGPL-2.1-only",
   "name": "stairpick",
-  "provides": [
-    "stairpick"
-  ],
+  "provides": ["stairpick"],
   "release": 2154,
   "repo": "https://github.com/Bremaweb/stairpick",
   "score": -141,
   "screenshots": [],
   "short_description": "This is a specialized pick for making stairs.",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "tools"
-  ],
+  "tags": ["building_mechanics", "tools"],
   "thumbnail": null,
   "title": "Stair Pick",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/ElCeejoYT/adv_lightsabers/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Adds Lightsabers with 3 hilt varieties and 3 colors: Single Bladed, Crossguarded, and Double Bladed. There is no difference in damage between them so mix and match colors however you like.\n\n***Crafting recipes are in the images above.* ***\n\nFeatures:\n- 12 Possible Lightsaber designs\n- Force Abilities\n- Lightsaber Throwing\n- Parrying \n- More to come.\n\nNote: It's pretty much required to have the force_abilities privilege to make a Lightsaber, as you can't bond/bleed a Kyber Crystal without it. You could also spawn one in or steal a Crystal from someone who already has a bonded/bled Crystal.\n\nLightsaber battles are a game of skill. You can hold Left Mouse Button to block attacks from other Lightsaber users. Before battling you should have a Force Ability chosen. It's not a good idea to try and switch between them in battle.\n\nForce Abilities:\n\nYou can only use on at a time, Switch between active Abilities via Force Menu (Forward+Backward+Left Click).\n\n- Force Jump: Jump an increased height. Sneak + Jump. 20 Second Cooldown\n- Force Push: Push Players away, potential fall damage. Sneak + Left Click . 30 Second Cooldown\n- Force Choke: Suspend Players in the air and slowly drain their health. Sneak + Left Click. 60 Second Cooldown\n- Force Dash: Boost forward in short but quick burst. Sneak+Forward+Backward . 20 Second Cooldown\n- Force Heal: Heal yourself by 4 hearts. Sneak+Right Click . 60 Second Cooldown\n- Force Stun: Freeze another Player in place for 5 seconds. Sneak + Left Click. 60 Second Cooldown\n\n# Future updates are planned, but likely won't happen for a while, other than adjustments and bug fixes.",
-  "maintainers": [
-    "ElCeejo"
-  ],
+  "maintainers": ["ElCeejo"],
   "media_license": "GPL-3.0-only",
   "name": "adv_lightsabers",
-  "provides": [
-    "adv_lightsabers"
-  ],
+  "provides": ["adv_lightsabers"],
   "release": 3436,
   "repo": "https://github.com/ElCeejoYT/adv_lightsabers",
   "score": 313.2,
@@ -455,11 +449,7 @@
   ],
   "short_description": "Relatively Advanced Lightsabers for Minetest Game.",
   "state": "APPROVED",
-  "tags": [
-    "jam_combat_mod",
-    "pvp",
-    "tools"
-  ],
+  "tags": ["jam_combat_mod", "pvp", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/hNAU1IBsF0.png",
   "title": "Advanced Lightsabers",
   "translation_url": null,

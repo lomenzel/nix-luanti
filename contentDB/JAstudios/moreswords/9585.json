@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,28 +429,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "Right click to use special ability, left click to do damage.\n\nAll abilities have cooldowns and the player will recive a message when the cooldown is over.\n# Ice sword: \nTraps the enemy in a cryochamber, filled with water, drowning them.\nWhen item is selected in hotbar, water turns to ice.\n\n# Lava Sword: \nSpawns lava above players.\nWhen item is selected in hotbar, lava turns to obsidion.\n# Pick Sword: \nDigs a 3x3 tunnel down 30 nodes.\nThe perfect way to bury your enemy.\n\n# Smoke Sword:\nSurrounds the enemy with blinding smoke.\n\n# Teleportation Sword:\nTeleports enemy 10 nodes up.\n\n# Water Sword:\nSpawns water above enemy.\n\n**And more upcomming,**",
-  "maintainers": [
-    "JAstudios"
-  ],
+  "maintainers": ["JAstudios"],
   "media_license": "GPL-3.0-only",
   "name": "moreswords",
-  "provides": [
-    "moreswords"
-  ],
+  "provides": ["moreswords"],
   "release": 9585,
   "repo": "https://git.james-clarke.ynh.fr/james/MoreSwords",
   "score": 180.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a2c0fbad17.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a2c0fbad17.png"],
   "short_description": "Adds more powerfull swords that have various abilities.",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["magic", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a2c0fbad17.png",
   "title": "More Swords",
   "translation_url": null,

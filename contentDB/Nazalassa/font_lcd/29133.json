@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Nazalassa/font_lcd/issues",
   "license": "GPL-2.0-or-later",
   "long_description": "A font made to be simple and clean. It can be used from anything using `font_api` as `lcd`.\n\nCharacters included:\n* latin\n* accents (partial) (without capital letters)\n* greek",
-  "maintainers": [
-    "Nazalassa"
-  ],
+  "maintainers": ["Nazalassa"],
   "media_license": "CC-BY-SA-4.0",
   "name": "font_lcd",
-  "provides": [
-    "font_lcd"
-  ],
+  "provides": ["font_lcd"],
   "release": 29133,
   "repo": "https://codeberg.org/Nazalassa/font_lcd.git",
   "score": 4.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/68d7b30f3b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/68d7b30f3b.png"],
   "short_description": "A simple font for font_api",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/68d7b30f3b.png",
   "title": "LCD Font",
   "translation_url": null,

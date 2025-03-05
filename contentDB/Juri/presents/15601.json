@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/debagos/presents/issues",
   "license": "AGPL-3.0-only",
   "long_description": "# Presents\nThis mod adds some simple, but colorful presents to your game.\n\nTo have crafting recipes, you need the `default` and `dye` mod (both are in `minetest_game`).\n\nThis mod has an **optional_depends** on the `unified_inventory` mod, which is only to detect if there's already a crafting recipe existent for a present. If that's the case, you'll see a warning in your log, telling you what item has the same ingredient assembly.\n",
-  "maintainers": [
-    "Juri"
-  ],
+  "maintainers": ["Juri"],
   "media_license": "AGPL-3.0-only",
   "name": "presents",
-  "provides": [
-    "presents"
-  ],
+  "provides": ["presents"],
   "release": 15601,
   "repo": "https://github.com/debagos/presents",
   "score": 155.7,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Adds some blocks that look like presents.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/658a6a123d.png",
   "title": "Presents",
   "translation_url": null,

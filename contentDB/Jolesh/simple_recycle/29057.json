@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/jolesh/mt_simple_recycle/issues",
   "license": "CC0-1.0",
   "long_description": "Adds recipes to get resources back from crafted items.",
-  "maintainers": [
-    "Jolesh"
-  ],
+  "maintainers": ["Jolesh"],
   "media_license": "CC0-1.0",
   "name": "simple_recycle",
-  "provides": [
-    "simple_recycle"
-  ],
+  "provides": ["simple_recycle"],
   "release": 29057,
   "repo": "https://github.com/jolesh/mt_simple_recycle",
   "score": 323.2,
@@ -452,9 +446,7 @@
   ],
   "short_description": "Adds the possibility to recycle items and nodes by smelting or decrafting them back to their original resources.",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ac079b67a0.png",
   "title": "Simple Recycle",
   "translation_url": null,
@@ -512,9 +504,7 @@
       {
         "is_optional": false,
         "name": "nuggets",
-        "packages": [
-          "Jolesh/nuggets"
-        ]
+        "packages": ["Jolesh/nuggets"]
       },
       {
         "is_optional": false,

@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "this mod adds autoclimb to minetest.\n\nthis mod is licensed under the LGPL 2.1.\n\nmod version 0.1.\n\ndownload the mod from contentdb and put/install the mod in the mod folder or download the mod using minetest integraded content downlaoder in the game.\n\ndependencies = none.\n\nreport bugs/help in element.io (@mrdraxs:matrix.org).",
-  "maintainers": [
-    "MrDraxs"
-  ],
+  "maintainers": ["MrDraxs"],
   "media_license": "LGPL-2.1-only",
   "name": "autoclimb",
-  "provides": [
-    "autoclimb"
-  ],
+  "provides": ["autoclimb"],
   "release": 13593,
   "repo": "https://gitlab.com/mr-draxs/minetestmods",
   "score": 5.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/24a2b4d0a2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/24a2b4d0a2.png"],
   "short_description": "Adds autoclimb, idea by mrdraxs and code by ( FatalError, once again seasoned ) and ( ElCeejo ).",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/24a2b4d0a2.png",
   "title": "AutoClimb",
   "translation_url": null,

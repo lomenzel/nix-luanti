@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "Adds two randomly created ores with varying properties depending on the world's seed.\n\nThe following properties of ores are determined by the seed:\n\nName\nMaterial Type (metal or mese-like crystal)\nColor\nDurability\nSpeed",
-  "maintainers": [
-    "Piezo_"
-  ],
+  "maintainers": ["Piezo_"],
   "media_license": "CC-BY-SA-3.0",
   "name": "unique_ores",
-  "provides": [
-    "unique_ores"
-  ],
+  "provides": ["unique_ores"],
   "release": 1101,
   "repo": "https://notabug.org/Piezo_/unique_ores",
   "score": 5.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9xfsxajmm6.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9xfsxajmm6.png"],
   "short_description": "Adds two randomly created ores to each world with varying properties depending on the world's seed",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "tools"
-  ],
+  "tags": ["mapgen", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9xfsxajmm6.png",
   "title": "Randomized Map-specific Ores",
   "translation_url": null,
@@ -508,9 +497,7 @@
       {
         "is_optional": false,
         "name": "instant_ores",
-        "packages": [
-          "Piezo_/instant_ores"
-        ]
+        "packages": ["Piezo_/instant_ores"]
       }
     ]
   },

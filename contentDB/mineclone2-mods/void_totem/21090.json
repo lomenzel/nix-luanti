@@ -38,15 +38,10 @@
   "issue_tracker": "https://github.com/mineclone2-mods/void_totem/issues",
   "license": "GPL-3.0-or-later",
   "long_description": null,
-  "maintainers": [
-    "mineclone2-mods",
-    "AFCM"
-  ],
+  "maintainers": ["mineclone2-mods", "AFCM"],
   "media_license": "CC-BY-4.0",
   "name": "void_totem",
-  "provides": [
-    "void_totem"
-  ],
+  "provides": ["void_totem"],
   "release": 21090,
   "repo": "https://github.com/mineclone2-mods/void_totem",
   "score": 759.2,
@@ -56,9 +51,7 @@
   ],
   "short_description": "A totem that prevents you from dying in the void.",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/81a83ed388.png",
   "title": "Void Totem",
   "translation_url": null,
@@ -72,9 +65,7 @@
       {
         "is_optional": false,
         "name": "mcl_particles",
-        "packages": [
-          "Wuzzy/mineclone2"
-        ]
+        "packages": ["Wuzzy/mineclone2"]
       },
       {
         "is_optional": false,

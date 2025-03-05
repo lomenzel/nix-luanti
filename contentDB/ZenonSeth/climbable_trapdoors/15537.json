@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -457,25 +455,17 @@
   "issue_tracker": "https://github.com/ZenonSeth/climbable_trapdoors/issues/new/choose/",
   "license": "MIT",
   "long_description": "A really simple Minetest mod that makes the default wood and steel trapdoors climbable.\n\nBy default the mod only makes the \"open\" version climbable. \nTo make both the open and closed trapdoors climbable, go to the `init.lua` file and change `MAKE_CLOSED_DOORS_CLIMBABLE` to `true`\n\nThe mod will also check if the `xpanes` Steel Bar Trapdoor is present, and if so will apply the same climbable state to it as well.\n",
-  "maintainers": [
-    "ZenonSeth"
-  ],
+  "maintainers": ["ZenonSeth"],
   "media_license": "MIT",
   "name": "climbable_trapdoors",
-  "provides": [
-    "climbable_trapdoors"
-  ],
+  "provides": ["climbable_trapdoors"],
   "release": 15537,
   "repo": "https://github.com/ZenonSeth/climbable_trapdoors",
   "score": 159.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c49787780a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c49787780a.png"],
   "short_description": "Makes the wood and steel trapdoors climbable",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c49787780a.png",
   "title": "Climbable Trapdoors",
   "translation_url": null,

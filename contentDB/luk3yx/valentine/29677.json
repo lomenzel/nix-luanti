@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/luk3yx/minetest-valentine/issues",
   "license": "MIT",
   "long_description": "A mod that adds valentine cards and boxes.\n\n### License\n\nCode: MIT\n\nTextures: CC-BY-SA 4.0 MultiCraft development team",
-  "maintainers": [
-    "luk3yx"
-  ],
+  "maintainers": ["luk3yx"],
   "media_license": "CC-BY-SA-4.0",
   "name": "valentine",
-  "provides": [
-    "valentine"
-  ],
+  "provides": ["valentine"],
   "release": 29677,
   "repo": "https://gitlab.com/luk3yx/minetest-valentine",
   "score": 5.5,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Adds valentine cards",
   "state": "APPROVED",
-  "tags": [
-    "pvp"
-  ],
+  "tags": ["pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/94f3d84e97.png",
   "title": "Valentine's day",
   "translation_url": null,
@@ -57,10 +51,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ]
   },

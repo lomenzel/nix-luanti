@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/rudzik8/bushy_leaves/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "# Bushy Leaves `bushy_leaves`\n\nThis mod changes leaves to render bushy instead of boxy.\n\nFork of [Bushy Leaves by erle](https://content.luanti.org/packages/erlehmann/bushy_leaves/). Now with better performance (thanks to meshes) and proper [Plantlife](https://content.luanti.org/packages/mt-mods/plantlife_modpack/) support.\n\nTested with:\n\n* [Minetest Game](https://content.luanti.org/packages/Minetest/minetest_game/)\n* [VoxeLibre](https://content.luanti.org/packages/Wuzzy/mineclone2/)\n* [Repixture](https://content.luanti.org/packages/Wuzzy/repixture/)\n* [NodeCore](https://content.luanti.org/packages/Warr1024/nodecore/)\n* [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/)\n\n\n## `full` vs `cheap`\n\nIt can be hard to choose what mesh type you want for bushy leaves. By default\nit is `full`, but you can configure bushy leaves to render with the `cheap`\nmesh instead.\n\n`full` mesh is (almost) identical to the the nodebox that was used in the\noriginal mod.\n\n![Screenshot: bushy leaves with `full` mesh type](/uploads/09f97b2b65.png)\n\n`cheap` mesh has been simplified to get better performance. But it wasn't a\nlossless optimization; you can see the differences from the `full` mesh here.\n\n![Screenshot: bushy leaves with `cheap` mesh type](/uploads/60e6648690.png)\n\nThe choice is completely up to you. But if you're a server owner and want to\nuse this mod on your server (god forbid), at the very least do all your players\nwith lower end devices a favor and go with `cheap`.\n\nBoth meshes were created by singularis-mzf, see `models/license.txt`.\n",
-  "maintainers": [
-    "rudzik8"
-  ],
+  "maintainers": ["rudzik8"],
   "media_license": "AGPL-3.0-or-later",
   "name": "bushy_leaves",
-  "provides": [
-    "bushy_leaves"
-  ],
+  "provides": ["bushy_leaves"],
   "release": 29289,
   "repo": "https://codeberg.org/rudzik8/bushy_leaves",
   "score": 326.7,
@@ -29,9 +25,7 @@
   ],
   "short_description": "Makes leaves render bushy instead of boxy. Now with better performance and Plantlife support.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0bfd775450.png",
   "title": "Bushy Leaves (fork)",
   "translation_url": null,

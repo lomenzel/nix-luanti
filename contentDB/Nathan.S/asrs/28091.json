@@ -25,14 +25,10 @@
   "issue_tracker": "https://notabug.org/NathanS21/asrs/issues",
   "license": "MIT",
   "long_description": "This mod adds a system for mass storage. By placing lift and storage nodes you can expand the system storage. Easily find your items with a search, and share access with other players on a player-name basis.",
-  "maintainers": [
-    "Nathan.S"
-  ],
+  "maintainers": ["Nathan.S"],
   "media_license": "CC-BY-SA-3.0",
   "name": "asrs",
-  "provides": [
-    "asrs"
-  ],
+  "provides": ["asrs"],
   "release": 28091,
   "repo": "https://notabug.org/NathanS21/asrs",
   "score": 474.2,
@@ -42,10 +38,7 @@
   ],
   "short_description": "Adds an automated storage and retrieval system to Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "storage"
-  ],
+  "tags": ["inventory", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/792cefcf7e.png",
   "title": "Automated Storage & Retrieval System",
   "translation_url": null,

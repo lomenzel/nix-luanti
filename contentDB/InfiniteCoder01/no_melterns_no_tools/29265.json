@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,29 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# No Melterns, no tools\nYou can't craft tools without [melters](https://github.com/InfiniteCoder01/melterns) now (my fork is necessary). Progression becomes harder.\nMod is in beta. i3 and awards are highly recommended, orient on the awards and recipes\n",
-  "maintainers": [
-    "InfiniteCoder01"
-  ],
+  "maintainers": ["InfiniteCoder01"],
   "media_license": "CC0-1.0",
   "name": "no_melterns_no_tools",
-  "provides": [
-    "no_melterns_no_tools"
-  ],
+  "provides": ["no_melterns_no_tools"],
   "release": 29265,
   "repo": "https://github.com/InfiniteCoder01/no_melterns_no_tools",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c9c443c2b3.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c9c443c2b3.png"],
   "short_description": "You can't craft tools without melters now. Progression becomes harder",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "storage",
-    "survival",
-    "technology",
-    "tools"
-  ],
+  "tags": ["crafting", "storage", "survival", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c9c443c2b3.png",
   "title": "No Melterns, no tools",
   "translation_url": null,
@@ -467,16 +453,12 @@
       {
         "is_optional": false,
         "name": "fluid_lib",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       },
       {
         "is_optional": false,
         "name": "fluid_tanks",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       },
       {
         "is_optional": false,
@@ -553,9 +535,7 @@
       {
         "is_optional": false,
         "name": "tinkering",
-        "packages": [
-          "IcyDiamond/melterns"
-        ]
+        "packages": ["IcyDiamond/melterns"]
       },
       {
         "is_optional": false,

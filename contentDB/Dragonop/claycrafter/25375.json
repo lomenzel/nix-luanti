@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/Dragonop/claycrafter/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "The ClayCrafter mod adds a way for players to obtain clay other than mining, out of a common material: dirt. It adds three new nodes:\n\nClaycrafter: Used to convert compressed dirt into clay.\n\nCompressed dirt: Just 9 dirt, compressed, useful for saving storage space, too!\n\nGlass of water: Used as fuel for the Claycrafter. Placeable.\n\nSupports moreblocks' compressed dirt.",
-  "maintainers": [
-    "Dragonop"
-  ],
+  "maintainers": ["Dragonop"],
   "media_license": "CC-BY-SA-4.0",
   "name": "claycrafter",
-  "provides": [
-    "claycrafter"
-  ],
+  "provides": ["claycrafter"],
   "release": 25375,
   "repo": "https://github.com/Dragonop/claycrafter",
   "score": 314.4,
@@ -320,11 +314,7 @@
   ],
   "short_description": "Introduces the Claycrafter, which converts Compressed Dirt to Clay using Glasses of Water.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "storage",
-    "survival"
-  ],
+  "tags": ["crafting", "storage", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/n1ZFn5ZQLZ.png",
   "title": "Claycrafter",
   "translation_url": null,

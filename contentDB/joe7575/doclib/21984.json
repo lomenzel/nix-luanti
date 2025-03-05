@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "DocLib [doclib]\n===============\n\n**A library to generate ingame manuals based on markdown files.**\n\nBrowse on: [GitHub](https://github.com/joe7575/doclib)\n\nDownload: [GitHub](https://github.com/joe7575/doclib/archive/main.zip)\n\n\n### Introduction\n\nDocLib is used to generate a manual as ingame documentation.\nThe manual content is generated based on markdown files.\n\nAn advantage of this solution is the dual use of the documentation:\n\n- A markdown file as web solution e. g. on GitHub\n- A book as ingame manual\n\nSee [README](https://github.com/joe7575/doclib#readme)",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC-BY-SA-3.0",
   "name": "doclib",
-  "provides": [
-    "doclib"
-  ],
+  "provides": ["doclib"],
   "release": 21984,
   "repo": "https://github.com/joe7575/doclib",
   "score": 4.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1f59379845.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1f59379845.png"],
   "short_description": "A library to generate ingame manuals based on markdown files.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1f59379845.png",
   "title": "Doclib",
   "translation_url": null,

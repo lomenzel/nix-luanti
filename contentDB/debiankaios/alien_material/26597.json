@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,15 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "**The Support will maybe in future continued**\nAdds new blocks, items and tools from aliens. A new time begins. Using [Mobs Redo Api](https://content.minetest.com/packages/TenPlus1/mobs/) there is an alien!\n\n* Scripts are by debiankaios and LRV\n* textures are by 5% [debiankaios](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=28622) and 95% [Bambusmann](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=28625)\n* Thanks for the help from all people.\n\nYou can find alien_diamond and alien_mese below height -2048. The alien spawn below height -4096.\n\nNews:\n\n* Alpha 0.6     05.12.2020     The first version!\n* [Alpha 0.7](http://debiankaios.de/minetest/alien_material0.7.zip)     05.21.2020     Fixes,new crafting reciptes, alienapple work, new block!\n* [Alpha 0.8](http://debiankaios.de/minetest/alien_material0.8.zip)     06.12.2020     Armor , You can using alien_ingots for fuel!\n* [Alpha 0.9](http://debiankaios.de/minetest/alien_material0.9.zip)     06.12.2020     It add the alien, improves the alien apple and adds a new op_alien apple, add the alien_postlight\n* [Alpha 0.10](http://debiankaios.de/minetest/alien_material0.10.zip)     10.01.2021     Biome, changed mod.conf, alienbench to make alien apples",
-  "maintainers": [
-    "debiankaios",
-    "Bambusmann_12"
-  ],
+  "maintainers": ["debiankaios", "Bambusmann_12"],
   "media_license": "CC-BY-SA-3.0",
   "name": "alien_material",
-  "provides": [
-    "alien_material"
-  ],
+  "provides": ["alien_material"],
   "release": 26597,
   "repo": "https://gitlab.com/debiankaios/alien_material",
   "score": 168.3,
@@ -450,14 +443,7 @@
   ],
   "short_description": "Adds new blocks, items, and tools from aliens. A new time begins.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "food",
-    "mapgen",
-    "mobs",
-    "survival",
-    "tools"
-  ],
+  "tags": ["decorative", "food", "mapgen", "mobs", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7a0af87e1f.png",
   "title": "Alien Material",
   "translation_url": null,

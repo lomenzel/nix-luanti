@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/chatgames_api/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Inspired by the ChatGames plugin from minecraft.\nIt adds the ability to chat messages that ask for a response, if answered correctly then they get a reward.\n\n## Commands\nUse `/chatgame toggle` to toggle visibility of the chat-game's to you.\n\n## Settings\nUse `chatgames.new_game_interval` setting, to set (in seconds) the interval in seconds between games.\nUse `chatgames.time_to_complete` setting, to set the amount of time players have to answer(in seconds).\n\n## Technical API Examples\n\n```lua\nchatgames.register_game(game_name, answer_func)\nchatgames.register_question(game_name, question, answer, is_case_sensitive) -- if is not case sensitive then both the answer and the question will be converted to lower case, and the attempt text will be converted to lowercase too before running the answer func.\nchatgames.start_game(game_name)            -- At game start it says, \"[CHATGAMES] You have [time_to_complete] seconds to answer the question '[question]'\"\nchatgames.end_game(game_name, has_winners) -- If endgame runs and there are no winners then it returns to the players chat \"[CHATGAMES] Nobody got it in time, the answer was '[answer]'\"\n\nchatgames.games = {}\nchatgames.active_game = {}\n\n-- Example use case\nfunction example_answer_func(game_name, player_name, attempt_str, time_given_in_seconds, time_used, question_id_selected)\n    local question_data = chatgames.games[game_name].questions[question_id_selected]\n    local answer = question_data.answer\n    local player = minetest.get_player_by_name(player_name)\n\n    if answer == attempt_str then\n        local reward = calculate_reward(time_given_in_seconds, time_given_in_seconds - time_used)\n        emeraldbank.add_emeralds(player, reward)\n        return true\n    else\n        return false\n    end\nend\n\n-- Example game and question registration\nchatgames.register_game(\"Unscramble\", example_answer_func)\nchatgames.register_question(\"Unscramble\", \"Unscramble the text 'Lpasi Lulzai'\", \"Lapis Lazuli\", false)\n```",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "chatgames_api",
-  "provides": [
-    "chatgames_api"
-  ],
+  "provides": ["chatgames_api"],
   "release": 22720,
   "repo": "https://github.com/JamesClarke7283/chatgames_api",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dacf95ad04.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dacf95ad04.png"],
   "short_description": "An API to build chatgames like those in the chatgames",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "multiplayer"
-  ],
+  "tags": ["library", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dacf95ad04.png",
   "title": "Chat Games API",
   "translation_url": null,

@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/Noodlemire/VoxelDungeon/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Pixel Dungeon is a traditional rogue-like game developed for Android phones by Watabou. Voxel Dungeon is an adaptation of that experience in a 3D voxel sandbox, where instead of a linear 25 floor dungeon where every 5 floors fit a specific theme, the entirety of the underground is split into 5 main layers littered with numerous miniature dungeons. Each section has distinct types of terrain, enemies, and loot, but can only be accessed after the player summons and defeats the previous section's boss. The ultimate goal of the game is the Amulet of Yendor, an item dropped by the final boss. The first player to pick up this item wins the game.\n\nThis is very WIP, and most of the above is more of a goal, rather than what I've actually implemented so far. Notably, no bosses are in the game yet, so right now deeper layers are only really accessible from getting lucky enough with loot to find the ore to make a pickaxe strong enough to mine the next area's stone. Also, dungeon generation is only half-done so far and not set to put anything into the world.",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "GPL-3.0-only",
   "name": "voxeldungeon",
   "provides": [
@@ -95,9 +93,7 @@
   "release": 9212,
   "repo": "https://github.com/Noodlemire/VoxelDungeon",
   "score": 211,
-  "screenshots": [
-    "https://content.luanti.org/uploads/80LJjnqDJn.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/80LJjnqDJn.png"],
   "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
   "state": "APPROVED",
   "tags": [

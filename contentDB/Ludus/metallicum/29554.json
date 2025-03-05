@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Metallicum introduces titanium, a powerful resource that allows you to craft new tools and weapons. Explore to collect titanium, smelt it into ingots, and create items like the mining laser, katana, and mace. Use the grappling hook for new ways to explore and boost your speed with titanium boots. Discover all the potential of titanium to enhance your Minetest adventure!",
-  "maintainers": [
-    "Ludus"
-  ],
+  "maintainers": ["Ludus"],
   "media_license": "MIT",
   "name": "metallicum",
-  "provides": [
-    "metallicum"
-  ],
+  "provides": ["metallicum"],
   "release": 29554,
   "repo": null,
   "score": 6.5,
@@ -43,10 +39,7 @@
   ],
   "short_description": "The power of titanium",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "tools"
-  ],
+  "tags": ["building", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f1833d83e9.png",
   "title": "Metallicum",
   "translation_url": null,

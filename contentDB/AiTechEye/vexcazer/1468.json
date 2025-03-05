@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,9 +429,7 @@
   "issue_tracker": "https://github.com/AiTechEye/vexcazer/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "The tool is a easy to use and advanced, its made for buildning, mining, admastration, modefication, testing, suviving and etc...\n\n\nchange modes:\nfast shifting: sneak + use/click (or use a controler)\nmanu: ctrl/special + use (or place a controler)\n\n\n\n\nPlaceDig xz: place/dig xz (forward/backward/sides)\n\nUndo (undo last change) [quickfix for mistakes] [admin only]\n\nPlaceDig y: place/dig y (up/down)\n\nReplace xz: like PlaceDig, but replacing (forward/backward/sides)\n\nAutoswith: using blocks from more slots on hotbar at same time. (forward/backward/sides)\n\nTravel1/2: set position1/2 like a /sethome1/2 (will not work if the postion are protected)\n\nTeleport: yourself or an object\n\nMassivePlaceDig: place or dig N*N*N\n\nGravity control (same code from the gravitygun mod)\n\nFlashlight (works in water+turns of in daylight)\n\nCopy (copy basic structures)\n\nCon:\tDig/Replace blocks that are connected to each other, eg dig all connected ores, or remove a lawn\n\nSelectiveRadio:\tdig/place selected block in radio\n\nRegen:\tregenerate area (same as /deleteblocks)\n\n\n\n\nvexcazer_adpick: the admin pickaxe [/giveme vex_adpick] (will be given to moderators / admins)\n\nvexcazer_auto_ad_mod: enables benefits with give/creative + autoget ad/mod vex when using an unused common-vexcazer /giveme vex_ad, /giveme vex_mod\n\nvexcazer_copy: copy mode\n\nvexcazer_flashlight: flashlight mode\n\nvexcazer_gravity: gravitycontrol mode\n\nvexcazer_massive: MassivePlaceDig\n\nvexcazer_powergen: powergenerator / charger\n\nvexcazer_teleport: teleport mode\n\nvexcazer_travel: travle modes\n\nvexcazer_chunk: (dig / replace nodes that is connected to each other\n\nvexcazer_radio\tradio/selective radio\n\nvexcazer_regen\tRegen\n\nvexcazer_con:\tconnected blocks\n\nvexcazer_telepad: teleport pads\n\nAll info you need will be found when you using the tools.",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "vexcazer",
   "provides": [
@@ -473,12 +469,7 @@
   ],
   "short_description": "Ultimate build+mine & admin tool",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "creative",
-    "inventory",
-    "tools"
-  ],
+  "tags": ["building_mechanics", "creative", "inventory", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/flQU5X9v6K.png",
   "title": "vexcazer",
   "translation_url": null,

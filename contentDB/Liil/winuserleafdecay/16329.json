@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Skandarella/winuserleafdecay/issues/new/choose/",
   "license": "MIT",
   "long_description": "Since there is still no way for Windows users to convert schematics (Technical problem on a Windows PC of converting .mts to .lua and the other way around) without having the problem of standard param2 = 1 for placed leaves. They cannot decay.\nI made this little mod to have an alternative leaf decay.\nparam2 = 1 leaves can now decay, if registered for this mod.\n\nWith this mod, all trees in my mods have a working leaf decay function. ",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "CC-BY-3.0",
   "name": "winuserleafdecay",
-  "provides": [
-    "winuserleafdecay"
-  ],
+  "provides": ["winuserleafdecay"],
   "release": 16329,
   "repo": "https://github.com/Skandarella/winuserleafdecay.git",
   "score": 13.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/67d5d00cfa.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/67d5d00cfa.png"],
   "short_description": "With this additiona leaf decay, all trees in naturalbiomes, livingdesert, livingjungle and livingfloatlands have a working leafdecay function.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/67d5d00cfa.png",
   "title": "Winuser Leafdecay",
   "translation_url": null,

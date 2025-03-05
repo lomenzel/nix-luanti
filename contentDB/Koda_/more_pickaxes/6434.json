@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/KodaTheGuy/more_pickaxes/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds more pickaxes to minetest: such as Water Pickaxe, Ice Pickaxe, Supreme Pickaxe, Lava Pickaxe etc...\n\n## Pickaxes\n\n- Cactus Pickaxe<br>\n\t- Can be made with Cactus and Sticks\n\t- Is as strong as stone pickaxes\n\t\t- Same durability as the stone pickaxes\n<br><br>\n- Coal Pickaxe<br>\n\t- Can be made with Coal and Sticks\n\t- Is as strong as stone pickaxes\n\t\t- Same durability as the stone pickaxes\n<br><br>\n- Ice Pickaxe<br>\n\t- Can be made with Ice and Sticks\n\t- Is as strong as steel/iron pickaxes\n\t\t- Same durability as the steel pickaxes\n<br><br>\n- Sand Pickaxe<br>\n\t- Can be made with Sand and Sticks\n\t- Is as strong as steel/iron pickaxes\n\t\t- Same durability as the steel pickaxes\n<br><br>\n- Water Pickaxe<br>\n\t- Can be made with buckets of water and sticks\n\t- Is as strong as mese pickaxes\n\t\t- Same durability as mese pickaxes\n<br><br>\n- Lava Pickaxe<br>\n\t- Can be made with buckets of lava and sticks\n\t- Is as strong as mese pickaxes\n\t\t- Same durability as mese pickaxes\n<br><br>\n- Supreme Pickaxe<br>\n\t-  Can be made with gold blocks and diamonds\n\t-  Is stronger than any other pickaxe\n\t\t-  Has double the durability as diamond pickaxes\n<br><br>\n- Diamond Paxel<br>\n\t- Can be made with diamond tools and sticks\n\t- Is stronger than any other pickaxe except for Supreme Pickaxes\n\t\t- Is really unbreakable",
-  "maintainers": [
-    "Koda_"
-  ],
+  "maintainers": ["Koda_"],
   "media_license": "CC-BY-3.0",
   "name": "more_pickaxes",
-  "provides": [
-    "more_pickaxes"
-  ],
+  "provides": ["more_pickaxes"],
   "release": 6434,
   "repo": "https://github.com/KodaTheGuy/more_pickaxes",
   "score": 168,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3bNYQbhiTN.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3bNYQbhiTN.png"],
   "short_description": "Adds additional pickaxes to the game",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3bNYQbhiTN.png",
   "title": "More Pickaxes",
   "translation_url": null,

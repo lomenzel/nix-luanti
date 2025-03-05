@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-hovercraft/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "Adds some hovercraft vehicles that can be ridden on land or over water.\n\nThis is a fork of [stu's hovercraft](https://forum.minetest.net/viewtopic.php?t=6722).\n\nDifferences from original:\n\n- name changed to `hovercraft_ad`\n- updated for Minetest 5.0\n- supports localization\n- mods used for craft recipes are optional\n- craft recipe optionally includes [basic_materials:motor](https://content.minetest.net/packages/VanessaE/basic_materials/)\n- hovercrafts are ownable\n- includes extended colors by [michyo](https://github.com/michyo/hovercramt)\n\t- disabled with `hovercraft.extended_colors = false`\n\n### Usage\n\n##### Controls\n\n```\nForward (W)   Thrust\nJump (Space)  Jump\nMouse Move\t  Rotate\nSneak (Shift) Sit (only visible in multiplayer)\n```\n\n##### Settings\n\n```\nmount_ownable\n- Makes hovercrafts only usable by owners (owner is determined by player who adds hovercraft to world).\n- type:   bool\n- defaut: true\n```\n",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC-BY-SA-4.0",
   "name": "hovercraft_ad",
-  "provides": [
-    "hovercraft_ad"
-  ],
+  "provides": ["hovercraft_ad"],
   "release": 9106,
   "repo": "https://github.com/AntumMT/mod-hovercraft",
   "score": 162.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e506cce7d1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e506cce7d1.png"],
   "short_description": "A fun alternative mode of transport.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e506cce7d1.png",
   "title": "Hovercrafts",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/whitelist/-/issues",
   "license": "AGPL-3.0-only",
   "long_description": "### Commands\n`/whitelist on`: enables the whitelist  \n`/whitelist off`: disables the whitelist  \n`/whitelist add <player>`: adds `<player>` to the whitelist  (not case sensitive)  \n`/whitelist remove <player>`: removes `<player>` from the whitelist  (not case sensitive)  \n`/whitelist who`: lists all the whitelisted players\n\n### API\nHave a look at the [DOCS](https://gitlab.com/zughy-friends-minetest/whitelist/-/blob/master/DOCS.md)",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "AGPL-3.0-only",
   "name": "whitelist",
-  "provides": [
-    "whitelist"
-  ],
+  "provides": ["whitelist"],
   "release": 28054,
   "repo": "https://gitlab.com/zughy-friends-minetest/whitelist",
   "score": 778,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a53c1d5da1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a53c1d5da1.png"],
   "short_description": "Manage who can and who can't enter in your server",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a53c1d5da1.png",
   "title": "Whitelist",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/whitelist/",

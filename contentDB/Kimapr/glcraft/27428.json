@@ -103,15 +103,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "",
-  "maintainers": [
-    "Kimapr"
-  ],
+  "maintainers": ["Kimapr"],
   "media_license": "MIT",
   "name": "glcraft",
-  "provides": [
-    "glcraft",
-    "zzzz_glcraft_crafthook"
-  ],
+  "provides": ["glcraft", "zzzz_glcraft_crafthook"],
   "release": 27428,
   "repo": "https://gitlab.com/Kimapr/glcraft",
   "score": 310,
@@ -123,9 +118,7 @@
   ],
   "short_description": "crafting grid replacement and better craftguide",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3723115ad3.png",
   "title": "GridLess Craft",
   "translation_url": null,

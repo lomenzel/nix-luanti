@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/rollerozxa/permatime/issues/new/choose/",
   "license": "MIT",
   "long_description": "Set the day of time cycle to a certain time permanently.\n\nUse `/permatime hh:mm` to set a permanent time (e.g. 12:00 for noon), `/permatime` to disable it. Requires the `settime` privilege.\n\n### How's this different to _Xenon's [`ptime`](https://content.minetest.net/packages/_Xenon/ptime/) mod?\n- This mod is global, the permanent time will affect all players.\n- It will also freeze the day/night cycle, rather than only using `override_day_night_ratio`.\n- You can specify arbitrary times, instead of cycling between noon and midnight.\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "permatime",
-  "provides": [
-    "permatime"
-  ],
+  "provides": ["permatime"],
   "release": 28358,
   "repo": "https://github.com/rollerozxa/permatime",
   "score": 326.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/23f699d66e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/23f699d66e.png"],
   "short_description": "Set the day of time cycle to a certain time permanently.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "server_tools",
-    "world_tools"
-  ],
+  "tags": ["environment", "server_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/23f699d66e.png",
   "title": "Permatime",
   "translation_url": null,

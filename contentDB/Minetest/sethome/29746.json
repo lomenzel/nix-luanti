@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/minetest/minetest_game/issues",
   "license": "MIT",
   "long_description": "Adds a `/sethome` command used to set a home position that you can return to with `/home` anytime.\n\nThis mod is a part of [Minetest Game](https://github.com/minetest/minetest_game) and this package exists in order to install it for other games that do not provide this mod. For Minetest Game and other games that provide the mod this package is not necessary.",
-  "maintainers": [
-    "Minetest"
-  ],
+  "maintainers": ["Minetest"],
   "media_license": "MIT",
   "name": "sethome",
-  "provides": [
-    "sethome"
-  ],
+  "provides": ["sethome"],
   "release": 29746,
   "repo": "https://github.com/minetest-game/sethome/",
   "score": 56.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d7db4210d7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d7db4210d7.png"],
   "short_description": "Set a home position you can teleport back to anytime",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "transport"
-  ],
+  "tags": ["chat", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d7db4210d7.png",
   "title": "Sethome",
   "translation_url": null,

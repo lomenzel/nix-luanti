@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,28 +286,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-only",
   "long_description": "This magic tome allows you to shield from others' attacks by instantly producing a glowing magic barrier.\n\nNote: this WILL NOT stop the railgun. Repeating: there is NO wall that will stop the railgun.",
-  "maintainers": [
-    "LissoBone"
-  ],
+  "maintainers": ["LissoBone"],
   "media_license": "CC-BY-4.0",
   "name": "magic_gadgets_shield",
-  "provides": [
-    "magic_gadgets_shield"
-  ],
+  "provides": ["magic_gadgets_shield"],
   "release": 16501,
   "repo": null,
   "score": 4.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/45beeedbec.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/45beeedbec.png"],
   "short_description": "Magic Shield Tome.",
   "state": "APPROVED",
-  "tags": [
-    "magic",
-    "player_effects",
-    "pve",
-    "pvp"
-  ],
+  "tags": ["magic", "player_effects", "pve", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/45beeedbec.png",
   "title": "Shield Tome",
   "translation_url": null,
@@ -323,28 +310,19 @@
       {
         "is_optional": false,
         "name": "gadgets_api",
-        "packages": [
-          "mt-mods/gadgets_modpack",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/gadgets_modpack", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,
         "name": "gadgets_magic",
-        "packages": [
-          "mt-mods/gadgets_modpack",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/gadgets_modpack", "MeseCraft/mesecraft"]
       }
     ],
     "mt-mods/gadgets_modpack": [
       {
         "is_optional": false,
         "name": "magic_materials",
-        "packages": [
-          "mt-mods/magic_materials",
-          "MeseCraft/mesecraft"
-        ]
+        "packages": ["mt-mods/magic_materials", "MeseCraft/mesecraft"]
       },
       {
         "is_optional": false,

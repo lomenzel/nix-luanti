@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-builtin_overrides/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# builtin_overrides\n\nminor QOL overrides for some builtin behaviors\n\n* sorts player names in `/status` by default\n* sorts privs in `/privs`\n* don't crash if trying to send a chat message that's too long\n* correct capitalization of player names used in builtin commands and APIs (requires `canonical_name`)",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "builtin_overrides",
-  "provides": [
-    "builtin_overrides"
-  ],
+  "provides": ["builtin_overrides"],
   "release": 19880,
   "repo": "https://github.com/fluxionary/minetest-builtin_overrides.git",
   "score": 2.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d294eca331.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d294eca331.png"],
   "short_description": "minor QOL overrides for some builtin behaviors",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d294eca331.png",
   "title": "builtin overrides",
   "translation_url": null,
@@ -43,18 +35,12 @@
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/fmod": [],
@@ -62,10 +48,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

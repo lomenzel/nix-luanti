@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/ElCeejo/draconis/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds massive, terrifying Dragons and powerful endgame equipment.\n\n**Dragons** are massive flying beasts with powerful breath, capable of laying waste to almost anything.\n\n**Dragon Eggs** are a rare and valuable drop from older Dragons. When put on a 3x3 nest of Bone Piles, the Egg will \"awaken\" and allow you to set it alight or drown it to begin hatching.\n\n**Draconic Steel** can be crafted in to tools and armor (if stu's 3d armor mod is enabled) that far exceed the capabilities of diamond. Draconic Steel is costly, time-consuming, and unstackable. Each ingot is directly tied to the Dragon that forged it, and ingots forged by different individual Dragons cannot be crafted together. Draconic Steel tools gain power from their linked Dragon, with attack strength and speed increasing the closer the tool is. Inversely, if the Dragon dies the tool will shatter upon use.\n\n**More in-depth information can be found in the Libri Draconis item.**",
-  "maintainers": [
-    "ElCeejo"
-  ],
+  "maintainers": ["ElCeejo"],
   "media_license": "MIT",
   "name": "draconis",
-  "provides": [
-    "draconis"
-  ],
+  "provides": ["draconis"],
   "release": 23494,
   "repo": "https://github.com/ElCeejo/draconis",
   "score": 5107.4,

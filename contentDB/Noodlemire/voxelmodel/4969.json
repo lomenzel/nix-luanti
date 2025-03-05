@@ -11,29 +11,17 @@
   "issue_tracker": "https://github.com/Noodlemire/voxelmodel/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This mod provides a new method to making 3D models. It comes with voxelmodel.obj, a model consisting of a 17x17x17 grid of overlapping squares. Thus, by simply making different textures for this model, you can make a wide variety of voxelated shapes. It also allows for a very unusual style of animation, as you can use texture-based animation to constantly change the shape of your model and have it act like a 3D sprite.\n\nThere are also a few example objects provided. There's a table, a bookshelf that can optionally replace the default bookshelf, an animated floor torch, and a simple cat that can walk around and blink. Note that by default, these are only available in creative mode, except for when the default bookshelf is overridden.\n\nIf you want to make your own object using voxelmodel, specifics about how it works are detailed in the init.lua and voxelmodel_guide.png files.",
-  "maintainers": [
-    "Noodlemire"
-  ],
+  "maintainers": ["Noodlemire"],
   "media_license": "LGPL-2.1-only",
   "name": "voxelmodel",
-  "provides": [
-    "voxelmodel"
-  ],
+  "provides": ["voxelmodel"],
   "release": 4969,
   "repo": "https://github.com/Noodlemire/voxelmodel.git",
   "score": 5.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/FMd1AeUrkg.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/FMd1AeUrkg.png"],
   "short_description": "Provides voxelmodel.obj, a model designed to be shaped by changing its texture, in order to easily create fancy voxelized models.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative",
-    "decorative",
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["building", "creative", "decorative", "developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/FMd1AeUrkg.png",
   "title": "Template to Easily Make Fancy Voxelized Models",
   "translation_url": null,

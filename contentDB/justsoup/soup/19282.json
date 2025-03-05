@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/JustSoup321/minetest-soup/issues/new/choose/",
   "license": "MPL-2.0",
   "long_description": "This is a collection of soup food items for Minetest.\n\nThat is all...\n",
-  "maintainers": [
-    "justsoup"
-  ],
+  "maintainers": ["justsoup"],
   "media_license": "MPL-2.0",
   "name": "soup",
-  "provides": [
-    "soup"
-  ],
+  "provides": ["soup"],
   "release": 19282,
   "repo": "https://github.com/JustSoup321/minetest-soup",
   "score": 11.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7b4b84da57.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7b4b84da57.png"],
   "short_description": "A mod that adds a few new food items.",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "survival"
-  ],
+  "tags": ["food", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7b4b84da57.png",
   "title": "Soup",
   "translation_url": null,

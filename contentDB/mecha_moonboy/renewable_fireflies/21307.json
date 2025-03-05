@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -314,27 +312,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Registers a very simple and understandable ABM in init.lua that generates fireflies above the ground if there is space for them. Originally created because of sparse coal generation experiments as a replacement for torches.",
-  "maintainers": [
-    "mecha_moonboy"
-  ],
+  "maintainers": ["mecha_moonboy"],
   "media_license": "MIT",
   "name": "renewable_fireflies",
-  "provides": [
-    "renewable_fireflies"
-  ],
+  "provides": ["renewable_fireflies"],
   "release": 21307,
   "repo": "https://github.com/mecha-moonboy/renewable_fireflies",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5c9ca370b7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5c9ca370b7.png"],
   "short_description": "Registers an ABM on some ground blocks that spawn fireflies if certain criteria are met.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["environment", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5c9ca370b7.png",
   "title": "Renewable Fireflies",
   "translation_url": null,

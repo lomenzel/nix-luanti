@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/DustyDave961/flowing_concrete/issues",
   "license": "MIT",
   "long_description": "# Flowing Concrete\nConcrete that hardens over time. Cheap alternative to lava cooling. Flowing concrete become full blocks by default, or slabs if enabled.\n\n## Items\nFlowing Concrete adds the following items:\n\n* Concrete Bucket, for placing Concrete Source.\n* Concrete Source: liquid concrete\n* Flowing Concrete: wet concrete that flows outward from Concrete Source.\n* Concrete Slab: half block of concrete, which flowing concrete turns into if enabled.\n* Concrete Stair\n* Inner Concrete Stair\n* Outer Concrete Stair\n### Basic Materials\nThe following items are only added if Basic Materials isn't enabled\n\n* Concrete Block\n* Wet Cement, for crafting Concrete Bucket.",
-  "maintainers": [
-    "DumbDave961"
-  ],
+  "maintainers": ["DumbDave961"],
   "media_license": "CC-BY-SA-4.0",
   "name": "flowing_concrete",
-  "provides": [
-    "flowing_concrete"
-  ],
+  "provides": ["flowing_concrete"],
   "release": 28488,
   "repo": "https://github.com/DustyDave961/flowing_concrete",
   "score": 3.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/be8ed2d2cc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/be8ed2d2cc.png"],
   "short_description": "Adds flowing concrete that hardens over time. Cheap alternative to lava cooling.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/be8ed2d2cc.png",
   "title": "Flowing Concrete",
   "translation_url": null,
@@ -450,9 +440,7 @@
       {
         "is_optional": false,
         "name": "fluid_lib",
-        "packages": [
-          "IcyDiamond/fluid_lib"
-        ]
+        "packages": ["IcyDiamond/fluid_lib"]
       },
       {
         "is_optional": false,
@@ -567,18 +555,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

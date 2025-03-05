@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -405,26 +403,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_hbarmor/issues",
   "license": "MIT",
   "long_description": "This HUD bar shows a percentage and will only be displayed if you wear at least one piece of armor. A percentage of 100% means your armor is in perfect or near-perfect condition, and 0% means your armor is completely destroyed (not displayed by default).\nAlso you need to wear at least 4 different pieces of armor to reach 100%.\nNote the percentage only denotes the armor's condition, not its quality or strength.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hbarmor",
-  "provides": [
-    "hbarmor"
-  ],
+  "provides": ["hbarmor"],
   "release": 12993,
   "repo": "https://codeberg.org/Wuzzy/minetest_hbarmor",
   "score": 28.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/HDyCAQosWB.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/HDyCAQosWB.png"],
   "short_description": "Adds a HUD bar displaying the current damage of the player's armor.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "survival"
-  ],
+  "tags": ["hud", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HDyCAQosWB.png",
   "title": "Armor HUD bar",
   "translation_url": null,

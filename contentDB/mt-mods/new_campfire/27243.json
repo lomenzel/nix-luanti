@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,27 +299,17 @@
   "issue_tracker": "https://github.com/mt-mods/new_campfire/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "This is my fork of googol's new_campfire mod, with various improvements (fires burn into embers, can be re-lit by adding sticks, cook food on a grille instead of in the flames)",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "new_campfire",
-  "provides": [
-    "new_campfire"
-  ],
+  "provides": ["new_campfire"],
   "release": 27243,
   "repo": "https://github.com/mt-mods/new_campfire",
   "score": 185.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/j6mT5Jdv8e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/j6mT5Jdv8e.png"],
   "short_description": "You can craft and use better campfire.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/j6mT5Jdv8e.png",
   "title": "New Campfire",
   "translation_url": null,

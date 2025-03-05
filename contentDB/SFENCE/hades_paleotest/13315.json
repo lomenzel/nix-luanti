@@ -25,20 +25,14 @@
   "issue_tracker": "https://github.com/sfence/paleotest/issues",
   "license": "GPL-3.0-only",
   "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nMod [PaleoTest ](https://content.minetest.net/packages/ElCeejo/paleotest/) modified for [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\nIn github code follow branch [sfence_hades_revisited](https://github.com/sfence/paleotest/tree/sfence_hades_revisited).\n\nThis mod is extended, so you can use it to get seeds, saplings and DNA parts for many plants, trees and animals is you use this mod with mods hades_cool_trees,  [hades_extrafarming](https://content.minetest.net/packages/SFENCE/hades_extensionmods/) and/or [hades_animals](https://content.minetest.net/packages/SFENCE/hades_extensionmods/).",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "GPL-3.0-only",
   "name": "hades_paleotest",
-  "provides": [
-    "hades_paleotest"
-  ],
+  "provides": ["hades_paleotest"],
   "release": 13315,
   "repo": "https://github.com/sfence/paleotest.git",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c89eaf4739.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c89eaf4739.png"],
   "short_description": "Adds Not Only Prehistoric Fauna and Flora to Hades Revisited.",
   "state": "APPROVED",
   "tags": [
@@ -65,23 +59,17 @@
       {
         "is_optional": false,
         "name": "hades_vessels",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_dye",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_chests",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -100,37 +88,27 @@
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_furnaces",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_trees",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_player",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_farming",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -170,83 +148,61 @@
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_glowcrystals",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "SFENCE/hades_mesecons": [
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_glowcrystals",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_doors",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_torches",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_dye",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_materials",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_chests",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "SFENCE/hades_paleotest": [
       {
         "is_optional": false,
         "name": "hades_walls",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -267,16 +223,12 @@
       {
         "is_optional": false,
         "name": "hades_stairs",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -296,73 +248,52 @@
       {
         "is_optional": false,
         "name": "hades_fences",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_glowcrystals",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_vessels",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "mob_core",
-        "packages": [
-          "talas/colourhop",
-          "mt-mods/mob_core"
-        ]
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
       },
       {
         "is_optional": false,
         "name": "hades_extravessels",
-        "packages": [
-          "SFENCE/hades_extensionmods"
-        ]
+        "packages": ["SFENCE/hades_extensionmods"]
       },
       {
         "is_optional": false,
         "name": "appliances",
-        "packages": [
-          "SFENCE/appliances"
-        ]
+        "packages": ["SFENCE/appliances"]
       },
       {
         "is_optional": false,
         "name": "hades_mesecons",
-        "packages": [
-          "SFENCE/hades_mesecons"
-        ]
+        "packages": ["SFENCE/hades_mesecons"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_mapgen",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_farming",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "mt-mods/mob_core": [

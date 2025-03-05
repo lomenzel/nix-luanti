@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://gitlab.com/daretmavi/bucket-lite/-/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This is a fork of **Minetest Game mod: bucket**\n\nFor changes see changelog:<br>\n[https://gitlab.com/daretmavi/bucket-lite/-/blob/master/CHANGELOG](https://gitlab.com/daretmavi/bucket-lite/-/blob/master/CHANGELOG)\n\n\nFork of **Minetest Game mod: bucket**\n\n**Description:**\n\n- only one bucket for water and river water types (with bucket_unify_river_water=true)\n- flowing is only one block to prevent flooding with one bucket\n- If \"bucket water\" gets in contact with normal water or river water, then the bucket water changes to this type.\n- If \"bucket lava\" gets in contact with water, or default lava, the bucket lava changes to default type - this can result in lava flooding. Just don't mess up with lava :)\n- Liquid can be taken from flowing liquid - you don't have to look for source\n- Bucket liquids are not renewable\n- more buckettypes added (wood, stone, steel, bronze, mese, diamond, gold)\n- default bucker for aliases is steel\n\n**Working with other mods:**\n\n**dynamic_liquid** - actually works, it creates obsidian easily (good enough)\n\n- If you want full support, some changes are needed:\n\t- see my fork https://github.com/daretmavi/dynamic_liquid (no warranty, I just tried some changes)\n\n**Screenshots:**\n\n## Bucket types:\n\n![Image](https://content.minetest.net/uploads/tEOVynYyvY.png)\n\nSupport for other mod bucket liquids:\n\n- like water_life muddy water\n\n![Image](https://content.minetest.net/uploads/9uTESWi3Eb.png)\n\n## Recipe\n\n### Clasic\n\n![Image](https://content.minetest.net/uploads/MWl8DStQR3.png)\n\n* **bucket_use_clasic_recipe = true**\n\n### New\n\n![Image](https://content.minetest.net/uploads/2ab89DJ83G.png)\n\n* **bucket_use_clasic_recipe = false**\n\n## Behavior\nThis is default behavior:\n\n![Image](https://content.minetest.net/thumbnails/2/lsUGZm7Xml.png)\n![Image](https://content.minetest.net/thumbnails/2/aIh1cA9r1g.png)\n![Image](https://content.minetest.net/thumbnails/2/181YoCIx1u.png)\n\nRiver water is ok, but normal water and lava can create real flood ... from one bucket. It's crazy.\n\nThis mod changes it to just one block\n\n![Image](https://content.minetest.net/thumbnails/2/EbrYRYwzVm.png)",
-  "maintainers": [
-    "daret"
-  ],
+  "maintainers": ["daret"],
   "media_license": "CC-BY-SA-3.0",
   "name": "bucket",
-  "provides": [
-    "bucket"
-  ],
+  "provides": ["bucket"],
   "release": 6491,
   "repo": "https://gitlab.com/daretmavi/bucket-lite.git",
   "score": 137.4,
@@ -443,10 +437,7 @@
   ],
   "short_description": "Bucket - fork of Minetest Game mod with reduced \"bucket\" liquid flowing",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "tools"
-  ],
+  "tags": ["environment", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EbrYRYwzVm.png",
   "title": "Bucket lite",
   "translation_url": null,

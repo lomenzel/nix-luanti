@@ -11,14 +11,10 @@
   "issue_tracker": "https://git.minetest.land/erlehmann/xcam/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "With the command `/snap` a player can take in-game photos.\n\nPhotos can be placed on the sides of nodes using right click.",
-  "maintainers": [
-    "erlehmann"
-  ],
+  "maintainers": ["erlehmann"],
   "media_license": "AGPL-3.0-or-later",
   "name": "xcam",
-  "provides": [
-    "xcam"
-  ],
+  "provides": ["xcam"],
   "release": 21993,
   "repo": "https://git.minetest.land/erle/xcam.git",
   "score": 309.9,
@@ -30,10 +26,7 @@
   ],
   "short_description": "Adds a command to take in-game photos.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "oneofakind__original"
-  ],
+  "tags": ["decorative", "oneofakind__original"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5e3235908a.png",
   "title": "Xcam",
   "translation_url": null,

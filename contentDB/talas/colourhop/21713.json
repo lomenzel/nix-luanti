@@ -11,9 +11,7 @@
   "issue_tracker": "https://gitlab.com/talas777/colourhop/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Colour Hop!  \n\nYou are an invicible blob in a flat colourless world.  \n\nBring back colour and perhaps even challenge the evil dragons!  \n\nIncludes sounds and music from opengameart.org.  \nUses dragons from draconis mod. (heavily modified)  \nUses fireworks from new_fireworks mod.  \nUses center print from central_message mod.  \nUses mob support from mobkit and mob_core mods.  \n  \nChat with us? https://discord.gg/kj86Y5ZXXg  \n  \n### What's new:  \n - New labratory building that can be chained up for limitless creativity. (Requires defeating all 3 dragons first)\n - Most buildings can now be activated by signals.\n - An exciting new challenge from The Royal Blob, who is hidden well within the depths of the game.\n - More reliable handling of events, such as jumping.",
-  "maintainers": [
-    "talas"
-  ],
+  "maintainers": ["talas"],
   "media_license": "CC-BY-SA-3.0",
   "name": "colourhop",
   "provides": [
@@ -55,11 +53,7 @@
   ],
   "short_description": "Help the jumping blobs defeat the evil dragons and bring colour back to the world.",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2021", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3ad44301ec.png",
   "title": "Colour Hop",
   "translation_url": null,

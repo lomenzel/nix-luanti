@@ -115,9 +115,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -340,27 +338,17 @@
   "issue_tracker": "https://github.com/Gael-de-Sailly/valleys_mapgen/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "Original Lua version of the Valleys mapgen, before it was merged in Minetest's core in January 2016. It provides some more features than the core version, like new plants, new dirt variations and a soft biome system.",
-  "maintainers": [
-    "Gael de Sailly"
-  ],
+  "maintainers": ["Gael de Sailly"],
   "media_license": "GPL-2.0-only",
   "name": "valleys_mapgen",
-  "provides": [
-    "valleys_mapgen"
-  ],
+  "provides": ["valleys_mapgen"],
   "release": 274,
   "repo": "https://github.com/Gael-de-Sailly/valleys_mapgen",
   "score": 9.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ISTLC7ek5B.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ISTLC7ek5B.png"],
   "short_description": "A map generator with valleys, rivers, mountains and many plants.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["custom_mapgen", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ISTLC7ek5B.png",
   "title": "Valleys Mapgen",
   "translation_url": null,

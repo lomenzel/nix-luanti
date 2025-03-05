@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "EUPL-1.2",
   "long_description": "# Dripstone\n\nThis Minetest mod adds dripstone to Minetest.\n\nThe mod exposes 4 types of dripstone, which change based on the liquids above them. Dripstone can also be used to create a lava or water farm.\n\nYou can read the [API manual](https://git.noordstar.me/Bram/dripstone/src/branch/main/API.md) for an extensive explanation on how the dripstone works in this mod. This mod is designed to be easy to mod for people who like to expand on existing mods.\n\n## Contribute\n\nYou can contribute by making pull requests or by reaching out to me [on Matrix](https://matrix.to/#/@bram:matrix.directory).\n\n## Licensing\n\nBy default, this work is originally copyrighted under the EUPL v1.2. If you do not wish to use the restrictions of copyleft, you can do the following:\n\n1. You may include the mod on your personal Minetest server without needing to tell me. You will have to use this mod without changing it.\n2. If you wish to modify, change or copy the code under a different license for your own mod/game, reach out to me personally and we can work something out. :)\n",
-  "maintainers": [
-    "Noordstar"
-  ],
+  "maintainers": ["Noordstar"],
   "media_license": "EUPL-1.2",
   "name": "dripstone",
-  "provides": [
-    "dripstone"
-  ],
+  "provides": ["dripstone"],
   "release": 27356,
   "repo": "https://git.noordstar.me/Bram/dripstone",
   "score": 17.5,
@@ -56,10 +52,7 @@
   ],
   "short_description": "Add stalactites and stalagmites to your game.",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "plants_and_farming"
-  ],
+  "tags": ["library", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/925938f2b4.png",
   "title": "Dripstone",
   "translation_url": null,

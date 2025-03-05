@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,15 +429,10 @@
   "issue_tracker": "https://github.com/josegamestest/searchandrescue/issues",
   "license": "GPL-2.0-or-later",
   "long_description": "</div>\n  <h1>search and rescue</h1>\nThis is a mod to search and rescue vehicles in a difficult situation to recover,</br>\nonce found the vehicle the player can pick it up and bring it back to base safely,</br>\nother features are being implemented to the mod</br>\n</div>\n<div>\n<h2>how to use</h2>\nFirst you must get the game resources to make your helicopter</br>\nwhen right-clicking on the helicopter the player will enter a resource form, containing the following resources</br>\n\n 👉 button close: to close the form</br>\n 👉 button goout to: get out of the vehicle</br>\n 👉 button cam_set to: choose the cameras</br>\n 👉 button tools: to use the rescue tools</br>\n\nTo do the rescue on the map the vehicle will live a long rope that can be used to tow other objects.</br>\n  the game has 5 cameras to help you visualize the rescue from a better angle</br>\n</div>\n<div>\nIn this mod the helicopter uses a good part of the mod code <a href=\"https://github.com/Desour/helicopter\">Desour/helicopter<a>,</br>\n   this version will be fixed and will continue using this code as the previous forck</br>\n  \n </div>\n <div>\n<h2>❗Attention</h2>\n mod under development and may contain some bugs<br>\n It is important to test and evaluate the mod on your own, any decision to put it on the server must be the sole responsibility of the person who purchased the mod.\n   <div>",
-  "maintainers": [
-    "joseanastacio"
-  ],
+  "maintainers": ["joseanastacio"],
   "media_license": "MIT",
   "name": "searchandrescue",
-  "provides": [
-    "factory_mine",
-    "searchandrescue"
-  ],
+  "provides": ["factory_mine", "searchandrescue"],
   "release": 16184,
   "repo": "https://github.com/josegamestest/searchandrescue",
   "score": 22,
@@ -451,10 +444,7 @@
   ],
   "short_description": "Adds search and rescue vehicles for difficult situations",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bc5079f15f.png",
   "title": "Search and Rescue",
   "translation_url": null,

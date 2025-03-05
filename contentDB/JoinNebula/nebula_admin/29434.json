@@ -11,14 +11,10 @@
   "issue_tracker": "https://gitgud.io/JoinNebula/nebula_admin/-/issues",
   "license": "CC0-1.0",
   "long_description": "# Nebula Admin\n\nThis mod lets you manage configs from in-game using a GUI.  \nPlease note that a server restart may be needed for some mods after a config change, since some mods cache their config values.\nAdditionally, this mod does not currently let you edit the config of modpacks (like `3D Armor`) due to engine limitations. You can only edit regular mod settings and the server settings.\n\n## Setup\n\nThis mod needs \"trusted\" permissions to function. This is because Luanti's mod sandboxing means that normally mods cannot access files outside their own folder. This mod needs to be trusted to access the full details of other mods' settings.\n\nAdd the following line to your `minetest.conf` file:\n\n```conf\nsecure.trusted_mods = nebula_admin\n```\n\nIf you already have `trusted_mods`, then add this mod to the end with a comma:\n\n```conf\nsecure.trusted_mods = example_mod,another_example_mod,nebula_admin\n```\n\n## Usage\n\nTo open the admin panel, use the `/admin_panel` command. You need the `nebula_admin_panel` privilege to use this command.\n",
-  "maintainers": [
-    "JoinNebula"
-  ],
+  "maintainers": ["JoinNebula"],
   "media_license": "CC0-1.0",
   "name": "nebula_admin",
-  "provides": [
-    "nebula_admin"
-  ],
+  "provides": ["nebula_admin"],
   "release": 29434,
   "repo": "https://gitgud.io/JoinNebula/nebula_admin",
   "score": 9.9,
@@ -28,11 +24,7 @@
   ],
   "short_description": "In-game administrator control panel/dashboard/configuration editor",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "gui",
-    "server_tools"
-  ],
+  "tags": ["complex_installation", "gui", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4f0f6b413f.png",
   "title": "Nebula Admin",
   "translation_url": null,

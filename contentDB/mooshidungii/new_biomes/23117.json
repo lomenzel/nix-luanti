@@ -232,9 +232,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -483,14 +481,10 @@
   "issue_tracker": "https://github.com/MidnightPhantom/new_biomes/issues",
   "license": "GPL-3.0-only",
   "long_description": "# underground_biomes\nIf you are a fan of underground biomes, this mod is for you. The main purpose of making this mod was to make overworld  biomes in the deep underground. \n\nCurrently what you'll get is all the kind of deserts, all grasslands and two cold biomes, with a bonus forest. And to make each biome worth exploring you'll find all the ores in the biomes as weird structures.\n\nWhat I intend to in future:\n\n1. More Biomes\n2. Water bodies\n3. More plants\n4. A well defined bedrock layer\n5. Crops and even a farmland\n\nIts compatibility(*It does not depend on these but can be used with these mods*):\n\nThe Nether mod, Nether Modpack, ethereal, nssb and dfcaverns.\n\nwhat I recommed you all not use this with:\n\nCaverealms and everness.\n",
-  "maintainers": [
-    "mooshidungii"
-  ],
+  "maintainers": ["mooshidungii"],
   "media_license": "GPL-3.0-only",
   "name": "new_biomes",
-  "provides": [
-    "new_biomes"
-  ],
+  "provides": ["new_biomes"],
   "release": 23117,
   "repo": "https://github.com/MidnightPhantom/new_biomes",
   "score": 3.5,
@@ -501,11 +495,7 @@
   ],
   "short_description": "If you like underground biomes, this thing is for you.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "decorative",
-    "mapgen"
-  ],
+  "tags": ["adventure__rpg", "decorative", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/851eaf6f31.png",
   "title": "New Biomes",
   "translation_url": null,

@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,16 +299,10 @@
   "issue_tracker": "https://github.com/TumeniNodes/pkarcs/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# Simple Arcs\nThis mod adds arc-nodes to Minetest as well as arcs for inner and outer corners.\nNote this is a fork of PEAK's mod Simple Arcs (pkarcs) https://forum.minetest.net/viewtopic.php?f=11&t=14541 which adds arched doors made to work specifically with the mod.\n\n## Dependencies\n- default (included in minetest_game)\n- doors (included in minetest_game)\n- xpanes (included in minetest_game)\n- mesecons (**optional dependency!**)\n\n## Requirements\nWorks with MT/MTG 5.0.0+.",
-  "maintainers": [
-    "TumeniNodes"
-  ],
+  "maintainers": ["TumeniNodes"],
   "media_license": "CC-BY-SA-4.0",
   "name": "pkarcs",
-  "provides": [
-    "pkarcs",
-    "pkarcs_doors",
-    "pkarcs_doors3"
-  ],
+  "provides": ["pkarcs", "pkarcs_doors", "pkarcs_doors3"],
   "release": 1933,
   "repo": "https://github.com/TumeniNodes/pkarcs",
   "score": 178.9,
@@ -321,9 +313,7 @@
   ],
   "short_description": "Adds arched doors",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0TvInMctLq.png",
   "title": "pkarcs",
   "translation_url": null,

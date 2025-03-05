@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# DevTools\nThis gives some comands (actually 2 commands) that allows to modify the world, like changing variables contents or calling functions\n## /exec\nThis command can call functions like `core.chat_send_player(\"singleplayer\", \"[SYS] Hi!\")`, if this command has no params, it will start with a gui, else it will call the specified function like: `/exec core.chat_send_all(\"Hi!\")`\n## /modvars\nThis is the same as `/exec`, but this modify variables, like: `/modvars default {}`, the `default` is a variable of a mod, a table, and `{}` is the new content that will had `default`, this command does the same as `_G[name_of_variable] = new_contents`, Eg: `_G[\"default\"] = {}`.\n\nRunning without params gives a gui, else it modify the specified var with specified contents.\n\n**Note: This can not modify local variables of mods! Only globals like default!. Also, the modvars can not be secure! it may crash or bug the world or it wont modify the variable, if changing variable to be a table or number may not be secure and it will set as string, better use** `/exec variable = contents`",
-  "maintainers": [
-    "KareaGhandTrail"
-  ],
+  "maintainers": ["KareaGhandTrail"],
   "media_license": "MIT",
   "name": "cmd",
-  "provides": [
-    "cmd"
-  ],
+  "provides": ["cmd"],
   "release": 19016,
   "repo": null,
   "score": 1.9,
@@ -28,10 +24,7 @@
   ],
   "short_description": "this gives tools for developers",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "server_tools"
-  ],
+  "tags": ["chat", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5ebbe1fda1.png",
   "title": "DTools",
   "translation_url": null,

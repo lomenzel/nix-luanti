@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/SmallJoker/boost_cart/issues/",
   "license": "CC0-1.0",
   "long_description": "Based on (and fully compatible with) the mod \"carts\" by PilzAdam\nand the one contained in the game [Minetest Game](/packages/Minetest/minetest_game).\nTarget: Run smoothly as possible, even on laggy servers.\n\n\n Features\n----------\n- A fast cart for your railway or roller coaster\n- Easily configurable cart speed using the Advanced Settings\n- Boost and brake rails\n- By mesecons controlled Start-Stop rails\n- Detector rails that send a mesecons signal when the cart drives over them\n- Rail junction switching with the 'right/left' walking keys\n- Handbrake with the 'back' key\n- Support for non-minetest_game subgames",
-  "maintainers": [
-    "Krock"
-  ],
+  "maintainers": ["Krock"],
   "media_license": "CC0-1.0",
   "name": "boost_cart",
-  "provides": [
-    "boost_cart"
-  ],
+  "provides": ["boost_cart"],
   "release": 12459,
   "repo": "https://github.com/SmallJoker/boost_cart",
   "score": 166.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/TBULY9V6cy.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/TBULY9V6cy.png"],
   "short_description": "This mod offers improved minecarts and a few more rail types.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/TBULY9V6cy.png",
   "title": "Boost Cart",
   "translation_url": null,

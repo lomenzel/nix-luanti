@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/sorcerykid/polygraph/issues",
   "license": "MIT",
   "long_description": "Data visualization in Minetest is simple and easy with Polygraph. Thanks to an extensive set of parameters, you can embed dynamic charts within any formspec. \n\n**For complete usage instructions, including working code examples, please refer to the official forum topic.**",
-  "maintainers": [
-    "sorcerykid"
-  ],
+  "maintainers": ["sorcerykid"],
   "media_license": "MIT",
   "name": "polygraph",
-  "provides": [
-    "polygraph"
-  ],
+  "provides": ["polygraph"],
   "release": 2588,
   "repo": "https://bitbucket.org/sorcerykid/polygraph",
   "score": 154.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6NPBfWYNwq.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6NPBfWYNwq.png"],
   "short_description": "A formspec-based charting API providing a rich set of output parameters",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "library"
-  ],
+  "tags": ["gui", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6NPBfWYNwq.png",
   "title": "Polygraph",
   "translation_url": null,

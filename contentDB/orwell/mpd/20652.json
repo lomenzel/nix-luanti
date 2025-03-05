@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod adds a framework to play background music in-game.\n\nMain features include:\n\n- Music is synchronized across clients\n\n- Each player can set an individual volume or turn music off via a chatcommand\n\n- Vote modules for the 'vote' mod by rubenwardy to skip a song or play a specific song\n\n**Note: This mod no longer includes any actual music! Please follow the instructions in README.txt to add your own background music.**",
-  "maintainers": [
-    "orwell"
-  ],
+  "maintainers": ["orwell"],
   "media_license": "AGPL-3.0-or-later",
   "name": "mpd",
-  "provides": [
-    "mpd"
-  ],
+  "provides": ["mpd"],
   "release": 20652,
   "repo": "https://notabug.org/orwell/mpd",
   "score": 469,
-  "screenshots": [
-    "https://content.luanti.org/uploads/9OqrHQio6m.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/9OqrHQio6m.png"],
   "short_description": "A background music backend",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9OqrHQio6m.png",
   "title": "Music Player Daemon",
   "translation_url": null,

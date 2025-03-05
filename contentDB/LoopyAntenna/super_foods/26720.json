@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod adds several foods, including Cake, Cheese, Watermelon, Fruit Salad, Sugar, and even Ice Pops!\nYou can even play in Survival!",
-  "maintainers": [
-    "LoopyAntenna"
-  ],
+  "maintainers": ["LoopyAntenna"],
   "media_license": "CC-BY-SA-4.0",
   "name": "super_foods",
-  "provides": [
-    "super_foods"
-  ],
+  "provides": ["super_foods"],
   "release": 26720,
   "repo": null,
   "score": 16,
@@ -439,10 +433,7 @@
   ],
   "short_description": "Adds many new foods, such as cake, watermelon, coconut, and cheese! You can even play in Survival!",
   "state": "APPROVED",
-  "tags": [
-    "food",
-    "survival"
-  ],
+  "tags": ["food", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b9535d819e.png",
   "title": "Super Foods!",
   "translation_url": null,
@@ -566,18 +557,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

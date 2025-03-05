@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/CBugDCoder/tower_defense/issues",
   "license": "MIT",
   "long_description": "### The Tanks are coming. Are you ready?\n\n#### Usage\n\n*/new_td_game* easy|medium|hard will create a new tower defense game and tell you the ID needed to join it.\n\n*/end_td_game* will end the tower defense game with the id.\n\n*/join_td_game* will join the game of the given id.\n\n*/leave_td_game* will exit your current game.\n\n*/td_high_score* will tell you the current high score.\n\nIn order to create and end games you need the tower_defense priv.\n\nOnce in-game open your inventory to access the store where you can buy barricades, turrets, weapons, health for your flag, or even start the next wave.",
-  "maintainers": [
-    "CBugDCoder"
-  ],
+  "maintainers": ["CBugDCoder"],
   "media_license": "CC-BY-4.0",
   "name": "tower_defense",
-  "provides": [
-    "tower_defense"
-  ],
+  "provides": ["tower_defense"],
   "release": 3473,
   "repo": "https://github.com/CBugDCoder/tower_defense",
   "score": 167.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EfBYUStF9W.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EfBYUStF9W.png"],
   "short_description": "The Tanks are coming. Are you ready?",
   "state": "APPROVED",
-  "tags": [
-    "jam_combat_mod",
-    "pve",
-    "survival"
-  ],
+  "tags": ["jam_combat_mod", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EfBYUStF9W.png",
   "title": "Tower Defense",
   "translation_url": null,

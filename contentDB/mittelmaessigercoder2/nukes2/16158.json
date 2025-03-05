@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "**Origin (by sfan5)** \n\n==== Nuke Mod for Minetest ===\nVersion 2.2\n\nLicense of mod code and textures:\nMIT\n\nLicense of sounds:\n- nuke_explode.ogg: Jose Ortiz 'MindChamber' (CC0)\n- nuke_ignite.ogg: Wuzzy's derivative work of a sound by Ned Bouhalassa (CC0)\n\t<https://freesound.org/people/Ned%20Bouhalassa/sounds/8320/>\n\t\n\n**My Version (mittelmaessigercoder2)**\nThis mod would not be possible without sfan5. He did the hard work, I just added some stuff based on it.",
-  "maintainers": [
-    "mittelmaessigercoder2"
-  ],
+  "maintainers": ["mittelmaessigercoder2"],
   "media_license": "CC0-1.0",
   "name": "nukes2",
-  "provides": [
-    "nukes2"
-  ],
+  "provides": ["nukes2"],
   "release": 16158,
   "repo": null,
   "score": 247.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5776b6ca0d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5776b6ca0d.png"],
   "short_description": "Adds more TNT",
   "state": "APPROVED",
-  "tags": [
-    "creative"
-  ],
+  "tags": ["creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5776b6ca0d.png",
   "title": "More TNT",
   "translation_url": null,

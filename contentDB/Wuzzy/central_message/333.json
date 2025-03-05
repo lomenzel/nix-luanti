@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "GPL-2.0-only",
   "long_description": "This mod is purely an API mod which allows other mods to display a short message at the center of the screen.\nIt is directed to mod and subgame authors. Players only need to download this if another mod depends on it.\n\nEach message is displayed for 5 seconds, then it is removed. By default, up to 7 messages are displayed at once (further messages will cause the oldest message to be removed).\nWhen multiple messages are pushed quickly in succession, the messages will be “stacked” on the screen.\nMessages can either be displayed to a single single player, or to all players at once.\nSome server configuration can be made in the advanced settings menu.\nThe API functions are thus very analogous to `minetest.send_chat_player` and `minetest.send_chat_all`.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "GPL-2.0-only",
   "name": "central_message",
-  "provides": [
-    "central_message"
-  ],
+  "provides": ["central_message"],
   "release": 333,
   "repo": "http://repo.or.cz/minetest_central_message.git",
   "score": 4.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/CXCqJeBCqb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/CXCqJeBCqb.png"],
   "short_description": "Simple API to show messages to the center of the screen to players.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CXCqJeBCqb.png",
   "title": "Central Message",
   "translation_url": null,

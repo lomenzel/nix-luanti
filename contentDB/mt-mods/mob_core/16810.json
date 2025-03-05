@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/mt-mods/mob_core/issues",
   "license": "GPL-3.0-only",
   "long_description": "**NO LONGER SUPPORTED: This package has been dropped in favour of Creatura, any modds dependant on it will likely remained unmaintained or be updated to Creatura in the future.**\n\nThis mod is meant as an expansion of mobkit with new hq/lq functions and other functions similar to those used in mobs_redo that should allow for more consisent behaviors but won't force the user into using them.\n\nSome things to note:\n- This mod is in alpha, expect issues\n- Because my coding skills improved a lot throughout development, a lot of the code is inconsistent\n- A few things were taken from mobs_redo, so big thanks to that mod and it's contributors",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-only",
   "name": "mob_core",
-  "provides": [
-    "mob_core"
-  ],
+  "provides": ["mob_core"],
   "release": 16810,
   "repo": "https://github.com/mt-mods/mob_core",
   "score": 352.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b80c9dd0c4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b80c9dd0c4.png"],
   "short_description": "A Mob API meant to expand upon mobkit and bring easy to use features for creating new Mobs.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b80c9dd0c4.png",
   "title": "Mob Core",
   "translation_url": null,

@@ -25,9 +25,7 @@
   "issue_tracker": "https://github.com/minetest-palamod/palamod/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "**While I may provide bugfixes and compatibility with upcomming MineClone2 versions, I am no longer working on this project. If someone is interested into working on this again please reach me on GitHub or Discord**\n\nThis project is a free clone of the main modpack of a french minecraft server called [Paladium](https://paladium-pvp.fr/).\n\nThis server was created by the french youtuber [FuzeIII](https://www.youtube.com/channel/UCfznY5SlSoZoXN0-kBPtCdg) and is the biggest french pvp-faction.\n\nI attemp to provide players a good alternative, providing singleplayer and multiplayer support, for any purpose.\nYou can freely create a server with this modpack if you want or enjoy singleplayer.",
-  "maintainers": [
-    "AFCM"
-  ],
+  "maintainers": ["AFCM"],
   "media_license": "CC-BY-SA-4.0",
   "name": "palamod",
   "provides": [
@@ -60,17 +58,10 @@
   "release": 22540,
   "repo": "https://github.com/minetest-palamod/palamod",
   "score": 4.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a6d32d1166.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a6d32d1166.png"],
   "short_description": "Palamod modpack for MineClone2",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "pve",
-    "pvp",
-    "survival"
-  ],
+  "tags": ["multiplayer", "pve", "pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a6d32d1166.png",
   "title": "Palamod",
   "translation_url": null,
@@ -227,9 +218,7 @@
       {
         "is_optional": false,
         "name": "mcl_item_id",
-        "packages": [
-          "Wuzzy/mineclone2"
-        ]
+        "packages": ["Wuzzy/mineclone2"]
       },
       {
         "is_optional": false,
@@ -288,9 +277,7 @@
       {
         "is_optional": false,
         "name": "mcl_particles",
-        "packages": [
-          "Wuzzy/mineclone2"
-        ]
+        "packages": ["Wuzzy/mineclone2"]
       },
       {
         "is_optional": false,
@@ -439,9 +426,7 @@
       {
         "is_optional": false,
         "name": "lighting_monoid",
-        "packages": [
-          "TestificateMods/lighting_monoid"
-        ]
+        "packages": ["TestificateMods/lighting_monoid"]
       }
     ],
     "TestificateMods/playerphysics": [],

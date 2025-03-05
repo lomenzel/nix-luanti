@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,26 +247,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_mtg_plus/issues",
   "license": "MIT",
   "long_description": "This is a mod for Minetest Game that adds various decorative building blocks that are designed to fit the game's general theme well. Themes include:\n\n* Stone/cobblestone/sandstone\n* Snow and ice\n* Metal\n* Luxury (gold)\n* Papyrus\n\nThis mod also adds slabs, stairs, ladders, doors, trapdoors and, if the `furniture` mod is used, furniture.\n\nThis mod also offers compability with other (similar) mods and to minimize redundancy, so it should be relatively safe to install this mod.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mtg_plus",
-  "provides": [
-    "mtg_plus"
-  ],
+  "provides": ["mtg_plus"],
   "release": 11968,
   "repo": "https://codeberg.org/Wuzzy/minetest_mtg_plus",
   "score": 31.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/lcvJD4z5WC.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/lcvJD4z5WC.png"],
   "short_description": "Adds various simple decorative blocks, doors, panes and other items, focusing on snow, ice, luxury, bamboo and more.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "creative"
-  ],
+  "tags": ["building", "creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/lcvJD4z5WC.png",
   "title": "Minetest Game Plus",
   "translation_url": null,
@@ -526,18 +515,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

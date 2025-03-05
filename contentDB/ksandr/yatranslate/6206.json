@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/ksandronline/yatranslate/issues",
   "license": "CC0-1.0",
   "long_description": "Adds commands to translate chat messages into the recipient's language.\nFor the module to work, you need to create an account on the service cloud.yandex.com\nUnfortunately, the translation function is paid, but the quality of the translation is high-quality.\nAt the time of writing the module, translation works in 88 languages in any combination.\nAfter registering on the cloud.yandex.com for the module to work, you must specify the following parameters:\nAIM token and folder id.\n\nExample:\n\n/ru Hello<br>\n<ksandr> Привет.<br>\n/en Я знаю английский<br>\n<ksandr> I know English<br>\n\t\n\t**Important** for the mod to work, you need an account on http://cloud.yandex.com\n        \nДобавляет команды для перевода сообщений чата на язык получателя.        \nДля работы модуля необходимо создать аккаунт на сервисе cloud.yandex.com\nФункция перевода к сожалению платная, но качество перевода качественное.\nНа момент написания модуля работает перевод на 88 языках в любой комбинации.\nПосле регистрации на cloud.yandex.com для работы модуля необходимо указать параметры: \nAIM token и folder id.",
-  "maintainers": [
-    "ksandr"
-  ],
+  "maintainers": ["ksandr"],
   "media_license": "CC0-1.0",
   "name": "yatranslate",
-  "provides": [
-    "yatranslate"
-  ],
+  "provides": ["yatranslate"],
   "release": 6206,
   "repo": "https://github.com/ksandronline/yatranslate",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ArzjgVJ00Q.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ArzjgVJ00Q.png"],
   "short_description": "Adds commands to translate chat messages into the recipient's language.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "multiplayer"
-  ],
+  "tags": ["chat", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ArzjgVJ00Q.png",
   "title": "Chat translate",
   "translation_url": null,

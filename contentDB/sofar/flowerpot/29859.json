@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29825,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/minetest-mods/flowerpot/issues/",
   "license": "LGPL-2.1-only",
   "long_description": "This mesh node based flowerpot allows players to insert basic plants and cacti into pots. Mods that add additional plants need special handling to allow those plants to be inserted into these flowerpots as well. The benefit is that these flower pots do not use entities, which may help busy servers.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "LGPL-2.1-only",
   "name": "flowerpot",
-  "provides": [
-    "flowerpot"
-  ],
+  "provides": ["flowerpot"],
   "release": 29859,
   "repo": "https://github.com/minetest-mods/flowerpot",
   "score": 517.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8EyBIStC1v.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8EyBIStC1v.png"],
   "short_description": "A stylish flowerpot that can contain most plants.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "plants_and_farming"
-  ],
+  "tags": ["building", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8EyBIStC1v.png",
   "title": "Flowerpot",
   "translation_url": null,

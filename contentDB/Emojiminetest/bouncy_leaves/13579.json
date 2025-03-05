@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/soft_leaves/issues",
   "license": "MIT",
   "long_description": "# Leaves are solid blocks...\nThat does not make any sense, right? You should give this mod a try!\n\nThis mod adds bouncy and fall damage reduce effect to leaves.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "bouncy_leaves",
-  "provides": [
-    "bouncy_leaves"
-  ],
+  "provides": ["bouncy_leaves"],
   "release": 13579,
   "repo": "https://github.com/C-C-Minetest-Server/soft_leaves",
   "score": 1.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cec073e563.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cec073e563.png"],
   "short_description": "Adds bouncy and fall damage reduce effect to leaves",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "pve"
-  ],
+  "tags": ["environment", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cec073e563.png",
   "title": "Bouncy Leaves",
   "translation_url": null,

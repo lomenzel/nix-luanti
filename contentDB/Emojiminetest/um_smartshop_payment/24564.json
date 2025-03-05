@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/um_smartshop_payment/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Smartshop Payment with Unified Money\n\nThis mod hooks [flux's fork of Smartshops](https://content.minetest.net/packages/rheo/smartshop/) onto [Unified Money](https://content.minetest.net/packages/Emojiminetest/unified_money/), allowing buyers to buy items without taking out physical currencies.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "um_smartshop_payment",
-  "provides": [
-    "um_smartshop_payment"
-  ],
+  "provides": ["um_smartshop_payment"],
   "release": 24564,
   "repo": "https://github.com/C-C-Minetest-Server/um_smartshop_payment",
   "score": 9.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/8971fd17e1.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/8971fd17e1.png"],
   "short_description": "Handle smartshop payment digitally",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer"
-  ],
+  "tags": ["commerce", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8971fd17e1.png",
   "title": "Smartshop Payment with Unified Money",
   "translation_url": null,
@@ -53,16 +44,12 @@
       {
         "is_optional": false,
         "name": "um_core",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       },
       {
         "is_optional": false,
         "name": "um_plugin_playername",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       }
     ],
     "Emojiminetest/unified_money": [
@@ -81,18 +68,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

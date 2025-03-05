@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -418,28 +416,17 @@
   "issue_tracker": "https://github.com/minefaco/beautiflowers/issues",
   "license": "LGPL-3.0-only",
   "long_description": "[1.2 RELEASE]\n-Adds compatibility with flowerpots!\n-Bonsais are now craftables.\n\nThis mod adds many types of flowers to your world.\n\nYou can configure the amount of flowers that you want, just look at spawn.lua\n\nAll the flowers has been renamed, so, this version isn't compatible with the older one.\n\nBonsais only grows in stone, mossy cobblestone or cobble.",
-  "maintainers": [
-    "1faco"
-  ],
+  "maintainers": ["1faco"],
   "media_license": "CC0-1.0",
   "name": "beautiflowers",
-  "provides": [
-    "beautiflowers"
-  ],
+  "provides": ["beautiflowers"],
   "release": 29921,
   "repo": "https://github.com/minefaco/beautiflowers",
   "score": 697.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1DldpIOiiQ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1DldpIOiiQ.png"],
   "short_description": "Adds many flowers to MT",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "environment",
-    "mapgen",
-    "plants_and_farming"
-  ],
+  "tags": ["decorative", "environment", "mapgen", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1DldpIOiiQ.png",
   "title": "Beautiful Flowers",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/jukebox/issues/new/choose/",
   "license": "WTFPL",
   "long_description": "# Minetest mod \"Jukebox\"\nVersion: 2.0\n\n## License of source code\n- Copyright (C) 2013 BlockMen <blockmen2015@gmail.com>\n- Copyright (C) 2015-2016 LNJ <lnj.git@gmail.com>\n- Copyright (C) 2016 Rui\n\nwftpl\n\n## License of textures\n(by Authors)\n\n- BlockMen (WTFPL):\n    - `jukebox_disc_*.png` (added coulors by lightonflux)\n\n\n## License of music: CC0\nThe authors are (freesound.org):\n- cheesepuff (song1)\n- geerterig (song2)\n- rap2h (song3)\n- keffstay (song4)\n- usedtobe (song5)\n- zagi2 (song6)\n\n\n\n## Notice\nThis mod is only useable with Minetest 5.0 or above!\n\n\n## Description\nIn the Jukebox plus mod you've got 9 different music discs.\n\nYou can add music by copy your ogg file to the sounds folder and renaming them to e.g. this:\n`jukebox_disc_2.0.ogg`\nBut pay attention that the sounds have to be mono, else you can hear the music all over the world.\n\nThere are 9 discs so there are the sound files `jukebox_disc_1.*.ogg` to `jukebox_disc_9.*.ogg`.\nThe small star can be replaced by the numbers 0 to 9.\n\nSo you can have up to 9x10 (90) songs!\n\n\n## Using the mod\nTo use the jukebox, you have to craft one. You need 8 wood and 1 mese crystal to craft it following way:\n\n```\nwood      wood      wood\nwood  mese crystal  wood\nwood      wood      wood\n```\n\nJust rightclick with a music disc in your hand on the jukebox and it will play a random song from this disc.\nTo stop the music rightclick the box again and it will drop the music disc.\n\n\n## API Documentation\nThe jukebox mod offers a simple API to register new discs. See here how to use it:\n\n```lua\njukebox.register_disc(\"mymod:new_disc\", {\n\tdescription = \"New Disc\",\n\t-- ^ The item description\n\tinventory_image = \"mymod_new_disc.png\",\n\t-- ^ The disc image / texture\n\tmusic_name = \"mymod_new_disc\",\n\t-- ^ This is the sound that'll be played if you insert the disc\n\t \n\t-- if you want to you can add here more options as in minetest.register_craftitem (except stack_max)\n})\n```\n\n\n\n## Links\n- [Forum Topic](https://forum.minetest.net/viewtopic.php?id=13505)\n- [GitHub](https://github.com/minetest-mods/jukebox)\n",
-  "maintainers": [
-    "LNJ"
-  ],
+  "maintainers": ["LNJ"],
   "media_license": "WTFPL",
   "name": "jukebox",
-  "provides": [
-    "jukebox"
-  ],
+  "provides": ["jukebox"],
   "release": 13108,
   "repo": "https://github.com/minetest-mods/jukebox",
   "score": 8.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ccb7f84665.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ccb7f84665.png"],
   "short_description": "A mod that adds a jukebox with nine different discs.",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ccb7f84665.png",
   "title": "Müzik Kutusu",
   "translation_url": null,

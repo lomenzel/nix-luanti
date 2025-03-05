@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://github.com/GenesisMT/mask/issues/new/choose/",
   "license": "MIT",
   "long_description": "A simple mod that adds a mask to protect yourself lol. The mod depends 3d_armor.\n\n```\n\n\n---\n---Mask\n---\n\nif minetest.get_modpath(\"3d_armor\") then\n  \n  armor:register_armor(\"mask:mask\", {\n\t\tdescription = (\"Mask\"),\n\t\tinventory_image = \"mask_inv_mask.png\",\n\t\tgroups = {armor_head=1, armor_heal=12, armor_use=10, armor_fire=1},\n\t\tarmor_groups = {fleshy=15},\n\t\tdamage_groups = {cracky=2, snappy=1, level=3},\n\t})\nend\n\n\n---\n---Craft\n---\n\nminetest.register_craft({\n\toutput = \"mask:mask\",\n\trecipe = {\n\t\t{\"\", \"\", \"\"},\n\t\t{\"farming:string\", \"default:paper\", \"farming:string\"},\n\t\t{\"\", \"\", \"\"},\n\t}\n})\n```",
-  "maintainers": [
-    "GenesisMT"
-  ],
+  "maintainers": ["GenesisMT"],
   "media_license": "MIT",
   "name": "mask",
-  "provides": [
-    "mask"
-  ],
+  "provides": ["mask"],
   "release": 7399,
   "repo": "https://github.com/GenesisMT/mask",
   "score": 305.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/CAVfbDzDts.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/CAVfbDzDts.png"],
   "short_description": "A simple mask you can wear.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg"
-  ],
+  "tags": ["adventure__rpg"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CAVfbDzDts.png",
   "title": "Mask",
   "translation_url": null,

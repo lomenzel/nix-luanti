@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/srifqi/banondie/issues",
   "license": "CC0-1.0",
   "long_description": "This mod add new rule of gameplay.\n\n**No respawn!**\n\nThis means, you are banned from the world you are playing in.\nThere are 2 option to ban the player, the player or the ip.\nJust set the `USE_ADVANCEDBAN` parameter to be\n\n* `false`: to ban the ip (the normal ban)\n* `true`: to ban the player (requires [`advancedban` mod](https://content.minetest.net/packages/srifqi/advancedban/))",
-  "maintainers": [
-    "srifqi"
-  ],
+  "maintainers": ["srifqi"],
   "media_license": "CC0-1.0",
   "name": "banondie",
-  "provides": [
-    "banondie"
-  ],
+  "provides": ["banondie"],
   "release": 8102,
   "repo": "https://github.com/srifqi/banondie",
   "score": 151.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/b4dc39fe5a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/b4dc39fe5a.png"],
   "short_description": "Ban players upon death.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b4dc39fe5a.png",
   "title": "Banned on Die",
   "translation_url": null,

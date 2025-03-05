@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/starninjas/Jail_Escape",
   "license": "LGPL-2.1-or-later",
   "long_description": "In this game, the rules are simple... ESCAPE JAIL!\nYou're a good guy standing up for what is right, but the government turns evil, and soon you're in jail.\nYou must break out, using several artifacts that are scattered across the giant maze, whether it's a old apple core from a trash can, a energy restoring CrocAid from the vending machine (drink only if you're out of energy!) or a wall-busting dynamite from a vault.\nThere are several guards scattered across the map, watch out! If you die, GAME OVER!\nTo win the game, escape by simply jumping out of the whole building into the fresh air of freedom!\n\n**NOTE: There is a issue right now, where sometimes when you try to start a new game, it just glitches and you win, so to fix this, and so you don't have to wait forever to start a new game, just wait a few seconds to start a new game, and you shouldn't run into this problem.**\n**NOTE2: Only play in singleplayer for now **\n\n-Known Bug: A lot of times, the player just \"wins\" when trying to start a new game\n-Known Bug: Sometimes dynamite blows up the ground..\n-Todo: Add a timer with highscore and such\n\nThis is a fork of Labyrinth,\nthanks to ExeVirus for the original game and his help with this game!",
-  "maintainers": [
-    "StarNinjas"
-  ],
+  "maintainers": ["StarNinjas"],
   "media_license": "CC0-1.0",
   "name": "jail_escape",
   "provides": [
@@ -37,9 +35,7 @@
   ],
   "short_description": "Escape the Jail! Don't get caught!",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021"
-  ],
+  "tags": ["jam_game_2021"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/07343a92e7.png",
   "title": "Jail Escape",
   "translation_url": null,

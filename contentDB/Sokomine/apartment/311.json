@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Sokomine/apartment/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "This is a mod for servers. Spawn is a prime location on servers. It can be reached most quickly and is where players meet. This mod adds pre-built aparamtents with locked chests, furnaces and a locked door. The apartments can be \"rented\" for free by new players who need a place close to spawn for storing their valuables and for cooking steel into ingots. The apartments offer a lot of space for plenty of players without looking bad.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "apartment",
-  "provides": [
-    "apartment"
-  ],
+  "provides": ["apartment"],
   "release": 311,
   "repo": "https://github.com/Sokomine/apartment",
   "score": 9.3,
@@ -33,11 +29,7 @@
   ],
   "short_description": "Rent an apartment with your own chests and furnaces close to spawn",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "multiplayer",
-    "survival"
-  ],
+  "tags": ["commerce", "multiplayer", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/XSxVZ2A77L.png",
   "title": "Apartment",
   "translation_url": null,

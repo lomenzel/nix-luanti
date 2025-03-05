@@ -11,31 +11,17 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "You play as a robot forced to do the same routine every day, even bound by your code, you decide enough is enough and try to escape.\n\nA half assed proof of concept puzzle game; Don't expect much.\n",
-  "maintainers": [
-    "Generatoror"
-  ],
+  "maintainers": ["Generatoror"],
   "media_license": "CC0-1.0",
   "name": "robot_escape",
-  "provides": [
-    "re_core",
-    "re_hand",
-    "re_mapgen",
-    "re_soil",
-    "re_stone"
-  ],
+  "provides": ["re_core", "re_hand", "re_mapgen", "re_soil", "re_stone"],
   "release": 28566,
   "repo": null,
   "score": -897.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1c0a1cbcf7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1c0a1cbcf7.png"],
   "short_description": "You play as a robot forced to do the same routine every day, even bound by your code, you decide enough is enough and try to escape",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2024",
-    "puzzle",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2024", "puzzle", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1c0a1cbcf7.png",
   "title": "Robot Escape",
   "translation_url": null,

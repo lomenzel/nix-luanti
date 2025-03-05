@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "A fork of [Un-Craft Table](https://content.luanti.org/packages/Troodon/uncraft/) by [Troodon](https://content.luanti.org/users/Troodon/) that attempts to address all of its shortcomings. This is a drop-in replacement for the original.\n\nThis mod provides an Uncrafting Table. It is crafted with 4 items from group wood, and 2 steel ingots. The mod requires default.",
-  "maintainers": [
-    "JoeEnderman"
-  ],
+  "maintainers": ["JoeEnderman"],
   "media_license": "CC0-1.0",
   "name": "uncrafter",
-  "provides": [
-    "uncrafter"
-  ],
+  "provides": ["uncrafter"],
   "release": 20559,
   "repo": "https://gitlab.com/TheOnlyJoeEnderman/uncrafter",
   "score": 6.3,
@@ -450,10 +444,7 @@
   ],
   "short_description": "Adds an uncrafting table",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "gui"
-  ],
+  "tags": ["crafting", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c6967fdc68.png",
   "title": "Uncrafter",
   "translation_url": null,

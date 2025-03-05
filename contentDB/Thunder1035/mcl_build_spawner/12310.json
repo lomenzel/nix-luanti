@@ -38,14 +38,10 @@
   "issue_tracker": null,
   "license": "AGPL-3.0-only",
   "long_description": "This mod allows players to spawn buildings in mineclone 2 and 5 \n\nit is a pretty simple mod to use by players, just right click on any surface with build spawner to spawn builds.\n\nFor now in this mod the following builds are planned to be added-\n\n* School\n\n* Hotel\n\n* House\n\n* Mini Shops\n\n* Bank\n\n* Bakery\n\n* police station\n\n* Church\n\n* Prison\n\n* Mall\n\n* Hospital\n\n* Restruant\n\n* Tower",
-  "maintainers": [
-    "Thunder1035"
-  ],
+  "maintainers": ["Thunder1035"],
   "media_license": "AGPL-3.0-only",
   "name": "mcl_build_spawner",
-  "provides": [
-    "mcl_build_spawner"
-  ],
+  "provides": ["mcl_build_spawner"],
   "release": 12310,
   "repo": null,
   "score": -123.6,
@@ -56,12 +52,7 @@
   ],
   "short_description": "Gives build spawner for spawing builds in mineclone 2 and 5",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "creative",
-    "decorative"
-  ],
+  "tags": ["building", "building_mechanics", "creative", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3dfcb2d2e7.png",
   "title": "Mineclone Build Spawner",
   "translation_url": null,

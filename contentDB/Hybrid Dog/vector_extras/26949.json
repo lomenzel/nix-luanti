@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/HybridDog/vector_extras/issues",
   "license": "CC0-1.0",
   "long_description": "This mod contains code which can be used by other mods. By itself, this mod does nothing game-related.\nTo reduce the number of dependencies, I recommend mod developers to embed or copy-paste code from this mod.",
-  "maintainers": [
-    "Hybrid Dog"
-  ],
+  "maintainers": ["Hybrid Dog"],
   "media_license": "CC0-1.0",
   "name": "vector_extras",
-  "provides": [
-    "vector_extras"
-  ],
+  "provides": ["vector_extras"],
   "release": 26949,
   "repo": "https://github.com/HybridDog/vector_extras",
   "score": 3.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e44638779c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e44638779c.png"],
   "short_description": "Adds more vector functions.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e44638779c.png",
   "title": "More vector helpers",
   "translation_url": null,

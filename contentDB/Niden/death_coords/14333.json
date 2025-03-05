@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/Niden1/DCM/issues/new/choose/",
   "license": "MIT",
   "long_description": "## Installation\n* Unzip the archive and place it in ~minetest/mods/\n\n## Dependencies\n*default*\n\n## License\nMIT\n\n[GitHub](https://github.com/Niden1/DCM/tree/master)\n\n",
-  "maintainers": [
-    "Niden"
-  ],
+  "maintainers": ["Niden"],
   "media_license": "MIT",
   "name": "death_coords",
-  "provides": [
-    "death_coords"
-  ],
+  "provides": ["death_coords"],
   "release": 14333,
   "repo": "https://github.com/Niden1/DCM",
   "score": 2.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e1c98be3bb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e1c98be3bb.png"],
   "short_description": "Show Death Coordinates",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "hud",
-    "player_effects"
-  ],
+  "tags": ["chat", "hud", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e1c98be3bb.png",
   "title": "Death Coords",
   "translation_url": null,

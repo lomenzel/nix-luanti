@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/JamesClarke7283/announcements/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Announcements\nMod to announce random messages to players\n\n# Configuration\n\nYou can add messages by adding this to your minetest.conf file:\n```txt\nannounce_messages = Message1, Message2, Message3\n```\n\nYou can change the interval of messages (in seconds) with this setting\n```txt\nannounce_interval = 600\n```\n\n# Toggle Announcements\n\nYou can toggle announcements with the `/announcements_toggle` command.",
-  "maintainers": [
-    "Impulse"
-  ],
+  "maintainers": ["Impulse"],
   "media_license": "GPL-3.0-or-later",
   "name": "announcements",
-  "provides": [
-    "announcements"
-  ],
+  "provides": ["announcements"],
   "release": 22418,
   "repo": "https://github.com/JamesClarke7283/announcements",
   "score": 455.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6fbc55ab46.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6fbc55ab46.png"],
   "short_description": "Announce random messages to players",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "server_tools"
-  ],
+  "tags": ["chat", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6fbc55ab46.png",
   "title": "Announcements",
   "translation_url": null,

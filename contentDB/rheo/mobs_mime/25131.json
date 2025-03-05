@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,27 +247,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-mobs_mime/issues",
   "license": "EUPL-1.2",
   "long_description": "### MOBS MIME\n\na fork of hamlet's mime, but much sneakier!",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "mobs_mime",
-  "provides": [
-    "mobs_mime"
-  ],
+  "provides": ["mobs_mime"],
   "release": 25131,
   "repo": "https://github.com/fluxionary/minetest-mobs_mime.git",
   "score": 618.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ed985819ac.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ed985819ac.png"],
   "short_description": "adds a monster mimicking its surrounding nodes.",
   "state": "APPROVED",
-  "tags": [
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ed985819ac.png",
   "title": "mime (flux's fork)",
   "translation_url": null,
@@ -285,28 +273,19 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/mobs_mime": [
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,

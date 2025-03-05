@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,15 +416,10 @@
   "issue_tracker": "https://github.com/minetest-mods/nether/issues/",
   "license": "ISC",
   "long_description": "Adds a deep underground realm with different mapgen that you can reach with obsidian portals. \n\nRare passageways can be found through the netherrack to a great magma ocean.\n\nA Nether portal is built as a rectangular vertical frame of obsidian, 4 blocks wide and 5 blocks high. Once constructed, a Mese crystal fragment can be right-click/used on the frame to activate it.",
-  "maintainers": [
-    "PilzAdam",
-    "DrFrankenstone"
-  ],
+  "maintainers": ["PilzAdam", "DrFrankenstone"],
   "media_license": "CC-BY-SA-3.0",
   "name": "nether",
-  "provides": [
-    "nether"
-  ],
+  "provides": ["nether"],
   "release": 26541,
   "repo": "https://github.com/minetest-mods/nether",
   "score": 2179,
@@ -438,11 +431,7 @@
   ],
   "short_description": "Adds a deep underground realm with different mapgen that you can reach with obsidian portals.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "survival",
-    "transport"
-  ],
+  "tags": ["mapgen", "survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fDSkp7RhEA.png",
   "title": "Nether",
   "translation_url": null,
@@ -536,18 +525,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

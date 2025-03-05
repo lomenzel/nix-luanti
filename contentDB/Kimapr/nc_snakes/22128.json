@@ -38,25 +38,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Snakes! They will sneak in at you, they will eat all your leaves, all your peat, and you'll be horrored! Cut them (violently) to get cobble. They also poop lode.\n(Seriously, they are very scary and this mod is very violent)",
-  "maintainers": [
-    "Kimapr"
-  ],
+  "maintainers": ["Kimapr"],
   "media_license": "MIT",
   "name": "nc_snakes",
-  "provides": [
-    "nc_snakes"
-  ],
+  "provides": ["nc_snakes"],
   "release": 22128,
   "repo": "https://gitlab.com/Kimapr/nc_snake",
   "score": 155,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4aYtcPFSW9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4aYtcPFSW9.png"],
   "short_description": "Sneaky snakes in NodeCore!",
   "state": "APPROVED",
-  "tags": [
-    "mobs"
-  ],
+  "tags": ["mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4aYtcPFSW9.png",
   "title": "NodeCore Snakes",
   "translation_url": null,
@@ -70,42 +62,27 @@
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_stonework",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

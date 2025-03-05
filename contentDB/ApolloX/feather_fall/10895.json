@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/Beanzilla/feather-fall/issues",
   "license": "MIT",
   "long_description": "# feather-fall\n\nHolding this feather makes you light as it\n\n## What's in the box\n\n- A item when held in the players hand will allow any negative velocity to become reduced to a slow enough speed that no fall damage will be taken\n- Optional crafting of the feather\n\n## How to enable crafting\n\nJust add `feather_fall.craftable = true` to your `minetest.conf` (and restart if needed).\n\n> First run will create this setting to false, so you could just run it first then edit your `minetest.conf`.\n",
-  "maintainers": [
-    "ApolloX"
-  ],
+  "maintainers": ["ApolloX"],
   "media_license": "CC0-1.0",
   "name": "feather_fall",
-  "provides": [
-    "feather_fall"
-  ],
+  "provides": ["feather_fall"],
   "release": 10895,
   "repo": "https://github.com/Beanzilla/feather-fall",
   "score": 153.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6e63aade11.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6e63aade11.png"],
   "short_description": "Holding this feather makes you light as it",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6e63aade11.png",
   "title": "Feather Fall",
   "translation_url": null,

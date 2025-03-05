@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/um_backend_sqlite/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "This mod is a backend of [Unified Money](https://content.minetest.net/packages/Emojiminetest/unified_money/) storing the data onto a SQLite3 database. This mod also caches the data so that the database is not queried so often.\n\nBefore using this mod, please download `lsqlite3` via Luarocks and add this mod into `secure.trusted_mod`.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "um_backend_sqlite",
-  "provides": [
-    "um_backend_sqlite"
-  ],
+  "provides": ["um_backend_sqlite"],
   "release": 23676,
   "repo": "https://github.com/C-C-Minetest-Server/um_backend_sqlite",
   "score": 2.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/14f46b3fe9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/14f46b3fe9.png"],
   "short_description": "Storing Unified Money data into a SQLite3 database",
   "state": "APPROVED",
-  "tags": [
-    "commerce",
-    "complex_installation"
-  ],
+  "tags": ["commerce", "complex_installation"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/14f46b3fe9.png",
   "title": "Unified Money Backend: SQLite3",
   "translation_url": null,
@@ -44,9 +35,7 @@
       {
         "is_optional": false,
         "name": "um_core",
-        "packages": [
-          "Emojiminetest/unified_money"
-        ]
+        "packages": ["Emojiminetest/unified_money"]
       }
     ],
     "Emojiminetest/unified_money": [

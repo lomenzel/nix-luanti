@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-item_monoids/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# item_monoids\n\nan API for creating monoids for items. useful for\n\n* enchantment mods\n\n* applying penalties or boosts to dig speed and such, based on player attributes or other systems\n\n* when modifying other metadata (e.g. the description) of an item.\n\nfor documentation, see the github repo.",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "item_monoids",
-  "provides": [
-    "item_monoids"
-  ],
+  "provides": ["item_monoids"],
   "release": 20120,
   "repo": "https://github.com/fluxionary/minetest-item_monoids.git",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c55e3d985d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c55e3d985d.png"],
   "short_description": "an API for controlling item properties via monoids",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c55e3d985d.png",
   "title": "item_monoids",
   "translation_url": null,
@@ -44,28 +36,19 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/item_monoids": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

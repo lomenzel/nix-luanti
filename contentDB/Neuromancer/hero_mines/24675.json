@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -301,14 +299,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/hero_mines/issues",
   "license": "MIT",
   "long_description": "Hero Mines mod Copyright (c) 2024 Neuromancer\n\n-------------------------------------------------------------------------------\n\n#This mod creates the levels/mines that are going to be used by the game H.E.R.O. Test.  It is my attempt to re-create the fun of the 1984 videogame H.E.R.O.\n**It is in the very early phases of development.**  At this point it is more of a rough proof of concept that I'm putting out there so people can play around with it and offer their thoughts.  Do not expect a playable game.\nEventually there will be 20 levels.  Right now there are levels 1-8 completed.  Level 9 is not true to the original game, but allows us to play around with some of the more advanced hadzards (magma & lava). The levels are very barren and the components are loosely stitched together.  If you want to give it a try I suggest you do the following.\n\n1. Create a new MinetestGame world with the following settings: Mapgen= flat, and uncheck all flags.\n2. Enable the following mods: Wilhemine's Animal World (animal_world), Hero Jetpack, Hero Mines, Hero TNT, Mob Biome Mapper, Node Touch Action, Scripted World Editor.\n3. In the chat type \"/level 1\"\n4. With the jetpack in your hand hold down *left* mouse button with jetpack in your hand until you hear the jetpack start.\n5. Play around with the spacebar and the WASD keys until you get used to the flight mechanic.\n6. When you hear the jetpack chirp 3 times that means the jetpack is running out of fuel, so throttle the spacebar on and off for a soft landing.\n7. When the jetpack runs out of fuel and stops, add fuel to jetpack by crafting fuel over the out of fuel jetpack.\n8. To restart the jetpack with the jetpack in your hand hold the *left* mousebutton down again.\n9. To turn off the jetpack press shift/sneak.\n10. When you are comfortable with the jetpack, place the running man node on the ground.\n11. Start up the jetpack\n12. left click the running man node and the mine will open in the ground.\n13. The goal is to find the trapped miner at the bottom of the mine.   Dig through the gravel wall at the bottom of the mine and pick up the trapped  miner into your inventory and carry him to and place him on the surface.\n14. Press the space bar to keep from falling into the mine and injuring yourself\n15. If a cobble or magma wall is blocking your path, you can blast a hole in it using your Hero TNT and lighting it with a flint & steel.\n16. Be sure to run/fly far away or you will be injured when it explodes.\n17. If you run into hostile creatures, fend them off with your sword, or try to evade them.\n18. When you find the  miner at the bottom of the mine and bring them back up and place them above ground at the surface you have completed that level.\n19. Type \"/level 2\" and repeat the steps above until you have made it through all the levels.\n\n### H.E.R.O (Atari 2600) The original game.\n\nH.E.R.O. gameplay can be seen here: https://www.youtube.com/watch?v=nD0VTuVQ6Tg\nThere will be a number of mods all beginning with \"hero_\" so that eventually if you enable all of them you will essentially be playing the game hero.\n\nHero Player Manual: https://atariage.com/manual_html_page.php?SoftwareLabelID=228\n\nThe plan is to have all of these \"hero\" mods function as stand alone mods so that they can combined in other ways with other mods to work with and create other games.\n\nFrom [Wikipedia](https://en.wikipedia.org/wiki/H.E.R.O._(video_game)):\n\n> H.E.R.O. (an acronym standing for Helicopter Emergency Rescue Operation) is a single-player video game published by Activision. First developed for the Atari 2600 and released in March 1984, the game was ported to many of the home computers and gaming consoles of that era. In the game, the player uses a helicopter backpack and other tools to rescue victims trapped deep in a mine.\n>    The player assumes control of Roderick Hero (sometimes styled as 'R. Hero', a play on 'our hero'), a one-man rescue team. Miners working in Mount Leone are trapped, and it's up to Roderick to reach them. \n>\n> The player is equipped with a backpack-mounted helicopter unit, which allows him to hover and fly, along with a helmet-mounted laser and a limited supply of dynamite. Each level consists of a maze of mine shafts that Roderick must safely navigate in order to reach the miner trapped at the bottom. The backpack has a limited amount of power, so the player must reach the miner before the power supply is exhausted.\n>    A number of obstacles stand between Roderick and the miners. Some mine shafts are blocked by cave-ins, which require dynamite to clear, but Roderick must not stand too close when the dynamite explodes. The helmet laser can also destroy cave-ins, but it does so much more slowly than dynamite. Some mine sections are illuminated by lanterns. If the lantern is somehow destroyed, the layout of that section becomes invisible; exploding dynamite will light up the mine for a very short time. The mine shafts are populated by spiders, bats and other unknown creatures that are deadly to the touch; these creatures can be destroyed using the laser, or will also be destroyed if they are close to exploding dynamite. In later levels, the player must contend with magma, which, like cave-ins, can be dynamited to clear a path, but like the mine creatures, is lethal when touched. Lastly, some deep mines are flooded, forcing players to hover safely above the water. Points are scored for each cave-in cleared and each creature destroyed. When the player reaches the miner, points are awarded for the rescue, along with the amount of power remaining in the backpack and for each remaining stick of dynamite. Extra lives are awarded for every 20,000 points scored.\n\t \nYou can play it here:  \nPay what you want:  https://lowcarb.itch.io/hero-is-back\n \n Online Atari Version (more klunky) https://www.retrogames.cz/play_228-Atari2600.php?language=EN Just hit \"f12\"  to start.\n\nHave fun!\n\n",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-3.0",
   "name": "hero_mines",
-  "provides": [
-    "hero_mines"
-  ],
+  "provides": ["hero_mines"],
   "release": 24675,
   "repo": "https://github.com/Neuromancer56/hero_mines",
   "score": 4.9,
@@ -320,9 +314,7 @@
   ],
   "short_description": "Can you rescue the miner trapped at the bottom of the mine?  Creates mines that are used as levels for the game H.E.R.O.   ",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d81fb8b204.png",
   "title": "Hero Mines",
   "translation_url": null,
@@ -356,9 +348,7 @@
       {
         "is_optional": false,
         "name": "hero_tnt",
-        "packages": [
-          "Neuromancer/hero_tnt"
-        ]
+        "packages": ["Neuromancer/hero_tnt"]
       },
       {
         "is_optional": false,
@@ -405,23 +395,17 @@
       {
         "is_optional": false,
         "name": "hero_jetpack",
-        "packages": [
-          "Neuromancer/hero_jetpack"
-        ]
+        "packages": ["Neuromancer/hero_jetpack"]
       },
       {
         "is_optional": false,
         "name": "scripted_world_editor",
-        "packages": [
-          "Neuromancer/scripted_world_editor"
-        ]
+        "packages": ["Neuromancer/scripted_world_editor"]
       },
       {
         "is_optional": false,
         "name": "node_touch_action",
-        "packages": [
-          "Neuromancer/node_touch_action"
-        ]
+        "packages": ["Neuromancer/node_touch_action"]
       }
     ],
     "Neuromancer/hero_tnt": [
@@ -546,9 +530,7 @@
       {
         "is_optional": false,
         "name": "aaschemlib",
-        "packages": [
-          "Warr1024/aaschems"
-        ]
+        "packages": ["Warr1024/aaschems"]
       }
     ]
   },

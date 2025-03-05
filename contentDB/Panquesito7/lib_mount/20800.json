@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,24 +651,17 @@
   "issue_tracker": "https://github.com/minetest-mods/lib_mount/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "API Framework for mounting objects.<br>\nSee, for example the [Vehicle Mash](https://github.com/minetest-mods/vehicle_mash) mod.\n\nMade by [blert2112](https://github.com/blert2112).<br>\nHanded over to [Panquesito7](https://github.com/Panquesito7).\n\nCurrent version: 1.4\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "LGPL-2.1-or-later",
   "name": "lib_mount",
-  "provides": [
-    "lib_mount"
-  ],
+  "provides": ["lib_mount"],
   "release": 20800,
   "repo": "https://github.com/minetest-mods/lib_mount",
   "score": 1.9,
   "screenshots": [],
   "short_description": "API Framework for mounting objects.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["developer_tools", "library"],
   "thumbnail": null,
   "title": "Library Mount",
   "translation_url": null,

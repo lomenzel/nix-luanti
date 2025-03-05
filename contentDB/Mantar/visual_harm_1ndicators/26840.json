@@ -11,14 +11,10 @@
   "issue_tracker": "https://codeberg.org/Mantar/vis_harm_1nd/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "This mod adds a graphical display of a mob's or player's health in the form of a green bar that turns red as the mob approaches death. If a mob\nis healed to full health, the bar will disappear one second later. If a mob's hp is above its max hp for some reason, the bar will light up to indicate that there are more hit points than can be displayed.\n\nThe mod should work automatically with any supported mob api. The bar's height will be set just above the top of the collision box.\n\n**Currently supported:** Mobs redo, Exile\n\nFor mod developers, see the mod's README for the API documentation.",
-  "maintainers": [
-    "Mantar"
-  ],
+  "maintainers": ["Mantar"],
   "media_license": "CC0-1.0",
   "name": "visual_harm_1ndicators",
-  "provides": [
-    "visual_harm_1ndicators"
-  ],
+  "provides": ["visual_harm_1ndicators"],
   "release": 26840,
   "repo": "https://codeberg.org/Mantar/vis_harm_1nd/",
   "score": 193.6,
@@ -28,12 +24,7 @@
   ],
   "short_description": "HP bars for mobs/players",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "pve",
-    "pvp",
-    "survival"
-  ],
+  "tags": ["hud", "pve", "pvp", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7d1231aa3c.png",
   "title": "Visual Harm 1Ndicators",
   "translation_url": null,

@@ -38,26 +38,17 @@
   "issue_tracker": "https://codeberg.org/cora/mcl_edit_signs/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# mcl_edit_signs\n\nRightclick a sign to edit the text.\n\nWorks inMineClone2, mineclonia support removed since mineclonia supports this natively now (use mcl_signs_editable setting)\n",
-  "maintainers": [
-    "cora"
-  ],
+  "maintainers": ["cora"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_edit_signs",
-  "provides": [
-    "mcl_edit_signs"
-  ],
+  "provides": ["mcl_edit_signs"],
   "release": 24424,
   "repo": "https://codeberg.org/cora/mcl_edit_signs.git",
   "score": 313.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/227d9f6a38.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/227d9f6a38.png"],
   "short_description": "Edit signs in mineclone2",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "gui"
-  ],
+  "tags": ["building_mechanics", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/227d9f6a38.png",
   "title": "mcl_edit_signs",
   "translation_url": null,

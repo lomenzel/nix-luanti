@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/AntumMT/mod-pbmarks/issues",
   "license": "MIT",
   "long_description": "### Description:\n\nA mod that allows players to create a limited number of personal bookmarks to where they can teleport.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-pbmarks/blob/master/LICENSE.txt)\n- Textures: CC0\n- Icon: [CC0](https://openclipart.org/detail/266815)\n\n### Usage:\n\n```\nShow formspec:\n- sfinv\n\t- open inventory\n\t- select \"More\" tab\n\t- press \"Personal Bookmarks\" button\n- unified_inventory & i3\n\t- open inventory\n\t- select \"Personal Bookmarks\" tab\n- chat command\n\t/pbmarks\n\nSet bookmark:\n- input label into a text field\n- press \"Set\" button associated with label to store current location\n\nTeleport:\n- press \"Go\" button associated with label to teleport to stored location\n\nUnset bookmark:\n- clear label text field\n- press \"Set\" button associated with label to unset bookmark\n```\n\n### Links:\n\n- [Reference](https://antummt.github.io/mod-pbmarks/docs/api.html)\n- [Changelog](https://github.com/AntumMT/mod-pbmarks/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-pbmarks/blob/master/TODO.txt)",
-  "maintainers": [
-    "AntumDeluge"
-  ],
+  "maintainers": ["AntumDeluge"],
   "media_license": "CC0-1.0",
   "name": "pbmarks",
-  "provides": [
-    "pbmarks"
-  ],
+  "provides": ["pbmarks"],
   "release": 8978,
   "repo": "https://github.com/AntumMT/mod-pbmarks",
   "score": 5.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0fa87bc681.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0fa87bc681.png"],
   "short_description": "Allows players to create a limited number of personal bookmarks to where they can teleport.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "transport"
-  ],
+  "tags": ["gui", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0fa87bc681.png",
   "title": "Personal Bookmarks",
   "translation_url": null,
@@ -44,9 +35,7 @@
       {
         "is_optional": false,
         "name": "wdata",
-        "packages": [
-          "AntumDeluge/wdata"
-        ]
+        "packages": ["AntumDeluge/wdata"]
       }
     ],
     "AntumDeluge/wdata": []

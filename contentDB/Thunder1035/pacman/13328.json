@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/Thunder1053/Arcade3D/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# Arcade3D \nA Pacman inspired game for minetest \n\nmade for fun purpose, it is made in such a way that Minetest Game (MTG) mods can also be used in this\n\n**How to play**\n\n1)when player enter's in new world player will get maze spawner in the main inventory, that will spawn a maze when placed.\nThe  maze spawner also spawn dots and power pelet with maze.\n\n2) player will also get 4 ghost player have to spawn them too by themselves.\n \n The ghosts are as following--\nBlinky(red)\nPinky(pink)\nInky(cyan)\nClyde(orange)\n\n\n3)Eat all dots.Those give player health point.The power pellet is used as a weapon as it is used for killing Ghost.power pellet is also crafted ,the crafted one can be eaten to increase health. By breaking dots player can get them and eat them\n\n4) To win player must eat all dots, after this all the floor blocks will animate pink and blue, also a message will show that \"you won\". This will indicate that player won\n\n#  **special-note**\nPlayer must play in survival for perfect gameplay, this game is more than a game it is a game of creativity\nPlayer can also create there own maze or can modify the pacman maze given in main inventory,\nthis game can be perfectly modifyed in creative mode only yet\n(***It is all about creativity*** )",
-  "maintainers": [
-    "Thunder1035"
-  ],
+  "maintainers": ["Thunder1035"],
   "media_license": "GPL-3.0-only",
   "name": "pacman",
   "provides": [

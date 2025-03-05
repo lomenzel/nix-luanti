@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/random_messages_api/issues",
   "license": "LGPL-2.1-only",
   "long_description": "# random_messages\n\nThis mod is an API for mod developers to register random announcements. Server owners can also put their custom random messages in WORLD_PATH/random_messages.txt.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-only",
   "name": "random_messages_api",
-  "provides": [
-    "random_messages_api"
-  ],
+  "provides": ["random_messages_api"],
   "release": 23981,
   "repo": "https://github.com/C-C-Minetest-Server/random_messages_api",
   "score": 2.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ba424ec849.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ba424ec849.png"],
   "short_description": "Register random announcements",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "library",
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["chat", "library", "multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ba424ec849.png",
   "title": "Random Messages",
   "translation_url": null,

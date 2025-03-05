@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/TheTermos/islands/issues/new/choose/",
   "license": "MIT",
   "long_description": "**Usage: This mod has to be enabled before the world is entered for the first time, otherwise there are going to be terrain generation errors**  \n\nA lua mapgen featuring tropical islands and lots of water. Best used with [sailing kit](https://content.minetest.net/packages/Termos/sailing_kit/)  \n\nRecommended settings:  \n- **Tone mapping - off**   -  Important!<br>\n- Mip mapping - on<br>\n- Texture filtering - off <br>\n\nUpdate 210315: restore previous light curve settings on shutdown </br>\nUpdate 210301: improved compatibility with other mods dependent on default ([water_life](https://content.minetest.net/packages/Gundul/water_life/), farming). MT 5.4.0 compatibility </br>\nUpdate 210205: Fixed: The previous release used an old version.\n\n",
-  "maintainers": [
-    "Termos"
-  ],
+  "maintainers": ["Termos"],
   "media_license": "CC-BY-SA-3.0",
   "name": "islands",
-  "provides": [
-    "islands"
-  ],
+  "provides": ["islands"],
   "release": 7005,
   "repo": "https://github.com/TheTermos/islands",
   "score": 1170.3,
@@ -452,9 +446,7 @@
   ],
   "short_description": "lua mapgen featuring tropical islands and vast ocean",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4hyPI9nWlB.png",
   "title": "Islands",
   "translation_url": null,

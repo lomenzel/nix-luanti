@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Alex5002/mcl_back_to_spawn/issues",
   "license": "MIT",
   "long_description": "# mcl_back_to_spawn\nA Mineclone2 mod which allows you to tp yourself to your spawn point, or someone else to his spawn point.\n\nWhen added to your Mineclone2 world, enter `/back_to_spawn` in chat to go back to your spawn point. If you have the `server` and `tp` privileges, you can type `/baack_to_spawn <player>` in chat to teleport `<player>` to his spawn point.\n\nUseful for making going home easier, or prevent someone from doing something evil by teleporting him back to his home.",
-  "maintainers": [
-    "Alex5002"
-  ],
+  "maintainers": ["Alex5002"],
   "media_license": "MIT",
   "name": "mcl_back_to_spawn",
-  "provides": [
-    "mcl_back_to_spawn"
-  ],
+  "provides": ["mcl_back_to_spawn"],
   "release": 18336,
   "repo": "https://github.com/Alex5002/mcl_back_to_spawn.git",
   "score": 4.6,
@@ -59,9 +55,7 @@
   ],
   "short_description": "Allows you to tp yourself to your spawn point, or someone else to his spawn point",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b7f0f9d1f2.png",
   "title": "Back to spawn for Mineclone2",
   "translation_url": null,

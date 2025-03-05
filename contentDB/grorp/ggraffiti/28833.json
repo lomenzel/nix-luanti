@@ -51,14 +51,10 @@
   "issue_tracker": "https://github.com/grorp/ggraffiti/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This Luanti mod adds graffiti that lets you paint whatever you want on any node you want. It requires at least engine version 5.9.0.\n\nFeatures:\n\n- Paint pixel-by-pixel on any node\n- Paint with custom colors using the RGB spray can\n- Different sizes: Paint up to 3×3 pixels at a time\n- Remove graffiti with the eraser-like \"remover\" spray can or by digging the sprayed nodes\n- Respects protection mods\n- Compatible with Minetest Game, Mineclonia and VoxeLibre\n\nThis mod is a Work in Progress.\n\n## Items\n\n**Graffiti Spray Can**\n\n![](https://raw.githubusercontent.com/grorp/ggraffiti/v1.0.0-alpha.15/docpics/recipe_spray_can_mtg.png)\n\nPress and hold the dig button (the left mouse button) to paint. Press the place button (the right mouse button) to change the size.\n\nAfter some time, the spray can will be empty. You can smelt spray cans, empty or not, to get the two steel ingots back. Of course, you can replace the cyan dye in the recipe with any dye you like.\n\nIf you are playing on Android: For the best spraying experience, enable `Settings` → `Touchscreen` → `touch_use_crosshair`.\n\n**RGB Graffiti Spray Can**\n\n![](https://raw.githubusercontent.com/grorp/ggraffiti/v1.0.0-alpha.15/docpics/recipe_rgb_spray_can_mtg.png)\n\nA spray can that can paint in any 24-bit RGB color and thus in all colors supported by Luanti. Press the place button (the right mouse button) to change the selected color. Press sneak+place while pointing at existing graffiti to pick a color (\"pipette\").\n\n**Red Mushroom Extract**\n\n![](https://raw.githubusercontent.com/grorp/ggraffiti/v1.0.0-alpha.15/docpics/recipe_red_mushroom_extract_mtg.png)\n\n**Graffiti Remover Spray Can**\n\n![](https://raw.githubusercontent.com/grorp/ggraffiti/v1.0.0-alpha.15/docpics/recipe_remover_spray_can_mtg.png)\n\nA spray can that removes graffiti. Essentially an eraser.\n\nIf you want to remove a lot of graffiti at once, you can simply dig the affected nodes and place them again. This will remove all graffiti that is on them.\n\n## Related things\n\n- `nc_paint` by Kimapr  \n  Something like this, but for NodeCore.\n\nFor more detailed information, see the README.md in the Git repository.",
-  "maintainers": [
-    "grorp"
-  ],
+  "maintainers": ["grorp"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ggraffiti",
-  "provides": [
-    "ggraffiti"
-  ],
+  "provides": ["ggraffiti"],
   "release": 28833,
   "repo": "https://github.com/grorp/ggraffiti.git",
   "score": 961.6,
@@ -69,10 +65,7 @@
   ],
   "short_description": "Paint anything! Graffiti for Luanti.",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "tools"
-  ],
+  "tags": ["decorative", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/039dbba1d0.png",
   "title": "GGraffiti",
   "translation_url": null,
@@ -86,10 +79,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "luk3yx/flow": [

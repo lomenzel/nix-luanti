@@ -1,8 +1,6 @@
 {
   "author": "Liil",
-  "content_warnings": [
-    "gore"
-  ],
+  "content_warnings": ["gore"],
   "created_at": "2021-02-21T08:29:23.557196",
   "dev_state": null,
   "donate_url": null,
@@ -91,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -251,14 +247,10 @@
   "issue_tracker": "https://github.com/Skandarella/livingfloatlands/issues/new/choose/",
   "license": "MIT",
   "long_description": "Note: To see the models of the mobs correctly you have to activate Shaders in the Main Menu. Without Shaders they will appear not fully textured.\nFor a working leaf decay (Disappearing of leaves after a trees trunk is chopped) I recommend to use this mod: https://content.minetest.net/packages/Liil/winuserleafdecay/\n\nThis mod for Mobs Redo adds various prehistoric animals to the Floatlands, a Zone only available in V7 Map Generator. To enter the Floatlands you have to build a tower or stairs with the height of at least 1280 nodes(The Beginning of the Floatlands Zone) \n\nThese Mobs are hard to beat, so be sure you and your folks are well equipped, if entering the Floatlands.\n\nWith update V 1.2 this mod has now its own prehistoric biomes (Coldsteppe, Giantforest, Cold Giantforest, Paleodesert, Paleojungle)\n\nThere is a GROUND version available for the map generators which do not include floatlands (Caparthian, Valleys). This edition spawns biomes and dinosaurs in the Midworld. \nThe V7 edition is for those, who only want to have dinosaurs and biomes in the floatlands without adding biomes and dinosaurs to the Midworld.\n\nAvailable animals:\n\n* Ankylosaurus\n* Carnotaurus\n* Cave Bear\n* Deinotherium\n* Entelodon\n* Gastornis\n* Gigantopithecus\n* Lycaenops\n* Mammooth\n* Nigersaurus\n* Oviraptor\n* Parasaurolophus\n* Rhamphorhynchus\n* Smilodon\n* Stegosaurus\n* Triceratops\n* Tyrannosaurus\n* Velociraptor\n* Wild Horse\n* Woolly Rhino",
-  "maintainers": [
-    "Liil"
-  ],
+  "maintainers": ["Liil"],
   "media_license": "MIT",
   "name": "livingfloatlands",
-  "provides": [
-    "livingfloatlands"
-  ],
+  "provides": ["livingfloatlands"],
   "release": 19252,
   "repo": "https://github.com/Skandarella/livingfloatlands.git",
   "score": 194.5,
@@ -273,12 +265,7 @@
   ],
   "short_description": "Adds various prehistoric animals to your Floatland Zone, if you are using V7 Map Generator.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mapgen",
-    "mobs",
-    "survival"
-  ],
+  "tags": ["building", "mapgen", "mobs", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GNe2nNHgXG.png",
   "title": "Wilhelmines Living Floatlands",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/Niwla23/rename/issues/new/choose/",
   "license": "MIT",
   "long_description": "Hello, this Mod adds a seal, a priv called rename and a rename formspec.\nYou can rename the current Item / Node that you have in hand with /rename then you can put in the new Name, but that is only possible if you have the rename priv. The seal is just for renaming it maybe to \"Team Member\".\n\n\nBugs:\nif you place a renamed node and then dig it, it has the old Description. Any Idea to fix it?\n\n",
-  "maintainers": [
-    "niwla23"
-  ],
+  "maintainers": ["niwla23"],
   "media_license": "MIT",
   "name": "rename",
-  "provides": [
-    "rename"
-  ],
+  "provides": ["rename"],
   "release": 921,
   "repo": "https://github.com/Niwla23/rename",
   "score": 159,
-  "screenshots": [
-    "https://content.luanti.org/uploads/J8LVtjdv6M.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/J8LVtjdv6M.png"],
   "short_description": "This Mod can rename Items",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "chat"
-  ],
+  "tags": ["adventure__rpg", "chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/J8LVtjdv6M.png",
   "title": "Rename",
   "translation_url": null,

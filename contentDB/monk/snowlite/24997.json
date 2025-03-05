@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "SnowLite\n--------\nmonk | 2024\n\nA light snow fall effect, configurable per-player or globally.\n\nBased on Snowdrift by paramat, and PiezoU005F\n  https://github.com/paramat/snowdrift\n  https://github.com/PiezoU005F/snowdrift\n\nChat Commands\n-------------\n  - `/snow_globe`\n    - Toggle snow for all players. Requires `server` priv\n\n  - `/snow`\n   - Player toggle own snowfall. Requires `interact` priv\n\nPlanned\n-------\n  - Set particle `amount = ` with command, ex: `/snow_globe 5`. Alternatively have the amount vary randomly\n\n___\n**`0.0.1`**",
-  "maintainers": [
-    "monk"
-  ],
+  "maintainers": ["monk"],
   "media_license": "CC0-1.0",
   "name": "snowlite",
-  "provides": [
-    "snowlite"
-  ],
+  "provides": ["snowlite"],
   "release": 24997,
   "repo": "https://github.com/monk-afk/snowlite",
   "score": 2.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ed89699cef.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ed89699cef.png"],
   "short_description": "Adds a light snow fall effect, with toggle commands",
   "state": "APPROVED",
-  "tags": [
-    "environment"
-  ],
+  "tags": ["environment"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ed89699cef.png",
   "title": "SnowLite",
   "translation_url": null,

@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/joe7575/minecart/issues",
   "license": "MIT",
   "long_description": "Minecart Features\n-----------------\n\nThe mod Minecart has its own cart (called Minecart) in addition to the standard cart.\nMinecarts are used for automated item transport on private and public rail networks.\nThe mod features are:\n\n- a fast cart for your railway or roller coaster (up to 8 m/s!)\n- boost rails and speed limit signs\n- rail junction switching with the 'right-left' walking keys\n- configurable timetables and routes for Minecarts\n- automated loading/unloading of Minecarts by means of a Minecart Hopper\n- rail network protection based on protection blocks called Land Marks\n- protection of minecarts and cargo\n- Minecarts run through unloaded areas (only the stations/hopper have to be loaded)\n- Extra Minecart privs for rail workers\n- Ingame documentation (German and English), based on the mod \"doc\"\n- API to register carts from other mods\n- chat command '/mycart <num>' to output cart state and location\n\nIntroduction\n------------\n\n1. Place your rails and build a route with two endpoints. Junctions are allowed \n   as long as each route has its own start and endpoint.\n2. Place a Railway Buffer at both endpoints. (buffers are always needed, \n   they store the route and timing information)\n3. Give both Railway Buffers unique station names, like Oxford and Cambridge\n4. Place a Minecart at a buffer and give it a cart number (1..999)\n5. Drive from buffer to buffer in both directions using the Minecart(!) to record the \n   routes (use 'right-left' keys to control the Minecart)\n6. Punch the buffers to check the connection data (e.g. \"Oxford: connected to Cambridge\")\n7. Optional: Configure the Minecart waiting time in both buffers. The Minecart\n   will then start automatically after the configured time\n8. Optional: Protect your rail network with the Protection Landmarks (one Landmark \n   at least every 16 nodes/meters)\n9. Place a Minecart in front of the buffer and check whether it starts after the \n   configured time\n10. Check the cart state via the chat command: `/mycart <num>`.\n    '<num>' is the cart number, or get a list of carts with `/mycart`\n11. Drop items into the Minecart and punch the cart to start it, or \"sneak+click\" the \n    Minecart to get cart and items back\n\n\nManual\n------\n\nSee [Wiki](https://github.com/joe7575/minecart/wiki)\n",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "CC0-1.0",
   "name": "minecart",
-  "provides": [
-    "minecart"
-  ],
+  "provides": ["minecart"],
   "release": 29187,
   "repo": "https://github.com/joe7575/minecart",
   "score": 353.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4549108e63.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4549108e63.png"],
   "short_description": "Minecart, the lean railway transportation automation system",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4549108e63.png",
   "title": "Minecart",
   "translation_url": null,

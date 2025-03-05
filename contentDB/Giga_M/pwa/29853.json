@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29893,
@@ -418,14 +416,10 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "allows entry into 1x1 holes\n\n\nadds an animation when swimming",
-  "maintainers": [
-    "Giga_M"
-  ],
+  "maintainers": ["Giga_M"],
   "media_license": "LGPL-2.1-only",
   "name": "pwa",
-  "provides": [
-    "pwa"
-  ],
+  "provides": ["pwa"],
   "release": 29853,
   "repo": null,
   "score": 6.3,
@@ -435,11 +429,7 @@
   ],
   "short_description": " adds an animation when swimming",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "multiplayer",
-    "skins"
-  ],
+  "tags": ["adventure__rpg", "multiplayer", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/778fb8def7.png",
   "title": "player animation in water",
   "translation_url": null,

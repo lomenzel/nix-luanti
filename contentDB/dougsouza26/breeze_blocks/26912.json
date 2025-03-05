@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/JoseDouglas26/breeze_blocks/issues",
   "license": "MIT",
   "long_description": "# Breeze Blocks for Mineclonia (breeze_blocks)\n## Description\nAdds uniquely shaped colored blocks to Mineclonia. The blocks have 16 shapes, each with 16 colors, totaling 256 different blocks.\n## Obtaining\nThese blocks can be obtained using the stonecutter. Use the concrete blocks to craft the breeze block in the shape of your choice.",
-  "maintainers": [
-    "dougsouza26"
-  ],
+  "maintainers": ["dougsouza26"],
   "media_license": "CC-BY-SA-3.0",
   "name": "breeze_blocks",
-  "provides": [
-    "breeze_blocks"
-  ],
+  "provides": ["breeze_blocks"],
   "release": 26912,
   "repo": "https://github.com/JoseDouglas26/breeze_blocks",
   "score": 4.7,
@@ -56,10 +52,7 @@
   ],
   "short_description": "Adds uniquely shaped colored blocks to Mineclonia.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fd650cc2b4.png",
   "title": "Breeze Blocks for Mineclonia",
   "translation_url": null,
@@ -100,10 +93,7 @@
       {
         "is_optional": false,
         "name": "mcl_dyes",
-        "packages": [
-          "VoxelForge/voxelforge",
-          "ryvnf/mineclonia"
-        ]
+        "packages": ["VoxelForge/voxelforge", "ryvnf/mineclonia"]
       },
       {
         "is_optional": false,

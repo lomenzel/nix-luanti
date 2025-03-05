@@ -25,25 +25,17 @@
   "issue_tracker": "https://forum.minetest.net/viewtopic.php?t=30865",
   "license": "GPL-3.0-or-later",
   "long_description": "“The Big Bang sent six elemental crystals hurtling across the virgin universe. These Infinity Stones each control an essential aspect of existence: Space, Reality, Power, Soul, Mind, and Time.”\n\nOTHER ITEMS:\n\nTHE INSTRUCTION CHEST --- Place to get a book that has this exact description in it.\n\nTHE INFINITY CORE --- Used to craft The Infinity Gauntlet.\n\nTHE INFINITY GAUNTLET --- Mines almost every block at almost creative mode speed in survival mode. Can also teleport when you sneak+right-click once you put the space stone in it.\n\nSKIN CHANGER --- Become Thanos with a right click. Turn back with another right click.\n\nTHE STONES:\n\nMUST BE GATHERED IN THIS ORDER:\n\nTHE SOUL STONE ---Used to craft an unbeatable helmet that makes the wearer invincible to every type of damage except for drowning, even admin commands cannot beat the soul helmet. Also used to craft a portal to the soul world that can be summoned to your location once placed.\n\nTHE REALITY STONE --- Used to craft a block that, once placed, places an 8 by 10 base shaped like the infinity gauntlet with a treasure room at the top. Also used to craft a tool that can duplicate every block, save only a few.\n\nTHE SPACE STONE --- Once added to your gauntlet, it grants you the ability to teleport by sneak+placing while holding the gauntlet. Unlike the other stones, this stone cannot be crafted, but is located in the treasure room of the gauntlet base. This stone is used to craft the space chest, which can hold up to 23760 items and, when mined, drops a chest with your items in it. To retrieve these items, just place the chest. This stone also can be used to craft the Tesseract, which, on left-click, can be thrown like an enderpearl, although it doesn't remove itself from your inventory once thrown. On right-click, The Tesseract can also open a menu that can teleport you to any location once you enter the coordinates.\n\nTHE POWER STONE --- Can be used to craft the Powershot, which shoots a laser that breaks a certain amount of blocks and then explodes. The power stone can also be used to craft the Power Sword, capable of one-shotting any mob.\n\nTHE TIME STONE --- Used to craft a special clock and key. The clock can change the time of day, while the key changes the player speed.\n\nTHE MIND STONE --- Used to craft a tool that can summon Vision, who can explode and is almost as powerful as the Infinity Gauntlet. This stone is also used to craft the Cloner, which, on right-click, spawns a clone that stays alive for one minute and will kill all mobs around, but not the acual player.\n\nWARNINGS:\nDO NOT CLICK ON YOUR PLAYER WHILE IN VISION. THERE ARE GLITCHES AND YOUR GAME WILL CRASH. IF YOU HAVE THE THANOS SKIN ACTIVATED AND PUT ON/TAKE OFF ARMOR, YOU WILL RESET TO DEFAULT SKIN. TO FIX THIS, JUST USE THE THANOS AGAIN. THE THANOS SKIN CHANGER WILL NOT WORK IF 3D_ARMOR WIELDVIEW IS ENABLED. \n\n*sorry* \n\nHAVE FUN PLAYING!",
-  "maintainers": [
-    "Gcbarden"
-  ],
+  "maintainers": ["Gcbarden"],
   "media_license": "CC-BY-SA-3.0",
   "name": "infinity",
-  "provides": [
-    "infinity"
-  ],
+  "provides": ["infinity"],
   "release": 27241,
   "repo": null,
   "score": 159.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/146f9d6603.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/146f9d6603.png"],
   "short_description": "Adds The Infinity Gauntlet",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/146f9d6603.png",
   "title": "Infinity Gauntlet",
   "translation_url": null,
@@ -74,33 +66,22 @@
       {
         "is_optional": false,
         "name": "hammermod",
-        "packages": [
-          "cultom/hammermod"
-        ]
+        "packages": ["cultom/hammermod"]
       },
       {
         "is_optional": false,
         "name": "ruby",
-        "packages": [
-          "Koda_/gemstones",
-          "hilol/epic_combat"
-        ]
+        "packages": ["Koda_/gemstones", "hilol/epic_combat"]
       },
       {
         "is_optional": false,
         "name": "the_build_spawner",
-        "packages": [
-          "Thunder1035/the_build_spawner",
-          "Thunder1035/etb"
-        ]
+        "packages": ["Thunder1035/the_build_spawner", "Thunder1035/etb"]
       },
       {
         "is_optional": false,
         "name": "emerald",
-        "packages": [
-          "Koda_/gemstones",
-          "hilol/epic_combat"
-        ]
+        "packages": ["Koda_/gemstones", "hilol/epic_combat"]
       },
       {
         "is_optional": false,
@@ -147,9 +128,7 @@
       {
         "is_optional": false,
         "name": "abripanes",
-        "packages": [
-          "mt-mods/abripanes"
-        ]
+        "packages": ["mt-mods/abripanes"]
       },
       {
         "is_optional": false,
@@ -172,32 +151,22 @@
       {
         "is_optional": false,
         "name": "nssm",
-        "packages": [
-          "TenPlus1/nssm"
-        ]
+        "packages": ["TenPlus1/nssm"]
       },
       {
         "is_optional": false,
         "name": "sapphire",
-        "packages": [
-          "Koda_/gemstones",
-          "hilol/epic_combat"
-        ]
+        "packages": ["Koda_/gemstones", "hilol/epic_combat"]
       },
       {
         "is_optional": false,
         "name": "3d_armor_light",
-        "packages": [
-          "AntumDeluge/3d_armor_light"
-        ]
+        "packages": ["AntumDeluge/3d_armor_light"]
       },
       {
         "is_optional": false,
         "name": "amethyst",
-        "packages": [
-          "Koda_/gemstones",
-          "hilol/epic_combat"
-        ]
+        "packages": ["Koda_/gemstones", "hilol/epic_combat"]
       }
     ],
     "Koda_/gemstones": [

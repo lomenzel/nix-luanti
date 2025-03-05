@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Krunegan/inv_inspector/issues",
   "license": "MIT",
   "long_description": "## Inventory Inspector\n\nTo use it, you must have the \"inv_inspector\" privilege and type the command \"/inv <playername>\"\nA formspec will be displayed on the screen showing both the player's main inventory and crafting inventory.\nThe formspec is automatically updated, allowing moderators to view player inventory changes in real time.\n\n## License\n\n* MIT License (MIT) for the code.",
-  "maintainers": [
-    "Krunegan"
-  ],
+  "maintainers": ["Krunegan"],
   "media_license": "MIT",
   "name": "inv_inspector",
-  "provides": [
-    "inv_inspector"
-  ],
+  "provides": ["inv_inspector"],
   "release": 20683,
   "repo": "https://github.com/Krunegan/inv_inspector",
   "score": 153.3,
@@ -28,10 +24,7 @@
   ],
   "short_description": "Allows you to view the inventory of the players",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "gui"
-  ],
+  "tags": ["chat", "gui"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4f732c1bbc.png",
   "title": "Inventory Inspector",
   "translation_url": null,

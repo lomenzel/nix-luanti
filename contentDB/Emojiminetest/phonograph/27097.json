@@ -51,27 +51,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/phonograph/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "This modpack adds a phonograoh that plays music from a list of albums. On Minetest Game and Hades Revisited, the phonograph is crafted from eight wood blocks and one diamond.\n\nThis modpack only comes with one album, \"World of White\", with only one song, \"Pure White Noise\", for testing purpose. More songs will be published on the ContentDB as independent mods.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "phonograph",
-  "provides": [
-    "phonograph_album_white",
-    "phonograph_core"
-  ],
+  "provides": ["phonograph_album_white", "phonograph_core"],
   "release": 27097,
   "repo": "https://github.com/C-C-Minetest-Server/phonograph",
   "score": 164.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fad7e9993b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fad7e9993b.png"],
   "short_description": "Play music from albums",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "sound_music"
-  ],
+  "tags": ["library", "sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fad7e9993b.png",
   "title": "Phonograph",
   "translation_url": null,
@@ -97,18 +87,12 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "LMD/modlib": [],

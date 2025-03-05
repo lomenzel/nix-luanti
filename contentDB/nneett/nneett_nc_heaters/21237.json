@@ -38,25 +38,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# NodeCore Heaters\nJust a little mod I wrote to add flameless heaters to NodeCore.\n# Known bugs\nHeaters are powered by being adjacent to an active lens, but the lens doesn't have to be pointed at it.\n",
-  "maintainers": [
-    "nneett"
-  ],
+  "maintainers": ["nneett"],
   "media_license": "GPL-3.0-or-later",
   "name": "nneett_nc_heaters",
-  "provides": [
-    "nneett_nc_heaters"
-  ],
+  "provides": ["nneett_nc_heaters"],
   "release": 21237,
   "repo": null,
   "score": 154.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/88ea210b4a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/88ea210b4a.png"],
   "short_description": "Just a little mod I wrote to add a flameless heater.",
   "state": "APPROVED",
-  "tags": [
-    "magic"
-  ],
+  "tags": ["magic"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/88ea210b4a.png",
   "title": "NodeCore Heaters",
   "translation_url": null,
@@ -70,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_igneous",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_optics",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

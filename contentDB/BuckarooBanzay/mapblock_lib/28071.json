@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/mapblock_lib/issues",
   "license": "MIT",
   "long_description": "Mapblock-granular world operations, transformations and utilities\n\nFeatures:\n\n* Load/Save mapblocks from/to disk\n* Serializes param1/param2/nodetimers and metadata\n* Transforms mapblock data on the fly (rotation, orientation, replacements)\n* Supports caching of the loaded mapblocks for fast in-world placement (mapgen)\n* Adds a per-mapblock data-storage (`get_mapblock_data` / `set_mapblock_data`) with caching\n\nUse-cases:\n\n* Custom mapgens with pre-built schematics\n* Building-mods\n\nDemo:\n\n* [City mapgen](https://github.com/BuckarooBanzay/citygen)\n\n## Chatcommands\n\n* **/mapblock_show** marks the current mapblock with a grid\n* **/mapblock_save [name]** saves the current mapblock in `<world_path>/mapblocks/<name>`\n* **/mapblock_load [name]** loads a previously saved mapblock\n* **/mapblock_rotate_y [90,180,270]** rotates the current mapblock around the y axis\n* **/mapblock_mark** (only available if the `worldedit` mod is present) marks the current mapblock with worledit\n\n## Api\n\nSee: https://buckaroobanzay.github.io/mapblock_lib/\n# License\n\n* Code: MIT\n* Textures: CC-BY-SA 3.0\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mapblock_lib",
-  "provides": [
-    "mapblock_lib"
-  ],
+  "provides": ["mapblock_lib"],
   "release": 28071,
   "repo": "https://github.com/BuckarooBanzay/mapblock_lib",
   "score": 27.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/UTHFTy3ibL.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/UTHFTy3ibL.png"],
   "short_description": "mapblock serialization functions",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/UTHFTy3ibL.png",
   "title": "Mapblock Lib",
   "translation_url": null,

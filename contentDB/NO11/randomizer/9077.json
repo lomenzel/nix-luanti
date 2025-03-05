@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/NO411/randomizer/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Randomizer\n\nA survival challenge for MT.\nTry to survive in a randomized world.\n\nInspired by <https://www.youtube.com/watch?v=RQ47xsK-D-Q>\n\nCredits:\n\n  - *Warr1024* for performance improvements and seed based mapgen\n",
-  "maintainers": [
-    "NO11"
-  ],
+  "maintainers": ["NO11"],
   "media_license": "GPL-3.0-only",
   "name": "randomizer",
-  "provides": [
-    "randomizer"
-  ],
+  "provides": ["randomizer"],
   "release": 9077,
   "repo": "https://github.com/NO411/randomizer",
   "score": 930,
@@ -29,11 +25,7 @@
   ],
   "short_description": "A survival challenge. Try to survive in a randomized world.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mapgen", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ecec34b3ce.png",
   "title": "Randomizer",
   "translation_url": null,

@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Eyeguy\nminetest mod - hwyla\n\nThere is one command in the mod \" /get_eye\" it gives you item that when right clicked on block opens mod menu options to adjust localization and mode of the mod.\n\nFull mode displays too much information about the block\nSlim mode displays only description (which usually includes block name and properties)\n\nThere is no way and for time being wont be any way to check mobs and items on the ground.",
-  "maintainers": [
-    "Kasaikan"
-  ],
+  "maintainers": ["Kasaikan"],
   "media_license": "MIT",
   "name": "eyeguy",
-  "provides": [
-    "eyeguy"
-  ],
+  "provides": ["eyeguy"],
   "release": 25391,
   "repo": "https://github.com/N7Reny/Eyeguy",
   "score": 152.7,
@@ -28,9 +24,7 @@
   ],
   "short_description": "Small and compact way to see what block you looking at",
   "state": "APPROVED",
-  "tags": [
-    "hud"
-  ],
+  "tags": ["hud"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/444092c569.png",
   "title": "Eye guy",
   "translation_url": null,

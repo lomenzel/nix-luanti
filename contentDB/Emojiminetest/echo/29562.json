@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/echo/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Echo\n\nThis mod provides a better and unified interface for handling in-game notifications. All notifications are stored across server restarts and are accessible anytime until the user deletes them.\n\nThis mod's name comes from MediaWiki's notification extension, [Echo](https://www.mediawiki.org/wiki/Extension:Echo). Many concepts were taken from that extension, though no code is used.\n\nFor developer's manual, see API.md.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC0-1.0",
   "name": "echo",
-  "provides": [
-    "echo"
-  ],
+  "provides": ["echo"],
   "release": 29562,
   "repo": "https://github.com/C-C-Minetest-Server/echo",
   "score": 4.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e3375f91f5.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e3375f91f5.jpg"],
   "short_description": "In-game notification system",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "hud",
-    "library"
-  ],
+  "tags": ["gui", "hud", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e3375f91f5.png",
   "title": "Echo",
   "translation_url": null,
@@ -45,10 +35,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "luk3yx/flow": [

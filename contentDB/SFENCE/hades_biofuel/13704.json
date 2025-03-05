@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/sfence/biofuel/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nMod [Biofuel](https://content.minetest.net/packages/Lokrates/biofuel/) modified for [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\nIn github code follow branch [sfence_hades_revisited](https://github.com/sfence/biofuel/tree/sfence_hades_revisited).",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "hades_biofuel",
-  "provides": [
-    "hades_biofuel"
-  ],
+  "provides": ["hades_biofuel"],
   "release": 13704,
   "repo": "https://github.com/sfence/biofuel",
   "score": 4.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4d8212911e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4d8212911e.png"],
   "short_description": "Produce biofuel from unused plants. ",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4d8212911e.png",
   "title": "Biofuel for Hades Revisited",
   "translation_url": null,
@@ -57,16 +49,12 @@
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

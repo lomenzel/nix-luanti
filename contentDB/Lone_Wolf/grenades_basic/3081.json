@@ -1,8 +1,6 @@
 {
   "author": "Lone_Wolf",
-  "content_warnings": [
-    "violence"
-  ],
+  "content_warnings": ["violence"],
   "created_at": "2019-04-03T19:51:57.002701",
   "dev_state": null,
   "donate_url": null,
@@ -104,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -433,26 +429,17 @@
   "issue_tracker": "https://github.com/LoneWolfHT/grenades_basic/issues",
   "license": "MIT",
   "long_description": "## Adds\n* Regular Grenade - Shoots out shards of metal that can kill players if they are too close to the detonation point\n* Smoke Grenade - Sprays a bunch of smoke around the detonation point. Which makes it hard to see in that area\n* Flashbang Grenade - Temporarily blinds any players that were looking at the detonation point",
-  "maintainers": [
-    "Lone_Wolf"
-  ],
+  "maintainers": ["Lone_Wolf"],
   "media_license": "CC-BY-SA-4.0",
   "name": "grenades_basic",
-  "provides": [
-    "grenades_basic"
-  ],
+  "provides": ["grenades_basic"],
   "release": 3081,
   "repo": "https://github.com/LoneWolfHT/grenades_basic",
   "score": 156.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ijnIIDOnWn.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ijnIIDOnWn.png"],
   "short_description": "Adds some basic grenades using the grenades API",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "tools"
-  ],
+  "tags": ["pvp", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ijnIIDOnWn.png",
   "title": "Basic Grenades",
   "translation_url": null,

@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/aa6/minetest_wadsprint/issues",
   "license": "AGPL-3.0-only",
   "long_description": "**How to use**\n\n1. Press A and D simultaneously to trigger the `ready_to_sprint` state. \n2. Then press W to start sprinting/running.\n3. Release A and D (keep W pressed) and continue sprinting until the stamina runs out.\n\n**Development / Issues**\n\n[https://github.com/aa6/minetest_wadsprint](https://github.com/aa6/minetest_wadsprint)",
-  "maintainers": [
-    "drkwv"
-  ],
+  "maintainers": ["drkwv"],
   "media_license": "AGPL-3.0-only",
   "name": "minetest_wadsprint",
-  "provides": [
-    "minetest_wadsprint"
-  ],
+  "provides": ["minetest_wadsprint"],
   "release": 26592,
   "repo": "https://github.com/aa6/minetest_wadsprint",
   "score": 330,
@@ -42,9 +38,7 @@
   ],
   "short_description": "Sprinting/running with W, A and D buttons.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects"
-  ],
+  "tags": ["player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/uDEOxuz3G5.png",
   "title": "Wadsprint",
   "translation_url": null,

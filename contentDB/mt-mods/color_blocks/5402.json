@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,14 +377,10 @@
   "issue_tracker": "https://github.com/mt-mods/mod_color_blocks/issues",
   "license": "MIT",
   "long_description": "This is my first mod. It has colored building blocks made from default items.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "color_blocks",
-  "provides": [
-    "color_blocks"
-  ],
+  "provides": ["color_blocks"],
   "release": 5402,
   "repo": "https://github.com/mt-mods/mod_color_blocks",
   "score": 4.8,
@@ -396,10 +390,7 @@
   ],
   "short_description": "Contains colored building blocks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2c1kIC673G.png",
   "title": "Color Blocks",
   "translation_url": null,

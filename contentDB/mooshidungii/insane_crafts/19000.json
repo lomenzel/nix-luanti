@@ -25,14 +25,10 @@
   "issue_tracker": "https://github.com/MidnightPhantom/Insane_crafts/issues",
   "license": "GPL-3.0-only",
   "long_description": "# Insane-crafts-mod\nThis mod aims to add crafting recipies for uncraftable items. Currently it is only for Minetest Game, But soon enough it will be for other games too. \n\nThis mod allows you to duplicate ores in a sense you can get more things in less amount. Crafting recipies are for all ores present in the default mod. But they will be for other mods too. And not to forget gravel, dirt and all kinds of sands in the default mod are craftable.\n\nNow MineClone 5 support has been added, for all overworld ores.\n\n\n",
-  "maintainers": [
-    "mooshidungii"
-  ],
+  "maintainers": ["mooshidungii"],
   "media_license": "GPL-3.0-only",
   "name": "insane_crafts",
-  "provides": [
-    "insane_crafts"
-  ],
+  "provides": ["insane_crafts"],
   "release": 19000,
   "repo": "https://github.com/MidnightPhantom/Insane_crafts",
   "score": 151.8,
@@ -43,9 +39,7 @@
   ],
   "short_description": "Adds special crafting recipies",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0c967d3f24.png",
   "title": "Insane crafting recipies",
   "translation_url": null,

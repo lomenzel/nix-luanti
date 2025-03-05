@@ -11,26 +11,17 @@
   "issue_tracker": "https://codeberg.org/zeuner/mtobjid/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# mtobjid\n\nThis library provides functions to obtain an ID for objects which is\npersistent over subsequent unloading and loading of the objects, and\nto operate on objects using the ID.\n\n## setup\n\nIn order to use the functions on objects from another mod, this mod must\nbe loaded before the mod that registers the objects. This can be achieved\nby defining `mtobjid` as an optional dependency of the other mod.\n\n## usage\n\n### get_id\n\nRetrieve a persistent ID for a LuaEntity ObjectRef.\n\n### get_object_by_id\n\nRetrieve the corresponding ObjectRef using the ID obtained through\n[get_id](#get_id). Returns nil if the object is currently unloaded.\n\n### on_next_activation\n\nArgument 1 (`objid`): ID obtained through [get_id](#get_id)\n\nArgument 2 (`handler`): function accepting an ObjectRef\n\nThe next time the object corresponding to the ID `objid` is activated,\n`handler` is called on the object.\n",
-  "maintainers": [
-    "zeuner"
-  ],
+  "maintainers": ["zeuner"],
   "media_license": "LGPL-2.1-or-later",
   "name": "mtobjid",
-  "provides": [
-    "mtobjid"
-  ],
+  "provides": ["mtobjid"],
   "release": 19947,
   "repo": "https://codeberg.org/zeuner/mtobjid",
   "score": 11.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/851ec1b7a9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/851ec1b7a9.png"],
   "short_description": "Persistent object-IDs for developers",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/851ec1b7a9.png",
   "title": "Minetest Object IDs (API)",
   "translation_url": null,

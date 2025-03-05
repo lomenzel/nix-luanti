@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/condensed_cobble/issues",
   "license": "Zlib",
   "long_description": "Add VERY CONDENSED version of cobblestone. 81 in one. This mod is an extract of [LinuxForks's fork of moreblocks](https://git.bananach.space/moreblocks.git).",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "Zlib",
   "name": "condensed_cobble",
-  "provides": [
-    "condensed_cobble"
-  ],
+  "provides": ["condensed_cobble"],
   "release": 24899,
   "repo": "https://github.com/C-C-Minetest-Server/condensed_cobble",
   "score": 305.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f4297bd654.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f4297bd654.png"],
   "short_description": "81 cobbles in one item!",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f4297bd654.png",
   "title": "Condensed Cobblestone",
   "translation_url": null,
@@ -509,18 +499,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

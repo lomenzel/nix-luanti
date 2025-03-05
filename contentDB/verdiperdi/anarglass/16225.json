@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Added some thematic glass blocks.\n\nPlease review and suggest ideas\n\n* 0.0.2  <p>-some changes to \"sovokglass\"(tired glass) texture(old one is backed up\n\t\t\t\t\t\t\t\t<p>-add gray glass with transparency gradations from 3 to 7 pieces. For better match with broken, shattered glass nodes\n\t\t\t\t\t\t\t\t\n* 0.0.3 <p>-added broken tired(sovok glass)\n                <p>-added whiter gray glass to match for broken glass node\n\t\t\t\t\t\t    <p>-added broken shot 128px, 64px glasses\n\t\t\t\t\t\t    <p>-rotated arabesque substituted",
-  "maintainers": [
-    "verdiperdi"
-  ],
+  "maintainers": ["verdiperdi"],
   "media_license": "CC-BY-SA-4.0",
   "name": "anarglass",
-  "provides": [
-    "anarglass"
-  ],
+  "provides": ["anarglass"],
   "release": 16225,
   "repo": null,
   "score": 5.3,
@@ -451,9 +445,7 @@
   ],
   "short_description": "Some kinds of glass nodes",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7e10540bfe.png",
   "title": "Anarglass",
   "translation_url": null,

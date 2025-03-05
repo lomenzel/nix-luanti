@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/Marnack/classic_coaches_nationality_livery_pack/issues",
   "license": "AGPL-3.0-only",
   "long_description": "This mod adds nationality themed predefined liveries for wagons in the **Classic Coaches** mod.\n\nThis is a \"light weight\" livery pack in that it only contains additional predefined liveries and no livery templates.  As a light weight livery pack, it can be can be added to a game, have its liveries applied to some wagons and then later be removed from the game without causing any problems.  The updated wagons will retain their liveries even though the mod was removed from the game.  That is not the case for standard livery packs.\n\n## Liveries\n\nThe predefined liveries in this mod are based on livery templates from the **Classic Coaches Generic Livery Pack** and can be applied to wagons from the **Classic Coaches** mod using the livery designer tool from the **AdvTrains Livery Tools modpack**.\n\nThe nationalities for these liveries were selected based on the 25 largest national railway networks as listed on [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_rail_transport_network_size) at the time this mod was created.  The colors for each nation were selected based on official national flag colors, also as reported on Wikipedia.  In some cases, multiple predefined liveries per nation are provided.  The livery designs are fictional and not intended to correspond to any actual railways.\n\nFor mod developers, this mod is also intended to serve as an example of how to implement a light weight livery pack.\n\n## Recent Changes\n\n### [1.1.0] - 2025-03-02\n- Add liveries for new bistro coach\n\n### [1.0.0] - 2025-01-19\n- Add a second predefined livery for each nation\n- Update livery colors for Sweden\n- Optimize PNG\n\nSee CHANGELOG.md for older changes.\n",
-  "maintainers": [
-    "Marnack"
-  ],
+  "maintainers": ["Marnack"],
   "media_license": "CC-BY-SA-3.0",
   "name": "classic_coaches_nationality_livery_pack",
-  "provides": [
-    "classic_coaches_nationality_livery_pack"
-  ],
+  "provides": ["classic_coaches_nationality_livery_pack"],
   "release": 29944,
   "repo": "https://github.com/Marnack/classic_coaches_nationality_livery_pack",
   "score": 7.8,
@@ -30,10 +26,7 @@
   ],
   "short_description": "Additional nationality themed liveries for use with the Classic Coaches mod.",
   "state": "APPROVED",
-  "tags": [
-    "simulation",
-    "transport"
-  ],
+  "tags": ["simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e24abb3666.png",
   "title": "Classic Coaches Nationality Livery Pack",
   "translation_url": null,
@@ -47,41 +40,31 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ],
     "Marnack/classic_coaches_generic_livery_pack": [
       {
         "is_optional": false,
         "name": "classic_coaches",
-        "packages": [
-          "Marnack/classic_coaches"
-        ]
+        "packages": ["Marnack/classic_coaches"]
       },
       {
         "is_optional": false,
         "name": "advtrains_livery_database",
-        "packages": [
-          "Marnack/advtrains_livery_tools"
-        ]
+        "packages": ["Marnack/advtrains_livery_tools"]
       }
     ],
     "Marnack/classic_coaches_nationality_livery_pack": [
       {
         "is_optional": false,
         "name": "classic_coaches_generic_livery_pack",
-        "packages": [
-          "Marnack/classic_coaches_generic_livery_pack"
-        ]
+        "packages": ["Marnack/classic_coaches_generic_livery_pack"]
       },
       {
         "is_optional": false,
         "name": "advtrains_livery_designer",
-        "packages": [
-          "Marnack/advtrains_livery_tools"
-        ]
+        "packages": ["Marnack/advtrains_livery_tools"]
       }
     ]
   },

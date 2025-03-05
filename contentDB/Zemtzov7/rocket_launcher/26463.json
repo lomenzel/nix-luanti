@@ -63,9 +63,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -262,14 +260,10 @@
   "issue_tracker": "https://github.com/zmv7/minetest-mod-rocket_launcher/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "# Rocket Launcher\n* Rockets are 3d meshes\n* Global radius can be set in settings - `rocket_launcher_radius`, default is `3`,\n* Also radius can be set individually for each launcher(radius will displayed in item icon, e.g. `R12`) by the `/rocket-radius <number>` command(keep launcher in the hand to use this command)\n* Rocket's ballistic enabled by default and can be disabled in settings(`rocket_launcher_ballistic = false`)\n* Explosions in protected areas (damage only, not breaking nodes) can be enabled by setting `rocket_launcher_safe_areas` to `false`\n\n### License of media (textures and model)\n* `rocket.obj` - by Zemtzov7. License - CC-BY-SA-4.0\n* `rocket.png`, `rocket_launcher.png`, `rocket_mesh.png` - by Zemtzov7, License - CC-BY-SA-4.0",
-  "maintainers": [
-    "Zemtzov7"
-  ],
+  "maintainers": ["Zemtzov7"],
   "media_license": "CC-BY-SA-4.0",
   "name": "rocket_launcher",
-  "provides": [
-    "rocket_launcher"
-  ],
+  "provides": ["rocket_launcher"],
   "release": 26463,
   "repo": "https://github.com/zmv7/minetest-mod-rocket_launcher",
   "score": 344.6,
@@ -280,11 +274,7 @@
   ],
   "short_description": "Rocket launcher using MT's tnt.boom function",
   "state": "APPROVED",
-  "tags": [
-    "pvp",
-    "shooter",
-    "tools"
-  ],
+  "tags": ["pvp", "shooter", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0b4ce9068f.png",
   "title": "Rocket Launcher",
   "translation_url": null,
@@ -298,9 +288,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -392,27 +390,17 @@
   "issue_tracker": "https://github.com/evrooije/painted_3d_armor/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "This mod bridges Hybrid Dog's version of the painting mod and shamoanjac banners mod with stu's 3d_armor modpack. It allows paintings and banners to be used as a banner/ crest/ sigil/ coat of arms on your armor. How does it work?\n\nFor painted armor, it adds an extra 6x6, 12x12 and 24x24 painting canvas that can be placed on the easel and painted. The painting has been given an armor group so that it can be added to the detached armor inventory of 3d_armor. Once added there, the painting's texture is added as an overlay on the player's skin, on the chest plate if the player is wearing one. And if the player holds a shield the image is placed on the shield as well.\n\nThe banners work in a similar fashion except that you design the image using the painted armor version of a banner. Right clicking opens the standard banner design form. When you are ready designing the banner, double click outside of the formspec to close it and save the changes. As with the painting, an armor group is added to the banner so that it can be placed in an armor slot.\n\nYou have one remaining armor slot when wearing a full set of armor and a shield. Place the banner or painting in the remaining slot and the banner is added to your armor (and shield if you are carrying one). The mod allows for various configuration via the init.lua such as whether to display on the chestplate, on the shield and even whether to display if the player is not wearing any armor. Also, the mod will check availability of either te painting or the banners mod. If both are installed, both painting and banner support is added. But you should have at least one of them (or this mod is quite useless) and 3D armor is of course a mandatory depedency.\n\nResources:  \n[https://forum.minetest.net/viewtopic.php?f=9&t=18178](https://forum.minetest.net/viewtopic.php?f=9&t=18178) 3D painted armor forum post  \n[https://github.com/evrooije/painting](https://github.com/evrooije/painting) Backup of the original painting mod with some changes to support Minetest 5.0.0 (eye level fix)  \n[https://github.com/evrooije/banners](https://github.com/evrooije/banners) Backup of the original banners mod  \n[https://github.com/stujones11/minetest-3d_armor](https://github.com/stujones11/minetest-3d_armor) stu's 3D armor  \n[https://forum.minetest.net/viewtopic.php?t=15305](https://forum.minetest.net/viewtopic.php?t=15305) Banners mod forum post  \n[https://forum.minetest.net/viewtopic.php?t=2588](https://forum.minetest.net/viewtopic.php?t=2588) Painting mod forum post",
-  "maintainers": [
-    "Beerholder"
-  ],
+  "maintainers": ["Beerholder"],
   "media_license": "CC0-1.0",
   "name": "painted_3d_armor",
-  "provides": [
-    "painted_3d_armor"
-  ],
+  "provides": ["painted_3d_armor"],
   "release": 1313,
   "repo": "https://github.com/evrooije/painted_3d_armor",
   "score": 13.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/aETdrUBSQJ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/aETdrUBSQJ.png"],
   "short_description": "Adds banners to your armor, either painted using the painting mod or created using the banners mod",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "survival",
-    "tools"
-  ],
+  "tags": ["player_effects", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/aETdrUBSQJ.png",
   "title": "Painted 3D Armor",
   "translation_url": null,

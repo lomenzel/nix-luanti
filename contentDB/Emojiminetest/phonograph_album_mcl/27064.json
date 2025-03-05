@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/phonograph_album_mcl/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Phonograoh album: VoxelLibre\n\nThis album includes tracks found in [VoxelLibre](https://content.minetest.net/packages/Wuzzy/mineclone2/). Use a [phonograph](https://content.minetest.net/packages/Emojiminetest/phonograph/) to play them. Jukebox music, ambiance, and main menu theme are included in their respective albums.\n\n## License of media\n\nMedia are licensed under different licenses.\n\n* `phonograph_album_mcl_icon.png`: [CC BY-SA 3.0][CCBYSA3], by Wuzzy and epCode\n* `phonograph_album_mcl_mcl_jukebox_track_5.ogg`: [CC BY 3.0][CCBY3], from <https://ccmixter.org/files/mactonite/65379>, by Darkroom\n* `phonograph_album_mcl_mcl_jukebox_track_6.ogg`: [CC BY-SA 3.0][CCBYSA3], from <https://opengameart.org/content/winter-feeling>, by Tom Peter\n* other `mcl_jukebox_track_*`: [CC0][CC0], by various authors (see `src/jukebox.lua`)\n* By [Dark Reaven Music](https://soundcloud.com/dark-reaven-music), [CC BY-SA 3.0][CCBYSA3]:\n  * `phonograph_album_mcl_ambience_horizonchris96-traitor.ogg`\n  * `phonograph_album_mcl_ambience_drm_theme.ogg`\n* By [Jester](https://www.youtube.com/@Jester-8-bit), [CC BY-SA 4.0][CCBYSA4]:\n  * `phonograph_album_mcl_ambience_Jester-*`\n* By [Exhale & Tim Unwin](https://www.youtube.com/channel/UClFo_JDWoG4NGrPQY0JPD_g), [CC BY-SA 4.0][CCBYSA4]:\n  * `phonograph_album_mcl_ambience_exhale_and_tim_unwin-*`\n* By Diminixed, [CC BY-SA 4.0][CCBYSA4]:\n  * `phonograph_album_mcl_ambience_diminixed-*`\n\n[CCBYSA3]: http://creativecommons.org/licenses/by-sa/3.0/\n[CCBYSA4]: http://creativecommons.org/licenses/by-sa/4.0/\n[CCBY3]: http://creativecommons.org/licenses/by/3.0/\n[CC0]: https://creativecommons.org/publicdomain/zero/1.0/\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "phonograph_album_mcl",
-  "provides": [
-    "phonograph_album_mcl"
-  ],
+  "provides": ["phonograph_album_mcl"],
   "release": 27064,
   "repo": "https://github.com/C-C-Minetest-Server/phonograph_album_mcl",
   "score": 5.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/20e2bed096.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/20e2bed096.png"],
   "short_description": "Songs from VoxelLibre for Phonographs",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/20e2bed096.png",
   "title": "Phonograph album: VoxelLibre",
   "translation_url": null,
@@ -54,27 +46,19 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/phonograph_album_mcl": [
       {
         "is_optional": false,
         "name": "phonograph_core",
-        "packages": [
-          "Emojiminetest/phonograph"
-        ]
+        "packages": ["Emojiminetest/phonograph"]
       }
     ]
   },

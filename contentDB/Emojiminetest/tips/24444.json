@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/tips/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Tips API\n\nThis mod is straightforward - it sends players a tip once a certain criteria is matched. Like the achievement mod, the tip is only sent on the first time. See `tips/src/api.lua` for how to use this mod.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-2.1-or-later",
   "name": "tips",
-  "provides": [
-    "tips"
-  ],
+  "provides": ["tips"],
   "release": 24444,
   "repo": "https://github.com/C-C-Minetest-Server/tips",
   "score": 3.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/6dd0e88e9a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/6dd0e88e9a.png"],
   "short_description": "Send tips to newcomers",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "multiplayer"
-  ],
+  "tags": ["library", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6dd0e88e9a.png",
   "title": "Tips",
   "translation_url": null,
@@ -45,10 +36,7 @@
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ]
   },

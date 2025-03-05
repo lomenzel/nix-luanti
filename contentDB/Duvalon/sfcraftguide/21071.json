@@ -38,28 +38,17 @@
   "issue_tracker": "https://github.com/dacmot/sfcraftguide/issues",
   "license": "MIT",
   "long_description": "![luacheck](https://github.com/dacmot/sfcraftguide/actions/workflows/luacheck.yml/badge.svg)\n\nsfcraftguide\n============\n\nAn augmented mtg_craftguide. Supports a progressive reveal system that follows doc items help.\n\nBased on [mtg_craftguide](https://github.com/minetest/minetest_game), which itself is based on [craftguide](https://github.com/minetest-mods/craftguide).\n\nDependencies\n---------------------\nAdds a \"Recipes\" tab to the sfinv inventory. Click an item to see it's recipes. Click again to show usages.\n\nRecipes reveal will be synchronized with the doc items discovered ([doc/help](https://forum.minetest.net/viewtopic.php?f=11&t=15912))\n\nAuthors of media\n----------------\n\nparamat (CC BY-SA 3.0):\n\n* craftguide_clear_icon.png\n* craftguide_next_icon.png\n* craftguide_prev_icon.png\n* craftguide_search_icon.png\n\nNeuromancer (CC BY-SA 3.0):\n\n* craftguide_furnace.png\n\nWuzzy (CC BY-SA 3.0):\n\n* craftguide_shapeless.png\n",
-  "maintainers": [
-    "Duvalon"
-  ],
+  "maintainers": ["Duvalon"],
   "media_license": "CC-BY-SA-3.0",
   "name": "sfcraftguide",
-  "provides": [
-    "sfcraftguide"
-  ],
+  "provides": ["sfcraftguide"],
   "release": 21071,
   "repo": "https://github.com/dacmot/sfcraftguide",
   "score": -136.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/79ee8b8864.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/79ee8b8864.png"],
   "short_description": "An augmented mtg_craftguide. Supports a progressive reveal system that follows doc items help.",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "gui",
-    "mtg",
-    "survival"
-  ],
+  "tags": ["crafting", "gui", "mtg", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/79ee8b8864.png",
   "title": "sfcraftguide",
   "translation_url": null,

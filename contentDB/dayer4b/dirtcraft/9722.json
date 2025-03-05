@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/dayer4b/dirtcraft/issues",
   "license": "MIT",
   "long_description": "This minetest mod provides recipes for crafting dirt by automatic means.  This\nwas specifically written with the intention to support the `ethereal` mod.\n\nIn order to avoid possible conflicts with the recipes produced, they are shaped\nwith the \"other_ingredient\" being placed above good ole \"default:dirt\".\n\n```lua\nminetest.register_craft({\n   output = dirt_name,\n   recipe = {\n      {other_ingredient},\n      {\"default:dirt\"}\n   }\n})\n```\n",
-  "maintainers": [
-    "dayer4b"
-  ],
+  "maintainers": ["dayer4b"],
   "media_license": "MIT",
   "name": "dirtcraft",
-  "provides": [
-    "dirtcraft"
-  ],
+  "provides": ["dirtcraft"],
   "release": 9722,
   "repo": "https://github.com/dayer4b/dirtcraft",
   "score": 155,
@@ -449,10 +443,7 @@
   ],
   "short_description": "Adds automatic crafting recipes for making most kinds of dirt",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "crafting"
-  ],
+  "tags": ["building", "crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/826bd788de.png",
   "title": "Dirtcraft",
   "translation_url": null,

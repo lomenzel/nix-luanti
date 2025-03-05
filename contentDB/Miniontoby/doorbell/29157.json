@@ -323,9 +323,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "AGPL-2.0-only",
   "long_description": "\"Doorbell\" created by me\n\nI have made a doorbell mod with a doorbell and a delete tool. \n\n\nWorking:\n\nWhen you push the doorbell there is coming a doorbell_sound only at the person who's hosting the server or only singleplayer. But if you have the 1.6 version only the player who is near the doorbell will hear the doorbell\n\n\nRecipe:\n\n- \"-\" = none, (don't let on the \"\", only on the character) \n- | = delete_tool,  \n- \\ = doorbell, \n- / = wood, \n- m_s = mesecons_button:button_off, \n- w_b = wool:black, \n- w_w = wool:white, \n- m_m = group:mesecon_conductor_craftable,\n-  d_l = digilines:wire_std_00000000,\n- w_blue = wool:blue\n\nDoorbell_locked {\n\n\\ | -\n\n}\n\nDoorbell {\n\nw_b w_b w_b\n\nw_b w_w w_b\n\nw_b w_b w_b\n\n}\n\nDelete tool {\n\n\\ \n\n}\n\nDoorbell 3D {\n\n\\ m_s -\n\n}\n\nDoorbell mesecons {\n\n\\ m_m -\n\n}\n\nDoorbell digilines{\n\n\\ d_l -\n\n}\n\nDoorbell marker{\n\n\nw_b - w_b - w_b\n\nw_b - w_blue - w_b\n\nw_b - w_b - w_b\n\n}\n\nHistory:\n\nI have made It when I was just ten years old, but when I was thirteen years old and I made the delete tool \nI made the delete tool because I couldn't delete the doorbell. \n\n\nYou can use the delete tool for every node.\n",
-  "maintainers": [
-    "Miniontoby"
-  ],
+  "maintainers": ["Miniontoby"],
   "media_license": "AGPL-2.0-only",
   "name": "doorbell",
-  "provides": [
-    "doorbell"
-  ],
+  "provides": ["doorbell"],
   "release": 29157,
   "repo": null,
   "score": 7.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2s7dLTQ9Rx.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2s7dLTQ9Rx.png"],
   "short_description": "A doorbell mod with sound ",
   "state": "APPROVED",
-  "tags": [
-    "decorative",
-    "world_tools"
-  ],
+  "tags": ["decorative", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2s7dLTQ9Rx.png",
   "title": "doorbell",
   "translation_url": null,

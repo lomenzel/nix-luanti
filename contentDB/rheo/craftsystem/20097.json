@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-craftsystem/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# craftystem\n\nan API mod to automate generating recipe replacements. \n\n## usage\n\nNOTE: API subject to change\n\n* `craftsystem.api.register_replacement(\"group:bucket_water\", \"bucket:bucket_empty\")`\n  \n\tindicate that whenever `\"group:bucket_water\"` is used in a craft recipe registered w/ this mod, it will be replaced\n  with \"bucket:bucket_empty\".\n* `craftsystem.api.register_replacement(\"bees:bottle_honey\", \"vessels:bottle_empty\")`\n  \n\twhenever `\"bees:bottle_honey\"` is used in a recipe registered w/ this mod, it will be replaced w/\n  \"vessels:bottle_empty\" - even if the recipe uses a group e.g. `\"group:food_sugar\"`\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "craftsystem",
-  "provides": [
-    "craftsystem"
-  ],
+  "provides": ["craftsystem"],
   "release": 20097,
   "repo": "https://github.com/fluxionary/minetest-craftsystem.git",
   "score": 2.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/dad42b5175.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/dad42b5175.png"],
   "short_description": "craft registration API which automatically deals w/ replacements",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "developer_tools",
-    "library"
-  ],
+  "tags": ["crafting", "developer_tools", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/dad42b5175.png",
   "title": "craftsystem",
   "translation_url": null,
@@ -45,18 +35,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/fmod": [],
@@ -64,10 +48,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

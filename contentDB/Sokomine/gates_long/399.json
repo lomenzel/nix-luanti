@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Sokomine/gates_long/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Well, gates. There are many other mods that provide some already. What makes this gates mod special is that its gates open a bit further than those from other mods. There's an almost 2 m wide gap between the fence posts - and most mods use only 1 m for the open gate. Far more space to walk or drive through!\n\nThe gates will close automaticly after a couple of seconds. The closed gate is a barrier for the mobs from TenPlus1's mobs_redo mod - the mobs will not jump over it because they think it's a fence. The mobs can travel through the open gate.\n\nComes in diffrent wood types fitting to your fence.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "gates_long",
-  "provides": [
-    "gates_long"
-  ],
+  "provides": ["gates_long"],
   "release": 399,
   "repo": "https://github.com/Sokomine/gates_long.git",
   "score": 6.6,
@@ -450,10 +444,7 @@
   ],
   "short_description": "Wide gates for easy walking through and keeping cattle inside",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "mobs"
-  ],
+  "tags": ["building", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/jG7YIus42X.png",
   "title": "Gates (wider)",
   "translation_url": null,

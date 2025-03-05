@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/Herkules128/elevators/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "# Elevators (`elevators`)\nThis Mod adds an elevator entity and two types of rails for the elevator.\nThe Elevator only works on these rails.\n\n`This mod works best on low lag environments, expect issues otherwise!`\n\n## Controls\nRight-click to enter or leave the elevator.\nLeft-click to remove the elevator.\nWhile you are seated in the elevator, you can accelerate by pressing jump or sneak.\nYou will accelerate until you reached the top speed.\nIf you cross a brakerail the velocity will be set to zero, perfect for an holding station.\n\n## Code and ressources\nMost of the code is written by me.\nThe textures are based on the default minetest_game carts.\nThe model for the elevator is the same as minetest_game carts.\nThe function manage_attachment() and on_place for the elevator_entity is from minetest_game carts.",
-  "maintainers": [
-    "Herkules"
-  ],
+  "maintainers": ["Herkules"],
   "media_license": "LGPL-3.0-only",
   "name": "elevators",
-  "provides": [
-    "elevators"
-  ],
+  "provides": ["elevators"],
   "release": 16928,
   "repo": "https://github.com/Herkules128/elevators",
   "score": 333.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/VnHiViViuG.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/VnHiViViuG.png"],
   "short_description": "Adds an elevator and elevatorrails.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/VnHiViViuG.png",
   "title": "Elevators",
   "translation_url": null,

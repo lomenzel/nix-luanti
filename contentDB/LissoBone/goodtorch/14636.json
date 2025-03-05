@@ -1,8 +1,6 @@
 {
   "author": "LissoBone",
-  "content_warnings": [
-    "horror"
-  ],
+  "content_warnings": ["horror"],
   "created_at": "2022-08-24T11:23:12.792868",
   "dev_state": "WIP",
   "donate_url": null,
@@ -13,14 +11,10 @@
   "issue_tracker": "https://github.com/LissoBone/goodtorch/issues/new/choose/",
   "license": "GPL-3.0-or-later",
   "long_description": "# This is awful (probably).\nThe flashlight mod with brightness linearly decreasing with distance and ray casting.\nTextures: made by me.\nSounds: also by me.\nSome of the code: by the illumination mod, but heavily changed.\nSome more of the code: by ApolloX (thank you once again).",
-  "maintainers": [
-    "LissoBone"
-  ],
+  "maintainers": ["LissoBone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "goodtorch",
-  "provides": [
-    "goodtorch"
-  ],
+  "provides": ["goodtorch"],
   "release": 14636,
   "repo": "https://github.com/LissoBone/goodtorch.git",
   "score": 322.9,
@@ -30,9 +24,7 @@
   ],
   "short_description": "Merely a flashlight that uses ray casting.",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a7acbb9976.png",
   "title": "Good Torch",
   "translation_url": null,

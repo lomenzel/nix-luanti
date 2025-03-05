@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/Avicennia/nc_luxgate/issues/new/choose/",
   "license": "MIT",
   "long_description": "A simple nodecore mod intending to make long distance transport in the nodecore world easier.\n\nPlease refer to the **readme** file for more detailed explanation of how to craft and use luxgates.\n\n*What are Luxgates?*\n\tLuxgates are portal-like \"gates\" that can be constructed by nodecore players to fast-travel from place to place between other gates.\n\n\nAdds:\n-\n- Craftable luxgate portals.\n- New byproduct ore \"ilmenite\", obtained from mining lode ore.\n- New building nodes \"Ilmenite block\",  \"Ilmenite cobble\",  \"Ulvstone\"\n- New crafting recipes involving charcoal, and the above new nodes.\n- New smelting recipe\n\nEnjoy zooming from place to place within seconds, _anywhere_ on the map.\n\n#### Hints:\n\nDo **Not** place anything on any part of the portal or its platform.\n*Any* nodes within the space of the portal and its platform will cause a disturbance in the flow of lux, and the portal will lose it's conductivity. (Will not teleport anything)\n\nCraft Ilmenite blocks by pummeling the appropriate number of ilmenite shards together.\n\nIlmenite blocks can be destroyed with heat.\n\nUlvstone blocks are ilmenite blocks with a thick outer coat of coal.\n\n**Feedback:**\nPlease feel free to leave any feedback or report any bugs, if other methods do not work I can be contacted at a.germinans@gmail.com.",
-  "maintainers": [
-    "Avicennia_g"
-  ],
+  "maintainers": ["Avicennia_g"],
   "media_license": "MIT",
   "name": "nc_luxgate",
-  "provides": [
-    "nc_luxgate"
-  ],
+  "provides": ["nc_luxgate"],
   "release": 3214,
   "repo": "https://github.com/Avicennia/nc_luxgate",
   "score": 9.5,
@@ -56,10 +52,7 @@
   ],
   "short_description": "A simple attempt at adding craftable portals called \"Luxgates\" to nodecore.",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "transport"
-  ],
+  "tags": ["technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/26ZIVIby2W.png",
   "title": "Nodecore Luxgate",
   "translation_url": null,
@@ -73,34 +66,22 @@
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_craft",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

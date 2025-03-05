@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/usermgr/issues",
   "license": "MIT",
   "long_description": "# GUI to manage users\nThis is a GUI interface to manage user accounts. Use `/usermgr` command to open it.\n\nThe interface is mostly self-documentated, so no worry.\n\nNote that only players with `basic_privs` can manage all accounts, otherwise they could only manage their own.\n\n<span style=\"coor:red\">**`WARNING!`**</span> On large servers (>~100 players), this may cause huge lag. Please test it on local world copies first. Please report the test results to me, as I've never tested such case.\n\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "usermgr",
-  "provides": [
-    "usermgr"
-  ],
+  "provides": ["usermgr"],
   "release": 13932,
   "repo": "https://github.com/C-C-Minetest-Server/usermgr",
   "score": 155.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a557b8c943.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a557b8c943.png"],
   "short_description": "GUI to manage players",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a557b8c943.png",
   "title": "User Manager",
   "translation_url": null,
@@ -43,10 +35,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "luk3yx/flow": [

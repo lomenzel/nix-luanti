@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,9 +416,7 @@
   "issue_tracker": "https://github.com/NorielSylvire/ns_minerals_core/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "Version: 1.2\nLicenses: Code: LGPL 2.1 Textures: CC-BY-SA, CC-BY\nRead license.txt for more information.\n\n***NorielSylvire's Minerals Core depends on the [nslib](https://content.minetest.net/packages/Noriel_Sylvire/nslib/) mod. (Now it comes bundled with the modpack) ***Remember to install it if you are planning on using this modpack.\n\nNsmc contains an API for automatically registering everything related to an ore, or mineral.\n\nThis API can ***colorize premade grayscale textures*** for you, so *you don't even need to make textures* for this modpack to add in items, you can just choose a color and a name for each mineral and that's it!\n\nIf you don't even define **anything** about the minerals, not even a color, this API will still generate ores, tools, recipes and everyting, using white textures and copying the stats of the iron material.",
-  "maintainers": [
-    "Noriel_Sylvire"
-  ],
+  "maintainers": ["Noriel_Sylvire"],
   "media_license": "CC-BY-SA-3.0",
   "name": "ns_minerals_core",
   "provides": [
@@ -442,13 +438,7 @@
   ],
   "short_description": "An API for automatically registering recipes, nodes and ore generation.",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "library",
-    "mapgen",
-    "survival",
-    "tools"
-  ],
+  "tags": ["developer_tools", "library", "mapgen", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/9be6b980f0.png",
   "title": "Noriel Sylvire's Minerals Core Modpack",
   "translation_url": null,

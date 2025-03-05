@@ -25,24 +25,17 @@
   "issue_tracker": "https://github.com/sfence/hades_compatibility/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": " Compatiblity mod for Hades Revisited. This mod allow worlds from version 0.7.0 to be upgrated to version 0.8.1 or 0.11.0.\n\nUse configuration value  **hades_compatibility_list**:\n\nAviable combinations in list (git commit/Hades Revisited version):\n\n* f185358->2f2fb4d - Version 0.7.0 to commit 2f2fb4d\n* f185358->828b9c9 / 0.7.0->0.8.1 - Version 0.7.0 to 0.8.1\n* 828b9c9->ca1de77 / 0.8.1->0.11.0 - Version 0.8.1 to 0.11.0 (Mod [Mesecons for Hades Revisited](https://content.minetest.net/packages/SFENCE/hades_mesecons/) can be used as replacement of removed mesecons mod)\n* ca1de77->88f74ff / 0.11.0->0.13.0 - Version 0.11.0 to 0.13.0 (Mods can be used [hades_travelnet](https://content.minetest.net/packages/SFENCE/hades_travelnet/), [hades_boost_cart](https://content.minetest.net/packages/SFENCE/hades_extensionmods/), [hades_extravessels](https://content.minetest.net/packages/SFENCE/hades_extensionmods/) and [hades_3dforniture](https://github.com/sfence/3dforniture/tree/sfence_hades_revisited) as replacement of removed mods. Set parameter hades_compatibility_flowergrass to true, if you want flowergrass to be keeped in your world.)\n\nDefault value of  **hades_compatibility_list** is **0.7.0->0.8.1,0.8.1->0.11.0,0.11.0->0.13.0**",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-3.0",
   "name": "hades_compatibility",
-  "provides": [
-    "hades_compatibility"
-  ],
+  "provides": ["hades_compatibility"],
   "release": 9521,
   "repo": "https://github.com/sfence/hades_compatibility",
   "score": 3.6,
   "screenshots": [],
   "short_description": "Make old Hades Revisited world compatible with new versions of Hades Revisited (from version 0.7.0 to 0.13.0).",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "world_tools"
-  ],
+  "tags": ["complex_installation", "world_tools"],
   "thumbnail": null,
   "title": "Hades Revisited back-compatibility",
   "translation_url": null,

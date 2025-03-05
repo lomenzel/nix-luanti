@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/ThePeasantJoe/Better-Water-Physics-Minetest/issues",
   "license": "MIT",
   "long_description": "This simple mod adds something long missing from the base Minetest game; water improvement. This mod adds splash particles and sounds when jumping into the water, and underwater ambience when submerged.\n",
-  "maintainers": [
-    "ThePeasantJoe"
-  ],
+  "maintainers": ["ThePeasantJoe"],
   "media_license": "CC0-1.0",
   "name": "better_water_physics",
-  "provides": [
-    "better_water_physics"
-  ],
+  "provides": ["better_water_physics"],
   "release": 28120,
   "repo": "https://github.com/ThePeasantJoe/Better-Water-Physics-Minetest",
   "score": 348.5,
@@ -30,10 +26,7 @@
   ],
   "short_description": "Adds much desired water physics like splashes upon jumping in, and underwater ambience.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "player_effects"
-  ],
+  "tags": ["environment", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0831bffd2b.png",
   "title": "Better Water Physics",
   "translation_url": null,

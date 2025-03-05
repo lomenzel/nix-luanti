@@ -38,26 +38,17 @@
   "issue_tracker": "https://github.com/Panquesito7/minetest-instant_sapling_growth/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "Instantly grows a sapling when placed, with support for 10+ sapling mods. 🌳\n\n## Supported sapling mods\n\nWe support a variety of mods and modpacks to ensure all of those work properly with this mod.<br>\nThis can be very useful in case you need saplings to instantly grow for buildings.\n\n- Full [Cool Trees](https://content.minetest.net/packages/runs/cool_trees/) modpack support.\n- [Mahogany](https://content.minetest.net/packages/runs/mahogany/) mod support.\n- [Maple Tree](https://content.minetest.net/packages/Duvalon/maple/) mod support.\n- Full [Plantlife](https://content.minetest.net/packages/mt-mods/plantlife_modpack/) modpack support.\n- Full [More Trees!](https://content.minetest.net/packages/mt-mods/moretrees/) modpack support.\n\nIf you'd like to see another mod being added, feel free to [create an issue](https://github.com/Panquesito7/minetest-instant_sapling_growth/issues/new/choose).\n\n## Settings\n\nThese settings can be customized by modifying [`minetest.conf`](https://wiki.minetest.net/Minetest.conf) or directly in the Minetest settings.\n\n- `instant_sapling_growth.grow_everywhere`: Whether to grow the sapling everywhere or on proper soil only (disabled by default).\n- `instant_sapling_growth.light_limitations`: Whether will saplings grow only in the daytime or not (enabled by default).\n\n## Required Minetest version\n\nThis mod has been fully tested with Minetest 5.7.0 (the current latest version).<br>\nHowever, the mod should work as expected in Minetest 5.0.0+.\n\n## License\n\nRefer to [`LICENSE.md`](https://github.com/Panquesito7/minetest-instant_sapling_growth/blob/main/LICENSE.md) for full information.\n",
-  "maintainers": [
-    "Panquesito7"
-  ],
+  "maintainers": ["Panquesito7"],
   "media_license": "GPL-3.0-or-later",
   "name": "instant_sapling_growth",
-  "provides": [
-    "instant_sapling_growth"
-  ],
+  "provides": ["instant_sapling_growth"],
   "release": 22726,
   "repo": "https://github.com/Panquesito7/minetest-instant_sapling_growth",
   "score": 7.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/c5a956c590.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/c5a956c590.png"],
   "short_description": "Instantly grows sapling and trees when placed. 🌳",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "plants_and_farming"
-  ],
+  "tags": ["building_mechanics", "plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/c5a956c590.png",
   "title": "Instant Sapling Growth",
   "translation_url": null,

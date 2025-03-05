@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,9 +429,7 @@
   "issue_tracker": "https://github.com/AiTechEye/aliveai/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "Advanced survuver AI mobs\n\n* NPC\nNpc mobs that does things like, looking for stuff those needs, mining, crafting, talking, building houses in randomly with furnitures, using tools, and do things it needs to do, and so much more.\nThis ai/mobs/bots can give you a piece of feeling of real players.\n\n* Monsters & enimies  \nYou have to be attentive for a big amount of enimies & monsters, one more odd & powerfull then the other. some mobs are as powerfull as they can completely ruin large areas, be carefull with them!\n\n* The other  \nThe most mobs is workinng in teams, you can also change to theirs team. There are also spawning some (generated) buildings, like big underground-lab, forts and massive pyramids & a lot of misc stuff",
-  "maintainers": [
-    "AiTechEye"
-  ],
+  "maintainers": ["AiTechEye"],
   "media_license": "CC-BY-SA-4.0",
   "name": "aliveai",
   "provides": [
@@ -470,12 +466,7 @@
   ],
   "short_description": "Advanced survivor ai mobs (npc, monsters and more)",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["mapgen", "mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/u9QyKyS2xg.png",
   "title": "Alive AI",
   "translation_url": null,

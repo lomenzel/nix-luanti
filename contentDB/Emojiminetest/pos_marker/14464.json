@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/Emojigit/pos_marker/issues",
   "license": "MIT",
   "long_description": "# commands\n## `/marker <subcommand> <marker name>`\n### subcommands\n\t- `set`: Set a marker\n\t- `get`: Get pos of a marker\n\t- `tp`: Teleport to a marker\n## `/gmarker <subcommand> <marker name>`\nLike `/marker`, but access global markers.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "pos_marker",
-  "provides": [
-    "pos_marker"
-  ],
+  "provides": ["pos_marker"],
   "release": 14464,
   "repo": "https://github.com/Emojigit/pos_marker",
   "score": 0.8,
   "screenshots": [],
   "short_description": "Add markers that can set and get via chatcommand.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "transport"
-  ],
+  "tags": ["chat", "transport"],
   "thumbnail": null,
   "title": "Pos Marker",
   "translation_url": null,
@@ -42,9 +35,7 @@
       {
         "is_optional": false,
         "name": "subcommands",
-        "packages": [
-          "Emojiminetest/subcommands"
-        ]
+        "packages": ["Emojiminetest/subcommands"]
       }
     ],
     "Emojiminetest/subcommands": []

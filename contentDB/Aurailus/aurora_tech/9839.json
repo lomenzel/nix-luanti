@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,28 +247,17 @@
   "issue_tracker": "https://github.com/Aurailus-Minetest/AuroraTech/issues",
   "license": "MIT",
   "long_description": "# AuroraTech\n\nAuroraTech is a small mod made in 4 days for the UMTD Combat Modding Event. It adds four machines and four unique tools to Minetest.\n\n## Machines\n\n### Mese Generator\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/mese_generator.png)\n\nThe Mese Generator is used to power the Lava Crucible and Diamond Empowerer. You fuel it by interacting with it with a mese crystal in hand. It will then power adjacent devices for a short amount of time, before consuming the crystal. It can power up to four adjacent devices at once, but powering more will make them all go slower. Take care not to break it while it's generating power!\n\n### Diamond Empowerer\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/diamond_empowerer.png)\n\nThe Diamond Empowerer creates Empowered Diamonds when given a regular diamond and powered by a Mese Generator. Powered diamonds are used for crafting.\n\n### Lava Crucible\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/lava_crucible.png)\n\nThe Lava Crucible creates Lava Charges when filled with lava and powered by a Mese Generator. Lava Charges can be crafted into Lava Cores by placing nine in a grid, and can be used for crafting or as light sources.\n\n### Recharger\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/recharger.png)\n\nThe Recharger is used to Recharge the Drone Remote.\n\n### [Example](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/machines.png)\n\n## Tools\n\n### Blink Launcher\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/blink_launcher.png)\n\nThe Blink Launcher allows you to shoot a projectile, and then teleport to it. It can be refuelled by crafting it with Empowered Diamonds.\n\n### Mining Laser\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/mining_laser.png)\n\nThe Mining Laser is an extremely fast, lava powered, ranged mining device. It can be refuelled by crafting it with Lava Charges or Lava Cores.\n\n### Warp Boots\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/warp_boots.png)\n\nThe Warp Boots allow you to propel yourself forward by double tapping W, even allowing you to warp through two meter thick walls. They do not need to be refuelled, instead breaking when they run out of durability.\n\n### Drone Remote\n\n[Crafting Recipe](https://raw.githubusercontent.com/Aurailus-Minetest/AuroraTech/master/instructions/drone_remote.png)\n\nThe Drone Remote allows you to pilot a weaponized drone, and detonate it when finished.\n\n### [Join my Discord Server](https://aurail.us/discord)\n",
-  "maintainers": [
-    "Aurailus"
-  ],
+  "maintainers": ["Aurailus"],
   "media_license": "CC-BY-SA-3.0",
   "name": "aurora_tech",
-  "provides": [
-    "aurora_tech"
-  ],
+  "provides": ["aurora_tech"],
   "release": 9839,
   "repo": "https://github.com/Aurailus-Minetest/AuroraTech",
   "score": 314.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/I97l3D97J0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/I97l3D97J0.png"],
   "short_description": "Unique and powerful gadgets and utilites.",
   "state": "APPROVED",
-  "tags": [
-    "jam_combat_mod",
-    "pvp",
-    "shooter",
-    "tools"
-  ],
+  "tags": ["jam_combat_mod", "pvp", "shooter", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/I97l3D97J0.png",
   "title": "Aurora Tech",
   "translation_url": null,
@@ -457,9 +444,7 @@
       {
         "is_optional": false,
         "name": "algae",
-        "packages": [
-          "Just_Visiting/algae"
-        ]
+        "packages": ["Just_Visiting/algae"]
       },
       {
         "is_optional": false,

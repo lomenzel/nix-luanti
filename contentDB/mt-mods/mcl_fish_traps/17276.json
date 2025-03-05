@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/mt-mods/mcl_fish_traps/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Fishing Traps for MineClone 2\nAdds fishing traps to MineClone 2. Just place in the water, and it will automatically and slowly fish for you. Has the same loot table as the fishing rod. The trap must be surrounded horizontally by (river) water source blocks.\n\n## Compatibility\nThis mod is relatively incompatible with older versions of MineClone2. It is absolutely incompatible with MineClone5.\n\n## Suggestions\nHave a suggestion or a bug? Create an issue on the [bug tracker](https://codeberg.org/PrairieWind/mcl_fish_traps/issues).",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_fish_traps",
-  "provides": [
-    "mcl_fish_traps"
-  ],
+  "provides": ["mcl_fish_traps"],
   "release": 17276,
   "repo": "https://github.com/mt-mods/mcl_fish_traps.git",
   "score": 16.1,
@@ -55,10 +51,7 @@
   ],
   "short_description": "Adds fishing traps to MineClone 2",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "tools"
-  ],
+  "tags": ["technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/50461c775b.png",
   "title": "Fish Traps for MineClone 2",
   "translation_url": null,

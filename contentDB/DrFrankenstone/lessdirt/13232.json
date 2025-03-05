@@ -64,9 +64,7 @@
   "issue_tracker": "https://github.com/Treer/LessDirt/issues",
   "license": "CC-BY-SA-3.0",
   "long_description": "\"Less Dirt\" extends the grass growth on the side of blocks so rolling hills show less exposed bare dirt. Also does the same for snow, forest litter, moss, etc. This improves screenshots but doesn't alter nodes.\n\nRemoves a piece of Minecraft's style legacy that Notch might not have gotten right.\n\nWorks with:\n\n* Minetest Game\n* MeseCraft\n* MineClone 2\n* MineClone 5\n* Ethereal\n\nFor a more advanced adjustable system, or a way to do this while using non-default texture packs, see Kestral's mod [Adjustable Dirt](https://forum.minetest.net/viewtopic.php?t=23726).",
-  "maintainers": [
-    "DrFrankenstone"
-  ],
+  "maintainers": ["DrFrankenstone"],
   "media_license": "CC-BY-SA-3.0",
   "name": "lessdirt",
   "provides": [],
@@ -79,9 +77,7 @@
   ],
   "short_description": "Adjusts textures so rolling hills have less exposed bare dirt.",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/OYavF6SYTG.png",
   "title": "Less Dirt",
   "translation_url": null,

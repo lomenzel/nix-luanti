@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -405,26 +403,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "# Technic Armor [technic_armor]\n\n[![luacheck](https://github.com/mt-mods/technic_armor/workflows/luacheck/badge.svg)](https://github.com/mt-mods/technic_armor/actions)\n\nAdds armor made from lead, brass, cast iron, carbon steel, stainless steel, tin and silver.\n\n![](screenshot.png?raw=true)\n\nTextures by @poet-nohit and @numberZero\n",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "WTFPL",
   "name": "technic_armor",
-  "provides": [
-    "technic_armor"
-  ],
+  "provides": ["technic_armor"],
   "release": 24351,
   "repo": "https://github.com/mt-mods/technic_armor",
   "score": 26.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/f8666ed97c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/f8666ed97c.png"],
   "short_description": "Adds armor made from lead, brass, cast iron, carbon steel, stainless steel, tin and silver",
   "state": "APPROVED",
-  "tags": [
-    "survival",
-    "tools"
-  ],
+  "tags": ["survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f8666ed97c.png",
   "title": "Technic Armor",
   "translation_url": null,

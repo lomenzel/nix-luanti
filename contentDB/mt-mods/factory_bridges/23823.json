@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/mt-mods/factory_bridges/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Decorate your factories with appropiate bridges, stairs and safety-railings!\n\nDifferences from the original `factory_bridges` package:\n\n* Diagonal railings\n* Code fixes and tidy",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "LGPL-2.1-only",
   "name": "factory_bridges",
-  "provides": [
-    "factory_bridges"
-  ],
+  "provides": ["factory_bridges"],
   "release": 23823,
   "repo": "https://github.com/mt-mods/factory_bridges",
   "score": 172,
@@ -28,10 +24,7 @@
   ],
   "short_description": "This mod adds a steel bridges, railings and stairs in Minetest.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2da832ae09.png",
   "title": "Factory bridges",
   "translation_url": null,

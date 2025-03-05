@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/RisingLeaf/sunset_biomes/issues/new/choose/",
   "license": "CC-BY-SA-4.0",
   "long_description": "<h1>Sunset Biomes</h1>\nThis is part of a bigger project I am working on, but I dislike it when content creators only give you the choice between all or nothing, so I will publish it in smaller mods.\n\nThe two biomes added are called:\n* The Old\n* The Mighty\n\nI know the names sound a bit strange, but who cares?\n\n<h2>The Old</h2>\nA biome with small trees and some lonely houses, that were built long ago. It seems that this region of land has been there since the ancient times, no real change has occured here for a long time and it is told that the old inhabitants of this region still come back to it at night.\n\n<h2>The Mighty</h2>\nWherever fragments of great power come to the world, they let it shine in the brightest colors.\n\n<h2>The Lost Kingdom</h2>\nThese strongholds are all that remains from a once great kingdom. The few who live inside them, sealed the doors to the outside world in fear of something only they know about.\n*This is really barebone right now, it only generates the stronghold, people will come.*\n\nMore biomes are planned and I also need to add some stuff you can craft with the materials of the biomes, but that is it for now.\n\n<h2>Note:</h2>\nThis mod increases mapgen time by a bit especially for the old, the game might run a bit slower when generating this biome.\nThis mod might break other mods that change the appearance of the sky or clouds.",
-  "maintainers": [
-    "thvk"
-  ],
+  "maintainers": ["thvk"],
   "media_license": "CC-BY-SA-4.0",
   "name": "sunset_biomes",
-  "provides": [
-    "sunset_biomes"
-  ],
+  "provides": ["sunset_biomes"],
   "release": 19005,
   "repo": "https://github.com/RisingLeaf/sunset_biomes",
   "score": 304.2,
@@ -437,10 +431,7 @@
   ],
   "short_description": "Adding two biomes and stuff around them.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen",
-    "mobs"
-  ],
+  "tags": ["mapgen", "mobs"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7cdbb725d1.png",
   "title": "Sunset Biomes",
   "translation_url": null,
@@ -454,18 +445,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

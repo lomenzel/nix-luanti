@@ -25,26 +25,17 @@
   "issue_tracker": "https://codeberg.org/SamMatzko/mineclonia-chaos/issues",
   "license": "AGPL-3.0-or-later",
   "long_description": "This mod causes random chaotic things to happen at regular intervals. Each event can be turned on and off individually in settings, and the timer length is also customizable. It is designed for Mineclonia, but it might(?) also work with VoxeLibre with some modifications.\n\n**DO BE AWARE** that this can damage your creations, so only add it to worlds that don't have special builds. Alternatively, you can turn off any events that might damage your worlds.\n\n## Events\n\nIf you have any suggestions for chaotic events, feel free to [open an issue](https://codeberg.org/SamMatzko/mineclonia-chaos/issues/new)!\n\nThis is a list of all the current chaotic events:\n\n- **\"Counting sheep!\"** Spawns lots of sheep at the player's location.\n- **\"Falling Up\"** Inverts the player's gravity.\n- **\"Feel it in your bones.\"** Spawns some skeletons near the player.\n- **\"Inertia: fundamental physics!\"** Freezes the player at the current speed and direction.\n- **\"Mobile games rock!\"** Converts the player's screen to mobile phone size.\n- **\"Potion overdose!\"** Applies every potion's maximum effect to the player.\n- **\"Strike!\"** Makes lightning strike near the player.\n- **\"TNT Tracker.\"** Spawns TNT at the player's location.\n\n## License\nThe code is licensed under the [AGPL-3.0](https://codeberg.org/SamMatzko/mineclonia-chaos/src/branch/master/LICENSE.txt). Media is licensed under the [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/).\n",
-  "maintainers": [
-    "sylvester_kruin"
-  ],
+  "maintainers": ["sylvester_kruin"],
   "media_license": "CC-BY-3.0",
   "name": "mineclonia_chaos",
-  "provides": [
-    "mineclonia_chaos"
-  ],
+  "provides": ["mineclonia_chaos"],
   "release": 26798,
   "repo": "https://codeberg.org/SamMatzko/mineclonia-chaos",
   "score": 6.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4dc5b2f155.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4dc5b2f155.png"],
   "short_description": "Random crazy things happen at regular intervals.",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4dc5b2f155.png",
   "title": "Mineclonia Chaos",
   "translation_url": null,
@@ -59,10 +50,7 @@
       {
         "is_optional": false,
         "name": "mcl_lightning",
-        "packages": [
-          "VoxelForge/voxelforge",
-          "ryvnf/mineclonia"
-        ]
+        "packages": ["VoxelForge/voxelforge", "ryvnf/mineclonia"]
       },
       {
         "is_optional": false,

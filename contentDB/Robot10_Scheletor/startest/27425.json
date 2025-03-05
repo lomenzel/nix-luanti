@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "# Startest\nThis mod adds several space stuff to the game.\n\n# Actual features\n- new nodes\n- new craftitems\n- new structures\n- new weapons\n- new armor\n\n\n# Future features\n- new nodes\n- new craftitems\n- new weapons\n- new armor\n- new structures\n- new biome\n- new mobs and npcs\n- the possibility of building your own base\n- the possibility to tame alien animal creatures",
-  "maintainers": [
-    "Robot10_Scheletor"
-  ],
+  "maintainers": ["Robot10_Scheletor"],
   "media_license": "MIT",
   "name": "startest",
-  "provides": [
-    "startest"
-  ],
+  "provides": ["startest"],
   "release": 27425,
   "repo": "https://github.com/robot10-scheletor/startest",
   "score": 3,
@@ -452,12 +446,7 @@
   ],
   "short_description": "This mod adds several space stuff to the game.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mapgen",
-    "pve",
-    "pvp"
-  ],
+  "tags": ["adventure__rpg", "mapgen", "pve", "pvp"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e79c003cf6.png",
   "title": "Startest",
   "translation_url": null,
@@ -471,11 +460,7 @@
       {
         "is_optional": false,
         "name": "shooter",
-        "packages": [
-          "5uper1ach/szombie",
-          "stu/shooter",
-          "hilol/epic_combat"
-        ]
+        "packages": ["5uper1ach/szombie", "stu/shooter", "hilol/epic_combat"]
       },
       {
         "is_optional": false,

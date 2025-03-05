@@ -25,25 +25,17 @@
   "issue_tracker": "https://github.com/joe7575/signs_bot/issues/new/choose/",
   "license": "AGPL-2.0-only",
   "long_description": "The bot can only be controlled by signs that are placed in its path.   \nThe bot starts running after starting until it encounters the first sign.   \nReady to use signs are available for tasks like farming, mining, and building.  \nThe Bot can put items into chests or take items from chests. So, it can be used for automation purposes.  \nMore information is available in the  [manual](https://github.com/joe7575/signs_bot/blob/master/manual_EN.md)",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "AGPL-2.0-only",
   "name": "signs_bot",
-  "provides": [
-    "signs_bot"
-  ],
+  "provides": ["signs_bot"],
   "release": 29723,
   "repo": "https://github.com/joe7575/signs_bot",
   "score": 23.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/02608c1fbc.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/02608c1fbc.png"],
   "short_description": "A robot controlled by signs",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/02608c1fbc.png",
   "title": "Signs Bot",
   "translation_url": null,

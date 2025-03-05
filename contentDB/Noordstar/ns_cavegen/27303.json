@@ -25,14 +25,10 @@
   "issue_tracker": null,
   "license": "EUPL-1.2",
   "long_description": "# Noordstar cave generator\n\nThe Noordstar caves mod helps add more caves to Minetest games.\n\nFor reference, see the [API documentation](https://git.noordstar.me/Bram/ns_cavegen/src/branch/main/API.md).\n\nThis mod offers no new features to the player, but it allows programmers to add\ncustom caves into the world and to lower the world depth.\n\n## Examples\n\nThe following mods are known to use this cave generator mod:\n\n- [ns_vl_caves](https://content.minetest.net/packages/Noordstar/ns_vl_caves/) for VoxeLibre & Mineclonia\n\n",
-  "maintainers": [
-    "Noordstar"
-  ],
+  "maintainers": ["Noordstar"],
   "media_license": "EUPL-1.2",
   "name": "ns_cavegen",
-  "provides": [
-    "ns_cavegen"
-  ],
+  "provides": ["ns_cavegen"],
   "release": 27303,
   "repo": "https://git.noordstar.me/Bram/ns_cavegen",
   "score": 11.5,
@@ -42,12 +38,7 @@
   ],
   "short_description": "A custom cave generator engine",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen",
-    "developer_tools",
-    "library",
-    "mapgen"
-  ],
+  "tags": ["custom_mapgen", "developer_tools", "library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1d4825d054.png",
   "title": "Cave Generator",
   "translation_url": null,

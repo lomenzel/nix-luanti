@@ -11,29 +11,17 @@
   "issue_tracker": "https://github.com/Charleston314/Fill-the-Void/issues",
   "license": "MIT",
   "long_description": "IMPORTANT: This game only has about 1.5 minutes of content, and is currently a proof of concept.\n\n\nThis is a game made for the 2023 Minetest Gamejam. It will be a transformative experience. ;)\n\nTo start, switch to the game in the main menu.\nThen, create a new world with the default settings(you can change the name though).\nPress the play button.\n\nWhen you enter the world, go ahead and look around, mine some blocks, and begin the journey.\n\n\nIf there are any problems, go to the ContentDB page for the game and click on the link\nthat takes you to the Github page. You can go to \"issues\" and post your suggestions, bug\nreports and crashes in an issue.\n\nAlternatively, you can contact me in the main Minetest discord. My username there is Charleston314(id:charleston314).",
-  "maintainers": [
-    "Charleston314"
-  ],
+  "maintainers": ["Charleston314"],
   "media_license": "CC0-1.0",
   "name": "fill_the_void",
-  "provides": [
-    "fv_choices",
-    "fv_hand",
-    "fv_terrain"
-  ],
+  "provides": ["fv_choices", "fv_hand", "fv_terrain"],
   "release": 22490,
   "repo": "https://github.com/Charleston314/Fill-the-Void",
   "score": -512.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d420173ff5.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d420173ff5.png"],
   "short_description": "You start in a empty, boring world. What it becomes is up to you.",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2023",
-    "pve",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2023", "pve", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d420173ff5.png",
   "title": "Fill the Void",
   "translation_url": null,

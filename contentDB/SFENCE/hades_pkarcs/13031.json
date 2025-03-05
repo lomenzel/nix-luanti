@@ -25,16 +25,10 @@
   "issue_tracker": "https://github.com/sfence/pkarcs/issues",
   "license": "LGPL-2.1-only",
   "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nMod [pkarcs](https://content.minetest.net/packages/TumeniNodes/pkarcs/) modified for [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\nIn github code follow branch [sfence_hades_revisited](https://github.com/sfence/pkarcs/tree/sfence_hades_revisited).\n",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "CC-BY-SA-4.0",
   "name": "hades_pkarcs",
-  "provides": [
-    "hades_pkarcs",
-    "hades_pkarcs_doors",
-    "hades_pkarcs_doors3"
-  ],
+  "provides": ["hades_pkarcs", "hades_pkarcs_doors", "hades_pkarcs_doors3"],
   "release": 13031,
   "repo": "https://github.com/sfence/pkarcs",
   "score": 152.8,
@@ -45,9 +39,7 @@
   ],
   "short_description": "Adds arched doors to Hades Revisited.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a53063fdbb.png",
   "title": "Pkarcs for Hades Revisited",
   "translation_url": null,
@@ -61,23 +53,17 @@
       {
         "is_optional": false,
         "name": "hades_vessels",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_dye",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_chests",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -96,37 +82,27 @@
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_furnaces",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_trees",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_player",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_farming",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
@@ -166,53 +142,39 @@
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_glowcrystals",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "SFENCE/hades_pkarcs": [
       {
         "is_optional": false,
         "name": "hades_doors",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_sounds",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_trees",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_xpanes",
-        "packages": [
-          "SFENCE/hades_extensionmods"
-        ]
+        "packages": ["SFENCE/hades_extensionmods"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

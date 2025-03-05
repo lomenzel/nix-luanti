@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/wsor4035/worldedit_maze/issues",
   "license": "LGPL-2.1-only",
   "long_description": "**Changes in Version 2.0:**\n\n* patched crash\n* added luacheck\n* added github actions to run luacheck\n* made game agnostic\n* added worldedit command that takes three optional arguements\n* renamed mod\n\nyes, this is slightly overkill to fix a mod\n\n**Changes in Version 1.1:**\n\n* Nodes from third-party mods can now be used as maze materials (thanks MT_Dad)\n\nI started this to implement a maze generation algorithm that I use when I draw mazes on paper. The result is not exactly this algorithm since computers are apparently too dumb for it, but it's worth to be shared anyway.\n\n### Things you need to know about the mazes:\n\n- Start at one corner and find your way to the opposite corner\n\n- There is exactly one way\n\n- Big mazes will drive you crazy\n\n- Mazes do not have a floor or a top cover by default, add this using WorldEdit if you want.\n\n\n### Generating a maze:\n\n- Use WorldEdit to define 2 opposing corners. The maze is spawned between them and all walls are as high as the height difference between the two positions.\n\n- Execute this chatcommand:\n\n    /maze [any random number as seed]\n\n\nNote: the maze always has odd dimensions, if the x/z distance between pos1 and pos2 is even, the dimension is just rounded down.\n\n\n### Changing maze materials:\n\n- On top of init.lua, you find some content id assignments. Change the node names in there.\n\n- Alternatively, you can just replace the generated nodes with the WorldEdit //replace command.\n",
-  "maintainers": [
-    "wsor4035"
-  ],
+  "maintainers": ["wsor4035"],
   "media_license": "LGPL-2.1-only",
   "name": "worldedit_maze",
-  "provides": [
-    "worldedit_maze"
-  ],
+  "provides": ["worldedit_maze"],
   "release": 9509,
   "repo": "https://github.com/wsor4035/worldedit_maze",
   "score": 312,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0f5af8aa2f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0f5af8aa2f.png"],
   "short_description": "A maze generator",
   "state": "APPROVED",
-  "tags": [
-    "world_tools"
-  ],
+  "tags": ["world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0f5af8aa2f.png",
   "title": "WorldEdit Maze Generator",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/AndrejIT/kick_voting/issues/new/choose/",
   "license": "LGPL-2.1-only",
   "long_description": "kick_voting\n===========\n\nMod for Minetest game. Allow players to vote to make life of selected griefers and especially agressive players harder.\n\n\"Voting table\" block can be placed and configured with specified player name.\nPlayers can vote to punish or to forgive. Punishment becomes active when outwoted by 6.\nRight now, punishment is that griefer is sent to \"jail\" coordinates 0,-2,0.\nVotes are assigned \"by IP\".\n\nTo wote, players need to pay gold ingot. That requirement is \nto make it harder for griefers to use this mod against normal players.\n",
-  "maintainers": [
-    "lag01"
-  ],
+  "maintainers": ["lag01"],
   "media_license": "LGPL-2.1-only",
   "name": "kick_voting",
-  "provides": [
-    "kick_voting"
-  ],
+  "provides": ["kick_voting"],
   "release": 8101,
   "repo": "https://github.com/AndrejIT/kick_voting",
   "score": 151.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/ada0aac0ee.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/ada0aac0ee.png"],
   "short_description": "Allow players to vote to make life of selected griefers and especially agressive players harder.",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "server_tools"
-  ],
+  "tags": ["multiplayer", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ada0aac0ee.png",
   "title": "Kick voting",
   "translation_url": null,

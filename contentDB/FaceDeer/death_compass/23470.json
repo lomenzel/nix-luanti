@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/death_compass/issues",
   "license": "MIT",
   "long_description": "Have you ever died and been frustrated with being unable to find your way back to your corpse? Carry a death compass with you. When you die, the compass will respawn in your inventory and be magically bound to point its bony finger to the location of your demise.\n\nBut hurry! The server administrator may have limited the duration that the compass will function for.\n\nCrafting recipe: four bones and a mese fragment.\n\nAlternately, there is a configuration setting (false by default) that automatically gives a player a death compass whenever they die. This automatic compass will disappear back to wherever it came from once its grim task is complete.",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "CC0-1.0",
   "name": "death_compass",
-  "provides": [
-    "death_compass"
-  ],
+  "provides": ["death_compass"],
   "release": 23470,
   "repo": "https://github.com/minetest-mods/death_compass",
   "score": 166.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/znL8Z5qqXP.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/znL8Z5qqXP.jpg"],
   "short_description": "A compass that points to the last place you died",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "pvp",
-    "survival",
-    "tools"
-  ],
+  "tags": ["pve", "pvp", "survival", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/znL8Z5qqXP.png",
   "title": "Death Compass",
   "translation_url": null,

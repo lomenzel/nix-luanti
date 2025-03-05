@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/rlars/railbuilder/issues",
   "license": "MIT",
   "long_description": "# railbuilder\nA Minetest mod to build rails with tunnels and bridges with a simple click.\n\n## Current state\nPlease update to the newest version of tunnelmaker to be able to use this mod.\n\n### How to use it?\n- Use the trainmarker tool to mark the start of a rail with a right click.\n- Right click at the desired end point (shown if you are close enough) or\n- Right click on the current start marker to stop building.\n- Hold down left mouse button and look up or down to set a slope, left click to reset.\n\n### What does it do?\n- This will trigger tunnelmaker to build tunnels / bridges / ground according to your settings.\n- It will also place rails leading into the desired direction.\n\n### Features\n- Can place straight segments and slopes.\n- Tries to bend the start rail (but will, currently, not add switches).\n- Continue building with a single click, or stop where you are.\n- Should support your tunnelmaker settings and tunnelmaker rights check.\n\n### Warnings and limitations\n- Expect bugs which eventually make your world unloadable!\n- Building > 10 blocks will result in lags.\n- Please report any issues you encounter.\n- No idea yet how to make this mobile-friendly.\n\n### Dependencies\n- [advtrains and advtrains_train_track](https://content.minetest.net/packages/orwell/advtrains/)\n- [tunnelmaker](https://content.minetest.net/packages/kestral/tunnelmaker/)\n",
-  "maintainers": [
-    "rlars"
-  ],
+  "maintainers": ["rlars"],
   "media_license": "CC0-1.0",
   "name": "railbuilder",
-  "provides": [
-    "railbuilder"
-  ],
+  "provides": ["railbuilder"],
   "release": 14973,
   "repo": "https://github.com/rlars/railbuilder",
   "score": 347.4,
@@ -439,11 +433,7 @@
   ],
   "short_description": "This mod allows you to plan and build tunnels and rails for Advtrains.",
   "state": "APPROVED",
-  "tags": [
-    "creative",
-    "oneofakind__original",
-    "transport"
-  ],
+  "tags": ["creative", "oneofakind__original", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8aae3e518d.png",
   "title": "Railbuilder",
   "translation_url": null,
@@ -538,23 +528,17 @@
       {
         "is_optional": false,
         "name": "advtrains",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       },
       {
         "is_optional": false,
         "name": "tunnelmaker",
-        "packages": [
-          "kestral/tunnelmaker"
-        ]
+        "packages": ["kestral/tunnelmaker"]
       },
       {
         "is_optional": false,
         "name": "advtrains_train_track",
-        "packages": [
-          "orwell/advtrains"
-        ]
+        "packages": ["orwell/advtrains"]
       }
     ]
   },

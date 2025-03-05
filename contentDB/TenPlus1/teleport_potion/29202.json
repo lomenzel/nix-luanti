@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds craftable teleport potions (throwable) and teleport pads.\n\nUSE on block to enchant location then PLACE to set, also right-clicking teleport pads lets you name it's destination or manually enter coordinates if you have 'teleport' privelage.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC-BY-SA-3.0",
   "name": "teleport_potion",
-  "provides": [
-    "teleport_potion"
-  ],
+  "provides": ["teleport_potion"],
   "release": 29202,
   "repo": "https://codeberg.org/tenplus1/teleport_potion",
   "score": 508.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bec5cc5931.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bec5cc5931.jpg"],
   "short_description": "Adds craftable teleport potions (throwable) and teleport pads.",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bec5cc5931.png",
   "title": "Teleport Potion",
   "translation_url": null,

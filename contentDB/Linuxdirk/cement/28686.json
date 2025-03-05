@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://git.0x7be.net/dirk/cement/issues",
   "license": "MIT",
   "long_description": "A craftable and “makeable“ cement block.\n\nMethod 1: Craft wet cement blocks by putting default:gravel, group:sand, and bucket:bucket_water in a shapeless recipe.\n\nMethod 2: Make dry cement blocks by putting default:gravel and group:sand in a shapeless recipe and put the resulting node on ground directly by a water source to get a wet cement block and wait till it becomes wet.\n\nPlace wet cement blocks wherever you want (no water in neighboring nodes) and let them become hard. Since dry and wet cement blocks fall down when placed you might want to support them while drying by placing a not falling node below.\n\nHard cement blocks floats like regular nodes.\n\nAn uncolored hard cement block can be sanded to get a sanded cement block with a smoother texture that is brighter. For doing this a craftable sanding tool is needed. When using the tool on a hard cement block (like with all other tools simply click the node) the block gets sanded. The tool has wear, but lasts very long.\n\nHard cement can be colored using any of the 15 default dyes. Place a hard cement block and punch it while holding one of the dyes. The dye color gets applied to the node and thus the cement block gets colored. The dye remains in hand and won’t be removed. White dye “un-colors” the cement.\n\nOf course all sanded cement blocks can be colored, too.",
-  "maintainers": [
-    "Linuxdirk"
-  ],
+  "maintainers": ["Linuxdirk"],
   "media_license": "CC0-1.0",
   "name": "cement",
-  "provides": [
-    "cement"
-  ],
+  "provides": ["cement"],
   "release": 28686,
   "repo": "https://git.0x7be.net/dirk/cement",
   "score": 8,
@@ -448,10 +442,7 @@
   ],
   "short_description": "A craftable and “makeable“ cement blocks for Minetest Game",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "tools"
-  ],
+  "tags": ["building", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6c1d04aa3c.png",
   "title": "Cement",
   "translation_url": "https://translate.codeberg.org/projects/linuxdirks-luanti-mods/cement/",

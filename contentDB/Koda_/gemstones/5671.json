@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,30 +416,17 @@
   "issue_tracker": "https://github.com/KodaTheGuy/Gemstones/issues/new/choose/",
   "license": "MIT",
   "long_description": "Adds Gemstones: Amethyst, Emerald, Ruby and Sapphire.\n\n## Gems\n\n- Emerald\n\n   - Emerald is hard to find \n   - It's armor has twice the jump boost than ruby\n   - Stronger and more durable than diamond\n   - Damage: 8\n     - Kills players very easily\n\n- Ruby\n\n   - Ruby is hard to find \n   - It's armor give physical abilities like jump\n   - Stronger and more durable than diamond\n   - Damage: 9\n     - Kills players very easily\n\n- Amethyst\n\n   - Amethyst is hard to find \n   - It's armor give physical abilities like speed\n   - It's the strongest gemstone in the mod\n   - Stronger and more durable than diamond\n   - Damage: 11\n     - Kills players in two to three hits\n\n- Sapphire\n\n   - Sapphire is hard to find \n   - It's armor has twice the speed as Amethyst\n   - It is the weakest gemstone in the mod\n   - As good as diamond and other materials\n   - Damage: 7\n     - Kills players quickly\n\n",
-  "maintainers": [
-    "Koda_"
-  ],
+  "maintainers": ["Koda_"],
   "media_license": "CC-BY-3.0",
   "name": "gemstones",
-  "provides": [
-    "amethyst",
-    "emerald",
-    "ruby",
-    "sapphire"
-  ],
+  "provides": ["amethyst", "emerald", "ruby", "sapphire"],
   "release": 5671,
   "repo": "https://github.com/KodaTheGuy/Gemstones",
   "score": 171.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/nDwuiGdKIV.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/nDwuiGdKIV.png"],
   "short_description": "Adds Gemstones to the game",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "pvp",
-    "tools"
-  ],
+  "tags": ["adventure__rpg", "pvp", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/nDwuiGdKIV.png",
   "title": "Gemstones",
   "translation_url": null,

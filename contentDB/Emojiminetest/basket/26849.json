@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/basket/issues",
   "license": "MIT",
   "long_description": "# You *really want* a shulker box in Minetest Game, right?\nHere is the basket mod, the shulker box for Minetest Game! It is made of fine wood, uses only one inventory slot to store all the items, and can be obtained quickly after joining a new survival world! All you need is a couple of wood planks and one string.\n\nTextures from [Malcolm Riley's Unused Textures](https://github.com/malcolmriley/unused-textures), and are avaliable under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "basket",
-  "provides": [
-    "basket"
-  ],
+  "provides": ["basket"],
   "release": 26849,
   "repo": "https://github.com/C-C-Minetest-Server/basket",
   "score": 312.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/20c74086f9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/20c74086f9.png"],
   "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)",
   "state": "APPROVED",
-  "tags": [
-    "storage",
-    "tools"
-  ],
+  "tags": ["storage", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/20c74086f9.png",
   "title": "Basket",
   "translation_url": null,

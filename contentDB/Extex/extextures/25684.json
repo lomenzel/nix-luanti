@@ -64,9 +64,7 @@
   "issue_tracker": "https://github.com/Extex101/extextures/issues",
   "license": "CC-BY-SA-4.0",
   "long_description": "# ExTextures\n__Extextures__ aims to improve ***minetest_game***'s default textures while keeping a familiar feel.\n\nCurrent retextures include:\n\n- Default:\n- - Wood Planks\n- - Ore in stone\n- - Clay, Coal and Ore lumps\n- - Metal blocks\n- - Apple\n- - Ingots\n- Map\n- Buckets (Improved bucket texture and made fluid colors more consistent with water colors)\n- Technic\n- - Metal Blocks and Ingots (Incomplete)\n- Bones\n- TNT\n- Moreores\n- - Made ores consistent with new ingot/block style\n- Thirsty Canteens",
-  "maintainers": [
-    "Extex"
-  ],
+  "maintainers": ["Extex"],
   "media_license": "CC-BY-SA-4.0",
   "name": "extextures",
   "provides": [],
@@ -79,9 +77,7 @@
   ],
   "short_description": "Improved textures default and more",
   "state": "APPROVED",
-  "tags": [
-    "16px"
-  ],
+  "tags": ["16px"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/b3e185050e.png",
   "title": "ExTextures",
   "translation_url": null,

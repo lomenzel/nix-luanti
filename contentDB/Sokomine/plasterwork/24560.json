@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Sokomine/plasterwork/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "This mod adds only four lightweight new nodes: One machine and three blocks that can be covered with colored plaster. The textures for the plaster are those of clay, coral and tin block from default. The colors come from VanessaEs unifieddyes palette (unifieddyes is not required).\n\nColored blocks can be created with a special machine that can either create a random color or duplicate an existing color and put it on further blocks so that you can build something with it.\n\nYou can see the blocks this mod adds in action in my [Basic Houses](https://content.minetest.net/packages/Sokomine/basic_houses/) mod.",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "CC-BY-SA-3.0",
   "name": "plasterwork",
-  "provides": [
-    "plasterwork"
-  ],
+  "provides": ["plasterwork"],
   "release": 24560,
   "repo": "https://github.com/Sokomine/plasterwork",
   "score": 4.4,
@@ -450,11 +444,7 @@
   ],
   "short_description": "Add colored plaster coats to nodes",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "crafting",
-    "technology"
-  ],
+  "tags": ["building", "crafting", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/FnG1l06SVs.png",
   "title": "Plasterwork",
   "translation_url": null,

@@ -38,14 +38,10 @@
   "issue_tracker": "https://github.com/thepython10110/portability/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Portability\nA mod that adds portable things to MineClone (crafting table, ender chest, enchanting table)\n\n[GitHub repo](https://github.com/thepython10110/portability)\n\n[Forum post](https://forum.minetest.net/viewtopic.php?f=9&t=29330)\n\nI plan to add these items:\n\n- [x] Portable Crafting Table\n\n- [x] Portable Ender Chest (see warning below)\n\n- [x] Portable Enchanting Table (Upgradable by crafting with bookshelves, downgradable by crafting too)\n\nI was originally going to add things like portable furnaces, portable anvils, things like that... but after looking at the code for a backpack mod, I decided I don't know enough about Minetest (yet) to deal with detached inventories.\n\n## WARNING\nMineClone checks whether you're near an ender chest every time you try to put things into one. This means that *normally*, portable ender chests will not let you insert/remove items. The only way to fix that is to go into MineClone's code and add a line. In your Minetest directory, open `games/mineclone2/mods/ITEMS/mcl_chests/init.lua` in a text editor. Around line 1060 (as of MineClone 0.82.0), there should be code that looks like this (you can also use the find tool and search for \"`register_allow`\"):\n```lua\nminetest.register_allow_player_inventory_action(function(player, action, inv, info)\n\tif inv:get_location().type == \"player\" and (\n\t\t   action == \"move\" and (info.from_list == \"enderchest\" or info.to_list == \"enderchest\")\n\t\tor action == \"put\"  and  info.listname  == \"enderchest\"\n\t\tor action == \"take\" and  info.listname  == \"enderchest\"\n\t) then\n\t\tlocal def = player:get_wielded_item():get_definition()\n\n\t\tif not minetest.find_node_near(player:get_pos(), def and def.range or ItemStack():get_definition().range, \"mcl_chests:ender_chest_small\", true) then\n\t\t\treturn 0\n\t\tend\n\tend\nend)\n```\nThis is the code that checks for an ender chest near the player. Add the following line where the blank line is:\n```lua\nif player:get_wielded_item():get_name() == \"portability:ender_chest\" then return end\n```\nThis makes it so that if the player is holding a portable ender chest, it will skip that check. This will *not* affect anything else, and even if the mod is disabled or deleted, everything will be fine.\nThe only effect I've found is this: if an ender chest is opened by a player holding an \"unknown item\" portable ender chest (in other words, if the mod is removed but someone had one in their inventory) and someone broke the ender chest, it would still be possible for the player to insert/remove items from the ender chest until they closed the formspec. Basically not a problem.",
-  "maintainers": [
-    "ThePython"
-  ],
+  "maintainers": ["ThePython"],
   "media_license": "CC-BY-SA-3.0",
   "name": "portability",
-  "provides": [
-    "portability"
-  ],
+  "provides": ["portability"],
   "release": 22971,
   "repo": "https://github.com/thepython10110/portability",
   "score": 307.9,
@@ -57,10 +53,7 @@
   ],
   "short_description": "Adds portable things to MineClone (crafting table, ender chest, enchanting table)",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "storage"
-  ],
+  "tags": ["crafting", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/af8758e9a1.png",
   "title": "Portability",
   "translation_url": null,

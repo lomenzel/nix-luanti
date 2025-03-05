@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "This mod adds portals which can be crafted and used to travel long distances in an instant.\nItems, mobs, and other objects can also travel through portals.\n\nPortals can be set to \"private\" mode, making them only accessible by their owner, and admins.\n\nThis mod is designed with multiplayer in mind, and contains helpful tools and safeguards for both admins and regular players.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "meseportals",
-  "provides": [
-    "meseportals"
-  ],
+  "provides": ["meseportals"],
   "release": 23194,
   "repo": "https://github.com/mt-historical/minetest-meseportals",
   "score": 187,
-  "screenshots": [
-    "https://content.luanti.org/uploads/sxSOYN3VX0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/sxSOYN3VX0.png"],
   "short_description": "A futuristic multiplayer transportation system",
   "state": "APPROVED",
-  "tags": [
-    "technology",
-    "transport"
-  ],
+  "tags": ["technology", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/sxSOYN3VX0.png",
   "title": "Mese Portals",
   "translation_url": null,

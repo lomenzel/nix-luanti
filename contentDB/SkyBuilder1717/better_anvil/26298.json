@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/SkyBuilder1717/better-anvil/issues",
   "license": "MIT",
   "long_description": "That mod will help you rename, repair and color your tools naturally!\n\nTo color your item, place the dye in the middle input, after you put tool in left input, and take your item from right output.\n\"Update\" button for updating the output item and total interface in the anvil!\nTo rename your item, just put item in the left input, and name item in textbox and take it from right output.\nAlso You can repair your instrument, out your tool broken in input slot and then put similiar tool in modifier slot, (middle) but tool must be a bit bigger broken, than tool in input slot!",
-  "maintainers": [
-    "SkyBuilder1717"
-  ],
+  "maintainers": ["SkyBuilder1717"],
   "media_license": "MIT",
   "name": "better_anvil",
-  "provides": [
-    "better_anvil"
-  ],
+  "provides": ["better_anvil"],
   "release": 26298,
   "repo": "https://github.com/SkyBuilder1717/better-anvil",
   "score": -132.8,
@@ -448,12 +442,7 @@
   ],
   "short_description": "Adds an better anvil for renaming and easy repairing items",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "decorative",
-    "hud",
-    "survival"
-  ],
+  "tags": ["crafting", "decorative", "hud", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e4cba5e7d1.png",
   "title": "Better Anvil",
   "translation_url": null,

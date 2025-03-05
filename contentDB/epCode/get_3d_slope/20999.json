@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/epCode/get_3d_slope/issues",
   "license": "LGPL-3.0-only",
   "long_description": "This is a library that provides one function:\n\n```lua\nget_3d_slope.get_slope(pos, radius)\n\t\t--`pos` the position from which to calculate the surrounding slope\n\t\t--`radius` is a float that determines the radius of the examined nodes from which the calculation is made\n```\n\nThis function will return a downward or zero vector that is calculated by taking the average downward directions of all scanned nodes.",
-  "maintainers": [
-    "epCode"
-  ],
+  "maintainers": ["epCode"],
   "media_license": "LGPL-3.0-only",
   "name": "get_3d_slope",
-  "provides": [
-    "get_3d_slope"
-  ],
+  "provides": ["get_3d_slope"],
   "release": 20999,
   "repo": "https://github.com/epCode/get_3d_slope",
   "score": 153.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/486e2156d2.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/486e2156d2.png"],
   "short_description": "A lib that calculates the average 3d slope of surrounding nodes from a position and raduis.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/486e2156d2.png",
   "title": "Slope Lib",
   "translation_url": null,

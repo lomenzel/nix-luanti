@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/APercy/motorboat/issues/new/choose/",
   "license": "MIT",
   "long_description": "Minetest 5.4 mod: Motorboat\n========================================\n\nThis mod creates a motorboat. \nIt's water dynamics comes from Sailing Kit (by TheTermos). So it depends on mobkit. And It dependes on the biofuel mod for fuel making.\nIt starts anchored, so press sneak key to remove anchor. With keyboard you can move the boat. When you press E key, it starts the engine and you can navigate fast, but it consumes fuel. When the engine is started, using W and S you can control the engine power.  With engine off you use paddles instead. You can refuel only with the engine turned off. And you can set anchor by pressing sneak, but it only works when the boat is near completely stopped (when the anchor is sucessfull, you receive a message on chat).\n\nIt can be painted using dye of any color you want, you must punch the seat with the dye.\n\n**Setting Types:**\n\nmotorboat_enable_particles - default: false\n\nEnables the particles effect\n\n-----------------------\nIt uses some code from Sailing Kit (by TheTermos)\n\nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\n---------------------------------------\nengine.ogg, collision.ogg and textures by APercy. See License file\n\nBoat model by APercy.  See License file",
-  "maintainers": [
-    "apercy"
-  ],
+  "maintainers": ["apercy"],
   "media_license": "MIT",
   "name": "motorboat",
-  "provides": [
-    "motorboat"
-  ],
+  "provides": ["motorboat"],
   "release": 26742,
   "repo": "https://github.com/APercy/motorboat",
   "score": 1725.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bf372c9061.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bf372c9061.png"],
   "short_description": "Adds a craftable motorboat",
   "state": "APPROVED",
-  "tags": [
-    "transport"
-  ],
+  "tags": ["transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bf372c9061.png",
   "title": "Motorboat",
   "translation_url": null,
@@ -507,10 +497,7 @@
       {
         "is_optional": false,
         "name": "biofuel",
-        "packages": [
-          "Lokrates/biofuel",
-          "bell07/whynot_game"
-        ]
+        "packages": ["Lokrates/biofuel", "bell07/whynot_game"]
       },
       {
         "is_optional": false,

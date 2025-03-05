@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/pineapple/issues",
   "license": "MIT",
   "long_description": "This mod adds pineapples to your world. It is a fork of the pineapple mod in Runs' cooltrees modpack which was incompatible with the islands mod. This was a real shame because if pineapples belong anywhere, they belong in the biome created by the islands mod. The islands mod had zero edible crops which this mod solves. The goal is to make pineapples spawn in any biome that makes sense for them to spawn.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "MIT",
   "name": "pineapple",
-  "provides": [
-    "pineapple"
-  ],
+  "provides": ["pineapple"],
   "release": 22661,
   "repo": "https://github.com/Neuromancer56/pineapple",
   "score": 6.3,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Pineapple crop for tropical biomes",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming"
-  ],
+  "tags": ["plants_and_farming"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/32eae60eb0.png",
   "title": "Pineapple",
   "translation_url": null,

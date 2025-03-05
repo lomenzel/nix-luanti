@@ -193,9 +193,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-book_runner/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# book_runner\n\nrun a command and put the output in a book. \n\ncreated for everyone who's ever run a command, only to be greeted w/ an unmanageable wall of text.\n\n## usage\n\nhold a single empty book (`default:book`) in your hand, and run:\n* `/run_in_book commandname args`\n\nthe book will become a written book; the title will be the command name and arguments, the body will\nbe the command output.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "book_runner",
-  "provides": [
-    "book_runner"
-  ],
+  "provides": ["book_runner"],
   "release": 27273,
   "repo": "https://github.com/fluxionary/minetest-book_runner.git",
   "score": 151.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/938a1c4e4b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/938a1c4e4b.png"],
   "short_description": "run a command and put the output in a book",
   "state": "APPROVED",
-  "tags": [
-    "chat"
-  ],
+  "tags": ["chat"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/938a1c4e4b.png",
   "title": "book_runner",
   "translation_url": null,
@@ -463,10 +453,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
@@ -513,10 +500,7 @@
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ],
     "rheo/fmod": [],
@@ -524,10 +508,7 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ]
   },

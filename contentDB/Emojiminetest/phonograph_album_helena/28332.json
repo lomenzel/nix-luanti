@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/phonograph_album_helena/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Phonograph album: Helena Bolan\n\nThis mod adds songs composed by Helena Bolean for [Phonographs](https://content.minetest.net/packages/Emojiminetest/phonograph/).",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "phonograph_album_helena",
-  "provides": [
-    "phonograph_album_helena"
-  ],
+  "provides": ["phonograph_album_helena"],
   "release": 28332,
   "repo": "https://github.com/C-C-Minetest-Server/phonograph_album_helena",
   "score": 2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d782ddf316.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d782ddf316.jpg"],
   "short_description": "Songs composed by Helena Bolan for Phonographs",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d782ddf316.png",
   "title": "Phonograph album: Helena Bolan",
   "translation_url": null,
@@ -54,27 +46,19 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       },
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ],
     "Emojiminetest/phonograph_album_helena": [
       {
         "is_optional": false,
         "name": "phonograph_core",
-        "packages": [
-          "Emojiminetest/phonograph"
-        ]
+        "packages": ["Emojiminetest/phonograph"]
       }
     ]
   },

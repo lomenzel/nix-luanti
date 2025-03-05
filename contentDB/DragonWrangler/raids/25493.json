@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -249,27 +247,17 @@
   "issue_tracker": "https://github.com/DragonWrangler1/minetest-raids/issues",
   "license": "LGPL-2.1-only",
   "long_description": "This adds mob raids that can be started by admin. Everywhere the admin goes while a raid is ongoing the raid will spread there.\n\nwith the /start_raid command the admin of the server with the event manager priv can start raids.\nThese raids summon various mobs, so now you can have mobs attack any settlement or player that you'd like . ",
-  "maintainers": [
-    "DragonWrangler"
-  ],
+  "maintainers": ["DragonWrangler"],
   "media_license": "LGPL-2.1-only",
   "name": "raids",
-  "provides": [
-    "raids"
-  ],
+  "provides": ["raids"],
   "release": 25493,
   "repo": "https://github.com/DragonWrangler1/minetest-raids",
   "score": 7.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/788085bbac.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/788085bbac.png"],
   "short_description": "Allows server owners or server admin to start mob raids to attack settlements or players",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "multiplayer",
-    "pve"
-  ],
+  "tags": ["adventure__rpg", "multiplayer", "pve"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/788085bbac.png",
   "title": "Raids",
   "translation_url": null,

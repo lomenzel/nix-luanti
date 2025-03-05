@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,15 +416,10 @@
   "issue_tracker": "https://github.com/mt-mods/spacecannon/issues",
   "license": "MIT",
   "long_description": "Adds three scifi/space cannons with various projectile-speed and explosion-strength.\nThe cannons need HV-Power from a `technic` network and can be controlled via formspec/hand, mesecons or digilines.\nThey also need to charge first, which can take a couple of seconds depending on cannon-type.\n\nThe projectile detonates on impact but only in _non-protected_ areas!",
-  "maintainers": [
-    "BuckarooBanzay",
-    "mt-mods"
-  ],
+  "maintainers": ["BuckarooBanzay", "mt-mods"],
   "media_license": "CC-BY-SA-3.0",
   "name": "spacecannon",
-  "provides": [
-    "spacecannon"
-  ],
+  "provides": ["spacecannon"],
   "release": 29139,
   "repo": "https://github.com/mt-mods/spacecannon",
   "score": 317.2,
@@ -437,11 +430,7 @@
   ],
   "short_description": "Adds three scifi/space cannons with various projectile-speed and explosion-strength",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "technology",
-    "tools"
-  ],
+  "tags": ["pve", "technology", "tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/GQG9SKI9yH.png",
   "title": "Spacecannon",
   "translation_url": null,

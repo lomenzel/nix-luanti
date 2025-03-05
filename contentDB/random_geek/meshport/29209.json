@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/random-geek/meshport/issues/new/choose/",
   "license": "LGPL-3.0-only",
   "long_description": "Meshport is a mod which allows easy exporting of scenes from Luanti to `.obj`\nfiles, complete with materials and textures. These models can be imported\ndirectly into Blender or another 3D program for rendering and animation.\n\nThis mod is still in the beta phase; certain texturing features and node\ndrawtypes are not yet supported.\n\nMore details about usage, supported features, etc. can be found at the\n[GitHub repository](https://github.com/random-geek/meshport).",
-  "maintainers": [
-    "random_geek"
-  ],
+  "maintainers": ["random_geek"],
   "media_license": "CC-BY-4.0",
   "name": "meshport",
-  "provides": [
-    "meshport"
-  ],
+  "provides": ["meshport"],
   "release": 29209,
   "repo": "https://github.com/random-geek/meshport",
   "score": 1310.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/xf93HE6rrL.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/xf93HE6rrL.png"],
   "short_description": "Easily export areas in Luanti to meshes for 3D rendering.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "library",
-    "world_tools"
-  ],
+  "tags": ["education", "library", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/xf93HE6rrL.png",
   "title": "Meshport (Luanti Mesh Exporter)",
   "translation_url": null,

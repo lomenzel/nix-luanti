@@ -271,9 +271,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29970,
@@ -418,28 +416,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "Stardust can be obtained by digging stardust ore found at y=70 and above. Stardust can be crafted into stellar ingots, which are used to make tools and armor.\n\nStellar armor offers radiation protection if technic or radiant_damage is installed.\n\nStellar sword increases amount of drops from the mobs it kills. Works with Mobs Redo mobs.",
-  "maintainers": [
-    "alerikaisattera"
-  ],
+  "maintainers": ["alerikaisattera"],
   "media_license": "CC-BY-SA-4.0",
   "name": "stardust",
-  "provides": [
-    "stardust",
-    "stellar",
-    "stellar_armor",
-    "stellar_tools"
-  ],
+  "provides": ["stardust", "stellar", "stellar_armor", "stellar_tools"],
   "release": 29975,
   "repo": "https://gitlab.com/alerikaisattera/stardust",
   "score": 7.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/17948a4195.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/17948a4195.png"],
   "short_description": "A mineral found at high altitude and items made with it",
   "state": "APPROVED",
-  "tags": [
-    "tools"
-  ],
+  "tags": ["tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/17948a4195.png",
   "title": "Stardust",
   "translation_url": null,

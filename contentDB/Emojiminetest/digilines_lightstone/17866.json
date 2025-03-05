@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -132,26 +130,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/digilines_lightstone/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Digiline-controlled Lightstones\nThese are identical with mesecon's lightstones, but controlled by digiline signals. Rightclick to set a channel for the digiline lightstones, the digiline lightstone will accept boolean messages.\n\nTo craft a digiline lightstone, either craft a digiline wire with its mesecons varient, or replace the mesecon wire in the recipe of its mesecons varient to become a digiline wire.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "digilines_lightstone",
-  "provides": [
-    "digilines_lightstone"
-  ],
+  "provides": ["digilines_lightstone"],
   "release": 17866,
   "repo": "https://github.com/C-C-Minetest-Server/digilines_lightstone",
   "score": 8.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/17cc86bce0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/17cc86bce0.png"],
   "short_description": "Digiline-controlled light-emitting colour blocks",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "technology"
-  ],
+  "tags": ["building", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/17cc86bce0.png",
   "title": "Digilines Lightstone",
   "translation_url": null,

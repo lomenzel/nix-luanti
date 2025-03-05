@@ -11,23 +11,17 @@
   "issue_tracker": "https://github.com/ClobberXD/callbacks_api/issues",
   "license": "MIT",
   "long_description": "# `callbacks_api`\n\ncallbacks_api is a framework for registering callbacks if the callback registration function exists, else returning gracefully. This mod can be very handy when developing or prototyping new callbacks, either within a mod, or within Minetest itself.\n\n## `callbacks_api.register_callback(cb_registrar, cb, ...)`\n\nRegister callback `cb` (along with optional arguments `...`) to `cb_registrar`, if it exists, or return gracefully.\n\n### Parameters\n\n- `cb_registrar` [`function`]: The function that registers the callback.\n- `cb` [`function`]: The callback itself.\n- `...` [Comma-separated arguments]: Optional arguments to pass to `cb_registrar`, along with `cb`.\n\n## Examples\n\n```lua\nlocal function callback(player, hpchange)\n    minetest.log(\"action\", player:get_player_name() .. \"'s HP changed!\n\" ..\n            \"old_hp = \" .. player:get_hp() - hpchange .. \",\n\" ..\n            \"new_hp = \" .. player:get_hp())\nend\n\n-- cb_registrar = minetest.register_on_player_hpchange\n-- cb = callback\n-- ... = false\ncallbacks_api.register_callback(minetest.register_on_player_hpchange, callback, false)\n```\n",
-  "maintainers": [
-    "ANAND"
-  ],
+  "maintainers": ["ANAND"],
   "media_license": "CC0-1.0",
   "name": "callbacks_api",
-  "provides": [
-    "callbacks_api"
-  ],
+  "provides": ["callbacks_api"],
   "release": 1405,
   "repo": "https://github.com/ClobberXD/callbacks_api",
   "score": 2.7,
   "screenshots": [],
   "short_description": "callbacks_api is a framework for registering callbacks if the callback registration function exists, else returns gracefully.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Callbacks API",
   "translation_url": null,

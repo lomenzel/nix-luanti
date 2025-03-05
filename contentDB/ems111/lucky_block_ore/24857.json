@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "",
-  "maintainers": [
-    "ems111"
-  ],
+  "maintainers": ["ems111"],
   "media_license": "GPL-3.0-or-later",
   "name": "lucky_block_ore",
-  "provides": [
-    "lucky_block_ore"
-  ],
+  "provides": ["lucky_block_ore"],
   "release": 24857,
   "repo": null,
   "score": 17.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d4f8e5b03f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d4f8e5b03f.png"],
   "short_description": "Adds Lucky Block ores to world.",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d4f8e5b03f.png",
   "title": "Lucky Block Ore",
   "translation_url": null,
@@ -100,9 +92,7 @@
       {
         "is_optional": false,
         "name": "lucky_block",
-        "packages": [
-          "TenPlus1/lucky_block"
-        ]
+        "packages": ["TenPlus1/lucky_block"]
       }
     ]
   },

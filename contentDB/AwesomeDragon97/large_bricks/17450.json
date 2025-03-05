@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "LGPL-3.0-only",
   "long_description": "Adds large stone bricks.\n\nTo make them, place two stone blocks of the corresponding stone or sandstone type in the crafting grid.\n\nThen place the two resulting nodes adjacent to each other to get a large stone brick.",
-  "maintainers": [
-    "AwesomeDragon97"
-  ],
+  "maintainers": ["AwesomeDragon97"],
   "media_license": "CC-BY-SA-3.0",
   "name": "large_bricks",
-  "provides": [
-    "large_bricks"
-  ],
+  "provides": ["large_bricks"],
   "release": 17450,
   "repo": null,
   "score": 315.5,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Adds large stone bricks.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/74651a3c19.png",
   "title": "Large Bricks",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/Cramvin/shortcut/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "# Commands\n\n⚠️**!!! If you had shortcuts before updating to ver.-1.2 you have to edit them maybe !!!**⚠️ <br />\nIf you have parameters that you don't know when you create a shortcut, you can use @p for players and * for everything else to replace it. Those parameters still need to be seperated from others by spaces. <br />\n<br />\n\n\n| Command  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Description  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;   | Example    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;    |\n| ----------------------------------- | ----------------------------------- | -------------------------------------- |\n| /csc [<command name\\> [<params\\>]] | creates shortcuts (even without params) | /csc grant @p fly, *                   |\n| /esc <number\\>                      | edits a shortcut                        | /esc 1                                 |\n| /copysc <number\\> <other player\\>  | copies a shortcut to another player     | /copysc 1 User1234                     |\n| /lsc [<other player\\>]              | lists shortcuts (even without params)   | /lsc User1234                          |\n| /rsc <number\\>                      | removes a shortcut                      | /rsc 1                                 |\n| /sc <number\\>                       | runs a shortcut                         | /sc 1 User1234                         |\n| /sscd <number\\> <description\\>     | sets a description for a shortcut       | /sscd 1 Gives a player fly privileges. |\n| /scd <number\\>                      | shows the description of a shortcut     | /scd 1                                 |\n\n___\n\n# Installation\n\nEither download it through in game with ContentDB or\n\n1. Download the mod\n\n2. Open the Minetest mods directory (end of path looks like .../Minetest-0.5.9/mods)\n\n3. Unzip the contents of the download into the Minetest mods directory\n\n4. In game select a world and under mods activate **shortcut**\n\nTo deinstall it delete the shortcut directory in the mods directory.\n\n___\n\n# Planed features\n\n- reformat code for open source purposes\n- adding a new type of shortcuts to combine multiple chat commands in one\n- adding a new way of creating a multiple in one command\n\n___\n\n# Feedback\n\nIf you have any wishes for a new feature or you have found a bug then please let me know in the Issues tab or on the ContentDB site of Minetest.",
-  "maintainers": [
-    "Derevio"
-  ],
+  "maintainers": ["Derevio"],
   "media_license": "GPL-3.0-or-later",
   "name": "shortcut",
-  "provides": [
-    "shortcut"
-  ],
+  "provides": ["shortcut"],
   "release": 28061,
   "repo": "https://github.com/Cramvin/shortcut.git",
   "score": 3.2,
-  "screenshots": [
-    "https://content.luanti.org/uploads/7c7b7a19e7.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/7c7b7a19e7.png"],
   "short_description": "Adds the ability to set shortcuts to commands.",
   "state": "APPROVED",
-  "tags": [
-    "chat",
-    "education",
-    "server_tools"
-  ],
+  "tags": ["chat", "education", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c7b7a19e7.png",
   "title": "Shortcut",
   "translation_url": null,

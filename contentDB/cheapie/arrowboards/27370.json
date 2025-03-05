@@ -11,14 +11,10 @@
   "issue_tracker": null,
   "license": "The Unlicense",
   "long_description": "Adds arrow boards for road work.  \nThese arrow boards are intended to (more or less) comply with the 2009 MUTCD section 6F.61 specifications for a type A arrow board, and support the following modes: off, flashing arrow (left, right, or dual), sequential arrow (left or right), sequential chevron (left or right), flashing caution (horizontal line or four corners), and alternating diamond caution.",
-  "maintainers": [
-    "cheapie"
-  ],
+  "maintainers": ["cheapie"],
   "media_license": "The Unlicense",
   "name": "arrowboards",
-  "provides": [
-    "arrowboards"
-  ],
+  "provides": ["arrowboards"],
   "release": 27370,
   "repo": "https://cheapiesystems.com/git/arrowboards/",
   "score": 9.5,
@@ -28,11 +24,7 @@
   ],
   "short_description": "Arrow boards for road construction",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "simulation",
-    "transport"
-  ],
+  "tags": ["building", "simulation", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Ccaqk5IFCH.png",
   "title": "Arrow Boards",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/veprogames/mt-resizeme/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Lets you scale the player with a command or through Lua.\n\nExample: `/resizeme 0.5` sets your scale to 0.5\n\nThis mod also exposes an API, and should be used something like this:\n\n```lua\nlocal ResizeMe = dofile(minetest.get_mod_path(\"resizeme\")..\"/api.lua\")\n\n-- scale singleplayer to 3x\nResizeMe.resize(\"singleplayer\", 3)\n```",
-  "maintainers": [
-    "VeproGames"
-  ],
+  "maintainers": ["VeproGames"],
   "media_license": "LGPL-2.1-only",
   "name": "resizeme",
-  "provides": [
-    "resizeme"
-  ],
+  "provides": ["resizeme"],
   "release": 19983,
   "repo": "https://github.com/veprogames/mt-resizeme",
   "score": 324.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/4e75d33c7c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/4e75d33c7c.png"],
   "short_description": "Become an Ant or a Giant! Exposes API",
   "state": "APPROVED",
-  "tags": [
-    "library",
-    "player_effects"
-  ],
+  "tags": ["library", "player_effects"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/4e75d33c7c.png",
   "title": "Resize Me!",
   "translation_url": null,

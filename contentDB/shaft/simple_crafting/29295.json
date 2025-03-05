@@ -77,14 +77,10 @@
   "issue_tracker": null,
   "license": "CC0-1.0",
   "long_description": "# Simplified Crafting\nProvides a simplified crafting interface for Minetest Game and other games using sfinv.\n\nIt shows all things you can craft. You can click on one and see the recipes that you have the items for. You can click on craft to execute it once or on 10× next to it, to do it 10×. Recipes using replacements like returning a bucket when you craft with a bucket of water will also return all items or drop them next to the player if the inventory is full.\nIt works and it **works with all mods adding crafting recipes.**\n\nThe search function works with display names and id names. Case insensitive. All Lua patterns allowed such as ^ to match the start or $ to match the end of a string.\n\nSafe to uninstall without breaking anything.\n\n## VoxeLibre and Mineclonia\nOnly implemented for survival mode.\nDue to the inventory already being to cluttered, you have to click on the anvil button and then the Simple Crafting dialog will appear.",
-  "maintainers": [
-    "shaft"
-  ],
+  "maintainers": ["shaft"],
   "media_license": "CC0-1.0",
   "name": "simple_crafting",
-  "provides": [
-    "simple_crafting"
-  ],
+  "provides": ["simple_crafting"],
   "release": 29295,
   "repo": "https://gitgud.io/blut/simple_crafting/",
   "score": 158.8,
@@ -94,10 +90,7 @@
   ],
   "short_description": "Simplified Crafting",
   "state": "APPROVED",
-  "tags": [
-    "crafting",
-    "survival"
-  ],
+  "tags": ["crafting", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a0cb6bdcf3.png",
   "title": "Simple Crafting",
   "translation_url": null,

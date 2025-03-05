@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,26 +429,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/fancy_vend/issues/",
   "license": "MIT",
   "long_description": "# Fancy Vend\nA full-featured, fully-integrated vendor mod for Minetest.\n\nThere are many vendor mods for Minetest, but most have too few options, lack support for automation mods, or are too tedious to set up and maintain. Fancy vendors are entirely self-contained nodes which provide light, trade, display and store items. Fancy vendors are pipeworks, digilines and awards compatible, enabling a variety of automation-based features.\n\n**Contributors:** Many thanks to LadyK for the textures, patience and ideas.\n\nFor help view the README on GitHub",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "MIT",
   "name": "fancy_vend",
-  "provides": [
-    "fancy_vend"
-  ],
+  "provides": ["fancy_vend"],
   "release": 4781,
   "repo": "https://github.com/ChimneySwift/fancy_vend",
   "score": 464.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/39jlfKgOuZ.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/39jlfKgOuZ.png"],
   "short_description": "A full-featured, fully-integrated vendor mod for Minetest",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "multiplayer"
-  ],
+  "tags": ["inventory", "multiplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/39jlfKgOuZ.png",
   "title": "Fancy Vend",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/error_mail/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Error Mail\n\nThis mod send a mail to the server admin after recovering from a fatal error. This mod works best when you have external restart methods set up.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "MIT",
   "name": "error_mail",
-  "provides": [
-    "error_mail"
-  ],
+  "provides": ["error_mail"],
   "release": 27009,
   "repo": "https://github.com/C-C-Minetest-Server/error_mail",
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3d110f9a8f.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3d110f9a8f.jpg"],
   "short_description": "Send mail to the admin with error traceback",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3d110f9a8f.png",
   "title": "Error Mail",
   "translation_url": null,
@@ -43,9 +35,7 @@
       {
         "is_optional": false,
         "name": "mail",
-        "packages": [
-          "mt-mods/mail"
-        ]
+        "packages": ["mt-mods/mail"]
       }
     ],
     "mt-mods/mail": []

@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/mesecons_snippets/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Mesecons Snippet Button\n\nThis mod adds a [Mesecons](https://content.minetest.net/packages/Jeija/mesecons/) trigger for [snippets](https://content.minetest.net/packages/luk3yx/snippets/).",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-3.0",
   "name": "mesecons_snippets",
-  "provides": [
-    "mesecons_snippets"
-  ],
+  "provides": ["mesecons_snippets"],
   "release": 26521,
   "repo": "https://github.com/C-C-Minetest-Server/mesecons_snippets",
   "score": 4.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/37ca179028.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/37ca179028.jpg"],
   "short_description": "Execute snippets with Mesecons",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/37ca179028.png",
   "title": "Mesecons Snippet Button",
   "translation_url": null,
@@ -70,16 +62,12 @@
       {
         "is_optional": false,
         "name": "snippets",
-        "packages": [
-          "luk3yx/snippets"
-        ]
+        "packages": ["luk3yx/snippets"]
       },
       {
         "is_optional": false,
         "name": "snippets_buttons",
-        "packages": [
-          "Emojiminetest/snippets_buttons"
-        ]
+        "packages": ["Emojiminetest/snippets_buttons"]
       },
       {
         "is_optional": false,
@@ -106,9 +94,7 @@
       {
         "is_optional": false,
         "name": "snippets",
-        "packages": [
-          "luk3yx/snippets"
-        ]
+        "packages": ["luk3yx/snippets"]
       }
     ],
     "Jeija/mesecons": [],

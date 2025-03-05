@@ -11,25 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/snippets_buttons/issues",
   "license": "LGPL-3.0-only",
   "long_description": "# Snippets Buttons\n\nThis mod adds more buttons as snippet toggles. You can use them just like the built-in snippet button.\n",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "snippets_buttons",
-  "provides": [
-    "snippets_buttons"
-  ],
+  "provides": ["snippets_buttons"],
   "release": 24583,
   "repo": "https://github.com/C-C-Minetest-Server/snippets_buttons",
   "score": 4.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/2fdf7430c0.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/2fdf7430c0.png"],
   "short_description": "More toggles for snippets",
   "state": "APPROVED",
-  "tags": [
-    "server_tools"
-  ],
+  "tags": ["server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/2fdf7430c0.png",
   "title": "Snippets Buttons",
   "translation_url": null,
@@ -43,9 +35,7 @@
       {
         "is_optional": false,
         "name": "snippets",
-        "packages": [
-          "luk3yx/snippets"
-        ]
+        "packages": ["luk3yx/snippets"]
       }
     ],
     "luk3yx/snippets": []

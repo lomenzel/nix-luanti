@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,14 +286,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/swamplified/issues",
   "license": "MIT",
   "long_description": "This mod adds a few more nice touches to Atlante's swamp biome mod.  It adds things you'd see in a real swamp like dying/dead trees and waterlillies in open water.",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "MIT",
   "name": "swamplified",
-  "provides": [
-    "swamplified"
-  ],
+  "provides": ["swamplified"],
   "release": 19981,
   "repo": "https://github.com/Neuromancer56/swamplified",
   "score": 157.6,
@@ -307,9 +301,7 @@
   ],
   "short_description": "This mod adds a few more nice touches to Atlante's Swamp biome mod",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/ed172668fd.png",
   "title": "Swamplified",
   "translation_url": null,
@@ -482,9 +474,7 @@
       {
         "is_optional": false,
         "name": "swamp",
-        "packages": [
-          "Atlante/swamp"
-        ]
+        "packages": ["Atlante/swamp"]
       }
     ]
   },

@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": "https://codeberg.org/HuguesRoss/mtg-craft-reverser/issues",
   "license": "GPL-3.0-only",
   "long_description": "This mod aims to add some quality-of-life to Minetest Game by making all horizontally-asymmetrical recipes reversible.\n\nIn other words:\n\n* Axes\n* Hoes\n* Stairs\n* Fancy Beds\n\n...can be crafted facing left or right, and you don't need to remember which is which before crafting them.\n\nThis mod works by extending the registration functions with an extra recipe, so it may also support some mods out-of-the-box. Happy crafting!",
-  "maintainers": [
-    "Hugues Ross"
-  ],
+  "maintainers": ["Hugues Ross"],
   "media_license": "GPL-3.0-only",
   "name": "mtg_craft_reverser",
-  "provides": [
-    "mtg_craft_reverser"
-  ],
+  "provides": ["mtg_craft_reverser"],
   "release": 2927,
   "repo": "https://codeberg.org/HuguesRoss/mtg-craft-reverser",
   "score": 2.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/J32qKStysl.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/J32qKStysl.png"],
   "short_description": "Makes crafting recipes in Minetest Game reversible",
   "state": "APPROVED",
-  "tags": [
-    "crafting"
-  ],
+  "tags": ["crafting"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/J32qKStysl.png",
   "title": "Mtg Craft Reverser",
   "translation_url": null,
@@ -497,18 +487,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,
@@ -605,9 +589,7 @@
       {
         "is_optional": false,
         "name": "config",
-        "packages": [
-          "sorcerykid/config"
-        ]
+        "packages": ["sorcerykid/config"]
       },
       {
         "is_optional": false,

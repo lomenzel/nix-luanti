@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,26 +416,17 @@
   "issue_tracker": "https://github.com/VanessaE/gloopblocks/issues/",
   "license": "LGPL-3.0-only",
   "long_description": "Adds decorative and functional blocks, including cement, rainbow blocks, \"evil\" blocks and sticks, \nand the usual collection of tools of various strengths and speeds made from either cement or \"evil\" components.\n\nIf signs_lib is installed, it must be commit 4ff54c9a or later.",
-  "maintainers": [
-    "VanessaE",
-    "mt-mods"
-  ],
+  "maintainers": ["VanessaE", "mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "gloopblocks",
-  "provides": [
-    "gloopblocks"
-  ],
+  "provides": ["gloopblocks"],
   "release": 29581,
   "repo": "https://github.com/mt-mods/gloopblocks",
   "score": 36.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/TzHluPThun.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/TzHluPThun.png"],
   "short_description": "Adds decorative and functional blocks, including cement, rainbow blocks, \"evil\" blocks, and tools.",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/TzHluPThun.png",
   "title": "Gloop Blocks",
   "translation_url": null,

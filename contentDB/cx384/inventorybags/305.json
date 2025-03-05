@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -327,25 +325,17 @@
   "issue_tracker": "https://github.com/cx384/inventorybags/issues/new/choose/",
   "license": "GPL-2.0-only",
   "long_description": "*Authors note: This mod was written many years ago and has not been updated. It is neither sufficiently performant nor crash safe, and it needs to be completely refactored. Maybe in the future it will, but for now avoid using this mod if you care about these things. I hope you will find good alternatives.*",
-  "maintainers": [
-    "cx384"
-  ],
+  "maintainers": ["cx384"],
   "media_license": "GPL-2.0-only",
   "name": "inventorybags",
-  "provides": [
-    "inventorybags"
-  ],
+  "provides": ["inventorybags"],
   "release": 305,
   "repo": "https://github.com/cx384/inventorybags",
   "score": 165.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/bCkAOx1ob9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/bCkAOx1ob9.png"],
   "short_description": "Adds bags",
   "state": "APPROVED",
-  "tags": [
-    "inventory"
-  ],
+  "tags": ["inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/bCkAOx1ob9.png",
   "title": "Inventory Bags",
   "translation_url": null,
@@ -608,18 +598,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

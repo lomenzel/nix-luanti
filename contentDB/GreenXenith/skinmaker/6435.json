@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "paramat/driftgame"
-        ],
+        "aliases": ["paramat/driftgame"],
         "author": "mt-mods",
         "name": "driftgame",
         "release": 28764,
@@ -469,9 +467,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -655,26 +651,17 @@
   "issue_tracker": "https://github.com/GreenXenith/skinmaker/issues",
   "license": "MIT",
   "long_description": "**Skinmaker** is a live, in-game, player skin editor that can be used without server restarts. Images are saved, loaded, and applied live.\n[View README here.](https://github.com/GreenXenith/skinmaker/blob/master/README.md)",
-  "maintainers": [
-    "GreenXenith"
-  ],
+  "maintainers": ["GreenXenith"],
   "media_license": "MIT",
   "name": "skinmaker",
-  "provides": [
-    "skinmaker"
-  ],
+  "provides": ["skinmaker"],
   "release": 6435,
   "repo": "https://github.com/GreenXenith/skinmaker",
   "score": 26.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/CfcEPkrwhs.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/CfcEPkrwhs.png"],
   "short_description": "In-game live player skin editor.",
   "state": "APPROVED",
-  "tags": [
-    "player_effects",
-    "skins"
-  ],
+  "tags": ["player_effects", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/CfcEPkrwhs.png",
   "title": "Skinmaker",
   "translation_url": null,

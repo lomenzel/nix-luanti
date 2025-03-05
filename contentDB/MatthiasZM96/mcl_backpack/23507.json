@@ -38,26 +38,17 @@
   "issue_tracker": null,
   "license": "GPL-3.0-or-later",
   "long_description": "# mcl2_backpack\n\n![Screenshot of the backpack mod](https://i.imgur.com/W29UAU3.png)\n\nBased on the Paladium backpack in Minetest-Paladium (https://github.com/minetest-palamod/) from AFCM. This mod is designed to be independent of the paladium mod for people that just want a backpack on their Mineclone 2 server.\n\nOptional depend from industrialtest (https://git.minetest.land/mrkubax10/industrialtest)",
-  "maintainers": [
-    "MatthiasZM96"
-  ],
+  "maintainers": ["MatthiasZM96"],
   "media_license": "GPL-3.0-or-later",
   "name": "mcl_backpack",
-  "provides": [
-    "mcl_backpack"
-  ],
+  "provides": ["mcl_backpack"],
   "release": 23507,
   "repo": "https://git.minetest.land/MatthiasZM96/mcl2_backpack",
   "score": 168.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/852908095b.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/852908095b.png"],
   "short_description": "Add additional backpack inventory to players",
   "state": "APPROVED",
-  "tags": [
-    "inventory",
-    "storage"
-  ],
+  "tags": ["inventory", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/852908095b.png",
   "title": "Mcl Backpack",
   "translation_url": null,

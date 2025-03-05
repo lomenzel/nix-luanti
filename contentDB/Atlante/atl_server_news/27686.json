@@ -11,20 +11,14 @@
   "issue_tracker": "https://github.com/Atlante1952/atl_server_news",
   "license": "LGPL-2.1-or-later",
   "long_description": "Add a /news\n##\n###1. Bold Text\n<b> This text will be in bold </b>\n\n###2. Text Underlined\n<style size=22> This text will be bigger </style> \n\n###3. Text Underlined\n<u> This text will be underlined </u>\n\n###4. Text in Italic\n<i> This text will be in italics </i>\n\n###5. Colored Text\n<style color=#32bc39> This text will be green in color </style>\n##",
-  "maintainers": [
-    "Atlante"
-  ],
+  "maintainers": ["Atlante"],
   "media_license": "LGPL-2.1-or-later",
   "name": "atl_server_news",
-  "provides": [
-    "atl_server_news"
-  ],
+  "provides": ["atl_server_news"],
   "release": 27686,
   "repo": "https://github.com/Atlante1952/atl_server_news",
   "score": 4.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cc4f93af20.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cc4f93af20.png"],
   "short_description": "Add a /news",
   "state": "APPROVED",
   "tags": [],

@@ -64,14 +64,10 @@
   "issue_tracker": "https://github.com/ZenonSeth/logistica/issues",
   "license": "LGPL-2.1-only",
   "long_description": "Logistica is an item transport, distribution and storage mod. \n\nThe core principle behind this mod is that item transportation is demand-driven: no item is moved unless it is needed somewhere.\n\nAll storages can be used stand-alone, but by creating and connecting them to  a [Logistics Network](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Creating-a-Network), you can both [take items](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Moving-Items#network-importer) from almost any other machine or chest, and easily [distribute items on-demand](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Moving-Items#request-inserter), only where they are required.\n\nThis mod does not use entities to move items, and an effort has been made to cache many lookups to produce as little lag as possible.\n\n\n# Guide Book\nAn in-game Guide Book is now avaiable, crafted like so:\n\n| On crafting grid: |\n| -------- |\n| Silver Sand |\n| Paper |\n| Silver Sand  |\n\n> Note: Use regular Sand instead of Silver Sand if playing Mineclone2/Mineclonia\n\nThe equivalent online guide is available here:  https://github.com/ZenonSeth/logistica/wiki\n# Features\nThere's a few major points that make this mod different:\n\n- Access all your Storage remotely via [Wireless Access Pad](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-The-Wireless-Access-Pad)\n- Portable liquid storage: [Reservoirs](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Liquid-Storage) - also acceessable wirelessly, and fillable via automatic Pumps.\n- Portable mass storage: [Mass Storage](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Network-Storage#mass-storage) nodes can be dug and carried around, keeping their content.\n- [On-demand transportation](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Moving-Items) lets you equally distribute items across multiple machines without complex splitting logic\n- Storage is part of the network, it can both accumulate items and supply them to any machines\n- No entities used for moving items, resulting in far less lag.\n- On-demand, recursive crafting: Using [Crafting Suppliers](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Autocrafting) can craft from your stored items only when you need it!\n\n## Supports Minetest Game, VoxelLibre, Mineclonia, Asuna, and many others\nThis mod requires one of two sets of mods:\n\n- Either:  `default` and `bucket`  - usually included in any `minetest_game` based games\n- Or:  `mcl_core` and `mcl_buckets`  - included in `Mineclone2` and `Mineclonia`\n\nSupport of MCL comes thanks to ThePython10110 on github.\n\n# Mod compatibility\nThis mod uses a generic system to take or put items from other nodes' inventories, even allowing the user to pick from target in most cases. Thus **Logistica attempts to be universally compatible**, and requires no special functions to be implemented in other mods for them to be compatible.\n\n## TechAge compatibility\nTo take items from most other mods' storage (e.g. Tech Age machines or chests), use a [Network Importer](https://github.com/ZenonSeth/logistica/wiki/Logistic-Network:-Moving-Items#network-importer) machine, rather than trying to insert items into logistic supply chests.\n\nIf you find any specific machines or chests from Logistica can't take items, please raise an issue with the specific name of the chest or machine.\n# What's New?\n`1.1.0` : Added Wireless Transmitter and Wireless Receiver that allow extending a network wirelessly over unlimited sitance.\n\n[Full Changelog](https://github.com/ZenonSeth/logistica/releases)",
-  "maintainers": [
-    "ZenonSeth"
-  ],
+  "maintainers": ["ZenonSeth"],
   "media_license": "CC-BY-SA-3.0",
   "name": "logistica",
-  "provides": [
-    "logistica"
-  ],
+  "provides": ["logistica"],
   "release": 26875,
   "repo": "https://github.com/ZenonSeth/logistica",
   "score": 1504.4,
@@ -90,11 +86,7 @@
   ],
   "short_description": "On-demand item transportation + Powerful Storage",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "storage",
-    "technology"
-  ],
+  "tags": ["building", "storage", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f71d16fb4b.png",
   "title": "Logistica",
   "translation_url": null,

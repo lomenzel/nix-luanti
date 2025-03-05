@@ -11,28 +11,17 @@
   "issue_tracker": "https://github.com/minetest-mods/nightandday/issues/new/choose/",
   "license": "AGPL-2.0-only",
   "long_description": "Tired of having really long nights? Or do you want the opposite, and have really long nights all the time? This is the mod that makes it easy to tune day and night length.\n\nUsage: `/nightandday <dayspeed> <nightspeed>`. By default, these are both `72`.",
-  "maintainers": [
-    "sofar"
-  ],
+  "maintainers": ["sofar"],
   "media_license": "AGPL-2.0-only",
   "name": "nightandday",
-  "provides": [
-    "nightandday"
-  ],
+  "provides": ["nightandday"],
   "release": 1727,
   "repo": "https://github.com/minetest-mods/nightandday",
   "score": 8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1e8567eae4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1e8567eae4.png"],
   "short_description": "Allows you to have different day and night speeds.",
   "state": "APPROVED",
-  "tags": [
-    "environment",
-    "plants_and_farming",
-    "pve",
-    "survival"
-  ],
+  "tags": ["environment", "plants_and_farming", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1e8567eae4.png",
   "title": "Nightandday",
   "translation_url": null,

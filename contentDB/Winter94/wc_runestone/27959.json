@@ -38,25 +38,17 @@
   "issue_tracker": "https://github.com/wintersknight94/Runestones/issues/new/choose/",
   "license": "CC0-1.0",
   "long_description": "# Runestones\n- Play games of chance with your friends!\n- Decorate your builds!\n- Temporary Recipe: Draw any charcoal glyph on top of boxy stone, pummel with pick.\n",
-  "maintainers": [
-    "Winter94"
-  ],
+  "maintainers": ["Winter94"],
   "media_license": "CC0-1.0",
   "name": "wc_runestone",
-  "provides": [
-    "wc_runestone"
-  ],
+  "provides": ["wc_runestone"],
   "release": 27959,
   "repo": "https://github.com/wintersknight94/Runestones",
   "score": 3.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/da7391d85e.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/da7391d85e.png"],
   "short_description": "Play games of chance, or decorate your builds!",
   "state": "APPROVED",
-  "tags": [
-    "mini-game"
-  ],
+  "tags": ["mini-game"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/da7391d85e.png",
   "title": "NodeCore Runestones",
   "translation_url": null,
@@ -70,34 +62,22 @@
       {
         "is_optional": false,
         "name": "nc_writing",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

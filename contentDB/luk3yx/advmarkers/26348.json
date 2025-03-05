@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/luk3yx/minetest-advmarkers/issues",
   "license": "MIT",
   "long_description": "A not very advanced marker/waypoint mod for Minetest.\n\nUnlike the [CSM], this mod is standalone, and conflicts with the\n[marker mod](https://github.com/Elkien3/citysim_game/tree/master/mods/marker).\n\n## How to use\n\nThis mod introduces the following chatcommands:\n\n - `/wp`, `/mrkr`: Opens a GUI allowing you to display or delete waypoints. If you give this command a parameter (`h`/`here`, `t`/`there` or co-ordinates), it will set your HUD position to those co-ordinates.\n - `/add_wp`, `/add_mrkr`: Adds markers. You can use `.add_mrkr x,y,z Marker name` to add markers. Adding a marker with (exactly) the same name as another will overwrite the original marker.\n - `/clrwp`, `/clrmrkr`: Hides the currently displayed waypoint.\n - `/mrkr_export`: Exports your markers to an advmarkers string. Remember to not modify the text before copying it.\n - `/mrkr_import`: Imports your markers from an advmarkers string (`/mrkr_import <advmarkers string>`). Any markers with the same name will not be overwritten, and if they do not have the same co-ordinates, `_` will be appended to the imported one.\n - `/mrkrthere`: Alias for `/mrkr there`.\n\nIf you die, a waypoint is automatically added at your death position, and will\nupdate the \"there\" position.\n\n## \"Here\" and \"there\" positions\n\nBoth /wp and /add_wp accept \"here\"/\"h\" and \"there\"/\"t\" in place of\nco-ordinates. Using \"here\" will set the waypoint to your current position, and\n\"there\" will set it to the most recent co-ordinates that appear in chat (or\nyour last death position).\n\n[CSM]:    https://gitlab.com/luk3yx/minetest-advmarkers-csm",
-  "maintainers": [
-    "luk3yx"
-  ],
+  "maintainers": ["luk3yx"],
   "media_license": "MIT",
   "name": "advmarkers",
-  "provides": [
-    "advmarkers"
-  ],
+  "provides": ["advmarkers"],
   "release": 26348,
   "repo": "https://gitlab.com/luk3yx/minetest-advmarkers",
   "score": 7.7,
-  "screenshots": [
-    "https://content.luanti.org/uploads/3e7ba7e5b4.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/3e7ba7e5b4.png"],
   "short_description": "Allows you to create and manage markers/waypoints.",
   "state": "APPROVED",
-  "tags": [
-    "hud",
-    "transport"
-  ],
+  "tags": ["hud", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/3e7ba7e5b4.png",
   "title": "advmarkers",
   "translation_url": null,
@@ -44,10 +35,7 @@
       {
         "is_optional": false,
         "name": "flow",
-        "packages": [
-          "Kimapr/nonsensical_skyblock",
-          "luk3yx/flow"
-        ]
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
       }
     ],
     "luk3yx/flow": [

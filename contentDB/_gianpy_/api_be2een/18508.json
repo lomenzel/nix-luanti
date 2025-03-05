@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/GianptDev/minetest-be2een-api/issues",
   "license": "MIT",
   "long_description": "\n# Be2een Api\n\n> timers, animation and action! *ciack*\n\nThis is a library written in lua for the game [minetest](https://www.minetest.net/) that implements tools for creating timers and animations as objects that can be configurated with properties and events.\n\nThe animation system is flessible, is possible to define custom functions to change ui elements or world behaviour.\n\n## Usage\n\nThe library acts like a mod, just add it in your mod list and enable it in your world. by itself it does nothing, because it implements features for other mods.\n\nAdd the dependency in your mod and use the namespace to access the api functionality, see the wiki for a detailed list of all functions.\n\n## Wiki\n\nCurrenlty no wiki or documentatio page exists, however the code has comments using the [sumnkeno annotation](https://github.com/LuaLS/lua-language-server) so you can still have info about methods.\n\n## Contribute\n\nYeah, you can ask for a specific feature in [issue](https://github.com/GianptDev/minetest-be2een-api/issues) or you can implement it and make a [pull request](https://github.com/GianptDev/minetest-be2een-api/pulls).",
-  "maintainers": [
-    "_gianpy_"
-  ],
+  "maintainers": ["_gianpy_"],
   "media_license": "MIT",
   "name": "api_be2een",
-  "provides": [
-    "api_be2een"
-  ],
+  "provides": ["api_be2een"],
   "release": 18508,
   "repo": "https://github.com/GianptDev/minetest-be2een-api",
   "score": 1.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/056df06d4f.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/056df06d4f.png"],
   "short_description": "timers, animation and action! ciack",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "hud",
-    "library"
-  ],
+  "tags": ["gui", "hud", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/056df06d4f.png",
   "title": "Be2een Api",
   "translation_url": null,

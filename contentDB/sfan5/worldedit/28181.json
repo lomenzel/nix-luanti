@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/Uberi/Minetest-WorldEdit/issues",
   "license": "AGPL-3.0-only",
   "long_description": "The ultimate in-game world editing tool for Minetest! Tons of functionality to help with building, fixing, and more.\n\nFor more information, see the [WorldEdit tutorial](https://github.com/Uberi/Minetest-WorldEdit/blob/master/Tutorial.md) or the [Chat command reference](https://github.com/Uberi/Minetest-WorldEdit/blob/master/ChatCommands.md).",
-  "maintainers": [
-    "sfan5"
-  ],
+  "maintainers": ["sfan5"],
   "media_license": "AGPL-3.0-only",
   "name": "worldedit",
   "provides": [
@@ -26,16 +24,10 @@
   "release": 28181,
   "repo": "https://github.com/Uberi/Minetest-WorldEdit",
   "score": 4302.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/cf65fbb873.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/cf65fbb873.png"],
   "short_description": "In-game world editor. Use it to repair griefing, or just create awesome buildings in seconds.",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "developer_tools",
-    "world_tools"
-  ],
+  "tags": ["building_mechanics", "developer_tools", "world_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cf65fbb873.png",
   "title": "WorldEdit",
   "translation_url": null,

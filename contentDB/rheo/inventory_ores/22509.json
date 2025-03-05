@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/fluxionary/minetest-inventory_ores/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# inventory_ores\n\nshows where to find ores in the inventory manager.\n\ncurrently only unified_inventory is supported, but integrating w/ other inventory managers is a future goal.\n",
-  "maintainers": [
-    "rheo"
-  ],
+  "maintainers": ["rheo"],
   "media_license": "CC-BY-SA-4.0",
   "name": "inventory_ores",
-  "provides": [
-    "inventory_ores"
-  ],
+  "provides": ["inventory_ores"],
   "release": 22509,
   "repo": "https://github.com/fluxionary/minetest-inventory_ores.git",
   "score": 9.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/75892d9471.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/75892d9471.png"],
   "short_description": "shows where to find ores in an inventory manager.",
   "state": "APPROVED",
-  "tags": [
-    "gui",
-    "inventory"
-  ],
+  "tags": ["gui", "inventory"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/75892d9471.png",
   "title": "inventory ores",
   "translation_url": null,
@@ -45,28 +36,19 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       }
     ],
     "rheo/inventory_ores": [
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       }
     ]
   },

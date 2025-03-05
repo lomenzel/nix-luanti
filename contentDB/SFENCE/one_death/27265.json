@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/sfence/one_death/issues",
   "license": "MIT",
   "long_description": "This mod allows only one death.\n\nBased on configuration, the world will be destroyed after death or  \nthe player will lose privileges to interact with the world and others.\nSee settingtypes.txt for details.\n\nFor single-player worlds, the world is destroyed as default.\nFor multi-player worlds, players lost privileges by default.\n\nIf the player is an admin and cannot lose privileges, he is kicked after death.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "MIT",
   "name": "one_death",
-  "provides": [
-    "one_death"
-  ],
+  "provides": ["one_death"],
   "release": 27265,
   "repo": "https://github.com/sfence/one_death.git",
   "score": 3.6,
-  "screenshots": [
-    "https://content.luanti.org/uploads/986f6ade6a.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/986f6ade6a.png"],
   "short_description": "This allows players to die only once. The world can be destroyed after it (default for single-player) or the player can lose privileges to interact with the world and others (default for multi-player)",
   "state": "APPROVED",
-  "tags": [
-    "pve",
-    "survival"
-  ],
+  "tags": ["pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/986f6ade6a.png",
   "title": "One death",
   "translation_url": null,

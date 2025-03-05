@@ -141,9 +141,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -288,14 +286,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "Adds 14 crops that can be grown from seeds collected from their wild variants, much like the Cotton seeds from the farming mod. You can also find the Seeds and Spores in dungeon chests, much like the other MineTest Game seeds. Along with 7 unique mushrooms that differ from their coniferous cousins, they glow in the dark parts of the rainforest.\n\nThe long term aim of this mod is to continue expanding on the farming aspect of the MineTest Game,\nwhile also incentivising exploration to collect and grow crops to craft better food items.\n\nAnother mechanic utilizes the flowers mod, in where this mod's glowing rainforest mushrooms don't behave like the red or brown mushrooms. These 7 glowing mushrooms actually grow on the ores found deep below. A side effect of this that the underground will be gradually lit up by these bioluminescent fungi.\n(A heads up, they don't like direct sunlight and will despawn like the red and brown mushrooms.)\n\n\n**Wild Plants for harvesting seeds can be found in these biomes:**\n\nGrassland - Beets, Carrots, Corn, Flax and Pumpkins\n\nConiferous Forest -  Morel Mushrooms, Oyster Mushrooms, Shiitake Mushrooms, and White Button Mushrooms\n\nDeciduous Forest - Soybeans  and Garlic\n\nRainforest - Cocao, Potatoes and Watermelons\n\nThe Plant crops need bright light or sunny conditions to grow.\nWhile the Mushroom crops can grow in complete darkness to sunny conditions(good for cave dwellers).\n\nOnce you've planted them, and harvested the crops.\nYou can craft/process them into better foods. But, some of the items are better than others.\nThis being items that are more complex in their crafting, or utilize more crops in their recipes.\n(I still have more ideas for this, and will change the values and recipes where I want to improve/nerf them.)\n\nAdditionally, the crops should work with the Bonemeal mod by TenPlus1 if you have their mod installed.\n\n**Update 1.0.6:**\n\n-Added Pumpkins and Watermelons. Pumpkins can be found in the Grassland biome, and watermelons can be found in the Rainforest biome.\n\n-Pumpkin crops will occasionally spawn a fully sized pumpkin node around it, and the same goes for watermelon crops spawning watermelon nodes. If you decide to harvest the crops, they will drop the normal seeds. But, they also drop tiny pumpkins or watermelons.\n\n-Decreased the area the decorative plants take up on world generation.",
-  "maintainers": [
-    "Tarruvi"
-  ],
+  "maintainers": ["Tarruvi"],
   "media_license": "MIT",
   "name": "cropocalypse",
-  "provides": [
-    "cropocalypse"
-  ],
+  "provides": ["cropocalypse"],
   "release": 16874,
   "repo": null,
   "score": 15.3,
@@ -309,10 +303,7 @@
   ],
   "short_description": "Adds a few crops, mushrooms and food items",
   "state": "APPROVED",
-  "tags": [
-    "plants_and_farming",
-    "survival"
-  ],
+  "tags": ["plants_and_farming", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7b2d02d5e2.png",
   "title": "Cropocalypse",
   "translation_url": null,

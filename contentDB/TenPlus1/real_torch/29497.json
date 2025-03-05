@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Add realistic torches to the world that go out after some time and drop when near water, can be relit.",
-  "maintainers": [
-    "TenPlus1"
-  ],
+  "maintainers": ["TenPlus1"],
   "media_license": "CC0-1.0",
   "name": "real_torch",
-  "provides": [
-    "real_torch"
-  ],
+  "provides": ["real_torch"],
   "release": 29497,
   "repo": "https://codeberg.org/tenplus1/real_torch",
   "score": 17.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/x4SZcGuRJD.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/x4SZcGuRJD.png"],
   "short_description": "Realistic torches that go out eventually and drop in water",
   "state": "APPROVED",
-  "tags": [
-    "survival"
-  ],
+  "tags": ["survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/x4SZcGuRJD.png",
   "title": "Real Torch",
   "translation_url": null,

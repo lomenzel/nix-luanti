@@ -102,9 +102,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -313,9 +311,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "minetesprogramercor/survivethedays"
-        ],
+        "aliases": ["minetesprogramercor/survivethedays"],
         "author": "JALdMIC",
         "name": "survivethedays",
         "release": 12774,
@@ -447,28 +443,17 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "#### Ethereal Bosses (Reworked)\n---\n\"Ethereal Bosses\", is a mod focused on \"PVE\" combat, adding pets, monsters, and bosses to your world.\n\n---\n- BY : DUCKGO\n- CREDITS : TenPlus1\n- LICENSE : MIT\n- TEXTURE : CC BY-SA 4.0 \n- VERSION : 0.1.1 Alpha\n- \n- depends = Mobs\n- optional_depends = hunger_ng,3d_armor,ethereal,mcl_core\n\n---\n\n",
-  "maintainers": [
-    "pixelzone"
-  ],
+  "maintainers": ["pixelzone"],
   "media_license": "CC-BY-SA-4.0",
   "name": "ethereal_bosses",
-  "provides": [
-    "ethereal_bosses"
-  ],
+  "provides": ["ethereal_bosses"],
   "release": 28170,
   "repo": "https://codeberg.org/pixelzone/ethereal_bosses_reworked",
   "score": 45,
-  "screenshots": [
-    "https://content.luanti.org/uploads/d6dd22c60d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/d6dd22c60d.png"],
   "short_description": "Adds Bosses in biomes from the \"Ethereal NG\" and \"Mineclonia\" mods",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "mobs",
-    "pve",
-    "survival"
-  ],
+  "tags": ["adventure__rpg", "mobs", "pve", "survival"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/d6dd22c60d.png",
   "title": "Mobs Ethereal Bosses",
   "translation_url": null,

@@ -11,9 +11,7 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/parkour/issues",
   "license": "LGPL-2.1-or-later",
   "long_description": "# Parkour Game for [Minetest](https://minetest.net)!\n## Our goal\n1. Make everything simple\n2. Let our players enjoy our game\n3. And of couse... [Money prizes!](https://forum.minetest.net/viewtopic.php?t=27512)\n## File structures\n* Mods startred by `pkr_` are only for parkour game.\n* The only exception is `pkr_nodes`, you can use it anywhere, but all nodes are only decorations outside of this game. This feature can be used to make levels.\n* Other mods are designed as APIs, and can be extraced to be a standalone mod.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "CC-BY-SA-4.0",
   "name": "parkour",
   "provides": [
@@ -35,15 +33,10 @@
   "release": 11037,
   "repo": "https://github.com/C-C-Minetest-Server/parkour",
   "score": 415.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/093cf275b9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/093cf275b9.png"],
   "short_description": "Parkour game!",
   "state": "APPROVED",
-  "tags": [
-    "jam_game_2021",
-    "singleplayer"
-  ],
+  "tags": ["jam_game_2021", "singleplayer"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/093cf275b9.png",
   "title": "Parkour",
   "translation_url": null,

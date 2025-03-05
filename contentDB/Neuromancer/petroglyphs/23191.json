@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/Neuromancer56/petroglyphs/issues",
   "license": "MIT",
   "long_description": "This mod adds Petroglyphs to Minetest.\n\n- Petroglyphs spawn in Desert Stone  walls\n- I've been having fun just using this mod, plus wielded light, and rockpiles mod.   I then go to a desert biome and search for petroglyphs in the caves.  It's extremely relaxing.\n\nHave fun!",
-  "maintainers": [
-    "Neuromancer"
-  ],
+  "maintainers": ["Neuromancer"],
   "media_license": "CC-BY-SA-3.0",
   "name": "petroglyphs",
-  "provides": [
-    "petroglyphs"
-  ],
+  "provides": ["petroglyphs"],
   "release": 23191,
   "repo": "https://github.com/Neuromancer56/petroglyphs",
   "score": 307.7,
@@ -448,9 +442,7 @@
   ],
   "short_description": "Adds petroglyphs which generate randomly in desert stone walls",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/f93534894d.png",
   "title": "Petroglyphs",
   "translation_url": null,

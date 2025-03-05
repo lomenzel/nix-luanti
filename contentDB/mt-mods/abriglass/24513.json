@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://github.com/mt-mods/abriglass/issues",
   "license": "MIT",
   "long_description": "Stained glass Minetest mod by Shara RedCat which adds:\n\n1. Coloured glass.\n2. Patterned stained glass.\n3. Glass lights.\n4. One way windows. \n5. Portholes.\n6. Hidden light node.\n\n\nCrafting\n---------\n\nPlain abriglass can be crafted using default glass. Coloured glass can then be made using this and dye. \n\nGlass lights can be crafted using glass, dye and torches.\n\nPatterned glass can be crafted using combinations of coloured glass.\n\nOne way windows can be crafted using their wall type, glass and a mese crystal fragment. \n\nHidden light is not in the inventory, has no recipes and can only be acquired through commands. This is an invisible node which can be walked through and is intended to provide gentle lighting in areas where regular lighting may be undesirable. \n\nSpecial thanks to agaran for assisting with the recipes. \n\nRecommended Additions\n-----------------------\n\n- [abriflame]( https://content.minetest.net/packages/mt-mods/abriflame/) allows coloured flames to be lit on coloured glass nodes.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "CC-BY-SA-4.0",
   "name": "abriglass",
-  "provides": [
-    "abriglass"
-  ],
+  "provides": ["abriglass"],
   "release": 24513,
   "repo": "https://github.com/mt-mods/abriglass",
   "score": 30,
-  "screenshots": [
-    "https://content.luanti.org/uploads/e941f81e04.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/e941f81e04.png"],
   "short_description": "Adds coloured glass, patterned stained glass, glass lights and one way windows.",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/e941f81e04.png",
   "title": "Abriglass",
   "translation_url": null,

@@ -11,26 +11,17 @@
   "issue_tracker": "https://github.com/C-C-Minetest-Server/lag_recover/issues",
   "license": "LGPL-3.0-or-later",
   "long_description": "# Recover from irrecoverable lag\n\nSometimes Minetest runs into memory leaks, ridiculous CPU consumption, or just random errors nobody knows how to solve. This mod workarounds this by restarting the server when it is in extreme lag.\n\nServer administrators should fine-tune the settings to prevent false-positives. To prevent bad values from causing a restart loop, any players sending \"hang on\" can pause the restart counter.\n\nThis mod assumes you have external restart mechanics, e.g. Docker container with `restart: always`, or systemd service with `Restart=always`.",
-  "maintainers": [
-    "Emojiminetest"
-  ],
+  "maintainers": ["Emojiminetest"],
   "media_license": "LGPL-3.0-or-later",
   "name": "lag_recover",
-  "provides": [
-    "lag_recover"
-  ],
+  "provides": ["lag_recover"],
   "release": 27519,
   "repo": "https://github.com/C-C-Minetest-Server/lag_recover",
   "score": 1.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/fd8475d9f3.jpg"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/fd8475d9f3.jpg"],
   "short_description": "Restart the server when it lags too much",
   "state": "APPROVED",
-  "tags": [
-    "complex_installation",
-    "server_tools"
-  ],
+  "tags": ["complex_installation", "server_tools"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fd8475d9f3.png",
   "title": "Recover from irrecoverable lag",
   "translation_url": null,
@@ -44,19 +35,14 @@
       {
         "is_optional": false,
         "name": "settings_loader",
-        "packages": [
-          "Emojiminetest/settings_loader"
-        ]
+        "packages": ["Emojiminetest/settings_loader"]
       }
     ],
     "Emojiminetest/settings_loader": [
       {
         "is_optional": false,
         "name": "logging",
-        "packages": [
-          "Casimir/voxelgarden",
-          "Emojiminetest/logging"
-        ]
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
       }
     ]
   },

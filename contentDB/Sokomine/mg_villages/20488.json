@@ -51,14 +51,10 @@
   "issue_tracker": "https://github.com/Sokomine/mg_villages/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "Create a new world - and you'll start right in a medieval village! Explore the world and find other villages of diffrent types. Buy a house in a village and settle down.\n\nYou can add your own houses and village types if you want to.\n\nMy cottages mod is highly recommended. Ethereal, RealTest and MineClone2 are supported as well.\n\nThe mod places the buildings at mapgen time. That way you'll only find villages in areas on your old map which you havn't explored yet.\n\nMobs and/or villagers are not included. Add them to your world to make the villages feel more alive!\n\nRelease 2020-10-16:\n\n* lots of bugfixes and adjustments for newer versions of MT\n* ought to run again with MineClone2, RealTest, Ethereal and the like (even AdventureTest with some changes)\n* no more crashes due to lighting errors - new code handles that more efficiently\n* some speed updates",
-  "maintainers": [
-    "Sokomine"
-  ],
+  "maintainers": ["Sokomine"],
   "media_license": "GPL-3.0-only",
   "name": "mg_villages",
-  "provides": [
-    "mg_villages"
-  ],
+  "provides": ["mg_villages"],
   "release": 20488,
   "repo": "https://github.com/Sokomine/mg_villages",
   "score": 1784.4,
@@ -77,11 +73,7 @@
   ],
   "short_description": "Explore the world and find villages of diffrent types. Buy a house in a village and settle down.",
   "state": "APPROVED",
-  "tags": [
-    "adventure__rpg",
-    "library",
-    "mapgen"
-  ],
+  "tags": ["adventure__rpg", "library", "mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/HKqjuSvdlS.png",
   "title": "Villages",
   "translation_url": null,
@@ -96,9 +88,7 @@
       {
         "is_optional": false,
         "name": "handle_schematics",
-        "packages": [
-          "Sokomine/handle_schematics"
-        ]
+        "packages": ["Sokomine/handle_schematics"]
       }
     ]
   },

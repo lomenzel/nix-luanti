@@ -167,9 +167,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,25 +416,17 @@
   "issue_tracker": "https://github.com/andersje/stained_glass/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "",
-  "maintainers": [
-    "andersje"
-  ],
+  "maintainers": ["andersje"],
   "media_license": "CC-BY-SA-3.0",
   "name": "stained_glass",
-  "provides": [
-    "stained_glass"
-  ],
+  "provides": ["stained_glass"],
   "release": 14458,
   "repo": "https://github.com/andersje/stained_glass",
   "score": 8.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/Gax8pTVi4d.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/Gax8pTVi4d.png"],
   "short_description": "Adds various stained glass blocks, originally by doyousketch2",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/Gax8pTVi4d.png",
   "title": "Stained Glass",
   "translation_url": null,
@@ -521,18 +511,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

@@ -89,9 +89,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -223,14 +221,10 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-4.0",
   "long_description": "I don't speak English\nI upload a new version of Assets Warehouse to Minetest Content DB\n\nChangelog\nv0.7\nRemade the code and the textures of the clothes to use the aw_personaje_anthro model,because of this now some clothes are deactivated.\nRemove the high resolution textures for the grass for reduce the size.\nV0.6\nFixet some errors\nV0.5\nCare Bears:heart_hole_block,chair,couch,clock,chest\nNormal:wood_fence and corner,googles,black and red top hat,soviet ushanka and flag\nPeppert and Carrot:Shichimi kimono,ah hair deco and black,coriander_hat,wasabi_hair_deco,\nElpidio Valdez:Zetacio_sword,Elpidio_Valdez_Bandera_del_Ejercito_Espanol\nV0.4\nNow theres a new model(bunny) and skin for select.\nPeppert and Carrot:zafron_house_furniture,shichimi_little_cauldron,glamour_cloth,mspigeonhat,genieofsucesshat,glamour_hat,peppert_jacket\nnormal:reinforced_iron_shovel and pick,destapador,red_jacket,royal_robe,heavy_hammer,training_sword,\nsurvivethedays:plantdecoration 5\nV0.3\nFernanda:Itty flower,tocho and petardo hat,fernanda_house furniture 3,chair2,table,tocho chair furniture couch chair,mutant flower\nAdded a diferent texture for the grass,experiment,bomb,lin pao hat,francisco cloth\nV0.2\nElpidio_Valdez:mambi_hat1,2,mambi_shirt1,2,3,soldier_hat1,2,soldier_shirt,rezoplez_cloth,zetacio_cloth\nV0.1\nCare_bears:tree,tree2,flowers3,flowers4,cloud2,cloud3\nPeppert_and_Carrot:dark_knight_sword,pumpkinstar,\nNormal:pants,..light_blue,shirt,shampo_cloth,bandana\nWesnoth:magic_wand",
-  "maintainers": [
-    "JALdMIC"
-  ],
+  "maintainers": ["JALdMIC"],
   "media_license": "CC-BY-SA-4.0",
   "name": "assets_warehousepart2",
-  "provides": [
-    "assets_warehousepart2"
-  ],
+  "provides": ["assets_warehousepart2"],
   "release": 28002,
   "repo": null,
   "score": 3.4,
@@ -240,9 +234,7 @@
   ],
   "short_description": "Part 2 of Assets_Warehouse",
   "state": "APPROVED",
-  "tags": [
-    "decorative"
-  ],
+  "tags": ["decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7c006d8b7a.png",
   "title": "Assets_Warehousepart2",
   "translation_url": null,
@@ -624,9 +616,7 @@
       {
         "is_optional": false,
         "name": "assets_warehouse",
-        "packages": [
-          "JALdMIC/assets_warehouse"
-        ]
+        "packages": ["JALdMIC/assets_warehouse"]
       }
     ],
     "TenPlus1/mobs": [],

@@ -25,26 +25,17 @@
   "issue_tracker": "https://github.com/sfence/skinsdb/issues/new/choose/",
   "license": "GPL-3.0-only",
   "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nPort of [skinsdb](https://content.minetest.net/packages/bell07/skinsdb/), modified for compatibility with [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\nIn github code follow branch [sfence_hades_revisited](https://github.com/sfence/skinsdb/tree/sfence_hades_revisited).\n\nSee origin skinsdb mod for more details.",
-  "maintainers": [
-    "SFENCE"
-  ],
+  "maintainers": ["SFENCE"],
   "media_license": "GPL-3.0-only",
   "name": "hades_skinsdb",
-  "provides": [
-    "hades_skinsdb"
-  ],
+  "provides": ["hades_skinsdb"],
   "release": 7732,
   "repo": "https://github.com/sfence/skinsdb.git",
   "score": 16.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/0934f58ca9.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/0934f58ca9.png"],
   "short_description": "Custom player skins manager with support for 1.0 and 1.8er skins and inventory skins selector for Hades Revisited",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "skins"
-  ],
+  "tags": ["multiplayer", "skins"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/0934f58ca9.png",
   "title": "SkinsDB for Hades Revisited",
   "translation_url": null,
@@ -58,9 +49,7 @@
       {
         "is_optional": false,
         "name": "hades_player",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ]
   },

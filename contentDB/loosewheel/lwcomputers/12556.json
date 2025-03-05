@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://github.com/loosewheel/lwcomputers/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "LWComputers provides programmable computers and robots, floppy disks, printers, graphical screens, touch response monitors, a digilines controlled mesecons power switch, solid conductor blocks, vertical moving floor and a trash item.\n\n*Minetest compiled with LuaJIT is required.*\n\n**Features**\n\n* GUI has keyboard and responds to mouse clicks.\n* Each computer and robot can be persistent (remain loaded).\n* Robots can move, detect, dig, place, craft and work with inventories.\n* Hard drive and floppies use folder under world folder for storage (can be edited externally).\n* Running computers restart (clean boot) when world is re-entered.\n* Clipboard item to facilitate copy/paste.\n* Support for mesecon and digilines.\n* Computer's programming language is lua.\n* Each computer runs in its own environment (sand-boxed).\n* Computers retain hard drive data when being moved.\n* No inherent os, looks for file \"boot\" at startup.\n* Los disk item boots to command prompt.\n* Lua disk item boots to lua prompt.\n* Character terminal display, supporting 16 colors.\n* Display resolution can be changed (mod setting - affects all).\n* Printers, pages and books.\n* Digiswitch, digilines controlled mesecons power. - [Depreciated](https://content.minetest.net/packages/loosewheel/lwcomponents/)\n* Movefloor, similar to vertical mesecons movestone. - [Depreciated](https://content.minetest.net/packages/loosewheel/lwcomponents/)\n* Solid color conductor blocks, same as Solid Color Block but also mesecons and digilines conductor. - [Depreciated](https://content.minetest.net/packages/loosewheel/lwcomponents/)\n* Graphical screens in 16 and 32 resolutions (based on cheapie's digiscreen).\n* Monitors supporting 7 display resolutions, 16 colors and touch (right click) digilines message.\n\n*DigiSwitch, MoveFloor, Solid Color Conductors, lwcomputers:touchscreen and lwcomputers:panel have been depreciated. They have been moved to [lwcomponents](https://content.minetest.net/packages/loosewheel/lwcomponents/). If lwcomponents is loaded any nodes from this mod in the world will still work, but cannot be crafted nor are available in the creative inventory. If not loaded everything remains the same.*\n\nIf a disked item is removed from the world (permanently) the disk's contents will likely remain in the world save folder. The world save folder for an item with a disk will be removed if:\n\n* The trash item from this mod is used to dispose of it.\n* Calling robot.trash ()\n* The item is blown up.\n\nSee readme.txt for full details. See docs/api_ref.txt or docs/api_ref.html for programming reference. See docs/los_ref.txt for LOS reference. See docs/mod_api.txt for mod api.",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "CC-BY-SA-4.0",
   "name": "lwcomputers",
-  "provides": [
-    "lwcomputers"
-  ],
+  "provides": ["lwcomputers"],
   "release": 12556,
   "repo": "https://github.com/loosewheel/lwcomputers",
   "score": 181.8,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Adds programmable computers and robots, and sundry.",
   "state": "APPROVED",
-  "tags": [
-    "education",
-    "technology"
-  ],
+  "tags": ["education", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/8e22818f50.png",
   "title": "LWComputers",
   "translation_url": null,

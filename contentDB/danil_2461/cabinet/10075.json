@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/danil275487/minetest-filecabinet/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "## File Cabinet mod for Minetest🗄️\nA mod for Minetest that adds file cabinet (from Windows 3.1 and 95), iron file cabinet (from Windows Chicago), small variants of file cabinets and a folder.\n\nRequres `default` mod from minetest_game and any other game that is based on minetest_game. \n(as long as it has `group:wood`, `default:chest`, `default:steel_ingot` and `default:paper` it should work.)\n\n**Made with love and care towards file cabinestism by Danil.** ❤️ 🗄️",
-  "maintainers": [
-    "danil_2461"
-  ],
+  "maintainers": ["danil_2461"],
   "media_license": "LGPL-2.1-or-later",
   "name": "cabinet",
-  "provides": [
-    "cabinet"
-  ],
+  "provides": ["cabinet"],
   "release": 10075,
   "repo": "https://github.com/danil275487/minetest-filecabinet",
   "score": 154.3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/a48b0c38eb.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/a48b0c38eb.png"],
   "short_description": "Adds the file cabinets from Windows.",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative",
-    "storage"
-  ],
+  "tags": ["building", "decorative", "storage"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/a48b0c38eb.png",
   "title": "File Cabinets",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,27 +429,17 @@
   "issue_tracker": "https://github.com/minetest-mods/towercrane/issues/",
   "license": "GPL-2.0-only",
   "long_description": "To simplify the construction of buildings, the crane forms a working area, in which the player gets fly privs.",
-  "maintainers": [
-    "joe7575"
-  ],
+  "maintainers": ["joe7575"],
   "media_license": "GPL-2.0-only",
   "name": "towercrane",
-  "provides": [
-    "towercrane"
-  ],
+  "provides": ["towercrane"],
   "release": 24846,
   "repo": "https://github.com/minetest-mods/towercrane",
   "score": 638.8,
-  "screenshots": [
-    "https://content.luanti.org/uploads/adf7ddac25.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/adf7ddac25.png"],
   "short_description": "A scaffold alternative for your building site ",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "technology"
-  ],
+  "tags": ["building", "building_mechanics", "technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/adf7ddac25.png",
   "title": "Tower Crane",
   "translation_url": null,

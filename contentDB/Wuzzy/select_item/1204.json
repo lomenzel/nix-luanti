@@ -11,25 +11,17 @@
   "issue_tracker": "https://codeberg.org/Wuzzy/minetest_select_item/issues",
   "license": "MIT",
   "long_description": "This mod is useless on its own, but it is supposed to be used by other mods.\nThis mod provides a dialog to select an item from many item buttons. This dialog can be opened by mods.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "MIT",
   "name": "select_item",
-  "provides": [
-    "select_item"
-  ],
+  "provides": ["select_item"],
   "release": 1204,
   "repo": "https://codeberg.org/Wuzzy/minetest_select_item",
   "score": 3.5,
-  "screenshots": [
-    "https://content.luanti.org/uploads/EZulhsltiH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/EZulhsltiH.png"],
   "short_description": "Allows other mods to add a simple form to choose a single item.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/EZulhsltiH.png",
   "title": "Select Item",
   "translation_url": null,

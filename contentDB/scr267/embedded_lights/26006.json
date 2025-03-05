@@ -297,9 +297,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://gitlab.com/aurelium/aurelium-mods/embedded_lights/-/issues",
   "license": "GPL-3.0-or-later",
   "long_description": "This Minetest mod introduces a variety of colored pot lights (red, blue, yellow) embedded into existing nodes, such as grass, dirt, sandstone, and baked clay. These pot lights are perfect for enhancing your builds with decorative garden lights, underwater lighting for pools, and more.",
-  "maintainers": [
-    "scr267"
-  ],
+  "maintainers": ["scr267"],
   "media_license": "GPL-3.0-or-later",
   "name": "embedded_lights",
-  "provides": [
-    "embedded_lights"
-  ],
+  "provides": ["embedded_lights"],
   "release": 26006,
   "repo": "https://gitlab.com/aurelium/aurelium-mods/embedded_lights",
   "score": 5.8,
@@ -448,10 +442,7 @@
   ],
   "short_description": "Decorative block embedded LED or Potlights",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "decorative"
-  ],
+  "tags": ["building", "decorative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fa48e464e1.png",
   "title": "Embedded Lights",
   "translation_url": null,

@@ -11,27 +11,17 @@
   "issue_tracker": "https://github.com/BuckarooBanzay/replacements/issues",
   "license": "MIT",
   "long_description": "\nReplacement/placeholder blocks intended for schematics\n\n## Features\n\n* Can be placed in schematics for later replacement with the proper nodes\n* moreblocks integration\n",
-  "maintainers": [
-    "BuckarooBanzay"
-  ],
+  "maintainers": ["BuckarooBanzay"],
   "media_license": "CC-BY-SA-3.0",
   "name": "replacements",
-  "provides": [
-    "replacements"
-  ],
+  "provides": ["replacements"],
   "release": 15837,
   "repo": "https://github.com/BuckarooBanzay/replacements",
   "score": 1.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/079c534f97.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/079c534f97.png"],
   "short_description": "Replacement/placeholder blocks intended for schematics",
   "state": "APPROVED",
-  "tags": [
-    "building",
-    "building_mechanics",
-    "creative"
-  ],
+  "tags": ["building", "building_mechanics", "creative"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/079c534f97.png",
   "title": "Replacements",
   "translation_url": null,
@@ -62,18 +52,12 @@
       {
         "is_optional": false,
         "name": "fmod",
-        "packages": [
-          "rheo/fmod",
-          "zanderdev/skyblock_zero"
-        ]
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
       },
       {
         "is_optional": false,
         "name": "futil",
-        "packages": [
-          "zanderdev/skyblock_zero",
-          "rheo/futil"
-        ]
+        "packages": ["zanderdev/skyblock_zero", "rheo/futil"]
       },
       {
         "is_optional": false,

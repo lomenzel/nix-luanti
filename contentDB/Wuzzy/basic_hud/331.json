@@ -11,27 +11,17 @@
   "issue_tracker": null,
   "license": "CC-BY-SA-3.0",
   "long_description": "NOTE: This mod is abandoned and deprecated because Luanti now comes with default images.\n\nThis mod adds some HUD images. It's intended to be used by game makers. Note that most games already include such images, so almost all players don't need to install this mod.",
-  "maintainers": [
-    "Wuzzy"
-  ],
+  "maintainers": ["Wuzzy"],
   "media_license": "CC-BY-SA-3.0",
   "name": "basic_hud",
-  "provides": [
-    "basic_hud"
-  ],
+  "provides": ["basic_hud"],
   "release": 331,
   "repo": "http://repo.or.cz/minetest_basic_hud.git",
   "score": 0,
-  "screenshots": [
-    "https://content.luanti.org/uploads/F3cU6x62Re.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/F3cU6x62Re.png"],
   "short_description": "Adds basic but neccessary HUD images: Heart icon, bubble icon, … (for game authors)",
   "state": "APPROVED",
-  "tags": [
-    "developer_tools",
-    "hud",
-    "library"
-  ],
+  "tags": ["developer_tools", "hud", "library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/F3cU6x62Re.png",
   "title": "Basic HUD textures",
   "translation_url": null,

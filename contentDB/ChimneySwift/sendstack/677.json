@@ -11,24 +11,17 @@
   "issue_tracker": "https://github.com/ChimneySwift/sendstack/issues/new/choose/",
   "license": "MIT",
   "long_description": "# Send Stack\nAdds a command to Minetest which enables you to send the stack you are currently holding to another player's inventory.\n\n## Usage\n`/sendstack <playername>`\n\nTakes the item you are holding and sends it to `playername`, setting the stack you are holding to what couldn't be added to the player's inventory (none if all was added, partial stack if partially added and a full stack if none was added)\n\n## Privs\nBy default the command will require the `interact` priv. On lines 1 to 4 you can enable or disable and set an additional privilage (such as ban) to also be required. ",
-  "maintainers": [
-    "ChimneySwift"
-  ],
+  "maintainers": ["ChimneySwift"],
   "media_license": "MIT",
   "name": "sendstack",
-  "provides": [
-    "sendstack"
-  ],
+  "provides": ["sendstack"],
   "release": 677,
   "repo": "https://github.com/ChimneySwift/sendstack",
   "score": 1.9,
   "screenshots": [],
   "short_description": "Adds a command to send the stack you are holding to another player (requires ban priv)",
   "state": "APPROVED",
-  "tags": [
-    "multiplayer",
-    "world_tools"
-  ],
+  "tags": ["multiplayer", "world_tools"],
   "thumbnail": null,
   "title": "Send Stack",
   "translation_url": null,

@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": "https://notabug.org/X5DragonFire/minetest_Trails/issues",
   "license": "MIT",
   "long_description": "allows you to make paths with a ground roller made using cobblestone and a stick\n",
-  "maintainers": [
-    "x5dragonfire"
-  ],
+  "maintainers": ["x5dragonfire"],
   "media_license": "MIT",
   "name": "trails",
-  "provides": [
-    "trails"
-  ],
+  "provides": ["trails"],
   "release": 17034,
   "repo": "https://notabug.org/X5DragonFire/minetest_Trails",
   "score": 156.9,
@@ -449,10 +443,7 @@
   ],
   "short_description": "Allows you to make paths in grass with ground roller",
   "state": "APPROVED",
-  "tags": [
-    "building_mechanics",
-    "transport"
-  ],
+  "tags": ["building_mechanics", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/fbcb55011f.png",
   "title": "Trails",
   "translation_url": null,

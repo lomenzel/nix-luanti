@@ -25,25 +25,17 @@
   "issue_tracker": null,
   "license": "LGPL-2.1-only",
   "long_description": "Smoothen the edges by adding natural slopes at generation time and when the landscape changes for Hades Revisited. Most of the default ground nodes can have their \"stair\" shape which is set automatically when they are put on edges.\n\nThose slopes are not craftable, they just happen by themselves at generation time and when the landscape changes. You can also use your digging tools to soften the edges with their secondary use. This will wear the tool a little on success, and works better with higher-grade tools.\n\nThis mod is an usage of naturalslopeslib for Hades Revisited. Please check the library page for the forum topic and details about its settings and optional dependencies.",
-  "maintainers": [
-    "karamel"
-  ],
+  "maintainers": ["karamel"],
   "media_license": "LGPL-2.1-only",
   "name": "naturalslopes_hades_revisited",
-  "provides": [
-    "naturalslopes_hades_revisited"
-  ],
+  "provides": ["naturalslopes_hades_revisited"],
   "release": 8822,
   "repo": null,
   "score": 2.9,
-  "screenshots": [
-    "https://content.luanti.org/uploads/IHtcltCOsH.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/IHtcltCOsH.png"],
   "short_description": "Add natural slopes for Hades Revisited",
   "state": "APPROVED",
-  "tags": [
-    "mapgen"
-  ],
+  "tags": ["mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/IHtcltCOsH.png",
   "title": "Natural slopes for Hades Revisited",
   "translation_url": null,
@@ -66,16 +58,12 @@
       {
         "is_optional": false,
         "name": "hades_trees",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       },
       {
         "is_optional": false,
         "name": "hades_core",
-        "packages": [
-          "Wuzzy/hades_revisited"
-        ]
+        "packages": ["Wuzzy/hades_revisited"]
       }
     ],
     "karamel/naturalslopeslib": []

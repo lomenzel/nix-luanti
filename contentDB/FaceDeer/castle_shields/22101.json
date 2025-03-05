@@ -154,9 +154,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -379,25 +377,17 @@
   "issue_tracker": "https://github.com/minetest-mods/castle_shields/issues/",
   "license": "MIT",
   "long_description": "This mod adds decorative wall-mounted shields. It comes with three default shields, but it's very easy to mix and match the colours and patterns to generate additional shields for your server; see default_shields.lua for a good place to insert your own, or make use of the castle_shields.register_shield method in your own mods.\n\nThe three default shields were defined thusly:\n\n    castle_shields.register_shield(\"shield_1\", \"Mounted Shield\", \"red\", \"blue\", \"slash\")\n    castle_shields.register_shield(\"shield_2\", \"Mounted Shield\", \"cyan\", \"yellow\", \"chevron\")\n    castle_shields.register_shield(\"shield_3\", \"Mounted Shield\", \"grey\", \"green\", \"cross\")\n\nThe following colors are permitted:\n\n\"black\", \"blue\", \"brown\", \"cyan\", \"dark_green\", \"dark_grey\", \"green\", \"grey\", \"magenta\", \"orange\", \"pink\", \"red\", \"violet\", \"white\", \"yellow\"\n\nThe following patterns are permitted:\n\n\"slash\", \"chevron\", \"cross\"",
-  "maintainers": [
-    "FaceDeer"
-  ],
+  "maintainers": ["FaceDeer"],
   "media_license": "MIT",
   "name": "castle_shields",
-  "provides": [
-    "castle_shields"
-  ],
+  "provides": ["castle_shields"],
   "release": 22101,
   "repo": "https://github.com/minetest-mods/castle_shields",
   "score": 172,
-  "screenshots": [
-    "https://content.luanti.org/uploads/U1Y3j8Uoac.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/U1Y3j8Uoac.png"],
   "short_description": "Adds decorative wall shields",
   "state": "APPROVED",
-  "tags": [
-    "building"
-  ],
+  "tags": ["building"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/U1Y3j8Uoac.png",
   "title": "Castle Shields",
   "translation_url": null,

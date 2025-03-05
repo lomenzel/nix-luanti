@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,23 +429,17 @@
   "issue_tracker": "https://github.com/eidy/walkover/issues",
   "license": "Apache-2.0",
   "long_description": "Some mod developers have shown an interest in having an on_walk_over event. This is useful for pressure-plates and the like.\n\nSee this issue - https://github.com/minetest/minetest/issues/247\n\nI have implemented a server_side version in lua using globalstep which people might find useful. Of course this would better implemented via a client-based \"on walk over\", but it is sufficient for my needs now.\n\n## Example Usage\n\n```lua\nminetest.register_node(\"somemod:someblock\", {\n    description = key,\n    tiles = {\"somemod_someblock.png\"},\n    groups = {cracky=1},\n    on_walk_over = function(pos, node, player)\n        minetest.chat_send_player(player, \"Hey! Watch it!\")\n    end,\n})\n```\n\n ",
-  "maintainers": [
-    "lordfingle"
-  ],
+  "maintainers": ["lordfingle"],
   "media_license": "Apache-2.0",
   "name": "walkover",
-  "provides": [
-    "walkover"
-  ],
+  "provides": ["walkover"],
   "release": 14642,
   "repo": "https://github.com/eidy/walkover",
   "score": -140.2,
   "screenshots": [],
   "short_description": "A library to make it easier for developers to detect on_walk_over",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": null,
   "title": "Walkover",
   "translation_url": null,

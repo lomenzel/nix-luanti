@@ -180,9 +180,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -418,14 +416,10 @@
   "issue_tracker": "https://github.com/mt-mods/mod_technic_diamond/issues",
   "license": "MIT",
   "long_description": "A mod to use technic to grind diamonds. Players can grind diamonds into dust and compress the dust back into diamonds. This mod also allows players to compress 10 coal dust into a diamond.\n\n**Warning:** This mod may cause inflation on economy servers, as the mod makes it so technic duplicates diamonds.\n\n**License:** This mod has a MIT license.\n\n**Media:** The image of the diamond dust isn't perfect. As soon as I create a better one, I will upload the image in the next persion.\n\n**Crafting:** 1 Diamond grinds into 2 diamond dust. 1 Diamond dust compresses into 1 diamond. 10 coal dust compresses into 1 diamond.\n\n**Other:** I will add a way to compress coal dust into coal in another version.",
-  "maintainers": [
-    "mt-mods"
-  ],
+  "maintainers": ["mt-mods"],
   "media_license": "MIT",
   "name": "technic_diamond",
-  "provides": [
-    "technic_diamond"
-  ],
+  "provides": ["technic_diamond"],
   "release": 12521,
   "repo": "https://github.com/mt-mods/mod_technic_diamond",
   "score": 5.4,
@@ -436,9 +430,7 @@
   ],
   "short_description": "Use technic to grind and compress diamonds.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/pCMnfNaoLN.png",
   "title": "Technic Diamonds",
   "translation_url": null,

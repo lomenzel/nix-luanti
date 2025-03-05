@@ -11,25 +11,17 @@
   "issue_tracker": null,
   "license": "MPL-2.0",
   "long_description": "# Cid Music Pack\nNote: The ContentDB license is set to one that all of the media is compatible with. Check LICENSE.txt for the exact licenses things are used under.\n\nThis is a work in progress music pack for cid, primarily containing MIDI files under various CC licenses.\n\n# Adding music\nIf you have a suggestion for music to add, feel free to send me a link to a MIDI file. Keep in mind that these must follow be compatible with CC-BY-SA-4.0.\n\nYou can also add them yourself and submit a pull request to the source repository with the media file and appropriate changes to LICENSE.txt.\n\nMusic can also be added to cid by creating your own mods.\n",
-  "maintainers": [
-    "ekl"
-  ],
+  "maintainers": ["ekl"],
   "media_license": "CC-BY-SA-4.0",
   "name": "cid_music_pack",
-  "provides": [
-    "cid_music_pack"
-  ],
+  "provides": ["cid_music_pack"],
   "release": 17122,
   "repo": "https://codeberg.org/ekl/cid_music_pack.git",
   "score": 3,
-  "screenshots": [
-    "https://content.luanti.org/uploads/5d6be9c670.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/5d6be9c670.png"],
   "short_description": "A bunch of music for Cid Music Player",
   "state": "APPROVED",
-  "tags": [
-    "sound_music"
-  ],
+  "tags": ["sound_music"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/5d6be9c670.png",
   "title": "Cid Music Pack",
   "translation_url": null,
@@ -44,9 +36,7 @@
       {
         "is_optional": false,
         "name": "cid",
-        "packages": [
-          "ekl/cid"
-        ]
+        "packages": ["ekl/cid"]
       }
     ]
   },

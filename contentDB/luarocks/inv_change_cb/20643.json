@@ -11,25 +11,17 @@
   "issue_tracker": "https://notabug.org/rr/inv_change_cb/issues",
   "license": "MIT",
   "long_description": "# Inventory Change Callback\n\nProvide a universal global callback for handling player inventory changes.\n\n## Information for GAME developers\n\nThe mod can handle all types of natural events (`\"move\"`, `\"put\"`, `\"take\"`,\n`\"dig\"`, `\"place\"`, `\"pickup\"`, `\"eat\"`), except the changes made manually in\ncode. So please don't forget to call\n`rr.handle_player_inventory_changes(player)` after using inventory\nchanging functions:\n\n```lua\nlocal name = player:get_player_name()\nlocal inv = player:get_inventory()\nlocal list = inv:get_list(\"main\")\n\n-- Your changes example:\nlist[1] = ItemStack(\"\")\ninv:set_list(\"main\", list)\n```\n\nNow trigger handlers manually:\n\n```lua\n-- \"custom\" is optional action name\nrr.handle_player_inventory_changes(player, \"custom\")\n```\n\n**OR** just update cache (if you don't want to trigger them for some reason):\n\n```lua\nrr.player_inventory_main_lists[name] = list\n```\n\n## Information for MOD developers\n\nIt is actually not necessary to add a handler to every custom event in the game.\nAlternatively, you can just use this workaround, which will check the inventory\nof all players in the game every second:\n\n```lua\nminetest.register_on_mods_loaded(rr.auto_detect_inventory_changes)\n```\n\n## Usage\n\nSee [test.lua](https://github.com/rr/inv-change-cb/blob/main/test.lua).\n\n## Debug mode\n\nUncomment lines at the bottom of [init.lua](https://github.com/rr/inv-change-cb/blob/main/init.lua).\n\n---\n\nThis mod was created in [Rustroot Forge].\n\nAll my mods uses [Luanti LSP-API] annotations, [StyLua] and [Luacheck].\n\n[Rustroot Forge]: https://notabug.org/rr\n[Luanti LSP-API]: https://notabug.org/rr/luanti_lsp_api\n[StyLua]: https://github.com/JohnnyMorganz/StyLua\n[Luacheck]: https://github.com/mpeterv/luacheck",
-  "maintainers": [
-    "luarocks"
-  ],
+  "maintainers": ["luarocks"],
   "media_license": "MIT",
   "name": "inv_change_cb",
-  "provides": [
-    "inv_change_cb"
-  ],
+  "provides": ["inv_change_cb"],
   "release": 20643,
   "repo": "https://notabug.org/rr/inv_change_cb",
   "score": 8.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/90cd8e759c.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/90cd8e759c.png"],
   "short_description": "Provide a global callback for handling player inventory changes.",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/90cd8e759c.png",
   "title": "Inventory Change Callback",
   "translation_url": null,

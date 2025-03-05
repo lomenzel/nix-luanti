@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,14 +429,10 @@
   "issue_tracker": null,
   "license": "MIT",
   "long_description": "An example use of luamap.\n\nCreates an island with a gaussian bump, and has rivers flowing downhill made with noise-modulated-sinusoidal-wave-paths\n\nCreates the downward flow mapgen effect without using an erosion simulation. ",
-  "maintainers": [
-    "MisterE"
-  ],
+  "maintainers": ["MisterE"],
   "media_license": "MIT",
   "name": "the_confluence",
-  "provides": [
-    "the_confluence"
-  ],
+  "provides": ["the_confluence"],
   "release": 21579,
   "repo": "https://github.com/MisterE123/the_confluence",
   "score": 154.1,
@@ -448,9 +442,7 @@
   ],
   "short_description": "A luamap example - a small (500x100x500) Island in the middle of the ocean with 4 rivers that run from the center to the sea.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/cd9ddcd021.png",
   "title": "The Confluence",
   "translation_url": null,
@@ -466,9 +458,7 @@
       {
         "is_optional": false,
         "name": "luamap",
-        "packages": [
-          "MisterE/luamap"
-        ]
+        "packages": ["MisterE/luamap"]
       },
       {
         "is_optional": false,
@@ -515,9 +505,7 @@
       {
         "is_optional": false,
         "name": "biomegen",
-        "packages": [
-          "Gael de Sailly/biomegen"
-        ]
+        "packages": ["Gael de Sailly/biomegen"]
       }
     ]
   },

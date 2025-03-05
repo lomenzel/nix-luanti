@@ -11,14 +11,10 @@
   "issue_tracker": "https://github.com/rollerozxa/lvm_example/issues",
   "license": "MIT",
   "long_description": "This mod, [originally written by paramat](https://github.com/paramat/lvm_example/), serves as a basic example on how to write a performant Lua mapgen containing Perlin noise.\n\nIt optionally depends on [`biomegen`](https://content.minetest.net/packages/Gael%20de%20Sailly/biomegen/) which, if present, will decorate the mapgen with biomes and decorations.\n",
-  "maintainers": [
-    "ROllerozxa"
-  ],
+  "maintainers": ["ROllerozxa"],
   "media_license": "MIT",
   "name": "lvm_example",
-  "provides": [
-    "lvm_example"
-  ],
+  "provides": ["lvm_example"],
   "release": 28350,
   "repo": "https://github.com/rollerozxa/lvm_example",
   "score": 6.8,
@@ -28,9 +24,7 @@
   ],
   "short_description": "A basic example for writing custom Lua mapgen using Perlin noise.",
   "state": "APPROVED",
-  "tags": [
-    "custom_mapgen"
-  ],
+  "tags": ["custom_mapgen"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/7f85de2ea5.png",
   "title": "Example Lua mapgen",
   "translation_url": null,

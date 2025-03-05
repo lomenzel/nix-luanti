@@ -38,16 +38,10 @@
   "issue_tracker": "https://discord.gg/NNYeF6f",
   "license": "MIT",
   "long_description": "This modpack adds a new cat-themed alternate dimension to NodeCore, along with some optional features.\n\nRecipes are hinted at by custom Discoveries in the mods.\n\n#### Core Mod:\n\nAdds a new cat-themed alternate dimension that can be accessed from the normal vanilla world.  Surround an annealed lode cube with cats to create the portal.  Transport into the catrealm costs a cat prill each time.\n\nRequires the NodeCore Cats mod.\n\n#### Ores Mod:\n\nPopulate the catrealm with some exclusive ores.  Learn how to harvest, smelt, and craft with the new ores.  Create new and powerful tools.  Learn how to renew the ores and sustain a supply.\n\nOptional, requires the CatRealm Core mod.\n\n#### Sky Realm Access Mod:\n\nCreate a skyrealm portal within the catrealm, and access all vanilla resources in the catrealm.\n\nOptional, requires the CatRealm Ores and SkyRealm mods.\n\n---\n\n*Designed by Warr1024 and Mearson*\n",
-  "maintainers": [
-    "Warr1024"
-  ],
+  "maintainers": ["Warr1024"],
   "media_license": "MIT",
   "name": "catrealm",
-  "provides": [
-    "catrealm_core",
-    "catrealm_ores",
-    "catrealm_skyrealm"
-  ],
+  "provides": ["catrealm_core", "catrealm_ores", "catrealm_skyrealm"],
   "release": 27344,
   "repo": "https://gitlab.com/sztest/catrealm",
   "score": 4,
@@ -58,12 +52,7 @@
   ],
   "short_description": "Adds a cat-themed dimension with unique ores and over-powered tools",
   "state": "APPROVED",
-  "tags": [
-    "april_fools",
-    "mapgen",
-    "survival",
-    "transport"
-  ],
+  "tags": ["april_fools", "mapgen", "survival", "transport"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/6fec6f5a4d.png",
   "title": "NodeCore CatRealm",
   "translation_url": null,
@@ -77,148 +66,96 @@
       {
         "is_optional": false,
         "name": "nc_woodwork",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_cats",
-        "packages": [
-          "Warr1024/nc_cats"
-        ]
+        "packages": ["Warr1024/nc_cats"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_skyrealm",
-        "packages": [
-          "Warr1024/nc_skyrealm"
-        ]
+        "packages": ["Warr1024/nc_skyrealm"]
       }
     ],
     "Warr1024/nc_cats": [
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ],
     "Warr1024/nc_skyrealm": [
       {
         "is_optional": false,
         "name": "nc_fire",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_api_all",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_terrain",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_sponge",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_tree",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lode",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_lux",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       },
       {
         "is_optional": false,
         "name": "nc_concrete",
-        "packages": [
-          "Warr1024/nodecore",
-          "Warr1024/nodecore_alpha"
-        ]
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
       }
     ]
   },

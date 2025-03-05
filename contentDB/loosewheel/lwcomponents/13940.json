@@ -284,9 +284,7 @@
     {
       "confidence": 1,
       "game": {
-        "aliases": [
-          "VanessaE/dreambuilder_game"
-        ],
+        "aliases": ["VanessaE/dreambuilder_game"],
         "author": "mt-mods",
         "name": "dreambuilder_game",
         "release": 29790,
@@ -431,25 +429,17 @@
   "issue_tracker": "https://github.com/loosewheel/lwcomponents/issues/new/choose/",
   "license": "LGPL-2.1-or-later",
   "long_description": "Various components for mesecons and digilines.\n\n**Features**\n\n* Dropper, drops an item on command.\n* Dispenser, dispenses (with velocity) an item on command.\n* Collector, picks up dropped items in adjacent block, with optional filtering.\n* Detector, detects items or entities within a given radius.\n* Siren, plays a sound repeatedly while active.\n* Puncher, punches players or entities within a given reach.\n* Player button, sends digilines message with player name.\n* Breaker, digs the nodes directly in front.\n* Deployer, places the nodes directly in front.\n* Destroyer, automated trash.\n* Hologram, projects a hologram above the hologram node.\n* Fan, blows any entity, player or drop in front of the fan.\n* Conduit, connected in a circuit to move items.\n* Cannon, shoots an item on command with directional aiming (plus 3 shells).\n* Double (optionally single) reach pistons and sticky pistons.\n* Digilines Switch, digilines controlled mesecons power.\n* Movefloor, similar to vertical mesecons movestone.\n* Camera, takes a representative image.\n* Storage, indexed storage units.\n* Crafter, crafts by recipe or by item, and can pull from storage units.\n* Hoppers, that are more compatible with this mod.\n* Mesecons Through Wire, transmits through 1 to 2 solid blocks.\n* Solid color conductor blocks, same as Solid Color Block but also mesecons and digilines conductor.\n* Touchscreen, full block variant of digistuff:touchscreen.\n* Panel, full block variant of digistuff:panel.\n\n*To spawn entities from dispensers and cannons include the [lwcomponents_spawners](https://content.minetest.net/packages/loosewheel/lwcomponents_spawners/) mod.*",
-  "maintainers": [
-    "loosewheel"
-  ],
+  "maintainers": ["loosewheel"],
   "media_license": "CC-BY-SA-4.0",
   "name": "lwcomponents",
-  "provides": [
-    "lwcomponents"
-  ],
+  "provides": ["lwcomponents"],
   "release": 13940,
   "repo": "https://github.com/loosewheel/lwcomponents",
   "score": 29.4,
-  "screenshots": [
-    "https://content.luanti.org/uploads/21c6260149.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/21c6260149.png"],
   "short_description": "Various components for mesecons and digilines.",
   "state": "APPROVED",
-  "tags": [
-    "technology"
-  ],
+  "tags": ["technology"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/21c6260149.png",
   "title": "LWComponents",
   "translation_url": null,

@@ -11,25 +11,17 @@
   "issue_tracker": "https://gitlab.com/zughy-friends-minetest/achievements_lib/-/issues",
   "license": "GPL-3.0-only",
   "long_description": "**BEWARE: this is not a 1.x.x release, it might be unstable** \n\nIf this didn't stop you, the mod doesn't add much on its own, except for `/achievements`.  \nHave a look at the [DOCS](https://gitlab.com/zughy-friends-minetest/achievements_lib/-/blob/master/DOCS.md) to understand how to (easily) manage your achievements",
-  "maintainers": [
-    "Zughy"
-  ],
+  "maintainers": ["Zughy"],
   "media_license": "GPL-3.0-only",
   "name": "achievements_lib",
-  "provides": [
-    "achievements_lib"
-  ],
+  "provides": ["achievements_lib"],
   "release": 27473,
   "repo": "https://gitlab.com/zughy-friends-minetest/achievements_lib",
   "score": 17.1,
-  "screenshots": [
-    "https://content.luanti.org/uploads/1714cbb5ea.png"
-  ],
+  "screenshots": ["https://content.luanti.org/uploads/1714cbb5ea.png"],
   "short_description": "Add unlockable achievements to your game and mods",
   "state": "APPROVED",
-  "tags": [
-    "library"
-  ],
+  "tags": ["library"],
   "thumbnail": "https://content.luanti.org/thumbnails/1/1714cbb5ea.png",
   "title": "achievements_lib",
   "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/achievements_lib/",
@@ -43,10 +35,7 @@
       {
         "is_optional": false,
         "name": "panel_lib",
-        "packages": [
-          "Zughy/panel_lib",
-          "KareaGhandTrail/block_assault"
-        ]
+        "packages": ["Zughy/panel_lib", "KareaGhandTrail/block_assault"]
       },
       {
         "is_optional": false,
