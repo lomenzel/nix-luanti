@@ -75,8 +75,8 @@
           }
         )
         |> listToAttrs;
-      nixosModules.default = import ./src/nixos-module.nix;
-      homeManagerModules.default = import ./src/homemanager-module.nix;
+      nixosModules.default = import ./src/modules/nixos-module.nix;
+      homeManagerModules.default = import ./src/modules/homemanager-module.nix;
       # for `nix fmt`
       formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
       # for `nix flake check`
