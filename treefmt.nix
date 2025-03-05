@@ -1,8 +1,6 @@
 { pkgs, ... }:
 {
-  programs = {
-    #jsonfmt.enable = true;
-    nixfmt.enable = true;
+  programs = { nixfmt.enable = true;
     yamlfmt.enable = true;
     prettier.enable = true;
   };
