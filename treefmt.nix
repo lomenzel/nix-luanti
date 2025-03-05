@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
-  programs = { nixfmt.enable = true;
+  programs = {
+    nixfmt.enable = true;
     yamlfmt.enable = true;
     prettier.enable = true;
   };
