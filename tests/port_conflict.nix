@@ -3,28 +3,32 @@
 pkgs.testers.runNixOSTest {
   name = "config-build-and-port-conflicts";
   nodes = {
-    portOK = { config, pkgs, ... }: {
-      imports = [ nix-luanti.nixosModules.default ];
-      services.luanti = {
-        enable = true;
-        servers = {
-          test.port = 30000;
-          test2.port = 30001;
+    portOK =
+      { config, pkgs, ... }:
+      {
+        imports = [ nix-luanti.nixosModules.default ];
+        services.luanti = {
+          enable = true;
+          servers = {
+            test.port = 30000;
+            test2.port = 30001;
+          };
         };
+        system.stateVersion = "25.05";
       };
-      system.stateVersion = "25.05";
-    };
-    portConflict = { config, pkgs, ... }: {
-      imports = [ nix-luanti.nixosModules.default ];
-      services.luanti = {
-        enable = true;
-        servers = {
-          test.port = 30000;
-          test2.port = 30000;
+    portConflict =
+      { config, pkgs, ... }:
+      {
+        imports = [ nix-luanti.nixosModules.default ];
+        services.luanti = {
+          enable = true;
+          servers = {
+            test.port = 30000;
+            test2.port = 30000;
+          };
         };
+        system.stateVersion = "25.05";
       };
-      system.stateVersion = "25.05";
-    };
   };
   testScript = ''
     # Wait for both services to start up initially.

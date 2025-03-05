@@ -3,44 +3,49 @@
 pkgs.testers.runNixOSTest {
   name = "example-config-mentioned-in-readme";
   nodes = {
-    machine = { config, pkgs, ... }: {
-      imports = [ nix-luanti.nixosModules.default ];
-      services.luanti = {
-       enable = true;
+    machine =
+      { config, pkgs, ... }:
+      {
+        imports = [ nix-luanti.nixosModules.default ];
+        services.luanti = {
+          enable = true;
 
-       # default is null so everyone can join
-       # this whitelist is applied to all servers that dont define its own
-       # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
-       whitelist = [ "singleplayer" ];
-       
-       servers = with nix-luanti.packages."x86_64-linux"; {
-         cool-server = {
-           # VoxeLibre is the default
-           game = games.mineclone2;
+          # default is null so everyone can join
+          # this whitelist is applied to all servers that dont define its own
+          # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
+          whitelist = [ "singleplayer" ];
 
-           # by default no mods are installed
-           mods = with mods; [
-             logistica
-             # ... add as many mods you want :)
-           ];
-           # port has no default so it must be set
-           port = 30000;
-         };
-         other-cool-server = {
-          
-          # overrides the default whitelist
-          whitelist = [ "alice" "bob" ];
-          game = games.minetest_game;
-          mods = with mods; [
-            animalia
-            i3
-          ];
-          port = 30001;
-         };
-       };
-     };
-      system.stateVersion = "25.05";
-    };
+          servers = with nix-luanti.packages."x86_64-linux"; {
+            cool-server = {
+              # VoxeLibre is the default
+              game = games.mineclone2;
+
+              # by default no mods are installed
+              mods = with mods; [
+                logistica
+                # ... add as many mods you want :)
+              ];
+              # port has no default so it must be set
+              port = 30000;
+            };
+            other-cool-server = {
+
+              # overrides the default whitelist
+              whitelist = [
+                "alice"
+                "bob"
+              ];
+              game = games.minetest_game;
+              mods = with mods; [
+                animalia
+                i3
+              ];
+              port = 30001;
+            };
+          };
+        };
+        system.stateVersion = "25.05";
+      };
   };
   testScript = ''
     # Wait for both services to start up initially.

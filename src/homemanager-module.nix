@@ -1,7 +1,8 @@
-{ config
-, lib
-, pkgs
-, ...
+{
+  config,
+  lib,
+  pkgs,
+  ...
 }:
 let
   cfg = config.services.luanti;
@@ -10,11 +11,12 @@ let
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   };
-  packages =
-    (import ./packages.nix {
+  packages = (
+    import ./packages.nix {
       mkDerivation = pkgs.stdenv.mkDerivation;
       inherit (pkgs) lib unzip fetchurl;
-    });
+    }
+  );
 
   inherit (packages) byId;
 
@@ -23,31 +25,29 @@ let
   toConf =
     values:
     lib.concatStrings (
-      lib.mapAttrsToList
-        (
-          name: value:
-          {
-            bool = "${name} = ${toString value}\n";
-            int = "${name} = ${toString value}\n";
-            null = "";
-            set = "${name} = {\n${toConf value}}\n";
-            string =
-              if (builtins.match NEEDS_MULTILINE_RE value) != null then
-                toConfMultiline name value
-              else
-                "${name} = ${value}\n";
-          }.${builtins.typeOf value}
-        )
-        values
+      lib.mapAttrsToList (
+        name: value:
+        {
+          bool = "${name} = ${toString value}\n";
+          int = "${name} = ${toString value}\n";
+          null = "";
+          set = "${name} = {\n${toConf value}}\n";
+          string =
+            if (builtins.match NEEDS_MULTILINE_RE value) != null then
+              toConfMultiline name value
+            else
+              "${name} = ${value}\n";
+        }
+        .${builtins.typeOf value}
+      ) values
     );
 
   toConfMultiline =
     name: value:
-      assert lib.assertMsg
-        (
-          (builtins.match UNESCAPABLE_RE value) == null
-        ) ''""" can't be on its own line in a minetest config.'';
-      "${name} = \"\"\"\n${value}\n\"\"\"\n";
+    assert lib.assertMsg (
+      (builtins.match UNESCAPABLE_RE value) == null
+    ) ''""" can't be on its own line in a minetest config.'';
+    "${name} = \"\"\"\n${value}\n\"\"\"\n";
 
   # Constants copied from nixpkgs module
   CONTAINS_NEWLINE_RE = ".*\n.*";
@@ -123,51 +123,58 @@ in
       description = "Configuration for Luanti Servers";
     };
   };
-  config = lib.mkIf cfg.enable { 
-    systemd.user.services = builtins.mapAttrs (name: serverConfig:
+  config = lib.mkIf cfg.enable {
+    systemd.user.services = builtins.mapAttrs (
+      name: serverConfig:
       let
         whitelist = if serverConfig.whitelist == null then cfg.whitelist else serverConfig.whitelist;
-        mods = nix-luanti-lib.mods-folder serverConfig.game (serverConfig.mods ++ (if whitelist == null then [ ] else [ byId.mods."AntumDeluge/whitelist" ]));            
+        mods = nix-luanti-lib.mods-folder serverConfig.game (
+          serverConfig.mods ++ (if whitelist == null then [ ] else [ byId.mods."AntumDeluge/whitelist" ])
+        );
         whitelistFile = pkgs.writeText "whitelist.txt" (
-          builtins.foldl' (acc: curr: acc + "\n" + curr) "" whitelist
-            |> lib.trim
+          builtins.foldl' (acc: curr: acc + "\n" + curr) "" whitelist |> lib.trim
         );
         worldDir = "${config.xdg.dataHome}/nix-luanti/${name}/world";
         minetestDir = "${config.xdg.configHome}/minetest";
-        gameDirName = "nix-luanti-${builtins.replaceStrings ["." "/" " "] [ "no" "no" "no" ] name}";
+        gameDirName = "nix-luanti-${builtins.replaceStrings [ "." "/" " " ] [ "no" "no" "no" ] name}";
       in
-        {
-          Install.WantedBy = ["default.target"];
-          Unit.After = [ "network.target" ];
-          Unit.Description = "Luanti server instance for ${name}";
-          Service.ExecStart = pkgs.writeShellScript "start-${name}-server" ''
-            rm -rf ${worldDir}/worldmods
-            rm -rf ${worldDir}/whitelist.txt
-            rm -rf ~/.minetest/games/${gameDirName}
+      {
+        Install.WantedBy = [ "default.target" ];
+        Unit.After = [ "network.target" ];
+        Unit.Description = "Luanti server instance for ${name}";
+        Service.ExecStart = pkgs.writeShellScript "start-${name}-server" ''
+          rm -rf ${worldDir}/worldmods
+          rm -rf ${worldDir}/whitelist.txt
+          rm -rf ~/.minetest/games/${gameDirName}
 
-            mkdir -p ~/.minetest/games
-            mkdir -p ${worldDir}
+          mkdir -p ~/.minetest/games
+          mkdir -p ${worldDir}
 
-            ln -s ${mods} ${worldDir}/worldmods
-            ln -s ${serverConfig.game} ~/.minetest/games/${gameDirName}
-            ${ if whitelist == null then "" else ''
-              rm -rf ${worldDir}/whitelist.txt
-              cat ${whitelistFile} > ${worldDir}/whitelist.txt
-            ''}
+          ln -s ${mods} ${worldDir}/worldmods
+          ln -s ${serverConfig.game} ~/.minetest/games/${gameDirName}
+          ${
+            if whitelist == null then
+              ""
+            else
+              ''
+                rm -rf ${worldDir}/whitelist.txt
+                cat ${whitelistFile} > ${worldDir}/whitelist.txt
+              ''
+          }
 
-            ${serverConfig.package}/bin/luantiserver \
-              --config ${builtins.toFile "luanti.conf" (
-                {prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}";} // serverConfig.config
+          ${serverConfig.package}/bin/luantiserver \
+            --config ${
+              builtins.toFile "luanti.conf" (
+                { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
                 |> toConf
-              )} \
-              --port ${builtins.toString serverConfig.port} \
-              --color always \
-              --world ${worldDir} \
-              --gameid ${gameDirName}
-          '';
-        }
-    ) (
-      nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers
-    );
+              )
+            } \
+            --port ${builtins.toString serverConfig.port} \
+            --color always \
+            --world ${worldDir} \
+            --gameid ${gameDirName}
+        '';
+      }
+    ) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
   };
 }

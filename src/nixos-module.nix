@@ -1,7 +1,8 @@
-{ config
-, lib
-, pkgs
-, ...
+{
+  config,
+  lib,
+  pkgs,
+  ...
 }:
 let
   cfg = config.services.luanti;
@@ -10,11 +11,12 @@ let
     lists = lib.lists;
     mkDerivation = pkgs.stdenv.mkDerivation;
   };
-  packages  =
-    (import ./packages.nix {
+  packages = (
+    import ./packages.nix {
       mkDerivation = pkgs.stdenv.mkDerivation;
       inherit (pkgs) lib unzip fetchurl;
-    });
+    }
+  );
 
   inherit (packages) byId;
 
@@ -23,31 +25,29 @@ let
   toConf =
     values:
     lib.concatStrings (
-      lib.mapAttrsToList
-        (
-          name: value:
-          {
-            bool = "${name} = ${toString value}\n";
-            int = "${name} = ${toString value}\n";
-            null = "";
-            set = "${name} = {\n${toConf value}}\n";
-            string =
-              if (builtins.match NEEDS_MULTILINE_RE value) != null then
-                toConfMultiline name value
-              else
-                "${name} = ${value}\n";
-          }.${builtins.typeOf value}
-        )
-        values
+      lib.mapAttrsToList (
+        name: value:
+        {
+          bool = "${name} = ${toString value}\n";
+          int = "${name} = ${toString value}\n";
+          null = "";
+          set = "${name} = {\n${toConf value}}\n";
+          string =
+            if (builtins.match NEEDS_MULTILINE_RE value) != null then
+              toConfMultiline name value
+            else
+              "${name} = ${value}\n";
+        }
+        .${builtins.typeOf value}
+      ) values
     );
 
   toConfMultiline =
     name: value:
-      assert lib.assertMsg
-        (
-          (builtins.match UNESCAPABLE_RE value) == null
-        ) ''""" can't be on its own line in a minetest config.'';
-      "${name} = \"\"\"\n${value}\n\"\"\"\n";
+    assert lib.assertMsg (
+      (builtins.match UNESCAPABLE_RE value) == null
+    ) ''""" can't be on its own line in a minetest config.'';
+    "${name} = \"\"\"\n${value}\n\"\"\"\n";
 
   # Constants copied from nixpkgs module
   CONTAINS_NEWLINE_RE = ".*\n.*";
@@ -125,70 +125,71 @@ in
   };
   config = lib.mkIf cfg.enable {
     users.groups.luanti = { };
-    users.users = builtins.mapAttrs
-      (
-        name: serverConfig:
-          {
-            description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
-            home = "/var/lib/${name}";
-            createHome = true;
-            group = "luanti";
-            isSystemUser = true;
-          }
-      )
-      (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+    users.users = builtins.mapAttrs (name: serverConfig: {
+      description = "User for Luanti Server ${builtins.replaceStrings [ "luanti" ] [ "" ] name}";
+      home = "/var/lib/${name}";
+      createHome = true;
+      group = "luanti";
+      isSystemUser = true;
+    }) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
-    systemd.services = builtins.mapAttrs
-      (
-        name: serverConfig:
-          let
-            whitelist = if serverConfig.whitelist == null then cfg.whitelist else serverConfig.whitelist;
-            mods = nix-luanti-lib.mods-folder serverConfig.game (serverConfig.mods ++ (if whitelist == null then [ ] else [ byId.mods."AntumDeluge/whitelist" ]));            
-            whitelistFile = pkgs.writeText "whitelist.txt" (
-              builtins.foldl' (acc: curr: acc + "\n" + curr) "" whitelist
-                |> lib.trim
-            );
-          in
-          {
-            #name = name;
-            description = "Luanti server instance for ${name}.";
-            after = [ "network.target" ];
-            wantedBy = [ "multi-user.target" ];
-            serviceConfig = {
-              ExecStart = pkgs.writeShellScript "start-luanti-server" ''
-                rm -rf ~/.minetest
-                rm -rf ~/world/worldmods
-                rm -rf ~/world/whitelist.txt
+    systemd.services = builtins.mapAttrs (
+      name: serverConfig:
+      let
+        whitelist = if serverConfig.whitelist == null then cfg.whitelist else serverConfig.whitelist;
+        mods = nix-luanti-lib.mods-folder serverConfig.game (
+          serverConfig.mods ++ (if whitelist == null then [ ] else [ byId.mods."AntumDeluge/whitelist" ])
+        );
+        whitelistFile = pkgs.writeText "whitelist.txt" (
+          builtins.foldl' (acc: curr: acc + "\n" + curr) "" whitelist |> lib.trim
+        );
+      in
+      {
+        #name = name;
+        description = "Luanti server instance for ${name}.";
+        after = [ "network.target" ];
+        wantedBy = [ "multi-user.target" ];
+        serviceConfig = {
+          ExecStart = pkgs.writeShellScript "start-luanti-server" ''
+            rm -rf ~/.minetest
+            rm -rf ~/world/worldmods
+            rm -rf ~/world/whitelist.txt
 
-                mkdir -p ~/.minetest/games
-                mkdir -p ~/world
+            mkdir -p ~/.minetest/games
+            mkdir -p ~/world
 
-                ln -s ${mods} ~/world/worldmods
-                ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
-                ${ if whitelist == null then "" else ''
+            ln -s ${mods} ~/world/worldmods
+            ln -s ${serverConfig.game} ~/.minetest/games/${serverConfig.game.pname}
+            ${
+              if whitelist == null then
+                ""
+              else
+                ''
                   rm -rf ~/world/whitelist.txt
                   cat ${whitelistFile} > ~/world/whitelist.txt
-                ''}
+                ''
+            }
 
-                ${serverConfig.package}/bin/luantiserver \
-                  --config ${builtins.toFile "luanti.conf" (
-                    {prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}";} // serverConfig.config
-                    |> toConf
-                  )} \
-                  --port ${builtins.toString serverConfig.port} \
-                  --color always \
-                  --world ~/world \
-                  --gameid ${serverConfig.game.pname}
-              '';
-              # TODO: world generation should respect config, or does it by default?
-              User = name;
-              Group = "luanti";
-              Restart = "on-failure";
+            ${serverConfig.package}/bin/luantiserver \
+              --config ${
+                builtins.toFile "luanti.conf" (
+                  { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
+                  |> toConf
+                )
+              } \
+              --port ${builtins.toString serverConfig.port} \
+              --color always \
+              --world ~/world \
+              --gameid ${serverConfig.game.pname}
+          '';
+          # TODO: world generation should respect config, or does it by default?
+          User = name;
+          Group = "luanti";
+          Restart = "on-failure";
 
-            };
-          }
-      )
-      (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
+        };
+      }
+    ) (nix-luanti-lib.mapAttrNames (name: "luanti-${name}") cfg.servers);
 
   };
 }
