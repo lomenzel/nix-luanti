@@ -1,1 +1,86 @@
-{"author":"theFox","content_warnings":[],"created_at":"2020-03-16T16:06:22.384778","dev_state":null,"donate_url":null,"downloads":2148,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":10,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/theFox6/microexpansion/issues","license":"MIT","long_description":"![Screenshot](https://raw.githubusercontent.com/theFox6/microexpansion/master/screenshot.png)\n\nMicroExpansion - ME [microexpansion]\n======================================\n\n* **Licence:** Code: MIT (see LICENSE), Media: CC-BY-SA 3.0\n\nWhen you really get into a survival world, you typically end up with a lot of items, like a ton of items.\nSometimes literally.  \nBut with that huge amount of resources, comes something annoying and typically unwanted: chests.  \nWell, of course. You have to have chests to store items, but no biggie, it's just chests.  \nThen your storage room starts to grow, soon you have 25 chests, then 50, then 100.  \nWhen management gets too hard. MicroExpansion, is the solution.\n\nForked and continued by theFox6 from the original mod by octacian.\n[Original Repository](https://github.com/octacian/microexpansion)\nOriginal license: MIT\nThis mod was inspired by Applied Energistics 2 for Minecraft  \nMicroExpansion introduces many new nodes and items giving the player simpler and more compact ways to store thousands of items inside of a single ME drive.\n","maintainers":["theFox"],"media_license":"CC-BY-SA-3.0","name":"microexpansion","provides":["microexpansion"],"release":22605,"repo":"https://github.com/theFox6/microexpansion","score":6.7,"screenshots":["https://content.luanti.org/uploads/wZPeXZ5roG.png"],"short_description":"A storage managing solution to get an overview over all your items.","state":"APPROVED","tags":["technology","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/wZPeXZ5roG.png","title":"Microexpansion","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/theFox/microexpansion/releases/22605/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"theFox/microexpansion":[]},"hash":"072837lpxbaamvxi3giranvh8pdb6xljb7j6jd1h3z8640mmj3qh"}
+{
+  "author": "theFox",
+  "content_warnings": [],
+  "created_at": "2020-03-16T16:06:22.384778",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2148,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/theFox6/microexpansion/issues",
+  "license": "MIT",
+  "long_description": "![Screenshot](https://raw.githubusercontent.com/theFox6/microexpansion/master/screenshot.png)\n\nMicroExpansion - ME [microexpansion]\n======================================\n\n* **Licence:** Code: MIT (see LICENSE), Media: CC-BY-SA 3.0\n\nWhen you really get into a survival world, you typically end up with a lot of items, like a ton of items.\nSometimes literally.  \nBut with that huge amount of resources, comes something annoying and typically unwanted: chests.  \nWell, of course. You have to have chests to store items, but no biggie, it's just chests.  \nThen your storage room starts to grow, soon you have 25 chests, then 50, then 100.  \nWhen management gets too hard. MicroExpansion, is the solution.\n\nForked and continued by theFox6 from the original mod by octacian.\n[Original Repository](https://github.com/octacian/microexpansion)\nOriginal license: MIT\nThis mod was inspired by Applied Energistics 2 for Minecraft  \nMicroExpansion introduces many new nodes and items giving the player simpler and more compact ways to store thousands of items inside of a single ME drive.\n",
+  "maintainers": [
+    "theFox"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "microexpansion",
+  "provides": [
+    "microexpansion"
+  ],
+  "release": 22605,
+  "repo": "https://github.com/theFox6/microexpansion",
+  "score": 6.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/wZPeXZ5roG.png"
+  ],
+  "short_description": "A storage managing solution to get an overview over all your items.",
+  "state": "APPROVED",
+  "tags": [
+    "technology",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/wZPeXZ5roG.png",
+  "title": "Microexpansion",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/theFox/microexpansion/releases/22605/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "theFox/microexpansion": []
+  },
+  "hash": "072837lpxbaamvxi3giranvh8pdb6xljb7j6jd1h3z8640mmj3qh"
+}

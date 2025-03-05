@@ -1,1 +1,69 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2023-04-06T00:17:32.954004","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":364,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/C-C-Minetest-Server/apartment/issues","license":"GPL-3.0-or-later","long_description":"This mod is a fork of [Sokomine's apartment mod][upstream] from the commit [`86b9888`](https://github.com/Sokomine/apartment/commit/86b9888c703fd2711dd86f75102753024ebfac2b). This fork redone the formspec of apartment controller and added configuration copiers. Apart from that, this fork removed the apartment spawner, which was seldom used and glitched.\n\n## Features\nThis mod provides a \"Apartment Configuration Panel\", which allows apartment owners to set up a self-service rental system. Upon renting by another player, all the locked blocks inside the apartment will become the player's.\n\nThis mod also provides an \"Apartment Configuration Copier\", for copying apartment configurations (i.e. category, description, size) to another not configured panel. To copy, punch a configured panel with the copier; to paste, right-click a not configured panel. When being pasted, the description will be altered if the original description ends with a number.\n\n## Note\nThis mod, for the servers only using the panel, is a drop-in replacement. However, for those using the apartment spawner, this mod is not compactible.\n\n[upstream]: https://content.minetest.net/packages/Sokomine/apartment/\n\n\n","maintainers":["Emojiminetest","Sokomine"],"media_license":"CC-BY-SA-3.0","name":"apartment","provides":["apartment"],"release":24075,"repo":"https://github.com/C-C-Minetest-Server/apartment","score":3.5,"screenshots":["https://content.luanti.org/uploads/d7f499eca0.png"],"short_description":"Self-service rental panels for players to rent apartments or shops","state":"APPROVED","tags":["multiplayer","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/d7f499eca0.png","title":"Apartment Rental Panels","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/apartment/releases/24075/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/apartment":[{"is_optional":false,"name":"flow","packages":["Kimapr/nonsensical_skyblock","luk3yx/flow"]}],"luk3yx/flow":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}]},"hash":"0k7yaq8z3pxsg4wywp275f8p614cdhpzicqf9bfwy4q9nkjzzjq8"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2023-04-06T00:17:32.954004",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 364,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/apartment/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "This mod is a fork of [Sokomine's apartment mod][upstream] from the commit [`86b9888`](https://github.com/Sokomine/apartment/commit/86b9888c703fd2711dd86f75102753024ebfac2b). This fork redone the formspec of apartment controller and added configuration copiers. Apart from that, this fork removed the apartment spawner, which was seldom used and glitched.\n\n## Features\nThis mod provides a \"Apartment Configuration Panel\", which allows apartment owners to set up a self-service rental system. Upon renting by another player, all the locked blocks inside the apartment will become the player's.\n\nThis mod also provides an \"Apartment Configuration Copier\", for copying apartment configurations (i.e. category, description, size) to another not configured panel. To copy, punch a configured panel with the copier; to paste, right-click a not configured panel. When being pasted, the description will be altered if the original description ends with a number.\n\n## Note\nThis mod, for the servers only using the panel, is a drop-in replacement. However, for those using the apartment spawner, this mod is not compactible.\n\n[upstream]: https://content.minetest.net/packages/Sokomine/apartment/\n\n\n",
+  "maintainers": [
+    "Emojiminetest",
+    "Sokomine"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "apartment",
+  "provides": [
+    "apartment"
+  ],
+  "release": 24075,
+  "repo": "https://github.com/C-C-Minetest-Server/apartment",
+  "score": 3.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d7f499eca0.png"
+  ],
+  "short_description": "Self-service rental panels for players to rent apartments or shops",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d7f499eca0.png",
+  "title": "Apartment Rental Panels",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/apartment/releases/24075/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/apartment": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": [
+          "Kimapr/nonsensical_skyblock",
+          "luk3yx/flow"
+        ]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "0k7yaq8z3pxsg4wywp275f8p614cdhpzicqf9bfwy4q9nkjzzjq8"
+}

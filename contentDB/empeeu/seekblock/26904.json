@@ -1,1 +1,47 @@
-{"author":"empeeu","content_warnings":[],"created_at":"2024-06-02T22:51:12.872122","dev_state":"BETA","donate_url":null,"downloads":124,"forum_url":"https://forum.luanti.org/viewtopic.php?t=30519","forums":30519,"game_support":[],"issue_tracker":"https://github.com/empeeu/seekblock/issues","license":"Apache-2.0","long_description":"# Seekblock Intro\nLittle mini-game as a stand-alone mod. The goal is to find the one block that has a different texture. When someone digs that block, the game cleans itself up, and rewards the winner with some particle effects.\n\n# Usage\nUsage via chat command:\n\n```\n/seekblock <size> <percent_filled> <timeout in minutes>\n```\n\nFor example, the screenshots above were made using:\n\n```\n/seekblock 10 10\n/seekblock 2 100\n```\n\nGiving up? Either wait or use:\n\n```\n/seekblockclear\n```\n\nNote: Size is the 'half width... sorta'. If size = N, then the game area extents are (x,y,z) = (2N +1, N, 2N+1)\n\n# Features\n* no spamming -- each player can only have one active seekblock game going at one time (in theory...)\n* timeout -- Maximum game length is 10 minutes, after that it cleans itself up if there's no winner\n* max size -- Maximum number of blocks is limited to 512 (roughly... statistically)\n* max extents -- maximum game size is limited to 65 x 32 x 65 area\n* no blocks on top of players -- no one gets buried\n* half the time it's fun every time -- guaranteed for a few minutes anyway (in theory...)\n\n# TODOs\n* [ ] Some more play testing to find bugs and ways to be annoying\n* [ ] There may be game elements that I didn't account for that will prevent the cleanup efforts or make the game unwinnable\n* [ ] Better rewards -- I haven't really figured out the particle system\n\n# Questions\n* Should the nodes be falling or floating? Which is more fun? (Floating gives a parkour aspect... maybe?)\n* Should I just pick settings that are fun? Or is the size/percent_filled fun to have around for different game types?\n* Is the hidden block too hard / too easy / just hard enough to find?\n* Any other suggestions to make this releasable?\n","maintainers":["empeeu"],"media_license":"Apache-2.0","name":"seekblock","provides":["seekblock"],"release":26904,"repo":"https://github.com/empeeu/seekblock.git","score":2.5,"screenshots":["https://content.luanti.org/uploads/afeb30d873.png","https://content.luanti.org/uploads/aba22b68bd.png","https://content.luanti.org/uploads/8c3fd70a2c.png"],"short_description":"Minigame where players seek a different block among a clutter of other blocks. ","state":"APPROVED","tags":["mini-game"],"thumbnail":"https://content.luanti.org/thumbnails/1/afeb30d873.png","title":"Seekblock","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/empeeu/seekblock/releases/26904/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/empeeu/seekblock","dependencies":{"empeeu/seekblock":[]},"hash":"0ghmm0z2xvv9af4nzj3xq87z91az9c0094apg9ai0sk9yq81wi7b"}
+{
+  "author": "empeeu",
+  "content_warnings": [],
+  "created_at": "2024-06-02T22:51:12.872122",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 124,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30519",
+  "forums": 30519,
+  "game_support": [],
+  "issue_tracker": "https://github.com/empeeu/seekblock/issues",
+  "license": "Apache-2.0",
+  "long_description": "# Seekblock Intro\nLittle mini-game as a stand-alone mod. The goal is to find the one block that has a different texture. When someone digs that block, the game cleans itself up, and rewards the winner with some particle effects.\n\n# Usage\nUsage via chat command:\n\n```\n/seekblock <size> <percent_filled> <timeout in minutes>\n```\n\nFor example, the screenshots above were made using:\n\n```\n/seekblock 10 10\n/seekblock 2 100\n```\n\nGiving up? Either wait or use:\n\n```\n/seekblockclear\n```\n\nNote: Size is the 'half width... sorta'. If size = N, then the game area extents are (x,y,z) = (2N +1, N, 2N+1)\n\n# Features\n* no spamming -- each player can only have one active seekblock game going at one time (in theory...)\n* timeout -- Maximum game length is 10 minutes, after that it cleans itself up if there's no winner\n* max size -- Maximum number of blocks is limited to 512 (roughly... statistically)\n* max extents -- maximum game size is limited to 65 x 32 x 65 area\n* no blocks on top of players -- no one gets buried\n* half the time it's fun every time -- guaranteed for a few minutes anyway (in theory...)\n\n# TODOs\n* [ ] Some more play testing to find bugs and ways to be annoying\n* [ ] There may be game elements that I didn't account for that will prevent the cleanup efforts or make the game unwinnable\n* [ ] Better rewards -- I haven't really figured out the particle system\n\n# Questions\n* Should the nodes be falling or floating? Which is more fun? (Floating gives a parkour aspect... maybe?)\n* Should I just pick settings that are fun? Or is the size/percent_filled fun to have around for different game types?\n* Is the hidden block too hard / too easy / just hard enough to find?\n* Any other suggestions to make this releasable?\n",
+  "maintainers": [
+    "empeeu"
+  ],
+  "media_license": "Apache-2.0",
+  "name": "seekblock",
+  "provides": [
+    "seekblock"
+  ],
+  "release": 26904,
+  "repo": "https://github.com/empeeu/seekblock.git",
+  "score": 2.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/afeb30d873.png",
+    "https://content.luanti.org/uploads/aba22b68bd.png",
+    "https://content.luanti.org/uploads/8c3fd70a2c.png"
+  ],
+  "short_description": "Minigame where players seek a different block among a clutter of other blocks. ",
+  "state": "APPROVED",
+  "tags": [
+    "mini-game"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/afeb30d873.png",
+  "title": "Seekblock",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/empeeu/seekblock/releases/26904/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/empeeu/seekblock",
+  "dependencies": {
+    "empeeu/seekblock": []
+  },
+  "hash": "0ghmm0z2xvv9af4nzj3xq87z91az9c0094apg9ai0sk9yq81wi7b"
+}

@@ -1,1 +1,99 @@
-{"author":"rheo","content_warnings":[],"created_at":"2023-02-02T01:26:07.983403","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://github.com/sponsors/fluxionary/","downloads":3915,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/fluxionary/minetest-moreblocks/issues","license":"LGPL-3.0-or-later","long_description":"This is a fork of the [version](https://content.minetest.net/packages/Calinou/moreblocks/) maintained by the minetest-mods group. It provides numerous new features and bugfixes and is designed to reduce the number of registered nodes, to avoid\nthe node ID limit.\n\n# mods in the pack\n\n## moreblocks\n\ndefines a bunch of new kinds of nodes. provides an API for creating variants of some nodes.\n\n## moreblocks_legacy_recipes\n\nprovided to keep compatibility w/ recipe changes from older versions of moreblocks. disabled by default.\n\n## stairsplus\n\nallows the creation of 49 new shapes for registered nodes. provides an API for registering new shapes.\n\n## stairsplus_legacy\n\nstairsplus registrations for various mods which were formerly done automatically as part of moreblocks.\n\n## stairs\n\noverrides the stairs mod from minetest_game to use stairsplus behind the scenes, to avoid duplication of nodes.\n\n## invsaw\n\nadds a button in unified_inventory that allows you to use the circular saw interface if you are\nplaying creatively, or have a circular saw item in your inventory and have the right priv\n(`interact`, by default).\n\ninvsaw was taken from [cheapie's invsaw mod](https://forum.minetest.net/viewtopic.php?t=14736), which\nitself borrowed heavily from an older version of this mod. Flux decided to just add it here because it\nneeded to be fully rewritten to be compatible w/ their modifications to the stairsplus API.\n\n# documentation\n\n## for players\n\nuse of a decent inventory manager (e.g.\n[unified_inventory](https://content.minetest.net/packages/RealBadAngel/unified_inventory/) or\n[i3](https://content.minetest.net/packages/jp/i3/)) will help you figure out how to craft various nodes.\n\n## for admins\n\n### minetest version compatibility\n\nmore blocks is only tested against up-to-date minetest. Issues arising in older versions will generally not be fixed.\n\n### legacy mode\n\nthe 2023-02-01 release of moreblocks introduces a \"legacy\" mode, which is on by default, and is meant to\nallow new servers to not commit to creating as many nodes as older versions, while not breaking anything\non existing servers. See `settingtypes.txt` for available settings.\n\nby defaul the 2023-02-01 release disables certain recipe overrides that were part of moreblocks 2.*. to re-enable\nthem, set `moreblocks_legacy_recipes.enabled = true`.\n\n### settings\n\nsee `settingtypes.txt` for available settings.\n\n### dependencies\n\nmoreblocks and stairsplus do not have hard dependencies on other mods. invsaw depends on `unified_inventory`\nand stairsplus.\n\n### compatability\n\nmoreblocks currently supports resources from a number of mods and minetest_game. without these installed,\nsome things may not be craftable, may have low-quality textures, or may not have \"node sounds\" registered.\nif available, resources will be used from `bucket`, `default`, `rhotator`, `screwdriver`, and `vessels`.\n\nif the `stairsplus_legacy` mod is enabled, stairsplus nodes will automatically be registered for the following\nmods, if they are available: `basic_materials`, `default`, `farming`, `gloopblocks`, `prefab`, `technic`,\nand `wool`.\n\n## for mod makers\n\nSee moreblocks/API.md and stairsplus/API.md.\n\n# license\n\n## moreblocks, stairsplus, stairsplus_legacy, moreblocks_legacy_recipes\n\n* © 2011-2022 Hugo Locurcio and contributors under the zlib license\n* © 2023 fluxionary under the LGPL v3+\n\n- unless otherwise specified, textures are licensed under\n  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n- `moreblocks_copperpatina.png` was created by pithydon, and is licensed under\n  [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).\n- `stairsplus_saw_button.png` CC BY-SA 4.0 Unported\n\n## invsaw\n\n* © 2022 cheapie and contributors under the zlib license\n* © 2023 fluxionary under the LGPL v3+\n","maintainers":["rheo"],"media_license":"CC-BY-SA-4.0","name":"moreblocks","provides":["invsaw","moreblocks","moreblocks_legacy_recipes","stairs","stairsplus","stairsplus_legacy"],"release":29489,"repo":"https://github.com/fluxionary/minetest-moreblocks.git","score":86,"screenshots":["https://content.luanti.org/uploads/71296eff08.png","https://content.luanti.org/uploads/3f1f0f7854.png","https://content.luanti.org/uploads/18dcdab411.png"],"short_description":"adds various blocks to the game","state":"APPROVED","tags":["crafting","decorative","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/71296eff08.png","title":"moreblocks and stairsplus","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rheo/moreblocks/releases/29489/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/fluxionary/minetest-moreblocks","dependencies":{"RealBadAngel/unified_inventory":[],"rheo/fmod":[],"rheo/futil":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]}],"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}]},"hash":"1p5wmp7jws0qs14x3wv5zdl033h3nnm7xqsr998g2n0vj82zlqvz"}
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2023-02-02T01:26:07.983403",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 3915,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-moreblocks/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "This is a fork of the [version](https://content.minetest.net/packages/Calinou/moreblocks/) maintained by the minetest-mods group. It provides numerous new features and bugfixes and is designed to reduce the number of registered nodes, to avoid\nthe node ID limit.\n\n# mods in the pack\n\n## moreblocks\n\ndefines a bunch of new kinds of nodes. provides an API for creating variants of some nodes.\n\n## moreblocks_legacy_recipes\n\nprovided to keep compatibility w/ recipe changes from older versions of moreblocks. disabled by default.\n\n## stairsplus\n\nallows the creation of 49 new shapes for registered nodes. provides an API for registering new shapes.\n\n## stairsplus_legacy\n\nstairsplus registrations for various mods which were formerly done automatically as part of moreblocks.\n\n## stairs\n\noverrides the stairs mod from minetest_game to use stairsplus behind the scenes, to avoid duplication of nodes.\n\n## invsaw\n\nadds a button in unified_inventory that allows you to use the circular saw interface if you are\nplaying creatively, or have a circular saw item in your inventory and have the right priv\n(`interact`, by default).\n\ninvsaw was taken from [cheapie's invsaw mod](https://forum.minetest.net/viewtopic.php?t=14736), which\nitself borrowed heavily from an older version of this mod. Flux decided to just add it here because it\nneeded to be fully rewritten to be compatible w/ their modifications to the stairsplus API.\n\n# documentation\n\n## for players\n\nuse of a decent inventory manager (e.g.\n[unified_inventory](https://content.minetest.net/packages/RealBadAngel/unified_inventory/) or\n[i3](https://content.minetest.net/packages/jp/i3/)) will help you figure out how to craft various nodes.\n\n## for admins\n\n### minetest version compatibility\n\nmore blocks is only tested against up-to-date minetest. Issues arising in older versions will generally not be fixed.\n\n### legacy mode\n\nthe 2023-02-01 release of moreblocks introduces a \"legacy\" mode, which is on by default, and is meant to\nallow new servers to not commit to creating as many nodes as older versions, while not breaking anything\non existing servers. See `settingtypes.txt` for available settings.\n\nby defaul the 2023-02-01 release disables certain recipe overrides that were part of moreblocks 2.*. to re-enable\nthem, set `moreblocks_legacy_recipes.enabled = true`.\n\n### settings\n\nsee `settingtypes.txt` for available settings.\n\n### dependencies\n\nmoreblocks and stairsplus do not have hard dependencies on other mods. invsaw depends on `unified_inventory`\nand stairsplus.\n\n### compatability\n\nmoreblocks currently supports resources from a number of mods and minetest_game. without these installed,\nsome things may not be craftable, may have low-quality textures, or may not have \"node sounds\" registered.\nif available, resources will be used from `bucket`, `default`, `rhotator`, `screwdriver`, and `vessels`.\n\nif the `stairsplus_legacy` mod is enabled, stairsplus nodes will automatically be registered for the following\nmods, if they are available: `basic_materials`, `default`, `farming`, `gloopblocks`, `prefab`, `technic`,\nand `wool`.\n\n## for mod makers\n\nSee moreblocks/API.md and stairsplus/API.md.\n\n# license\n\n## moreblocks, stairsplus, stairsplus_legacy, moreblocks_legacy_recipes\n\n* © 2011-2022 Hugo Locurcio and contributors under the zlib license\n* © 2023 fluxionary under the LGPL v3+\n\n- unless otherwise specified, textures are licensed under\n  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n- `moreblocks_copperpatina.png` was created by pithydon, and is licensed under\n  [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).\n- `stairsplus_saw_button.png` CC BY-SA 4.0 Unported\n\n## invsaw\n\n* © 2022 cheapie and contributors under the zlib license\n* © 2023 fluxionary under the LGPL v3+\n",
+  "maintainers": [
+    "rheo"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "moreblocks",
+  "provides": [
+    "invsaw",
+    "moreblocks",
+    "moreblocks_legacy_recipes",
+    "stairs",
+    "stairsplus",
+    "stairsplus_legacy"
+  ],
+  "release": 29489,
+  "repo": "https://github.com/fluxionary/minetest-moreblocks.git",
+  "score": 86,
+  "screenshots": [
+    "https://content.luanti.org/uploads/71296eff08.png",
+    "https://content.luanti.org/uploads/3f1f0f7854.png",
+    "https://content.luanti.org/uploads/18dcdab411.png"
+  ],
+  "short_description": "adds various blocks to the game",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "decorative",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/71296eff08.png",
+  "title": "moreblocks and stairsplus",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/moreblocks/releases/29489/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-moreblocks",
+  "dependencies": {
+    "RealBadAngel/unified_inventory": [],
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1p5wmp7jws0qs14x3wv5zdl033h3nnm7xqsr998g2n0vj82zlqvz"
+}

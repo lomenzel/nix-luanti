@@ -1,1 +1,70 @@
-{"author":"Giga_M","content_warnings":[],"created_at":"2025-02-17T16:03:05.292451","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":9,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC-BY-SA-3.0","long_description":"\na texture pack with the original minetest textures but all blocks in 4x4 pixels","maintainers":["Giga_M"],"media_license":"CC-BY-SA-3.0","name":"mtg_4x4px","provides":[],"release":29808,"repo":null,"score":3.9,"screenshots":["https://content.luanti.org/uploads/6597ff2478.png"],"short_description":"Mtg texture pack 4x4px","state":"APPROVED","tags":["less_than_px"],"thumbnail":"https://content.luanti.org/thumbnails/1/6597ff2478.png","title":"Mtg texture pack 4x4px","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/Giga_M/mtg_4x4px/releases/29808/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Giga_M/mtg_4x4px":[]},"hash":"1kmcjdbb6n4nzlpk53yq1mbbrb0swhvb0hpbjja8wpv5qy2chwjn"}
+{
+  "author": "Giga_M",
+  "content_warnings": [],
+  "created_at": "2025-02-17T16:03:05.292451",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 9,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-3.0",
+  "long_description": "\na texture pack with the original minetest textures but all blocks in 4x4 pixels",
+  "maintainers": [
+    "Giga_M"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mtg_4x4px",
+  "provides": [],
+  "release": 29808,
+  "repo": null,
+  "score": 3.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6597ff2478.png"
+  ],
+  "short_description": "Mtg texture pack 4x4px",
+  "state": "APPROVED",
+  "tags": [
+    "less_than_px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6597ff2478.png",
+  "title": "Mtg texture pack 4x4px",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Giga_M/mtg_4x4px/releases/29808/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Giga_M/mtg_4x4px": []
+  },
+  "hash": "1kmcjdbb6n4nzlpk53yq1mbbrb0swhvb0hpbjja8wpv5qy2chwjn"
+}

@@ -1,1 +1,57 @@
-{"author":"JALdMIC","content_warnings":[],"created_at":"2021-12-21T17:02:32.752527","dev_state":"WIP","donate_url":null,"downloads":273,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"CC-BY-NC-SA-3.0","long_description":"Sorry i dont speak inglish,a little game made whit fast\nV0.4\nNow carpathian and flat are the only allowed mapgens\nAdded third monster,rock monster\nNow the game will close if the player tries to close the initial menu.\nNow the monsters only begin to appear when certain number of days have pass\n\t1 - 1Day\n\t2 - 4Days\n\t3 - 7Days\nV0.3\nNow the game can be win/Ahora se puede ganar el juego\nChange the text of the days pass for one of game win wo only shows wen the player win the game/Cambiado el texto de los dias pasados por uno de juego ganado que solo se muestra cuando el jugador gana el juego.\nNow the tall plants can slow the player movement./Ahora las plantas altas pueden desacelerar los movimientos del jugador.\nAdded some test animations for the player./Annadidas algunas animaciones de prueba para el jugador\nAdded the naturalslopeslib for change the aspect of the terrain./Annadido naturalslopeslib para cambiar el aspecto del terreno\nV0.2\nNow \"V6\" is a disallowed mapgen./Ahora \"V6\" es un generador de mapas no permitido.\nCode from survival and survivalconf mods combined whit default./Codigo de los mods survival y survivalconf combinado con default.\nAdded a days pass text to the hud/Adicionado un texto de los dias pasados al hud.\nChange the player model for one of a wolfman/Se ha cambiado el modelo del jugador por uno de un hombre lobo.\nNow the player can only have 2 objects in the main inventory/Ahora el jugador solo puede llevar 2 objetos en el inventario principal.\nChange the initial menu/cambiado el menu inicial.\n    Now there is only a menu whit a litle explain of the game and the option for select the dificulty.\n    /Ahora solo hay un menu con una pequenna explicacion del juego y la opcion para seleccionar la dificultad.\n","maintainers":["JALdMIC"],"media_license":"CC-BY-SA-3.0","name":"survivethedays","provides":["creative","default","env_sounds","game_commands","give_initial_stuff","mobs","monsters","naturalslopeslib","player_api","sethome","sfinv","spawn"],"release":12774,"repo":null,"score":-600,"screenshots":["https://content.luanti.org/uploads/96bcf72c18.png"],"short_description":"A little experiment.Warning very early version,more a concept than a complete game.","state":"APPROVED","tags":["jam_game_2021","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/96bcf72c18.png","title":"survivethedays","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/JALdMIC/survivethedays/releases/12774/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"JALdMIC/survivethedays":[]},"hash":"0vz7c3x9wqy8ga7idp5hjbcksfzbpyk29db2b4920gm9bzylal0s"}
+{
+  "author": "JALdMIC",
+  "content_warnings": [],
+  "created_at": "2021-12-21T17:02:32.752527",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 273,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "CC-BY-NC-SA-3.0",
+  "long_description": "Sorry i dont speak inglish,a little game made whit fast\nV0.4\nNow carpathian and flat are the only allowed mapgens\nAdded third monster,rock monster\nNow the game will close if the player tries to close the initial menu.\nNow the monsters only begin to appear when certain number of days have pass\n\t1 - 1Day\n\t2 - 4Days\n\t3 - 7Days\nV0.3\nNow the game can be win/Ahora se puede ganar el juego\nChange the text of the days pass for one of game win wo only shows wen the player win the game/Cambiado el texto de los dias pasados por uno de juego ganado que solo se muestra cuando el jugador gana el juego.\nNow the tall plants can slow the player movement./Ahora las plantas altas pueden desacelerar los movimientos del jugador.\nAdded some test animations for the player./Annadidas algunas animaciones de prueba para el jugador\nAdded the naturalslopeslib for change the aspect of the terrain./Annadido naturalslopeslib para cambiar el aspecto del terreno\nV0.2\nNow \"V6\" is a disallowed mapgen./Ahora \"V6\" es un generador de mapas no permitido.\nCode from survival and survivalconf mods combined whit default./Codigo de los mods survival y survivalconf combinado con default.\nAdded a days pass text to the hud/Adicionado un texto de los dias pasados al hud.\nChange the player model for one of a wolfman/Se ha cambiado el modelo del jugador por uno de un hombre lobo.\nNow the player can only have 2 objects in the main inventory/Ahora el jugador solo puede llevar 2 objetos en el inventario principal.\nChange the initial menu/cambiado el menu inicial.\n    Now there is only a menu whit a litle explain of the game and the option for select the dificulty.\n    /Ahora solo hay un menu con una pequenna explicacion del juego y la opcion para seleccionar la dificultad.\n",
+  "maintainers": [
+    "JALdMIC"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "survivethedays",
+  "provides": [
+    "creative",
+    "default",
+    "env_sounds",
+    "game_commands",
+    "give_initial_stuff",
+    "mobs",
+    "monsters",
+    "naturalslopeslib",
+    "player_api",
+    "sethome",
+    "sfinv",
+    "spawn"
+  ],
+  "release": 12774,
+  "repo": null,
+  "score": -600,
+  "screenshots": [
+    "https://content.luanti.org/uploads/96bcf72c18.png"
+  ],
+  "short_description": "A little experiment.Warning very early version,more a concept than a complete game.",
+  "state": "APPROVED",
+  "tags": [
+    "jam_game_2021",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/96bcf72c18.png",
+  "title": "survivethedays",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/JALdMIC/survivethedays/releases/12774/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "JALdMIC/survivethedays": []
+  },
+  "hash": "0vz7c3x9wqy8ga7idp5hjbcksfzbpyk29db2b4920gm9bzylal0s"
+}

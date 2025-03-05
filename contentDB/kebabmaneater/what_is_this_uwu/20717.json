@@ -1,1 +1,47 @@
-{"author":"kebabmaneater","content_warnings":[],"created_at":"2023-06-30T12:55:21.774844","dev_state":"BETA","donate_url":null,"downloads":561,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/kebabmaneater/what_is_this_uwu-minetest/issues/new/choose/","license":"MIT","long_description":"A fork of \"What is This? UwU\" by Rotfuchs-von-Vulpes.\n\nThis mod says at the top of your screen what you're looking at in real time, which mod it belongs to and what tool to use in the block.\n\n# What is this? UwU\n\nA mod that says at the top of your screen what you're looking at.\n\n## Why even use this?\n\n1. Different look\n2. Centered (I like it centered, you may not. But it was created for my preferences)\n3. Shows the best tool to use (There will definitely be a few misattributions, but I am not bothered enough to change them yet.)\n4. It works with Extended Tooltips\n\nI also thought of adding the itemstring, but there seems to be a limit to minimum text size and I couldn't be bothered enough to add it.\n\n## Chatcommands\n\nTo unshow thw pop-up, typed this in console:\n\n```\n/wituwu\n```\n\nAnd typed again to show.\n\nEnjoy!\n\n## For servers\nI would advise against using this for servers.\n","maintainers":["kebabmaneater"],"media_license":"MIT","name":"what_is_this_uwu","provides":["what_is_this_uwu"],"release":20717,"repo":"https://github.com/kebabmaneater/what_is_this_uwu-minetest","score":462.9,"screenshots":["https://content.luanti.org/uploads/502bdd4ebc.png","https://content.luanti.org/uploads/6683c639c6.png","https://content.luanti.org/uploads/6f3b049903.png"],"short_description":"A fork of \"What is This? UwU\" by Rotfuchs-von-Vulpes.","state":"APPROVED","tags":["hud"],"thumbnail":"https://content.luanti.org/thumbnails/1/502bdd4ebc.png","title":"What Is This UwU (Forked)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/kebabmaneater/what_is_this_uwu/releases/20717/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"kebabmaneater/what_is_this_uwu":[]},"hash":"0nbbknc1k2dkmhh7xmv2ndnb6hy45z34j0cb33rkxj001dp50gik"}
+{
+  "author": "kebabmaneater",
+  "content_warnings": [],
+  "created_at": "2023-06-30T12:55:21.774844",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 561,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/kebabmaneater/what_is_this_uwu-minetest/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "A fork of \"What is This? UwU\" by Rotfuchs-von-Vulpes.\n\nThis mod says at the top of your screen what you're looking at in real time, which mod it belongs to and what tool to use in the block.\n\n# What is this? UwU\n\nA mod that says at the top of your screen what you're looking at.\n\n## Why even use this?\n\n1. Different look\n2. Centered (I like it centered, you may not. But it was created for my preferences)\n3. Shows the best tool to use (There will definitely be a few misattributions, but I am not bothered enough to change them yet.)\n4. It works with Extended Tooltips\n\nI also thought of adding the itemstring, but there seems to be a limit to minimum text size and I couldn't be bothered enough to add it.\n\n## Chatcommands\n\nTo unshow thw pop-up, typed this in console:\n\n```\n/wituwu\n```\n\nAnd typed again to show.\n\nEnjoy!\n\n## For servers\nI would advise against using this for servers.\n",
+  "maintainers": [
+    "kebabmaneater"
+  ],
+  "media_license": "MIT",
+  "name": "what_is_this_uwu",
+  "provides": [
+    "what_is_this_uwu"
+  ],
+  "release": 20717,
+  "repo": "https://github.com/kebabmaneater/what_is_this_uwu-minetest",
+  "score": 462.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/502bdd4ebc.png",
+    "https://content.luanti.org/uploads/6683c639c6.png",
+    "https://content.luanti.org/uploads/6f3b049903.png"
+  ],
+  "short_description": "A fork of \"What is This? UwU\" by Rotfuchs-von-Vulpes.",
+  "state": "APPROVED",
+  "tags": [
+    "hud"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/502bdd4ebc.png",
+  "title": "What Is This UwU (Forked)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/kebabmaneater/what_is_this_uwu/releases/20717/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "kebabmaneater/what_is_this_uwu": []
+  },
+  "hash": "0nbbknc1k2dkmhh7xmv2ndnb6hy45z34j0cb33rkxj001dp50gik"
+}

@@ -1,1 +1,184 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2022-09-10T02:13:22.316699","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":2164,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"BuckarooBanzay","name":"mesecons_lab","release":27246,"short_description":"Work in Progress. Mesecons laboratory and tutorials","thumbnail":"https://content.luanti.org/thumbnails/1/NKSVMnvh05.png","title":"Mesecons lab","type":"game"},"supports":true},{"confidence":1,"game":{"author":"nam","name":"porko","release":28533,"short_description":"Porko, the Dice Game","thumbnail":"https://content.luanti.org/thumbnails/1/a999ae8591.png","title":"Porko","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Kimapr","name":"nonsensical_skyblock","release":27427,"short_description":"skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr","thumbnail":"https://content.luanti.org/thumbnails/1/2f8309e348.png","title":"Nonsensical Skyblock","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":1,"game":{"aliases":["VanessaE/dreambuilder_game"],"author":"mt-mods","name":"dreambuilder_game","release":29790,"short_description":"Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.","thumbnail":"https://content.luanti.org/thumbnails/1/881d766d45.png","title":"Dreambuilder Game","type":"game"},"supports":true},{"confidence":1,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":true}],"issue_tracker":"https://github.com/C-C-Minetest-Server/datacard/issues","license":"MIT","long_description":"# Wanting a SSD for Digiline systems?\n\nSo here is the Datacard mod, SSD for Digiline! There are three types of datacards, that can store up to 800 datablocks. Punch a diskdrive with a datacard to insert it, and punch it again to take the datacard out.\n\n## Messages sent by the diskdrive\n\n### `responce_type = \"inject\"`\n\nSent when a datacard is injected into a diskdrive.\n\n```lua\n{\n\tresponce_type = \"inject\",\n}\n```\n\n### `responce_type = \"eject\"`\n\nSent when a datacard is ejected, either because a user punched it, or [requested by another digiline signal](#type--eject).\n\n```lua\n{\n\tresponce_type = \"eject\",\n\tid = ..., -- Only when requested via digiline\n}\n```\n\n## Digiline API\n\nA request to the datacard diskdrive must be in table form:\n\n```lua\n{\n\ttype = \"read\" or \"write\",\n\tdata = ..., -- only when type == \"write\"\n\tid   = ..., -- Kept intact in every responces\n}\n```\n\nIn every responces, including the error ones, the ID will be kept.\n\n### `type = \"read\"`\n\nThe responce table would be like this:\n\n```lua\n{\n\tresponce_type = \"read\",\n\tsuccess = true,\n\tdata = ..., -- the data of the disk or nil\n\tused = 0, -- used datablocks\n\tcapacity = 800, -- maximum usable datablocks\n}\n```\n\n### `type = \"write\"`\n\nThe `data` field is required to store data, use `nil` to clear the data in a datacard.\n\nThe responce table would be like this:\n\n```lua\n{\n\tresponce_type = \"write\",\n\tsuccess = true,\n\tused = 0, -- used datablocks\n\tcapacity = 800, -- maximum usable datablocks\n}\n```\n\n### `type = \"eject\"`\n\nThis type of request ejects the datacard.\n\nA normal eject responce will be returned.\n\n### Errors\n\nAn error responce is like this:\n\n```lua\n{\n\tresponce_type = \"read\" or \"write\",\n\tsuccess = false,\n\terror = \"ERROR_CODE\",\n}\n```\n\n#### Error Codes\n\n* **`TOO_BIG`**: The data is too big for the datacard inserted into the diskdrive.<br>*Appear only on `write` requests*\n* **`ERR_SERIALIZE`**: A serialize bug happened. A possible reason is that the data is too large for the engine to handle.<br>*Appear only on `write` requests*\n* **`NO_DISK`**: There are no datacards in the diskdrive.\n* **`UNKNOWN_CMD`**: The `type` value is not `\"read\"` or `\"write\"`.\n\n## License\n\nThe code are avaliable under the MIT License. Textures from [Malcolm Riley's Unused Textures](https://github.com/malcolmriley/unused-textures), and are avaliable under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).\n","maintainers":["Emojiminetest"],"media_license":"CC-BY-SA-4.0","name":"datacard","provides":["datacard"],"release":28248,"repo":"https://github.com/C-C-Minetest-Server/datacard","score":183.1,"screenshots":["https://content.luanti.org/uploads/4b5b525677.png"],"short_description":"Portable data storage for Digilines","state":"APPROVED","tags":["technology"],"thumbnail":"https://content.luanti.org/thumbnails/1/4b5b525677.png","title":"Datacards","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/datacard/releases/28248/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/datacard":[{"is_optional":false,"name":"digilines","packages":["BuckarooBanzay/mesecons_lab","nam/porko","BRNSystems/blocky_portaling","Jeija/digilines","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"Jeija/digilines":[]},"hash":"17r7ap0997izsv06l7r1rc7j4zblc140qy8d954414vr5paiyag2"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2022-09-10T02:13:22.316699",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 2164,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": [
+          "VanessaE/dreambuilder_game"
+        ],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 29790,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/datacard/issues",
+  "license": "MIT",
+  "long_description": "# Wanting a SSD for Digiline systems?\n\nSo here is the Datacard mod, SSD for Digiline! There are three types of datacards, that can store up to 800 datablocks. Punch a diskdrive with a datacard to insert it, and punch it again to take the datacard out.\n\n## Messages sent by the diskdrive\n\n### `responce_type = \"inject\"`\n\nSent when a datacard is injected into a diskdrive.\n\n```lua\n{\n\tresponce_type = \"inject\",\n}\n```\n\n### `responce_type = \"eject\"`\n\nSent when a datacard is ejected, either because a user punched it, or [requested by another digiline signal](#type--eject).\n\n```lua\n{\n\tresponce_type = \"eject\",\n\tid = ..., -- Only when requested via digiline\n}\n```\n\n## Digiline API\n\nA request to the datacard diskdrive must be in table form:\n\n```lua\n{\n\ttype = \"read\" or \"write\",\n\tdata = ..., -- only when type == \"write\"\n\tid   = ..., -- Kept intact in every responces\n}\n```\n\nIn every responces, including the error ones, the ID will be kept.\n\n### `type = \"read\"`\n\nThe responce table would be like this:\n\n```lua\n{\n\tresponce_type = \"read\",\n\tsuccess = true,\n\tdata = ..., -- the data of the disk or nil\n\tused = 0, -- used datablocks\n\tcapacity = 800, -- maximum usable datablocks\n}\n```\n\n### `type = \"write\"`\n\nThe `data` field is required to store data, use `nil` to clear the data in a datacard.\n\nThe responce table would be like this:\n\n```lua\n{\n\tresponce_type = \"write\",\n\tsuccess = true,\n\tused = 0, -- used datablocks\n\tcapacity = 800, -- maximum usable datablocks\n}\n```\n\n### `type = \"eject\"`\n\nThis type of request ejects the datacard.\n\nA normal eject responce will be returned.\n\n### Errors\n\nAn error responce is like this:\n\n```lua\n{\n\tresponce_type = \"read\" or \"write\",\n\tsuccess = false,\n\terror = \"ERROR_CODE\",\n}\n```\n\n#### Error Codes\n\n* **`TOO_BIG`**: The data is too big for the datacard inserted into the diskdrive.<br>*Appear only on `write` requests*\n* **`ERR_SERIALIZE`**: A serialize bug happened. A possible reason is that the data is too large for the engine to handle.<br>*Appear only on `write` requests*\n* **`NO_DISK`**: There are no datacards in the diskdrive.\n* **`UNKNOWN_CMD`**: The `type` value is not `\"read\"` or `\"write\"`.\n\n## License\n\nThe code are avaliable under the MIT License. Textures from [Malcolm Riley's Unused Textures](https://github.com/malcolmriley/unused-textures), and are avaliable under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "datacard",
+  "provides": [
+    "datacard"
+  ],
+  "release": 28248,
+  "repo": "https://github.com/C-C-Minetest-Server/datacard",
+  "score": 183.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/4b5b525677.png"
+  ],
+  "short_description": "Portable data storage for Digilines",
+  "state": "APPROVED",
+  "tags": [
+    "technology"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4b5b525677.png",
+  "title": "Datacards",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/datacard/releases/28248/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/datacard": [
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "Jeija/digilines": []
+  },
+  "hash": "17r7ap0997izsv06l7r1rc7j4zblc140qy8d954414vr5paiyag2"
+}

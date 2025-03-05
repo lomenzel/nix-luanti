@@ -1,1 +1,48 @@
-{"author":"LissoBone","content_warnings":["horror"],"created_at":"2022-08-24T11:23:12.792868","dev_state":"WIP","donate_url":null,"downloads":1755,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/LissoBone/goodtorch/issues/new/choose/","license":"GPL-3.0-or-later","long_description":"# This is awful (probably).\nThe flashlight mod with brightness linearly decreasing with distance and ray casting.\nTextures: made by me.\nSounds: also by me.\nSome of the code: by the illumination mod, but heavily changed.\nSome more of the code: by ApolloX (thank you once again).","maintainers":["LissoBone"],"media_license":"CC-BY-SA-4.0","name":"goodtorch","provides":["goodtorch"],"release":14636,"repo":"https://github.com/LissoBone/goodtorch.git","score":322.9,"screenshots":["https://content.luanti.org/uploads/a7acbb9976.png","https://content.luanti.org/uploads/cddd006bd2.png"],"short_description":"Merely a flashlight that uses ray casting.","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/a7acbb9976.png","title":"Good Torch","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/LissoBone/goodtorch/releases/14636/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"LissoBone/goodtorch":[]},"hash":"1f1bic513d05lk9pjaigz74bhdyzj1zw1h0wxw2sgrxrqqagvm06"}
+{
+  "author": "LissoBone",
+  "content_warnings": [
+    "horror"
+  ],
+  "created_at": "2022-08-24T11:23:12.792868",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 1755,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/LissoBone/goodtorch/issues/new/choose/",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# This is awful (probably).\nThe flashlight mod with brightness linearly decreasing with distance and ray casting.\nTextures: made by me.\nSounds: also by me.\nSome of the code: by the illumination mod, but heavily changed.\nSome more of the code: by ApolloX (thank you once again).",
+  "maintainers": [
+    "LissoBone"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "goodtorch",
+  "provides": [
+    "goodtorch"
+  ],
+  "release": 14636,
+  "repo": "https://github.com/LissoBone/goodtorch.git",
+  "score": 322.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a7acbb9976.png",
+    "https://content.luanti.org/uploads/cddd006bd2.png"
+  ],
+  "short_description": "Merely a flashlight that uses ray casting.",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a7acbb9976.png",
+  "title": "Good Torch",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/LissoBone/goodtorch/releases/14636/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "LissoBone/goodtorch": []
+  },
+  "hash": "1f1bic513d05lk9pjaigz74bhdyzj1zw1h0wxw2sgrxrqqagvm06"
+}

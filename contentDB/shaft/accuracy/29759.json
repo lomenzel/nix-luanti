@@ -1,1 +1,45 @@
-{"author":"shaft","content_warnings":[],"created_at":"2024-12-24T23:17:22.483379","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":550,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"CC0-1.0","long_description":"# Does nothing on its own. Do not manually install this.\n\nAccuracy GUI library for all kinds of ranged weapons. Provides a hit indicator and and a circle indicating the amount of accuracy. Accuracy is gained by standing still or sneaking. However you will have most accuracy when standing still. It is lost through moving or quick camera pans.\n\n## accuracy.register(item_name)\nRegisters your weapon into the system. If your weapon has more than one item and switches between them, register all items. Note that those will still be viewed as different weapons and accuracy will be fully reset as if you just armed it.\n\n## accuracy.hit(player)\nShows hit indicator to player that disappears after half a second. **Please ensure that your player reference is valid.**\n\n## accuracy.get(player)\n\nGets an accuracy value from 0 to 1.\n\n**0 is the highest accuracy, 1 the lowest.**\n\n## accuracy.reset(player)\n\nResets accuracy for a player. You can use this after shooting or reloading for example.","maintainers":["shaft"],"media_license":"CC0-1.0","name":"accuracy","provides":["accuracy"],"release":29759,"repo":"https://gitgud.io/blut/accuracy","score":79.6,"screenshots":["https://content.luanti.org/uploads/0e34599ac9.jpg"],"short_description":"Accuracy library for mods introducing ranged weapons.","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/0e34599ac9.png","title":"Accuracy","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/shaft/accuracy/releases/29759/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"shaft/accuracy":[]},"hash":"1piknd0kpq9lv7qiqzwhidjm0dvq8mmiyskwgfsfiv5776jj6qky"}
+{
+  "author": "shaft",
+  "content_warnings": [],
+  "created_at": "2024-12-24T23:17:22.483379",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 550,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "CC0-1.0",
+  "long_description": "# Does nothing on its own. Do not manually install this.\n\nAccuracy GUI library for all kinds of ranged weapons. Provides a hit indicator and and a circle indicating the amount of accuracy. Accuracy is gained by standing still or sneaking. However you will have most accuracy when standing still. It is lost through moving or quick camera pans.\n\n## accuracy.register(item_name)\nRegisters your weapon into the system. If your weapon has more than one item and switches between them, register all items. Note that those will still be viewed as different weapons and accuracy will be fully reset as if you just armed it.\n\n## accuracy.hit(player)\nShows hit indicator to player that disappears after half a second. **Please ensure that your player reference is valid.**\n\n## accuracy.get(player)\n\nGets an accuracy value from 0 to 1.\n\n**0 is the highest accuracy, 1 the lowest.**\n\n## accuracy.reset(player)\n\nResets accuracy for a player. You can use this after shooting or reloading for example.",
+  "maintainers": [
+    "shaft"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "accuracy",
+  "provides": [
+    "accuracy"
+  ],
+  "release": 29759,
+  "repo": "https://gitgud.io/blut/accuracy",
+  "score": 79.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0e34599ac9.jpg"
+  ],
+  "short_description": "Accuracy library for mods introducing ranged weapons.",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0e34599ac9.png",
+  "title": "Accuracy",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/shaft/accuracy/releases/29759/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "shaft/accuracy": []
+  },
+  "hash": "1piknd0kpq9lv7qiqzwhidjm0dvq8mmiyskwgfsfiv5776jj6qky"
+}

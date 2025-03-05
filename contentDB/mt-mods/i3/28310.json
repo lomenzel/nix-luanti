@@ -1,1 +1,53 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2020-12-31T01:58:39.658247","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":177474,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26332","forums":26332,"game_support":[],"issue_tracker":"https://github.com/mt-historical/i3/issues","license":"MIT","long_description":"![logo](https://user-images.githubusercontent.com/7883281/145490041-d91d6bd6-a654-438d-b208-4d5736845ab7.png)\n\n\n#### A next-generation inventory\n\nThis mod features a modern, powerful inventory menu with a good user experience.\n**`i3`** provides a rich [**API**](https://github.com/mt-historical/i3/blob/main/API.md) for mod developers who want to extend it.\n\n##### List of features:\n\n   - Crafting Guide (survival mode only)\n   - Progressive Mode¹\n   - Quick Crafting\n   - 3D Player Model Real-Time Preview\n   - Isometric Map Preview\n   - Inventory Sorting (+ options: compression, reverse mode, automation, etc.)\n   - Item List Compression (**`moreblocks`** is supported)\n   - Item Bookmarks\n   - Waypoints\n   - Bags\n   - Home\n\n**¹** *This mode is a Terraria-like system that shows recipes you can craft from items you ever had in your inventory.\nTo enable it: `i3_progressive_mode = true` in `minetest.conf`.*\n\n##### This mod officially supports the following mods:\n\n   - [**`3d_armor`**](https://content.minetest.net/packages/stu/3d_armor/)\n   - [**`skinsdb`**](https://content.minetest.net/packages/bell07/skinsdb/)\n   - [**`awards`**](https://content.minetest.net/packages/rubenwardy/awards/)\n\n##### Recommendations\n\nTo use this mod in the best conditions:\n\n   - Use LuaJIT\n   - Use the default Freetype font style\n\n##### Troubleshooting\n\nIf the inventory's font size is too big on certain setups (namely Windows 10/11 or 144 DPI display), you should lower the\nvalue of the setting `display_density_factor` in your `minetest.conf`. Note that the change is applied after restart.\n\nYou can also use the font size slider in the inventory, settings window.\n\n##### Notes\n\n`i3` uses a larger inventory than the usual inventories in Minetest games. Thus, most chests will be unadapted to this inventory size. The `i3`  inventory is 9 slots wide by default, such as Minecraft.\n\nReport bugs on the [**Bug Tracker**](https://github.com/mt-historical/i3/issues).","maintainers":["mt-mods"],"media_license":"Other (Free/Open)","name":"i3","provides":["i3"],"release":28310,"repo":"https://github.com/mt-historical/i3","score":5762.6,"screenshots":["https://content.luanti.org/uploads/2b6d16c221.png","https://content.luanti.org/uploads/967514bb1b.png"],"short_description":"A next-generation inventory","state":"APPROVED","tags":["crafting","creative","gui","inventory","library","storage","survival","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/2b6d16c221.png","title":"i3 ","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/i3/releases/28310/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"mt-mods/i3":[]},"hash":"07ls15a2zpsa6nwmf3xmh8s36kzvvij6zy3srnsc61zmpwazx7k4"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2020-12-31T01:58:39.658247",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 177474,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26332",
+  "forums": 26332,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-historical/i3/issues",
+  "license": "MIT",
+  "long_description": "![logo](https://user-images.githubusercontent.com/7883281/145490041-d91d6bd6-a654-438d-b208-4d5736845ab7.png)\n\n\n#### A next-generation inventory\n\nThis mod features a modern, powerful inventory menu with a good user experience.\n**`i3`** provides a rich [**API**](https://github.com/mt-historical/i3/blob/main/API.md) for mod developers who want to extend it.\n\n##### List of features:\n\n   - Crafting Guide (survival mode only)\n   - Progressive Mode¹\n   - Quick Crafting\n   - 3D Player Model Real-Time Preview\n   - Isometric Map Preview\n   - Inventory Sorting (+ options: compression, reverse mode, automation, etc.)\n   - Item List Compression (**`moreblocks`** is supported)\n   - Item Bookmarks\n   - Waypoints\n   - Bags\n   - Home\n\n**¹** *This mode is a Terraria-like system that shows recipes you can craft from items you ever had in your inventory.\nTo enable it: `i3_progressive_mode = true` in `minetest.conf`.*\n\n##### This mod officially supports the following mods:\n\n   - [**`3d_armor`**](https://content.minetest.net/packages/stu/3d_armor/)\n   - [**`skinsdb`**](https://content.minetest.net/packages/bell07/skinsdb/)\n   - [**`awards`**](https://content.minetest.net/packages/rubenwardy/awards/)\n\n##### Recommendations\n\nTo use this mod in the best conditions:\n\n   - Use LuaJIT\n   - Use the default Freetype font style\n\n##### Troubleshooting\n\nIf the inventory's font size is too big on certain setups (namely Windows 10/11 or 144 DPI display), you should lower the\nvalue of the setting `display_density_factor` in your `minetest.conf`. Note that the change is applied after restart.\n\nYou can also use the font size slider in the inventory, settings window.\n\n##### Notes\n\n`i3` uses a larger inventory than the usual inventories in Minetest games. Thus, most chests will be unadapted to this inventory size. The `i3`  inventory is 9 slots wide by default, such as Minecraft.\n\nReport bugs on the [**Bug Tracker**](https://github.com/mt-historical/i3/issues).",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "Other (Free/Open)",
+  "name": "i3",
+  "provides": [
+    "i3"
+  ],
+  "release": 28310,
+  "repo": "https://github.com/mt-historical/i3",
+  "score": 5762.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2b6d16c221.png",
+    "https://content.luanti.org/uploads/967514bb1b.png"
+  ],
+  "short_description": "A next-generation inventory",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "creative",
+    "gui",
+    "inventory",
+    "library",
+    "storage",
+    "survival",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2b6d16c221.png",
+  "title": "i3 ",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/i3/releases/28310/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mt-mods/i3": []
+  },
+  "hash": "07ls15a2zpsa6nwmf3xmh8s36kzvvij6zy3srnsc61zmpwazx7k4"
+}

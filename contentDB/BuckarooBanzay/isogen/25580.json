@@ -1,1 +1,45 @@
-{"author":"BuckarooBanzay","content_warnings":[],"created_at":"2024-05-21T19:39:29.454969","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":197,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/BuckarooBanzay/isogen/issues","license":"MIT","long_description":"\n# isogen\nGenerate isometric images from ingame builds\n# Commands\n\nIf the `worldedit` mod is present you can use the following command to render the current we-region to a png-file:\n\n```\n//isogen [filename]\n```\n\n**NOTE**: larger regions require more memory\n\nFull documentation and api: https://github.com/BuckarooBanzay/isogen/blob/master/readme.md","maintainers":["BuckarooBanzay"],"media_license":"MIT","name":"isogen","provides":["isogen"],"release":25580,"repo":"https://github.com/BuckarooBanzay/isogen","score":3.4,"screenshots":["https://content.luanti.org/uploads/02fe83c1ed.png"],"short_description":" Generate isometric images from ingame builds ","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/02fe83c1ed.png","title":"Isogen","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/BuckarooBanzay/isogen/releases/25580/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/BuckarooBanzay/isogen","dependencies":{"BuckarooBanzay/isogen":[]},"hash":"1q6cjdpzcp52fggfzrqbmrbczrfvafajx9mcf6jl8k3qksvid6r7"}
+{
+  "author": "BuckarooBanzay",
+  "content_warnings": [],
+  "created_at": "2024-05-21T19:39:29.454969",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 197,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/BuckarooBanzay/isogen/issues",
+  "license": "MIT",
+  "long_description": "\n# isogen\nGenerate isometric images from ingame builds\n# Commands\n\nIf the `worldedit` mod is present you can use the following command to render the current we-region to a png-file:\n\n```\n//isogen [filename]\n```\n\n**NOTE**: larger regions require more memory\n\nFull documentation and api: https://github.com/BuckarooBanzay/isogen/blob/master/readme.md",
+  "maintainers": [
+    "BuckarooBanzay"
+  ],
+  "media_license": "MIT",
+  "name": "isogen",
+  "provides": [
+    "isogen"
+  ],
+  "release": 25580,
+  "repo": "https://github.com/BuckarooBanzay/isogen",
+  "score": 3.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/02fe83c1ed.png"
+  ],
+  "short_description": " Generate isometric images from ingame builds ",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/02fe83c1ed.png",
+  "title": "Isogen",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/BuckarooBanzay/isogen/releases/25580/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/BuckarooBanzay/isogen",
+  "dependencies": {
+    "BuckarooBanzay/isogen": []
+  },
+  "hash": "1q6cjdpzcp52fggfzrqbmrbczrfvafajx9mcf6jl8k3qksvid6r7"
+}

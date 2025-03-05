@@ -1,1 +1,44 @@
-{"author":"joenas","content_warnings":[],"created_at":"2018-07-02T16:35:11.650695","dev_state":null,"donate_url":null,"downloads":1870,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/diggers-mt/matrix_chat/issues/new/choose/","license":"BSD-3-Clause","long_description":"This mod creates a bridge between a [Matrix](https://matrix.org) channel and the in-game chat.\nThe code is shamelessly based on the [irc](https://github.com/minetest-mods/irc) mod and examples from [lua-matrix](https://github.com/aperezdc/lua-matrix).\n\nThis branch (`master`) needs a Matrix user that listens for messages and sends to Minetest. Chat messages posted in-game\nwill be sent with the bot to the Matrix channel like so:\n\n```\n@minetestbot: <myuser> hello world\n```\n\nFor a bridge where virtual users are created in Matrix, checkout the [appservice](https://github.com/diggers-mt/minetest-matrix/tree/appservice) branch!\n\n**This is a work in progress**\nUntil we have a stable release, expect breaking changes and whatnot.\n\n## Installing\n\n### OS X\n\n```bash\nbrew install lua@5.1\nluarocks-5.1 install lua-cjson\nbrew install openssl\nluarocks-5.1 install cqueues CRYPTO_DIR=/usr/local/opt/openssl/ OPENSSL_DIR=/usr/local/opt/openssl #https://github.com/wahern/cqueues/wiki/Installation-on-OSX#via-brew\nluarocks-5.1 install luaossl CRYPTO_DIR=/usr/local/opt/openssl/ OPENSSL_DIR=/usr/local/opt/openssl\nluarocks-5.1 install luasocket\nluarocks-5.1 install luasec OPENSSL_DIR=/usr/local/opt/openssl\nexport MATRIX_API_HTTP_CLIENT=luasocket\n```\n\n### Ubuntu\n\nTested on 16.04.\n\n```bash\napt-get install lua5.1 luarocks lua-sec\nluarocks install lua-cjson\nluarocks install luasocket\nluarocks install luasec\nexport MATRIX_API_HTTP_CLIENT=luasocket\n```\n\nYou might need to prepend `sudo` to first and second commands.\n\nFor the moment you need to add `matrix_chat` to `secure.trusted_mods` for lua-matrix to work. This will hopefully change.\n\n```\nsecure.trusted_mods = matrix_chat\n```\n\n[wiki]: https://wiki.minetest.net/Installing_mods\n\n\n## Settings\n\n* `matrix.user`: Matrix username, for example `@minetestbot:matrix.org`\n\n* `matrix.password`: Password for Matrix user\n\n* `matrix.server`: Server to connect to, include http(s) and port, `https://matrix.org`\n\n* `matrix.room_id`: Room to join, `room_id` in matrix. Always starts with `!`","maintainers":["joenas"],"media_license":"BSD-3-Clause","name":"matrix_chat","provides":["matrix_chat"],"release":312,"repo":"https://github.com/diggers-mt/matrix_chat","score":151.7,"screenshots":[],"short_description":"This mod creates a bridge between a Matrix channel and the in-game chat!","state":"APPROVED","tags":["chat","library"],"thumbnail":null,"title":"Matrix Chat","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/joenas/matrix_chat/releases/312/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"joenas/matrix_chat":[]},"hash":"1rzg6vcgsxyf6h2z63pv5zrlvz4d7g2f5h76iqrsp8cpkq7v365c"}
+{
+  "author": "joenas",
+  "content_warnings": [],
+  "created_at": "2018-07-02T16:35:11.650695",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1870,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/diggers-mt/matrix_chat/issues/new/choose/",
+  "license": "BSD-3-Clause",
+  "long_description": "This mod creates a bridge between a [Matrix](https://matrix.org) channel and the in-game chat.\nThe code is shamelessly based on the [irc](https://github.com/minetest-mods/irc) mod and examples from [lua-matrix](https://github.com/aperezdc/lua-matrix).\n\nThis branch (`master`) needs a Matrix user that listens for messages and sends to Minetest. Chat messages posted in-game\nwill be sent with the bot to the Matrix channel like so:\n\n```\n@minetestbot: <myuser> hello world\n```\n\nFor a bridge where virtual users are created in Matrix, checkout the [appservice](https://github.com/diggers-mt/minetest-matrix/tree/appservice) branch!\n\n**This is a work in progress**\nUntil we have a stable release, expect breaking changes and whatnot.\n\n## Installing\n\n### OS X\n\n```bash\nbrew install lua@5.1\nluarocks-5.1 install lua-cjson\nbrew install openssl\nluarocks-5.1 install cqueues CRYPTO_DIR=/usr/local/opt/openssl/ OPENSSL_DIR=/usr/local/opt/openssl #https://github.com/wahern/cqueues/wiki/Installation-on-OSX#via-brew\nluarocks-5.1 install luaossl CRYPTO_DIR=/usr/local/opt/openssl/ OPENSSL_DIR=/usr/local/opt/openssl\nluarocks-5.1 install luasocket\nluarocks-5.1 install luasec OPENSSL_DIR=/usr/local/opt/openssl\nexport MATRIX_API_HTTP_CLIENT=luasocket\n```\n\n### Ubuntu\n\nTested on 16.04.\n\n```bash\napt-get install lua5.1 luarocks lua-sec\nluarocks install lua-cjson\nluarocks install luasocket\nluarocks install luasec\nexport MATRIX_API_HTTP_CLIENT=luasocket\n```\n\nYou might need to prepend `sudo` to first and second commands.\n\nFor the moment you need to add `matrix_chat` to `secure.trusted_mods` for lua-matrix to work. This will hopefully change.\n\n```\nsecure.trusted_mods = matrix_chat\n```\n\n[wiki]: https://wiki.minetest.net/Installing_mods\n\n\n## Settings\n\n* `matrix.user`: Matrix username, for example `@minetestbot:matrix.org`\n\n* `matrix.password`: Password for Matrix user\n\n* `matrix.server`: Server to connect to, include http(s) and port, `https://matrix.org`\n\n* `matrix.room_id`: Room to join, `room_id` in matrix. Always starts with `!`",
+  "maintainers": [
+    "joenas"
+  ],
+  "media_license": "BSD-3-Clause",
+  "name": "matrix_chat",
+  "provides": [
+    "matrix_chat"
+  ],
+  "release": 312,
+  "repo": "https://github.com/diggers-mt/matrix_chat",
+  "score": 151.7,
+  "screenshots": [],
+  "short_description": "This mod creates a bridge between a Matrix channel and the in-game chat!",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "library"
+  ],
+  "thumbnail": null,
+  "title": "Matrix Chat",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/joenas/matrix_chat/releases/312/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "joenas/matrix_chat": []
+  },
+  "hash": "1rzg6vcgsxyf6h2z63pv5zrlvz4d7g2f5h76iqrsp8cpkq7v365c"
+}

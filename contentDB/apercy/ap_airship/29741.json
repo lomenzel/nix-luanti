@@ -1,1 +1,241 @@
-{"author":"apercy","content_warnings":[],"created_at":"2024-02-18T01:08:51.370712","dev_state":"WIP","donate_url":"https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY","downloads":1671,"forum_url":"https://forum.luanti.org/viewtopic.php?t=29247","forums":29247,"game_support":[{"confidence":1,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":1,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true},{"confidence":1,"game":{"author":"bell07","name":"whynot_game","release":29789,"short_description":"Aims to get all existing high quality mods working together","thumbnail":"https://content.luanti.org/thumbnails/1/6f56447689.png","title":"WhyNot?","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Casimir","name":"voxelgarden","release":29784,"short_description":"A classic game for exploring, survival and building. Maintained by rudzik8","thumbnail":"https://content.luanti.org/thumbnails/1/d936c3fce1.png","title":"Voxelgarden","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"Minetest 5.4 mod: Airship\n========================================\n\nThis mod implements an airship for minetest. This airship is affected by the wind. The wind better works\nwith Climate API (and with climate API you can stop it using /set_wind 0 0 )\n\nTHIS IS HIGHLY EXPERIMENTAL AND HAVE A LOT OF MISSING FEATURES. AND I KNOW IT\n\nTHE COLLISION SYSTEM IS VERY RUDIMENTARY\n\nThe fuel system isn't exists yet, so I don't recomend giving it to players yet if you put it into a server\n\n**Shortcuts:**\nforward and backward while in drive position: controls the power lever\nleft and right while in drive position: controls the direction\njump and sneak: controls the up and down movement\n\n- right click into the external stair to enter it\n- E + backward while in drive position: the machine does backward\n- E + foward while in drive position: extra power\n- right click into drive wheel to activate pilot menu\n- right click into the internal ladders to go out\n- right click into any seat to sit your player\n- the anchor only works when the airship is near stoped\n\nRemembering AGAIN, it is affected by winds, so it will need patience to learn to control\n\n**Tip:**\nDrive it gently.\nThe captain can leave the drive position to walk too\nIf a player goes timeout or logoff in flight, the airship will \"rescue\" him if no other player\nenter it, so is a good idea wait the friend at a secure place far from anyone who\nwants to enter the airship.\n\n**Special functions:**\n/external_attach_menu\n- it opens the menu to attach a plane into the airship (who watched Indiana Jones and The Last Cruzade\n  will understand)\n  to access the plane during the flight, go to the ladder at the end of the airship and right click it\n  to release the plane during the flight, use /remove_hook (BEWARE: the airship have to be moving fast\n  and the plane power have to be at 1/4 to avoid collision and death (for the plane pilot))\nThere is an option on pilot menu to activate the rescue mode. So if a plane (Supercub, Camel or Albatroz)\nwait bellow the ship belly IN FLIGHT, it will be automatically hooked after 3 seconds\n\n\n**Know issues:**\nThe walk movement inside the ship is affected by server lag, because the lack of\nan interpolation method on attach function.\n  \nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\n---------------------------------------\nAirship model and textures by APercy. CC BY-SA 3.0\n\nAttribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)\nCopyright (C) 2022 Alexsandro Percy (APercy) <alexsandro.percy@gmail.com>\n\nYou are free to:\nShare — copy and redistribute the material in any medium or format.\nAdapt — remix, transform, and build upon the material for any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit, provide a link to the license, and\nindicate if changes were made. You may do so in any reasonable manner, but not in any way\nthat suggests the licensor endorses you or your use.\n\nShareAlike — If you remix, transform, or build upon the material, you must distribute\nyour contributions under the same license as the original.\n\nNo additional restrictions — You may not apply legal terms or technological measures that\nlegally restrict others from doing anything the license permits.\n\nNotices:\n\nYou do not have to comply with the license for elements of the material in the public\ndomain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary\nfor your intended use. For example, other rights such as publicity, privacy, or moral\nrights may limit how you use the material.\n\nFor more details:\nhttp://creativecommons.org/licenses/by-sa/3.0/\n\n","maintainers":["apercy"],"media_license":"CC-BY-SA-3.0","name":"ap_airship","provides":["ap_airship"],"release":29741,"repo":"https://github.com/APercy/ap_airship","score":525,"screenshots":["https://content.luanti.org/uploads/a3f3af7185.png","https://content.luanti.org/uploads/4576ea066e.jpg"],"short_description":"Adds an airship to mtg","state":"APPROVED","tags":["transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/a3f3af7185.png","title":"Airship","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/apercy/ap_airship/releases/29741/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"apercy/airutils":[],"apercy/ap_airship":[{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"wool","packages":["Noodlemire/voxeldungeon","sunnysideup/holidayhorrors","Amaz/lordofthetest","1248/castrum","Minetest/minetest_game","1248/regnum","miroptics/qiskitblocks_miro","1248/regnum2","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","bell07/whynot_game","jgordon510/gridlocks","giga-turbo/codecube","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","LibraSubtilis/minebase","rlars/occupymoon_game","PetiAPocok/minetest_extended","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"airutils","packages":["apercy/airutils","bell07/whynot_game"]},{"is_optional":false,"name":"player_api","packages":["aerkiaga/nodeverse","Hume2/minesweeper_3d","BuckarooBanzay/mesecons_lab","StarNinjas/jail_escape","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","mt-mods/driftgame","BRNSystems/blocky_portaling","xenonca/luckysweeper","Wuzzy/lazarr","1248/castrum","Thunder1035/etb","Blockhead/sotm","SuperStarSonic/reentry","Minetest/minetest_game","Hume2/boxworld3d","1248/regnum","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","jgordon510/color_block","Lone_Wolf/torrlund","KareaGhandTrail/block_assault","dibesfer/colorlandia","Casimir/voxelgarden","BuckarooBanzay/super_sam","bell07/whynot_game","xenonca/luckydude","Emojiminetest/parkour","Mantar/exile","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","Wuzzy/repixture","jgordon510/gridlocks","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","jamiebearcub/grand_theft_box","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","Astrobe/minefall","mt-mods/dreambuilder_game","EmptyStar/asuna","rubenwardy/capturetheflag"]}]},"hash":"1dgs5v0iqp1ivxgyhaki821v7x732ag6rkvck212mclayja4shix"}
+{
+  "author": "apercy",
+  "content_warnings": [],
+  "created_at": "2024-02-18T01:08:51.370712",
+  "dev_state": "WIP",
+  "donate_url": "https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY",
+  "downloads": 1671,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29247",
+  "forums": 29247,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 29789,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 29784,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Minetest 5.4 mod: Airship\n========================================\n\nThis mod implements an airship for minetest. This airship is affected by the wind. The wind better works\nwith Climate API (and with climate API you can stop it using /set_wind 0 0 )\n\nTHIS IS HIGHLY EXPERIMENTAL AND HAVE A LOT OF MISSING FEATURES. AND I KNOW IT\n\nTHE COLLISION SYSTEM IS VERY RUDIMENTARY\n\nThe fuel system isn't exists yet, so I don't recomend giving it to players yet if you put it into a server\n\n**Shortcuts:**\nforward and backward while in drive position: controls the power lever\nleft and right while in drive position: controls the direction\njump and sneak: controls the up and down movement\n\n- right click into the external stair to enter it\n- E + backward while in drive position: the machine does backward\n- E + foward while in drive position: extra power\n- right click into drive wheel to activate pilot menu\n- right click into the internal ladders to go out\n- right click into any seat to sit your player\n- the anchor only works when the airship is near stoped\n\nRemembering AGAIN, it is affected by winds, so it will need patience to learn to control\n\n**Tip:**\nDrive it gently.\nThe captain can leave the drive position to walk too\nIf a player goes timeout or logoff in flight, the airship will \"rescue\" him if no other player\nenter it, so is a good idea wait the friend at a secure place far from anyone who\nwants to enter the airship.\n\n**Special functions:**\n/external_attach_menu\n- it opens the menu to attach a plane into the airship (who watched Indiana Jones and The Last Cruzade\n  will understand)\n  to access the plane during the flight, go to the ladder at the end of the airship and right click it\n  to release the plane during the flight, use /remove_hook (BEWARE: the airship have to be moving fast\n  and the plane power have to be at 1/4 to avoid collision and death (for the plane pilot))\nThere is an option on pilot menu to activate the rescue mode. So if a plane (Supercub, Camel or Albatroz)\nwait bellow the ship belly IN FLIGHT, it will be automatically hooked after 3 seconds\n\n\n**Know issues:**\nThe walk movement inside the ship is affected by server lag, because the lack of\nan interpolation method on attach function.\n  \nLicense of source code:\nMIT (see file LICENSE) \n\nLicense of media (textures and sounds):\n---------------------------------------\nAirship model and textures by APercy. CC BY-SA 3.0\n\nAttribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)\nCopyright (C) 2022 Alexsandro Percy (APercy) <alexsandro.percy@gmail.com>\n\nYou are free to:\nShare — copy and redistribute the material in any medium or format.\nAdapt — remix, transform, and build upon the material for any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit, provide a link to the license, and\nindicate if changes were made. You may do so in any reasonable manner, but not in any way\nthat suggests the licensor endorses you or your use.\n\nShareAlike — If you remix, transform, or build upon the material, you must distribute\nyour contributions under the same license as the original.\n\nNo additional restrictions — You may not apply legal terms or technological measures that\nlegally restrict others from doing anything the license permits.\n\nNotices:\n\nYou do not have to comply with the license for elements of the material in the public\ndomain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary\nfor your intended use. For example, other rights such as publicity, privacy, or moral\nrights may limit how you use the material.\n\nFor more details:\nhttp://creativecommons.org/licenses/by-sa/3.0/\n\n",
+  "maintainers": [
+    "apercy"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "ap_airship",
+  "provides": [
+    "ap_airship"
+  ],
+  "release": 29741,
+  "repo": "https://github.com/APercy/ap_airship",
+  "score": 525,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a3f3af7185.png",
+    "https://content.luanti.org/uploads/4576ea066e.jpg"
+  ],
+  "short_description": "Adds an airship to mtg",
+  "state": "APPROVED",
+  "tags": [
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a3f3af7185.png",
+  "title": "Airship",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/apercy/ap_airship/releases/29741/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "apercy/airutils": [],
+    "apercy/ap_airship": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "wool",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Minetest/minetest_game",
+          "1248/regnum",
+          "miroptics/qiskitblocks_miro",
+          "1248/regnum2",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "bell07/whynot_game",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "LibraSubtilis/minebase",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "airutils",
+        "packages": [
+          "apercy/airutils",
+          "bell07/whynot_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "player_api",
+        "packages": [
+          "aerkiaga/nodeverse",
+          "Hume2/minesweeper_3d",
+          "BuckarooBanzay/mesecons_lab",
+          "StarNinjas/jail_escape",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "mt-mods/driftgame",
+          "BRNSystems/blocky_portaling",
+          "xenonca/luckysweeper",
+          "Wuzzy/lazarr",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "Blockhead/sotm",
+          "SuperStarSonic/reentry",
+          "Minetest/minetest_game",
+          "Hume2/boxworld3d",
+          "1248/regnum",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "jgordon510/color_block",
+          "Lone_Wolf/torrlund",
+          "KareaGhandTrail/block_assault",
+          "dibesfer/colorlandia",
+          "Casimir/voxelgarden",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "xenonca/luckydude",
+          "Emojiminetest/parkour",
+          "Mantar/exile",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "Wuzzy/repixture",
+          "jgordon510/gridlocks",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "jamiebearcub/grand_theft_box",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "Astrobe/minefall",
+          "mt-mods/dreambuilder_game",
+          "EmptyStar/asuna",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ]
+  },
+  "hash": "1dgs5v0iqp1ivxgyhaki821v7x732ag6rkvck212mclayja4shix"
+}

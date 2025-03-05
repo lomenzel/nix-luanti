@@ -1,1 +1,50 @@
-{"author":"Atlante","content_warnings":[],"created_at":"2024-09-22T05:37:33.913375","dev_state":"BETA","donate_url":null,"downloads":253,"forum_url":"https://forum.luanti.org/viewtopic.php?t=31021","forums":31021,"game_support":[],"issue_tracker":"https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file","license":"LGPL-2.1-or-later","long_description":"<h1>Players Statistics for Minetest</h1>\nDisplays player statistics in a ranked format, with metrics such as playtime, kills, messages, and more.\n<h2></h2>\n<p><strong>Statistics Plus for Minetest</strong> is a complete mod designed to track and display various player statistics in a competitive leaderboard format. This mod provides a detailed view of player performance, including:</p>\n<ul>\n    <li>Number of messages sent</li>\n    <li>Kills</li>\n    <li>Deaths</li>\n    <li>Nodes dug and placed</li>\n    <li>Items crafted</li>\n    <li><strong>Total playtime</strong></li>\n</ul>\n\n<h3>Main Features:</h3>\n<ul>\n    <li><strong>Comprehensive Player Stats:</strong> Track key statistics like kills, deaths, playtime, and more.</li>\n    <li><strong>Leaderboard Interface:</strong> A sleek and organized interface that ranks players based on different categories of stats.</li>\n    <li><strong>Tabs for Easy Navigation:</strong> Easily switch between different stats (messages, deaths, kills, mined nodes, placed nodes, crafted items, playtime) using tabs.</li>\n    <li><strong>Real-Time Updates:</strong> The leaderboard updates in real time, keeping the competition alive.</li>\n    <li><strong>Customizable Color Scheme:</strong> Top players are highlighted with different colors to distinguish them.</li>\n    <li><strong>Player-Specific Stats:</strong> Check a specific player's stats through commands in the chat interface.</li>\n</ul>\n\n<h3></h3>\n<p>This mod is ideal for servers that want to encourage competition or simply provide players with detailed feedback on their activities. It enhances player engagement by allowing them to track and compare their performance with others in real time.</p>\n\n<h3>Usage:</h3>\n<ul>\n    <li>Open the leaderboard via a /leaderboard command or get your personal stats directly with the /stats command.</li>\n    <li>Navigate the leaderboard using tabs to view rankings by different statistics.</li>\n    <li>Use chat commands to directly check the stats of a specific player.</li>\n</ul>\n","maintainers":["Atlante"],"media_license":"LGPL-2.1-or-later","name":"atl_server_statistics","provides":["atl_server_statistics"],"release":27785,"repo":"https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file","score":314.4,"screenshots":["https://content.luanti.org/uploads/39a90b9560.png","https://content.luanti.org/uploads/b6e2d79a76.png"],"short_description":"Adds in-game statistics with the /stats (player_name) command Which displays the Playtime, number of messages, kills, deaths [...]","state":"APPROVED","tags":["adventure__rpg","chat","gui","multiplayer","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/39a90b9560.png","title":"Players Statistics","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Atlante/atl_server_statistics/releases/27785/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file","dependencies":{"Atlante/atl_server_statistics":[]},"hash":"00s7qj1kjj1rx795d0d5qnkbr52rqn96hwcajw3zafyz0z54mmsf"}
+{
+  "author": "Atlante",
+  "content_warnings": [],
+  "created_at": "2024-09-22T05:37:33.913375",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 253,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31021",
+  "forums": 31021,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "<h1>Players Statistics for Minetest</h1>\nDisplays player statistics in a ranked format, with metrics such as playtime, kills, messages, and more.\n<h2></h2>\n<p><strong>Statistics Plus for Minetest</strong> is a complete mod designed to track and display various player statistics in a competitive leaderboard format. This mod provides a detailed view of player performance, including:</p>\n<ul>\n    <li>Number of messages sent</li>\n    <li>Kills</li>\n    <li>Deaths</li>\n    <li>Nodes dug and placed</li>\n    <li>Items crafted</li>\n    <li><strong>Total playtime</strong></li>\n</ul>\n\n<h3>Main Features:</h3>\n<ul>\n    <li><strong>Comprehensive Player Stats:</strong> Track key statistics like kills, deaths, playtime, and more.</li>\n    <li><strong>Leaderboard Interface:</strong> A sleek and organized interface that ranks players based on different categories of stats.</li>\n    <li><strong>Tabs for Easy Navigation:</strong> Easily switch between different stats (messages, deaths, kills, mined nodes, placed nodes, crafted items, playtime) using tabs.</li>\n    <li><strong>Real-Time Updates:</strong> The leaderboard updates in real time, keeping the competition alive.</li>\n    <li><strong>Customizable Color Scheme:</strong> Top players are highlighted with different colors to distinguish them.</li>\n    <li><strong>Player-Specific Stats:</strong> Check a specific player's stats through commands in the chat interface.</li>\n</ul>\n\n<h3></h3>\n<p>This mod is ideal for servers that want to encourage competition or simply provide players with detailed feedback on their activities. It enhances player engagement by allowing them to track and compare their performance with others in real time.</p>\n\n<h3>Usage:</h3>\n<ul>\n    <li>Open the leaderboard via a /leaderboard command or get your personal stats directly with the /stats command.</li>\n    <li>Navigate the leaderboard using tabs to view rankings by different statistics.</li>\n    <li>Use chat commands to directly check the stats of a specific player.</li>\n</ul>\n",
+  "maintainers": [
+    "Atlante"
+  ],
+  "media_license": "LGPL-2.1-or-later",
+  "name": "atl_server_statistics",
+  "provides": [
+    "atl_server_statistics"
+  ],
+  "release": 27785,
+  "repo": "https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file",
+  "score": 314.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/39a90b9560.png",
+    "https://content.luanti.org/uploads/b6e2d79a76.png"
+  ],
+  "short_description": "Adds in-game statistics with the /stats (player_name) command Which displays the Playtime, number of messages, kills, deaths [...]",
+  "state": "APPROVED",
+  "tags": [
+    "adventure__rpg",
+    "chat",
+    "gui",
+    "multiplayer",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/39a90b9560.png",
+  "title": "Players Statistics",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Atlante/atl_server_statistics/releases/27785/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/Atlante1952/atl_server_statistics?tab=readme-ov-file",
+  "dependencies": {
+    "Atlante/atl_server_statistics": []
+  },
+  "hash": "00s7qj1kjj1rx795d0d5qnkbr52rqn96hwcajw3zafyz0z54mmsf"
+}

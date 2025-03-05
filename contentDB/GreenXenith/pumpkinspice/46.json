@@ -1,1 +1,78 @@
-{"author":"GreenXenith","content_warnings":[],"created_at":"2018-05-24T00:51:17.494600","dev_state":null,"donate_url":null,"downloads":2041,"forum_url":"https://forum.luanti.org/viewtopic.php?t=18518","forums":18518,"game_support":[],"issue_tracker":"https://github.com/GreenXenith/pumpkinspice/issues/","license":"MIT","long_description":"","maintainers":["GreenXenith"],"media_license":"MIT","name":"pumpkinspice","provides":["pumpkinspice"],"release":46,"repo":"https://github.com/GreenXenith/pumpkinspice","score":153.9,"screenshots":["https://content.luanti.org/uploads/Otox1s84oI.png"],"short_description":"Adds pumpkinspice stuff.","state":"APPROVED","tags":["food","plants_and_farming","seasonal"],"thumbnail":"https://content.luanti.org/thumbnails/1/Otox1s84oI.png","title":"Pumpkinspice","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/GreenXenith/pumpkinspice/releases/46/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"GreenXenith/pumpkinspice":[{"is_optional":false,"name":"farming","packages":["Noodlemire/voxeldungeon","UnbrokenUnworn/modular_portals","Amaz/lordofthetest","1248/castrum","1248/regnum","Minetest/minetest_game","carlos_rupp/berzerkpt","TenPlus1/farming","1248/regnum2","miroptics/qiskitblocks_miro","Casimir/voxelgarden","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","bell07/whynot_game","jgordon510/gridlocks","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","mt-mods/dreambuilder_game"]}],"TenPlus1/farming":[]},"hash":"1gpjk01pwp894nhpijfpqqpqxxra76hfgaw3p2yxbsw6n1cxpqjw"}
+{
+  "author": "GreenXenith",
+  "content_warnings": [],
+  "created_at": "2018-05-24T00:51:17.494600",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2041,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=18518",
+  "forums": 18518,
+  "game_support": [],
+  "issue_tracker": "https://github.com/GreenXenith/pumpkinspice/issues/",
+  "license": "MIT",
+  "long_description": "",
+  "maintainers": [
+    "GreenXenith"
+  ],
+  "media_license": "MIT",
+  "name": "pumpkinspice",
+  "provides": [
+    "pumpkinspice"
+  ],
+  "release": 46,
+  "repo": "https://github.com/GreenXenith/pumpkinspice",
+  "score": 153.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/Otox1s84oI.png"
+  ],
+  "short_description": "Adds pumpkinspice stuff.",
+  "state": "APPROVED",
+  "tags": [
+    "food",
+    "plants_and_farming",
+    "seasonal"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/Otox1s84oI.png",
+  "title": "Pumpkinspice",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/GreenXenith/pumpkinspice/releases/46/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "GreenXenith/pumpkinspice": [
+      {
+        "is_optional": false,
+        "name": "farming",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "UnbrokenUnworn/modular_portals",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "carlos_rupp/berzerkpt",
+          "TenPlus1/farming",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "Casimir/voxelgarden",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "jgordon510/gridlocks",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "TenPlus1/farming": []
+  },
+  "hash": "1gpjk01pwp894nhpijfpqqpqxxra76hfgaw3p2yxbsw6n1cxpqjw"
+}

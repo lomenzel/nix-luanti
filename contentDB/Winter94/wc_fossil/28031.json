@@ -1,1 +1,196 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2023-03-11T02:39:26.458003","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":641,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/NodeCore-Fossils/issues/new/choose/","license":"CC0-1.0","long_description":"# NodeCore Fossil\nNew fossiliferous content for your worlds!\nPlay NodeCore as an archaeologist!\n\n# Amber\n- Amber (may or may not contain bugs)\n- Amber-Tipped Tools\n\n# Fossils\n- Sponge Fossil\n- Leaf Fossil\n- Shell Fossil\n\n# Hydrocarbons\n- Natural Gas (highly flammable)\n- Crude Oil (toxic to flora)\n\n# AFTERWORD\n- I do not add this to the game lightly. Human caused climate change is an\n- extremely serious issue. There are so many things we are doing that are\n- causing irreparable damage to the environment, and mining fossil fuels\n- is only the tip of the iceberg. If you care about future generations,\n- or animal rights, or your own health, please take notice and due anything\n- and everthing you can to reduce your carbon footprint, and help protect\n- the planet and the various organisms that we share it with. Thank You.","maintainers":["Winter94"],"media_license":"CC0-1.0","name":"wc_fossil","provides":["wc_fossil"],"release":28031,"repo":"https://github.com/wintersknight94/NodeCore-Fossils","score":6.1,"screenshots":["https://content.luanti.org/uploads/fa6c3238a3.png"],"short_description":"Discover fossils, oil, natural gas, amber, and more!","state":"APPROVED","tags":["mapgen","pve"],"thumbnail":"https://content.luanti.org/thumbnails/1/fa6c3238a3.png","title":"NodeCore Fossil","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/wc_fossil/releases/28031/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wc_fossil":[{"is_optional":false,"name":"nc_concrete","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"wc_steam","packages":["Winter94/wc_steam"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"wc_lib_resources","packages":["Winter94/wc_lib_resources"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}],"Winter94/wc_lib_resources":[{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lux","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_fire","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lode","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}],"Winter94/wc_steam":[{"is_optional":false,"name":"nc_fire","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"0cppwzanzm2lb9m70ks7fgj53s3k6pshx7hkv5zqmhl08ghskihp"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2023-03-11T02:39:26.458003",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 641,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NodeCore-Fossils/issues/new/choose/",
+  "license": "CC0-1.0",
+  "long_description": "# NodeCore Fossil\nNew fossiliferous content for your worlds!\nPlay NodeCore as an archaeologist!\n\n# Amber\n- Amber (may or may not contain bugs)\n- Amber-Tipped Tools\n\n# Fossils\n- Sponge Fossil\n- Leaf Fossil\n- Shell Fossil\n\n# Hydrocarbons\n- Natural Gas (highly flammable)\n- Crude Oil (toxic to flora)\n\n# AFTERWORD\n- I do not add this to the game lightly. Human caused climate change is an\n- extremely serious issue. There are so many things we are doing that are\n- causing irreparable damage to the environment, and mining fossil fuels\n- is only the tip of the iceberg. If you care about future generations,\n- or animal rights, or your own health, please take notice and due anything\n- and everthing you can to reduce your carbon footprint, and help protect\n- the planet and the various organisms that we share it with. Thank You.",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "wc_fossil",
+  "provides": [
+    "wc_fossil"
+  ],
+  "release": 28031,
+  "repo": "https://github.com/wintersknight94/NodeCore-Fossils",
+  "score": 6.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fa6c3238a3.png"
+  ],
+  "short_description": "Discover fossils, oil, natural gas, amber, and more!",
+  "state": "APPROVED",
+  "tags": [
+    "mapgen",
+    "pve"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fa6c3238a3.png",
+  "title": "NodeCore Fossil",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_fossil/releases/28031/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_fossil": [
+      {
+        "is_optional": false,
+        "name": "nc_concrete",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_steam",
+        "packages": [
+          "Winter94/wc_steam"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_lib_resources",
+        "packages": [
+          "Winter94/wc_lib_resources"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ],
+    "Winter94/wc_lib_resources": [
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ],
+    "Winter94/wc_steam": [
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "0cppwzanzm2lb9m70ks7fgj53s3k6pshx7hkv5zqmhl08ghskihp"
+}

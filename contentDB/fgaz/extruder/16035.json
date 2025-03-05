@@ -1,1 +1,50 @@
-{"author":"fgaz","content_warnings":[],"created_at":"2022-09-20T06:06:45.957220","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":694,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28702","forums":28702,"game_support":[],"issue_tracker":"https://todo.sr.ht/~fgaz/minetest-mods","license":"EUPL-1.2","long_description":"# Minetest Extruder Tool (`extruder`)\n\nThis [Minetest](https://minetest.net) mod adds an extruder tool that can extend or reduce continuous surfaces towards the node face that was clicked.\n\n* **Right click** (\"place\" action): extrude the clicked surface.\n* **Left click** (\"use\" action): remove the clicked surface.\n* **Right click on air** (\"secondary use\" action): open settings dialog.\n\n## Settings\n\n* **Extrusion amount**: How many nodes to extrude (or remove) on top of each node of the clicked surface.\n* **Allow overwriting**: If enabled, existing nodes other than air in the space occupied by the extrusion will be overwritten.\n* **Select through vertices (diagonally)**: If enabled, the selection will expand through vertices too. If disabled, it will expand only through sides. Here's an example. `░` is a node, `█` is the clicked node, `▓` is a selected node.\n* Disabled:\n```\n▓ ░░\n▓█\n```\n* Enabled:\n```\n▓ ▓▓\n▓█\n```\n* **Only select nodes of the same type**: If enabled, the selection will expand only through the same node. For example, if you click on wood, only wood will be extruded. If disabled, the selection will expand through any node except air.\n\n## How is it different from `//copy` from WorldEdit?\n\nGood question!\n\nWorldEdit operates on rectangular cuboids (boxes), so for example it isn't possible to extend the edge of a cylinder without also extending its contents.\n`extruder` instead operates on surfaces of any shape and size.\nIt is also remarkably easier to use, not requiring any command at all.\nOn the other hand, at the moment `extruder` can only replicate a single 1-node-thin slice of the selection.\n\n## License\n\nCode is licensed under the EUPL-1.2-or-later.\nYou can find the text of this license in the LICENSE file or in multiple languages at https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12\n\nAssets are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n","maintainers":["fgaz"],"media_license":"CC-BY-SA-4.0","name":"extruder","provides":["extruder"],"release":16035,"repo":"https://git.sr.ht/~fgaz/minetest-extruder","score":464.5,"screenshots":["https://content.luanti.org/uploads/74e94c68a1.png","https://content.luanti.org/uploads/e3cc08c3c5.png","https://content.luanti.org/uploads/d0868a47a2.png","https://content.luanti.org/uploads/cbd3c31f8e.png"],"short_description":"Adds an extruder tool that can extend continuous surfaces towards the node face that was clicked","state":"APPROVED","tags":["building_mechanics","creative","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/74e94c68a1.png","title":"Extruder Tool","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/fgaz/extruder/releases/16035/download/","video_thumbnail_url":null,"video_url":null,"website":"https://sr.ht/~fgaz/minetest-extruder/","dependencies":{"fgaz/extruder":[]},"hash":"0i9g4m0bn5vn63zqjb7xzph13ccwnxd0mk1fm5s6zqhpk3npv71h"}
+{
+  "author": "fgaz",
+  "content_warnings": [],
+  "created_at": "2022-09-20T06:06:45.957220",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 694,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28702",
+  "forums": 28702,
+  "game_support": [],
+  "issue_tracker": "https://todo.sr.ht/~fgaz/minetest-mods",
+  "license": "EUPL-1.2",
+  "long_description": "# Minetest Extruder Tool (`extruder`)\n\nThis [Minetest](https://minetest.net) mod adds an extruder tool that can extend or reduce continuous surfaces towards the node face that was clicked.\n\n* **Right click** (\"place\" action): extrude the clicked surface.\n* **Left click** (\"use\" action): remove the clicked surface.\n* **Right click on air** (\"secondary use\" action): open settings dialog.\n\n## Settings\n\n* **Extrusion amount**: How many nodes to extrude (or remove) on top of each node of the clicked surface.\n* **Allow overwriting**: If enabled, existing nodes other than air in the space occupied by the extrusion will be overwritten.\n* **Select through vertices (diagonally)**: If enabled, the selection will expand through vertices too. If disabled, it will expand only through sides. Here's an example. `░` is a node, `█` is the clicked node, `▓` is a selected node.\n* Disabled:\n```\n▓ ░░\n▓█\n```\n* Enabled:\n```\n▓ ▓▓\n▓█\n```\n* **Only select nodes of the same type**: If enabled, the selection will expand only through the same node. For example, if you click on wood, only wood will be extruded. If disabled, the selection will expand through any node except air.\n\n## How is it different from `//copy` from WorldEdit?\n\nGood question!\n\nWorldEdit operates on rectangular cuboids (boxes), so for example it isn't possible to extend the edge of a cylinder without also extending its contents.\n`extruder` instead operates on surfaces of any shape and size.\nIt is also remarkably easier to use, not requiring any command at all.\nOn the other hand, at the moment `extruder` can only replicate a single 1-node-thin slice of the selection.\n\n## License\n\nCode is licensed under the EUPL-1.2-or-later.\nYou can find the text of this license in the LICENSE file or in multiple languages at https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12\n\nAssets are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n",
+  "maintainers": [
+    "fgaz"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "extruder",
+  "provides": [
+    "extruder"
+  ],
+  "release": 16035,
+  "repo": "https://git.sr.ht/~fgaz/minetest-extruder",
+  "score": 464.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/74e94c68a1.png",
+    "https://content.luanti.org/uploads/e3cc08c3c5.png",
+    "https://content.luanti.org/uploads/d0868a47a2.png",
+    "https://content.luanti.org/uploads/cbd3c31f8e.png"
+  ],
+  "short_description": "Adds an extruder tool that can extend continuous surfaces towards the node face that was clicked",
+  "state": "APPROVED",
+  "tags": [
+    "building_mechanics",
+    "creative",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/74e94c68a1.png",
+  "title": "Extruder Tool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/fgaz/extruder/releases/16035/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://sr.ht/~fgaz/minetest-extruder/",
+  "dependencies": {
+    "fgaz/extruder": []
+  },
+  "hash": "0i9g4m0bn5vn63zqjb7xzph13ccwnxd0mk1fm5s6zqhpk3npv71h"
+}

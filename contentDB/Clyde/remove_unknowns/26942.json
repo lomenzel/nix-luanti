@@ -1,1 +1,46 @@
-{"author":"Clyde","content_warnings":[],"created_at":"2022-04-02T03:16:06.455287","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1731,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27937","forums":27937,"game_support":[],"issue_tracker":"https://github.com/acmgit/remove_unknowns/issues/new/choose/","license":"GPL-3.0-only","long_description":"# remove_unknowns\nMinetestmod to remove unknown nodes in Mass\n\n## Description\nRemove unknowns is a small mod for minetest, to clean a world from unknown nodes.\nEverbody knows the scenario, a mod on your game gives up to work and you have to\nremove it from your minetest world.\n\nOften you see after the remove of this world the feared \"UNKNOWN NODE\"s. Sometimes\nthey are in Blue, sometimes they are in red, but doesn't matter what color they have,\nthey are unwanted.\n\nWhat now to do? In Minetest itself isn't a function to remove all this blocks from the world. This has a\ngood reason why, because, if you temporarly remove the mod and install it a small time later again, the \nblocks aren't unknown and you have lost nothing.\n\nThe  MT-Engine itself don't know, is this a really unknown block or is it only temporarly unknown, so is the\nbetter way to not touch this blocks.\n\nBut whats now, the mod will not more installed agains? The blocks are here and should be removed from the world.\nOf course, there exists some mods to remove this blocks, but, either they are fast and remove sometimes not all blocks or they are slow, costs some ressources for the server but cleans the world as best.\n\nAn alias to this blocks could also be a solution, but if you forget to set an alias to some of these blocks, you\nhave to insert the block in your list of alias and have to restart the server.\n\nA Problem, some solutions, but now, there comes a new solution: remove_unknowns.\n\n## remove_unknowns\n\nis a little mod which inserts a new chatcommand named: /ru <Unknown Node> for remove unknowns.\nThis command tries to swap all \"Unknown Nodenames\" to air in an given Radius.\n\n/ru show_radius shows you the current radius.\n/ru set_radius set's a new radius. Values between 1 and 75 possible. Don't try to set it higher, the mod will not work.\n/ru version shows you  the current version of remove unknowns.\n\n## For Admins\n\nThis should be a little and fast help for you, to remove fast unknown nodes, without to restart the server.\nAlso, the command brings the privileg unknown_killer, so you can grant to execute the command to player of your trust.\nBecause, the mod can removes unknown blocks, they have names like existing blocks. In  Fact, in a time they were existings blocks. So you or a player can remove valid blocks too, so please take care.\nThere are a second function, with /ru unknown_node node, you can replace unknown_nodes to node.\nI do not take any responsibility in case of destruction of a building or world.\n\n## License\n\nGPL 3.0\n\n## Depends\n\nnothing\n","maintainers":["Clyde"],"media_license":"CC-BY-3.0","name":"remove_unknowns","provides":["remove_unknowns"],"release":26942,"repo":"https://github.com/acmgit/remove_unknowns","score":161.9,"screenshots":["https://content.luanti.org/uploads/8872b73e7d.png"],"short_description":"A small tool to help you clean up your world of unknown-blocks.","state":"APPROVED","tags":["chat","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/8872b73e7d.png","title":"Remove Unknowns","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Clyde/remove_unknowns/releases/26942/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Clyde/remove_unknowns":[]},"hash":"0n1ghgncqs7b8a9g5w9ajp07n0p613f7gf9f6i0wk7gjkc9dpl89"}
+{
+  "author": "Clyde",
+  "content_warnings": [],
+  "created_at": "2022-04-02T03:16:06.455287",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1731,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27937",
+  "forums": 27937,
+  "game_support": [],
+  "issue_tracker": "https://github.com/acmgit/remove_unknowns/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "# remove_unknowns\nMinetestmod to remove unknown nodes in Mass\n\n## Description\nRemove unknowns is a small mod for minetest, to clean a world from unknown nodes.\nEverbody knows the scenario, a mod on your game gives up to work and you have to\nremove it from your minetest world.\n\nOften you see after the remove of this world the feared \"UNKNOWN NODE\"s. Sometimes\nthey are in Blue, sometimes they are in red, but doesn't matter what color they have,\nthey are unwanted.\n\nWhat now to do? In Minetest itself isn't a function to remove all this blocks from the world. This has a\ngood reason why, because, if you temporarly remove the mod and install it a small time later again, the \nblocks aren't unknown and you have lost nothing.\n\nThe  MT-Engine itself don't know, is this a really unknown block or is it only temporarly unknown, so is the\nbetter way to not touch this blocks.\n\nBut whats now, the mod will not more installed agains? The blocks are here and should be removed from the world.\nOf course, there exists some mods to remove this blocks, but, either they are fast and remove sometimes not all blocks or they are slow, costs some ressources for the server but cleans the world as best.\n\nAn alias to this blocks could also be a solution, but if you forget to set an alias to some of these blocks, you\nhave to insert the block in your list of alias and have to restart the server.\n\nA Problem, some solutions, but now, there comes a new solution: remove_unknowns.\n\n## remove_unknowns\n\nis a little mod which inserts a new chatcommand named: /ru <Unknown Node> for remove unknowns.\nThis command tries to swap all \"Unknown Nodenames\" to air in an given Radius.\n\n/ru show_radius shows you the current radius.\n/ru set_radius set's a new radius. Values between 1 and 75 possible. Don't try to set it higher, the mod will not work.\n/ru version shows you  the current version of remove unknowns.\n\n## For Admins\n\nThis should be a little and fast help for you, to remove fast unknown nodes, without to restart the server.\nAlso, the command brings the privileg unknown_killer, so you can grant to execute the command to player of your trust.\nBecause, the mod can removes unknown blocks, they have names like existing blocks. In  Fact, in a time they were existings blocks. So you or a player can remove valid blocks too, so please take care.\nThere are a second function, with /ru unknown_node node, you can replace unknown_nodes to node.\nI do not take any responsibility in case of destruction of a building or world.\n\n## License\n\nGPL 3.0\n\n## Depends\n\nnothing\n",
+  "maintainers": [
+    "Clyde"
+  ],
+  "media_license": "CC-BY-3.0",
+  "name": "remove_unknowns",
+  "provides": [
+    "remove_unknowns"
+  ],
+  "release": 26942,
+  "repo": "https://github.com/acmgit/remove_unknowns",
+  "score": 161.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/8872b73e7d.png"
+  ],
+  "short_description": "A small tool to help you clean up your world of unknown-blocks.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8872b73e7d.png",
+  "title": "Remove Unknowns",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Clyde/remove_unknowns/releases/26942/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Clyde/remove_unknowns": []
+  },
+  "hash": "0n1ghgncqs7b8a9g5w9ajp07n0p613f7gf9f6i0wk7gjkc9dpl89"
+}

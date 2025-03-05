@@ -1,1 +1,88 @@
-{"author":"ApolloX","content_warnings":[],"created_at":"2022-01-26T00:11:17.629690","dev_state":null,"donate_url":null,"downloads":1405,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Beanzilla/climb_glove/issues","license":"LGPL-2.1-or-later","long_description":"Adds magic gloves which allow you to climb up on things\n\n## What's in the box\n- 2 pairs of gloves (one requires you to be pointing at nodes or entities, the other doesn't require anything)\n- Supports Minetest Game and Mineclone (2, 5 & Mineclonia)\n\n## How to climb\nWith a basic glove just look at say some nodes (like a tree), then just rapidly click the punch key (left mouse button by default).\n\n> The only difference between the basic glove and advanced glove is that the advanced doesn't need you looking at anything.\n\n## Credits\n- I thank the author of [climbing_pick](https://github.com/AndrejIT/climbing_pick) for the general idea.\n- I thank the author of [tardis_new](https://github.com/PiDemon/Taridis_New) for the concept of the glove textures, which I modified.\n","maintainers":["ApolloX"],"media_license":"CC-BY-SA-3.0","name":"climb_glove","provides":["climb_glove"],"release":25358,"repo":"https://github.com/Beanzilla/climb_glove","score":159.1,"screenshots":["https://content.luanti.org/uploads/989061f6c9.png","https://content.luanti.org/uploads/796a8476c8.png"],"short_description":"A magic glove which allows you to punch nodes to travel vertically.","state":"APPROVED","tags":["player_effects","tools","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/989061f6c9.png","title":"Climb Glove","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ApolloX/climb_glove/releases/25358/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ApolloX/climb_glove":[]},"hash":"0f9054pcczjxa9jg5zz2z85rwswixqf3g1facgd6gsx9k40rla2j"}
+{
+  "author": "ApolloX",
+  "content_warnings": [],
+  "created_at": "2022-01-26T00:11:17.629690",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1405,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Beanzilla/climb_glove/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "Adds magic gloves which allow you to climb up on things\n\n## What's in the box\n- 2 pairs of gloves (one requires you to be pointing at nodes or entities, the other doesn't require anything)\n- Supports Minetest Game and Mineclone (2, 5 & Mineclonia)\n\n## How to climb\nWith a basic glove just look at say some nodes (like a tree), then just rapidly click the punch key (left mouse button by default).\n\n> The only difference between the basic glove and advanced glove is that the advanced doesn't need you looking at anything.\n\n## Credits\n- I thank the author of [climbing_pick](https://github.com/AndrejIT/climbing_pick) for the general idea.\n- I thank the author of [tardis_new](https://github.com/PiDemon/Taridis_New) for the concept of the glove textures, which I modified.\n",
+  "maintainers": [
+    "ApolloX"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "climb_glove",
+  "provides": [
+    "climb_glove"
+  ],
+  "release": 25358,
+  "repo": "https://github.com/Beanzilla/climb_glove",
+  "score": 159.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/989061f6c9.png",
+    "https://content.luanti.org/uploads/796a8476c8.png"
+  ],
+  "short_description": "A magic glove which allows you to punch nodes to travel vertically.",
+  "state": "APPROVED",
+  "tags": [
+    "player_effects",
+    "tools",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/989061f6c9.png",
+  "title": "Climb Glove",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ApolloX/climb_glove/releases/25358/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ApolloX/climb_glove": []
+  },
+  "hash": "0f9054pcczjxa9jg5zz2z85rwswixqf3g1facgd6gsx9k40rla2j"
+}

@@ -1,1 +1,45 @@
-{"author":"OgelGames","content_warnings":[],"created_at":"2024-05-20T05:32:51.197651","dev_state":"BETA","donate_url":null,"downloads":11971,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/OgelGames/fakelib/issues","license":"MIT","long_description":"This mod is a code library for creating fake userdata (players, inventories and metadata), replicating their functionality as closely as possible.\n\n---\n\n### Usage\n\nSimply add `fakelib` to your mod's dependencies, and call any of the API functions from your code.\n\nSee [API.md](https://github.com/OgelGames/fakelib/blob/master/API.md) for detailed documentation.","maintainers":["OgelGames"],"media_license":"MIT","name":"fakelib","provides":["fakelib"],"release":25144,"repo":"https://github.com/OgelGames/fakelib","score":248.8,"screenshots":["https://content.luanti.org/uploads/54fc9d4e11.png"],"short_description":"Fake userdata library","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/54fc9d4e11.png","title":"FakeLib","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/OgelGames/fakelib/releases/25144/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"OgelGames/fakelib":[]},"hash":"0ykwcdshpcvc5gbca7svjl6wypsmmhf6zpm880f85ksq60jp974q"}
+{
+  "author": "OgelGames",
+  "content_warnings": [],
+  "created_at": "2024-05-20T05:32:51.197651",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 11971,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/OgelGames/fakelib/issues",
+  "license": "MIT",
+  "long_description": "This mod is a code library for creating fake userdata (players, inventories and metadata), replicating their functionality as closely as possible.\n\n---\n\n### Usage\n\nSimply add `fakelib` to your mod's dependencies, and call any of the API functions from your code.\n\nSee [API.md](https://github.com/OgelGames/fakelib/blob/master/API.md) for detailed documentation.",
+  "maintainers": [
+    "OgelGames"
+  ],
+  "media_license": "MIT",
+  "name": "fakelib",
+  "provides": [
+    "fakelib"
+  ],
+  "release": 25144,
+  "repo": "https://github.com/OgelGames/fakelib",
+  "score": 248.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/54fc9d4e11.png"
+  ],
+  "short_description": "Fake userdata library",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/54fc9d4e11.png",
+  "title": "FakeLib",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/OgelGames/fakelib/releases/25144/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "OgelGames/fakelib": []
+  },
+  "hash": "0ykwcdshpcvc5gbca7svjl6wypsmmhf6zpm880f85ksq60jp974q"
+}

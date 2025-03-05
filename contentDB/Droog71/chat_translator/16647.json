@@ -1,1 +1,48 @@
-{"author":"Droog71","content_warnings":[],"created_at":"2021-12-22T18:51:04.848898","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":465,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27600","forums":27600,"game_support":[],"issue_tracker":"https://github.com/Droog71/chat_translator/issues","license":"AGPL-3.0-or-later","long_description":"Chat Translator\n===============\n\nChat Translator uses <a href=\"https://github.com/LibreTranslate/LibreTranslate\">LibreTranslate</a> to translate chat messages in Minetest.</br>\nIn order to use this mod, LibreTranslate will need to be installed and running on your</br>\nMinetest server. LibreTranslate can be installed and started with a single command:</br>\n\"docker run -ti --rm -p 5000:5000 libretranslate/libretranslate\"</br>\nAlternative installation methods can be found here: <a href=\"https://github.com/LibreTranslate/LibreTranslate/blob/main/README.md#install-and-run\">LibreTranslate Installation</a></br>\n\nIn order to run Chat Translator, you will also need to add the mod to your</br>\ntrusted mods list. To do so, click on the 'Settings' tab in the main menu.</br>\nClick the 'All Settings' button and in the search bar, enter 'trusted'. </br>\nClick the 'Edit' button and add 'chat_translator' to the list.</br>\n\nOnce everything is installed and running, Chat Translator will attempt to translate all chat</br>\nmessages sent on your server. The language in which each player receives messages is</br>\ndetermined by the language selected in the Minetest settings menu.</br>\n\n<img src=\"https://i.imgur.com/qlRfMM9.png\" alt=\"Chat Translator\" width=\"600\" height=\"338\"></br>\nIn this image, the player in the upper right corner sent a message in English.</br>\nOn the upper left, the message is translated to Spanish. On the lower left,</br>\nthe message is received in German and on the bottom right, the message is</br>\ndisplayed in French.</br>\n","maintainers":["Droog71"],"media_license":"AGPL-3.0-or-later","name":"chat_translator","provides":["chat_translator"],"release":16647,"repo":"https://github.com/Droog71/chat_translator.git","score":154,"screenshots":["https://content.luanti.org/uploads/9228aa67cb.png"],"short_description":"Translates chat messages in Minetest using LibreTranslate.","state":"APPROVED","tags":["chat","complex_installation","multiplayer","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/9228aa67cb.png","title":"Chat Translator","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Droog71/chat_translator/releases/16647/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Droog71/chat_translator":[]},"hash":"1v5yc0pdm5wggczp7k9naimzhh98qgpd5rwlqz72klk4xy6l8v17"}
+{
+  "author": "Droog71",
+  "content_warnings": [],
+  "created_at": "2021-12-22T18:51:04.848898",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 465,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27600",
+  "forums": 27600,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Droog71/chat_translator/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "Chat Translator\n===============\n\nChat Translator uses <a href=\"https://github.com/LibreTranslate/LibreTranslate\">LibreTranslate</a> to translate chat messages in Minetest.</br>\nIn order to use this mod, LibreTranslate will need to be installed and running on your</br>\nMinetest server. LibreTranslate can be installed and started with a single command:</br>\n\"docker run -ti --rm -p 5000:5000 libretranslate/libretranslate\"</br>\nAlternative installation methods can be found here: <a href=\"https://github.com/LibreTranslate/LibreTranslate/blob/main/README.md#install-and-run\">LibreTranslate Installation</a></br>\n\nIn order to run Chat Translator, you will also need to add the mod to your</br>\ntrusted mods list. To do so, click on the 'Settings' tab in the main menu.</br>\nClick the 'All Settings' button and in the search bar, enter 'trusted'. </br>\nClick the 'Edit' button and add 'chat_translator' to the list.</br>\n\nOnce everything is installed and running, Chat Translator will attempt to translate all chat</br>\nmessages sent on your server. The language in which each player receives messages is</br>\ndetermined by the language selected in the Minetest settings menu.</br>\n\n<img src=\"https://i.imgur.com/qlRfMM9.png\" alt=\"Chat Translator\" width=\"600\" height=\"338\"></br>\nIn this image, the player in the upper right corner sent a message in English.</br>\nOn the upper left, the message is translated to Spanish. On the lower left,</br>\nthe message is received in German and on the bottom right, the message is</br>\ndisplayed in French.</br>\n",
+  "maintainers": [
+    "Droog71"
+  ],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "chat_translator",
+  "provides": [
+    "chat_translator"
+  ],
+  "release": 16647,
+  "repo": "https://github.com/Droog71/chat_translator.git",
+  "score": 154,
+  "screenshots": [
+    "https://content.luanti.org/uploads/9228aa67cb.png"
+  ],
+  "short_description": "Translates chat messages in Minetest using LibreTranslate.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "complex_installation",
+    "multiplayer",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/9228aa67cb.png",
+  "title": "Chat Translator",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Droog71/chat_translator/releases/16647/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Droog71/chat_translator": []
+  },
+  "hash": "1v5yc0pdm5wggczp7k9naimzhh98qgpd5rwlqz72klk4xy6l8v17"
+}

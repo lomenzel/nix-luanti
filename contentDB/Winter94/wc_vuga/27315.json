@@ -1,1 +1,124 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2023-03-10T21:19:32.790483","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":396,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/NC-Vuga/issues/new/choose/","license":"GPL-3.0-or-later","long_description":"# NC-Vuga\nGenerates various vuga underground.\nTry it with and without 'Nodecore Crystals' (\"wc_crystals\")\n\nUses code from \nhttps://content.minetest.net/packages/AwesomeDragon97/geodes/\nby AwesomeDragon97\n\n","maintainers":["Winter94"],"media_license":"GPL-3.0-or-later","name":"wc_vuga","provides":["wc_vuga"],"release":27315,"repo":"https://github.com/wintersknight94/NC-Vuga","score":2.8,"screenshots":["https://content.luanti.org/uploads/6ceadf00c4.png","https://content.luanti.org/uploads/d640e8e156.png","https://content.luanti.org/uploads/149c56c0c4.png"],"short_description":"Generates Vuga Underground.","state":"APPROVED","tags":["building","mapgen"],"thumbnail":"https://content.luanti.org/thumbnails/1/6ceadf00c4.png","title":"NodeCore Vuga","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/wc_vuga/releases/27315/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wc_vuga":[{"is_optional":false,"name":"nc_lode","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_igneous","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lux","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"105ixx991c5dqahdxm3vk0xdf8s4sl6ysq5yd21mkrzr460kxb5p"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2023-03-10T21:19:32.790483",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 396,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NC-Vuga/issues/new/choose/",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# NC-Vuga\nGenerates various vuga underground.\nTry it with and without 'Nodecore Crystals' (\"wc_crystals\")\n\nUses code from \nhttps://content.minetest.net/packages/AwesomeDragon97/geodes/\nby AwesomeDragon97\n\n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "wc_vuga",
+  "provides": [
+    "wc_vuga"
+  ],
+  "release": 27315,
+  "repo": "https://github.com/wintersknight94/NC-Vuga",
+  "score": 2.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6ceadf00c4.png",
+    "https://content.luanti.org/uploads/d640e8e156.png",
+    "https://content.luanti.org/uploads/149c56c0c4.png"
+  ],
+  "short_description": "Generates Vuga Underground.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "mapgen"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6ceadf00c4.png",
+  "title": "NodeCore Vuga",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_vuga/releases/27315/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_vuga": [
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_igneous",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "105ixx991c5dqahdxm3vk0xdf8s4sl6ysq5yd21mkrzr460kxb5p"
+}

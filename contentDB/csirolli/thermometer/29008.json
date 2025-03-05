@@ -1,1 +1,104 @@
-{"author":"csirolli","content_warnings":[],"created_at":"2024-12-19T20:27:20.327783","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://account.venmo.com/u/csirolli","downloads":45,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":false}],"issue_tracker":"https://codeberg.org/csirolli/luanti_thermometer/issues","license":"LGPL-2.1-only","long_description":"# thermometer\n\nA thermometer to check the temperature. Put it on a wall to check the temperature of that position. Put it inside a chest or your inventory to track its temperature.\n\nTemperature is affected by nearby nodes, some nodes generate heat, others absorb heat. This is true for your inventory too. Put ice or snow in a chest to keep the temperature down. If you put torches or lava inside a chest, the temperature will rise.\n\nThis borrows a couple of functions from tempsurvive, but will use tempsurvive if it is enabled and expand its list of nodes.\n\nThis mod is meant to be used with other mods that utilize temperature, such as for preserving food or keeping the player warm. See API.md for information about the API.\n\n## Crafting\n\nThe craft recipe depends on which mods are installed.\n\nIt is preferred to have farming redo installed, to make use of ethanol. Alternatively, you can use basic_materials to use paraffin instead. If you also have the bottles mod from the bottles modpack with basic_materials, you can create a bottle of paraffin to use instead. If you don't enable any of these, it will use the glass_bottle from the mcl_potions or vessels mod.\n\nYou also need red dye to dye the bottle. It can take the red dye from dye or mcl_dyes.\n\nFor the board of the thermometer, it uses group:sign, adding default:sign_wall_wood and default:sign_wall_steel to the group. This is compatible with the signs_lib and MCL mods, as well as any other mod that adds signs with group:sign.\n\nTo seal the bottle you need a quartz crystal from the mod quartz, mcl_nether, or everness (quartz mod is preferred). If you are missing those, you can use vessels:glass_fragments.\n\n## Settings\n\nThere is one setting for toggling the usage of Celsius (checked) or Fahrenheit (unchecked). This option is set to checked by default.\n\n## License\n\nCode is licensed under LGPL-2.1 by csirolli with some code by AiTechEye (also under LGPL-2.1). The texture (vessels_glass_bottle_mask.png) is licensed under CC-BY-SA-3.0 by VanessaE, from the bottles mod from the bottles modpack.\n","maintainers":["csirolli"],"media_license":"CC-BY-SA-3.0","name":"thermometer","provides":["thermometer"],"release":29008,"repo":"https://codeberg.org/csirolli/luanti_thermometer.git","score":4.9,"screenshots":["https://content.luanti.org/uploads/d6cd33bb6e.png","https://content.luanti.org/uploads/37088be268.png","https://content.luanti.org/uploads/16a0ffb711.png"],"short_description":"A thermometer to check the temperature","state":"APPROVED","tags":["crafting","environment","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/d6cd33bb6e.png","title":"Thermometer","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/csirolli/thermometer/releases/29008/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"csirolli/thermometer":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"mt-mods/xcompat":[]},"hash":"0zdn7nr03g33aywns59mkds7q7q7x2p4mi31kz9ad5qw47dvcx2d"}
+{
+  "author": "csirolli",
+  "content_warnings": [],
+  "created_at": "2024-12-19T20:27:20.327783",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://account.venmo.com/u/csirolli",
+  "downloads": 45,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/csirolli/luanti_thermometer/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "# thermometer\n\nA thermometer to check the temperature. Put it on a wall to check the temperature of that position. Put it inside a chest or your inventory to track its temperature.\n\nTemperature is affected by nearby nodes, some nodes generate heat, others absorb heat. This is true for your inventory too. Put ice or snow in a chest to keep the temperature down. If you put torches or lava inside a chest, the temperature will rise.\n\nThis borrows a couple of functions from tempsurvive, but will use tempsurvive if it is enabled and expand its list of nodes.\n\nThis mod is meant to be used with other mods that utilize temperature, such as for preserving food or keeping the player warm. See API.md for information about the API.\n\n## Crafting\n\nThe craft recipe depends on which mods are installed.\n\nIt is preferred to have farming redo installed, to make use of ethanol. Alternatively, you can use basic_materials to use paraffin instead. If you also have the bottles mod from the bottles modpack with basic_materials, you can create a bottle of paraffin to use instead. If you don't enable any of these, it will use the glass_bottle from the mcl_potions or vessels mod.\n\nYou also need red dye to dye the bottle. It can take the red dye from dye or mcl_dyes.\n\nFor the board of the thermometer, it uses group:sign, adding default:sign_wall_wood and default:sign_wall_steel to the group. This is compatible with the signs_lib and MCL mods, as well as any other mod that adds signs with group:sign.\n\nTo seal the bottle you need a quartz crystal from the mod quartz, mcl_nether, or everness (quartz mod is preferred). If you are missing those, you can use vessels:glass_fragments.\n\n## Settings\n\nThere is one setting for toggling the usage of Celsius (checked) or Fahrenheit (unchecked). This option is set to checked by default.\n\n## License\n\nCode is licensed under LGPL-2.1 by csirolli with some code by AiTechEye (also under LGPL-2.1). The texture (vessels_glass_bottle_mask.png) is licensed under CC-BY-SA-3.0 by VanessaE, from the bottles mod from the bottles modpack.\n",
+  "maintainers": [
+    "csirolli"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "thermometer",
+  "provides": [
+    "thermometer"
+  ],
+  "release": 29008,
+  "repo": "https://codeberg.org/csirolli/luanti_thermometer.git",
+  "score": 4.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d6cd33bb6e.png",
+    "https://content.luanti.org/uploads/37088be268.png",
+    "https://content.luanti.org/uploads/16a0ffb711.png"
+  ],
+  "short_description": "A thermometer to check the temperature",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "environment",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d6cd33bb6e.png",
+  "title": "Thermometer",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/csirolli/thermometer/releases/29008/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "csirolli/thermometer": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/xcompat": []
+  },
+  "hash": "0zdn7nr03g33aywns59mkds7q7q7x2p4mi31kz9ad5qw47dvcx2d"
+}

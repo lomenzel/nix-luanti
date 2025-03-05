@@ -1,1 +1,54 @@
-{"author":"LissoBone","content_warnings":["horror"],"created_at":"2023-01-10T05:21:48.300857","dev_state":"WIP","donate_url":null,"downloads":428,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"GPL-3.0-or-later","long_description":"# NucleoTest is a battle royale-like game in Minetest.\nNot an actual game, really.  For now it's just an API that allows to make games that follow certain rules.  One such game has been assembled by me as a reference (nucleotest-game).\n\nWhat is NucleoTest, anyways?\nWhen the game starts, the participants are (usually) randomly and uniformly scattered across the map.  You are given a geiger counter (do not throw it away!), which helps you detect the dangerous radiation.  The damage effect is accumulative, so it gets more servere the more you stay in the fallout cloud.  Kill others on sight with whatever weapon you have.  The map shrinks every so often.  Last survivor wins.\n\nNote: there is NO WARRANTY.  I am not responsible for your computer transforming into a cute catboy or a fish tank.  This program is distributed with hope that someone will find it useful.","maintainers":["LissoBone"],"media_license":"CC-BY-SA-4.0","name":"nucleotest","provides":["nucleotest_api","nucleotest_game","nucleotest_loot"],"release":16475,"repo":null,"score":5.2,"screenshots":["https://content.luanti.org/uploads/d86845ec17.png","https://content.luanti.org/uploads/90af20808b.png"],"short_description":"Battle Royale-like game. Provides an API and a reference implementation. Highly radioactive. Work in progress.","state":"APPROVED","tags":["library","mini-game","multiplayer","pve","pvp"],"thumbnail":"https://content.luanti.org/thumbnails/1/d86845ec17.png","title":"NucleoTest","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/LissoBone/nucleotest/releases/16475/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"LissoBone/nucleotest":[]},"hash":"0kgxn369vdz8a8fvydi52y0yrjcjla6lca0gmgdqb5g479vmkrbs"}
+{
+  "author": "LissoBone",
+  "content_warnings": [
+    "horror"
+  ],
+  "created_at": "2023-01-10T05:21:48.300857",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 428,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "GPL-3.0-or-later",
+  "long_description": "# NucleoTest is a battle royale-like game in Minetest.\nNot an actual game, really.  For now it's just an API that allows to make games that follow certain rules.  One such game has been assembled by me as a reference (nucleotest-game).\n\nWhat is NucleoTest, anyways?\nWhen the game starts, the participants are (usually) randomly and uniformly scattered across the map.  You are given a geiger counter (do not throw it away!), which helps you detect the dangerous radiation.  The damage effect is accumulative, so it gets more servere the more you stay in the fallout cloud.  Kill others on sight with whatever weapon you have.  The map shrinks every so often.  Last survivor wins.\n\nNote: there is NO WARRANTY.  I am not responsible for your computer transforming into a cute catboy or a fish tank.  This program is distributed with hope that someone will find it useful.",
+  "maintainers": [
+    "LissoBone"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "nucleotest",
+  "provides": [
+    "nucleotest_api",
+    "nucleotest_game",
+    "nucleotest_loot"
+  ],
+  "release": 16475,
+  "repo": null,
+  "score": 5.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d86845ec17.png",
+    "https://content.luanti.org/uploads/90af20808b.png"
+  ],
+  "short_description": "Battle Royale-like game. Provides an API and a reference implementation. Highly radioactive. Work in progress.",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "mini-game",
+    "multiplayer",
+    "pve",
+    "pvp"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d86845ec17.png",
+  "title": "NucleoTest",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/LissoBone/nucleotest/releases/16475/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "LissoBone/nucleotest": []
+  },
+  "hash": "0kgxn369vdz8a8fvydi52y0yrjcjla6lca0gmgdqb5g479vmkrbs"
+}

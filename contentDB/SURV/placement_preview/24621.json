@@ -1,45 +1,45 @@
 {
-    "author": "SURV",
-    "content_warnings": [],
-    "created_at": "2024-03-27T10:31:22.453719",
-    "dev_state": "ACTIVELY_DEVELOPED",
-    "donate_url": "https://ko-fi.com/kingtheguy",
-    "downloads": 1411,
-    "forum_url": null,
-    "forums": null,
-    "game_support": [],
-    "issue_tracker": "https://github.com/KingTheGuy/placement_preview/issues",
-    "license": "MIT",
-    "long_description": "![sample-gif](https://github.com/KingTheGuy/placement_preview/blob/master/repo-assets/crunchy.gif?raw=true)\n\n----\nShows an in world placement preview of the item held in hand\n\n_Hold `sneak` for more orientations_\n\nplayer commands/settings: _/placement_preview_ **help**\nsettings include:\n\n* smooth movement\n* only preview stairs and slabs\n* disable/enable preview\n\nOriginally this mod was intended to only preview stairs/slab placement (toggle with commands)\n\n\n----\n_1.0.5 CHANGELOG:_\n\n  * by default only slabs and stairs will preview (can be toggled with command)\n  * removed mtg dependency\n  * bug fixes (setting: _only_stairs_slabs_, was causing a crash)\n\n_1.0.4 CHANGELOG:_\n\n  * new animation after placing node/block (great for when placing \"blocks\" quickly)\n  * fixed crafting table placement (mcl)\n  * actually fixed door placement (80% sure)\n  * slightly changed slab placing (still need a bit more work)\n\n_1.0.3 CHANGELOG:_\n\n  * fixed doors and workbench placement\n\n_1.0.2 CHANGELOG:_\n\n  * per player settings (using commands)\n  * support for placement of inner and outer stairs\n  * bug fixes\n\n_1.0.1 CHANGELOG:_\n\n  * double slab preview\n  * better node orientation\n  * preview on buildable_to\n  * added more compatibility \n\n_note for devs_: if you want a node to preview like stairs, add \"stairs\" somewhere in the node's name or description (i may create an api for this at some point)",
-    "maintainers": [
-        "SURV"
-    ],
-    "media_license": "MIT",
-    "name": "placement_preview",
-    "provides": [
-        "placement_preview"
-    ],
-    "release": 24621,
-    "repo": "https://github.com/KingTheGuy/placement_preview",
-    "score": 1090.6,
-    "screenshots": [
-        "https://content.luanti.org/uploads/b248819b86.png"
-    ],
-    "short_description": "shows a preview with orientation of the node the player is holding.",
-    "state": "APPROVED",
-    "tags": [
-        "building_mechanics"
-    ],
-    "thumbnail": "https://content.luanti.org/thumbnails/1/b248819b86.png",
-    "title": "Placement Preview",
-    "translation_url": null,
-    "type": "mod",
-    "url": "https://content.luanti.org/packages/SURV/placement_preview/releases/24621/download/",
-    "video_thumbnail_url": null,
-    "video_url": null,
-    "website": null,
-    "dependencies": {
-        "SURV/placement_preview": []
-    },
-    "hash": "1fv14v0dkk6albhhs00afh1wsc22jljw4wxdckvvkx952nagn0h5"
+  "author": "SURV",
+  "content_warnings": [],
+  "created_at": "2024-03-27T10:31:22.453719",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://ko-fi.com/kingtheguy",
+  "downloads": 1411,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/KingTheGuy/placement_preview/issues",
+  "license": "MIT",
+  "long_description": "![sample-gif](https://github.com/KingTheGuy/placement_preview/blob/master/repo-assets/crunchy.gif?raw=true)\n\n----\nShows an in world placement preview of the item held in hand\n\n_Hold `sneak` for more orientations_\n\nplayer commands/settings: _/placement_preview_ **help**\nsettings include:\n\n* smooth movement\n* only preview stairs and slabs\n* disable/enable preview\n\nOriginally this mod was intended to only preview stairs/slab placement (toggle with commands)\n\n\n----\n_1.0.5 CHANGELOG:_\n\n  * by default only slabs and stairs will preview (can be toggled with command)\n  * removed mtg dependency\n  * bug fixes (setting: _only_stairs_slabs_, was causing a crash)\n\n_1.0.4 CHANGELOG:_\n\n  * new animation after placing node/block (great for when placing \"blocks\" quickly)\n  * fixed crafting table placement (mcl)\n  * actually fixed door placement (80% sure)\n  * slightly changed slab placing (still need a bit more work)\n\n_1.0.3 CHANGELOG:_\n\n  * fixed doors and workbench placement\n\n_1.0.2 CHANGELOG:_\n\n  * per player settings (using commands)\n  * support for placement of inner and outer stairs\n  * bug fixes\n\n_1.0.1 CHANGELOG:_\n\n  * double slab preview\n  * better node orientation\n  * preview on buildable_to\n  * added more compatibility \n\n_note for devs_: if you want a node to preview like stairs, add \"stairs\" somewhere in the node's name or description (i may create an api for this at some point)",
+  "maintainers": [
+    "SURV"
+  ],
+  "media_license": "MIT",
+  "name": "placement_preview",
+  "provides": [
+    "placement_preview"
+  ],
+  "release": 24621,
+  "repo": "https://github.com/KingTheGuy/placement_preview",
+  "score": 1090.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/b248819b86.png"
+  ],
+  "short_description": "shows a preview with orientation of the node the player is holding.",
+  "state": "APPROVED",
+  "tags": [
+    "building_mechanics"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b248819b86.png",
+  "title": "Placement Preview",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SURV/placement_preview/releases/24621/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SURV/placement_preview": []
+  },
+  "hash": "1fv14v0dkk6albhhs00afh1wsc22jljw4wxdckvvkx952nagn0h5"
 }

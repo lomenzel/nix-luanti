@@ -1,1 +1,86 @@
-{"author":"jwmhjwmh","content_warnings":[],"created_at":"2021-07-30T13:40:11.898627","dev_state":"AS_IS","donate_url":null,"downloads":1038,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27102","forums":27102,"game_support":[],"issue_tracker":"https://github.com/TurkeyMcMac/shifter_tool/issues/","license":"LGPL-3.0-or-later","long_description":"This mod implements a tool for shifting nodes as with the pistons from Mesecons. It uses the API of `mesecons_mvps`, meaning that it is quite compatible with other mods (the API is widely used.)\n\nTo push a node, left-click the face you want to push while wielding the shifter. To pull the node, right-click the face instead.\n\n(If you want to move nodes quicker, a good choice is [![ContentDB](https://content.minetest.net/packages/ApolloX/teleporter_tool/shields/title/)](https://content.minetest.net/packages/ApolloX/teleporter_tool/).)\n\nThe tool can be crafted when the right ingredients are available, i.e. in Minetest Game (with `mesecons_pistons`) or MineClone 2:\n\n```\nP\nPS\n S\n\nP = sticky piston\nS = stick\n```","maintainers":["jwmhjwmh"],"media_license":"CC-BY-SA-3.0","name":"shifter_tool","provides":["shifter_tool"],"release":11882,"repo":"https://github.com/TurkeyMcMac/shifter_tool/","score":4.9,"screenshots":["https://content.luanti.org/uploads/3d938fee49.png"],"short_description":"Adds a tool for moving nodes as pistons would","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/3d938fee49.png","title":"Shifter Tool","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/jwmhjwmh/shifter_tool/releases/11882/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Jeija/mesecons":[],"jwmhjwmh/shifter_tool":[{"is_optional":false,"name":"mesecons","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","nam/porko","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","Thunder1035/pacman","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_mvps","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","Wuzzy/mineclone2","BRNSystems/blocky_portaling","zanderdev/skyblock_zero","1248/regnum","1248/regnum2","Kimapr/nonsensical_skyblock","Jeija/mesecons","bell07/whynot_game","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]}]},"hash":"0qvxxyz4nimdq0piv8jv41ybgyvm9r2jq16n01bmra8l9pyc04cg"}
+{
+  "author": "jwmhjwmh",
+  "content_warnings": [],
+  "created_at": "2021-07-30T13:40:11.898627",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 1038,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27102",
+  "forums": 27102,
+  "game_support": [],
+  "issue_tracker": "https://github.com/TurkeyMcMac/shifter_tool/issues/",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "This mod implements a tool for shifting nodes as with the pistons from Mesecons. It uses the API of `mesecons_mvps`, meaning that it is quite compatible with other mods (the API is widely used.)\n\nTo push a node, left-click the face you want to push while wielding the shifter. To pull the node, right-click the face instead.\n\n(If you want to move nodes quicker, a good choice is [![ContentDB](https://content.minetest.net/packages/ApolloX/teleporter_tool/shields/title/)](https://content.minetest.net/packages/ApolloX/teleporter_tool/).)\n\nThe tool can be crafted when the right ingredients are available, i.e. in Minetest Game (with `mesecons_pistons`) or MineClone 2:\n\n```\nP\nPS\n S\n\nP = sticky piston\nS = stick\n```",
+  "maintainers": [
+    "jwmhjwmh"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "shifter_tool",
+  "provides": [
+    "shifter_tool"
+  ],
+  "release": 11882,
+  "repo": "https://github.com/TurkeyMcMac/shifter_tool/",
+  "score": 4.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3d938fee49.png"
+  ],
+  "short_description": "Adds a tool for moving nodes as pistons would",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3d938fee49.png",
+  "title": "Shifter Tool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/jwmhjwmh/shifter_tool/releases/11882/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/mesecons": [],
+    "jwmhjwmh/shifter_tool": [
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "Thunder1035/pacman",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_mvps",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "zanderdev/skyblock_zero",
+          "1248/regnum",
+          "1248/regnum2",
+          "Kimapr/nonsensical_skyblock",
+          "Jeija/mesecons",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0qvxxyz4nimdq0piv8jv41ybgyvm9r2jq16n01bmra8l9pyc04cg"
+}

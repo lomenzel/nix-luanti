@@ -1,1 +1,122 @@
-{"author":"biochemist","content_warnings":[],"created_at":"2022-09-04T22:40:21.371956","dev_state":"BETA","donate_url":null,"downloads":1651,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/TheBiochemic/mcl-rubber/issues","license":"GPL-3.0-only","long_description":"# Rubber Addon for MineClone\nby Biochemist\n\n## Features\n- Adds a new Rubber Tree to the World, that you can find\n- This tree can be cut down, and made into Planks, Stairs and Slabs\n- some Stuff can be made from it too\n- You can craft the treetap, a block, that can be attached to rubber trees to harvest their resource: rubber resin\n- the rubber resin then can be put in the furnace, and made into different things\n- one of these things are the rubber boots: they reduce the amount of fall damage you receive by 60%\n- another use is making a rubber block out of it. This block acts like a trampoline and also negates fall damage completely\n\n## Notes\n- it is a mod designed to run with MineClone2 and MineClone5, and extends it's gameplay, it is also not really designed as a standalone mod, but an enhancement to other tech related mods.\n- if you want to make sure, that your mod is compatible with this one, you can just use *group:rubber* in your crafting recipes for one piece of rubber.\n- it also uses an internal library, that will be split of eventually, but for now it's part of it; One less dependency to worry about for you.\n\nHave fun and enjoy!","maintainers":["biochemist"],"media_license":"GPL-3.0-only","name":"mcl_rubber","provides":["mcl_rubber"],"release":17864,"repo":"https://github.com/TheBiochemic/mcl-rubber","score":161.1,"screenshots":["https://content.luanti.org/uploads/6630f200bc.png","https://content.luanti.org/uploads/92e7f935d4.png","https://content.luanti.org/uploads/717963ff8a.png"],"short_description":"Adds rubber and related Items to MineClone.","state":"APPROVED","tags":["mapgen","plants_and_farming","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/6630f200bc.png","title":"Rubber Addon for MineClone","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/biochemist/mcl_rubber/releases/17864/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"biochemist/mcl_rubber":[{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_stairs","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_fences","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"1jcnqkf3znpz0vljwi8rbyarfxmfdig7d84k9i4yqz0vy085vgxy"}
+{
+  "author": "biochemist",
+  "content_warnings": [],
+  "created_at": "2022-09-04T22:40:21.371956",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1651,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/TheBiochemic/mcl-rubber/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "# Rubber Addon for MineClone\nby Biochemist\n\n## Features\n- Adds a new Rubber Tree to the World, that you can find\n- This tree can be cut down, and made into Planks, Stairs and Slabs\n- some Stuff can be made from it too\n- You can craft the treetap, a block, that can be attached to rubber trees to harvest their resource: rubber resin\n- the rubber resin then can be put in the furnace, and made into different things\n- one of these things are the rubber boots: they reduce the amount of fall damage you receive by 60%\n- another use is making a rubber block out of it. This block acts like a trampoline and also negates fall damage completely\n\n## Notes\n- it is a mod designed to run with MineClone2 and MineClone5, and extends it's gameplay, it is also not really designed as a standalone mod, but an enhancement to other tech related mods.\n- if you want to make sure, that your mod is compatible with this one, you can just use *group:rubber* in your crafting recipes for one piece of rubber.\n- it also uses an internal library, that will be split of eventually, but for now it's part of it; One less dependency to worry about for you.\n\nHave fun and enjoy!",
+  "maintainers": [
+    "biochemist"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "mcl_rubber",
+  "provides": [
+    "mcl_rubber"
+  ],
+  "release": 17864,
+  "repo": "https://github.com/TheBiochemic/mcl-rubber",
+  "score": 161.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6630f200bc.png",
+    "https://content.luanti.org/uploads/92e7f935d4.png",
+    "https://content.luanti.org/uploads/717963ff8a.png"
+  ],
+  "short_description": "Adds rubber and related Items to MineClone.",
+  "state": "APPROVED",
+  "tags": [
+    "mapgen",
+    "plants_and_farming",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6630f200bc.png",
+  "title": "Rubber Addon for MineClone",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/biochemist/mcl_rubber/releases/17864/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "biochemist/mcl_rubber": [
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_stairs",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_fences",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1jcnqkf3znpz0vljwi8rbyarfxmfdig7d84k9i4yqz0vy085vgxy"
+}

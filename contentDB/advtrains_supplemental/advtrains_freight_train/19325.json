@@ -1,1 +1,72 @@
-{"author":"advtrains_supplemental","content_warnings":[],"created_at":"2023-01-14T20:35:52.969886","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1757,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://codeberg.org/advtrains_supplemental/advtrains_freight_train/issues","license":"CC-BY-SA-3.0","long_description":"# AdvTrains Freight Train Pack\n\nThis freight train pack adds 4 more types of freight wagons to the\ngame as well as a slower diesel locomotive. All of the wagons and the locomotive\nare recoverable - they drop themselves instead of steel. The recoverability and\nslow speed of the locomotive have earned it the nickname of \"shunter\".\n\nThe wagons types included are:\n\n* Track wagon\n* Lava wagon\n* Gravel wagon\n* Tree wagon\n\nThe wagons also have a higher capacity of 48 compared to the standard 24\ninventory slots. However, their speed limit is also slower, being only 10 m/s\n(36 km/h).\n\n[View this mod at the Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_freight_train:start)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n    * models/*\n    * textures/advtrains\\_wagon\\_*\n    * textures/advtrains\\_engine\\_diesel.b3d\n* Portions of code (C) 2018, 2020 Smacker\n* Art assets by Smacker:\n    * sounds/advtrains\\_engine\\_diesel\\_horn.ogg\n    * textures/advtrains\\_engine\\_diesel\\_inv.png\n* Portions of code (C) 2023 Blockhead\n* textures/advtrains\\_engine\\_diesel\\_livery modified by gpcf 2020, again by\nBlockhead 2023\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n* Diesel locomotive inventory image, Horn sound: Added by Smacker\n* Livery features: Added by gpcf, improved by Blockhead\n\n\nThe original art was done by mbb. Major improvements, including the diesel\nlocomotive inventory icon, smoke improvements, trainee seat and the horn are\nby Smacker, who has also done code maintenance on the mod.\n\nMore recently gpcf added livery features from his work on the JRE-E231 modpack\nand Blockhead modified it to produce better colours.\n","maintainers":["advtrains_supplemental","Blockhead","W3RQ01"],"media_license":"CC-BY-SA-3.0","name":"advtrains_freight_train","provides":["advtrains_freight_train"],"release":19325,"repo":"https://codeberg.org/advtrains_supplemental/advtrains_freight_train","score":14.2,"screenshots":["https://content.luanti.org/uploads/3581e4181f.png","https://content.luanti.org/uploads/b5182ca512.png"],"short_description":"Adds a set of freight wagons and a lightweight locomotive for AdvTrains","state":"APPROVED","tags":["simulation","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/3581e4181f.png","title":"Advtrains Freight Train","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/advtrains_supplemental/advtrains_freight_train/releases/19325/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"advtrains_supplemental/advtrains_freight_train":[{"is_optional":false,"name":"advtrains","packages":["orwell/advtrains"]}],"orwell/advtrains":[]},"hash":"09z36a4ranhrsr9pvi28b3n9dq20iiyhmmspjk1pfz9nh9h5yl4g"}
+{
+  "author": "advtrains_supplemental",
+  "content_warnings": [],
+  "created_at": "2023-01-14T20:35:52.969886",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1757,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/advtrains_supplemental/advtrains_freight_train/issues",
+  "license": "CC-BY-SA-3.0",
+  "long_description": "# AdvTrains Freight Train Pack\n\nThis freight train pack adds 4 more types of freight wagons to the\ngame as well as a slower diesel locomotive. All of the wagons and the locomotive\nare recoverable - they drop themselves instead of steel. The recoverability and\nslow speed of the locomotive have earned it the nickname of \"shunter\".\n\nThe wagons types included are:\n\n* Track wagon\n* Lava wagon\n* Gravel wagon\n* Tree wagon\n\nThe wagons also have a higher capacity of 48 compared to the standard 24\ninventory slots. However, their speed limit is also slower, being only 10 m/s\n(36 km/h).\n\n[View this mod at the Train Catalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:advtrains_freight_train:start)\n\n## License\n\n* Original code and assets copyright (C) 2017 MBB\n    * models/*\n    * textures/advtrains\\_wagon\\_*\n    * textures/advtrains\\_engine\\_diesel.b3d\n* Portions of code (C) 2018, 2020 Smacker\n* Art assets by Smacker:\n    * sounds/advtrains\\_engine\\_diesel\\_horn.ogg\n    * textures/advtrains\\_engine\\_diesel\\_inv.png\n* Portions of code (C) 2023 Blockhead\n* textures/advtrains\\_engine\\_diesel\\_livery modified by gpcf 2020, again by\nBlockhead 2023\n\nThis software and its assets are licensed under the Creative Commons\nShareAlike-Attribution License 3.0 (CC BY-SA 3.0); see LICENSE.txt for details.\n\n## Credits\n\n* Original Author: MBB\n* Contributions by: Blockhead\n* Diesel locomotive inventory image, Horn sound: Added by Smacker\n* Livery features: Added by gpcf, improved by Blockhead\n\n\nThe original art was done by mbb. Major improvements, including the diesel\nlocomotive inventory icon, smoke improvements, trainee seat and the horn are\nby Smacker, who has also done code maintenance on the mod.\n\nMore recently gpcf added livery features from his work on the JRE-E231 modpack\nand Blockhead modified it to produce better colours.\n",
+  "maintainers": [
+    "advtrains_supplemental",
+    "Blockhead",
+    "W3RQ01"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "advtrains_freight_train",
+  "provides": [
+    "advtrains_freight_train"
+  ],
+  "release": 19325,
+  "repo": "https://codeberg.org/advtrains_supplemental/advtrains_freight_train",
+  "score": 14.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3581e4181f.png",
+    "https://content.luanti.org/uploads/b5182ca512.png"
+  ],
+  "short_description": "Adds a set of freight wagons and a lightweight locomotive for AdvTrains",
+  "state": "APPROVED",
+  "tags": [
+    "simulation",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3581e4181f.png",
+  "title": "Advtrains Freight Train",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/advtrains_supplemental/advtrains_freight_train/releases/19325/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "advtrains_supplemental/advtrains_freight_train": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": [
+          "orwell/advtrains"
+        ]
+      }
+    ],
+    "orwell/advtrains": []
+  },
+  "hash": "09z36a4ranhrsr9pvi28b3n9dq20iiyhmmspjk1pfz9nh9h5yl4g"
+}

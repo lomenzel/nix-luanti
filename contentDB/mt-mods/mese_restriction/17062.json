@@ -1,1 +1,230 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2023-02-14T02:07:28.667850","dev_state":null,"donate_url":null,"downloads":511,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/mt-historical/mese_restriction/issues","license":"MIT","long_description":"Many mesecons nodes can only be placed by players with the mesemaker priv.","maintainers":["mt-mods"],"media_license":"MIT","name":"mese_restriction","provides":["mese_restriction"],"release":17062,"repo":"https://github.com/mt-historical/mese_restriction","score":7.5,"screenshots":["https://content.luanti.org/uploads/3bf64e70ec.png"],"short_description":"Minetest mod: restrict mesecons use to priv","state":"APPROVED","tags":["server_tools","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/3bf64e70ec.png","title":"Mese Restriction","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/mese_restriction/releases/17062/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Jeija/mesecons":[],"mt-mods/mese_restriction":[{"is_optional":false,"name":"mesecons_gates","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_hydroturbine","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_pistons","packages":["Noodlemire/voxeldungeon","BuckarooBanzay/mesecons_lab","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_commandblock","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","PetiAPocok/minetest_extended","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_luacontroller","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_delayer","packages":["Noodlemire/voxeldungeon","BuckarooBanzay/mesecons_lab","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_noteblock","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","bell07/whynot_game","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_microcontroller","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_detector","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","PetiAPocok/minetest_extended","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_movestones","packages":["Noodlemire/voxeldungeon","BuckarooBanzay/mesecons_lab","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"mesecons_blinkyplant","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","bell07/whynot_game","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]}]},"hash":"044xn4n6yrss4fhl7wva6nw3mgbca38rpap2w4pdhyzbq5i50h69"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2023-02-14T02:07:28.667850",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 511,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-historical/mese_restriction/issues",
+  "license": "MIT",
+  "long_description": "Many mesecons nodes can only be placed by players with the mesemaker priv.",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "MIT",
+  "name": "mese_restriction",
+  "provides": [
+    "mese_restriction"
+  ],
+  "release": 17062,
+  "repo": "https://github.com/mt-historical/mese_restriction",
+  "score": 7.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3bf64e70ec.png"
+  ],
+  "short_description": "Minetest mod: restrict mesecons use to priv",
+  "state": "APPROVED",
+  "tags": [
+    "server_tools",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3bf64e70ec.png",
+  "title": "Mese Restriction",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/mese_restriction/releases/17062/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/mesecons": [],
+    "mt-mods/mese_restriction": [
+      {
+        "is_optional": false,
+        "name": "mesecons_gates",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_hydroturbine",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_pistons",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "BuckarooBanzay/mesecons_lab",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_commandblock",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_luacontroller",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_delayer",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "BuckarooBanzay/mesecons_lab",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_noteblock",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_microcontroller",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_detector",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_movestones",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "BuckarooBanzay/mesecons_lab",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons_blinkyplant",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "044xn4n6yrss4fhl7wva6nw3mgbca38rpap2w4pdhyzbq5i50h69"
+}

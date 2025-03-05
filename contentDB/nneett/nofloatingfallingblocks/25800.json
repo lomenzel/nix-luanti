@@ -1,1 +1,73 @@
-{"author":"nneett","content_warnings":[],"created_at":"2024-07-05T01:33:01.193656","dev_state":"AS_IS","donate_url":null,"downloads":105,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"(aka No Floating Falling Blocks)\n\nThis mod ensures that falling blocks like sand and gravel will not remain floating for long. It works with any game that has gravity blocks.\n\n## Features\n- Ensures gravity blocks don't remain floating\n- Compatible with any Minetest game featuring gravity blocks\n- No dependencies or complexities","maintainers":["nneett"],"media_license":"MIT","name":"nofloatingfallingblocks","provides":["nofloatingfallingblocks"],"release":25800,"repo":null,"score":3.3,"screenshots":["https://content.luanti.org/uploads/7cabf06639.png"],"short_description":"Registers an abm to not leave falling blocks floating","state":"APPROVED","tags":["environment","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/7cabf06639.png","title":"No Floating Gravity Blocks","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/nneett/nofloatingfallingblocks/releases/25800/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"nneett/nofloatingfallingblocks":[]},"hash":"08x382ii5awg3217dn0yg2vm1kxd844z8j0bvm270cpw7h72v5jg"}
+{
+  "author": "nneett",
+  "content_warnings": [],
+  "created_at": "2024-07-05T01:33:01.193656",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 105,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "(aka No Floating Falling Blocks)\n\nThis mod ensures that falling blocks like sand and gravel will not remain floating for long. It works with any game that has gravity blocks.\n\n## Features\n- Ensures gravity blocks don't remain floating\n- Compatible with any Minetest game featuring gravity blocks\n- No dependencies or complexities",
+  "maintainers": [
+    "nneett"
+  ],
+  "media_license": "MIT",
+  "name": "nofloatingfallingblocks",
+  "provides": [
+    "nofloatingfallingblocks"
+  ],
+  "release": 25800,
+  "repo": null,
+  "score": 3.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7cabf06639.png"
+  ],
+  "short_description": "Registers an abm to not leave falling blocks floating",
+  "state": "APPROVED",
+  "tags": [
+    "environment",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7cabf06639.png",
+  "title": "No Floating Gravity Blocks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/nneett/nofloatingfallingblocks/releases/25800/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "nneett/nofloatingfallingblocks": []
+  },
+  "hash": "08x382ii5awg3217dn0yg2vm1kxd844z8j0bvm270cpw7h72v5jg"
+}

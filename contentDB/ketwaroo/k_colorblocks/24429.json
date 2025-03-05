@@ -1,1 +1,90 @@
-{"author":"ketwaroo","content_warnings":[],"created_at":"2024-01-29T04:37:25.949276","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":384,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/ketwaroo/minetest-k-colorblocks/issues","license":"GPL-3.0-or-later","long_description":"# What this does\n\nThis mod add stainable blocks for creative mode.\n\nIf you want to relax and play with pseudo Legos for a while or want your kids to leave you alone for a few hours.\n\nI made this mod because my kids requested it. Built in dyes didn't quite cover the range that the minetest engine can deliver.\nAnd unifieddyes exists, and while pretty nice, has a different problem where the the palette index 0 would stain everything slightly pink.\nThe implementation felt a little clunky to me and so I came my with my even clunkier one.\n\nCurrently supports only one palette with 15 grey values and 240 color values split into 12 hues. Each hue has 10 full saturation with scaled luminance and the remaining ten are lower saturation. It's not a palette that evenly splits all RGB colours into 256 but rather colours that are subjectively fun to paint with.\n\nOpen an issue if you have suggestions or find a bug.\n\n# Features and Usage\n\nRequires creative mode to be able to access the Colouring Wand and blocks.\n\n * Colors are numerically coded to easily find which one you last used instead of eyeballing it.\n * Conveniently shows active colour of pointed thing if any. Also shows actively selected colour and aux colour if any.\n * Double click to pick a colour instead of clicking `OK` each time on the form for a more relaxed experience.\n * \"Continuous firing\", behaves like a real paint brush and don't have to click each node separately. \n * Comes with a plain white and a textured quartz block off-white node as a neutral base for staining thing. There is a glowing and non glowing variant of each.\n    * Also comes with about 24 tinted plain blocks in glowing and non glowing variant. Theses can be use to further overlay another tint to create even more variety.\n    * And on top of that, translucent variants and connected glass blocks. So a lot to play with. If we get ray tracing in this engine, this will look not half bad.\n * Auxiliary colour - You can pick 2 colours to paint with at a time.\n    * After selecting second color, click the `Aux` button to set it.\n    * Hold `aux1` button while dragging tool across surface to use aux colour.\n    * Typical usage for this would have `aux` be palette index `0` which is white. This can serve as undo feature so you don't have to switch back and forth between the colour you want and `0` if you make mistakes.\n * Setting to automatically register certain nodes as stainable, more or less safely.\n    * See `k_colorblocks.autoregister_nodes` setting. Disabled by default\n    * Works in [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) and default game to some extent\n        * Concrete blocks, slabs, and powder\n        * Terracotta patterns\n        * wools and carpets.\n        * snow and ice. kind of.\n    * iNSaNiTy MODE (new in 1.0.2)\n        * Attempts to make everything colourable.\n        * EXPERIMENTAL. WILL PROBABLY BREAK SOME THINGS.\n        * See `k_colorblocks.iNSaNiTy` setting. Disabled by default. Overrides `k_colorblocks.autoregister_nodes` if enabled.\n    * Auto registration of nodes (both safe and insanity mode) does not work with nodes which are already using `param2` and `paramtype2` for different purposes. such as rotation values for beds and stair blocks.\n * Brush radius (new in 1.0.3)\n    * Main/Aux colours can have separate brush radius.\n    * Brush radius attempts to colour a square in the same flat 2D plane along the punched face of targeted node. Does not wrap around uneven surfaces for now.\n        * radius 0 = 1 node dot, radius 1 = 3x3 square, radius 2 = 5x5 square, radius n = (2n+1)x(2n+1) square, up to radius 9 = 19x19 square\n * Pointed Thing Texture Preview (new in 1.0.4)\n    * Attempts to show what the target node texture will look like with selected palette. Useful in insanity mode or when using a non white base.\n\nPlace stainable blocks in whatever configuration you fancy, right click with the wand to show the color picker, pick a color and click OK or just double-click on the color tile, and paint away.\n\nStained blocks retain their tint when you dig them again so you can prepare a swatch of colored blocks before hand and then build your imagination without having to tweak color each time.\n\n# License\n\nsee `LICENSE` file.\n\nCode is under [GPL 3.0 or Later](https://spdx.org/licenses/GPL-3.0-or-later.html).\n\nThe textures for the quartz block were lifted from [mineclonia](https://codeberg.org/mineclonia/mineclonia), which is using [pixelperfection](https://www.planetminecraft.com/texture_pack/131pixel-perfection/) texture pack, so the media license for those textures is [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/).\n\nAll other textures and media created by me, including palette files, are also licensed [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/).\n","maintainers":["ketwaroo"],"media_license":"CC-BY-SA-4.0","name":"k_colorblocks","provides":["k_colorblocks"],"release":24429,"repo":"https://github.com/ketwaroo/minetest-k-colorblocks","score":9.9,"screenshots":["https://content.luanti.org/uploads/1516e145a8.png","https://content.luanti.org/uploads/b39ff93a50.png","https://content.luanti.org/uploads/4147b3f1ac.png","https://content.luanti.org/uploads/d61ec0550d.png"],"short_description":"Adds specific stainable blocks for building stuff in creative mode. Comes with a rainbow wand for applying the tints.","state":"APPROVED","tags":["building","creative","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/1516e145a8.png","title":"K Color Blocks","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ketwaroo/k_colorblocks/releases/24429/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ketwaroo/k_colorblocks":[]},"hash":"1g0khwn7209bvvk8wg1fscqjyrkjm7rg0fygljhc3n848lagb1zv"}
+{
+  "author": "ketwaroo",
+  "content_warnings": [],
+  "created_at": "2024-01-29T04:37:25.949276",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 384,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/ketwaroo/minetest-k-colorblocks/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# What this does\n\nThis mod add stainable blocks for creative mode.\n\nIf you want to relax and play with pseudo Legos for a while or want your kids to leave you alone for a few hours.\n\nI made this mod because my kids requested it. Built in dyes didn't quite cover the range that the minetest engine can deliver.\nAnd unifieddyes exists, and while pretty nice, has a different problem where the the palette index 0 would stain everything slightly pink.\nThe implementation felt a little clunky to me and so I came my with my even clunkier one.\n\nCurrently supports only one palette with 15 grey values and 240 color values split into 12 hues. Each hue has 10 full saturation with scaled luminance and the remaining ten are lower saturation. It's not a palette that evenly splits all RGB colours into 256 but rather colours that are subjectively fun to paint with.\n\nOpen an issue if you have suggestions or find a bug.\n\n# Features and Usage\n\nRequires creative mode to be able to access the Colouring Wand and blocks.\n\n * Colors are numerically coded to easily find which one you last used instead of eyeballing it.\n * Conveniently shows active colour of pointed thing if any. Also shows actively selected colour and aux colour if any.\n * Double click to pick a colour instead of clicking `OK` each time on the form for a more relaxed experience.\n * \"Continuous firing\", behaves like a real paint brush and don't have to click each node separately. \n * Comes with a plain white and a textured quartz block off-white node as a neutral base for staining thing. There is a glowing and non glowing variant of each.\n    * Also comes with about 24 tinted plain blocks in glowing and non glowing variant. Theses can be use to further overlay another tint to create even more variety.\n    * And on top of that, translucent variants and connected glass blocks. So a lot to play with. If we get ray tracing in this engine, this will look not half bad.\n * Auxiliary colour - You can pick 2 colours to paint with at a time.\n    * After selecting second color, click the `Aux` button to set it.\n    * Hold `aux1` button while dragging tool across surface to use aux colour.\n    * Typical usage for this would have `aux` be palette index `0` which is white. This can serve as undo feature so you don't have to switch back and forth between the colour you want and `0` if you make mistakes.\n * Setting to automatically register certain nodes as stainable, more or less safely.\n    * See `k_colorblocks.autoregister_nodes` setting. Disabled by default\n    * Works in [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) and default game to some extent\n        * Concrete blocks, slabs, and powder\n        * Terracotta patterns\n        * wools and carpets.\n        * snow and ice. kind of.\n    * iNSaNiTy MODE (new in 1.0.2)\n        * Attempts to make everything colourable.\n        * EXPERIMENTAL. WILL PROBABLY BREAK SOME THINGS.\n        * See `k_colorblocks.iNSaNiTy` setting. Disabled by default. Overrides `k_colorblocks.autoregister_nodes` if enabled.\n    * Auto registration of nodes (both safe and insanity mode) does not work with nodes which are already using `param2` and `paramtype2` for different purposes. such as rotation values for beds and stair blocks.\n * Brush radius (new in 1.0.3)\n    * Main/Aux colours can have separate brush radius.\n    * Brush radius attempts to colour a square in the same flat 2D plane along the punched face of targeted node. Does not wrap around uneven surfaces for now.\n        * radius 0 = 1 node dot, radius 1 = 3x3 square, radius 2 = 5x5 square, radius n = (2n+1)x(2n+1) square, up to radius 9 = 19x19 square\n * Pointed Thing Texture Preview (new in 1.0.4)\n    * Attempts to show what the target node texture will look like with selected palette. Useful in insanity mode or when using a non white base.\n\nPlace stainable blocks in whatever configuration you fancy, right click with the wand to show the color picker, pick a color and click OK or just double-click on the color tile, and paint away.\n\nStained blocks retain their tint when you dig them again so you can prepare a swatch of colored blocks before hand and then build your imagination without having to tweak color each time.\n\n# License\n\nsee `LICENSE` file.\n\nCode is under [GPL 3.0 or Later](https://spdx.org/licenses/GPL-3.0-or-later.html).\n\nThe textures for the quartz block were lifted from [mineclonia](https://codeberg.org/mineclonia/mineclonia), which is using [pixelperfection](https://www.planetminecraft.com/texture_pack/131pixel-perfection/) texture pack, so the media license for those textures is [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/).\n\nAll other textures and media created by me, including palette files, are also licensed [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/).\n",
+  "maintainers": [
+    "ketwaroo"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "k_colorblocks",
+  "provides": [
+    "k_colorblocks"
+  ],
+  "release": 24429,
+  "repo": "https://github.com/ketwaroo/minetest-k-colorblocks",
+  "score": 9.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1516e145a8.png",
+    "https://content.luanti.org/uploads/b39ff93a50.png",
+    "https://content.luanti.org/uploads/4147b3f1ac.png",
+    "https://content.luanti.org/uploads/d61ec0550d.png"
+  ],
+  "short_description": "Adds specific stainable blocks for building stuff in creative mode. Comes with a rainbow wand for applying the tints.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "creative",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1516e145a8.png",
+  "title": "K Color Blocks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ketwaroo/k_colorblocks/releases/24429/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ketwaroo/k_colorblocks": []
+  },
+  "hash": "1g0khwn7209bvvk8wg1fscqjyrkjm7rg0fygljhc3n848lagb1zv"
+}

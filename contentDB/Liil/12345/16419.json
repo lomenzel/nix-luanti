@@ -1,1 +1,73 @@
-{"author":"Liil","content_warnings":[],"created_at":"2021-01-13T09:11:06.112189","dev_state":null,"donate_url":null,"downloads":9128,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26024","forums":26024,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Skandarella/Wilhelmines-Texture-Pack/issues/new/choose/","license":"GPL-3.0-only","long_description":"Wilhelmines Texture Pack – Inspired by the colors of Nature!\n\nA new Texture Pack for the lovers of natural colors and landscapes.\n\nWhen you open the main folder of the texture pack, you can now find a folder with sub-folders for optional grass side heights. Just copy them over the files in the main folder to activate your preferred height.\n\n(Partially) supported mods:\n\n-PaleoTest\n-Water Life\n- Xocean\n-Farming\n-Nether\n-Spears\n-Bows\n-3D Armor\n\nUpdate 1.6\n\n-Corrected Ethereal Support (New texture names)\n\nUpdate 1.5:\n\nBetter coloured beds, ladders, some mobs_redo textures, improved flowing fluid textures (Lava, Water) Complete new water texture, but kept in old style.\n\nUpdate 1.4:\n\n-Updated Nether Support\n-Reworked Nether Textures\n-Added textures for Chests\n\nUpdate 1.3:\n\nAdded textures for Doors, Trapdoors, Glass and Fences\n\nUpdate 1.2:\n\n-Added Spears Support\n-Added Bows Support\n-Added 3D Armor Support\n-Added textures for Default Tools\n\nUpdate 1.1:\n\n-Added Ethereal Support\n-Changed Obsidian Textures\n-Updated Farming Support\n\nUpdate 1.62\n\n-Some basic texture changes\n-Sharpened specific textures and added shadows to litter sides for more depth\n\n","maintainers":["Liil"],"media_license":"GPL-3.0-only","name":"12345","provides":[],"release":16419,"repo":"https://github.com/Skandarella/Wilhelmines-Texture-Pack.git","score":802.4,"screenshots":["https://content.luanti.org/uploads/lQ3ZWpWlGo.png","https://content.luanti.org/uploads/21277300ec.png","https://content.luanti.org/uploads/52fcc408a3.png","https://content.luanti.org/uploads/4caa119ddc.png","https://content.luanti.org/uploads/fF82jFn7Gh.jpg","https://content.luanti.org/uploads/I4Fk6vWj1T.jpg","https://content.luanti.org/uploads/Hp9xup6YWM.jpg","https://content.luanti.org/uploads/8cWR4qJ3AT.jpg","https://content.luanti.org/uploads/fBL3d4wLf3.jpg","https://content.luanti.org/uploads/VbfNPogOdP.jpg","https://content.luanti.org/uploads/pnO193vB79.jpg","https://content.luanti.org/uploads/G1WiQ4UaIM.jpg","https://content.luanti.org/uploads/LePEUnFh7l.jpg","https://content.luanti.org/uploads/d874c19cf2.png","https://content.luanti.org/uploads/d33734567f.png","https://content.luanti.org/uploads/57115a7aba.png","https://content.luanti.org/uploads/f9660e3af6.png"],"short_description":"Wilhelmines Texture Pack – Inspired by the colors of Nature!","state":"APPROVED","tags":["16px"],"thumbnail":"https://content.luanti.org/thumbnails/1/lQ3ZWpWlGo.png","title":"Wilhelmines Texture Pack","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/Liil/12345/releases/16419/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Liil/12345":[]},"hash":"1a1wxz8b03z454ghk3d2zn5fd66w1kdllhmi1hd1wjvj7xxn916k"}
+{
+  "author": "Liil",
+  "content_warnings": [],
+  "created_at": "2021-01-13T09:11:06.112189",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 9128,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26024",
+  "forums": 26024,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Skandarella/Wilhelmines-Texture-Pack/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "Wilhelmines Texture Pack – Inspired by the colors of Nature!\n\nA new Texture Pack for the lovers of natural colors and landscapes.\n\nWhen you open the main folder of the texture pack, you can now find a folder with sub-folders for optional grass side heights. Just copy them over the files in the main folder to activate your preferred height.\n\n(Partially) supported mods:\n\n-PaleoTest\n-Water Life\n- Xocean\n-Farming\n-Nether\n-Spears\n-Bows\n-3D Armor\n\nUpdate 1.6\n\n-Corrected Ethereal Support (New texture names)\n\nUpdate 1.5:\n\nBetter coloured beds, ladders, some mobs_redo textures, improved flowing fluid textures (Lava, Water) Complete new water texture, but kept in old style.\n\nUpdate 1.4:\n\n-Updated Nether Support\n-Reworked Nether Textures\n-Added textures for Chests\n\nUpdate 1.3:\n\nAdded textures for Doors, Trapdoors, Glass and Fences\n\nUpdate 1.2:\n\n-Added Spears Support\n-Added Bows Support\n-Added 3D Armor Support\n-Added textures for Default Tools\n\nUpdate 1.1:\n\n-Added Ethereal Support\n-Changed Obsidian Textures\n-Updated Farming Support\n\nUpdate 1.62\n\n-Some basic texture changes\n-Sharpened specific textures and added shadows to litter sides for more depth\n\n",
+  "maintainers": [
+    "Liil"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "12345",
+  "provides": [],
+  "release": 16419,
+  "repo": "https://github.com/Skandarella/Wilhelmines-Texture-Pack.git",
+  "score": 802.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/lQ3ZWpWlGo.png",
+    "https://content.luanti.org/uploads/21277300ec.png",
+    "https://content.luanti.org/uploads/52fcc408a3.png",
+    "https://content.luanti.org/uploads/4caa119ddc.png",
+    "https://content.luanti.org/uploads/fF82jFn7Gh.jpg",
+    "https://content.luanti.org/uploads/I4Fk6vWj1T.jpg",
+    "https://content.luanti.org/uploads/Hp9xup6YWM.jpg",
+    "https://content.luanti.org/uploads/8cWR4qJ3AT.jpg",
+    "https://content.luanti.org/uploads/fBL3d4wLf3.jpg",
+    "https://content.luanti.org/uploads/VbfNPogOdP.jpg",
+    "https://content.luanti.org/uploads/pnO193vB79.jpg",
+    "https://content.luanti.org/uploads/G1WiQ4UaIM.jpg",
+    "https://content.luanti.org/uploads/LePEUnFh7l.jpg",
+    "https://content.luanti.org/uploads/d874c19cf2.png",
+    "https://content.luanti.org/uploads/d33734567f.png",
+    "https://content.luanti.org/uploads/57115a7aba.png",
+    "https://content.luanti.org/uploads/f9660e3af6.png"
+  ],
+  "short_description": "Wilhelmines Texture Pack – Inspired by the colors of Nature!",
+  "state": "APPROVED",
+  "tags": [
+    "16px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/lQ3ZWpWlGo.png",
+  "title": "Wilhelmines Texture Pack",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Liil/12345/releases/16419/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Liil/12345": []
+  },
+  "hash": "1a1wxz8b03z454ghk3d2zn5fd66w1kdllhmi1hd1wjvj7xxn916k"
+}

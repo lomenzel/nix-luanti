@@ -1,1 +1,45 @@
-{"author":"zeronumbers","content_warnings":[],"created_at":"2023-05-26T15:51:16.227133","dev_state":"BETA","donate_url":null,"downloads":205,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/zeronumbers/copy-from-chest/issues/new/choose/","license":"LGPL-2.1-or-later","long_description":"# Copy from chest\nAdds **server command** `copy-from-chest <x> <y> <z> <player> [once]`.\n\n- **Version:** 1.0.0\n- **License:** LGPL 2.1 or later\n\nReport bugs or request help at zrnmbrs@gmail.com\n\n# If you dont know what <> and [] mean in the command read this\nhttps://wiki.minetest.net/Server_commands#General_syntax\n\n# What the command does\nCopies items from chest at <x> <y> <z> to the <player>.\nThis command requires server priviliges.\n\nIf `[once]` is provided:\n**Does not give item when it is already in inventory of player**.\nPlayer would recieve message that mentions item that wasn't given.\n\nIn the case **when there is no space for all items it would try to fit as many items as possible**.\nPlayer would recieve message that mentions item that wasn't given.\n\n**The chest must be loaded in game**.\nDefault warning when you try to use chest that is not loaded in game.\n\n**Relative numbers for coordinates of chest (x y z) are not supported**.\n\n# Installation\n1. Unzip the archive\n2. place it in minetest/mods/\n\n(  GNU/Linux: If you use a system-wide installation place\n\tit in ~/.minetest/mods/.  )\n\n(  If you only want this to be used in a single world, place\n\tthe folder in worldmods/ in your worlddirectory.  )\n\nFor further information or help see:\nhttps://wiki.minetest.net/Installing_Mods\n\n# Reason for creating\nMinetest already has give command that works in most cases but there are special cases, one of which is book.\n\nYou can give book, and written book, but how would you give a book with text already inside? Or a book with enchantement (from mineclone), or enchanted armor (from mineclone).\n\nOn one server there was a cool idea to use in game books to deliver information to players like server rules or news. The problem is that they had to be given automatically using command block, but refilled manually, and there was no way to control how many books a person takes.\n\nThis mod solves refil problem, the problem of controlling amount is much more complex and is solved only partially using `once` flag.\n\n","maintainers":["zeronumbers"],"media_license":"LGPL-2.1-or-later","name":"copy_from_chest","provides":["copy_from_chest"],"release":22955,"repo":"https://github.com/zeronumbers/copy-from-chest","score":1.9,"screenshots":["https://content.luanti.org/uploads/a25884effa.png"],"short_description":"Adds server command copy-from-chest that copies items from chest at x y z to player.","state":"APPROVED","tags":["chat"],"thumbnail":"https://content.luanti.org/thumbnails/1/a25884effa.png","title":"Copy From Chest","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/zeronumbers/copy_from_chest/releases/22955/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"zeronumbers/copy_from_chest":[]},"hash":"0sb4gwl032n9il8ax1nddpcraa2gl719vaxzj3bcqm1qfg9a1c61"}
+{
+  "author": "zeronumbers",
+  "content_warnings": [],
+  "created_at": "2023-05-26T15:51:16.227133",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 205,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/zeronumbers/copy-from-chest/issues/new/choose/",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Copy from chest\nAdds **server command** `copy-from-chest <x> <y> <z> <player> [once]`.\n\n- **Version:** 1.0.0\n- **License:** LGPL 2.1 or later\n\nReport bugs or request help at zrnmbrs@gmail.com\n\n# If you dont know what <> and [] mean in the command read this\nhttps://wiki.minetest.net/Server_commands#General_syntax\n\n# What the command does\nCopies items from chest at <x> <y> <z> to the <player>.\nThis command requires server priviliges.\n\nIf `[once]` is provided:\n**Does not give item when it is already in inventory of player**.\nPlayer would recieve message that mentions item that wasn't given.\n\nIn the case **when there is no space for all items it would try to fit as many items as possible**.\nPlayer would recieve message that mentions item that wasn't given.\n\n**The chest must be loaded in game**.\nDefault warning when you try to use chest that is not loaded in game.\n\n**Relative numbers for coordinates of chest (x y z) are not supported**.\n\n# Installation\n1. Unzip the archive\n2. place it in minetest/mods/\n\n(  GNU/Linux: If you use a system-wide installation place\n\tit in ~/.minetest/mods/.  )\n\n(  If you only want this to be used in a single world, place\n\tthe folder in worldmods/ in your worlddirectory.  )\n\nFor further information or help see:\nhttps://wiki.minetest.net/Installing_Mods\n\n# Reason for creating\nMinetest already has give command that works in most cases but there are special cases, one of which is book.\n\nYou can give book, and written book, but how would you give a book with text already inside? Or a book with enchantement (from mineclone), or enchanted armor (from mineclone).\n\nOn one server there was a cool idea to use in game books to deliver information to players like server rules or news. The problem is that they had to be given automatically using command block, but refilled manually, and there was no way to control how many books a person takes.\n\nThis mod solves refil problem, the problem of controlling amount is much more complex and is solved only partially using `once` flag.\n\n",
+  "maintainers": [
+    "zeronumbers"
+  ],
+  "media_license": "LGPL-2.1-or-later",
+  "name": "copy_from_chest",
+  "provides": [
+    "copy_from_chest"
+  ],
+  "release": 22955,
+  "repo": "https://github.com/zeronumbers/copy-from-chest",
+  "score": 1.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a25884effa.png"
+  ],
+  "short_description": "Adds server command copy-from-chest that copies items from chest at x y z to player.",
+  "state": "APPROVED",
+  "tags": [
+    "chat"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a25884effa.png",
+  "title": "Copy From Chest",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/zeronumbers/copy_from_chest/releases/22955/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "zeronumbers/copy_from_chest": []
+  },
+  "hash": "0sb4gwl032n9il8ax1nddpcraa2gl719vaxzj3bcqm1qfg9a1c61"
+}

@@ -1,1 +1,75 @@
-{"author":"SFENCE","content_warnings":[],"created_at":"2021-10-26T05:01:00.068686","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1165,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27399","forums":27399,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"hades_revisited","release":23418,"short_description":"Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)","thumbnail":"https://content.luanti.org/thumbnails/1/9781fc4ca1.png","title":"Hades Revisited","type":"game"},"supports":true}],"issue_tracker":"https://github.com/sfence/palisade/issues","license":"MIT","long_description":"Add craftable palisades into Minetest world.\n\nSupport for [Minetest default game ](https://content.minetest.net/packages/Minetest/minetest_game/) and [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\n\nNow only walls are aviable.","maintainers":["SFENCE"],"media_license":"CC-BY-SA-4.0","name":"palisade","provides":["palisade"],"release":15169,"repo":"https://github.com/sfence/palisade","score":5.8,"screenshots":["https://content.luanti.org/uploads/ca32edb39d.png","https://content.luanti.org/uploads/ebc37a17db.png","https://content.luanti.org/uploads/59bb48311d.png"],"short_description":"Add craftable palisades in many styles. Hades Revisited is supported.","state":"APPROVED","tags":["building","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/ca32edb39d.png","title":"Palisade","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/SFENCE/palisade/releases/15169/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"SFENCE/palisade":[]},"hash":"1fkmkaxcqxm59wg581drza18brjrrbxphq1xi4rqlkl3znz5pffc"}
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2021-10-26T05:01:00.068686",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1165,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27399",
+  "forums": 27399,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 23418,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9781fc4ca1.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sfence/palisade/issues",
+  "license": "MIT",
+  "long_description": "Add craftable palisades into Minetest world.\n\nSupport for [Minetest default game ](https://content.minetest.net/packages/Minetest/minetest_game/) and [Hades Revisited](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n\n\nNow only walls are aviable.",
+  "maintainers": [
+    "SFENCE"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "palisade",
+  "provides": [
+    "palisade"
+  ],
+  "release": 15169,
+  "repo": "https://github.com/sfence/palisade",
+  "score": 5.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/ca32edb39d.png",
+    "https://content.luanti.org/uploads/ebc37a17db.png",
+    "https://content.luanti.org/uploads/59bb48311d.png"
+  ],
+  "short_description": "Add craftable palisades in many styles. Hades Revisited is supported.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ca32edb39d.png",
+  "title": "Palisade",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/palisade/releases/15169/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SFENCE/palisade": []
+  },
+  "hash": "1fkmkaxcqxm59wg581drza18brjrrbxphq1xi4rqlkl3znz5pffc"
+}

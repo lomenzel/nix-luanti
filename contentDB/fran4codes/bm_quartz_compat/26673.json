@@ -1,1 +1,43 @@
-{"author":"fran4codes","content_warnings":[],"created_at":"2024-08-16T21:36:56.486418","dev_state":"BETA","donate_url":null,"downloads":172,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://codeberg.org/fran4codes/bm_quartz_compat/issues","license":"MIT","long_description":"If both Quartz and Everness are installed, it aliases Everness' quartz items to Quartz's quartz items.\nIf Basic Materials is installed, it adds a recipe for silicon that uses quartz instead of sand.","maintainers":["fran4codes"],"media_license":"MIT","name":"bm_quartz_compat","provides":["bm_quartz_compat"],"release":26673,"repo":"https://codeberg.org/fran4codes/bm_quartz_compat.git","score":5.3,"screenshots":["https://content.luanti.org/uploads/32c677a8fe.png"],"short_description":"Compatibility between Basic Materials, Quartz, and Everness.","state":"APPROVED","tags":[],"thumbnail":"https://content.luanti.org/thumbnails/1/32c677a8fe.png","title":"Basic Materials & Quartz Compatibility","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/fran4codes/bm_quartz_compat/releases/26673/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"fran4codes/bm_quartz_compat":[]},"hash":"099hgdk47cbq9vf628688my2rbz7bcc070gjhf4hyhcrba63xgqz"}
+{
+  "author": "fran4codes",
+  "content_warnings": [],
+  "created_at": "2024-08-16T21:36:56.486418",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 172,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/fran4codes/bm_quartz_compat/issues",
+  "license": "MIT",
+  "long_description": "If both Quartz and Everness are installed, it aliases Everness' quartz items to Quartz's quartz items.\nIf Basic Materials is installed, it adds a recipe for silicon that uses quartz instead of sand.",
+  "maintainers": [
+    "fran4codes"
+  ],
+  "media_license": "MIT",
+  "name": "bm_quartz_compat",
+  "provides": [
+    "bm_quartz_compat"
+  ],
+  "release": 26673,
+  "repo": "https://codeberg.org/fran4codes/bm_quartz_compat.git",
+  "score": 5.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/32c677a8fe.png"
+  ],
+  "short_description": "Compatibility between Basic Materials, Quartz, and Everness.",
+  "state": "APPROVED",
+  "tags": [],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/32c677a8fe.png",
+  "title": "Basic Materials & Quartz Compatibility",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/fran4codes/bm_quartz_compat/releases/26673/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "fran4codes/bm_quartz_compat": []
+  },
+  "hash": "099hgdk47cbq9vf628688my2rbz7bcc070gjhf4hyhcrba63xgqz"
+}

@@ -1,1 +1,96 @@
-{"author":"random_geek","content_warnings":[],"created_at":"2019-03-21T04:21:45.255536","dev_state":null,"donate_url":null,"downloads":11433,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/random-geek/cg_plus/issues/new/choose/","license":"LGPL-3.0-only","long_description":"Crafting Guide Plus is a simple and intuitive crafting guide and auto-crafting mod for Minetest. CGP is compatible with\nMinetest Game and any other games that use sfinv. It was built mostly from the ground up, with some inspiration from\njp's mod as well as Unified Inventory.\n\n## Features:\n\n- \"Intelligent\" auto-crafting, or rather, automatic craft staging. This feature can be disabled if it is not wanted.\n- Group support, including group search and support for craft recipes requiring items in multiple groups.\n- Shaped and shapeless crafting recipe previews of any size.\n- Fuel and cooking recipes, including fuel replacements and burning/cooking times.\n- Digging and digging by chance (item drop) previews.\n\n## Known issues:\n\n- The auto-crafting algorithm is not *perfect*. For craft recipes requiring items in a group, only the item with the\ngreatest count from the player's inventory will be utilized.\n- Items in multiple groups will not always display correctly in craft view.","maintainers":["random_geek"],"media_license":"CC-BY-SA-4.0","name":"cg_plus","provides":["cg_plus"],"release":24932,"repo":"https://github.com/random-geek/cg_plus","score":490.1,"screenshots":["https://content.luanti.org/uploads/jBuRARtV8N.png","https://content.luanti.org/uploads/h52O364pUj.png"],"short_description":"Adds an intuitive and full-featured craft guide with auto-crafting to the player's inventory.","state":"APPROVED","tags":["inventory"],"thumbnail":"https://content.luanti.org/thumbnails/1/jBuRARtV8N.png","title":"Crafting Guide Plus","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/random_geek/cg_plus/releases/24932/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"random_geek/cg_plus":[{"is_optional":false,"name":"sfinv","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","JALdMIC/survivethedays","Nathan.S/sss","1248/castrum","Thunder1035/etb","Blockhead/sotm","SuperStarSonic/reentry","StarNinjas/veil_of_the_unknown","StarNinjas/ssp","Minetest/minetest_game","Hume2/boxworld3d","1248/regnum","rubenwardy/sfinv","1248/regnum2","sfan5/minetest_classic","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","Wuzzy/hades_revisited","Lone_Wolf/torrlund","dibesfer/colorlandia","nurd3/ul_game","Kimapr/nonsensical_skyblock","Casimir/voxelgarden","Lone_Wolf/voxel_knights","Emojiminetest/parkour","Mantar/exile","JavaFXpert/qiskitblocks","Thunder1035/pacman","jgordon510/gridlocks","niwla23/runorfall","bell07/whynot_game","Big_Caballito/no_mans_land","MeseCraft/mesecraft","TheFanne/raining_nodes","PetiAPocok/minetest_extended","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","theidealist101/stellua","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"rubenwardy/sfinv":[]},"hash":"01rlhb47s8x4pgjc1kfgnlrfxsz3xwmpr7ydq84sbcy1gxghdpbb"}
+{
+  "author": "random_geek",
+  "content_warnings": [],
+  "created_at": "2019-03-21T04:21:45.255536",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 11433,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/random-geek/cg_plus/issues/new/choose/",
+  "license": "LGPL-3.0-only",
+  "long_description": "Crafting Guide Plus is a simple and intuitive crafting guide and auto-crafting mod for Minetest. CGP is compatible with\nMinetest Game and any other games that use sfinv. It was built mostly from the ground up, with some inspiration from\njp's mod as well as Unified Inventory.\n\n## Features:\n\n- \"Intelligent\" auto-crafting, or rather, automatic craft staging. This feature can be disabled if it is not wanted.\n- Group support, including group search and support for craft recipes requiring items in multiple groups.\n- Shaped and shapeless crafting recipe previews of any size.\n- Fuel and cooking recipes, including fuel replacements and burning/cooking times.\n- Digging and digging by chance (item drop) previews.\n\n## Known issues:\n\n- The auto-crafting algorithm is not *perfect*. For craft recipes requiring items in a group, only the item with the\ngreatest count from the player's inventory will be utilized.\n- Items in multiple groups will not always display correctly in craft view.",
+  "maintainers": [
+    "random_geek"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "cg_plus",
+  "provides": [
+    "cg_plus"
+  ],
+  "release": 24932,
+  "repo": "https://github.com/random-geek/cg_plus",
+  "score": 490.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/jBuRARtV8N.png",
+    "https://content.luanti.org/uploads/h52O364pUj.png"
+  ],
+  "short_description": "Adds an intuitive and full-featured craft guide with auto-crafting to the player's inventory.",
+  "state": "APPROVED",
+  "tags": [
+    "inventory"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/jBuRARtV8N.png",
+  "title": "Crafting Guide Plus",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/random_geek/cg_plus/releases/24932/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "random_geek/cg_plus": [
+      {
+        "is_optional": false,
+        "name": "sfinv",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "Nathan.S/sss",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "Blockhead/sotm",
+          "SuperStarSonic/reentry",
+          "StarNinjas/veil_of_the_unknown",
+          "StarNinjas/ssp",
+          "Minetest/minetest_game",
+          "Hume2/boxworld3d",
+          "1248/regnum",
+          "rubenwardy/sfinv",
+          "1248/regnum2",
+          "sfan5/minetest_classic",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Wuzzy/hades_revisited",
+          "Lone_Wolf/torrlund",
+          "dibesfer/colorlandia",
+          "nurd3/ul_game",
+          "Kimapr/nonsensical_skyblock",
+          "Casimir/voxelgarden",
+          "Lone_Wolf/voxel_knights",
+          "Emojiminetest/parkour",
+          "Mantar/exile",
+          "JavaFXpert/qiskitblocks",
+          "Thunder1035/pacman",
+          "jgordon510/gridlocks",
+          "niwla23/runorfall",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "theidealist101/stellua",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "rubenwardy/sfinv": []
+  },
+  "hash": "01rlhb47s8x4pgjc1kfgnlrfxsz3xwmpr7ydq84sbcy1gxghdpbb"
+}

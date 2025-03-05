@@ -1,1 +1,104 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2024-03-23T06:23:11.353689","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1780,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Linuxdirk","name":"void","release":28671,"short_description":"The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods ","thumbnail":"https://content.luanti.org/thumbnails/1/CZYwsfu1Le.png","title":"Void - An empty game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/C-C-Minetest-Server/advtrains_doors/issues","license":"AGPL-3.0-or-later","long_description":"This mod introduces screen doors to Advtrains - previously, newcomers may walk on tracks and be smashed by a running train wagon. To set up a screen door, step on the track (make sure it is inactive!) and place the screen door (closed or fixed) onto the platform block.\n","maintainers":["Emojiminetest"],"media_license":"AGPL-3.0-or-later","name":"advtrains_doors","provides":["advtrains_doors"],"release":29165,"repo":"https://github.com/C-C-Minetest-Server/advtrains_doors","score":194.1,"screenshots":["https://content.luanti.org/uploads/14ebacfede.jpg"],"short_description":"Platform screen doors for Advtrains","state":"APPROVED","tags":["survival","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/14ebacfede.png","title":"Advtrains Screen Doors","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/advtrains_doors/releases/29165/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/advtrains_doors":[{"is_optional":false,"name":"advtrains","packages":["orwell/advtrains"]},{"is_optional":false,"name":"logging","packages":["Casimir/voxelgarden","Emojiminetest/logging"]}],"Emojiminetest/logging":[],"orwell/advtrains":[]},"hash":"0mr6cpqfxmp1kg2plhmgaid9i06v7w756qijbzr1x2ivzgsihk9h"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-03-23T06:23:11.353689",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1780,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Linuxdirk",
+        "name": "void",
+        "release": 28671,
+        "short_description": "The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/CZYwsfu1Le.png",
+        "title": "Void - An empty game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/advtrains_doors/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "This mod introduces screen doors to Advtrains - previously, newcomers may walk on tracks and be smashed by a running train wagon. To set up a screen door, step on the track (make sure it is inactive!) and place the screen door (closed or fixed) onto the platform block.\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "advtrains_doors",
+  "provides": [
+    "advtrains_doors"
+  ],
+  "release": 29165,
+  "repo": "https://github.com/C-C-Minetest-Server/advtrains_doors",
+  "score": 194.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/14ebacfede.jpg"
+  ],
+  "short_description": "Platform screen doors for Advtrains",
+  "state": "APPROVED",
+  "tags": [
+    "survival",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/14ebacfede.png",
+  "title": "Advtrains Screen Doors",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/advtrains_doors/releases/29165/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/advtrains_doors": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": [
+          "orwell/advtrains"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": [
+          "Casimir/voxelgarden",
+          "Emojiminetest/logging"
+        ]
+      }
+    ],
+    "Emojiminetest/logging": [],
+    "orwell/advtrains": []
+  },
+  "hash": "0mr6cpqfxmp1kg2plhmgaid9i06v7w756qijbzr1x2ivzgsihk9h"
+}

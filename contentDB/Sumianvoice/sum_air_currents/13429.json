@@ -1,1 +1,47 @@
-{"author":"Sumianvoice","content_warnings":[],"created_at":"2022-08-09T06:12:07.702903","dev_state":"BETA","donate_url":null,"downloads":1397,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"# Air Currents\nsum_air_currents\n\nIn development. Expect issues!\n\n* can push players\n* can push entities that implement it\n* particles that show wind direction\n* commands and settings for configurability\n* no sounds yet\n* doesn't apply underground, only when 15 light level (which is only in natural light) or tests for natural light (mte 5.6)\n* works with [sum_airship](https://content.minetest.net/packages/Sumianvoice/sum_airship/) for smoke and airship being affected by wind\n\nThis is primarily for airships, but can effect flying with elytra in mcl for example. Should be compatible with any game, and almost any engine (if the get_natural_light function is not available it defaults to a pre 5.6 method). \n\n## Documentation\nThe global var is `sum_air_currents`. Use this to get the wind or set anything. For most uses you can do \n\n```LUA\nlocal wind = vector.new() \nif sum_air_currents ~= nil then\n⠀⠀wind = sum_air_currents.get_wind()\nend\n```\nYou can also use `apply_wind`:\n```LUA\nlocal new_vel = sum_air_currents.apply_wind(vel, pos)\n```\nAll of these methods are turned on or off with the command `wind off/on` and `wind pushentities true/false`.\n\nMore documentation will come with time. \n","maintainers":["Sumianvoice"],"media_license":"CC-BY-4.0","name":"sum_air_currents","provides":["sum_air_currents"],"release":13429,"repo":"https://codeberg.org/SumianVoice/sum_air_currents","score":311.2,"screenshots":["https://content.luanti.org/uploads/2fac9d9c41.jpg"],"short_description":"Adds wind and air currents which can push objects and players.","state":"APPROVED","tags":["environment","library","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/2fac9d9c41.png","title":"Air Currents (wind)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Sumianvoice/sum_air_currents/releases/13429/download/","video_thumbnail_url":"https://content.luanti.org/thumbnails/youtube/A8LbviCETXs.jpg","video_url":"https://www.youtube.com/watch?v=A8LbviCETXs","website":null,"dependencies":{"Sumianvoice/sum_air_currents":[]},"hash":"1096fagslybk6sg14d0s45ijypxay31ar2sj7fbzjgfk10vs2yvj"}
+{
+  "author": "Sumianvoice",
+  "content_warnings": [],
+  "created_at": "2022-08-09T06:12:07.702903",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1397,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# Air Currents\nsum_air_currents\n\nIn development. Expect issues!\n\n* can push players\n* can push entities that implement it\n* particles that show wind direction\n* commands and settings for configurability\n* no sounds yet\n* doesn't apply underground, only when 15 light level (which is only in natural light) or tests for natural light (mte 5.6)\n* works with [sum_airship](https://content.minetest.net/packages/Sumianvoice/sum_airship/) for smoke and airship being affected by wind\n\nThis is primarily for airships, but can effect flying with elytra in mcl for example. Should be compatible with any game, and almost any engine (if the get_natural_light function is not available it defaults to a pre 5.6 method). \n\n## Documentation\nThe global var is `sum_air_currents`. Use this to get the wind or set anything. For most uses you can do \n\n```LUA\nlocal wind = vector.new() \nif sum_air_currents ~= nil then\n⠀⠀wind = sum_air_currents.get_wind()\nend\n```\nYou can also use `apply_wind`:\n```LUA\nlocal new_vel = sum_air_currents.apply_wind(vel, pos)\n```\nAll of these methods are turned on or off with the command `wind off/on` and `wind pushentities true/false`.\n\nMore documentation will come with time. \n",
+  "maintainers": [
+    "Sumianvoice"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "sum_air_currents",
+  "provides": [
+    "sum_air_currents"
+  ],
+  "release": 13429,
+  "repo": "https://codeberg.org/SumianVoice/sum_air_currents",
+  "score": 311.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2fac9d9c41.jpg"
+  ],
+  "short_description": "Adds wind and air currents which can push objects and players.",
+  "state": "APPROVED",
+  "tags": [
+    "environment",
+    "library",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2fac9d9c41.png",
+  "title": "Air Currents (wind)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Sumianvoice/sum_air_currents/releases/13429/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/A8LbviCETXs.jpg",
+  "video_url": "https://www.youtube.com/watch?v=A8LbviCETXs",
+  "website": null,
+  "dependencies": {
+    "Sumianvoice/sum_air_currents": []
+  },
+  "hash": "1096fagslybk6sg14d0s45ijypxay31ar2sj7fbzjgfk10vs2yvj"
+}

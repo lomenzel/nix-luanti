@@ -1,1 +1,73 @@
-{"author":"WINNIE","content_warnings":[],"created_at":"2021-02-19T09:39:58.072242","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://liberapay.com/WINNIE/","downloads":6093,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true}],"issue_tracker":"https://github.com/winniepee/Miner16px/issues/new/choose/","license":"CC-BY-SA-4.0","long_description":"# Supported Mods\nHere is the list of supported mods:\n\n1.  `default, wool, door, etc.` (included in [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game/))\n2.  [Capture The Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/)\n3.  [3D Armor](https://content.minetest.net/packages/stu/3d_armor/)\n4.  [Simple Shooter](https://content.minetest.net/packages/stu/shooter/)\n5.  [Block League](https://content.minetest.net/packages/Zughy/block_league/)\n6.  [Lava Stuff](https://content.minetest.net/packages/Lone_Wolf/lavastuff/)\n7.  [More Ores (moreores)](https://github.com/minetest-mods/moreores)\n8.  [Keystroke (CSM)](https://github.com/Minetest-j45/keystrokes)","maintainers":["WINNIE"],"media_license":"CC-BY-SA-4.0","name":"miner16px","provides":[],"release":19355,"repo":"https://github.com/winniepee/Miner16px","score":477.1,"screenshots":["https://content.luanti.org/uploads/zjLayPyw7k.png","https://content.luanti.org/uploads/KOvVd5ohXb.png","https://content.luanti.org/uploads/pM50eCu8uo.png","https://content.luanti.org/uploads/e583a34105.png"],"short_description":"An easy comfortable 16px texture pack","state":"APPROVED","tags":["16px"],"thumbnail":"https://content.luanti.org/thumbnails/1/zjLayPyw7k.png","title":"Miner 16px","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/WINNIE/miner16px/releases/19355/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"WINNIE/miner16px":[]},"hash":"0p2yv1vz6f3anql061ais4vv1ml787sygr9hxmhwyycyh10680cn"}
+{
+  "author": "WINNIE",
+  "content_warnings": [],
+  "created_at": "2021-02-19T09:39:58.072242",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://liberapay.com/WINNIE/",
+  "downloads": 6093,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/winniepee/Miner16px/issues/new/choose/",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "# Supported Mods\nHere is the list of supported mods:\n\n1.  `default, wool, door, etc.` (included in [Minetest Game](https://content.minetest.net/packages/Minetest/minetest_game/))\n2.  [Capture The Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/)\n3.  [3D Armor](https://content.minetest.net/packages/stu/3d_armor/)\n4.  [Simple Shooter](https://content.minetest.net/packages/stu/shooter/)\n5.  [Block League](https://content.minetest.net/packages/Zughy/block_league/)\n6.  [Lava Stuff](https://content.minetest.net/packages/Lone_Wolf/lavastuff/)\n7.  [More Ores (moreores)](https://github.com/minetest-mods/moreores)\n8.  [Keystroke (CSM)](https://github.com/Minetest-j45/keystrokes)",
+  "maintainers": [
+    "WINNIE"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "miner16px",
+  "provides": [],
+  "release": 19355,
+  "repo": "https://github.com/winniepee/Miner16px",
+  "score": 477.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/zjLayPyw7k.png",
+    "https://content.luanti.org/uploads/KOvVd5ohXb.png",
+    "https://content.luanti.org/uploads/pM50eCu8uo.png",
+    "https://content.luanti.org/uploads/e583a34105.png"
+  ],
+  "short_description": "An easy comfortable 16px texture pack",
+  "state": "APPROVED",
+  "tags": [
+    "16px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/zjLayPyw7k.png",
+  "title": "Miner 16px",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/WINNIE/miner16px/releases/19355/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "WINNIE/miner16px": []
+  },
+  "hash": "0p2yv1vz6f3anql061ais4vv1ml787sygr9hxmhwyycyh10680cn"
+}

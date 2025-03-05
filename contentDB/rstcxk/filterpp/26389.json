@@ -1,1 +1,55 @@
-{"author":"rstcxk","content_warnings":[],"created_at":"2024-07-31T01:49:50.856054","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":80,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"AGPL-3.0-or-later","long_description":"this is a mod that filters the chat using the filter++ liberary which is 100X-10000X faster\nthan other filtering mods, while having better filtering detection\n\nsee it's [page](https://content.minetest.net/packages/rstcxk/filterpp_lib) for more details\n\nplayers with the `filter++_reviewer` privilege will get notified of violations as they happen,\nand get reports that show the violating word\n\noptionally filter++ intergrates with the `warn` mod, players that swear will get warned","maintainers":["rstcxk"],"media_license":"AGPL-3.0-or-later","name":"filterpp","provides":["filterpp"],"release":26389,"repo":"https://codeberg.org/xXx_GLOCKrzmitz_xXx/filterpp.git","score":1.9,"screenshots":["https://content.luanti.org/uploads/607fee1630.png"],"short_description":"censors swears in the player chat using the filter++ liberary","state":"APPROVED","tags":["chat","multiplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/607fee1630.png","title":"filter++","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rstcxk/filterpp/releases/26389/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"rstcxk/filterpp":[{"is_optional":false,"name":"filterpp_lib","packages":["rstcxk/filterpp_lib"]}],"rstcxk/filterpp_lib":[]},"hash":"1l8cz23cdg1k4vmsv15q2spmvd5vms6rw63wqvzk4kml4z1yqws5"}
+{
+  "author": "rstcxk",
+  "content_warnings": [],
+  "created_at": "2024-07-31T01:49:50.856054",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 80,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "AGPL-3.0-or-later",
+  "long_description": "this is a mod that filters the chat using the filter++ liberary which is 100X-10000X faster\nthan other filtering mods, while having better filtering detection\n\nsee it's [page](https://content.minetest.net/packages/rstcxk/filterpp_lib) for more details\n\nplayers with the `filter++_reviewer` privilege will get notified of violations as they happen,\nand get reports that show the violating word\n\noptionally filter++ intergrates with the `warn` mod, players that swear will get warned",
+  "maintainers": [
+    "rstcxk"
+  ],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "filterpp",
+  "provides": [
+    "filterpp"
+  ],
+  "release": 26389,
+  "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/filterpp.git",
+  "score": 1.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/607fee1630.png"
+  ],
+  "short_description": "censors swears in the player chat using the filter++ liberary",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "multiplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/607fee1630.png",
+  "title": "filter++",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rstcxk/filterpp/releases/26389/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "rstcxk/filterpp": [
+      {
+        "is_optional": false,
+        "name": "filterpp_lib",
+        "packages": [
+          "rstcxk/filterpp_lib"
+        ]
+      }
+    ],
+    "rstcxk/filterpp_lib": []
+  },
+  "hash": "1l8cz23cdg1k4vmsv15q2spmvd5vms6rw63wqvzk4kml4z1yqws5"
+}

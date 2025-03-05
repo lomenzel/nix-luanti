@@ -1,1 +1,125 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2021-12-28T15:40:29.241749","dev_state":"BETA","donate_url":null,"downloads":900,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/NC-TheLongRoad/issues/new/choose/","license":"MIT","long_description":"# The Long Road of NodeCore\n\nThe Long Road (a NodeCore Mod)\n====================\n\nAdds a long road from -Z to +Z to the world, during world-generation.\n\nThe road partially follows the terrain and tunnels through higher ground otherwise.\n\nThe road materials depend on the environment. \n\nSmall amounts of loot can be found in little buildings beside the road.\n\nPer default the road will be generated at around x = 100.\n\n\nVersion: 1.2\n\nLicense: The MIT License (MIT)\n\nDependencies: nc_api_all, nc_terrain, nc_concrete \n\nDownload original for MTG from: https://github.com/Distributed-DeadLock/thelowerroad\n\nCompatibility with Mapgens:\ngenerally works with all mapgens which provide a heightmap via minetest.get_mapgen_object\nworks better when a heatmap is provided as well.\n\nFully compatible with : v5, v7, flat, fractal, valleys, lualandmg\n\nCompatible with slightly different behaviour with: v6\n\nNot compatible with singlenode unless you provide at least a heightmap in the corresponding lua-mapgenerator, \nsee https://github.com/SmallJoker/lualandmg/blob/b72ef91/init.lua#L97-L109 for an example on how to provide heightmap and heatmap properly.\n","maintainers":["Winter94"],"media_license":"MIT","name":"wc_road","provides":["wc_road"],"release":18156,"repo":"https://github.com/wintersknight94/NC-TheLongRoad","score":158.4,"screenshots":["https://content.luanti.org/uploads/e489cf0122.png","https://content.luanti.org/uploads/f307307822.png","https://content.luanti.org/uploads/32b7bbf5d2.png"],"short_description":"This is a port of thelowerroad for NodeCore that adds a long road from -Z to +Z to the world, during world-generation.","state":"APPROVED","tags":["adventure__rpg","mapgen","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/e489cf0122.png","title":"The Road (NC)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/wc_road/releases/18156/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wc_road":[{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_woodwork","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_concrete","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_torch","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_stonework","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"0ps6lkfiiq83c1fx90za555mv59d40x0w8i0aq6vkwaqh9m3xajd"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2021-12-28T15:40:29.241749",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 900,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NC-TheLongRoad/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "# The Long Road of NodeCore\n\nThe Long Road (a NodeCore Mod)\n====================\n\nAdds a long road from -Z to +Z to the world, during world-generation.\n\nThe road partially follows the terrain and tunnels through higher ground otherwise.\n\nThe road materials depend on the environment. \n\nSmall amounts of loot can be found in little buildings beside the road.\n\nPer default the road will be generated at around x = 100.\n\n\nVersion: 1.2\n\nLicense: The MIT License (MIT)\n\nDependencies: nc_api_all, nc_terrain, nc_concrete \n\nDownload original for MTG from: https://github.com/Distributed-DeadLock/thelowerroad\n\nCompatibility with Mapgens:\ngenerally works with all mapgens which provide a heightmap via minetest.get_mapgen_object\nworks better when a heatmap is provided as well.\n\nFully compatible with : v5, v7, flat, fractal, valleys, lualandmg\n\nCompatible with slightly different behaviour with: v6\n\nNot compatible with singlenode unless you provide at least a heightmap in the corresponding lua-mapgenerator, \nsee https://github.com/SmallJoker/lualandmg/blob/b72ef91/init.lua#L97-L109 for an example on how to provide heightmap and heatmap properly.\n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "MIT",
+  "name": "wc_road",
+  "provides": [
+    "wc_road"
+  ],
+  "release": 18156,
+  "repo": "https://github.com/wintersknight94/NC-TheLongRoad",
+  "score": 158.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e489cf0122.png",
+    "https://content.luanti.org/uploads/f307307822.png",
+    "https://content.luanti.org/uploads/32b7bbf5d2.png"
+  ],
+  "short_description": "This is a port of thelowerroad for NodeCore that adds a long road from -Z to +Z to the world, during world-generation.",
+  "state": "APPROVED",
+  "tags": [
+    "adventure__rpg",
+    "mapgen",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e489cf0122.png",
+  "title": "The Road (NC)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_road/releases/18156/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_road": [
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_woodwork",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_concrete",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_torch",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_stonework",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "0ps6lkfiiq83c1fx90za555mv59d40x0w8i0aq6vkwaqh9m3xajd"
+}

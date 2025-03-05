@@ -1,1 +1,72 @@
-{"author":"Olaf007","content_warnings":[],"created_at":"2023-09-27T18:25:46.723438","dev_state":"AS_IS","donate_url":null,"downloads":483,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"# Sparking Wand Mod\n**Compatible with: **\n(1) Mineclone\n(2) Minetest Default Game\n\n## Instructions\n1. Find everything to craft *magic sticks*\n2. Find everything to craft  the *wand* using *magic sticks*\n3. Produce some coal dust.\n\nHappy sparkling! \n\n## Crafting\nSee the crafting tables below:\n<img alt=\"Crafting Tables\" src=\"https://github.com/Olaf-007/forfun/blob/main/everything.png?raw=true\">","maintainers":["Olaf007"],"media_license":"MIT","name":"forfun","provides":["forfun"],"release":21055,"repo":"https://github.com/Olaf-007/forfun.git","score":154.7,"screenshots":["https://content.luanti.org/uploads/99ae656f5a.png"],"short_description":"Craft a wand with which you can cast a lightning spell. Great for discovering caves.","state":"APPROVED","tags":["survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/99ae656f5a.png","title":"Sparking Wand Mod","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Olaf007/forfun/releases/21055/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Olaf007/forfun":[]},"hash":"11jbsjn91f02s3xs77avwr5sxl0khhxhjiz0rk92bs80rliq760w"}
+{
+  "author": "Olaf007",
+  "content_warnings": [],
+  "created_at": "2023-09-27T18:25:46.723438",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 483,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# Sparking Wand Mod\n**Compatible with: **\n(1) Mineclone\n(2) Minetest Default Game\n\n## Instructions\n1. Find everything to craft *magic sticks*\n2. Find everything to craft  the *wand* using *magic sticks*\n3. Produce some coal dust.\n\nHappy sparkling! \n\n## Crafting\nSee the crafting tables below:\n<img alt=\"Crafting Tables\" src=\"https://github.com/Olaf-007/forfun/blob/main/everything.png?raw=true\">",
+  "maintainers": [
+    "Olaf007"
+  ],
+  "media_license": "MIT",
+  "name": "forfun",
+  "provides": [
+    "forfun"
+  ],
+  "release": 21055,
+  "repo": "https://github.com/Olaf-007/forfun.git",
+  "score": 154.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/99ae656f5a.png"
+  ],
+  "short_description": "Craft a wand with which you can cast a lightning spell. Great for discovering caves.",
+  "state": "APPROVED",
+  "tags": [
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/99ae656f5a.png",
+  "title": "Sparking Wand Mod",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Olaf007/forfun/releases/21055/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Olaf007/forfun": []
+  },
+  "hash": "11jbsjn91f02s3xs77avwr5sxl0khhxhjiz0rk92bs80rliq760w"
+}

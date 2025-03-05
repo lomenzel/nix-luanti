@@ -1,1 +1,79 @@
-{"author":"doxygen_spammer","content_warnings":[],"created_at":"2021-09-21T17:32:35.973408","dev_state":null,"donate_url":null,"downloads":3987,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27342","forums":27342,"game_support":[],"issue_tracker":"https://invent.kde.org/davidhurka/doxy_morelights_dim/issues","license":"MIT","long_description":"<!--\nSPDX-FileCopyrightText: 2021 David Hurka <doxydoxy@mailbox.org>\n\nSPDX-License-Identifier: CC0-1.0 OR MIT\n-->\n\n# morelights_dim\n\n[`morelights`](https://github.com/random-geek/morelights) has several very nice lighting nodes.\nThis add-on mod allows to turn all light nodes from `morelights` off or to dim them.\n\n![Screenshot of two morelights table lamps, one turned off.](https://content.minetest.net/thumbnails/2/f04d5d7499.png)\n\n## About\n\n`morelights` already provides sensible light level variations for the light nodes.\nBut there is no way to get two lights of the same design with different light level.\nThis mod adds a dim variant and an off variant to every design.\n\nLight levels can be changed by right-clicking light nodes with the bulb item from `morelights` (default configuration).\n\n### Examples\n\n`morelights_dim` gives you more flexibility to build different lighting sceneries.\n\nYou can emphasize a certain area by just dimming the other lights:\n\n![Dual screenshot of a house with uniform lighting / emphasized lighting.](https://content.minetest.net/thumbnails/2/0227c1f572.png)\n![Dual screenshot of a row of houses with uniform lighting / emphasized lighting.](https://content.minetest.net/thumbnails/2/6f36ccd392.png)\n\nThe dimmed and off nodes use darkened textures (in addition to emitting less light), so you can imitate broken neon tubes:\n\n![Screenshot of a row of bar lights, one dimmed.](https://content.minetest.net/thumbnails/2/a284b6b4aa.png)\n\nYou can turn the lights off when going to bed:\n\n![Screenshot of a bed room with two table lamps, one turned off.](https://content.minetest.net/thumbnails/2/3137e353fe.png)\n\nIf you turn the oil lamp from `morelights_vintage` off, the animated flame is hidden:\n\n![Screenshot of two morelights oil lamps, one turned off.](https://content.minetest.net/thumbnails/2/799e7c9164.png)\n\nRead the full README.md at <https://invent.kde.org/davidhurka/doxy_morelights_dim>.\n\n## License\n\nThe mod is licensed as CC0-1.0 and MIT.\n(This means that this modpack may be merged to `morelights` at will.\nI am perfectly fine with that.)\n\nScreenshots depict artwork from other Minetest mods, and are licensed as CC-BY-SA-4.0.\n\n## Contributing\n\nThe source code is hosted at <https://invent.kde.org/davidhurka/doxy_morelights_dim>.\nProblems should be reported at <https://invent.kde.org/davidhurka/doxy_morelights_dim/issues>.\n","maintainers":["doxygen_spammer"],"media_license":"CC-BY-SA-4.0","name":"morelights_dim","provides":["morelights_dim","morelights_dim_morelights_extras","morelights_dim_morelights_extras_linuxforks","morelights_dim_morelights_modern","morelights_dim_morelights_vintage"],"release":19488,"repo":"https://invent.kde.org/davidhurka/doxy_morelights_dim","score":173.3,"screenshots":["https://content.luanti.org/uploads/f04d5d7499.png","https://content.luanti.org/uploads/0227c1f572.png","https://content.luanti.org/uploads/6f36ccd392.png","https://content.luanti.org/uploads/a284b6b4aa.png","https://content.luanti.org/uploads/3137e353fe.png","https://content.luanti.org/uploads/799e7c9164.png"],"short_description":"Allows to turn morelights lights off or to dim them.","state":"APPROVED","tags":["building"],"thumbnail":"https://content.luanti.org/thumbnails/1/f04d5d7499.png","title":"morelights_dim","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/doxygen_spammer/morelights_dim/releases/19488/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"doxygen_spammer/morelights_dim":[{"is_optional":false,"name":"morelights_extras","packages":["random_geek/morelights","MeseCraft/mesecraft"]},{"is_optional":false,"name":"morelights_vintage","packages":["random_geek/morelights","MeseCraft/mesecraft"]},{"is_optional":false,"name":"morelights_modern","packages":["random_geek/morelights"]}],"random_geek/morelights":[]},"hash":"0bipvgm207g5p279yp1if9h3904rl90jkps6gclbkc5a2vh1ibzj"}
+{
+  "author": "doxygen_spammer",
+  "content_warnings": [],
+  "created_at": "2021-09-21T17:32:35.973408",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3987,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27342",
+  "forums": 27342,
+  "game_support": [],
+  "issue_tracker": "https://invent.kde.org/davidhurka/doxy_morelights_dim/issues",
+  "license": "MIT",
+  "long_description": "<!--\nSPDX-FileCopyrightText: 2021 David Hurka <doxydoxy@mailbox.org>\n\nSPDX-License-Identifier: CC0-1.0 OR MIT\n-->\n\n# morelights_dim\n\n[`morelights`](https://github.com/random-geek/morelights) has several very nice lighting nodes.\nThis add-on mod allows to turn all light nodes from `morelights` off or to dim them.\n\n![Screenshot of two morelights table lamps, one turned off.](https://content.minetest.net/thumbnails/2/f04d5d7499.png)\n\n## About\n\n`morelights` already provides sensible light level variations for the light nodes.\nBut there is no way to get two lights of the same design with different light level.\nThis mod adds a dim variant and an off variant to every design.\n\nLight levels can be changed by right-clicking light nodes with the bulb item from `morelights` (default configuration).\n\n### Examples\n\n`morelights_dim` gives you more flexibility to build different lighting sceneries.\n\nYou can emphasize a certain area by just dimming the other lights:\n\n![Dual screenshot of a house with uniform lighting / emphasized lighting.](https://content.minetest.net/thumbnails/2/0227c1f572.png)\n![Dual screenshot of a row of houses with uniform lighting / emphasized lighting.](https://content.minetest.net/thumbnails/2/6f36ccd392.png)\n\nThe dimmed and off nodes use darkened textures (in addition to emitting less light), so you can imitate broken neon tubes:\n\n![Screenshot of a row of bar lights, one dimmed.](https://content.minetest.net/thumbnails/2/a284b6b4aa.png)\n\nYou can turn the lights off when going to bed:\n\n![Screenshot of a bed room with two table lamps, one turned off.](https://content.minetest.net/thumbnails/2/3137e353fe.png)\n\nIf you turn the oil lamp from `morelights_vintage` off, the animated flame is hidden:\n\n![Screenshot of two morelights oil lamps, one turned off.](https://content.minetest.net/thumbnails/2/799e7c9164.png)\n\nRead the full README.md at <https://invent.kde.org/davidhurka/doxy_morelights_dim>.\n\n## License\n\nThe mod is licensed as CC0-1.0 and MIT.\n(This means that this modpack may be merged to `morelights` at will.\nI am perfectly fine with that.)\n\nScreenshots depict artwork from other Minetest mods, and are licensed as CC-BY-SA-4.0.\n\n## Contributing\n\nThe source code is hosted at <https://invent.kde.org/davidhurka/doxy_morelights_dim>.\nProblems should be reported at <https://invent.kde.org/davidhurka/doxy_morelights_dim/issues>.\n",
+  "maintainers": [
+    "doxygen_spammer"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "morelights_dim",
+  "provides": [
+    "morelights_dim",
+    "morelights_dim_morelights_extras",
+    "morelights_dim_morelights_extras_linuxforks",
+    "morelights_dim_morelights_modern",
+    "morelights_dim_morelights_vintage"
+  ],
+  "release": 19488,
+  "repo": "https://invent.kde.org/davidhurka/doxy_morelights_dim",
+  "score": 173.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f04d5d7499.png",
+    "https://content.luanti.org/uploads/0227c1f572.png",
+    "https://content.luanti.org/uploads/6f36ccd392.png",
+    "https://content.luanti.org/uploads/a284b6b4aa.png",
+    "https://content.luanti.org/uploads/3137e353fe.png",
+    "https://content.luanti.org/uploads/799e7c9164.png"
+  ],
+  "short_description": "Allows to turn morelights lights off or to dim them.",
+  "state": "APPROVED",
+  "tags": [
+    "building"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f04d5d7499.png",
+  "title": "morelights_dim",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/doxygen_spammer/morelights_dim/releases/19488/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "doxygen_spammer/morelights_dim": [
+      {
+        "is_optional": false,
+        "name": "morelights_extras",
+        "packages": [
+          "random_geek/morelights",
+          "MeseCraft/mesecraft"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "morelights_vintage",
+        "packages": [
+          "random_geek/morelights",
+          "MeseCraft/mesecraft"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "morelights_modern",
+        "packages": [
+          "random_geek/morelights"
+        ]
+      }
+    ],
+    "random_geek/morelights": []
+  },
+  "hash": "0bipvgm207g5p279yp1if9h3904rl90jkps6gclbkc5a2vh1ibzj"
+}

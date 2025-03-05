@@ -1,1 +1,67 @@
-{"author":"fancyfinn9","content_warnings":[],"created_at":"2024-03-16T14:52:55.859229","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":179,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true}],"issue_tracker":"https://github.com/fancyfinn9/ctf-improvedthirdperson/issues","license":"LGPL-2.1-only","long_description":"# Improved 3rd person\n\nThis mod is made for the [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/) game for [Minetest](https://minetest.net).\nImproved 3rd person will add an extra setting to the player's settings menu, by enabling this the camera will be moved slightly to the side when in 3rd person, thus allowing you to see where you are aiming with your crosshair.\n\n### How to install\n\nYou must have [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/) installed.\nTo install, move this directory into the “mods” directory of your Minetest data directory.\n","maintainers":["fancyfinn9"],"media_license":"LGPL-2.1-only","name":"improvedthirdperson","provides":["improvedthirdperson"],"release":24189,"repo":"https://github.com/fancyfinn9/ctf-improvedthirdperson.git","score":6.1,"screenshots":["https://content.luanti.org/uploads/b31fca9910.png"],"short_description":"See and do more when you're in 3rd person! (Made for CTF)","state":"APPROVED","tags":["multiplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/b31fca9910.png","title":"Improved 3rd person (CTF)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/fancyfinn9/improvedthirdperson/releases/24189/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/fancyfinn9/ctf-improvedthirdperson","dependencies":{"fancyfinn9/improvedthirdperson":[{"is_optional":false,"name":"ctf_settings","packages":["rubenwardy/capturetheflag"]}]},"hash":"12x91mkj3l4kcy717cdd14b5dvkwgw00mv9vr3wl0dwfi2wgldc3"}
+{
+  "author": "fancyfinn9",
+  "content_warnings": [],
+  "created_at": "2024-03-16T14:52:55.859229",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 179,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/fancyfinn9/ctf-improvedthirdperson/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "# Improved 3rd person\n\nThis mod is made for the [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/) game for [Minetest](https://minetest.net).\nImproved 3rd person will add an extra setting to the player's settings menu, by enabling this the camera will be moved slightly to the side when in 3rd person, thus allowing you to see where you are aiming with your crosshair.\n\n### How to install\n\nYou must have [Capture the Flag](https://content.minetest.net/packages/rubenwardy/capturetheflag/) installed.\nTo install, move this directory into the “mods” directory of your Minetest data directory.\n",
+  "maintainers": [
+    "fancyfinn9"
+  ],
+  "media_license": "LGPL-2.1-only",
+  "name": "improvedthirdperson",
+  "provides": [
+    "improvedthirdperson"
+  ],
+  "release": 24189,
+  "repo": "https://github.com/fancyfinn9/ctf-improvedthirdperson.git",
+  "score": 6.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/b31fca9910.png"
+  ],
+  "short_description": "See and do more when you're in 3rd person! (Made for CTF)",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b31fca9910.png",
+  "title": "Improved 3rd person (CTF)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/fancyfinn9/improvedthirdperson/releases/24189/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fancyfinn9/ctf-improvedthirdperson",
+  "dependencies": {
+    "fancyfinn9/improvedthirdperson": [
+      {
+        "is_optional": false,
+        "name": "ctf_settings",
+        "packages": [
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ]
+  },
+  "hash": "12x91mkj3l4kcy717cdd14b5dvkwgw00mv9vr3wl0dwfi2wgldc3"
+}

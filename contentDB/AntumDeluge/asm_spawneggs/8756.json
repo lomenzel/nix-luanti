@@ -1,1 +1,45 @@
-{"author":"AntumDeluge","content_warnings":[],"created_at":"2021-05-18T19:30:12.880118","dev_state":null,"donate_url":null,"downloads":1332,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26676","forums":26676,"game_support":[],"issue_tracker":"https://github.com/AntumMT/mod-asm_spawneggs/issues","license":"MIT","long_description":"### Description:\n\nMod for adding entity spawning eggs to game with a very simple application. It is used only for creating new \"eggs\" that will spawn a specified entity when used by a player. There are no egg nodes that spawn randomly around the world.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/LICENSE.txt)\n- Textures:\n\t- spawneggs_egg.png, spawneggs_chicken.png, spawneggs_cow.png, & spawneggs_mese_monster.png\n\t\t- [CC0][lic.cc0]\n\t\t- Based on [\"white egg\" by dStulle][img.egg_white]\n\t- spawneggs_oerrki.png\n\t\t- [CC0][lic.cc0]\n\t\t- Based on [\"Huevo negro. Black egg\" by mediobit][img.egg_black]\n\n### Usage:\n\nThere are two global functions: *<span style=\"color:darkgreen;\">asm.registerEgg</span>* & *<span style=\"color:darkgreen;\">asm.registerEggRecipe</span>* (see: [API][api])\n\n### Dependencies:\n\n- Required: none\n- Optional: none\n\n### Links:\n\n- [Reference][api]\n- [Changelog](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/TODO.txt)\n\n### Alternative mods:\n\n- [![spawneggs](https://img.shields.io/static/v1?label=Forum&message=spawneggs&color=%23375a7f&logo=minetest)](https://forum.minetest.net/viewtopic.php?t=6214)\n\n\n[img.egg_white]: https://openclipart.org/detail/6695/white-egg\n[img.egg_black]: https://openclipart.org/detail/170074/huevo-negro-black-egg\n\n[lic.cc0]: https://creativecommons.org/publicdomain/zero/1.0/legalcode\n\n[api]: https://antummt.github.io/mod-asm_spawneggs/docs/api.html","maintainers":["AntumDeluge"],"media_license":"CC0-1.0","name":"asm_spawneggs","provides":["asm_spawneggs"],"release":8756,"repo":"https://github.com/AntumMT/mod-asm_spawneggs","score":8.5,"screenshots":["https://content.luanti.org/uploads/329b0a8a93.png"],"short_description":"Spawneggs for adding entities to game.","state":"APPROVED","tags":["mobs"],"thumbnail":"https://content.luanti.org/thumbnails/1/329b0a8a93.png","title":"Another Spawneggs Mod","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AntumDeluge/asm_spawneggs/releases/8756/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AntumDeluge/asm_spawneggs":[]},"hash":"1sgrzg3rdpyxi3zgli267mbkvfh2nh1jjpxrxnwh019pq8mgyn0w"}
+{
+  "author": "AntumDeluge",
+  "content_warnings": [],
+  "created_at": "2021-05-18T19:30:12.880118",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1332,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26676",
+  "forums": 26676,
+  "game_support": [],
+  "issue_tracker": "https://github.com/AntumMT/mod-asm_spawneggs/issues",
+  "license": "MIT",
+  "long_description": "### Description:\n\nMod for adding entity spawning eggs to game with a very simple application. It is used only for creating new \"eggs\" that will spawn a specified entity when used by a player. There are no egg nodes that spawn randomly around the world.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/LICENSE.txt)\n- Textures:\n\t- spawneggs_egg.png, spawneggs_chicken.png, spawneggs_cow.png, & spawneggs_mese_monster.png\n\t\t- [CC0][lic.cc0]\n\t\t- Based on [\"white egg\" by dStulle][img.egg_white]\n\t- spawneggs_oerrki.png\n\t\t- [CC0][lic.cc0]\n\t\t- Based on [\"Huevo negro. Black egg\" by mediobit][img.egg_black]\n\n### Usage:\n\nThere are two global functions: *<span style=\"color:darkgreen;\">asm.registerEgg</span>* & *<span style=\"color:darkgreen;\">asm.registerEggRecipe</span>* (see: [API][api])\n\n### Dependencies:\n\n- Required: none\n- Optional: none\n\n### Links:\n\n- [Reference][api]\n- [Changelog](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-asm_spawneggs/blob/master/TODO.txt)\n\n### Alternative mods:\n\n- [![spawneggs](https://img.shields.io/static/v1?label=Forum&message=spawneggs&color=%23375a7f&logo=minetest)](https://forum.minetest.net/viewtopic.php?t=6214)\n\n\n[img.egg_white]: https://openclipart.org/detail/6695/white-egg\n[img.egg_black]: https://openclipart.org/detail/170074/huevo-negro-black-egg\n\n[lic.cc0]: https://creativecommons.org/publicdomain/zero/1.0/legalcode\n\n[api]: https://antummt.github.io/mod-asm_spawneggs/docs/api.html",
+  "maintainers": [
+    "AntumDeluge"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "asm_spawneggs",
+  "provides": [
+    "asm_spawneggs"
+  ],
+  "release": 8756,
+  "repo": "https://github.com/AntumMT/mod-asm_spawneggs",
+  "score": 8.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/329b0a8a93.png"
+  ],
+  "short_description": "Spawneggs for adding entities to game.",
+  "state": "APPROVED",
+  "tags": [
+    "mobs"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/329b0a8a93.png",
+  "title": "Another Spawneggs Mod",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AntumDeluge/asm_spawneggs/releases/8756/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AntumDeluge/asm_spawneggs": []
+  },
+  "hash": "1sgrzg3rdpyxi3zgli267mbkvfh2nh1jjpxrxnwh019pq8mgyn0w"
+}

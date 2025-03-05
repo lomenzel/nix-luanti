@@ -1,1 +1,307 @@
-{"author":"cheapie","content_warnings":[],"created_at":"2018-05-25T16:11:02.191124","dev_state":null,"donate_url":null,"downloads":6600,"forum_url":"https://forum.luanti.org/viewtopic.php?t=13904","forums":13904,"game_support":[{"confidence":1,"game":{"aliases":["VanessaE/dreambuilder_game"],"author":"mt-mods","name":"dreambuilder_game","release":29790,"short_description":"Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.","thumbnail":"https://content.luanti.org/thumbnails/1/881d766d45.png","title":"Dreambuilder Game","type":"game"},"supports":true},{"confidence":1,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Kimapr","name":"nonsensical_skyblock","release":27427,"short_description":"skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr","thumbnail":"https://content.luanti.org/thumbnails/1/2f8309e348.png","title":"Nonsensical Skyblock","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC-BY-SA-3.0","long_description":"webdesigner97's \"streets\" and ragnarok's \"infrastructure\" put together, then some changes on top of that...","maintainers":["cheapie"],"media_license":"CC-BY-SA-3.0","name":"roads","provides":["asphalt","asphaltstairs","concretestairs","constructionarea","delineator","emergencyphone","infrastructure","labels","manholes","roadsigns","steelsupport","streetlamps","streetsawards","streetsconcrete","streetshotfix","streetsmod","streetspoles","trafficlight"],"release":25272,"repo":"https://cheapiesystems.com/git/roads","score":341.2,"screenshots":["https://content.luanti.org/uploads/WUicqC0cCl.png"],"short_description":"Advanced modern road infastructure (fork)","state":"APPROVED","tags":["building","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/WUicqC0cCl.png","title":"Roads","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/cheapie/roads/releases/25272/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Jeija/digilines":[],"Jeija/mesecons":[],"cheapie/roads":[{"is_optional":false,"name":"moreblocks","packages":["Just_Visiting/littlelady","BuckarooBanzay/mesecons_lab","rheo/moreblocks","Calinou/moreblocks","BuckarooBanzay/super_sam","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"basic_materials","packages":["mt-mods/basic_materials","BuckarooBanzay/mesecons_lab","joe7575/techage_modpack","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"wool","packages":["Noodlemire/voxeldungeon","sunnysideup/holidayhorrors","Amaz/lordofthetest","1248/castrum","Minetest/minetest_game","1248/regnum","miroptics/qiskitblocks_miro","1248/regnum2","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","bell07/whynot_game","jgordon510/gridlocks","giga-turbo/codecube","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","LibraSubtilis/minebase","rlars/occupymoon_game","PetiAPocok/minetest_extended","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"mesecons","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","nam/porko","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","Thunder1035/pacman","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"digilines","packages":["BuckarooBanzay/mesecons_lab","nam/porko","BRNSystems/blocky_portaling","Jeija/digilines","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"mt-mods/basic_materials":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}]},"hash":"18cpna24hm95qiaiwmcnn532pg5mhdm3ych7ycg88msamxd0z8kv"}
+{
+  "author": "cheapie",
+  "content_warnings": [],
+  "created_at": "2018-05-25T16:11:02.191124",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 6600,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=13904",
+  "forums": 13904,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": [
+          "VanessaE/dreambuilder_game"
+        ],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 29790,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-3.0",
+  "long_description": "webdesigner97's \"streets\" and ragnarok's \"infrastructure\" put together, then some changes on top of that...",
+  "maintainers": [
+    "cheapie"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "roads",
+  "provides": [
+    "asphalt",
+    "asphaltstairs",
+    "concretestairs",
+    "constructionarea",
+    "delineator",
+    "emergencyphone",
+    "infrastructure",
+    "labels",
+    "manholes",
+    "roadsigns",
+    "steelsupport",
+    "streetlamps",
+    "streetsawards",
+    "streetsconcrete",
+    "streetshotfix",
+    "streetsmod",
+    "streetspoles",
+    "trafficlight"
+  ],
+  "release": 25272,
+  "repo": "https://cheapiesystems.com/git/roads",
+  "score": 341.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/WUicqC0cCl.png"
+  ],
+  "short_description": "Advanced modern road infastructure (fork)",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/WUicqC0cCl.png",
+  "title": "Roads",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/cheapie/roads/releases/25272/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "Jeija/mesecons": [],
+    "cheapie/roads": [
+      {
+        "is_optional": false,
+        "name": "moreblocks",
+        "packages": [
+          "Just_Visiting/littlelady",
+          "BuckarooBanzay/mesecons_lab",
+          "rheo/moreblocks",
+          "Calinou/moreblocks",
+          "BuckarooBanzay/super_sam",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "BuckarooBanzay/mesecons_lab",
+          "joe7575/techage_modpack",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "wool",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Minetest/minetest_game",
+          "1248/regnum",
+          "miroptics/qiskitblocks_miro",
+          "1248/regnum2",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "bell07/whynot_game",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "LibraSubtilis/minebase",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "Thunder1035/pacman",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "mt-mods/basic_materials": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "18cpna24hm95qiaiwmcnn532pg5mhdm3ych7ycg88msamxd0z8kv"
+}

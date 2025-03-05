@@ -1,1 +1,61 @@
-{"author":"Soundwavez","content_warnings":[],"created_at":"2024-04-18T17:48:58.617734","dev_state":"BETA","donate_url":null,"downloads":826,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"adds fun balls to bounce around, (fun!) dees balls can (bounce if they hit the ground at an angle), (it can be boped/hurled, about 8 nodes away if you punch it, then it will proceed to bounce for a little while) (they can be picked up as a craftitem when rightclicked) (and, if you get close to a ball, the ball will be automaticly be tossed in the direction you are looking) cool right!\n\n---------if someone asks for the basketball, hockey puck, or socker ball, the mod will be updated. the new update will include all of them.\n-(same goes with other ascosiated objects like hoop, goal, and so on...)\n\n\n-----this mod should work with most games, cause the entity code is basic, and does not require any depends!\n\n\nenjoy!","maintainers":["Soundwavez"],"media_license":"CC-BY-SA-3.0","name":"dees_balls","provides":["dees_balls"],"release":24781,"repo":null,"score":802.4,"screenshots":["https://content.luanti.org/uploads/a80a74a95a.png"],"short_description":"adds fun balls with basic physics, to play (socker, basket ball, and hockey, with!","state":"APPROVED","tags":["pvp","simulation","sports"],"thumbnail":"https://content.luanti.org/thumbnails/1/a80a74a95a.png","title":"DEES BALLZ!","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Soundwavez/dees_balls/releases/24781/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Soundwavez/dees_balls":[]},"hash":"1mphrfkcr826w5ybscmrh9hrq1l648vsqjp599zmixl8sys5h2is"}
+{
+  "author": "Soundwavez",
+  "content_warnings": [],
+  "created_at": "2024-04-18T17:48:58.617734",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 826,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "adds fun balls to bounce around, (fun!) dees balls can (bounce if they hit the ground at an angle), (it can be boped/hurled, about 8 nodes away if you punch it, then it will proceed to bounce for a little while) (they can be picked up as a craftitem when rightclicked) (and, if you get close to a ball, the ball will be automaticly be tossed in the direction you are looking) cool right!\n\n---------if someone asks for the basketball, hockey puck, or socker ball, the mod will be updated. the new update will include all of them.\n-(same goes with other ascosiated objects like hoop, goal, and so on...)\n\n\n-----this mod should work with most games, cause the entity code is basic, and does not require any depends!\n\n\nenjoy!",
+  "maintainers": [
+    "Soundwavez"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "dees_balls",
+  "provides": [
+    "dees_balls"
+  ],
+  "release": 24781,
+  "repo": null,
+  "score": 802.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a80a74a95a.png"
+  ],
+  "short_description": "adds fun balls with basic physics, to play (socker, basket ball, and hockey, with!",
+  "state": "APPROVED",
+  "tags": [
+    "pvp",
+    "simulation",
+    "sports"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a80a74a95a.png",
+  "title": "DEES BALLZ!",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Soundwavez/dees_balls/releases/24781/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Soundwavez/dees_balls": []
+  },
+  "hash": "1mphrfkcr826w5ybscmrh9hrq1l648vsqjp599zmixl8sys5h2is"
+}

@@ -1,1 +1,56 @@
-{"author":"snowyu","content_warnings":[],"created_at":"2022-09-08T06:07:08.927735","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":2612,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/snowyu/minetest-country_flags/issues","license":"MIT","long_description":"# Pride Country Flags Mod\n\nPride Country Flags adds a variety of animated country flags in [Minetest](https://minetest.net/).\n\nThe flags are named by their 2-letter [ISO-3166 country code](https://www.iso.org/iso-3166-country-codes.html).\n\nYou can use [my Pride-Flags feature branch](https://codeberg.org/riceball/pride_flags/src/branch/feat/formspec) directly for a quick flag pick before @Wuzzy merges mine.\n\n## Credits\n\n* All country flags come from [flag-icons](https://github.com/lipis/flag-icons).\n* The Pride Country Flags Mod depends on [Pride Flags Mod](https://content.minetest.net/packages/Wuzzy/pride_flags/)\n","maintainers":["snowyu"],"media_license":"MIT","name":"country_flags","provides":["country_flags"],"release":13770,"repo":"https://github.com/snowyu/minetest-country_flags","score":491.6,"screenshots":["https://content.luanti.org/uploads/6a788a859c.jpg"],"short_description":"Add all country flags to pride_flags","state":"APPROVED","tags":["decorative","education"],"thumbnail":"https://content.luanti.org/thumbnails/1/6a788a859c.png","title":"Country Flags for Pride_Flag","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/snowyu/country_flags/releases/13770/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Wuzzy/pride_flags":[],"snowyu/country_flags":[{"is_optional":false,"name":"pride_flags","packages":["Wuzzy/pride_flags","Kimapr/nonsensical_skyblock"]}]},"hash":"01pnyzaa9vd7lq1yn86ds1smnf9rls0xj0a94w6bvzcf9gia13w1"}
+{
+  "author": "snowyu",
+  "content_warnings": [],
+  "created_at": "2022-09-08T06:07:08.927735",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2612,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/snowyu/minetest-country_flags/issues",
+  "license": "MIT",
+  "long_description": "# Pride Country Flags Mod\n\nPride Country Flags adds a variety of animated country flags in [Minetest](https://minetest.net/).\n\nThe flags are named by their 2-letter [ISO-3166 country code](https://www.iso.org/iso-3166-country-codes.html).\n\nYou can use [my Pride-Flags feature branch](https://codeberg.org/riceball/pride_flags/src/branch/feat/formspec) directly for a quick flag pick before @Wuzzy merges mine.\n\n## Credits\n\n* All country flags come from [flag-icons](https://github.com/lipis/flag-icons).\n* The Pride Country Flags Mod depends on [Pride Flags Mod](https://content.minetest.net/packages/Wuzzy/pride_flags/)\n",
+  "maintainers": [
+    "snowyu"
+  ],
+  "media_license": "MIT",
+  "name": "country_flags",
+  "provides": [
+    "country_flags"
+  ],
+  "release": 13770,
+  "repo": "https://github.com/snowyu/minetest-country_flags",
+  "score": 491.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6a788a859c.jpg"
+  ],
+  "short_description": "Add all country flags to pride_flags",
+  "state": "APPROVED",
+  "tags": [
+    "decorative",
+    "education"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6a788a859c.png",
+  "title": "Country Flags for Pride_Flag",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/snowyu/country_flags/releases/13770/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/pride_flags": [],
+    "snowyu/country_flags": [
+      {
+        "is_optional": false,
+        "name": "pride_flags",
+        "packages": [
+          "Wuzzy/pride_flags",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      }
+    ]
+  },
+  "hash": "01pnyzaa9vd7lq1yn86ds1smnf9rls0xj0a94w6bvzcf9gia13w1"
+}

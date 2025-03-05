@@ -1,1 +1,91 @@
-{"author":"VeproGames","content_warnings":[],"created_at":"2023-04-14T14:38:04.067943","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":323,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"hades_revisited","release":23418,"short_description":"Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)","thumbnail":"https://content.luanti.org/thumbnails/1/9781fc4ca1.png","title":"Hades Revisited","type":"game"},"supports":true}],"issue_tracker":"https://github.com/veprogames/mt-hades-endgame/issues/new/choose/","license":"LGPL-2.1-or-later","long_description":"# Minetest Mod: hades_endgame\n\nAdds lategame stuff to [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited)\n\n* Onyx (worth 2 Diamonds ~ 16 Emeralds)\n* Onyx Pickaxe (better than Prism Pickaxe)\n* Void Pickaxe (better than Onyx Pickaxe)\n* Higher Ore density far down, generation maxes out at Y -28k ([hades_travelnet](https://content.minetest.net/packages/SFENCE/hades_travelnet) recommended)\n* Moister for making efficient Moss farms\n* Revival Item to supress death\n* Grassifier to get grassy landscapes more easily\n\nAssets used are derivatives of assets from [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited) (CC BY-SA 3.0), see [LICENSE_MEDIA](./LICENSE_MEDIA)","maintainers":["VeproGames"],"media_license":"CC-BY-SA-3.0","name":"hades_endgame","provides":["hades_endgame"],"release":18388,"repo":"https://github.com/veprogames/mt-hades-endgame","score":4.1,"screenshots":["https://content.luanti.org/uploads/e92f711432.png"],"short_description":"Adds various goodies to Hades Revisited, focused on Late/Endgame","state":"APPROVED","tags":["mapgen","plants_and_farming","singleplayer","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/e92f711432.png","title":"Hades Endgame","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/VeproGames/hades_endgame/releases/18388/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"VeproGames/hades_endgame":[{"is_optional":false,"name":"hades_grass","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_sounds","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_core","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_vessels","packages":["Wuzzy/hades_revisited"]}]},"hash":"0c2c8vk9b2ni8g5izsn8p5sx7n0gngc0wc4d6dkz330cc4wwh6z6"}
+{
+  "author": "VeproGames",
+  "content_warnings": [],
+  "created_at": "2023-04-14T14:38:04.067943",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 323,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 23418,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9781fc4ca1.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/veprogames/mt-hades-endgame/issues/new/choose/",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Minetest Mod: hades_endgame\n\nAdds lategame stuff to [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited)\n\n* Onyx (worth 2 Diamonds ~ 16 Emeralds)\n* Onyx Pickaxe (better than Prism Pickaxe)\n* Void Pickaxe (better than Onyx Pickaxe)\n* Higher Ore density far down, generation maxes out at Y -28k ([hades_travelnet](https://content.minetest.net/packages/SFENCE/hades_travelnet) recommended)\n* Moister for making efficient Moss farms\n* Revival Item to supress death\n* Grassifier to get grassy landscapes more easily\n\nAssets used are derivatives of assets from [Hades Revisited](https://codeberg.org/Wuzzy/Hades_Revisited) (CC BY-SA 3.0), see [LICENSE_MEDIA](./LICENSE_MEDIA)",
+  "maintainers": [
+    "VeproGames"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "hades_endgame",
+  "provides": [
+    "hades_endgame"
+  ],
+  "release": 18388,
+  "repo": "https://github.com/veprogames/mt-hades-endgame",
+  "score": 4.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e92f711432.png"
+  ],
+  "short_description": "Adds various goodies to Hades Revisited, focused on Late/Endgame",
+  "state": "APPROVED",
+  "tags": [
+    "mapgen",
+    "plants_and_farming",
+    "singleplayer",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e92f711432.png",
+  "title": "Hades Endgame",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/VeproGames/hades_endgame/releases/18388/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "VeproGames/hades_endgame": [
+      {
+        "is_optional": false,
+        "name": "hades_grass",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_sounds",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_core",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_vessels",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      }
+    ]
+  },
+  "hash": "0c2c8vk9b2ni8g5izsn8p5sx7n0gngc0wc4d6dkz330cc4wwh6z6"
+}

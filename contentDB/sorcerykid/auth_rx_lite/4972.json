@@ -1,1 +1,46 @@
-{"author":"sorcerykid","content_warnings":[],"created_at":"2020-09-02T23:45:22.011692","dev_state":null,"donate_url":"https://liberapay.com/sorcerykid","downloads":969,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"Auth Redux Lite is available for server operators that want a barebones, no-frills authentication handler for their server. The entire mod consists of a single 13 kB file.\n\n**Recommended Enhancement:** The [DataMiner Mod](https://forum.minetest.net/viewtopic.php?f=9&t=20621) extends the capabilities of Auth Redux Lite, providing comprehensive player and server statistics within a graphical user-interface, in addition to an API for custom-tailored log analysis and reporting directly from the command line\n\n## Database Migration:\n\nThis fork uses the same database API and architecture as [Auth Redux](https://forum.minetest.net/viewtopic.php?f=9&t=20393), so migration is completely seamless. If you are already using Auth Redux, simply backup your existing \"auth_rx\"' subdirectory, and then save the included \"init.lua\" file in its place.\n\nHowever, if you are migrating from the builtin auth handler of Minetest 5.x, then there are a few additional steps depending on the specific database backend you are using.\n\n### Convert auth.txt\n\n  1. Create an \"auth_rx_lite\" subdirectory under mods in your game.\n  2. Run the included Database Import Script to convert the database.\n\n     `awk -f convert.awk -v mode=install ~/.minetest/worlds/world/auth.txt`\n\n### Convert auth.sqlite\n\n  1. Create an \"auth_rx_lite\" subdirectory under mods in your game.\n  2. Run the Minetest server to migrate the SQLite3 auth database backend.\n\n     `minetestserver --migrate-auth files --worldname world`\n\n  3. Run the included Database Import Script to convert the database.\n\n     `awk -f convert.awk -v mode=install ~/.minetest/worlds/world/auth.txt`\n\nIn the examples above, you will need to provide your world directory. I'd also recommend moving or simply renaming the auth.txt file to \"auth.txt.bak\" for safekeeping.\n\nThat's all there is to it!\n","maintainers":["sorcerykid"],"media_license":"MIT","name":"auth_rx_lite","provides":["auth_rx_lite"],"release":4972,"repo":"https://bitbucket.org/sorcerykid/auth_rx_lite.git","score":3.6,"screenshots":["https://content.luanti.org/uploads/Bh0IeYYnGd.png"],"short_description":"Robust and lightweight authentication handler for use on servers","state":"APPROVED","tags":["multiplayer","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/Bh0IeYYnGd.png","title":"Auth Redux Lite","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/sorcerykid/auth_rx_lite/releases/4972/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/sorcerykid/auth_rx/wiki","dependencies":{"sorcerykid/auth_rx_lite":[]},"hash":"1y6cp0mdzqglpv329zmslr3d21409mcd2w4d5sfxl392ddq6cy2k"}
+{
+  "author": "sorcerykid",
+  "content_warnings": [],
+  "created_at": "2020-09-02T23:45:22.011692",
+  "dev_state": null,
+  "donate_url": "https://liberapay.com/sorcerykid",
+  "downloads": 969,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Auth Redux Lite is available for server operators that want a barebones, no-frills authentication handler for their server. The entire mod consists of a single 13 kB file.\n\n**Recommended Enhancement:** The [DataMiner Mod](https://forum.minetest.net/viewtopic.php?f=9&t=20621) extends the capabilities of Auth Redux Lite, providing comprehensive player and server statistics within a graphical user-interface, in addition to an API for custom-tailored log analysis and reporting directly from the command line\n\n## Database Migration:\n\nThis fork uses the same database API and architecture as [Auth Redux](https://forum.minetest.net/viewtopic.php?f=9&t=20393), so migration is completely seamless. If you are already using Auth Redux, simply backup your existing \"auth_rx\"' subdirectory, and then save the included \"init.lua\" file in its place.\n\nHowever, if you are migrating from the builtin auth handler of Minetest 5.x, then there are a few additional steps depending on the specific database backend you are using.\n\n### Convert auth.txt\n\n  1. Create an \"auth_rx_lite\" subdirectory under mods in your game.\n  2. Run the included Database Import Script to convert the database.\n\n     `awk -f convert.awk -v mode=install ~/.minetest/worlds/world/auth.txt`\n\n### Convert auth.sqlite\n\n  1. Create an \"auth_rx_lite\" subdirectory under mods in your game.\n  2. Run the Minetest server to migrate the SQLite3 auth database backend.\n\n     `minetestserver --migrate-auth files --worldname world`\n\n  3. Run the included Database Import Script to convert the database.\n\n     `awk -f convert.awk -v mode=install ~/.minetest/worlds/world/auth.txt`\n\nIn the examples above, you will need to provide your world directory. I'd also recommend moving or simply renaming the auth.txt file to \"auth.txt.bak\" for safekeeping.\n\nThat's all there is to it!\n",
+  "maintainers": [
+    "sorcerykid"
+  ],
+  "media_license": "MIT",
+  "name": "auth_rx_lite",
+  "provides": [
+    "auth_rx_lite"
+  ],
+  "release": 4972,
+  "repo": "https://bitbucket.org/sorcerykid/auth_rx_lite.git",
+  "score": 3.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/Bh0IeYYnGd.png"
+  ],
+  "short_description": "Robust and lightweight authentication handler for use on servers",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/Bh0IeYYnGd.png",
+  "title": "Auth Redux Lite",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/sorcerykid/auth_rx_lite/releases/4972/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/sorcerykid/auth_rx/wiki",
+  "dependencies": {
+    "sorcerykid/auth_rx_lite": []
+  },
+  "hash": "1y6cp0mdzqglpv329zmslr3d21409mcd2w4d5sfxl392ddq6cy2k"
+}

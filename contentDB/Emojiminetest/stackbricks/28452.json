@@ -1,1 +1,69 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2024-11-17T07:45:34.298582","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":57,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/C-C-Minetest-Server/stackbricks/issues","license":"LGPL-3.0-or-later","long_description":"# Stacked Bricks\n\nStacked bricks! This mod supports bricks from the [Minetest Game](https://content.luanti.org/packages/Minetest/minetest_game/), [Technic](https://content.luanti.org/packages/mt-mods/technic_plus/), [Moreblocks](https://content.luanti.org/packages/Calinou/moreblocks/), and [Ethereal NG](https://content.luanti.org/packages/TenPlus1/ethereal/). Mods may register their own using `stackbricks.register_stackbrick`.\n\nStacked bricks are crafted by putting a brick onto another brick in the crafting grid, or by putting their slabs like so. Slabs registered in Minetest Game and Stairsplus (bundled with Moreblocks) are supported.\n","maintainers":["Emojiminetest"],"media_license":"LGPL-3.0-or-later","name":"stackbricks","provides":["stackbricks"],"release":28452,"repo":"https://github.com/C-C-Minetest-Server/stackbricks","score":5.8,"screenshots":["https://content.luanti.org/uploads/0fb493c946.jpg"],"short_description":"Bricks stacked on another type of bricks","state":"APPROVED","tags":["building"],"thumbnail":"https://content.luanti.org/thumbnails/1/0fb493c946.png","title":"Stacked Bricks","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/stackbricks/releases/28452/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/logging":[],"Emojiminetest/stackbricks":[{"is_optional":false,"name":"logging","packages":["Casimir/voxelgarden","Emojiminetest/logging"]}]},"hash":"0lysdx1b5qfxjnf23w6jwv3rv386c1jib8yjgyv3fz4jpwdqbf56"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-11-17T07:45:34.298582",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 57,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/stackbricks/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# Stacked Bricks\n\nStacked bricks! This mod supports bricks from the [Minetest Game](https://content.luanti.org/packages/Minetest/minetest_game/), [Technic](https://content.luanti.org/packages/mt-mods/technic_plus/), [Moreblocks](https://content.luanti.org/packages/Calinou/moreblocks/), and [Ethereal NG](https://content.luanti.org/packages/TenPlus1/ethereal/). Mods may register their own using `stackbricks.register_stackbrick`.\n\nStacked bricks are crafted by putting a brick onto another brick in the crafting grid, or by putting their slabs like so. Slabs registered in Minetest Game and Stairsplus (bundled with Moreblocks) are supported.\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "LGPL-3.0-or-later",
+  "name": "stackbricks",
+  "provides": [
+    "stackbricks"
+  ],
+  "release": 28452,
+  "repo": "https://github.com/C-C-Minetest-Server/stackbricks",
+  "score": 5.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0fb493c946.jpg"
+  ],
+  "short_description": "Bricks stacked on another type of bricks",
+  "state": "APPROVED",
+  "tags": [
+    "building"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0fb493c946.png",
+  "title": "Stacked Bricks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/stackbricks/releases/28452/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/logging": [],
+    "Emojiminetest/stackbricks": [
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": [
+          "Casimir/voxelgarden",
+          "Emojiminetest/logging"
+        ]
+      }
+    ]
+  },
+  "hash": "0lysdx1b5qfxjnf23w6jwv3rv386c1jib8yjgyv3fz4jpwdqbf56"
+}

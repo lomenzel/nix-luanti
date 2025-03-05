@@ -1,1 +1,60 @@
-{"author":"TrafficSignal2217","content_warnings":[],"created_at":"2024-01-22T01:29:47.314595","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1295,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"GPL-3.0-only","long_description":"The inventory textures in MineClone2  are now darker to be easier on the eyes.\n\nWarning: Some of the text may be difficult to read because, as far as I know, there is not a way to change the color of Minetest's default black text. Setting font_bold (font bold by default) in the advanced settings to true can help make it easier to read.","maintainers":["TrafficSignal2217"],"media_license":"GPL-3.0-only","name":"mcl_dark_inv","provides":[],"release":23234,"repo":null,"score":33.5,"screenshots":["https://content.luanti.org/uploads/dcd10ecc0b.png","https://content.luanti.org/uploads/03ba21c670.png","https://content.luanti.org/uploads/b685613ef0.png","https://content.luanti.org/uploads/33cad2beb5.png"],"short_description":"Dark inventory textures for MineClone2","state":"APPROVED","tags":["inventory"],"thumbnail":"https://content.luanti.org/thumbnails/1/dcd10ecc0b.png","title":"MineClone2 Dark Mode Inventory","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/TrafficSignal2217/mcl_dark_inv/releases/23234/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"TrafficSignal2217/mcl_dark_inv":[]},"hash":"190dya2q4zalq6rj70h63fg7720z3fxm9r6ypw37lz241ipj3vzf"}
+{
+  "author": "TrafficSignal2217",
+  "content_warnings": [],
+  "created_at": "2024-01-22T01:29:47.314595",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1295,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-3.0-only",
+  "long_description": "The inventory textures in MineClone2  are now darker to be easier on the eyes.\n\nWarning: Some of the text may be difficult to read because, as far as I know, there is not a way to change the color of Minetest's default black text. Setting font_bold (font bold by default) in the advanced settings to true can help make it easier to read.",
+  "maintainers": [
+    "TrafficSignal2217"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "mcl_dark_inv",
+  "provides": [],
+  "release": 23234,
+  "repo": null,
+  "score": 33.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/dcd10ecc0b.png",
+    "https://content.luanti.org/uploads/03ba21c670.png",
+    "https://content.luanti.org/uploads/b685613ef0.png",
+    "https://content.luanti.org/uploads/33cad2beb5.png"
+  ],
+  "short_description": "Dark inventory textures for MineClone2",
+  "state": "APPROVED",
+  "tags": [
+    "inventory"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dcd10ecc0b.png",
+  "title": "MineClone2 Dark Mode Inventory",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/TrafficSignal2217/mcl_dark_inv/releases/23234/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "TrafficSignal2217/mcl_dark_inv": []
+  },
+  "hash": "190dya2q4zalq6rj70h63fg7720z3fxm9r6ypw37lz241ipj3vzf"
+}

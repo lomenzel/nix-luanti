@@ -1,1 +1,69 @@
-{"author":"TBSHEB","content_warnings":[],"created_at":"2020-06-09T01:41:44.975994","dev_state":null,"donate_url":null,"downloads":2481,"forum_url":"https://forum.luanti.org/viewtopic.php?t=24911","forums":24911,"game_support":[],"issue_tracker":"https://github.com/TBSHEB/minetest-balloon-blocks/issues","license":"MIT","long_description":"# Balloonblocks\n\nA [Minetest](https://www.minetest.net/) mod that adds balloon blocks which can be placed in the air.\n\n## Description\n\nHave you ever wanted to build a big house in the sky, but you can't because it would take ages to build up from the ground.\n\nNow you can!\n\nThe balloonblocks can be placed in the air.\nThis means it is now easy to place a block up in the sky.\n\nWhen placing a balloonblock in the air it is always placed three blocks away from your current position.\nIf you can fly, then you don't have to build to place a node. You can just fly up and place a balloonblock!\n\n## Installing\n\nThere are three ways to [install](https://wiki.minetest.net/Installing_Mods) the balloonblocks mod:\n\n### Minetest GUI Installation\n\nIt is possable to install it without closing the game.\n\n1. In the minetest menu, click on the tab titled **Content**.\n1. At the bottom click on **Browse online content** (it may take a while).\n1. Search for **balloon**.\n1. Find the mod called **Balloonblocks**.\n1. Click the **Install** button on the right.\n1. You will get a message saying **Downloding and installing Balloonblocks, please wait...**.\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n### Zip File Installation\n\n1. Use the website [ContentDB](https://content.minetest.net/packages/?q=balloonblocks).\n1. Find the mod titled Balloonblocks, then click on it.\n1. Find a green button titled **Download** and click on it.\n1. Now follow the [wiki instructions](https://wiki.minetest.net/Installing_Mods).\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n### Git Installation\n\n1. Install [Git](https://git-scm.com/).\n1. Open a command prompt on your computer.\n1. Change directory into [minetest mod directory](https://wiki.minetest.net/Installing_Mods).\n1. Then type `git clone https://github.com/TBSHEB/minetest-balloon-blocks.git` and hit enter.\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n## License\n\nMIT License","maintainers":["TBSHEB"],"media_license":"MIT","name":"balloonblocks","provides":["balloonblocks"],"release":4229,"repo":"https://github.com/TBSHEB/minetest-balloon-blocks.git","score":160.1,"screenshots":["https://content.luanti.org/uploads/Ae4PV0da6H.png","https://content.luanti.org/uploads/Z4dnjxNHGA.png","https://content.luanti.org/uploads/BFdfJIX7Qd.png","https://content.luanti.org/uploads/TJGUkeDd3W.png","https://content.luanti.org/uploads/x2vJqCwie1.png","https://content.luanti.org/uploads/kMmnOC1OLk.png","https://content.luanti.org/uploads/WfnDVAcqom.png","https://content.luanti.org/uploads/Fo7eCRe1eI.png","https://content.luanti.org/uploads/KU0WBPcO6J.png","https://content.luanti.org/uploads/mn3m9ZCaXd.png","https://content.luanti.org/uploads/Nh0QTVXeLh.png","https://content.luanti.org/uploads/KzmlMn6iTu.png","https://content.luanti.org/uploads/82TvpyONgP.png","https://content.luanti.org/uploads/o9nxVJKduw.png","https://content.luanti.org/uploads/kLJmm9Da48.png","https://content.luanti.org/uploads/SXisWiEm0s.png","https://content.luanti.org/uploads/7GK1xn6Y5V.png","https://content.luanti.org/uploads/QxCgMR5mGz.png","https://content.luanti.org/uploads/nOyqQU4BpT.png","https://content.luanti.org/uploads/aS6MKZAjyW.png","https://content.luanti.org/uploads/QlDJ3HgTmp.png","https://content.luanti.org/uploads/xo39LGpHgQ.png","https://content.luanti.org/uploads/0Cy1NtvKhM.png","https://content.luanti.org/uploads/R5feHBvi4X.png"],"short_description":"Adds balloon blocks that can be placed on air.","state":"APPROVED","tags":["building","building_mechanics"],"thumbnail":"https://content.luanti.org/thumbnails/1/Ae4PV0da6H.png","title":"Balloon Blocks","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/TBSHEB/balloonblocks/releases/4229/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"TBSHEB/balloonblocks":[]},"hash":"1dsawdvv5lkdss0d32bh67lshg0ij10hl7l092fxq7ga8qkhbws6"}
+{
+  "author": "TBSHEB",
+  "content_warnings": [],
+  "created_at": "2020-06-09T01:41:44.975994",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2481,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=24911",
+  "forums": 24911,
+  "game_support": [],
+  "issue_tracker": "https://github.com/TBSHEB/minetest-balloon-blocks/issues",
+  "license": "MIT",
+  "long_description": "# Balloonblocks\n\nA [Minetest](https://www.minetest.net/) mod that adds balloon blocks which can be placed in the air.\n\n## Description\n\nHave you ever wanted to build a big house in the sky, but you can't because it would take ages to build up from the ground.\n\nNow you can!\n\nThe balloonblocks can be placed in the air.\nThis means it is now easy to place a block up in the sky.\n\nWhen placing a balloonblock in the air it is always placed three blocks away from your current position.\nIf you can fly, then you don't have to build to place a node. You can just fly up and place a balloonblock!\n\n## Installing\n\nThere are three ways to [install](https://wiki.minetest.net/Installing_Mods) the balloonblocks mod:\n\n### Minetest GUI Installation\n\nIt is possable to install it without closing the game.\n\n1. In the minetest menu, click on the tab titled **Content**.\n1. At the bottom click on **Browse online content** (it may take a while).\n1. Search for **balloon**.\n1. Find the mod called **Balloonblocks**.\n1. Click the **Install** button on the right.\n1. You will get a message saying **Downloding and installing Balloonblocks, please wait...**.\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n### Zip File Installation\n\n1. Use the website [ContentDB](https://content.minetest.net/packages/?q=balloonblocks).\n1. Find the mod titled Balloonblocks, then click on it.\n1. Find a green button titled **Download** and click on it.\n1. Now follow the [wiki instructions](https://wiki.minetest.net/Installing_Mods).\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n### Git Installation\n\n1. Install [Git](https://git-scm.com/).\n1. Open a command prompt on your computer.\n1. Change directory into [minetest mod directory](https://wiki.minetest.net/Installing_Mods).\n1. Then type `git clone https://github.com/TBSHEB/minetest-balloon-blocks.git` and hit enter.\n\nYou have now installed the balloonblocks mod, don't forget to enable it.\n\n## License\n\nMIT License",
+  "maintainers": [
+    "TBSHEB"
+  ],
+  "media_license": "MIT",
+  "name": "balloonblocks",
+  "provides": [
+    "balloonblocks"
+  ],
+  "release": 4229,
+  "repo": "https://github.com/TBSHEB/minetest-balloon-blocks.git",
+  "score": 160.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/Ae4PV0da6H.png",
+    "https://content.luanti.org/uploads/Z4dnjxNHGA.png",
+    "https://content.luanti.org/uploads/BFdfJIX7Qd.png",
+    "https://content.luanti.org/uploads/TJGUkeDd3W.png",
+    "https://content.luanti.org/uploads/x2vJqCwie1.png",
+    "https://content.luanti.org/uploads/kMmnOC1OLk.png",
+    "https://content.luanti.org/uploads/WfnDVAcqom.png",
+    "https://content.luanti.org/uploads/Fo7eCRe1eI.png",
+    "https://content.luanti.org/uploads/KU0WBPcO6J.png",
+    "https://content.luanti.org/uploads/mn3m9ZCaXd.png",
+    "https://content.luanti.org/uploads/Nh0QTVXeLh.png",
+    "https://content.luanti.org/uploads/KzmlMn6iTu.png",
+    "https://content.luanti.org/uploads/82TvpyONgP.png",
+    "https://content.luanti.org/uploads/o9nxVJKduw.png",
+    "https://content.luanti.org/uploads/kLJmm9Da48.png",
+    "https://content.luanti.org/uploads/SXisWiEm0s.png",
+    "https://content.luanti.org/uploads/7GK1xn6Y5V.png",
+    "https://content.luanti.org/uploads/QxCgMR5mGz.png",
+    "https://content.luanti.org/uploads/nOyqQU4BpT.png",
+    "https://content.luanti.org/uploads/aS6MKZAjyW.png",
+    "https://content.luanti.org/uploads/QlDJ3HgTmp.png",
+    "https://content.luanti.org/uploads/xo39LGpHgQ.png",
+    "https://content.luanti.org/uploads/0Cy1NtvKhM.png",
+    "https://content.luanti.org/uploads/R5feHBvi4X.png"
+  ],
+  "short_description": "Adds balloon blocks that can be placed on air.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "building_mechanics"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/Ae4PV0da6H.png",
+  "title": "Balloon Blocks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TBSHEB/balloonblocks/releases/4229/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "TBSHEB/balloonblocks": []
+  },
+  "hash": "1dsawdvv5lkdss0d32bh67lshg0ij10hl7l092fxq7ga8qkhbws6"
+}

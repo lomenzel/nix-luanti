@@ -1,1 +1,56 @@
-{"author":"rheo","content_warnings":[],"created_at":"2022-09-05T23:03:26.170482","dev_state":"MAINTENANCE_ONLY","donate_url":"https://github.com/sponsors/fluxionary/","downloads":448,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/fluxionary/minetest-silence/issues","license":"LGPL-3.0-or-later","long_description":"Proof-of-concept sound silencing mod.\n\nAdds a node that mutes all position-sensitive server-generated sounds within a certain radius.\n\nCopyright 2021 flux\nLGPLv3\n","maintainers":["rheo"],"media_license":"CC-BY-SA-4.0","name":"silence","provides":["silence"],"release":20385,"repo":"https://github.com/fluxionary/minetest-silence.git","score":2.4,"screenshots":["https://content.luanti.org/uploads/47736805e6.png"],"short_description":"adds a node to silence nearby sounds","state":"APPROVED","tags":["building","sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/47736805e6.png","title":"silence","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rheo/silence/releases/20385/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/fluxionary/minetest-silence","dependencies":{"rheo/fmod":[],"rheo/silence":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]}]},"hash":"0midx77nzi42p9093kn7nmkz1sys9rb3czm6x3mq7chdk42ilf4j"}
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-09-05T23:03:26.170482",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 448,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-silence/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "Proof-of-concept sound silencing mod.\n\nAdds a node that mutes all position-sensitive server-generated sounds within a certain radius.\n\nCopyright 2021 flux\nLGPLv3\n",
+  "maintainers": [
+    "rheo"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "silence",
+  "provides": [
+    "silence"
+  ],
+  "release": 20385,
+  "repo": "https://github.com/fluxionary/minetest-silence.git",
+  "score": 2.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/47736805e6.png"
+  ],
+  "short_description": "adds a node to silence nearby sounds",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/47736805e6.png",
+  "title": "silence",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/silence/releases/20385/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-silence",
+  "dependencies": {
+    "rheo/fmod": [],
+    "rheo/silence": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ]
+  },
+  "hash": "0midx77nzi42p9093kn7nmkz1sys9rb3czm6x3mq7chdk42ilf4j"
+}

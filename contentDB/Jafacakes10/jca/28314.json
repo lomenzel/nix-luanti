@@ -1,1 +1,60 @@
-{"author":"Jafacakes10","content_warnings":[],"created_at":"2024-05-18T10:57:39.256130","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":256,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Jafacakes10/Jafa-Command-Assistant/issues","license":"MIT","long_description":"# Jafa-Command-Assistant\nThis is a Minetest mod to assist anyone with commands in game. It adds commands such as /day, /admin and /fly to make your Minetest experience easier.\n## Possible uses\n1. If you are a server admin, you will find this tool useful as it allows you to control some of the most used player permissions, announce to all players without your nametag to stand out in chat and also control who has admin controls on your server.\n\n2. If you are just playing with friends, the commands such as /fly, /tp and /day might be useful for letting people fly, shortening the teleport command and setting the time to day without extensive knowledge of commands.\n\n3. If you are playing singleplayer then the /fly or /admin command will be useful to allow you to have full control of your world.\n\n4. If you are a teacher at a school using Minetest with pupils to easily control permissions and what they can do.\n## Commands\n1. /admin <Target> | <Me> - This command allows you to grant players every privilege in the base game including the 'announce' privilege from this mod.\n\n2. /day - This command will instantly set the in game time to 12000 or midday.\n\n3. /fly <Target> | <Me> - This command will grant the 'fly' privilege to any player allowing them to fly.\n\n4. /info <Target> - This will post the ip address of the target to the command callers chat only.\n\n5. /mute <Target> | <Me> - This will mute players in chat, stopping them from posting chat or using the '/shout' command that comes with this mod.\n\n6. /noadmin <Target> | <Me> - This will remove all privileges from the target excluding 'interact' and 'shout' as these are the default privileges.\n\n7. /nofly <Target> | <Me> - This will remove the 'fly' privilege from the target removing their ability to fly.\n\n8. /shout <Message> - This will post the specified message in chat in the format '[ANNOUNCEMENT] <message>'.\n\n9. /stop <Reason> - This will shutdown the server and give the reason specified in this format 'Access denied. Reason:  - This server has been forcably closed by: <command callers name> -  For the reason: <specified reason>'\n\n10. /tp <X>,<Y>,<Z> | <to_name> | <name> <X>,<Y>,<Z> | <name> <to_name> - This will teleport to a player, coordinates, a player to coordinates or a player to a player.\n\n11. /unmute <Target> | <Me> - This will unmute the target allowing them to type in chat again, however, they will not be allowed to use the '/shout' command as the privilege 'announce' has not been granted.\n\n12. /nobuild <Target> | <Me> - This will stop the target from building or breaking in the world.\n\n13. /build <Target> | <Me> - This will allow the target to build and break in the world.\n\n14. /ver - This will display the JCA version information in chat.\n\n15. /stat - This will show the status of the server. This includes the game version, game type, server uptime, max lag, currently online clients and JCA version.\n\n16. /b <Target> | <$list> - This will ban the target's ip from the server or list the banned players.\n## Privileges\n1. announce - this privilege will allow people to use the '/shout' command. Please see above.\n## How to install\n1. Download the release that you want.\n2. Unzip the downloaded file.\n3. Go into your unzipped file and locate the directory with 'README.md' and 'jafa_command_assistant' in it.\n4. Go to your Minetest directory and locate the 'mods' folder.\n5. Then, move the 'jafa_command_assistant' folder into the 'mods' folder.\n6. Now, launch the game, click select mods and enable the 'jafa command assistant' mod.\n7. Finally, start your game and enjoy!\n## Final notes\nThank you for downloading this mod, I hope that it proves useful and the issues page on github can be used to report any issues. This mod is now in a stable state but is still being maintained and developed.\n### License\nCopyright (C) 2024 Jafacakes10 <https://github.com/Jafacakes10/>\n\nLatest release: V 4.0.0\n\nLatest readme change: 05/11/2024 - @Jafacakes10\n","maintainers":["Jafacakes10"],"media_license":"MIT","name":"jca","provides":["jca"],"release":28314,"repo":"https://github.com/Jafacakes10/Jafa-Command-Assistant","score":12,"screenshots":["https://content.luanti.org/uploads/db3252f1a6.png"],"short_description":"This is to assist anyone with commands in game. It adds commands such as /day, /admin and /fly to make your experience easier.","state":"APPROVED","tags":["chat","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/db3252f1a6.png","title":"Jafa Command Assistant","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Jafacakes10/jca/releases/28314/download/","video_thumbnail_url":null,"video_url":null,"website":"https://jca.jafacakes10.co.uk/","dependencies":{"Jafacakes10/jca":[]},"hash":"1a8n0cm4cdd7ybjwxcwnsi6radnz67g234i802fbyrzdx37v1dh3"}
+{
+  "author": "Jafacakes10",
+  "content_warnings": [],
+  "created_at": "2024-05-18T10:57:39.256130",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 256,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Jafacakes10/Jafa-Command-Assistant/issues",
+  "license": "MIT",
+  "long_description": "# Jafa-Command-Assistant\nThis is a Minetest mod to assist anyone with commands in game. It adds commands such as /day, /admin and /fly to make your Minetest experience easier.\n## Possible uses\n1. If you are a server admin, you will find this tool useful as it allows you to control some of the most used player permissions, announce to all players without your nametag to stand out in chat and also control who has admin controls on your server.\n\n2. If you are just playing with friends, the commands such as /fly, /tp and /day might be useful for letting people fly, shortening the teleport command and setting the time to day without extensive knowledge of commands.\n\n3. If you are playing singleplayer then the /fly or /admin command will be useful to allow you to have full control of your world.\n\n4. If you are a teacher at a school using Minetest with pupils to easily control permissions and what they can do.\n## Commands\n1. /admin <Target> | <Me> - This command allows you to grant players every privilege in the base game including the 'announce' privilege from this mod.\n\n2. /day - This command will instantly set the in game time to 12000 or midday.\n\n3. /fly <Target> | <Me> - This command will grant the 'fly' privilege to any player allowing them to fly.\n\n4. /info <Target> - This will post the ip address of the target to the command callers chat only.\n\n5. /mute <Target> | <Me> - This will mute players in chat, stopping them from posting chat or using the '/shout' command that comes with this mod.\n\n6. /noadmin <Target> | <Me> - This will remove all privileges from the target excluding 'interact' and 'shout' as these are the default privileges.\n\n7. /nofly <Target> | <Me> - This will remove the 'fly' privilege from the target removing their ability to fly.\n\n8. /shout <Message> - This will post the specified message in chat in the format '[ANNOUNCEMENT] <message>'.\n\n9. /stop <Reason> - This will shutdown the server and give the reason specified in this format 'Access denied. Reason:  - This server has been forcably closed by: <command callers name> -  For the reason: <specified reason>'\n\n10. /tp <X>,<Y>,<Z> | <to_name> | <name> <X>,<Y>,<Z> | <name> <to_name> - This will teleport to a player, coordinates, a player to coordinates or a player to a player.\n\n11. /unmute <Target> | <Me> - This will unmute the target allowing them to type in chat again, however, they will not be allowed to use the '/shout' command as the privilege 'announce' has not been granted.\n\n12. /nobuild <Target> | <Me> - This will stop the target from building or breaking in the world.\n\n13. /build <Target> | <Me> - This will allow the target to build and break in the world.\n\n14. /ver - This will display the JCA version information in chat.\n\n15. /stat - This will show the status of the server. This includes the game version, game type, server uptime, max lag, currently online clients and JCA version.\n\n16. /b <Target> | <$list> - This will ban the target's ip from the server or list the banned players.\n## Privileges\n1. announce - this privilege will allow people to use the '/shout' command. Please see above.\n## How to install\n1. Download the release that you want.\n2. Unzip the downloaded file.\n3. Go into your unzipped file and locate the directory with 'README.md' and 'jafa_command_assistant' in it.\n4. Go to your Minetest directory and locate the 'mods' folder.\n5. Then, move the 'jafa_command_assistant' folder into the 'mods' folder.\n6. Now, launch the game, click select mods and enable the 'jafa command assistant' mod.\n7. Finally, start your game and enjoy!\n## Final notes\nThank you for downloading this mod, I hope that it proves useful and the issues page on github can be used to report any issues. This mod is now in a stable state but is still being maintained and developed.\n### License\nCopyright (C) 2024 Jafacakes10 <https://github.com/Jafacakes10/>\n\nLatest release: V 4.0.0\n\nLatest readme change: 05/11/2024 - @Jafacakes10\n",
+  "maintainers": [
+    "Jafacakes10"
+  ],
+  "media_license": "MIT",
+  "name": "jca",
+  "provides": [
+    "jca"
+  ],
+  "release": 28314,
+  "repo": "https://github.com/Jafacakes10/Jafa-Command-Assistant",
+  "score": 12,
+  "screenshots": [
+    "https://content.luanti.org/uploads/db3252f1a6.png"
+  ],
+  "short_description": "This is to assist anyone with commands in game. It adds commands such as /day, /admin and /fly to make your experience easier.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/db3252f1a6.png",
+  "title": "Jafa Command Assistant",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Jafacakes10/jca/releases/28314/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://jca.jafacakes10.co.uk/",
+  "dependencies": {
+    "Jafacakes10/jca": []
+  },
+  "hash": "1a8n0cm4cdd7ybjwxcwnsi6radnz67g234i802fbyrzdx37v1dh3"
+}

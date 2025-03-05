@@ -1,1 +1,65 @@
-{"author":"Sumianvoice","content_warnings":[],"created_at":"2023-01-07T13:57:48.991356","dev_state":"BETA","donate_url":null,"downloads":160897,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://codeberg.org/SumianVoice/backroomtest/issues","license":"MIT","long_description":"# Backroom Test\nA game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?\n\n### For changelog, see bottom of this page\n\nKnown to work for 5.6.1, and 5.4 other versions unknown.\n\nFor manual install, place in your .minetest/games/ folder (inside a folder called \"backroomtest\" or something)\n\nKeep in mind, this isn't a game in the usual sense, as there isn't much in the way of progression, you can't build, mine, collect items, or anything else you would normally do and this is intentional. It's meant to mimic some of the backrooms found footage videos and other stories various people have created, and so typical game features like digging and building wouldn't work at all. The player needs to be helpless and lost.\n\nBasically, what would it be like if you no-clipped into the backrooms? What would your journey be like?\n\nThere's also a discord server here: https://discord.gg/KGZJBKkcFm\n\n## Mission statement\nTo create liminal spaces that are familiar yet disconcerting for the player to be trapped in and explore.\n\nAlthough inspiration is taken from various stories others have created, it isn't based on any particular canon, and so levels and features present on whatever wiki / video / etc can be added or not freely. It is its own canon. \n\n## Planned features\n- several more levels\n- more reason to explore\n- more sounds, triggers, biomes\n\n## What it isn't\n- a horror game\n- a survival game\n- a simulation\n\n## Features it will never have\n- survival mechanics, hunger, thirst, etc (would be in a separate mod for this game)\n- entities or mobs (separate mod)\n- a way \"out\" obviously\n\n## Rough idea of the \"canon\"\n- similar to the original concept, some of Kane Pixels's work, some of various wikis but not the cringe/SCP stuff.\n\n\n## Cheatsheet (SPOILERS)\n- grey portal doors move you around the level randomly\n- red ones take you to a random level; could be level 0 or 99 who knows\n- purple doors take you to the sequentially next level (level 0, 1, 2 etc)\n- there are no entities or mobs of any kind\n- yes you did hear something following you :)\n- use /level to get a list of levels, and (cheats) you can also put a number /level 1 to go to that level\n\n\n## Changelog\n### b19\n- allow for damage to be turned on\n- disable falldamage through br_player_info/damage.lua\n- fix possible light issue\n","maintainers":["Sumianvoice"],"media_license":"CC-BY-4.0","name":"backroomtest","provides":["br_154","br_core","br_player_model","br_playerphysics","br_sprint","nabm_biomes","nabm_liquids","nabm_mapgen","nabm_stone","nl_fog","penumbra","player_info","pmb_node_update","pmb_util","wield3d","world_storage"],"release":26182,"repo":"https://codeberg.org/SumianVoice/backroomtest.git","score":6758.8,"screenshots":["https://content.luanti.org/uploads/7f0ec19e49.jpg","https://content.luanti.org/uploads/6186b180da.jpg","https://content.luanti.org/uploads/335134a9a6.jpg","https://content.luanti.org/uploads/d225c74b4f.jpg","https://content.luanti.org/uploads/edcbaddfa3.jpg","https://content.luanti.org/uploads/0563926b9b.jpg"],"short_description":"A game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?","state":"APPROVED","tags":["oneofakind__original"],"thumbnail":"https://content.luanti.org/thumbnails/1/7f0ec19e49.png","title":"Backrooms Test","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/Sumianvoice/backroomtest/releases/26182/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Sumianvoice/backroomtest":[]},"hash":"114lzi9wby680smca80rwk3cbnhibr3khkgcg4lmxy5g2p3381nc"}
+{
+  "author": "Sumianvoice",
+  "content_warnings": [],
+  "created_at": "2023-01-07T13:57:48.991356",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 160897,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/SumianVoice/backroomtest/issues",
+  "license": "MIT",
+  "long_description": "# Backroom Test\nA game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?\n\n### For changelog, see bottom of this page\n\nKnown to work for 5.6.1, and 5.4 other versions unknown.\n\nFor manual install, place in your .minetest/games/ folder (inside a folder called \"backroomtest\" or something)\n\nKeep in mind, this isn't a game in the usual sense, as there isn't much in the way of progression, you can't build, mine, collect items, or anything else you would normally do and this is intentional. It's meant to mimic some of the backrooms found footage videos and other stories various people have created, and so typical game features like digging and building wouldn't work at all. The player needs to be helpless and lost.\n\nBasically, what would it be like if you no-clipped into the backrooms? What would your journey be like?\n\nThere's also a discord server here: https://discord.gg/KGZJBKkcFm\n\n## Mission statement\nTo create liminal spaces that are familiar yet disconcerting for the player to be trapped in and explore.\n\nAlthough inspiration is taken from various stories others have created, it isn't based on any particular canon, and so levels and features present on whatever wiki / video / etc can be added or not freely. It is its own canon. \n\n## Planned features\n- several more levels\n- more reason to explore\n- more sounds, triggers, biomes\n\n## What it isn't\n- a horror game\n- a survival game\n- a simulation\n\n## Features it will never have\n- survival mechanics, hunger, thirst, etc (would be in a separate mod for this game)\n- entities or mobs (separate mod)\n- a way \"out\" obviously\n\n## Rough idea of the \"canon\"\n- similar to the original concept, some of Kane Pixels's work, some of various wikis but not the cringe/SCP stuff.\n\n\n## Cheatsheet (SPOILERS)\n- grey portal doors move you around the level randomly\n- red ones take you to a random level; could be level 0 or 99 who knows\n- purple doors take you to the sequentially next level (level 0, 1, 2 etc)\n- there are no entities or mobs of any kind\n- yes you did hear something following you :)\n- use /level to get a list of levels, and (cheats) you can also put a number /level 1 to go to that level\n\n\n## Changelog\n### b19\n- allow for damage to be turned on\n- disable falldamage through br_player_info/damage.lua\n- fix possible light issue\n",
+  "maintainers": [
+    "Sumianvoice"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "backroomtest",
+  "provides": [
+    "br_154",
+    "br_core",
+    "br_player_model",
+    "br_playerphysics",
+    "br_sprint",
+    "nabm_biomes",
+    "nabm_liquids",
+    "nabm_mapgen",
+    "nabm_stone",
+    "nl_fog",
+    "penumbra",
+    "player_info",
+    "pmb_node_update",
+    "pmb_util",
+    "wield3d",
+    "world_storage"
+  ],
+  "release": 26182,
+  "repo": "https://codeberg.org/SumianVoice/backroomtest.git",
+  "score": 6758.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7f0ec19e49.jpg",
+    "https://content.luanti.org/uploads/6186b180da.jpg",
+    "https://content.luanti.org/uploads/335134a9a6.jpg",
+    "https://content.luanti.org/uploads/d225c74b4f.jpg",
+    "https://content.luanti.org/uploads/edcbaddfa3.jpg",
+    "https://content.luanti.org/uploads/0563926b9b.jpg"
+  ],
+  "short_description": "A game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?",
+  "state": "APPROVED",
+  "tags": [
+    "oneofakind__original"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7f0ec19e49.png",
+  "title": "Backrooms Test",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/Sumianvoice/backroomtest/releases/26182/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Sumianvoice/backroomtest": []
+  },
+  "hash": "114lzi9wby680smca80rwk3cbnhibr3khkgcg4lmxy5g2p3381nc"
+}

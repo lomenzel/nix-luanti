@@ -1,1 +1,48 @@
-{"author":"Zemtzov7","content_warnings":[],"created_at":"2024-06-28T20:13:16.448138","dev_state":null,"donate_url":null,"downloads":163,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"# LuaWand\n### Usage\n* The itemname is `luawand:luawand`\n* Grant yourself `luawand` privilege\n* Click RMB(place key) while holding LuaWand in the hand to open the configuration formspec\n* Write your custom code there. The variables(`itemstack, player, pointed_thing`) are provided.\n* Press \"Save\" button to apply configuration.\n---\n* You can also use [ItemEdit](https://github.com/zmv7/minetest-mod-itemedit) to apply custom inventory/wield images to the LuaWand\n## Media Licenses\n* `luawand.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-luawand/blob/master/CC-BY-SA-4.0)","maintainers":["Zemtzov7"],"media_license":"CC-BY-SA-4.0","name":"luawand","provides":["luawand"],"release":26460,"repo":"https://github.com/zmv7/minetest-mod-luawand","score":155,"screenshots":["https://content.luanti.org/uploads/fc1a20f407.png","https://content.luanti.org/uploads/49f6943ae6.png"],"short_description":" Tool with programmable on_use ","state":"APPROVED","tags":["developer_tools","multiplayer","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/fc1a20f407.png","title":"Lua Wand","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Zemtzov7/luawand/releases/26460/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Zemtzov7/luawand":[]},"hash":"15h0q9mr0hyyxjh2q1r22jihd3lpfvnlbjmzjjwd0hysmwgii26n"}
+{
+  "author": "Zemtzov7",
+  "content_warnings": [],
+  "created_at": "2024-06-28T20:13:16.448138",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 163,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# LuaWand\n### Usage\n* The itemname is `luawand:luawand`\n* Grant yourself `luawand` privilege\n* Click RMB(place key) while holding LuaWand in the hand to open the configuration formspec\n* Write your custom code there. The variables(`itemstack, player, pointed_thing`) are provided.\n* Press \"Save\" button to apply configuration.\n---\n* You can also use [ItemEdit](https://github.com/zmv7/minetest-mod-itemedit) to apply custom inventory/wield images to the LuaWand\n## Media Licenses\n* `luawand.png`\n    * **Author:** Zemtzov7\n    * **License:** [CC-BY-SA-4.0](https://github.com/zmv7/minetest-mod-luawand/blob/master/CC-BY-SA-4.0)",
+  "maintainers": [
+    "Zemtzov7"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "luawand",
+  "provides": [
+    "luawand"
+  ],
+  "release": 26460,
+  "repo": "https://github.com/zmv7/minetest-mod-luawand",
+  "score": 155,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fc1a20f407.png",
+    "https://content.luanti.org/uploads/49f6943ae6.png"
+  ],
+  "short_description": " Tool with programmable on_use ",
+  "state": "APPROVED",
+  "tags": [
+    "developer_tools",
+    "multiplayer",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fc1a20f407.png",
+  "title": "Lua Wand",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Zemtzov7/luawand/releases/26460/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Zemtzov7/luawand": []
+  },
+  "hash": "15h0q9mr0hyyxjh2q1r22jihd3lpfvnlbjmzjjwd0hysmwgii26n"
+}

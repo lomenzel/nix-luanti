@@ -1,1 +1,67 @@
-{"author":"Sumianvoice","content_warnings":[],"created_at":"2022-08-13T15:34:31.718577","dev_state":"BETA","donate_url":null,"downloads":1775,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"# Parachute\nsum_parachute\n\nThis adds a parachute to the game. There are three items added:\n\n* packed parachute which can be deployed mid air to safely descend\n* empty parachute bag\n* parachute material itself\n\nDepends on playerphysics, so make sure you have that installed!\n\n## Crafting\n[Crafting guide image](https://codeberg.org/SumianVoice/sum_parachute/raw/branch/main/crafting.png)\n\nCrafting relies on MTG or MCL for item names, but the actual parachute works regardless of game.\n\n* parachute bag = 7 x leather, 1 x string (or wool + string in MTG)\n* parachute material = 3 x (canvas / wool), 2 x string\n* parachute  = parachute material + parachute bag\n\nThe parachute is somewhat controllable. Think of it as a cheap, less convenient elytra. You can't take off from the ground with it, so it's only a safety measure such as on floatlands. \n\nShift to dismount, forward and backward and mouse to steer. \n\n## Air Currents\nThis also implements [sum_air_currents](https://codeberg.org/SumianVoice/sum_air_currents). In strong wind, the parachute is much harder to control if air currents are installed and enabled.","maintainers":["Sumianvoice"],"media_license":"CC-BY-4.0","name":"sum_parachute","provides":["sum_parachute"],"release":13377,"repo":"https://codeberg.org/SumianVoice/sum_parachute","score":324.2,"screenshots":["https://content.luanti.org/uploads/1151038fe9.jpg","https://content.luanti.org/uploads/1a7d85107e.jpg"],"short_description":"Adds parachutes. These are reusable but require you to craft to pack the parachute into your bag.","state":"APPROVED","tags":["survival","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/1151038fe9.png","title":"Parachute (sum)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Sumianvoice/sum_parachute/releases/13377/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Sumianvoice/sum_parachute":[{"is_optional":false,"name":"playerphysics","packages":["Wuzzy/mineclone2","Sumianvoice/pmb_core","VoxelForge/voxelforge","Wuzzy/lazarr","ryvnf/mineclonia","TestificateMods/playerphysics","Wuzzy/hades_revisited","Casimir/voxelgarden","Wuzzy/shadow_forest","Wuzzy/playerphysics","Wuzzy/glitch","Sumianvoice/extra_ordinance"]}],"TestificateMods/playerphysics":[]},"hash":"17yjn1x5k0c1rdgcyzjfqx2rm5a1q6n2c4qcd4ib91bmfnav5svp"}
+{
+  "author": "Sumianvoice",
+  "content_warnings": [],
+  "created_at": "2022-08-13T15:34:31.718577",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1775,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# Parachute\nsum_parachute\n\nThis adds a parachute to the game. There are three items added:\n\n* packed parachute which can be deployed mid air to safely descend\n* empty parachute bag\n* parachute material itself\n\nDepends on playerphysics, so make sure you have that installed!\n\n## Crafting\n[Crafting guide image](https://codeberg.org/SumianVoice/sum_parachute/raw/branch/main/crafting.png)\n\nCrafting relies on MTG or MCL for item names, but the actual parachute works regardless of game.\n\n* parachute bag = 7 x leather, 1 x string (or wool + string in MTG)\n* parachute material = 3 x (canvas / wool), 2 x string\n* parachute  = parachute material + parachute bag\n\nThe parachute is somewhat controllable. Think of it as a cheap, less convenient elytra. You can't take off from the ground with it, so it's only a safety measure such as on floatlands. \n\nShift to dismount, forward and backward and mouse to steer. \n\n## Air Currents\nThis also implements [sum_air_currents](https://codeberg.org/SumianVoice/sum_air_currents). In strong wind, the parachute is much harder to control if air currents are installed and enabled.",
+  "maintainers": [
+    "Sumianvoice"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "sum_parachute",
+  "provides": [
+    "sum_parachute"
+  ],
+  "release": 13377,
+  "repo": "https://codeberg.org/SumianVoice/sum_parachute",
+  "score": 324.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1151038fe9.jpg",
+    "https://content.luanti.org/uploads/1a7d85107e.jpg"
+  ],
+  "short_description": "Adds parachutes. These are reusable but require you to craft to pack the parachute into your bag.",
+  "state": "APPROVED",
+  "tags": [
+    "survival",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1151038fe9.png",
+  "title": "Parachute (sum)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Sumianvoice/sum_parachute/releases/13377/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Sumianvoice/sum_parachute": [
+      {
+        "is_optional": false,
+        "name": "playerphysics",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "Sumianvoice/pmb_core",
+          "VoxelForge/voxelforge",
+          "Wuzzy/lazarr",
+          "ryvnf/mineclonia",
+          "TestificateMods/playerphysics",
+          "Wuzzy/hades_revisited",
+          "Casimir/voxelgarden",
+          "Wuzzy/shadow_forest",
+          "Wuzzy/playerphysics",
+          "Wuzzy/glitch",
+          "Sumianvoice/extra_ordinance"
+        ]
+      }
+    ],
+    "TestificateMods/playerphysics": []
+  },
+  "hash": "17yjn1x5k0c1rdgcyzjfqx2rm5a1q6n2c4qcd4ib91bmfnav5svp"
+}

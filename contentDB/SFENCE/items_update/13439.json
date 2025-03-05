@@ -1,1 +1,45 @@
-{"author":"SFENCE","content_warnings":[],"created_at":"2022-08-13T13:23:39.006617","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":341,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28547","forums":28547,"game_support":[],"issue_tracker":"https://github.com/sfence/items_update/issues","license":"MIT","long_description":"Mod which update items in player inventory on move/put or/and on join.\n\nInclude two setting parameters, accesable by Minetest Setting menu. See [settingtypes.txt ](https://github.com/sfence/items_update/blob/master/settingtypes.txt) for details.\n\n\n\n","maintainers":["SFENCE"],"media_license":"MIT","name":"items_update","provides":["items_update"],"release":13439,"repo":"https://github.com/sfence/items_update","score":2.5,"screenshots":["https://content.luanti.org/uploads/d2e7a9f4d0.png"],"short_description":"Update items in player inventory if they are alias.","state":"APPROVED","tags":["world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/d2e7a9f4d0.png","title":"Items Update","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/SFENCE/items_update/releases/13439/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"SFENCE/items_update":[]},"hash":"1iw9jzsypxbh0aw25pw1j8rvf528npg6a0apa9mziphgmsk0yjmd"}
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2022-08-13T13:23:39.006617",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 341,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28547",
+  "forums": 28547,
+  "game_support": [],
+  "issue_tracker": "https://github.com/sfence/items_update/issues",
+  "license": "MIT",
+  "long_description": "Mod which update items in player inventory on move/put or/and on join.\n\nInclude two setting parameters, accesable by Minetest Setting menu. See [settingtypes.txt ](https://github.com/sfence/items_update/blob/master/settingtypes.txt) for details.\n\n\n\n",
+  "maintainers": [
+    "SFENCE"
+  ],
+  "media_license": "MIT",
+  "name": "items_update",
+  "provides": [
+    "items_update"
+  ],
+  "release": 13439,
+  "repo": "https://github.com/sfence/items_update",
+  "score": 2.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d2e7a9f4d0.png"
+  ],
+  "short_description": "Update items in player inventory if they are alias.",
+  "state": "APPROVED",
+  "tags": [
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d2e7a9f4d0.png",
+  "title": "Items Update",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/items_update/releases/13439/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SFENCE/items_update": []
+  },
+  "hash": "1iw9jzsypxbh0aw25pw1j8rvf528npg6a0apa9mziphgmsk0yjmd"
+}

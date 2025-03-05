@@ -1,1 +1,61 @@
-{"author":"sebpro_3","content_warnings":[],"created_at":"2024-11-13T00:03:57.642970","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":224,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC-BY-3.0","long_description":"A very simple 16px texture pack with a minecraft bare bone look \n","maintainers":["sebpro_3"],"media_license":"CC-BY-3.0","name":"mt_bare_bone","provides":[],"release":29725,"repo":null,"score":34.1,"screenshots":["https://content.luanti.org/uploads/d215bf66b3.png","https://content.luanti.org/uploads/c2a0789bb4.png","https://content.luanti.org/uploads/34aaf46524.png","https://content.luanti.org/uploads/9a898e7103.png","https://content.luanti.org/uploads/95b912433b.png"],"short_description":"texture pack with a minecraft bare bone look","state":"APPROVED","tags":["16px"],"thumbnail":"https://content.luanti.org/thumbnails/1/d215bf66b3.png","title":"Bare bone MT","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/sebpro_3/mt_bare_bone/releases/29725/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"sebpro_3/mt_bare_bone":[]},"hash":"1gxv7zqarzvbi989yxxp6km2nbl6m5a264rvrpxdr3yghf35k5r8"}
+{
+  "author": "sebpro_3",
+  "content_warnings": [],
+  "created_at": "2024-11-13T00:03:57.642970",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 224,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-3.0",
+  "long_description": "A very simple 16px texture pack with a minecraft bare bone look \n",
+  "maintainers": [
+    "sebpro_3"
+  ],
+  "media_license": "CC-BY-3.0",
+  "name": "mt_bare_bone",
+  "provides": [],
+  "release": 29725,
+  "repo": null,
+  "score": 34.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d215bf66b3.png",
+    "https://content.luanti.org/uploads/c2a0789bb4.png",
+    "https://content.luanti.org/uploads/34aaf46524.png",
+    "https://content.luanti.org/uploads/9a898e7103.png",
+    "https://content.luanti.org/uploads/95b912433b.png"
+  ],
+  "short_description": "texture pack with a minecraft bare bone look",
+  "state": "APPROVED",
+  "tags": [
+    "16px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d215bf66b3.png",
+  "title": "Bare bone MT",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/sebpro_3/mt_bare_bone/releases/29725/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "sebpro_3/mt_bare_bone": []
+  },
+  "hash": "1gxv7zqarzvbi989yxxp6km2nbl6m5a264rvrpxdr3yghf35k5r8"
+}

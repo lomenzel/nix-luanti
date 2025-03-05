@@ -1,1 +1,125 @@
-{"author":"joe7575","content_warnings":[],"created_at":"2019-04-23T18:09:38.713389","dev_state":null,"donate_url":null,"downloads":16416,"forum_url":"https://forum.luanti.org/viewtopic.php?t=22464","forums":22464,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/joe7575/minecart/issues","license":"MIT","long_description":"Minecart Features\n-----------------\n\nThe mod Minecart has its own cart (called Minecart) in addition to the standard cart.\nMinecarts are used for automated item transport on private and public rail networks.\nThe mod features are:\n\n- a fast cart for your railway or roller coaster (up to 8 m/s!)\n- boost rails and speed limit signs\n- rail junction switching with the 'right-left' walking keys\n- configurable timetables and routes for Minecarts\n- automated loading/unloading of Minecarts by means of a Minecart Hopper\n- rail network protection based on protection blocks called Land Marks\n- protection of minecarts and cargo\n- Minecarts run through unloaded areas (only the stations/hopper have to be loaded)\n- Extra Minecart privs for rail workers\n- Ingame documentation (German and English), based on the mod \"doc\"\n- API to register carts from other mods\n- chat command '/mycart <num>' to output cart state and location\n\nIntroduction\n------------\n\n1. Place your rails and build a route with two endpoints. Junctions are allowed \n   as long as each route has its own start and endpoint.\n2. Place a Railway Buffer at both endpoints. (buffers are always needed, \n   they store the route and timing information)\n3. Give both Railway Buffers unique station names, like Oxford and Cambridge\n4. Place a Minecart at a buffer and give it a cart number (1..999)\n5. Drive from buffer to buffer in both directions using the Minecart(!) to record the \n   routes (use 'right-left' keys to control the Minecart)\n6. Punch the buffers to check the connection data (e.g. \"Oxford: connected to Cambridge\")\n7. Optional: Configure the Minecart waiting time in both buffers. The Minecart\n   will then start automatically after the configured time\n8. Optional: Protect your rail network with the Protection Landmarks (one Landmark \n   at least every 16 nodes/meters)\n9. Place a Minecart in front of the buffer and check whether it starts after the \n   configured time\n10. Check the cart state via the chat command: `/mycart <num>`.\n    '<num>' is the cart number, or get a list of carts with `/mycart`\n11. Drop items into the Minecart and punch the cart to start it, or \"sneak+click\" the \n    Minecart to get cart and items back\n\n\nManual\n------\n\nSee [Wiki](https://github.com/joe7575/minecart/wiki)\n","maintainers":["joe7575"],"media_license":"CC0-1.0","name":"minecart","provides":["minecart"],"release":29187,"repo":"https://github.com/joe7575/minecart","score":353.9,"screenshots":["https://content.luanti.org/uploads/4549108e63.png"],"short_description":"Minecart, the lean railway transportation automation system","state":"APPROVED","tags":["transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/4549108e63.png","title":"Minecart","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/joe7575/minecart/releases/29187/download/","video_thumbnail_url":null,"video_url":"https://vimeo.com/manage/videos/390201539","website":null,"dependencies":{"joe7575/minecart":[{"is_optional":false,"name":"carts","packages":["1248/castrum","1248/regnum","mt-mods/blockcolor","Minetest/minetest_game","1248/regnum2","miroptics/qiskitblocks_miro","Casimir/voxelgarden","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","bell07/whynot_game","Big_Caballito/no_mans_land","MeseCraft/mesecraft","TheFanne/raining_nodes","PetiAPocok/minetest_extended","hilol/epic_combat","EmptyStar/asuna","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}]},"hash":"16a6n3swfhiinky3zyxyz6278y8x9aa08zp337bhkm1ibcz1xbav"}
+{
+  "author": "joe7575",
+  "content_warnings": [],
+  "created_at": "2019-04-23T18:09:38.713389",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 16416,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22464",
+  "forums": 22464,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/joe7575/minecart/issues",
+  "license": "MIT",
+  "long_description": "Minecart Features\n-----------------\n\nThe mod Minecart has its own cart (called Minecart) in addition to the standard cart.\nMinecarts are used for automated item transport on private and public rail networks.\nThe mod features are:\n\n- a fast cart for your railway or roller coaster (up to 8 m/s!)\n- boost rails and speed limit signs\n- rail junction switching with the 'right-left' walking keys\n- configurable timetables and routes for Minecarts\n- automated loading/unloading of Minecarts by means of a Minecart Hopper\n- rail network protection based on protection blocks called Land Marks\n- protection of minecarts and cargo\n- Minecarts run through unloaded areas (only the stations/hopper have to be loaded)\n- Extra Minecart privs for rail workers\n- Ingame documentation (German and English), based on the mod \"doc\"\n- API to register carts from other mods\n- chat command '/mycart <num>' to output cart state and location\n\nIntroduction\n------------\n\n1. Place your rails and build a route with two endpoints. Junctions are allowed \n   as long as each route has its own start and endpoint.\n2. Place a Railway Buffer at both endpoints. (buffers are always needed, \n   they store the route and timing information)\n3. Give both Railway Buffers unique station names, like Oxford and Cambridge\n4. Place a Minecart at a buffer and give it a cart number (1..999)\n5. Drive from buffer to buffer in both directions using the Minecart(!) to record the \n   routes (use 'right-left' keys to control the Minecart)\n6. Punch the buffers to check the connection data (e.g. \"Oxford: connected to Cambridge\")\n7. Optional: Configure the Minecart waiting time in both buffers. The Minecart\n   will then start automatically after the configured time\n8. Optional: Protect your rail network with the Protection Landmarks (one Landmark \n   at least every 16 nodes/meters)\n9. Place a Minecart in front of the buffer and check whether it starts after the \n   configured time\n10. Check the cart state via the chat command: `/mycart <num>`.\n    '<num>' is the cart number, or get a list of carts with `/mycart`\n11. Drop items into the Minecart and punch the cart to start it, or \"sneak+click\" the \n    Minecart to get cart and items back\n\n\nManual\n------\n\nSee [Wiki](https://github.com/joe7575/minecart/wiki)\n",
+  "maintainers": [
+    "joe7575"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "minecart",
+  "provides": [
+    "minecart"
+  ],
+  "release": 29187,
+  "repo": "https://github.com/joe7575/minecart",
+  "score": 353.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/4549108e63.png"
+  ],
+  "short_description": "Minecart, the lean railway transportation automation system",
+  "state": "APPROVED",
+  "tags": [
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4549108e63.png",
+  "title": "Minecart",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/joe7575/minecart/releases/29187/download/",
+  "video_thumbnail_url": null,
+  "video_url": "https://vimeo.com/manage/videos/390201539",
+  "website": null,
+  "dependencies": {
+    "joe7575/minecart": [
+      {
+        "is_optional": false,
+        "name": "carts",
+        "packages": [
+          "1248/castrum",
+          "1248/regnum",
+          "mt-mods/blockcolor",
+          "Minetest/minetest_game",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "Casimir/voxelgarden",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ]
+  },
+  "hash": "16a6n3swfhiinky3zyxyz6278y8x9aa08zp337bhkm1ibcz1xbav"
+}

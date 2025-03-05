@@ -1,1 +1,104 @@
-{"author":"rudzik8","content_warnings":[],"created_at":"2024-08-06T05:12:12.441249","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":173,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://codeberg.org/rudzik8/vl_soaking/issues","license":"LGPL-2.1-or-later","long_description":"# VoxeLibre Soaking Rain `vl_soaking`\n\n![Screenshot](https://content.minetest.net/uploads/1f62b9701d.png)\n\nThis mod makes you take damage under rain/snow, unless you are:\n\n* wearing leather helmet and leather chestplate *or*\n* holding an umbrella (a new item) in your hand (or offhand).\n\n\nThe crafting recipe for the new umbrella item is as follows:\n\n![Recipe](https://i.imgur.com/s79olpI.png)\n\n\n## License\n\n### License of source code\n\nCopyright (C) 2024, Mikita 'rudzik8' Wiśniewski <rudzik8@protonmail.com>\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see `LICENSE` file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n### License of media\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see `MEDIA_LICENSE` file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>\n\n* `vl_soaking_umbrella.png` uses [stick texture](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/textures/default_stick.png) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by [XSSheep](https://github.com/XSSheep) (drawn over)","maintainers":["rudzik8"],"media_license":"CC-BY-SA-4.0","name":"vl_soaking","provides":["vl_soaking"],"release":26447,"repo":"https://codeberg.org/rudzik8/vl_soaking","score":8.6,"screenshots":["https://content.luanti.org/uploads/1f62b9701d.png"],"short_description":"Makes you take damage under rain/snow without leather topping or an umbrella","state":"APPROVED","tags":["environment","oneofakind__original","pve","survival","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/1f62b9701d.png","title":"VoxeLibre Soaking Rain","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rudzik8/vl_soaking/releases/26447/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"rudzik8/vl_soaking":[{"is_optional":false,"name":"mcl_weather","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_init","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"1r2dlfdpw35dsnzjcbn7pyz9lc2pss44fasfz2435782vgr676zh"}
+{
+  "author": "rudzik8",
+  "content_warnings": [],
+  "created_at": "2024-08-06T05:12:12.441249",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 173,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/rudzik8/vl_soaking/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# VoxeLibre Soaking Rain `vl_soaking`\n\n![Screenshot](https://content.minetest.net/uploads/1f62b9701d.png)\n\nThis mod makes you take damage under rain/snow, unless you are:\n\n* wearing leather helmet and leather chestplate *or*\n* holding an umbrella (a new item) in your hand (or offhand).\n\n\nThe crafting recipe for the new umbrella item is as follows:\n\n![Recipe](https://i.imgur.com/s79olpI.png)\n\n\n## License\n\n### License of source code\n\nCopyright (C) 2024, Mikita 'rudzik8' Wiśniewski <rudzik8@protonmail.com>\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see `LICENSE` file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n### License of media\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see `MEDIA_LICENSE` file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>\n\n* `vl_soaking_umbrella.png` uses [stick texture](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/textures/default_stick.png) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by [XSSheep](https://github.com/XSSheep) (drawn over)",
+  "maintainers": [
+    "rudzik8"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "vl_soaking",
+  "provides": [
+    "vl_soaking"
+  ],
+  "release": 26447,
+  "repo": "https://codeberg.org/rudzik8/vl_soaking",
+  "score": 8.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1f62b9701d.png"
+  ],
+  "short_description": "Makes you take damage under rain/snow without leather topping or an umbrella",
+  "state": "APPROVED",
+  "tags": [
+    "environment",
+    "oneofakind__original",
+    "pve",
+    "survival",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1f62b9701d.png",
+  "title": "VoxeLibre Soaking Rain",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rudzik8/vl_soaking/releases/26447/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "rudzik8/vl_soaking": [
+      {
+        "is_optional": false,
+        "name": "mcl_weather",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_init",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1r2dlfdpw35dsnzjcbn7pyz9lc2pss44fasfz2435782vgr676zh"
+}

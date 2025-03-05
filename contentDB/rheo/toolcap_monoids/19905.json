@@ -1,1 +1,80 @@
-{"author":"rheo","content_warnings":[],"created_at":"2023-04-08T00:31:14.994198","dev_state":"MAINTENANCE_ONLY","donate_url":"https://github.com/sponsors/fluxionary/","downloads":207,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/fluxionary/minetest-toolcap_monoids/issues","license":"LGPL-3.0-or-later","long_description":"# toolcap_monoids\n\nan API to allow multiple sources to apply changes to a tools's capabilities.\n\nsee README.md for usage. ","maintainers":["rheo"],"media_license":"CC-BY-SA-4.0","name":"toolcap_monoids","provides":["toolcap_monoids"],"release":19905,"repo":"https://github.com/fluxionary/minetest-toolcap_monoids.git","score":2.5,"screenshots":["https://content.luanti.org/uploads/975daae7db.png"],"short_description":"an API to allow multiple sources to apply changes to a tools's capabilities.","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/975daae7db.png","title":"toolcap_monoids","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rheo/toolcap_monoids/releases/19905/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/fluxionary/minetest-toolcap_monoids","dependencies":{"rheo/fmod":[],"rheo/item_monoids":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]}],"rheo/toolcap_monoids":[{"is_optional":false,"name":"item_monoids","packages":["rheo/item_monoids"]},{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]}]},"hash":"1h3iqyxv9ispqy17b4qvvx6whz9xhapgmxl4sz7dv7zl025r1gpd"}
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2023-04-08T00:31:14.994198",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 207,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-toolcap_monoids/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# toolcap_monoids\n\nan API to allow multiple sources to apply changes to a tools's capabilities.\n\nsee README.md for usage. ",
+  "maintainers": [
+    "rheo"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "toolcap_monoids",
+  "provides": [
+    "toolcap_monoids"
+  ],
+  "release": 19905,
+  "repo": "https://github.com/fluxionary/minetest-toolcap_monoids.git",
+  "score": 2.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/975daae7db.png"
+  ],
+  "short_description": "an API to allow multiple sources to apply changes to a tools's capabilities.",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/975daae7db.png",
+  "title": "toolcap_monoids",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/toolcap_monoids/releases/19905/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-toolcap_monoids",
+  "dependencies": {
+    "rheo/fmod": [],
+    "rheo/item_monoids": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      }
+    ],
+    "rheo/toolcap_monoids": [
+      {
+        "is_optional": false,
+        "name": "item_monoids",
+        "packages": [
+          "rheo/item_monoids"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ]
+  },
+  "hash": "1h3iqyxv9ispqy17b4qvvx6whz9xhapgmxl4sz7dv7zl025r1gpd"
+}

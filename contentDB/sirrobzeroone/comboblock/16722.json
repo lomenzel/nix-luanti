@@ -1,1 +1,118 @@
-{"author":"sirrobzeroone","content_warnings":[],"created_at":"2020-05-29T23:54:34.170691","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":4378,"forum_url":"https://forum.luanti.org/viewtopic.php?t=24770","forums":24770,"game_support":[],"issue_tracker":"https://github.com/sirrobzeroone/comboblock/issues","license":"The Unlicense","long_description":"A fork of the original Comboblock mod by Pithy for Minetest version 5.0 to 5.6.\nAllows for the stacking of slabs vertically with additional features added\n\n**Features:**\n\n* Stack traditional half slabs vertically and horizontally\n\n* Slab stacking will respect rotation if a slab is rotated the second slab will be placed beside the existing slab vertically (inside the same node/block area)\n\n* Rules around placement more intuitive e.g click on bottom of node/slab placed below, click on top of node/slab placed above. 5 placement orientations by clicking edge or center of target node.\n\n* As of 5.5.0.1 correctly respects protection \n\n* Handles mods with slabs whose textures are different resolutions","maintainers":["sirrobzeroone"],"media_license":"The Unlicense","name":"comboblock","provides":["comboblock"],"release":16722,"repo":"http://github.com/sirrobzeroone/comboblock","score":647.5,"screenshots":["https://content.luanti.org/uploads/276b2b26bc.png"],"short_description":"Allows the stacking of slabs vertically and horizontally","state":"APPROVED","tags":["building","decorative","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/276b2b26bc.png","title":"Comboblock","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/sirrobzeroone/comboblock/releases/16722/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}],"sirrobzeroone/comboblock":[{"is_optional":false,"name":"stairs","packages":["Noodlemire/voxeldungeon","Amaz/lordofthetest","rheo/moreblocks","1248/castrum","zanderdev/skyblock_zero","Minetest/minetest_game","carlos_rupp/berzerkpt","1248/regnum","mt-mods/blockcolor","1248/regnum2","miroptics/qiskitblocks_miro","TenPlus1/stairs","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","Luanti/devtest","Mantar/exile","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","jgordon510/gridlocks","bell07/whynot_game","Big_Caballito/no_mans_land","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}]},"hash":"19cfyn7g8z1rgi1l3d0i9znb6hh1nqxq7xbd4asljmp9xfwsw7ld"}
+{
+  "author": "sirrobzeroone",
+  "content_warnings": [],
+  "created_at": "2020-05-29T23:54:34.170691",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 4378,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=24770",
+  "forums": 24770,
+  "game_support": [],
+  "issue_tracker": "https://github.com/sirrobzeroone/comboblock/issues",
+  "license": "The Unlicense",
+  "long_description": "A fork of the original Comboblock mod by Pithy for Minetest version 5.0 to 5.6.\nAllows for the stacking of slabs vertically with additional features added\n\n**Features:**\n\n* Stack traditional half slabs vertically and horizontally\n\n* Slab stacking will respect rotation if a slab is rotated the second slab will be placed beside the existing slab vertically (inside the same node/block area)\n\n* Rules around placement more intuitive e.g click on bottom of node/slab placed below, click on top of node/slab placed above. 5 placement orientations by clicking edge or center of target node.\n\n* As of 5.5.0.1 correctly respects protection \n\n* Handles mods with slabs whose textures are different resolutions",
+  "maintainers": [
+    "sirrobzeroone"
+  ],
+  "media_license": "The Unlicense",
+  "name": "comboblock",
+  "provides": [
+    "comboblock"
+  ],
+  "release": 16722,
+  "repo": "http://github.com/sirrobzeroone/comboblock",
+  "score": 647.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/276b2b26bc.png"
+  ],
+  "short_description": "Allows the stacking of slabs vertically and horizontally",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/276b2b26bc.png",
+  "title": "Comboblock",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/sirrobzeroone/comboblock/releases/16722/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "sirrobzeroone/comboblock": [
+      {
+        "is_optional": false,
+        "name": "stairs",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "Amaz/lordofthetest",
+          "rheo/moreblocks",
+          "1248/castrum",
+          "zanderdev/skyblock_zero",
+          "Minetest/minetest_game",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum",
+          "mt-mods/blockcolor",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "TenPlus1/stairs",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "Luanti/devtest",
+          "Mantar/exile",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ]
+  },
+  "hash": "19cfyn7g8z1rgi1l3d0i9znb6hh1nqxq7xbd4asljmp9xfwsw7ld"
+}

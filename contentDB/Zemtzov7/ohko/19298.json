@@ -1,1 +1,86 @@
-{"author":"Zemtzov7","content_warnings":[],"created_at":"2023-06-20T17:09:58.960213","dev_state":null,"donate_url":null,"downloads":197,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":false}],"issue_tracker":"https://github.com/zmv7/minetest-mod-ohko/issues/new/choose/","license":"GPL-3.0-only","long_description":"### Note:\n* Your HPbar will display as full, it's normally, because it calculates difference between current HP and max HP. This mod sets max HP to `1`, so `1`HP is now 100% of the bar.","maintainers":["Zemtzov7"],"media_license":"GPL-3.0-only","name":"ohko","provides":["ohko"],"release":19298,"repo":"https://github.com/zmv7/minetest-mod-ohko","score":302.6,"screenshots":["https://content.luanti.org/uploads/3e98c60e2b.png"],"short_description":"Very simple mod for hardcore survival with 1HP","state":"APPROVED","tags":["pvp","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/3e98c60e2b.png","title":"One hit knock-out","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Zemtzov7/ohko/releases/19298/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Zemtzov7/ohko":[]},"hash":"0qlvr887csk80v4w0mcwlhz2k6pim86mp8xd3ld921hih0wwmfbi"}
+{
+  "author": "Zemtzov7",
+  "content_warnings": [],
+  "created_at": "2023-06-20T17:09:58.960213",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 197,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/zmv7/minetest-mod-ohko/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "### Note:\n* Your HPbar will display as full, it's normally, because it calculates difference between current HP and max HP. This mod sets max HP to `1`, so `1`HP is now 100% of the bar.",
+  "maintainers": [
+    "Zemtzov7"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "ohko",
+  "provides": [
+    "ohko"
+  ],
+  "release": 19298,
+  "repo": "https://github.com/zmv7/minetest-mod-ohko",
+  "score": 302.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3e98c60e2b.png"
+  ],
+  "short_description": "Very simple mod for hardcore survival with 1HP",
+  "state": "APPROVED",
+  "tags": [
+    "pvp",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3e98c60e2b.png",
+  "title": "One hit knock-out",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Zemtzov7/ohko/releases/19298/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Zemtzov7/ohko": []
+  },
+  "hash": "0qlvr887csk80v4w0mcwlhz2k6pim86mp8xd3ld921hih0wwmfbi"
+}

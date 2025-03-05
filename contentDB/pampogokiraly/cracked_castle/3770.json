@@ -1,1 +1,116 @@
-{"author":"pampogokiraly","content_warnings":[],"created_at":"2020-05-07T18:10:13.290750","dev_state":null,"donate_url":null,"downloads":1857,"forum_url":"https://forum.luanti.org/viewtopic.php?t=24435","forums":24435,"game_support":[],"issue_tracker":null,"license":"LGPL-2.1-only","long_description":"This mod gives you two *old broken stone brick* nodes with slabs and stairs too, two *old broken stone block* nodes with slabs and stairs too, two old ladders for both the steel and for the wooden one, and it also adds a brand new cobweb!","maintainers":["pampogokiraly"],"media_license":"CC-BY-SA-4.0","name":"cracked_castle","provides":["cracked_castle"],"release":3770,"repo":"https://gitlab.com/pampogokiraly/cracked-castle-mod","score":10.9,"screenshots":["https://content.luanti.org/uploads/X6cRHBQsM4.png"],"short_description":"Nodes to help you making an old broken castle!","state":"APPROVED","tags":["decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/X6cRHBQsM4.png","title":"Cracked Castle","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/pampogokiraly/cracked_castle/releases/3770/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"pampogokiraly/cracked_castle":[{"is_optional":false,"name":"stairs","packages":["Noodlemire/voxeldungeon","Amaz/lordofthetest","rheo/moreblocks","1248/castrum","zanderdev/skyblock_zero","Minetest/minetest_game","carlos_rupp/berzerkpt","1248/regnum","mt-mods/blockcolor","1248/regnum2","miroptics/qiskitblocks_miro","TenPlus1/stairs","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","Luanti/devtest","Mantar/exile","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","jgordon510/gridlocks","bell07/whynot_game","Big_Caballito/no_mans_land","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}]},"hash":"00fih7w380qbb8ifhrxd0arm01010gpxbmcim6k8aiwicb9y0w7y"}
+{
+  "author": "pampogokiraly",
+  "content_warnings": [],
+  "created_at": "2020-05-07T18:10:13.290750",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1857,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=24435",
+  "forums": 24435,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "LGPL-2.1-only",
+  "long_description": "This mod gives you two *old broken stone brick* nodes with slabs and stairs too, two *old broken stone block* nodes with slabs and stairs too, two old ladders for both the steel and for the wooden one, and it also adds a brand new cobweb!",
+  "maintainers": [
+    "pampogokiraly"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "cracked_castle",
+  "provides": [
+    "cracked_castle"
+  ],
+  "release": 3770,
+  "repo": "https://gitlab.com/pampogokiraly/cracked-castle-mod",
+  "score": 10.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/X6cRHBQsM4.png"
+  ],
+  "short_description": "Nodes to help you making an old broken castle!",
+  "state": "APPROVED",
+  "tags": [
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/X6cRHBQsM4.png",
+  "title": "Cracked Castle",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/pampogokiraly/cracked_castle/releases/3770/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "pampogokiraly/cracked_castle": [
+      {
+        "is_optional": false,
+        "name": "stairs",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "Amaz/lordofthetest",
+          "rheo/moreblocks",
+          "1248/castrum",
+          "zanderdev/skyblock_zero",
+          "Minetest/minetest_game",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum",
+          "mt-mods/blockcolor",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "TenPlus1/stairs",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "Luanti/devtest",
+          "Mantar/exile",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "00fih7w380qbb8ifhrxd0arm01010gpxbmcim6k8aiwicb9y0w7y"
+}

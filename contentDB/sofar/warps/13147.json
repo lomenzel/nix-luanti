@@ -1,1 +1,45 @@
-{"author":"sofar","content_warnings":[],"created_at":"2019-08-08T05:35:11.922742","dev_state":null,"donate_url":null,"downloads":3811,"forum_url":"https://forum.luanti.org/viewtopic.php?t=12005","forums":12005,"game_support":[],"issue_tracker":"https://github.com/minetest-mods/warps/issues/new/choose/","license":"AGPL-2.0-only","long_description":"A simple \"physical\" teleportation mod for making it easy for players to travel back and forth from specific points. It's not meant as a custom teleport mod for players - more for the admin to create some teleports at a server spawn.","maintainers":["sofar"],"media_license":"AGPL-2.0-only","name":"warps","provides":["warps"],"release":13147,"repo":"https://github.com/minetest-mods/warps","score":7.4,"screenshots":["https://content.luanti.org/uploads/aNS46sZPon.png"],"short_description":"Warp locations and warp stones (portal stones)","state":"APPROVED","tags":["transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/aNS46sZPon.png","title":"Warps","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/sofar/warps/releases/13147/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"sofar/warps":[]},"hash":"1h7x7gk8gjn281xyhkp6n04llwg1srym1dac8x1gydpbh60r3523"}
+{
+  "author": "sofar",
+  "content_warnings": [],
+  "created_at": "2019-08-08T05:35:11.922742",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3811,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=12005",
+  "forums": 12005,
+  "game_support": [],
+  "issue_tracker": "https://github.com/minetest-mods/warps/issues/new/choose/",
+  "license": "AGPL-2.0-only",
+  "long_description": "A simple \"physical\" teleportation mod for making it easy for players to travel back and forth from specific points. It's not meant as a custom teleport mod for players - more for the admin to create some teleports at a server spawn.",
+  "maintainers": [
+    "sofar"
+  ],
+  "media_license": "AGPL-2.0-only",
+  "name": "warps",
+  "provides": [
+    "warps"
+  ],
+  "release": 13147,
+  "repo": "https://github.com/minetest-mods/warps",
+  "score": 7.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/aNS46sZPon.png"
+  ],
+  "short_description": "Warp locations and warp stones (portal stones)",
+  "state": "APPROVED",
+  "tags": [
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/aNS46sZPon.png",
+  "title": "Warps",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/sofar/warps/releases/13147/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "sofar/warps": []
+  },
+  "hash": "1h7x7gk8gjn281xyhkp6n04llwg1srym1dac8x1gydpbh60r3523"
+}

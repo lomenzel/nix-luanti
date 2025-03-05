@@ -1,1 +1,59 @@
-{"author":"LMD","content_warnings":[],"created_at":"2019-11-02T14:07:19.784471","dev_state":null,"donate_url":null,"downloads":1453,"forum_url":"https://forum.luanti.org/viewtopic.php?t=22346","forums":22346,"game_support":[],"issue_tracker":"https://github.com/appgurueu/item_limit/issues/new/choose/","license":"MIT","long_description":"# Item Limit (`item_limit`)\nA mod limiting items in player inventories.\n\n> How unfair ! That player has more apples than I can count !\n\n\\- me, playing Minetest\n\nProblem solved by this mod.\n\n## About\n\nHelp can be found under `config_help.md` in the same folder as this.\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib) and `default`.\n\n**Please note that this mod may not work along well with other mods overriding on_node_drop or the item entity.**\n\nLicensed under the MIT License. Written by Lars Mueller alias LMD or appguru(eu).\n\n## Symbolic Representation\n\n![Symbolic Representation](screenshot.png)\n\n## Links\n\n* [GitHub](https://github.com/appgurueu/item_limit) - sources, issue tracking, contributing\n* [Discord](https://discordapp.com/invite/ysP74by) - discussion, chatting\n* [Minetest Forum](https://forum.minetest.net/viewtopic.php?t=22346) - (more organized) discussion\n* [ContentDB](https://content.minetest.net/packages/LMD/item_limit) - releases (cloning from GitHub is recommended)\n\n# Configuration\n\n## Locations\n\nJSON Configuration : `<worldpath>/config/item_limit.json`\n\nText Logs : `<worldpath>/logs/item_limit/<date>.json`\n\nExplaining document(this, Markdown) : `<modpath/gamepath>/item_limit/config_help.md`\n\nReadme : `<modpath/gamepath>/item_limit/Readme.md`\n\n## Default Configuration\nLocated under `<modpath/gamepath>/item_limit/default_config.json`\n```json\n{\n  \"player_inventory_lists\": [\"main\", \"craft\"],\n  \"limits\" : {\n    \"by_item_name\" : {},\n    \"by_group_name\" : {}\n  },\n  \"disable_item_override\" : false,\n  \"disable_node_drop_override\" : false,\n  \"disable_on_craft\" : false,\n  \"disable_on_inventory_action\" : false,\n  \"disable_itemlimit_skip\" : false\n}\n```\n\n## Usage\n\n### `player_inventory_lists`\nA list. Specifies which inventory lists should be taken into account for item limits.\nFor instance, it makes almost no sense and is not recommended to include the craft preview list.\nBy default only the main inventory(\"main\") and the crafting grid(\"craft\") are considered.\n\n### `by_item_name`\nLimits items in the player's inventory by their name.\nKey is the full item name, like `default:dirt`.\nValue is the maximum amount that may be in a player's inventory, as number.\n\n### `by_group_name`\nWorks similar to `by_item_name`, but instead of the per item, items are limited based on their *group*.\nIf you, for example, wanted to limit the maximum amount of sticks in a player's inventory, you can use `stick`, the full group name, as key.\n\n### `disable_on_craft`\nDisable dropping items which may not be taken directly when crafted. If set to `true`, the player will have to manually drop the items he can't put into his inventory.\n\n### `disable_itemlimit_skip`\nDisable the itemlimit skip privilege, which allows players to ignore the item limit.\n\n### Other `disable_*` flags\nDisable several barriers disallowing players to exceed their item limit, such as the item override(player can exceed limit through picking up items), the on_node_drop override(player can exceed limit through digging nodes), etc.\n**It is not recommmended to set these to `true`.**","maintainers":["LMD"],"media_license":"MIT","name":"item_limit","provides":["item_limit"],"release":15339,"repo":"https://github.com/appgurueu/item_limit","score":3.2,"screenshots":["https://content.luanti.org/uploads/7IkFe8TEFf.png"],"short_description":"Limits the amount of items of certain types in player inventories","state":"APPROVED","tags":["inventory","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/7IkFe8TEFf.png","title":"Item Limit","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/LMD/item_limit/releases/15339/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"LMD/item_limit":[{"is_optional":false,"name":"modlib","packages":["LMD/modlib","zanderdev/skyblock_zero","sdd/spiraling_down","LMD/cellestial_game","Kimapr/nonsensical_skyblock"]}],"LMD/modlib":[]},"hash":"18wv7ihnlisa12mxzcd9iinxgmj61xxxn0n9hckcrs8ssllsqj6d"}
+{
+  "author": "LMD",
+  "content_warnings": [],
+  "created_at": "2019-11-02T14:07:19.784471",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1453,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22346",
+  "forums": 22346,
+  "game_support": [],
+  "issue_tracker": "https://github.com/appgurueu/item_limit/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "# Item Limit (`item_limit`)\nA mod limiting items in player inventories.\n\n> How unfair ! That player has more apples than I can count !\n\n\\- me, playing Minetest\n\nProblem solved by this mod.\n\n## About\n\nHelp can be found under `config_help.md` in the same folder as this.\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib) and `default`.\n\n**Please note that this mod may not work along well with other mods overriding on_node_drop or the item entity.**\n\nLicensed under the MIT License. Written by Lars Mueller alias LMD or appguru(eu).\n\n## Symbolic Representation\n\n![Symbolic Representation](screenshot.png)\n\n## Links\n\n* [GitHub](https://github.com/appgurueu/item_limit) - sources, issue tracking, contributing\n* [Discord](https://discordapp.com/invite/ysP74by) - discussion, chatting\n* [Minetest Forum](https://forum.minetest.net/viewtopic.php?t=22346) - (more organized) discussion\n* [ContentDB](https://content.minetest.net/packages/LMD/item_limit) - releases (cloning from GitHub is recommended)\n\n# Configuration\n\n## Locations\n\nJSON Configuration : `<worldpath>/config/item_limit.json`\n\nText Logs : `<worldpath>/logs/item_limit/<date>.json`\n\nExplaining document(this, Markdown) : `<modpath/gamepath>/item_limit/config_help.md`\n\nReadme : `<modpath/gamepath>/item_limit/Readme.md`\n\n## Default Configuration\nLocated under `<modpath/gamepath>/item_limit/default_config.json`\n```json\n{\n  \"player_inventory_lists\": [\"main\", \"craft\"],\n  \"limits\" : {\n    \"by_item_name\" : {},\n    \"by_group_name\" : {}\n  },\n  \"disable_item_override\" : false,\n  \"disable_node_drop_override\" : false,\n  \"disable_on_craft\" : false,\n  \"disable_on_inventory_action\" : false,\n  \"disable_itemlimit_skip\" : false\n}\n```\n\n## Usage\n\n### `player_inventory_lists`\nA list. Specifies which inventory lists should be taken into account for item limits.\nFor instance, it makes almost no sense and is not recommended to include the craft preview list.\nBy default only the main inventory(\"main\") and the crafting grid(\"craft\") are considered.\n\n### `by_item_name`\nLimits items in the player's inventory by their name.\nKey is the full item name, like `default:dirt`.\nValue is the maximum amount that may be in a player's inventory, as number.\n\n### `by_group_name`\nWorks similar to `by_item_name`, but instead of the per item, items are limited based on their *group*.\nIf you, for example, wanted to limit the maximum amount of sticks in a player's inventory, you can use `stick`, the full group name, as key.\n\n### `disable_on_craft`\nDisable dropping items which may not be taken directly when crafted. If set to `true`, the player will have to manually drop the items he can't put into his inventory.\n\n### `disable_itemlimit_skip`\nDisable the itemlimit skip privilege, which allows players to ignore the item limit.\n\n### Other `disable_*` flags\nDisable several barriers disallowing players to exceed their item limit, such as the item override(player can exceed limit through picking up items), the on_node_drop override(player can exceed limit through digging nodes), etc.\n**It is not recommmended to set these to `true`.**",
+  "maintainers": [
+    "LMD"
+  ],
+  "media_license": "MIT",
+  "name": "item_limit",
+  "provides": [
+    "item_limit"
+  ],
+  "release": 15339,
+  "repo": "https://github.com/appgurueu/item_limit",
+  "score": 3.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7IkFe8TEFf.png"
+  ],
+  "short_description": "Limits the amount of items of certain types in player inventories",
+  "state": "APPROVED",
+  "tags": [
+    "inventory",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7IkFe8TEFf.png",
+  "title": "Item Limit",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/LMD/item_limit/releases/15339/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "LMD/item_limit": [
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "zanderdev/skyblock_zero",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      }
+    ],
+    "LMD/modlib": []
+  },
+  "hash": "18wv7ihnlisa12mxzcd9iinxgmj61xxxn0n9hckcrs8ssllsqj6d"
+}

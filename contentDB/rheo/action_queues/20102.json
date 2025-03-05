@@ -1,1 +1,74 @@
-{"author":"rheo","content_warnings":[],"created_at":"2022-09-05T22:00:46.050650","dev_state":"MAINTENANCE_ONLY","donate_url":"https://github.com/sponsors/fluxionary/","downloads":730,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/fluxionary/minetest-action_queues/issues","license":"LGPL-3.0-or-later","long_description":"# action_queues\n\nprovides an API for queuing things for batch processing w/ various ways to specify the batch \"size\".\n\nsee README.md for usage. ","maintainers":["rheo"],"media_license":"CC-BY-SA-4.0","name":"action_queues","provides":["action_queues"],"release":20102,"repo":"https://github.com/fluxionary/minetest-action_queues.git","score":2.4,"screenshots":["https://content.luanti.org/uploads/1919566bfc.png"],"short_description":"provides an API for queuing things for batch processing w/ various ways to specify the batch \"size\".","state":"APPROVED","tags":["developer_tools","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/1919566bfc.png","title":"action queues","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rheo/action_queues/releases/20102/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/fluxionary/minetest-action_queues","dependencies":{"rheo/action_queues":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]}],"rheo/fmod":[],"rheo/futil":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]}]},"hash":"1j43r32v2q92z3g0xw1l3hyzl3xpq27rsl2qmcqn1w11b3l5qshz"}
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-09-05T22:00:46.050650",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 730,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-action_queues/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# action_queues\n\nprovides an API for queuing things for batch processing w/ various ways to specify the batch \"size\".\n\nsee README.md for usage. ",
+  "maintainers": [
+    "rheo"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "action_queues",
+  "provides": [
+    "action_queues"
+  ],
+  "release": 20102,
+  "repo": "https://github.com/fluxionary/minetest-action_queues.git",
+  "score": 2.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1919566bfc.png"
+  ],
+  "short_description": "provides an API for queuing things for batch processing w/ various ways to specify the batch \"size\".",
+  "state": "APPROVED",
+  "tags": [
+    "developer_tools",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1919566bfc.png",
+  "title": "action queues",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/action_queues/releases/20102/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-action_queues",
+  "dependencies": {
+    "rheo/action_queues": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      }
+    ],
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ]
+  },
+  "hash": "1j43r32v2q92z3g0xw1l3hyzl3xpq27rsl2qmcqn1w11b3l5qshz"
+}

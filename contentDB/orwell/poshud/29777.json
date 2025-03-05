@@ -1,1 +1,45 @@
-{"author":"orwell","content_warnings":[],"created_at":"2018-11-05T22:09:50.734938","dev_state":null,"donate_url":null,"downloads":2351,"forum_url":"https://forum.luanti.org/viewtopic.php?t=21053","forums":21053,"game_support":[],"issue_tracker":"https://github.com/orwell96/poshud/issues/new/choose/","license":"LGPL-2.1-only","long_description":"This is a small server-side mod which displays the following information on a head-up display in the bottom right screen corner:\n\n- Current game time\n\n- Average and maximum lag time (see below)\n\n- Current player position\n\n- (if recent advtrains is installed) Railway Time\n\nThe \"Lag\" value is determined by averaging over some lag samples taken by os.clock(). See the code for details about this. The values are not synced from the engine's max_lag, because there's no convenient way to get this value.\n","maintainers":["orwell"],"media_license":"LGPL-2.1-only","name":"poshud","provides":["poshud"],"release":29777,"repo":"https://github.com/orwell96/poshud","score":15.2,"screenshots":["https://content.luanti.org/uploads/vL6lopVGpo.png"],"short_description":"Displays some information in the bottom-right corner of the screen.","state":"APPROVED","tags":["hud"],"thumbnail":"https://content.luanti.org/thumbnails/1/vL6lopVGpo.png","title":"Time, Lag and Position HUD display","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/orwell/poshud/releases/29777/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"orwell/poshud":[]},"hash":"1m6fajlcrp2k5qb6kyblk35llxkid07srlsj7xylfsja9s27f3mw"}
+{
+  "author": "orwell",
+  "content_warnings": [],
+  "created_at": "2018-11-05T22:09:50.734938",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2351,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=21053",
+  "forums": 21053,
+  "game_support": [],
+  "issue_tracker": "https://github.com/orwell96/poshud/issues/new/choose/",
+  "license": "LGPL-2.1-only",
+  "long_description": "This is a small server-side mod which displays the following information on a head-up display in the bottom right screen corner:\n\n- Current game time\n\n- Average and maximum lag time (see below)\n\n- Current player position\n\n- (if recent advtrains is installed) Railway Time\n\nThe \"Lag\" value is determined by averaging over some lag samples taken by os.clock(). See the code for details about this. The values are not synced from the engine's max_lag, because there's no convenient way to get this value.\n",
+  "maintainers": [
+    "orwell"
+  ],
+  "media_license": "LGPL-2.1-only",
+  "name": "poshud",
+  "provides": [
+    "poshud"
+  ],
+  "release": 29777,
+  "repo": "https://github.com/orwell96/poshud",
+  "score": 15.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/vL6lopVGpo.png"
+  ],
+  "short_description": "Displays some information in the bottom-right corner of the screen.",
+  "state": "APPROVED",
+  "tags": [
+    "hud"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/vL6lopVGpo.png",
+  "title": "Time, Lag and Position HUD display",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/orwell/poshud/releases/29777/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "orwell/poshud": []
+  },
+  "hash": "1m6fajlcrp2k5qb6kyblk35llxkid07srlsj7xylfsja9s27f3mw"
+}

@@ -1,1 +1,67 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2022-09-17T11:54:29.173038","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":497,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/C-C-Minetest-Server/usermgr/issues","license":"MIT","long_description":"# GUI to manage users\nThis is a GUI interface to manage user accounts. Use `/usermgr` command to open it.\n\nThe interface is mostly self-documentated, so no worry.\n\nNote that only players with `basic_privs` can manage all accounts, otherwise they could only manage their own.\n\n<span style=\"coor:red\">**`WARNING!`**</span> On large servers (>~100 players), this may cause huge lag. Please test it on local world copies first. Please report the test results to me, as I've never tested such case.\n\n","maintainers":["Emojiminetest"],"media_license":"MIT","name":"usermgr","provides":["usermgr"],"release":13932,"repo":"https://github.com/C-C-Minetest-Server/usermgr","score":155.7,"screenshots":["https://content.luanti.org/uploads/a557b8c943.png"],"short_description":"GUI to manage players","state":"APPROVED","tags":["world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/a557b8c943.png","title":"User Manager","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/usermgr/releases/13932/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/usermgr":[{"is_optional":false,"name":"flow","packages":["Kimapr/nonsensical_skyblock","luk3yx/flow"]}],"luk3yx/flow":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}]},"hash":"0cahsc6gh29g8fabbc1fc60bwiq8ngpj15hsnjad3fzi2dsm1yna"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2022-09-17T11:54:29.173038",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 497,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/usermgr/issues",
+  "license": "MIT",
+  "long_description": "# GUI to manage users\nThis is a GUI interface to manage user accounts. Use `/usermgr` command to open it.\n\nThe interface is mostly self-documentated, so no worry.\n\nNote that only players with `basic_privs` can manage all accounts, otherwise they could only manage their own.\n\n<span style=\"coor:red\">**`WARNING!`**</span> On large servers (>~100 players), this may cause huge lag. Please test it on local world copies first. Please report the test results to me, as I've never tested such case.\n\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "MIT",
+  "name": "usermgr",
+  "provides": [
+    "usermgr"
+  ],
+  "release": 13932,
+  "repo": "https://github.com/C-C-Minetest-Server/usermgr",
+  "score": 155.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a557b8c943.png"
+  ],
+  "short_description": "GUI to manage players",
+  "state": "APPROVED",
+  "tags": [
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a557b8c943.png",
+  "title": "User Manager",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/usermgr/releases/13932/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/usermgr": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": [
+          "Kimapr/nonsensical_skyblock",
+          "luk3yx/flow"
+        ]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "0cahsc6gh29g8fabbc1fc60bwiq8ngpj15hsnjad3fzi2dsm1yna"
+}

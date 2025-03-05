@@ -1,1 +1,47 @@
-{"author":"Lone_Wolf","content_warnings":[],"created_at":"2022-11-04T14:05:54.897745","dev_state":"BETA","donate_url":null,"downloads":783,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/LoneWolfHT/rawf/issues","license":"MIT","long_description":"A raycast-based ranged weapon framework for Minetest\n\nPrimarily used by CTF https://content.minetest.net/packages/rubenwardy/capturetheflag/","maintainers":["Lone_Wolf"],"media_license":"MIT","name":"rawf","provides":["rawf"],"release":14891,"repo":"https://github.com/LoneWolfHT/rawf","score":156.7,"screenshots":["https://content.luanti.org/uploads/8355c46d9c.png"],"short_description":"A ranged weapon framework for Minetest","state":"APPROVED","tags":["library","shooter","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/8355c46d9c.png","title":"Ranged Weapon Framework (rawf)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Lone_Wolf/rawf/releases/14891/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Lone_Wolf/rawf":[]},"hash":"14ds8dmi14rk74k1rr45xbgc1p4kz2byxncrcvs032ji0s7vj34d"}
+{
+  "author": "Lone_Wolf",
+  "content_warnings": [],
+  "created_at": "2022-11-04T14:05:54.897745",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 783,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/LoneWolfHT/rawf/issues",
+  "license": "MIT",
+  "long_description": "A raycast-based ranged weapon framework for Minetest\n\nPrimarily used by CTF https://content.minetest.net/packages/rubenwardy/capturetheflag/",
+  "maintainers": [
+    "Lone_Wolf"
+  ],
+  "media_license": "MIT",
+  "name": "rawf",
+  "provides": [
+    "rawf"
+  ],
+  "release": 14891,
+  "repo": "https://github.com/LoneWolfHT/rawf",
+  "score": 156.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/8355c46d9c.png"
+  ],
+  "short_description": "A ranged weapon framework for Minetest",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "shooter",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8355c46d9c.png",
+  "title": "Ranged Weapon Framework (rawf)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Lone_Wolf/rawf/releases/14891/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Lone_Wolf/rawf": []
+  },
+  "hash": "14ds8dmi14rk74k1rr45xbgc1p4kz2byxncrcvs032ji0s7vj34d"
+}

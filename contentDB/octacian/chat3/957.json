@@ -1,1 +1,46 @@
-{"author":"octacian","content_warnings":[],"created_at":"2019-02-09T02:47:31.571484","dev_state":null,"donate_url":null,"downloads":1545,"forum_url":"https://forum.luanti.org/viewtopic.php?t=17163","forums":17163,"game_support":[],"issue_tracker":"https://github.com/octacian/chat3/issues/new/choose/","license":"MIT","long_description":"Messages are highlighted in a light blue to players who are within 12 blocks of the sender (configurable with chat3.near, if set to 0 positional highlighting is ignored). Messages in which the receiving player's name is mentioned are highlighted in a light green, as are PMs. Messages in which the first character is a ! are highlighted in red to all players (also known as a shout). Important messages (mentions or shouts) also cause a bell to be played to players if chat3.bell is true and the player hasn't disabled the chatbell using the /chatbell command. Everything mentioned here can also be configured, and is documented below in the Configuration section.","maintainers":["octacian"],"media_license":"CC-BY-SA-3.0","name":"chat3","provides":["chat3"],"release":957,"repo":"https://github.com/octacian/chat3","score":3.6,"screenshots":["https://content.luanti.org/uploads/frhIymnFWj.png"],"short_description":"Makes chat on a populated server much easier to understand and keep up with.","state":"APPROVED","tags":["chat","multiplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/frhIymnFWj.png","title":"Chat3","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/octacian/chat3/releases/957/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"octacian/chat3":[]},"hash":"1xab2j23vxprjmjrrx2bcp8xv9rpr6xi48iw2vm08hgxq8hhxmfw"}
+{
+  "author": "octacian",
+  "content_warnings": [],
+  "created_at": "2019-02-09T02:47:31.571484",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1545,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=17163",
+  "forums": 17163,
+  "game_support": [],
+  "issue_tracker": "https://github.com/octacian/chat3/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "Messages are highlighted in a light blue to players who are within 12 blocks of the sender (configurable with chat3.near, if set to 0 positional highlighting is ignored). Messages in which the receiving player's name is mentioned are highlighted in a light green, as are PMs. Messages in which the first character is a ! are highlighted in red to all players (also known as a shout). Important messages (mentions or shouts) also cause a bell to be played to players if chat3.bell is true and the player hasn't disabled the chatbell using the /chatbell command. Everything mentioned here can also be configured, and is documented below in the Configuration section.",
+  "maintainers": [
+    "octacian"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "chat3",
+  "provides": [
+    "chat3"
+  ],
+  "release": 957,
+  "repo": "https://github.com/octacian/chat3",
+  "score": 3.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/frhIymnFWj.png"
+  ],
+  "short_description": "Makes chat on a populated server much easier to understand and keep up with.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "multiplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/frhIymnFWj.png",
+  "title": "Chat3",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/octacian/chat3/releases/957/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "octacian/chat3": []
+  },
+  "hash": "1xab2j23vxprjmjrrx2bcp8xv9rpr6xi48iw2vm08hgxq8hhxmfw"
+}

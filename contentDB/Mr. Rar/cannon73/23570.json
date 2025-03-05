@@ -1,1 +1,98 @@
-{"author":"Mr. Rar","content_warnings":[],"created_at":"2022-12-22T21:22:20.436182","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1143,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28993","forums":28993,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"AiTechEye","name":"xaenvironment","release":24115,"short_description":"A game that aims to contain lots of environments and things.","thumbnail":"https://content.luanti.org/thumbnails/1/632a9643c5.png","title":"XaEnvironment","type":"game"},"supports":true}],"issue_tracker":"https://github.com/MrRar/cannon73/issues/new/choose/","license":"MIT","long_description":"## Items\n\n| Name             | ID                 | Image                                 | Description                                                                            |\n| ---------------- | ------------------ | ------------------------------------- | -------------------------------------------------------------------------------------- |\n| Cannon           | cannon73:cannon    | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_cannon_inv.png) | Cannon Node                                                                            |\n| Cannon Shell     | cannon73:shell     | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_shell_inv.png)  | Cannon projectile that destroys entities and nodes                                     |\n| Cannon Ball      | cannon73:ball      | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_ball_inv.png)   | Cannon projectile that destroys entities                                               |\n| Cannon Gunpowder | cannon73:gunpowder | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_gunpowder.png)  | Item that powers cannons. This is only registered if no gunpowder is found in the game |\n\n\n## Operation\n\nFirst place a cannon. Put gunpowder into the gunpowder slot and a projectile into the projectile slot. Move the yaw and pitch sliders to adjust the cannon's aim. Press the fire button to fire the cannon. Cannons can also be triggered by a mesecon signal. If the projectile is a Cannon Shell, it will explode on impact and will destroy nodes and damage entitles in the area of the explosion. If the shell is in the air for 3 seconds with out making contact with anything it will automatically explode. If the projectile is a Cannon Ball, it will explode on impact and will damage entities in the explosion area. If the ball is in the air for more than 10 seconds then the cannon ball will be eliminated. If you place multiple balls or shells in the projectile slot, the explosion area will be increased. If the projectile is a stack of nodes, on impact, the nodes will be placed near the impact site. Sometimes some of the nodes are eliminated if no space can be found to place them. If the projectile is a stack of mob spawners, mobs will be spawned at the impact site. The speed of the projectile is increased proportionately to the amount of gunpowder that is supplied.\n","maintainers":["Mr. Rar"],"media_license":"CC-BY-4.0","name":"cannon73","provides":["cannon73"],"release":23570,"repo":"https://github.com/MrRar/cannon73","score":169.6,"screenshots":["https://content.luanti.org/uploads/037a6e44e7.png"],"short_description":"Shootable and aimable cannons","state":"APPROVED","tags":["shooter"],"thumbnail":"https://content.luanti.org/thumbnails/1/037a6e44e7.png","title":"Cannon73","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Mr.%20Rar/cannon73/releases/23570/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Mr. Rar/cannon73":[]},"hash":"0x7jdsafsssgxjzib8f95pdsj8nj5s4s78fm6m5yhf2mfmchjv11"}
+{
+  "author": "Mr. Rar",
+  "content_warnings": [],
+  "created_at": "2022-12-22T21:22:20.436182",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1143,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28993",
+  "forums": 28993,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "AiTechEye",
+        "name": "xaenvironment",
+        "release": 24115,
+        "short_description": "A game that aims to contain lots of environments and things.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/632a9643c5.png",
+        "title": "XaEnvironment",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/MrRar/cannon73/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "## Items\n\n| Name             | ID                 | Image                                 | Description                                                                            |\n| ---------------- | ------------------ | ------------------------------------- | -------------------------------------------------------------------------------------- |\n| Cannon           | cannon73:cannon    | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_cannon_inv.png) | Cannon Node                                                                            |\n| Cannon Shell     | cannon73:shell     | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_shell_inv.png)  | Cannon projectile that destroys entities and nodes                                     |\n| Cannon Ball      | cannon73:ball      | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_ball_inv.png)   | Cannon projectile that destroys entities                                               |\n| Cannon Gunpowder | cannon73:gunpowder | ![](https://raw.githubusercontent.com/MrRar/cannon73/main/textures/cannon73_gunpowder.png)  | Item that powers cannons. This is only registered if no gunpowder is found in the game |\n\n\n## Operation\n\nFirst place a cannon. Put gunpowder into the gunpowder slot and a projectile into the projectile slot. Move the yaw and pitch sliders to adjust the cannon's aim. Press the fire button to fire the cannon. Cannons can also be triggered by a mesecon signal. If the projectile is a Cannon Shell, it will explode on impact and will destroy nodes and damage entitles in the area of the explosion. If the shell is in the air for 3 seconds with out making contact with anything it will automatically explode. If the projectile is a Cannon Ball, it will explode on impact and will damage entities in the explosion area. If the ball is in the air for more than 10 seconds then the cannon ball will be eliminated. If you place multiple balls or shells in the projectile slot, the explosion area will be increased. If the projectile is a stack of nodes, on impact, the nodes will be placed near the impact site. Sometimes some of the nodes are eliminated if no space can be found to place them. If the projectile is a stack of mob spawners, mobs will be spawned at the impact site. The speed of the projectile is increased proportionately to the amount of gunpowder that is supplied.\n",
+  "maintainers": [
+    "Mr. Rar"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "cannon73",
+  "provides": [
+    "cannon73"
+  ],
+  "release": 23570,
+  "repo": "https://github.com/MrRar/cannon73",
+  "score": 169.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/037a6e44e7.png"
+  ],
+  "short_description": "Shootable and aimable cannons",
+  "state": "APPROVED",
+  "tags": [
+    "shooter"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/037a6e44e7.png",
+  "title": "Cannon73",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Mr.%20Rar/cannon73/releases/23570/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Mr. Rar/cannon73": []
+  },
+  "hash": "0x7jdsafsssgxjzib8f95pdsj8nj5s4s78fm6m5yhf2mfmchjv11"
+}

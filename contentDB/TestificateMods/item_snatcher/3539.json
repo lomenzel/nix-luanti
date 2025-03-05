@@ -1,1 +1,76 @@
-{"author":"TestificateMods","content_warnings":[],"created_at":"2020-04-22T09:34:20.141965","dev_state":"AS_IS","donate_url":null,"downloads":1293,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/t-affeldt/item_snatcher/issues","license":"MIT","long_description":"# Item Snatcher\nA useful grabbing tool\n\nMakes the apple snatcher from Wuzzy's tutorial game available as a standalone mod.\nUse this tool to extend your range and grab items from afar.\n\nCredit goes to Wuzzy for the texture and item definition.\nEverything is licensed under MIT, following the original licensing conditions.","maintainers":["TestificateMods"],"media_license":"MIT","name":"item_snatcher","provides":["item_snatcher"],"release":3539,"repo":"https://github.com/t-affeldt/item_snatcher","score":3,"screenshots":["https://content.luanti.org/uploads/Z0sJJ82bbV.png"],"short_description":"Makes the apple snatcher from Wuzzy's tutorial game available as a standalone item.","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/Z0sJJ82bbV.png","title":"Item Snatcher","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/TestificateMods/item_snatcher/releases/3539/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"TenPlus1/farming":[],"TestificateMods/item_snatcher":[{"is_optional":false,"name":"farming","packages":["Noodlemire/voxeldungeon","UnbrokenUnworn/modular_portals","Amaz/lordofthetest","1248/castrum","1248/regnum","Minetest/minetest_game","carlos_rupp/berzerkpt","TenPlus1/farming","1248/regnum2","miroptics/qiskitblocks_miro","Casimir/voxelgarden","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","bell07/whynot_game","jgordon510/gridlocks","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","mt-mods/dreambuilder_game"]}]},"hash":"0hvvfr4lgq12s8x4x0ys5ayqzcmvmk39jm9qb0b4g4qavahw75mw"}
+{
+  "author": "TestificateMods",
+  "content_warnings": [],
+  "created_at": "2020-04-22T09:34:20.141965",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 1293,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/t-affeldt/item_snatcher/issues",
+  "license": "MIT",
+  "long_description": "# Item Snatcher\nA useful grabbing tool\n\nMakes the apple snatcher from Wuzzy's tutorial game available as a standalone mod.\nUse this tool to extend your range and grab items from afar.\n\nCredit goes to Wuzzy for the texture and item definition.\nEverything is licensed under MIT, following the original licensing conditions.",
+  "maintainers": [
+    "TestificateMods"
+  ],
+  "media_license": "MIT",
+  "name": "item_snatcher",
+  "provides": [
+    "item_snatcher"
+  ],
+  "release": 3539,
+  "repo": "https://github.com/t-affeldt/item_snatcher",
+  "score": 3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/Z0sJJ82bbV.png"
+  ],
+  "short_description": "Makes the apple snatcher from Wuzzy's tutorial game available as a standalone item.",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/Z0sJJ82bbV.png",
+  "title": "Item Snatcher",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TestificateMods/item_snatcher/releases/3539/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "TenPlus1/farming": [],
+    "TestificateMods/item_snatcher": [
+      {
+        "is_optional": false,
+        "name": "farming",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "UnbrokenUnworn/modular_portals",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "carlos_rupp/berzerkpt",
+          "TenPlus1/farming",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "Casimir/voxelgarden",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "jgordon510/gridlocks",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0hvvfr4lgq12s8x4x0ys5ayqzcmvmk39jm9qb0b4g4qavahw75mw"
+}

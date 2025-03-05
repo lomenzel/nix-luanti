@@ -1,1 +1,73 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2022-11-05T01:44:47.610560","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1167,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/wintercore_ornate/issues/new/choose/","license":"GPL-3.0-or-later","long_description":"# wintercore_ornate\nA more artistic and decorated 32x32 NodeCore texturepack \n","maintainers":["Winter94"],"media_license":"GPL-3.0-or-later","name":"wintercore_ornate","provides":[],"release":27740,"repo":"https://github.com/wintersknight94/wintercore_ornate","score":10.7,"screenshots":["https://content.luanti.org/uploads/d1c8cc8224.jpg","https://content.luanti.org/uploads/bde8684a37.png","https://content.luanti.org/uploads/3399eb87f5.png","https://content.luanti.org/uploads/dbe3013bf3.png"],"short_description":"Fancy & Artistic 32x32 Nodecore textures by Wintersknight","state":"APPROVED","tags":["32px"],"thumbnail":"https://content.luanti.org/thumbnails/1/d1c8cc8224.png","title":"WinterCore -Ornate-","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/Winter94/wintercore_ornate/releases/27740/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wintercore_ornate":[]},"hash":"02l49ya08vh81s0i6ahawlwg0r7b0cr6588zivmrllh8q6ydcf91"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2022-11-05T01:44:47.610560",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1167,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/wintercore_ornate/issues/new/choose/",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# wintercore_ornate\nA more artistic and decorated 32x32 NodeCore texturepack \n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "wintercore_ornate",
+  "provides": [],
+  "release": 27740,
+  "repo": "https://github.com/wintersknight94/wintercore_ornate",
+  "score": 10.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d1c8cc8224.jpg",
+    "https://content.luanti.org/uploads/bde8684a37.png",
+    "https://content.luanti.org/uploads/3399eb87f5.png",
+    "https://content.luanti.org/uploads/dbe3013bf3.png"
+  ],
+  "short_description": "Fancy & Artistic 32x32 Nodecore textures by Wintersknight",
+  "state": "APPROVED",
+  "tags": [
+    "32px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d1c8cc8224.png",
+  "title": "WinterCore -Ornate-",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Winter94/wintercore_ornate/releases/27740/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wintercore_ornate": []
+  },
+  "hash": "02l49ya08vh81s0i6ahawlwg0r7b0cr6588zivmrllh8q6ydcf91"
+}

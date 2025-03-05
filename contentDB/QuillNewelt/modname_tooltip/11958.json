@@ -1,1 +1,63 @@
-{"author":"QuillNewelt","content_warnings":[],"created_at":"2022-04-24T21:05:39.480302","dev_state":"AS_IS","donate_url":null,"downloads":1142,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"GPL-3.0-or-later","long_description":"This is a modified version of [Modname Tooltip](https://content.minetest.net/packages/mineclone2-mods/modname_tooltip/) made by [MineClone2 Mods](https://content.minetest.net/users/mineclone2-mods/). It should work as a drop-in replacement for the original.\n\nChanges that i have made:\n\n* mcl_colors is no longer a dependency\n* Fallback modname will be capitalized and separated by spaces (e.g. `mesecons_pistons` will turn into `Mesecons Pistons`)\n* If the mod is located in the game, the fallback modname will start with the gameid (e.g. `default` will turn into `Minetest - Default`)\n* Arguably better documentation\n\nI originally wanted to use modpack titles for mods that don't have titles themselves (e.g. `Mesecons` instead of `Mesecons Pistons`), however this is impossible with the current security implementations in Minetest.","maintainers":["QuillNewelt"],"media_license":"GPL-3.0-or-later","name":"modname_tooltip","provides":["modname_tooltip"],"release":11958,"repo":null,"score":13.2,"screenshots":["https://content.luanti.org/uploads/3a654c6ac3.jpg"],"short_description":"Tooltip that shows you what mod a node or item is from","state":"APPROVED","tags":["gui","inventory"],"thumbnail":"https://content.luanti.org/thumbnails/1/3a654c6ac3.png","title":"Modname Tooltip (Non-mcl)","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/QuillNewelt/modname_tooltip/releases/11958/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"QuillNewelt/modname_tooltip":[{"is_optional":false,"name":"tt","packages":["Wuzzy/mineclone2","Wuzzy/tt","VoxelForge/voxelforge","Wuzzy/lazarr","ryvnf/mineclonia","Wuzzy/hades_revisited","Casimir/voxelgarden","Wuzzy/repixture","EmptyStar/asuna"]}],"Wuzzy/tt":[]},"hash":"13dbpwag9srsls9sk41bk2i0wm6yfb7sbcqilwrhmqv2yzgj4y0q"}
+{
+  "author": "QuillNewelt",
+  "content_warnings": [],
+  "created_at": "2022-04-24T21:05:39.480302",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 1142,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "GPL-3.0-or-later",
+  "long_description": "This is a modified version of [Modname Tooltip](https://content.minetest.net/packages/mineclone2-mods/modname_tooltip/) made by [MineClone2 Mods](https://content.minetest.net/users/mineclone2-mods/). It should work as a drop-in replacement for the original.\n\nChanges that i have made:\n\n* mcl_colors is no longer a dependency\n* Fallback modname will be capitalized and separated by spaces (e.g. `mesecons_pistons` will turn into `Mesecons Pistons`)\n* If the mod is located in the game, the fallback modname will start with the gameid (e.g. `default` will turn into `Minetest - Default`)\n* Arguably better documentation\n\nI originally wanted to use modpack titles for mods that don't have titles themselves (e.g. `Mesecons` instead of `Mesecons Pistons`), however this is impossible with the current security implementations in Minetest.",
+  "maintainers": [
+    "QuillNewelt"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "modname_tooltip",
+  "provides": [
+    "modname_tooltip"
+  ],
+  "release": 11958,
+  "repo": null,
+  "score": 13.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3a654c6ac3.jpg"
+  ],
+  "short_description": "Tooltip that shows you what mod a node or item is from",
+  "state": "APPROVED",
+  "tags": [
+    "gui",
+    "inventory"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3a654c6ac3.png",
+  "title": "Modname Tooltip (Non-mcl)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/QuillNewelt/modname_tooltip/releases/11958/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "QuillNewelt/modname_tooltip": [
+      {
+        "is_optional": false,
+        "name": "tt",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "Wuzzy/tt",
+          "VoxelForge/voxelforge",
+          "Wuzzy/lazarr",
+          "ryvnf/mineclonia",
+          "Wuzzy/hades_revisited",
+          "Casimir/voxelgarden",
+          "Wuzzy/repixture",
+          "EmptyStar/asuna"
+        ]
+      }
+    ],
+    "Wuzzy/tt": []
+  },
+  "hash": "13dbpwag9srsls9sk41bk2i0wm6yfb7sbcqilwrhmqv2yzgj4y0q"
+}

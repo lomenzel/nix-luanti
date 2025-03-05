@@ -1,1 +1,46 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2023-01-14T11:39:37.799414","dev_state":"AS_IS","donate_url":null,"downloads":2451,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/C-C-Minetest-Server/reject/issues","license":"MIT","long_description":"# Change the IP in the serverlist don't change the one in favourites list...\nThis \"game\" provides a minimum amount of code that kicks all players attempting to connect to the server, and shows a message. This is useful in the following circumstances:\n\n* The server is moving to a new IP\n* The server is under maintainence\n","maintainers":["Emojiminetest"],"media_license":"MIT","name":"reject","provides":["reject_core"],"release":16542,"repo":"https://github.com/C-C-Minetest-Server/reject","score":28.3,"screenshots":["https://content.luanti.org/uploads/dbfb7fba02.png"],"short_description":"Simply reject all login attempts and show them a message","state":"APPROVED","tags":["multiplayer","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/dbfb7fba02.png","title":"REJECT ALL PLAYERS","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/Emojiminetest/reject/releases/16542/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/reject":[]},"hash":"0zajki28f8wks95icybmmi5mymc2svcz8wkf7dl1gnn05xd02wnn"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2023-01-14T11:39:37.799414",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 2451,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/reject/issues",
+  "license": "MIT",
+  "long_description": "# Change the IP in the serverlist don't change the one in favourites list...\nThis \"game\" provides a minimum amount of code that kicks all players attempting to connect to the server, and shows a message. This is useful in the following circumstances:\n\n* The server is moving to a new IP\n* The server is under maintainence\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "MIT",
+  "name": "reject",
+  "provides": [
+    "reject_core"
+  ],
+  "release": 16542,
+  "repo": "https://github.com/C-C-Minetest-Server/reject",
+  "score": 28.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/dbfb7fba02.png"
+  ],
+  "short_description": "Simply reject all login attempts and show them a message",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dbfb7fba02.png",
+  "title": "REJECT ALL PLAYERS",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/Emojiminetest/reject/releases/16542/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/reject": []
+  },
+  "hash": "0zajki28f8wks95icybmmi5mymc2svcz8wkf7dl1gnn05xd02wnn"
+}

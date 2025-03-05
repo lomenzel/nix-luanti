@@ -1,1 +1,46 @@
-{"author":"ROllerozxa","content_warnings":[],"created_at":"2024-03-26T15:36:33.998414","dev_state":"MAINTENANCE_ONLY","donate_url":"https://voxelmanip.se/donate/","downloads":150,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/rollerozxa/autorestart/issues","license":"MIT","long_description":"This mod automatically restarts a server after a given amount of uptime is reached with an optional delay/grace period if players are online.\n\nLong running Minetest servers accumulate large memory usage over time and may exhibit various performance issues. This is most noticeable on servers running on low-end hardware (or even VPSes). This mod aims to alleviate these issues by regularly restarting the server to keep it running fresh, while giving players a heads-up that the server will be restarting.\n\n**NOTE**: This mod will simply request a server shutdown, your server setup will need to be able to start the server back up again e.g. in the form of a looping Bash script. See [Setting up a server](https://wiki.minetest.net/Setting_up_a_server#Running_the_Server) on the Minetest Wiki for an example of how to do so.\n\nBy default the mod will restart after 24 hours of uptime, with a grace period of 10 minutes if players are online. These values are configurable with `autorestart_interval` and `autorestart_delay`.\n\nIf `autorestart_delay` is 0 then it will immediately restart once the uptime is reached, otherwise it will give a certain grace period to players still online. If the server has no players at the time a restart is triggered, or if all players leave before the grace period is over it will immediately restart.\n","maintainers":["ROllerozxa"],"media_license":"MIT","name":"autorestart","provides":["autorestart"],"release":28346,"repo":"https://github.com/rollerozxa/autorestart","score":2,"screenshots":["https://content.luanti.org/uploads/496c540b18.png"],"short_description":"Automatically restarts the server after a certain uptime is reached.","state":"APPROVED","tags":["complex_installation","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/496c540b18.png","title":"Autorestart","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ROllerozxa/autorestart/releases/28346/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ROllerozxa/autorestart":[]},"hash":"10s2qw8lypwd22n1hgx84bg1rq5ijw1ps7zlqypbcbnwcm2s9k0j"}
+{
+  "author": "ROllerozxa",
+  "content_warnings": [],
+  "created_at": "2024-03-26T15:36:33.998414",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://voxelmanip.se/donate/",
+  "downloads": 150,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/rollerozxa/autorestart/issues",
+  "license": "MIT",
+  "long_description": "This mod automatically restarts a server after a given amount of uptime is reached with an optional delay/grace period if players are online.\n\nLong running Minetest servers accumulate large memory usage over time and may exhibit various performance issues. This is most noticeable on servers running on low-end hardware (or even VPSes). This mod aims to alleviate these issues by regularly restarting the server to keep it running fresh, while giving players a heads-up that the server will be restarting.\n\n**NOTE**: This mod will simply request a server shutdown, your server setup will need to be able to start the server back up again e.g. in the form of a looping Bash script. See [Setting up a server](https://wiki.minetest.net/Setting_up_a_server#Running_the_Server) on the Minetest Wiki for an example of how to do so.\n\nBy default the mod will restart after 24 hours of uptime, with a grace period of 10 minutes if players are online. These values are configurable with `autorestart_interval` and `autorestart_delay`.\n\nIf `autorestart_delay` is 0 then it will immediately restart once the uptime is reached, otherwise it will give a certain grace period to players still online. If the server has no players at the time a restart is triggered, or if all players leave before the grace period is over it will immediately restart.\n",
+  "maintainers": [
+    "ROllerozxa"
+  ],
+  "media_license": "MIT",
+  "name": "autorestart",
+  "provides": [
+    "autorestart"
+  ],
+  "release": 28346,
+  "repo": "https://github.com/rollerozxa/autorestart",
+  "score": 2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/496c540b18.png"
+  ],
+  "short_description": "Automatically restarts the server after a certain uptime is reached.",
+  "state": "APPROVED",
+  "tags": [
+    "complex_installation",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/496c540b18.png",
+  "title": "Autorestart",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ROllerozxa/autorestart/releases/28346/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ROllerozxa/autorestart": []
+  },
+  "hash": "10s2qw8lypwd22n1hgx84bg1rq5ijw1ps7zlqypbcbnwcm2s9k0j"
+}

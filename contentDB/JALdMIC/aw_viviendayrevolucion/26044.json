@@ -1,1 +1,59 @@
-{"author":"JALdMIC","content_warnings":[],"created_at":"2024-07-12T14:01:49.516033","dev_state":"WIP","donate_url":null,"downloads":646,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC-BY-SA-4.0","long_description":"I don't speak English\nAdd some buildings based in the work from Miguel Movilla,theres supposed to be soviet buildings but a friend tell me wath in a part of the file explain that is just a joke.\n\nChangelog\n\nV0.3\nPuse el pdf de Miguel Movilla Vega y arregle un error.","maintainers":["JALdMIC"],"media_license":"CC-BY-SA-4.0","name":"aw_viviendayrevolucion","provides":["aw_viviendayrevolucion"],"release":26044,"repo":null,"score":-121.3,"screenshots":["https://content.luanti.org/uploads/82c178c456.png"],"short_description":"Add some buildings","state":"APPROVED","tags":["creative"],"thumbnail":"https://content.luanti.org/thumbnails/1/82c178c456.png","title":"aw_viviendayrevolucion","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/JALdMIC/aw_viviendayrevolucion/releases/26044/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"JALdMIC/aw_viviendayrevolucion":[]},"hash":"1szz0rmwxfmiga67gk7jdfn22sycllwk0ywjv1lvaj7vdi08ssav"}
+{
+  "author": "JALdMIC",
+  "content_warnings": [],
+  "created_at": "2024-07-12T14:01:49.516033",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 646,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "I don't speak English\nAdd some buildings based in the work from Miguel Movilla,theres supposed to be soviet buildings but a friend tell me wath in a part of the file explain that is just a joke.\n\nChangelog\n\nV0.3\nPuse el pdf de Miguel Movilla Vega y arregle un error.",
+  "maintainers": [
+    "JALdMIC"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "aw_viviendayrevolucion",
+  "provides": [
+    "aw_viviendayrevolucion"
+  ],
+  "release": 26044,
+  "repo": null,
+  "score": -121.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/82c178c456.png"
+  ],
+  "short_description": "Add some buildings",
+  "state": "APPROVED",
+  "tags": [
+    "creative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/82c178c456.png",
+  "title": "aw_viviendayrevolucion",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/JALdMIC/aw_viviendayrevolucion/releases/26044/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "JALdMIC/aw_viviendayrevolucion": []
+  },
+  "hash": "1szz0rmwxfmiga67gk7jdfn22sycllwk0ywjv1lvaj7vdi08ssav"
+}

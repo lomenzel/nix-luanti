@@ -1,1 +1,43 @@
-{"author":"jwmhjwmh","content_warnings":[],"created_at":"2022-04-02T22:50:30.471645","dev_state":"AS_IS","donate_url":null,"downloads":417,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27791","forums":27791,"game_support":[],"issue_tracker":"https://github.com/TurkeyMcMac/promisestuff/issues","license":"MIT","long_description":"This library implements promises for Lua. You can learn more from the [README](https://github.com/TurkeyMcMac/promisestuff/blob/main/README.md) and from the documentation for the [core](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/core.md) and [Minetest-specific](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/minetest.md) APIs.","maintainers":["jwmhjwmh"],"media_license":"MIT","name":"promisestuff","provides":["promisestuff"],"release":14011,"repo":"https://github.com/TurkeyMcMac/promisestuff","score":1.1,"screenshots":[],"short_description":"A promise library","state":"APPROVED","tags":["library"],"thumbnail":null,"title":"Promise Stuff","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/jwmhjwmh/promisestuff/releases/14011/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"jwmhjwmh/promisestuff":[]},"hash":"1hpnn8ch66hxvgqs9bz3aflimsah388jhvcsxrij4p6i21mrdcdk"}
+{
+  "author": "jwmhjwmh",
+  "content_warnings": [],
+  "created_at": "2022-04-02T22:50:30.471645",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 417,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27791",
+  "forums": 27791,
+  "game_support": [],
+  "issue_tracker": "https://github.com/TurkeyMcMac/promisestuff/issues",
+  "license": "MIT",
+  "long_description": "This library implements promises for Lua. You can learn more from the [README](https://github.com/TurkeyMcMac/promisestuff/blob/main/README.md) and from the documentation for the [core](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/core.md) and [Minetest-specific](https://github.com/TurkeyMcMac/promisestuff/blob/main/doc/minetest.md) APIs.",
+  "maintainers": [
+    "jwmhjwmh"
+  ],
+  "media_license": "MIT",
+  "name": "promisestuff",
+  "provides": [
+    "promisestuff"
+  ],
+  "release": 14011,
+  "repo": "https://github.com/TurkeyMcMac/promisestuff",
+  "score": 1.1,
+  "screenshots": [],
+  "short_description": "A promise library",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": null,
+  "title": "Promise Stuff",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/jwmhjwmh/promisestuff/releases/14011/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "jwmhjwmh/promisestuff": []
+  },
+  "hash": "1hpnn8ch66hxvgqs9bz3aflimsah388jhvcsxrij4p6i21mrdcdk"
+}

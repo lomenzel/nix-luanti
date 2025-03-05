@@ -1,1 +1,46 @@
-{"author":"j8r","content_warnings":[],"created_at":"2021-03-14T17:44:22.730291","dev_state":null,"donate_url":null,"downloads":2009,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26416","forums":26416,"game_support":[],"issue_tracker":"https://github.com/j8r/minetest-entity_modifier/issues","license":"ISC","long_description":"Modify the model and size of entities, including players.\n\n## Usage\nThis section explains how to use this mod.\n\nExample of what is possible to do:\n\n- disguise into players, blocks, and entities (even dropped items!)\n\n- disguise players and entities (like dropped items) to blocks or other player/entities\n\n- make yourself and other entities tiny or huge\n\n- change others visible names and attributes\n\nNote: Changes are not meant to be permanent. Restarting the server or even reconnections will reset entity models.\n\n### Commands\n\nEach command has a dedicated privilege with the same name, except `clipboard`, which has `clipboard_edit`.\n\n`<object>` can be an entity model (as listed with `/list_entities`) or an [Itemstring](https://wiki.minetest.net/Itemstrings) (e.g. `default:dirt`).\n`air` is a valid object, which will make the entity invisible.\n\n#### `/clipboard <object_or_property>`\n\n`/clipboard`: Print the current copied model name.\n\n`/clipboard *`: Activate reset mode, which allows you to reset subsequent selected entities.\nDeactivate itself if anything is stored in the clipboard (like selecting a block).\n\n`/clipboard \"\"`: Empty the clipboard.\n\n`/clipboard <object>`: Copy an object, player or entity to the clipboard\n\n`/clipboard .<property>`: Print a property of the copied model, see https://minetest.gitlab.io/minetest/definition-tables/#object-properties.\n\n`/clipboard .<property>=<value>`: Change a property in the copied model.\nEditing requires the `clipboard_edit` privilege. Does not support tables yet.\n\nExample: `/clipboard .nametag=\"FooBar\"`\n\n#### `/disguise <name> [<object>]`\n\nDisguise a `player` into an `object`. Defaults to the clipboard. An empty clipboard resets your disguise.\n\n#### `/disguiseme [<object>]`\n\nDisguise you into an `object`. Defaults to the clipboard. An empty clipboard resets your disguise.\n\n#### `/list_entities [<namespace>]`\n\nList available entity names, with an optional entity namepace (e.g. `mob:`).\n\n#### `/resize <name> [<size>]`\n\nResize a `player` into `size`, `1` by default.\n\n#### `/resizeme [<size>]`\n\nResize yourself into `size`, `1` by default.\n\n### Items\n\n`entity_modifier:disguise_wand`:\n\n- **Left click** on (any) a pointed object to copy it into the clipboard (air will make invisible).\n\n- **Left click** on a player/entity to disguise it with the clipboard's model.\nIf in reset mode, the model will be reset to the default.\n\n- Two consecutive **left clicks** on a same block/air (non-entity) to clear the clipboard.\n(no time delay requirement between the two)\n\n- **Right click** to disguise you into the copied model.\nResets your disguise if the clipboard is empty.\n\n- **Right click** with an empty clipboard to copy your model.\n\n- Not craftable, requires the `disguise` privilege.\n\n## Caveats\n\nBlocks can't be disguised, only players/entities (but you can take their appearance).\n\nSome blocks and entities can't be disguised into properly.\n\nSome entities, like dropped items, can't be reset. A workaround is to take it and drop it again.\n\nPartially incompatible with other mods overwriting entity properties (like 3d_armor).\nYou can of course use both, but funny thing could be seen on using disguise.","maintainers":["j8r"],"media_license":"ISC","name":"entity_modifier","provides":["entity_modifier"],"release":7125,"repo":"https://github.com/j8r/minetest-entity_modifier","score":176.9,"screenshots":["https://content.luanti.org/uploads/IqiFWXLKGG.jpg"],"short_description":"Modify the model and size of entities, including players.","state":"APPROVED","tags":["player_effects","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/IqiFWXLKGG.png","title":"Entity Modifier","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/j8r/entity_modifier/releases/7125/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"j8r/entity_modifier":[]},"hash":"0b8n8r4q0989laz0i5091vbmz3qcglkz3r6dcpi6d5anansmmy3c"}
+{
+  "author": "j8r",
+  "content_warnings": [],
+  "created_at": "2021-03-14T17:44:22.730291",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2009,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26416",
+  "forums": 26416,
+  "game_support": [],
+  "issue_tracker": "https://github.com/j8r/minetest-entity_modifier/issues",
+  "license": "ISC",
+  "long_description": "Modify the model and size of entities, including players.\n\n## Usage\nThis section explains how to use this mod.\n\nExample of what is possible to do:\n\n- disguise into players, blocks, and entities (even dropped items!)\n\n- disguise players and entities (like dropped items) to blocks or other player/entities\n\n- make yourself and other entities tiny or huge\n\n- change others visible names and attributes\n\nNote: Changes are not meant to be permanent. Restarting the server or even reconnections will reset entity models.\n\n### Commands\n\nEach command has a dedicated privilege with the same name, except `clipboard`, which has `clipboard_edit`.\n\n`<object>` can be an entity model (as listed with `/list_entities`) or an [Itemstring](https://wiki.minetest.net/Itemstrings) (e.g. `default:dirt`).\n`air` is a valid object, which will make the entity invisible.\n\n#### `/clipboard <object_or_property>`\n\n`/clipboard`: Print the current copied model name.\n\n`/clipboard *`: Activate reset mode, which allows you to reset subsequent selected entities.\nDeactivate itself if anything is stored in the clipboard (like selecting a block).\n\n`/clipboard \"\"`: Empty the clipboard.\n\n`/clipboard <object>`: Copy an object, player or entity to the clipboard\n\n`/clipboard .<property>`: Print a property of the copied model, see https://minetest.gitlab.io/minetest/definition-tables/#object-properties.\n\n`/clipboard .<property>=<value>`: Change a property in the copied model.\nEditing requires the `clipboard_edit` privilege. Does not support tables yet.\n\nExample: `/clipboard .nametag=\"FooBar\"`\n\n#### `/disguise <name> [<object>]`\n\nDisguise a `player` into an `object`. Defaults to the clipboard. An empty clipboard resets your disguise.\n\n#### `/disguiseme [<object>]`\n\nDisguise you into an `object`. Defaults to the clipboard. An empty clipboard resets your disguise.\n\n#### `/list_entities [<namespace>]`\n\nList available entity names, with an optional entity namepace (e.g. `mob:`).\n\n#### `/resize <name> [<size>]`\n\nResize a `player` into `size`, `1` by default.\n\n#### `/resizeme [<size>]`\n\nResize yourself into `size`, `1` by default.\n\n### Items\n\n`entity_modifier:disguise_wand`:\n\n- **Left click** on (any) a pointed object to copy it into the clipboard (air will make invisible).\n\n- **Left click** on a player/entity to disguise it with the clipboard's model.\nIf in reset mode, the model will be reset to the default.\n\n- Two consecutive **left clicks** on a same block/air (non-entity) to clear the clipboard.\n(no time delay requirement between the two)\n\n- **Right click** to disguise you into the copied model.\nResets your disguise if the clipboard is empty.\n\n- **Right click** with an empty clipboard to copy your model.\n\n- Not craftable, requires the `disguise` privilege.\n\n## Caveats\n\nBlocks can't be disguised, only players/entities (but you can take their appearance).\n\nSome blocks and entities can't be disguised into properly.\n\nSome entities, like dropped items, can't be reset. A workaround is to take it and drop it again.\n\nPartially incompatible with other mods overwriting entity properties (like 3d_armor).\nYou can of course use both, but funny thing could be seen on using disguise.",
+  "maintainers": [
+    "j8r"
+  ],
+  "media_license": "ISC",
+  "name": "entity_modifier",
+  "provides": [
+    "entity_modifier"
+  ],
+  "release": 7125,
+  "repo": "https://github.com/j8r/minetest-entity_modifier",
+  "score": 176.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/IqiFWXLKGG.jpg"
+  ],
+  "short_description": "Modify the model and size of entities, including players.",
+  "state": "APPROVED",
+  "tags": [
+    "player_effects",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/IqiFWXLKGG.png",
+  "title": "Entity Modifier",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/j8r/entity_modifier/releases/7125/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "j8r/entity_modifier": []
+  },
+  "hash": "0b8n8r4q0989laz0i5091vbmz3qcglkz3r6dcpi6d5anansmmy3c"
+}

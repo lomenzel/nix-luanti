@@ -1,1 +1,61 @@
-{"author":"Sodomon","content_warnings":[],"created_at":"2019-11-05T20:10:09.157335","dev_state":null,"donate_url":null,"downloads":3940,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/sodomon2/minetest-paper-cut-out/issues","license":"GPL-3.0-only","long_description":"","maintainers":["Sodomon"],"media_license":"GPL-3.0-only","name":"papercutout","provides":[],"release":2310,"repo":"https://github.com/sodomon2/minetest-paper-cut-out","score":470.9,"screenshots":["https://content.luanti.org/uploads/pubiodwdy5.png","https://content.luanti.org/uploads/Pwdib0nmxo.png","https://content.luanti.org/uploads/L0GzE0cLCJ.png","https://content.luanti.org/uploads/ZmWQwtYoNi.png","https://content.luanti.org/uploads/oxwaJDnNJY.png"],"short_description":"Paper Cut-Out textures pack by Sodomon","state":"APPROVED","tags":["16px"],"thumbnail":"https://content.luanti.org/thumbnails/1/pubiodwdy5.png","title":"Paper Cut Out","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/Sodomon/papercutout/releases/2310/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Sodomon/papercutout":[]},"hash":"15l7n04bpvcrb4zs2dp1v22wffxfl5sbypd17131jzdf6f6vh1vn"}
+{
+  "author": "Sodomon",
+  "content_warnings": [],
+  "created_at": "2019-11-05T20:10:09.157335",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3940,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sodomon2/minetest-paper-cut-out/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "",
+  "maintainers": [
+    "Sodomon"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "papercutout",
+  "provides": [],
+  "release": 2310,
+  "repo": "https://github.com/sodomon2/minetest-paper-cut-out",
+  "score": 470.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/pubiodwdy5.png",
+    "https://content.luanti.org/uploads/Pwdib0nmxo.png",
+    "https://content.luanti.org/uploads/L0GzE0cLCJ.png",
+    "https://content.luanti.org/uploads/ZmWQwtYoNi.png",
+    "https://content.luanti.org/uploads/oxwaJDnNJY.png"
+  ],
+  "short_description": "Paper Cut-Out textures pack by Sodomon",
+  "state": "APPROVED",
+  "tags": [
+    "16px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/pubiodwdy5.png",
+  "title": "Paper Cut Out",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Sodomon/papercutout/releases/2310/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Sodomon/papercutout": []
+  },
+  "hash": "15l7n04bpvcrb4zs2dp1v22wffxfl5sbypd17131jzdf6f6vh1vn"
+}

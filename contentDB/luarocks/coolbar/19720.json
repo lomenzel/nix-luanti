@@ -1,1 +1,54 @@
-{"author":"luarocks","content_warnings":[],"created_at":"2023-05-12T21:49:42.441714","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":765,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://notabug.org/rr/coolbar/issues","license":"MIT","long_description":"# Coolbar\n\nOriginally I made a simple mod that separates inventory from a bar, allowing you\nto move things between them by shift-click, like in Minecraft. But because of\nsome technical specifics of the Minetest engine my mod was not really simple and\nrequire significant changes to all mods that interact with inventory.\n\nSo I had the idea of a new mod (which you see now) that automatically manage\nyour inventory, removing all trash from the bar and putting your preferred items\non it, without affecting inventory structure, which makes it much mores\ncompatible with other mods.\n\nAs a result, it turned out to be very comfortable and easier than manual\nshift-clicking!\n\n![demo](https://raw.githubusercontent.com/minetestia/coolbar/main/images/screenrecord.gif)\n\n## Explanation of the mod behavior\n\n- The mod has a preferences that specifies one or more types of items for each\n  slot on the bar. However, these settings can also be empty.\n- The mod doesn't work when moving items **FROM** player's inventory within the\n  formspeck, which allows a player to move things between the bar and the rest\n  of the inventory manually.\n- Adding items to the bar manually temporarily replaces the slot settings with\n  this item until it disappears from the bar for any reason.\n- If an item not specified in the preferences ends up on the bar, it is moved to\n  the inventory.\n- If the number of items on the bar decreases, the mod tries to fill shortage\n  from the inventory.\n\n## Compatibility notes\n\nFor `i3` users I recommend to check all checkboxes in its settings:\n\n![demo](https://raw.githubusercontent.com/minetestia/coolbar/main/images/i3.png)\n\n`Mineclone` users needs to change `bar_size` from `8` to `9` and `inv_start`\nfrom `9` to `10` in the mod settings.\n\nPlease, be very careful changing these numbers. If the mod crashed, check twice\nif these numbers was correct before reporting a bug!\n\n## What can be improved\n\n- The order of items in the settings is currently irrelevant. Maintaining a\n  strict order is not easy task, requiring to rewrite half the code backwards.\n- ~~Would be cool to add the ability to automatically change settings depending on\n  the loaded game.~~ Mineclone settings are detectected automatically!\n\t\n---\n\nThis mod was created in [Rustroot Forge].\n\nAll my mods uses [Luanti LSP-API] annotations, [StyLua] and [Luacheck].\n\n[Rustroot Forge]: https://notabug.org/rr\n[Luanti LSP-API]: https://notabug.org/rr/luanti_lsp_api\n[StyLua]: https://github.com/JohnnyMorganz/StyLua\n[Luacheck]: https://github.com/mpeterv/luacheck\n","maintainers":["luarocks"],"media_license":"MIT","name":"coolbar","provides":["coolbar"],"release":19720,"repo":"https://notabug.org/rr/coolbar","score":163.5,"screenshots":["https://content.luanti.org/uploads/26e2d56ff1.png"],"short_description":"Automatic items management between inventory and hotbar.","state":"APPROVED","tags":["inventory"],"thumbnail":"https://content.luanti.org/thumbnails/1/26e2d56ff1.png","title":"Coolbar","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/luarocks/coolbar/releases/19720/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"luarocks/coolbar":[{"is_optional":false,"name":"inv_change_cb","packages":["luarocks/inv_change_cb"]}],"luarocks/inv_change_cb":[]},"hash":"1fnz1dfrrz00i26gp0j8b1y2f6kv8phq5frh111ph3qnrgrrj5h8"}
+{
+  "author": "luarocks",
+  "content_warnings": [],
+  "created_at": "2023-05-12T21:49:42.441714",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 765,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://notabug.org/rr/coolbar/issues",
+  "license": "MIT",
+  "long_description": "# Coolbar\n\nOriginally I made a simple mod that separates inventory from a bar, allowing you\nto move things between them by shift-click, like in Minecraft. But because of\nsome technical specifics of the Minetest engine my mod was not really simple and\nrequire significant changes to all mods that interact with inventory.\n\nSo I had the idea of a new mod (which you see now) that automatically manage\nyour inventory, removing all trash from the bar and putting your preferred items\non it, without affecting inventory structure, which makes it much mores\ncompatible with other mods.\n\nAs a result, it turned out to be very comfortable and easier than manual\nshift-clicking!\n\n![demo](https://raw.githubusercontent.com/minetestia/coolbar/main/images/screenrecord.gif)\n\n## Explanation of the mod behavior\n\n- The mod has a preferences that specifies one or more types of items for each\n  slot on the bar. However, these settings can also be empty.\n- The mod doesn't work when moving items **FROM** player's inventory within the\n  formspeck, which allows a player to move things between the bar and the rest\n  of the inventory manually.\n- Adding items to the bar manually temporarily replaces the slot settings with\n  this item until it disappears from the bar for any reason.\n- If an item not specified in the preferences ends up on the bar, it is moved to\n  the inventory.\n- If the number of items on the bar decreases, the mod tries to fill shortage\n  from the inventory.\n\n## Compatibility notes\n\nFor `i3` users I recommend to check all checkboxes in its settings:\n\n![demo](https://raw.githubusercontent.com/minetestia/coolbar/main/images/i3.png)\n\n`Mineclone` users needs to change `bar_size` from `8` to `9` and `inv_start`\nfrom `9` to `10` in the mod settings.\n\nPlease, be very careful changing these numbers. If the mod crashed, check twice\nif these numbers was correct before reporting a bug!\n\n## What can be improved\n\n- The order of items in the settings is currently irrelevant. Maintaining a\n  strict order is not easy task, requiring to rewrite half the code backwards.\n- ~~Would be cool to add the ability to automatically change settings depending on\n  the loaded game.~~ Mineclone settings are detectected automatically!\n\t\n---\n\nThis mod was created in [Rustroot Forge].\n\nAll my mods uses [Luanti LSP-API] annotations, [StyLua] and [Luacheck].\n\n[Rustroot Forge]: https://notabug.org/rr\n[Luanti LSP-API]: https://notabug.org/rr/luanti_lsp_api\n[StyLua]: https://github.com/JohnnyMorganz/StyLua\n[Luacheck]: https://github.com/mpeterv/luacheck\n",
+  "maintainers": [
+    "luarocks"
+  ],
+  "media_license": "MIT",
+  "name": "coolbar",
+  "provides": [
+    "coolbar"
+  ],
+  "release": 19720,
+  "repo": "https://notabug.org/rr/coolbar",
+  "score": 163.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/26e2d56ff1.png"
+  ],
+  "short_description": "Automatic items management between inventory and hotbar.",
+  "state": "APPROVED",
+  "tags": [
+    "inventory"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/26e2d56ff1.png",
+  "title": "Coolbar",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/luarocks/coolbar/releases/19720/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "luarocks/coolbar": [
+      {
+        "is_optional": false,
+        "name": "inv_change_cb",
+        "packages": [
+          "luarocks/inv_change_cb"
+        ]
+      }
+    ],
+    "luarocks/inv_change_cb": []
+  },
+  "hash": "1fnz1dfrrz00i26gp0j8b1y2f6kv8phq5frh111ph3qnrgrrj5h8"
+}

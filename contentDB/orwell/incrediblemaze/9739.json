@@ -1,1 +1,64 @@
-{"author":"orwell","content_warnings":[],"created_at":"2018-06-13T15:30:53.182412","dev_state":null,"donate_url":null,"downloads":1899,"forum_url":"https://forum.luanti.org/viewtopic.php?t=16820","forums":16820,"game_support":[],"issue_tracker":null,"license":"LGPL-2.1-only","long_description":"**Changes in Version 1.1:**\n\n* Nodes from third-party mods can now be used as maze materials (thanks MT_Dad)\n\nI started this to implement a maze generation algorithm that I use when I draw mazes on paper. The result is not exactly this algorithm since computers are apparently too dumb for it, but it's worth to be shared anyway.\n\n### Things you need to know about the mazes:\n\n- Start at one corner and find your way to the opposite corner\n\n- There is exactly one way\n\n- Big mazes will drive you crazy\n\n- Mazes do not have a floor or a top cover by default, add this using WorldEdit if you want.\n\n\n### Generating a maze:\n\n- Use WorldEdit to define 2 opposing corners. The maze is spawned between them and all walls are as high as the height difference between the two positions.\n\n- Execute this chatcommand:\n\n    /maze [any random number as seed]\n\n\nNote: the maze always has odd dimensions, if the x/z distance between pos1 and pos2 is even, the dimension is just rounded down.\n\n\n### Changing maze materials:\n\n- On top of init.lua, you find some content id assignments. Change the node names in there.\n\n- Alternatively, you can just replace the generated nodes with the WorldEdit //replace command.\n","maintainers":["orwell"],"media_license":"LGPL-2.1-only","name":"incrediblemaze","provides":["incrediblemaze"],"release":9739,"repo":null,"score":154.4,"screenshots":["https://content.luanti.org/uploads/QZksTgzAKq.png"],"short_description":"This mod is a maze generator","state":"APPROVED","tags":["creative","puzzle"],"thumbnail":"https://content.luanti.org/thumbnails/1/QZksTgzAKq.png","title":"Incredible Maze Generator","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/orwell/incrediblemaze/releases/9739/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"orwell/incrediblemaze":[{"is_optional":false,"name":"worldedit","packages":["1248/castrum","Hume2/boxworld3d","KareaGhandTrail/block_assault_mapmaker","Thunder1035/pacman","sfan5/worldedit","giga-turbo/codecube","niwla23/runorfall","MisterE/blockbomber_editor","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]}],"sfan5/worldedit":[]},"hash":"0mp29nfwj3i7xlfg3bz4a8gy7g63grzv5287rh0gb1bj58kf3i6q"}
+{
+  "author": "orwell",
+  "content_warnings": [],
+  "created_at": "2018-06-13T15:30:53.182412",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1899,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=16820",
+  "forums": 16820,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "LGPL-2.1-only",
+  "long_description": "**Changes in Version 1.1:**\n\n* Nodes from third-party mods can now be used as maze materials (thanks MT_Dad)\n\nI started this to implement a maze generation algorithm that I use when I draw mazes on paper. The result is not exactly this algorithm since computers are apparently too dumb for it, but it's worth to be shared anyway.\n\n### Things you need to know about the mazes:\n\n- Start at one corner and find your way to the opposite corner\n\n- There is exactly one way\n\n- Big mazes will drive you crazy\n\n- Mazes do not have a floor or a top cover by default, add this using WorldEdit if you want.\n\n\n### Generating a maze:\n\n- Use WorldEdit to define 2 opposing corners. The maze is spawned between them and all walls are as high as the height difference between the two positions.\n\n- Execute this chatcommand:\n\n    /maze [any random number as seed]\n\n\nNote: the maze always has odd dimensions, if the x/z distance between pos1 and pos2 is even, the dimension is just rounded down.\n\n\n### Changing maze materials:\n\n- On top of init.lua, you find some content id assignments. Change the node names in there.\n\n- Alternatively, you can just replace the generated nodes with the WorldEdit //replace command.\n",
+  "maintainers": [
+    "orwell"
+  ],
+  "media_license": "LGPL-2.1-only",
+  "name": "incrediblemaze",
+  "provides": [
+    "incrediblemaze"
+  ],
+  "release": 9739,
+  "repo": null,
+  "score": 154.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/QZksTgzAKq.png"
+  ],
+  "short_description": "This mod is a maze generator",
+  "state": "APPROVED",
+  "tags": [
+    "creative",
+    "puzzle"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/QZksTgzAKq.png",
+  "title": "Incredible Maze Generator",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/orwell/incrediblemaze/releases/9739/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "orwell/incrediblemaze": [
+      {
+        "is_optional": false,
+        "name": "worldedit",
+        "packages": [
+          "1248/castrum",
+          "Hume2/boxworld3d",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/pacman",
+          "sfan5/worldedit",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "MisterE/blockbomber_editor",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "sfan5/worldedit": []
+  },
+  "hash": "0mp29nfwj3i7xlfg3bz4a8gy7g63grzv5287rh0gb1bj58kf3i6q"
+}

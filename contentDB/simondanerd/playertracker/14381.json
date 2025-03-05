@@ -1,1 +1,45 @@
-{"author":"simondanerd","content_warnings":[],"created_at":"2020-03-14T12:57:54.938931","dev_state":null,"donate_url":"https://paypal.me/jovarkindustries","downloads":657,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/lucasburlingham/playertracker/issues/new/choose/","license":"MIT","long_description":"Originally used on the Jovark Realms server, this mod is the product of Lucas Burlingham (simondanerd) and NoNameDude (who wrote most of the mod).\n\n","maintainers":["simondanerd"],"media_license":"MIT","name":"playertracker","provides":["playertracker"],"release":14381,"repo":"https://github.com/lucasburlingham/playertracker","score":2.5,"screenshots":["https://content.luanti.org/uploads/vXUMf10zcO.png"],"short_description":"Mod for any game which logs what users join, and records their IP address. Content saved as a txt file in the worlds directory.","state":"APPROVED","tags":["world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/vXUMf10zcO.png","title":"Player IP Log","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/simondanerd/playertracker/releases/14381/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"simondanerd/playertracker":[]},"hash":"0kqjqyavvzvk0kxk9zf7111zil95k3vvq69gvsl7k71wc72x0900"}
+{
+  "author": "simondanerd",
+  "content_warnings": [],
+  "created_at": "2020-03-14T12:57:54.938931",
+  "dev_state": null,
+  "donate_url": "https://paypal.me/jovarkindustries",
+  "downloads": 657,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/lucasburlingham/playertracker/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "Originally used on the Jovark Realms server, this mod is the product of Lucas Burlingham (simondanerd) and NoNameDude (who wrote most of the mod).\n\n",
+  "maintainers": [
+    "simondanerd"
+  ],
+  "media_license": "MIT",
+  "name": "playertracker",
+  "provides": [
+    "playertracker"
+  ],
+  "release": 14381,
+  "repo": "https://github.com/lucasburlingham/playertracker",
+  "score": 2.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/vXUMf10zcO.png"
+  ],
+  "short_description": "Mod for any game which logs what users join, and records their IP address. Content saved as a txt file in the worlds directory.",
+  "state": "APPROVED",
+  "tags": [
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/vXUMf10zcO.png",
+  "title": "Player IP Log",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/simondanerd/playertracker/releases/14381/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "simondanerd/playertracker": []
+  },
+  "hash": "0kqjqyavvzvk0kxk9zf7111zil95k3vvq69gvsl7k71wc72x0900"
+}

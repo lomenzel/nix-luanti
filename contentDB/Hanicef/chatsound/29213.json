@@ -1,1 +1,47 @@
-{"author":"Hanicef","content_warnings":[],"created_at":"2025-01-05T22:27:41.321015","dev_state":"AS_IS","donate_url":null,"downloads":49,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"CC0-1.0","long_description":"This mod adds a sound effect when chat messages are sent. The sound effect can be disabled per-player using the `/chatsound` command.","maintainers":["Hanicef"],"media_license":"CC0-1.0","name":"chatsound","provides":["chatsound"],"release":29213,"repo":"https://codeberg.org/Hanicef/chatsound","score":163,"screenshots":["https://content.luanti.org/uploads/66bb0a8fd9.png"],"short_description":"Adds a notification sound when a player sends a chat message","state":"APPROVED","tags":["chat","multiplayer","sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/66bb0a8fd9.png","title":"Chatsound","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Hanicef/chatsound/releases/29213/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Hanicef/chatsound":[]},"hash":"10gfy4q65msix9pp4cgd6mx56pnkf13fa0cpkyvyzd70hxqlh084"}
+{
+  "author": "Hanicef",
+  "content_warnings": [],
+  "created_at": "2025-01-05T22:27:41.321015",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 49,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "CC0-1.0",
+  "long_description": "This mod adds a sound effect when chat messages are sent. The sound effect can be disabled per-player using the `/chatsound` command.",
+  "maintainers": [
+    "Hanicef"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "chatsound",
+  "provides": [
+    "chatsound"
+  ],
+  "release": 29213,
+  "repo": "https://codeberg.org/Hanicef/chatsound",
+  "score": 163,
+  "screenshots": [
+    "https://content.luanti.org/uploads/66bb0a8fd9.png"
+  ],
+  "short_description": "Adds a notification sound when a player sends a chat message",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "multiplayer",
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/66bb0a8fd9.png",
+  "title": "Chatsound",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Hanicef/chatsound/releases/29213/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Hanicef/chatsound": []
+  },
+  "hash": "10gfy4q65msix9pp4cgd6mx56pnkf13fa0cpkyvyzd70hxqlh084"
+}

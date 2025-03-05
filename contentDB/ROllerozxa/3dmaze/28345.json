@@ -1,1 +1,59 @@
-{"author":"ROllerozxa","content_warnings":[],"created_at":"2023-01-21T15:12:14.768837","dev_state":"MAINTENANCE_ONLY","donate_url":"https://voxelmanip.se/donate/","downloads":408,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Just_Visiting","name":"labyrinth","release":16683,"short_description":"An aMAZEing Game","thumbnail":"https://content.luanti.org/thumbnails/1/mMhvdPN9dM.png","title":"Labyrinth","type":"game"},"supports":true}],"issue_tracker":"https://github.com/rollerozxa/3dmaze/issues/new/choose/","license":"MIT","long_description":"This mod adds a level similar to the classic Windows 3D Maze screensaver to the [Labyrinth](https://content.minetest.net/packages/Just_Visiting/labyrinth/) game.","maintainers":["ROllerozxa"],"media_license":"CC-BY-SA-4.0","name":"3dmaze","provides":["3dmaze"],"release":28345,"repo":"https://github.com/rollerozxa/3dmaze","score":153.8,"screenshots":["https://content.luanti.org/uploads/214edcc0d0.png"],"short_description":"The 3D Maze Screensaver for the Labyrinth game","state":"APPROVED","tags":["mini-game"],"thumbnail":"https://content.luanti.org/thumbnails/1/214edcc0d0.png","title":"3D Maze Screensaver Labyrinth","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ROllerozxa/3dmaze/releases/28345/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ROllerozxa/3dmaze":[]},"hash":"0838dpcpanbk24v5l7jq6z1fwhy1m0pb43wzvsgbkvcrf3pl394f"}
+{
+  "author": "ROllerozxa",
+  "content_warnings": [],
+  "created_at": "2023-01-21T15:12:14.768837",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://voxelmanip.se/donate/",
+  "downloads": 408,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Just_Visiting",
+        "name": "labyrinth",
+        "release": 16683,
+        "short_description": "An aMAZEing Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/mMhvdPN9dM.png",
+        "title": "Labyrinth",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/rollerozxa/3dmaze/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "This mod adds a level similar to the classic Windows 3D Maze screensaver to the [Labyrinth](https://content.minetest.net/packages/Just_Visiting/labyrinth/) game.",
+  "maintainers": [
+    "ROllerozxa"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "3dmaze",
+  "provides": [
+    "3dmaze"
+  ],
+  "release": 28345,
+  "repo": "https://github.com/rollerozxa/3dmaze",
+  "score": 153.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/214edcc0d0.png"
+  ],
+  "short_description": "The 3D Maze Screensaver for the Labyrinth game",
+  "state": "APPROVED",
+  "tags": [
+    "mini-game"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/214edcc0d0.png",
+  "title": "3D Maze Screensaver Labyrinth",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ROllerozxa/3dmaze/releases/28345/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ROllerozxa/3dmaze": []
+  },
+  "hash": "0838dpcpanbk24v5l7jq6z1fwhy1m0pb43wzvsgbkvcrf3pl394f"
+}

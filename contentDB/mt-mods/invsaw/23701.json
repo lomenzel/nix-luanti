@@ -1,1 +1,112 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2024-02-24T10:13:17.915617","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":387,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/mt-mods/invsaw/issues","license":"Zlib","long_description":"This mod adds a button in unified_inventory that opens a formspec that works exactly like the moreblocks circular saw. It requires that either the server is in creative mode, you have the \"creative\" priv, or you have one or more circular saws (moreblocks:circular_saw) in your inventory.\n\nContains large amounts of code based on Calinou's moreblocks mod, and a texture based on some textures from the same mod.\n","maintainers":["mt-mods"],"media_license":"CC-BY-SA-3.0","name":"invsaw","provides":["invsaw"],"release":23701,"repo":"https://github.com/mt-mods/invsaw","score":18.1,"screenshots":["https://content.luanti.org/uploads/21c9c49d5f.png"],"short_description":"adds a circular saw feature and button to the unified_inventory","state":"APPROVED","tags":["building_mechanics"],"thumbnail":"https://content.luanti.org/thumbnails/1/21c9c49d5f.png","title":"Invsaw","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/invsaw/releases/23701/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/mt-mods/invsaw","dependencies":{"RealBadAngel/unified_inventory":[],"mt-mods/invsaw":[{"is_optional":false,"name":"moreblocks","packages":["Just_Visiting/littlelady","BuckarooBanzay/mesecons_lab","rheo/moreblocks","Calinou/moreblocks","BuckarooBanzay/super_sam","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}],"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}]},"hash":"1i5xzgjav9bxg35m4zl8gy8hmi3q4yq5sl68sp01k3v05086xb4x"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2024-02-24T10:13:17.915617",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 387,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-mods/invsaw/issues",
+  "license": "Zlib",
+  "long_description": "This mod adds a button in unified_inventory that opens a formspec that works exactly like the moreblocks circular saw. It requires that either the server is in creative mode, you have the \"creative\" priv, or you have one or more circular saws (moreblocks:circular_saw) in your inventory.\n\nContains large amounts of code based on Calinou's moreblocks mod, and a texture based on some textures from the same mod.\n",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "invsaw",
+  "provides": [
+    "invsaw"
+  ],
+  "release": 23701,
+  "repo": "https://github.com/mt-mods/invsaw",
+  "score": 18.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/21c9c49d5f.png"
+  ],
+  "short_description": "adds a circular saw feature and button to the unified_inventory",
+  "state": "APPROVED",
+  "tags": [
+    "building_mechanics"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/21c9c49d5f.png",
+  "title": "Invsaw",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/invsaw/releases/23701/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/mt-mods/invsaw",
+  "dependencies": {
+    "RealBadAngel/unified_inventory": [],
+    "mt-mods/invsaw": [
+      {
+        "is_optional": false,
+        "name": "moreblocks",
+        "packages": [
+          "Just_Visiting/littlelady",
+          "BuckarooBanzay/mesecons_lab",
+          "rheo/moreblocks",
+          "Calinou/moreblocks",
+          "BuckarooBanzay/super_sam",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1i5xzgjav9bxg35m4zl8gy8hmi3q4yq5sl68sp01k3v05086xb4x"
+}

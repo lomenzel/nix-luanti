@@ -1,1 +1,53 @@
-{"author":"mothnox","content_warnings":[],"created_at":"2022-11-22T00:53:29.598350","dev_state":"WIP","donate_url":null,"downloads":16535,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/mothnox/adopt-a-space-worm/issues/new/choose/","license":"GPL-3.0-or-later","long_description":"You've found a virtual pet device... from outer space! It's a bit strange, but you're sure to figure it out with enough time. After all, it's just a game...right?\n\nNOTE: This is very unfinished. I wasn't able to finish implementing the pathfinding, which was required in order to implement the core gameplay loop, so... Well, I plan to continue working on it after the jam, so consider this a (kind of bad) teaser. \n\nThird-party code/assets:\n\nSound assets: CC0\n\nAStar.lua: MIT license (see license information in file)","maintainers":["mothnox"],"media_license":"CC-BY-3.0","name":"vpet","provides":["vpet_gfx","vpet_nodes","vpet_pet","vpet_player","vpet_world"],"release":15438,"repo":"https://github.com/mothnox/adopt-a-space-worm.git","score":-654.7,"screenshots":["https://content.luanti.org/uploads/5efb5c945c.png"],"short_description":"(Extremely unfinished) An alien virtual pet","state":"APPROVED","tags":["jam_game_2022","oneofakind__original","puzzle","simulation","singleplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/5efb5c945c.png","title":"Adopt a Space Worm","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/mothnox/vpet/releases/15438/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"mothnox/vpet":[]},"hash":"0s8iikl9f6ybsgjnrl04vrnx91acdgy32inxg3y9rrk0yq3681s7"}
+{
+  "author": "mothnox",
+  "content_warnings": [],
+  "created_at": "2022-11-22T00:53:29.598350",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 16535,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mothnox/adopt-a-space-worm/issues/new/choose/",
+  "license": "GPL-3.0-or-later",
+  "long_description": "You've found a virtual pet device... from outer space! It's a bit strange, but you're sure to figure it out with enough time. After all, it's just a game...right?\n\nNOTE: This is very unfinished. I wasn't able to finish implementing the pathfinding, which was required in order to implement the core gameplay loop, so... Well, I plan to continue working on it after the jam, so consider this a (kind of bad) teaser. \n\nThird-party code/assets:\n\nSound assets: CC0\n\nAStar.lua: MIT license (see license information in file)",
+  "maintainers": [
+    "mothnox"
+  ],
+  "media_license": "CC-BY-3.0",
+  "name": "vpet",
+  "provides": [
+    "vpet_gfx",
+    "vpet_nodes",
+    "vpet_pet",
+    "vpet_player",
+    "vpet_world"
+  ],
+  "release": 15438,
+  "repo": "https://github.com/mothnox/adopt-a-space-worm.git",
+  "score": -654.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/5efb5c945c.png"
+  ],
+  "short_description": "(Extremely unfinished) An alien virtual pet",
+  "state": "APPROVED",
+  "tags": [
+    "jam_game_2022",
+    "oneofakind__original",
+    "puzzle",
+    "simulation",
+    "singleplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/5efb5c945c.png",
+  "title": "Adopt a Space Worm",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/mothnox/vpet/releases/15438/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mothnox/vpet": []
+  },
+  "hash": "0s8iikl9f6ybsgjnrl04vrnx91acdgy32inxg3y9rrk0yq3681s7"
+}

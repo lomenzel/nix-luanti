@@ -1,1 +1,146 @@
-{"author":"Noordstar","content_warnings":[],"created_at":"2024-09-13T01:13:38.053725","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":283,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"EUPL-1.2","long_description":"# VoxeLibre caves\n\nThis mod adds custom caves and layers to VoxeLibre.\n\nThe mod acts as a concept design for VoxeLibre's newly designed underground.\n\n\n","maintainers":["Noordstar"],"media_license":"EUPL-1.2","name":"ns_vl_caves","provides":["ns_vl_caves"],"release":27353,"repo":"https://git.noordstar.me/Bram/ns_vl_caves.git","score":17.9,"screenshots":["https://content.luanti.org/uploads/7ae5f27f93.png","https://content.luanti.org/uploads/9627f46346.png","https://content.luanti.org/uploads/61bf99757d.png","https://content.luanti.org/uploads/5dce251856.png"],"short_description":"Custom caves in VoxeLibre","state":"APPROVED","tags":["mapgen"],"thumbnail":"https://content.luanti.org/thumbnails/1/7ae5f27f93.png","title":"VoxeLibre caves","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Noordstar/ns_vl_caves/releases/27353/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Noordstar/dripstone":[],"Noordstar/ns_cavegen":[],"Noordstar/ns_vl_caves":[{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_raw_ores","packages":["VoxelForge/voxelforge","Wuzzy/mineclone2","ryvnf/mineclonia"]},{"is_optional":false,"name":"ns_cavegen","packages":["Noordstar/ns_cavegen"]},{"is_optional":false,"name":"mcl_init","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_mobs","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"dripstone","packages":["Noordstar/dripstone"]}]},"hash":"1qjmgxc4rcqh1my2rgva3whi9jxpxl9hsn9lpy92nv15ca8jam66"}
+{
+  "author": "Noordstar",
+  "content_warnings": [],
+  "created_at": "2024-09-13T01:13:38.053725",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 283,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "EUPL-1.2",
+  "long_description": "# VoxeLibre caves\n\nThis mod adds custom caves and layers to VoxeLibre.\n\nThe mod acts as a concept design for VoxeLibre's newly designed underground.\n\n\n",
+  "maintainers": [
+    "Noordstar"
+  ],
+  "media_license": "EUPL-1.2",
+  "name": "ns_vl_caves",
+  "provides": [
+    "ns_vl_caves"
+  ],
+  "release": 27353,
+  "repo": "https://git.noordstar.me/Bram/ns_vl_caves.git",
+  "score": 17.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7ae5f27f93.png",
+    "https://content.luanti.org/uploads/9627f46346.png",
+    "https://content.luanti.org/uploads/61bf99757d.png",
+    "https://content.luanti.org/uploads/5dce251856.png"
+  ],
+  "short_description": "Custom caves in VoxeLibre",
+  "state": "APPROVED",
+  "tags": [
+    "mapgen"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7ae5f27f93.png",
+  "title": "VoxeLibre caves",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Noordstar/ns_vl_caves/releases/27353/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Noordstar/dripstone": [],
+    "Noordstar/ns_cavegen": [],
+    "Noordstar/ns_vl_caves": [
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_raw_ores",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ns_cavegen",
+        "packages": [
+          "Noordstar/ns_cavegen"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_init",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mobs",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "dripstone",
+        "packages": [
+          "Noordstar/dripstone"
+        ]
+      }
+    ]
+  },
+  "hash": "1qjmgxc4rcqh1my2rgva3whi9jxpxl9hsn9lpy92nv15ca8jam66"
+}

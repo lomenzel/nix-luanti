@@ -1,1 +1,45 @@
-{"author":"theFox","content_warnings":[],"created_at":"2019-06-08T11:57:05.314843","dev_state":null,"donate_url":null,"downloads":4622,"forum_url":"https://forum.luanti.org/viewtopic.php?t=22692","forums":22692,"game_support":[],"issue_tracker":"https://github.com/theFox6/modutil/issues","license":"MIT","long_description":"# modutil\nA utility mod for minetetest providing useful utilities that can be used in other mods.\nGoal of this mod is outsourcing utilities as well as unifying utilities.\nFeel free to suggest more utilities that should be added.\nSuggestions can be made to make your mods smaller or just if you need help with your own mods.\n## features\nSome of the utilities are log, translation boilerplate, string operations, etc.\nFor a full feature and usage list see the [README](https://github.com/theFox6/modutil#modutil).\n## latest breaking changes\n* The \"VenusParser\" was renamed to \"LuaVenusCompiler\"\n* The module \"log\" was renamed to \"logging\".","maintainers":["theFox"],"media_license":"MIT","name":"modutil","provides":["modutil"],"release":11764,"repo":"https://github.com/theFox6/modutil","score":154.7,"screenshots":["https://content.luanti.org/uploads/1076e93c08.png"],"short_description":"Providing some utilities that can be used by other mods.","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/1076e93c08.png","title":"mod utilities","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/theFox/modutil/releases/11764/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"theFox/modutil":[]},"hash":"0dvqnj6h0qcx0rdxn6j4yhns9v3jbw051rjcy27zviikdwh3azh0"}
+{
+  "author": "theFox",
+  "content_warnings": [],
+  "created_at": "2019-06-08T11:57:05.314843",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 4622,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22692",
+  "forums": 22692,
+  "game_support": [],
+  "issue_tracker": "https://github.com/theFox6/modutil/issues",
+  "license": "MIT",
+  "long_description": "# modutil\nA utility mod for minetetest providing useful utilities that can be used in other mods.\nGoal of this mod is outsourcing utilities as well as unifying utilities.\nFeel free to suggest more utilities that should be added.\nSuggestions can be made to make your mods smaller or just if you need help with your own mods.\n## features\nSome of the utilities are log, translation boilerplate, string operations, etc.\nFor a full feature and usage list see the [README](https://github.com/theFox6/modutil#modutil).\n## latest breaking changes\n* The \"VenusParser\" was renamed to \"LuaVenusCompiler\"\n* The module \"log\" was renamed to \"logging\".",
+  "maintainers": [
+    "theFox"
+  ],
+  "media_license": "MIT",
+  "name": "modutil",
+  "provides": [
+    "modutil"
+  ],
+  "release": 11764,
+  "repo": "https://github.com/theFox6/modutil",
+  "score": 154.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1076e93c08.png"
+  ],
+  "short_description": "Providing some utilities that can be used by other mods.",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1076e93c08.png",
+  "title": "mod utilities",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/theFox/modutil/releases/11764/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "theFox/modutil": []
+  },
+  "hash": "0dvqnj6h0qcx0rdxn6j4yhns9v3jbw051rjcy27zviikdwh3azh0"
+}

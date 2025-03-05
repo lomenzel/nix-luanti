@@ -1,1 +1,59 @@
-{"author":"Starbeamrainbowlabs","content_warnings":[],"created_at":"2019-05-25T13:01:55.800923","dev_state":null,"donate_url":"https://liberapay.com/sbrl","downloads":1873,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"http://github.com/sbrl/plasticbox/issues","license":"MIT","long_description":"# plasticbox\n> Plastic Box Mod for Minetest\n\nThis is a fork of the original mod by @cheapie that makes the `moreblocks` dependency optional, and adds a new reverse crafting recipe (thanks, @bell07!).\n\nIt adds a recolourable plastic box that's craftable in survival.\n\nTo use, simply clone this repository into your `worldmods` folder.\n","maintainers":["Starbeamrainbowlabs"],"media_license":"MIT","name":"plasticbox","provides":["plasticbox"],"release":6389,"repo":"http://github.com/sbrl/plasticbox.git","score":4.8,"screenshots":["https://content.luanti.org/uploads/CDAKqk8PpV.png"],"short_description":"Adds a recolourable plastic box. Fork of @cheapie's version with improvements.","state":"APPROVED","tags":["building","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/CDAKqk8PpV.png","title":"Plastic Box","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Starbeamrainbowlabs/plasticbox/releases/6389/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Starbeamrainbowlabs/plasticbox":[{"is_optional":false,"name":"unifieddyes","packages":["BuckarooBanzay/mesecons_lab","mt-mods/unifieddyes","zanderdev/skyblock_zero","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"mt-mods/unifieddyes":[]},"hash":"1mqi9znm9r3fsp5iyqcxzjj5kyv9qy3lhj61gp8w8d5cbiv0f0cc"}
+{
+  "author": "Starbeamrainbowlabs",
+  "content_warnings": [],
+  "created_at": "2019-05-25T13:01:55.800923",
+  "dev_state": null,
+  "donate_url": "https://liberapay.com/sbrl",
+  "downloads": 1873,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "http://github.com/sbrl/plasticbox/issues",
+  "license": "MIT",
+  "long_description": "# plasticbox\n> Plastic Box Mod for Minetest\n\nThis is a fork of the original mod by @cheapie that makes the `moreblocks` dependency optional, and adds a new reverse crafting recipe (thanks, @bell07!).\n\nIt adds a recolourable plastic box that's craftable in survival.\n\nTo use, simply clone this repository into your `worldmods` folder.\n",
+  "maintainers": [
+    "Starbeamrainbowlabs"
+  ],
+  "media_license": "MIT",
+  "name": "plasticbox",
+  "provides": [
+    "plasticbox"
+  ],
+  "release": 6389,
+  "repo": "http://github.com/sbrl/plasticbox.git",
+  "score": 4.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/CDAKqk8PpV.png"
+  ],
+  "short_description": "Adds a recolourable plastic box. Fork of @cheapie's version with improvements.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/CDAKqk8PpV.png",
+  "title": "Plastic Box",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Starbeamrainbowlabs/plasticbox/releases/6389/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Starbeamrainbowlabs/plasticbox": [
+      {
+        "is_optional": false,
+        "name": "unifieddyes",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/unifieddyes",
+          "zanderdev/skyblock_zero",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/unifieddyes": []
+  },
+  "hash": "1mqi9znm9r3fsp5iyqcxzjj5kyv9qy3lhj61gp8w8d5cbiv0f0cc"
+}

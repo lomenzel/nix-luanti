@@ -1,1 +1,63 @@
-{"author":"AntumDeluge","content_warnings":[],"created_at":"2021-07-17T21:31:17.748001","dev_state":null,"donate_url":null,"downloads":3768,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27034","forums":27034,"game_support":[],"issue_tracker":"https://github.com/AntumMT/mod-3d_armor_light/issues","license":"MIT","long_description":"### Description:\n\nA library for [3d_armor](https://content.minetest.net/packages/stu/3d_armor/) that adds [wielded_light](https://content.minetest.net/packages/bell07/wielded_light/) support.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-3d_armor_light/blob/master/LICENSE.txt)\n\n### Usage:\n\nMethods:\n\n```\narmor_light.register(item, lvalue)\n- Register an item to emit light when equipped in the armor inventory.\n- params:\n  - item: Item name or ItemStack.\n  - lvalue: Light value (optional) (default: 10).\n\narmor_light.is_lighted(item)\n- Checks if an item is registered as light-emitting from armor inventory.\n- params:\n  - item: Item name or ItemStack.\n- returns: `true` if the item is registered.\n```\n\n### Requirements:\n\n- requires `wielded_light` version 2021-07-15\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-3d_armor_light/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-3d_armor_light/blob/master/TODO.txt)","maintainers":["AntumDeluge"],"media_license":"MIT","name":"3d_armor_light","provides":["3d_armor_light"],"release":8519,"repo":"https://github.com/AntumMT/mod-3d_armor_light","score":28.9,"screenshots":["https://content.luanti.org/uploads/a4aced90a3.png"],"short_description":"Wielded Light for 3d_armor","state":"APPROVED","tags":["library","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/a4aced90a3.png","title":"3D Armor Light","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AntumDeluge/3d_armor_light/releases/8519/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AntumDeluge/3d_armor_light":[{"is_optional":false,"name":"wielded_light","packages":["epCode/what_were_you_expecting","bell07/wielded_light","SuperStarSonic/reentry","nurd3/ul_game","bell07/whynot_game","Mantar/exile","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","EmptyStar/asuna"]}],"bell07/wielded_light":[]},"hash":"0v3ypyxdljccmsd0kvzi0b2l0dswhr07xvk0dw8gcjq9n6rnw446"}
+{
+  "author": "AntumDeluge",
+  "content_warnings": [],
+  "created_at": "2021-07-17T21:31:17.748001",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3768,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27034",
+  "forums": 27034,
+  "game_support": [],
+  "issue_tracker": "https://github.com/AntumMT/mod-3d_armor_light/issues",
+  "license": "MIT",
+  "long_description": "### Description:\n\nA library for [3d_armor](https://content.minetest.net/packages/stu/3d_armor/) that adds [wielded_light](https://content.minetest.net/packages/bell07/wielded_light/) support.\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-3d_armor_light/blob/master/LICENSE.txt)\n\n### Usage:\n\nMethods:\n\n```\narmor_light.register(item, lvalue)\n- Register an item to emit light when equipped in the armor inventory.\n- params:\n  - item: Item name or ItemStack.\n  - lvalue: Light value (optional) (default: 10).\n\narmor_light.is_lighted(item)\n- Checks if an item is registered as light-emitting from armor inventory.\n- params:\n  - item: Item name or ItemStack.\n- returns: `true` if the item is registered.\n```\n\n### Requirements:\n\n- requires `wielded_light` version 2021-07-15\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-3d_armor_light/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-3d_armor_light/blob/master/TODO.txt)",
+  "maintainers": [
+    "AntumDeluge"
+  ],
+  "media_license": "MIT",
+  "name": "3d_armor_light",
+  "provides": [
+    "3d_armor_light"
+  ],
+  "release": 8519,
+  "repo": "https://github.com/AntumMT/mod-3d_armor_light",
+  "score": 28.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a4aced90a3.png"
+  ],
+  "short_description": "Wielded Light for 3d_armor",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a4aced90a3.png",
+  "title": "3D Armor Light",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AntumDeluge/3d_armor_light/releases/8519/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AntumDeluge/3d_armor_light": [
+      {
+        "is_optional": false,
+        "name": "wielded_light",
+        "packages": [
+          "epCode/what_were_you_expecting",
+          "bell07/wielded_light",
+          "SuperStarSonic/reentry",
+          "nurd3/ul_game",
+          "bell07/whynot_game",
+          "Mantar/exile",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna"
+        ]
+      }
+    ],
+    "bell07/wielded_light": []
+  },
+  "hash": "0v3ypyxdljccmsd0kvzi0b2l0dswhr07xvk0dw8gcjq9n6rnw446"
+}

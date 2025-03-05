@@ -1,1 +1,79 @@
-{"author":"Neuromancer","content_warnings":[],"created_at":"2024-01-27T23:49:21.691642","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":202,"forum_url":"https://forum.luanti.org/viewtopic.php?t=30185","forums":30185,"game_support":[],"issue_tracker":"https://github.com/Neuromancer56/petroglyph_maker/issues","license":"AGPL-3.0-or-later","long_description":"# Petroglyph Maker © 2024 Neuromancer\n\nThis mod is essentially a customized version of the GGraffiti mod by © 2022 Gregor Parzefall\n\nThis Minetest mod adds chisels that lets you create your own petroglyphs on desert stone nodes. It requires at least Minetest 5.6.0.\n\nFeatures:\n\n- Chisel pixel-by-pixel on desert stone\n- Chisel with custom colors using the RGB chisel\n- Different sizes: Chisel up to 3×3 pixels at a time\n- Remove chisel marks with the eraser-like \"remover\" chisel or by digging the chiseled nodes\n- Respects protection mods\n- Compatible with Minetest Game and MineClone 2?\n\n## Items\n\n**Stone Chisel**\n\nPress and hold the dig button (the left mouse button) to chisel. Press the place button (the right mouse button) to change the size.\n\nAfter some time, the chisel will break.  \n\nIf you are playing on Android: For the best spraying experience, enable `Settings` → `All Settings` → `touch_use_crosshair`.\n\n**RGB Stone Chisel**\n\nA chisel can that can leave behind any 24-bit RGB color and thus in all colors supported by Minetest. Press the place button (the right mouse button) to change the selected color.\n\n\n**Petroglyph Remover Chisel**\n\nA chisel can that removes mistakes. Essentially an eraser.\n\nIf you want to remove a lot of petroglyph at once, you can simply dig the affected nodes and place them again. This will remove all petroglyphs that are on them.\n\n## Related things\n\n- `nc_paint` by Kimapr  \n  Something like this, but for NodeCore.\n\n\n## License\n© 2024 Neuromancer\n© 2022 Gregor Parzefall\n\nSource code (everything except image and audio files) available under the [GNU AGPL version 3.0](https://www.gnu.org/licenses/agpl-3.0.html) or any later version, media (image and audio files) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\nThis licensing means, for example, that if you use a modified version of this mod on your server, you must provide the source code of that modified version to your players. For more information, please read the licenses.\n\n**Exceptions**\n","maintainers":["Neuromancer"],"media_license":"CC-BY-SA-4.0","name":"petroglyph_maker","provides":["petroglyph_maker"],"release":23186,"repo":"https://github.com/Neuromancer56/petroglyph_maker","score":3.3,"screenshots":["https://content.luanti.org/uploads/33c0a183bd.png"],"short_description":"Create your own petroglyphs on Desert Stone","state":"APPROVED","tags":["decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/33c0a183bd.png","title":"Petroglyph Maker","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Neuromancer/petroglyph_maker/releases/23186/download/","video_thumbnail_url":null,"video_url":null,"website":"https://forum.minetest.net/viewtopic.php?t=30185","dependencies":{"LMD/modlib":[],"Neuromancer/petroglyph_maker":[{"is_optional":false,"name":"flow","packages":["Kimapr/nonsensical_skyblock","luk3yx/flow"]},{"is_optional":false,"name":"modlib","packages":["LMD/modlib","zanderdev/skyblock_zero","sdd/spiraling_down","LMD/cellestial_game","Kimapr/nonsensical_skyblock"]}],"luk3yx/flow":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}]},"hash":"0krq9i2p3aib0xn1f1bp8ywzp5a1gpc5y6wwwmy73g8afxm87rgq"}
+{
+  "author": "Neuromancer",
+  "content_warnings": [],
+  "created_at": "2024-01-27T23:49:21.691642",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 202,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30185",
+  "forums": 30185,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Neuromancer56/petroglyph_maker/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "# Petroglyph Maker © 2024 Neuromancer\n\nThis mod is essentially a customized version of the GGraffiti mod by © 2022 Gregor Parzefall\n\nThis Minetest mod adds chisels that lets you create your own petroglyphs on desert stone nodes. It requires at least Minetest 5.6.0.\n\nFeatures:\n\n- Chisel pixel-by-pixel on desert stone\n- Chisel with custom colors using the RGB chisel\n- Different sizes: Chisel up to 3×3 pixels at a time\n- Remove chisel marks with the eraser-like \"remover\" chisel or by digging the chiseled nodes\n- Respects protection mods\n- Compatible with Minetest Game and MineClone 2?\n\n## Items\n\n**Stone Chisel**\n\nPress and hold the dig button (the left mouse button) to chisel. Press the place button (the right mouse button) to change the size.\n\nAfter some time, the chisel will break.  \n\nIf you are playing on Android: For the best spraying experience, enable `Settings` → `All Settings` → `touch_use_crosshair`.\n\n**RGB Stone Chisel**\n\nA chisel can that can leave behind any 24-bit RGB color and thus in all colors supported by Minetest. Press the place button (the right mouse button) to change the selected color.\n\n\n**Petroglyph Remover Chisel**\n\nA chisel can that removes mistakes. Essentially an eraser.\n\nIf you want to remove a lot of petroglyph at once, you can simply dig the affected nodes and place them again. This will remove all petroglyphs that are on them.\n\n## Related things\n\n- `nc_paint` by Kimapr  \n  Something like this, but for NodeCore.\n\n\n## License\n© 2024 Neuromancer\n© 2022 Gregor Parzefall\n\nSource code (everything except image and audio files) available under the [GNU AGPL version 3.0](https://www.gnu.org/licenses/agpl-3.0.html) or any later version, media (image and audio files) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\nThis licensing means, for example, that if you use a modified version of this mod on your server, you must provide the source code of that modified version to your players. For more information, please read the licenses.\n\n**Exceptions**\n",
+  "maintainers": [
+    "Neuromancer"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "petroglyph_maker",
+  "provides": [
+    "petroglyph_maker"
+  ],
+  "release": 23186,
+  "repo": "https://github.com/Neuromancer56/petroglyph_maker",
+  "score": 3.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/33c0a183bd.png"
+  ],
+  "short_description": "Create your own petroglyphs on Desert Stone",
+  "state": "APPROVED",
+  "tags": [
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/33c0a183bd.png",
+  "title": "Petroglyph Maker",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Neuromancer/petroglyph_maker/releases/23186/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://forum.minetest.net/viewtopic.php?t=30185",
+  "dependencies": {
+    "LMD/modlib": [],
+    "Neuromancer/petroglyph_maker": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": [
+          "Kimapr/nonsensical_skyblock",
+          "luk3yx/flow"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "zanderdev/skyblock_zero",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "0krq9i2p3aib0xn1f1bp8ywzp5a1gpc5y6wwwmy73g8afxm87rgq"
+}

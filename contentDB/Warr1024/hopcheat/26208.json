@@ -1,1 +1,113 @@
-{"author":"Warr1024","content_warnings":[],"created_at":"2022-11-01T20:02:04.104997","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://liberapay.com/Warr1024","downloads":405,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"talas","name":"colourhop","release":21713,"short_description":"Help the jumping blobs defeat the evil dragons and bring colour back to the world.","thumbnail":"https://content.luanti.org/thumbnails/1/3ad44301ec.png","title":"Colour Hop","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"This mod adds a lot of new \"cheat\" chat commands for ColourHop, which may especially be useful for development/testing/debugging or creating demo/trailer videos.\n\n- For convenience, you can also bind an arbitrary command to the Sneak+Aux1 hotkey for each color.  This is useful for things like the place/zap node commands, or firing weapons, which you are likely to want to do repeatedly without opening the chat interface each time.\n- Each command has an individual privilege so you can grant access per-player.  There is also an \"all\" privilege for convenience.\n- Each command can be run targeting another player, in which case it will affect that player as if they were the one to run the command (though using *your* privilege for the check).  This allows you to e.g. administer which colors a player has access to, to allow them to join a late-game party without having to make everyone wait while they beat the early bosses.\n\nAdded commands include:\n\n- `/bind` to bind a command to the hotkey for your currently-selected color.\n- `/colors` (or `/colours`) to set which colors you have access to.\n- `/pn` to place a new node as if you had just hopped red (but without having to stand on red or do the rigamarole of using a \"crane\").\n- `/zap` to destroy the node you are pointing at (works on walls too).\n- `/lo`, `/hi`, `/ap` and `/ion` to fire various surface-to-air weapons.\n- `/summon` to summon a dragon as if an altar existed where your feet are.\n- `/unbuild` to convert an \"activated\" or \"spent\" building back into its original nodes, so it can be triggered again.\n- `/fov` to grant a player the ability to zoom in.\n- `/lag` to introduce artificial lag to the server step, useful for testing robustness of mechanics under non-ideal server loading effects.\n\nSee the in-game `/help` for a full list of commands.","maintainers":["Warr1024"],"media_license":"MIT","name":"hopcheat","provides":["hopcheat"],"release":26208,"repo":"https://gitlab.com/sztest/hopcheat","score":1.9,"screenshots":["https://content.luanti.org/uploads/6acc490daa.webp"],"short_description":"Cheat commands for ColourHop","state":"APPROVED","tags":["chat","creative","server_tools","tools","world_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/6acc490daa.png","title":"HopCheat","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Warr1024/hopcheat/releases/26208/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Warr1024/hopcheat":[{"is_optional":false,"name":"ch_player_api","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_colours","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_ion_cannon","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_fireworks","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_flashscreen","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_world","packages":["talas/colourhop"]},{"is_optional":false,"name":"ch_draconis","packages":["talas/colourhop"]}]},"hash":"1alkpr878cjbig4mkfyqr0f0fw1m2qya8k42f66324wxq7crs9a1"}
+{
+  "author": "Warr1024",
+  "content_warnings": [],
+  "created_at": "2022-11-01T20:02:04.104997",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://liberapay.com/Warr1024",
+  "downloads": 405,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "talas",
+        "name": "colourhop",
+        "release": 21713,
+        "short_description": "Help the jumping blobs defeat the evil dragons and bring colour back to the world.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3ad44301ec.png",
+        "title": "Colour Hop",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "This mod adds a lot of new \"cheat\" chat commands for ColourHop, which may especially be useful for development/testing/debugging or creating demo/trailer videos.\n\n- For convenience, you can also bind an arbitrary command to the Sneak+Aux1 hotkey for each color.  This is useful for things like the place/zap node commands, or firing weapons, which you are likely to want to do repeatedly without opening the chat interface each time.\n- Each command has an individual privilege so you can grant access per-player.  There is also an \"all\" privilege for convenience.\n- Each command can be run targeting another player, in which case it will affect that player as if they were the one to run the command (though using *your* privilege for the check).  This allows you to e.g. administer which colors a player has access to, to allow them to join a late-game party without having to make everyone wait while they beat the early bosses.\n\nAdded commands include:\n\n- `/bind` to bind a command to the hotkey for your currently-selected color.\n- `/colors` (or `/colours`) to set which colors you have access to.\n- `/pn` to place a new node as if you had just hopped red (but without having to stand on red or do the rigamarole of using a \"crane\").\n- `/zap` to destroy the node you are pointing at (works on walls too).\n- `/lo`, `/hi`, `/ap` and `/ion` to fire various surface-to-air weapons.\n- `/summon` to summon a dragon as if an altar existed where your feet are.\n- `/unbuild` to convert an \"activated\" or \"spent\" building back into its original nodes, so it can be triggered again.\n- `/fov` to grant a player the ability to zoom in.\n- `/lag` to introduce artificial lag to the server step, useful for testing robustness of mechanics under non-ideal server loading effects.\n\nSee the in-game `/help` for a full list of commands.",
+  "maintainers": [
+    "Warr1024"
+  ],
+  "media_license": "MIT",
+  "name": "hopcheat",
+  "provides": [
+    "hopcheat"
+  ],
+  "release": 26208,
+  "repo": "https://gitlab.com/sztest/hopcheat",
+  "score": 1.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6acc490daa.webp"
+  ],
+  "short_description": "Cheat commands for ColourHop",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "creative",
+    "server_tools",
+    "tools",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6acc490daa.png",
+  "title": "HopCheat",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Warr1024/hopcheat/releases/26208/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Warr1024/hopcheat": [
+      {
+        "is_optional": false,
+        "name": "ch_player_api",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_colours",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_ion_cannon",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_fireworks",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_flashscreen",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_world",
+        "packages": [
+          "talas/colourhop"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "ch_draconis",
+        "packages": [
+          "talas/colourhop"
+        ]
+      }
+    ]
+  },
+  "hash": "1alkpr878cjbig4mkfyqr0f0fw1m2qya8k42f66324wxq7crs9a1"
+}

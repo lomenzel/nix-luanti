@@ -1,1 +1,74 @@
-{"author":"mazes","content_warnings":[],"created_at":"2022-02-10T21:01:52.853027","dev_state":"BETA","donate_url":null,"downloads":1270,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"This mod is inspired by candles from another voxel game.\n\nYou can put candles in world, add remove or taint candles from an already existing node.\n\n# How to\n\nAdd up to five candles in a node using candles from stack.\n\nRemove them from world by digging candles in node one after the other.\n\n\n## Minetest game / default\nThere is only one availabe item in survival, and one for all colors in creative.\n\nCraft it:\n\n*         Require petz or/and bees mods installed\n*         Needs give privileges or creative server\n*         without those modes leaves and string will provide a backup for blue candle\n*                 bad recipe as it is not supposed to be accessible in inventory\n*                 \nColorize candles only in world with dyes: one node needs 1 dye (1 dye -> up to 5 candles)\n\n### survival\n\nyou can add master candles item in any candle node without losing dying.\n\nmaster candles is the only one you can get in inventory\n\n### creative\n\nyou can any candles item in any candle node without losing node dying, but you'll lose item dying.\n\n### Pie mod\n\nThis mod now enhances [pie](https://content.minetest.net/packages/TenPlus1/pie/) all default cakes present in this mod can now be covered with a candle.\n\n* Right-click on an unbitten cake with a candle to transform it  into a candle cake.\n* Change candle color with dyes used on the cake\n* Bitting the cake will give back the candle\n\nInteraction are very limited, but it's cute\n\n\n## Mineclone 2\nRecipe depends on wip honey branch\n\nDying is done per candle\n\n*         in world if node contains only 1 candle\n*         from creative inventory via recipes\n\nIn world you can only add candles with same dying to a candle node\n\n# Requirements\n*         screwdriver seems to be somehow needed\n*         \"farming:string\" item is mandatory to offer recipe\n*         one of or both petz, bees mods to finalise the recipe\n\nI tried to be game agnostic but it seems hard to achieve\n\nUnder MIT Licence","maintainers":["mazes"],"media_license":"CC-BY-SA-4.0","name":"candles_3d","provides":["candles_3d"],"release":29140,"repo":"https://gitlab.com/mazes_80/candles_3d","score":21.7,"screenshots":["https://content.luanti.org/uploads/96e7991ce5.png","https://content.luanti.org/uploads/070998b66e.png"],"short_description":"Place candles in world. Add, remove or taint candles from placed nodes","state":"APPROVED","tags":["building","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/96e7991ce5.png","title":"Candles 3D","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mazes/candles_3d/releases/29140/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"mazes/candles_3d":[]},"hash":"0r4gl3zrm4z7cfby3vzzzppgp2cvabfzsasmdshxpm8y10l258sn"}
+{
+  "author": "mazes",
+  "content_warnings": [],
+  "created_at": "2022-02-10T21:01:52.853027",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1270,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "This mod is inspired by candles from another voxel game.\n\nYou can put candles in world, add remove or taint candles from an already existing node.\n\n# How to\n\nAdd up to five candles in a node using candles from stack.\n\nRemove them from world by digging candles in node one after the other.\n\n\n## Minetest game / default\nThere is only one availabe item in survival, and one for all colors in creative.\n\nCraft it:\n\n*         Require petz or/and bees mods installed\n*         Needs give privileges or creative server\n*         without those modes leaves and string will provide a backup for blue candle\n*                 bad recipe as it is not supposed to be accessible in inventory\n*                 \nColorize candles only in world with dyes: one node needs 1 dye (1 dye -> up to 5 candles)\n\n### survival\n\nyou can add master candles item in any candle node without losing dying.\n\nmaster candles is the only one you can get in inventory\n\n### creative\n\nyou can any candles item in any candle node without losing node dying, but you'll lose item dying.\n\n### Pie mod\n\nThis mod now enhances [pie](https://content.minetest.net/packages/TenPlus1/pie/) all default cakes present in this mod can now be covered with a candle.\n\n* Right-click on an unbitten cake with a candle to transform it  into a candle cake.\n* Change candle color with dyes used on the cake\n* Bitting the cake will give back the candle\n\nInteraction are very limited, but it's cute\n\n\n## Mineclone 2\nRecipe depends on wip honey branch\n\nDying is done per candle\n\n*         in world if node contains only 1 candle\n*         from creative inventory via recipes\n\nIn world you can only add candles with same dying to a candle node\n\n# Requirements\n*         screwdriver seems to be somehow needed\n*         \"farming:string\" item is mandatory to offer recipe\n*         one of or both petz, bees mods to finalise the recipe\n\nI tried to be game agnostic but it seems hard to achieve\n\nUnder MIT Licence",
+  "maintainers": [
+    "mazes"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "candles_3d",
+  "provides": [
+    "candles_3d"
+  ],
+  "release": 29140,
+  "repo": "https://gitlab.com/mazes_80/candles_3d",
+  "score": 21.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/96e7991ce5.png",
+    "https://content.luanti.org/uploads/070998b66e.png"
+  ],
+  "short_description": "Place candles in world. Add, remove or taint candles from placed nodes",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/96e7991ce5.png",
+  "title": "Candles 3D",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mazes/candles_3d/releases/29140/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mazes/candles_3d": []
+  },
+  "hash": "0r4gl3zrm4z7cfby3vzzzppgp2cvabfzsasmdshxpm8y10l258sn"
+}

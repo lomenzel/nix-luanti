@@ -1,1 +1,54 @@
-{"author":"cora","content_warnings":[],"created_at":"2024-03-21T01:09:43.372093","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":668,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://codeberg.org/mineclonia/mcla_classical","license":"GPL-3.0-or-later","long_description":"# mcla_classical\nClassical background music for mineclonia\n\n## Credits\n\n* Kevin MacLeod - Canon in D major by Johann Pachelbel, [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Canon_in_D_Major.mp3\n* Kevin MacLeod - Danse Macabre by Camille Saint-Saëns [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Danse_Macabre.mp3\n* Kevin MacLeod - Prelude in C BWV 846 by Johann S. Bach [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) [https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Prelude_in_C_-_BWV_846.mp3](https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Prelude_in_C_-_BWV_846.mp3)\n* Kevin_MacLeod - The_Endless [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_The_Endless.mp3\n* John Harrison with the Wichita State University Chamber Players - Spring Mvt 3. Allegro Pastorale by Antonio Vivaldi [Creative Commons Attribution Share-Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) https://archive.org/details/The_Four_Seasons_Vivaldi-10361/John_Harrison_with_the_Wichita_State_University_Chamber_Players_-_03_-_Spring_Mvt_3_Allegro_pastorale.mp3\n* The European Archive BWV 1067 - Suite No.2 in B Minor Badinerie by Johann S. Bach - [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://musopen.org/music/3774-orchestral-suite-no-2-in-b-minor-bwv-1067/\n* Martha Goldstein - Suite BWV 996, E Minor - V Bourrée by Johann S. Bach [Creative Commons Attribution Share-Alike 2.0](https://creativecommons.org/licenses/by-sa/2.0/) https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Suite_BWV_996,_E_Minor_-_V_Bourr%C3%A9e.ogg\n* Sir James Galway playing with the Young Danish String Quartet - Flute Quintet in G Major - Minuet by Bernhard Romberg [Creative Commons Attribution Share-Alike 2.0](https://creativecommons.org/licenses/by-sa/2.0/) [https://en.wikipedia.org/wiki/File:Bernhard_Romberg_-_Flute_Quintet_in_G_Major_-_Minuet.ogg](https://en.wikipedia.org/wiki/File:Bernhard_Romberg_-_Flute_Quintet_in_G_Major_-_Minuet.ogg)\n* The Good China - The End / Prelude #4 (Chopin) [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* The Good China - From the New World (Theme from Dvorak's 9th Symphony [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* Jaan Patterson - Toccanta and Fugue (Bach) [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* Ivan Ilic - Prelude Op. 28 No. 4 (Frederic Chopin) - [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) -https://commons.wikimedia.org/wiki/File:Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg\n\nFull License texts in LICENSE.txt","maintainers":["cora"],"media_license":"CC-BY-SA-3.0","name":"mcla_classical_music","provides":["mcla_classical_music"],"release":24348,"repo":"https://codeberg.org/mineclonia/mcla_classical.git","score":175,"screenshots":["https://content.luanti.org/uploads/eafec2caef.png"],"short_description":"Classical background music","state":"APPROVED","tags":["sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/eafec2caef.png","title":"Classical Music","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/cora/mcla_classical_music/releases/24348/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"cora/mcla_classical_music":[{"is_optional":false,"name":"mcla_music_api","packages":["cora/mcla_music_api"]}],"cora/mcla_music_api":[]},"hash":"082v3ln1qzzdr2dskp29ynnnqp2q9xispwa6sw2impgjil09kd4i"}
+{
+  "author": "cora",
+  "content_warnings": [],
+  "created_at": "2024-03-21T01:09:43.372093",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 668,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/mineclonia/mcla_classical",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# mcla_classical\nClassical background music for mineclonia\n\n## Credits\n\n* Kevin MacLeod - Canon in D major by Johann Pachelbel, [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Canon_in_D_Major.mp3\n* Kevin MacLeod - Danse Macabre by Camille Saint-Saëns [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Danse_Macabre.mp3\n* Kevin MacLeod - Prelude in C BWV 846 by Johann S. Bach [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) [https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Prelude_in_C_-_BWV_846.mp3](https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_Prelude_in_C_-_BWV_846.mp3)\n* Kevin_MacLeod - The_Endless [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://archive.org/details/Classical_Sampler-9615/Kevin_MacLeod_-_The_Endless.mp3\n* John Harrison with the Wichita State University Chamber Players - Spring Mvt 3. Allegro Pastorale by Antonio Vivaldi [Creative Commons Attribution Share-Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) https://archive.org/details/The_Four_Seasons_Vivaldi-10361/John_Harrison_with_the_Wichita_State_University_Chamber_Players_-_03_-_Spring_Mvt_3_Allegro_pastorale.mp3\n* The European Archive BWV 1067 - Suite No.2 in B Minor Badinerie by Johann S. Bach - [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) https://musopen.org/music/3774-orchestral-suite-no-2-in-b-minor-bwv-1067/\n* Martha Goldstein - Suite BWV 996, E Minor - V Bourrée by Johann S. Bach [Creative Commons Attribution Share-Alike 2.0](https://creativecommons.org/licenses/by-sa/2.0/) https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Suite_BWV_996,_E_Minor_-_V_Bourr%C3%A9e.ogg\n* Sir James Galway playing with the Young Danish String Quartet - Flute Quintet in G Major - Minuet by Bernhard Romberg [Creative Commons Attribution Share-Alike 2.0](https://creativecommons.org/licenses/by-sa/2.0/) [https://en.wikipedia.org/wiki/File:Bernhard_Romberg_-_Flute_Quintet_in_G_Major_-_Minuet.ogg](https://en.wikipedia.org/wiki/File:Bernhard_Romberg_-_Flute_Quintet_in_G_Major_-_Minuet.ogg)\n* The Good China - The End / Prelude #4 (Chopin) [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* The Good China - From the New World (Theme from Dvorak's 9th Symphony [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* Jaan Patterson - Toccanta and Fugue (Bach) [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0) https://archive.org/details/Masters_Remastered-17850\n* Ivan Ilic - Prelude Op. 28 No. 4 (Frederic Chopin) - [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) -https://commons.wikimedia.org/wiki/File:Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg\n\nFull License texts in LICENSE.txt",
+  "maintainers": [
+    "cora"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mcla_classical_music",
+  "provides": [
+    "mcla_classical_music"
+  ],
+  "release": 24348,
+  "repo": "https://codeberg.org/mineclonia/mcla_classical.git",
+  "score": 175,
+  "screenshots": [
+    "https://content.luanti.org/uploads/eafec2caef.png"
+  ],
+  "short_description": "Classical background music",
+  "state": "APPROVED",
+  "tags": [
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/eafec2caef.png",
+  "title": "Classical Music",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/cora/mcla_classical_music/releases/24348/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "cora/mcla_classical_music": [
+      {
+        "is_optional": false,
+        "name": "mcla_music_api",
+        "packages": [
+          "cora/mcla_music_api"
+        ]
+      }
+    ],
+    "cora/mcla_music_api": []
+  },
+  "hash": "082v3ln1qzzdr2dskp29ynnnqp2q9xispwa6sw2impgjil09kd4i"
+}

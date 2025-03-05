@@ -1,1 +1,114 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2021-04-12T02:42:05.851379","dev_state":null,"donate_url":null,"downloads":665,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/nc_pumbob/issues/new/choose/","license":"CC0-1.0","long_description":"# nc_pumbob\nFloating Pumice Bobbers for Nodecore\n","maintainers":["Winter94"],"media_license":"CC0-1.0","name":"nc_pumbob","provides":["nc_pumbob"],"release":10564,"repo":"https://github.com/wintersknight94/nc_pumbob","score":1.1,"screenshots":["https://content.luanti.org/uploads/xDYE6BJGHa.png"],"short_description":"adds carvable and sealable pumice bobbers/floaters","state":"APPROVED","tags":["building","building_mechanics"],"thumbnail":"https://content.luanti.org/thumbnails/1/xDYE6BJGHa.png","title":"NC Pumbob","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/nc_pumbob/releases/10564/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/nc_pumbob":[{"is_optional":false,"name":"nc_stonework","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_igneous","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lode","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"0n96dfgcyq6rwq0wknixmacmfzf4kwg7vc9751p86fng1z347c7m"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2021-04-12T02:42:05.851379",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 665,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/nc_pumbob/issues/new/choose/",
+  "license": "CC0-1.0",
+  "long_description": "# nc_pumbob\nFloating Pumice Bobbers for Nodecore\n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "nc_pumbob",
+  "provides": [
+    "nc_pumbob"
+  ],
+  "release": 10564,
+  "repo": "https://github.com/wintersknight94/nc_pumbob",
+  "score": 1.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/xDYE6BJGHa.png"
+  ],
+  "short_description": "adds carvable and sealable pumice bobbers/floaters",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "building_mechanics"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/xDYE6BJGHa.png",
+  "title": "NC Pumbob",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/nc_pumbob/releases/10564/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/nc_pumbob": [
+      {
+        "is_optional": false,
+        "name": "nc_stonework",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_igneous",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "0n96dfgcyq6rwq0wknixmacmfzf4kwg7vc9751p86fng1z347c7m"
+}

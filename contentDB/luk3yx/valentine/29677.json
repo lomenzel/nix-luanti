@@ -1,1 +1,68 @@
-{"author":"luk3yx","content_warnings":[],"created_at":"2023-02-09T02:18:39.067288","dev_state":"AS_IS","donate_url":null,"downloads":351,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/luk3yx/minetest-valentine/issues","license":"MIT","long_description":"A mod that adds valentine cards and boxes.\n\n### License\n\nCode: MIT\n\nTextures: CC-BY-SA 4.0 MultiCraft development team","maintainers":["luk3yx"],"media_license":"CC-BY-SA-4.0","name":"valentine","provides":["valentine"],"release":29677,"repo":"https://gitlab.com/luk3yx/minetest-valentine","score":5.5,"screenshots":["https://content.luanti.org/uploads/94f3d84e97.png","https://content.luanti.org/uploads/1d9eb3bb46.png"],"short_description":"Adds valentine cards","state":"APPROVED","tags":["pvp"],"thumbnail":"https://content.luanti.org/thumbnails/1/94f3d84e97.png","title":"Valentine's day","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/luk3yx/valentine/releases/29677/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"luk3yx/flow":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}],"luk3yx/valentine":[{"is_optional":false,"name":"flow","packages":["Kimapr/nonsensical_skyblock","luk3yx/flow"]}]},"hash":"1iyccxfh9w8mdkjg7m4jz2gzvjzv16b6511rdmn984a4ligs14rs"}
+{
+  "author": "luk3yx",
+  "content_warnings": [],
+  "created_at": "2023-02-09T02:18:39.067288",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 351,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/luk3yx/minetest-valentine/issues",
+  "license": "MIT",
+  "long_description": "A mod that adds valentine cards and boxes.\n\n### License\n\nCode: MIT\n\nTextures: CC-BY-SA 4.0 MultiCraft development team",
+  "maintainers": [
+    "luk3yx"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "valentine",
+  "provides": [
+    "valentine"
+  ],
+  "release": 29677,
+  "repo": "https://gitlab.com/luk3yx/minetest-valentine",
+  "score": 5.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/94f3d84e97.png",
+    "https://content.luanti.org/uploads/1d9eb3bb46.png"
+  ],
+  "short_description": "Adds valentine cards",
+  "state": "APPROVED",
+  "tags": [
+    "pvp"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/94f3d84e97.png",
+  "title": "Valentine's day",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/luk3yx/valentine/releases/29677/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ],
+    "luk3yx/valentine": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": [
+          "Kimapr/nonsensical_skyblock",
+          "luk3yx/flow"
+        ]
+      }
+    ]
+  },
+  "hash": "1iyccxfh9w8mdkjg7m4jz2gzvjzv16b6511rdmn984a4ligs14rs"
+}

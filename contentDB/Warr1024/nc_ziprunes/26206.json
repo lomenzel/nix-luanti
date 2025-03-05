@@ -1,1 +1,97 @@
-{"author":"Warr1024","content_warnings":[],"created_at":"2020-02-23T19:11:16.832490","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://liberapay.com/Warr1024","downloads":2528,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":"https://discord.gg/NNYeF6f","license":"MIT","long_description":"*A mid/high-cost fast-travel system for NodeCore that allows\nnon-gameplay-breaking inventory transport.*\n\nPlayers can construct networks of relativistic-speed travel paths\nusing charcoal glyphs, powered at the starting points by lux.  Players\nstanding at the starting point of a path will be zipped along that\npath at the maximum speed allowed by map loading.\n\n* Paths are constructed of a series of segments.\n* Each segment consists of 2 V runes in line, with one pointing at\n  the other, and the other pointing in the same direction.\n* There must be no obstacles along the path that would block a\n  player moving along it\n* There does not need to be a floor under the path.\n* Path segments can be in any of the 6 directions.\n* A path can be made of an unlimited number of segments in any\n  mix of directions.\n* A path segment can only be a limited maximum length, by default\n  up to 32 nodes long.\n* When traveling along a path, the player will land at the position\n  one node past the end of the destination rune.\n* For upward paths, the player will also be shifted one node to\n  stand on top of the node that the destination rune was drawn\n  on.\n* To travel along a path, a player needs to be \"energized\" by\n  standing still on a starting glyph.\n* A starting glyph needs to be drawn on a piece of lux cobble with\n  at least a certain minimum energy (by default 4+ neighbors) or\n  on a node with flux on the opposite side of the glyph.\n* The player will continue to travel along any path with a staring\n  position within 1 node of the player, so long as the player\n  remains \"energized\"\n* The player will remain \"energized\" until moving by moving other\n  than by traveling along paths, e.g. walking, falling, etc.\n* All areas traveled must be loaded by the server, so this may\n  limit speed.\n\nPaths of unlimited length are relatively inexpensive to construct,\nrequiring by default only 5 lux cobble, a supply of coal lumps,\nand the patience and care to plan and construct.\n\nUnlike with other cheap fast travel mods intended for touring or\nvisiting, ZipRunes allow players to carry their items with them.","maintainers":["Warr1024"],"media_license":"MIT","name":"nc_ziprunes","provides":["nc_ziprunes"],"release":26206,"repo":"https://gitlab.com/sztest/nc_ziprunes","score":6.4,"screenshots":["https://content.luanti.org/uploads/d3c1f150d5.webp"],"short_description":"Gameplay-integrated fast-travel system for NodeCore.","state":"APPROVED","tags":["transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/d3c1f150d5.png","title":"NodeCore ZipRunes","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Warr1024/nc_ziprunes/releases/26206/download/","video_thumbnail_url":"https://content.luanti.org/thumbnails/youtube/ihsAb8YFLkE.jpg","video_url":"https://www.youtube.com/watch?v=ihsAb8YFLkE","website":"https://nodecore.mine.nu/","dependencies":{"Warr1024/nc_ziprunes":[{"is_optional":false,"name":"nc_writing","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lux","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"15m782ghhqcdl97p6sm3qymhbzlisfyxm0whc9pylf06hrg77zl1"}
+{
+  "author": "Warr1024",
+  "content_warnings": [],
+  "created_at": "2020-02-23T19:11:16.832490",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://liberapay.com/Warr1024",
+  "downloads": 2528,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://discord.gg/NNYeF6f",
+  "license": "MIT",
+  "long_description": "*A mid/high-cost fast-travel system for NodeCore that allows\nnon-gameplay-breaking inventory transport.*\n\nPlayers can construct networks of relativistic-speed travel paths\nusing charcoal glyphs, powered at the starting points by lux.  Players\nstanding at the starting point of a path will be zipped along that\npath at the maximum speed allowed by map loading.\n\n* Paths are constructed of a series of segments.\n* Each segment consists of 2 V runes in line, with one pointing at\n  the other, and the other pointing in the same direction.\n* There must be no obstacles along the path that would block a\n  player moving along it\n* There does not need to be a floor under the path.\n* Path segments can be in any of the 6 directions.\n* A path can be made of an unlimited number of segments in any\n  mix of directions.\n* A path segment can only be a limited maximum length, by default\n  up to 32 nodes long.\n* When traveling along a path, the player will land at the position\n  one node past the end of the destination rune.\n* For upward paths, the player will also be shifted one node to\n  stand on top of the node that the destination rune was drawn\n  on.\n* To travel along a path, a player needs to be \"energized\" by\n  standing still on a starting glyph.\n* A starting glyph needs to be drawn on a piece of lux cobble with\n  at least a certain minimum energy (by default 4+ neighbors) or\n  on a node with flux on the opposite side of the glyph.\n* The player will continue to travel along any path with a staring\n  position within 1 node of the player, so long as the player\n  remains \"energized\"\n* The player will remain \"energized\" until moving by moving other\n  than by traveling along paths, e.g. walking, falling, etc.\n* All areas traveled must be loaded by the server, so this may\n  limit speed.\n\nPaths of unlimited length are relatively inexpensive to construct,\nrequiring by default only 5 lux cobble, a supply of coal lumps,\nand the patience and care to plan and construct.\n\nUnlike with other cheap fast travel mods intended for touring or\nvisiting, ZipRunes allow players to carry their items with them.",
+  "maintainers": [
+    "Warr1024"
+  ],
+  "media_license": "MIT",
+  "name": "nc_ziprunes",
+  "provides": [
+    "nc_ziprunes"
+  ],
+  "release": 26206,
+  "repo": "https://gitlab.com/sztest/nc_ziprunes",
+  "score": 6.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d3c1f150d5.webp"
+  ],
+  "short_description": "Gameplay-integrated fast-travel system for NodeCore.",
+  "state": "APPROVED",
+  "tags": [
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d3c1f150d5.png",
+  "title": "NodeCore ZipRunes",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Warr1024/nc_ziprunes/releases/26206/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/ihsAb8YFLkE.jpg",
+  "video_url": "https://www.youtube.com/watch?v=ihsAb8YFLkE",
+  "website": "https://nodecore.mine.nu/",
+  "dependencies": {
+    "Warr1024/nc_ziprunes": [
+      {
+        "is_optional": false,
+        "name": "nc_writing",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "15m782ghhqcdl97p6sm3qymhbzlisfyxm0whc9pylf06hrg77zl1"
+}

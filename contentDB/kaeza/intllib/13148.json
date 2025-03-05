@@ -1,1 +1,45 @@
-{"author":"kaeza","content_warnings":[],"created_at":"2018-05-23T19:58:07.422108","dev_state":"DEPRECATED","donate_url":null,"downloads":8274,"forum_url":"https://forum.luanti.org/viewtopic.php?t=4929","forums":4929,"game_support":[],"issue_tracker":"https://github.com/minetest-mods/intllib/issues/","license":"CC0-1.0","long_description":"Internationalization library.\nThis mod provides a way to internationalize/localize mods to other languages in an easy way.\nSee the README file for details.\n\n## Note for modders\n\nYou should not use this mod when writing new mods, and you should update mods to no longer depend on this mod.\n\nMinetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()","maintainers":["kaeza"],"media_license":"CC0-1.0","name":"intllib","provides":["intllib"],"release":13148,"repo":"https://github.com/minetest-mods/intllib","score":0,"screenshots":["https://content.luanti.org/uploads/2efd7317c4.png"],"short_description":"Internationalization library.","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/2efd7317c4.png","title":"Intllib","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/kaeza/intllib/releases/13148/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"kaeza/intllib":[]},"hash":"19lnk0z3whfsximfrmmz1girka1v1kfsqjagcfgsg59zgp0jhlg9"}
+{
+  "author": "kaeza",
+  "content_warnings": [],
+  "created_at": "2018-05-23T19:58:07.422108",
+  "dev_state": "DEPRECATED",
+  "donate_url": null,
+  "downloads": 8274,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=4929",
+  "forums": 4929,
+  "game_support": [],
+  "issue_tracker": "https://github.com/minetest-mods/intllib/issues/",
+  "license": "CC0-1.0",
+  "long_description": "Internationalization library.\nThis mod provides a way to internationalize/localize mods to other languages in an easy way.\nSee the README file for details.\n\n## Note for modders\n\nYou should not use this mod when writing new mods, and you should update mods to no longer depend on this mod.\n\nMinetest 5.0 has builtin support for client-side translation, accessed by minetest.get_translator()",
+  "maintainers": [
+    "kaeza"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "intllib",
+  "provides": [
+    "intllib"
+  ],
+  "release": 13148,
+  "repo": "https://github.com/minetest-mods/intllib",
+  "score": 0,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2efd7317c4.png"
+  ],
+  "short_description": "Internationalization library.",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2efd7317c4.png",
+  "title": "Intllib",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/kaeza/intllib/releases/13148/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "kaeza/intllib": []
+  },
+  "hash": "19lnk0z3whfsximfrmmz1girka1v1kfsqjagcfgsg59zgp0jhlg9"
+}

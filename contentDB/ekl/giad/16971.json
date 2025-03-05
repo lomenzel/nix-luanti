@@ -1,1 +1,46 @@
-{"author":"ekl","content_warnings":[],"created_at":"2023-02-01T23:48:39.253353","dev_state":"BETA","donate_url":null,"downloads":770,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"LGPL-3.0-or-later","long_description":"There isn't much in the way of documentation, however test_entities.lua should provide a decent idea of how to use it if you're interested. The API is usable, but is open to revision.\n\n### Using the library\nThe library provides giad.meta and giad.leg. Use giad.meta as the metatable of your entity definition, and use giad.leg as the metatable for legs (the giad.leg.new constructor also works, but is very limited).\n\n```lua\nminetest.register_entity(\"giad:testbed\", setmetatable({\n\tinitial_properties = {\n\t\tvisual = \"mesh\",\n\t\tmesh = \"giad_testbed_body.obj\",\n\t},\n\ttextures = { \"default_wood.png\" },\n\tphysical = true,\n\n\t_createLegs = function(self)\n\t\t--This function uses some for loops, but the gist is just to initialize the _legs table.\n\t\tlocal function newLeg(from, to)\n\t\t\treturn setmetatable({\n\t\t\t\toffset = from,\n\t\t\t\trestPos = to,\n\t\t\t\tupper = \"giad:leg_upper\",\n\t\t\t\tlower = \"giad:leg_lower\",\n\t\t\t\tupperLength = 3,\n\t\t\t\tlowerLength = 4,\n\t\t\t}, giad.leg)\n\t\tend\n\n\t\tself._legs = {}\n\n\t\tfor i = 1, 4 do\n\t\t\tlocal angle = vector.new(0, i * math.pi / 5, 0)\n\t\t\tself._legs[i * 2 - 1] = newLeg(vector.new(0, 0, 1):rotate(angle), vector.new(0, -3, 6):rotate(angle))\n\t\t\tself._legs[i * 2] = newLeg(vector.new(0, 0, 1):rotate(-angle), vector.new(0, -3, 6):rotate(-angle))\n\t\tend\n\tend,\n\t_maxStepping = 3,\n\t_canJump = true\n}, giad.meta))\n```","maintainers":["ekl"],"media_license":"CC0-1.0","name":"giad","provides":["giad"],"release":16971,"repo":"https://codeberg.org/ekl/giad","score":7.3,"screenshots":["https://content.luanti.org/uploads/3b4c5a74e0.png","https://content.luanti.org/uploads/d64d343538.png"],"short_description":"WIP Library for creating walking vehicles","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/3b4c5a74e0.png","title":"Giad","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ekl/giad/releases/16971/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ekl/giad":[]},"hash":"0r1xi7a7fs30c35fq2z3kxcpaindk8as4cqw3ma3043h1caq26l0"}
+{
+  "author": "ekl",
+  "content_warnings": [],
+  "created_at": "2023-02-01T23:48:39.253353",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 770,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "LGPL-3.0-or-later",
+  "long_description": "There isn't much in the way of documentation, however test_entities.lua should provide a decent idea of how to use it if you're interested. The API is usable, but is open to revision.\n\n### Using the library\nThe library provides giad.meta and giad.leg. Use giad.meta as the metatable of your entity definition, and use giad.leg as the metatable for legs (the giad.leg.new constructor also works, but is very limited).\n\n```lua\nminetest.register_entity(\"giad:testbed\", setmetatable({\n\tinitial_properties = {\n\t\tvisual = \"mesh\",\n\t\tmesh = \"giad_testbed_body.obj\",\n\t},\n\ttextures = { \"default_wood.png\" },\n\tphysical = true,\n\n\t_createLegs = function(self)\n\t\t--This function uses some for loops, but the gist is just to initialize the _legs table.\n\t\tlocal function newLeg(from, to)\n\t\t\treturn setmetatable({\n\t\t\t\toffset = from,\n\t\t\t\trestPos = to,\n\t\t\t\tupper = \"giad:leg_upper\",\n\t\t\t\tlower = \"giad:leg_lower\",\n\t\t\t\tupperLength = 3,\n\t\t\t\tlowerLength = 4,\n\t\t\t}, giad.leg)\n\t\tend\n\n\t\tself._legs = {}\n\n\t\tfor i = 1, 4 do\n\t\t\tlocal angle = vector.new(0, i * math.pi / 5, 0)\n\t\t\tself._legs[i * 2 - 1] = newLeg(vector.new(0, 0, 1):rotate(angle), vector.new(0, -3, 6):rotate(angle))\n\t\t\tself._legs[i * 2] = newLeg(vector.new(0, 0, 1):rotate(-angle), vector.new(0, -3, 6):rotate(-angle))\n\t\tend\n\tend,\n\t_maxStepping = 3,\n\t_canJump = true\n}, giad.meta))\n```",
+  "maintainers": [
+    "ekl"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "giad",
+  "provides": [
+    "giad"
+  ],
+  "release": 16971,
+  "repo": "https://codeberg.org/ekl/giad",
+  "score": 7.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3b4c5a74e0.png",
+    "https://content.luanti.org/uploads/d64d343538.png"
+  ],
+  "short_description": "WIP Library for creating walking vehicles",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3b4c5a74e0.png",
+  "title": "Giad",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ekl/giad/releases/16971/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ekl/giad": []
+  },
+  "hash": "0r1xi7a7fs30c35fq2z3kxcpaindk8as4cqw3ma3043h1caq26l0"
+}

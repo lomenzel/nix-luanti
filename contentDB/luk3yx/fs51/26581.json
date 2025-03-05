@@ -1,1 +1,59 @@
-{"author":"luk3yx","content_warnings":[],"created_at":"2021-03-09T07:41:49.054599","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":920,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26399","forums":26399,"game_support":[],"issue_tracker":"https://github.com/luk3yx/minetest-fs51/issues","license":"MIT","long_description":"*The screenshot is devtest's `/test_formspec` command with fs51 on a Minetest 5.0.1 client.*\n\nA compatibility layer that makes formspec_version 4 (and later) formspecs\nrender more correctly in Minetest 5.3.0 and earlier.\n\nThis will work with most mods without any additional configuration. If you want\nto disable automatic formspec translation, add\n`fs51.disable_monkey_patching = true` to minetest.conf.\n\n## Why?\n\nMinetest 5.1.0 introduced changes to formspecs that made them much less painful\nto create and work with. However, formspecs are interpreted client-side and to\ntake advantage of these changes you would normally need to force everyone to\nupgrade Minetest. This mod detects these older clients and modifies formspecs\nsent to them to try and make sure they are at least usable.\n\n## How to use\n\n1. Install the mod\n2. Hope it works properly and doesn't break anything\n\n## Limitations\n\nFS51 replaces some newer formspec elements with fallbacks if clients don't\nsupport them, however this does have some limitations:\n\n - Animated images will just display their first frame.\n - Fullscreen background colours (the `fbgcolor` value in `bgcolor`) don't\n   work.\n - Hypertext elements will lose all formatting and interactivity.\n - Models will just display their underlying texture.\n - Scroll containers are broken.\n - `button_url[]` behaves equivalently to `button_url_exit[]`.\n\n## Troubleshooting\n\n - If your mod stores `minetest.show_formspec` during load time, you'll need to\n   add `fs51` as an optional dependency to `mod.conf` so it can use the patched\n   show_formspec code.\n - If a mod you use has broken node formspecs with fs51 enabled, try adding\n   `fs51.disable_meta_override = true` to minetest.conf (and please open an\n   issue against fs51).\n\n## Dependencies\n\nThis mod depends on my [formspec_ast] library.\n\n## API functions\n\nYou probably don't need to use these unless you're embedding fs51 outside of\nMinetest.\n\n - `fs51.backport(tree)`: Applies backports to a [formspec_ast] tree and\n    returns the modified tree. This does not modify the existing tree in place.\n - `fs51.backport_string(formspec)`: Similar to\n    `formspec_ast.unparse(fs51.backport(formspec_ast.parse(formspec)))`.\n\n*Unlike the automatic backporting, these functions will preserve newer elements\nsuch as hypertext and background9 so the formspec will still work properly with\nnewer clients.*\n\n [formspec_ast]: https://content.minetest.net/packages/luk3yx/formspec_ast","maintainers":["luk3yx"],"media_license":"MIT","name":"fs51","provides":["fs51"],"release":26581,"repo":"https://gitlab.com/luk3yx/minetest-fs51","score":5.3,"screenshots":["https://content.luanti.org/uploads/s1e98qGqLX.png"],"short_description":"Compatibility layer for formspecs","state":"APPROVED","tags":["gui","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/s1e98qGqLX.png","title":"FS51","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/luk3yx/fs51/releases/26581/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"luk3yx/formspec_ast":[],"luk3yx/fs51":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}]},"hash":"10idihsfmgw0d763pxjrli7ax4m64cm10g546k39hg8n2sa8p0yk"}
+{
+  "author": "luk3yx",
+  "content_warnings": [],
+  "created_at": "2021-03-09T07:41:49.054599",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 920,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26399",
+  "forums": 26399,
+  "game_support": [],
+  "issue_tracker": "https://github.com/luk3yx/minetest-fs51/issues",
+  "license": "MIT",
+  "long_description": "*The screenshot is devtest's `/test_formspec` command with fs51 on a Minetest 5.0.1 client.*\n\nA compatibility layer that makes formspec_version 4 (and later) formspecs\nrender more correctly in Minetest 5.3.0 and earlier.\n\nThis will work with most mods without any additional configuration. If you want\nto disable automatic formspec translation, add\n`fs51.disable_monkey_patching = true` to minetest.conf.\n\n## Why?\n\nMinetest 5.1.0 introduced changes to formspecs that made them much less painful\nto create and work with. However, formspecs are interpreted client-side and to\ntake advantage of these changes you would normally need to force everyone to\nupgrade Minetest. This mod detects these older clients and modifies formspecs\nsent to them to try and make sure they are at least usable.\n\n## How to use\n\n1. Install the mod\n2. Hope it works properly and doesn't break anything\n\n## Limitations\n\nFS51 replaces some newer formspec elements with fallbacks if clients don't\nsupport them, however this does have some limitations:\n\n - Animated images will just display their first frame.\n - Fullscreen background colours (the `fbgcolor` value in `bgcolor`) don't\n   work.\n - Hypertext elements will lose all formatting and interactivity.\n - Models will just display their underlying texture.\n - Scroll containers are broken.\n - `button_url[]` behaves equivalently to `button_url_exit[]`.\n\n## Troubleshooting\n\n - If your mod stores `minetest.show_formspec` during load time, you'll need to\n   add `fs51` as an optional dependency to `mod.conf` so it can use the patched\n   show_formspec code.\n - If a mod you use has broken node formspecs with fs51 enabled, try adding\n   `fs51.disable_meta_override = true` to minetest.conf (and please open an\n   issue against fs51).\n\n## Dependencies\n\nThis mod depends on my [formspec_ast] library.\n\n## API functions\n\nYou probably don't need to use these unless you're embedding fs51 outside of\nMinetest.\n\n - `fs51.backport(tree)`: Applies backports to a [formspec_ast] tree and\n    returns the modified tree. This does not modify the existing tree in place.\n - `fs51.backport_string(formspec)`: Similar to\n    `formspec_ast.unparse(fs51.backport(formspec_ast.parse(formspec)))`.\n\n*Unlike the automatic backporting, these functions will preserve newer elements\nsuch as hypertext and background9 so the formspec will still work properly with\nnewer clients.*\n\n [formspec_ast]: https://content.minetest.net/packages/luk3yx/formspec_ast",
+  "maintainers": [
+    "luk3yx"
+  ],
+  "media_license": "MIT",
+  "name": "fs51",
+  "provides": [
+    "fs51"
+  ],
+  "release": 26581,
+  "repo": "https://gitlab.com/luk3yx/minetest-fs51",
+  "score": 5.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/s1e98qGqLX.png"
+  ],
+  "short_description": "Compatibility layer for formspecs",
+  "state": "APPROVED",
+  "tags": [
+    "gui",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/s1e98qGqLX.png",
+  "title": "FS51",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/luk3yx/fs51/releases/26581/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "luk3yx/formspec_ast": [],
+    "luk3yx/fs51": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "10idihsfmgw0d763pxjrli7ax4m64cm10g546k39hg8n2sa8p0yk"
+}

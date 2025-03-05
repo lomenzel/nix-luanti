@@ -1,1 +1,47 @@
-{"author":"zanderdev","content_warnings":[],"created_at":"2024-06-13T14:54:28.784177","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":94,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"CC-BY-SA-4.0","long_description":"You can view your playtime using the /playtime chatcommand. The tracker is per-player, not for the whole server. You can view other player's playtime using /playtime [player name]. Every hour of playtime a user gets, the playtime will get announced to the server.\nThe mod is compatible with all if not most games & mod(pack)s. While this mod works in minetest game it should be noted that it is meant to be used together with other mod(pack)s to keep track of or speedrun progress.","maintainers":["zanderdev"],"media_license":"CC-BY-SA-4.0","name":"advancedplaytime","provides":["advancedplaytime"],"release":25524,"repo":null,"score":2.4,"screenshots":["https://content.luanti.org/uploads/e1c72586de.png"],"short_description":"Keeps track of playtime for all players in your world. Notifies you how much playtime you have occasionally.","state":"APPROVED","tags":["chat","multiplayer","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/e1c72586de.png","title":"Advanced Playtime","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/zanderdev/advancedplaytime/releases/25524/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"zanderdev/advancedplaytime":[]},"hash":"1vvqpc7rzj0x36cg0z3mzgj39syv0shmriylmp5lgg9lmk332liq"}
+{
+  "author": "zanderdev",
+  "content_warnings": [],
+  "created_at": "2024-06-13T14:54:28.784177",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 94,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "You can view your playtime using the /playtime chatcommand. The tracker is per-player, not for the whole server. You can view other player's playtime using /playtime [player name]. Every hour of playtime a user gets, the playtime will get announced to the server.\nThe mod is compatible with all if not most games & mod(pack)s. While this mod works in minetest game it should be noted that it is meant to be used together with other mod(pack)s to keep track of or speedrun progress.",
+  "maintainers": [
+    "zanderdev"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "advancedplaytime",
+  "provides": [
+    "advancedplaytime"
+  ],
+  "release": 25524,
+  "repo": null,
+  "score": 2.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e1c72586de.png"
+  ],
+  "short_description": "Keeps track of playtime for all players in your world. Notifies you how much playtime you have occasionally.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "multiplayer",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e1c72586de.png",
+  "title": "Advanced Playtime",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/zanderdev/advancedplaytime/releases/25524/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "zanderdev/advancedplaytime": []
+  },
+  "hash": "1vvqpc7rzj0x36cg0z3mzgj39syv0shmriylmp5lgg9lmk332liq"
+}

@@ -1,1 +1,215 @@
-{"author":"SFENCE","content_warnings":[],"created_at":"2021-05-13T13:51:15.994490","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":3566,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"hades_revisited","release":23418,"short_description":"Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)","thumbnail":"https://content.luanti.org/thumbnails/1/9781fc4ca1.png","title":"Hades Revisited","type":"game"},"supports":true}],"issue_tracker":"https://github.com/sfence/hades_extensionmods/issues","license":"LGPL-2.1-or-later","long_description":"[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nModpack of some mods with non-GPL license modified for subgame [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/). Check mods in pack for license.\nIncluded:\n\n* hades_default -> Some function from origin Minetest game default mod, required for easier porting of mods for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame.\n* hades_bucket -> Like normal bucket, but cannot be emptied (to don't change one of main idea of [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame)\n* hades_xpanes -> Mod xpanes from origin Minetest game mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame.\n* hades_digtron -> [digtron](https://content.minetest.net/packages/FaceDeer/digtron/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_moretools ->  [moretools](https://content.minetest.net/packages/SFENCE/moretools/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_clothing ->  [clothing](https://content.minetest.net/packages/SFENCE/clothing/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) (use with  [hades_skinsdb](https://content.minetest.net/packages/SFENCE/hades_skinsdb/) ).\n* hades_glass_stained -> Mod [glass_stained](https://content.minetest.net/packages/v-rob/glass_stained/) modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_animal-> [mobs_animal](https://content.minetest.net/packages/TenPlus1/mobs_animal/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_horse -> [mob_horse](https://content.minetest.net/packages/TenPlus1/mob_horse/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_extrafarming -> [farming](https://content.minetest.net/packages/TenPlus1/farming/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_craftguide2 -> [craftguide](https://forum.minetest.net/viewtopic.php?t=14088&hilit=craftguide) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_moreblocks -> [moreblocks](https://content.minetest.net/packages/Calinou/moreblocks/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_rocks -> [rocks](https://content.minetest.net/packages/Just_Visiting/rocks/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_masonry -> [castle_masonry](https://content.minetest.net/packages/FaceDeer/castle_masonry/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_gates -> [castle_gates](https://content.minetest.net/packages/FaceDeer/castle_gates/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_lighting -> [castle_lighting](https://content.minetest.net/packages/FaceDeer/castle_lighting/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_boost_cart -> [boost_cart](https://content.minetest.net/packages/Krock/boost_cart/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_extravessels -> replace of some vessels removed from Hades Revisited, but used by  mods like [Paleotest for Hades Revisited](https://content.minetest.net/packages/SFENCE/hades_paleotest/) and [Farming for Hades Revisited](https://content.minetest.net/packages/SFENCE/hades_extensionmods/).\n*  hades_extramaterials -> [basic_materials](https://content.minetest.net/packages/VanessaE/basic_materials/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).","maintainers":["SFENCE"],"media_license":"CC-BY-3.0","name":"hades_extensionmods","provides":["hades_animals","hades_boost_cart","hades_bucket","hades_castle_gates","hades_castle_lighting","hades_castle_masonry","hades_clothing","hades_craftguide2","hades_default","hades_digtron","hades_extrafarming","hades_extramaterials","hades_extravessels","hades_fachwerk","hades_glass_stained","hades_horse","hades_moreblocks","hades_moretools","hades_rocks","hades_xpanes"],"release":13458,"repo":"https://github.com/sfence/hades_extensionmods.git","score":-140.9,"screenshots":[],"short_description":"Pack of mods for subgame Hades Revisited.","state":"APPROVED","tags":["building","decorative","food","plants_and_farming"],"thumbnail":null,"title":"Mods pack for Hades Revisited","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/SFENCE/hades_extensionmods/releases/13458/download/","video_thumbnail_url":null,"video_url":null,"website":"https://forum.minetest.net/viewtopic.php?t=26747","dependencies":{"SFENCE/hades_extensionmods":[{"is_optional":false,"name":"hades_vessels","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_dye","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_chests","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"basic_materials","packages":["mt-mods/basic_materials","BuckarooBanzay/mesecons_lab","joe7575/techage_modpack","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"hades_core","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_furnaces","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_trees","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_player","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_farming","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"mobs","packages":["StarNinjas/jail_escape","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","nam/porko","Amaz/lordofthetest","PyuDev/pyutest","Thunder1035/etb","StarNinjas/veil_of_the_unknown","StarNinjas/ssp","crabycowman123/spmeter","mt-mods/blockcolor","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum","1248/regnum2","miroptics/qiskitblocks_miro","Wuzzy/hades_revisited","Casimir/voxelgarden","5uper1ach/szombie","Astrobe/minefall","JavaFXpert/qiskitblocks","Thunder1035/pacman","bell07/whynot_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","1248/agon","TenPlus1/mobs"]},{"is_optional":false,"name":"hades_sounds","packages":["Wuzzy/hades_revisited"]},{"is_optional":false,"name":"hades_glowcrystals","packages":["Wuzzy/hades_revisited"]}],"TenPlus1/mobs":[],"mt-mods/basic_materials":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}]},"hash":"0xwl2kk6nin4nkcbf1ibz8z094w467zc4bx1p3j24dwbmaq5jdg9"}
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2021-05-13T13:51:15.994490",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 3566,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 23418,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9781fc4ca1.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sfence/hades_extensionmods/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "[Shared forum topic](https://forum.minetest.net/viewtopic.php?t=26747)\n\nModpack of some mods with non-GPL license modified for subgame [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/). Check mods in pack for license.\nIncluded:\n\n* hades_default -> Some function from origin Minetest game default mod, required for easier porting of mods for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame.\n* hades_bucket -> Like normal bucket, but cannot be emptied (to don't change one of main idea of [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame)\n* hades_xpanes -> Mod xpanes from origin Minetest game mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) subgame.\n* hades_digtron -> [digtron](https://content.minetest.net/packages/FaceDeer/digtron/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_moretools ->  [moretools](https://content.minetest.net/packages/SFENCE/moretools/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_clothing ->  [clothing](https://content.minetest.net/packages/SFENCE/clothing/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/) (use with  [hades_skinsdb](https://content.minetest.net/packages/SFENCE/hades_skinsdb/) ).\n* hades_glass_stained -> Mod [glass_stained](https://content.minetest.net/packages/v-rob/glass_stained/) modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_animal-> [mobs_animal](https://content.minetest.net/packages/TenPlus1/mobs_animal/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_horse -> [mob_horse](https://content.minetest.net/packages/TenPlus1/mob_horse/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_extrafarming -> [farming](https://content.minetest.net/packages/TenPlus1/farming/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_craftguide2 -> [craftguide](https://forum.minetest.net/viewtopic.php?t=14088&hilit=craftguide) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_moreblocks -> [moreblocks](https://content.minetest.net/packages/Calinou/moreblocks/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_rocks -> [rocks](https://content.minetest.net/packages/Just_Visiting/rocks/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_masonry -> [castle_masonry](https://content.minetest.net/packages/FaceDeer/castle_masonry/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_gates -> [castle_gates](https://content.minetest.net/packages/FaceDeer/castle_gates/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_castle_lighting -> [castle_lighting](https://content.minetest.net/packages/FaceDeer/castle_lighting/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_boost_cart -> [boost_cart](https://content.minetest.net/packages/Krock/boost_cart/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).\n* hades_extravessels -> replace of some vessels removed from Hades Revisited, but used by  mods like [Paleotest for Hades Revisited](https://content.minetest.net/packages/SFENCE/hades_paleotest/) and [Farming for Hades Revisited](https://content.minetest.net/packages/SFENCE/hades_extensionmods/).\n*  hades_extramaterials -> [basic_materials](https://content.minetest.net/packages/VanessaE/basic_materials/) mod modified for [Hades Revisited.](https://content.minetest.net/packages/Wuzzy/hades_revisited/).",
+  "maintainers": [
+    "SFENCE"
+  ],
+  "media_license": "CC-BY-3.0",
+  "name": "hades_extensionmods",
+  "provides": [
+    "hades_animals",
+    "hades_boost_cart",
+    "hades_bucket",
+    "hades_castle_gates",
+    "hades_castle_lighting",
+    "hades_castle_masonry",
+    "hades_clothing",
+    "hades_craftguide2",
+    "hades_default",
+    "hades_digtron",
+    "hades_extrafarming",
+    "hades_extramaterials",
+    "hades_extravessels",
+    "hades_fachwerk",
+    "hades_glass_stained",
+    "hades_horse",
+    "hades_moreblocks",
+    "hades_moretools",
+    "hades_rocks",
+    "hades_xpanes"
+  ],
+  "release": 13458,
+  "repo": "https://github.com/sfence/hades_extensionmods.git",
+  "score": -140.9,
+  "screenshots": [],
+  "short_description": "Pack of mods for subgame Hades Revisited.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative",
+    "food",
+    "plants_and_farming"
+  ],
+  "thumbnail": null,
+  "title": "Mods pack for Hades Revisited",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/hades_extensionmods/releases/13458/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://forum.minetest.net/viewtopic.php?t=26747",
+  "dependencies": {
+    "SFENCE/hades_extensionmods": [
+      {
+        "is_optional": false,
+        "name": "hades_vessels",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_dye",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_chests",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "BuckarooBanzay/mesecons_lab",
+          "joe7575/techage_modpack",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_core",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_furnaces",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_trees",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_player",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_farming",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mobs",
+        "packages": [
+          "StarNinjas/jail_escape",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "PyuDev/pyutest",
+          "Thunder1035/etb",
+          "StarNinjas/veil_of_the_unknown",
+          "StarNinjas/ssp",
+          "crabycowman123/spmeter",
+          "mt-mods/blockcolor",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "Wuzzy/hades_revisited",
+          "Casimir/voxelgarden",
+          "5uper1ach/szombie",
+          "Astrobe/minefall",
+          "JavaFXpert/qiskitblocks",
+          "Thunder1035/pacman",
+          "bell07/whynot_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "1248/agon",
+          "TenPlus1/mobs"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_sounds",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hades_glowcrystals",
+        "packages": [
+          "Wuzzy/hades_revisited"
+        ]
+      }
+    ],
+    "TenPlus1/mobs": [],
+    "mt-mods/basic_materials": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0xwl2kk6nin4nkcbf1ibz8z094w467zc4bx1p3j24dwbmaq5jdg9"
+}

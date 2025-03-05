@@ -1,1 +1,62 @@
-{"author":"TestificateMods","content_warnings":[],"created_at":"2023-03-28T05:41:06.431118","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1516,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/t-affeldt/lighting_monoids/issues","license":"MIT","long_description":"# Monoid for Player Lighting\n\n## How to use\nThis mod provides a single object named `lighting_monoid`.\n\nIt is an extension for player_monoids and uses the same methods as the monoids there.\nSee the [player_monoids API documentation](https://github.com/minetest-mods/player_monoids/blob/master/API.md) for general information.\n\nThe lighting monoid expects the same lighting definition as `player:set_lighting()`. See [Minetest API docs](https://minetest.gitlab.io/minetest/class-reference/#player-only-no-op-for-other-objects).\nHowever, this allows to create separated update layers that will be aggregated before being applied. This allows for changes from multiple mods.\n\nEach property of the lighting definition will be aggregated with the respective property of each other update layer. You can leave properties undefined to not change them at all.\n\n### Property aggregation\n\nProperties will be aggregated in different ways. Here is the full list:\n\n- `saturation` will be __multiplied__\n- `shadows`\n  - `intensity` will be __multiplied__\n- `exposure`\n  - `luminance_min` will be __added__\n  - `luminance_max` will be __added__\n  - `speed_dark_bright` will be __multiplied__\n  - `speed_bright_dark` will be __multiplied__\n  - `center_weight_power` will be __multiplied__\n\n### Example\n\nThis example creates an update layer that doubles the current shadow intensity:\n```lua\nlocal lighting = {\n    shadows = { intensity = 2 }\n}\nlighting_monoid:add_change(player, lighting, \"mymod:some_name\")\n```\n\nIn order to revert that change, you can remove the layer like so:\n```lua\nlighting_monoid:del_change(player, \"mymod:some_name\")\n```\n\nIn order to modify a layer, simply call `add_change` again using the same name as before.\nThis will completely replace a layer, including properties that are left `nil` in the new definition.\n\n### Additional Notes\nThis mod aims to resolve conflicts between mods that use the lighting API.\nMods that don't use this compatibility layer will still conflict as before.\nA compatibility patch for the *enable_shadows* mod is included.\n\nThis mod will set a reasonable shadow intensity by default rather than leaving the value at zero or one.\nIf you wish to revert it to one, simply delete the layer:\n```lua\nlighting_monoid.del_change(player, \"lighting_monoid:base_shadow\")\n```\n\nThe applied effects also depend on the game version.\n\n- Shadows are only available in MT v5.6.0+.\n- Saturation and exposure settings require v5.7.0+ to have an effect but can safely be set in v5.6.0.\n\n## License\nCode licensed under MIT, no media assets used.","maintainers":["TestificateMods"],"media_license":"MIT","name":"lighting_monoid","provides":["lighting_monoid"],"release":27651,"repo":"https://github.com/t-affeldt/lighting_monoids","score":51.5,"screenshots":["https://content.luanti.org/uploads/80cb74ef02.png"],"short_description":"Provides a compatibility API for player lighting","state":"APPROVED","tags":["library","player_effects"],"thumbnail":"https://content.luanti.org/thumbnails/1/80cb74ef02.png","title":"Lighting Monoid","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/TestificateMods/lighting_monoid/releases/27651/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Byakuren/player_monoids":[],"TestificateMods/lighting_monoid":[{"is_optional":false,"name":"player_monoids","packages":["Noodlemire/voxeldungeon","zanderdev/skyblock_zero","Byakuren/player_monoids","Mantar/exile","Kimapr/nonsensical_skyblock","rlars/occupymoon_game","MeseCraft/mesecraft","EmptyStar/asuna"]}]},"hash":"1ir3qc48w4gkn14rsgalcmgg68by49bhqxzzji2qrh9fkhbz1z9z"}
+{
+  "author": "TestificateMods",
+  "content_warnings": [],
+  "created_at": "2023-03-28T05:41:06.431118",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1516,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/t-affeldt/lighting_monoids/issues",
+  "license": "MIT",
+  "long_description": "# Monoid for Player Lighting\n\n## How to use\nThis mod provides a single object named `lighting_monoid`.\n\nIt is an extension for player_monoids and uses the same methods as the monoids there.\nSee the [player_monoids API documentation](https://github.com/minetest-mods/player_monoids/blob/master/API.md) for general information.\n\nThe lighting monoid expects the same lighting definition as `player:set_lighting()`. See [Minetest API docs](https://minetest.gitlab.io/minetest/class-reference/#player-only-no-op-for-other-objects).\nHowever, this allows to create separated update layers that will be aggregated before being applied. This allows for changes from multiple mods.\n\nEach property of the lighting definition will be aggregated with the respective property of each other update layer. You can leave properties undefined to not change them at all.\n\n### Property aggregation\n\nProperties will be aggregated in different ways. Here is the full list:\n\n- `saturation` will be __multiplied__\n- `shadows`\n  - `intensity` will be __multiplied__\n- `exposure`\n  - `luminance_min` will be __added__\n  - `luminance_max` will be __added__\n  - `speed_dark_bright` will be __multiplied__\n  - `speed_bright_dark` will be __multiplied__\n  - `center_weight_power` will be __multiplied__\n\n### Example\n\nThis example creates an update layer that doubles the current shadow intensity:\n```lua\nlocal lighting = {\n    shadows = { intensity = 2 }\n}\nlighting_monoid:add_change(player, lighting, \"mymod:some_name\")\n```\n\nIn order to revert that change, you can remove the layer like so:\n```lua\nlighting_monoid:del_change(player, \"mymod:some_name\")\n```\n\nIn order to modify a layer, simply call `add_change` again using the same name as before.\nThis will completely replace a layer, including properties that are left `nil` in the new definition.\n\n### Additional Notes\nThis mod aims to resolve conflicts between mods that use the lighting API.\nMods that don't use this compatibility layer will still conflict as before.\nA compatibility patch for the *enable_shadows* mod is included.\n\nThis mod will set a reasonable shadow intensity by default rather than leaving the value at zero or one.\nIf you wish to revert it to one, simply delete the layer:\n```lua\nlighting_monoid.del_change(player, \"lighting_monoid:base_shadow\")\n```\n\nThe applied effects also depend on the game version.\n\n- Shadows are only available in MT v5.6.0+.\n- Saturation and exposure settings require v5.7.0+ to have an effect but can safely be set in v5.6.0.\n\n## License\nCode licensed under MIT, no media assets used.",
+  "maintainers": [
+    "TestificateMods"
+  ],
+  "media_license": "MIT",
+  "name": "lighting_monoid",
+  "provides": [
+    "lighting_monoid"
+  ],
+  "release": 27651,
+  "repo": "https://github.com/t-affeldt/lighting_monoids",
+  "score": 51.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/80cb74ef02.png"
+  ],
+  "short_description": "Provides a compatibility API for player lighting",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "player_effects"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/80cb74ef02.png",
+  "title": "Lighting Monoid",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TestificateMods/lighting_monoid/releases/27651/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Byakuren/player_monoids": [],
+    "TestificateMods/lighting_monoid": [
+      {
+        "is_optional": false,
+        "name": "player_monoids",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "zanderdev/skyblock_zero",
+          "Byakuren/player_monoids",
+          "Mantar/exile",
+          "Kimapr/nonsensical_skyblock",
+          "rlars/occupymoon_game",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna"
+        ]
+      }
+    ]
+  },
+  "hash": "1ir3qc48w4gkn14rsgalcmgg68by49bhqxzzji2qrh9fkhbz1z9z"
+}

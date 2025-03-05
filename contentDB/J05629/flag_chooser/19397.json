@@ -1,1 +1,69 @@
-{"author":"J05629","content_warnings":[],"created_at":"2023-06-23T21:33:20.255918","dev_state":"AS_IS","donate_url":null,"downloads":751,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Jo5629/jo5629-flag_chooser/issues/new/choose/","license":"LGPL-3.0-only","long_description":"This tool will help you select a specific flag in pride_flags instead of pushing your luck.\n\nYou can view the flag that you want to have before you choose that same flag.","maintainers":["J05629"],"media_license":"LGPL-3.0-only","name":"flag_chooser","provides":["flag_chooser"],"release":19397,"repo":"https://github.com/Jo5629/jo5629-flag_chooser/","score":163,"screenshots":["https://content.luanti.org/uploads/bf9cfd5ce5.png"],"short_description":"Change to a specific flag in pride_flags with this tool.","state":"APPROVED","tags":["decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/bf9cfd5ce5.png","title":"Flag Chooser","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/J05629/flag_chooser/releases/19397/download/","video_thumbnail_url":null,"video_url":null,"website":"https://sites.google.com/view/jo5629/","dependencies":{"J05629/flag_chooser":[{"is_optional":false,"name":"pride_flags","packages":["Wuzzy/pride_flags","Kimapr/nonsensical_skyblock"]}],"Wuzzy/pride_flags":[]},"hash":"0xn9872jpgrq5yjqklrxgghl2x2ahk1353l373qjs13pw467jadf"}
+{
+  "author": "J05629",
+  "content_warnings": [],
+  "created_at": "2023-06-23T21:33:20.255918",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 751,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Jo5629/jo5629-flag_chooser/issues/new/choose/",
+  "license": "LGPL-3.0-only",
+  "long_description": "This tool will help you select a specific flag in pride_flags instead of pushing your luck.\n\nYou can view the flag that you want to have before you choose that same flag.",
+  "maintainers": [
+    "J05629"
+  ],
+  "media_license": "LGPL-3.0-only",
+  "name": "flag_chooser",
+  "provides": [
+    "flag_chooser"
+  ],
+  "release": 19397,
+  "repo": "https://github.com/Jo5629/jo5629-flag_chooser/",
+  "score": 163,
+  "screenshots": [
+    "https://content.luanti.org/uploads/bf9cfd5ce5.png"
+  ],
+  "short_description": "Change to a specific flag in pride_flags with this tool.",
+  "state": "APPROVED",
+  "tags": [
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/bf9cfd5ce5.png",
+  "title": "Flag Chooser",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/J05629/flag_chooser/releases/19397/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://sites.google.com/view/jo5629/",
+  "dependencies": {
+    "J05629/flag_chooser": [
+      {
+        "is_optional": false,
+        "name": "pride_flags",
+        "packages": [
+          "Wuzzy/pride_flags",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      }
+    ],
+    "Wuzzy/pride_flags": []
+  },
+  "hash": "0xn9872jpgrq5yjqklrxgghl2x2ahk1353l373qjs13pw467jadf"
+}

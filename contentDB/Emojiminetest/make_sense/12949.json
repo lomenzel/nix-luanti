@@ -1,1 +1,225 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2022-07-29T09:04:58.845014","dev_state":"BETA","donate_url":null,"downloads":424,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/C-C-Minetest-Server/make_sense/issues","license":"GPL-3.0-or-later","long_description":"# This should be make sense!\nRecipes that should be exist!\n\n## Included recipes\n### Technic (MTG)\n* Recipe to smelt Cast Iron Blocks to Wrought Iron Blocks, and reverse (*blocks* not *ingots*!)\n### Moreblocks (MTG)\n* Use axe to remove wax from Copper Blocks (by punching_\n","maintainers":["Emojiminetest"],"media_license":"GPL-3.0-or-later","name":"make_sense","provides":["ms_moreblocks","ms_technic"],"release":12949,"repo":"https://github.com/C-C-Minetest-Server/make_sense","score":2.1,"screenshots":[],"short_description":"Adds missing crafting recipes that should exist","state":"APPROVED","tags":["crafting","survival"],"thumbnail":null,"title":"This should be make sense!","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/make_sense/releases/12949/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/make_sense":[{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"technic","packages":["BuckarooBanzay/mesecons_lab","mt-mods/technic_plus_beta","1248/regnum","1248/regnum2","Kimapr/nonsensical_skyblock","RealBadAngel/technic","mt-mods/technic_plus","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"moreblocks","packages":["Just_Visiting/littlelady","BuckarooBanzay/mesecons_lab","rheo/moreblocks","Calinou/moreblocks","BuckarooBanzay/super_sam","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]}],"mt-mods/technic_plus_beta":[{"is_optional":false,"name":"basic_materials","packages":["mt-mods/basic_materials","BuckarooBanzay/mesecons_lab","joe7575/techage_modpack","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"pipeworks","packages":["BuckarooBanzay/mesecons_lab","zanderdev/skyblock_zero","1248/regnum","1248/regnum2","Wuzzy/hades_revisited","Kimapr/nonsensical_skyblock","rlars/occupymoon_game","mt-mods/pipeworks","mt-mods/dreambuilder_game"]}],"rheo/moreblocks":[{"is_optional":false,"name":"fmod","packages":["rheo/fmod","zanderdev/skyblock_zero"]},{"is_optional":false,"name":"futil","packages":["zanderdev/skyblock_zero","rheo/futil"]},{"is_optional":false,"name":"unified_inventory","packages":["BuckarooBanzay/mesecons_lab","Hi_World/newplanet","RealBadAngel/unified_inventory","BRNSystems/blocky_portaling","PyuDev/pyutest","joe7575/techage_modpack","zanderdev/skyblock_zero","KareaGhandTrail/block_assault_mapmaker","MisterE/blockbomber_editor","mt-mods/dreambuilder_game"]}]},"hash":"0vnj4s1g93d1jagf1z2vf2v70mni8fkxhhi578j2a6q9wqlvwq8c"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2022-07-29T09:04:58.845014",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 424,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/make_sense/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# This should be make sense!\nRecipes that should be exist!\n\n## Included recipes\n### Technic (MTG)\n* Recipe to smelt Cast Iron Blocks to Wrought Iron Blocks, and reverse (*blocks* not *ingots*!)\n### Moreblocks (MTG)\n* Use axe to remove wax from Copper Blocks (by punching_\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "make_sense",
+  "provides": [
+    "ms_moreblocks",
+    "ms_technic"
+  ],
+  "release": 12949,
+  "repo": "https://github.com/C-C-Minetest-Server/make_sense",
+  "score": 2.1,
+  "screenshots": [],
+  "short_description": "Adds missing crafting recipes that should exist",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "survival"
+  ],
+  "thumbnail": null,
+  "title": "This should be make sense!",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/make_sense/releases/12949/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/make_sense": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "technic",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/technic_plus_beta",
+          "1248/regnum",
+          "1248/regnum2",
+          "Kimapr/nonsensical_skyblock",
+          "RealBadAngel/technic",
+          "mt-mods/technic_plus",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "moreblocks",
+        "packages": [
+          "Just_Visiting/littlelady",
+          "BuckarooBanzay/mesecons_lab",
+          "rheo/moreblocks",
+          "Calinou/moreblocks",
+          "BuckarooBanzay/super_sam",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/technic_plus_beta": [
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "BuckarooBanzay/mesecons_lab",
+          "joe7575/techage_modpack",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "pipeworks",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "zanderdev/skyblock_zero",
+          "1248/regnum",
+          "1248/regnum2",
+          "Wuzzy/hades_revisited",
+          "Kimapr/nonsensical_skyblock",
+          "rlars/occupymoon_game",
+          "mt-mods/pipeworks",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": [
+          "rheo/fmod",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "rheo/futil"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "MisterE/blockbomber_editor",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0vnj4s1g93d1jagf1z2vf2v70mni8fkxhhi578j2a6q9wqlvwq8c"
+}

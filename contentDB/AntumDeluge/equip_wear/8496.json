@@ -1,1 +1,45 @@
-{"author":"AntumDeluge","content_warnings":[],"created_at":"2021-07-15T04:19:44.303459","dev_state":null,"donate_url":null,"downloads":797,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27019","forums":27019,"game_support":[],"issue_tracker":"https://codeberg.org/AntumLuanti/mod-equip_wear/issues","license":"MIT","long_description":"### Description:\n\nAllows tool & equipment wear to be disabled. Supports tools (pick, axe, shovel, etc.), weapons, & armor.\n\nArmor mods supported:\n\n- [![3d_armor](https://img.shields.io/static/v1?label=ContentDB&message=3d_armor&color=%23375a7f&logo=minetest)](https://content.luanti.org/packages/stu/3d_armor/)\n\n### Licensing:\n\n- Code: [MIT](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/LICENSE.txt)\n- Icon: [CC0](https://openclipart.org/detail/169233)\n\n### Usage:\n\n##### Settings:\n\n```\ntool_wear\n- Enables/Disables wear for tools such as picks, axes, shovels, etc.\n- type:    bool\n- default: true\n\nweapon_wear\n- Enables/Disables wear for weapons.\n- type:    bool\n- default: true\n\narmor_wear\n- Enables/Disables wear for armor.\n- type:    bool\n- default: true\n```\n\n### Links:\n\n- [Changelog](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/changelog.txt)\n- [TODO](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/TODO.txt)\n\n### Alternative mods:\n\n- [![unbreaking](https://content.luanti.org/packages/ApolloX/unbreaking/shields/title/)](https://content.luanti.org/packages/ApolloX/unbreaking/)","maintainers":["AntumDeluge"],"media_license":"MIT","name":"equip_wear","provides":["equip_wear"],"release":8496,"repo":"https://codeberg.org/AntumLuanti/mod-equip_wear","score":3.9,"screenshots":["https://content.luanti.org/uploads/6dfd31c51a.png"],"short_description":"Allows tool & equipment wear to be disabled.","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/6dfd31c51a.png","title":"Equipment Wear","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AntumDeluge/equip_wear/releases/8496/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AntumDeluge/equip_wear":[]},"hash":"0724056332zbh1j5sp5z2pcphg17rd81sczk4dblljqyrj0vgls4"}
+{
+  "author": "AntumDeluge",
+  "content_warnings": [],
+  "created_at": "2021-07-15T04:19:44.303459",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 797,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27019",
+  "forums": 27019,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/AntumLuanti/mod-equip_wear/issues",
+  "license": "MIT",
+  "long_description": "### Description:\n\nAllows tool & equipment wear to be disabled. Supports tools (pick, axe, shovel, etc.), weapons, & armor.\n\nArmor mods supported:\n\n- [![3d_armor](https://img.shields.io/static/v1?label=ContentDB&message=3d_armor&color=%23375a7f&logo=minetest)](https://content.luanti.org/packages/stu/3d_armor/)\n\n### Licensing:\n\n- Code: [MIT](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/LICENSE.txt)\n- Icon: [CC0](https://openclipart.org/detail/169233)\n\n### Usage:\n\n##### Settings:\n\n```\ntool_wear\n- Enables/Disables wear for tools such as picks, axes, shovels, etc.\n- type:    bool\n- default: true\n\nweapon_wear\n- Enables/Disables wear for weapons.\n- type:    bool\n- default: true\n\narmor_wear\n- Enables/Disables wear for armor.\n- type:    bool\n- default: true\n```\n\n### Links:\n\n- [Changelog](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/changelog.txt)\n- [TODO](https://codeberg.org/AntumLuanti/mod-equip_wear/src/tree/master/TODO.txt)\n\n### Alternative mods:\n\n- [![unbreaking](https://content.luanti.org/packages/ApolloX/unbreaking/shields/title/)](https://content.luanti.org/packages/ApolloX/unbreaking/)",
+  "maintainers": [
+    "AntumDeluge"
+  ],
+  "media_license": "MIT",
+  "name": "equip_wear",
+  "provides": [
+    "equip_wear"
+  ],
+  "release": 8496,
+  "repo": "https://codeberg.org/AntumLuanti/mod-equip_wear",
+  "score": 3.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6dfd31c51a.png"
+  ],
+  "short_description": "Allows tool & equipment wear to be disabled.",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6dfd31c51a.png",
+  "title": "Equipment Wear",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AntumDeluge/equip_wear/releases/8496/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AntumDeluge/equip_wear": []
+  },
+  "hash": "0724056332zbh1j5sp5z2pcphg17rd81sczk4dblljqyrj0vgls4"
+}

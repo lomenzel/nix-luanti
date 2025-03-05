@@ -1,1 +1,45 @@
-{"author":"kestral","content_warnings":[],"created_at":"2022-08-27T17:53:39.440641","dev_state":null,"donate_url":null,"downloads":897,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27205","forums":27205,"game_support":[],"issue_tracker":"https://github.com/kestral246/cavetools/issues/new/choose/","license":"MIT","long_description":"Flash lamps\n---------------\n\nA set of flash lamps that momentarily light up the direction the player is pointed.\n\n**Note:** Pressing shift while left-clicking will activate extended-range flashes.\n\n- Flash Lamp\n- Flash Wand\n- Super Flash Lamp\n\nDepth finders\n------------------\n\nA set of depth finders that probe depth in the direction the player is pointed.\n\n- Flint Depth Finder\n- Diamond Depth Finder\n\nLadder override\n--------------------\n\nAn override to the default ladders to allow them to be easily extended down by just right clicking a ladder with another ladder.\n\n- This can create freestanding ladders. If the lack of ladder thickness bothers you, you can use Linuxdirks [redef](https://content.minetest.net/packages/Linuxdirk/redef) mod, which provides 3-d ladders.\n- The [ropes](https://content.minetest.net/packages/FaceDeer/ropes) mod by FaceDeer has a similar option for ladders, but extends them upward. Cave Tools' ladder override will conflict with this, but can be disabled (see configuration below).\n\n\nConfiguration\n-------------\n\nEach separate feature can be selectively enabled or disabled in the minetest.conf file.\n\n- cavetool_flashlamps = **true**/false\n- cavetool_depthfinders = **true**/false\n- cavetool_ladders = **true**/false\n\n\nDependencies\n-------------\n- Ladder overrides only enabled if **default** exists.\n- Craft recipes only available if **default** and **tnt** exist.\n- Wand also optionally depends on **mana**.\n\n\nCraft recipes\n-------------\n\nSee [github](https://github.com/kestral246/cavetools) for craft recipe images.\n","maintainers":["kestral"],"media_license":"CC-BY-SA-3.0","name":"cavetools","provides":["cavetools"],"release":25047,"repo":"https://github.com/kestral246/cavetools","score":3.8,"screenshots":["https://content.luanti.org/uploads/dfcc417915.png"],"short_description":"A collection of tools that can be useful for exploring caves.","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/dfcc417915.png","title":"Cave Tools","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/kestral/cavetools/releases/25047/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"kestral/cavetools":[]},"hash":"166pg5lc9d7ib2zwcf9n1anvpjqxpyhv2mrc2awvmsh38lhy9xmy"}
+{
+  "author": "kestral",
+  "content_warnings": [],
+  "created_at": "2022-08-27T17:53:39.440641",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 897,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27205",
+  "forums": 27205,
+  "game_support": [],
+  "issue_tracker": "https://github.com/kestral246/cavetools/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "Flash lamps\n---------------\n\nA set of flash lamps that momentarily light up the direction the player is pointed.\n\n**Note:** Pressing shift while left-clicking will activate extended-range flashes.\n\n- Flash Lamp\n- Flash Wand\n- Super Flash Lamp\n\nDepth finders\n------------------\n\nA set of depth finders that probe depth in the direction the player is pointed.\n\n- Flint Depth Finder\n- Diamond Depth Finder\n\nLadder override\n--------------------\n\nAn override to the default ladders to allow them to be easily extended down by just right clicking a ladder with another ladder.\n\n- This can create freestanding ladders. If the lack of ladder thickness bothers you, you can use Linuxdirks [redef](https://content.minetest.net/packages/Linuxdirk/redef) mod, which provides 3-d ladders.\n- The [ropes](https://content.minetest.net/packages/FaceDeer/ropes) mod by FaceDeer has a similar option for ladders, but extends them upward. Cave Tools' ladder override will conflict with this, but can be disabled (see configuration below).\n\n\nConfiguration\n-------------\n\nEach separate feature can be selectively enabled or disabled in the minetest.conf file.\n\n- cavetool_flashlamps = **true**/false\n- cavetool_depthfinders = **true**/false\n- cavetool_ladders = **true**/false\n\n\nDependencies\n-------------\n- Ladder overrides only enabled if **default** exists.\n- Craft recipes only available if **default** and **tnt** exist.\n- Wand also optionally depends on **mana**.\n\n\nCraft recipes\n-------------\n\nSee [github](https://github.com/kestral246/cavetools) for craft recipe images.\n",
+  "maintainers": [
+    "kestral"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "cavetools",
+  "provides": [
+    "cavetools"
+  ],
+  "release": 25047,
+  "repo": "https://github.com/kestral246/cavetools",
+  "score": 3.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/dfcc417915.png"
+  ],
+  "short_description": "A collection of tools that can be useful for exploring caves.",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dfcc417915.png",
+  "title": "Cave Tools",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/kestral/cavetools/releases/25047/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "kestral/cavetools": []
+  },
+  "hash": "166pg5lc9d7ib2zwcf9n1anvpjqxpyhv2mrc2awvmsh38lhy9xmy"
+}

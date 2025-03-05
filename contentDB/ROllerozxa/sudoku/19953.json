@@ -1,1 +1,51 @@
-{"author":"ROllerozxa","content_warnings":[],"created_at":"2022-05-15T17:07:47.427132","dev_state":"BETA","donate_url":"https://voxelmanip.se/donate/","downloads":3574,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/rollerozxa/sudoku/issues","license":"LGPL-2.1-only","long_description":"A game of sudoku for Minetest. Solve the sudoku by placing number nodes in the correct slots on the grid.\n\nThis is a fork of 1248's [Sudoku](https://content.minetest.net/packages/1248/sudoku/) game with various cleanups, additions and improvements done. Old worlds created in 1248's Sudoku game are compatible with this fork but not the other way around.","maintainers":["ROllerozxa"],"media_license":"CC-BY-SA-3.0","name":"sudoku","provides":["sudoku","sudoku_gui","sudoku_hud_message","sudoku_player"],"release":19953,"repo":"https://github.com/rollerozxa/sudoku","score":325.7,"screenshots":["https://content.luanti.org/uploads/aaf0300234.png","https://content.luanti.org/uploads/c05b44a311.png"],"short_description":"A game of sudoku.","state":"APPROVED","tags":["mini-game","puzzle","singleplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/aaf0300234.png","title":"Sudoku","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/ROllerozxa/sudoku/releases/19953/download/","video_thumbnail_url":null,"video_url":null,"website":"https://sudoku.voxelmanip.se","dependencies":{"ROllerozxa/sudoku":[]},"hash":"1spc2s2z3al9q86al56lfby3knlxvwqnynazns4bj466fgr970pi"}
+{
+  "author": "ROllerozxa",
+  "content_warnings": [],
+  "created_at": "2022-05-15T17:07:47.427132",
+  "dev_state": "BETA",
+  "donate_url": "https://voxelmanip.se/donate/",
+  "downloads": 3574,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/rollerozxa/sudoku/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "A game of sudoku for Minetest. Solve the sudoku by placing number nodes in the correct slots on the grid.\n\nThis is a fork of 1248's [Sudoku](https://content.minetest.net/packages/1248/sudoku/) game with various cleanups, additions and improvements done. Old worlds created in 1248's Sudoku game are compatible with this fork but not the other way around.",
+  "maintainers": [
+    "ROllerozxa"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "sudoku",
+  "provides": [
+    "sudoku",
+    "sudoku_gui",
+    "sudoku_hud_message",
+    "sudoku_player"
+  ],
+  "release": 19953,
+  "repo": "https://github.com/rollerozxa/sudoku",
+  "score": 325.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/aaf0300234.png",
+    "https://content.luanti.org/uploads/c05b44a311.png"
+  ],
+  "short_description": "A game of sudoku.",
+  "state": "APPROVED",
+  "tags": [
+    "mini-game",
+    "puzzle",
+    "singleplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/aaf0300234.png",
+  "title": "Sudoku",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/ROllerozxa/sudoku/releases/19953/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://sudoku.voxelmanip.se",
+  "dependencies": {
+    "ROllerozxa/sudoku": []
+  },
+  "hash": "1spc2s2z3al9q86al56lfby3knlxvwqnynazns4bj466fgr970pi"
+}

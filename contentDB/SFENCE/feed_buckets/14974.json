@@ -1,1 +1,188 @@
-{"author":"SFENCE","content_warnings":[],"created_at":"2022-10-17T16:47:39.124635","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1074,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28784","forums":28784,"game_support":[{"confidence":1,"game":{"author":"Mantar","name":"exile","release":28413,"short_description":"Challenging, at times brutal, wilderness survival with simple technology. ","thumbnail":"https://content.luanti.org/thumbnails/1/0195f6298c.png","title":"Exile","type":"game"},"supports":true},{"confidence":1,"game":{"author":"wsor4035","name":"farlands_reloaded","release":29611,"short_description":"lightweight game to explore and create","thumbnail":"https://content.luanti.org/thumbnails/1/fc00acef4f.png","title":"Farlands Reloaded","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Wuzzy","name":"repixture","release":28179,"short_description":"Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.","thumbnail":"https://content.luanti.org/thumbnails/1/9f2f5e75ae.png","title":"Repixture","type":"game"},"supports":true},{"confidence":1,"game":{"author":"mooD_Slayer","name":"ksurvive2","release":18245,"short_description":"A game built 100% from scratch, including code, textures and sounds.","thumbnail":"https://content.luanti.org/thumbnails/1/56264b87b1.png","title":"KSurvive 2","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"hades_revisited","release":23418,"short_description":"Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)","thumbnail":"https://content.luanti.org/thumbnails/1/9781fc4ca1.png","title":"Hades Revisited","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":"https://github.com/sfence/feed_buckets/issues","license":"MIT","long_description":"Minetest mod: `feed_buckets`\n========================\n\nAdd buckets of feeds which can be used to feed up to 8 nearby animals.\n\nSource code:\n-----------------------\nCopyright (c) 2022 SFENCE\nMIT - check LICENSE file\n\nLicense of media (textures, sounds and models):\n-----------------------------------------------\nCC BY-SA 4.0 - check LICENSE file\n\nCopyright (c) 2022 Sinky (CC BY-SA 4.0):\nAll textures not mentioned below.\n\n","maintainers":["SFENCE"],"media_license":"CC-BY-SA-4.0","name":"feed_buckets","provides":["feed_buckets"],"release":14974,"repo":"https://github.com/sfence/feed_buckets","score":16,"screenshots":["https://content.luanti.org/uploads/a8089d476c.png"],"short_description":"Craftable bucket of feeds which can be used for feed nearby animals.","state":"APPROVED","tags":["food"],"thumbnail":"https://content.luanti.org/thumbnails/1/a8089d476c.png","title":"Bucket of feeds for easier feeding","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/SFENCE/feed_buckets/releases/14974/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"SFENCE/adaptation_modpack":[],"SFENCE/feed_buckets":[{"is_optional":false,"name":"adaptation_mineclone","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_xocean","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_hades_revisited","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_farming_redo","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_hades_extensionmods","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_lib","packages":["SFENCE/adaptation_modpack"]},{"is_optional":false,"name":"adaptation_minetest_game","packages":["SFENCE/adaptation_modpack"]}]},"hash":"0sljyixixcb390v146k2960n9cr0w8l1xg914lxq550bkl40rbhk"}
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2022-10-17T16:47:39.124635",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1074,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28784",
+  "forums": 28784,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 28413,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "wsor4035",
+        "name": "farlands_reloaded",
+        "release": 29611,
+        "short_description": "lightweight game to explore and create",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/fc00acef4f.png",
+        "title": "Farlands Reloaded",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 28179,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "mooD_Slayer",
+        "name": "ksurvive2",
+        "release": 18245,
+        "short_description": "A game built 100% from scratch, including code, textures and sounds.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/56264b87b1.png",
+        "title": "KSurvive 2",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 23418,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9781fc4ca1.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sfence/feed_buckets/issues",
+  "license": "MIT",
+  "long_description": "Minetest mod: `feed_buckets`\n========================\n\nAdd buckets of feeds which can be used to feed up to 8 nearby animals.\n\nSource code:\n-----------------------\nCopyright (c) 2022 SFENCE\nMIT - check LICENSE file\n\nLicense of media (textures, sounds and models):\n-----------------------------------------------\nCC BY-SA 4.0 - check LICENSE file\n\nCopyright (c) 2022 Sinky (CC BY-SA 4.0):\nAll textures not mentioned below.\n\n",
+  "maintainers": [
+    "SFENCE"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "feed_buckets",
+  "provides": [
+    "feed_buckets"
+  ],
+  "release": 14974,
+  "repo": "https://github.com/sfence/feed_buckets",
+  "score": 16,
+  "screenshots": [
+    "https://content.luanti.org/uploads/a8089d476c.png"
+  ],
+  "short_description": "Craftable bucket of feeds which can be used for feed nearby animals.",
+  "state": "APPROVED",
+  "tags": [
+    "food"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a8089d476c.png",
+  "title": "Bucket of feeds for easier feeding",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/feed_buckets/releases/14974/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SFENCE/adaptation_modpack": [],
+    "SFENCE/feed_buckets": [
+      {
+        "is_optional": false,
+        "name": "adaptation_mineclone",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_xocean",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_hades_revisited",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farming_redo",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_hades_extensionmods",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_lib",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_minetest_game",
+        "packages": [
+          "SFENCE/adaptation_modpack"
+        ]
+      }
+    ]
+  },
+  "hash": "0sljyixixcb390v146k2960n9cr0w8l1xg914lxq550bkl40rbhk"
+}

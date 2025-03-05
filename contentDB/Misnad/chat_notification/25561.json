@@ -1,1 +1,46 @@
-{"author":"Misnad","content_warnings":[],"created_at":"2024-06-20T16:00:03.051239","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":105,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://gitlab.com/Misnad/minetest-mod-chat-notification/-/issues","license":"GPL-3.0-or-later","long_description":"# ChatNotification\n\n\n**ChatNotification** enhances the in-game chat experience by playing a notification sound to all players whenever someone sends a chat message. This helps ensure that important messages are not missed by players who may not be actively monitoring the chat.","maintainers":["Misnad"],"media_license":"CC0-1.0","name":"chat_notification","provides":["chat_notification"],"release":25561,"repo":"https://gitlab.com/Misnad/minetest-mod-chat-notification","score":4,"screenshots":["https://content.luanti.org/uploads/96ae3ef5bc.jpg"],"short_description":"Plays a notification sound to all player when a player sents a chat message.","state":"APPROVED","tags":["chat","sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/96ae3ef5bc.png","title":"Chat Notification","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Misnad/chat_notification/releases/25561/download/","video_thumbnail_url":null,"video_url":null,"website":"https://gitlab.com/Misnad/minetest-mod-chat-notification","dependencies":{"Misnad/chat_notification":[]},"hash":"12smv0lzmp7ccb149arf2f0lsm1iafa0wsl5r39wkf0q1q5x5s8a"}
+{
+  "author": "Misnad",
+  "content_warnings": [],
+  "created_at": "2024-06-20T16:00:03.051239",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 105,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://gitlab.com/Misnad/minetest-mod-chat-notification/-/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# ChatNotification\n\n\n**ChatNotification** enhances the in-game chat experience by playing a notification sound to all players whenever someone sends a chat message. This helps ensure that important messages are not missed by players who may not be actively monitoring the chat.",
+  "maintainers": [
+    "Misnad"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "chat_notification",
+  "provides": [
+    "chat_notification"
+  ],
+  "release": 25561,
+  "repo": "https://gitlab.com/Misnad/minetest-mod-chat-notification",
+  "score": 4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/96ae3ef5bc.jpg"
+  ],
+  "short_description": "Plays a notification sound to all player when a player sents a chat message.",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/96ae3ef5bc.png",
+  "title": "Chat Notification",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Misnad/chat_notification/releases/25561/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://gitlab.com/Misnad/minetest-mod-chat-notification",
+  "dependencies": {
+    "Misnad/chat_notification": []
+  },
+  "hash": "12smv0lzmp7ccb149arf2f0lsm1iafa0wsl5r39wkf0q1q5x5s8a"
+}

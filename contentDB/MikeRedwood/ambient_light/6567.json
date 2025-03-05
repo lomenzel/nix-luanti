@@ -1,1 +1,46 @@
-{"author":"MikeRedwood","content_warnings":[],"created_at":"2021-02-20T12:51:23.348945","dev_state":null,"donate_url":null,"downloads":3284,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/MikeRedwood/ambient_light/issues/new/choose/","license":"LGPL-2.1-only","long_description":"Simple mod that adds a configuarble level of lighting to all blocks in the world, both default and from other mods.  \n \nI wrote this mod for debugging my ore generation allongside my xray mod, however I now play with this mod in survival too.  \n \nIf you find any incompatabilites please let me know and I'll try to work around them or list them here.\n\nYou can set the minimum emissive light level below which the block is made to emit said light level.  \nFor gameplay I recommend 4, for debugging mods or exploring underground worlds in creative I recommend 9.  \nWill work on all blocks including under ground.  Enjoy! \n\nWARNING you may have to fix lighting on loaded areas after you remove this mod or change the light level.  Feel free to create a new map to experiment on and see what level you like best before adding to your world :)\n","maintainers":["MikeRedwood"],"media_license":"LGPL-2.1-only","name":"ambient_light","provides":["ambient_light"],"release":6567,"repo":"https://github.com/MikeRedwood/ambient_light","score":-125,"screenshots":["https://content.luanti.org/uploads/xQrgN4HoBs.png"],"short_description":"Makes all nodes lit to a small degree!","state":"APPROVED","tags":["environment","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/xQrgN4HoBs.png","title":"Ambient Light","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/MikeRedwood/ambient_light/releases/6567/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"MikeRedwood/ambient_light":[]},"hash":"1ga8v5d9ra03jxxajdgfdpn0im94h38hsl2c15bxh4fxj9jks1yy"}
+{
+  "author": "MikeRedwood",
+  "content_warnings": [],
+  "created_at": "2021-02-20T12:51:23.348945",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3284,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/MikeRedwood/ambient_light/issues/new/choose/",
+  "license": "LGPL-2.1-only",
+  "long_description": "Simple mod that adds a configuarble level of lighting to all blocks in the world, both default and from other mods.  \n \nI wrote this mod for debugging my ore generation allongside my xray mod, however I now play with this mod in survival too.  \n \nIf you find any incompatabilites please let me know and I'll try to work around them or list them here.\n\nYou can set the minimum emissive light level below which the block is made to emit said light level.  \nFor gameplay I recommend 4, for debugging mods or exploring underground worlds in creative I recommend 9.  \nWill work on all blocks including under ground.  Enjoy! \n\nWARNING you may have to fix lighting on loaded areas after you remove this mod or change the light level.  Feel free to create a new map to experiment on and see what level you like best before adding to your world :)\n",
+  "maintainers": [
+    "MikeRedwood"
+  ],
+  "media_license": "LGPL-2.1-only",
+  "name": "ambient_light",
+  "provides": [
+    "ambient_light"
+  ],
+  "release": 6567,
+  "repo": "https://github.com/MikeRedwood/ambient_light",
+  "score": -125,
+  "screenshots": [
+    "https://content.luanti.org/uploads/xQrgN4HoBs.png"
+  ],
+  "short_description": "Makes all nodes lit to a small degree!",
+  "state": "APPROVED",
+  "tags": [
+    "environment",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/xQrgN4HoBs.png",
+  "title": "Ambient Light",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/MikeRedwood/ambient_light/releases/6567/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "MikeRedwood/ambient_light": []
+  },
+  "hash": "1ga8v5d9ra03jxxajdgfdpn0im94h38hsl2c15bxh4fxj9jks1yy"
+}

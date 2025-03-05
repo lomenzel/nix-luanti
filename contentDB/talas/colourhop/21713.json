@@ -1,1 +1,75 @@
-{"author":"talas","content_warnings":[],"created_at":"2021-12-21T20:43:41.643895","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":7947,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27597","forums":27597,"game_support":[],"issue_tracker":"https://gitlab.com/talas777/colourhop/-/issues","license":"GPL-3.0-or-later","long_description":"Colour Hop!  \n\nYou are an invicible blob in a flat colourless world.  \n\nBring back colour and perhaps even challenge the evil dragons!  \n\nIncludes sounds and music from opengameart.org.  \nUses dragons from draconis mod. (heavily modified)  \nUses fireworks from new_fireworks mod.  \nUses center print from central_message mod.  \nUses mob support from mobkit and mob_core mods.  \n  \nChat with us? https://discord.gg/kj86Y5ZXXg  \n  \n### What's new:  \n - New labratory building that can be chained up for limitless creativity. (Requires defeating all 3 dragons first)\n - Most buildings can now be activated by signals.\n - An exciting new challenge from The Royal Blob, who is hidden well within the depths of the game.\n - More reliable handling of events, such as jumping.","maintainers":["talas"],"media_license":"CC-BY-SA-3.0","name":"colourhop","provides":["central_message","ch_ability","ch_ambient","ch_automata","ch_buildings","ch_colours","ch_draconis","ch_fireworks","ch_flashscreen","ch_ion_cannon","ch_jump","ch_mapgen","ch_music","ch_player_api","ch_projectors","ch_schematics","ch_silver","ch_sky","ch_storage","ch_util","ch_workarounds","ch_world","hopbar","mob_core","mobkit"],"release":21713,"repo":"https://gitlab.com/talas777/colourhop","score":1093.4,"screenshots":["https://content.luanti.org/uploads/3ad44301ec.png","https://content.luanti.org/uploads/eaa71837d3.png","https://content.luanti.org/uploads/7705c9f94d.png","https://content.luanti.org/uploads/ca258fe6da.png","https://content.luanti.org/uploads/eb59f832df.png"],"short_description":"Help the jumping blobs defeat the evil dragons and bring colour back to the world.","state":"APPROVED","tags":["jam_game_2021","puzzle","singleplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/3ad44301ec.png","title":"Colour Hop","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/talas/colourhop/releases/21713/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"talas/colourhop":[]},"hash":"027z793nr4nn5gblnd70j2xw11fgiy60vsxbgnm05am7iwa7245r"}
+{
+  "author": "talas",
+  "content_warnings": [],
+  "created_at": "2021-12-21T20:43:41.643895",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 7947,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27597",
+  "forums": 27597,
+  "game_support": [],
+  "issue_tracker": "https://gitlab.com/talas777/colourhop/-/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "Colour Hop!  \n\nYou are an invicible blob in a flat colourless world.  \n\nBring back colour and perhaps even challenge the evil dragons!  \n\nIncludes sounds and music from opengameart.org.  \nUses dragons from draconis mod. (heavily modified)  \nUses fireworks from new_fireworks mod.  \nUses center print from central_message mod.  \nUses mob support from mobkit and mob_core mods.  \n  \nChat with us? https://discord.gg/kj86Y5ZXXg  \n  \n### What's new:  \n - New labratory building that can be chained up for limitless creativity. (Requires defeating all 3 dragons first)\n - Most buildings can now be activated by signals.\n - An exciting new challenge from The Royal Blob, who is hidden well within the depths of the game.\n - More reliable handling of events, such as jumping.",
+  "maintainers": [
+    "talas"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "colourhop",
+  "provides": [
+    "central_message",
+    "ch_ability",
+    "ch_ambient",
+    "ch_automata",
+    "ch_buildings",
+    "ch_colours",
+    "ch_draconis",
+    "ch_fireworks",
+    "ch_flashscreen",
+    "ch_ion_cannon",
+    "ch_jump",
+    "ch_mapgen",
+    "ch_music",
+    "ch_player_api",
+    "ch_projectors",
+    "ch_schematics",
+    "ch_silver",
+    "ch_sky",
+    "ch_storage",
+    "ch_util",
+    "ch_workarounds",
+    "ch_world",
+    "hopbar",
+    "mob_core",
+    "mobkit"
+  ],
+  "release": 21713,
+  "repo": "https://gitlab.com/talas777/colourhop",
+  "score": 1093.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3ad44301ec.png",
+    "https://content.luanti.org/uploads/eaa71837d3.png",
+    "https://content.luanti.org/uploads/7705c9f94d.png",
+    "https://content.luanti.org/uploads/ca258fe6da.png",
+    "https://content.luanti.org/uploads/eb59f832df.png"
+  ],
+  "short_description": "Help the jumping blobs defeat the evil dragons and bring colour back to the world.",
+  "state": "APPROVED",
+  "tags": [
+    "jam_game_2021",
+    "puzzle",
+    "singleplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3ad44301ec.png",
+  "title": "Colour Hop",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/talas/colourhop/releases/21713/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "talas/colourhop": []
+  },
+  "hash": "027z793nr4nn5gblnd70j2xw11fgiy60vsxbgnm05am7iwa7245r"
+}

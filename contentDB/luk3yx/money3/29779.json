@@ -1,1 +1,46 @@
-{"author":"luk3yx","content_warnings":[],"created_at":"2019-06-11T00:19:58.133603","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":2634,"forum_url":"https://forum.luanti.org/viewtopic.php?t=22719","forums":22719,"game_support":[],"issue_tracker":"https://github.com/mt-historical/money3/issues","license":"LGPL-2.1-or-later","long_description":"This is a fork of [money2](https://github.com/Bremaweb/money2) that uses more\nmodern APIs such as mod storage and is fully backwards compatible with\n`money2` (you can upgrade from money2 nicely, however you can't downgrade\nagain).\n\n## Before installing\n\nBy default, players can convert gold and silver ingots into money using\n`/convert gold` and `/convert silver`. To disable this, add\n`money3.convert_items = nil` to minetest.conf.\n\nPlayers need the \"money\" privilege to be able to use /money and receive\npayments. You should consider adding `money` to the default_privs setting in\nminetest.conf.\n\n## Config settings\n\n*These can be set in `config.lua` or `minetest.conf`.*\n\n - `money3.initial_amount`: The amount of money new players get. Default: `0`.\n - `money3.currency_name`: The text appended to the currency when displaying it.\n    Default: `cr`.\n - `money3.enable_income`: Pays players money (by default 10cr) every in-game\n    day. Default: `true` if creative mode is disabled, otherwise `false`. If\n    you are using the [currency](https://content.minetest.net/packages/mt-mods/currency/)\n    mod, it is probably a good idea to set `currency.income_enabled` to `false`.\n - `money3.income_amount`: Changes the amount of income players get paid. If\n    income is not enabled, this does nothing.\n - `money3.convert_items`: A lua table (that can also be `nil` to disable)\n    similar to the following (default) one:\n\n```lua\n{\n    gold = { item = \"default:gold_ingot\", dig_block=\"default:stone_with_gold\",\n        desc='Gold', amount=75, minval=25 },\n    silver = { item = \"moreores:silver_ingot\",\n        dig_block=\"moreores:mineral_silver\", desc='Silver', amount = 27,\n        minval=7}\n}\n```\n\n## unified_money backend\n\nIf [unified_money](https://content.luanti.org/packages/Emojiminetest/unified_money/)\n(more specifically `um_plugin_playername`) is installed, money3 will register\nitself as a unified_money backend. This means that any mods using the\nunified_money frontend API will be able to work with money3 without any\nadditional effort.","maintainers":["luk3yx"],"media_license":"LGPL-2.1-or-later","name":"money3","provides":["money3"],"release":29779,"repo":"https://github.com/mt-historical/money3","score":8.8,"screenshots":["https://content.luanti.org/uploads/0zxvOmrUds.png"],"short_description":"Adds /money.","state":"APPROVED","tags":["commerce","multiplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/0zxvOmrUds.png","title":"money3","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/luk3yx/money3/releases/29779/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"luk3yx/money3":[]},"hash":"0mvybrwasg52gw49s5qg4wl6b0jx60hcn2s9b819ys957znlip62"}
+{
+  "author": "luk3yx",
+  "content_warnings": [],
+  "created_at": "2019-06-11T00:19:58.133603",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2634,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22719",
+  "forums": 22719,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-historical/money3/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "This is a fork of [money2](https://github.com/Bremaweb/money2) that uses more\nmodern APIs such as mod storage and is fully backwards compatible with\n`money2` (you can upgrade from money2 nicely, however you can't downgrade\nagain).\n\n## Before installing\n\nBy default, players can convert gold and silver ingots into money using\n`/convert gold` and `/convert silver`. To disable this, add\n`money3.convert_items = nil` to minetest.conf.\n\nPlayers need the \"money\" privilege to be able to use /money and receive\npayments. You should consider adding `money` to the default_privs setting in\nminetest.conf.\n\n## Config settings\n\n*These can be set in `config.lua` or `minetest.conf`.*\n\n - `money3.initial_amount`: The amount of money new players get. Default: `0`.\n - `money3.currency_name`: The text appended to the currency when displaying it.\n    Default: `cr`.\n - `money3.enable_income`: Pays players money (by default 10cr) every in-game\n    day. Default: `true` if creative mode is disabled, otherwise `false`. If\n    you are using the [currency](https://content.minetest.net/packages/mt-mods/currency/)\n    mod, it is probably a good idea to set `currency.income_enabled` to `false`.\n - `money3.income_amount`: Changes the amount of income players get paid. If\n    income is not enabled, this does nothing.\n - `money3.convert_items`: A lua table (that can also be `nil` to disable)\n    similar to the following (default) one:\n\n```lua\n{\n    gold = { item = \"default:gold_ingot\", dig_block=\"default:stone_with_gold\",\n        desc='Gold', amount=75, minval=25 },\n    silver = { item = \"moreores:silver_ingot\",\n        dig_block=\"moreores:mineral_silver\", desc='Silver', amount = 27,\n        minval=7}\n}\n```\n\n## unified_money backend\n\nIf [unified_money](https://content.luanti.org/packages/Emojiminetest/unified_money/)\n(more specifically `um_plugin_playername`) is installed, money3 will register\nitself as a unified_money backend. This means that any mods using the\nunified_money frontend API will be able to work with money3 without any\nadditional effort.",
+  "maintainers": [
+    "luk3yx"
+  ],
+  "media_license": "LGPL-2.1-or-later",
+  "name": "money3",
+  "provides": [
+    "money3"
+  ],
+  "release": 29779,
+  "repo": "https://github.com/mt-historical/money3",
+  "score": 8.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0zxvOmrUds.png"
+  ],
+  "short_description": "Adds /money.",
+  "state": "APPROVED",
+  "tags": [
+    "commerce",
+    "multiplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0zxvOmrUds.png",
+  "title": "money3",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/luk3yx/money3/releases/29779/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "luk3yx/money3": []
+  },
+  "hash": "0mvybrwasg52gw49s5qg4wl6b0jx60hcn2s9b819ys957znlip62"
+}

@@ -1,1 +1,54 @@
-{"author":"FreeBSD","content_warnings":[],"created_at":"2022-08-15T06:40:17.924806","dev_state":null,"donate_url":"https://rvlt.gg/H71ntH80","downloads":2079,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://git.minetest.land/aiss/music/issues","license":"LGPL-2.1-only","long_description":"### [The Complete Poems of Francis Ledwidge](https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge) Music Pack\n\n#### Usage: \n\nFor all players:\n\n`/mvolume` <volume>  Set your individual music volume or disable background music (/mvolume 0). Saved across server restarts. <br>\n`/music_list`: list available music <br>\nWith mpd privilege: <br>\n`/music_play` <id>: play a song <br>\n`/music_stop`: stop the current song. Unless /mpd_play or /mpd_next are invoked, no more music is played <br>\n`/music_next` [time]: Play the next song after [time] seconds, immediately if omitted. <br>\n## Votes: <br>\nThis mod integrates with the [vote](https://content.minetest.net/metapackages/vote/) mod by rubenwardy  <br>\n`/vote_music_next` - vote to start next song <br>\n`/vote_music_play` <id> - Vote to play certain sing <br>\n\t\n\t\n## License\nCredits and Ackowledgements <br>\n[balabolka](http://www.cross-plus-a.com/balabolka.htm) Provide music production software.\n\t\n#### License of source code:LGPL-2.1-only\nThis mod is a fork of [mpd](https://content.minetest.net/packages/orwell/mpd/), which itself is a fork\n\n#### License of music:CC BY-SA 3.0\nI use https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge to generate the ogg\n\t\n#### License of Text:CC BY-SA 3.0\nThis work was published before January 1, 1927, and is in the public domain worldwide because the author died at least 100 years ago.[The Complete Poems of Francis Ledwidge](https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge)\n","maintainers":["FreeBSD"],"media_license":"CC-BY-SA-3.0","name":"music","provides":["music"],"release":17030,"repo":"https://git.minetest.land/aiss/music","score":331.7,"screenshots":["https://content.luanti.org/uploads/15f46f43eb.png"],"short_description":"A background music mod","state":"APPROVED","tags":["sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/15f46f43eb.png","title":"Music","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/FreeBSD/music/releases/17030/download/","video_thumbnail_url":null,"video_url":null,"website":"https://rvlt.gg/H71ntH80","dependencies":{"FreeBSD/music":[{"is_optional":false,"name":"vote","packages":["rubenwardy/vote"]}],"rubenwardy/vote":[]},"hash":"0pvqz54370hj3ncpc1644hsnmzfpznn36wgab5w7f9vz4dffg2jy"}
+{
+  "author": "FreeBSD",
+  "content_warnings": [],
+  "created_at": "2022-08-15T06:40:17.924806",
+  "dev_state": null,
+  "donate_url": "https://rvlt.gg/H71ntH80",
+  "downloads": 2079,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://git.minetest.land/aiss/music/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "### [The Complete Poems of Francis Ledwidge](https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge) Music Pack\n\n#### Usage: \n\nFor all players:\n\n`/mvolume` <volume>  Set your individual music volume or disable background music (/mvolume 0). Saved across server restarts. <br>\n`/music_list`: list available music <br>\nWith mpd privilege: <br>\n`/music_play` <id>: play a song <br>\n`/music_stop`: stop the current song. Unless /mpd_play or /mpd_next are invoked, no more music is played <br>\n`/music_next` [time]: Play the next song after [time] seconds, immediately if omitted. <br>\n## Votes: <br>\nThis mod integrates with the [vote](https://content.minetest.net/metapackages/vote/) mod by rubenwardy  <br>\n`/vote_music_next` - vote to start next song <br>\n`/vote_music_play` <id> - Vote to play certain sing <br>\n\t\n\t\n## License\nCredits and Ackowledgements <br>\n[balabolka](http://www.cross-plus-a.com/balabolka.htm) Provide music production software.\n\t\n#### License of source code:LGPL-2.1-only\nThis mod is a fork of [mpd](https://content.minetest.net/packages/orwell/mpd/), which itself is a fork\n\n#### License of music:CC BY-SA 3.0\nI use https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge to generate the ogg\n\t\n#### License of Text:CC BY-SA 3.0\nThis work was published before January 1, 1927, and is in the public domain worldwide because the author died at least 100 years ago.[The Complete Poems of Francis Ledwidge](https://en.wikisource.org/wiki/The_Complete_Poems_of_Francis_Ledwidge)\n",
+  "maintainers": [
+    "FreeBSD"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "music",
+  "provides": [
+    "music"
+  ],
+  "release": 17030,
+  "repo": "https://git.minetest.land/aiss/music",
+  "score": 331.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/15f46f43eb.png"
+  ],
+  "short_description": "A background music mod",
+  "state": "APPROVED",
+  "tags": [
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/15f46f43eb.png",
+  "title": "Music",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/FreeBSD/music/releases/17030/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://rvlt.gg/H71ntH80",
+  "dependencies": {
+    "FreeBSD/music": [
+      {
+        "is_optional": false,
+        "name": "vote",
+        "packages": [
+          "rubenwardy/vote"
+        ]
+      }
+    ],
+    "rubenwardy/vote": []
+  },
+  "hash": "0pvqz54370hj3ncpc1644hsnmzfpznn36wgab5w7f9vz4dffg2jy"
+}

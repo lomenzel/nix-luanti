@@ -1,1 +1,68 @@
-{"author":"AFCM","content_warnings":[],"created_at":"2021-06-01T11:03:56.216430","dev_state":null,"donate_url":null,"downloads":1215,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/AFCMS/mesecons_onlinedetector/issues","license":"GPL-3.0-only","long_description":"# mesecons_onlinedetector\nAdd an online detector to `mesecons` minetest mod.\nThis node allow you to see if a player is connected.\n","maintainers":["AFCM"],"media_license":"CC0-1.0","name":"mesecons_onlinedetector","provides":["mesecons_onlinedetector"],"release":21710,"repo":"https://github.com/AFCMS/mesecons_onlinedetector","score":308.7,"screenshots":["https://content.luanti.org/uploads/e3f2f3b65e.png"],"short_description":"Add online detector to mesecons","state":"APPROVED","tags":["multiplayer","technology"],"thumbnail":"https://content.luanti.org/thumbnails/1/e3f2f3b65e.png","title":"Mesecons Onlinedetector","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AFCM/mesecons_onlinedetector/releases/21710/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AFCM/mesecons_onlinedetector":[{"is_optional":false,"name":"mesecons","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","nam/porko","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","Thunder1035/pacman","MeseCraft/mesecraft","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]}],"Jeija/mesecons":[]},"hash":"195z0cbnm5l2vi0x96sddh1cb3hxpxck7arlzh34swh0ww6c3ljg"}
+{
+  "author": "AFCM",
+  "content_warnings": [],
+  "created_at": "2021-06-01T11:03:56.216430",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1215,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/AFCMS/mesecons_onlinedetector/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "# mesecons_onlinedetector\nAdd an online detector to `mesecons` minetest mod.\nThis node allow you to see if a player is connected.\n",
+  "maintainers": [
+    "AFCM"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "mesecons_onlinedetector",
+  "provides": [
+    "mesecons_onlinedetector"
+  ],
+  "release": 21710,
+  "repo": "https://github.com/AFCMS/mesecons_onlinedetector",
+  "score": 308.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e3f2f3b65e.png"
+  ],
+  "short_description": "Add online detector to mesecons",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "technology"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e3f2f3b65e.png",
+  "title": "Mesecons Onlinedetector",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AFCM/mesecons_onlinedetector/releases/21710/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AFCM/mesecons_onlinedetector": [
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "Thunder1035/pacman",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "Jeija/mesecons": []
+  },
+  "hash": "195z0cbnm5l2vi0x96sddh1cb3hxpxck7arlzh34swh0ww6c3ljg"
+}

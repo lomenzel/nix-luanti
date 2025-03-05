@@ -1,1 +1,88 @@
-{"author":"Lone_Wolf","content_warnings":[],"created_at":"2020-04-07T04:05:35.293474","dev_state":null,"donate_url":null,"downloads":6954,"forum_url":"https://forum.luanti.org/viewtopic.php?t=24523","forums":24523,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":"https://github.com/LoneWolfHT/hammer_of_power/issues","license":"MIT","long_description":"### Supports Minetest Game and [Nodecore](https://content.minetest.net/packages/Warr1024/nodecore/)\n\n## Usage\n\nRightclick to spawn a fling entity in your pointed direction\n\nPunch the fling entity to fling yourself in that direction\nYou will take fall damage if your hammer can spawn a fling entity again (It can do so 5 seconds after punching a fling entity, your wielditem will indicate when the time is up because it will stop moving upwards)\nTo prevent yourself from taking fall damage you need to rightclick the ground you are falling on before you land on it. This can be achieved by holding down rightmouse and aiming at the ground.\nIf you do land with the rightmouse method all entities including players within a 3 node radius will be blasted away from you, the greater the falling velocity the farther they will fly. So flinging yourself downwards in midair results in a bigger blast.\n\nRightclick the fling entity to throw your hammer, the hammer will return to you after a while.\n\nIf it hits a player it will grab that player and allow you to move them around.\nHold down LMB and once the hammer detects that it will throw the player in your look direction and return to you\n\nIf it hits a node then it will grab a few nodes in the impact area of the drawtype \"normal\" and allow you to lift them through the air.\nHold down LMB and once the hammer detects that it will drop the nodes and return to you\n\n## Minetest Game Crafting\n\nSee code (hammer_of_power/compat/mtg.lua)\n\n## Nodecore Crafting\n\nAnnealed mallet head on an annealed lode rod for steel hammer.\nInfuse steel hammer with lux for hammer of power, may take a while\n","maintainers":["Lone_Wolf"],"media_license":"MIT","name":"hammer_of_power","provides":["hammer_of_power"],"release":6277,"repo":"https://github.com/LoneWolfHT/hammer_of_power/","score":478.4,"screenshots":["https://content.luanti.org/uploads/vhb2MIyKR6.png"],"short_description":"Adds a steel hammer and the powerful version that you can create from it.","state":"APPROVED","tags":["jam_combat_mod","pve","pvp","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/vhb2MIyKR6.png","title":"Hammer Of Power","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Lone_Wolf/hammer_of_power/releases/6277/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Lone_Wolf/hammer_of_power":[]},"hash":"1s818zy90mb9xhkgl6rxm92maz2fch7rnlkx3nmmdv18xzvrb2ns"}
+{
+  "author": "Lone_Wolf",
+  "content_warnings": [],
+  "created_at": "2020-04-07T04:05:35.293474",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 6954,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=24523",
+  "forums": 24523,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/LoneWolfHT/hammer_of_power/issues",
+  "license": "MIT",
+  "long_description": "### Supports Minetest Game and [Nodecore](https://content.minetest.net/packages/Warr1024/nodecore/)\n\n## Usage\n\nRightclick to spawn a fling entity in your pointed direction\n\nPunch the fling entity to fling yourself in that direction\nYou will take fall damage if your hammer can spawn a fling entity again (It can do so 5 seconds after punching a fling entity, your wielditem will indicate when the time is up because it will stop moving upwards)\nTo prevent yourself from taking fall damage you need to rightclick the ground you are falling on before you land on it. This can be achieved by holding down rightmouse and aiming at the ground.\nIf you do land with the rightmouse method all entities including players within a 3 node radius will be blasted away from you, the greater the falling velocity the farther they will fly. So flinging yourself downwards in midair results in a bigger blast.\n\nRightclick the fling entity to throw your hammer, the hammer will return to you after a while.\n\nIf it hits a player it will grab that player and allow you to move them around.\nHold down LMB and once the hammer detects that it will throw the player in your look direction and return to you\n\nIf it hits a node then it will grab a few nodes in the impact area of the drawtype \"normal\" and allow you to lift them through the air.\nHold down LMB and once the hammer detects that it will drop the nodes and return to you\n\n## Minetest Game Crafting\n\nSee code (hammer_of_power/compat/mtg.lua)\n\n## Nodecore Crafting\n\nAnnealed mallet head on an annealed lode rod for steel hammer.\nInfuse steel hammer with lux for hammer of power, may take a while\n",
+  "maintainers": [
+    "Lone_Wolf"
+  ],
+  "media_license": "MIT",
+  "name": "hammer_of_power",
+  "provides": [
+    "hammer_of_power"
+  ],
+  "release": 6277,
+  "repo": "https://github.com/LoneWolfHT/hammer_of_power/",
+  "score": 478.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/vhb2MIyKR6.png"
+  ],
+  "short_description": "Adds a steel hammer and the powerful version that you can create from it.",
+  "state": "APPROVED",
+  "tags": [
+    "jam_combat_mod",
+    "pve",
+    "pvp",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/vhb2MIyKR6.png",
+  "title": "Hammer Of Power",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Lone_Wolf/hammer_of_power/releases/6277/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Lone_Wolf/hammer_of_power": []
+  },
+  "hash": "1s818zy90mb9xhkgl6rxm92maz2fch7rnlkx3nmmdv18xzvrb2ns"
+}

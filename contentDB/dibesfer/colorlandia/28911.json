@@ -1,1 +1,69 @@
-{"author":"dibesfer","content_warnings":[],"created_at":"2024-02-05T11:32:47.880643","dev_state":"MAINTENANCE_ONLY","donate_url":"https://liberapay.com/dibesfer/donate","downloads":3262,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"LGPL-2.1-or-later","long_description":"# Welcome to Colorlandia \n\nThe game behind **¡Colorlandia!** server\n\n🌈Rainbow inspired 🪶 light-weight creative exploration game to build whatever you imagine with voxels. Fun, childish and inspiring! 🖌️\n\n- 7 colored grass-like biomes, plus black, gray and white make 10 new biomes on the surface. \n- Plus 3 underground biomes plenty of unique ores. (gray, dark gray and black)\n- Furniture, trees, flowers, stars and butterflies.  \n- 7 colored data-like biomes plus white.\n\n🪐 Make a total of 21 different and colorful biomes.\n\nThis game consists of mainly 2 major mods I'm uploading separately to CDB\n\n- Colorlandia\n- [Datatest](https://content.minetest.net/packages/dibesfer/datatest/)\n\nJoin the [community at discord](https://discord.gg/tUHBS9eERn)\n\nby [**dibesfer**.com](https://dibesfer.com)\n","maintainers":["dibesfer"],"media_license":"CC-BY-SA-4.0","name":"colorlandia","provides":["colorlandia_colorland","colorlandia_gui","colorlandia_hand","colorlandia_sky","creative","datatest","minimalism","paint","player_api","sethome","sfinv","spawn_command","symbocracy"],"release":28911,"repo":"https://codeberg.org/dibesfer/Colorlandia.git","score":34.4,"screenshots":["https://content.luanti.org/uploads/99c3a4cf08.png","https://content.luanti.org/uploads/f13196a8d3.png","https://content.luanti.org/uploads/4a1d428ffc.png","https://content.luanti.org/uploads/bf72b6d504.png","https://content.luanti.org/uploads/4dda779c80.png","https://content.luanti.org/uploads/f711d05e81.png","https://content.luanti.org/uploads/a8bc168a39.png","https://content.luanti.org/uploads/08fc5156aa.png","https://content.luanti.org/uploads/edf79c4774.png","https://content.luanti.org/uploads/3becd2e712.png","https://content.luanti.org/uploads/13374971d3.png"],"short_description":"🎨 21 colorful biomes to explore, much more than 256 colorful nodes to create whatever you imagine. 🌈","state":"APPROVED","tags":["building","creative","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/99c3a4cf08.png","title":"Colorlandia","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/dibesfer/colorlandia/releases/28911/download/","video_thumbnail_url":null,"video_url":null,"website":"https://dibesfer.com/p/games/minetest/colorlandia/","dependencies":{"dibesfer/colorlandia":[]},"hash":"1va5c633zlihjfpqbgwzg7wlqszfzdn5dxjnia5h62njcf8ksdwf"}
+{
+  "author": "dibesfer",
+  "content_warnings": [],
+  "created_at": "2024-02-05T11:32:47.880643",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://liberapay.com/dibesfer/donate",
+  "downloads": 3262,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Welcome to Colorlandia \n\nThe game behind **¡Colorlandia!** server\n\n🌈Rainbow inspired 🪶 light-weight creative exploration game to build whatever you imagine with voxels. Fun, childish and inspiring! 🖌️\n\n- 7 colored grass-like biomes, plus black, gray and white make 10 new biomes on the surface. \n- Plus 3 underground biomes plenty of unique ores. (gray, dark gray and black)\n- Furniture, trees, flowers, stars and butterflies.  \n- 7 colored data-like biomes plus white.\n\n🪐 Make a total of 21 different and colorful biomes.\n\nThis game consists of mainly 2 major mods I'm uploading separately to CDB\n\n- Colorlandia\n- [Datatest](https://content.minetest.net/packages/dibesfer/datatest/)\n\nJoin the [community at discord](https://discord.gg/tUHBS9eERn)\n\nby [**dibesfer**.com](https://dibesfer.com)\n",
+  "maintainers": [
+    "dibesfer"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "colorlandia",
+  "provides": [
+    "colorlandia_colorland",
+    "colorlandia_gui",
+    "colorlandia_hand",
+    "colorlandia_sky",
+    "creative",
+    "datatest",
+    "minimalism",
+    "paint",
+    "player_api",
+    "sethome",
+    "sfinv",
+    "spawn_command",
+    "symbocracy"
+  ],
+  "release": 28911,
+  "repo": "https://codeberg.org/dibesfer/Colorlandia.git",
+  "score": 34.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/99c3a4cf08.png",
+    "https://content.luanti.org/uploads/f13196a8d3.png",
+    "https://content.luanti.org/uploads/4a1d428ffc.png",
+    "https://content.luanti.org/uploads/bf72b6d504.png",
+    "https://content.luanti.org/uploads/4dda779c80.png",
+    "https://content.luanti.org/uploads/f711d05e81.png",
+    "https://content.luanti.org/uploads/a8bc168a39.png",
+    "https://content.luanti.org/uploads/08fc5156aa.png",
+    "https://content.luanti.org/uploads/edf79c4774.png",
+    "https://content.luanti.org/uploads/3becd2e712.png",
+    "https://content.luanti.org/uploads/13374971d3.png"
+  ],
+  "short_description": "🎨 21 colorful biomes to explore, much more than 256 colorful nodes to create whatever you imagine. 🌈",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "creative",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/99c3a4cf08.png",
+  "title": "Colorlandia",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/dibesfer/colorlandia/releases/28911/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://dibesfer.com/p/games/minetest/colorlandia/",
+  "dependencies": {
+    "dibesfer/colorlandia": []
+  },
+  "hash": "1va5c633zlihjfpqbgwzg7wlqszfzdn5dxjnia5h62njcf8ksdwf"
+}

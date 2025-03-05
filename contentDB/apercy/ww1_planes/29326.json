@@ -1,1 +1,151 @@
-{"author":"apercy","content_warnings":[],"created_at":"2023-08-27T15:21:11.429808","dev_state":"WIP","donate_url":"https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY","downloads":3988,"forum_url":"https://forum.luanti.org/viewtopic.php?t=29576","forums":29576,"game_support":[{"confidence":1,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Wuzzy","name":"repixture","release":28179,"short_description":"Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.","thumbnail":"https://content.luanti.org/thumbnails/1/9f2f5e75ae.png","title":"Repixture","type":"game"},"supports":true},{"confidence":1,"game":{"author":"bell07","name":"whynot_game","release":29789,"short_description":"Aims to get all existing high quality mods working together","thumbnail":"https://content.luanti.org/thumbnails/1/6f56447689.png","title":"WhyNot?","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Casimir","name":"voxelgarden","release":29784,"short_description":"A classic game for exploring, survival and building. Maintained by rudzik8","thumbnail":"https://content.luanti.org/thumbnails/1/d936c3fce1.png","title":"Voxelgarden","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"LGPL-3.0-or-later","long_description":"Modpack to add WWI era planes to Minetest. The main goal of this modpack is to make the the possibility of dogfights over\nMinetest skies and some bombing missions.\nFuel is needed to operate the planes, and ammunition to combat. The ammunition can be fed through plane inventory.\nTo shot bullets, just punch. To drop bombs, hold AUX (E key) and punch. The plane can be armed with 300 rounds of bullets\nand more can be loaded from the plane inventory using the \"Reload\" button. The bombs don't need a reload, it will drop\ndirectly from plane inventory. So choose wisely what you carry on plane's inventory.\n\nAnd to fly it, the user must have the priv \"WW1_flight_licence\"\n\n## Vehicle Operation\nW: nose down\n\nS: nose up\n\nA: Left\n\nD: Right\n\nE: special key - hold to drop bomb when punch\n\nShift: reduce engine power\n\nSpace: increase engine power\n\nPlanes can be colored by punching them with dye (left for primary color, right for secondary). To fuel a vehicle, punch it with biofuel.\n\n## Server Command Lines:\n- /damage_bypass_protection true\n\n    destruction can be made on protected areas if this is enabled. Default value: false\n\n- /no_fixed_owner true\n\n    there is no ownership on the planes, so beware, the enemy can steal it. Default: false\n","maintainers":["apercy"],"media_license":"CC-BY-SA-4.0","name":"ww1_planes","provides":["albatros_d5","sopwith_f1_camel","ww1_planes_lib"],"release":29326,"repo":"https://github.com/APercy/ww1_planes","score":383.8,"screenshots":["https://content.luanti.org/uploads/6360465464.jpg"],"short_description":"A modpack for WWI aerial combat","state":"APPROVED","tags":["pvp","shooter","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/6360465464.png","title":"World War I Planes","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/apercy/ww1_planes/releases/29326/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"apercy/airutils":[],"apercy/ww1_planes":[{"is_optional":false,"name":"airutils","packages":["apercy/airutils","bell07/whynot_game"]}]},"hash":"13xv81w6gi8s6ig7k94scmvm9148cz3caxj9sl15jw9jpcwrkgrn"}
+{
+  "author": "apercy",
+  "content_warnings": [],
+  "created_at": "2023-08-27T15:21:11.429808",
+  "dev_state": "WIP",
+  "donate_url": "https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY",
+  "downloads": 3988,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29576",
+  "forums": 29576,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 28179,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 29789,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 29784,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "LGPL-3.0-or-later",
+  "long_description": "Modpack to add WWI era planes to Minetest. The main goal of this modpack is to make the the possibility of dogfights over\nMinetest skies and some bombing missions.\nFuel is needed to operate the planes, and ammunition to combat. The ammunition can be fed through plane inventory.\nTo shot bullets, just punch. To drop bombs, hold AUX (E key) and punch. The plane can be armed with 300 rounds of bullets\nand more can be loaded from the plane inventory using the \"Reload\" button. The bombs don't need a reload, it will drop\ndirectly from plane inventory. So choose wisely what you carry on plane's inventory.\n\nAnd to fly it, the user must have the priv \"WW1_flight_licence\"\n\n## Vehicle Operation\nW: nose down\n\nS: nose up\n\nA: Left\n\nD: Right\n\nE: special key - hold to drop bomb when punch\n\nShift: reduce engine power\n\nSpace: increase engine power\n\nPlanes can be colored by punching them with dye (left for primary color, right for secondary). To fuel a vehicle, punch it with biofuel.\n\n## Server Command Lines:\n- /damage_bypass_protection true\n\n    destruction can be made on protected areas if this is enabled. Default value: false\n\n- /no_fixed_owner true\n\n    there is no ownership on the planes, so beware, the enemy can steal it. Default: false\n",
+  "maintainers": [
+    "apercy"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "ww1_planes",
+  "provides": [
+    "albatros_d5",
+    "sopwith_f1_camel",
+    "ww1_planes_lib"
+  ],
+  "release": 29326,
+  "repo": "https://github.com/APercy/ww1_planes",
+  "score": 383.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6360465464.jpg"
+  ],
+  "short_description": "A modpack for WWI aerial combat",
+  "state": "APPROVED",
+  "tags": [
+    "pvp",
+    "shooter",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6360465464.png",
+  "title": "World War I Planes",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/apercy/ww1_planes/releases/29326/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "apercy/airutils": [],
+    "apercy/ww1_planes": [
+      {
+        "is_optional": false,
+        "name": "airutils",
+        "packages": [
+          "apercy/airutils",
+          "bell07/whynot_game"
+        ]
+      }
+    ]
+  },
+  "hash": "13xv81w6gi8s6ig7k94scmvm9148cz3caxj9sl15jw9jpcwrkgrn"
+}

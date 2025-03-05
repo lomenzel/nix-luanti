@@ -1,1 +1,53 @@
-{"author":"Warr1024","content_warnings":[],"created_at":"2023-10-19T04:11:04.421990","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://liberapay.com/Warr1024","downloads":4104,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"*Support/Discussion on [Warr1024's Small Projects Discord](https://discord.gg/KMbCjAHBTs)*\n\n## Printability Validation\n\nSuspected printability issues (bad bridges or overhangs, things that would require extra support material) will be automatically detected and highlighted in **crimson**. Minimizing these areas will lead to prints that require less support material and come out with better quality.\n\nNote that the printability validation is \"conservative\" in some cases and does not allow things that would actually work fine, like bridges made out of wedge shapes, while a full slicer may still be able to find a strategy to print these. This is not necessarily an error.\n\n## How to Use\n\n- Install the game, along with the recommended mods:\n\t- [WorldEdit](/packages/sfan5/worldedit/)\n\t- [Meshport](/packages/random_geek/meshport/)\n- Start a world.\n\t- Host a server if you want to build collaboratively.\n\t- It's recommended to add `fly,fast,noclip` to default privileges,\n\t  and/or grant them to each person who is helping build.\n\t- Revoking `interact` privs for spectators should also work.\n- Build things using the provided materials.\n\t- You can choose any scale you want for your models (within the\n\t  capabilities of the engine and your computer).\n\t- Nodes that turn **crimson** are warning you about printability issues\n\t  where your slicer will need to generate extra support (costs more time,\n\t  effort, materials to print) or cause other problems elsewhere (sagging\n\t  bridges or overhangs) so try to minimize them.\n- Export your model.\n\t- Use WorldEdit to move your model up off the printbed (see Known Issues).\n\t- Select you model, and at least 1 node of open air on each face of it,\n\t  using meshport, and export it.\n- Slice and print.\n\t- Load the exported OBJ file into your slicer, scale it to the size you\n\t  want, load your settings, and send it off to your printer.\n\n## Known Issues\n\n### Meshport Bottom Surfaces\n\nIf exporting a model that's built directly on the print bed, Meshport\nwill not include the bottom surfaces in the model, causing it to break\nbadly in some slicers.  Use WorldEdit to move the entire model up off\nthe bed before exporting, and include 1 node of airspace on each of\nthe 6 faces around the model to ensure it's fully closed.\n\nWhen using PrusaSlicer, if you don't correct for this and leave the bottom\nfaces of the model unclosed, as long as the model is oriented correctly,\nit seems like it doesn't usually actually create problems with slicing,\neven though it shows visible warnings.","maintainers":["Warr1024"],"media_license":"MIT","name":"fdmcube","provides":["fdm_api","fdm_mapgen","fdm_material","fdm_nav","fdm_player","fdm_validate"],"release":27017,"repo":"https://gitlab.com/sztest/fdmcube","score":52.7,"screenshots":["https://content.luanti.org/uploads/3acdee0855.webp"],"short_description":"Design models for FDM 3D printing","state":"APPROVED","tags":["building","creative","education","oneofakind__original"],"thumbnail":"https://content.luanti.org/thumbnails/1/3acdee0855.png","title":"FDM Cube","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/Warr1024/fdmcube/releases/27017/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Warr1024/fdmcube":[]},"hash":"1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6"}
+{
+  "author": "Warr1024",
+  "content_warnings": [],
+  "created_at": "2023-10-19T04:11:04.421990",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://liberapay.com/Warr1024",
+  "downloads": 4104,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "*Support/Discussion on [Warr1024's Small Projects Discord](https://discord.gg/KMbCjAHBTs)*\n\n## Printability Validation\n\nSuspected printability issues (bad bridges or overhangs, things that would require extra support material) will be automatically detected and highlighted in **crimson**. Minimizing these areas will lead to prints that require less support material and come out with better quality.\n\nNote that the printability validation is \"conservative\" in some cases and does not allow things that would actually work fine, like bridges made out of wedge shapes, while a full slicer may still be able to find a strategy to print these. This is not necessarily an error.\n\n## How to Use\n\n- Install the game, along with the recommended mods:\n\t- [WorldEdit](/packages/sfan5/worldedit/)\n\t- [Meshport](/packages/random_geek/meshport/)\n- Start a world.\n\t- Host a server if you want to build collaboratively.\n\t- It's recommended to add `fly,fast,noclip` to default privileges,\n\t  and/or grant them to each person who is helping build.\n\t- Revoking `interact` privs for spectators should also work.\n- Build things using the provided materials.\n\t- You can choose any scale you want for your models (within the\n\t  capabilities of the engine and your computer).\n\t- Nodes that turn **crimson** are warning you about printability issues\n\t  where your slicer will need to generate extra support (costs more time,\n\t  effort, materials to print) or cause other problems elsewhere (sagging\n\t  bridges or overhangs) so try to minimize them.\n- Export your model.\n\t- Use WorldEdit to move your model up off the printbed (see Known Issues).\n\t- Select you model, and at least 1 node of open air on each face of it,\n\t  using meshport, and export it.\n- Slice and print.\n\t- Load the exported OBJ file into your slicer, scale it to the size you\n\t  want, load your settings, and send it off to your printer.\n\n## Known Issues\n\n### Meshport Bottom Surfaces\n\nIf exporting a model that's built directly on the print bed, Meshport\nwill not include the bottom surfaces in the model, causing it to break\nbadly in some slicers.  Use WorldEdit to move the entire model up off\nthe bed before exporting, and include 1 node of airspace on each of\nthe 6 faces around the model to ensure it's fully closed.\n\nWhen using PrusaSlicer, if you don't correct for this and leave the bottom\nfaces of the model unclosed, as long as the model is oriented correctly,\nit seems like it doesn't usually actually create problems with slicing,\neven though it shows visible warnings.",
+  "maintainers": [
+    "Warr1024"
+  ],
+  "media_license": "MIT",
+  "name": "fdmcube",
+  "provides": [
+    "fdm_api",
+    "fdm_mapgen",
+    "fdm_material",
+    "fdm_nav",
+    "fdm_player",
+    "fdm_validate"
+  ],
+  "release": 27017,
+  "repo": "https://gitlab.com/sztest/fdmcube",
+  "score": 52.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3acdee0855.webp"
+  ],
+  "short_description": "Design models for FDM 3D printing",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "creative",
+    "education",
+    "oneofakind__original"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3acdee0855.png",
+  "title": "FDM Cube",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/Warr1024/fdmcube/releases/27017/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Warr1024/fdmcube": []
+  },
+  "hash": "1ziwyz8h4qz12ny31p684sy4pv2s14k9zw2g6ivmx28cmbxxy5h6"
+}

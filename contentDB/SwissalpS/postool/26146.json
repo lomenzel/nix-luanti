@@ -1,1 +1,48 @@
-{"author":"SwissalpS","content_warnings":[],"created_at":"2021-12-11T02:04:26.956028","dev_state":null,"donate_url":null,"downloads":1203,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/SwissalpS/postool/issues","license":"LGPL-3.0-or-later","long_description":"PosTool mod for Minetest\n========================\n\nAdds configurable HUD elements for current: position (node and block) and time.\nIf advtrains is installed, it can also display railway time.\nIf mesecons_debug is installed, this info can also be displayed.\n\nUse chat command /postool to invoke formspec to toggle elements and position of HUD.\n\n# Screenshots\nPick a location.\n\n![](/doc/img/s1.png)\n\nUse the tool.\n\n![](https://content.minetest.net/uploads/de84484018.png)\n\nInvoke formspec with /postool\n\n![](https://content.minetest.net/uploads/9829a54d7f.png)\n\nExample display of HUD\n\n![](https://content.minetest.net/uploads/61f3c030b7.png)\n\nThe progress-bar shows the mesecons usage in current block. It changes colour based on penalty.\n\nWhen not disabled and user is not standing in the middle block of a chunk,\nthen a smaller, green grid shows in which direction the chunk borders are.\nThe closer to the orange grid the green one is, the closer a chunk border is in that direction.\n\n# PosTool\nCrafting recipe:\n```\n\t\t|\t\t\t\t|\t\t\t\t| default:glass |\n\t\t|\t\t\t\t| default:torch |\t\t\t\t|\n\t\t| default:stick |\t\t\t\t|\t\t\t\t|\n```\nPunch or place with PosTool to show a grid of the map-block at that position.\nIf PosTool is used on a node, that nodes position will be used otherwise players position.\n\n# Settings\n\nSettings with default values:\n```\n# HUD offsets in screen percentage\npostool.hud.offsetx\t\t\t\t\t\t0.8\npostool.hud.offsety\t\t\t\t\t\t0.95\n# HUD z_index (does not seem to work)\npostool.hud.offsetz\t\t\t\t\t\t-111\n# how to separate x, y and z values\npostool.hud.posseparator\t\t\t\t' | '\n# titles in HUD and formspec\npostool.hud.titletrain\t\t\t\t\t'Railway Time: '\npostool.hud.titletime\t\t\t\t\t'Time: '\npostool.hud.titlenode\t\t\t\t\t'Node: '\npostool.hud.titleblock\t\t\t\t\t'Block: '\npostool.hud.titlemesecons\t\t\t\t'Mesecons: '\n# value shown in HUD when\n# advtrains is not enabled\npostool.hud.titletrainna\t\t\t\t'advtrains not enabled'\n# main HUD switch\npostool.hud.defaultshowmain\t\t\t\tfalse (0/1)\n# which items to initially show\npostool.hud.defaultshowtrain\t\t\tfalse (0/1)\npostool.hud.defaultshowtime\t\t\t\tfalse (0/1)\npostool.hud.defaultshownode\t\t\t\ttrue (0/1)\npostool.hud.defaultshowblock\t\t\ttrue (0/1)\npostool.hud.defaultshowmesecons\t\t\tfalse (0/1)\npostool.hud.defaultshowmeseconsdetails\tfalse (0/1)\n# wait at least this long\n# before updating HUD (seconds)\npostool.hud.minupdateinterval\t\t\t2\n# how long to show grid for\n# when tool is used\npostool.tool.griddisplayduration\t\t12\npostool.tool.suppresschunkindicator\tfalse (0/1)\n```\n# Thanks\nThis mod was strongly inspired by [poshud](https://content.minetest.net/packages/orwell/poshud/).\nSome techniques I borrowed from [missions](https://content.minetest.net/packages/BuckarooBanzay/missions/).\nI also want to mention [replacer](https://github.com/pandorabox-io/replacer) <- [Coil0's version](https://github.com/coil0/replacer) <- [Sokomine's version](https://content.minetest.net/packages/Sokomine/replacer/)\nand [protector](https://notabug.org/TenPlus1/protector) as I used parts of them too.\n[@6r1d for screenshots and support](https://github.com/6r1d)\n\nThanks also to the users of pandorabox.io for feedback and inspiration to actually\nwrite this mod. @Huhhila for pushing the mapchunk indicator idea. On #minetest IRC/discord\n@Warr1024, @hlqkj and @Krock for chiming in the discussion.\n\nThanks to @BuckarooBanzay for helping debugging postool in node-breakers.\n\n(If you feel I should include you by name, just submit a PR)\n\n","maintainers":["SwissalpS"],"media_license":"CC-BY-SA-4.0","name":"postool","provides":["postool"],"release":26146,"repo":"https://github.com/SwissalpS/postool","score":9.6,"screenshots":["https://content.luanti.org/uploads/61f3c030b7.png","https://content.luanti.org/uploads/9829a54d7f.png","https://content.luanti.org/uploads/de84484018.png"],"short_description":"Adds a HUD to show current ingame time and position also tool to visualize map-blocks","state":"APPROVED","tags":["hud","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/61f3c030b7.png","title":"PosTool","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/SwissalpS/postool/releases/26146/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"SwissalpS/postool":[]},"hash":"0hw6gkxa6bhl35qn38r8i352bnpkx5hdbysd7y6crlklz8byq4nh"}
+{
+  "author": "SwissalpS",
+  "content_warnings": [],
+  "created_at": "2021-12-11T02:04:26.956028",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1203,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/SwissalpS/postool/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "PosTool mod for Minetest\n========================\n\nAdds configurable HUD elements for current: position (node and block) and time.\nIf advtrains is installed, it can also display railway time.\nIf mesecons_debug is installed, this info can also be displayed.\n\nUse chat command /postool to invoke formspec to toggle elements and position of HUD.\n\n# Screenshots\nPick a location.\n\n![](/doc/img/s1.png)\n\nUse the tool.\n\n![](https://content.minetest.net/uploads/de84484018.png)\n\nInvoke formspec with /postool\n\n![](https://content.minetest.net/uploads/9829a54d7f.png)\n\nExample display of HUD\n\n![](https://content.minetest.net/uploads/61f3c030b7.png)\n\nThe progress-bar shows the mesecons usage in current block. It changes colour based on penalty.\n\nWhen not disabled and user is not standing in the middle block of a chunk,\nthen a smaller, green grid shows in which direction the chunk borders are.\nThe closer to the orange grid the green one is, the closer a chunk border is in that direction.\n\n# PosTool\nCrafting recipe:\n```\n\t\t|\t\t\t\t|\t\t\t\t| default:glass |\n\t\t|\t\t\t\t| default:torch |\t\t\t\t|\n\t\t| default:stick |\t\t\t\t|\t\t\t\t|\n```\nPunch or place with PosTool to show a grid of the map-block at that position.\nIf PosTool is used on a node, that nodes position will be used otherwise players position.\n\n# Settings\n\nSettings with default values:\n```\n# HUD offsets in screen percentage\npostool.hud.offsetx\t\t\t\t\t\t0.8\npostool.hud.offsety\t\t\t\t\t\t0.95\n# HUD z_index (does not seem to work)\npostool.hud.offsetz\t\t\t\t\t\t-111\n# how to separate x, y and z values\npostool.hud.posseparator\t\t\t\t' | '\n# titles in HUD and formspec\npostool.hud.titletrain\t\t\t\t\t'Railway Time: '\npostool.hud.titletime\t\t\t\t\t'Time: '\npostool.hud.titlenode\t\t\t\t\t'Node: '\npostool.hud.titleblock\t\t\t\t\t'Block: '\npostool.hud.titlemesecons\t\t\t\t'Mesecons: '\n# value shown in HUD when\n# advtrains is not enabled\npostool.hud.titletrainna\t\t\t\t'advtrains not enabled'\n# main HUD switch\npostool.hud.defaultshowmain\t\t\t\tfalse (0/1)\n# which items to initially show\npostool.hud.defaultshowtrain\t\t\tfalse (0/1)\npostool.hud.defaultshowtime\t\t\t\tfalse (0/1)\npostool.hud.defaultshownode\t\t\t\ttrue (0/1)\npostool.hud.defaultshowblock\t\t\ttrue (0/1)\npostool.hud.defaultshowmesecons\t\t\tfalse (0/1)\npostool.hud.defaultshowmeseconsdetails\tfalse (0/1)\n# wait at least this long\n# before updating HUD (seconds)\npostool.hud.minupdateinterval\t\t\t2\n# how long to show grid for\n# when tool is used\npostool.tool.griddisplayduration\t\t12\npostool.tool.suppresschunkindicator\tfalse (0/1)\n```\n# Thanks\nThis mod was strongly inspired by [poshud](https://content.minetest.net/packages/orwell/poshud/).\nSome techniques I borrowed from [missions](https://content.minetest.net/packages/BuckarooBanzay/missions/).\nI also want to mention [replacer](https://github.com/pandorabox-io/replacer) <- [Coil0's version](https://github.com/coil0/replacer) <- [Sokomine's version](https://content.minetest.net/packages/Sokomine/replacer/)\nand [protector](https://notabug.org/TenPlus1/protector) as I used parts of them too.\n[@6r1d for screenshots and support](https://github.com/6r1d)\n\nThanks also to the users of pandorabox.io for feedback and inspiration to actually\nwrite this mod. @Huhhila for pushing the mapchunk indicator idea. On #minetest IRC/discord\n@Warr1024, @hlqkj and @Krock for chiming in the discussion.\n\nThanks to @BuckarooBanzay for helping debugging postool in node-breakers.\n\n(If you feel I should include you by name, just submit a PR)\n\n",
+  "maintainers": [
+    "SwissalpS"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "postool",
+  "provides": [
+    "postool"
+  ],
+  "release": 26146,
+  "repo": "https://github.com/SwissalpS/postool",
+  "score": 9.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/61f3c030b7.png",
+    "https://content.luanti.org/uploads/9829a54d7f.png",
+    "https://content.luanti.org/uploads/de84484018.png"
+  ],
+  "short_description": "Adds a HUD to show current ingame time and position also tool to visualize map-blocks",
+  "state": "APPROVED",
+  "tags": [
+    "hud",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/61f3c030b7.png",
+  "title": "PosTool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SwissalpS/postool/releases/26146/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SwissalpS/postool": []
+  },
+  "hash": "0hw6gkxa6bhl35qn38r8i352bnpkx5hdbysd7y6crlklz8byq4nh"
+}

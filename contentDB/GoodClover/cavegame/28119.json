@@ -1,1 +1,48 @@
-{"author":"GoodClover","content_warnings":[],"created_at":"2022-06-26T13:55:09.692567","dev_state":"MAINTENANCE_ONLY","donate_url":"https://liberapay.com/GoodClover/","downloads":24308,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://git.minetest.land/olive/cavegame/issues","license":"ISC","long_description":"This is a game for the [Luanti engine](<https://www.luanti.org/>), which can be downloaded at that link.  Cave Game can be [installed from the Content tab](<https://content.luanti.org/help/installing/>) in the main menu.  Check out [other Luanti games & mods](<https://content.luanti.org/>) while you're here!\n\n## Features\n- Stone and grass nodes.\n- Place & destroy them.\n- That's it.\n\n## Notes\n\nWhilst looking like cobble, stone is infact `minecraft:stone`.\n\nBlock's ID are aliased to their \"modern\" Minecraft name.\n\nSelect mapgen `singlenode` for a truly flat world.\nMapgen v6 unsupported.\n\nIf you want Cave Game's flipped mouse buttons,\nchange the following in your `minetest.conf`:\n```\nkeymap_dig = KEY_RBUTTON\nkeymap_place = KEY_LBUTTON\n```\n\n##\n\nGame by olive - ISC  \n[Textures by ROllerozxa], based upon [REFI] - CC-BY-SA 4.0  \n\n[REFI]: https://content.minetest.net/packages/MysticTempest/refi_textures/\n[Textures by Rollerozxa]: https://github.com/rollerozxa/minecraftnt-classic/","maintainers":["GoodClover"],"media_license":"CC-BY-SA-4.0","name":"cavegame","provides":["cavegame_mapgen","cavegame_nodes","cavegame_player"],"release":28119,"repo":"https://git.minetest.land/olive/cavegame","score":725.1,"screenshots":["https://content.luanti.org/uploads/19f2b13916.png","https://content.luanti.org/uploads/01afb68074.png"],"short_description":"The simplest block game.","state":"APPROVED","tags":["creative"],"thumbnail":"https://content.luanti.org/thumbnails/1/19f2b13916.png","title":"Cave Game","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/GoodClover/cavegame/releases/28119/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"GoodClover/cavegame":[]},"hash":"145dizsm69yi1wfsy92bjjnj9k0i1lx534wch31qd48vpfka84da"}
+{
+  "author": "GoodClover",
+  "content_warnings": [],
+  "created_at": "2022-06-26T13:55:09.692567",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://liberapay.com/GoodClover/",
+  "downloads": 24308,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://git.minetest.land/olive/cavegame/issues",
+  "license": "ISC",
+  "long_description": "This is a game for the [Luanti engine](<https://www.luanti.org/>), which can be downloaded at that link.  Cave Game can be [installed from the Content tab](<https://content.luanti.org/help/installing/>) in the main menu.  Check out [other Luanti games & mods](<https://content.luanti.org/>) while you're here!\n\n## Features\n- Stone and grass nodes.\n- Place & destroy them.\n- That's it.\n\n## Notes\n\nWhilst looking like cobble, stone is infact `minecraft:stone`.\n\nBlock's ID are aliased to their \"modern\" Minecraft name.\n\nSelect mapgen `singlenode` for a truly flat world.\nMapgen v6 unsupported.\n\nIf you want Cave Game's flipped mouse buttons,\nchange the following in your `minetest.conf`:\n```\nkeymap_dig = KEY_RBUTTON\nkeymap_place = KEY_LBUTTON\n```\n\n##\n\nGame by olive - ISC  \n[Textures by ROllerozxa], based upon [REFI] - CC-BY-SA 4.0  \n\n[REFI]: https://content.minetest.net/packages/MysticTempest/refi_textures/\n[Textures by Rollerozxa]: https://github.com/rollerozxa/minecraftnt-classic/",
+  "maintainers": [
+    "GoodClover"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "cavegame",
+  "provides": [
+    "cavegame_mapgen",
+    "cavegame_nodes",
+    "cavegame_player"
+  ],
+  "release": 28119,
+  "repo": "https://git.minetest.land/olive/cavegame",
+  "score": 725.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/19f2b13916.png",
+    "https://content.luanti.org/uploads/01afb68074.png"
+  ],
+  "short_description": "The simplest block game.",
+  "state": "APPROVED",
+  "tags": [
+    "creative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/19f2b13916.png",
+  "title": "Cave Game",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/GoodClover/cavegame/releases/28119/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "GoodClover/cavegame": []
+  },
+  "hash": "145dizsm69yi1wfsy92bjjnj9k0i1lx534wch31qd48vpfka84da"
+}

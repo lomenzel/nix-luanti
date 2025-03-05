@@ -1,1 +1,62 @@
-{"author":"Zemtzov7","content_warnings":[],"created_at":"2022-09-15T20:52:07.809326","dev_state":null,"donate_url":null,"downloads":698,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/zmv7/minetest-mod-translocator/issues/new/choose/","license":"GPL-3.0-only","long_description":"# Translocator\n### Usage\n* Shoot disk using Left Mouse Button in the direction you want to teleport to\n* Click Right Mouse Button to teleport to the position of throwed disk\n##### On mobile version:\n* LMB = long press\n* RMB = double-tap\n\n### License of media (model and textures)\n* `translocator_disk.obj` - by Zemtzov7. License - CC-BY-SA-4.0\n* `translocator.png`, `translocator_disk.png` - by Zemtzov7, License - CC-BY-SA-4.0\n","maintainers":["Zemtzov7"],"media_license":"CC-BY-SA-4.0","name":"translocator","provides":["translocator"],"release":13908,"repo":"https://github.com/zmv7/minetest-mod-translocator","score":6.7,"screenshots":["https://content.luanti.org/uploads/f390c9bc62.png","https://content.luanti.org/uploads/4c447bf0e0.png"],"short_description":"Teleportation tool inspired by Unreal Tournament 2004","state":"APPROVED","tags":["survival","tools","transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/f390c9bc62.png","title":"Translocator","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Zemtzov7/translocator/releases/13908/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Zemtzov7/translocator":[]},"hash":"1xk9ss6pbcjajkrn9h8h40g95zwbf5dphccnvv189v0fk049lh4d"}
+{
+  "author": "Zemtzov7",
+  "content_warnings": [],
+  "created_at": "2022-09-15T20:52:07.809326",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 698,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/zmv7/minetest-mod-translocator/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "# Translocator\n### Usage\n* Shoot disk using Left Mouse Button in the direction you want to teleport to\n* Click Right Mouse Button to teleport to the position of throwed disk\n##### On mobile version:\n* LMB = long press\n* RMB = double-tap\n\n### License of media (model and textures)\n* `translocator_disk.obj` - by Zemtzov7. License - CC-BY-SA-4.0\n* `translocator.png`, `translocator_disk.png` - by Zemtzov7, License - CC-BY-SA-4.0\n",
+  "maintainers": [
+    "Zemtzov7"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "translocator",
+  "provides": [
+    "translocator"
+  ],
+  "release": 13908,
+  "repo": "https://github.com/zmv7/minetest-mod-translocator",
+  "score": 6.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f390c9bc62.png",
+    "https://content.luanti.org/uploads/4c447bf0e0.png"
+  ],
+  "short_description": "Teleportation tool inspired by Unreal Tournament 2004",
+  "state": "APPROVED",
+  "tags": [
+    "survival",
+    "tools",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f390c9bc62.png",
+  "title": "Translocator",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Zemtzov7/translocator/releases/13908/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Zemtzov7/translocator": []
+  },
+  "hash": "1xk9ss6pbcjajkrn9h8h40g95zwbf5dphccnvv189v0fk049lh4d"
+}

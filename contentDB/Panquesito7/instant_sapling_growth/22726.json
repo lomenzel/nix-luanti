@@ -1,1 +1,73 @@
-{"author":"Panquesito7","content_warnings":[],"created_at":"2023-05-12T19:24:42.073695","dev_state":"BETA","donate_url":"https://github.com/sponsors/Panquesito7","downloads":516,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Panquesito7","name":"panqkart","release":24018,"short_description":"A 12 multiplayer racing game with multiple/upgradable cars, coin system, and more. Very WIP.","thumbnail":"https://content.luanti.org/thumbnails/1/6e9833d794.png","title":"PanqKart","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Panquesito7/minetest-instant_sapling_growth/issues","license":"GPL-3.0-or-later","long_description":"Instantly grows a sapling when placed, with support for 10+ sapling mods. 🌳\n\n## Supported sapling mods\n\nWe support a variety of mods and modpacks to ensure all of those work properly with this mod.<br>\nThis can be very useful in case you need saplings to instantly grow for buildings.\n\n- Full [Cool Trees](https://content.minetest.net/packages/runs/cool_trees/) modpack support.\n- [Mahogany](https://content.minetest.net/packages/runs/mahogany/) mod support.\n- [Maple Tree](https://content.minetest.net/packages/Duvalon/maple/) mod support.\n- Full [Plantlife](https://content.minetest.net/packages/mt-mods/plantlife_modpack/) modpack support.\n- Full [More Trees!](https://content.minetest.net/packages/mt-mods/moretrees/) modpack support.\n\nIf you'd like to see another mod being added, feel free to [create an issue](https://github.com/Panquesito7/minetest-instant_sapling_growth/issues/new/choose).\n\n## Settings\n\nThese settings can be customized by modifying [`minetest.conf`](https://wiki.minetest.net/Minetest.conf) or directly in the Minetest settings.\n\n- `instant_sapling_growth.grow_everywhere`: Whether to grow the sapling everywhere or on proper soil only (disabled by default).\n- `instant_sapling_growth.light_limitations`: Whether will saplings grow only in the daytime or not (enabled by default).\n\n## Required Minetest version\n\nThis mod has been fully tested with Minetest 5.7.0 (the current latest version).<br>\nHowever, the mod should work as expected in Minetest 5.0.0+.\n\n## License\n\nRefer to [`LICENSE.md`](https://github.com/Panquesito7/minetest-instant_sapling_growth/blob/main/LICENSE.md) for full information.\n","maintainers":["Panquesito7"],"media_license":"GPL-3.0-or-later","name":"instant_sapling_growth","provides":["instant_sapling_growth"],"release":22726,"repo":"https://github.com/Panquesito7/minetest-instant_sapling_growth","score":7.1,"screenshots":["https://content.luanti.org/uploads/c5a956c590.png"],"short_description":"Instantly grows sapling and trees when placed. 🌳","state":"APPROVED","tags":["building_mechanics","plants_and_farming"],"thumbnail":"https://content.luanti.org/thumbnails/1/c5a956c590.png","title":"Instant Sapling Growth","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Panquesito7/instant_sapling_growth/releases/22726/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Panquesito7/instant_sapling_growth":[]},"hash":"0d9v52sbwcnl9jwig6g8lvlqzd9a21zai8m2m3khlww3282lqqfg"}
+{
+  "author": "Panquesito7",
+  "content_warnings": [],
+  "created_at": "2023-05-12T19:24:42.073695",
+  "dev_state": "BETA",
+  "donate_url": "https://github.com/sponsors/Panquesito7",
+  "downloads": 516,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Panquesito7",
+        "name": "panqkart",
+        "release": 24018,
+        "short_description": "A 12 multiplayer racing game with multiple/upgradable cars, coin system, and more. Very WIP.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6e9833d794.png",
+        "title": "PanqKart",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Panquesito7/minetest-instant_sapling_growth/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "Instantly grows a sapling when placed, with support for 10+ sapling mods. 🌳\n\n## Supported sapling mods\n\nWe support a variety of mods and modpacks to ensure all of those work properly with this mod.<br>\nThis can be very useful in case you need saplings to instantly grow for buildings.\n\n- Full [Cool Trees](https://content.minetest.net/packages/runs/cool_trees/) modpack support.\n- [Mahogany](https://content.minetest.net/packages/runs/mahogany/) mod support.\n- [Maple Tree](https://content.minetest.net/packages/Duvalon/maple/) mod support.\n- Full [Plantlife](https://content.minetest.net/packages/mt-mods/plantlife_modpack/) modpack support.\n- Full [More Trees!](https://content.minetest.net/packages/mt-mods/moretrees/) modpack support.\n\nIf you'd like to see another mod being added, feel free to [create an issue](https://github.com/Panquesito7/minetest-instant_sapling_growth/issues/new/choose).\n\n## Settings\n\nThese settings can be customized by modifying [`minetest.conf`](https://wiki.minetest.net/Minetest.conf) or directly in the Minetest settings.\n\n- `instant_sapling_growth.grow_everywhere`: Whether to grow the sapling everywhere or on proper soil only (disabled by default).\n- `instant_sapling_growth.light_limitations`: Whether will saplings grow only in the daytime or not (enabled by default).\n\n## Required Minetest version\n\nThis mod has been fully tested with Minetest 5.7.0 (the current latest version).<br>\nHowever, the mod should work as expected in Minetest 5.0.0+.\n\n## License\n\nRefer to [`LICENSE.md`](https://github.com/Panquesito7/minetest-instant_sapling_growth/blob/main/LICENSE.md) for full information.\n",
+  "maintainers": [
+    "Panquesito7"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "instant_sapling_growth",
+  "provides": [
+    "instant_sapling_growth"
+  ],
+  "release": 22726,
+  "repo": "https://github.com/Panquesito7/minetest-instant_sapling_growth",
+  "score": 7.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/c5a956c590.png"
+  ],
+  "short_description": "Instantly grows sapling and trees when placed. 🌳",
+  "state": "APPROVED",
+  "tags": [
+    "building_mechanics",
+    "plants_and_farming"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/c5a956c590.png",
+  "title": "Instant Sapling Growth",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Panquesito7/instant_sapling_growth/releases/22726/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Panquesito7/instant_sapling_growth": []
+  },
+  "hash": "0d9v52sbwcnl9jwig6g8lvlqzd9a21zai8m2m3khlww3282lqqfg"
+}

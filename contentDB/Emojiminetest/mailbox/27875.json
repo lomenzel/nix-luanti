@@ -1,1 +1,76 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2024-02-11T12:14:48.819391","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":400,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/C-C-Minetest-Server/mailbox/issues","license":"GPL-3.0-or-later","long_description":"# Mailboxes: Inbox for items\n\nThis mod provides blocky inboxes for items. Mailboxes can be unrent (creating a free mailbox) and rent, and set to be accepting or not accepting non-book items.\n\nThis mod is a fork of, and compatible with, [LinuxForks's mailbox mod](https://git.bananach.space/mailbox.git), an extract of the [old `xdecor` mod](https://github.com/minetest-mods/xdecor).\n","maintainers":["Emojiminetest"],"media_license":"CC0-1.0","name":"mailbox","provides":["mailbox"],"release":27875,"repo":"https://github.com/C-C-Minetest-Server/mailbox","score":8.8,"screenshots":["https://content.luanti.org/uploads/cf2386fcf7.png"],"short_description":"Inbox for items","state":"APPROVED","tags":["commerce","multiplayer","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/cf2386fcf7.png","title":"Mailbox","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/mailbox/releases/27875/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/mailbox":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"mt-mods/xcompat":[]},"hash":"1m2ri8xv2y98frw6a64rlq8mgsyiqardjzgc92jgg13dc81rkagm"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-02-11T12:14:48.819391",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 400,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/mailbox/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Mailboxes: Inbox for items\n\nThis mod provides blocky inboxes for items. Mailboxes can be unrent (creating a free mailbox) and rent, and set to be accepting or not accepting non-book items.\n\nThis mod is a fork of, and compatible with, [LinuxForks's mailbox mod](https://git.bananach.space/mailbox.git), an extract of the [old `xdecor` mod](https://github.com/minetest-mods/xdecor).\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "mailbox",
+  "provides": [
+    "mailbox"
+  ],
+  "release": 27875,
+  "repo": "https://github.com/C-C-Minetest-Server/mailbox",
+  "score": 8.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/cf2386fcf7.png"
+  ],
+  "short_description": "Inbox for items",
+  "state": "APPROVED",
+  "tags": [
+    "commerce",
+    "multiplayer",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/cf2386fcf7.png",
+  "title": "Mailbox",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/mailbox/releases/27875/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/mailbox": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/xcompat": []
+  },
+  "hash": "1m2ri8xv2y98frw6a64rlq8mgsyiqardjzgc92jgg13dc81rkagm"
+}

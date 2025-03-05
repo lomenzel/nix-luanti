@@ -1,1 +1,69 @@
-{"author":"siegment","content_warnings":[],"created_at":"2020-07-13T16:22:01.994247","dev_state":"WIP","donate_url":null,"downloads":28087,"forum_url":"https://forum.luanti.org/viewtopic.php?t=25095","forums":25095,"game_support":[],"issue_tracker":"https://github.com/forked-from-1kasper/loria/issues","license":"GPL-3.0-only","long_description":"Explore strange and mad world of the desolate alien planet.<br>\nEnjoy landscapes filled with gigantic mushrooms, painted in lucid, surrealistic colours.<br>\nSuffer from the radiation poisoning with alpha, beta and gamma radiation (actually and properly implemented).<br>\nBuild gorgeous circuits powered by sophisticated MNA solver.<br>\nBecome an architect in the fantastic sci-fi themed world of Loria.\n\n### WARNING: Electricity mod requires access to insecure functions in order to work. Please add the electricity mod to your secure.trusted_mods (add “secure.trusted_mods = electricity” to minetest.conf). Insecure functions provide native (fast) complex numbers and arrays, which are necessary for MNA solver used in electricity mod.\n### BE CAREFUL: Loria exports `ffi.new` and `ffi.metatype` to global namespace, so they can be unsafely used by other mods.\n\nYou may review the files that use these native features:\n[init.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/init.fnl)\n[matrix.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/matrix.fnl) \n[complex.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/complex.fnl)\n\n### [GitHub Releases & Changelog [RUS/ENG]](https://github.com/forked-from-1kasper/loria/releases)\n\n## Features\n\n* 5 unique biomes\n* Useful and dangerous gases with different properties\n*  Gravity varies depending on location\n\n## Gameplay information\n\n[Craft list](https://github.com/forked-from-1kasper/loria/blob/master/manuals/craft_list.md).\n\n[Radioactivity table](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/radiation/conf.fnl#L33).","maintainers":["siegment","Bratislava"],"media_license":"GPL-3.0-only","name":"loria","provides":["electricity","furnace","loria","radiation"],"release":16565,"repo":"https://github.com/forked-from-1kasper/loria","score":1001.2,"screenshots":["https://content.luanti.org/uploads/JRJSgu2BV4.png","https://content.luanti.org/uploads/Z7GTlIT6zd.png","https://content.luanti.org/uploads/koOaNHspLy.png","https://content.luanti.org/uploads/7qSFCpnkXj.png","https://content.luanti.org/uploads/Qnh7wOdwIh.png","https://content.luanti.org/uploads/Ok8ZXxAd4c.png","https://content.luanti.org/uploads/NlWsU0GqSD.png","https://content.luanti.org/uploads/ifmK3kxfLR.png","https://content.luanti.org/uploads/wUHPiFYRYd.png","https://content.luanti.org/uploads/IVOkrLVlBV.png","https://content.luanti.org/uploads/v7qGnuHIqH.png","https://content.luanti.org/uploads/8IrI2FwQhH.png"],"short_description":"Survival in hardcore acid-alien sci-fi themed world ","state":"APPROVED","tags":["building","crafting","creative","environment","mapgen","oneofakind__original","plants_and_farming","survival","technology","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/JRJSgu2BV4.png","title":"Loria (alpha)","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/siegment/loria/releases/16565/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"siegment/loria":[]},"hash":"0xfq6sm2axw2p7z0hj2fldmxwh3nfsazfscykf5gcrlciax3wywp"}
+{
+  "author": "siegment",
+  "content_warnings": [],
+  "created_at": "2020-07-13T16:22:01.994247",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 28087,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=25095",
+  "forums": 25095,
+  "game_support": [],
+  "issue_tracker": "https://github.com/forked-from-1kasper/loria/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "Explore strange and mad world of the desolate alien planet.<br>\nEnjoy landscapes filled with gigantic mushrooms, painted in lucid, surrealistic colours.<br>\nSuffer from the radiation poisoning with alpha, beta and gamma radiation (actually and properly implemented).<br>\nBuild gorgeous circuits powered by sophisticated MNA solver.<br>\nBecome an architect in the fantastic sci-fi themed world of Loria.\n\n### WARNING: Electricity mod requires access to insecure functions in order to work. Please add the electricity mod to your secure.trusted_mods (add “secure.trusted_mods = electricity” to minetest.conf). Insecure functions provide native (fast) complex numbers and arrays, which are necessary for MNA solver used in electricity mod.\n### BE CAREFUL: Loria exports `ffi.new` and `ffi.metatype` to global namespace, so they can be unsafely used by other mods.\n\nYou may review the files that use these native features:\n[init.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/init.fnl)\n[matrix.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/matrix.fnl) \n[complex.fnl](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/electricity/complex.fnl)\n\n### [GitHub Releases & Changelog [RUS/ENG]](https://github.com/forked-from-1kasper/loria/releases)\n\n## Features\n\n* 5 unique biomes\n* Useful and dangerous gases with different properties\n*  Gravity varies depending on location\n\n## Gameplay information\n\n[Craft list](https://github.com/forked-from-1kasper/loria/blob/master/manuals/craft_list.md).\n\n[Radioactivity table](https://github.com/forked-from-1kasper/loria/blob/master/sources/mods/radiation/conf.fnl#L33).",
+  "maintainers": [
+    "siegment",
+    "Bratislava"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "loria",
+  "provides": [
+    "electricity",
+    "furnace",
+    "loria",
+    "radiation"
+  ],
+  "release": 16565,
+  "repo": "https://github.com/forked-from-1kasper/loria",
+  "score": 1001.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/JRJSgu2BV4.png",
+    "https://content.luanti.org/uploads/Z7GTlIT6zd.png",
+    "https://content.luanti.org/uploads/koOaNHspLy.png",
+    "https://content.luanti.org/uploads/7qSFCpnkXj.png",
+    "https://content.luanti.org/uploads/Qnh7wOdwIh.png",
+    "https://content.luanti.org/uploads/Ok8ZXxAd4c.png",
+    "https://content.luanti.org/uploads/NlWsU0GqSD.png",
+    "https://content.luanti.org/uploads/ifmK3kxfLR.png",
+    "https://content.luanti.org/uploads/wUHPiFYRYd.png",
+    "https://content.luanti.org/uploads/IVOkrLVlBV.png",
+    "https://content.luanti.org/uploads/v7qGnuHIqH.png",
+    "https://content.luanti.org/uploads/8IrI2FwQhH.png"
+  ],
+  "short_description": "Survival in hardcore acid-alien sci-fi themed world ",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "crafting",
+    "creative",
+    "environment",
+    "mapgen",
+    "oneofakind__original",
+    "plants_and_farming",
+    "survival",
+    "technology",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/JRJSgu2BV4.png",
+  "title": "Loria (alpha)",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/siegment/loria/releases/16565/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "siegment/loria": []
+  },
+  "hash": "0xfq6sm2axw2p7z0hj2fldmxwh3nfsazfscykf5gcrlciax3wywp"
+}

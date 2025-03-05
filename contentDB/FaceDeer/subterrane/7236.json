@@ -1,1 +1,124 @@
-{"author":"FaceDeer","content_warnings":[],"created_at":"2018-06-01T02:49:39.500463","dev_state":null,"donate_url":null,"downloads":3468,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/minetest-mods/subterrane/issues/","license":"MIT","long_description":"Intended as a utility mod for other mods to use when creating a more interesting underground experience in Minetest, primarily through the creation of enormous underground \"natural\" caverns with biome-based features. Installing this mod by itself will not do anything.\n\nThe API has the following methods:\n\n# Cavern registration \n\n## subterrane:register_cave_layer(cave_layer_def)\n\nThis causes large caverns to be hollowed out during map generation. By default these caverns are just featureless cavities, but you can add extra subterrane-specific properties to biomes and the mapgen code will use them to add features of your choice. \n\n## subterrane:register_cave_decor(minimum_depth, maximum_depth) \n\nUse this method when you want the following biome methods to be applied to pre-existing caves within a range of y values but don't want to excavate giant caverns there:\n\nIt's essentially a trimmed-down version of register_cave_layer.\n\n# Utilities\n\n## subterrane:vertically_consistent_random(vi, area)\n\nTakes a voxelmanip index and the corresponding area object, and returns a pseudorandom float from 0-1 based on the x and z coordinates of the index's location.\n\nThis is mainly intended for use when placing stalactites and stalagmites, since in a natural cavern these two features are almost always paired with each other spatially. \n\n## subterrane:override_biome(biome_def)\n\nUnfortunately there's currently no easy way to override a single biome (pre-Minetest 0.5), so this method does it by clearing and re-registering all existing biomes.\n\nNot only that, but the decorations also need to be wiped and re-registered - it appears they keep track of the biome they belong to via an internal ID that gets changed when the biomes are re-registered, resulting in them being left assigned to the wrong biomes.\n\nThis method is provided in subterrane because the default mod includes and \"underground\" biome that covers everything below -113 and would be annoying to work around. Any mod using subterrane in conjunction with the default mod should probably override the \"underground\" biome.\n\n# Common cavern features\n\n\n## subterrane.register_stalagmite_nodes(base_name, base_node_def, drop_base_name)\n\nThis registers a set of four standardized stalactite/stalagmite nodes that can be used with the subterrane:stalagmite function below. \"base name\" is a string that forms the prefix of the names of the nodes defined, for example the coolcaves mod might use \"coolcaves:crystal_stal\" and the resulting nodes registered would be \"coolcaves:crystal_stal_1\" through \"coolcaves:crystal_stal_4\". \"base_node_def\" is a node definition table much like is used with the usual node registration function. register_stalagmite_nodes will amend or substitute properties in this definition as needed, so the simplest base_node_def might just define the textures used. \"drop_base_name\" is an optional string that will substitute the node drops with stalagmites created by another use of register_stalagmite_nodes, for example if you wrote\n\n```\n\tsubterrane.register_stalagmite_nodes(\"coolcaves:dry_stal\", base_dry_node_def)\n\tsubterrane.register_stalagmite_nodes(\"coolcaves:wet_stal\", base_wet_node_def, \"coolcaves:dry_stal\")\n```\n\nthen when the player mines a dry stalactite they'll get a dry stalactite node and if they mine a wet stalactite they'll get a corresponding dry stalactite node as the drop instead.\n\nThis method returns a table consisting of the content IDs for the four stalactite nodes, which can be used directly in the following method:\n\n## subterrane:stalagmite(vi, area, data, param2_data, param2, height, stalagmite_id)\n\nThis method can be used to create a small stalactite or stalagmite, generally no more than 5 nodes tall. Use a negative height to generate a stalactite. The parameter stalagmite_id is a table of four content IDs for the stalagmite nodes, in order from thinnest (\"_1\") to thickest (\"_4\"). The register_stalagmite_nodes method returns a table that can be used for this directly.\n\n## subterrane:giant_stalagmite(vi, area, data, min_height, max_height, base_material, root_material, shaft_material)\n\nGenerates a very large multi-node stalagmite three nodes in diameter (with a five-node-diameter \"root\").\n\n## subterrane:giant_stalactite(vi, area, data, min_height, max_height, base_material, root_material, shaft_material)\n\nSimilar to above, but generates a stalactite instead.\n\n## subterrane:giant_shroom(vi, area, data, stem_material, cap_material, gill_material, stem_height, cap_radius)\n\nGenerates an enormous mushroom. Cap radius works well in the range of around 2-6, larger or smaller than that may look odd.\n\n# Player spawn\n\n## subterrane:register_cave_spawn(cave_layer_def, start_depth)\n\nWhen the player spawns (or respawns due to death), this method will tell Minetest to attempt to locate a subterrane-generated cavern to place the player in. cave_layer_def is the same format as the cave definition above. Start_depth is the depth at which the game will start searching for a location to place the player. If the game doesn't find a location immediately it may wind up restarting the search for a spawn location at the top of the cave definition, so start_depth is not a guarantee that the player will start at least that deep; he could spawn anywhere within the cave layer's depth range.","maintainers":["FaceDeer"],"media_license":"MIT","name":"subterrane","provides":["subterrane"],"release":7236,"repo":"https://github.com/minetest-mods/subterrane","score":7.1,"screenshots":["https://content.luanti.org/uploads/2nYC5QnUQo.png"],"short_description":"A mod that creates vast underground caverns and allows biomes to be defined for them","state":"APPROVED","tags":["custom_mapgen"],"thumbnail":"https://content.luanti.org/thumbnails/1/2nYC5QnUQo.png","title":"Subterrane","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/FaceDeer/subterrane/releases/7236/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"FaceDeer/dfcaverns":[],"FaceDeer/subterrane":[{"is_optional":false,"name":"mapgen_helper","packages":["FaceDeer/dfcaverns","MeseCraft/mesecraft"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}]},"hash":"09735nsw4kkb0a51bvkinrx1yv9k5p8r85nqaldcdiyvvf5nh7da"}
+{
+  "author": "FaceDeer",
+  "content_warnings": [],
+  "created_at": "2018-06-01T02:49:39.500463",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3468,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/minetest-mods/subterrane/issues/",
+  "license": "MIT",
+  "long_description": "Intended as a utility mod for other mods to use when creating a more interesting underground experience in Minetest, primarily through the creation of enormous underground \"natural\" caverns with biome-based features. Installing this mod by itself will not do anything.\n\nThe API has the following methods:\n\n# Cavern registration \n\n## subterrane:register_cave_layer(cave_layer_def)\n\nThis causes large caverns to be hollowed out during map generation. By default these caverns are just featureless cavities, but you can add extra subterrane-specific properties to biomes and the mapgen code will use them to add features of your choice. \n\n## subterrane:register_cave_decor(minimum_depth, maximum_depth) \n\nUse this method when you want the following biome methods to be applied to pre-existing caves within a range of y values but don't want to excavate giant caverns there:\n\nIt's essentially a trimmed-down version of register_cave_layer.\n\n# Utilities\n\n## subterrane:vertically_consistent_random(vi, area)\n\nTakes a voxelmanip index and the corresponding area object, and returns a pseudorandom float from 0-1 based on the x and z coordinates of the index's location.\n\nThis is mainly intended for use when placing stalactites and stalagmites, since in a natural cavern these two features are almost always paired with each other spatially. \n\n## subterrane:override_biome(biome_def)\n\nUnfortunately there's currently no easy way to override a single biome (pre-Minetest 0.5), so this method does it by clearing and re-registering all existing biomes.\n\nNot only that, but the decorations also need to be wiped and re-registered - it appears they keep track of the biome they belong to via an internal ID that gets changed when the biomes are re-registered, resulting in them being left assigned to the wrong biomes.\n\nThis method is provided in subterrane because the default mod includes and \"underground\" biome that covers everything below -113 and would be annoying to work around. Any mod using subterrane in conjunction with the default mod should probably override the \"underground\" biome.\n\n# Common cavern features\n\n\n## subterrane.register_stalagmite_nodes(base_name, base_node_def, drop_base_name)\n\nThis registers a set of four standardized stalactite/stalagmite nodes that can be used with the subterrane:stalagmite function below. \"base name\" is a string that forms the prefix of the names of the nodes defined, for example the coolcaves mod might use \"coolcaves:crystal_stal\" and the resulting nodes registered would be \"coolcaves:crystal_stal_1\" through \"coolcaves:crystal_stal_4\". \"base_node_def\" is a node definition table much like is used with the usual node registration function. register_stalagmite_nodes will amend or substitute properties in this definition as needed, so the simplest base_node_def might just define the textures used. \"drop_base_name\" is an optional string that will substitute the node drops with stalagmites created by another use of register_stalagmite_nodes, for example if you wrote\n\n```\n\tsubterrane.register_stalagmite_nodes(\"coolcaves:dry_stal\", base_dry_node_def)\n\tsubterrane.register_stalagmite_nodes(\"coolcaves:wet_stal\", base_wet_node_def, \"coolcaves:dry_stal\")\n```\n\nthen when the player mines a dry stalactite they'll get a dry stalactite node and if they mine a wet stalactite they'll get a corresponding dry stalactite node as the drop instead.\n\nThis method returns a table consisting of the content IDs for the four stalactite nodes, which can be used directly in the following method:\n\n## subterrane:stalagmite(vi, area, data, param2_data, param2, height, stalagmite_id)\n\nThis method can be used to create a small stalactite or stalagmite, generally no more than 5 nodes tall. Use a negative height to generate a stalactite. The parameter stalagmite_id is a table of four content IDs for the stalagmite nodes, in order from thinnest (\"_1\") to thickest (\"_4\"). The register_stalagmite_nodes method returns a table that can be used for this directly.\n\n## subterrane:giant_stalagmite(vi, area, data, min_height, max_height, base_material, root_material, shaft_material)\n\nGenerates a very large multi-node stalagmite three nodes in diameter (with a five-node-diameter \"root\").\n\n## subterrane:giant_stalactite(vi, area, data, min_height, max_height, base_material, root_material, shaft_material)\n\nSimilar to above, but generates a stalactite instead.\n\n## subterrane:giant_shroom(vi, area, data, stem_material, cap_material, gill_material, stem_height, cap_radius)\n\nGenerates an enormous mushroom. Cap radius works well in the range of around 2-6, larger or smaller than that may look odd.\n\n# Player spawn\n\n## subterrane:register_cave_spawn(cave_layer_def, start_depth)\n\nWhen the player spawns (or respawns due to death), this method will tell Minetest to attempt to locate a subterrane-generated cavern to place the player in. cave_layer_def is the same format as the cave definition above. Start_depth is the depth at which the game will start searching for a location to place the player. If the game doesn't find a location immediately it may wind up restarting the search for a spawn location at the top of the cave definition, so start_depth is not a guarantee that the player will start at least that deep; he could spawn anywhere within the cave layer's depth range.",
+  "maintainers": [
+    "FaceDeer"
+  ],
+  "media_license": "MIT",
+  "name": "subterrane",
+  "provides": [
+    "subterrane"
+  ],
+  "release": 7236,
+  "repo": "https://github.com/minetest-mods/subterrane",
+  "score": 7.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2nYC5QnUQo.png"
+  ],
+  "short_description": "A mod that creates vast underground caverns and allows biomes to be defined for them",
+  "state": "APPROVED",
+  "tags": [
+    "custom_mapgen"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2nYC5QnUQo.png",
+  "title": "Subterrane",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/FaceDeer/subterrane/releases/7236/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "FaceDeer/dfcaverns": [],
+    "FaceDeer/subterrane": [
+      {
+        "is_optional": false,
+        "name": "mapgen_helper",
+        "packages": [
+          "FaceDeer/dfcaverns",
+          "MeseCraft/mesecraft"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ]
+  },
+  "hash": "09735nsw4kkb0a51bvkinrx1yv9k5p8r85nqaldcdiyvvf5nh7da"
+}

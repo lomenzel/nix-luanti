@@ -1,1 +1,92 @@
-{"author":"erlehmann","content_warnings":[],"created_at":"2022-05-07T12:28:50.681362","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":3949,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28104","forums":28104,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://git.minetest.land/erle/mcl_quick_harvest_replant/issues","license":"AGPL-3.0-or-later","long_description":"This mod allows players to harvest a crop and plant the item the player is holding with a single right-click.\n\nIt supports the following crops from mcl_farming and mcl_nether:\n\n* Beetroot\n* Carrot\n* Potato\n* Wheat\n* Nether Wart\n\nI have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n","maintainers":["erlehmann"],"media_license":"AGPL-3.0-or-later","name":"mcl_quick_harvest_replant","provides":["mcl_quick_harvest_replant"],"release":20784,"repo":"https://git.minetest.land/erle/mcl_quick_harvest_replant","score":333.1,"screenshots":["https://content.luanti.org/uploads/8d0bbc2feb.png"],"short_description":"Harvest and replant crops with one right-click in MineClone2/MineClone5/Mineclonia","state":"APPROVED","tags":["plants_and_farming","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/8d0bbc2feb.png","title":"Mcl Quick Harvest & Replant","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/erlehmann/mcl_quick_harvest_replant/releases/20784/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"erlehmann/mcl_quick_harvest_replant":[{"is_optional":false,"name":"mcl_farming","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_nether","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"0dx8wsvjh2j4q483sjj5cdl99j7828nv4bgm3vi3q5b7gavqwh08"}
+{
+  "author": "erlehmann",
+  "content_warnings": [],
+  "created_at": "2022-05-07T12:28:50.681362",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 3949,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28104",
+  "forums": 28104,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://git.minetest.land/erle/mcl_quick_harvest_replant/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "This mod allows players to harvest a crop and plant the item the player is holding with a single right-click.\n\nIt supports the following crops from mcl_farming and mcl_nether:\n\n* Beetroot\n* Carrot\n* Potato\n* Wheat\n* Nether Wart\n\nI have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n",
+  "maintainers": [
+    "erlehmann"
+  ],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "mcl_quick_harvest_replant",
+  "provides": [
+    "mcl_quick_harvest_replant"
+  ],
+  "release": 20784,
+  "repo": "https://git.minetest.land/erle/mcl_quick_harvest_replant",
+  "score": 333.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/8d0bbc2feb.png"
+  ],
+  "short_description": "Harvest and replant crops with one right-click in MineClone2/MineClone5/Mineclonia",
+  "state": "APPROVED",
+  "tags": [
+    "plants_and_farming",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8d0bbc2feb.png",
+  "title": "Mcl Quick Harvest & Replant",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/erlehmann/mcl_quick_harvest_replant/releases/20784/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "erlehmann/mcl_quick_harvest_replant": [
+      {
+        "is_optional": false,
+        "name": "mcl_farming",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_nether",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "0dx8wsvjh2j4q483sjj5cdl99j7828nv4bgm3vi3q5b7gavqwh08"
+}

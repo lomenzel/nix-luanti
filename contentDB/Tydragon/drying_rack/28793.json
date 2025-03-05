@@ -1,1 +1,102 @@
-{"author":"Tydragon","content_warnings":[],"created_at":"2024-12-06T09:42:33.708263","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":68,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"# Drying Rack Mod for Luanti\n\nThe **Drying Rack Mod** is a straightforward addition to Luanti, allowing players to transform rotten flesh into Monster Jerky, a safe and reliable alternative to eating rotten flesh. Perfect for survival gameplay, this simple mechanic adds a small but useful enhancement to your experience.\n\n---\n\n##  Features\n\n- **Dry Items into New Materials**:\n  - Transform rotten flesh into **Monster Jerky**, a safe alternative to eating rotten flesh.\n\n- **Easy-to-Use Mechanic**:\n  - Right-click the drying rack with an item to place it on the rack.\n  - Wait a specific amount of time for the item to dry (time depends on the item).\n\n- **Crafting Recipe**:\n  - Craft the drying rack with three wooden slabs placed horizontally in a crafting table.\n\n\n## Credits:\n- 3d model from  https://www.curseforge.com/minecraft/mc-mods/simple-drying-racks\n\n\n\n## License\n\nThis project is licensed under the MIT License. See the [LICENSE](https://codeberg.org/Tydragon/luanti-drying-rack/src/branch/main/LICENSE) file for details.","maintainers":["Tydragon"],"media_license":"MIT","name":"drying_rack","provides":["drying_rack"],"release":28793,"repo":"https://codeberg.org/Tydragon/luanti-drying-rack","score":152.4,"screenshots":["https://content.luanti.org/uploads/6fb9d3556c.png","https://content.luanti.org/uploads/5cb59bec9a.png"],"short_description":"The Drying Rack Mod is a straightforward addition to Luanti, allowing players to transform rotten flesh into Monster Jerky, a safe and reliable alternative to eating rotten flesh.","state":"APPROVED","tags":["food","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/6fb9d3556c.png","title":"Drying Rack","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Tydragon/drying_rack/releases/28793/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Tydragon/drying_rack":[{"is_optional":false,"name":"mcl_mobitems","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_stairs","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"17m2sgm7w0bzi30dlc959g72c8rvbwq55h6hgz3c24i4qq0njlxj"}
+{
+  "author": "Tydragon",
+  "content_warnings": [],
+  "created_at": "2024-12-06T09:42:33.708263",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 68,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# Drying Rack Mod for Luanti\n\nThe **Drying Rack Mod** is a straightforward addition to Luanti, allowing players to transform rotten flesh into Monster Jerky, a safe and reliable alternative to eating rotten flesh. Perfect for survival gameplay, this simple mechanic adds a small but useful enhancement to your experience.\n\n---\n\n##  Features\n\n- **Dry Items into New Materials**:\n  - Transform rotten flesh into **Monster Jerky**, a safe alternative to eating rotten flesh.\n\n- **Easy-to-Use Mechanic**:\n  - Right-click the drying rack with an item to place it on the rack.\n  - Wait a specific amount of time for the item to dry (time depends on the item).\n\n- **Crafting Recipe**:\n  - Craft the drying rack with three wooden slabs placed horizontally in a crafting table.\n\n\n## Credits:\n- 3d model from  https://www.curseforge.com/minecraft/mc-mods/simple-drying-racks\n\n\n\n## License\n\nThis project is licensed under the MIT License. See the [LICENSE](https://codeberg.org/Tydragon/luanti-drying-rack/src/branch/main/LICENSE) file for details.",
+  "maintainers": [
+    "Tydragon"
+  ],
+  "media_license": "MIT",
+  "name": "drying_rack",
+  "provides": [
+    "drying_rack"
+  ],
+  "release": 28793,
+  "repo": "https://codeberg.org/Tydragon/luanti-drying-rack",
+  "score": 152.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6fb9d3556c.png",
+    "https://content.luanti.org/uploads/5cb59bec9a.png"
+  ],
+  "short_description": "The Drying Rack Mod is a straightforward addition to Luanti, allowing players to transform rotten flesh into Monster Jerky, a safe and reliable alternative to eating rotten flesh.",
+  "state": "APPROVED",
+  "tags": [
+    "food",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6fb9d3556c.png",
+  "title": "Drying Rack",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Tydragon/drying_rack/releases/28793/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Tydragon/drying_rack": [
+      {
+        "is_optional": false,
+        "name": "mcl_mobitems",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_stairs",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "17m2sgm7w0bzi30dlc959g72c8rvbwq55h6hgz3c24i4qq0njlxj"
+}

@@ -1,1 +1,45 @@
-{"author":"AwesomeDragon97","content_warnings":[],"created_at":"2022-10-20T00:07:45.418254","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1470,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"LGPL-3.0-or-later","long_description":"<h2>Generic Inoffensive Flags</h2>\n\nThis is a mod that adds generic flags in multiple different colors.\n\nIn addition, it uses a flexible and extendable design with an api to easily add more flags and disable the default ones.\n\n<br/>\n<h5>Crafting the Items:</h5>\n<br/>\n\nMake a flagpole using the following recipe, where s is steel. (requires the default mod).\n\n┏&emsp;&emsp;┳&emsp;&emsp;┳&emsp;&emsp;┓<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┗&emsp;&emsp;┻&emsp;&emsp;┻&emsp;&emsp;┛\n\nMake a flag using the following recipe, where w is wool.\n\n┏&emsp;&emsp;┳&emsp;&emsp;┳&emsp;&emsp;┓<br />\n&emsp;&ensp;&nbsp;w&emsp;&emsp;&nbsp;w&emsp;&emsp;&nbsp;w <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&ensp;&nbsp;w&emsp;&emsp;&nbsp;w&emsp;&emsp;&nbsp;w <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n<br />\n┗&emsp;&emsp;┻&emsp;&emsp;┻&emsp;&emsp;┛\n\nWhen you place the flag, left click to cycle through all of the colors.\n\n</br>\n<h5>Attribution:</h5>\n</br>\nThe original concept and code was created by Wuzzy and Sorcerykid.","maintainers":["AwesomeDragon97"],"media_license":"CC-BY-SA-3.0","name":"generic_flags","provides":["generic_flags"],"release":14560,"repo":null,"score":624.9,"screenshots":["https://content.luanti.org/uploads/f4620621f9.png"],"short_description":"Adds generic flags that come in multiple basic colors.","state":"APPROVED","tags":["building"],"thumbnail":"https://content.luanti.org/thumbnails/1/f4620621f9.png","title":"Generic Inoffensive Flags","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AwesomeDragon97/generic_flags/releases/14560/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AwesomeDragon97/generic_flags":[]},"hash":"1lj465qlprzh8c17x2izig499cps3y4qy3pbji98hmh6b349cf7h"}
+{
+  "author": "AwesomeDragon97",
+  "content_warnings": [],
+  "created_at": "2022-10-20T00:07:45.418254",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1470,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "LGPL-3.0-or-later",
+  "long_description": "<h2>Generic Inoffensive Flags</h2>\n\nThis is a mod that adds generic flags in multiple different colors.\n\nIn addition, it uses a flexible and extendable design with an api to easily add more flags and disable the default ones.\n\n<br/>\n<h5>Crafting the Items:</h5>\n<br/>\n\nMake a flagpole using the following recipe, where s is steel. (requires the default mod).\n\n┏&emsp;&emsp;┳&emsp;&emsp;┳&emsp;&emsp;┓<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;s <br />\n┗&emsp;&emsp;┻&emsp;&emsp;┻&emsp;&emsp;┛\n\nMake a flag using the following recipe, where w is wool.\n\n┏&emsp;&emsp;┳&emsp;&emsp;┳&emsp;&emsp;┓<br />\n&emsp;&ensp;&nbsp;w&emsp;&emsp;&nbsp;w&emsp;&emsp;&nbsp;w <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n&emsp;&ensp;&nbsp;w&emsp;&emsp;&nbsp;w&emsp;&emsp;&nbsp;w <br />\n┣&emsp;&emsp;╋&emsp;&emsp;╋&emsp;&emsp;┫<br />\n<br />\n┗&emsp;&emsp;┻&emsp;&emsp;┻&emsp;&emsp;┛\n\nWhen you place the flag, left click to cycle through all of the colors.\n\n</br>\n<h5>Attribution:</h5>\n</br>\nThe original concept and code was created by Wuzzy and Sorcerykid.",
+  "maintainers": [
+    "AwesomeDragon97"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "generic_flags",
+  "provides": [
+    "generic_flags"
+  ],
+  "release": 14560,
+  "repo": null,
+  "score": 624.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f4620621f9.png"
+  ],
+  "short_description": "Adds generic flags that come in multiple basic colors.",
+  "state": "APPROVED",
+  "tags": [
+    "building"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f4620621f9.png",
+  "title": "Generic Inoffensive Flags",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AwesomeDragon97/generic_flags/releases/14560/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AwesomeDragon97/generic_flags": []
+  },
+  "hash": "1lj465qlprzh8c17x2izig499cps3y4qy3pbji98hmh6b349cf7h"
+}

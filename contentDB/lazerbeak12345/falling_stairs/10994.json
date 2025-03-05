@@ -1,1 +1,74 @@
-{"author":"lazerbeak12345","content_warnings":[],"created_at":"2022-01-31T15:59:04.900723","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":614,"forum_url":"https://forum.luanti.org/viewtopic.php?t=27756","forums":27756,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Lazerbeak12345/falling_stairs/issues","license":"MIT","long_description":"# Falling Stairs and Slabs\n\n## Dependancies\n\nUses one of (in this preference order)\n\n- `moreblocks`\n- `mcl_stairs`\n- `stairs`\n\nTo create slabs and stairs for each falling block.\n\n- `default` for\n\t\t - `default:gravel`\n\t\t - `default:sand`\n\t\t - `default:desert_sand`\n\t\t - `default:silver_sand`\n- `mcl_core` for\n\t\t\t- `mcl_core:gravel`\n\t\t\t- `mcl_core:sand`\n\t\t - `mcl_core:redsand`\n","maintainers":["lazerbeak12345"],"media_license":"MIT","name":"falling_stairs","provides":["falling_stairs"],"release":10994,"repo":"https://github.com/Lazerbeak12345/falling_stairs","score":4.8,"screenshots":["https://content.luanti.org/uploads/84ea37f1ed.png"],"short_description":"Adds falling stairs and slabs for gravel, sand and others.","state":"APPROVED","tags":["april_fools","building","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/84ea37f1ed.png","title":"Falling Stairs","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/lazerbeak12345/falling_stairs/releases/10994/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"lazerbeak12345/falling_stairs":[]},"hash":"0qzcx9j0y6fi1s4w5wykyj68ww7vr3n1awr2j3rrlnwq8g4jhhki"}
+{
+  "author": "lazerbeak12345",
+  "content_warnings": [],
+  "created_at": "2022-01-31T15:59:04.900723",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 614,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27756",
+  "forums": 27756,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Lazerbeak12345/falling_stairs/issues",
+  "license": "MIT",
+  "long_description": "# Falling Stairs and Slabs\n\n## Dependancies\n\nUses one of (in this preference order)\n\n- `moreblocks`\n- `mcl_stairs`\n- `stairs`\n\nTo create slabs and stairs for each falling block.\n\n- `default` for\n\t\t - `default:gravel`\n\t\t - `default:sand`\n\t\t - `default:desert_sand`\n\t\t - `default:silver_sand`\n- `mcl_core` for\n\t\t\t- `mcl_core:gravel`\n\t\t\t- `mcl_core:sand`\n\t\t - `mcl_core:redsand`\n",
+  "maintainers": [
+    "lazerbeak12345"
+  ],
+  "media_license": "MIT",
+  "name": "falling_stairs",
+  "provides": [
+    "falling_stairs"
+  ],
+  "release": 10994,
+  "repo": "https://github.com/Lazerbeak12345/falling_stairs",
+  "score": 4.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/84ea37f1ed.png"
+  ],
+  "short_description": "Adds falling stairs and slabs for gravel, sand and others.",
+  "state": "APPROVED",
+  "tags": [
+    "april_fools",
+    "building",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/84ea37f1ed.png",
+  "title": "Falling Stairs",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/lazerbeak12345/falling_stairs/releases/10994/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "lazerbeak12345/falling_stairs": []
+  },
+  "hash": "0qzcx9j0y6fi1s4w5wykyj68ww7vr3n1awr2j3rrlnwq8g4jhhki"
+}

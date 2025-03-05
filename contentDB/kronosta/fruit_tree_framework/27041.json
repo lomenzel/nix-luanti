@@ -1,1 +1,59 @@
-{"author":"kronosta","content_warnings":[],"created_at":"2024-09-02T05:45:30.665009","dev_state":"WIP","donate_url":null,"downloads":74,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"This is a framework mod allowing other mods to create simple fruit trees easily. You can choose one of 256 fruit and log colors, and any item (including stack size, wear, and metadata) as the result.\n\n```\nfruit_tree_framework.register_fruit(\n    \"<ID of this fruit as a lookup, should be unique but doesn't have to follow any specific format>\",\n    {name=\"<Name in tooltips of saplings and leaves>\", itemstring=\"<Result itemstring>\", fruit_color=<Fruit color index>, log_color=<Log color index>},\n   <Shaped recipe table of ingredients to craft the sapling, similar to \"recipe\" entry in minetest.register_craft (can be nil to not create a recipe)>)\n```\n\nYou can also get saplings for any itemstring with the command:\n```\n/giveme fruit_tree_framework:sapling 1 0 \"\\u0001fruit_tree_framework:type\\u0002~<Result itemstring, escape quotes and backslashes with a backslash>\\u0003\"\n```\n\nCurrently, for testing purposes, it takes 5 seconds for saplings to grow, leaves to become ready, and leaves to become ready after being harvested previously. The number of seconds can be customized in `fruit.conf` in the mod folder by the key `maturation_time`.\n\nOnce leaves are ready, you can use your place/use key (normally right-click) to pick the fruit off them. There is a tooltip when you're facing leaves that tells you if they're ready.","maintainers":["kronosta"],"media_license":"CC0-1.0","name":"fruit_tree_framework","provides":["fruit_tree_framework"],"release":27041,"repo":"https://github.com/kronosta/minetest-mods.git","score":3.7,"screenshots":["https://content.luanti.org/uploads/efac847fdf.png"],"short_description":"Adds a way to easily add fruit trees, and the ability to have saplings for any item through /giveme","state":"APPROVED","tags":["plants_and_farming"],"thumbnail":"https://content.luanti.org/thumbnails/1/efac847fdf.png","title":"Fruit Tree Framework","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/kronosta/fruit_tree_framework/releases/27041/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/kronosta/minetest-mods/tree/main/fruit_tree_framework","dependencies":{"kronosta/fruit_tree_framework":[]},"hash":"1ls3s2rrshc0q23ycx2n103sfc55yczib5jdxg34c57gyr9iwm3p"}
+{
+  "author": "kronosta",
+  "content_warnings": [],
+  "created_at": "2024-09-02T05:45:30.665009",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 74,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "This is a framework mod allowing other mods to create simple fruit trees easily. You can choose one of 256 fruit and log colors, and any item (including stack size, wear, and metadata) as the result.\n\n```\nfruit_tree_framework.register_fruit(\n    \"<ID of this fruit as a lookup, should be unique but doesn't have to follow any specific format>\",\n    {name=\"<Name in tooltips of saplings and leaves>\", itemstring=\"<Result itemstring>\", fruit_color=<Fruit color index>, log_color=<Log color index>},\n   <Shaped recipe table of ingredients to craft the sapling, similar to \"recipe\" entry in minetest.register_craft (can be nil to not create a recipe)>)\n```\n\nYou can also get saplings for any itemstring with the command:\n```\n/giveme fruit_tree_framework:sapling 1 0 \"\\u0001fruit_tree_framework:type\\u0002~<Result itemstring, escape quotes and backslashes with a backslash>\\u0003\"\n```\n\nCurrently, for testing purposes, it takes 5 seconds for saplings to grow, leaves to become ready, and leaves to become ready after being harvested previously. The number of seconds can be customized in `fruit.conf` in the mod folder by the key `maturation_time`.\n\nOnce leaves are ready, you can use your place/use key (normally right-click) to pick the fruit off them. There is a tooltip when you're facing leaves that tells you if they're ready.",
+  "maintainers": [
+    "kronosta"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "fruit_tree_framework",
+  "provides": [
+    "fruit_tree_framework"
+  ],
+  "release": 27041,
+  "repo": "https://github.com/kronosta/minetest-mods.git",
+  "score": 3.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/efac847fdf.png"
+  ],
+  "short_description": "Adds a way to easily add fruit trees, and the ability to have saplings for any item through /giveme",
+  "state": "APPROVED",
+  "tags": [
+    "plants_and_farming"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/efac847fdf.png",
+  "title": "Fruit Tree Framework",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/kronosta/fruit_tree_framework/releases/27041/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/kronosta/minetest-mods/tree/main/fruit_tree_framework",
+  "dependencies": {
+    "kronosta/fruit_tree_framework": []
+  },
+  "hash": "1ls3s2rrshc0q23ycx2n103sfc55yczib5jdxg34c57gyr9iwm3p"
+}

@@ -1,1 +1,83 @@
-{"author":"mi.sh","content_warnings":[],"created_at":"2023-01-14T00:01:14.489267","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1621,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Qyint-Community/qyintessential-minetest-mods/issues","license":"GPL-3.0-only","long_description":"# NonUseless\n\nAdds more crafting Recipes to make useless Items more useful\n\n→ https://qyint-community.github.io","maintainers":["mi.sh"],"media_license":"GPL-3.0-only","name":"qyintessential_nonuseless","provides":["qyintessential_nonuseless"],"release":16555,"repo":"https://github.com/Qyint-Community/qyintessential-minetest-mods/tree/main/nonuseless","score":-128.3,"screenshots":["https://content.luanti.org/uploads/0e3c316477.png"],"short_description":"Adds more crafting Recipes to make useless Items more useful","state":"APPROVED","tags":["crafting","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/0e3c316477.png","title":"NonUseless","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mi.sh/qyintessential_nonuseless/releases/16555/download/","video_thumbnail_url":null,"video_url":null,"website":"https://qyint-community.github.io","dependencies":{"mi.sh/qyintessential_nonuseless":[{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"1whzifsgyff3bc0lnxg92m7fzvq0y3z7mxvxcx5himi54vj7njfr"}
+{
+  "author": "mi.sh",
+  "content_warnings": [],
+  "created_at": "2023-01-14T00:01:14.489267",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1621,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Qyint-Community/qyintessential-minetest-mods/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "# NonUseless\n\nAdds more crafting Recipes to make useless Items more useful\n\n→ https://qyint-community.github.io",
+  "maintainers": [
+    "mi.sh"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "qyintessential_nonuseless",
+  "provides": [
+    "qyintessential_nonuseless"
+  ],
+  "release": 16555,
+  "repo": "https://github.com/Qyint-Community/qyintessential-minetest-mods/tree/main/nonuseless",
+  "score": -128.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0e3c316477.png"
+  ],
+  "short_description": "Adds more crafting Recipes to make useless Items more useful",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0e3c316477.png",
+  "title": "NonUseless",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mi.sh/qyintessential_nonuseless/releases/16555/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://qyint-community.github.io",
+  "dependencies": {
+    "mi.sh/qyintessential_nonuseless": [
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1whzifsgyff3bc0lnxg92m7fzvq0y3z7mxvxcx5himi54vj7njfr"
+}

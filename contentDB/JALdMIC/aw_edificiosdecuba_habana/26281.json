@@ -1,1 +1,59 @@
-{"author":"JALdMIC","content_warnings":[],"created_at":"2024-07-26T13:42:55.394568","dev_state":"WIP","donate_url":null,"downloads":101,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC-BY-SA-4.0","long_description":"This package adds some buildings based on those in Havana\n\nThe blueprints are based on the work of Miguel Movilla Vega, \"Vivienda y Revolución\"","maintainers":["JALdMIC"],"media_license":"CC-BY-SA-4.0","name":"aw_edificiosdecuba_habana","provides":["aw_edificiosdecuba_habana"],"release":26281,"repo":null,"score":3.3,"screenshots":["https://content.luanti.org/uploads/9fd3bb1529.png"],"short_description":"It has some buildings based on those in Havana","state":"APPROVED","tags":["creative"],"thumbnail":"https://content.luanti.org/thumbnails/1/9fd3bb1529.png","title":"aw_edificiosdecuba_habana","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/JALdMIC/aw_edificiosdecuba_habana/releases/26281/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"JALdMIC/aw_edificiosdecuba_habana":[]},"hash":"0kx80lx7c5az9z704hiqciygbdnrz53gg3x56ylziwikhz1a2ggh"}
+{
+  "author": "JALdMIC",
+  "content_warnings": [],
+  "created_at": "2024-07-26T13:42:55.394568",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 101,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "This package adds some buildings based on those in Havana\n\nThe blueprints are based on the work of Miguel Movilla Vega, \"Vivienda y Revolución\"",
+  "maintainers": [
+    "JALdMIC"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "aw_edificiosdecuba_habana",
+  "provides": [
+    "aw_edificiosdecuba_habana"
+  ],
+  "release": 26281,
+  "repo": null,
+  "score": 3.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/9fd3bb1529.png"
+  ],
+  "short_description": "It has some buildings based on those in Havana",
+  "state": "APPROVED",
+  "tags": [
+    "creative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/9fd3bb1529.png",
+  "title": "aw_edificiosdecuba_habana",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/JALdMIC/aw_edificiosdecuba_habana/releases/26281/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "JALdMIC/aw_edificiosdecuba_habana": []
+  },
+  "hash": "0kx80lx7c5az9z704hiqciygbdnrz53gg3x56ylziwikhz1a2ggh"
+}

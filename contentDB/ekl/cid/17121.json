@@ -1,1 +1,46 @@
-{"author":"ekl","content_warnings":[],"created_at":"2023-02-19T20:42:54.300548","dev_state":"BETA","donate_url":null,"downloads":395,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MPL-2.0","long_description":"# Cid\n\nThis mod provides a system for adding and playing music in Minetest, primarily designed for playing single-instrument MIDI files.\n\nThis mod does not provide any music. You will need to install a music pack or some other dependent mod.\n\n# API\n# cid.tunes\n\nTable containing tunes, indexed by the tune id. Values are tables in the following format:\n\n```lua\n{\n\ttitle = \"Title of piece\"\n\tlicense = \"License and/or other info\",\n\tbackend = \"midi\", -- \"midi\" | \"table\"\n\t_data = dofile(\"mytable.lua\"), -- Used only by the table backend\n\t_midi = \"Binary string\", -- Data read from a MIDI file\n}\n```\n\n# cid.instruments\n\nTable indexed by instrument name, and an instrument definition as the value.\n\n```lua\n{\n\tname = \"cid_piano\", -- Name of the sound file\n\tgain = 1 / 2, -- Adjusts volume\n\tpitch = 60, -- MIDI pitch value, describes the sound sample's pitch\n}\n```\n\nSome instruments are provided by default. cid.instruments.piano is the default instrument.\n\n## cid.backends\nContains a bunch of the backend stuff, can be used directly to set up music players.\n\nCurrently undocumented, see init.lua and backends/midi.lua.\n","maintainers":["ekl"],"media_license":"CC0-1.0","name":"cid","provides":["cid"],"release":17121,"repo":"https://codeberg.org/ekl/cid.git","score":2.6,"screenshots":["https://content.luanti.org/uploads/f2427071ca.png"],"short_description":"Plays music","state":"APPROVED","tags":["library","sound_music"],"thumbnail":"https://content.luanti.org/thumbnails/1/f2427071ca.png","title":"Cid Music Player","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ekl/cid/releases/17121/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ekl/cid":[]},"hash":"0v5wk9k2i8l1gk7fpb7r7m6pf3f24qxqwixrmzvjrqwjk171abzf"}
+{
+  "author": "ekl",
+  "content_warnings": [],
+  "created_at": "2023-02-19T20:42:54.300548",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 395,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MPL-2.0",
+  "long_description": "# Cid\n\nThis mod provides a system for adding and playing music in Minetest, primarily designed for playing single-instrument MIDI files.\n\nThis mod does not provide any music. You will need to install a music pack or some other dependent mod.\n\n# API\n# cid.tunes\n\nTable containing tunes, indexed by the tune id. Values are tables in the following format:\n\n```lua\n{\n\ttitle = \"Title of piece\"\n\tlicense = \"License and/or other info\",\n\tbackend = \"midi\", -- \"midi\" | \"table\"\n\t_data = dofile(\"mytable.lua\"), -- Used only by the table backend\n\t_midi = \"Binary string\", -- Data read from a MIDI file\n}\n```\n\n# cid.instruments\n\nTable indexed by instrument name, and an instrument definition as the value.\n\n```lua\n{\n\tname = \"cid_piano\", -- Name of the sound file\n\tgain = 1 / 2, -- Adjusts volume\n\tpitch = 60, -- MIDI pitch value, describes the sound sample's pitch\n}\n```\n\nSome instruments are provided by default. cid.instruments.piano is the default instrument.\n\n## cid.backends\nContains a bunch of the backend stuff, can be used directly to set up music players.\n\nCurrently undocumented, see init.lua and backends/midi.lua.\n",
+  "maintainers": [
+    "ekl"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "cid",
+  "provides": [
+    "cid"
+  ],
+  "release": 17121,
+  "repo": "https://codeberg.org/ekl/cid.git",
+  "score": 2.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f2427071ca.png"
+  ],
+  "short_description": "Plays music",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "sound_music"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f2427071ca.png",
+  "title": "Cid Music Player",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ekl/cid/releases/17121/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ekl/cid": []
+  },
+  "hash": "0v5wk9k2i8l1gk7fpb7r7m6pf3f24qxqwixrmzvjrqwjk171abzf"
+}

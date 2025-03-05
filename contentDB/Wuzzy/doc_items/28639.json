@@ -1,1 +1,59 @@
-{"author":"Wuzzy","content_warnings":[],"created_at":"2021-03-30T23:07:27.224791","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1981,"forum_url":"https://forum.luanti.org/viewtopic.php?t=15912","forums":15912,"game_support":[],"issue_tracker":"https://codeberg.org/Wuzzy/minetest_doc_items/issues","license":"MIT","long_description":"# Item Help [`doc_items`]\n## Description\nAutomatically generated help texts of blocks, tools, weapons, crafting\nitems and other items.\n\nThe goal is to tell the player as much about basically almost all items as\npossible, making it very convenient to look up simple things.\n\nThe ultimate goal of this mod is that eventually all relevant items have\na complete in-game documentation so no item leaves you confused.\n\nThis mod is useful to learn the hard facts about practically all items, like\nhow much damage weapon XYZ deals or whether you can dig that block.\nThis mod does *not* give you long explanations about how to use certain\nnontrivial things, like the furnace from Minetest Game. This info might be\nprovided by other mods and insert it into the help.\n\nThis mod provides 3 new help categories (using the\nDocumentation System [`doc`]):\n\n* Blocks (e.g. dirt, stone, wooden stair)\n* Tools and weapons (e.g. wooden pickaxe, steel sword, screwdriver)\n* Misc. items (e.g. dye, stick, flour)\n\nEntries are automatically added. The information in the entries is\nmostly automatically generated.\n\nThis mod also allows for mods to adding custom written description\nand usage help texts in free-form and even custom automatically generated texts\nfor mod-specific information like flammability in Minetest Game. This is\none of the core features of this mod; the mod relies on other mods to\nprovide their custom help texts for a complete help.\n\nIf you find a particular item which is lacking an explanation on usage,\nrequest the mod author to add `doc_items` support.","maintainers":["Wuzzy"],"media_license":"MIT","name":"doc_items","provides":["doc_items"],"release":28639,"repo":"https://codeberg.org/Wuzzy/minetest_doc_items","score":14.4,"screenshots":["https://content.luanti.org/uploads/RvOwKN27fL.png"],"short_description":"Adds automatically generated help texts for items.","state":"APPROVED","tags":["gui","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/RvOwKN27fL.png","title":"Item Help","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Wuzzy/doc_items/releases/28639/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Wuzzy/doc":[],"Wuzzy/doc_items":[{"is_optional":false,"name":"doc","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia","Wuzzy/doc","bell07/whynot_game"]}]},"hash":"17gcpx1a2cjwxrjqvdpwnpbjfzm66pbbcw2xirb5vca6k4lmr5vr"}
+{
+  "author": "Wuzzy",
+  "content_warnings": [],
+  "created_at": "2021-03-30T23:07:27.224791",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1981,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=15912",
+  "forums": 15912,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/Wuzzy/minetest_doc_items/issues",
+  "license": "MIT",
+  "long_description": "# Item Help [`doc_items`]\n## Description\nAutomatically generated help texts of blocks, tools, weapons, crafting\nitems and other items.\n\nThe goal is to tell the player as much about basically almost all items as\npossible, making it very convenient to look up simple things.\n\nThe ultimate goal of this mod is that eventually all relevant items have\na complete in-game documentation so no item leaves you confused.\n\nThis mod is useful to learn the hard facts about practically all items, like\nhow much damage weapon XYZ deals or whether you can dig that block.\nThis mod does *not* give you long explanations about how to use certain\nnontrivial things, like the furnace from Minetest Game. This info might be\nprovided by other mods and insert it into the help.\n\nThis mod provides 3 new help categories (using the\nDocumentation System [`doc`]):\n\n* Blocks (e.g. dirt, stone, wooden stair)\n* Tools and weapons (e.g. wooden pickaxe, steel sword, screwdriver)\n* Misc. items (e.g. dye, stick, flour)\n\nEntries are automatically added. The information in the entries is\nmostly automatically generated.\n\nThis mod also allows for mods to adding custom written description\nand usage help texts in free-form and even custom automatically generated texts\nfor mod-specific information like flammability in Minetest Game. This is\none of the core features of this mod; the mod relies on other mods to\nprovide their custom help texts for a complete help.\n\nIf you find a particular item which is lacking an explanation on usage,\nrequest the mod author to add `doc_items` support.",
+  "maintainers": [
+    "Wuzzy"
+  ],
+  "media_license": "MIT",
+  "name": "doc_items",
+  "provides": [
+    "doc_items"
+  ],
+  "release": 28639,
+  "repo": "https://codeberg.org/Wuzzy/minetest_doc_items",
+  "score": 14.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/RvOwKN27fL.png"
+  ],
+  "short_description": "Adds automatically generated help texts for items.",
+  "state": "APPROVED",
+  "tags": [
+    "gui",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/RvOwKN27fL.png",
+  "title": "Item Help",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Wuzzy/doc_items/releases/28639/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/doc": [],
+    "Wuzzy/doc_items": [
+      {
+        "is_optional": false,
+        "name": "doc",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/doc",
+          "bell07/whynot_game"
+        ]
+      }
+    ]
+  },
+  "hash": "17gcpx1a2cjwxrjqvdpwnpbjfzm66pbbcw2xirb5vca6k4lmr5vr"
+}

@@ -1,1 +1,123 @@
-{"author":"YCaTGameRT","content_warnings":[],"created_at":"2025-02-08T21:21:20.525226","dev_state":"WIP","donate_url":null,"downloads":17,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"VoxelForge","name":"voxelforge","release":29815,"short_description":"Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.","thumbnail":"https://content.luanti.org/thumbnails/1/7547f6b117.png","title":"VoxelForge - 25w08a","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"# CaT VoxeLibre Tools\n## About\n**Tools mod for VoxeLibre. Created and will continue to be developed by YCaTGameRT and farfind. More creative new tools will come later!**\n## Special Thanks\n### [VoxeLibre](https://content.luanti.org/packages/Wuzzy/mineclone2/)\n**VoxeLibre scripts were used to create the mod**\n### [Gitea](https://gitea.com)\n**The source code is posted on Gitea**","maintainers":["YCaTGameRT","farfind"],"media_license":"CC-BY-4.0","name":"cat_voxelibre_tools","provides":["cat_voxelibre_tools"],"release":29877,"repo":"https://gitea.com/YCaTGameRT/CaT_VoxeLibre_Tools","score":6.5,"screenshots":["https://content.luanti.org/uploads/acad714abe.png"],"short_description":"Add tools created by YCaTGameRT and farfind for VoxeLibre","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/acad714abe.png","title":"CaT VoxeLibre Tools","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/YCaTGameRT/cat_voxelibre_tools/releases/29877/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"YCaTGameRT/cat_voxelibre_tools":[{"is_optional":false,"name":"mcl_init","packages":["Wuzzy/mineclone2","ryvnf/mineclonia","VoxelForge/voxelforge"]},{"is_optional":false,"name":"mcl_tools","packages":["Wuzzy/mineclone2","ryvnf/mineclonia","VoxelForge/voxelforge"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","ryvnf/mineclonia","VoxelForge/voxelforge"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","ryvnf/mineclonia","VoxelForge/voxelforge"]}]},"hash":"1gk2jnjnakamlgrh2ncdvs3kaqjn11b7dxaaf08nj62b5ir3mxqi"}
+{
+  "author": "YCaTGameRT",
+  "content_warnings": [],
+  "created_at": "2025-02-08T21:21:20.525226",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 17,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 29815,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge - 25w08a",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# CaT VoxeLibre Tools\n## About\n**Tools mod for VoxeLibre. Created and will continue to be developed by YCaTGameRT and farfind. More creative new tools will come later!**\n## Special Thanks\n### [VoxeLibre](https://content.luanti.org/packages/Wuzzy/mineclone2/)\n**VoxeLibre scripts were used to create the mod**\n### [Gitea](https://gitea.com)\n**The source code is posted on Gitea**",
+  "maintainers": [
+    "YCaTGameRT",
+    "farfind"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "cat_voxelibre_tools",
+  "provides": [
+    "cat_voxelibre_tools"
+  ],
+  "release": 29877,
+  "repo": "https://gitea.com/YCaTGameRT/CaT_VoxeLibre_Tools",
+  "score": 6.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/acad714abe.png"
+  ],
+  "short_description": "Add tools created by YCaTGameRT and farfind for VoxeLibre",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/acad714abe.png",
+  "title": "CaT VoxeLibre Tools",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/YCaTGameRT/cat_voxelibre_tools/releases/29877/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "YCaTGameRT/cat_voxelibre_tools": [
+      {
+        "is_optional": false,
+        "name": "mcl_init",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia",
+          "VoxelForge/voxelforge"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_tools",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia",
+          "VoxelForge/voxelforge"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia",
+          "VoxelForge/voxelforge"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia",
+          "VoxelForge/voxelforge"
+        ]
+      }
+    ]
+  },
+  "hash": "1gk2jnjnakamlgrh2ncdvs3kaqjn11b7dxaaf08nj62b5ir3mxqi"
+}

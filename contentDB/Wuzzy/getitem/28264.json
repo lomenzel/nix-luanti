@@ -1,1 +1,45 @@
-{"author":"Wuzzy","content_warnings":[],"created_at":"2022-11-22T15:14:43.909002","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":482,"forum_url":"https://forum.luanti.org/viewtopic.php?t=28889","forums":28889,"game_support":[],"issue_tracker":"https://codeberg.org/Wuzzy/minetest_getitem/issues","license":"MIT","long_description":"## Get Item\n\nThis  allows you to get easy access to *all* items of the game, including items that players are not supposed to get even in Creative Mode.\n\nPlayers need to have the 'give' privilege to use this mod. It works in all games.\n\n## Usage\n\nTo use anything, you need to have the `give` privilege.\n\nIf you have it, you can access items in 3 ways:\n\n* Bag of Everything [`getitem:bag`]:\n    * An item. Use the 'punch' key to open the dialog\n* Chest of Everything [`getitem:chest`]:\n    * A block. Place it anywhere, then press\n      the 'place' key while pointing on it\n* Chat command `/getitem`: Type it into the chat\n\nIn the item window, you can drag out items at will into your inventory. Put items into the trash slot to destroy them.\n\nUse the text field to filter items by name.\n\n## Disclaimer\n\nSince you get access to *all* items of the game, this includes items that might break the game. Use with care! You take full responsibility if a bad item breaks something.","maintainers":["Wuzzy"],"media_license":"MIT","name":"getitem","provides":["getitem"],"release":28264,"repo":"https://codeberg.org/Wuzzy/minetest_getitem","score":4,"screenshots":["https://content.luanti.org/uploads/f83346294d.png"],"short_description":"Allows you to get all items","state":"APPROVED","tags":["developer_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/f83346294d.png","title":"Get Item","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Wuzzy/getitem/releases/28264/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Wuzzy/getitem":[]},"hash":"1wm4dz3rrwq3dcx56vbnp30430gnsq8f4rd726si2id96gj56r90"}
+{
+  "author": "Wuzzy",
+  "content_warnings": [],
+  "created_at": "2022-11-22T15:14:43.909002",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 482,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28889",
+  "forums": 28889,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/Wuzzy/minetest_getitem/issues",
+  "license": "MIT",
+  "long_description": "## Get Item\n\nThis  allows you to get easy access to *all* items of the game, including items that players are not supposed to get even in Creative Mode.\n\nPlayers need to have the 'give' privilege to use this mod. It works in all games.\n\n## Usage\n\nTo use anything, you need to have the `give` privilege.\n\nIf you have it, you can access items in 3 ways:\n\n* Bag of Everything [`getitem:bag`]:\n    * An item. Use the 'punch' key to open the dialog\n* Chest of Everything [`getitem:chest`]:\n    * A block. Place it anywhere, then press\n      the 'place' key while pointing on it\n* Chat command `/getitem`: Type it into the chat\n\nIn the item window, you can drag out items at will into your inventory. Put items into the trash slot to destroy them.\n\nUse the text field to filter items by name.\n\n## Disclaimer\n\nSince you get access to *all* items of the game, this includes items that might break the game. Use with care! You take full responsibility if a bad item breaks something.",
+  "maintainers": [
+    "Wuzzy"
+  ],
+  "media_license": "MIT",
+  "name": "getitem",
+  "provides": [
+    "getitem"
+  ],
+  "release": 28264,
+  "repo": "https://codeberg.org/Wuzzy/minetest_getitem",
+  "score": 4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f83346294d.png"
+  ],
+  "short_description": "Allows you to get all items",
+  "state": "APPROVED",
+  "tags": [
+    "developer_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f83346294d.png",
+  "title": "Get Item",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Wuzzy/getitem/releases/28264/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/getitem": []
+  },
+  "hash": "1wm4dz3rrwq3dcx56vbnp30430gnsq8f4rd726si2id96gj56r90"
+}

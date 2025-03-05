@@ -1,1 +1,47 @@
-{"author":"KirowL","content_warnings":[],"created_at":"2024-10-10T12:19:12.375511","dev_state":"AS_IS","donate_url":null,"downloads":53,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"# Notification System API for Minetest\n___\n## Description\n\nThis project provides a simple Notification System API for Minetest mods. The goal is to create a temporary window that appears on the player's screen, displaying a message. This API can be called by any other mod to display various notifications, allowing for easy integration into multiple gameplay elements.\n\nFor example, if a player levels up in another mod, that mod can use this API to display the message \"You have leveled up!\" with the desired theme defined by the notification system.\n\n## Features\n\n* Customizable Messages: Display any message on the screen.\n* Duration Control: Set how long the notification will stay on the screen.\n* Modular: Can be called by any other mod to display notifications.\n\n## Usage\n\nTo use the notification system, you can use the `notifications.queue(playerName, text, image, timeout)` function, provide the message, an optional icon, and the duration for which the notification should be displayed. This will render a notification on the specified player's screen.\n\nExample\n\n```lua\nnotifications.queue(\n    {\n        playerName = \"player_name\",\n        title = \"This is the title !\",\n        text = \"This is the notification content\",\n        image = \"my_background.jpg\",\n        timeout = 10\n    }\n)\n```\n\nThis function call will display a notification on the screen of the player naed `player_name` with the title `This is the title !`, the message `This is a test message !` and the background `my_background.jpg` for `10 seconds`.\nNote that the `my_background.jpg` needs to be located in the `notifications_wrapper/textures` folder. The recommended size is `800x200`.\n\n## Integration with Other Mods\n\n### How to display notifications from other mods ?\nTo use the notifications system in other mods, you will need to refer it as a dependency of your mod.\nIn your `depends.txt` file, just put the name of the mod : `notifications_wrapper`\n\nThen, in your code, you can use the `notifications` table and call the appropriate methods.\n\n### Basic example \nThis API can be used by other mods to trigger notifications based on in-game events. For instance, if a player earns a new level in a leveling mod, the notification system can be used to show a congratulatory message on the screen.\n\n```lua\nlocal function on_player_level_up(player)\n    if minetest.get_modpath(\"notifications_wrapper\") then\n        notifications.queue(\n            {\n                playerName = \"player_name\",\n                title = \"Level up !\",\n                text = \"Congratulations! You have reached level 5!\",\n                image = \"level_up_icon.png\",\n                timeout = 10\n            }\n        )\n    end\nend\n```\n\n## Installation \n\n* Copy the Lua script into your Minetest mod directory.\n* Load the API by requiring the script in your mod.\n* Use the provided methods to display notifications as needed.\n\n","maintainers":["KirowL"],"media_license":"MIT","name":"notifications_wrapper","provides":["notifications_wrapper"],"release":27948,"repo":"https://github.com/nmetahri/Minetest-Mod-NotificationWrapper","score":2.1,"screenshots":["https://content.luanti.org/uploads/4cf161f7da.jpg"],"short_description":"This project offers a Notification System API to display temporary messages on the player's screen, allowing seamless integration of notifications into gameplay.","state":"APPROVED","tags":["developer_tools","gui","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/4cf161f7da.png","title":"Simple notification wrapper","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/KirowL/notifications_wrapper/releases/27948/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"KirowL/notifications_wrapper":[]},"hash":"0b4g72mplbplnnxjsr9yfab6jbwqfy3nr1gcghn0azmb9bjrvjk7"}
+{
+  "author": "KirowL",
+  "content_warnings": [],
+  "created_at": "2024-10-10T12:19:12.375511",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 53,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# Notification System API for Minetest\n___\n## Description\n\nThis project provides a simple Notification System API for Minetest mods. The goal is to create a temporary window that appears on the player's screen, displaying a message. This API can be called by any other mod to display various notifications, allowing for easy integration into multiple gameplay elements.\n\nFor example, if a player levels up in another mod, that mod can use this API to display the message \"You have leveled up!\" with the desired theme defined by the notification system.\n\n## Features\n\n* Customizable Messages: Display any message on the screen.\n* Duration Control: Set how long the notification will stay on the screen.\n* Modular: Can be called by any other mod to display notifications.\n\n## Usage\n\nTo use the notification system, you can use the `notifications.queue(playerName, text, image, timeout)` function, provide the message, an optional icon, and the duration for which the notification should be displayed. This will render a notification on the specified player's screen.\n\nExample\n\n```lua\nnotifications.queue(\n    {\n        playerName = \"player_name\",\n        title = \"This is the title !\",\n        text = \"This is the notification content\",\n        image = \"my_background.jpg\",\n        timeout = 10\n    }\n)\n```\n\nThis function call will display a notification on the screen of the player naed `player_name` with the title `This is the title !`, the message `This is a test message !` and the background `my_background.jpg` for `10 seconds`.\nNote that the `my_background.jpg` needs to be located in the `notifications_wrapper/textures` folder. The recommended size is `800x200`.\n\n## Integration with Other Mods\n\n### How to display notifications from other mods ?\nTo use the notifications system in other mods, you will need to refer it as a dependency of your mod.\nIn your `depends.txt` file, just put the name of the mod : `notifications_wrapper`\n\nThen, in your code, you can use the `notifications` table and call the appropriate methods.\n\n### Basic example \nThis API can be used by other mods to trigger notifications based on in-game events. For instance, if a player earns a new level in a leveling mod, the notification system can be used to show a congratulatory message on the screen.\n\n```lua\nlocal function on_player_level_up(player)\n    if minetest.get_modpath(\"notifications_wrapper\") then\n        notifications.queue(\n            {\n                playerName = \"player_name\",\n                title = \"Level up !\",\n                text = \"Congratulations! You have reached level 5!\",\n                image = \"level_up_icon.png\",\n                timeout = 10\n            }\n        )\n    end\nend\n```\n\n## Installation \n\n* Copy the Lua script into your Minetest mod directory.\n* Load the API by requiring the script in your mod.\n* Use the provided methods to display notifications as needed.\n\n",
+  "maintainers": [
+    "KirowL"
+  ],
+  "media_license": "MIT",
+  "name": "notifications_wrapper",
+  "provides": [
+    "notifications_wrapper"
+  ],
+  "release": 27948,
+  "repo": "https://github.com/nmetahri/Minetest-Mod-NotificationWrapper",
+  "score": 2.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/4cf161f7da.jpg"
+  ],
+  "short_description": "This project offers a Notification System API to display temporary messages on the player's screen, allowing seamless integration of notifications into gameplay.",
+  "state": "APPROVED",
+  "tags": [
+    "developer_tools",
+    "gui",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4cf161f7da.png",
+  "title": "Simple notification wrapper",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/KirowL/notifications_wrapper/releases/27948/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "KirowL/notifications_wrapper": []
+  },
+  "hash": "0b4g72mplbplnnxjsr9yfab6jbwqfy3nr1gcghn0azmb9bjrvjk7"
+}

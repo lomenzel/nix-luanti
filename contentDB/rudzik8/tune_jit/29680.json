@@ -1,1 +1,59 @@
-{"author":"rudzik8","content_warnings":[],"created_at":"2025-02-10T15:44:10.648577","dev_state":"AS_IS","donate_url":null,"downloads":12,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":false}],"issue_tracker":"https://codeberg.org/rudzik8/tune_jit/issues","license":"0BSD","long_description":"## Wait, what does it exactly do?\n\nAt a base level, this mod implements the same thing as [VoxeLibre >0.88.1](https://git.minetest.land/VoxeLibre/VoxeLibre/src/commit/161dbaea03a7816db1393ca767c84a5f275ef162/mods/CORE/mcl_init/tune_jit.lua)\nand [Mineclonia](https://codeberg.org/mineclonia/mineclonia/src/commit/94467d9f822ae31838e3c76d643950be2ee891f8/mods/ENTITIES/mcl_mobs/pathfinding.lua#L1627-L1636)\nbut for other Luanti games, with more configurability for the server operator.\n\n[The `jit.opt.*` API](https://luajit.org/ext_jit.html) is leveraged in order to\nmodify JIT compiler optimization parameters on server startup. This won't work\nwith LuaJIT 1.x, but if you have a LuaJIT that ancient, most of your server-side\nperformance issues should go away after you upgrade it. The coolest thing is\nthat this mod doesn't have to be in the `secure.trusted_mods` list in order to\napply the parameters.\n\nIn @repetitivestrain's words:\n\n> Large minetest servers on stock luajit spend most of their globalsteps\n> recording and jit compiling traces that are evicted for exceeding one of the\n> minuscule limits on trace count or mcode size defined by default\n\nThe specific parameters that are modified are `maxtrace`, `maxrecord`,\n`minstitch` and `maxmcode`. Please refer to this mod's `settingtypes.txt` and\nLuaJIT documentation for details.\n\n\n## Will it help with client-side lag?\n\nUnless it was the server's fault, no.\n\nFor singleplayer, remember that Luanti just starts up a server under the hood\nand connects you to it, with the same server/client communication rules and\nspecifics. The only difference is that both server and client are now ran on the\nsame machine, though most likely in different threads.\n\nMobs freezing and map generation suddenly stopping might get removed, but this\nwon't have any effect on rendering or audio playback.\n\n\n## License\n\nThe source code is licensed under 0BSD (\"public domain\"). See `LICENSE` file for\ndetails.\n","maintainers":["rudzik8"],"media_license":"0BSD","name":"tune_jit","provides":["tune_jit"],"release":29680,"repo":"https://codeberg.org/rudzik8/tune_jit.git","score":3.4,"screenshots":["https://content.luanti.org/uploads/44b14beffd.png"],"short_description":"Tunes LuaJIT parameters to improve server performance by preventing constant GC","state":"APPROVED","tags":["server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/44b14beffd.png","title":"Tune JIT","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rudzik8/tune_jit/releases/29680/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"rudzik8/tune_jit":[]},"hash":"16a4v7jf7f2xqswlgg1hcv7bn5za1bdcp119pfpq69nnnrgbg53a"}
+{
+  "author": "rudzik8",
+  "content_warnings": [],
+  "created_at": "2025-02-10T15:44:10.648577",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 12,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/rudzik8/tune_jit/issues",
+  "license": "0BSD",
+  "long_description": "## Wait, what does it exactly do?\n\nAt a base level, this mod implements the same thing as [VoxeLibre >0.88.1](https://git.minetest.land/VoxeLibre/VoxeLibre/src/commit/161dbaea03a7816db1393ca767c84a5f275ef162/mods/CORE/mcl_init/tune_jit.lua)\nand [Mineclonia](https://codeberg.org/mineclonia/mineclonia/src/commit/94467d9f822ae31838e3c76d643950be2ee891f8/mods/ENTITIES/mcl_mobs/pathfinding.lua#L1627-L1636)\nbut for other Luanti games, with more configurability for the server operator.\n\n[The `jit.opt.*` API](https://luajit.org/ext_jit.html) is leveraged in order to\nmodify JIT compiler optimization parameters on server startup. This won't work\nwith LuaJIT 1.x, but if you have a LuaJIT that ancient, most of your server-side\nperformance issues should go away after you upgrade it. The coolest thing is\nthat this mod doesn't have to be in the `secure.trusted_mods` list in order to\napply the parameters.\n\nIn @repetitivestrain's words:\n\n> Large minetest servers on stock luajit spend most of their globalsteps\n> recording and jit compiling traces that are evicted for exceeding one of the\n> minuscule limits on trace count or mcode size defined by default\n\nThe specific parameters that are modified are `maxtrace`, `maxrecord`,\n`minstitch` and `maxmcode`. Please refer to this mod's `settingtypes.txt` and\nLuaJIT documentation for details.\n\n\n## Will it help with client-side lag?\n\nUnless it was the server's fault, no.\n\nFor singleplayer, remember that Luanti just starts up a server under the hood\nand connects you to it, with the same server/client communication rules and\nspecifics. The only difference is that both server and client are now ran on the\nsame machine, though most likely in different threads.\n\nMobs freezing and map generation suddenly stopping might get removed, but this\nwon't have any effect on rendering or audio playback.\n\n\n## License\n\nThe source code is licensed under 0BSD (\"public domain\"). See `LICENSE` file for\ndetails.\n",
+  "maintainers": [
+    "rudzik8"
+  ],
+  "media_license": "0BSD",
+  "name": "tune_jit",
+  "provides": [
+    "tune_jit"
+  ],
+  "release": 29680,
+  "repo": "https://codeberg.org/rudzik8/tune_jit.git",
+  "score": 3.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/44b14beffd.png"
+  ],
+  "short_description": "Tunes LuaJIT parameters to improve server performance by preventing constant GC",
+  "state": "APPROVED",
+  "tags": [
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/44b14beffd.png",
+  "title": "Tune JIT",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rudzik8/tune_jit/releases/29680/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "rudzik8/tune_jit": []
+  },
+  "hash": "16a4v7jf7f2xqswlgg1hcv7bn5za1bdcp119pfpq69nnnrgbg53a"
+}

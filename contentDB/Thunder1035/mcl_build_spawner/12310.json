@@ -1,1 +1,104 @@
-{"author":"Thunder1035","content_warnings":[],"created_at":"2022-05-02T10:42:22.940823","dev_state":"WIP","donate_url":null,"downloads":2368,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":null,"license":"AGPL-3.0-only","long_description":"This mod allows players to spawn buildings in mineclone 2 and 5 \n\nit is a pretty simple mod to use by players, just right click on any surface with build spawner to spawn builds.\n\nFor now in this mod the following builds are planned to be added-\n\n* School\n\n* Hotel\n\n* House\n\n* Mini Shops\n\n* Bank\n\n* Bakery\n\n* police station\n\n* Church\n\n* Prison\n\n* Mall\n\n* Hospital\n\n* Restruant\n\n* Tower","maintainers":["Thunder1035"],"media_license":"AGPL-3.0-only","name":"mcl_build_spawner","provides":["mcl_build_spawner"],"release":12310,"repo":null,"score":-123.6,"screenshots":["https://content.luanti.org/uploads/3dfcb2d2e7.png","https://content.luanti.org/uploads/b1e8550620.png","https://content.luanti.org/uploads/734c509ba3.png"],"short_description":"Gives build spawner for spawing builds in mineclone 2 and 5","state":"APPROVED","tags":["building","building_mechanics","creative","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/3dfcb2d2e7.png","title":"Mineclone Build Spawner","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Thunder1035/mcl_build_spawner/releases/12310/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Thunder1035/mcl_build_spawner":[{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"worldedit","packages":["1248/castrum","Hume2/boxworld3d","KareaGhandTrail/block_assault_mapmaker","Thunder1035/pacman","sfan5/worldedit","giga-turbo/codecube","niwla23/runorfall","MisterE/blockbomber_editor","PetiAPocok/minetest_extended","mt-mods/dreambuilder_game"]}],"sfan5/worldedit":[]},"hash":"0nf3iccbr81mxp6gswrs13nxg2izm672gqz1sg5nbs46rnnjbjvr"}
+{
+  "author": "Thunder1035",
+  "content_warnings": [],
+  "created_at": "2022-05-02T10:42:22.940823",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 2368,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "AGPL-3.0-only",
+  "long_description": "This mod allows players to spawn buildings in mineclone 2 and 5 \n\nit is a pretty simple mod to use by players, just right click on any surface with build spawner to spawn builds.\n\nFor now in this mod the following builds are planned to be added-\n\n* School\n\n* Hotel\n\n* House\n\n* Mini Shops\n\n* Bank\n\n* Bakery\n\n* police station\n\n* Church\n\n* Prison\n\n* Mall\n\n* Hospital\n\n* Restruant\n\n* Tower",
+  "maintainers": [
+    "Thunder1035"
+  ],
+  "media_license": "AGPL-3.0-only",
+  "name": "mcl_build_spawner",
+  "provides": [
+    "mcl_build_spawner"
+  ],
+  "release": 12310,
+  "repo": null,
+  "score": -123.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3dfcb2d2e7.png",
+    "https://content.luanti.org/uploads/b1e8550620.png",
+    "https://content.luanti.org/uploads/734c509ba3.png"
+  ],
+  "short_description": "Gives build spawner for spawing builds in mineclone 2 and 5",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "building_mechanics",
+    "creative",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3dfcb2d2e7.png",
+  "title": "Mineclone Build Spawner",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Thunder1035/mcl_build_spawner/releases/12310/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Thunder1035/mcl_build_spawner": [
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "worldedit",
+        "packages": [
+          "1248/castrum",
+          "Hume2/boxworld3d",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/pacman",
+          "sfan5/worldedit",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "MisterE/blockbomber_editor",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "sfan5/worldedit": []
+  },
+  "hash": "0nf3iccbr81mxp6gswrs13nxg2izm672gqz1sg5nbs46rnnjbjvr"
+}

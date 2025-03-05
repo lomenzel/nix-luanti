@@ -1,1 +1,88 @@
-{"author":"MisterE","content_warnings":[],"created_at":"2022-05-04T01:52:16.331934","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":762,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://gitlab.com/zughy-friends-minetest/balloon_bop/-/issues","license":"MIT","long_description":"Based on ExeVirus's Balloon Bash Ludum Dare submission, comes a minigame for Arena_lib all about Popping huge quantities of balloons and not letting them touch the ground.\n\nGet 10 , 15, or 20 points for each balloon you pop. \nSupports single and multiplayer; multiplayer may help you get a higher score. \n\nGet the highest score to win the game.\nTry to move up the leaderboard as you pop more balloons than anyone has ever popped!\n\nThe game ends when 3 balloons have come to rest on the ground without being popped.\n\n\nMaking an arena:\n\nTo create an arena, it is helpful to be familiar with Arena_lib's arena editor.\n\nits not hard to figure out though.\n\nreplace stuff in <brackets> with appropriate variables\n\n1)` /balloon_bop create <arena_name>`\n\t\n\n2) `/balloon_bop edit <arena_name>`\n\t\n\n3) you are given tools to help you create the arena. use the third tool in your inventory to set the sign of the arena. \nPlace a sign, then use the Plus tool to set it to the arena. Place the sign somewhere where players can easily access it to start the game.\n\t\nGo to where you want the arena to be. Then build the arena. \nIt should be inescapable, and have tall walls. For hardcore mode, it could be high in the air and have no walls.\n\nYou can use the balloonblocks to make the arena.\n\n\t\n4) Next, place the balloon popper spikes. They should be placed in such a way that you can bop the balloons into them to get points.\n\n\n5) use the first tool in your arena edit inventory to set the number of players. Use the back tool.\n\n\n6) use the second tool in your inventory to set the spawn locations (where the players will spawn when they enter the arena)\n\tUse the back tool.\n\n\n7) use the gear tool (settings)\n\tmove to where you want the balloons to spawn, note the location (`//1` from worldedit is helpful with that)\n\tuse the second tool in your inventory to open the arena properties editor\n\tset the property `balloon_spawner` to be the location where you want balloons to spawn to float down to the players.\n\tset the property `spawner_range` to be the distance from the spawner location that balloons can spawn.\n\tset the property `arena_radius` to be large enough to encompass the entire arena from the balloon spawner.\n\tset `player_die_level` to be the y-value below the floor of the arena (kills players who fall out of the arena and disqualifies balloons that fall that low)\n\t\n\tuse the back tool and then enable the arena.\n\n\n8) enjoy!\n\n\nyou can use /balloonbopscores <arena_name> to view the leaderboard anytime, if the arena has been played in.\n\n","maintainers":["MisterE"],"media_license":"CC0-1.0","name":"balloon_bop","provides":["balloon_bop"],"release":29048,"repo":"https://gitlab.com/zughy-friends-minetest/balloon_bop","score":152.5,"screenshots":["https://content.luanti.org/uploads/aefa78503a.png","https://content.luanti.org/uploads/0576623e11.png","https://content.luanti.org/uploads/623689cb99.png"],"short_description":"Based on ExeVirus's Balloon Bash Ludum Dare submission, comes a minigame for Arena_lib all about Popping huge quantities of balloons and not letting them touch the ground.","state":"APPROVED","tags":["mini-game"],"thumbnail":"https://content.luanti.org/thumbnails/1/aefa78503a.png","title":"Balloon Bop","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/MisterE/balloon_bop/releases/29048/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"MisterE/balloon_bop":[{"is_optional":false,"name":"arena_lib","packages":["Zughy/arena_lib"]}],"Zughy/arena_lib":[{"is_optional":false,"name":"signs_lib","packages":["zanderdev/skyblock_zero","debiankaios/proxima_survival","mt-mods/blockcolor","Wuzzy/hades_revisited","Kimapr/nonsensical_skyblock","EmptyStar/asuna","mt-mods/signs_lib","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"lib_chatcmdbuilder","packages":["rubenwardy/lib_chatcmdbuilder","MisterE/blockbomber_editor","hilol/epic_combat","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"audio_lib","packages":["Zughy/audio_lib"]}]},"hash":"1g4p9gr7biysfmr2r3wbfk48h3db9h3knagd6vpscgx9mqpk7i6j"}
+{
+  "author": "MisterE",
+  "content_warnings": [],
+  "created_at": "2022-05-04T01:52:16.331934",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 762,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://gitlab.com/zughy-friends-minetest/balloon_bop/-/issues",
+  "license": "MIT",
+  "long_description": "Based on ExeVirus's Balloon Bash Ludum Dare submission, comes a minigame for Arena_lib all about Popping huge quantities of balloons and not letting them touch the ground.\n\nGet 10 , 15, or 20 points for each balloon you pop. \nSupports single and multiplayer; multiplayer may help you get a higher score. \n\nGet the highest score to win the game.\nTry to move up the leaderboard as you pop more balloons than anyone has ever popped!\n\nThe game ends when 3 balloons have come to rest on the ground without being popped.\n\n\nMaking an arena:\n\nTo create an arena, it is helpful to be familiar with Arena_lib's arena editor.\n\nits not hard to figure out though.\n\nreplace stuff in <brackets> with appropriate variables\n\n1)` /balloon_bop create <arena_name>`\n\t\n\n2) `/balloon_bop edit <arena_name>`\n\t\n\n3) you are given tools to help you create the arena. use the third tool in your inventory to set the sign of the arena. \nPlace a sign, then use the Plus tool to set it to the arena. Place the sign somewhere where players can easily access it to start the game.\n\t\nGo to where you want the arena to be. Then build the arena. \nIt should be inescapable, and have tall walls. For hardcore mode, it could be high in the air and have no walls.\n\nYou can use the balloonblocks to make the arena.\n\n\t\n4) Next, place the balloon popper spikes. They should be placed in such a way that you can bop the balloons into them to get points.\n\n\n5) use the first tool in your arena edit inventory to set the number of players. Use the back tool.\n\n\n6) use the second tool in your inventory to set the spawn locations (where the players will spawn when they enter the arena)\n\tUse the back tool.\n\n\n7) use the gear tool (settings)\n\tmove to where you want the balloons to spawn, note the location (`//1` from worldedit is helpful with that)\n\tuse the second tool in your inventory to open the arena properties editor\n\tset the property `balloon_spawner` to be the location where you want balloons to spawn to float down to the players.\n\tset the property `spawner_range` to be the distance from the spawner location that balloons can spawn.\n\tset the property `arena_radius` to be large enough to encompass the entire arena from the balloon spawner.\n\tset `player_die_level` to be the y-value below the floor of the arena (kills players who fall out of the arena and disqualifies balloons that fall that low)\n\t\n\tuse the back tool and then enable the arena.\n\n\n8) enjoy!\n\n\nyou can use /balloonbopscores <arena_name> to view the leaderboard anytime, if the arena has been played in.\n\n",
+  "maintainers": [
+    "MisterE"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "balloon_bop",
+  "provides": [
+    "balloon_bop"
+  ],
+  "release": 29048,
+  "repo": "https://gitlab.com/zughy-friends-minetest/balloon_bop",
+  "score": 152.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/aefa78503a.png",
+    "https://content.luanti.org/uploads/0576623e11.png",
+    "https://content.luanti.org/uploads/623689cb99.png"
+  ],
+  "short_description": "Based on ExeVirus's Balloon Bash Ludum Dare submission, comes a minigame for Arena_lib all about Popping huge quantities of balloons and not letting them touch the ground.",
+  "state": "APPROVED",
+  "tags": [
+    "mini-game"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/aefa78503a.png",
+  "title": "Balloon Bop",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/MisterE/balloon_bop/releases/29048/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "MisterE/balloon_bop": [
+      {
+        "is_optional": false,
+        "name": "arena_lib",
+        "packages": [
+          "Zughy/arena_lib"
+        ]
+      }
+    ],
+    "Zughy/arena_lib": [
+      {
+        "is_optional": false,
+        "name": "signs_lib",
+        "packages": [
+          "zanderdev/skyblock_zero",
+          "debiankaios/proxima_survival",
+          "mt-mods/blockcolor",
+          "Wuzzy/hades_revisited",
+          "Kimapr/nonsensical_skyblock",
+          "EmptyStar/asuna",
+          "mt-mods/signs_lib",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "lib_chatcmdbuilder",
+        "packages": [
+          "rubenwardy/lib_chatcmdbuilder",
+          "MisterE/blockbomber_editor",
+          "hilol/epic_combat",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "audio_lib",
+        "packages": [
+          "Zughy/audio_lib"
+        ]
+      }
+    ]
+  },
+  "hash": "1g4p9gr7biysfmr2r3wbfk48h3db9h3knagd6vpscgx9mqpk7i6j"
+}

@@ -1,1 +1,678 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2023-01-08T04:41:16.703350","dev_state":null,"donate_url":null,"downloads":5047,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"bell07","name":"whynot_game","release":29789,"short_description":"Aims to get all existing high quality mods working together","thumbnail":"https://content.luanti.org/thumbnails/1/6f56447689.png","title":"WhyNot?","type":"game"},"supports":true},{"confidence":1,"game":{"author":"1248","name":"castrum","release":4788,"short_description":"You are on a floor plan of a castle. Collect resources and rebuild the old castle ","thumbnail":"https://content.luanti.org/thumbnails/1/68ovEdgCu3.png","title":"Castrum","type":"game"},"supports":true},{"confidence":1,"game":{"author":"hilol","name":"epic_combat","release":27975,"short_description":"Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.","thumbnail":"https://content.luanti.org/thumbnails/1/a0b633cedd.png","title":"Epic Combat","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Big_Caballito","name":"no_mans_land","release":8685,"short_description":"Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore","thumbnail":"https://content.luanti.org/thumbnails/1/968d27792c.png","title":"No Man's Land","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Kimapr","name":"nonsensical_skyblock","release":27427,"short_description":"skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr","thumbnail":"https://content.luanti.org/thumbnails/1/2f8309e348.png","title":"Nonsensical Skyblock","type":"game"},"supports":true},{"confidence":1,"game":{"author":"KareaGhandTrail","name":"block_assault","release":28330,"short_description":"A first person shooter game with multiple features","thumbnail":"https://content.luanti.org/thumbnails/1/39c5592543.png","title":"CS:MT (BlockAssault)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":1,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":true},{"confidence":1,"game":{"aliases":["VanessaE/dreambuilder_game"],"author":"mt-mods","name":"dreambuilder_game","release":29790,"short_description":"Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.","thumbnail":"https://content.luanti.org/thumbnails/1/881d766d45.png","title":"Dreambuilder Game","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Noodlemire","name":"voxeldungeon","release":9212,"short_description":"This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.","thumbnail":"https://content.luanti.org/thumbnails/1/80LJjnqDJn.png","title":"Voxel Dungeon","type":"game"},"supports":true},{"confidence":1,"game":{"author":"1248","name":"regnum","release":28584,"short_description":"Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.","thumbnail":"https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png","title":"Regnum","type":"game"},"supports":true},{"confidence":1,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true},{"confidence":1,"game":{"author":"EmptyStar","name":"asuna","release":29620,"short_description":"A vibrant world of beautiful biomes. Explore, discover, create.","thumbnail":"https://content.luanti.org/thumbnails/1/f334649d84.png","title":"Asuna","type":"game"},"supports":true},{"confidence":1,"game":{"author":"PetiAPocok","name":"minetest_extended","release":7305,"short_description":"The extended version of the default Minetest Game.","thumbnail":"https://content.luanti.org/thumbnails/1/GAjAavITNq.png","title":"Minetest Extended","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Casimir","name":"voxelgarden","release":29784,"short_description":"A classic game for exploring, survival and building. Maintained by rudzik8","thumbnail":"https://content.luanti.org/thumbnails/1/d936c3fce1.png","title":"Voxelgarden","type":"game"},"supports":true},{"confidence":1,"game":{"author":"KareaGhandTrail","name":"block_assault_mapmaker","release":21764,"short_description":"This game is focused to make maps for BlockAssault [BA.S]","thumbnail":"https://content.luanti.org/thumbnails/1/ae4d37c05f.png","title":"BlockAssault MapMaker","type":"game"},"supports":true},{"confidence":1,"game":{"author":"1248","name":"regnum2","release":28585,"short_description":"This is the second part of Regnum","thumbnail":"https://content.luanti.org/thumbnails/1/Hmlddw7prL.png","title":"Regnum 2","type":"game"},"supports":true},{"confidence":1,"game":{"author":"TheFanne","name":"raining_nodes","release":1787,"short_description":"Survive in a strange world where nodes constantly rain down from the sky!","thumbnail":"https://content.luanti.org/thumbnails/1/VgGn91cicQ.png","title":"Raining Nodes","type":"game"},"supports":true}],"issue_tracker":"https://github.com/mt-historical/bweapons_modpack/issues","license":"GPL-3.0-only","long_description":"# Bweapons modpack\nBweapons aims at providing a full progression of ranged weapons, from primitive bows to sci-fi rifles or magic staves and spellbooks. Modpack also provides an API to easily make your own weapons.  \nContent packs are split into separate mods, so if you don't like something (for example you only want to leave magic), you can simply disable them.  \n\n## Requirements\n**Minetest 5.0.0+**  \n**Minetest_game 5.0.0+**  \n\nFull list of requirements:\n\n- default, tnt (parts of minetest_game, default)\n- [technic](https://github.com/minetest-mods/technic) (optional, but strongly recommended)\n- [mana](https://repo.or.cz/minetest_mana.git) (optional, but strongly recommended)\n- [magic_materials](https://github.com/mt-historical/magic_materials) (dependency for bweapons_magic_pack)\n- [basic_materials](https://gitlab.com/VanessaE/basic_materials) (dependency of technic, and also for bweapons_firearms_pack)\n\n## Recommended mods\n- [gadgets_modpack](https://github.com/mt-historical/gadgets_modpack) (Together with gadgets_modpack forms a single combat, status effect and magic system)\n- [craftguide](https://github.com/minetest-mods/craftguide) (explore crafting recipes of the new items)\n\n# List of mods in modpack\n- ### bweapons_api\n\n    API, implementing all of bweapons functionality and required by actual weapon packs\n\n    **Requires** : default, [technic](https://github.com/minetest-mods/technic)  (optional), [mana](https://repo.or.cz/minetest_mana.git) (optional)\n\n- ### bweapons_firearms_pack\n\n    Pack of weapons, consisting of:\n\n    - Pump-action shotgun\n    - Double-barreled shotgun\n    - Pistol\n    - Rifle\n    - Grenade launcher\n\n    **Requires** : default, tnt, [basic_materials](https://gitlab.com/VanessaE/basic_materials), [technic](https://github.com/minetest-mods/technic) \n\n- ### bweapons_bows_pack\n\n    Pack of weapons, consisting of:\n\n    - Wooden bow\n    - Crossbow\n\n    **Requires** : default\n\n- ### bweapons_hitech_pack\n\n    Pack of weapons, consisting of:\n\n    - Particle Blaster\n    - Laser Gun\n    - Plasma Gun\n    - Rail Gun\n    - Rocket Launcher\n\n    **Requires** : default, tnt, [basic_materials](https://gitlab.com/VanessaE/basic_materials), [technic](https://github.com/minetest-mods/technic) \n\n- ### bweapons_magic_pack\n\n    Pack of weapons, consisting of:\n\n    - Tome Of Fireball\n    - Tome Of Ice Shard\n    - Tome Of Electrosphere\n    - Staff Of Light\n    - Staff Of Magic\n    - Staff Of Void\n\n    **requires**: default, [magic_materials](https://github.com/mt-historical/magic_materials) \n\n- ### bweapons_utility_pack\n\n    Pack of utilities, consisting of:\n\n    - Torch bow\n\n    **Requires** : default\n\n## Tips\nMagic weapons have following world interactions:\n\n- Fireball will set some nodes on fire, if server fire is enabled\n- Ice shard will freeze water and cool down lava sources into obsidian and flowing lava into stone\n- Electrosphere will turn sand into glass\n- Void staff will destroy a single node it hits\n\nAll interactions respect area protection\n\nRailgun, apart from requiring ammo also needs to be charged with technic EUs.  \n\nMagic tomes use mana and don't wear down, wear bar of staves represent their \"charge\", and they can be recharged by combining them with februm crystals on the crafting grid.\n\n## Settingtypes\nModpack provides some settings, accessible via \"Settings->All Settings->Mods->bweapons_api  \nYou can also put these settings directly to your minetest.conf\n\n```\nbweapons_combine_velocity = false\nCombines current player velocity with projectile velocity. Disabled by default since it modifies\nprojectile speed and can potentionally decrease collision detection effectivenes (if it's too fast).\n\nbweapons_damage_multiplier = 1\nGlobal weapon damage multiplier.\n\nbweapons_projectile_raycast_distance = 0.5\nLength of a projectile raycast, performed on each server step, used for collision detection.\nBigger values means better detection, but also the projectile would stop further from the\nactual target.\n```\n\n## Making your own weapons\nTo define weapons in your own mod you need to call `bweapons.register_weapon(def)`\nwhere `def` is a definition table. To see a complete list of possible definition options (with comments)\nrefer to **[this document](bweapons_api/documentation.txt)**.\n\nAlthough not required, but bweapons_api provides a second function, for\nconvenient ammo registration `bweapons.register_ammo(def)`. List of available definition\noptions can be found in the documentation mentioned above.\n\nAlso, you can see already defined weapon packs for reference, however, keep in mind, they don't contain all possible options.\n\n## Limitations\nCollision detection for projectiles is not perfect. It's much better than it was before (prior to minetest 5.0.0 it was very hacky, now it uses raycasting), however keep in mind to not make projectiles too fast, otherwise they might go through objects and nodes.  \nIf you still want to make projectiles fast, there's a settingtypes.txt option that you can put in your minetest.conf, to increase length of the raycast ray that's used for collision detection in projectiles:\n```\nbweapons_projectile_raycast_distance = 0.5\n```\n\n## License\nAll code is GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources not covered in the \"credits\" section are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  \n\n## Credits\nSounds from following users of freesound.org were mixed, cut, edited and used to produce sounds in this modpack:\n\n- firestorm185 - energy hum sound\n- qubodup - explosion\n- kastenfrosch - cannonball\n- qubodup - cannon shot\n- panxozerok - instant chill\n- selector - rocket launch\n- florianreichelt - huge explosion\n- wcoltd - laser4\n- adrimb96 - fairy sound\n- mattiagiovanetti - laser gun shots iii\n- tjcason - shortlasersound\n- nettimatto - mini crossbow foley\n- qubodup - launching shooting propelled grenade\n- saturdaysoundguy - longbow release 1\n- kinoton - whoosh 1\n- drmaysta - cartoon arrow hit\n- arcandio - razorback archery\n- lensflare8642 - shotgun sounds\n- nioczkus - 1911 reload\n- lemudcrab - grenade launcher\n- nioczkus - browning hi power\n- nioczkus - darkscape 1911 a1\n- qubodup - fire-spell\n- samararaine - bonfire being lit\n- midimagician - fire burning loop\n- qubodup - tree burns down\n- qubodup - fire magic spell sound effect\n- spookymodem - magicsmite\n- lamamakesmusic - step ice break 01\n- steffcaffrey - chimes\n- spookymodem - hitting wall\n- adrimb86 - fairy sound\n- terminallynerdy - timestop\n- slugzilla - phoenixscreech1\n- bajko - sfx thunder blast\n- joelaudio - electric zap 001\n- dave-welsh - thunder-clap-owb-ky-441x16\n- quaker540 - supernatural-explosion\n- northern87 - barbecue-fire-northern87\n- cyberkineticfilms - strange-teleport-sound\n- slugzilla - phoenixscreech1\n- zenithinfinitivestudios - fantasy-ui-button-1\n- 221beimesche - glass-shattering-and-falling\n- sclolex - tunneldrone\n\nAll sounds listed above were licensed as CC0. Produced sounds are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)","maintainers":["mt-mods"],"media_license":"CC-BY-4.0","name":"bweapons_modpack","provides":["bweapons_api","bweapons_bows_pack","bweapons_firearms_pack","bweapons_hitech_pack","bweapons_magic_pack","bweapons_utility_pack"],"release":16441,"repo":"https://github.com/mt-historical/bweapons_modpack","score":387.8,"screenshots":["https://content.luanti.org/uploads/3a26d8945e.png"],"short_description":"A weapons modpack aiming at providing a complete, technologic and magic progression of ranged weapons, along with an API to easily make your own ones.","state":"APPROVED","tags":["adventure__rpg","shooter"],"thumbnail":"https://content.luanti.org/thumbnails/1/3a26d8945e.png","title":"bweapons modpack","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/bweapons_modpack/releases/16441/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AwesomeDragon97/tnt":[{"is_optional":false,"name":"algae","packages":["Just_Visiting/algae"]},{"is_optional":false,"name":"fire","packages":["AiTechEye/xaenvironment","Noodlemire/voxeldungeon","sunnysideup/holidayhorrors","Amaz/lordofthetest","1248/castrum","StarNinjas/veil_of_the_unknown","Minetest/minetest_game","1248/regnum","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","Kimapr/nonsensical_skyblock","JavaFXpert/qiskitblocks","Big_Caballito/no_mans_land","MeseCraft/mesecraft","TheFanne/raining_nodes","PetiAPocok/minetest_extended","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","rubenwardy/capturetheflag","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"bonemeal","packages":["Wuzzy/mineclone2","TenPlus1/bonemeal","bell07/whynot_game","Kimapr/nonsensical_skyblock","MeseCraft/mesecraft","EmptyStar/asuna","mt-mods/dreambuilder_game"]}],"mt-mods/basic_materials":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"mt-mods/bweapons_modpack":[{"is_optional":false,"name":"magic_materials","packages":["mt-mods/magic_materials","MeseCraft/mesecraft"]},{"is_optional":false,"name":"tnt","packages":["StarNinjas/jail_escape","Noodlemire/voxeldungeon","AwesomeDragon97/tnt","1248/castrum","Minetest/minetest_game","1248/regnum","1248/regnum2","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","Kimapr/nonsensical_skyblock","Big_Caballito/no_mans_land","hilol/epic_combat","TheFanne/raining_nodes","PetiAPocok/minetest_extended","MeseCraft/mesecraft","EmptyStar/asuna","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"basic_materials","packages":["mt-mods/basic_materials","BuckarooBanzay/mesecons_lab","joe7575/techage_modpack","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"technic","packages":["BuckarooBanzay/mesecons_lab","mt-mods/technic_plus_beta","1248/regnum","1248/regnum2","Kimapr/nonsensical_skyblock","RealBadAngel/technic","mt-mods/technic_plus","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"mt-mods/magic_materials":[{"is_optional":false,"name":"farming","packages":["Noodlemire/voxeldungeon","UnbrokenUnworn/modular_portals","Amaz/lordofthetest","1248/castrum","1248/regnum","Minetest/minetest_game","carlos_rupp/berzerkpt","TenPlus1/farming","1248/regnum2","miroptics/qiskitblocks_miro","Casimir/voxelgarden","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","bell07/whynot_game","jgordon510/gridlocks","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"bucket","packages":["Noodlemire/voxeldungeon","IcyDiamond/fluid_lib","Amaz/lordofthetest","daret/bucket","1248/castrum","Minetest/minetest_game","1248/regnum","debiankaios/proxima_survival","1248/regnum2","Casimir/voxelgarden","Luanti/devtest","Kimapr/nonsensical_skyblock","rheo/bucket","bell07/whynot_game","Big_Caballito/no_mans_land","hilol/epic_combat","TheFanne/raining_nodes","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"mt-mods/technic_plus_beta":[{"is_optional":false,"name":"basic_materials","packages":["mt-mods/basic_materials","BuckarooBanzay/mesecons_lab","joe7575/techage_modpack","Kimapr/nonsensical_skyblock","bell07/whynot_game","MeseCraft/mesecraft","rlars/occupymoon_game","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"default","packages":["AiTechEye/xaenvironment","Hi_World/newplanet","Noodlemire/voxeldungeon","JALdMIC/survivethedays","sunnysideup/holidayhorrors","BuckarooBanzay/mesecons_lab","nam/porko","Amaz/lordofthetest","1248/castrum","Thunder1035/etb","1248/regnum","Minetest/minetest_game","debiankaios/proxima_survival","carlos_rupp/berzerkpt","1248/regnum2","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","JavaFXpert/qiskitblocks","Kimapr/nonsensical_skyblock","jgordon510/gridlocks","giga-turbo/codecube","niwla23/runorfall","Thunder1035/pacman","Big_Caballito/no_mans_land","MeseCraft/mesecraft","hilol/epic_combat","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","mooD_Slayer/ksurvive","EmptyStar/asuna","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]},{"is_optional":false,"name":"pipeworks","packages":["BuckarooBanzay/mesecons_lab","zanderdev/skyblock_zero","1248/regnum","1248/regnum2","Wuzzy/hades_revisited","Kimapr/nonsensical_skyblock","rlars/occupymoon_game","mt-mods/pipeworks","mt-mods/dreambuilder_game"]}]},"hash":"1fjzqfzyq5wy75jhh21af56qzpignjrg9ac4sk8wzn8md5qv0igv"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2023-01-08T04:41:16.703350",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 5047,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 29789,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "castrum",
+        "release": 4788,
+        "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/68ovEdgCu3.png",
+        "title": "Castrum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Big_Caballito",
+        "name": "no_mans_land",
+        "release": 8685,
+        "short_description": "Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
+        "title": "No Man's Land",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault",
+        "release": 28330,
+        "short_description": "A first person shooter game with multiple features",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/39c5592543.png",
+        "title": "CS:MT (BlockAssault)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": [
+          "VanessaE/dreambuilder_game"
+        ],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 29790,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 28584,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 29620,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 29784,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault_mapmaker",
+        "release": 21764,
+        "short_description": "This game is focused to make maps for BlockAssault [BA.S]",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ae4d37c05f.png",
+        "title": "BlockAssault MapMaker",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum2",
+        "release": 28585,
+        "short_description": "This is the second part of Regnum",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/Hmlddw7prL.png",
+        "title": "Regnum 2",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "TheFanne",
+        "name": "raining_nodes",
+        "release": 1787,
+        "short_description": "Survive in a strange world where nodes constantly rain down from the sky!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/VgGn91cicQ.png",
+        "title": "Raining Nodes",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/mt-historical/bweapons_modpack/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "# Bweapons modpack\nBweapons aims at providing a full progression of ranged weapons, from primitive bows to sci-fi rifles or magic staves and spellbooks. Modpack also provides an API to easily make your own weapons.  \nContent packs are split into separate mods, so if you don't like something (for example you only want to leave magic), you can simply disable them.  \n\n## Requirements\n**Minetest 5.0.0+**  \n**Minetest_game 5.0.0+**  \n\nFull list of requirements:\n\n- default, tnt (parts of minetest_game, default)\n- [technic](https://github.com/minetest-mods/technic) (optional, but strongly recommended)\n- [mana](https://repo.or.cz/minetest_mana.git) (optional, but strongly recommended)\n- [magic_materials](https://github.com/mt-historical/magic_materials) (dependency for bweapons_magic_pack)\n- [basic_materials](https://gitlab.com/VanessaE/basic_materials) (dependency of technic, and also for bweapons_firearms_pack)\n\n## Recommended mods\n- [gadgets_modpack](https://github.com/mt-historical/gadgets_modpack) (Together with gadgets_modpack forms a single combat, status effect and magic system)\n- [craftguide](https://github.com/minetest-mods/craftguide) (explore crafting recipes of the new items)\n\n# List of mods in modpack\n- ### bweapons_api\n\n    API, implementing all of bweapons functionality and required by actual weapon packs\n\n    **Requires** : default, [technic](https://github.com/minetest-mods/technic)  (optional), [mana](https://repo.or.cz/minetest_mana.git) (optional)\n\n- ### bweapons_firearms_pack\n\n    Pack of weapons, consisting of:\n\n    - Pump-action shotgun\n    - Double-barreled shotgun\n    - Pistol\n    - Rifle\n    - Grenade launcher\n\n    **Requires** : default, tnt, [basic_materials](https://gitlab.com/VanessaE/basic_materials), [technic](https://github.com/minetest-mods/technic) \n\n- ### bweapons_bows_pack\n\n    Pack of weapons, consisting of:\n\n    - Wooden bow\n    - Crossbow\n\n    **Requires** : default\n\n- ### bweapons_hitech_pack\n\n    Pack of weapons, consisting of:\n\n    - Particle Blaster\n    - Laser Gun\n    - Plasma Gun\n    - Rail Gun\n    - Rocket Launcher\n\n    **Requires** : default, tnt, [basic_materials](https://gitlab.com/VanessaE/basic_materials), [technic](https://github.com/minetest-mods/technic) \n\n- ### bweapons_magic_pack\n\n    Pack of weapons, consisting of:\n\n    - Tome Of Fireball\n    - Tome Of Ice Shard\n    - Tome Of Electrosphere\n    - Staff Of Light\n    - Staff Of Magic\n    - Staff Of Void\n\n    **requires**: default, [magic_materials](https://github.com/mt-historical/magic_materials) \n\n- ### bweapons_utility_pack\n\n    Pack of utilities, consisting of:\n\n    - Torch bow\n\n    **Requires** : default\n\n## Tips\nMagic weapons have following world interactions:\n\n- Fireball will set some nodes on fire, if server fire is enabled\n- Ice shard will freeze water and cool down lava sources into obsidian and flowing lava into stone\n- Electrosphere will turn sand into glass\n- Void staff will destroy a single node it hits\n\nAll interactions respect area protection\n\nRailgun, apart from requiring ammo also needs to be charged with technic EUs.  \n\nMagic tomes use mana and don't wear down, wear bar of staves represent their \"charge\", and they can be recharged by combining them with februm crystals on the crafting grid.\n\n## Settingtypes\nModpack provides some settings, accessible via \"Settings->All Settings->Mods->bweapons_api  \nYou can also put these settings directly to your minetest.conf\n\n```\nbweapons_combine_velocity = false\nCombines current player velocity with projectile velocity. Disabled by default since it modifies\nprojectile speed and can potentionally decrease collision detection effectivenes (if it's too fast).\n\nbweapons_damage_multiplier = 1\nGlobal weapon damage multiplier.\n\nbweapons_projectile_raycast_distance = 0.5\nLength of a projectile raycast, performed on each server step, used for collision detection.\nBigger values means better detection, but also the projectile would stop further from the\nactual target.\n```\n\n## Making your own weapons\nTo define weapons in your own mod you need to call `bweapons.register_weapon(def)`\nwhere `def` is a definition table. To see a complete list of possible definition options (with comments)\nrefer to **[this document](bweapons_api/documentation.txt)**.\n\nAlthough not required, but bweapons_api provides a second function, for\nconvenient ammo registration `bweapons.register_ammo(def)`. List of available definition\noptions can be found in the documentation mentioned above.\n\nAlso, you can see already defined weapon packs for reference, however, keep in mind, they don't contain all possible options.\n\n## Limitations\nCollision detection for projectiles is not perfect. It's much better than it was before (prior to minetest 5.0.0 it was very hacky, now it uses raycasting), however keep in mind to not make projectiles too fast, otherwise they might go through objects and nodes.  \nIf you still want to make projectiles fast, there's a settingtypes.txt option that you can put in your minetest.conf, to increase length of the raycast ray that's used for collision detection in projectiles:\n```\nbweapons_projectile_raycast_distance = 0.5\n```\n\n## License\nAll code is GPLv3 [link to the license](https://www.gnu.org/licenses/gpl-3.0.en.html)  \nAll resources not covered in the \"credits\" section are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)  \n\n## Credits\nSounds from following users of freesound.org were mixed, cut, edited and used to produce sounds in this modpack:\n\n- firestorm185 - energy hum sound\n- qubodup - explosion\n- kastenfrosch - cannonball\n- qubodup - cannon shot\n- panxozerok - instant chill\n- selector - rocket launch\n- florianreichelt - huge explosion\n- wcoltd - laser4\n- adrimb96 - fairy sound\n- mattiagiovanetti - laser gun shots iii\n- tjcason - shortlasersound\n- nettimatto - mini crossbow foley\n- qubodup - launching shooting propelled grenade\n- saturdaysoundguy - longbow release 1\n- kinoton - whoosh 1\n- drmaysta - cartoon arrow hit\n- arcandio - razorback archery\n- lensflare8642 - shotgun sounds\n- nioczkus - 1911 reload\n- lemudcrab - grenade launcher\n- nioczkus - browning hi power\n- nioczkus - darkscape 1911 a1\n- qubodup - fire-spell\n- samararaine - bonfire being lit\n- midimagician - fire burning loop\n- qubodup - tree burns down\n- qubodup - fire magic spell sound effect\n- spookymodem - magicsmite\n- lamamakesmusic - step ice break 01\n- steffcaffrey - chimes\n- spookymodem - hitting wall\n- adrimb86 - fairy sound\n- terminallynerdy - timestop\n- slugzilla - phoenixscreech1\n- bajko - sfx thunder blast\n- joelaudio - electric zap 001\n- dave-welsh - thunder-clap-owb-ky-441x16\n- quaker540 - supernatural-explosion\n- northern87 - barbecue-fire-northern87\n- cyberkineticfilms - strange-teleport-sound\n- slugzilla - phoenixscreech1\n- zenithinfinitivestudios - fantasy-ui-button-1\n- 221beimesche - glass-shattering-and-falling\n- sclolex - tunneldrone\n\nAll sounds listed above were licensed as CC0. Produced sounds are licensed under CC BY 4.0 [link to the license](https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "bweapons_modpack",
+  "provides": [
+    "bweapons_api",
+    "bweapons_bows_pack",
+    "bweapons_firearms_pack",
+    "bweapons_hitech_pack",
+    "bweapons_magic_pack",
+    "bweapons_utility_pack"
+  ],
+  "release": 16441,
+  "repo": "https://github.com/mt-historical/bweapons_modpack",
+  "score": 387.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3a26d8945e.png"
+  ],
+  "short_description": "A weapons modpack aiming at providing a complete, technologic and magic progression of ranged weapons, along with an API to easily make your own ones.",
+  "state": "APPROVED",
+  "tags": [
+    "adventure__rpg",
+    "shooter"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3a26d8945e.png",
+  "title": "bweapons modpack",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/bweapons_modpack/releases/16441/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AwesomeDragon97/tnt": [
+      {
+        "is_optional": false,
+        "name": "algae",
+        "packages": [
+          "Just_Visiting/algae"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fire",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "StarNinjas/veil_of_the_unknown",
+          "Minetest/minetest_game",
+          "1248/regnum",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "rubenwardy/capturetheflag",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "bonemeal",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "TenPlus1/bonemeal",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/basic_materials": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/bweapons_modpack": [
+      {
+        "is_optional": false,
+        "name": "magic_materials",
+        "packages": [
+          "mt-mods/magic_materials",
+          "MeseCraft/mesecraft"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "tnt",
+        "packages": [
+          "StarNinjas/jail_escape",
+          "Noodlemire/voxeldungeon",
+          "AwesomeDragon97/tnt",
+          "1248/castrum",
+          "Minetest/minetest_game",
+          "1248/regnum",
+          "1248/regnum2",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "BuckarooBanzay/mesecons_lab",
+          "joe7575/techage_modpack",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "technic",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/technic_plus_beta",
+          "1248/regnum",
+          "1248/regnum2",
+          "Kimapr/nonsensical_skyblock",
+          "RealBadAngel/technic",
+          "mt-mods/technic_plus",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "mt-mods/magic_materials": [
+      {
+        "is_optional": false,
+        "name": "farming",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "UnbrokenUnworn/modular_portals",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "carlos_rupp/berzerkpt",
+          "TenPlus1/farming",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "Casimir/voxelgarden",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "jgordon510/gridlocks",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "bucket",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "IcyDiamond/fluid_lib",
+          "Amaz/lordofthetest",
+          "daret/bucket",
+          "1248/castrum",
+          "Minetest/minetest_game",
+          "1248/regnum",
+          "debiankaios/proxima_survival",
+          "1248/regnum2",
+          "Casimir/voxelgarden",
+          "Luanti/devtest",
+          "Kimapr/nonsensical_skyblock",
+          "rheo/bucket",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "mt-mods/technic_plus_beta": [
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "BuckarooBanzay/mesecons_lab",
+          "joe7575/techage_modpack",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "AiTechEye/xaenvironment",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "1248/regnum",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "EmptyStar/asuna",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "pipeworks",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "zanderdev/skyblock_zero",
+          "1248/regnum",
+          "1248/regnum2",
+          "Wuzzy/hades_revisited",
+          "Kimapr/nonsensical_skyblock",
+          "rlars/occupymoon_game",
+          "mt-mods/pipeworks",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1fjzqfzyq5wy75jhh21af56qzpignjrg9ac4sk8wzn8md5qv0igv"
+}

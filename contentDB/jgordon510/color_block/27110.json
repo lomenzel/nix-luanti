@@ -1,1 +1,49 @@
-{"author":"jgordon510","content_warnings":[],"created_at":"2024-09-05T02:56:49.175089","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1219,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/jgordon510/minetest_color_block/issues","license":"GPL-2.0-or-later","long_description":"Game Rules:\n\n1. When a color is shown, quickly run to that color on the playing field.\n2. If you're standing on the wrong color when the timer runs out, you're out of the game.\n3. Each round gets faster, so stay alert and be ready to move quickly!\n4. The last player remaining on the correct color wins!\n\nEnjoy the game with your friends, and see who can keep up as the rounds get faster!","maintainers":["jgordon510"],"media_license":"CC-BY-SA-3.0","name":"color_block","provides":["color_block","player_api"],"release":27110,"repo":"https://github.com/jgordon510/minetest_color_block/","score":53.9,"screenshots":["https://content.luanti.org/uploads/6d1776fff7.png"],"short_description":"A simple multiplayer color block game.  Race to the colored blocks before they disappear.  The last player standing wins!","state":"APPROVED","tags":["education","mini-game","multiplayer","pvp"],"thumbnail":"https://content.luanti.org/thumbnails/1/6d1776fff7.png","title":"Color Block","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/jgordon510/color_block/releases/27110/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"jgordon510/color_block":[]},"hash":"0kgrp8pyh5a8sn4vfhmsnj2a7i6agcnn5ffpcnnfqjj83kbf62ln"}
+{
+  "author": "jgordon510",
+  "content_warnings": [],
+  "created_at": "2024-09-05T02:56:49.175089",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1219,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/jgordon510/minetest_color_block/issues",
+  "license": "GPL-2.0-or-later",
+  "long_description": "Game Rules:\n\n1. When a color is shown, quickly run to that color on the playing field.\n2. If you're standing on the wrong color when the timer runs out, you're out of the game.\n3. Each round gets faster, so stay alert and be ready to move quickly!\n4. The last player remaining on the correct color wins!\n\nEnjoy the game with your friends, and see who can keep up as the rounds get faster!",
+  "maintainers": [
+    "jgordon510"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "color_block",
+  "provides": [
+    "color_block",
+    "player_api"
+  ],
+  "release": 27110,
+  "repo": "https://github.com/jgordon510/minetest_color_block/",
+  "score": 53.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6d1776fff7.png"
+  ],
+  "short_description": "A simple multiplayer color block game.  Race to the colored blocks before they disappear.  The last player standing wins!",
+  "state": "APPROVED",
+  "tags": [
+    "education",
+    "mini-game",
+    "multiplayer",
+    "pvp"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6d1776fff7.png",
+  "title": "Color Block",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/jgordon510/color_block/releases/27110/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "jgordon510/color_block": []
+  },
+  "hash": "0kgrp8pyh5a8sn4vfhmsnj2a7i6agcnn5ffpcnnfqjj83kbf62ln"
+}

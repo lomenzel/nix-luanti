@@ -1,1 +1,45 @@
-{"author":"Kimapr","content_warnings":[],"created_at":"2022-12-03T11:19:56.945038","dev_state":null,"donate_url":null,"downloads":285,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":null,"license":"MIT","long_description":"# `advfload` - advanced forceload library\n\nA Minetest forceloading library. Internally uses transient Minetest API forceloads.\n\n## Features:\n\n- Named area forceloads.\n- Forceload limit is neutralized.\n- Exposes information about forceloads to other mods.\n- Persistent forceloads (as well as transient).\n\n## Usage\n\n    advfload.start(name, blockpos[, persistent])\n    -- Starts forceload `name` at block position `blockpos` (Minetest vector).\n    -- If a forceload with the same name exists, it will be replaced.\n    -- Persists the forceload after server restart if `persistent` is truthy.\n    -- Returns true if successful, false and an error string otherwise.\n    \n    advfload.start(name, blockpos1, blockpos2[, persistent])\n    -- Starts forceload `name` in block area `blockpos1`-`blockpos2`.\n    \n    advfload.stop(name)\n    -- Stops forceload `name`\n    -- Returns true if successful, false and an error string otherwise.\n    \n    advfload.query(name)\n    -- Returns information about forceload `name`. Returns nil if non-existent.\n    -- ex. advfload.query(\"test\") -> {pos1={x=5,y=-1,z=1}, pos2={x=6,y=0,z=3}, persistent=true}\n    \n    advfload.query(blockpos[, blockpos2])\n    -- Returns all forceloads at `blockpos` (or block area `blockpos`-`blockpos2`)\n    -- {\n    --   -- started with advfload.start\n    --   test = {pos1={x=5,y=0,z=-1}, pos2={x=6,y=1,z=-1}, persistent=true},\n    --\n    --   -- started with minetest.forceload_block\n    --   -- name format: \"(minetest)$transient$pos\" where:\n    --   -- $transient: \"P\" if persistent, \"T\" if transient\n    --   -- $pos: minetest.pos_to_string(blockpos)\n    --   [\"(minetest)T(5,1,-1)\"]={\n    --     pos1={x=5,y=0,z=-1}, pos2={x=5,y=0,z=-1},\n    --     persistent=false, count=3\n    --   }\n    -- }\n    \n    advfload.query()\n    -- Returns all forceloads.\n    \n    minetest.forceload_block(pos[, transient])\n    -- Increments (if exists) or starts (if not) a \"(minetest)...\" forceload at the block the node `pos` is in.\n    -- Persists the forceload if `transient` is falsy.\n    -- Transient and persistent forceloads are separate.\n    -- Returns true if successful, false otherwise.\n    \n    minetest.forceload_free_block(pos[, transient])\n    -- Decrements or stops a \"(minetest)...\" forceload at the block the node `pos` is in.\n    -- Returns nil if no forceload was found, true if decremented/stopped successfully, false otherwise.\n","maintainers":["Kimapr"],"media_license":"MIT","name":"advfload","provides":["advfload"],"release":15784,"repo":"https://gitlab.com/Kimapr/advfload","score":3.1,"screenshots":["https://content.luanti.org/uploads/90451b425d.png"],"short_description":"a better forceloading API","state":"APPROVED","tags":["library"],"thumbnail":"https://content.luanti.org/thumbnails/1/90451b425d.png","title":"Advanced Forceload","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Kimapr/advfload/releases/15784/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Kimapr/advfload":[]},"hash":"04a8prhdvxadny2gbqczsnlmcjsfzh3zwfdh7dmsxd3f3dnxhn3x"}
+{
+  "author": "Kimapr",
+  "content_warnings": [],
+  "created_at": "2022-12-03T11:19:56.945038",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 285,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# `advfload` - advanced forceload library\n\nA Minetest forceloading library. Internally uses transient Minetest API forceloads.\n\n## Features:\n\n- Named area forceloads.\n- Forceload limit is neutralized.\n- Exposes information about forceloads to other mods.\n- Persistent forceloads (as well as transient).\n\n## Usage\n\n    advfload.start(name, blockpos[, persistent])\n    -- Starts forceload `name` at block position `blockpos` (Minetest vector).\n    -- If a forceload with the same name exists, it will be replaced.\n    -- Persists the forceload after server restart if `persistent` is truthy.\n    -- Returns true if successful, false and an error string otherwise.\n    \n    advfload.start(name, blockpos1, blockpos2[, persistent])\n    -- Starts forceload `name` in block area `blockpos1`-`blockpos2`.\n    \n    advfload.stop(name)\n    -- Stops forceload `name`\n    -- Returns true if successful, false and an error string otherwise.\n    \n    advfload.query(name)\n    -- Returns information about forceload `name`. Returns nil if non-existent.\n    -- ex. advfload.query(\"test\") -> {pos1={x=5,y=-1,z=1}, pos2={x=6,y=0,z=3}, persistent=true}\n    \n    advfload.query(blockpos[, blockpos2])\n    -- Returns all forceloads at `blockpos` (or block area `blockpos`-`blockpos2`)\n    -- {\n    --   -- started with advfload.start\n    --   test = {pos1={x=5,y=0,z=-1}, pos2={x=6,y=1,z=-1}, persistent=true},\n    --\n    --   -- started with minetest.forceload_block\n    --   -- name format: \"(minetest)$transient$pos\" where:\n    --   -- $transient: \"P\" if persistent, \"T\" if transient\n    --   -- $pos: minetest.pos_to_string(blockpos)\n    --   [\"(minetest)T(5,1,-1)\"]={\n    --     pos1={x=5,y=0,z=-1}, pos2={x=5,y=0,z=-1},\n    --     persistent=false, count=3\n    --   }\n    -- }\n    \n    advfload.query()\n    -- Returns all forceloads.\n    \n    minetest.forceload_block(pos[, transient])\n    -- Increments (if exists) or starts (if not) a \"(minetest)...\" forceload at the block the node `pos` is in.\n    -- Persists the forceload if `transient` is falsy.\n    -- Transient and persistent forceloads are separate.\n    -- Returns true if successful, false otherwise.\n    \n    minetest.forceload_free_block(pos[, transient])\n    -- Decrements or stops a \"(minetest)...\" forceload at the block the node `pos` is in.\n    -- Returns nil if no forceload was found, true if decremented/stopped successfully, false otherwise.\n",
+  "maintainers": [
+    "Kimapr"
+  ],
+  "media_license": "MIT",
+  "name": "advfload",
+  "provides": [
+    "advfload"
+  ],
+  "release": 15784,
+  "repo": "https://gitlab.com/Kimapr/advfload",
+  "score": 3.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/90451b425d.png"
+  ],
+  "short_description": "a better forceloading API",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/90451b425d.png",
+  "title": "Advanced Forceload",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Kimapr/advfload/releases/15784/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Kimapr/advfload": []
+  },
+  "hash": "04a8prhdvxadny2gbqczsnlmcjsfzh3zwfdh7dmsxd3f3dnxhn3x"
+}

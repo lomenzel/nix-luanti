@@ -1,1 +1,171 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2024-09-26T20:09:24.439639","dev_state":"BETA","donate_url":null,"downloads":206,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":null,"license":"CC0-1.0","long_description":"# wc_fungi\nAn overhaul to fungi in Nodecore, with all new mechanics!\n","maintainers":["Winter94"],"media_license":"CC0-1.0","name":"wc_fungi","provides":["wc_fungi"],"release":27998,"repo":"https://github.com/wintersknight94/wc_fungi","score":5.1,"screenshots":["https://content.luanti.org/uploads/ca59dd4b92.png"],"short_description":"Adds various fungi to NodeCore, in all their mycelial glory.","state":"APPROVED","tags":["environment","mapgen"],"thumbnail":"https://content.luanti.org/thumbnails/1/ca59dd4b92.png","title":"NodeCore Fungi","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/wc_fungi/releases/27998/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wc_fungi":[{"is_optional":false,"name":"nc_flora","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_stonework","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_tree","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"wc_lib_resources","packages":["Winter94/wc_lib_resources"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}],"Winter94/wc_lib_resources":[{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lux","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_fire","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lode","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"1w9350k3ns4dplqf5dv6fn69fxmgmjm6jkmbr0kg1xrm84h10k70"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2024-09-26T20:09:24.439639",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 206,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC0-1.0",
+  "long_description": "# wc_fungi\nAn overhaul to fungi in Nodecore, with all new mechanics!\n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "wc_fungi",
+  "provides": [
+    "wc_fungi"
+  ],
+  "release": 27998,
+  "repo": "https://github.com/wintersknight94/wc_fungi",
+  "score": 5.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/ca59dd4b92.png"
+  ],
+  "short_description": "Adds various fungi to NodeCore, in all their mycelial glory.",
+  "state": "APPROVED",
+  "tags": [
+    "environment",
+    "mapgen"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ca59dd4b92.png",
+  "title": "NodeCore Fungi",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_fungi/releases/27998/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_fungi": [
+      {
+        "is_optional": false,
+        "name": "nc_flora",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_stonework",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_tree",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_lib_resources",
+        "packages": [
+          "Winter94/wc_lib_resources"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ],
+    "Winter94/wc_lib_resources": [
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "1w9350k3ns4dplqf5dv6fn69fxmgmjm6jkmbr0kg1xrm84h10k70"
+}

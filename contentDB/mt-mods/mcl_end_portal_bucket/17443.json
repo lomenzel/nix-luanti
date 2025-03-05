@@ -1,1 +1,82 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2023-03-08T21:14:52.759380","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":2797,"forum_url":"https://forum.luanti.org/viewtopic.php?t=29260","forums":29260,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/mt-mods/mcl_end_portal_bucket/issues","license":"MIT","long_description":"# End Portal Buckets for MineClone2\nAdds an easy way to access the end from anywhere by carrying an placeable end portal in a bucket.\n## Credits\n* Code - PrairieWind\n* Textures - FossFanatic\n## Licenses\n* Code - MIT\n* Texture(s) - CC BY-SA 4.0","maintainers":["mt-mods"],"media_license":"CC-BY-SA-4.0","name":"mcl_end_portal_bucket","provides":["mcl_end_portal_bucket"],"release":17443,"repo":"https://github.com/mt-mods/mcl_end_portal_bucket.git","score":-124.9,"screenshots":["https://content.luanti.org/uploads/09e63548b8.png"],"short_description":"Adds an easy way to carry the end portal where ever you go in MineClone2.","state":"APPROVED","tags":["tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/09e63548b8.png","title":"End Portal Buckets for MineClone 2","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/mcl_end_portal_bucket/releases/17443/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"mt-mods/mcl_end_portal_bucket":[{"is_optional":false,"name":"mcl_buckets","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"1wsc8ph61379g8p1nvdniyhdv6sll2mci10gh0641r6fxs0clqfy"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2023-03-08T21:14:52.759380",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 2797,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29260",
+  "forums": 29260,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/mt-mods/mcl_end_portal_bucket/issues",
+  "license": "MIT",
+  "long_description": "# End Portal Buckets for MineClone2\nAdds an easy way to access the end from anywhere by carrying an placeable end portal in a bucket.\n## Credits\n* Code - PrairieWind\n* Textures - FossFanatic\n## Licenses\n* Code - MIT\n* Texture(s) - CC BY-SA 4.0",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "mcl_end_portal_bucket",
+  "provides": [
+    "mcl_end_portal_bucket"
+  ],
+  "release": 17443,
+  "repo": "https://github.com/mt-mods/mcl_end_portal_bucket.git",
+  "score": -124.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/09e63548b8.png"
+  ],
+  "short_description": "Adds an easy way to carry the end portal where ever you go in MineClone2.",
+  "state": "APPROVED",
+  "tags": [
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/09e63548b8.png",
+  "title": "End Portal Buckets for MineClone 2",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/mcl_end_portal_bucket/releases/17443/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mt-mods/mcl_end_portal_bucket": [
+      {
+        "is_optional": false,
+        "name": "mcl_buckets",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1wsc8ph61379g8p1nvdniyhdv6sll2mci10gh0641r6fxs0clqfy"
+}

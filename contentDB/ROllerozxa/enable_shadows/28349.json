@@ -1,1 +1,46 @@
-{"author":"ROllerozxa","content_warnings":[],"created_at":"2022-05-01T19:07:51.175108","dev_state":"AS_IS","donate_url":"https://voxelmanip.se/donate/","downloads":5094,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/rollerozxa/minetest-enable-shadows/issues","license":"MIT","long_description":"Since recent versions of Minetest 5.6.0-dev the dynamic shadow feature has been disabled by default, being required to be enabled by the game or modset you're using. This is a small mod that is compatible with any game\\* and that can reenable shadows and control its intensity per-world.\n\n\\*Only intended to work with games that have no code in place for shadows. Games that already contain code to control or block shadows (e.g. Minetest Game or NodeCore) will have no effect or behave weirdly with this mod.","maintainers":["ROllerozxa"],"media_license":"MIT","name":"enable_shadows","provides":["enable_shadows"],"release":28349,"repo":"https://github.com/rollerozxa/minetest-enable-shadows","score":361.8,"screenshots":["https://content.luanti.org/uploads/69c06f1efc.png"],"short_description":"Reenable dynamic shadows for 5.6.0+","state":"APPROVED","tags":["chat","environment"],"thumbnail":"https://content.luanti.org/thumbnails/1/69c06f1efc.png","title":"Enable Shadows","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ROllerozxa/enable_shadows/releases/28349/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ROllerozxa/enable_shadows":[]},"hash":"1gnac49dqj6npd0nz8m7nxc1b676z13lb2ny3d82b8n8qqc58fry"}
+{
+  "author": "ROllerozxa",
+  "content_warnings": [],
+  "created_at": "2022-05-01T19:07:51.175108",
+  "dev_state": "AS_IS",
+  "donate_url": "https://voxelmanip.se/donate/",
+  "downloads": 5094,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/rollerozxa/minetest-enable-shadows/issues",
+  "license": "MIT",
+  "long_description": "Since recent versions of Minetest 5.6.0-dev the dynamic shadow feature has been disabled by default, being required to be enabled by the game or modset you're using. This is a small mod that is compatible with any game\\* and that can reenable shadows and control its intensity per-world.\n\n\\*Only intended to work with games that have no code in place for shadows. Games that already contain code to control or block shadows (e.g. Minetest Game or NodeCore) will have no effect or behave weirdly with this mod.",
+  "maintainers": [
+    "ROllerozxa"
+  ],
+  "media_license": "MIT",
+  "name": "enable_shadows",
+  "provides": [
+    "enable_shadows"
+  ],
+  "release": 28349,
+  "repo": "https://github.com/rollerozxa/minetest-enable-shadows",
+  "score": 361.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/69c06f1efc.png"
+  ],
+  "short_description": "Reenable dynamic shadows for 5.6.0+",
+  "state": "APPROVED",
+  "tags": [
+    "chat",
+    "environment"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/69c06f1efc.png",
+  "title": "Enable Shadows",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ROllerozxa/enable_shadows/releases/28349/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ROllerozxa/enable_shadows": []
+  },
+  "hash": "1gnac49dqj6npd0nz8m7nxc1b676z13lb2ny3d82b8n8qqc58fry"
+}

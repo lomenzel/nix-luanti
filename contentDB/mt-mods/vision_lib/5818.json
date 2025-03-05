@@ -1,1 +1,43 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2020-04-26T09:20:52.961373","dev_state":null,"donate_url":null,"downloads":1829,"forum_url":"https://forum.luanti.org/viewtopic.php?t=372203","forums":372203,"game_support":[],"issue_tracker":"https://github.com/mt-historical/vision_lib/issues","license":"CC-BY-SA-4.0","long_description":"A library containing useful and oft-reused code that aims to reduce code recycling without compromising efficiency.\nIncludes an oredict-like material system and a set of helper functions for things like structure detection and better sounds.","maintainers":["mt-mods"],"media_license":"CC-BY-SA-4.0","name":"vision_lib","provides":["vision_lib"],"release":5818,"repo":"https://github.com/mt-historical/vision_lib","score":1.9,"screenshots":[],"short_description":"Common library for PolySaken's mods.","state":"APPROVED","tags":["library"],"thumbnail":null,"title":"Vision Lib","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/vision_lib/releases/5818/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"mt-mods/vision_lib":[]},"hash":"0rjqqf7mp6ckvw9j7dvwh8q4pz5n6ymi4yqj995sm2dynq776dvi"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2020-04-26T09:20:52.961373",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1829,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=372203",
+  "forums": 372203,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-historical/vision_lib/issues",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "A library containing useful and oft-reused code that aims to reduce code recycling without compromising efficiency.\nIncludes an oredict-like material system and a set of helper functions for things like structure detection and better sounds.",
+  "maintainers": [
+    "mt-mods"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "vision_lib",
+  "provides": [
+    "vision_lib"
+  ],
+  "release": 5818,
+  "repo": "https://github.com/mt-historical/vision_lib",
+  "score": 1.9,
+  "screenshots": [],
+  "short_description": "Common library for PolySaken's mods.",
+  "state": "APPROVED",
+  "tags": [
+    "library"
+  ],
+  "thumbnail": null,
+  "title": "Vision Lib",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/vision_lib/releases/5818/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mt-mods/vision_lib": []
+  },
+  "hash": "0rjqqf7mp6ckvw9j7dvwh8q4pz5n6ymi4yqj995sm2dynq776dvi"
+}

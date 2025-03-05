@@ -1,1 +1,61 @@
-{"author":"duckgo","content_warnings":[],"created_at":"2021-06-27T17:01:52.746741","dev_state":null,"donate_url":"https://www.buymeacoffee.com/kuacgraxa","downloads":3818,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"# mcl_multitool\n\nSo, I made this simple tool to use in my constructions, no need to change tools.\nI'm still learning, so I hope you like it and it's useful :)","maintainers":["duckgo"],"media_license":"CC-BY-4.0","name":"mcl_multitool","provides":["mcl_multitool"],"release":8254,"repo":"https://codeberg.org/duckgo/mcl_multitool","score":168.5,"screenshots":["https://content.luanti.org/uploads/2984e9119c.png"],"short_description":"4 tools in one !","state":"APPROVED","tags":["singleplayer","survival","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/2984e9119c.png","title":"Mineclone2  Multitool","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/duckgo/mcl_multitool/releases/8254/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"duckgo/mcl_multitool":[]},"hash":"1yl77lxcp630vi0kshq1lmnz33l336d46q79j7lw430j601csjdk"}
+{
+  "author": "duckgo",
+  "content_warnings": [],
+  "created_at": "2021-06-27T17:01:52.746741",
+  "dev_state": null,
+  "donate_url": "https://www.buymeacoffee.com/kuacgraxa",
+  "downloads": 3818,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# mcl_multitool\n\nSo, I made this simple tool to use in my constructions, no need to change tools.\nI'm still learning, so I hope you like it and it's useful :)",
+  "maintainers": [
+    "duckgo"
+  ],
+  "media_license": "CC-BY-4.0",
+  "name": "mcl_multitool",
+  "provides": [
+    "mcl_multitool"
+  ],
+  "release": 8254,
+  "repo": "https://codeberg.org/duckgo/mcl_multitool",
+  "score": 168.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2984e9119c.png"
+  ],
+  "short_description": "4 tools in one !",
+  "state": "APPROVED",
+  "tags": [
+    "singleplayer",
+    "survival",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2984e9119c.png",
+  "title": "Mineclone2  Multitool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/duckgo/mcl_multitool/releases/8254/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "duckgo/mcl_multitool": []
+  },
+  "hash": "1yl77lxcp630vi0kshq1lmnz33l336d46q79j7lw430j601csjdk"
+}

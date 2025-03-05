@@ -1,1 +1,46 @@
-{"author":"AntumDeluge","content_warnings":[],"created_at":"2021-05-09T08:39:09.970627","dev_state":null,"donate_url":null,"downloads":1003,"forum_url":"https://forum.luanti.org/viewtopic.php?t=18325","forums":18325,"game_support":[],"issue_tracker":"https://github.com/AntumMT/mod-whitelist/issues","license":"MIT","long_description":"### Description:\n\nAdds a simple player whitelist. Any player names not found in the whitelist are denied access to the server.\n\nForked from ShadowNinja's original [White List](https://forum.minetest.net/viewtopic.php?t=8434).\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-whitelist/blob/master/LICENSE.txt)\n\n### Usage:\n\nWhitelist can be updated by editing *whitelist.txt* in the world directory or by issuing the following in-game commands. The *ban* privilege is required for issuing chat commands.\n\nThe *whitelist.txt* file is reloaded whenever a player attempts to log on. So it can be edited without the need to restart the server.\n\n##### Chat commands:\n\n```\n/whitelist [<command> <name>]\n- Manages the whitelist.\n- Without parameters: displays all whitelisted names\n- parameters:\n\t- command:\n\t\t- query: checks if a name is whitelisted\n\t\t- add: adds a name to whitelist\n\t\t- remove: removes a names from whitelist\n\t- name: name of player\n```\n\n##### Settings:\n\n```\nwhitelist.enable\n- Enables/Disables denying access to users not on the whitelist.\n- type: bool\n- default: true\n\nwhitelist.message\n- Message displayed when access is denied.\n- type: string\n- default: This server is whitelisted and you are not on the whitelist.\n```\n\n### Requirements:\n\n- Minimum Minetest version: 5.0.0\n- Depends: none\n- Optional depends: none\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-whitelist/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-whitelist/blob/master/TODO.txt)\n\n### Alternative mods:\n\n- [![blacklist_name](https://content.minetest.net/packages/ANAND/blacklist_name/shields/title/)](https://content.minetest.net/packages/ANAND/blacklist_name/)\n- [![whitelist](https://content.minetest.net/packages/Zughy/whitelist/shields/title/)](https://content.minetest.net/packages/Zughy/whitelist/)\n\n### Similar mods:\n\n- [![anti_join](https://content.minetest.net/packages/BlueR23/anti_join/shields/title/)](https://content.minetest.net/packages/BlueR23/anti_join/)","maintainers":["AntumDeluge"],"media_license":"MIT","name":"whitelist","provides":["whitelist"],"release":14093,"repo":"https://github.com/AntumMT/mod-whitelist","score":306.1,"screenshots":["https://content.luanti.org/uploads/6494c0306c.png"],"short_description":"Restrict server access to only whitelisted players","state":"APPROVED","tags":["multiplayer","server_tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/6494c0306c.png","title":"Whiter List","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AntumDeluge/whitelist/releases/14093/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AntumDeluge/whitelist":[]},"hash":"0wb3g98pyjfw047gpk728w40k56j3mg520fk1vk0ywsljwsi3w9b"}
+{
+  "author": "AntumDeluge",
+  "content_warnings": [],
+  "created_at": "2021-05-09T08:39:09.970627",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1003,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=18325",
+  "forums": 18325,
+  "game_support": [],
+  "issue_tracker": "https://github.com/AntumMT/mod-whitelist/issues",
+  "license": "MIT",
+  "long_description": "### Description:\n\nAdds a simple player whitelist. Any player names not found in the whitelist are denied access to the server.\n\nForked from ShadowNinja's original [White List](https://forum.minetest.net/viewtopic.php?t=8434).\n\n### Licensing:\n\n- Code: [MIT](https://github.com/AntumMT/mod-whitelist/blob/master/LICENSE.txt)\n\n### Usage:\n\nWhitelist can be updated by editing *whitelist.txt* in the world directory or by issuing the following in-game commands. The *ban* privilege is required for issuing chat commands.\n\nThe *whitelist.txt* file is reloaded whenever a player attempts to log on. So it can be edited without the need to restart the server.\n\n##### Chat commands:\n\n```\n/whitelist [<command> <name>]\n- Manages the whitelist.\n- Without parameters: displays all whitelisted names\n- parameters:\n\t- command:\n\t\t- query: checks if a name is whitelisted\n\t\t- add: adds a name to whitelist\n\t\t- remove: removes a names from whitelist\n\t- name: name of player\n```\n\n##### Settings:\n\n```\nwhitelist.enable\n- Enables/Disables denying access to users not on the whitelist.\n- type: bool\n- default: true\n\nwhitelist.message\n- Message displayed when access is denied.\n- type: string\n- default: This server is whitelisted and you are not on the whitelist.\n```\n\n### Requirements:\n\n- Minimum Minetest version: 5.0.0\n- Depends: none\n- Optional depends: none\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-whitelist/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-whitelist/blob/master/TODO.txt)\n\n### Alternative mods:\n\n- [![blacklist_name](https://content.minetest.net/packages/ANAND/blacklist_name/shields/title/)](https://content.minetest.net/packages/ANAND/blacklist_name/)\n- [![whitelist](https://content.minetest.net/packages/Zughy/whitelist/shields/title/)](https://content.minetest.net/packages/Zughy/whitelist/)\n\n### Similar mods:\n\n- [![anti_join](https://content.minetest.net/packages/BlueR23/anti_join/shields/title/)](https://content.minetest.net/packages/BlueR23/anti_join/)",
+  "maintainers": [
+    "AntumDeluge"
+  ],
+  "media_license": "MIT",
+  "name": "whitelist",
+  "provides": [
+    "whitelist"
+  ],
+  "release": 14093,
+  "repo": "https://github.com/AntumMT/mod-whitelist",
+  "score": 306.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6494c0306c.png"
+  ],
+  "short_description": "Restrict server access to only whitelisted players",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "server_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6494c0306c.png",
+  "title": "Whiter List",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AntumDeluge/whitelist/releases/14093/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AntumDeluge/whitelist": []
+  },
+  "hash": "0wb3g98pyjfw047gpk728w40k56j3mg520fk1vk0ywsljwsi3w9b"
+}

@@ -1,1 +1,57 @@
-{"author":"D00Med","content_warnings":[],"created_at":"2018-05-24T19:28:39.590290","dev_state":null,"donate_url":null,"downloads":5387,"forum_url":"https://forum.luanti.org/viewtopic.php?t=14633","forums":14633,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/D00Med/mini8x/issues/","license":"CC-BY-SA-3.0","long_description":"","maintainers":["D00Med"],"media_license":"CC-BY-SA-3.0","name":"mini8x","provides":[],"release":88,"repo":"https://github.com/D00Med/mini8x","score":164.4,"screenshots":["https://content.luanti.org/uploads/rAln6HI04X.png"],"short_description":"8x texturepack.","state":"APPROVED","tags":["less_than_px"],"thumbnail":"https://content.luanti.org/thumbnails/1/rAln6HI04X.png","title":"mini8x","translation_url":null,"type":"txp","url":"https://content.luanti.org/packages/D00Med/mini8x/releases/88/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"D00Med/mini8x":[]},"hash":"1dvz16jxy932p596zxrqrml57kgga06nq9xhhxdc9v3yr8zhdrmy"}
+{
+  "author": "D00Med",
+  "content_warnings": [],
+  "created_at": "2018-05-24T19:28:39.590290",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 5387,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=14633",
+  "forums": 14633,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/D00Med/mini8x/issues/",
+  "license": "CC-BY-SA-3.0",
+  "long_description": "",
+  "maintainers": [
+    "D00Med"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mini8x",
+  "provides": [],
+  "release": 88,
+  "repo": "https://github.com/D00Med/mini8x",
+  "score": 164.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/rAln6HI04X.png"
+  ],
+  "short_description": "8x texturepack.",
+  "state": "APPROVED",
+  "tags": [
+    "less_than_px"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/rAln6HI04X.png",
+  "title": "mini8x",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/D00Med/mini8x/releases/88/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "D00Med/mini8x": []
+  },
+  "hash": "1dvz16jxy932p596zxrqrml57kgga06nq9xhhxdc9v3yr8zhdrmy"
+}

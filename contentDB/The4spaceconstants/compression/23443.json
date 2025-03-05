@@ -1,1 +1,69 @@
-{"author":"The4spaceconstants","content_warnings":[],"created_at":"2023-07-14T19:17:11.337761","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":323,"forum_url":"https://forum.luanti.org/viewtopic.php?t=29691","forums":29691,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/The4codeblocks/compression/issues","license":"GPL-3.0-only","long_description":"# compression\nUses `compression_api` to generate compressed nodes. (Only supports MTG for now)\n\nSettings: \"Maximum compression level\" changes how much each provided material is compressed.\n","maintainers":["The4spaceconstants"],"media_license":"GPL-3.0-only","name":"compression","provides":["compression"],"release":23443,"repo":"https://github.com/The4codeblocks/compression","score":2.8,"screenshots":["https://content.luanti.org/uploads/5d3f4a4d8e.png"],"short_description":"Uses compression_api to generate compressed nodes.","state":"APPROVED","tags":["storage"],"thumbnail":"https://content.luanti.org/thumbnails/1/5d3f4a4d8e.png","title":"Compression","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/The4spaceconstants/compression/releases/23443/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"The4spaceconstants/compression":[{"is_optional":false,"name":"compression_api","packages":["The4spaceconstants/compression_pack","The4spaceconstants/compression_api"]}],"The4spaceconstants/compression_pack":[]},"hash":"0qirzlccixnh87d1r3wz9y829xxz98lfrm8ssch4sq8q8r9bcyvl"}
+{
+  "author": "The4spaceconstants",
+  "content_warnings": [],
+  "created_at": "2023-07-14T19:17:11.337761",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 323,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29691",
+  "forums": 29691,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/The4codeblocks/compression/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "# compression\nUses `compression_api` to generate compressed nodes. (Only supports MTG for now)\n\nSettings: \"Maximum compression level\" changes how much each provided material is compressed.\n",
+  "maintainers": [
+    "The4spaceconstants"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "compression",
+  "provides": [
+    "compression"
+  ],
+  "release": 23443,
+  "repo": "https://github.com/The4codeblocks/compression",
+  "score": 2.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/5d3f4a4d8e.png"
+  ],
+  "short_description": "Uses compression_api to generate compressed nodes.",
+  "state": "APPROVED",
+  "tags": [
+    "storage"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/5d3f4a4d8e.png",
+  "title": "Compression",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/The4spaceconstants/compression/releases/23443/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "The4spaceconstants/compression": [
+      {
+        "is_optional": false,
+        "name": "compression_api",
+        "packages": [
+          "The4spaceconstants/compression_pack",
+          "The4spaceconstants/compression_api"
+        ]
+      }
+    ],
+    "The4spaceconstants/compression_pack": []
+  },
+  "hash": "0qirzlccixnh87d1r3wz9y829xxz98lfrm8ssch4sq8q8r9bcyvl"
+}

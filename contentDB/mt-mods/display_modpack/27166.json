@@ -1,1 +1,72 @@
-{"author":"mt-mods","content_warnings":[],"created_at":"2023-10-01T14:05:15.547902","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":6576,"forum_url":"https://forum.luanti.org/viewtopic.php?t=19365","forums":19365,"game_support":[],"issue_tracker":"https://github.com/mt-mods/display_modpack/issues","license":"LGPL-3.0-only","long_description":"This modpack provides mods with dynamic display. Mods are:\n\n- **[display_api](https://github.com/mt-mods/display_modpack/tree/master/display_api)**: A library for adding display entities to nodes;\n- **[font_api](https://github.com/mt-mods/display_modpack/tree/master/font_api)**: A library for displaying fonts on entities;\n- **[signs_api](https://github.com/mt-mods/display_modpack/tree/master/signs_api)**: A library for the easy creation of signs;\n- **[font_metro](https://github.com/mt-mods/display_modpack/tree/master/font_metro)**: A font mod used as default font (includes uppercase, lowercase and accentuated latin letters, usual signs, cyrillic and greek letters)\n\n- **[boards](https://github.com/mt-mods/display_modpack/tree/master/boards)**: A mod providing school boards (includes *tiny cursive font*, a handwriting style font);\n- **[ontime_clocks](https://github.com/mt-mods/display_modpack/tree/master/ontime_clocks)**: A mod providing clocks which display the ingame time;\n- **[signs](https://github.com/mt-mods/display_modpack/tree/master/signs)**: A mod providing signs and direction signs displaying text;\n- **[signs_road](https://github.com/mt-mods/display_modpack/tree/master/signs_road)**: A mod providing road signs displaying text;\n- **[steles](https://github.com/mt-mods/display_modpack/tree/master/steles)**: A mod providing stone steles with text;\n\nFor more information, see the [forum topic](https://forum.minetest.net/viewtopic.php?t=19365) at the Minetest forums.\n\n## Extra fonts\n\n*Metro* and *Tiny Cursive* fonts are provided in **Display Modpack** (in **font_metro** and **boards** mods) but you can add more fonts by installing font mods. Be aware that each font mod comes with numerous textures. This can result in slowing media downloading and/or client display.\n\nExtra font mods can be found here:\n\n * [OldWizard](https://github.com/pyrollo/font_oldwizard): An old style gothic font.\n * [Botic](https://github.com/pyrollo/font_botic): A scifi style font.","maintainers":["mt-mods","Niklp"],"media_license":"CC-BY-SA-3.0","name":"display_modpack","provides":["boards","display_api","font_api","font_metro","ontime_clocks","signs","signs_api","signs_road","steles"],"release":27166,"repo":"https://github.com/mt-mods/display_modpack","score":86.4,"screenshots":["https://content.luanti.org/uploads/aaac604b0f.png"],"short_description":"Provides mods with dynamic display and font display: clocks, signs, and more.","state":"APPROVED","tags":["building","decorative","education","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/aaac604b0f.png","title":"Display Modpack","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/mt-mods/display_modpack/releases/27166/download/","video_thumbnail_url":null,"video_url":null,"website":"https://github.com/mt-mods/display_modpack","dependencies":{"mt-mods/display_modpack":[{"is_optional":false,"name":"xcompat","packages":["mt-mods/xcompat","BuckarooBanzay/mesecons_lab","Kimapr/nonsensical_skyblock","BuckarooBanzay/super_sam","jgordon510/gridlocks","bell07/whynot_game","mt-mods/dreambuilder_game"]}],"mt-mods/xcompat":[]},"hash":"1dmvpm10c33ijm1n202s8pli4lw9w65rf2g6i7p5l5qscq6f0d06"}
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2023-10-01T14:05:15.547902",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 6576,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=19365",
+  "forums": 19365,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-mods/display_modpack/issues",
+  "license": "LGPL-3.0-only",
+  "long_description": "This modpack provides mods with dynamic display. Mods are:\n\n- **[display_api](https://github.com/mt-mods/display_modpack/tree/master/display_api)**: A library for adding display entities to nodes;\n- **[font_api](https://github.com/mt-mods/display_modpack/tree/master/font_api)**: A library for displaying fonts on entities;\n- **[signs_api](https://github.com/mt-mods/display_modpack/tree/master/signs_api)**: A library for the easy creation of signs;\n- **[font_metro](https://github.com/mt-mods/display_modpack/tree/master/font_metro)**: A font mod used as default font (includes uppercase, lowercase and accentuated latin letters, usual signs, cyrillic and greek letters)\n\n- **[boards](https://github.com/mt-mods/display_modpack/tree/master/boards)**: A mod providing school boards (includes *tiny cursive font*, a handwriting style font);\n- **[ontime_clocks](https://github.com/mt-mods/display_modpack/tree/master/ontime_clocks)**: A mod providing clocks which display the ingame time;\n- **[signs](https://github.com/mt-mods/display_modpack/tree/master/signs)**: A mod providing signs and direction signs displaying text;\n- **[signs_road](https://github.com/mt-mods/display_modpack/tree/master/signs_road)**: A mod providing road signs displaying text;\n- **[steles](https://github.com/mt-mods/display_modpack/tree/master/steles)**: A mod providing stone steles with text;\n\nFor more information, see the [forum topic](https://forum.minetest.net/viewtopic.php?t=19365) at the Minetest forums.\n\n## Extra fonts\n\n*Metro* and *Tiny Cursive* fonts are provided in **Display Modpack** (in **font_metro** and **boards** mods) but you can add more fonts by installing font mods. Be aware that each font mod comes with numerous textures. This can result in slowing media downloading and/or client display.\n\nExtra font mods can be found here:\n\n * [OldWizard](https://github.com/pyrollo/font_oldwizard): An old style gothic font.\n * [Botic](https://github.com/pyrollo/font_botic): A scifi style font.",
+  "maintainers": [
+    "mt-mods",
+    "Niklp"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "display_modpack",
+  "provides": [
+    "boards",
+    "display_api",
+    "font_api",
+    "font_metro",
+    "ontime_clocks",
+    "signs",
+    "signs_api",
+    "signs_road",
+    "steles"
+  ],
+  "release": 27166,
+  "repo": "https://github.com/mt-mods/display_modpack",
+  "score": 86.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/aaac604b0f.png"
+  ],
+  "short_description": "Provides mods with dynamic display and font display: clocks, signs, and more.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative",
+    "education",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/aaac604b0f.png",
+  "title": "Display Modpack",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/display_modpack/releases/27166/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/mt-mods/display_modpack",
+  "dependencies": {
+    "mt-mods/display_modpack": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "mt-mods/xcompat",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "BuckarooBanzay/super_sam",
+          "jgordon510/gridlocks",
+          "bell07/whynot_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/xcompat": []
+  },
+  "hash": "1dmvpm10c33ijm1n202s8pli4lw9w65rf2g6i7p5l5qscq6f0d06"
+}

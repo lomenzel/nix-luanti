@@ -1,1 +1,79 @@
-{"author":"erlehmann","content_warnings":[],"created_at":"2022-05-06T13:59:53.223860","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":1898,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":"https://git.minetest.land/erle/mcl_lever_status_indicator/issues","license":"AGPL-3.0-or-later","long_description":"This mod makes levers in the “on” position have a red tip. I have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n\nThe redstone torch lever overlay is based on the file “jeija_torches_on.png” from the mesecons_torches mod in MineClone2 by Wuzzy.\nIts License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>\n","maintainers":["erlehmann"],"media_license":"CC-BY-SA-3.0","name":"mcl_lever_status_indicator","provides":["mcl_lever_status_indicator"],"release":12159,"repo":"https://git.minetest.land/erle/mcl_lever_status_indicator","score":10.6,"screenshots":["https://content.luanti.org/uploads/7c25ba99c4.png"],"short_description":"Makes levers in the “on” position have a red tip in MineClone2/MineClone5/Mineclonia","state":"APPROVED","tags":["decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/7c25ba99c4.png","title":"Mcl Lever Status Indicator","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/erlehmann/mcl_lever_status_indicator/releases/12159/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Jeija/mesecons":[],"erlehmann/mcl_lever_status_indicator":[{"is_optional":false,"name":"mesecons_walllever","packages":["Noodlemire/voxeldungeon","BuckarooBanzay/mesecons_lab","Wuzzy/mineclone2","BRNSystems/blocky_portaling","1248/regnum","1248/regnum2","Jeija/mesecons","Kimapr/nonsensical_skyblock","bell07/whynot_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","mt-mods/dreambuilder_game"]}]},"hash":"1ij7sbsaqf4r9lvif4zvql7pa0zq9ask34bidlykdighl5kdi20j"}
+{
+  "author": "erlehmann",
+  "content_warnings": [],
+  "created_at": "2022-05-06T13:59:53.223860",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1898,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://git.minetest.land/erle/mcl_lever_status_indicator/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "This mod makes levers in the “on” position have a red tip. I have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.\n\nThe redstone torch lever overlay is based on the file “jeija_torches_on.png” from the mesecons_torches mod in MineClone2 by Wuzzy.\nIts License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>\n",
+  "maintainers": [
+    "erlehmann"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mcl_lever_status_indicator",
+  "provides": [
+    "mcl_lever_status_indicator"
+  ],
+  "release": 12159,
+  "repo": "https://git.minetest.land/erle/mcl_lever_status_indicator",
+  "score": 10.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7c25ba99c4.png"
+  ],
+  "short_description": "Makes levers in the “on” position have a red tip in MineClone2/MineClone5/Mineclonia",
+  "state": "APPROVED",
+  "tags": [
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7c25ba99c4.png",
+  "title": "Mcl Lever Status Indicator",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/erlehmann/mcl_lever_status_indicator/releases/12159/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/mesecons": [],
+    "erlehmann/mcl_lever_status_indicator": [
+      {
+        "is_optional": false,
+        "name": "mesecons_walllever",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "BuckarooBanzay/mesecons_lab",
+          "Wuzzy/mineclone2",
+          "BRNSystems/blocky_portaling",
+          "1248/regnum",
+          "1248/regnum2",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "bell07/whynot_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1ij7sbsaqf4r9lvif4zvql7pa0zq9ask34bidlykdighl5kdi20j"
+}

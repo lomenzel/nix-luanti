@@ -1,1 +1,46 @@
-{"author":"epCode","content_warnings":[],"created_at":"2023-08-10T03:50:17.511510","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":211,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/epCode/persistent_api/issues","license":"LGPL-3.0-only","long_description":"A minetest api that allows for easy creation of persistent effects. for example: changing a players health over time with a set interval (eg; poison or healing)\n\n### how to use:\nSimply use the one function\n```lua\npersistent_api.add_persistent_effect(def)\n```\nlike this\n```lua\npersistent_api.add_persistent_effect({\n  name = string,\n  -- effect identifier. Will be overwritten if another effect is added to the same object with the same identifier.\n\n  object = ObjectRef,\n  -- ObjectRef which is referenced and attached to the effect.\n\n  duration = float,\n  -- amount of time until the effect is removed.\n\n  effect = function(ObjectRef)\n  -- function that is run every time the effect is called.\n\n  persistence = float,\n  -- how often (in seconds) the effect function is run.\n})\n```\nfor example\n```lua\nlocal player = minetest.get_player_by_name(\"JohnSmith\")\n\n  persistent_api.add_persistent_effect({\n    name = \"damage_player\", -- identifier\n    object = player, -- affected object\n    duration = 10, -- this effect will last 10 seconds\n    effect = function(player)\n      player:set_hp(player:get_hp()-1) -- damage the player one half heart\n    end,\n    persistence = 0.1, -- every 0.1 seconds for 10 seconds the previous function will be run.\n  })\n```\n","maintainers":["epCode"],"media_license":"LGPL-3.0-only","name":"persistent_effects","provides":["persistent_effects"],"release":20232,"repo":"https://github.com/epCode/persistent_api.git","score":4.3,"screenshots":["https://content.luanti.org/uploads/d2f21f05f0.png"],"short_description":"An API for creating persistent effects for any object. eg. damage a player or entity over time. (like poison)","state":"APPROVED","tags":["library","player_effects"],"thumbnail":"https://content.luanti.org/thumbnails/1/d2f21f05f0.png","title":"Persistent Effects","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/epCode/persistent_effects/releases/20232/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"epCode/persistent_effects":[]},"hash":"05cgkfyx1zc9vx57wk92qp0v3lwjdp1xc26ydwiwkirffj44py6d"}
+{
+  "author": "epCode",
+  "content_warnings": [],
+  "created_at": "2023-08-10T03:50:17.511510",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 211,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/epCode/persistent_api/issues",
+  "license": "LGPL-3.0-only",
+  "long_description": "A minetest api that allows for easy creation of persistent effects. for example: changing a players health over time with a set interval (eg; poison or healing)\n\n### how to use:\nSimply use the one function\n```lua\npersistent_api.add_persistent_effect(def)\n```\nlike this\n```lua\npersistent_api.add_persistent_effect({\n  name = string,\n  -- effect identifier. Will be overwritten if another effect is added to the same object with the same identifier.\n\n  object = ObjectRef,\n  -- ObjectRef which is referenced and attached to the effect.\n\n  duration = float,\n  -- amount of time until the effect is removed.\n\n  effect = function(ObjectRef)\n  -- function that is run every time the effect is called.\n\n  persistence = float,\n  -- how often (in seconds) the effect function is run.\n})\n```\nfor example\n```lua\nlocal player = minetest.get_player_by_name(\"JohnSmith\")\n\n  persistent_api.add_persistent_effect({\n    name = \"damage_player\", -- identifier\n    object = player, -- affected object\n    duration = 10, -- this effect will last 10 seconds\n    effect = function(player)\n      player:set_hp(player:get_hp()-1) -- damage the player one half heart\n    end,\n    persistence = 0.1, -- every 0.1 seconds for 10 seconds the previous function will be run.\n  })\n```\n",
+  "maintainers": [
+    "epCode"
+  ],
+  "media_license": "LGPL-3.0-only",
+  "name": "persistent_effects",
+  "provides": [
+    "persistent_effects"
+  ],
+  "release": 20232,
+  "repo": "https://github.com/epCode/persistent_api.git",
+  "score": 4.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d2f21f05f0.png"
+  ],
+  "short_description": "An API for creating persistent effects for any object. eg. damage a player or entity over time. (like poison)",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "player_effects"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d2f21f05f0.png",
+  "title": "Persistent Effects",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/epCode/persistent_effects/releases/20232/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "epCode/persistent_effects": []
+  },
+  "hash": "05cgkfyx1zc9vx57wk92qp0v3lwjdp1xc26ydwiwkirffj44py6d"
+}

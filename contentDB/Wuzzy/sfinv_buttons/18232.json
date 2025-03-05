@@ -1,1 +1,95 @@
-{"author":"Wuzzy","content_warnings":[],"created_at":"2018-06-05T23:09:10.553956","dev_state":"AS_IS","donate_url":null,"downloads":4480,"forum_url":"https://forum.luanti.org/viewtopic.php?t=16079","forums":16079,"game_support":[],"issue_tracker":"https://codeberg.org/Wuzzy/minetest_sfinv_buttons/issues","license":"MIT","long_description":"Adds a tab to your default Minetest Game inventory in which other mods can add simple buttons to access special functionality.\n\nJust open the inventory menu, select the “More” tab and click on a button.\n\nThe mod itself does not add these buttons on its own, instead other mods need to depend on this mod.","maintainers":["Wuzzy"],"media_license":"MIT","name":"sfinv_buttons","provides":["sfinv_buttons"],"release":18232,"repo":"https://codeberg.org/Wuzzy/minetest_sfinv_buttons","score":168,"screenshots":["https://content.luanti.org/uploads/dvfyplwIxt.png"],"short_description":"Adds a tab to the Simple Fast Inventory on which mods can add buttons for easy access.","state":"APPROVED","tags":["inventory"],"thumbnail":"https://content.luanti.org/thumbnails/1/dvfyplwIxt.png","title":"Simple Fast Inventory Buttons","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Wuzzy/sfinv_buttons/releases/18232/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Wuzzy/sfinv_buttons":[{"is_optional":false,"name":"sfinv","packages":["BuckarooBanzay/mesecons_lab","Noodlemire/voxeldungeon","JALdMIC/survivethedays","Nathan.S/sss","1248/castrum","Thunder1035/etb","Blockhead/sotm","SuperStarSonic/reentry","StarNinjas/veil_of_the_unknown","StarNinjas/ssp","Minetest/minetest_game","Hume2/boxworld3d","1248/regnum","rubenwardy/sfinv","1248/regnum2","sfan5/minetest_classic","miroptics/qiskitblocks_miro","KareaGhandTrail/block_assault_mapmaker","Wuzzy/hades_revisited","Lone_Wolf/torrlund","dibesfer/colorlandia","nurd3/ul_game","Kimapr/nonsensical_skyblock","Casimir/voxelgarden","Lone_Wolf/voxel_knights","Emojiminetest/parkour","Mantar/exile","JavaFXpert/qiskitblocks","Thunder1035/pacman","jgordon510/gridlocks","niwla23/runorfall","bell07/whynot_game","Big_Caballito/no_mans_land","MeseCraft/mesecraft","TheFanne/raining_nodes","PetiAPocok/minetest_extended","hilol/epic_combat","Astrobe/minefall","EmptyStar/asuna","theidealist101/stellua","mt-mods/dreambuilder_game","rubenwardy/capturetheflag"]}],"rubenwardy/sfinv":[]},"hash":"129q0vqi3shi4s6h82hh21vw1iqmkgymgwf7l6b0m75div06y956"}
+{
+  "author": "Wuzzy",
+  "content_warnings": [],
+  "created_at": "2018-06-05T23:09:10.553956",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 4480,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=16079",
+  "forums": 16079,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/Wuzzy/minetest_sfinv_buttons/issues",
+  "license": "MIT",
+  "long_description": "Adds a tab to your default Minetest Game inventory in which other mods can add simple buttons to access special functionality.\n\nJust open the inventory menu, select the “More” tab and click on a button.\n\nThe mod itself does not add these buttons on its own, instead other mods need to depend on this mod.",
+  "maintainers": [
+    "Wuzzy"
+  ],
+  "media_license": "MIT",
+  "name": "sfinv_buttons",
+  "provides": [
+    "sfinv_buttons"
+  ],
+  "release": 18232,
+  "repo": "https://codeberg.org/Wuzzy/minetest_sfinv_buttons",
+  "score": 168,
+  "screenshots": [
+    "https://content.luanti.org/uploads/dvfyplwIxt.png"
+  ],
+  "short_description": "Adds a tab to the Simple Fast Inventory on which mods can add buttons for easy access.",
+  "state": "APPROVED",
+  "tags": [
+    "inventory"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dvfyplwIxt.png",
+  "title": "Simple Fast Inventory Buttons",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Wuzzy/sfinv_buttons/releases/18232/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/sfinv_buttons": [
+      {
+        "is_optional": false,
+        "name": "sfinv",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "JALdMIC/survivethedays",
+          "Nathan.S/sss",
+          "1248/castrum",
+          "Thunder1035/etb",
+          "Blockhead/sotm",
+          "SuperStarSonic/reentry",
+          "StarNinjas/veil_of_the_unknown",
+          "StarNinjas/ssp",
+          "Minetest/minetest_game",
+          "Hume2/boxworld3d",
+          "1248/regnum",
+          "rubenwardy/sfinv",
+          "1248/regnum2",
+          "sfan5/minetest_classic",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Wuzzy/hades_revisited",
+          "Lone_Wolf/torrlund",
+          "dibesfer/colorlandia",
+          "nurd3/ul_game",
+          "Kimapr/nonsensical_skyblock",
+          "Casimir/voxelgarden",
+          "Lone_Wolf/voxel_knights",
+          "Emojiminetest/parkour",
+          "Mantar/exile",
+          "JavaFXpert/qiskitblocks",
+          "Thunder1035/pacman",
+          "jgordon510/gridlocks",
+          "niwla23/runorfall",
+          "bell07/whynot_game",
+          "Big_Caballito/no_mans_land",
+          "MeseCraft/mesecraft",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "Astrobe/minefall",
+          "EmptyStar/asuna",
+          "theidealist101/stellua",
+          "mt-mods/dreambuilder_game",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "rubenwardy/sfinv": []
+  },
+  "hash": "129q0vqi3shi4s6h82hh21vw1iqmkgymgwf7l6b0m75div06y956"
+}

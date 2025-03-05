@@ -1,1 +1,198 @@
-{"author":"rudzik8","content_warnings":[],"created_at":"2024-04-22T12:32:29.027750","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":638,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":1,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://codeberg.org/rudzik8/hardervoxels/issues","license":"LGPL-2.1-or-later","long_description":"A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the\ngameplay more difficult: from permanent death (like MC hardcore), to burning out\ntorches, to defensive \"passive\" animals. All while trying to avoid adding up to\nthe boring grind that we all know and ~~love~~ hate.\n\n\n## Usage\n\nFirst-of-all, just enable the modpack! It's that easy!\n\nThis modpack is also really, *really* modular, with all the mods properly\nlabeled. If you don't want an aspect this modpack brings, you can just disable\nit through the mod menu. So, for example, if you don't want permadeath, just disable the mod\ncalled \"You Only Live Once\".\n\nIt is recommended that you also tweak VoxeLibre settings to pair with the\ndifficulty HarderVoxels provides. Primarily the mob settings: chance of passive\nmobs spawning, hostile mobs rates, damage dealt by mobs, etc. Also it is very\nrecommended that you turn off night skip. See the `minetest.conf` example\nincluded in the modpack root.\n\nOnce you're done, good luck surviving. You knew what you were going for. :D\n\n\n## Aspects\n\n* You only have one life. Death is permanent.\n* Torches now go out with time and when left under rain or near water. To lit\n  them up, either ignite them manually with flint and steel, or place them near\n  lava or a similar block.\n* Previously passive mobs now will respond with violence if you attack them.\n* Hostile mobs (monsters) are now immune to sunlight, taking no damage from it.\n* Lava now deals twice as much damage as before. It's a lava lake, dammit, not a\n  kids pool!\n* Cacti and dead bushes deal damage when punched with bare hands.\n* Crafting tables, chests and barrels are now all flammable. Yes, I was\n  just as surprised as you to learn that they aren't flammable in the base game.\n\n\n## License\n\n\nThe *licences* referenced below apply to all mods in this modpack. For the\n*copyright notices* of each individual included mod, please refer to that mod's\nREADME files.\n\n\n**License of source code:**\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see LICENSE file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n**License of media:**\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see MEDIA_LICENSE file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>","maintainers":["rudzik8"],"media_license":"CC-BY-SA-4.0","name":"hardervoxels","provides":["hv_core","vl_deadly_lava","vl_let_it_burn","vl_monster_sunscreen","vl_not_so_passive","vl_real_torches","vl_spikes_hurt","vl_yolo"],"release":29186,"repo":"https://codeberg.org/rudzik8/hardervoxels","score":322.9,"screenshots":["https://content.luanti.org/uploads/cf9774d9d5.png"],"short_description":"A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the gameplay more difficult","state":"APPROVED","tags":["pve","survival"],"thumbnail":"https://content.luanti.org/thumbnails/1/cf9774d9d5.png","title":"HarderVoxels","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/rudzik8/hardervoxels/releases/29186/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"rudzik8/hardervoxels":[{"is_optional":false,"name":"mcl_fire","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mobs_mc","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_crafting_table","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_mobs","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_colors","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_barrels","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_farming","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_torches","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_chests","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_weather","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"0cvgz2k2pg3623rd9hiawa8pf46wfq75chlzi0w7ssay43rrh3px"}
+{
+  "author": "rudzik8",
+  "content_warnings": [],
+  "created_at": "2024-04-22T12:32:29.027750",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 638,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/rudzik8/hardervoxels/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the\ngameplay more difficult: from permanent death (like MC hardcore), to burning out\ntorches, to defensive \"passive\" animals. All while trying to avoid adding up to\nthe boring grind that we all know and ~~love~~ hate.\n\n\n## Usage\n\nFirst-of-all, just enable the modpack! It's that easy!\n\nThis modpack is also really, *really* modular, with all the mods properly\nlabeled. If you don't want an aspect this modpack brings, you can just disable\nit through the mod menu. So, for example, if you don't want permadeath, just disable the mod\ncalled \"You Only Live Once\".\n\nIt is recommended that you also tweak VoxeLibre settings to pair with the\ndifficulty HarderVoxels provides. Primarily the mob settings: chance of passive\nmobs spawning, hostile mobs rates, damage dealt by mobs, etc. Also it is very\nrecommended that you turn off night skip. See the `minetest.conf` example\nincluded in the modpack root.\n\nOnce you're done, good luck surviving. You knew what you were going for. :D\n\n\n## Aspects\n\n* You only have one life. Death is permanent.\n* Torches now go out with time and when left under rain or near water. To lit\n  them up, either ignite them manually with flint and steel, or place them near\n  lava or a similar block.\n* Previously passive mobs now will respond with violence if you attack them.\n* Hostile mobs (monsters) are now immune to sunlight, taking no damage from it.\n* Lava now deals twice as much damage as before. It's a lava lake, dammit, not a\n  kids pool!\n* Cacti and dead bushes deal damage when punched with bare hands.\n* Crafting tables, chests and barrels are now all flammable. Yes, I was\n  just as surprised as you to learn that they aren't flammable in the base game.\n\n\n## License\n\n\nThe *licences* referenced below apply to all mods in this modpack. For the\n*copyright notices* of each individual included mod, please refer to that mod's\nREADME files.\n\n\n**License of source code:**\n\nThis program is free software; you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation; either version 2.1 of the License, or\n(at your option) any later version.\n\nTo view a copy of this license, see LICENSE file or visit the link below.\n\n<http://www.gnu.org/licenses/lgpl-2.1.html>\n\n\n**License of media:**\n\nThis work is licensed under Creative Commons Attribution-ShareAlike 4.0\nInternational Public License (CC BY-SA 4.0).\n\nTo view a copy of this license, see MEDIA_LICENSE file or visit the link below.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>",
+  "maintainers": [
+    "rudzik8"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "hardervoxels",
+  "provides": [
+    "hv_core",
+    "vl_deadly_lava",
+    "vl_let_it_burn",
+    "vl_monster_sunscreen",
+    "vl_not_so_passive",
+    "vl_real_torches",
+    "vl_spikes_hurt",
+    "vl_yolo"
+  ],
+  "release": 29186,
+  "repo": "https://codeberg.org/rudzik8/hardervoxels",
+  "score": 322.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/cf9774d9d5.png"
+  ],
+  "short_description": "A hardcore modpack for VoxeLibre, featuring all kinds of aspects to make the gameplay more difficult",
+  "state": "APPROVED",
+  "tags": [
+    "pve",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/cf9774d9d5.png",
+  "title": "HarderVoxels",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rudzik8/hardervoxels/releases/29186/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "rudzik8/hardervoxels": [
+      {
+        "is_optional": false,
+        "name": "mcl_fire",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mobs_mc",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_crafting_table",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mobs",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_colors",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_barrels",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_farming",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_torches",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_chests",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_weather",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "0cvgz2k2pg3623rd9hiawa8pf46wfq75chlzi0w7ssay43rrh3px"
+}

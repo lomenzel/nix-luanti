@@ -1,1 +1,48 @@
-{"author":"AiTechEye","content_warnings":[],"created_at":"2019-02-17T19:33:05.974939","dev_state":null,"donate_url":null,"downloads":10222,"forum_url":"https://forum.luanti.org/viewtopic.php?t=14056","forums":14056,"game_support":[],"issue_tracker":"https://github.com/AiTechEye/gravitygun/issues/new/choose/","license":"LGPL-2.1-only","long_description":"The gravity gun, that can pick up, and throw away stuff :D\n\nleft click (use) to pick  \nup right click (place) on a holded object to throw away  \nyou can craft the tool to a placeable block  \n  \nUsing 3D models in hand (basicly nodes) (becaouse same kind of mod does it in minecraft + more realistic)  \nThe gravity guns using a auto glitch fix, thats makes static control over the object, (the glitches is caused by heavy models)  \ncast stuff can destroy blocks (fly away or create drops) [if enable_gravitygun_throw_stuff_destroys is true]  \n  \n  \nGravitygun   \nCan can pick up, place and throw away stuff / blocks  \n(players to if enable_gravitygun_requires_privilege_to_hold_players is false or have the gravitygun privilege)  \n\nGravitygun Overloaded:  \ncant hold stuff, but used a very high force power to throw away evyerthing around you, even the blocks.  \nrequires gravitygun2 (privilege as default)  \n\nGravitygun basic:  \nCan only pick up and place stuff (but still usefull)  \n(players to if enable_gravitygun_requires_privilege_to_hold_players is false or have the gravitygun privilege)  ","maintainers":["AiTechEye"],"media_license":"CC-BY-SA-4.0","name":"gravitygun","provides":["gravitygun"],"release":1002,"repo":"https://github.com/AiTechEye/gravitygun","score":188.7,"screenshots":["https://content.luanti.org/uploads/v0HA5k5N3q.png","https://content.luanti.org/uploads/pQhPqR1omH.png","https://content.luanti.org/uploads/dszcUKvXhR.png"],"short_description":"Gravitygun","state":"APPROVED","tags":["pvp","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/v0HA5k5N3q.png","title":"Gravitygun","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/AiTechEye/gravitygun/releases/1002/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"AiTechEye/gravitygun":[]},"hash":"0g2gr3psf45a5ic76f81ksi4rrr8il838046qjg1f43qr1qlmx03"}
+{
+  "author": "AiTechEye",
+  "content_warnings": [],
+  "created_at": "2019-02-17T19:33:05.974939",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 10222,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=14056",
+  "forums": 14056,
+  "game_support": [],
+  "issue_tracker": "https://github.com/AiTechEye/gravitygun/issues/new/choose/",
+  "license": "LGPL-2.1-only",
+  "long_description": "The gravity gun, that can pick up, and throw away stuff :D\n\nleft click (use) to pick  \nup right click (place) on a holded object to throw away  \nyou can craft the tool to a placeable block  \n  \nUsing 3D models in hand (basicly nodes) (becaouse same kind of mod does it in minecraft + more realistic)  \nThe gravity guns using a auto glitch fix, thats makes static control over the object, (the glitches is caused by heavy models)  \ncast stuff can destroy blocks (fly away or create drops) [if enable_gravitygun_throw_stuff_destroys is true]  \n  \n  \nGravitygun   \nCan can pick up, place and throw away stuff / blocks  \n(players to if enable_gravitygun_requires_privilege_to_hold_players is false or have the gravitygun privilege)  \n\nGravitygun Overloaded:  \ncant hold stuff, but used a very high force power to throw away evyerthing around you, even the blocks.  \nrequires gravitygun2 (privilege as default)  \n\nGravitygun basic:  \nCan only pick up and place stuff (but still usefull)  \n(players to if enable_gravitygun_requires_privilege_to_hold_players is false or have the gravitygun privilege)  ",
+  "maintainers": [
+    "AiTechEye"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "gravitygun",
+  "provides": [
+    "gravitygun"
+  ],
+  "release": 1002,
+  "repo": "https://github.com/AiTechEye/gravitygun",
+  "score": 188.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/v0HA5k5N3q.png",
+    "https://content.luanti.org/uploads/pQhPqR1omH.png",
+    "https://content.luanti.org/uploads/dszcUKvXhR.png"
+  ],
+  "short_description": "Gravitygun",
+  "state": "APPROVED",
+  "tags": [
+    "pvp",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/v0HA5k5N3q.png",
+  "title": "Gravitygun",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AiTechEye/gravitygun/releases/1002/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "AiTechEye/gravitygun": []
+  },
+  "hash": "0g2gr3psf45a5ic76f81ksi4rrr8il838046qjg1f43qr1qlmx03"
+}

@@ -1,1 +1,45 @@
-{"author":"Thresher","content_warnings":[],"created_at":"2023-01-16T22:16:34.746777","dev_state":"MAINTENANCE_ONLY","donate_url":null,"downloads":200,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/Bituvo/public_death_messages/issues","license":"GPL-3.0-or-later","long_description":"# Public Death Messages\n\nThis mod adds death messages for:\n- Fall damage\n- Fire\n- Lava\n- Drowning\n- PVP\n- Mobs\n- And generally everything else\n\nThere is also a command: `/toggle_death_messages` that toggles your death messages on and off\n\n**License**: GPLv3","maintainers":["Thresher"],"media_license":"GPL-3.0-or-later","name":"public_death_messages","provides":["public_death_messages"],"release":21842,"repo":"https://github.com/Bituvo/public_death_messages/","score":4.1,"screenshots":["https://content.luanti.org/uploads/d06df23092.png"],"short_description":"Adds toggleable and unique death messages for when a player dies","state":"APPROVED","tags":["chat"],"thumbnail":"https://content.luanti.org/thumbnails/1/d06df23092.png","title":"Public Death Messages","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Thresher/public_death_messages/releases/21842/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Thresher/public_death_messages":[]},"hash":"10gq39rzwj5f22lpz7mwicw7kjgalhp8ak7zhlgcmal593mmqdvr"}
+{
+  "author": "Thresher",
+  "content_warnings": [],
+  "created_at": "2023-01-16T22:16:34.746777",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 200,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Bituvo/public_death_messages/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Public Death Messages\n\nThis mod adds death messages for:\n- Fall damage\n- Fire\n- Lava\n- Drowning\n- PVP\n- Mobs\n- And generally everything else\n\nThere is also a command: `/toggle_death_messages` that toggles your death messages on and off\n\n**License**: GPLv3",
+  "maintainers": [
+    "Thresher"
+  ],
+  "media_license": "GPL-3.0-or-later",
+  "name": "public_death_messages",
+  "provides": [
+    "public_death_messages"
+  ],
+  "release": 21842,
+  "repo": "https://github.com/Bituvo/public_death_messages/",
+  "score": 4.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d06df23092.png"
+  ],
+  "short_description": "Adds toggleable and unique death messages for when a player dies",
+  "state": "APPROVED",
+  "tags": [
+    "chat"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d06df23092.png",
+  "title": "Public Death Messages",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Thresher/public_death_messages/releases/21842/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Thresher/public_death_messages": []
+  },
+  "hash": "10gq39rzwj5f22lpz7mwicw7kjgalhp8ak7zhlgcmal593mmqdvr"
+}

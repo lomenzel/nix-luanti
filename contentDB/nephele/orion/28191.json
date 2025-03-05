@@ -1,1 +1,59 @@
-{"author":"nephele","content_warnings":[],"created_at":"2021-07-03T21:54:47.390277","dev_state":"WIP","donate_url":null,"downloads":269,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://codeberg.org/nephele-user/Orion/issues","license":"MIT","long_description":"This is the Orion gamemode.\n\nTo play please use the creative mode for the moment, the survival/crafting does not yet fully work.\n\nYou can contact me via xmpp: orion@chat.disroot.org","maintainers":["nephele"],"media_license":"MIT","name":"orion","provides":["orionapi","orionbuild","orioncraft","orionflora","orionplayer","orionworld","sparkapi","sparkcomponent","sparkcore","sparkdebug","sparkgenerator","sparklight","sparkmachine","sparktool"],"release":28191,"repo":"https://codeberg.org/nephele-user/Orion","score":39.3,"screenshots":["https://content.luanti.org/uploads/c96c7241e8.png"],"short_description":"Orion (Development version)","state":"APPROVED","tags":["oneofakind__original","technology"],"thumbnail":"https://content.luanti.org/thumbnails/1/c96c7241e8.png","title":"Orion (Development version)","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/nephele/orion/releases/28191/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"nephele/orion":[]},"hash":"136fxyxd291a5471cphcg8iszjq0vnh8k0bbb06mbqckyamccwpl"}
+{
+  "author": "nephele",
+  "content_warnings": [],
+  "created_at": "2021-07-03T21:54:47.390277",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 269,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/nephele-user/Orion/issues",
+  "license": "MIT",
+  "long_description": "This is the Orion gamemode.\n\nTo play please use the creative mode for the moment, the survival/crafting does not yet fully work.\n\nYou can contact me via xmpp: orion@chat.disroot.org",
+  "maintainers": [
+    "nephele"
+  ],
+  "media_license": "MIT",
+  "name": "orion",
+  "provides": [
+    "orionapi",
+    "orionbuild",
+    "orioncraft",
+    "orionflora",
+    "orionplayer",
+    "orionworld",
+    "sparkapi",
+    "sparkcomponent",
+    "sparkcore",
+    "sparkdebug",
+    "sparkgenerator",
+    "sparklight",
+    "sparkmachine",
+    "sparktool"
+  ],
+  "release": 28191,
+  "repo": "https://codeberg.org/nephele-user/Orion",
+  "score": 39.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/c96c7241e8.png"
+  ],
+  "short_description": "Orion (Development version)",
+  "state": "APPROVED",
+  "tags": [
+    "oneofakind__original",
+    "technology"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/c96c7241e8.png",
+  "title": "Orion (Development version)",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/nephele/orion/releases/28191/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "nephele/orion": []
+  },
+  "hash": "136fxyxd291a5471cphcg8iszjq0vnh8k0bbb06mbqckyamccwpl"
+}

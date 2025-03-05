@@ -1,1 +1,89 @@
-{"author":"Warr1024","content_warnings":[],"created_at":"2020-04-11T19:20:46.460251","dev_state":"MAINTENANCE_ONLY","donate_url":"https://liberapay.com/Warr1024","downloads":3699,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true},{"confidence":10,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true}],"issue_tracker":null,"license":"MIT","long_description":"If there's anything that the Minetest modding community seems to love,\nit's explosives.  More explosions, more destruction, better efficiency\nand better performance.\n\nThis mod is the culmination of all explosive mods.  It adds a nuclear\ndevice to the game that's powerful enough to destroy the entire world,\nand kill all players instantly.  Intense radiation renders the world\ncompletely and permanently uninhabitable.  Terrain destruction is done\nextremely efficiently via the Anthropic Principle.\n\n### To construct the doomsday device:\n\n**In MTG**: Surround a torch on all 6 faces with blocks of mese.\nSurround those on all faces with blocks of diamond.\n\n**In NodeCore**: Surround a lit torch on all 6 faces with lux\ncobble.  Surround those on all faces with blocks of solid lode.\n\nThe device explodes the instant that its construction is completed.\nThe explosion is quite spectacular, and unlike anything you have ever\nseen.  Unfortunately, it instantly kills you, so thoroughly that you\ncan't even witness the explosion.  You will just have to take my word\nfor it.\n\nN.B. it doesn't matter what order you place the nodes, but they need\nto be placed manually by a player.","maintainers":["Warr1024"],"media_license":"MIT","name":"doomsday","provides":["doomsday"],"release":26203,"repo":"https://gitlab.com/sztest/doomsday","score":464.2,"screenshots":["https://content.luanti.org/uploads/20f8e287ab.webp","https://content.luanti.org/uploads/b2bb7f0f8b.webp"],"short_description":"The pinnacle of explosives mods","state":"APPROVED","tags":["april_fools","jam_combat_mod","technology","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/20f8e287ab.png","title":"Doomsday Device","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Warr1024/doomsday/releases/26203/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Warr1024/doomsday":[]},"hash":"0qc9i81hf06kf2s8h3rsfll92qsm4kvzjbcxgv671rjy15m1hyqy"}
+{
+  "author": "Warr1024",
+  "content_warnings": [],
+  "created_at": "2020-04-11T19:20:46.460251",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://liberapay.com/Warr1024",
+  "downloads": 3699,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "If there's anything that the Minetest modding community seems to love,\nit's explosives.  More explosions, more destruction, better efficiency\nand better performance.\n\nThis mod is the culmination of all explosive mods.  It adds a nuclear\ndevice to the game that's powerful enough to destroy the entire world,\nand kill all players instantly.  Intense radiation renders the world\ncompletely and permanently uninhabitable.  Terrain destruction is done\nextremely efficiently via the Anthropic Principle.\n\n### To construct the doomsday device:\n\n**In MTG**: Surround a torch on all 6 faces with blocks of mese.\nSurround those on all faces with blocks of diamond.\n\n**In NodeCore**: Surround a lit torch on all 6 faces with lux\ncobble.  Surround those on all faces with blocks of solid lode.\n\nThe device explodes the instant that its construction is completed.\nThe explosion is quite spectacular, and unlike anything you have ever\nseen.  Unfortunately, it instantly kills you, so thoroughly that you\ncan't even witness the explosion.  You will just have to take my word\nfor it.\n\nN.B. it doesn't matter what order you place the nodes, but they need\nto be placed manually by a player.",
+  "maintainers": [
+    "Warr1024"
+  ],
+  "media_license": "MIT",
+  "name": "doomsday",
+  "provides": [
+    "doomsday"
+  ],
+  "release": 26203,
+  "repo": "https://gitlab.com/sztest/doomsday",
+  "score": 464.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/20f8e287ab.webp",
+    "https://content.luanti.org/uploads/b2bb7f0f8b.webp"
+  ],
+  "short_description": "The pinnacle of explosives mods",
+  "state": "APPROVED",
+  "tags": [
+    "april_fools",
+    "jam_combat_mod",
+    "technology",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/20f8e287ab.png",
+  "title": "Doomsday Device",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Warr1024/doomsday/releases/26203/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Warr1024/doomsday": []
+  },
+  "hash": "0qc9i81hf06kf2s8h3rsfll92qsm4kvzjbcxgv671rjy15m1hyqy"
+}

@@ -1,1 +1,125 @@
-{"author":"apercy","content_warnings":[],"created_at":"2022-01-31T20:34:58.413847","dev_state":"ACTIVELY_DEVELOPED","donate_url":"https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY","downloads":77154,"forum_url":"https://forum.luanti.org/viewtopic.php?t=26801","forums":26801,"game_support":[{"confidence":11,"game":{"author":"Wuzzy","name":"repixture","release":28179,"short_description":"Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.","thumbnail":"https://content.luanti.org/thumbnails/1/9f2f5e75ae.png","title":"Repixture","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Casimir","name":"voxelgarden","release":29784,"short_description":"A classic game for exploring, survival and building. Maintained by rudzik8","thumbnail":"https://content.luanti.org/thumbnails/1/d936c3fce1.png","title":"Voxelgarden","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"rubenwardy","name":"capturetheflag","release":28475,"short_description":"Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!","thumbnail":"https://content.luanti.org/thumbnails/1/67c591b9b8.png","title":"Capture the Flag","type":"game"},"supports":true},{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/APercy/airutils/issues/new/choose/","license":"MIT","long_description":"# airutils\nAirport Utils for Minetest\n\nAs a lib for flight and painting, now it have basic support for ground effect.\n\nNow MIT licence since version 0.3\n\nThis mod is a lib and offers utilities to be used in airports.\nWe have only 2 items now, but will be expanded as needed.\n\nThe first is PAPI (Precision Approach Path Indicator), to guide you in approaching landings. I recommend this article from wikipedia to understand how it works: https://en.wikipedia.org/wiki/Precision_approach_path_indicator\n\nThe PAPI is usually located on the left-hand side of the runway at right angles to the runway center line, so, if you want to place it at right side, just right click it to invert lights order.\n\n\nThe second, the tug, allows the repositioning of aircraft that may be blocking the runway or taxiways. In my mods only the owner can fly his own plane, so with this tool, if the person owns the area or the area has no owner, it is possible to move the aircraft without the presence of the pilot. Just click to move, and shift + click to rotate in your direction\n\n2022-04-10: added skin support for uniforms. But disabled when skinsdb and armor mods are enabled together, because the skinsdb mod overrides some functions of the armor mod and makes the use of other skins unfeasible. But if one or the other is installed, it will work correctly. The command is /au_uniform\n\n2022-05-31: added 4 parameters to disable \"modern\" tools, so the blimp can fit a fantasy medieaval world\n\n* airutils.disable_papi\n\n* airutils.disable_tug\n\n* airutils.disable_repair\n\n* airutils.disable_uniforms\n\n\n\nMedia license:\nnovaskin textures (identified by prefix file name):\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 as pointed on item 3 at https://forum.novaskin.me/tos from anonymous users\n\nall other files made by myself: CC0-1.0","maintainers":["apercy"],"media_license":"CC0-1.0","name":"airutils","provides":["airutils"],"release":29726,"repo":"https://github.com/APercy/airutils","score":635,"screenshots":["https://content.luanti.org/uploads/6c2c4fd83a.png"],"short_description":"A lib for airplanes and some useful tools","state":"APPROVED","tags":["library","tools"],"thumbnail":"https://content.luanti.org/thumbnails/1/6c2c4fd83a.png","title":"AirUtils","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/apercy/airutils/releases/29726/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"apercy/airutils":[]},"hash":"04kbbdz2z5a1fng2sc1yxrbvs2nlla8vyx3sj2yacjpxxj3w6xdm"}
+{
+  "author": "apercy",
+  "content_warnings": [],
+  "created_at": "2022-01-31T20:34:58.413847",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://www.paypal.com/donate?hosted_button_id=YDZMU5QKDGNFY",
+  "downloads": 77154,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=26801",
+  "forums": 26801,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 28179,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 29784,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 28475,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/APercy/airutils/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "# airutils\nAirport Utils for Minetest\n\nAs a lib for flight and painting, now it have basic support for ground effect.\n\nNow MIT licence since version 0.3\n\nThis mod is a lib and offers utilities to be used in airports.\nWe have only 2 items now, but will be expanded as needed.\n\nThe first is PAPI (Precision Approach Path Indicator), to guide you in approaching landings. I recommend this article from wikipedia to understand how it works: https://en.wikipedia.org/wiki/Precision_approach_path_indicator\n\nThe PAPI is usually located on the left-hand side of the runway at right angles to the runway center line, so, if you want to place it at right side, just right click it to invert lights order.\n\n\nThe second, the tug, allows the repositioning of aircraft that may be blocking the runway or taxiways. In my mods only the owner can fly his own plane, so with this tool, if the person owns the area or the area has no owner, it is possible to move the aircraft without the presence of the pilot. Just click to move, and shift + click to rotate in your direction\n\n2022-04-10: added skin support for uniforms. But disabled when skinsdb and armor mods are enabled together, because the skinsdb mod overrides some functions of the armor mod and makes the use of other skins unfeasible. But if one or the other is installed, it will work correctly. The command is /au_uniform\n\n2022-05-31: added 4 parameters to disable \"modern\" tools, so the blimp can fit a fantasy medieaval world\n\n* airutils.disable_papi\n\n* airutils.disable_tug\n\n* airutils.disable_repair\n\n* airutils.disable_uniforms\n\n\n\nMedia license:\nnovaskin textures (identified by prefix file name):\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 as pointed on item 3 at https://forum.novaskin.me/tos from anonymous users\n\nall other files made by myself: CC0-1.0",
+  "maintainers": [
+    "apercy"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "airutils",
+  "provides": [
+    "airutils"
+  ],
+  "release": 29726,
+  "repo": "https://github.com/APercy/airutils",
+  "score": 635,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6c2c4fd83a.png"
+  ],
+  "short_description": "A lib for airplanes and some useful tools",
+  "state": "APPROVED",
+  "tags": [
+    "library",
+    "tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6c2c4fd83a.png",
+  "title": "AirUtils",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/apercy/airutils/releases/29726/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "apercy/airutils": []
+  },
+  "hash": "04kbbdz2z5a1fng2sc1yxrbvs2nlla8vyx3sj2yacjpxxj3w6xdm"
+}

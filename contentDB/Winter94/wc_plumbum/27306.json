@@ -1,1 +1,129 @@
-{"author":"Winter94","content_warnings":[],"created_at":"2022-01-28T03:51:57.056713","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":736,"forum_url":null,"forums":null,"game_support":[{"confidence":1,"game":{"author":"Warr1024","name":"nodecore_alpha","release":29712,"short_description":"Early-access edition of NodeCore with latest features (and maybe bugs)","thumbnail":"https://content.luanti.org/thumbnails/1/db1a942e1a.png","title":"NodeCore ALPHA","type":"game"},"supports":true},{"confidence":1,"game":{"author":"Warr1024","name":"nodecore","release":29711,"short_description":"Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.","thumbnail":"https://content.luanti.org/thumbnails/1/8078c595ae.png","title":"NodeCore","type":"game"},"supports":true}],"issue_tracker":"https://github.com/wintersknight94/nc-wc-plumbum/issues/new/choose/","license":"GPL-3.0-only","long_description":"# NodeCore Plumbum\nBuild Radiation Containment Sturctures!\n","maintainers":["Winter94"],"media_license":"GPL-3.0-only","name":"wc_plumbum","provides":["wc_plumbum"],"release":27306,"repo":"https://github.com/wintersknight94/nc-wc-plumbum","score":3.9,"screenshots":["https://content.luanti.org/uploads/5b9b1e7cb1.png"],"short_description":"Plumbum, the best radiation protection the earth can provide!","state":"APPROVED","tags":["pve"],"thumbnail":"https://content.luanti.org/thumbnails/1/5b9b1e7cb1.png","title":"NodeCore Plumbum","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Winter94/wc_plumbum/releases/27306/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Winter94/wc_plumbum":[{"is_optional":false,"name":"nc_items","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_igneous","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_lode","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_tree","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_api_all","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_terrain","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]},{"is_optional":false,"name":"nc_fire","packages":["Warr1024/nodecore","Warr1024/nodecore_alpha"]}]},"hash":"0ydb3w7xgxbwdf6qwxy2w1a0a9bppivx9vvzgrp55sbh632ryv67"}
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2022-01-28T03:51:57.056713",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 736,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 29712,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/nc-wc-plumbum/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "# NodeCore Plumbum\nBuild Radiation Containment Sturctures!\n",
+  "maintainers": [
+    "Winter94"
+  ],
+  "media_license": "GPL-3.0-only",
+  "name": "wc_plumbum",
+  "provides": [
+    "wc_plumbum"
+  ],
+  "release": 27306,
+  "repo": "https://github.com/wintersknight94/nc-wc-plumbum",
+  "score": 3.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/5b9b1e7cb1.png"
+  ],
+  "short_description": "Plumbum, the best radiation protection the earth can provide!",
+  "state": "APPROVED",
+  "tags": [
+    "pve"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/5b9b1e7cb1.png",
+  "title": "NodeCore Plumbum",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_plumbum/releases/27306/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_plumbum": [
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_igneous",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_tree",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": [
+          "Warr1024/nodecore",
+          "Warr1024/nodecore_alpha"
+        ]
+      }
+    ]
+  },
+  "hash": "0ydb3w7xgxbwdf6qwxy2w1a0a9bppivx9vvzgrp55sbh632ryv67"
+}

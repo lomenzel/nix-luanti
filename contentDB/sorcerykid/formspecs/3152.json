@@ -1,1 +1,47 @@
-{"author":"sorcerykid","content_warnings":[],"created_at":"2018-07-31T01:27:06.874713","dev_state":null,"donate_url":"https://liberapay.com/sorcerykid","downloads":10018,"forum_url":"https://forum.luanti.org/viewtopic.php?t=19303","forums":19303,"game_support":[],"issue_tracker":"https://github.com/sorcerykid/formspecs/issues","license":"MIT","long_description":"ActiveFormspecs is a self-contained API that provides secure session tracking, session-based state tables, and localized event handling of formspecs for individual mods as well as entire subgames in Minetest. It evolved out of a recurring need for secure \"node formspecs\" on my server, but without the burden of \"reinventing the wheel\" with every new project. ActiveFormspecs adheres to the best practices described in sofar's excellent Securing Formspec Code topic.\n\nSince I've had many requests for source code from the just_test_tribute subgame, I finally decided to release ActiveFormspecs with instructions and code examples so that other mod authors can start making use of this framework as well. It's easy to install and use, and arguably a more robust alternative to the builtin formspecs API.\n\nActiveFormspecs is intended to be compatible with all versions of Minetest 0.4.14+. It has been in continuous use on my server since December 2016 with only minor revisions. So it should prove secure and stable enough for any production environment, as long as you follow the instructions below.\n\nFor the latest release notes, as well as technical support requests, please visit the forum topic.\n\n## Overview\n\nActiveFormspecs is a framework that abstracts the builtin formspec API of Minetest. It is intended to address a number of known security issues related to formspecs:\n\n* **Secure Session Tracking.**\nFormspec names have been deprecated as they can be easily forged. Now each formspec session is assigned a unique session ID. Due to the persistent nature of the Minetest client-server protocol (unlike HTTP, for example), all session tracking is performed server-side. Negotiation and validation with the client is entirely unnecessary. Thus, integrity of the session ID is always guaranteed.\n\n* **Session-Based State Table.**\nSince the session ID token is retained throughout the lifetime of the formspec, it is therefore possible to update a formspec dynamically (e.g. in response to an event) with contextual data spanning multiple instances. This data is stored server-side via a session-based state table and it can even be initialized from within the formspec string itself using a new \"hidden\" element.\n\n* **Localized Event Handling.**\nThe minetest.register_on_player_receive_fields( ) method has also been deprecated. Instead, each formspec is assigned its own callback function at runtime, which allows for completely localized event handling. This callback function is invoked after any event associated with the formspec (hence the moniker \"ActiveFormspecs\"). Both the meta table and form fields are passed as arguments.\n\nThe project is a WIP and will be undergoing continuous development based upon your suggestions as well as my personal needs. Version 3.0 is already underway, and I am planning to introduce substantial improvements to the core functionality. New features and bug-fixes will be announced here as they become available. During significant milestones, I will include a roadmap so as to gauge your feedback about long-term goals. I will make every effort to ensure backward compatibility, when possible.\n\n## Installation Instructions\n\n1. Unzip the archive into the mods directory of your subgame\n2. Rename the formspecs-master directory to \"formspecs\"\n3. Add \"formspecs\" as a dependency to any mods using the API.","maintainers":["sorcerykid"],"media_license":"MIT","name":"formspecs","provides":["formspecs"],"release":3152,"repo":"https://bitbucket.org/sorcerykid/formspecs","score":48.2,"screenshots":["https://content.luanti.org/uploads/qtxfBHiVe4.png","https://content.luanti.org/uploads/YBzgGyEyeJ.png"],"short_description":"ActiveFormspecs is a framework that abstracts the builtin formspec API of Minetest","state":"APPROVED","tags":["gui","library"],"thumbnail":"https://content.luanti.org/thumbnails/1/qtxfBHiVe4.png","title":"ActiveFormspecs","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/sorcerykid/formspecs/releases/3152/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"sorcerykid/formspecs":[]},"hash":"1m4xdgjqyb7aqp848z2y8c1p7w01x59q29y20jfbafkydzzqh3bj"}
+{
+  "author": "sorcerykid",
+  "content_warnings": [],
+  "created_at": "2018-07-31T01:27:06.874713",
+  "dev_state": null,
+  "donate_url": "https://liberapay.com/sorcerykid",
+  "downloads": 10018,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=19303",
+  "forums": 19303,
+  "game_support": [],
+  "issue_tracker": "https://github.com/sorcerykid/formspecs/issues",
+  "license": "MIT",
+  "long_description": "ActiveFormspecs is a self-contained API that provides secure session tracking, session-based state tables, and localized event handling of formspecs for individual mods as well as entire subgames in Minetest. It evolved out of a recurring need for secure \"node formspecs\" on my server, but without the burden of \"reinventing the wheel\" with every new project. ActiveFormspecs adheres to the best practices described in sofar's excellent Securing Formspec Code topic.\n\nSince I've had many requests for source code from the just_test_tribute subgame, I finally decided to release ActiveFormspecs with instructions and code examples so that other mod authors can start making use of this framework as well. It's easy to install and use, and arguably a more robust alternative to the builtin formspecs API.\n\nActiveFormspecs is intended to be compatible with all versions of Minetest 0.4.14+. It has been in continuous use on my server since December 2016 with only minor revisions. So it should prove secure and stable enough for any production environment, as long as you follow the instructions below.\n\nFor the latest release notes, as well as technical support requests, please visit the forum topic.\n\n## Overview\n\nActiveFormspecs is a framework that abstracts the builtin formspec API of Minetest. It is intended to address a number of known security issues related to formspecs:\n\n* **Secure Session Tracking.**\nFormspec names have been deprecated as they can be easily forged. Now each formspec session is assigned a unique session ID. Due to the persistent nature of the Minetest client-server protocol (unlike HTTP, for example), all session tracking is performed server-side. Negotiation and validation with the client is entirely unnecessary. Thus, integrity of the session ID is always guaranteed.\n\n* **Session-Based State Table.**\nSince the session ID token is retained throughout the lifetime of the formspec, it is therefore possible to update a formspec dynamically (e.g. in response to an event) with contextual data spanning multiple instances. This data is stored server-side via a session-based state table and it can even be initialized from within the formspec string itself using a new \"hidden\" element.\n\n* **Localized Event Handling.**\nThe minetest.register_on_player_receive_fields( ) method has also been deprecated. Instead, each formspec is assigned its own callback function at runtime, which allows for completely localized event handling. This callback function is invoked after any event associated with the formspec (hence the moniker \"ActiveFormspecs\"). Both the meta table and form fields are passed as arguments.\n\nThe project is a WIP and will be undergoing continuous development based upon your suggestions as well as my personal needs. Version 3.0 is already underway, and I am planning to introduce substantial improvements to the core functionality. New features and bug-fixes will be announced here as they become available. During significant milestones, I will include a roadmap so as to gauge your feedback about long-term goals. I will make every effort to ensure backward compatibility, when possible.\n\n## Installation Instructions\n\n1. Unzip the archive into the mods directory of your subgame\n2. Rename the formspecs-master directory to \"formspecs\"\n3. Add \"formspecs\" as a dependency to any mods using the API.",
+  "maintainers": [
+    "sorcerykid"
+  ],
+  "media_license": "MIT",
+  "name": "formspecs",
+  "provides": [
+    "formspecs"
+  ],
+  "release": 3152,
+  "repo": "https://bitbucket.org/sorcerykid/formspecs",
+  "score": 48.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/qtxfBHiVe4.png",
+    "https://content.luanti.org/uploads/YBzgGyEyeJ.png"
+  ],
+  "short_description": "ActiveFormspecs is a framework that abstracts the builtin formspec API of Minetest",
+  "state": "APPROVED",
+  "tags": [
+    "gui",
+    "library"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/qtxfBHiVe4.png",
+  "title": "ActiveFormspecs",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/sorcerykid/formspecs/releases/3152/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "sorcerykid/formspecs": []
+  },
+  "hash": "1m4xdgjqyb7aqp848z2y8c1p7w01x59q29y20jfbafkydzzqh3bj"
+}

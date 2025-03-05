@@ -1,1 +1,70 @@
-{"author":"Neuromancer","content_warnings":[],"created_at":"2024-04-28T20:21:14.767418","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":325,"forum_url":"https://forum.luanti.org/viewtopic.php?t=30485","forums":30485,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true}],"issue_tracker":"https://github.com/Neuromancer56/mob_biomedb_mapper/issues","license":"MIT","long_description":"Allows mobs to spawn in biomes that don't support them (using BiomeDb)\n\n**Note: This mod performs the same general function as the mob_biome_mapper mod https://content.minetest.net/packages/Neuromancer/mob_biome_mapper/ , but because it does it differently you will have to try both mods and see what works best for your situation.  I have less control in this mod, but I also have some work magically done for me by the BiomeDb in this mod.**\n\nOne of the problems players keep running into is that mobs are not being spawned often enough if at all when you add biome mods to your world. This problem occurs because mobs typically only spawn on certain nodes like dirt with grass, which become much more rare once you start adding new biomes to your game.\n\nTo fix the problem of needing more mobs when adding biomes, The mod checks if a mob mod is installed and if it is then based on the info in BiomeDb have the mobs spawn on nodes that correspond to biome groups where the mob should also spawn.\n\nCurrently supported mobs mods: Wilhemines Animal World, Animalia, Mobs Monster, Dmobs\n\nSupports all Biomes in BiomeDb.\n\nMob mods that should typically work without needing this mod enabled: mobs_skeletons (By Saturn/TenPlus1), Mobs Ghost Redo\n\nFor example mobs that typically spawn on dirt_with_grass like dirt monsters now spawn on most dirt equivalents in other biomes, and sand people spawn in dry hot biomes. Pandas & elephants spawn in bamboo biomes.  Creatures like lava flan & dungeon masters spawn in fiery biomes, and oerkki spawn in spooky biomes. There are still a lot more mobs to add.\n\nNOTE: Understand that mob & biome mods are constantly changing.   Keeping this up to date, and covering mods you care about will be a team effort and will never be perfect.  If you have mobs that you would like to spawn in new biomes, please  give me the name of the biome mod and the mob mod. You can even get more specific and give me the name of the mob and the name of the node it should spawn on. To see the name of the node it should spawn on, hit F5 while in game and point at the node and the name of the node will display.  If you want to assist in developing and maintaining this mod so it helps the most people, just let me know.\n\nTo use the mod: Just enable it. You then can enable any mobs or biomes mods you like and if they are in the supported list mobs should spawn in appropriate biomes.\n\nSupport for spawnit mod to improve spawning performance (especially on servers) has been added for mobs_redo  mobs but not yet for creatura mobs.  Just download it from here https://github.com/fluxionary/minetest-spawnit along with dependencies which are on contentDb,  and enable it, and it should be used by default.","maintainers":["Neuromancer"],"media_license":"MIT","name":"mob_biomedb_mapper","provides":["mob_biomedb_mapper"],"release":25442,"repo":"https://github.com/Neuromancer56/mob_biomedb_mapper","score":4.3,"screenshots":["https://content.luanti.org/uploads/885f58ca7d.png","https://content.luanti.org/uploads/a22d08edf2.png"],"short_description":"Allows mobs to spawn in biomes that don't support them (Using info from BiomeDb)","state":"APPROVED","tags":["mapgen","mobs"],"thumbnail":"https://content.luanti.org/thumbnails/1/885f58ca7d.png","title":"Mob BiomeDb Mapper","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Neuromancer/mob_biomedb_mapper/releases/25442/download/","video_thumbnail_url":null,"video_url":null,"website":"https://forum.minetest.net/viewtopic.php?t=30485","dependencies":{"EmptyStar/biomedb":[],"Neuromancer/mob_biomedb_mapper":[{"is_optional":false,"name":"biomedb","packages":["EmptyStar/biomedb"]}]},"hash":"01n2wmj2yc1frpp5hpa8z1nflxh5pw2hd2dv80lmqy6qlisprs0z"}
+{
+  "author": "Neuromancer",
+  "content_warnings": [],
+  "created_at": "2024-04-28T20:21:14.767418",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 325,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30485",
+  "forums": 30485,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Neuromancer56/mob_biomedb_mapper/issues",
+  "license": "MIT",
+  "long_description": "Allows mobs to spawn in biomes that don't support them (using BiomeDb)\n\n**Note: This mod performs the same general function as the mob_biome_mapper mod https://content.minetest.net/packages/Neuromancer/mob_biome_mapper/ , but because it does it differently you will have to try both mods and see what works best for your situation.  I have less control in this mod, but I also have some work magically done for me by the BiomeDb in this mod.**\n\nOne of the problems players keep running into is that mobs are not being spawned often enough if at all when you add biome mods to your world. This problem occurs because mobs typically only spawn on certain nodes like dirt with grass, which become much more rare once you start adding new biomes to your game.\n\nTo fix the problem of needing more mobs when adding biomes, The mod checks if a mob mod is installed and if it is then based on the info in BiomeDb have the mobs spawn on nodes that correspond to biome groups where the mob should also spawn.\n\nCurrently supported mobs mods: Wilhemines Animal World, Animalia, Mobs Monster, Dmobs\n\nSupports all Biomes in BiomeDb.\n\nMob mods that should typically work without needing this mod enabled: mobs_skeletons (By Saturn/TenPlus1), Mobs Ghost Redo\n\nFor example mobs that typically spawn on dirt_with_grass like dirt monsters now spawn on most dirt equivalents in other biomes, and sand people spawn in dry hot biomes. Pandas & elephants spawn in bamboo biomes.  Creatures like lava flan & dungeon masters spawn in fiery biomes, and oerkki spawn in spooky biomes. There are still a lot more mobs to add.\n\nNOTE: Understand that mob & biome mods are constantly changing.   Keeping this up to date, and covering mods you care about will be a team effort and will never be perfect.  If you have mobs that you would like to spawn in new biomes, please  give me the name of the biome mod and the mob mod. You can even get more specific and give me the name of the mob and the name of the node it should spawn on. To see the name of the node it should spawn on, hit F5 while in game and point at the node and the name of the node will display.  If you want to assist in developing and maintaining this mod so it helps the most people, just let me know.\n\nTo use the mod: Just enable it. You then can enable any mobs or biomes mods you like and if they are in the supported list mobs should spawn in appropriate biomes.\n\nSupport for spawnit mod to improve spawning performance (especially on servers) has been added for mobs_redo  mobs but not yet for creatura mobs.  Just download it from here https://github.com/fluxionary/minetest-spawnit along with dependencies which are on contentDb,  and enable it, and it should be used by default.",
+  "maintainers": [
+    "Neuromancer"
+  ],
+  "media_license": "MIT",
+  "name": "mob_biomedb_mapper",
+  "provides": [
+    "mob_biomedb_mapper"
+  ],
+  "release": 25442,
+  "repo": "https://github.com/Neuromancer56/mob_biomedb_mapper",
+  "score": 4.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/885f58ca7d.png",
+    "https://content.luanti.org/uploads/a22d08edf2.png"
+  ],
+  "short_description": "Allows mobs to spawn in biomes that don't support them (Using info from BiomeDb)",
+  "state": "APPROVED",
+  "tags": [
+    "mapgen",
+    "mobs"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/885f58ca7d.png",
+  "title": "Mob BiomeDb Mapper",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Neuromancer/mob_biomedb_mapper/releases/25442/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://forum.minetest.net/viewtopic.php?t=30485",
+  "dependencies": {
+    "EmptyStar/biomedb": [],
+    "Neuromancer/mob_biomedb_mapper": [
+      {
+        "is_optional": false,
+        "name": "biomedb",
+        "packages": [
+          "EmptyStar/biomedb"
+        ]
+      }
+    ]
+  },
+  "hash": "01n2wmj2yc1frpp5hpa8z1nflxh5pw2hd2dv80lmqy6qlisprs0z"
+}

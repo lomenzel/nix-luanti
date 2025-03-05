@@ -1,1 +1,110 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2023-08-10T10:42:23.467827","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":702,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/C-C-Minetest-Server/um_atm/issues","license":"MIT","long_description":"# ATM for Unified Money\n\nThis mod connects the [Currency mod](https://content.minetest.net/packages/mt-mods/currency/) to [Unified Money](https://content.minetest.net/packages/Emojiminetest/unified_money/) by providing an ATM for taking money out.\n\nThis mod is highly configurable; the configurations can be found in `settingtypes.txt`.\n\nThis mod is rewritten but inspired and taken textures from [ATM mod of LinuxForks Minetest Server](https://git.bananach.space/atm.git). The textures are released under WTFPL as seen in `textures.LICENSE`.","maintainers":["Emojiminetest"],"media_license":"WTFPL","name":"um_atm","provides":["um_atm"],"release":25543,"repo":"https://github.com/C-C-Minetest-Server/um_atm","score":9.9,"screenshots":["https://content.luanti.org/uploads/2b95e1f56c.png"],"short_description":"Take your money into physical currency","state":"APPROVED","tags":["commerce","multiplayer"],"thumbnail":"https://content.luanti.org/thumbnails/1/2b95e1f56c.png","title":"ATM for Unified Money","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/um_atm/releases/25543/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/um_atm":[{"is_optional":false,"name":"flow","packages":["Kimapr/nonsensical_skyblock","luk3yx/flow"]},{"is_optional":false,"name":"um_core","packages":["Emojiminetest/unified_money"]},{"is_optional":false,"name":"currency","packages":["mt-mods/currency","mt-mods/dreambuilder_game"]},{"is_optional":false,"name":"um_plugin_playername","packages":["Emojiminetest/unified_money"]},{"is_optional":false,"name":"um_translate_common","packages":["Emojiminetest/unified_money"]}],"Emojiminetest/unified_money":[{"is_optional":false,"name":"lib_chatcmdbuilder","packages":["rubenwardy/lib_chatcmdbuilder","MisterE/blockbomber_editor","hilol/epic_combat","rubenwardy/capturetheflag"]}],"luk3yx/flow":[{"is_optional":false,"name":"formspec_ast","packages":["luk3yx/prang","RedundantC/wis_part1","luk3yx/formspec_ast","Kimapr/nonsensical_skyblock","Thunder1035/pacman"]}],"mt-mods/currency":[]},"hash":"0xifj58frh58syaaj0x1pf2mzdsqy9n0j203264hfm8yg4kj3cfq"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2023-08-10T10:42:23.467827",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 702,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/um_atm/issues",
+  "license": "MIT",
+  "long_description": "# ATM for Unified Money\n\nThis mod connects the [Currency mod](https://content.minetest.net/packages/mt-mods/currency/) to [Unified Money](https://content.minetest.net/packages/Emojiminetest/unified_money/) by providing an ATM for taking money out.\n\nThis mod is highly configurable; the configurations can be found in `settingtypes.txt`.\n\nThis mod is rewritten but inspired and taken textures from [ATM mod of LinuxForks Minetest Server](https://git.bananach.space/atm.git). The textures are released under WTFPL as seen in `textures.LICENSE`.",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "WTFPL",
+  "name": "um_atm",
+  "provides": [
+    "um_atm"
+  ],
+  "release": 25543,
+  "repo": "https://github.com/C-C-Minetest-Server/um_atm",
+  "score": 9.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2b95e1f56c.png"
+  ],
+  "short_description": "Take your money into physical currency",
+  "state": "APPROVED",
+  "tags": [
+    "commerce",
+    "multiplayer"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2b95e1f56c.png",
+  "title": "ATM for Unified Money",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/um_atm/releases/25543/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/um_atm": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": [
+          "Kimapr/nonsensical_skyblock",
+          "luk3yx/flow"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "um_core",
+        "packages": [
+          "Emojiminetest/unified_money"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "currency",
+        "packages": [
+          "mt-mods/currency",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "um_plugin_playername",
+        "packages": [
+          "Emojiminetest/unified_money"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "um_translate_common",
+        "packages": [
+          "Emojiminetest/unified_money"
+        ]
+      }
+    ],
+    "Emojiminetest/unified_money": [
+      {
+        "is_optional": false,
+        "name": "lib_chatcmdbuilder",
+        "packages": [
+          "rubenwardy/lib_chatcmdbuilder",
+          "MisterE/blockbomber_editor",
+          "hilol/epic_combat",
+          "rubenwardy/capturetheflag"
+        ]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "RedundantC/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ],
+    "mt-mods/currency": []
+  },
+  "hash": "0xifj58frh58syaaj0x1pf2mzdsqy9n0j203264hfm8yg4kj3cfq"
+}

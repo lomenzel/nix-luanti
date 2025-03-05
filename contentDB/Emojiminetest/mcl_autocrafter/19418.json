@@ -1,1 +1,98 @@
-{"author":"Emojiminetest","content_warnings":[],"created_at":"2023-06-27T06:03:37.869448","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":1266,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true}],"issue_tracker":"https://github.com/C-C-Minetest-Server/mcl_autocrafter/issues","license":"GPL-3.0-or-later","long_description":"# Intergrate crafting into your hopper-based machines\n\nThis mod provides autocrafters for MineClone2. Hoppers connected on top or on the sides will be inputting to the crafting materials grid. The hopper below will be taking items from the autocrafter's output.\n\nThe original code, [`pipeworks`](https://content.minetest.net/packages/mt-mods/pipeworks/), is licensed under LGPLv3. However, due to the license requirements of MineClone2, the license of this mod is GPLv3. The media are authored by VanessaE, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\nAs this mod use hacks to workaround hopper issues, only MineClone2 is supported and no forks of it are supported.\n","maintainers":["Emojiminetest"],"media_license":"CC-BY-SA-4.0","name":"mcl_autocrafter","provides":["mcl_autocrafter"],"release":19418,"repo":"https://github.com/C-C-Minetest-Server/mcl_autocrafter","score":14.1,"screenshots":["https://content.luanti.org/uploads/3971392105.png"],"short_description":"Automate crafting process using hoppers and autocrafters","state":"APPROVED","tags":["crafting","survival","technology"],"thumbnail":"https://content.luanti.org/thumbnails/1/3971392105.png","title":"Autocrafters for MineClone2","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/Emojiminetest/mcl_autocrafter/releases/19418/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"Emojiminetest/mcl_autocrafter":[{"is_optional":false,"name":"mcl_formspec","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]}]},"hash":"0vw8yqc0ifbd2k6yk8gkz6pa4dvd12przyf26i08s4knnfcs5a54"}
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2023-06-27T06:03:37.869448",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1266,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/mcl_autocrafter/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Intergrate crafting into your hopper-based machines\n\nThis mod provides autocrafters for MineClone2. Hoppers connected on top or on the sides will be inputting to the crafting materials grid. The hopper below will be taking items from the autocrafter's output.\n\nThe original code, [`pipeworks`](https://content.minetest.net/packages/mt-mods/pipeworks/), is licensed under LGPLv3. However, due to the license requirements of MineClone2, the license of this mod is GPLv3. The media are authored by VanessaE, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\nAs this mod use hacks to workaround hopper issues, only MineClone2 is supported and no forks of it are supported.\n",
+  "maintainers": [
+    "Emojiminetest"
+  ],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "mcl_autocrafter",
+  "provides": [
+    "mcl_autocrafter"
+  ],
+  "release": 19418,
+  "repo": "https://github.com/C-C-Minetest-Server/mcl_autocrafter",
+  "score": 14.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3971392105.png"
+  ],
+  "short_description": "Automate crafting process using hoppers and autocrafters",
+  "state": "APPROVED",
+  "tags": [
+    "crafting",
+    "survival",
+    "technology"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3971392105.png",
+  "title": "Autocrafters for MineClone2",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/mcl_autocrafter/releases/19418/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/mcl_autocrafter": [
+      {
+        "is_optional": false,
+        "name": "mcl_formspec",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "0vw8yqc0ifbd2k6yk8gkz6pa4dvd12przyf26i08s4knnfcs5a54"
+}

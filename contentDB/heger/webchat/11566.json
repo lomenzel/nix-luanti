@@ -1,1 +1,45 @@
-{"author":"heger","content_warnings":[],"created_at":"2022-03-14T07:31:58.771806","dev_state":null,"donate_url":null,"downloads":445,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://gitlab.com/seckl/webchat/-/issues","license":"LGPL-3.0-or-later","long_description":"This mod makes the in-game chat accessible through a web browser. The mod itself implements the Minetest server-side functions. It also contains example PHP code for the web chat GUI and the interaction with the Minetest server.","maintainers":["heger"],"media_license":"LGPL-3.0-or-later","name":"webchat","provides":["webchat"],"release":11566,"repo":"https://gitlab.com/seckl/webchat.git","score":3.8,"screenshots":["https://content.luanti.org/uploads/51cee783ca.png"],"short_description":"Makes the in-game chat accessible through a web browser.","state":"APPROVED","tags":["chat"],"thumbnail":"https://content.luanti.org/thumbnails/1/51cee783ca.png","title":"Web chat","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/heger/webchat/releases/11566/download/","video_thumbnail_url":null,"video_url":null,"website":"https://gitlab.com/seckl/webchat/","dependencies":{"heger/webchat":[]},"hash":"08qk3xliyx9nbrrhzcxyvdr5vahl1vnq4x99p9ifffb96f8m5q4n"}
+{
+  "author": "heger",
+  "content_warnings": [],
+  "created_at": "2022-03-14T07:31:58.771806",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 445,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://gitlab.com/seckl/webchat/-/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "This mod makes the in-game chat accessible through a web browser. The mod itself implements the Minetest server-side functions. It also contains example PHP code for the web chat GUI and the interaction with the Minetest server.",
+  "maintainers": [
+    "heger"
+  ],
+  "media_license": "LGPL-3.0-or-later",
+  "name": "webchat",
+  "provides": [
+    "webchat"
+  ],
+  "release": 11566,
+  "repo": "https://gitlab.com/seckl/webchat.git",
+  "score": 3.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/51cee783ca.png"
+  ],
+  "short_description": "Makes the in-game chat accessible through a web browser.",
+  "state": "APPROVED",
+  "tags": [
+    "chat"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/51cee783ca.png",
+  "title": "Web chat",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/heger/webchat/releases/11566/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://gitlab.com/seckl/webchat/",
+  "dependencies": {
+    "heger/webchat": []
+  },
+  "hash": "08qk3xliyx9nbrrhzcxyvdr5vahl1vnq4x99p9ifffb96f8m5q4n"
+}

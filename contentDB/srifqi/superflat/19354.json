@@ -1,1 +1,85 @@
-{"author":"srifqi","content_warnings":[],"created_at":"2019-08-02T16:57:24.106475","dev_state":"ACTIVELY_DEVELOPED","donate_url":null,"downloads":6351,"forum_url":"https://forum.luanti.org/viewtopic.php?t=9772","forums":9772,"game_support":[{"confidence":11,"game":{"author":"GoodClover","name":"cavegame","release":28119,"short_description":"The simplest block game.","thumbnail":"https://content.luanti.org/thumbnails/1/19f2b13916.png","title":"Cave Game","type":"game"},"supports":false},{"confidence":11,"game":{"author":"Mantar","name":"exile","release":28413,"short_description":"Challenging, at times brutal, wilderness survival with simple technology. ","thumbnail":"https://content.luanti.org/thumbnails/1/0195f6298c.png","title":"Exile","type":"game"},"supports":false},{"confidence":11,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":false}],"issue_tracker":"https://github.com/srifqi/superflat/issues","license":"MIT","long_description":"(Yet Another) Superflat Map Generator\n\n**Features**\n\n* Customize world generation layer by layer\n* Biome decoration (optional, requires Minetest Game or its derivatives)\n* If you fall, you will be returned to the surface\n\nSee [README](https://github.com/srifqi/superflat/#readme) for more information.\n\n⚠ **Note for transitioning to v2.0:** This version has world generation changes, i.e. the world's layers might appear drastically different with older versions, especially for high/deep layers.","maintainers":["srifqi"],"media_license":"CC-BY-SA-3.0","name":"superflat","provides":["superflat"],"release":19354,"repo":"https://github.com/srifqi/superflat","score":500.9,"screenshots":["https://content.luanti.org/uploads/0cTo40UuL1.png"],"short_description":"(Yet Another) Superflat Map Generator: Customize world generation layer by layer","state":"APPROVED","tags":["custom_mapgen"],"thumbnail":"https://content.luanti.org/thumbnails/1/0cTo40UuL1.png","title":"Superflat","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/srifqi/superflat/releases/19354/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"srifqi/superflat":[]},"hash":"1b28pcj382hv3dxdf4gpbg3by3fism2i5lf67vkrm2b7rc852hx9"}
+{
+  "author": "srifqi",
+  "content_warnings": [],
+  "created_at": "2019-08-02T16:57:24.106475",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 6351,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=9772",
+  "forums": 9772,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "GoodClover",
+        "name": "cavegame",
+        "release": 28119,
+        "short_description": "The simplest block game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/19f2b13916.png",
+        "title": "Cave Game",
+        "type": "game"
+      },
+      "supports": false
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 28413,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": false
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/srifqi/superflat/issues",
+  "license": "MIT",
+  "long_description": "(Yet Another) Superflat Map Generator\n\n**Features**\n\n* Customize world generation layer by layer\n* Biome decoration (optional, requires Minetest Game or its derivatives)\n* If you fall, you will be returned to the surface\n\nSee [README](https://github.com/srifqi/superflat/#readme) for more information.\n\n⚠ **Note for transitioning to v2.0:** This version has world generation changes, i.e. the world's layers might appear drastically different with older versions, especially for high/deep layers.",
+  "maintainers": [
+    "srifqi"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "superflat",
+  "provides": [
+    "superflat"
+  ],
+  "release": 19354,
+  "repo": "https://github.com/srifqi/superflat",
+  "score": 500.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0cTo40UuL1.png"
+  ],
+  "short_description": "(Yet Another) Superflat Map Generator: Customize world generation layer by layer",
+  "state": "APPROVED",
+  "tags": [
+    "custom_mapgen"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0cTo40UuL1.png",
+  "title": "Superflat",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/srifqi/superflat/releases/19354/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "srifqi/superflat": []
+  },
+  "hash": "1b28pcj382hv3dxdf4gpbg3by3fism2i5lf67vkrm2b7rc852hx9"
+}

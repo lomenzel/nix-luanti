@@ -1,1 +1,54 @@
-{"author":"giga-turbo","content_warnings":[],"created_at":"2022-06-26T19:35:03.247694","dev_state":"BETA","donate_url":null,"downloads":1875,"forum_url":null,"forums":null,"game_support":[],"issue_tracker":"https://github.com/gigaturbo/codecube/issues","license":"AGPL-3.0-only","long_description":"Codecube\n=========================\n\n![License](https://img.shields.io/badge/License-AGPLv3-blue.svg)\n[![ContentDB](https://content.minetest.net/packages/giga-turbo/codecube/shields/downloads/)](https://content.minetest.net/packages/giga-turbo/codecube/)\n\n**Codecube allows to use `lua` code in Minetest to build anything you want**\n\nThis game is mainly based on the [CodeBlock](https://content.minetest.net/packages/giga-turbo/codeblock/) mod for the programming interface. This game provides a flat world and a few other settings and limitations for a better programming experience.\n\n**License:** AGPLv3   \n**Credits:** inspired by [Gnancraft](http://gnancraft.net/), [ComputerCraft](http://www.computercraft.info/), [Visual Bots](https://content.minetest.net/packages/Nigel/vbots/), [TurtleMiner](https://content.minetest.net/packages/BirgitLachner/turtleminer/), [basic_robot](https://github.com/ac-minetest/basic_robot)\n\n![screenshot](https://raw.githubusercontent.com/gigaturbo/codecube/master/screenshot.png)\n\n## Quick start\n\n### Run your first program\n\n1. Install the game and create a new world\n3. Right click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) tool on a block to place the drone, choose `stairs.lua` then left click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) to start the drone\n\n### Write your first program\n\n1. Right click with ![drone_setter](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/ds.png) tool to open the `lua` editor\n2. Create a new file with the `new file` field and write some code on the main window\n3. Click `load and exit` to load your code in the drone\n4. Right click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) tool on a block and run the code with a left click on ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png)\n5. Read the [Lua API](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#lua-api) in `doc/api.md` to know which commands and blocks you can use\n\n### Explore and tweak\n\n- More built-in examples are available, just open the editor and choose an example to run\n- User `codelevel` can be adjusted to tweak drone performance and capacities, see [permisisons](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#codelevel) and [chat commands](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#chat-commands)","maintainers":["giga-turbo"],"media_license":"AGPL-3.0-only","name":"codecube","provides":["cc_day","cc_mapgen","cc_security","codeblock","default","dye","formspecs","vector3","wool","worldedit"],"release":12748,"repo":"https://github.com/gigaturbo/codecube.git","score":6.9,"screenshots":["https://content.luanti.org/uploads/85ed8f4a7c.png"],"short_description":"A game where the player can construct by programming","state":"APPROVED","tags":["education"],"thumbnail":"https://content.luanti.org/thumbnails/1/85ed8f4a7c.png","title":"Codecube","translation_url":null,"type":"game","url":"https://content.luanti.org/packages/giga-turbo/codecube/releases/12748/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"giga-turbo/codecube":[]},"hash":"1yr41ivr6ynph3vi753pakr9vn00fwfc6d0gzc8q4wz3px53h07f"}
+{
+  "author": "giga-turbo",
+  "content_warnings": [],
+  "created_at": "2022-06-26T19:35:03.247694",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1875,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/gigaturbo/codecube/issues",
+  "license": "AGPL-3.0-only",
+  "long_description": "Codecube\n=========================\n\n![License](https://img.shields.io/badge/License-AGPLv3-blue.svg)\n[![ContentDB](https://content.minetest.net/packages/giga-turbo/codecube/shields/downloads/)](https://content.minetest.net/packages/giga-turbo/codecube/)\n\n**Codecube allows to use `lua` code in Minetest to build anything you want**\n\nThis game is mainly based on the [CodeBlock](https://content.minetest.net/packages/giga-turbo/codeblock/) mod for the programming interface. This game provides a flat world and a few other settings and limitations for a better programming experience.\n\n**License:** AGPLv3   \n**Credits:** inspired by [Gnancraft](http://gnancraft.net/), [ComputerCraft](http://www.computercraft.info/), [Visual Bots](https://content.minetest.net/packages/Nigel/vbots/), [TurtleMiner](https://content.minetest.net/packages/BirgitLachner/turtleminer/), [basic_robot](https://github.com/ac-minetest/basic_robot)\n\n![screenshot](https://raw.githubusercontent.com/gigaturbo/codecube/master/screenshot.png)\n\n## Quick start\n\n### Run your first program\n\n1. Install the game and create a new world\n3. Right click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) tool on a block to place the drone, choose `stairs.lua` then left click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) to start the drone\n\n### Write your first program\n\n1. Right click with ![drone_setter](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/ds.png) tool to open the `lua` editor\n2. Create a new file with the `new file` field and write some code on the main window\n3. Click `load and exit` to load your code in the drone\n4. Right click with ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png) tool on a block and run the code with a left click on ![drone_poser](https://raw.githubusercontent.com/gigaturbo/codeblock/master/doc/dp.png)\n5. Read the [Lua API](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#lua-api) in `doc/api.md` to know which commands and blocks you can use\n\n### Explore and tweak\n\n- More built-in examples are available, just open the editor and choose an example to run\n- User `codelevel` can be adjusted to tweak drone performance and capacities, see [permisisons](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#codelevel) and [chat commands](https://github.com/gigaturbo/codeblock/blob/master/doc/api.md#chat-commands)",
+  "maintainers": [
+    "giga-turbo"
+  ],
+  "media_license": "AGPL-3.0-only",
+  "name": "codecube",
+  "provides": [
+    "cc_day",
+    "cc_mapgen",
+    "cc_security",
+    "codeblock",
+    "default",
+    "dye",
+    "formspecs",
+    "vector3",
+    "wool",
+    "worldedit"
+  ],
+  "release": 12748,
+  "repo": "https://github.com/gigaturbo/codecube.git",
+  "score": 6.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/85ed8f4a7c.png"
+  ],
+  "short_description": "A game where the player can construct by programming",
+  "state": "APPROVED",
+  "tags": [
+    "education"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/85ed8f4a7c.png",
+  "title": "Codecube",
+  "translation_url": null,
+  "type": "game",
+  "url": "https://content.luanti.org/packages/giga-turbo/codecube/releases/12748/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "giga-turbo/codecube": []
+  },
+  "hash": "1yr41ivr6ynph3vi753pakr9vn00fwfc6d0gzc8q4wz3px53h07f"
+}

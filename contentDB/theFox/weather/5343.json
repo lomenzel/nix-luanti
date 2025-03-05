@@ -1,1 +1,48 @@
-{"author":"theFox","content_warnings":[],"created_at":"2018-05-24T10:02:10.450052","dev_state":null,"donate_url":null,"downloads":31854,"forum_url":"https://forum.luanti.org/viewtopic.php?t=5245","forums":5245,"game_support":[],"issue_tracker":"https://github.com/theFox6/minetest_mod_weather/issues/","license":"LGPL-2.1-only","long_description":"A mod adding weather. The weather will change automatically but you can also change it using commands.\nThere are some weather types registered by default, like rain, snow and no downfall.\nOther mods can also register new types of downfall.\nWind will blow the downfall into different directions.\n\nThe weather is made of big particles that are shown client-side.\nOn servers the weather will be the same for all players.","maintainers":["theFox"],"media_license":"LGPL-2.1-only","name":"weather","provides":["weather"],"release":5343,"repo":"https://github.com/theFox6/minetest_mod_weather","score":948.9,"screenshots":["https://content.luanti.org/uploads/fZiy8TkYAy.png","https://content.luanti.org/uploads/LIkzW0AZH8.png","https://content.luanti.org/uploads/vMkQUtXhqd.png","https://content.luanti.org/uploads/ht61VsJmWZ.png"],"short_description":"A weather mod for minetest.","state":"APPROVED","tags":["environment"],"thumbnail":"https://content.luanti.org/thumbnails/1/fZiy8TkYAy.png","title":"Weather","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/theFox/weather/releases/5343/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"theFox/weather":[]},"hash":"1irkgp7fi6lh6dm8h4vmjkx1s642293s5q0glhg98ldiia5zrwhn"}
+{
+  "author": "theFox",
+  "content_warnings": [],
+  "created_at": "2018-05-24T10:02:10.450052",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 31854,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=5245",
+  "forums": 5245,
+  "game_support": [],
+  "issue_tracker": "https://github.com/theFox6/minetest_mod_weather/issues/",
+  "license": "LGPL-2.1-only",
+  "long_description": "A mod adding weather. The weather will change automatically but you can also change it using commands.\nThere are some weather types registered by default, like rain, snow and no downfall.\nOther mods can also register new types of downfall.\nWind will blow the downfall into different directions.\n\nThe weather is made of big particles that are shown client-side.\nOn servers the weather will be the same for all players.",
+  "maintainers": [
+    "theFox"
+  ],
+  "media_license": "LGPL-2.1-only",
+  "name": "weather",
+  "provides": [
+    "weather"
+  ],
+  "release": 5343,
+  "repo": "https://github.com/theFox6/minetest_mod_weather",
+  "score": 948.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fZiy8TkYAy.png",
+    "https://content.luanti.org/uploads/LIkzW0AZH8.png",
+    "https://content.luanti.org/uploads/vMkQUtXhqd.png",
+    "https://content.luanti.org/uploads/ht61VsJmWZ.png"
+  ],
+  "short_description": "A weather mod for minetest.",
+  "state": "APPROVED",
+  "tags": [
+    "environment"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fZiy8TkYAy.png",
+  "title": "Weather",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/theFox/weather/releases/5343/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "theFox/weather": []
+  },
+  "hash": "1irkgp7fi6lh6dm8h4vmjkx1s642293s5q0glhg98ldiia5zrwhn"
+}

@@ -1,1 +1,160 @@
-{"author":"dougsouza26","content_warnings":[],"created_at":"2024-08-15T18:55:00.919506","dev_state":"MAINTENANCE_ONLY","donate_url":"https://github.com/sponsors/JoseDouglas26","downloads":214,"forum_url":null,"forums":null,"game_support":[{"confidence":10,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/JoseDouglas26/mcl_hollow_logs/issues","license":"MIT","long_description":"# Hollow Logs for Mineclonia (mcl_hollow_logs)\n## Description\nAdds hollow logs to each Mineclonia tree/hypha. Equivalent to [**vl_hollow_logs**](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/ITEMS/vl_hollow_logs) in Voxelibre. These logs can be crafted from their normal variants, whether stripped or not. Like normal logs, hollow logs can be oriented on all three axes. Also like overworld logs, overworld hollow logs can be used as fuel and can also be used to make charcoal when burned in a furnace. Unstripped hollow logs can be stripped using axes.\n### Crafting\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>\n[ \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] ] &rarr; [<span style=\"color:red\">**Hollow log 4**</span>] <br>\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>","maintainers":["dougsouza26"],"media_license":"CC-BY-SA-3.0","name":"mcl_hollow_logs","provides":["mcl_hollow_logs"],"release":27193,"repo":"https://github.com/JoseDouglas26/mcl_hollow_logs","score":5.4,"screenshots":["https://content.luanti.org/uploads/b7de6c806d.png","https://content.luanti.org/uploads/6baa21a805.png"],"short_description":"Adds hollow logs to each Mineclonia tree/hypha.","state":"APPROVED","tags":["building","decorative"],"thumbnail":"https://content.luanti.org/thumbnails/1/b7de6c806d.png","title":"Hollow Logs for Mineclonia","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/dougsouza26/mcl_hollow_logs/releases/27193/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"dougsouza26/mcl_hollow_logs":[{"is_optional":false,"name":"mcl_trees","packages":["VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_sounds","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_crimson","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_cherry_blossom","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_util","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_mangrove","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"mcl_core","packages":["Wuzzy/mineclone2","VoxelForge/voxelforge","ryvnf/mineclonia"]},{"is_optional":false,"name":"screwdriver","packages":["BuckarooBanzay/mesecons_lab","Wuzzy/mineclone2","Amaz/lordofthetest","VoxelForge/voxelforge","1248/castrum","ryvnf/mineclonia","Thunder1035/etb","zanderdev/skyblock_zero","1248/regnum","mt-mods/blockcolor","Minetest/minetest_game","debiankaios/proxima_survival","1248/regnum2","Wuzzy/hades_revisited","KareaGhandTrail/block_assault_mapmaker","Lone_Wolf/torrlund","KareaGhandTrail/block_assault","Casimir/voxelgarden","bell07/whynot_game","Kimapr/nonsensical_skyblock","Big_Caballito/no_mans_land","TheFanne/raining_nodes","rlars/occupymoon_game","PetiAPocok/minetest_extended","MeseCraft/mesecraft","hilol/epic_combat","EmptyStar/asuna","Astrobe/minefall","rubenwardy/capturetheflag","mt-mods/dreambuilder_game"]}]},"hash":"08wqp5cigp9pjrsh4kw2kl2hhss237dv3v93cc8q5f8a14gw3b4b"}
+{
+  "author": "dougsouza26",
+  "content_warnings": [],
+  "created_at": "2024-08-15T18:55:00.919506",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/JoseDouglas26",
+  "downloads": 214,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/JoseDouglas26/mcl_hollow_logs/issues",
+  "license": "MIT",
+  "long_description": "# Hollow Logs for Mineclonia (mcl_hollow_logs)\n## Description\nAdds hollow logs to each Mineclonia tree/hypha. Equivalent to [**vl_hollow_logs**](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/ITEMS/vl_hollow_logs) in Voxelibre. These logs can be crafted from their normal variants, whether stripped or not. Like normal logs, hollow logs can be oriented on all three axes. Also like overworld logs, overworld hollow logs can be used as fuel and can also be used to make charcoal when burned in a furnace. Unstripped hollow logs can be stripped using axes.\n### Crafting\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>\n[ \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] ] &rarr; [<span style=\"color:red\">**Hollow log 4**</span>] <br>\n[ \\[\\_\\_\\_\\_\\] \\[<span style=\"color:red\">**Log**</span>\\] \\[\\_\\_\\_\\_\\] ] <br>",
+  "maintainers": [
+    "dougsouza26"
+  ],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mcl_hollow_logs",
+  "provides": [
+    "mcl_hollow_logs"
+  ],
+  "release": 27193,
+  "repo": "https://github.com/JoseDouglas26/mcl_hollow_logs",
+  "score": 5.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/b7de6c806d.png",
+    "https://content.luanti.org/uploads/6baa21a805.png"
+  ],
+  "short_description": "Adds hollow logs to each Mineclonia tree/hypha.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "decorative"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b7de6c806d.png",
+  "title": "Hollow Logs for Mineclonia",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/dougsouza26/mcl_hollow_logs/releases/27193/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "dougsouza26/mcl_hollow_logs": [
+      {
+        "is_optional": false,
+        "name": "mcl_trees",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_crimson",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_cherry_blossom",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mangrove",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "screwdriver",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Wuzzy/mineclone2",
+          "Amaz/lordofthetest",
+          "VoxelForge/voxelforge",
+          "1248/castrum",
+          "ryvnf/mineclonia",
+          "Thunder1035/etb",
+          "zanderdev/skyblock_zero",
+          "1248/regnum",
+          "mt-mods/blockcolor",
+          "Minetest/minetest_game",
+          "debiankaios/proxima_survival",
+          "1248/regnum2",
+          "Wuzzy/hades_revisited",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Lone_Wolf/torrlund",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "bell07/whynot_game",
+          "Kimapr/nonsensical_skyblock",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "EmptyStar/asuna",
+          "Astrobe/minefall",
+          "rubenwardy/capturetheflag",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "08wqp5cigp9pjrsh4kw2kl2hhss237dv3v93cc8q5f8a14gw3b4b"
+}

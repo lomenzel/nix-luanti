@@ -1,1 +1,98 @@
-{"author":"ForbiddenJ","content_warnings":[],"created_at":"2019-05-02T09:00:34.522415","dev_state":null,"donate_url":null,"downloads":1909,"forum_url":null,"forums":null,"game_support":[{"confidence":11,"game":{"author":"Minetest","name":"minetest_game","release":29742,"short_description":"The classic \"Minetest\". A lightweight and well-maintained base for modding","thumbnail":"https://content.luanti.org/thumbnails/1/8ffd1409ff.png","title":"Minetest Game","type":"game"},"supports":true},{"confidence":11,"game":{"author":"MeseCraft","name":"mesecraft","release":29792,"short_description":"Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.","thumbnail":"https://content.luanti.org/thumbnails/1/bd43210a7e.png","title":"MeseCraft","type":"game"},"supports":true},{"confidence":11,"game":{"author":"Wuzzy","name":"mineclone2","release":29214,"short_description":"Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.","thumbnail":"https://content.luanti.org/thumbnails/1/55ab4fc1b5.png","title":"VoxeLibre (formerly MineClone2)","type":"game"},"supports":true},{"confidence":11,"game":{"author":"ryvnf","name":"mineclonia","release":29735,"short_description":"Survival sandbox game inspired by Minecraft.","thumbnail":"https://content.luanti.org/thumbnails/1/864a6133e4.png","title":"Mineclonia","type":"game"},"supports":true}],"issue_tracker":"https://github.com/JustinLaw64/meseport/issues/new/choose/","license":"CC0-1.0","long_description":"Grants special effects to Mese blocks allowing for teleporters made of gold and Mese. When a player punches a gold block which is next to a Mese block, he/she is teleported 100 blocks in the direction of the Mese block relative to the gold block. More Mese placed in a line adds to the transport distance.\n\nLines of Mese can be placed on more than one side of a gold block to create diagonal teleporters! However, Mese blocks on opposing sides cancel each other's power.\n\nIf used carefully, complex teleportation networks can be set up allowing for teleporting around the land or for traveling up and down vertical mineshafts quickly.\n\nAs of December 11, 2020, this mod also has compatibility with MineClone2","maintainers":["ForbiddenJ"],"media_license":"CC0-1.0","name":"meseport","provides":["meseport"],"release":5688,"repo":"https://github.com/JustinLaw64/meseport.git","score":160.7,"screenshots":["https://content.luanti.org/uploads/3Qxj0rDIWb.png"],"short_description":"Allows for the creation of Meseportation systems.","state":"APPROVED","tags":["transport"],"thumbnail":"https://content.luanti.org/thumbnails/1/3Qxj0rDIWb.png","title":"Meseport","translation_url":null,"type":"mod","url":"https://content.luanti.org/packages/ForbiddenJ/meseport/releases/5688/download/","video_thumbnail_url":null,"video_url":null,"website":null,"dependencies":{"ForbiddenJ/meseport":[]},"hash":"07dfwjyba1if52k1nrvh4f363435ja5hdancqgcrgvy21ksw30rv"}
+{
+  "author": "ForbiddenJ",
+  "content_warnings": [],
+  "created_at": "2019-05-02T09:00:34.522415",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1909,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Minetest",
+        "name": "minetest_game",
+        "release": 29742,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 29792,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 29214,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 29735,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/JustinLaw64/meseport/issues/new/choose/",
+  "license": "CC0-1.0",
+  "long_description": "Grants special effects to Mese blocks allowing for teleporters made of gold and Mese. When a player punches a gold block which is next to a Mese block, he/she is teleported 100 blocks in the direction of the Mese block relative to the gold block. More Mese placed in a line adds to the transport distance.\n\nLines of Mese can be placed on more than one side of a gold block to create diagonal teleporters! However, Mese blocks on opposing sides cancel each other's power.\n\nIf used carefully, complex teleportation networks can be set up allowing for teleporting around the land or for traveling up and down vertical mineshafts quickly.\n\nAs of December 11, 2020, this mod also has compatibility with MineClone2",
+  "maintainers": [
+    "ForbiddenJ"
+  ],
+  "media_license": "CC0-1.0",
+  "name": "meseport",
+  "provides": [
+    "meseport"
+  ],
+  "release": 5688,
+  "repo": "https://github.com/JustinLaw64/meseport.git",
+  "score": 160.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3Qxj0rDIWb.png"
+  ],
+  "short_description": "Allows for the creation of Meseportation systems.",
+  "state": "APPROVED",
+  "tags": [
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3Qxj0rDIWb.png",
+  "title": "Meseport",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ForbiddenJ/meseport/releases/5688/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ForbiddenJ/meseport": []
+  },
+  "hash": "07dfwjyba1if52k1nrvh4f363435ja5hdancqgcrgvy21ksw30rv"
+}
