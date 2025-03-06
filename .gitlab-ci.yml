@@ -7,11 +7,12 @@ update_contentDB:
     - nix
   script:
     - git checkout -B "$CI_COMMIT_BRANCH"
-    - nix flake update --extra-experimental-features "nix-command flakes pipe-operators"
-    - nix run --extra-experimental-features "nix-command flakes pipe-operators" .\#fetchContentDB
-    - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
     - git config --global user.email "ci-pipeline@menzel.lol"
     - git config --global user.name "CI Pipeline"
+    - nix flake update --extra-experimental-features "nix-command flakes pipe-operators"
+    - nix run --extra-experimental-features "nix-command flakes pipe-operators" .\#fetchContentDB
+    - git add *
+    - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
     - git add *
     - git commit -m "update and format" || echo "no changes to commit"
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
