@@ -130,8 +130,7 @@ let
   addWithSameName =
     list:
     map (
-      e:
-      e
+      e: e
       // {
         with_same_name = list |> filter (p: p.name == e.name) |> map (getAttr "id") |> lib.lists.unique;
       }

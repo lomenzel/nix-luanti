@@ -63,7 +63,10 @@ let
     |> builtins.listToAttrs;
 
   flatten = list: builtins.foldl' (x: y: x ++ y) [ ] list;
-  dependencyNames = mod: builtins.map (dep: dep.name) mod.meta.dependencies.${mod.meta.id};
+  dependencyNames = mod: mod.meta.dependencies.${mod.meta.id}
+    |> builtins.filter (dep: ! dep.is_optional )
+    |> builtins.map (dep: dep.name)
+  ;
 
   allDeps =
     mods: mods |> builtins.map dependencyNames |> flatten |> lists.unique |> lists.naturalSort;
