@@ -1,0 +1,96 @@
+{
+  "author": "bgstack15",
+  "content_warnings": [],
+  "created_at": "2025-03-14T01:12:46.573167",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 0,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 30146,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 30257,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30062,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - 1.6.0 - Pre 1",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Molten Sailor for Mineclonia\n========================\nBoat for sailing on lava, and armor for diving in lava.\n\nAdaptations of Minetest Game mod Boats, and Spacesuit mod by Thomas Rudin / Buckaroo Banzay\n\nAdapted to Mineclonia by bgstack15\n\n\nSee license.txt for license information.\n\n\n\nBoat Controls\n--------\nThese are slightly different from regular boats in Mineclonia!\n\nRight mouse button = Enter or exit boat when pointing at boat.\n\nForward            = Speed up.\n                     Slow down when moving backwards.\n\nForward + backward = Enable cruise mode: Boat will accelerate to maximum forward\n                     speed and remain at that speed without needing to hold the\n                     forward key.\n\nBackward           = Slow down.\n                     Speed up when moving backwards.\n                     Disable cruise mode.\n\nLeft               = Turn to the left.\n                     Turn to the right when moving backwards.\n\nRight              = Turn to the right.\n                     Turn to the left when moving backwards.\n",
+  "maintainers": ["bgstack15"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "molten_sailor_mcl",
+  "provides": ["molten_sailor_mcl"],
+  "release": 30080,
+  "repo": "https://github.com/bgstack15/molten_sailor_mcl",
+  "score": 0,
+  "screenshots": ["https://content.luanti.org/uploads/ae34d65e30.png"],
+  "short_description": "Boat for sailing on lava, suit for diving in lava, forked for Mineclonia",
+  "state": "APPROVED",
+  "tags": ["player_effects", "survival", "tools", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ae34d65e30.png",
+  "title": "Molten Sailor for Mineclonia",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/bgstack15/molten_sailor_mcl/releases/30080/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "bgstack15/molten_sailor_mcl": [
+      {
+        "is_optional": false,
+        "name": "mcl_boats",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_armor",
+        "packages": [
+          "Wuzzy/mineclone2",
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1miw1w2cx5blimh09g8gnxsawrh1xsjs88r2isxxk93gbdikrn7z"
+}
