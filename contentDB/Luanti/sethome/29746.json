@@ -1,0 +1,50 @@
+{
+  "author": "Luanti",
+  "content_warnings": [],
+  "created_at": "2024-03-29T18:08:35.191233",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1199,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 29922,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/minetest/minetest_game/issues",
+  "license": "MIT",
+  "long_description": "Adds a `/sethome` command used to set a home position that you can return to with `/home` anytime.\n\nThis mod is a part of [Minetest Game](https://github.com/minetest/minetest_game) and this package exists in order to install it for other games that do not provide this mod. For Minetest Game and other games that provide the mod this package is not necessary.",
+  "maintainers": ["Luanti"],
+  "media_license": "MIT",
+  "name": "sethome",
+  "provides": ["sethome"],
+  "release": 29746,
+  "repo": "https://github.com/minetest-game/sethome/",
+  "score": 40.3,
+  "screenshots": ["https://content.luanti.org/uploads/d7db4210d7.png"],
+  "short_description": "Set a home position you can teleport back to anytime",
+  "state": "APPROVED",
+  "tags": ["chat", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d7db4210d7.png",
+  "title": "Sethome",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Luanti/sethome/releases/29746/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/minetest/minetest_game/tree/master/mods/sethome",
+  "dependencies": { "Luanti/sethome": [] },
+  "hash": "1h5dxm4nqy66wcwhgjr1y80g3fsnv1baffncl1aflfw09agrp0lb"
+}
