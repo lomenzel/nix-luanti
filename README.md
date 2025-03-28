@@ -83,7 +83,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
 
           # you can also pin the game to a specific release for example games.minetest_game.Minetest."29922"
           # release here means the internal release number by contentdb
-          game = games.minetest_game;
+          game = games.minetest_game.Luanti;
           mods = with mods; [
             animalia
             i3
