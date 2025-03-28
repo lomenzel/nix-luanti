@@ -35,7 +35,7 @@ pkgs.testers.runNixOSTest {
                 "alice"
                 "bob"
               ];
-              game = games.minetest_game;
+              game = games.minetest_game."Luanti";
               mods = with mods; [
                 animalia
                 i3
