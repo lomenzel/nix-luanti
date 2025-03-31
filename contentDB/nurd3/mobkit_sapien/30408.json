@@ -1,0 +1,127 @@
+{
+  "author": "nurd3",
+  "content_warnings": [],
+  "created_at": "2024-06-23T03:43:37.369896",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 767,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "siegment",
+        "name": "loria",
+        "release": 16565,
+        "short_description": "Work in Progress. Survival in hardcore acid-alien sci-fi themed world ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/JRJSgu2BV4.png",
+        "title": "Loria (alpha)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Linuxdirk",
+        "name": "void",
+        "release": 28671,
+        "short_description": "The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/CZYwsfu1Le.png",
+        "title": "Void - An empty game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Sumianvoice",
+        "name": "backroomtest",
+        "release": 26182,
+        "short_description": "A game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7f0ec19e49.png",
+        "title": "Backrooms Test",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 29922,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "nurd3",
+        "name": "ul_game",
+        "release": 30409,
+        "short_description": "A tiny rogue-inspired game with machiavellian sandbox elements",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/34da8f64ae.png",
+        "title": "Unlit",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Sapiens are humanoid creatures that, despite appearing masculine, are genderless. They come out of eggs(???) and produce items based off of their \"occupation\".\n\nSapiens organize themselves into tribes, these tribes appear to function similarly to that of the colonies of eusocial species like naked mole rats and ants.",
+  "maintainers": ["nurd3"],
+  "media_license": "MIT",
+  "name": "mobkit_sapien",
+  "provides": ["mobkit_sapien"],
+  "release": 30408,
+  "repo": "https://github.com/nurd3/mobkit_sapien",
+  "score": 19.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/9926cdaa47.png",
+    "https://content.luanti.org/uploads/2a51060d98.png",
+    "https://content.luanti.org/uploads/5ac7f15153.png",
+    "https://content.luanti.org/uploads/fb4365cea6.png"
+  ],
+  "short_description": "Adds villager like mobs using Mobkit.",
+  "state": "APPROVED",
+  "tags": ["april_fools", "mobs"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/9926cdaa47.png",
+  "title": "Mobkit Sapien",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/nurd3/mobkit_sapien/releases/30408/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/XyC17gE-o9w.jpg",
+  "video_url": "https://www.youtube.com/watch?v=XyC17gE-o9w",
+  "website": null,
+  "dependencies": {
+    "mt-mods/mobkit": [],
+    "nurd3/mobkit_sapien": [
+      {
+        "is_optional": false,
+        "name": "mobkit",
+        "packages": [
+          "mt-mods/mobkit",
+          "benrob0329/ikea",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "talas/colourhop",
+          "wsor4035/minekart",
+          "Mantar/exile",
+          "Lone_Wolf/voxel_knights",
+          "wsor4035/farlands_reloaded",
+          "nurd3/ul_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1w4pikkcg3qyhbq4lg0kzp6729jjjkjlbqjkdfdkldc649f75ah0"
+}

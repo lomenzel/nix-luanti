@@ -1,0 +1,50 @@
+{
+  "author": "degiel1982",
+  "content_warnings": [],
+  "created_at": "2025-03-24T23:29:43.901923",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 55,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31470",
+  "forums": 31470,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 29922,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/degiel1982/aio_double_tap_run/issues",
+  "license": "MIT",
+  "long_description": "# AIO - Double Tap Run\n\nThis mod adds a double-tap-to-run feature to Minetest, providing a seamless way to toggle between walking and running. It supports dynamic animation, configurable sprint speed, and multiple integrations for enhanced gameplay.\n\n## Features\n\n- **Double-Tap Forward to Run**: Activate sprinting by quickly double-tapping the forward key.\n- **Dynamic Animation Speed**: Automatically adjusts the player’s animation speed based on movement velocity.\n- **Configurable Sprint Speed**: Increase sprint speed with the `aio_dt.extra_speed` setting.\n- **Aux1 Key Support**: Optionally use the Aux1 key for sprinting (enabled via `aio_dt.use_aux`). When a stamina mod is installed, the aux key behavior is skipped.\n- **Stamina Integration**: Automatically integrates with supported stamina mods (e.g., Sofar’s or TenPlus1’s) to adjust sprinting behavior and manage exhaustion.\n- **Hunger Integration**: Cancels sprinting when the player’s hunger falls below a defined threshold and applies a configurable hunger drain while sprinting (requires Hunger NG mod).\n- **Pova Integration**: Uses the Pova mod (if installed) to manage sprinting physics overrides.\n- **Player Monoids Integration**: Allows integration with the Player Monoids mod for modifying player physics.\n- **Liquid Interaction**: Disables sprinting when the player is in liquid.\n- **Ladder Interaction**: By default, sprinting is canceled when standing on a ladder (unless enabled via `aio_dt.ladder_sprint`).\n- **Lightweight and Efficient**: Designed to work out of the box without performance impact.\n- **API Support**: Offers a simple API to enable or disable sprinting programmatically.\n\n## How to Use\n\n1. **Double-Tap to Sprint**: Quickly press the forward movement key (typically `W`) twice to trigger sprinting.\n2. **Stop Sprinting**: Sprinting stops automatically when the key is released.\n3. **Enable Aux1 Key for Sprinting**:\n   - Set `aio_dt.use_aux` to `true` in your `minetest.conf` file to activate the Aux1 key for sprinting.\n   - Note: When a stamina mod is installed, the aux key is not used.\n4. **Stamina Integration**:\n   - If a supported stamina mod (Sofar’s or TenPlus1’s) is installed, sprinting behavior and exhaustion will be adjusted automatically.\n   - Be sure to review and adjust the stamina mod’s settings if needed.\n5. **Hunger Integration**:\n   - If the Hunger NG mod is installed, sprinting will cancel when the player’s hunger level falls below the threshold defined by `aio_dt.hunger_treshold`.\n   - Additionally, hunger will drain while sprinting based on the `aio_dt.hunger_drain` setting.\n6. **Pova and Player Monoids Integration**:\n   - When available, these mods ensure that physics overrides for sprinting are applied without conflicting with other modifications.\n7. **Ladder Behavior**:\n   - By default, sprinting is disabled on ladders. To change this, set `aio_dt.ladder_sprint` to `true` in your configuration.\n\n## Configuration\n\nCustomize the mod’s behavior in your `minetest.conf` file. These settings apply when no stamina mod is present; if a stamina mod is installed, use its own configuration.\n\n- `aio_dt.extra_speed` (default: `0.5`): Additional sprint speed multiplier relative to normal speed.\n- `aio_dt.use_aux` (default: `false`): Enables sprinting via the Aux1 key.\n- `aio_dt.ladder_sprint` (default: `false`): Allows sprinting while on ladders.\n- `aio_dt.hunger_treshold` (default: `6`): The hunger level below which sprinting is canceled (requires Hunger NG mod).\n- `aio_dt.hunger_drain` (default: `0.5`): The amount of hunger drained while sprinting (requires Hunger NG mod).\n- `aio_dt.tap_interval` (default: `0.5`): Maximum time between two taps to register a sprint.\n- `aio_dt.stamina_drain` (default: `true`): Enable draining stamina while sprinting.\n\n### Example Configuration\n```lua\naio_dt.extra_speed = 0.7\naio_dt.use_aux = true\naio_dt.ladder_sprint = false\naio_dt.hunger_treshold = 5\naio_dt.hunger_drain = 0.4\naio_dt.tap_interval = 0.5\naio_dt.stamina_drain = true\n```\n\n## API\n\nDevelopers can integrate sprint functionality using the provided API:\n\n- `aio_double_tap_run.set_sprinting(player, state)`\n  - **player**: The player object.\n  - **state**: `true` to enable sprinting, `false` to disable.\n\n### Example Usage\n```lua\nlocal player = minetest.get_player_by_name(\"player_name\")\nif player then\n    -- Enable sprinting for the player\n    aio_double_tap_run.set_sprinting(player, true)\n\n    -- Disable sprinting for the player\n    aio_double_tap_run.set_sprinting(player, false)\nend\n```\n\n## Dependencies\n\n### None\nThis mod works out of the box without extra dependencies.\n\n### Optional:\n- **Sofar's Stamina Mod:** Auto-adjusts sprinting behavior based on stamina.\n- **TenPlus1's Stamina Mod:** Supports stamina exhaustion while sprinting.\n- **Hunger NG Mod:** Cancels sprinting when hunger falls below a threshold and applies a hunger drain.\n-**Player Monoids:** For compatibility with other mods modifying player physics.\n- **Pova:** Manages sprinting physics overrides.\n\n## License\n\n- **Code**: MIT License  \n- **Media**: No media included\n\nEnjoy the enhanced movement mechanics with this mod!",
+  "maintainers": ["degiel1982"],
+  "media_license": "MIT",
+  "name": "aio_double_tap_run",
+  "provides": ["aio_double_tap_run"],
+  "release": 30401,
+  "repo": "https://github.com/degiel1982/aio_double_tap_run",
+  "score": 17.3,
+  "screenshots": ["https://content.luanti.org/uploads/20ae8e9a5f.jpg"],
+  "short_description": "Sprinting with double tap forward key (Stamina) supported",
+  "state": "APPROVED",
+  "tags": ["multiplayer", "player_effects", "pve", "pvp", "singleplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/20ae8e9a5f.png",
+  "title": "AIO - Double Tap Run",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/degiel1982/aio_double_tap_run/releases/30401/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "degiel1982/aio_double_tap_run": [] },
+  "hash": "0sp25zx7zhpnim113xzsspmg3kn68rxjrara9fwmjjh6jsnhf75b"
+}
