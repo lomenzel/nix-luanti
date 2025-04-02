@@ -1,0 +1,50 @@
+{
+  "author": "degiel1982",
+  "content_warnings": [],
+  "created_at": "2025-03-24T23:29:43.901923",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 61,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31470",
+  "forums": 31470,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 29922,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/degiel1982/aio_double_tap_run/issues",
+  "license": "MIT",
+  "long_description": "# AIO - Double Tap Run \nGet ready to transform your gameplay experience with the AIO - Double Tap Run mod! Designed to add a seamless and dynamic sprinting system to your game, this mod is perfect for players who crave enhanced mobility, deeper realism, and full customization. Whether you’re racing across open fields, navigating challenging terrain, or immersing yourself in a more interactive world, this mod introduces intuitive sprint mechanics and exciting features that take movement to the next level.\nWith options for stamina integration, particle effects, and even compatibility with popular physics and hunger mods, AIO - Double Tap Run ensures a well-rounded and tailored experience for every type of player. Sprint freely, set your own rules, and enjoy a highly interactive, engaging adventure—because every step matters!\n## Features\n\n### Sprinting\n- **Double Tap Forward Key:** Sprint by double tapping the forward key *(default: Enabled)*.\n- **Aux1 Key:** Sprint by pressing the AUX1 key *(default: Disabled)*.\n- **On Ladders:** Enable sprinting while climbing ladders *(default: Disabled)*.\n- **In Liquid:** Allow sprinting while submerged in liquid environments *(default: Disabled)*.\n- **Particle Effects:** Display sprinting particles around the player's feet for visual feedback *(default: Enabled)*.\n- **Customizable Settings:** All sprinting features can be toggled or modified via the settings menu.\n\n### Character Animations (Requires Character Animations Mod by LMD)\n- **Dynamic Movement Speed:** Adjust animation speed to match the character's sprinting speed *(default: Enabled)*.\n- **Custom Animation Settings:** Personalize walk/sprint frame speeds; enable or disable animations based on preferences.\n\n### Stamina and Hunger Integration\n- **Stamina Drain:** Supports stamina reduction while sprinting, compatible with hunger mechanics.\n- **Starvation Rules:** Disable sprinting for starving players to add realism to hunger-based gameplay.\n\n### Physics Mods Compatibility\n- **Pova:** Integration for enhanced sprint physics using Pova overrides.\n- **Player Monoids:** Compatibility with player physics modification mods.\n\n### Bed and Colorful Beds Mod Compatibility\n- Disable bed interactions while sprinting for improved gameplay realism.\n\n## Optional Dependencies\n- **Sofar's Stamina Mod:** Fine-tune sprint stamina mechanics.\n- **TenPlus1's Stamina Mod:** Enable stamina exhaustion to influence sprinting dynamics.\n- **Hunger NG Mod:** Manage hunger-based sprint cancellation and stamina drain.\n- **Player Monoids & Pova:** Ensure compatibility with other mods modifying player physics.\n- **Beds Mod:**: Needed for preventing \"ghost riding\" when sleeping\n- **Character Animations:** Make models move faster when sprinting \n\n## License\n- **Code:** MIT License\n- **Media:** No media included.",
+  "maintainers": ["degiel1982"],
+  "media_license": "MIT",
+  "name": "aio_double_tap_run",
+  "provides": ["aio_double_tap_run"],
+  "release": 30450,
+  "repo": "https://github.com/degiel1982/aio_double_tap_run",
+  "score": 16.7,
+  "screenshots": ["https://content.luanti.org/uploads/20ae8e9a5f.jpg"],
+  "short_description": "Sprinting with double tap forward key (Stamina) supported",
+  "state": "APPROVED",
+  "tags": ["player_effects", "pve", "pvp", "singleplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/20ae8e9a5f.png",
+  "title": "AIO - Double Tap Run",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/degiel1982/aio_double_tap_run/releases/30450/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "degiel1982/aio_double_tap_run": [] },
+  "hash": "1qqhyhd03z4lwxppjs2ixi2ivncds96cqqzq7nv9wk3vprgjwvk1"
+}
