@@ -1,0 +1,50 @@
+{
+  "author": "degiel1982",
+  "content_warnings": [],
+  "created_at": "2025-03-24T23:29:43.901923",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 59,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31470",
+  "forums": 31470,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 29922,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/degiel1982/aio_double_tap_run/issues",
+  "license": "MIT",
+  "long_description": "\n\n# AIO - Double Tap Run\n\nThis mod enhances Minetest gameplay by introducing a double-tap-to-run mechanism. It allows players to toggle between walking and running seamlessly, while also incorporating new features such as preventing sprinting on beds and ensuring that running in place does not drain stamina or hunger.\n\n## Features\n\n- **Double-Tap Forward to Sprint:** Activate sprinting mode by quickly pressing the forward movement key (`W`).\n- **Particle Effects During Sprinting:** Visual feedback when sprinting, adding depth to the gameplay.\n- **Dynamic Animation Speed:** Adjusts animation speed based on movement velocity for a more realistic feel. **(Requires the Character Animations mod)**\n- **Configurable Sprint Speed:** You can customize the speed in the settings (Note when stamina mod is installed make sure you use their respective settings)\n- **Aux1 Key Support:** Optional AUX1 key support (Can be changed in the settings)\n- **Stamina Integration:**\n  - Supports both Sofar's and TenPlus1's stamina mods, adjusting sprint behavior based on stamina levels.\n- **Hunger Integration:** Automatically cancels sprinting when hunger falls below a threshold, requiring the Hunger NG mod.\n- **Pova and Player Monoids Compatibility:** Integrates with these mods to manage physics overrides, ensuring compatibility with other player-physics modifying mods.\n- **Liquid Interaction:** Disables sprinting in liquids for realistic movement. (Optional change in settings)\n- **Ladder Behavior:** Sprinting on ladders is optional (Change in the settings)\n- **Prevent Sprinting on Beds:** You can not interract with a bed while sprinting\n- **Running in Place Does Not Drain Stamina or Hunger:** Pressing the sprint key without moving forward won’t consume stamina or hunger.\n\n\n\n## Dependencies\n\n- **Optional:**\n  - **Sofar's Stamina Mod:** Adjusts sprinting based on stamina.\n  - **TenPlus1's Stamina Mod:** Supports stamina exhaustion while sprinting.\n  - **Hunger NG Mod:** Manages hunger-based sprint cancellation and drain.\n  - **Player Monoids:** Ensures compatibility with other physics mods.\n  - **Pova:** Manages physics overrides for sprinting.\n  - **Beds:** Needed for canceling interaction \n  - **Colorful Beds:** Needed for canceling interaction \n\n## License\n\n- **Code**: MIT License\n- **Media**: No media included\n",
+  "maintainers": ["degiel1982"],
+  "media_license": "MIT",
+  "name": "aio_double_tap_run",
+  "provides": ["aio_double_tap_run"],
+  "release": 30438,
+  "repo": "https://github.com/degiel1982/aio_double_tap_run",
+  "score": 16.4,
+  "screenshots": ["https://content.luanti.org/uploads/20ae8e9a5f.jpg"],
+  "short_description": "Sprinting with double tap forward key (Stamina) supported",
+  "state": "APPROVED",
+  "tags": ["player_effects", "pve", "pvp", "singleplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/20ae8e9a5f.png",
+  "title": "AIO - Double Tap Run",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/degiel1982/aio_double_tap_run/releases/30438/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "degiel1982/aio_double_tap_run": [] },
+  "hash": "16daidv9m21n69qxrksprkky1cx32jq76jkilcjh6h10k0z8vh4p"
+}
