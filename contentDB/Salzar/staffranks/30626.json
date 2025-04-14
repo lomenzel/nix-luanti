@@ -1,0 +1,50 @@
+{
+  "author": "Salzar",
+  "content_warnings": [],
+  "created_at": "2023-08-19T15:57:24.466003",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 719,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29734",
+  "forums": 29734,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30625,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "##### Base ranks\n\nAll ranks can be found in ranks.lua.\n\n* Administrator\n* Moderator\n* Developer\n* Builder\n* Contributor\n* VIP\n\n##### Commands\n\n* `/add_rank <name> <rankname>` - Add a rank to player. If the rank name is 'clear', it resets the player's rank.\n* `/ranks_list` - See the list of all ranks.\n* `/view_rank <name>` - View a player's rank.\n\n##### Customization\n\nIf you want to modify existing ranks or create new ones, simply use the staffranks.register_rank() function and add the rank name, prefix and color.\n\n##### API\n\n* `staffranks.register_rank(name, prefix, color)` - Registers a rank, with its name, prefix and color.\n* `staffranks.rank_exist(rankname)` - Check that the rank exists.\n* `staffranks.add_rank(name, rankname)` - Adds a specific rank to a player.\n* `staffranks.set_nametag(player)` - Set a player's nametag.\n* `staffranks.clear_nametag` - Remove a player's nametag.\n* `staffranks.rankslist()` - Displays the list of ranks\n\n\n**Note: If the nametag does not appear, log out and log back in.**",
+  "maintainers": ["Salzar"],
+  "media_license": "MIT",
+  "name": "staffranks",
+  "provides": ["staffranks"],
+  "release": 30626,
+  "repo": "https://github.com/Salzar-R2D2/StaffRanks.git",
+  "score": 162.5,
+  "screenshots": ["https://content.luanti.org/uploads/1b622bbbc2.png"],
+  "short_description": "Adds ranks, in chat and in nametag.",
+  "state": "APPROVED",
+  "tags": ["chat", "server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1b622bbbc2.png",
+  "title": "StaffRanks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Salzar/staffranks/releases/30626/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Salzar/staffranks": [] },
+  "hash": "0v829dw9z6ligb88cg9dxf6y0b92ss9a1bi2mbzcragpwg69amws"
+}

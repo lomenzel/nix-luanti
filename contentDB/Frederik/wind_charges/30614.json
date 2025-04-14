@@ -1,0 +1,89 @@
+{
+  "author": "Frederik",
+  "content_warnings": [],
+  "created_at": "2025-04-12T12:35:29.243274",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 6,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30625,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 30536,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 30146,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 29711,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "A mod that adds wind charges which allow you to launch yourself into the air. It includes sound effects and fitting textures. Currently, they can't be obtained in survival mode, but I'm working on that.",
+  "maintainers": ["Frederik"],
+  "media_license": "MIT",
+  "name": "wind_charges",
+  "provides": ["wind_charges"],
+  "release": 30614,
+  "repo": null,
+  "score": 2,
+  "screenshots": ["https://content.luanti.org/uploads/901955e867.png"],
+  "short_description": "A mod that adds wind charges as a fun item.",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/901955e867.png",
+  "title": "Wind Charges",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Frederik/wind_charges/releases/30614/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Frederik/wind_charges": [] },
+  "hash": "1va3r817pybxaml1s7f65ql1r1g78mwkcsy1wv8ipkblsl4a9dfw"
+}
