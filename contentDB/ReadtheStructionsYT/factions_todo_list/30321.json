@@ -1,0 +1,55 @@
+{
+  "author": "ReadtheStructionsYT",
+  "content_warnings": [],
+  "created_at": "2025-02-15T18:36:11.671067",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 0,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Factions Todo List\nThis mod adds a todo list for each faction, which can only be accessed by the faction members.\n\nAdds a command f_todo with several subcommands:\n\n* Available to all faction members:\n\n\t`f_todo list ` - View the faction's todo list\n\t\n\t\n* Owner-only commands:\n\n\t`f_todo add <item>` - Add a new item to the todo list\n\t\n\t`f_todo clear` - Clear all items from the todo list\n\t\n\t\n## Helper Functions\n* `todo.add(faction, item)` - Adds a new item to a faction's todo list, initializing the faction's list if it doesn't exist\n* `todo.save()` - Serializes and saves the current todo items to storage\n* `todo.get(faction)` - Retrieves and deserializes a faction's todo list from storage, returns empty table if none exists\n* `todo.clear(faction)` - Clears all todo items for a specific faction and saves the change to storage\n\n\tThese functions handle the core functionality of storing, retrieving, and managing todo lists for each faction.",
+  "maintainers": ["ReadtheStructionsYT"],
+  "media_license": "GPL-3.0-or-later",
+  "name": "factions_todo_list",
+  "provides": ["factions_todo_list"],
+  "release": 30321,
+  "repo": "https://github.com/PieAreSquared11/Factions-Todo-List/",
+  "score": 0,
+  "screenshots": ["https://content.luanti.org/uploads/4dbb7e63a0.png"],
+  "short_description": "Adds a todo list for the Player Factions Redo",
+  "state": "APPROVED",
+  "tags": [],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4dbb7e63a0.png",
+  "title": "Factions Todo List",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ReadtheStructionsYT/factions_todo_list/releases/30321/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ReadtheStructionsYT/factions_redo": [],
+    "ReadtheStructionsYT/factions_todo_list": [
+      {
+        "is_optional": false,
+        "name": "factions_redo",
+        "packages": ["ReadtheStructionsYT/factions_redo"]
+      },
+      {
+        "is_optional": false,
+        "name": "lib_chatcmdbuilder",
+        "packages": [
+          "rubenwardy/capturetheflag",
+          "rubenwardy/lib_chatcmdbuilder",
+          "MisterE/blockbomber_editor",
+          "hilol/epic_combat"
+        ]
+      }
+    ],
+    "rubenwardy/lib_chatcmdbuilder": []
+  },
+  "hash": "0v5d0l01q8a2wsrpvy29v3p0536c03mjapama61brn5phm9l3p2s"
+}
