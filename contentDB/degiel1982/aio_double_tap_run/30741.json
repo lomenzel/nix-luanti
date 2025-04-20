@@ -1,0 +1,76 @@
+{
+  "author": "degiel1982",
+  "content_warnings": [],
+  "created_at": "2025-03-24T23:29:43.901923",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 145,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31470",
+  "forums": 31470,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30625,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "wsor4035",
+        "name": "farlands_reloaded",
+        "release": 29611,
+        "short_description": "lightweight game to explore and create",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/fc00acef4f.png",
+        "title": "Farlands Reloaded",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 30740,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/degiel1982/aio_double_tap_run/issues",
+  "license": "MIT",
+  "long_description": "#  AIO - DOUBLE TAP RUN\n\n### **Features List**  \n- **Own fatigue bar**: When no stamina/hunger_ng/hbhunger mod is installed or not in creative mode it will show a fatqiue bar(Toggleable in the settings)\n- **Intuitive Double-Tap Sprinting**: Effortlessly activate sprinting by double-tapping the forward key, offering a natural and responsive way to boost your movement speed.  \n- **Comprehensive Sprinting Mod**: Built with double-tap sprinting as its flagship feature, providing a refined sprinting experience tailored to all types of players.  \n- **Optional AUX1 Sprinting**: Prefer an alternative or maybe both? Enable sprinting via the AUX1 key for more customization.  \n- **Seamless Sprinting Experience**: Enjoy fluid, uninterrupted sprinting without unexpected stops or interruptions.  \n- **Enhanced Water Diving**: Sprint even while fully submerged for faster underwater navigation. For an even better experience, pair with the **3D Armor Fly Swim Mod**.  \n- **Extensive Customization Options**: Adjust the mod's settings to perfectly align with your personal playstyle.  \n- **Controller & Touchscreen Optimization**: Freely move using the D-pad or touchscreen without interruptions—except when moving backward or standing still.  \n- **Stamina Integration**: Fully supports stamina mechanics with **stamina/hunger_ng/hbhunger** for an immersive gameplay experience.  \n- **Xcompat Sprint Particles**: Utilize sprint particle effects across more supported worlds with Xcompat compatibility.  \n- **Hang glider compatible**: Supports sprint gliding with a hang glider when hang glider mod is installed (player_monoids/pova required)\n- **Compatible with mymonths by Don and contributors**: When enabled in the settings snow_covers will slow you down.\n\n",
+  "maintainers": ["degiel1982"],
+  "media_license": "MIT",
+  "name": "aio_double_tap_run",
+  "provides": ["aio_double_tap_run"],
+  "release": 30741,
+  "repo": "https://github.com/degiel1982/aio_double_tap_run",
+  "score": 28,
+  "screenshots": ["https://content.luanti.org/uploads/862cb0b70f.png"],
+  "short_description": "(Pova / Player_Monoids / Stamina / Hunger_ng / Hbhunger/Hudbars) Supported",
+  "state": "APPROVED",
+  "tags": ["player_effects", "pve", "pvp", "singleplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/862cb0b70f.png",
+  "title": "AIO - Double Tap Run",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/degiel1982/aio_double_tap_run/releases/30741/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "degiel1982/aio_double_tap_run": [] },
+  "hash": "1i95cpbppsga6lpniw38nld32vnip17wnk554ygxz0593qwklcys"
+}
