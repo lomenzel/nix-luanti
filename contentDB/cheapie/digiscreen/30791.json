@@ -1,0 +1,175 @@
+{
+  "author": "cheapie",
+  "content_warnings": [],
+  "created_at": "2021-02-28T08:22:10.851923",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2277,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 30740,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 30792,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BRNSystems",
+        "name": "blocky_portaling",
+        "release": 16327,
+        "short_description": "Work in Progress. A WIP game based on AiTechEye's portalgun",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/c01dd4b01d.png",
+        "title": "Blocky portaling",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30744,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 30536,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "The Unlicense",
+  "long_description": "Adds a 16x16 graphical display for digilines.  \nTo use, send an image in the form of nested tables containing hex color values (that is, the image is one table, within there is a table for each row, and within those are strings representing the color of each pixel), or simply hook it up to the GPU from digistuff and use the GPU's \"send\" or \"sendregion\" command.  \n  \nThese can also work as a drop-in replacement for existing rgblightstone displays 16x16 or smaller.  \n  \nMultiple panels can be placed adjacent to one another without gaps, and (through somewhat careful manipulation of the image data) display a mostly seamless larger image. The screenshots are using this technique, with a 4x4 array in the gradient demo and a 4x5 array in the tic-tac-toe machine.",
+  "maintainers": ["cheapie"],
+  "media_license": "The Unlicense",
+  "name": "digiscreen",
+  "provides": ["digiscreen"],
+  "release": 30791,
+  "repo": "https://cheapiesystems.com/git/digiscreen/",
+  "score": 26.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/V3eGHkFrYU.png",
+    "https://content.luanti.org/uploads/vCB1fbPX6S.png"
+  ],
+  "short_description": "Digilines graphical screen",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/V3eGHkFrYU.png",
+  "title": "Digiscreen",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/cheapie/digiscreen/releases/30791/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "cheapie/digiscreen": [
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      }
+    ]
+  },
+  "hash": "00g4k4vp4ak1925mijpg23z58708bd9498xxafi4hcfmqz5l4yn7"
+}
