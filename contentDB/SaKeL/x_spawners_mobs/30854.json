@@ -1,0 +1,59 @@
+{
+  "author": "SaKeL",
+  "content_warnings": [],
+  "created_at": "2025-04-25T19:44:59.307295",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 17,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30744,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://bitbucket.org/minetest_gamers/x_spawners_mobs/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# X Spawners Mobs\n\nAdds mobs support for spawners.\n\n- Animalia\n- Mobs Animals\n- Mobs Monsters\n- Mob Horse\n- Mobs Water (Crocodile, Fish, Shark, Turtle, Jellyfish)\n- DMobs\n- NSSM",
+  "maintainers": ["SaKeL"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "x_spawners_mobs",
+  "provides": ["x_spawners_mobs"],
+  "release": 30854,
+  "repo": "https://bitbucket.org/minetest_gamers/x_spawners_mobs",
+  "score": 9.7,
+  "screenshots": ["https://content.luanti.org/uploads/eefca4a739.png"],
+  "short_description": "Adds mob spawners.",
+  "state": "APPROVED",
+  "tags": ["mobs", "pve", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/eefca4a739.png",
+  "title": "X Spawners Mobs",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SaKeL/x_spawners_mobs/releases/30854/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://bitbucket.org/minetest_gamers/x_spawners_mobs",
+  "dependencies": {
+    "SaKeL/x_spawners_api": [],
+    "SaKeL/x_spawners_mobs": [
+      {
+        "is_optional": false,
+        "name": "x_spawners_api",
+        "packages": ["SaKeL/x_spawners_api"]
+      }
+    ]
+  },
+  "hash": "0401nkazrp84jsgmwlz5d7c268l6wqvczn8sx6s8gvak6kvns5vc"
+}
