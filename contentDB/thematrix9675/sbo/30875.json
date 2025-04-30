@@ -1,0 +1,147 @@
+{
+  "author": "thematrix9675",
+  "content_warnings": [],
+  "created_at": "2024-11-22T19:40:40.929277",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 51,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "zanderdev",
+        "name": "skyblock_zero",
+        "release": 30788,
+        "short_description": "Start from absolutely nothing in a skyblock world. Time is your resource.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/4aa8824793.png",
+        "title": "Skyblock: Zero",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-3.0-or-later",
+  "long_description": "I made this as an expansion to Skyblock: Zero \nYou can Enable / Disable Parts of the Pack to fit your wants.",
+  "maintainers": ["thematrix9675"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "sbo",
+  "provides": [
+    "sbo_adv_chg_gen",
+    "sbo_adv_peb_ext",
+    "sbo_asteroid",
+    "sbo_colorium",
+    "sbo_colorium_circuit",
+    "sbo_colorium_plate",
+    "sbo_comp_ani",
+    "sbo_connector",
+    "sbo_coric_meteorite",
+    "sbo_emittrium_plate",
+    "sbo_extrosim",
+    "sbo_extrosim_circuit",
+    "sbo_extrosim_glass",
+    "sbo_light_blk",
+    "sbo_photon",
+    "sbo_plant_inc",
+    "sbo_portible",
+    "sbo_rein_cable",
+    "sbo_simp_charge_ext",
+    "sbo_simp_core_ext",
+    "sbo_sup_bat",
+    "sbz_progression"
+  ],
+  "release": 30875,
+  "repo": null,
+  "score": 8.4,
+  "screenshots": ["https://content.luanti.org/uploads/a094d4bc85.png"],
+  "short_description": "This is an expansion of Skyblock: Zero",
+  "state": "APPROVED",
+  "tags": ["singleplayer", "technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a094d4bc85.png",
+  "title": "Skyblock: One",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/thematrix9675/sbo/releases/30875/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "OgelGames/fakelib": [],
+    "RealBadAngel/unified_inventory": [],
+    "ShadowNinja/areas": [],
+    "mt-mods/unifieddyes": [],
+    "thematrix9675/sbo": [
+      {
+        "is_optional": false,
+        "name": "sbz_meteorites",
+        "packages": ["zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "sbz_resources",
+        "packages": ["zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "areas",
+        "packages": ["zanderdev/skyblock_zero", "ShadowNinja/areas"]
+      },
+      {
+        "is_optional": false,
+        "name": "sbz_power",
+        "packages": ["zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "sbz_base",
+        "packages": ["zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "unifieddyes",
+        "packages": [
+          "bell07/whynot_game",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/unifieddyes",
+          "zanderdev/skyblock_zero",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "sbz_chem",
+        "packages": ["zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "mt-mods/dreambuilder_game",
+          "MisterE/blockbomber_editor"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fakelib",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "zanderdev/skyblock_zero",
+          "mt-mods/dreambuilder_game",
+          "Kimapr/nonsensical_skyblock",
+          "OgelGames/fakelib"
+        ]
+      }
+    ]
+  },
+  "hash": "0b15i402xsa8vqxn0gdlsag97sxklb7lcxagdvz3mhxwbhsqb5j9"
+}
