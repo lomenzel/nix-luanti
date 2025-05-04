@@ -1,0 +1,63 @@
+{
+  "author": "TenPlus1",
+  "content_warnings": [],
+  "created_at": "2018-06-18T19:29:11.941032",
+  "dev_state": null,
+  "donate_url": "https://ko-fi.com/tenplus1",
+  "downloads": 65257,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=16446",
+  "forums": 16446,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30744,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 30845,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Adds bone and bonemeal giving the ability to quickly grow plants and saplings.",
+  "maintainers": ["TenPlus1"],
+  "media_license": "CC0-1.0",
+  "name": "bonemeal",
+  "provides": ["bonemeal"],
+  "release": 30908,
+  "repo": "https://codeberg.org/tenplus1/bonemeal",
+  "score": 1952.4,
+  "screenshots": ["https://content.luanti.org/uploads/fa7c41d785.jpg"],
+  "short_description": "Adds bone and bonemeal giving the ability to quickly grow plants and saplings.",
+  "state": "APPROVED",
+  "tags": ["plants_and_farming"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fa7c41d785.png",
+  "title": "Bonemeal",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TenPlus1/bonemeal/releases/30908/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "TenPlus1/bonemeal": [] },
+  "hash": "0y7jkzzs9kvy66lh3w0i3gvfvqi4b1lngly0kvsknddp3nasvsd9"
+}
