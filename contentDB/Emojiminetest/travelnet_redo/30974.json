@@ -1,0 +1,106 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-06-23T14:30:14.014406",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 968,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30744,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/travelnet_redo/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Travelnet Redo\n\nThis is a rewrite of the [original Travelnet mod](https://content.minetest.net/packages/mt-mods/travelnet/), using PostgreSQL as the storage backend.\n\nThis rewrite is based on [commit `fad216d` of mt-mods' fork](https://github.com/mt-mods/travelnet/commit/fad216db52b8fc8fafa11868d80c9e35c4b4a7ac), a fork of the [unmaintained upstream](https://github.com/Sokomine/travelnet) By Sokomine.\n\n## Why this fork?\n\n* **No more bloated API**: You can create travelnets not only in box-like shape\n* **Cleaner codes**: Getting rid of 12 years of ancient debris hidden deep inside codes\n* **Lesser memory usage**: Not having to load all networks the player owns to load one network\n* **More flexibility**: Allow admins to change the owner and the name (to-do) of a network easily\n* **No hacky travelnet removal code**: Travelnets can be dug normally instead of asking for detachment in the UI\n* **No more [cramped UIs](https://github.com/mt-mods/travelnet/issues/53)**: Using flow as the GUI library, the elements align themselves neatly\n\n## Travelnets catalogue\n\n* Default travelnets: Original box-like travelnets that come with this mod, in 15 colors\n* [Fancy travelnets](https://content.minetest.net/packages/Emojiminetest/travelnet_redo_fancy/): Travelnets with fancy textures, magic themed\n* [Travelnet beacons](https://content.minetest.net/packages/Emojiminetest/travelnet_redo_beacons/): Single-node travelnet (not box-shaped)\n\n## Changes\n\n* **This mod is not a drop-in replacement of the original Travelnet mod.** Contributions are welcomed, but I don't plan to write migration scripts.\n* Elevators are not included. This is mainly my personal choice - use [more realistic elevators](https://content.minetest.net/packages/shacknetisp/elevator/), they are not bad.\n* Punching the travelnet no longer updates it. Instead, they are always up-to-date, and a cache system ensures the robustness of displays.\n* The number of travelnets in a network is no longer limited to 24. Though packed, the system properly handles the display of >24 travelnets.\n* A sorting key field is added. This is a 2-bit signed integer controlling how travelnets should be sorted when listed, the smaller the upper. Travelnets first get sorted by their sorting key, then case-insensitive alphabetically.\n* Apart from \"(P)\" meaning protected, \"(I)\" means enter only - you can't exit from that travelnet unless you own that travelnet.\n* If travelnet names start with integers, they are sorted numerically.\n\n## Installation\n\nThis mod requires `pgmoon` and `luasocket`. Use the following command to install them:\n\n```bash\nluarocks install pgmoon\nluarocks install luasocket\n```\n\nAfter installing, configure the following in your `minetest.conf` (see [`pgmoon.new`](https://github.com/leafo/pgmoon#newoptions) for full options list):\n\n```text\n# We need insecure environment access\nsecure.trusted_mods = travelnet_redo\n\n# Note that this differs from backend definitions in world.mt\ntravelnet_redo.pg_connection = database=minetest host=127.0.0.1 port=5432 user=minetest password=password\n```\n\nOf course, configure your PostgreSQL server accordingly. You can safely share the same database with all Minetest storage.",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "travelnet_redo",
+  "provides": ["travelnet_redo"],
+  "release": 30974,
+  "repo": "https://github.com/C-C-Minetest-Server/travelnet_redo",
+  "score": 29.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d0e9137ee4.png",
+    "https://content.luanti.org/uploads/d66d0a7a2b.png",
+    "https://content.luanti.org/uploads/97ed78fce4.png",
+    "https://content.luanti.org/uploads/8995f9f9f8.png"
+  ],
+  "short_description": "Travelnet with improved performance and code tidiness",
+  "state": "APPROVED",
+  "tags": ["complex_installation", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d0e9137ee4.png",
+  "title": "Travelnet Redo",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/travelnet_redo/releases/30974/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/logging": [],
+    "Emojiminetest/settings_loader": [
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
+      }
+    ],
+    "Emojiminetest/travelnet_redo": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
+      },
+      {
+        "is_optional": false,
+        "name": "settings_loader",
+        "packages": ["Emojiminetest/settings_loader"]
+      },
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "zanderdev/skyblock_zero",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": ["Casimir/voxelgarden", "Emojiminetest/logging"]
+      }
+    ],
+    "LMD/modlib": [],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "mt-mods/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "13lx3hq95p80xf3w3gwwdwpqwcmgi5wmryk50nmjrpqgcbg7a3ww"
+}
