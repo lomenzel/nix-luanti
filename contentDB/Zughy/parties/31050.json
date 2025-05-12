@@ -1,0 +1,49 @@
+{
+  "author": "Zughy",
+  "content_warnings": [],
+  "created_at": "2020-07-14T12:16:53.147349",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://liberapay.com/Zughy/",
+  "downloads": 3073,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=25069",
+  "forums": 25069,
+  "game_support": [],
+  "issue_tracker": "https://gitlab.com/zughy-friends-minetest/parties/-/issues",
+  "license": "AGPL-3.0-only",
+  "long_description": "#### What's new: 2.2.0 - \"Audio_lib\"\n* Add audio_lib as optional dependency\n* audio_lib: use custom \"notifications\" type for sounds\n* Play join sound also to the player who's just joined\n\n[Older changelogs](https://gitlab.com/zughy-friends-minetest/parties/-/releases)\n\n### Commands\n* `/party disband`: disbands a party\n* `/party help`: see all the subcommands and what they do \n* `/party invite <player>`: invites a player to a party\n* `/party join <player>`: accepts an invitation request, if any. If `player` is specified, accepts that specific player request\n* `/party kick <player>`: kicks `player` from the party\n* `/party leave`: leaves a party. If the party leader leaves, the role is assigned to another player (except if there were 2 people)\n\n\n##### Chat \n* `/p <message>` writes a message in the party chat\n\n### Developers\n[In-depth API documentation](https://gitlab.com/zughy-friends-minetest/parties/-/blob/master/DOCS.md)\n",
+  "maintainers": ["Zughy"],
+  "media_license": "GPL-3.0-only",
+  "name": "parties",
+  "provides": ["parties"],
+  "release": 31050,
+  "repo": "https://gitlab.com/zughy-friends-minetest/parties/",
+  "score": 158.2,
+  "screenshots": ["https://content.luanti.org/uploads/757dc97499.png"],
+  "short_description": "Team up with your friends and create a party!",
+  "state": "APPROVED",
+  "tags": ["multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/757dc97499.png",
+  "title": "Parties",
+  "translation_url": "https://translate.codeberg.org/projects/zughy-friends-minetest/parties/",
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Zughy/parties/releases/31050/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Zughy/parties": [
+      {
+        "is_optional": false,
+        "name": "lib_chatcmdbuilder",
+        "packages": [
+          "rubenwardy/capturetheflag",
+          "rubenwardy/lib_chatcmdbuilder",
+          "MisterE/blockbomber_editor",
+          "hilol/epic_combat"
+        ]
+      }
+    ],
+    "rubenwardy/lib_chatcmdbuilder": []
+  },
+  "hash": "1lmmgvvf5qyj2z7147kxbvp9ggliw4s7ip0rij4rfry62sr7m2ia"
+}
