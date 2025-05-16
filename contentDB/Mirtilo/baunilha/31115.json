@@ -1,0 +1,57 @@
+{
+  "author": "Mirtilo",
+  "content_warnings": [],
+  "created_at": "2024-02-12T19:12:09.513623",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 3299,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30602",
+  "forums": 30602,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 30744,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "Baunilha is a texture pack that aims to create a refreshed look for Minetest Game. The goal is to create an aesthetic that is cohesive, vibrant and fun to build and explore, while maintaining a vanilla feel.\n\n### Game Support:\n\n- Minetest Game\n\n### Mod Support:\n\n- Stamina\n- Ethereal NG\n- Baked Clay\n- More ores\n- Stained glass\n- Bonemeal\n- Dirt Path\n- Scafolding\n- Connected Chests\n- Flower Pot",
+  "maintainers": ["Mirtilo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "baunilha",
+  "provides": [],
+  "release": 31115,
+  "repo": "https://codeberg.org/mirtilo/Baunilha.git",
+  "score": 1058.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1e9d5f1a2b.png",
+    "https://content.luanti.org/uploads/64a1b545c7.png",
+    "https://content.luanti.org/uploads/fd418edb27.png",
+    "https://content.luanti.org/uploads/3135008dc6.png",
+    "https://content.luanti.org/uploads/e855315584.png",
+    "https://content.luanti.org/uploads/065814097e.png"
+  ],
+  "short_description": "Fresh and tasty textures with a vanilla flavor",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1e9d5f1a2b.png",
+  "title": "Baunilha",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Mirtilo/baunilha/releases/31115/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Mirtilo/baunilha": [] },
+  "hash": "0fi8mpfd1y2msnyrpjy3nv313apxkghqp17y7z4l2jm2vlpj6kpl"
+}
