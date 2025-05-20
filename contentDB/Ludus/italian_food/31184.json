@@ -1,0 +1,135 @@
+{
+  "author": "Ludus",
+  "content_warnings": [],
+  "created_at": "2025-05-18T08:39:33.522964",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 11,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 30845,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30336,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - Hidden Mysteries Update",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 30913,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-3.0-only",
+  "long_description": "Italian Food mod;\nA Voxelibre/Mineclone 2 mod that adds classic italian dishes and ingredients.\nCraft pizza, spaghetti, tiramisu, and more—using custom recipes and ingredients like tomato, basil, and mozzarella.\n\nFeatures:\n20+ food items (pizza, bruschetta, cannoli, etc.)\n\nBasic farming: basil and tomato plants spawn on grass\n\nCustom crafting and cooking recipes\nExamples:\n\n* Pizza = Dough + Tomato Sauce + Mozzarella\n* Spaghetti = Raw Spaghetti + Tomato Sauce\n* Bruschetta = Bread + Tomato\n* Tiramisu = Cocoa + Milk + Sugar\n",
+  "maintainers": ["Ludus"],
+  "media_license": "GPL-3.0-only",
+  "name": "italian_food",
+  "provides": ["italian_food"],
+  "release": 31184,
+  "repo": null,
+  "score": 4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/f01f4ac8b7.png",
+    "https://content.luanti.org/uploads/fce51afdc9.png"
+  ],
+  "short_description": "Discover the Italian cuisine!",
+  "state": "APPROVED",
+  "tags": ["food"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f01f4ac8b7.png",
+  "title": "Italian Food For Voxelibre",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Ludus/italian_food/releases/31184/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Ludus/italian_food": [
+      {
+        "is_optional": false,
+        "name": "mcl_farming",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/mineclone2"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_throwing",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/mineclone2"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_cocoas",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/mineclone2"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mobitems",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_potions",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/mineclone2"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "ryvnf/mineclonia",
+          "Wuzzy/mineclone2"
+        ]
+      }
+    ]
+  },
+  "hash": "03zhhrq22ii05ix3pd5kvw93ghj6zgi3vnvl1lxlmiaibkvrar9p"
+}

@@ -1,0 +1,81 @@
+{
+  "author": "BuckarooBanzay",
+  "content_warnings": [],
+  "created_at": "2022-12-07T13:14:23.545838",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 312,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/BuckarooBanzay/replacements/issues",
+  "license": "MIT",
+  "long_description": "\nReplacement/placeholder blocks intended for schematics\n\n## Features\n\n* Can be placed in schematics for later replacement with the proper nodes\n* moreblocks integration\n",
+  "maintainers": ["BuckarooBanzay"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "replacements",
+  "provides": ["replacements"],
+  "release": 31193,
+  "repo": "https://github.com/BuckarooBanzay/replacements",
+  "score": 2.9,
+  "screenshots": ["https://content.luanti.org/uploads/079c534f97.png"],
+  "short_description": "Replacement/placeholder blocks intended for schematics",
+  "state": "APPROVED",
+  "tags": ["building", "building_mechanics", "creative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/079c534f97.png",
+  "title": "Replacements",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/BuckarooBanzay/replacements/releases/31193/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/BuckarooBanzay/replacements",
+  "dependencies": {
+    "BuckarooBanzay/replacements": [
+      {
+        "is_optional": false,
+        "name": "moreblocks",
+        "packages": [
+          "Just_Visiting/littlelady",
+          "BuckarooBanzay/mesecons_lab",
+          "rheo/moreblocks",
+          "Calinou/moreblocks",
+          "MeseCraft/mesecraft",
+          "mt-mods/dreambuilder_game",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "BuckarooBanzay/super_sam"
+        ]
+      }
+    ],
+    "rheo/moreblocks": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": ["rheo/futil", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "unified_inventory",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "Hi_World/newplanet",
+          "RealBadAngel/unified_inventory",
+          "BRNSystems/blocky_portaling",
+          "PyuDev/pyutest",
+          "joe7575/techage_modpack",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "mt-mods/dreambuilder_game",
+          "MisterE/blockbomber_editor"
+        ]
+      }
+    ]
+  },
+  "hash": "0kfnllh968csmmp945my1blkp2150kx45np7alhkrf2gb4j0mxbl"
+}
