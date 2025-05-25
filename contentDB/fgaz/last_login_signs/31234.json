@@ -1,0 +1,57 @@
+{
+  "author": "fgaz",
+  "content_warnings": [],
+  "created_at": "2023-08-26T14:05:29.498026",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 330,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://todo.sr.ht/~fgaz/luanti-mods",
+  "license": "EUPL-1.2",
+  "long_description": "This mod adds signs that show the last login of players that right-clicked them.\nA wooden sign and a steel sign are included, and more can be added through the API.\n\n## API\n\n### Registering a sign\n\nUse `last_login_signs.register_sign(nodename, def)` like you would use\n`core.register_node` or\n[`signs_lib.register_sign`](https://github.com/mt-mods/signs_lib/blob/master/API.md#registering-a-sign).\n\nTwo definition settings are different from `signs_lib.register_sign`:\n\n* `on_rightclick` defaults to `last_login_signs.rightclick_sign`\n* `after_place_node` defaults to `last_login_signs.after_place_node`\n\n### Functions\n\n* `last_login_signs.register_sign(name, def)` described above\n* `function last_login_signs.rightclick_sign(pos, node, player)` adds the player to the sign\n* `function last_login_signs.after_place_node(pos, ...)` writes the initial text to the sign\n* `function last_login_signs.update_sign(pos, node)` forces a sign update\n\n## Contributing\n\n[Send a patch](https://git-send-email.io) to [this mailing list](https://lists.sr.ht/~fgaz/public-inbox) a [pull request](https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/) to [the Codeberg mirror](https://codeberg.org/fgaz/luanti-last_login_signs).",
+  "maintainers": ["fgaz"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "last_login_signs",
+  "provides": ["last_login_signs"],
+  "release": 31234,
+  "repo": "https://git.sr.ht/~fgaz/luanti-last_login_signs",
+  "score": 307.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/8c727b1295.png",
+    "https://content.luanti.org/uploads/dcce724f80.png"
+  ],
+  "short_description": "Adds signs that show the last login of players that right-clicked them",
+  "state": "APPROVED",
+  "tags": ["building", "multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8c727b1295.png",
+  "title": "Last Login Signs",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/fgaz/last_login_signs/releases/31234/download/",
+  "video_thumbnail_url": null,
+  "video_url": "https://video.hardlimit.com/w/jNYwGM2QCqNCvykBmfBs1M",
+  "website": "https://sr.ht/~fgaz/luanti-last_login_signs/",
+  "dependencies": {
+    "fgaz/last_login_signs": [
+      {
+        "is_optional": false,
+        "name": "signs_lib",
+        "packages": [
+          "mt-mods/dreambuilder_game",
+          "covertiii/mogue",
+          "debiankaios/proxima_survival",
+          "zanderdev/skyblock_zero",
+          "mt-mods/blockcolor",
+          "mt-mods/signs_lib",
+          "Wuzzy/hades_revisited",
+          "Kimapr/nonsensical_skyblock",
+          "EmptyStar/asuna"
+        ]
+      }
+    ],
+    "mt-mods/signs_lib": []
+  },
+  "hash": "05q7765lzzv10b00y72ansb7nrkazjwi3f9r37k02cjlsm4509aa"
+}

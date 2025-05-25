@@ -1,0 +1,94 @@
+{
+  "author": "digitalnoob",
+  "content_warnings": [],
+  "created_at": "2025-05-19T21:15:02.964809",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 18,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/noobdigital87/dg_sprint_hb/issues",
+  "license": "MIT",
+  "long_description": "# DG SPRINT: HB  \nEnhance your sprinting experience with support for the [hbhunger](https://content.luanti.org/packages/Wuzzy/hbhunger/) mod by Wuzzy!\n\n### Features & Customization\n\n##### 1. Sprinting Controls: \n- Activate sprinting by double-tapping the forward key.  \n- Sprint using the aux1 key for extra flexibility.  \n##### 2. Hunger Mechanics:\n- Experience hunger drain while sprinting for a more immersive survival challenge.  \n- Customize the hunger drain rate to suit your gameplay style. \n##### 3. Visual Effects:\n-  Kick up dirt particles at your feet as you sprint for added realism.\n##### 4. Sprint Cancellations:\n- When standing in liquid (Disabled by default)\n- When standing on snow covers. Or nodes with the snowy group you can walk through. (Disabled by default)\n---\n### Dependencies\n- **Requires:**\n\t- DG SPRINT: CORE  \n\t- hbhunger by Wuzzy\n\n",
+  "maintainers": ["digitalnoob"],
+  "media_license": "MIT",
+  "name": "dg_sprint_hb",
+  "provides": ["dg_sprint_hb"],
+  "release": 31248,
+  "repo": "https://github.com/noobdigital87/dg_sprint_hb",
+  "score": 6.7,
+  "screenshots": ["https://content.luanti.org/uploads/81983d1f35.png"],
+  "short_description": "Sprinting addition for hbhunger by wuzzy",
+  "state": "APPROVED",
+  "tags": [
+    "multiplayer",
+    "player_effects",
+    "pve",
+    "pvp",
+    "singleplayer",
+    "survival"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/81983d1f35.png",
+  "title": "DG SPRINT: HB",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/digitalnoob/dg_sprint_hb/releases/31248/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/hbhunger": [
+      {
+        "is_optional": false,
+        "name": "hudbars",
+        "packages": [
+          "bell07/whynot_game",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "covertiii/mogue",
+          "PyuDev/pyutest",
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "1248/regnum",
+          "MeseCraft/mesecraft",
+          "1248/regnum2",
+          "zanderdev/skyblock_zero",
+          "KareaGhandTrail/block_assault",
+          "Astrobe/minefall",
+          "Lone_Wolf/voxel_knights",
+          "Wuzzy/hades_revisited",
+          "Kimapr/nonsensical_skyblock",
+          "Wuzzy/hudbars",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "ryvnf/mineclonia",
+          "1248/stella",
+          "PetiAPocok/minetest_extended",
+          "1248/agon"
+        ]
+      }
+    ],
+    "digitalnoob/dg_sprint_core": [],
+    "digitalnoob/dg_sprint_hb": [
+      {
+        "is_optional": false,
+        "name": "hbhunger",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "covertiii/mogue",
+          "Wuzzy/hbhunger",
+          "MeseCraft/mesecraft",
+          "PetiAPocok/minetest_extended"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "dg_sprint_core",
+        "packages": ["digitalnoob/dg_sprint_core"]
+      }
+    ]
+  },
+  "hash": "18kdmvflxdk3cr917zgfy3z1bq9y15bb2gzma60vn7lak1s8jqmb"
+}
