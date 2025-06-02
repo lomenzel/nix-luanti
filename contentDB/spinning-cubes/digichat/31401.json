@@ -1,0 +1,180 @@
+{
+  "author": "spinning-cubes",
+  "content_warnings": [],
+  "created_at": "2025-05-31T23:07:43.776698",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 4,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 31373,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31402,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "The Unlicense",
+  "long_description": "# About\nAdds a block for sending messages to the chat via a  **Digilines**-interfaceable block (the **Digichat Block**).  \nMessages look like this: `[SENDER] message`, unlike player messages: `<SENDER> message`. This is useful for preventing players from pretending to be someone else, possibly for nefarious purposes.\n# How to use with Luacontrollers\nUse `digiline_send(\"[channel]\", \"[some text]\")` to send a message to the chat.  \nAlso, you can configure (*right-click*) the block to set the display name and channel. If the display name is left blank, the message's sender will be the channel of the block.",
+  "maintainers": ["spinning-cubes"],
+  "media_license": "The Unlicense",
+  "name": "digichat",
+  "provides": ["digichat"],
+  "release": 31401,
+  "repo": null,
+  "score": 2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/32bc1aef3b.png",
+    "https://content.luanti.org/uploads/5646e36d8c.png"
+  ],
+  "short_description": "Adds a block for sending chat messages using Digilines.",
+  "state": "APPROVED",
+  "tags": ["16px", "chat", "oneofakind__original"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/32bc1aef3b.png",
+  "title": "Digichat",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/spinning-cubes/digichat/releases/31401/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "spinning-cubes/digichat": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "Casimir/voxelgarden",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "jara25/yams",
+          "nam/porko",
+          "NotaB/tolkientest",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "1248/regnum2",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "1248/regnum",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "mt-mods/dreambuilder_game",
+          "EmptyStar/asuna",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "04cdwb0ky25vp1znyk149vclr4bx0qq9h6kz0nz02kdkh37b4zbk"
+}
