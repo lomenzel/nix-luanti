@@ -1,0 +1,132 @@
+{
+  "author": "bgstack15",
+  "content_warnings": [],
+  "created_at": "2025-05-20T19:34:52.712402",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 3,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30336,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - Hidden Mysteries Update",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://gitlab.com/bgstack15/lava_furnace",
+  "license": "LGPL-2.1-only",
+  "long_description": "# Lava furnace\nFurnaces powered by being adjacent to lava for Mineclonia. Yes, this breaks balance because it does not need fuel. This is for fun, for large-scale operations in the lategame. Do not install this mod if the imbalance bothers you.\n\nHeavily based on Minetest Game (default/furnace.lua).\n\n## Using\nBuild a lava-powered furnace with a gold block surrounded by 8 cobblestone, or a gold block and a furnace. Lava source or flowing lava must be adjacent (NESWUD) touching this lava furnace.\n\n## Configuring\nSee available settings in `settingtypes.txt`.\n\n![](screenshot.png)\n\nLicense of source code\n----------------------\nLGPLv2.1\nBased on code from Minetest Game.\nModified by Wuzzy and bgstack15\n\nLicense of media\n----------------\nSee the main MineClone 2 README.md file.\n",
+  "maintainers": ["bgstack15"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "lava_furnace",
+  "provides": ["lava_furnace"],
+  "release": 31509,
+  "repo": "https://gitlab.com/bgstack15/lava_furnace",
+  "score": 3,
+  "screenshots": ["https://content.luanti.org/uploads/374502e946.png"],
+  "short_description": "Furnace that is fueled by nearby lava, for Mineclonia",
+  "state": "APPROVED",
+  "tags": ["building_mechanics"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/374502e946.png",
+  "title": "Lava Furnace for Mineclonia",
+  "translation_url": "https://gitlab.com/bgstack15/lava_furnace",
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/bgstack15/lava_furnace/releases/31509/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://gitlab.com/bgstack15/lava_furnace",
+  "dependencies": {
+    "bgstack15/lava_furnace": [
+      {
+        "is_optional": false,
+        "name": "mcl_achievements",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_craftguide",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_init",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_formspec",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": [
+          "VoxelForge/voxelforge",
+          "Wuzzy/mineclone2",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "0i0qsis8rjbb25vs0ahyxvx7i1dizng7dz5w0hhpinfb5x05ihy4"
+}
