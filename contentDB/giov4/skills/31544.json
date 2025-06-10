@@ -1,0 +1,49 @@
+{
+  "author": "giov4",
+  "content_warnings": [],
+  "created_at": "2022-11-13T23:34:56.710171",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://liberapay.com/Giov4/",
+  "downloads": 4326,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "GPL-3.0-only",
+  "long_description": "# Skills\nA library to create and manage skills. A skill can be an action like a super-high jump, a damaging aura or a passive one like a stat boost.\n\n> **Doesn't provide any base skill.**\n\n[Here's the documentation.](https://gitlab.com/zughy-friends-minetest/skills/-/blob/main/README.md)  \n\nHere some examples of how to register a skill:\n\n```lua\nskills.register_skill(\"example_mod:counter\", {\n    name = \"Counter\",\n    description = \"Counts. You can use it every 2s.\",\n    sounds = {\n        cast = {name = \"ding\", pitch = 2}\n    },\n    cooldown = 2,\n    data = {\n        counter = 0\n    },\n    cast = function(self)\n        self.data.counter = self.data.counter + 1\n        print(self.pl_name .. \" is counting: \" .. self.data.counter)\n    end\n})\n```\n\n```lua\nskills.register_skill(\"example_mod:heal_over_time\", {\n    name = \"Heal Over Time\",\n    description = \"Restores a heart every 3 seconds for 30 seconds.\",\n    loop_params = {\n        cast_rate = 3,\n        duration = 30\n    },\n    sounds = {\n        cast = {name = \"heart_added\"},\n        bgm = {name = \"angelic_music\"}\n    },\n    cast = function(self)\n        local player = self.player\n        player:set_hp(player:get_hp() + 2)\n    end\n})\n```\n\n```lua\nskills.register_skill(\"example_mod:boost_physics\", {\n    name = \"Boost Physics\",\n    description = \"Multiplies the speed and the gravity x1.5 for 3 seconds.\",\n    loop_params = {\n        duration = 3\n    },\n    sounds = {\n        start = {name = \"speed_up\"},\n        stop = {name = \"speed_down\"}\n    },\n    physics = {\n        operation = \"multiply\",\n        speed = 1.5,\n        gravity = 1.5\n    }\n})\n```\n\n```lua\nskills.register_skill(\"example_mod:set_speed\", {\n    name = \"Set Speed\",\n    description = \"Sets speed to 3.\",\n    passive = true,\n    data = {\n        original_speed = {}\n    },\n    on_start = function(self)\n        local player = self.player\n        self.data.original_speed = player:get_physics_override().speed\n\n        player:set_physics_override({speed = 3})\n    end,\n    on_stop = function(self)\n        self.player:set_physics_override({speed = self.data.original_speed})\n    end\n})\n```\n",
+  "maintainers": ["giov4"],
+  "media_license": "GPL-3.0-only",
+  "name": "skills",
+  "provides": ["skills"],
+  "release": 31544,
+  "repo": "https://gitlab.com/zughy-friends-minetest/skills",
+  "score": 175.7,
+  "screenshots": ["https://content.luanti.org/uploads/8265e57645.png"],
+  "short_description": "An API for creating skills.",
+  "state": "APPROVED",
+  "tags": ["library"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8265e57645.png",
+  "title": "Skills API",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/giov4/skills/releases/31544/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "giov4/skills": [
+      {
+        "is_optional": false,
+        "name": "lib_chatcmdbuilder",
+        "packages": [
+          "rubenwardy/capturetheflag",
+          "rubenwardy/lib_chatcmdbuilder",
+          "MisterE/blockbomber_editor",
+          "hilol/epic_combat"
+        ]
+      }
+    ],
+    "rubenwardy/lib_chatcmdbuilder": []
+  },
+  "hash": "0i7x8m85kwkqgb4mlnfc7bg59z3szrbfbbp94w5nmqiwdv15ndsq"
+}
