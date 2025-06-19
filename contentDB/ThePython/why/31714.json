@@ -1,0 +1,86 @@
+{
+  "author": "ThePython",
+  "content_warnings": [],
+  "created_at": "2023-04-23T21:39:24.717300",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1162,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29418",
+  "forums": 29418,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31703,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/thepython10110/why/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Why?\nA modpack of random mods, mostly for VoxeLibre/Mineclonia (some support Minetest Game), that I made just because I wanted to: Fake Liquids, Falling Block Tool, Flying Sausage\\*, Ghost Blocks, Lava Sponge\\*, Meat Blocks\\*, Slime Things\\*, Small \"Why?\" Things\\*\\*, Sound Machine, Sticky Things\\*\\*, Useless Beans, Useless Green Potatoes, and Why Schematic.\n\n\\* Does not support Minetest Game\n\n\\*\\* Partially supports Minetest Game\n\nApparently, several of them are existing MineCraft mods, and at least one (Ghost Blocks) is already a Minetest mod.\n\n`why:` aliases are registered for every item in the modpack (except for Ghost Blocks), so you can type `/giveme why:flying_sausage` instead of `/giveme flying_sausage:flying_sausage`.\n\n## Licenses/attribution\nAll code in this modpack is licensed under GPLv3+. All burnt meat textures, besides the blocks and sausage, are modified versions of MineClone meat textures. The glue and useless bean liquid bucket textures are modified versions of MineClone's water bucket. All other textures in the modpack are completely my own. All textures (my own and MineClone's) are licensed under CC BY-SA 3.0.\n\n**Links to licenses:**\n[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)\n[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)\n\n## Mod details\n\n### Fake Liquids\nA mod that adds solid liquid blocks. They can be crafted by placing glass to the left, right, and bottom of the filled bucket (basically making a glass bottle with the bucket inside). Also adds fake lava and fake water (which look identical but their functions are swapped). To craft them, brew lava, water, or river water buckets with fermented spider eyes (in Minetest Game, craft the bucket with a Mese crystal). Also makes MCL's milk an actual placeable liquid, which might *eventually* clear effects (but doesn't at the moment).\n\n### Falling Block Tool\nAdds a tool crafted with sticks, sand, and gravel that can make any breakable block/node fall by right-clicking on it.\n\n### Flying Sausage*\nAdds Cooked Elytras and Burnt Elytras (both incredibly good foods), as well as a Flying Sausage (an even better food, crafted by surrounding a Burnt Elytra with Burnt Sausage Blocks). Crafting a Flight Stomach Accessor (by mixing a chest and a burnt sausage) and putting a Flying Sausage into it will grant you the `fly` privilege. The Flying Sausage will remain in your Flight Stomach even if you get rid of the Flight Stomach Accessor or die.\n\n### `get_group_items`\nA mod that adds a function that could potentially be used in other mods. It simply searches through every item and returns a table of each item that matches each group passed to it.\n\n### Ghost Blocks\nA mod that creates Ghost Blocks, effectively normal blocks with no collision. They can be created using the \"Ghostifier\", which can be crafted by surrounding a ghast tear with glass blocks. Placing Ghost Blocks in the Ghostifier will convert them back to normal blocks.\n\nMore details available in the GitHub readme (mostly about whether nodes that do things still do when ghostified).\n\n### Lava Sponge*\nAdds a lava sponge to MineClone. Lava sponges act exactly like normal sponges, but soak up lava instead of water. To return them to un-lava-logged sponges, use them as fuel in a furnace. They are completely safe to touch when lava-logged, mostly because I'm lazy. To craft a lava sponge, surround a regular sponge with netherrack.\n\n### Meat Blocks*\nAdds craftable, cookable, edible meat blocks to MineClone. Also adds burnt meat and sausage. Eating burnt meat sets you on fire. You can craft a meat block with any kind of meat (besides tropical fish/clownfish and pufferfish) simply by placing that meat in a 3x3 square. You can cook raw meat blocks to get cooked ones, and cooked ones to get burnt ones. Raw cod blocks are flammable because they are.\n\n### Slime Things*\nAdds slime slabs, stairs, pressure plates, and buttons.\n\n### Small \"Why?\" Things**\nA few small additions:\n* Sunflowers glow (MCL)\n* Wool is bouncy (but intentionally does *not* block fall damage)\n* You can craft blue feathers with blue dye and feathers (MCL).\n* Papyrus/sugar cane, cactus, and bamboo (MCL) now have no height limit.\n* There are craftable barriers that are breakable (same hardness as obsidian). The barriers are crafted by surrounding obsidian with glass.\n\n### Sound Machine\nAdds a block that can create any sound in the game (with a few buttons for presets and pitch controls). It will play the sound when a button in the formspec is clicked, when the block is punched, or when it is powered by a redstone signal. It can be crafted by placing copper ingots around black concrete (or black wool in Minetest Game). Also adds a Portable Sound Machine, an item (not a block) that opens the same formspec when right-clicking and plays the last sound when left-clicking.\n\n### Sticky Things**\nAdds glue and sticky blocks, which slow down players. Craft glue by combining a flower with a water bucket (a quick Google search said that one common recipe for glue was flour and water, and... pun). Craft sticky blocks mixing soul sand and ice. Sticky blocks depend on a mod included in MCL, and are therefore not in Minetest Game.\n\n### Useless Beans\nBeans... that are useless. They grow everywhere. Annoy everyone by filling their inventories with useless beans! For added irritation, you can put one useless bean into a crafting table and get 64. Craft useless bean tools, smelt them into beangots (useless bean ingots), flood the world with useless bean liquid, and more!\n\n### Useful Green Potatoes\nPotatoes... that are green and useful. They grow everywhere, and look identical to useless beans. Craft useful green potato tools, smelt them into useful green potato ingots, flood the world with useful green potato liquid, and more!\n\n### `why_init`\nContains basic setup stuff, as well as a few functions used by multiple mods. I mostly created it for annoying dependency reasons. All other Why mods depend on it, ensuring that it loads before all of them.\n\n### Why Schematic\n* Adds a simple structure: the word \"Why?\" spelled out with Solid Useless Bean Liquid. It can appear pretty much anywhere in the overworld.",
+  "maintainers": ["ThePython"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "why",
+  "provides": [
+    "fake_liquids",
+    "falling_block_tool",
+    "flying_sausage",
+    "get_group_items",
+    "ghost_blocks",
+    "lava_sponge",
+    "meat_blocks",
+    "slime_things",
+    "small_why_things",
+    "sound_machine",
+    "sticky_things",
+    "useful_green_potatoes",
+    "useless_beans",
+    "why_init",
+    "why_schematic"
+  ],
+  "release": 31714,
+  "repo": "https://github.com/thepython10110/why",
+  "score": 156.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3ea8680dc1.png",
+    "https://content.luanti.org/uploads/d0647e27d6.png",
+    "https://content.luanti.org/uploads/22bae14fc0.png",
+    "https://content.luanti.org/uploads/0ce27b52e1.png",
+    "https://content.luanti.org/uploads/81ef813f6e.png",
+    "https://content.luanti.org/uploads/0494d6c557.png"
+  ],
+  "short_description": "Adds random things to MTG and MCL.",
+  "state": "APPROVED",
+  "tags": ["april_fools", "decorative", "food", "sound_music"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3ea8680dc1.png",
+  "title": "Why?",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ThePython/why/releases/31714/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://thepython10110.github.io",
+  "dependencies": { "ThePython/why": [] },
+  "hash": "08m841jv4mm4bwbdbjkclv86amhwkynrx6mbjdayfahbpws4r0mq"
+}
