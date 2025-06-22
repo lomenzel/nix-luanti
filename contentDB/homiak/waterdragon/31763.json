@@ -1,0 +1,83 @@
+{
+  "author": "homiak",
+  "content_warnings": [],
+  "created_at": "2024-07-16T18:29:14.446659",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 1689,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31762,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31308,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/homiak/waterdragon/issues",
+  "license": "MIT",
+  "long_description": "# Draigh-uisge means in Scottish Gaelic a Water Dragon.\n\n**Water Dragons:** This mod introduces three types of Dragons — the Pure Water Dragon, the Rare Water Dragon, and the Scottish Dragon. Each has some unique abilities, such as creating healing water and glowing at night.\n\n**Useful things:** Water Dragons can rescue players in danger. There are also many craftitems to discover — some of them are quite special, like the one that lets you talk to Water Dragons.\n\n**Draconic Blocks:** The mod features various decorative and functional blocks, including Draconic Bricks, Draconic Stone, and more.\n\n**Water-Forged Draconic Tools and Armour:** Forge powerful gear from `Water-Forged Draconic Steel`. The armour offers great protection in battles, and the tools — forged in Dragon Water — are incredibly powerful, capable of killing some enemies in a single hit.\n\n## Chatcommands\n- call_wtd <radius> - Calls the nearest Water Dragon within the specified radius (default is 100) and teleports it to you.\n- set_wtd_owner <player_name> - Sets the owner of the pointed Water Dragon.\n- wtd_blacklist_add <player_name> - Adds a player to the Water Dragon Attack Blacklist.\n- wtd_blacklist_remove <player_name> - Removes a player from the Water Dragon Attack Blacklist.\n- wtd_blacklist_show - Shows all players currently in the Blacklist.\n- talk_wtd - Start a conversation with the nearest Water Dragon.\n- wtd_mount_settings - Opens the Water Dragon mount settings form.\n- autopilot - Toggles the Water Dragon’s autopilot mode when mounted.\n\n## Installation\nInstall via the `Minetest Mod Menu`, or download from `ContentDB`.\n\nMore details can be found in the `Book about Water Dragons` — it's included in this mod, just search for it in your inventory.\n\t\nYou’re also welcome to join the server at IP `85.215.240.79` to test everything in action.\n\nThis mod is based on `Draconis` and `Creatura` and created by ***Scottii***.\n\n# Release log\n\n### Release v 4.5.0\n- Fix bugs\n- Fix grammatical errors\n\n### Release v 4.4.0\n- Fix bugs\n- Fix shoulder mount bug\n\n### Release v 4.3.0\n- Fix bugs\n\n### Release v 4.2.0\n- Fix bugs\n- Remove Scottish Dragon Crate\n- Ability to store Scottish Dragons in Dragon Horns\n\n### Release v 4.1.0\n- Fix bugs\n\n### Release v 4.0.1\n- Fix bugs\n\n### Release v 4.0.0\n- Core Integration\n- Fix bugs\n\n### Release v 3.1.0\n- Fix bugs\n- Fix Scottish Dragon mounting\n- Add Wing Horn throwing\n- Better bowing\n\n### Release v 3.0.0\n- Add the Water Dragon Armour\n- Fix bugs\n- Add the rescue behavior for Pegasi (mod: Pegasus)\n- Fix slam\n- Minor tweaks\n\n### Release v 2.3.1\n- Fix bugs\n\n### Release v 2.2.0\n- Fix bugs\n- Add shields\n- A new function for the Scottish Dragon Crate\n- Add the Water Dragon Eye craftitem\n- Add bowing\n- Add healing water\n\n### Release v 2.1.0\n- Adds the Scottish Water Dragon\n- Fix bugs\n- Fix translation\n- Fix Wing Horn\n- A new setting\n- A new chatcommand\n\n### Release v. 1.1.0\n- Add the throwable Wing Horn\n- A new chatcomannd - call_wtd\n- Fix bugs\n- Fix view points\n- Translation\n\n### Release v 1.0.0\n- Initial release",
+  "maintainers": ["homiak", "margo"],
+  "media_license": "MIT",
+  "name": "waterdragon",
+  "provides": ["waterdragon"],
+  "release": 31763,
+  "repo": "https://github.com/homiak/waterdragon",
+  "score": 54.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d24acdd9a3.png",
+    "https://content.luanti.org/uploads/ba2c4a3c12.png",
+    "https://content.luanti.org/uploads/fe700d4ba4.png",
+    "https://content.luanti.org/uploads/a386a6ce57.png",
+    "https://content.luanti.org/uploads/d49dc1ca42.png",
+    "https://content.luanti.org/uploads/f04a8469a8.png",
+    "https://content.luanti.org/uploads/019e405fe5.png",
+    "https://content.luanti.org/uploads/350d36551d.png",
+    "https://content.luanti.org/uploads/37105a7299.png"
+  ],
+  "short_description": "Adds powerful Water Dragons, useful craftitems and Draconic blocks.",
+  "state": "APPROVED",
+  "tags": [
+    "adventure__rpg",
+    "crafting",
+    "magic",
+    "mobs",
+    "pve",
+    "pvp",
+    "skins",
+    "survival",
+    "transport"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d24acdd9a3.png",
+  "title": "Draigh-uisge (waterdragon)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/homiak/waterdragon/releases/31763/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "homiak/waterdragon": [] },
+  "hash": "03kl3zbgnd31585cywskk88dhmhab5n9msqxqrk7hdz6n9cnj93j"
+}
