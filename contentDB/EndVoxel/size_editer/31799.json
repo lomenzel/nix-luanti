@@ -1,0 +1,108 @@
+{
+  "author": "EndVoxel",
+  "content_warnings": [],
+  "created_at": "2025-06-23T04:55:33.978730",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31762,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31308,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "AiTechEye",
+        "name": "xaenvironment",
+        "release": 30033,
+        "short_description": "A game that aims to contain lots of environments and things.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/632a9643c5.png",
+        "title": "XaEnvironment",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Konnichiwa-s/size_editer/issues",
+  "license": "MIT",
+  "long_description": "# Size Editor Mod for Minetest\n\nA powerful mod that allows players to adjust their character size with simple commands. Perfect for roleplaying servers, adventure maps, or just having fun!\n\n## Features\n\n- **Wide Size Range**: From microscopic (0.001) to giant (20x normal size)\n- **Precise Controls**: Set exact sizes or adjust incrementally\n- **Physics Scaling**: Realistic movement and collision adjustments\n- **Visual Effects**: Particle effects during size changes\n- **Privilege System**: Server-controlled access to commands\n- **Persistence**: Size saved between sessions\n- **Mobile-Friendly**: Works perfectly on Android devices\n\n## Commands\n\nAll commands require the `size_edit` privilege:\n\n| Command | Parameters | Description | Default |\n|---------|------------|-------------|---------|\n| `/setsize` | `<size>` | Set exact size (0.001-20.0) | - |\n| `/small` | `<amount>` | Decrease size (1-100 levels) | 1 |\n| `/large` | `<amount>` | Increase size (1-100 levels) | 1 |\n| `/super_small` | - | Become extremely small (0.01) | - |\n| `/micro` | - | Become microscopic (0.001) | - |\n| `/super_large` | - | Become giant (20.0) | - |\n| `/normal_size` | - | Return to normal size (1.0) | - |\n\n**Note**: Each level = 1% size change (0.01)\n\n## Privileges\n\n- `size_edit` - Allows players to use size commands\n- Grant with `/grant <player> size_edit`\n- Revoke with `/revoke <player> size_edit`\n",
+  "maintainers": ["EndVoxel"],
+  "media_license": "MIT",
+  "name": "size_editer",
+  "provides": ["size_editer"],
+  "release": 31799,
+  "repo": "https://github.com/Konnichiwa-s/size_editer",
+  "score": 0,
+  "screenshots": [
+    "https://content.luanti.org/uploads/4cea48ed11.png",
+    "https://content.luanti.org/uploads/7c1e1f381a.jpg",
+    "https://content.luanti.org/uploads/067fc34ddb.jpg",
+    "https://content.luanti.org/uploads/8ed775da0f.jpg",
+    "https://content.luanti.org/uploads/ba125e557c.jpg"
+  ],
+  "short_description": "Change your size with size_editer and become small and big and Microscopic too",
+  "state": "APPROVED",
+  "tags": ["chat", "developer_tools", "player_effects"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4cea48ed11.png",
+  "title": "Size changer! ",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/EndVoxel/size_editer/releases/31799/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "EndVoxel/size_editer": [] },
+  "hash": "1qnqh9llbzi97563zwxp00gdc4laq9g1a6nc50gz641pm7x0a9id"
+}
