@@ -1,0 +1,55 @@
+{
+  "author": "CocoMarck",
+  "content_warnings": [],
+  "created_at": "2023-08-26T04:57:53.926647",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 2094,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-3.0-only",
+  "long_description": "# CocoMarck - DrawTextures\n- Replacement of default textures, by textures drawn by me.\n- The style of the textures, try to stay true to the original.\n\n The program used to draw the textures was \"GIMP\".  A graphic tablet was used to make the textures.",
+  "maintainers": ["CocoMarck"],
+  "media_license": "GPL-3.0-only",
+  "name": "cm_drawtextures",
+  "provides": [],
+  "release": 31916,
+  "repo": "https://github.com/CocoMarck/Minetest-DrawTextures",
+  "score": 319.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3d2377a75f.png",
+    "https://content.luanti.org/uploads/5020aa2689.png",
+    "https://content.luanti.org/uploads/1cbb2e5500.png",
+    "https://content.luanti.org/uploads/eaef0beb87.png"
+  ],
+  "short_description": "Replacement of default textures, by drawn textures that I draw from scratch",
+  "state": "APPROVED",
+  "tags": ["128px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3d2377a75f.png",
+  "title": "CM Draw Textures",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/CocoMarck/cm_drawtextures/releases/31916/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "CocoMarck/cm_drawtextures": [] },
+  "hash": "1yqfjqx2bw8vizp172vis9zb95jigbndyfz42j1v67wjljlpl9iy"
+}

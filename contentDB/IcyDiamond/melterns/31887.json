@@ -1,0 +1,111 @@
+{
+  "author": "IcyDiamond",
+  "content_warnings": [],
+  "created_at": "2018-07-29T12:58:26.103287",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 5871,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=19916",
+  "forums": 19916,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/LunaSquee/melterns/issues",
+  "license": "MIT",
+  "long_description": "Melterns is an in-development mod for **Luanti 5.6.0+** that adds molten metals, melting, casting and creating tools.\n\nThis mod is inspired by the Tinkers Construct mod for Minecraft, however it's a bit less-featured due to technical limitations and general lack of polish. None of the code or assets used in this mod have been taken from TC - everything is my original creation.\n\n* Combine different materials to make unique tools using the Pattern Table, Part Builder and Tool Station.\n* Melt down your raw ores and get double the ingots using the Multifurnace!\n* ..or use your molten metals to cast better tool parts.\n\nCheck out [the wiki](https://github.com/LunaSquee/melterns/wiki/How-to-use-the-mod) to learn how to use the features of this mod in detail.",
+  "maintainers": ["IcyDiamond"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "melterns",
+  "provides": ["fluidity", "metal_melter", "multifurnace", "tinkering"],
+  "release": 31887,
+  "repo": "https://github.com/LunaSquee/melterns.git",
+  "score": 658.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0a6820dd79.png",
+    "https://content.luanti.org/uploads/8uiKzHnTj5.png"
+  ],
+  "short_description": "Create unique tools from different materials!",
+  "state": "APPROVED",
+  "tags": ["building", "library", "mapgen", "technology", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0a6820dd79.png",
+  "title": "Melterns",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/IcyDiamond/melterns/releases/31887/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/LunaSquee/melterns/wiki/How-to-use-the-mod",
+  "dependencies": {
+    "IcyDiamond/fluid_lib": [],
+    "IcyDiamond/melterns": [
+      {
+        "is_optional": false,
+        "name": "fluid_tanks",
+        "packages": ["IcyDiamond/fluid_lib"]
+      },
+      {
+        "is_optional": false,
+        "name": "fluid_lib",
+        "packages": ["IcyDiamond/fluid_lib"]
+      },
+      {
+        "is_optional": false,
+        "name": "bucket_compat",
+        "packages": ["IcyDiamond/fluid_lib"]
+      }
+    ]
+  },
+  "hash": "01i4f2qmjygc0j9xayys2634nyw98438a2gylxddgha2xr1ms6hc"
+}
