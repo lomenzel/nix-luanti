@@ -1,0 +1,419 @@
+{
+  "author": "Neuromancer",
+  "content_warnings": [],
+  "created_at": "2024-02-11T04:12:28.228367",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 602,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30229",
+  "forums": 30229,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault",
+        "release": 28330,
+        "short_description": "A first person shooter game with multiple features",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/39c5592543.png",
+        "title": "CS:MT (BlockAssault)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["matdombrock/wyrm_cube"],
+        "author": "Replicat",
+        "name": "wyrm_cube",
+        "release": 31620,
+        "short_description": "Find the Wyrm Cubes and save yourself! Inspired by an 80's anime.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ea71397554.png",
+        "title": "Wyrm Cube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 31941,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "castrum",
+        "release": 4788,
+        "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/68ovEdgCu3.png",
+        "title": "Castrum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "TheFanne",
+        "name": "raining_nodes",
+        "release": 1787,
+        "short_description": "Survive in a strange world where nodes constantly rain down from the sky!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/VgGn91cicQ.png",
+        "title": "Raining Nodes",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "JavaFXpert",
+        "name": "qiskitblocks",
+        "release": 5212,
+        "short_description": "Teaching Quantum Computing using Qiskit in a block world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/r9yczgJPla.png",
+        "title": "QiskitBlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "NotaB",
+        "name": "tolkientest",
+        "release": 31462,
+        "short_description": "Work in Progress. A fork of LOTT with a ton of new content",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6e9aef424c.png",
+        "title": "TolkienTest",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 31834,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault_mapmaker",
+        "release": 21764,
+        "short_description": "This game is focused to make maps for BlockAssault [BA.S]",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ae4d37c05f.png",
+        "title": "BlockAssault MapMaker",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Big_Caballito",
+        "name": "no_mans_land",
+        "release": 8685,
+        "short_description": "Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
+        "title": "No Man's Land",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "miroptics",
+        "name": "qiskitblocks_miro",
+        "release": 26302,
+        "short_description": "Work in Progress. Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
+        "title": "QuantumBuilder - a QiskitBlocks fork",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Amaz",
+        "name": "lordofthetest",
+        "release": 28811,
+        "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
+        "title": "Lord of the Test",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Neuromancer56/hero_tnt/issues",
+  "license": "MIT",
+  "long_description": "Hero TNT\n======================\nSee license.txt for license information.\n\nAuthor of hero_tnt fork \nNeuromancer (MIT)\n\nIntroduction\n------------\nThis mod adds a special kind of TNT to Minetest that only destroys those nodes that can be destroyed in the game H.E.R.O. (for now just default:cobble and magma).   \nIf you have enabled the boulders mod, it will also turn stone into flying and falling boudlers when it explodes!!\n\nThis mod recreates the TNT mechanic of the game H.E.R.O.\nhero_tnt is a fork of tnt mod in Minetest Game\nThe point of this mod is to be a part of a set of mods that recreate the game H.E.R.O. in Minetest.  (one of my favorite childhood games)  \nTo that end, one of the major changes is that this forked version of mod only destroys those nodes that can be destroyed in the game\nH.E.R.O. (for now just default:cobble).  However this mod can also be used even if it is not part of H.E.R.O. game.\n\nIf you want to try out where I'm going with the game (very early phases) check out this collection.  Be sure to adjust the settings as I have noted in the comments.  https://content.luanti.org/collections/Neuromancer/hero_test/\n\nH.E.R.O. gameplay can be seen here: https://www.youtube.com/watch?v=nD0VTuVQ6Tg\nH.E.R.O. Player Manual: https://atariage.com/software_page.php?SoftwareLabelID=228\nThere will be a number of mods all beginning with \"hero_\" so that eventually if you enable all of them you will essentially be playing the game hero.\nThe plan is to have all of these \"hero\" mods function as stand alone mods so that they can combined in other ways with other mods to work with and create other games.\n\n\nHow to use the mod:\n\nCraft gunpowder by placing coal and gravel in the crafting area.\nThe gunpowder can be used to craft TNT sticks or as a fuse trail for TNT.\n\nTo craft 2 TNT sticks:\nG_G\nGPG\nG_G\nG = gunpowder\nP = paper\nThe sticks are not usable as an explosive.\n\nCraft TNT from 9 TNT sticks.\n\nThere are different ways to ignite TNT:\n  1. Hit it with a torch.\n  2. Hit a gunpowder fuse trail that leads to TNT with a torch or\n     flint-and-steel.\n  3. Activate it with mesecons (fastest way).\n\nFor 1 TNT:\nNode destruction radius is 3 nodes.\nPlayer and object damage radius is 6 nodes.\n",
+  "maintainers": ["Neuromancer"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "hero_tnt",
+  "provides": ["hero_tnt"],
+  "release": 31951,
+  "repo": "https://github.com/Neuromancer56/hero_tnt",
+  "score": 9.1,
+  "screenshots": ["https://content.luanti.org/uploads/ddb8827952.png"],
+  "short_description": "TNT that only destroys cobble like in H.E.R.O. game.  Also flying boulders support for Boulders mod!",
+  "state": "APPROVED",
+  "tags": ["mini-game", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ddb8827952.png",
+  "title": "Hero TNT",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Neuromancer/hero_tnt/releases/31951/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/GBWMAFmdQ-g.jpg",
+  "video_url": "https://www.youtube.com/watch?v=GBWMAFmdQ-g",
+  "website": "https://forum.minetest.net/viewtopic.php?t=30229",
+  "dependencies": {
+    "Neuromancer/hero_tnt": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/dreambuilder_game",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Casimir/voxelgarden",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fire",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "mt-mods/dreambuilder_game",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "AiTechEye/xaenvironment",
+          "StarNinjas/veil_of_the_unknown",
+          "EmptyStar/asuna",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Astrobe/minefall",
+          "Casimir/voxelgarden",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "covertiii/mogue",
+          "Luanti/minetest_game"
+        ]
+      }
+    ]
+  },
+  "hash": "09y62fb7dcf542n2wc5hx4fz28gk5ymg0xmk24wg7hn9sh808dw1"
+}
