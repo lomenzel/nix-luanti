@@ -1,0 +1,56 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2025-01-18T07:42:41.912513",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 66,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/echo/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# Echo\n\nThis mod provides a better and unified interface for handling in-game notifications. All notifications are stored across server restarts and are accessible anytime until the user deletes them.\n\nThis mod's name comes from MediaWiki's notification extension, [Echo](https://www.mediawiki.org/wiki/Extension:Echo). Many concepts were taken from that extension, though no code is used.\n\nFor developer's manual, see API.md.\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC0-1.0",
+  "name": "echo",
+  "provides": ["echo"],
+  "release": 31952,
+  "repo": "https://github.com/C-C-Minetest-Server/echo",
+  "score": 3.6,
+  "screenshots": ["https://content.luanti.org/uploads/e3375f91f5.jpg"],
+  "short_description": "In-game notification system",
+  "state": "APPROVED",
+  "tags": ["gui", "hud", "library"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e3375f91f5.png",
+  "title": "Echo",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/echo/releases/31952/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/echo": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "mt-mods/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "1fvxn99v0q6q2636dszbhwfxqws8ilfb18r6mj1pqamh8v0xp5m7"
+}
