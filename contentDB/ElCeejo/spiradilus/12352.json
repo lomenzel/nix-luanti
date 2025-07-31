@@ -1,0 +1,51 @@
+{
+  "author": "ElCeejo",
+  "content_warnings": ["gore", "horror"],
+  "created_at": "2022-05-23T03:25:59.643658",
+  "dev_state": "BETA",
+  "donate_url": "https://www.patreon.com/ElCeejo",
+  "downloads": 1917,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/ElCeejo/spiradilus/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "The Spiradilus is a rarely appearing, undefeatable entity that haunts every biome of your world. Upon finishing the fight Spiradilus diseappears for an hour before returning to the same spot it was banished, allowing players to attempt to contain it.\n\nPlayers will have to be quick on their feet, ready to dodge its multitude of attacks. Spiradilus will take advantage of your slip ups, eating anything nearby to heal if you run or pulling you off of pillars if you attempt to build your way out of the fight. You can guage how far you are into the fight by looking at its tail, which shortens as it's health drops. Upon defeat, Spiradilus will drop weapons and armor.\n\nThis mod is still in beta, so expect bugs. I plan on making small additions in the future, including a configurable loot table.",
+  "maintainers": ["ElCeejo"],
+  "media_license": "MIT",
+  "name": "spiradilus",
+  "provides": ["spiradilus"],
+  "release": 12352,
+  "repo": "https://github.com/ElCeejo/spiradilus",
+  "score": 312.4,
+  "screenshots": ["https://content.luanti.org/uploads/969ee4a433.png"],
+  "short_description": "Adds a ghostly Crocodilian mini-boss",
+  "state": "APPROVED",
+  "tags": ["adventure__rpg", "mobs", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/969ee4a433.png",
+  "title": "Spiradilus",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ElCeejo/spiradilus/releases/12352/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ElCeejo/creatura": [],
+    "ElCeejo/spiradilus": [
+      {
+        "is_optional": false,
+        "name": "creatura",
+        "packages": [
+          "EmptyStar/asuna",
+          "ElCeejo/creatura",
+          "Lone_Wolf/torrlund",
+          "Replicat/wyrm_cube",
+          "Hanuko33/libre_adventure3",
+          "hilol/epic_combat"
+        ]
+      }
+    ]
+  },
+  "hash": "01kzqynigf7rq6a8glga3gr3h6kbhln5ggcyjbinc2nprcvk3r1x"
+}

@@ -1,0 +1,85 @@
+{
+  "author": "ElCeejo",
+  "content_warnings": [],
+  "created_at": "2021-06-24T23:35:27.286914",
+  "dev_state": "DEPRECATED",
+  "donate_url": "https://www.patreon.com/ElCeejo",
+  "downloads": 2722,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/ElCeejo/loot_crates/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "Adds 3 tiers of Loot Crate that can be found across the world.\n\n**Common Loot Crates** can be found above ground with basic loot like torches.\n\n**Uncommon Loot Crates** can be found in caves with mid-tier loot like steel ingots.\n\n**Rare Loot Crates** can be found in deep caves with high-tier loot like diamonds.\n\nThere are not many items available for Loot Crates by default, but they can be easily added.\n\n```\nloot_crates.register_loot(rarity, loot)\n-- rarity is a string, and can be \"common\", \"uncommon\", or \"rare\".\n-- loot is table with two values, name, and max_count. name is the\n-- item string of the name you want to add to the loot table, and\n-- max_count is the maximum amount of this item that can be spawned.\n```\n\nIf you have a suggestion for a mod and/or items to be supported by default, leave them [here.](https://github.com/ElCeejo/loot_crates/issues)\n",
+  "maintainers": ["ElCeejo"],
+  "media_license": "MIT",
+  "name": "loot_crates",
+  "provides": ["loot_crates"],
+  "release": 8201,
+  "repo": "https://github.com/ElCeejo/loot_crates",
+  "score": 300,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d2ad496fba.png",
+    "https://content.luanti.org/uploads/da518fbe38.png"
+  ],
+  "short_description": "Adds randomly spawning loot crates.",
+  "state": "APPROVED",
+  "tags": ["adventure__rpg", "jam_weekly_2021", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d2ad496fba.png",
+  "title": "Loot Crates",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ElCeejo/loot_crates/releases/8201/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ElCeejo/loot_crates": [
+      {
+        "is_optional": false,
+        "name": "mob_core",
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
+      },
+      {
+        "is_optional": false,
+        "name": "mobkit",
+        "packages": [
+          "benrob0329/ikea",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "talas/colourhop",
+          "wsor4035/minekart",
+          "Mantar/exile",
+          "mt-mods/mobkit",
+          "Lone_Wolf/voxel_knights",
+          "Replicat/wyrm_cube",
+          "nurd3/ul_game",
+          "wsor4035/farlands_reloaded",
+          "covertiii/mogue"
+        ]
+      }
+    ],
+    "mt-mods/mob_core": [
+      {
+        "is_optional": false,
+        "name": "mobkit",
+        "packages": [
+          "benrob0329/ikea",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "talas/colourhop",
+          "wsor4035/minekart",
+          "Mantar/exile",
+          "mt-mods/mobkit",
+          "Lone_Wolf/voxel_knights",
+          "Replicat/wyrm_cube",
+          "nurd3/ul_game",
+          "wsor4035/farlands_reloaded",
+          "covertiii/mogue"
+        ]
+      }
+    ],
+    "mt-mods/mobkit": []
+  },
+  "hash": "0a9wsvm9r4sk06ybydc64v8c8fisadmvhb86jck8mjplmj7apw17"
+}

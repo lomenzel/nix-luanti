@@ -1,0 +1,65 @@
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2018-06-06T19:23:13.661774",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 14308,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=12200",
+  "forums": 12200,
+  "game_support": [],
+  "issue_tracker": "https://github.com/mt-mods/ilights/issues/new/choose/",
+  "license": "LGPL-3.0-only",
+  "long_description": "A simple industrial light.\n\nCan be turned on/off by right-clicking, or by a Mesecons signal, or by sending a Digilines message (\"on\" or a number greater than 3, or \"off\" or a number less than 4; set the channel by shift-punching the light).  These lights use Unified Dyes, so you can colorize one by crafting along with dye, or with the airbrush.",
+  "maintainers": ["VanessaE", "mt-mods"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "ilights",
+  "provides": ["ilights"],
+  "release": 29111,
+  "repo": "https://github.com/mt-mods/ilights",
+  "score": 175.8,
+  "screenshots": ["https://content.luanti.org/uploads/7BFJo8bcSE.png"],
+  "short_description": "Adds various lights.",
+  "state": "APPROVED",
+  "tags": ["building"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7BFJo8bcSE.png",
+  "title": "Ilights",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/ilights/releases/29111/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "mt-mods/ilights": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "mt-mods/xcompat",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "unifieddyes",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "zanderdev/skyblock_zero",
+          "mt-mods/unifieddyes",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "mt-mods/unifieddyes": [],
+    "mt-mods/xcompat": []
+  },
+  "hash": "1n6rgxx7aa02hbar1ybanbnk46gkayk2ncn0769nqk2pvxaax5sz"
+}

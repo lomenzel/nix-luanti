@@ -1,0 +1,63 @@
+{
+  "author": "lunyaas",
+  "content_warnings": [],
+  "created_at": "2025-06-01T12:54:31.666772",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 122,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/luxanna/luanti-gravestone/issues",
+  "license": "MPL-2.0",
+  "long_description": "This mod will make all items from the player's inventory (which are configured, see mod\\_spec.lua) be saved into a gravestone upon death. Upon breaking the gravestone the player will get all contained items.\n\nFeatures:\n\n- Support for Minetest Game (and 3d\\_armor)\n- Support for VoxeLibre\n- Command /back to teleport to your gravestone (when 'gravestone\\_tp' privilege is granted)\n- Position of the gravestone is printed upon death",
+  "maintainers": ["lunyaas"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "gravestone",
+  "provides": ["gravestone"],
+  "release": 31419,
+  "repo": "https://codeberg.org/luxanna/luanti-gravestone",
+  "score": 319,
+  "screenshots": ["https://content.luanti.org/uploads/b35f8cbd2c.png"],
+  "short_description": "Prevents items from dropping down upon death and place them safely inside a gravestone",
+  "state": "APPROVED",
+  "tags": ["survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b35f8cbd2c.png",
+  "title": "Gravestone",
+  "translation_url": "https://codeberg.org/luxanna/luanti-gravestone/src/branch/main/locale/template.txt",
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/lunyaas/gravestone/releases/31419/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "lunyaas/gravestone": [] },
+  "hash": "1jxpmi5sqr90r4rjcass7mzh67hi7qpip2rcl11wl1ay4fsvarck"
+}

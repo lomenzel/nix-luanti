@@ -1,0 +1,75 @@
+{
+  "author": "Frederik",
+  "content_warnings": [],
+  "created_at": "2023-11-25T14:02:44.812562",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1466,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-3.0-only",
+  "long_description": "This mod make new chimneys and Chimney variations. Sylvester Kruin contributed.\n# Chimney-register:\n1. Cobble Stone\n2. Stone Brick\n3. Stone\n4. Granite\n5. Smooth Granite\n6. Diorite\n7. Smooth Diorite\n8. Andesite\n9. Smooth Andesite",
+  "maintainers": ["Frederik"],
+  "media_license": "GPL-3.0-only",
+  "name": "chimney",
+  "provides": ["chimney"],
+  "release": 25689,
+  "repo": null,
+  "score": 319.6,
+  "screenshots": ["https://content.luanti.org/uploads/6968f4548c.png"],
+  "short_description": "Chimneys for Mineclone and Mineclonia.",
+  "state": "APPROVED",
+  "tags": ["decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6968f4548c.png",
+  "title": "Chimney",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Frederik/chimney/releases/25689/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Frederik/chimney": [
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "0x5hnk7042pbld36jirjjbld8rnznnrads9z29gb6drijgnlinws"
+}

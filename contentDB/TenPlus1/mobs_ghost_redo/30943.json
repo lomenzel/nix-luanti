@@ -1,0 +1,522 @@
+{
+  "author": "TenPlus1",
+  "content_warnings": [],
+  "created_at": "2023-07-07T05:41:49.002771",
+  "dev_state": null,
+  "donate_url": "https://ko-fi.com/tenplus1",
+  "downloads": 3096,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=19907",
+  "forums": 19907,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Amaz",
+        "name": "lordofthetest",
+        "release": 28811,
+        "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
+        "title": "Lord of the Test",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["minetesprogramercor/survivethedays"],
+        "author": "JALdMIC",
+        "name": "survivethedays",
+        "release": 12774,
+        "short_description": "Work in Progress. A little experiment.Warning very early version,more a concept than a complete game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/96bcf72c18.png",
+        "title": "survivethedays",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Thunder1035",
+        "name": "etb",
+        "release": 30824,
+        "short_description": "A dark survival hunt where you challenge a relentless Beast. Fight back before the world falls into darkness. \"Hunt or be Hunted.\"",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/1d13cba08b.png",
+        "title": "Escape The Beast",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "carlos_rupp",
+        "name": "berzerkpt",
+        "release": 29351,
+        "short_description": "Work in Progress. Action game in ancient Egypt.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/711d9f2b73.png",
+        "title": "Berzerkpt",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "mt-mods",
+        "name": "blockcolor",
+        "release": 26684,
+        "short_description": "BlockColor is a creative sandbox with only 8 colors.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/70e7aac248.png",
+        "title": "BlockColor",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "JavaFXpert",
+        "name": "qiskitblocks",
+        "release": 5212,
+        "short_description": "Teaching Quantum Computing using Qiskit in a block world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/r9yczgJPla.png",
+        "title": "QiskitBlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "StarNinjas",
+        "name": "veil_of_the_unknown",
+        "release": 22511,
+        "short_description": "Experience a world of complete blindness. Try you best to survive without the gift of sight.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/4f629b3002.png",
+        "title": "Veil of the Unknown",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "sunnysideup",
+        "name": "holidayhorrors",
+        "release": 10179,
+        "short_description": "Survive the holidays!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/21ce643820.png",
+        "title": "Holiday Horrors",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Thunder1035",
+        "name": "pacman",
+        "release": 13328,
+        "short_description": " A Pacman inspired game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/30dd1c84d2.png",
+        "title": "Arcade3D",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "miroptics",
+        "name": "qiskitblocks_miro",
+        "release": 26302,
+        "short_description": "Work in Progress. Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
+        "title": "QuantumBuilder - a QiskitBlocks fork",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "5uper1ach",
+        "name": "szombie",
+        "release": 28386,
+        "short_description": "Work in Progress. Fight zombies until you die.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9b136e5c60.png",
+        "title": "Mega Zombie Scream Adventure 3D",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "debiankaios",
+        "name": "proxima_survival",
+        "release": 25943,
+        "short_description": "Work in Progress. Survival on Proxima Centauri B. Not working on it now.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ed825dcdea.png",
+        "title": "Proxima Survival",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "NotaB",
+        "name": "tolkientest",
+        "release": 31462,
+        "short_description": "Work in Progress. A fork of LOTT with a ton of new content",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6e9aef424c.png",
+        "title": "TolkienTest",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 30814,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/40f8802c3d.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Astrobe",
+        "name": "minefall",
+        "release": 30834,
+        "short_description": "Fight, farm, explore, build. Solo or multiplayer.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f420ce16e0.png",
+        "title": "Minefall",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["matdombrock/wyrm_cube"],
+        "author": "Replicat",
+        "name": "wyrm_cube",
+        "release": 31620,
+        "short_description": "Find the Wyrm Cubes and save yourself! Inspired by an 80's anime.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ea71397554.png",
+        "title": "Wyrm Cube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "StarNinjas",
+        "name": "jail_escape",
+        "release": 11625,
+        "short_description": "Work in Progress. Escape the Jail! Don't get caught!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/07343a92e7.png",
+        "title": "Jail Escape",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "crabycowman123",
+        "name": "spmeter",
+        "release": 11007,
+        "short_description": "Work in Progress. game jam submission",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0c3d9497bb.png",
+        "title": "spMeTeR",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PyuDev",
+        "name": "pyutest",
+        "release": 29035,
+        "short_description": "Work in Progress. Survival Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f4527cb24.png",
+        "title": "Nodelands",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "StarNinjas",
+        "name": "ssp",
+        "release": 16164,
+        "short_description": "Imagine being alone. In a spacecraft. This is you.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/619f24249d.png",
+        "title": "Secrets of the Space Parable",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "agon",
+        "release": 23323,
+        "short_description": "Fight against some monsters!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bqEtGGf6qk.png",
+        "title": "Agon",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "EUPL-1.2",
+  "long_description": "Adds ghosts.\n\n**NOTE:** This is Blockmen's [CME ghost](https://forum.minetest.net/viewtopic.php?t=8638) mob ported to Mobs Redo, and tweaked.\n\nGhosts only spawn at night-time and they don't spawn underground. They are flying in the world and attack you aswell if they notice you. Ghosts have 15 HP and don't drop any items atm (might be changed in future). They can't harm you in your house. If it becomes day Ghosts will take damage by the sunlight, so they will die after a while.\n\nGhosts can only be harmed by the following weapons:\n - Steel Sword (default)\n - Bronze Sword (default)\n - Diamond Sword (default)\n - Obsidian Sword (mobs_others)\n  - Silver Sword (moreores)\n - Mithril Sword (moreores)\n - Iron Sword (pigiron)",
+  "maintainers": ["TenPlus1"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "mobs_ghost_redo",
+  "provides": ["mobs_ghost_redo"],
+  "release": 30943,
+  "repo": "https://codeberg.org/tenplus1/mobs_ghost_redo",
+  "score": 199.4,
+  "screenshots": ["https://content.luanti.org/uploads/baf78a5d0e.jpg"],
+  "short_description": "Adds ghosts.",
+  "state": "APPROVED",
+  "tags": ["mobs"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/baf78a5d0e.png",
+  "title": "Mobs Ghost Redo",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TenPlus1/mobs_ghost_redo/releases/30943/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "TenPlus1/mobs": [],
+    "TenPlus1/mobs_ghost_redo": [
+      {
+        "is_optional": false,
+        "name": "mobs",
+        "packages": [
+          "1248/regnum",
+          "StarNinjas/jail_escape",
+          "Noodlemire/voxeldungeon",
+          "TenPlus1/mobs",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "nam/porko",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "PyuDev/pyutest",
+          "NotaB/tolkientest",
+          "StarNinjas/veil_of_the_unknown",
+          "StarNinjas/ssp",
+          "crabycowman123/spmeter",
+          "mt-mods/blockcolor",
+          "debiankaios/proxima_survival",
+          "MeseCraft/mesecraft",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "Thunder1035/etb",
+          "Astrobe/minefall",
+          "Wuzzy/hades_revisited",
+          "5uper1ach/szombie",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Thunder1035/pacman",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "1248/agon",
+          "jara25/yams"
+        ]
+      }
+    ]
+  },
+  "hash": "03ysjba0k9d469qzl0j1y0hwsjaw0x4wj4zwb74651a6b055qjhr"
+}

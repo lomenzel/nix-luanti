@@ -1,0 +1,110 @@
+{
+  "author": "Deadlock",
+  "content_warnings": [],
+  "created_at": "2025-01-26T04:48:10.408568",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 307,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31266",
+  "forums": 31266,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Distributed-DeadLock/01_a_mountain/issues",
+  "license": "MIT",
+  "long_description": "Adds a Mountain during worldgen.\n\nThe Mountain is about 1000 blocks high and has a base of a 2000x4000 blocks.\n\nThe Position of the mountain can be configured in the settings.\n\n-----\n\nNo new blocks/items or functions are added with this mod.\n\nThe mountains base materials are \"mapgen_stone\", \"mapgen_water_source\", \"mapgen_snowblock\" & \"mapgen_ice\".\n\nBiome defined materials are used if available.\n\nOnce the mountain has been fully generated, the mod can be safely removed again.\n\n-----\n\n**License**: MIT\n\n**Author**: DeadLock\n\n**Thanks** NameNotQuality, Desour, Blockhead & sfan5\tfor Help, Ideas and Feedback on Ore-Generation \n",
+  "maintainers": [],
+  "media_license": "MIT",
+  "name": "01_a_mountain",
+  "provides": ["01_a_mountain"],
+  "release": 29734,
+  "repo": "https://github.com/Distributed-DeadLock/01_a_mountain",
+  "score": 158.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/cb5314a55d.png",
+    "https://content.luanti.org/uploads/c3d40c9804.png",
+    "https://content.luanti.org/uploads/55f3c17f16.png",
+    "https://content.luanti.org/uploads/bd20d3f440.png",
+    "https://content.luanti.org/uploads/bd1683cdc0.png",
+    "https://content.luanti.org/uploads/aac4fb8b8d.png",
+    "https://content.luanti.org/uploads/de7425fae1.png"
+  ],
+  "short_description": "Adds a Mountain (4000x2000 blocks large, 1000 blocks tall)during worldgen around a configurable position",
+  "state": "APPROVED",
+  "tags": ["environment", "mapgen"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/cb5314a55d.png",
+  "title": "Just a Mountain",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Deadlock/01_a_mountain/releases/29734/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/Distributed-DeadLock/01_a_mountain",
+  "dependencies": { "Deadlock/01_a_mountain": [] },
+  "hash": "08fn0d7f8vdhyb6n1r55azb0pblpnf8gjgnr0926lwy6g1wz6rgp"
+}

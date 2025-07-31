@@ -1,0 +1,564 @@
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2021-12-17T18:10:25.573428",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 3245,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27587",
+  "forums": 27587,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 30814,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/40f8802c3d.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "wsor4035",
+        "name": "farlands_reloaded",
+        "release": 29611,
+        "short_description": "lightweight game to explore and create",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/fc00acef4f.png",
+        "title": "Farlands Reloaded",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 31282,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "mooD_Slayer",
+        "name": "ksurvive2",
+        "release": 18245,
+        "short_description": "A game built 100% from scratch, including code, textures and sounds.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/56264b87b1.png",
+        "title": "KSurvive 2",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sfence/power_generators/issues",
+  "license": "MIT",
+  "long_description": "Power generators\n==============\n\nThis mod add liquid fuel powered generators into minetest worlds.\nShaft electric engines is alse added, and can be powered from included electric generators or from technic electric sources.\nGeneratos supports Minetest default game and Hades Revisited.\n\nGenerators are powered by appliances mod API. So, on appliances APi based machines can easy access the power from generator.\n\nTo get fuel, use biofuel mod.\n\nThe electric engines and rmp_meter can be powered by power generators, technic, elepower, techage or factory electric.\n\n\n",
+  "maintainers": ["SFENCE"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "power_generators",
+  "provides": ["power_generators"],
+  "release": 14628,
+  "repo": "https://github.com/sfence/power_generators",
+  "score": 158.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/2b748f0def.png",
+    "https://content.luanti.org/uploads/eb1b7b66d2.png"
+  ],
+  "short_description": "Add power generators based on appliances API.",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/2b748f0def.png",
+  "title": "Power generators",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/power_generators/releases/14628/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SFENCE/adaptation_modpack": [],
+    "SFENCE/appliances": [],
+    "SFENCE/power_generators": [
+      {
+        "is_optional": false,
+        "name": "adaptation_technic",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_lib",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_minetest_game",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_mesecons",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "joe7575/techage_modpack",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "rlars/occupymoon_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "tubelib2",
+        "packages": [
+          "joe7575/techage_modpack",
+          "joe7575/tubelib2",
+          "debiankaios/proxima_survival"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_basic_materials",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_elepower",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_techage",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farming_redo",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_biofuel",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_rubber",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_mineclone",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farlands_reloaded",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "appliances",
+        "packages": ["SFENCE/appliances"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_pipeworks",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_hades_revisited",
+        "packages": ["SFENCE/adaptation_modpack"]
+      }
+    ],
+    "joe7575/techage_modpack": [
+      {
+        "is_optional": false,
+        "name": "screwdriver",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "mt-mods/blockcolor",
+          "debiankaios/proxima_survival",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "Wuzzy/hades_revisited",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Lone_Wolf/torrlund",
+          "KareaGhandTrail/block_assault",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero",
+          "Big_Caballito/no_mans_land",
+          "Casimir/voxelgarden",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "mt-mods/dreambuilder_game",
+          "ryvnf/mineclonia",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "bucket",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "daret/bucket",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "debiankaios/proxima_survival",
+          "EmptyStar/asuna",
+          "Luanti/devtest",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "rheo/bucket",
+          "Big_Caballito/no_mans_land",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "stairs",
+        "packages": [
+          "TenPlus1/stairs",
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "rheo/moreblocks",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "EmptyStar/asuna",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "mt-mods/blockcolor",
+          "Luanti/devtest",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Mantar/exile",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "zanderdev/skyblock_zero",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "hilol/epic_combat",
+          "mt-mods/dreambuilder_game",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "farming",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "UnbrokenUnworn/modular_portals",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "EmptyStar/asuna",
+          "MeseCraft/mesecraft",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "TenPlus1/farming",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "carts",
+        "packages": [
+          "1248/regnum",
+          "bell07/whynot_game",
+          "1248/castrum",
+          "EmptyStar/asuna",
+          "mt-mods/blockcolor",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "doors",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "rubenwardy/capturetheflag",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "mt-mods/blockcolor",
+          "NotaB/tolkientest",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Kimapr/nonsensical_skyblock",
+          "Mantar/exile",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "mt-mods/dreambuilder_game",
+          "TenPlus1/doors",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "mt-mods/xcompat",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "flowers",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "mt-mods/blockcolor",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault",
+          "Kimapr/nonsensical_skyblock",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "3d_armor",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "stu/3d_armor",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "Casimir/voxelgarden",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "covertiii/mogue"
+        ]
+      }
+    ],
+    "mt-mods/basic_materials": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "mt-mods/xcompat",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0dypr45pznil0z7cmfmh5pqsrgbmaib57gl20dlkkyqsrf1hxva4"
+}

@@ -1,0 +1,82 @@
+{
+  "author": "Feufochmar",
+  "content_warnings": [],
+  "created_at": "2025-01-19T20:38:15.496946",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 302,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 32008,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/Feufochmar/biospheres/issues",
+  "license": "LGPL-3.0-only",
+  "long_description": "# biospheres\nA map genenerator mod generating single-biome islands inside glass spheres, and bridges between those spheres. Ideal if you want to add a sci-fi or post-apocalyptic touch yo your world.\nThe generator doesn't set the singlenode generator, so you can combine it with another world generator like flat or v7 to generate what's outside the biospheres.\n\nThis mod provides settings to configure the generation, and you can choose the size, the altitude or the materials used for the domes and bridges. While the default values for materials use definitions from Minetest Game, you can change them to use the mod with other games. Door generation between spheres and bridges is however only supported in Minetest Game, as door representations may differ between games (and games may not provide doors).\n\nThe temperature and humidity inside a biosphere are randomly choosen between 0 and 100, and you can configure the altitude used for biome generation inside the biospheres.\nThe generator uses the biomes registered, so it takes into account biomes added by mods. Water generated inside biospheres use river water sources.\n\nThis mod is based on:\n\n* the [`lvm_example`](https://content.luanti.org/packages/ROllerozxa/lvm_example) mod, which was used as the starting point for the development\n* the [`biomegen`](https://content.luanti.org/packages/Gael%20de%20Sailly/biomegen/) mod, which is modified to adapt the generation algorithms.\n",
+  "maintainers": ["Feufochmar"],
+  "media_license": "LGPL-3.0-only",
+  "name": "biospheres",
+  "provides": ["biospheres"],
+  "release": 29430,
+  "repo": "https://codeberg.org/Feufochmar/biospheres.git",
+  "score": 167.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/ee4e6a486f.png",
+    "https://content.luanti.org/uploads/de7a34bb2c.png",
+    "https://content.luanti.org/uploads/6f363f4aa2.png",
+    "https://content.luanti.org/uploads/978dda278b.png",
+    "https://content.luanti.org/uploads/5ebab366f8.png"
+  ],
+  "short_description": "A map generator generating single-biome islands inside glass spheres.",
+  "state": "APPROVED",
+  "tags": ["custom_mapgen", "mapgen"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ee4e6a486f.png",
+  "title": "Biospheres",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Feufochmar/biospheres/releases/29430/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Feufochmar/biospheres": [] },
+  "hash": "0w1mzfc3xxxy17h92ljghv8j6dr5gb4lqawwbwlm8agljw8ay360"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "doxygen_spammer",
+  "content_warnings": [],
+  "created_at": "2022-06-13T14:18:35.167828",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 2414,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=28254",
+  "forums": 28254,
+  "game_support": [],
+  "issue_tracker": "https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch/issues",
+  "license": "MIT",
+  "long_description": "\n# advtrains_attachment_offset_patch\n\nThis modpack implements the workaround for [Minetest bug 10101](https://github.com/minetest/minetest/issues/10101), with API for `advtrains` wagons.\n\n## Mods in this modpack\n\n### advtrains_attachment_offset_patch\n\nAdds “attachment dummy” objects to seats in `advtrains` wagons, so the Minetest client will set the eye position correctly.\nMods which add train models to `advtrains` have to use the API to make their wagons use the workaround.\n\n### advtrains_attachment_offsets\n\nMakes various train mods use the `advtrains_attachment_offset_patch` API.\n\nThis is also a short success story, which makes me happy:\n\n> When I created `advtrains_attachment_offset_patch`, there were of course no mods using it.\n> I added this mod to patch all known existing train mods to have sensible attachment offsets.\n> Nowadays, new train mods have started using `advtrains_attachment_offset_patch`, so `advtrains_attachment_offsets` will become unnecessary.\n> I do not intend to update `advtrains_attachment_offsets` anymore.\n> \n> Some mods (namely [DlxTrains](https://content.luanti.org/packages/Marnack/dlxtrains/)) were originally patched by `advtrains_attachment_offsets`, but now implemented support for `advtrains_attachment_offset_patch` themselves.\n> This appears like a cyclic dependency, if you look at the mods on ContentDB.\n> \n> * Actually, `advtrains_attachment_offset_patch` comes first.\n> * Train mods depend on `advtrains_attachment_offset_patch`, so they come second.\n> * `advtrains_attachment_offsets` depends on the train mods, so it comes last.\n> It detects trains that are already patched, and then does not modify them anymore.\n\n## Issues\n\n* When I join the game, I am not correctly reattached to some wagons.\n    - This is a bug in the `on_joinplayer` callback handler of `advtrains`, and is not related to this mod.\n\n## Installation\n\nThis mod is intended to be installed from Minetest’s own content manager, [ContentDB](https://content.luanti.org/doxygen_spammer/advtrains_attachment_offset_patch).\n\nYou can also clone the repository to your `mods` folder.\nYou will need to disable the “LICENSES” and “screenshots” mods, if your Minetest can not figure out that these aren’t mods.\n\nYou can also use this `bash` command from the root directoy of the repository:\n\n```bash\ngit archive --format tar HEAD | tar --extract --one-top-level=advtrains_attachment_offset_patch --directory=path/to/minetest/mods/\n```\n\n(Using GNU tar.)\n\n## License\n\nThe mod is licensed as CC-BY-1.0 (media) and MIT (code).\n\nScreenshots depict artwork from other Minetest mods, and are licensed as CC-BY-SA-4.0.\n\n## Contributing\n\nThe source code is hosted at <https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch>.\nProblems should be reported at <https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch/issues>.\n",
+  "maintainers": ["doxygen_spammer"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "advtrains_attachment_offset_patch",
+  "provides": [
+    "advtrains_attachment_offset_patch",
+    "advtrains_attachment_offsets"
+  ],
+  "release": 19472,
+  "repo": "https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch.git",
+  "score": 165.3,
+  "screenshots": ["https://content.luanti.org/uploads/bb01a746ed.png"],
+  "short_description": "Workaround to mitigate Minetest bug 10101, specifically for advtrains",
+  "state": "APPROVED",
+  "tags": ["library", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/bb01a746ed.png",
+  "title": "advtrains_attachment_offset_patch",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/doxygen_spammer/advtrains_attachment_offset_patch/releases/19472/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch",
+  "dependencies": {
+    "doxygen_spammer/advtrains_attachment_offset_patch": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      }
+    ],
+    "orwell/advtrains": []
+  },
+  "hash": "1q21h3hfakmgqgp0splbwml07lx5scw363zhf06mn2wpbfdsxwy5"
+}

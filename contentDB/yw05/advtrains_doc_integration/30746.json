@@ -1,0 +1,76 @@
+{
+  "author": "yw05",
+  "content_warnings": [],
+  "created_at": "2022-12-19T21:08:01.868635",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 2010,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/y5nw/advtrains-doc-integration/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "This mod integrates the Advanced Trains mod with the [doc][minetest-doc] mod.\n\n[minetest-doc]: https://content.luanti.org/packages/Wuzzy/doc/",
+  "maintainers": ["yw05"],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "advtrains_doc_integration",
+  "provides": ["advtrains_doc_integration"],
+  "release": 30746,
+  "repo": "https://codeberg.org/y5nw/advtrains-doc-integration",
+  "score": 159.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/90ad4858ed.png",
+    "https://content.luanti.org/uploads/bc6b2cff70.png",
+    "https://content.luanti.org/uploads/7dec2fbee6.png",
+    "https://content.luanti.org/uploads/f341a24ac5.png"
+  ],
+  "short_description": "Adds certain Advtrains-related items to the documentation system",
+  "state": "APPROVED",
+  "tags": ["gui"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/90ad4858ed.png",
+  "title": "Documentation system integration for Advanced Trains",
+  "translation_url": "https://translate.codeberg.org/projects/misc-advtrains/advtrains-doc-integration/",
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/yw05/advtrains_doc_integration/releases/30746/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://y5nw.codeberg.page/advtrains-doc-integration/",
+  "dependencies": {
+    "Wuzzy/doc": [],
+    "orwell/advtrains": [],
+    "yw05/advtrains_doc_integration": [
+      {
+        "is_optional": false,
+        "name": "doc",
+        "packages": [
+          "bell07/whynot_game",
+          "Wuzzy/mineclone2",
+          "Wuzzy/doc",
+          "jara25/yams",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      }
+    ]
+  },
+  "hash": "115rk53lfbyswwwrlhnf8w2agwybyjvkr9qhs339xm2qb55qp301"
+}

@@ -1,0 +1,85 @@
+{
+  "author": "dougsouza26",
+  "content_warnings": [],
+  "created_at": "2024-08-17T11:45:15.612344",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/JoseDouglas26",
+  "downloads": 582,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/JoseDouglas26/stonelike_blocks/issues",
+  "license": "MIT",
+  "long_description": "# Stone-like Blocks for Mineclonia (stonelike_blocks)\n## Description\nAdds polished bricks for andesite, diorite and granite. These blocks can be crafted from it's ```polished``` counterparts. They have variants of stairs, slabs and walls.\n### Crafting\n[ \\[<span style=\"color:red\">**Polished**</span>\\] \\[<span style=\"color:red\">**Polished**</span>\\] ] <br>\n[ \\[<span style=\"color:red\">**Polished**</span>\\] \\[<span style=\"color:red\">**Polished**</span>\\] ] &rarr; [<span style=\"color:red\">**Polished bricks 4**</span>]\n\n[ <span style=\"color:red\">**Smooth Slab**</span> ]<br>[ <span style=\"color:red\">**Smooth Slab**</span> ] &rarr; [ <span style=\"color:red\">**Smooth Chiseled**</span> ]",
+  "maintainers": ["dougsouza26"],
+  "media_license": "CC0-1.0",
+  "name": "stonelike_blocks",
+  "provides": ["stonelike_blocks"],
+  "release": 27910,
+  "repo": "https://github.com/JoseDouglas26/stonelike_blocks",
+  "score": 316.8,
+  "screenshots": ["https://content.luanti.org/uploads/a2af1e6319.png"],
+  "short_description": "Adds polished bricks for andesite, diorite and granite.",
+  "state": "APPROVED",
+  "tags": ["building", "decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a2af1e6319.png",
+  "title": "Stone-like Blocks for Mineclonia",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/dougsouza26/stonelike_blocks/releases/27910/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "dougsouza26/stonelike_blocks": [
+      {
+        "is_optional": false,
+        "name": "mcl_walls",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_stonecutter",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_stairs",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "0wiccbdrmis43fsjxzqh82lyhasbjhgwnqhj09z0fhbvj4lxraxd"
+}

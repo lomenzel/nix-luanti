@@ -1,0 +1,50 @@
+{
+  "author": "TenPlus1",
+  "content_warnings": [],
+  "created_at": "2019-03-02T09:20:56.091223",
+  "dev_state": null,
+  "donate_url": "https://ko-fi.com/tenplus1",
+  "downloads": 2103,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": " - Added new group {falling_node_hurt} to hurt players below falling items.\n - Falling nodes will only replace airlike, buildable to, water and attached nodes.\n - Any attached nodes will drop as item when replaced.\n  - Falling nodes with a light source fall with glow active.\n - Added 'falling_step(self, pos, dtime)' custom on_step for falling items.\n   'self' contains falling object data.\n   'self.node' is the node currently falling.\n   'self.meta' is the metadata contained within the falling node.\n   'pos' holds position of falling item.\n   'dtime' used for timers.\n\n   return false to skip further checks by falling_item",
+  "maintainers": ["TenPlus1"],
+  "media_license": "CC0-1.0",
+  "name": "falling_item",
+  "provides": ["falling_item"],
+  "release": 32052,
+  "repo": "https://codeberg.org/tenplus1/falling_item",
+  "score": 163.2,
+  "screenshots": ["https://content.luanti.org/uploads/625f58f417.jpg"],
+  "short_description": "Tweak falling blocks to add custom controls",
+  "state": "APPROVED",
+  "tags": ["environment", "library", "pve"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/625f58f417.png",
+  "title": "Custom Falling Nodes",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/TenPlus1/falling_item/releases/32052/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "TenPlus1/falling_item": [] },
+  "hash": "17m95xz6xyd4ip0pgmkrmr1kmx4qn4yls1dn9xbm0w0lq72vch0f"
+}

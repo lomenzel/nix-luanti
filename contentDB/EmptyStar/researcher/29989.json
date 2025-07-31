@@ -1,0 +1,89 @@
+{
+  "author": "EmptyStar",
+  "content_warnings": [],
+  "created_at": "2024-09-22T22:37:59.441308",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 414,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/EmptyStar/researcher/issues",
+  "license": "MIT",
+  "long_description": "Researcher\n==========\n\nUnlock the limitless creative potential of your world with Researcher! This mod adds a thematic \"earned creative\" mode to Minetest through which you can earn infinite duplication of the items in your world. When applied to a survival world, research becomes an enticing goal that rewards your gameplay efforts with endless command of the items you study the most.\n\nResearch\n--------\n\nResearch is the mechanism by which items are permanently destroyed in order to gain the ability to duplicate them. You gain *research points* when you destroy an item, a score which is tracked per player and per item such that every player has their own research point total for each item in the game.\n\nReaching certain research point milestones known as *research levels* will grant you permanent bonuses towards future research of similar items. Reaching maximum research levels for an item will grant you the permanent ability to duplicate the item.\n\n### How to Research\n\nTo research an item, open the Researcher menu in your inventory or via `/research`, place an item into the research box, then click the \"Research\" button. Researching an item will immediately destroy the researched item and grant you research points in return. The amount of research points gained per research is a constant amount plus any research bonuses you've gained.\n\n### Duplication\n\nOnce you've reached the maximum research level for an item (level 10 by default), you are granted the permanent ability to duplicate the item as many times as you'd like at no cost. When duplication is unlocked for an item, the \"Research\" button in the research menu will change to \"Duplicate\" for the item, and clicking the button will add a full stack of the item to your main inventory.\n\nBonuses\n-------\n\nYou can earn bonuses towards research by researching under certain conditions. These bonuses encourage players to specialize in a particular field of research.\n\n### Group Research\n\nGaining research levels for a particular item will earn permanent bonuses on future items that match any of the item's groups. For example, cobblestone will have the `stone` group, and five research levels in cobblestone will add +5 research points for all `stone` items, including cobblestone itself.\n\n### Focused Research\n\nFocusing your research on a particular item will grant you cumulative bonuses to continuous research of the item and its groups. Whenever you research an item, the item becomes your current research focus.\n\nYou will gain additional research points for each successive research that matches the focus item or its groups, up to a certain maximum. More points are given for an exact match and fewer points are given for a group match. All focus bonuses are reset to zero if you research a non-matching item.\n\n### Research Table\n\nA research table is a special node that allows you to gain significant bonuses to your research. A research table has its own focus item that must be set and matched in order to use it for research.\n\nTo use a research table, craft it, place it, then right-click it in order to access its menu. Place an item into its \"focus\" slot to set its focus item. The research table can then be used to research items that match its focus item or the item's groups.\n\nPlacing items near the research table that match the groups of the research table's focus item will increase the research bonus it grants, up to a certain maximum (10 items by default). This can be done by placing matching nodes in the world near the research table or by placing a node with an inventory that contains matching items (e.g., a nearby chest full of swords to gain research bonuses to swords).\n\nThe crafing recipe for a research table requires wood (`[W]`) and stone (`[S]`) as illustrated below:\n\n```\n[S] [S] [S]\n[W] [W] [W]\n[W] [ ] [W]\n```\n\nSlash Commands\n--------------\n\nResearcher can be controlled via the `/research` slash command.\n\n- `/research` - Opens the research interface, or prompts you to use your inventory for research if a supported inventory mod is being used (see next section for complete list)\n- `/research reset` - Reset your entire research progress for all items\n- `/research reset <item ID>` - Reset your research progress for the item specified by its item ID, e.g., `default:cobble`\n\nSupported Games/Mods\n--------------------\n\nResearcher supports a number of games and mods. Popular games include:\n\n- [Minetest Game](https://content.luanti.org/packages/Minetest/minetest_game/) and its derivatives, e.g., [MeseCraft](https://content.luanti.org/packages/MeseCraft/mesecraft/), [Asuna](https://content.luanti.org/packages/EmptyStar/asuna/), etc.\n- [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/)\n- [VoxeLibre](https://content.luanti.org/packages/Wuzzy/mineclone2/)\n- Any Minetest game in theory, but those not listed above are untested\n\nSupported mods include:\n\n- [Awards](https://content.luanti.org/packages/rubenwardy/awards/) - Adds awards for certain research milestones\n- [sfinv](https://content.luanti.org/packages/rubenwardy/sfinv/) (Minetest Game default) - Adds an integrated research tab where research can be performed\n- [i3](https://content.luanti.org/packages/mt-mods/i3/) - Adds an integrated research tab\n- [Unified Inventory](https://content.luanti.org/packages/RealBadAngel/unified_inventory/) - Adds an integrated research tab",
+  "maintainers": ["EmptyStar"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "researcher",
+  "provides": ["researcher"],
+  "release": 29989,
+  "repo": "https://github.com/EmptyStar/researcher",
+  "score": 309.4,
+  "screenshots": ["https://content.luanti.org/uploads/ad1d44edee.png"],
+  "short_description": "Research items to unlock duplication",
+  "state": "APPROVED",
+  "tags": ["creative", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ad1d44edee.png",
+  "title": "Researcher",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/EmptyStar/researcher/releases/29989/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "EmptyStar/researcher": [] },
+  "hash": "0zkgi6lrgq3rww5v6hjw5a5497aac0dhb6qc75n20s4fyspfcwxk"
+}

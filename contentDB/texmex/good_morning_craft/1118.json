@@ -1,0 +1,50 @@
+{
+  "author": "texmex",
+  "content_warnings": [],
+  "created_at": "2018-05-26T03:32:51.918337",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2187,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=16027",
+  "forums": 16027,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/minetest-texturepacks/Good-Morning-Craft/issues/",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "Good Morning Craft brings a bright and lively athmosphere to Minetest Game. Apart from supporting the game itself it supports countless third-party mods. ",
+  "maintainers": ["texmex"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "good_morning_craft",
+  "provides": [],
+  "release": 1118,
+  "repo": "https://github.com/minetest-texturepacks/Good-Morning-Craft",
+  "score": 160.5,
+  "screenshots": ["https://content.luanti.org/uploads/TzGFwnCJvk.png"],
+  "short_description": "A simple yet quirky texture pack by Louis Durrant",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/TzGFwnCJvk.png",
+  "title": "Good Morning Craft",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/texmex/good_morning_craft/releases/1118/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "texmex/good_morning_craft": [] },
+  "hash": "1477daw59km0sa8vcm6p78iwwcvbqai77az9wvx0ffm53dzmx9h8"
+}

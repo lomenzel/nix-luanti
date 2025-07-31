@@ -1,0 +1,63 @@
+{
+  "author": "advtrains_supplemental",
+  "content_warnings": [],
+  "created_at": "2023-03-17T03:24:46.141315",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 2677,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/advtrains_supplemental/tfl_s7_stock_modpack/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "# AdvTrains Train Pack: TfL London Underground S7 Stock\n\nThis mod provides a control car and intermediate cars of the TFL S7 London\nUnderground train. As of February 2023 this mod supports the custom livery\nfeature of the bike painter.\n\nThis mod was originally made by Mainote.\n\n[View this mod at the Train\nCatalogue](https://advtrains.de/wiki/doku.php?id=usage:trains:tfl_s7stock_modpack)\n\nBeware that the collision box on these wagons is rather small so you may need to\ncontort your view to weird angles to right-click the collision box and escape\nthe train unless you are using doxydoxy's [AdvTrains Attachment Offset\nPatch](https://content.luanti.org/packages/doxygen_spammer/advtrains_attachment_offset_patch/).\nThis problem will hopefully be solved even without mods with the release of\nMinetest 5.7.0 which features rotatable entity hitboxes. See the NotABug issue\ntracker for any further issues\n\n## License\n* Code: LGPL 2.1\n    * Copyright 2018 Mainote Plants Lab\n    * Portions (C) 2022, 2023 by W3RQ01\n        * Livery features\n    * Portions (C) 2023 by Blockhead\n        * Further livery fixes, rotatable entity boxes\n* Media: CC-BY-SA 3.0\n    * models/* (C) 2018 Mainote Plants Lab\n    * textures/advtrains_london_s7dm_inv.png\n        * (C) 2018 Mainote Plants Lab\n    * textures/advtrains_london_s7dm_livery_2.png\n        * (C) 2023 Blockhead\n    * textures/advtrains_london_s7dm_livery.png\n        * (C) 2023 W3RQ01\n        * Improvements by Blockhead 2023\n    * textures/advtrains_london_s7dm.png \n        * (C) 2018 Mainote Plants Lab\n        * Improvements by Blockhead 2023\n    * textures/advtrains_london_s7ndm_inv.png\n        * (C) 2018 Mainote Plants Lab\n    * textures/advtrains_london_s7ndm_livery.png\n        * (C) 2023 W3RQ01\n    * textures/advtrains_london_s7ndm.png\n        * (C) 2018 Mainote Plants Lab\n    * textures/desto-compose.xcf\n    * textures/desto-number-trace.xcf\n    * textures/desto-trace.xcf\n        * All 3 above (C) 2023 Blockhead, derivative work of\n        https://commons.wikimedia.org/wiki/File:Au_Morandarte_Flickr_DSC00944_(13231792605).jpg\n\n\n## Credits\n* Original author: Mainote\n* Contributions by: W3RQ01\n    * Custom livery feature\n    * Crafting recipes (wip)\n* Contributions by: Blockhead\n    * Destination display\n\n\n## Original author's statement (Japanese)\n\nこのModpackは、ADVTRAINS Modのアドオンパックです。 詳細な利用方法はADVTRAINS Modのマニュアルをご参照ください。\n\nこのModpackにて生じたいかなる損害も、製作者は一切の責任を有しません。\n\nこのModpackはadvtrainlibおよびこれらの技術の恩恵を受けています。 よって、ADVTRAINS Modの開発者名とそのライセンスを明記・継承し、敬意を表します。",
+  "maintainers": ["advtrains_supplemental", "Blockhead", "W3RQ01"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "tfl_s7_stock_modpack",
+  "provides": ["tfl_s7_stock_modpack"],
+  "release": 19327,
+  "repo": "https://codeberg.org/advtrains_supplemental/tfl_s7_stock_modpack",
+  "score": 177.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/315d3365b5.png",
+    "https://content.luanti.org/uploads/516818660d.png",
+    "https://content.luanti.org/uploads/eca83a87ee.png"
+  ],
+  "short_description": "London Underground / TfL S7 Stock pack for AdvTrains",
+  "state": "APPROVED",
+  "tags": ["simulation", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/315d3365b5.png",
+  "title": "TfL S7 Stock Modpack",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/advtrains_supplemental/tfl_s7_stock_modpack/releases/19327/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "advtrains_supplemental/tfl_s7_stock_modpack": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      }
+    ],
+    "orwell/advtrains": []
+  },
+  "hash": "03kyyfnlind1xy5z8qf5cs1bqp6xrfsgrk9a93n65ch6fsxfv1as"
+}

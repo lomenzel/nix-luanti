@@ -1,0 +1,73 @@
+{
+  "author": "Wuzzy",
+  "content_warnings": [],
+  "created_at": "2021-03-30T23:11:36.641469",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1569,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=15912",
+  "forums": 15912,
+  "game_support": [],
+  "issue_tracker": "https://codeberg.org/Wuzzy/minetest_doc_identifier/issues",
+  "license": "MIT",
+  "long_description": "# Lookup Tool [`doc_identifier`]\n## Description\nThe lookup tool is an useful little helper which can be used to quickly learn\nmore about about one's closer environment. It identifies blocks, dropped items\nand other objects and it shows extensive information about the item on which it\nis used, provided documentation is available.\n\n## How to use the lookup tool\nPunch any block or item about you wish to learn more about. This will open up\nthe help entry of this particular item.\nThe tool comes in two modes which are changed by a right-click. In liquid mode\n(blue) this tool points to liquids as well while in solid mode (red) this is not\nthe case. Liquid mode is required if you want to identify a liquid.\n",
+  "maintainers": ["Wuzzy"],
+  "media_license": "MIT",
+  "name": "doc_identifier",
+  "provides": ["doc_identifier"],
+  "release": 28641,
+  "repo": "https://codeberg.org/Wuzzy/minetest_doc_identifier",
+  "score": 158.8,
+  "screenshots": ["https://content.luanti.org/uploads/3meji0xgst.png"],
+  "short_description": "Adds a tool which shows help entries about almost anything which it punches.",
+  "state": "APPROVED",
+  "tags": ["gui", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3meji0xgst.png",
+  "title": "Lookup Tool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Wuzzy/doc_identifier/releases/28641/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Wuzzy/doc": [],
+    "Wuzzy/doc_identifier": [
+      {
+        "is_optional": false,
+        "name": "doc",
+        "packages": [
+          "bell07/whynot_game",
+          "Wuzzy/mineclone2",
+          "Wuzzy/doc",
+          "jara25/yams",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "doc_items",
+        "packages": [
+          "bell07/whynot_game",
+          "Wuzzy/mineclone2",
+          "Wuzzy/doc_items",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ],
+    "Wuzzy/doc_items": [
+      {
+        "is_optional": false,
+        "name": "doc",
+        "packages": [
+          "bell07/whynot_game",
+          "Wuzzy/mineclone2",
+          "Wuzzy/doc",
+          "jara25/yams",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ]
+  },
+  "hash": "1ci84c2rwqs93kfsimi04v1zdgv5pa470yhygkhw3y7h9bcqlrir"
+}

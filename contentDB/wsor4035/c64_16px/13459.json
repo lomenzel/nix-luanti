@@ -1,0 +1,50 @@
+{
+  "author": "wsor4035",
+  "content_warnings": [],
+  "created_at": "2022-08-21T03:58:11.747766",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1255,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/TerraQuest-Studios/c64-16px/issues",
+  "license": "CC0-1.0",
+  "long_description": "This texture pack aims to create a Commodore 64 8-bit style environment for \nMinetest.  All images herein are hand-drawn, based on the overall style \nused in my(VannessaE) photorealistic packs (but of course limited to what a C64 \ncould theoretically display).\n\nput the texture pack in the /textures folder and enable the texture pack from \nthe content tab\n",
+  "maintainers": ["wsor4035"],
+  "media_license": "CC0-1.0",
+  "name": "c64_16px",
+  "provides": [],
+  "release": 13459,
+  "repo": "https://github.com/TerraQuest-Studios/c64-16px",
+  "score": 157.6,
+  "screenshots": ["https://content.luanti.org/uploads/d0e4b8dda2.png"],
+  "short_description": "c64 styled texture pack",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d0e4b8dda2.png",
+  "title": " c64 16px",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/wsor4035/c64_16px/releases/13459/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "wsor4035/c64_16px": [] },
+  "hash": "18jk8hx8bh8yj82hd3mh490wq6ycfzkbif0d56847w2nh0sm70ps"
+}

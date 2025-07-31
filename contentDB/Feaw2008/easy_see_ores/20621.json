@@ -1,0 +1,68 @@
+{
+  "author": "Feaw2008",
+  "content_warnings": [],
+  "created_at": "2023-07-18T00:54:58.885579",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 2030,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/feawelemental/easy_see_ores_for_minetest/issues/new/choose/",
+  "license": "CC-BY-SA-3.0",
+  "long_description": "# easy_see_ores_for_minetest\nMakes ores easier to see by adding a box based off of the main color theme of the ore around the ore. Compatible with the epic server.\n\nNote: a little bit after editing this I noticed that another texture pack did the same thing. This is not a copy of that. I made this pack in large part to be played on the epic server, but it can also be played on your singleplayer world. Feel free to suggest mods for me to add to this. \n\n1.0 - 7/17/23\n\n-Textures done for default MTG.\n\n-Textures done for Epic mod.\n\n1.1 - 7/18/23\n\n-Textures done for Technic mod.\n\n-Textures done for More ores mod.\n\n1.2 - 8/22/23\n\n-Textures done for Gemstone\n\n-Textures done for Armor Expansion\n\n-Textures done for Raindbow Ores\n\n-Textures done for Alien Materials\n\n-Textures done for Kitty/Kitto Ores\n\n-Textures done for Silver \n\n-Textures done for Gemstones\n\n-Textures done for Atium\n\n1.3 - 9/22/23\n\n-Textures done for Mineclone 2\n\n",
+  "maintainers": ["Feaw2008"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "easy_see_ores",
+  "provides": [],
+  "release": 20621,
+  "repo": "https://github.com/feawelemental/easy_see_ores_for_minetest.git",
+  "score": 189.6,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1b6aa697ac.png",
+    "https://content.luanti.org/uploads/531a2c0f2a.png",
+    "https://content.luanti.org/uploads/3f769f80f8.png",
+    "https://content.luanti.org/uploads/736a705110.png"
+  ],
+  "short_description": "Makes ores easier to see.",
+  "state": "APPROVED",
+  "tags": ["16px", "mtg", "multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1b6aa697ac.png",
+  "title": "Easy See Ores",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Feaw2008/easy_see_ores/releases/20621/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Feaw2008/easy_see_ores": [] },
+  "hash": "0nnz023iw2qj914v4d7makz6rib1bwm4g698h1vgbzgdwc3s7hz6"
+}

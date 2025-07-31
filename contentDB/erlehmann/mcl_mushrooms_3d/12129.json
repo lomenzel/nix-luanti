@@ -1,0 +1,70 @@
+{
+  "author": "erlehmann",
+  "content_warnings": [],
+  "created_at": "2022-05-04T16:52:28.745255",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2460,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://git.minetest.land/erle/mcl_mushrooms_3d/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "This mod makes small mushrooms render as 3D objects. I have tested it with Mineclonia, so it should work with MineClone2 or MineClone5.",
+  "maintainers": ["erlehmann"],
+  "media_license": "AGPL-3.0-or-later",
+  "name": "mcl_mushrooms_3d",
+  "provides": ["mcl_mushrooms_3d"],
+  "release": 12129,
+  "repo": "https://git.minetest.land/erle/mcl_mushrooms_3d",
+  "score": 167.7,
+  "screenshots": ["https://content.luanti.org/uploads/d28229799b.png"],
+  "short_description": "Renders small mushrooms as 3D objects in MineClone2/MineClone5/Mineclonia",
+  "state": "APPROVED",
+  "tags": ["decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d28229799b.png",
+  "title": "Mcl Mushrooms 3D",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/erlehmann/mcl_mushrooms_3d/releases/12129/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "erlehmann/mcl_mushrooms_3d": [
+      {
+        "is_optional": false,
+        "name": "mcl_mushrooms",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "1pif89n43ai716mj3igwiwvy8wxixm21pdi4hxikyl3rqji6ibqa"
+}

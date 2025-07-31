@@ -1,0 +1,66 @@
+{
+  "author": "gamefreq0",
+  "content_warnings": [],
+  "created_at": "2023-08-09T03:45:39.067927",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 790,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/gamefreq0/extended_placement/issues",
+  "license": "MIT",
+  "long_description": "Extended Placement - A simple (for end users) mod that adds a QoL feature that allows placing blocks around corners, making building bridges in midair, or building downwards, much more manageable\nJust look past the edge of a block, into the air where you intend to build into, and the HUD will indicate with <> around the crosshair whether you can horizontally (or \\[\\] to vertically) extend from the block you're looking past.\n",
+  "maintainers": ["gamefreq0"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "extended_placement",
+  "provides": ["extended_placement"],
+  "release": 21797,
+  "repo": "https://github.com/gamefreq0/extended_placement",
+  "score": 157.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/662fc1e75e.png",
+    "https://content.luanti.org/uploads/a566ba7138.png"
+  ],
+  "short_description": "Allows placing nodes below/behind the closest node to where you are looking, when you're looking at the air where said node would go.",
+  "state": "APPROVED",
+  "tags": ["building_mechanics", "hud"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/662fc1e75e.png",
+  "title": "Extended Placement",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/gamefreq0/extended_placement/releases/21797/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "gamefreq0/extended_placement": [] },
+  "hash": "06ajgd3w1lqqmv1psd419qpr43ycfaf1r93fdqlylwzisi4m25wf"
+}

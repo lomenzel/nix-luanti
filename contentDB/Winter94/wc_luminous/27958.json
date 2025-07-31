@@ -1,0 +1,100 @@
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2022-02-16T22:33:48.906387",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 2055,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NodeCore-Luminous/issues/new/choose/",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# WC_LUMINOUS\nAdds new light sources to NodeCore\nFar superior to the old \"nc_light\" in the following ways:\n\t- Coal Lantern\n\t\t- New Model With A More 'Nodecorian' Vibe\n\t\t- No More Broken Textures (Hopefully)\n\t\t- Can Be Emptied Without Being Broken Apart\n\t\t- Fuel Maximum Has Been Buffed\n\t\t- Recipe Cost Has Been Buffed\n\t\t- Occasionally Drops Ashes While Lit\n\t- Luxlamp\n\t\t- New Recipe\n\t\t- New Model\n\t\t- Rebalanced Functionality\n\t\t- Properly Charges (Hopefully)\n\t- Rushlight\n\t\t- Cheap Light Source\n\t\t- Doesn't Require Charcoal\n\t\t- Lasts Approximately 25% As Long As A Torch\n\t- Egg Burner\n\t\t- Incense Bowls!\n\t\t- Uses Eggcorns For Fuel\n\t\t- Dim Light, Long Duration\n\t\t- Goes Out Faster When Carried\n# LET THERE BE LIGHT\n",
+  "maintainers": ["Winter94"],
+  "media_license": "GPL-3.0-or-later",
+  "name": "wc_luminous",
+  "provides": ["wc_luminous"],
+  "release": 27958,
+  "repo": "https://github.com/wintersknight94/NodeCore-Luminous",
+  "score": 309.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/41b4e5255d.png",
+    "https://content.luanti.org/uploads/f66a5a1673.png",
+    "https://content.luanti.org/uploads/bc7ee5a7c7.png",
+    "https://content.luanti.org/uploads/d68dc58f3f.png"
+  ],
+  "short_description": "New light sources for NodeCore",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/41b4e5255d.png",
+  "title": "NodeCore Luminous Tools",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_luminous/releases/27958/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_luminous": [
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_flora",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_optics",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "1z6p03lsq9s5fdgdz52ycd2xl7v1ksr3qpkda02wz9dhz037zvdk"
+}
