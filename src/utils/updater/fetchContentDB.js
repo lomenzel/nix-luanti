@@ -60,11 +60,7 @@ async function packagelist() {
   // Fetch the list of packages
   let response = await fetch(baseurl);
   let list = await response.json(); // Parse the JSON response
-  let packages = {
-    game: [],
-    mod: [],
-    txp: [],
-  };
+
   console.log(`${list.length} Packages found`);
 
   for (let i = 0; i < list.length; i++) {
@@ -76,6 +72,7 @@ async function packagelist() {
       return;
     }
     let package = list[i];
+    if (package.release == null) continue;
     package.details = await getDetails(
       `${package.author}/${package.name}/${package.release}`,
     );
@@ -89,7 +86,6 @@ async function packagelist() {
           : []),
       ];
     }, []);
-    packages[package.type].push(package);
   }
 }
 
