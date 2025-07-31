@@ -1,0 +1,71 @@
+{
+  "author": "Nazalassa",
+  "content_warnings": ["gore"],
+  "created_at": "2024-12-08T15:46:02.037613",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 84,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31200",
+  "forums": 31200,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "eyeballs",
+        "release": 31273,
+        "short_description": "Explore the Realm of Eyes, but you must be seen by the friendly eyeballs at all times.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7f5771dfff.png",
+        "title": "Eyeballs",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "GPL-2.0-or-later",
+  "long_description": "Adds eyeballs that can be used as wagons on Advtrains tracks. That's it. (that's a stupid mod isn't it?)",
+  "maintainers": ["Nazalassa"],
+  "media_license": "GPL-2.0-or-later",
+  "name": "eyeball_train",
+  "provides": ["eyeball_train"],
+  "release": 28809,
+  "repo": null,
+  "score": 0.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/b28ce232f6.png",
+    "https://content.luanti.org/uploads/9442884793.png"
+  ],
+  "short_description": "Adds eyeballs that can be used as wagons on Advtrains tracks.",
+  "state": "APPROVED",
+  "tags": ["april_fools", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b28ce232f6.png",
+  "title": "Eyeball Train",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Nazalassa/eyeball_train/releases/28809/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Nazalassa/eyeball_train": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      },
+      {
+        "is_optional": false,
+        "name": "eb_eyeballs",
+        "packages": ["Wuzzy/eyeballs"]
+      },
+      {
+        "is_optional": false,
+        "name": "advtrains_train_track",
+        "packages": ["orwell/advtrains"]
+      }
+    ],
+    "orwell/advtrains": []
+  },
+  "hash": "1gda48xjx93nxcgsa344bm6v7620jfrnjff09ky14gdwyldzj68h"
+}

@@ -1,0 +1,105 @@
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2020-04-03T19:21:21.821864",
+  "dev_state": "DEPRECATED",
+  "donate_url": null,
+  "downloads": 1313,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NC_Adamant/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "# This mod is no longer maintained, see \n# [NodeCore Adamant: Revised ](https://content.luanti.org/packages/Winter94/wc_adamant/) instead.\nA mod for NodeCore that adds Adamant Ore deep underground, from which you can craft all the normal things, tools, shelves, anvils, etc.\nIt is more rare and harder to aquire than Lode, but makes for much better equipment once refined.",
+  "maintainers": ["Winter94"],
+  "media_license": "GPL-3.0-only",
+  "name": "nc_adamant",
+  "provides": ["nc_adamant"],
+  "release": 10333,
+  "repo": "https://github.com/wintersknight94/NC_Adamant",
+  "score": 0,
+  "screenshots": ["https://content.luanti.org/uploads/EfPN7mxeF8.png"],
+  "short_description": "Adds Adamant, a new metal ore, deep underground/",
+  "state": "APPROVED",
+  "tags": ["survival", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/EfPN7mxeF8.png",
+  "title": "NodeCore Adamant",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/nc_adamant/releases/10333/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/nc_adamant": [
+      {
+        "is_optional": false,
+        "name": "nc_woodwork",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_igneous",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "0pwbnbqjp2a3ilrgxhpskcxvlylkr4p93rsxw9dbx2dax41z49nw"
+}

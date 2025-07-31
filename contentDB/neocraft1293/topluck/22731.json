@@ -1,0 +1,58 @@
+{
+  "author": "neocraft1293",
+  "content_warnings": [],
+  "created_at": "2024-01-02T00:23:29.572956",
+  "dev_state": "BETA",
+  "donate_url": "http://revolut.me/neocraft1293",
+  "downloads": 205,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "",
+  "maintainers": ["neocraft1293"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "topluck",
+  "provides": ["topluck"],
+  "release": 22731,
+  "repo": "https://codeberg.org/neocraft1293/topluck",
+  "score": 1.6,
+  "screenshots": ["https://content.luanti.org/uploads/5828eeb833.png"],
+  "short_description": "TopLuck is a plugin that allows you to see your player's luck in real time.",
+  "state": "APPROVED",
+  "tags": ["server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/5828eeb833.png",
+  "title": "topluck",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/neocraft1293/topluck/releases/22731/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "neocraft1293/blockwatch": [],
+    "neocraft1293/topluck": [
+      {
+        "is_optional": false,
+        "name": "blockwatch",
+        "packages": ["neocraft1293/blockwatch"]
+      }
+    ]
+  },
+  "hash": "12paaljq2c4rggsbf4a4as94yhzpwxs7by3r9r849dvqij234wv4"
+}

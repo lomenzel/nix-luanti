@@ -1,0 +1,50 @@
+{
+  "author": "mtvisitor",
+  "content_warnings": [],
+  "created_at": "2024-08-11T20:42:28.235944",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 103,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "Zlib",
+  "long_description": "# MTEngine Stats (Local Testing)  \nA simple mod to get some basic stats of Minetest Engine. (must >= ver5.8)  \n\nSTG: Simple Town Game.   \n\n## Important Notice\nThis simple mod is used for testing by mtvisitor since 2023.12.12.  \n\nThis simple mod support minetest_game before simpletown_game is ready.  \n\nNew feature will be added in the future based on new requirement.  \n\nMTG: Minetest Game.  \nMTE: Minetest Engine.  \n\n## Installation\n\n- Downloaded the latest compressed file(*.zip) from contentdb website.\n- Decompressed the file under <worlds/some-mtworld/worldmods>\n- Start the minetest application and play in some-mtworld. \n\nEnjoy! 🤝  \n\n## Done Tasks  \n\nMod Simple Features:  \n- config.lua is used to get and set settings.  \n- common.lua defined some common functions, such as log output, get ostime.  \n- function version_to_number() was copied from baidu.com (ai answer).  \n- get minetest engine basic stats by using /mtengine_stats command.  \n- this only support minetest engine version 5.8 or above.  \n  \nCHANGELOG.md was included in this mod package.  \n\n## ToDo Tasks  \n\n- Update more MTEngine Stats data.  \n- Change stats display form Layout.  \n- Save the Stats data in a local file.  \n\n## Game Support  \nThe following games are supported:  \n\n- Minetest Game   \n\n## Contact  \nFor questions, requests, and other communications regarding this work, you can  \ncontact the original creator at crane_zhou@163.com  \n\nIf there are some license issues, please also let the author(mtvisitor) know.  \n\n## License & CopyRight\nThis Project is released under the terms of the zlib license.  \nSee LICENSE.md in the mod package for more information or see:  \nhttps://www.zlib.net/zlib_license.html.\n\nMod MTEngine_stats is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.  \nA copy of this license should be bundled with this work, if one was not  \nprovided then you can find the license [here](https://creativecommons.org/licenses/by-sa/4.0/)",
+  "maintainers": ["mtvisitor"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "mtengine_stats",
+  "provides": ["mtengine_stats"],
+  "release": 26698,
+  "repo": null,
+  "score": 0.8,
+  "screenshots": ["https://content.luanti.org/uploads/d9c96e0745.png"],
+  "short_description": "Get some basic stats of MT Engine. (must >= ver5.8)",
+  "state": "APPROVED",
+  "tags": [],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d9c96e0745.png",
+  "title": "Minetest Engine Stats",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mtvisitor/mtengine_stats/releases/26698/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "mtvisitor/mtengine_stats": [] },
+  "hash": "19vrdixnc22ljbb3i0q8r45rln10dl8bbbwa7l6if06wdn5sic5g"
+}

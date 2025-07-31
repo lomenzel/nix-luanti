@@ -1,0 +1,49 @@
+{
+  "author": "ApolloX",
+  "content_warnings": [],
+  "created_at": "2021-07-23T19:04:31.121358",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 719,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Beanzilla/iNotify/issues",
+  "license": "MIT",
+  "long_description": "# iNotify\n\nAn in-game notification system.\n\n## Goals\n\n- Allow players to see their position, health, and other information without F5.\n- Adds a world clock to visibly see what the current in-game world time is.\n- Provide MineClone support for multiple dimentions based on y layers.\n- Uses `minetest.conf` to define settings\n\n## Links\n\n- [Github (Source)](https://github.com/Beanzilla/iNotify)\n- [MineClone5](https://content.luanti.org/packages/kay27/mineclone5/)\n",
+  "maintainers": ["ApolloX"],
+  "media_license": "MIT",
+  "name": "inotify",
+  "provides": ["inotify"],
+  "release": 10932,
+  "repo": "https://github.com/Beanzilla/iNotify",
+  "score": 1.7,
+  "screenshots": ["https://content.luanti.org/uploads/aad5c62b24.png"],
+  "short_description": "A notification tool for players in-game.",
+  "state": "APPROVED",
+  "tags": ["hud"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/aad5c62b24.png",
+  "title": "Inotify",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ApolloX/inotify/releases/10932/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "ApolloX/inotify": [] },
+  "hash": "16n1ks45rrjpngns2qknb4z1fkz9f10b8sizbk2y1adymkxkda5y"
+}

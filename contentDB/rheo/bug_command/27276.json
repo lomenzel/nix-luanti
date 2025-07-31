@@ -1,0 +1,56 @@
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2023-03-27T18:49:03.398328",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 332,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-bug_command/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# bug_command\n\nadds a command that submits a bug report to a github repo.\n\nother git hosts might be added at a later date.\n\n### for server operators:\n\nyou must add the mod to `secure.http_mods`, and supply two additional settings:\n\n#### `bug_command:github_repo`\n\ne.g. `bug_command:github_repo = fluxionary/fluxtest` will add issues to https://github.com/fluxionary/minetest-fluxtest/issues\n\n#### `bug_command:github_token`\n\nsee the following for how to get one:\n\nhttps://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token\n\n### usage\n\nas a command line argument:\n\n```\n/bug blah blah blah\n```\n",
+  "maintainers": ["rheo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "bug_command",
+  "provides": ["bug_command"],
+  "release": 27276,
+  "repo": "https://github.com/fluxionary/minetest-bug_command.git",
+  "score": 1.6,
+  "screenshots": ["https://content.luanti.org/uploads/52ff6d0fb3.png"],
+  "short_description": "adds a command that submits a bug report to a github repo.",
+  "state": "APPROVED",
+  "tags": ["chat", "complex_installation", "server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/52ff6d0fb3.png",
+  "title": "bug command",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/bug_command/releases/27276/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-bug_command",
+  "dependencies": {
+    "rheo/bug_command": [
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": ["rheo/futil", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ],
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ]
+  },
+  "hash": "0rgs96dx4rh01jj1g2l75zzsa12frh104w1g1w2bhivfl4c63pzj"
+}

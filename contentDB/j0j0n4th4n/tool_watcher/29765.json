@@ -1,0 +1,50 @@
+{
+  "author": "j0j0n4th4n",
+  "content_warnings": [],
+  "created_at": "2025-02-16T21:35:19.526152",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 31,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Introduces an item, *the Tool Watcher*, for monitoring the durability of the player wield tool. After using the tool watcher once it will alert the player whenever their equipment is close to breaking through a HUD text as long as it is kept in that player inventory.\n\nThe Tool Watcher recipe consists of: mese crystal, glass, stick and steel ingot, it requires the default mod in order to be crafted.",
+  "maintainers": ["j0j0n4th4n"],
+  "media_license": "CC0-1.0",
+  "name": "tool_watcher",
+  "provides": ["tool_watcher"],
+  "release": 29765,
+  "repo": "https://codeberg.org/j0j0/tool_watcher",
+  "score": 0.4,
+  "screenshots": ["https://content.luanti.org/uploads/dcb6c0111b.png"],
+  "short_description": "Introduces an  item for monitoring the wield tool durability and alerting players when their equipment is close to breaking through a HUD text.",
+  "state": "APPROVED",
+  "tags": ["hud", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dcb6c0111b.png",
+  "title": "Tool Watcher",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/j0j0n4th4n/tool_watcher/releases/29765/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "j0j0n4th4n/tool_watcher": [] },
+  "hash": "1bxmsja2jw89hwgn1c3lgbga09kjy72vm0lay4wnyq0v11zxpgws"
+}

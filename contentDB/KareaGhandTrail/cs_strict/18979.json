@@ -1,0 +1,44 @@
+{
+  "author": "KareaGhandTrail",
+  "content_warnings": [],
+  "created_at": "2023-05-29T14:56:09.963323",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 221,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/EISHU-MT/cstrict/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "# Players cursing&swearing detector\n**This is a mod that detects cursing &amp; swearing from players [EN/ES]**\n## How this works\nIf the player curses or **swears** more than 3 times and less than 5 times gets a kick, if the player continues cursing (5 or more than 5 times) gets a ban\n\n1. **0 - 3**: No kick or ban, just warnings\n \n2. **3 - 5**: Auto Kick*\n\n3.  **5 - (*infinite*)**: Auto Ban\n\n## API (How works)\nThis mod dont include **\\*API\\***. This depends \\*[**cs_strict_api**](https://github.com/EISHU-MT/cs_strict)\\*\n\n",
+  "maintainers": ["KareaGhandTrail"],
+  "media_license": "MIT",
+  "name": "cs_strict",
+  "provides": ["cs_strict"],
+  "release": 18979,
+  "repo": "https://github.com/EISHU-MT/cstrict",
+  "score": 1.5,
+  "screenshots": ["https://content.luanti.org/uploads/633e8d4569.png"],
+  "short_description": "This gives protection in chat from bad persons, from cursing & swearing",
+  "state": "APPROVED",
+  "tags": ["chat"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/633e8d4569.png",
+  "title": "CStrict",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/KareaGhandTrail/cs_strict/releases/18979/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "KareaGhandTrail/cs_strict": [
+      {
+        "is_optional": false,
+        "name": "cs_strict_api",
+        "packages": ["KareaGhandTrail/cs_strict_api"]
+      }
+    ],
+    "KareaGhandTrail/cs_strict_api": []
+  },
+  "hash": "0zp4d743gvm4zndsg74p7mzb1s01a38d4idsh71wzm2ldx83pk94"
+}

@@ -1,0 +1,44 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2025-04-21T01:33:17.921564",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 59,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/centralauth/issues",
+  "license": "GPL-2.0-or-later",
+  "long_description": "# Unified Login System for Luanti\n\n**WARNING: This mod is a work in progress. All changes will be backward-compatible in some way, but migration may involve sophisticated database mutations that require manual debugging.**\n\nCentralAuth syncs usernames and password acorss Luanti servers. The following mods are included in this mod pack:\n\n* `centralauth`, the core functionalities; and\n* `antispoof`, exposes public APIs found in the [original AntiSpoof mod](https://content.luanti.org/packages/Emojiminetest/antispoof/) which has been replaced by CentralAuth implementations.\n\nDocumentations:\n\n* [`INSTALL.md`](https://github.com/C-C-Minetest-Server/centralauth/blob/main/.docs/INSTALL.md): How to initialize the CentralAuth database and add servers to the CentralAuth system.\n* [`MIGRATE.md`](https://github.com/C-C-Minetest-Server/centralauth/blob/main/.docs/MIGRATE.md): How to import users from an existing server.\n* [`COMMAND.md`](https://github.com/C-C-Minetest-Server/centralauth/blob/main/.docs/COMMAND.md): In-game commands.\n* [`API.md`](https://github.com/C-C-Minetest-Server/centralauth/blob/main/.docs/API.md): Public APIs that can be used by other mods.\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "centralauth",
+  "provides": ["antispoof", "centralauth"],
+  "release": 30979,
+  "repo": "https://github.com/C-C-Minetest-Server/centralauth",
+  "score": 1.8,
+  "screenshots": ["https://content.luanti.org/uploads/36f1633d23.jpg"],
+  "short_description": "Player account unification across Luanti servers",
+  "state": "APPROVED",
+  "tags": ["complex_installation", "library", "server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/36f1633d23.png",
+  "title": "CentralAuth",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/centralauth/releases/30979/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/centralauth": [
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": ["Emojiminetest/logging", "Casimir/voxelgarden"]
+      }
+    ],
+    "Emojiminetest/logging": []
+  },
+  "hash": "1kczwmwva7rf0lz4dp1j3m36iawnccbca2gq7npyhg7hv3zh21rd"
+}

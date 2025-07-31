@@ -1,0 +1,642 @@
+{
+  "author": "Lunovox",
+  "content_warnings": [],
+  "created_at": "2024-03-24T12:41:29.007622",
+  "dev_state": "WIP",
+  "donate_url": "https://liberapay.com/Lunovox/donate",
+  "downloads": 88,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault_mapmaker",
+        "release": 21764,
+        "short_description": "This game is focused to make maps for BlockAssault [BA.S]",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ae4d37c05f.png",
+        "title": "BlockAssault MapMaker",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Big_Caballito",
+        "name": "no_mans_land",
+        "release": 8685,
+        "short_description": "Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
+        "title": "No Man's Land",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "TheFanne",
+        "name": "raining_nodes",
+        "release": 1787,
+        "short_description": "Survive in a strange world where nodes constantly rain down from the sky!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/VgGn91cicQ.png",
+        "title": "Raining Nodes",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "castrum",
+        "release": 4788,
+        "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/68ovEdgCu3.png",
+        "title": "Castrum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jgordon510",
+        "name": "gridlocks",
+        "release": 28415,
+        "short_description": "Learn programming, solve puzzles, and make pixelart.  An escape room game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/5cbe6a208b.png",
+        "title": "gridlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Amaz",
+        "name": "lordofthetest",
+        "release": 28811,
+        "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
+        "title": "Lord of the Test",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "JavaFXpert",
+        "name": "qiskitblocks",
+        "release": 5212,
+        "short_description": "Teaching Quantum Computing using Qiskit in a block world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/r9yczgJPla.png",
+        "title": "QiskitBlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "miroptics",
+        "name": "qiskitblocks_miro",
+        "release": 26302,
+        "short_description": "Work in Progress. Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
+        "title": "QuantumBuilder - a QiskitBlocks fork",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault",
+        "release": 28330,
+        "short_description": "A first person shooter game with multiple features",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/39c5592543.png",
+        "title": "CS:MT (BlockAssault)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum2",
+        "release": 28585,
+        "short_description": "This is the second part of Regnum",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/Hmlddw7prL.png",
+        "title": "Regnum 2",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rlars",
+        "name": "occupymoon_game",
+        "release": 15950,
+        "short_description": "Work in Progress. This game will send you to the moon!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2230ac18b9.png",
+        "title": "Occupy Moon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Hi_World",
+        "name": "newplanet",
+        "release": 4041,
+        "short_description": "You're on a strange planet, with 8 exciting biomes and a perpetual night, but beware, there are monsters ready to hunt you!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/69famAhfZr.png",
+        "title": "NewPlanet",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 32008,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "giga-turbo",
+        "name": "codecube",
+        "release": 12748,
+        "short_description": "A game where the player can construct by programming",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/85ed8f4a7c.png",
+        "title": "Codecube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://gitlab.com/lunovox/tradelands/-/issues",
+  "license": "AGPL-3.0-or-later",
+  "long_description": "![screeshot]\n\n# [TRADELANDS][repository_tradelands]\n\nProtection of land on payment of periodic rate. The Minetest player can set permissions of PVP for his terrain. Need to craft a land protection charter.\n\nBadge: [![ContentDB_en_icon]][ContentDB_en_link] [![DownloadsCDB_en_icon]][DownloadsCDB_en_link]\n\n-----------------------------------------\n\n## **Dependencies:**\n\n* default : Minetest Game Included\n* dye : Minetest Game Included\n* door : Minetest Game Included\n* [minertrade][content_minertrade] : Monetary money mod.\n\n## **Optional Dependencies:**\n\n* [intllib][content_intllib] : Facilitates the translation of several other mods into your native language, or other languages.\n* [computing][repository_computing] : Adding integration with 'computing' mod applications.\n* [eurn][repository_eurn] : Allows the elected president to access protected land, and access the money collected from land protection to use to hire players to build public works.\n\n-----------------------------------------\n\n## **License:**\n\n* [![license_code_icon]][license_code_link]\n* [![license_media_icon]][license_media_link]\n\nSee more details in wiki: \n \n[![wiki_en_icon]][wiki_en_link] [![wiki_pt_icon]][wiki_pt_link]\n\n-----------------------------------------\n\n## **Developers:**\n\n* Lunovox Heavenfinder: [email](mailto:lunovox@disroot.org), [social web](http:mastodon.social/@lunovox), [WebChat](https://cloud.disroot.org/call/9aa2t7ib), [xmpp](xmpp:lunovox@disroot.org?join), [audio conference](mumble:mumble.disroot.org), [more contacts](https://libreplanet.org/wiki/User:Lunovox)\n\n-----------------------------------------\n\n## **Translate this mod to Your Language:**\n\nSee more details in file: [locale/README.md]\n\n-----------------------------------------\n\n[config.lua]:https://gitlab.com/lunovox/tradelands/-/blob/master/config.lua?ref_type=heads\n[locale/README.md]:https://gitlab.com/lunovox/tradelands/-/blob/master/locale/README.md?ref_type=heads\n[screeshot]:https://gitlab.com/lunovox/tradelands/-/raw/master/screenshot.png\n\n[repository_computing]:https://gitlab.com/lunovox/computing/\n[repository_eurn]:https://gitlab.com/lunovox/e-urn/\n[repository_tradelands]:https://gitlab.com/lunovox/tradelands/\n[content_intllib]:https://content.luanti.org/packages/kaeza/intllib/\n[content_minertrade]:https://content.luanti.org/packages/Lunovox/minertrade/\n\n[ContentDB_en_icon]:https://content.luanti.org/packages/Lunovox/tradelands/shields/title/\n[ContentDB_en_link]:https://content.luanti.org/packages/Lunovox/tradelands/\n[DownloadsCDB_en_icon]:https://content.luanti.org/packages/Lunovox/tradelands/shields/downloads/\n[DownloadsCDB_en_link]:https://gitlab.com/lunovox/tradelands/-/tags\n\n[license_code_icon]:https://img.shields.io/static/v1?label=LICENSE%20CODE&message=GNU%20AGPL%20v3.0&color=yellow\n[license_code_link]:https://gitlab.com/lunovox/tradelands/-/raw/master/LICENSE_CODE\n[license_media_icon]:https://img.shields.io/static/v1?label=LICENSE%20MEDIA&message=CC%20BY-SA-4.0&color=yellow\n[license_media_link]:https://gitlab.com/lunovox/tradelands/-/raw/master/LICENSE_MEDIA\n[wiki_en_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=EN&color=blue\n[wiki_en_link]:https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License\n[wiki_pt_icon]:https://img.shields.io/static/v1?label=GNU%20AGPL%20v3.0&message=PT&color=blue\n[wiki_pt_link]:https://pt.wikipedia.org/wiki/GNU_Affero_General_Public_License\n\n\n\n\n",
+  "maintainers": ["Lunovox"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "tradelands",
+  "provides": ["tradelands"],
+  "release": 28607,
+  "repo": "https://gitlab.com/lunovox/tradelands.git",
+  "score": 1.3,
+  "screenshots": ["https://content.luanti.org/uploads/24f8fc05b4.jpg"],
+  "short_description": "Protection of land on payment of periodic rate.",
+  "state": "APPROVED",
+  "tags": ["multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/24f8fc05b4.png",
+  "title": "Tradelands",
+  "translation_url": "https://gitlab.com/lunovox/tradelands/locale",
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Lunovox/tradelands/releases/28607/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Lunovox/minertrade": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "dye",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "bell07/whynot_game",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "EmptyStar/asuna",
+          "NotaB/tolkientest",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "Big_Caballito/no_mans_land",
+          "mt-mods/dreambuilder_game",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "Lunovox/tradelands": [
+      {
+        "is_optional": false,
+        "name": "minertrade",
+        "packages": ["Lunovox/minertrade"]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "dye",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "bell07/whynot_game",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "EmptyStar/asuna",
+          "NotaB/tolkientest",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "Big_Caballito/no_mans_land",
+          "mt-mods/dreambuilder_game",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "doors",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "rubenwardy/capturetheflag",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "mt-mods/blockcolor",
+          "NotaB/tolkientest",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Kimapr/nonsensical_skyblock",
+          "Mantar/exile",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "mt-mods/dreambuilder_game",
+          "TenPlus1/doors",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "TenPlus1/doors": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0xbsjiblm5xvkh06ks39qin8krl9x4fwc7v45kxxfj7d1jm367d6"
+}
