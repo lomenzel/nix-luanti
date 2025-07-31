@@ -1,5 +1,45 @@
 {
   "games": {
+    "GoodClover": {
+      "cavegame": {
+        "provides": ["cavegame_mapgen", "cavegame_nodes", "cavegame_player"],
+        "release": 28119,
+        "repo": "https://git.minetest.land/olive/cavegame",
+        "short_description": "The simplest block game.",
+        "hash": "145dizsm69yi1wfsy92bjjnj9k0i1lx534wch31qd48vpfka84da"
+      }
+    },
+    "Emojiminetest": {
+      "parkour": {
+        "provides": [
+          "cmd_alias",
+          "freeze",
+          "log_util",
+          "pkr_hands",
+          "pkr_info",
+          "pkr_init",
+          "pkr_main",
+          "pkr_nodes",
+          "pkr_tips",
+          "pkr_workaround",
+          "player_api",
+          "sfinv",
+          "sfinv_info",
+          "text_commands"
+        ],
+        "release": 11037,
+        "repo": "https://github.com/C-C-Minetest-Server/parkour",
+        "short_description": "Parkour game!",
+        "hash": "1q3h9pafwj0d6zrbncq73ylplfpi2ijszvlsxqlayya3llxgqz8n"
+      },
+      "langton": {
+        "provides": ["langton", "lg_mapgen", "startup", "void_hand"],
+        "release": 13037,
+        "repo": "https://github.com/Emojigit/langton",
+        "short_description": "Langton's Ant!",
+        "hash": "014w39d9iappgaqwwbh9vchl2dhd9hg1szslijx6gycp2cmahw4m"
+      }
+    },
     "Big_Caballito": {
       "no_mans_land": {
         "provides": [
@@ -69,101 +109,71 @@
         "short_description": "Recover the crystal and bring light back into the world",
         "hash": "079ch6afjzj4vgdk5kpfn7a5ixv25rgnsj0znzmghmxlwm8x94dv"
       }
-    },
-    "Emojiminetest": {
-      "parkour": {
-        "provides": [
-          "cmd_alias",
-          "freeze",
-          "log_util",
-          "pkr_hands",
-          "pkr_info",
-          "pkr_init",
-          "pkr_main",
-          "pkr_nodes",
-          "pkr_tips",
-          "pkr_workaround",
-          "player_api",
-          "sfinv",
-          "sfinv_info",
-          "text_commands"
-        ],
-        "release": 11037,
-        "repo": "https://github.com/C-C-Minetest-Server/parkour",
-        "short_description": "Parkour game!",
-        "hash": "1q3h9pafwj0d6zrbncq73ylplfpi2ijszvlsxqlayya3llxgqz8n"
-      }
-    },
-    "GoodClover": {
-      "cavegame": {
-        "provides": ["cavegame_mapgen", "cavegame_nodes", "cavegame_player"],
-        "release": 28119,
-        "repo": "https://git.minetest.land/olive/cavegame",
-        "short_description": "The simplest block game.",
-        "hash": "145dizsm69yi1wfsy92bjjnj9k0i1lx534wch31qd48vpfka84da"
-      }
     }
   },
   "mods": {
-    "Thresher": {
-      "cave_ambience": {
-        "provides": ["cave_ambience"],
-        "release": 21982,
-        "repo": "https://github.com/Bituvo/cave_ambience",
-        "short_description": "Adds scary cave ambience",
-        "hash": "0ywac4bqp9v80s4g92gsijr1r538v8jwj261phaa3zwkr5h68dni"
+    "sorcerykid": {
+      "auth_rx_lite": {
+        "provides": ["auth_rx_lite"],
+        "release": 4972,
+        "repo": "https://bitbucket.org/sorcerykid/auth_rx_lite.git",
+        "short_description": "Robust and lightweight authentication handler for use on servers",
+        "hash": "1y6cp0mdzqglpv329zmslr3d21409mcd2w4d5sfxl392ddq6cy2k"
       }
     },
-    "AiTechEye": {
-      "chakram": {
-        "provides": ["chakram"],
-        "release": 894,
-        "repo": "https://github.com/AiTechEye/chakram",
-        "short_description": "Chakram: weapon & tool at same time",
-        "hash": "0mkk98gfyfcmpy9vnd17s07902i7f8mangmz86j3cy58pwjr65fm"
+    "Kimapr": {
+      "diggable_chests": {
+        "provides": ["diggable_chests"],
+        "release": 13859,
+        "repo": "https://gitlab.com/Kimapr/diggable_chests",
+        "short_description": "makes chests, furnaces and such diggable even if not empty",
+        "hash": "0bbcfbja9d259gcqv46x91id18y8mx6diwiamv14mx2mnmb2fxs9"
       }
     },
-    "Winter94": {
-      "wc_basket": {
+    "Comet712": {
+      "maid_companions": {
         "game_support": [
-          { "name": "nodecore_alpha", "author": "Warr1024" },
-          { "name": "nodecore", "author": "Warr1024" }
+          { "name": "lordofthetest", "author": "Amaz" },
+          { "name": "survivethedays", "author": "JALdMIC" },
+          { "name": "etb", "author": "Thunder1035" },
+          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "mineclonia", "author": "ryvnf" },
+          { "name": "blockcolor", "author": "mt-mods" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "veil_of_the_unknown", "author": "StarNinjas" },
+          { "name": "mineclone2", "author": "Wuzzy" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "holidayhorrors", "author": "sunnysideup" },
+          { "name": "pacman", "author": "Thunder1035" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "szombie", "author": "5uper1ach" },
+          { "name": "proxima_survival", "author": "debiankaios" },
+          { "name": "tolkientest", "author": "NotaB" },
+          { "name": "hades_revisited", "author": "Wuzzy" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "minefall", "author": "Astrobe" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "wyrm_cube", "author": "Replicat" },
+          { "name": "porko", "author": "nam" },
+          { "name": "jail_escape", "author": "StarNinjas" },
+          { "name": "spmeter", "author": "crabycowman123" },
+          { "name": "yams", "author": "jara25" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "pyutest", "author": "PyuDev" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "ssp", "author": "StarNinjas" },
+          { "name": "agon", "author": "1248" }
         ],
-        "provides": ["wc_basket"],
-        "release": 27978,
-        "repo": "https://github.com/wintersknight94/wc_basket",
-        "short_description": "Creels, a woven basket meant for carrying things, Not simply a cheap tote!",
-        "dependencies": [
-          "nc_lode",
-          "nc_tree",
-          "nc_woodwork",
-          "nc_tote",
-          "nc_api_all"
-        ],
-        "hash": "1pl0fbvmrzkydff859afv73s4d3407n5dh68aanhcpqcn11mnm19"
-      }
-    },
-    "mt-mods": {
-      "playerfactions": {
-        "provides": ["playerfactions"],
-        "release": 29168,
-        "repo": "https://github.com/mt-mods/playerfactions/",
-        "short_description": "A simple mod which allows player created factions. Not very useful on its own, it becomes very powerful when combined with other mods.",
-        "hash": "196lizwxd03wbirpys96j5ri009h13pvzi5crl65rpxxhbpii7hg"
-      },
-      "i3": {
-        "provides": ["i3"],
-        "release": 30091,
-        "repo": "https://github.com/mt-historical/i3",
-        "short_description": "A next-generation inventory",
-        "hash": "1n0rv391kqk74gbzmfklk9npi6hlsl2d79ql4n2ql82pdw75fyq7"
-      },
-      "dreambuilder_hotbar": {
-        "provides": ["dreambuilder_hotbar"],
-        "release": 19956,
-        "repo": "https://github.com/mt-mods/dreambuilder_hotbar",
-        "short_description": "Expands the hotbar to up to 32 slots",
-        "hash": "0w606yw6s80ifapwq92yrh0sy1dp81bs8xr74iaqm3rn64ngb5qa"
+        "provides": ["maid_companions"],
+        "release": 31447,
+        "repo": "https://github.com/Comet712/maid_companions.git",
+        "short_description": "Work in Progress. Explore the world with cute NPC's!",
+        "dependencies": ["mobs"],
+        "hash": "0m19law5jwf1a0sq59h9gkv6355hk4q7pnbfv7g6a4pvjrawaspi"
       }
     },
     "Don": {
@@ -213,6 +223,205 @@
         "hash": "1pbbacmfvl5nric2brzvix9ywx7p4lpmvrnxs7sa8ryckd8gp8mz"
       }
     },
+    "BuckarooBanzay": {
+      "particlefountain": {
+        "provides": ["particlefountain"],
+        "release": 23792,
+        "repo": "https://github.com/buckaroobanzay/particlefountain.git",
+        "short_description": "decorative and configurable particle spawner",
+        "hash": "1a4b9isbxs3pzgll58agddkwzmh0il4i57zqvagvgdak0cj6qabh"
+      },
+      "basic_streets": {
+        "provides": ["basic_streets"],
+        "release": 23808,
+        "repo": "https://github.com/BuckarooBanzay/basic_streets",
+        "short_description": "Simple tar-based street nodes with markings for straight,corner,crossing and t-junction",
+        "hash": "1wk8jfhq3yvcw7sr2z8fzfbvscxl6hsl2vd8af57jnfxibrhdcx0"
+      },
+      "replacements": {
+        "provides": ["replacements"],
+        "release": 31193,
+        "repo": "https://github.com/BuckarooBanzay/replacements",
+        "short_description": "Replacement/placeholder blocks intended for schematics",
+        "dependencies": ["moreblocks"],
+        "hash": "0kfnllh968csmmp945my1blkp2150kx45np7alhkrf2gb4j0mxbl"
+      }
+    },
+    "TPH": {
+      "typeof": {
+        "provides": ["typeof"],
+        "release": 31105,
+        "repo": "https://codeberg.org/TPH/typeof",
+        "short_description": "Provides functionality similar to Luau's \"typeof\" function",
+        "hash": "08qc11yxmhhk0gw0gb3raa99w186l0n0jz95l1w84l578c5ajknd"
+      },
+      "mt_doors_redo": {
+        "game_support": [
+          { "name": "proxima_survival", "author": "debiankaios" },
+          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "capturetheflag", "author": "rubenwardy" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
+          { "name": "etb", "author": "Thunder1035" },
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "gridlocks", "author": "jgordon510" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "lordofthetest", "author": "Amaz" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "ksurvive", "author": "mooD_Slayer" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "block_assault", "author": "KareaGhandTrail" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "regnum2", "author": "1248" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "occupymoon_game", "author": "rlars" },
+          { "name": "newplanet", "author": "Hi_World" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "voxelgarden", "author": "Casimir" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "codecube", "author": "giga-turbo" },
+          { "name": "porko", "author": "nam" }
+        ],
+        "provides": ["mt_doors_redo"],
+        "release": 25782,
+        "repo": "https://codeberg.org/TPH/mt_doors_redo",
+        "short_description": "Work in Progress. Utilizes my Doors API Redo to better simplify and work the doors",
+        "dependencies": ["default", "doors", "tph_doors"],
+        "hash": "18hihyj4fsaax52j4v7sdchanim50mgpzpf1h8nafzg0wynafd9f"
+      },
+      "exile_snow": {
+        "game_support": [{ "name": "exile", "author": "Mantar" }],
+        "provides": ["exile_snow"],
+        "release": 29172,
+        "repo": "https://codeberg.org/TPH/exile_snow",
+        "short_description": "Adds throwable snowballs to Exile",
+        "dependencies": ["tech", "crafting", "nodes_nature", "minimal"],
+        "hash": "1zv6cjjgvqdh1j7b46528sbgzss29il2vyq90p6g1i19117scmpj"
+      }
+    },
+    "EmptyStar": {
+      "bottles": {
+        "game_support": [{ "name": "asuna", "author": "EmptyStar" }],
+        "provides": [
+          "bottles",
+          "bottles_badland",
+          "bottles_caverealms",
+          "bottles_default",
+          "bottles_dorwinion",
+          "bottles_ethereal",
+          "bottles_everness",
+          "bottles_frost_land",
+          "bottles_japaneseforest",
+          "bottles_livingjungle",
+          "bottles_naturalbiomes",
+          "bottles_nightshade",
+          "bottles_prairie"
+        ],
+        "release": 31497,
+        "repo": "https://github.com/EmptyStar/bottles",
+        "short_description": "Filled bottles for Minetest Game and other supported mods",
+        "dependencies": [
+          "dorwinion",
+          "livingjungle",
+          "default",
+          "vessels",
+          "nightshade",
+          "everness",
+          "frost_land",
+          "japaneseforest",
+          "ethereal",
+          "naturalbiomes",
+          "caverealms",
+          "badland",
+          "prairie"
+        ],
+        "hash": "0l93lxxp178r5sbdylcrsr0ib2wswpvbhc1y9ryjiknif2a4z04w"
+      }
+    },
+    "Annalysa": {
+      "sandwiches": {
+        "game_support": [
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "codecube", "author": "giga-turbo" },
+          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
+          { "name": "lordofthetest", "author": "Amaz" },
+          { "name": "gridlocks", "author": "jgordon510" },
+          { "name": "newplanet", "author": "Hi_World" },
+          { "name": "wyrm_cube", "author": "Replicat" },
+          { "name": "yams", "author": "jara25" },
+          { "name": "block_assault", "author": "KareaGhandTrail" },
+          { "name": "etb", "author": "Thunder1035" },
+          { "name": "ksurvive", "author": "mooD_Slayer" },
+          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "tolkientest", "author": "NotaB" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "capturetheflag", "author": "rubenwardy" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "proxima_survival", "author": "debiankaios" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "voxelgarden", "author": "Casimir" },
+          { "name": "porko", "author": "nam" },
+          { "name": "occupymoon_game", "author": "rlars" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "raining_nodes", "author": "TheFanne" }
+        ],
+        "provides": ["sandwiches"],
+        "release": 17426,
+        "repo": "https://notabug.org/Annalysa/sandwiches.git",
+        "short_description": "Add Sandwiches to your game! Choose between meat, vegetarian, jam and many more!",
+        "dependencies": ["default", "farming"],
+        "hash": "0gwmd6aj4qxcldb7flf6rcbkffr9z56nz82pyc36iz15aspl98zv"
+      }
+    },
+    "ElCeejo": {
+      "paleotest": {
+        "game_support": [
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "wyrm_cube", "author": "Replicat" },
+          { "name": "yams", "author": "jara25" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "voxelgarden", "author": "Casimir" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "capturetheflag", "author": "rubenwardy" },
+          { "name": "castrum", "author": "1248" }
+        ],
+        "provides": ["paleotest"],
+        "release": 6612,
+        "repo": "https://github.com/ElCeejo/paleotest",
+        "short_description": "Adds Prehistoric Fauna and Flora to Minetest Game",
+        "dependencies": ["walls", "mob_core", "mobkit", "stairs", "default"],
+        "hash": "0nhycnj4zn8nc2qa7714a4qs9wqs0bkpcjykqknp1i0150zall2i"
+      }
+    },
     "UnchainedDevelopment": {
       "hbdrunk": {
         "game_support": [
@@ -256,77 +465,13 @@
         "hash": "01s81wwpz4jz5c5gb4sj31k004vwan5sanc1f7zkksqvnm1fg961"
       }
     },
-    "sorcerykid": {
-      "auth_rx_lite": {
-        "provides": ["auth_rx_lite"],
-        "release": 4972,
-        "repo": "https://bitbucket.org/sorcerykid/auth_rx_lite.git",
-        "short_description": "Robust and lightweight authentication handler for use on servers",
-        "hash": "1y6cp0mdzqglpv329zmslr3d21409mcd2w4d5sfxl392ddq6cy2k"
-      }
-    },
-    "VeproGames": {
-      "resizeme": {
-        "provides": ["resizeme"],
-        "release": 19983,
-        "repo": "https://github.com/veprogames/mt-resizeme",
-        "short_description": "Become an Ant or a Giant! Exposes API",
-        "hash": "1w0xafq96x1bvx0xz07r308w9im07f184k3jr7yack146n9c6z9l"
-      }
-    },
-    "EmptyStar": {
-      "bottles": {
-        "game_support": [{ "name": "asuna", "author": "EmptyStar" }],
-        "provides": [
-          "bottles",
-          "bottles_badland",
-          "bottles_caverealms",
-          "bottles_default",
-          "bottles_dorwinion",
-          "bottles_ethereal",
-          "bottles_everness",
-          "bottles_frost_land",
-          "bottles_japaneseforest",
-          "bottles_livingjungle",
-          "bottles_naturalbiomes",
-          "bottles_nightshade",
-          "bottles_prairie"
-        ],
-        "release": 31497,
-        "repo": "https://github.com/EmptyStar/bottles",
-        "short_description": "Filled bottles for Minetest Game and other supported mods",
-        "dependencies": [
-          "dorwinion",
-          "livingjungle",
-          "default",
-          "vessels",
-          "nightshade",
-          "everness",
-          "frost_land",
-          "japaneseforest",
-          "ethereal",
-          "naturalbiomes",
-          "caverealms",
-          "badland",
-          "prairie"
-        ],
-        "hash": "0l93lxxp178r5sbdylcrsr0ib2wswpvbhc1y9ryjiknif2a4z04w"
-      }
-    },
-    "BuckarooBanzay": {
-      "particlefountain": {
-        "provides": ["particlefountain"],
-        "release": 23792,
-        "repo": "https://github.com/buckaroobanzay/particlefountain.git",
-        "short_description": "decorative and configurable particle spawner",
-        "hash": "1a4b9isbxs3pzgll58agddkwzmh0il4i57zqvagvgdak0cj6qabh"
-      },
-      "basic_streets": {
-        "provides": ["basic_streets"],
-        "release": 23808,
-        "repo": "https://github.com/BuckarooBanzay/basic_streets",
-        "short_description": "Simple tar-based street nodes with markings for straight,corner,crossing and t-junction",
-        "hash": "1wk8jfhq3yvcw7sr2z8fzfbvscxl6hsl2vd8af57jnfxibrhdcx0"
+    "Thresher": {
+      "cave_ambience": {
+        "provides": ["cave_ambience"],
+        "release": 21982,
+        "repo": "https://github.com/Bituvo/cave_ambience",
+        "short_description": "Adds scary cave ambience",
+        "hash": "0ywac4bqp9v80s4g92gsijr1r538v8jwj261phaa3zwkr5h68dni"
       }
     },
     "SkyBuilder1717": {
@@ -374,54 +519,87 @@
         "hash": "1gnhkvrgb6id6y1r1cqpqqsbx9ij9xxnmzbhr78azbq47fmkd534"
       }
     },
-    "TPH": {
-      "mt_doors_redo": {
+    "mt-mods": {
+      "i3": {
+        "provides": ["i3"],
+        "release": 30091,
+        "repo": "https://github.com/mt-historical/i3",
+        "short_description": "A next-generation inventory",
+        "hash": "1n0rv391kqk74gbzmfklk9npi6hlsl2d79ql4n2ql82pdw75fyq7"
+      },
+      "dreambuilder_hotbar": {
+        "provides": ["dreambuilder_hotbar"],
+        "release": 19956,
+        "repo": "https://github.com/mt-mods/dreambuilder_hotbar",
+        "short_description": "Expands the hotbar to up to 32 slots",
+        "hash": "0w606yw6s80ifapwq92yrh0sy1dp81bs8xr74iaqm3rn64ngb5qa"
+      },
+      "playerfactions": {
+        "provides": ["playerfactions"],
+        "release": 29168,
+        "repo": "https://github.com/mt-mods/playerfactions/",
+        "short_description": "A simple mod which allows player created factions. Not very useful on its own, it becomes very powerful when combined with other mods.",
+        "hash": "196lizwxd03wbirpys96j5ri009h13pvzi5crl65rpxxhbpii7hg"
+      }
+    },
+    "ApolloX": {
+      "oretracker": {
         "game_support": [
-          { "name": "proxima_survival", "author": "debiankaios" },
-          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
-          { "name": "no_mans_land", "author": "Big_Caballito" },
-          { "name": "capturetheflag", "author": "rubenwardy" },
-          { "name": "raining_nodes", "author": "TheFanne" },
-          { "name": "castrum", "author": "1248" },
-          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
-          { "name": "etb", "author": "Thunder1035" },
-          { "name": "berzerkpt", "author": "carlos_rupp" },
-          { "name": "gridlocks", "author": "jgordon510" },
-          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "mineclonia", "author": "ryvnf" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
           { "name": "asuna", "author": "EmptyStar" },
-          { "name": "voxeldungeon", "author": "Noodlemire" },
-          { "name": "lordofthetest", "author": "Amaz" },
-          { "name": "qiskitblocks", "author": "JavaFXpert" },
-          { "name": "ksurvive", "author": "mooD_Slayer" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "mineclone2", "author": "Wuzzy" },
+          { "name": "nodecore", "author": "Warr1024" }
+        ],
+        "provides": ["orehud", "xray"],
+        "release": 31315,
+        "repo": "https://github.com/programmerjake/OreTracker",
+        "short_description": "For tracking what ores are around the player.",
+        "hash": "1m91zn26447zpx3pny5k755bqyxziayn3dnrd52kjqrf14b7w4cm"
+      }
+    },
+    "pl608": {
+      "random_cool": {
+        "game_support": [
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "capturetheflag", "author": "rubenwardy" },
+          { "name": "newplanet", "author": "Hi_World" },
           { "name": "qiskitblocks_miro", "author": "miroptics" },
-          { "name": "block_assault", "author": "KareaGhandTrail" },
-          { "name": "regnum", "author": "1248" },
-          { "name": "whynot_game", "author": "bell07" },
-          { "name": "regnum2", "author": "1248" },
+          { "name": "etb", "author": "Thunder1035" },
           { "name": "dreambuilder_game", "author": "mt-mods" },
           { "name": "occupymoon_game", "author": "rlars" },
-          { "name": "newplanet", "author": "Hi_World" },
-          { "name": "nonsensical_skyblock", "author": "Kimapr" },
-          { "name": "minetest_extended", "author": "PetiAPocok" },
-          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "ksurvive", "author": "mooD_Slayer" },
           { "name": "voxelgarden", "author": "Casimir" },
-          { "name": "epic_combat", "author": "hilol" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "regnum2", "author": "1248" },
           { "name": "codecube", "author": "giga-turbo" },
-          { "name": "porko", "author": "nam" }
+          { "name": "lordofthetest", "author": "Amaz" },
+          { "name": "proxima_survival", "author": "debiankaios" },
+          { "name": "gridlocks", "author": "jgordon510" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "block_assault", "author": "KareaGhandTrail" },
+          { "name": "porko", "author": "nam" },
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "asuna", "author": "EmptyStar" }
         ],
-        "provides": ["mt_doors_redo"],
-        "release": 25782,
-        "repo": "https://codeberg.org/TPH/mt_doors_redo",
-        "short_description": "Work in Progress. Utilizes my Doors API Redo to better simplify and work the doors",
-        "dependencies": ["default", "doors", "tph_doors"],
-        "hash": "18hihyj4fsaax52j4v7sdchanim50mgpzpf1h8nafzg0wynafd9f"
-      },
-      "typeof": {
-        "provides": ["typeof"],
-        "release": 31105,
-        "repo": "https://codeberg.org/TPH/typeof",
-        "short_description": "Provides functionality similar to Luau's \"typeof\" function",
-        "hash": "08qc11yxmhhk0gw0gb3raa99w186l0n0jz95l1w84l578c5ajknd"
+        "provides": ["random_cool"],
+        "release": 17245,
+        "repo": "https://github.com/pl608/rand_cool",
+        "short_description": "Adds random ores on lava cool",
+        "dependencies": ["default"],
+        "hash": "0vgwcjijh3r8qqcrqm9sdgl4kfg1kxzkvlyy4lz6hsjaaadfp3k3"
       }
     },
     "TenPlus1": {
@@ -445,49 +623,143 @@
         "hash": "1sznqg1lmprp027fvp5nbfh3h9l19k22n81fxcahw1f5fnch8yl1"
       }
     },
-    "Annalysa": {
-      "sandwiches": {
+    "SmokeyDope": {
+      "mcl_dirty_shovels": {
+        "game_support": [
+          { "name": "mineclone2", "author": "Wuzzy" },
+          { "name": "mineclonia", "author": "ryvnf" }
+        ],
+        "provides": ["mcl_dirty_shovels"],
+        "release": 20786,
+        "repo": null,
+        "short_description": "This gives shovels the ability to turn paths back to dirt on right-click.",
+        "dependencies": ["mcl_core", "mcl_tools"],
+        "hash": "06l5ga4xwjc1qqkv3w0hdzx71z3j997sfpim4rgpqrl79lcr7jkf"
+      }
+    },
+    "giov4": {
+      "skywars": {
+        "provides": ["skywars"],
+        "release": 31430,
+        "repo": "https://gitlab.com/zughy-friends-minetest/skywars",
+        "short_description": "Skywars is a PvP minigame where players battle each other on floating islands until there is only one survivor remaining.",
+        "dependencies": ["arena_lib"],
+        "hash": "0qnvwfa17ln6jr462bvjkfrjfxi9qsqpc4zjvyxpyric4434xc5x"
+      }
+    },
+    "Bas080": {
+      "pathogen": {
         "game_support": [
           { "name": "minetest_extended", "author": "PetiAPocok" },
-          { "name": "codecube", "author": "giga-turbo" },
-          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
-          { "name": "qiskitblocks_miro", "author": "miroptics" },
-          { "name": "voxeldungeon", "author": "Noodlemire" },
-          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
-          { "name": "lordofthetest", "author": "Amaz" },
-          { "name": "gridlocks", "author": "jgordon510" },
-          { "name": "newplanet", "author": "Hi_World" },
-          { "name": "wyrm_cube", "author": "Replicat" },
-          { "name": "yams", "author": "jara25" },
-          { "name": "block_assault", "author": "KareaGhandTrail" },
-          { "name": "etb", "author": "Thunder1035" },
-          { "name": "ksurvive", "author": "mooD_Slayer" },
-          { "name": "asuna", "author": "EmptyStar" },
-          { "name": "castrum", "author": "1248" },
-          { "name": "tolkientest", "author": "NotaB" },
-          { "name": "nonsensical_skyblock", "author": "Kimapr" },
           { "name": "capturetheflag", "author": "rubenwardy" },
-          { "name": "whynot_game", "author": "bell07" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "occupymoon_game", "author": "rlars" },
           { "name": "dreambuilder_game", "author": "mt-mods" },
           { "name": "no_mans_land", "author": "Big_Caballito" },
-          { "name": "minetest_game", "author": "Luanti" },
-          { "name": "proxima_survival", "author": "debiankaios" },
-          { "name": "qiskitblocks", "author": "JavaFXpert" },
-          { "name": "epic_combat", "author": "hilol" },
-          { "name": "berzerkpt", "author": "carlos_rupp" },
-          { "name": "regnum", "author": "1248" },
           { "name": "voxelgarden", "author": "Casimir" },
-          { "name": "porko", "author": "nam" },
-          { "name": "occupymoon_game", "author": "rlars" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "regnum2", "author": "1248" },
+          { "name": "codecube", "author": "giga-turbo" },
+          { "name": "lordofthetest", "author": "Amaz" },
           { "name": "mesecraft", "author": "MeseCraft" },
-          { "name": "raining_nodes", "author": "TheFanne" }
+          { "name": "regnum", "author": "1248" },
+          { "name": "gridlocks", "author": "jgordon510" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "block_assault", "author": "KareaGhandTrail" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "minetest_game", "author": "Luanti" },
+          { "name": "asuna", "author": "EmptyStar" }
         ],
-        "provides": ["sandwiches"],
-        "release": 17426,
-        "repo": "https://notabug.org/Annalysa/sandwiches.git",
-        "short_description": "Add Sandwiches to your game! Choose between meat, vegetarian, jam and many more!",
-        "dependencies": ["default", "farming"],
-        "hash": "0gwmd6aj4qxcldb7flf6rcbkffr9z56nz82pyc36iz15aspl98zv"
+        "provides": [
+          "gosirea",
+          "gravititus",
+          "influencia",
+          "panola",
+          "pathogen"
+        ],
+        "release": 8103,
+        "repo": "https://github.com/bas080/pathogen",
+        "short_description": "Anables users to get a pathogen.",
+        "dependencies": ["wool", "default"],
+        "hash": "1xnvv9m34ksd11gb8qwqphr6j6s78lm3zfpl26558fi98dwdwzw1"
+      }
+    },
+    "archfan7411": {
+      "enhanced": {
+        "provides": ["enhanced"],
+        "release": 1211,
+        "repo": "https://github.com/archfan7411/enhanced",
+        "short_description": "Allows players to enhance their tools through mese infusion",
+        "hash": "137gycfsk1rhmh6hcacgxqpfvjd1zw9kvnf46z8v5zj3100iici1"
+      }
+    },
+    "VeproGames": {
+      "resizeme": {
+        "provides": ["resizeme"],
+        "release": 19983,
+        "repo": "https://github.com/veprogames/mt-resizeme",
+        "short_description": "Become an Ant or a Giant! Exposes API",
+        "hash": "1w0xafq96x1bvx0xz07r308w9im07f184k3jr7yack146n9c6z9l"
+      }
+    },
+    "Gael de Sailly": {
+      "mapgen_rivers": {
+        "provides": ["mapgen_rivers"],
+        "release": 19964,
+        "repo": "https://gitlab.com/gaelysam/mapgen_rivers",
+        "short_description": "Map generator focused on realistic rivers and landscapes, using physical equations.",
+        "hash": "08wnb008wp40gzpazriyjy8w0wfwap6ph6mb360d0hkx1ghhmxsm"
+      }
+    },
+    "MiracleNebulae": {
+      "mcl_bronze_stuff": {
+        "game_support": [
+          { "name": "mineclonia", "author": "ryvnf" },
+          { "name": "mineclone2", "author": "Wuzzy" }
+        ],
+        "provides": ["mcl_bronze_stuff"],
+        "release": 29095,
+        "repo": "https://codeberg.org/MiracleNebule/BronzeMod",
+        "short_description": "Add Bronze & Copper stuff for VoxeLibre",
+        "dependencies": [
+          "mcl_armor",
+          "mcl_farming",
+          "mcl_core",
+          "mcl_sounds",
+          "mcl_shields"
+        ],
+        "hash": "0l9ynaxcgav09kra0b4yfvn2r83jc1nxzx2zchn2sqnq2wkd64f1"
+      }
+    },
+    "vibes81": {
+      "vm_lighting_wand": {
+        "provides": ["vm_lighting_wand"],
+        "release": 18775,
+        "repo": "https://notabug.org/vibes81/vm_lighting_wand",
+        "short_description": "Adds a greedy wand that eats burnable items and uses it to place a light where ever the player points.",
+        "hash": "1wy17vbdhc2g9w59z0prgmp6pnqcbrv48m9fyi2dgb86vll45ilp"
+      }
+    },
+    "Wuzzy": {
+      "dice2": {
+        "provides": ["dice2"],
+        "release": 468,
+        "repo": "http://repo.or.cz/minetest_dice2.git",
+        "short_description": "Decorative dice blocks which face a random direction.",
+        "hash": "1kgvsbbl5bsn421d79ak2s2qy4gqjd5qm157nn0ix89d4rdidays"
+      },
+      "hbhunger": {
+        "provides": ["hbhunger"],
+        "release": 26108,
+        "repo": "https://codeberg.org/Wuzzy/minetest_hbhunger",
+        "short_description": "This mod adds a simple hunger mechanic (plus HUD bar) to the game. Eat food to avoid starvation, be sated to regenerate health.",
+        "dependencies": ["hudbars"],
+        "hash": "083qiq6i5k30h9bh38c3r4r4qqvc22wabf56vsjcvzp780dv4mac"
       }
     },
     "thomasthespacefox": {
@@ -538,8 +810,90 @@
         "hash": "0a3bgpc4f7ir7nn29zflwwa2afbfv5p9pal61mnk02sgm457v3h1"
       }
     },
-    "pl608": {
-      "random_cool": {
+    "Winter94": {
+      "wc_basket": {
+        "game_support": [
+          { "name": "nodecore_alpha", "author": "Warr1024" },
+          { "name": "nodecore", "author": "Warr1024" }
+        ],
+        "provides": ["wc_basket"],
+        "release": 27978,
+        "repo": "https://github.com/wintersknight94/wc_basket",
+        "short_description": "Creels, a woven basket meant for carrying things, Not simply a cheap tote!",
+        "dependencies": [
+          "nc_lode",
+          "nc_tree",
+          "nc_woodwork",
+          "nc_tote",
+          "nc_api_all"
+        ],
+        "hash": "1pl0fbvmrzkydff859afv73s4d3407n5dh68aanhcpqcn11mnm19"
+      }
+    },
+    "AiTechEye": {
+      "chakram": {
+        "provides": ["chakram"],
+        "release": 894,
+        "repo": "https://github.com/AiTechEye/chakram",
+        "short_description": "Chakram: weapon & tool at same time",
+        "hash": "0mkk98gfyfcmpy9vnd17s07902i7f8mangmz86j3cy58pwjr65fm"
+      }
+    },
+    "the_raven_262": {
+      "skygen": {
+        "provides": ["skygen"],
+        "release": 24929,
+        "repo": "https://github.com/theraven262/minetest-skygen",
+        "short_description": "Adds the biome adaptive sky, sky-changing server-wide events and a skybox frontend.",
+        "hash": "1fzii6gz8r0p1zl5vm7sxd2cc348hjl809i47hlniw5d4i6k0h0g"
+      }
+    },
+    "ekl": {
+      "cid": {
+        "provides": ["cid"],
+        "release": 17121,
+        "repo": "https://codeberg.org/ekl/cid.git",
+        "short_description": "Plays music",
+        "hash": "0v5wk9k2i8l1gk7fpb7r7m6pf3f24qxqwixrmzvjrqwjk171abzf"
+      }
+    },
+    "wowiamdiamonds": {
+      "unifiedbricks": {
+        "game_support": [
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "lordofthetest", "author": "Amaz" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "wyrm_cube", "author": "Replicat" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "capturetheflag", "author": "rubenwardy" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "gridlocks", "author": "jgordon510" },
+          { "name": "voxelgarden", "author": "Casimir" },
+          { "name": "yams", "author": "jara25" },
+          { "name": "whynot_game", "author": "bell07" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "tolkientest", "author": "NotaB" },
+          { "name": "occupymoon_game", "author": "rlars" },
+          { "name": "minetest_game", "author": "Luanti" }
+        ],
+        "provides": ["unifiedbricks"],
+        "release": 23840,
+        "repo": "https://github.com/minetest-mods/unifiedbricks",
+        "short_description": "This mod allows the user to re-color default bricks using Unified Dyes, and provides some pattern variations as well.",
+        "dependencies": ["unifieddyes", "vessels", "default", "bucket"],
+        "hash": "06c2nzca3hjizxdbkzp8m3gy3ywxsw81ss0qya9f18yza7k0a3yg"
+      }
+    },
+    "ChimneySwift": {
+      "better_fences": {
         "game_support": [
           { "name": "minetest_extended", "author": "PetiAPocok" },
           { "name": "capturetheflag", "author": "rubenwardy" },
@@ -573,247 +927,72 @@
           { "name": "minetest_game", "author": "Luanti" },
           { "name": "asuna", "author": "EmptyStar" }
         ],
-        "provides": ["random_cool"],
-        "release": 17245,
-        "repo": "https://github.com/pl608/rand_cool",
-        "short_description": "Adds random ores on lava cool",
+        "provides": ["better_fences"],
+        "release": 18823,
+        "repo": "https://github.com/ChimneySwift/better_fences",
+        "short_description": "A Minetest mod which improves the usability of fences by making fences which connect to less than 2 other fences connect to all nodes.",
         "dependencies": ["default"],
-        "hash": "0vgwcjijh3r8qqcrqm9sdgl4kfg1kxzkvlyy4lz6hsjaaadfp3k3"
+        "hash": "0y5crqay6fps46f7b3gw9n5gcg20ndga7pxp7ymksn9nr2zxw0yl"
       }
     },
-    "SmokeyDope": {
-      "mcl_dirty_shovels": {
-        "game_support": [
-          { "name": "mineclone2", "author": "Wuzzy" },
-          { "name": "mineclonia", "author": "ryvnf" }
-        ],
-        "provides": ["mcl_dirty_shovels"],
-        "release": 20786,
-        "repo": null,
-        "short_description": "This gives shovels the ability to turn paths back to dirt on right-click.",
-        "dependencies": ["mcl_core", "mcl_tools"],
-        "hash": "06l5ga4xwjc1qqkv3w0hdzx71z3j997sfpim4rgpqrl79lcr7jkf"
-      }
-    },
-    "ElCeejo": {
-      "paleotest": {
-        "game_support": [
-          { "name": "berzerkpt", "author": "carlos_rupp" },
-          { "name": "asuna", "author": "EmptyStar" },
-          { "name": "minetest_game", "author": "Luanti" },
-          { "name": "raining_nodes", "author": "TheFanne" },
-          { "name": "nonsensical_skyblock", "author": "Kimapr" },
-          { "name": "mesecraft", "author": "MeseCraft" },
-          { "name": "qiskitblocks", "author": "JavaFXpert" },
-          { "name": "no_mans_land", "author": "Big_Caballito" },
-          { "name": "regnum", "author": "1248" },
-          { "name": "minetest_extended", "author": "PetiAPocok" },
-          { "name": "dreambuilder_game", "author": "mt-mods" },
-          { "name": "wyrm_cube", "author": "Replicat" },
-          { "name": "yams", "author": "jara25" },
-          { "name": "epic_combat", "author": "hilol" },
-          { "name": "voxelgarden", "author": "Casimir" },
-          { "name": "whynot_game", "author": "bell07" },
-          { "name": "qiskitblocks_miro", "author": "miroptics" },
-          { "name": "voxeldungeon", "author": "Noodlemire" },
-          { "name": "capturetheflag", "author": "rubenwardy" },
-          { "name": "castrum", "author": "1248" }
-        ],
-        "provides": ["paleotest"],
-        "release": 6612,
-        "repo": "https://github.com/ElCeejo/paleotest",
-        "short_description": "Adds Prehistoric Fauna and Flora to Minetest Game",
-        "dependencies": ["walls", "mob_core", "mobkit", "stairs", "default"],
-        "hash": "0nhycnj4zn8nc2qa7714a4qs9wqs0bkpcjykqknp1i0150zall2i"
-      }
-    },
-    "giov4": {
-      "skywars": {
-        "provides": ["skywars"],
-        "release": 31430,
-        "repo": "https://gitlab.com/zughy-friends-minetest/skywars",
-        "short_description": "Skywars is a PvP minigame where players battle each other on floating islands until there is only one survivor remaining.",
+    "AFCM": {
+      "stent": {
+        "provides": ["stent"],
+        "release": 22538,
+        "repo": "https://github.com/AFCMS/stent",
+        "short_description": "A formspec based arena entrance type for arena_lib",
         "dependencies": ["arena_lib"],
-        "hash": "0qnvwfa17ln6jr462bvjkfrjfxi9qsqpc4zjvyxpyric4434xc5x"
+        "hash": "0gd567b5y9wa9n552wapshr1qqpn61vszg2k8wgiiz6a9nxkikiv"
       }
     },
-    "Gael de Sailly": {
-      "mapgen_rivers": {
-        "provides": ["mapgen_rivers"],
-        "release": 19964,
-        "repo": "https://gitlab.com/gaelysam/mapgen_rivers",
-        "short_description": "Map generator focused on realistic rivers and landscapes, using physical equations.",
-        "hash": "08wnb008wp40gzpazriyjy8w0wfwap6ph6mb360d0hkx1ghhmxsm"
-      }
-    },
-    "Bas080": {
-      "pathogen": {
+    "chaosomnium": {
+      "alien_tools": {
         "game_support": [
-          { "name": "minetest_extended", "author": "PetiAPocok" },
+          { "name": "whynot_game", "author": "bell07" },
           { "name": "capturetheflag", "author": "rubenwardy" },
-          { "name": "qiskitblocks_miro", "author": "miroptics" },
-          { "name": "occupymoon_game", "author": "rlars" },
-          { "name": "dreambuilder_game", "author": "mt-mods" },
-          { "name": "no_mans_land", "author": "Big_Caballito" },
           { "name": "voxelgarden", "author": "Casimir" },
-          { "name": "whynot_game", "author": "bell07" },
-          { "name": "nonsensical_skyblock", "author": "Kimapr" },
-          { "name": "regnum2", "author": "1248" },
-          { "name": "codecube", "author": "giga-turbo" },
-          { "name": "lordofthetest", "author": "Amaz" },
-          { "name": "mesecraft", "author": "MeseCraft" },
-          { "name": "regnum", "author": "1248" },
           { "name": "gridlocks", "author": "jgordon510" },
-          { "name": "castrum", "author": "1248" },
-          { "name": "qiskitblocks", "author": "JavaFXpert" },
-          { "name": "block_assault", "author": "KareaGhandTrail" },
-          { "name": "raining_nodes", "author": "TheFanne" },
-          { "name": "epic_combat", "author": "hilol" },
-          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
-          { "name": "voxeldungeon", "author": "Noodlemire" },
-          { "name": "minetest_game", "author": "Luanti" },
-          { "name": "asuna", "author": "EmptyStar" }
-        ],
-        "provides": [
-          "gosirea",
-          "gravititus",
-          "influencia",
-          "panola",
-          "pathogen"
-        ],
-        "release": 8103,
-        "repo": "https://github.com/bas080/pathogen",
-        "short_description": "Anables users to get a pathogen.",
-        "dependencies": ["wool", "default"],
-        "hash": "1xnvv9m34ksd11gb8qwqphr6j6s78lm3zfpl26558fi98dwdwzw1"
-      }
-    },
-    "Kimapr": {
-      "diggable_chests": {
-        "provides": ["diggable_chests"],
-        "release": 13859,
-        "repo": "https://gitlab.com/Kimapr/diggable_chests",
-        "short_description": "makes chests, furnaces and such diggable even if not empty",
-        "hash": "0bbcfbja9d259gcqv46x91id18y8mx6diwiamv14mx2mnmb2fxs9"
-      }
-    },
-    "vibes81": {
-      "vm_lighting_wand": {
-        "provides": ["vm_lighting_wand"],
-        "release": 18775,
-        "repo": "https://notabug.org/vibes81/vm_lighting_wand",
-        "short_description": "Adds a greedy wand that eats burnable items and uses it to place a light where ever the player points.",
-        "hash": "1wy17vbdhc2g9w59z0prgmp6pnqcbrv48m9fyi2dgb86vll45ilp"
-      }
-    },
-    "Wuzzy": {
-      "dice2": {
-        "provides": ["dice2"],
-        "release": 468,
-        "repo": "http://repo.or.cz/minetest_dice2.git",
-        "short_description": "Decorative dice blocks which face a random direction.",
-        "hash": "1kgvsbbl5bsn421d79ak2s2qy4gqjd5qm157nn0ix89d4rdidays"
-      }
-    },
-    "MiracleNebulae": {
-      "mcl_bronze_stuff": {
-        "game_support": [
-          { "name": "mineclonia", "author": "ryvnf" },
-          { "name": "mineclone2", "author": "Wuzzy" }
-        ],
-        "provides": ["mcl_bronze_stuff"],
-        "release": 29095,
-        "repo": "https://codeberg.org/MiracleNebule/BronzeMod",
-        "short_description": "Add Bronze & Copper stuff for VoxeLibre",
-        "dependencies": [
-          "mcl_armor",
-          "mcl_farming",
-          "mcl_core",
-          "mcl_sounds",
-          "mcl_shields"
-        ],
-        "hash": "0l9ynaxcgav09kra0b4yfvn2r83jc1nxzx2zchn2sqnq2wkd64f1"
-      }
-    },
-    "Comet712": {
-      "maid_companions": {
-        "game_support": [
-          { "name": "lordofthetest", "author": "Amaz" },
-          { "name": "survivethedays", "author": "JALdMIC" },
-          { "name": "etb", "author": "Thunder1035" },
           { "name": "asuna", "author": "EmptyStar" },
-          { "name": "berzerkpt", "author": "carlos_rupp" },
-          { "name": "minetest_game", "author": "Luanti" },
-          { "name": "mineclonia", "author": "ryvnf" },
-          { "name": "blockcolor", "author": "mt-mods" },
-          { "name": "qiskitblocks", "author": "JavaFXpert" },
           { "name": "minetest_extended", "author": "PetiAPocok" },
-          { "name": "veil_of_the_unknown", "author": "StarNinjas" },
-          { "name": "mineclone2", "author": "Wuzzy" },
-          { "name": "voxeldungeon", "author": "Noodlemire" },
-          { "name": "holidayhorrors", "author": "sunnysideup" },
-          { "name": "pacman", "author": "Thunder1035" },
-          { "name": "qiskitblocks_miro", "author": "miroptics" },
-          { "name": "szombie", "author": "5uper1ach" },
-          { "name": "proxima_survival", "author": "debiankaios" },
-          { "name": "tolkientest", "author": "NotaB" },
-          { "name": "hades_revisited", "author": "Wuzzy" },
-          { "name": "mesecraft", "author": "MeseCraft" },
-          { "name": "minefall", "author": "Astrobe" },
-          { "name": "regnum", "author": "1248" },
-          { "name": "dreambuilder_game", "author": "mt-mods" },
+          { "name": "block_assault", "author": "KareaGhandTrail" },
           { "name": "wyrm_cube", "author": "Replicat" },
-          { "name": "porko", "author": "nam" },
-          { "name": "jail_escape", "author": "StarNinjas" },
-          { "name": "spmeter", "author": "crabycowman123" },
+          { "name": "qiskitblocks", "author": "JavaFXpert" },
+          { "name": "regnum", "author": "1248" },
+          { "name": "occupymoon_game", "author": "rlars" },
+          { "name": "raining_nodes", "author": "TheFanne" },
+          { "name": "voxeldungeon", "author": "Noodlemire" },
+          { "name": "etb", "author": "Thunder1035" },
+          { "name": "berzerkpt", "author": "carlos_rupp" },
+          { "name": "castrum", "author": "1248" },
+          { "name": "newplanet", "author": "Hi_World" },
           { "name": "yams", "author": "jara25" },
-          { "name": "epic_combat", "author": "hilol" },
-          { "name": "pyutest", "author": "PyuDev" },
-          { "name": "whynot_game", "author": "bell07" },
-          { "name": "ssp", "author": "StarNinjas" },
-          { "name": "agon", "author": "1248" }
-        ],
-        "provides": ["maid_companions"],
-        "release": 31447,
-        "repo": "https://github.com/Comet712/maid_companions.git",
-        "short_description": "Explore the world with cute NPC's!",
-        "dependencies": ["mobs"],
-        "hash": "0m19law5jwf1a0sq59h9gkv6355hk4q7pnbfv7g6a4pvjrawaspi"
-      }
-    },
-    "the_raven_262": {
-      "skygen": {
-        "provides": ["skygen"],
-        "release": 24929,
-        "repo": "https://github.com/theraven262/minetest-skygen",
-        "short_description": "Adds the biome adaptive sky, sky-changing server-wide events and a skybox frontend.",
-        "hash": "1fzii6gz8r0p1zl5vm7sxd2cc348hjl809i47hlniw5d4i6k0h0g"
-      }
-    },
-    "ApolloX": {
-      "oretracker": {
-        "game_support": [
-          { "name": "mineclonia", "author": "ryvnf" },
-          { "name": "dreambuilder_game", "author": "mt-mods" },
-          { "name": "asuna", "author": "EmptyStar" },
+          { "name": "no_mans_land", "author": "Big_Caballito" },
+          { "name": "nonsensical_skyblock", "author": "Kimapr" },
           { "name": "minetest_game", "author": "Luanti" },
-          { "name": "mineclone2", "author": "Wuzzy" },
-          { "name": "nodecore", "author": "Warr1024" }
+          { "name": "proxima_survival", "author": "debiankaios" },
+          { "name": "qiskitblocks_miro", "author": "miroptics" },
+          { "name": "mesecons_lab", "author": "BuckarooBanzay" },
+          { "name": "mesecraft", "author": "MeseCraft" },
+          { "name": "epic_combat", "author": "hilol" },
+          { "name": "ksurvive", "author": "mooD_Slayer" },
+          { "name": "block_assault_mapmaker", "author": "KareaGhandTrail" },
+          { "name": "dreambuilder_game", "author": "mt-mods" }
         ],
-        "provides": ["orehud", "xray"],
-        "release": 31315,
-        "repo": "https://github.com/programmerjake/OreTracker",
-        "short_description": "For tracking what ores are around the player.",
-        "hash": "1m91zn26447zpx3pny5k755bqyxziayn3dnrd52kjqrf14b7w4cm"
+        "provides": ["alien_tools"],
+        "release": 9023,
+        "repo": "https://github.com/MistUnky/alien_tools",
+        "short_description": "Alien Tools Mod for Minetest - adds Alien Tool, Shield, biome, etc",
+        "dependencies": ["wielded_light", "default", "shields", "3d_armor"],
+        "hash": "1w1jjp8fwjc2gw19snxxfr4vr8lwlb9p6419hi6i3c7hr5x4ngc0"
       }
     },
-    "archfan7411": {
-      "enhanced": {
-        "provides": ["enhanced"],
-        "release": 1211,
-        "repo": "https://github.com/archfan7411/enhanced",
-        "short_description": "Allows players to enhance their tools through mese infusion",
-        "hash": "137gycfsk1rhmh6hcacgxqpfvjd1zw9kvnf46z8v5zj3100iici1"
+    "srifqi": {
+      "advancedban": {
+        "provides": ["advancedban"],
+        "release": 1739,
+        "repo": "https://github.com/srifqi/advancedban",
+        "short_description": "Advanced Ban: Ban a player based on its username",
+        "hash": "0js29ibd2d74lrqbksqw0gj1f0p9xfsgvjsdlv9236i09zrry449"
       }
     }
   },
