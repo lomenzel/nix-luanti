@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 
 const BASE_URL = "https://content.luanti.org/api/packages";
 const DB_FILE = path.join("generated", "./contentDB.json");
-const FETCH_LIMIT = 10;
+const FETCH_LIMIT = 500;
 
 async function fetchJSON(url) {
   return await (await fetch(url)).json();
