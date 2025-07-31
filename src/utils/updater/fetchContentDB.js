@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 
 const BASE_URL = "https://content.luanti.org/api/packages";
 const DB_FILE = path.join("generated", "./contentDB.json");
-const FETCH_LIMIT = 500;
+const FETCH_LIMIT = 10;
 
 async function fetchJSON(url) {
   return await (await fetch(url)).json();
@@ -94,14 +94,14 @@ async function updateAllPackages() {
   const allPackages = [...packagesWithHash, ...newlyHashedPackages].map(
     (pkg) => ({
       author: pkg.author,
-      game_support: pkg.game_support.length == 0 ? undefined : pkg.game_support,
+      game_support: pkg.game_support?.length == 0 ? undefined : pkg.game_support,
       name: pkg.name,
-      provides: pkg.provides.length == 0 ? undefined : pkg.provides,
+      provides: pkg.provides?.length == 0 ? undefined : pkg.provides,
       release: pkg.release,
       repo: pkg.repo,
       short_description: pkg.short_description,
       type: pkg.type,
-      dependencies: pkg.dependencies.length == 0 ? undefined : pkg.dependencies,
+      dependencies: pkg.dependencies?.length == 0 ? undefined : pkg.dependencies,
       hash: pkg.hash,
     }),
   );
