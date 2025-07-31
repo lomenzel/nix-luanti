@@ -1,0 +1,425 @@
+{
+  "author": "Phii",
+  "content_warnings": ["horror"],
+  "created_at": "2022-07-02T10:49:35.854788",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1444,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["matdombrock/wyrm_cube"],
+        "author": "Replicat",
+        "name": "wyrm_cube",
+        "release": 31620,
+        "short_description": "Find the Wyrm Cubes and save yourself! Inspired by an 80's anime.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ea71397554.png",
+        "title": "Wyrm Cube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/phseiff/pilzmod/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "# pilzmod\n\npilzmod is a minetest mod that adds a spreading spawnable mushroom biome into the game, overgrown with myzelium and filled with giant versions of the mushroom we all know from minetest game, their smaller cousins, and eight new types of small mushroom, as well as monsters and a boss.\n\nAs opposed to „normal“ minetest biomes, mushroom biomes don‘t generate naturally into the world. Instead, you must craft a myzelium block, place it, and watch the mushroom biome slowly spread from it, gradually consuming the world and turning it into a mushroom hell. The only way of stopping it is to find a mushroom boss – a entity you probably won‘t find until the biome reached considerable size – and get the antidote from it, which you can use to seal off the mushroom biome and stop it from spreading further.\n\nKilling the boss also drops a pretty trophy – so will you risk the consumption of your world for the honor of a worthy adventurer, or will you refrain from spawning the biome like a coward?\n\nSome screenshots of the mod:\n\n![image of a minetest biome with myzelium as gress and giant red and brown mushrooms](https://raw.githubusercontent.com/phseiff/pilzmod/main/documentation/readme_image_1.png)\n\n<img src=\"https://raw.githubusercontent.com/phseiff/pilzmod/main/documentation/readme_image_2.png\" alt=\"image of a giant floating mushroom stem shooting projectilesat the onlooker, surrounded by jumping mushroom blocks with teeth\" width=\"45%\"> <img src=\"https://raw.githubusercontent.com/phseiff/pilzmod/main/documentation/readme_image_3.png\" alt=\"jumping mushroom blocks with teeth\" width=\"45%\">\n\nContinue reading [here](https://github.com/phseiff/pilzmod/blob/main/documentation/pilzmod.pdf) for the complete documentation/ README (it's a pdf which is why only parts of it are shown here)",
+  "maintainers": ["Phii"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "pilzmod",
+  "provides": ["pilzmod"],
+  "release": 12819,
+  "repo": "https://github.com/phseiff/pilzmod",
+  "score": 155,
+  "screenshots": ["https://content.luanti.org/uploads/78c263512e.png"],
+  "short_description": "a spreading mushroom biome which you can spawn into the world, with its own monsters and a boss you need to slay to stop the biome's growth. Best played with bow & armor mod and after reading manual.",
+  "state": "APPROVED",
+  "tags": ["mapgen", "mobs", "pve"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/78c263512e.png",
+  "title": "pilzmod",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Phii/pilzmod/releases/12819/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/phseiff/pilzmod/blob/main/documentation/pilzmod.pdf",
+  "dependencies": {
+    "AwesomeDragon97/tnt": [
+      {
+        "is_optional": false,
+        "name": "algae",
+        "packages": ["Just_Visiting/algae"]
+      },
+      {
+        "is_optional": false,
+        "name": "fire",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "AiTechEye/xaenvironment",
+          "StarNinjas/veil_of_the_unknown",
+          "EmptyStar/asuna",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "Big_Caballito/no_mans_land",
+          "Casimir/voxelgarden",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "covertiii/mogue",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "bonemeal",
+        "packages": [
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Wuzzy/mineclone2",
+          "EmptyStar/asuna",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "jara25/yams",
+          "TenPlus1/bonemeal"
+        ]
+      }
+    ],
+    "Phii/pilzmod": [
+      {
+        "is_optional": false,
+        "name": "mobs",
+        "packages": [
+          "1248/regnum",
+          "StarNinjas/jail_escape",
+          "Noodlemire/voxeldungeon",
+          "TenPlus1/mobs",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "nam/porko",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "PyuDev/pyutest",
+          "NotaB/tolkientest",
+          "StarNinjas/veil_of_the_unknown",
+          "StarNinjas/ssp",
+          "crabycowman123/spmeter",
+          "mt-mods/blockcolor",
+          "debiankaios/proxima_survival",
+          "MeseCraft/mesecraft",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "Thunder1035/etb",
+          "Astrobe/minefall",
+          "Wuzzy/hades_revisited",
+          "5uper1ach/szombie",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Thunder1035/pacman",
+          "PetiAPocok/minetest_extended",
+          "hilol/epic_combat",
+          "1248/agon",
+          "jara25/yams"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "tnt",
+        "packages": [
+          "1248/regnum",
+          "StarNinjas/jail_escape",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "AwesomeDragon97/tnt",
+          "1248/castrum",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "flowers",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "mt-mods/blockcolor",
+          "MeseCraft/mesecraft",
+          "EmptyStar/asuna",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault",
+          "Kimapr/nonsensical_skyblock",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "TenPlus1/mobs": []
+  },
+  "hash": "0cnaxa2913l0f3x36pn7xpr46v0qrc2amprsmj4mhhgs19jmv7l0"
+}

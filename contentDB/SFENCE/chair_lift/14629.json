@@ -1,0 +1,313 @@
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2022-02-18T18:06:39.446359",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2174,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27816",
+  "forums": 27816,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 30814,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/40f8802c3d.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "wsor4035",
+        "name": "farlands_reloaded",
+        "release": 29611,
+        "short_description": "lightweight game to explore and create",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/fc00acef4f.png",
+        "title": "Farlands Reloaded",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 31282,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "mooD_Slayer",
+        "name": "ksurvive2",
+        "release": 18245,
+        "short_description": "A game built 100% from scratch, including code, textures and sounds.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/56264b87b1.png",
+        "title": "KSurvive 2",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/sfence/chair_lift/issues",
+  "license": "MIT",
+  "long_description": "Chair lift\n=======\n\nThis mod add buildable and craftable chair lift into the minetest world.\n\nChair lift is powered by shaft from power_generators mod.\n\nTIPS: Use gearbox, grease parts (hemp oil), check grease with inspect tool, combine more engines...",
+  "maintainers": ["SFENCE"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "chair_lift",
+  "provides": ["chair_lift"],
+  "release": 14629,
+  "repo": "https://github.com/sfence/chair_lift",
+  "score": 155.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/7db4e84e8a.png",
+    "https://content.luanti.org/uploads/860f86b40f.png",
+    "https://content.luanti.org/uploads/f6e9d01b72.png",
+    "https://content.luanti.org/uploads/abf7071da9.png"
+  ],
+  "short_description": "Add craftable and usable chair lift. TIPS: Use gearbox, grease parts (hemp oil), check grease with inspect tool, combine more engines...",
+  "state": "APPROVED",
+  "tags": ["building", "technology", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/7db4e84e8a.png",
+  "title": "Chair lift",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/chair_lift/releases/14629/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "SFENCE/adaptation_modpack": [],
+    "SFENCE/appliances": [],
+    "SFENCE/chair_lift": [
+      {
+        "is_optional": false,
+        "name": "adaptation_hades_revisited",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farlands_reloaded",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_technic",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "power_generators",
+        "packages": ["SFENCE/power_generators"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_mineclone",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_lib",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_basic_materials",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "appliances",
+        "packages": ["SFENCE/appliances"]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "joe7575/techage_modpack",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "rlars/occupymoon_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_minetest_game",
+        "packages": ["SFENCE/adaptation_modpack"]
+      }
+    ],
+    "SFENCE/power_generators": [
+      {
+        "is_optional": false,
+        "name": "adaptation_technic",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_lib",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_minetest_game",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_mesecons",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "joe7575/techage_modpack",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "rlars/occupymoon_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "tubelib2",
+        "packages": [
+          "joe7575/techage_modpack",
+          "joe7575/tubelib2",
+          "debiankaios/proxima_survival"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_basic_materials",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_elepower",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_techage",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farming_redo",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_biofuel",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_rubber",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_mineclone",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_farlands_reloaded",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "appliances",
+        "packages": ["SFENCE/appliances"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_pipeworks",
+        "packages": ["SFENCE/adaptation_modpack"]
+      },
+      {
+        "is_optional": false,
+        "name": "adaptation_hades_revisited",
+        "packages": ["SFENCE/adaptation_modpack"]
+      }
+    ],
+    "mt-mods/basic_materials": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "mt-mods/xcompat",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0s7cg1yjp6c2yi8nfpci160p3x76dlbzz3bzbbjlfrg2ni1c8sss"
+}

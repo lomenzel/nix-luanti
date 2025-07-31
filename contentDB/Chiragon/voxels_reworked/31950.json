@@ -1,0 +1,81 @@
+{
+  "author": "Chiragon",
+  "content_warnings": [],
+  "created_at": "2025-06-30T17:30:15.314951",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 103,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": false
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "This texture pack was made because some textures simply annoyed me in VoxeLibre and I took it upon myself to improve them.\n\nAll textures are based on the original Minecraft texture pack \"Pixel Perfection\" by XSSheep which is also used in the VoxeLibre game.",
+  "maintainers": ["Chiragon"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "voxels_reworked",
+  "provides": [],
+  "release": 31950,
+  "repo": null,
+  "score": 27.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/559c740dda.png",
+    "https://content.luanti.org/uploads/13c2011169.png",
+    "https://content.luanti.org/uploads/9c65aa3866.png",
+    "https://content.luanti.org/uploads/3a64c374e9.png"
+  ],
+  "short_description": "A texture pack that iterates on the Pixel Perfection texture pack by XSSheep for the VoxeLibre game.",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/559c740dda.png",
+  "title": "Voxels Reworked",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Chiragon/voxels_reworked/releases/31950/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Chiragon/voxels_reworked": [] },
+  "hash": "0k9jxrx0gg8wi3avcg1f8nn0nrl63ryj62d40yryhr1q086c7l9a"
+}

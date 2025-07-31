@@ -1,0 +1,70 @@
+{
+  "author": "Giga_M",
+  "content_warnings": [],
+  "created_at": "2025-02-17T16:03:05.292451",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://paypal.me/brunov86?country.x=VE&locale.x=es_XC",
+  "downloads": 226,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-3.0",
+  "long_description": "\na texture pack with all blocks in 4x4 pixels",
+  "maintainers": ["Giga_M"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mtg_4x4px",
+  "provides": [],
+  "release": 29808,
+  "repo": null,
+  "score": 14.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e5fcdc1cfa.png",
+    "https://content.luanti.org/uploads/97da6c062c.png",
+    "https://content.luanti.org/uploads/520a0a9fcc.png",
+    "https://content.luanti.org/uploads/d131a47f1c.png",
+    "https://content.luanti.org/uploads/2c8c266c96.png",
+    "https://content.luanti.org/uploads/e83a1eb2d0.png"
+  ],
+  "short_description": "a low level detail texturepack",
+  "state": "APPROVED",
+  "tags": ["less_than_px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e5fcdc1cfa.png",
+  "title": "Mtg 4x4px",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Giga_M/mtg_4x4px/releases/29808/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Giga_M/mtg_4x4px": [] },
+  "hash": "1kmcjdbb6n4nzlpk53yq1mbbrb0swhvb0hpbjja8wpv5qy2chwjn"
+}

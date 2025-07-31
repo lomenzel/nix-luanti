@@ -1,0 +1,44 @@
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-09-05T21:57:41.632346",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 18378,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-futil/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# futil - flux's utility mod\n\na bunch of simiple lua routines and data structures that are used in my other mods\n",
+  "maintainers": ["rheo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "futil",
+  "provides": ["futil"],
+  "release": 29065,
+  "repo": "https://github.com/fluxionary/minetest-futil.git",
+  "score": 91.4,
+  "screenshots": ["https://content.luanti.org/uploads/d1b01ec2db.png"],
+  "short_description": "flux's utility mod",
+  "state": "APPROVED",
+  "tags": ["developer_tools", "library"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d1b01ec2db.png",
+  "title": "futil",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/futil/releases/29065/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-futil",
+  "dependencies": {
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ]
+  },
+  "hash": "1qhv02xv7lrjgvrczh6lsq4gd9q3bswvbn1ifcdfs75jibl0vlhc"
+}

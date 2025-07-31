@@ -1,0 +1,81 @@
+{
+  "author": "SFENCE",
+  "content_warnings": [],
+  "created_at": "2025-06-01T14:11:34.294673",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 96,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29223",
+  "forums": 29223,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/t-affeldt/minetest_offhand/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "This is fork of [offhand](https://content.luanti.org/packages/TestificateMods/offhand/) from [TestificateMods](https://content.luanti.org/users/TestificateMods/). This fork only add bug fix, because original mod author looks to be incative.\nI expect that this mod will be removed, if original author fix this isue in his repository and ContentDB.\nCode: https://github.com/sfence/offhand/tree/sfence_fix_bad_hud_remove\n\n# Offhand Items\nThis is a port of [mcl_offhand](https://github.com/MineClone2/MineClone2/tree/master/mods/HUD/mcl_offhand) for use with any other Minetest subgame.\nInstead of using the offhand as a shield slot, this mod lets you use it for any item of your choice.\nYou can switch items between hands by pressing a configurable button (by default aux1 or E). When using a tool, press right-click to use the action of your offhand.\nThis lets you place torches and other nodes without having to put away your sword or pickaxe.\n\n## Compatibility Notes\n\n### Recommended Mods\nThis mod should work with any game and configuration. However, the following mods are recommended to make the most out of it:\n\n* [visible_wielditem](https://content.luanti.org/packages/LMD/visible_wielditem/) - Attaches a 3D preview of the held item in your main hand. Recommended for visual consistency. Disable the *wieldview* mod if you also use 3d_armors.\n* [wielded_light](https://content.luanti.org/packages/bell07/wielded_light/) - Registers held items as light sources. Also works for items in your offhand. You might also be interested in the [3d_armor_light](https://content.luanti.org/packages/AntumDeluge/3d_armor_light/) extension.\n\n### Mineclone\nMineclone subgames are not supported as this offhand is likely to conflict with their own implementations.\n\n### Bones (redo)\nFor use with the \"bones (redo)\" mod, go into that mod's settings and add \"offhand\" to the list of handled inventories:\n```\nbones.lists_to_bones = main,craft,armor,offhand\n```\nThe normal bones mod will work out-of-the-box.\n\n## Credit & License\nThis mod is licensed under GNU GPL v3 like the original.\nCheck [Mineclone 2's Credit section](https://github.com/MineClone2/MineClone2/blob/master/CREDITS.md) for information on the original authors.\n\nAll content in the `wielditem.lua` is copied from [visible_wielditem](https://content.luanti.org/packages/LMD/visible_wielditem/) by appgurueu (aka LMD). Files in that specific folder are dual-licensed under GNU GPL v3 as well as MIT.",
+  "maintainers": ["SFENCE"],
+  "media_license": "GPL-3.0-only",
+  "name": "offhand",
+  "provides": ["offhand"],
+  "release": 31422,
+  "repo": "https://github.com/sfence/offhand",
+  "score": 14.7,
+  "screenshots": ["https://content.luanti.org/uploads/29a0173a40.png"],
+  "short_description": "Lets you equip nodes and place them without switching tools",
+  "state": "APPROVED",
+  "tags": ["inventory", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/29a0173a40.png",
+  "title": "Offhand Items - with HUD remove bug fix",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SFENCE/offhand/releases/31422/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "LMD/modlib": [],
+    "SFENCE/offhand": [
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "controls",
+        "packages": [
+          "mt-mods/controls",
+          "BuckarooBanzay/super_sam",
+          "MisterE/blockbomber",
+          "epCode/what_were_you_expecting",
+          "mt-mods/wis_part1",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ],
+    "mt-mods/controls": []
+  },
+  "hash": "00hj6bcmq5q8rdlh8hghxk930f5iq7k92w0yi1sdxi5y82lz3x06"
+}

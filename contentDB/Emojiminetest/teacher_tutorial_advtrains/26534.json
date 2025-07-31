@@ -1,0 +1,92 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-06-06T12:23:19.953213",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 792,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/teacher_tutorial_advtrains/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# Teacher: Advanced Trains\n\nThis mod adds tutorials for [Advanced Trains](https://content.luanti.org/packages/orwell/advtrains/). The following tutorials are avaliable:\n\n* \"About Trains...\" (shown upon getting next to tracks or platforms)\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "teacher_tutorial_advtrains",
+  "provides": ["teacher_tutorial_advtrains"],
+  "release": 26534,
+  "repo": "https://github.com/C-C-Minetest-Server/teacher_tutorial_advtrains",
+  "score": 14.1,
+  "screenshots": ["https://content.luanti.org/uploads/d48981bc98.png"],
+  "short_description": "Tutorial for Advanced Trains",
+  "state": "APPROVED",
+  "tags": ["education"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d48981bc98.png",
+  "title": "Teacher: Advanced Trains",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/teacher_tutorial_advtrains/releases/26534/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/teacher": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
+      },
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "settings_loader",
+        "packages": ["Emojiminetest/settings_loader"]
+      },
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": ["Emojiminetest/logging", "Casimir/voxelgarden"]
+      }
+    ],
+    "Emojiminetest/teacher_tutorial_advtrains": [
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      },
+      {
+        "is_optional": false,
+        "name": "teacher_core",
+        "packages": ["Emojiminetest/teacher"]
+      }
+    ],
+    "orwell/advtrains": []
+  },
+  "hash": "1fclkfwmmywdk9r0pnp7p0qvby6lv8vd7lv9p9addks61lb8a82l"
+}

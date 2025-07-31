@@ -1,0 +1,44 @@
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-09-05T23:01:33.026369",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 613,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-scaffolding/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "Just the scaffolding from the bridger mod:\nhttps://content.luanti.org/packages/v-rob/bridger/\n\n\n",
+  "maintainers": ["rheo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "scaffolding",
+  "provides": ["scaffolding"],
+  "release": 20099,
+  "repo": "https://github.com/fluxionary/minetest-scaffolding.git",
+  "score": 154.6,
+  "screenshots": ["https://content.luanti.org/uploads/07b26aa81e.png"],
+  "short_description": "scaffolding, to help in building projects.",
+  "state": "APPROVED",
+  "tags": ["building", "building_mechanics"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/07b26aa81e.png",
+  "title": "scaffolding (flux's version)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/scaffolding/releases/20099/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-scaffolding",
+  "dependencies": {
+    "rheo/fmod": [],
+    "rheo/scaffolding": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ]
+  },
+  "hash": "1nb6fvqr8082ghynf9rb835psabjxgdj87pd8960lm2lx1hg2czs"
+}

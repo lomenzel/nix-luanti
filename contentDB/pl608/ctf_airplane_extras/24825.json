@@ -1,0 +1,61 @@
+{
+  "author": "pl608",
+  "content_warnings": [],
+  "created_at": "2022-11-17T01:59:51.309173",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 2571,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/pl608/ctf_airplane_extras/issues/new/choose/",
+  "license": "LGPL-3.0-only",
+  "long_description": "[![ContentDB](https://content.luanti.org/packages/pl608/ctf_airplane_extras/shields/title/)](https://content.luanti.org/packages/pl608/ctf_airplane_extras/)[![ContentDB](https://content.luanti.org/packages/pl608/ctf_airplane_extras/shields/downloads/)](https://content.luanti.org/packages/pl608/ctf_airplane_extras/)\n# CTF Airplane Extras \nAdds a modified airplane that is capable of dropping (semi) functional bombs. Made specifically for rubenwardy's capture the flag game.\n\n### How to use this modpack.\n\nPlace a aircraft spawn block then click to spawn an airplane. Due to an annoying issue it allows almost unlimited spawning. Obtain some gasoline and click that airplane with it to fuel it up. Once that is done board the plane and take off and when you want to drop a bomb left click from in the plane. This also allows unlimited bomb at this time.\n\n#### Done\n- Made the modpack more effisiant by getting rid of useless checks etc.\n -   Modify the pa28 airplane to ignore protection/owners\n -   Add points for the airplanes to spawn at (ctf_airplane_extras:airplane_spawnblock_(blue/red/purple/green/orange)) \n -    Adds a bomb that drops on promnt from the airplane and explodes on collision with ground(blue/red/purple/green/orange version)\n -    Add Quad-team support + ability to ignore teams(internal.use_teams) default true\n -    Add actual block breaking explosion (still need to add indestructible block ignore)\n -    Add the ability to fuel up inside the airplane but on the ground\n -    Added a fun explosion effect(enabled node gravity inside a certain radius)\n -    Add sound\n#### Todo:\n -    Fix bomb bugs: in no-damage mode its breaks the airplane not allowing you to get it,\n\n#### Known Issues\n- If playing with damage disabled and are inside the range of the bomb (ie on the ground before takeoff) it breaks the airplane making it not allow a player to get inside\n- All spawn blocks create blue airplanes (but on mount it will change color)\n- Airplanes dont take damage from the bomb(see todo #1)\n- Airplanes dont de-spawn on match end\n###### Also: Thanks for the feed back!",
+  "maintainers": ["pl608"],
+  "media_license": "LGPL-3.0-only",
+  "name": "ctf_airplane_extras",
+  "provides": ["airutils_custom", "ctf_airplane_extras", "pa28_custom"],
+  "release": 24825,
+  "repo": "https://github.com/pl608/ctf_airplane_extras",
+  "score": 16.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/0e83e77f1b.png",
+    "https://content.luanti.org/uploads/a47e5f23e2.png",
+    "https://content.luanti.org/uploads/537f15608e.png"
+  ],
+  "short_description": "a modification for the pa28 that is designed for(up to 5-team) ctf which adds explosive missiles/bombs",
+  "state": "APPROVED",
+  "tags": ["pvp", "tools", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/0e83e77f1b.png",
+  "title": "CTF Airplane Modification(pa28)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/pl608/ctf_airplane_extras/releases/24825/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "pl608/ctf_airplane_extras": [
+      {
+        "is_optional": false,
+        "name": "ctf_teams",
+        "packages": ["rubenwardy/capturetheflag", "hilol/epic_combat"]
+      }
+    ]
+  },
+  "hash": "1s78p69b4cp3hgd2jl65q48qbdllqwz7w6jar2ifyvg61hbsna6g"
+}

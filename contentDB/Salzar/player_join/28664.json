@@ -1,0 +1,76 @@
+{
+  "author": "Salzar",
+  "content_warnings": [],
+  "created_at": "2023-11-05T10:40:32.593030",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 366,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30740",
+  "forums": 30740,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Salzar-R2D2/Player_join/issues",
+  "license": "MIT",
+  "long_description": "To change colors and messages go to config.lua.\nIn config.lua:\n\n- join_prefix_msg = The message sent before the nickname, when a player joins the server. (Default: [Server] -> )\n- join_color_msg = The color of the message when the player joins the server, outside the player’s name. (Default: \"#00d11d\")\n- join_message = Message to say the player has joined the server. (Default: \" joined the game.\")\n- join_color_player_name = Color of the player when he joins the server. (Default: \"#00d8ea\")\n\n- left_prefix_msg = The message sent before the nickname, when a player leaves the server. (Default: [Server] -> )\n- left_color_msg = The color of the message when the player leaves the server, outside the player’s name. (Default: \"#00d11d\")\n- left_message = Message to say the player has to leave the server. (Default: \" left the game.\")\n- left_color_player_name = Color of the player when he leaves the server. (Default: \"#00d8ea\")\n\nAll names with \"st\" in front are for the message config for staff with the StaffRanks mod.",
+  "maintainers": ["Salzar"],
+  "media_license": "MIT",
+  "name": "player_join",
+  "provides": ["player_join"],
+  "release": 28664,
+  "repo": "https://github.com/Salzar-R2D2/Player_join",
+  "score": 153.7,
+  "screenshots": ["https://content.luanti.org/uploads/a0ec72f522.png"],
+  "short_description": "Adds a custom join and a left message.",
+  "state": "APPROVED",
+  "tags": ["chat"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a0ec72f522.png",
+  "title": "Player_join",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Salzar/player_join/releases/28664/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Salzar/player_join": [] },
+  "hash": "1hn2blqiwjqzacypv8bds369xgcr7jkzi5ixk88nkaahyii0rw92"
+}

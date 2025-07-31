@@ -1,0 +1,92 @@
+{
+  "author": "rangeTonic",
+  "content_warnings": [],
+  "created_at": "2025-06-05T15:27:24.355747",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 47,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://gitlab.com/rangeTonic/areas_helper_tools/-/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Areas' helper tools\n\nA [Luanti](https://www.luanti.org/) mod which aims to improve user experience\nwith [Area Protection Mod](https://content.luanti.org/packages/ShadowNinja/areas/)\nby adding tools for easier area manipulation.\n\nCurrently the only available tool is \"Area select-n-protect tool\". It can\nset coordinates, claim areas, add sub-areas for other players and remove\nplayer-owned areas nearby.\n\n**Dependencies:** `areas`, either `default` or `mcl_core`.\n\n**Supported games:** `mineclone2`, `mineclonia`, `minetest_game`.\n\n## Crafting recipes\n\n### Area select-n-protect tool:\n\n|                        |                 |                          |\n| :--------------------: | :-------------: | :----------------------: |\n| \\[`default:coal_lump`] | —               | —                        |\n| —                      | \\[`group:wood`] | \\[`dye:orange`]          |\n| —                      | —               | \\[`default:steel_ingot`] |\n\n|                         |                 |                          |\n| :---------------------: | :-------------: | :----------------------: |\n| \\[`mcl_core:coal_lump`] | —               | —                        |\n| —                       | \\[`group:wood`] | \\[`mcl_dye:orange`]      |\n| —                       | —               | \\[`mcl_core:iron_ingot`] |\n\n## Licenses\n\nGNU LGPL version 2.1 or later fource code, CC0 for media.\nSee `copyright.txt` and `LICENSE.txt`\nfor more information.",
+  "maintainers": ["rangeTonic"],
+  "media_license": "CC0-1.0",
+  "name": "areas_helper_tools",
+  "provides": ["areas_helper_tools"],
+  "release": 31742,
+  "repo": "https://gitlab.com/rangeTonic/areas_helper_tools",
+  "score": 154.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/96d2676418.png",
+    "https://content.luanti.org/uploads/feeb516556.png"
+  ],
+  "short_description": "Convenience tools for Areas protection mod",
+  "state": "APPROVED",
+  "tags": ["gui", "multiplayer", "world_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/96d2676418.png",
+  "title": "Areas' helper tools",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rangeTonic/areas_helper_tools/releases/31742/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ShadowNinja/areas": [],
+    "rangeTonic/areas_helper_tools": [
+      {
+        "is_optional": false,
+        "name": "areas",
+        "packages": [
+          "NotaB/tolkientest",
+          "ShadowNinja/areas",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ]
+  },
+  "hash": "19y55gwzr2d7i8k2i2sd9qyzf0ch5sv769k60910iy828rbpnpcf"
+}

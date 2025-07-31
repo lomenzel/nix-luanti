@@ -1,0 +1,90 @@
+{
+  "author": "Kimapr",
+  "content_warnings": [],
+  "created_at": "2020-09-09T09:51:27.237699",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1511,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "Snakes! They will sneak in at you, they will eat all your leaves, all your peat, and you'll be horrored! Cut them (violently) to get cobble. They also poop lode.\n(Seriously, they are very scary and this mod is very violent)",
+  "maintainers": ["Kimapr"],
+  "media_license": "MIT",
+  "name": "nc_snakes",
+  "provides": ["nc_snakes"],
+  "release": 22128,
+  "repo": "https://gitlab.com/Kimapr/nc_snake",
+  "score": 153.3,
+  "screenshots": ["https://content.luanti.org/uploads/4aYtcPFSW9.png"],
+  "short_description": "Sneaky snakes in NodeCore!",
+  "state": "APPROVED",
+  "tags": ["mobs"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4aYtcPFSW9.png",
+  "title": "NodeCore Snakes",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Kimapr/nc_snakes/releases/22128/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Kimapr/nc_snakes": [
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_stonework",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_sponge",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "1ll354g639vwk2q9y9wg5ynwwijxr7fsv4gqqnq2qwmq72sjaq63"
+}

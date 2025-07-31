@@ -1,0 +1,50 @@
+{
+  "author": "AntumDeluge",
+  "content_warnings": [],
+  "created_at": "2021-05-27T02:29:37.202082",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1876,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=18307",
+  "forums": 18307,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/AntumMT/mod-glass/issues",
+  "license": "MIT",
+  "long_description": "### Description:\n\nMod that makes [default glass nodes][default] colorable with *unifieddyes:airbrush*.\n\nThis will also become standalone, independent of *default* in the future.\n\n### Licensing:\n\n- [MIT](https://github.com/AntumMT/mod-glass/blob/master/LICENSE.txt)\n\n### Requirements:\n\nDepends:\n\n- [![default](https://img.shields.io/static/v1?label=GitHub&message=default&color=%23375a7f\n)][default]\n- [![unifieddyes](https://img.shields.io/static/v1?label=ContentDB&message=unifieddyes&color=%23375a7f\n)](https://content.luanti.org/packages/VanessaE/unifieddyes/)\n\n### Links:\n\n- [Changelog](https://github.com/AntumMT/mod-glass/blob/master/changelog.txt)\n- [TODO](https://github.com/AntumMT/mod-glass/blob/master/TODO.txt)\n\n\n[Minetest]: http://www.minetest.net/\n[default]: https://github.com/minetest/minetest_game/blob/master/mods/default",
+  "maintainers": ["AntumDeluge"],
+  "media_license": "CC0-1.0",
+  "name": "glass",
+  "provides": ["glass"],
+  "release": 23735,
+  "repo": "https://github.com/AntumMT/mod-glass",
+  "score": 14.8,
+  "screenshots": ["https://content.luanti.org/uploads/b5b18788e8.png"],
+  "short_description": "Enhances default glass to make it colorable.",
+  "state": "APPROVED",
+  "tags": ["building", "decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b5b18788e8.png",
+  "title": "Glass",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/AntumDeluge/glass/releases/23735/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "AntumDeluge/glass": [] },
+  "hash": "0kng6zfx598llpszij04slz6l8l9d5pfhymakh7y7x7h7kg4l6f7"
+}

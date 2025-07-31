@@ -1,0 +1,58 @@
+{
+  "author": "epCode",
+  "content_warnings": [],
+  "created_at": "2024-02-03T21:11:27.109154",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 450,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/epCode/mt_build_easy/issues",
+  "license": "LGPL-3.0-only",
+  "long_description": "# Build Easy\nA Minetest mod that creates the ability to create large structures very quickly\n\nUsing `Aux1` + `Place` you can easliy make large node structures fast.",
+  "maintainers": ["epCode"],
+  "media_license": "LGPL-3.0-only",
+  "name": "mt_build_easy",
+  "provides": ["mt_build_easy"],
+  "release": 23331,
+  "repo": "https://github.com/epCode/mt_build_easy.git",
+  "score": 154.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d7782d2488.png",
+    "https://content.luanti.org/uploads/8835054952.png"
+  ],
+  "short_description": "A handy tool allowing the creation of large structures with minimal effort (in survival!).",
+  "state": "APPROVED",
+  "tags": ["building_mechanics"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d7782d2488.png",
+  "title": "Build Easy Box",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/epCode/mt_build_easy/releases/23331/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/jw3fKRYs0hM.jpg",
+  "video_url": "https://www.youtube.com/watch?v=jw3fKRYs0hM",
+  "website": null,
+  "dependencies": {
+    "epCode/mt_build_easy": [
+      {
+        "is_optional": false,
+        "name": "controls",
+        "packages": [
+          "mt-mods/controls",
+          "BuckarooBanzay/super_sam",
+          "MisterE/blockbomber",
+          "epCode/what_were_you_expecting",
+          "mt-mods/wis_part1",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ],
+    "mt-mods/controls": []
+  },
+  "hash": "18xaxkk8bf0a28d53hg3p4ji89k4lg44w1xz4m9lcdivhhms42j9"
+}

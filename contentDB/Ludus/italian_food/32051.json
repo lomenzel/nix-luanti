@@ -1,0 +1,133 @@
+{
+  "author": "Ludus",
+  "content_warnings": [],
+  "created_at": "2025-05-18T08:39:33.522964",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 201,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30336,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - Hidden Mysteries Update",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/LudusExe/Italian-Food-for-Voxelibre/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "This mod adds a variety of traditional Italian foods, ingredients, and cooking tools. Grow fresh basil and tomatoes, craft delicious meals, and enjoy new gameplay mechanics like potion effects.\n\nFeatures:\n*  Foods: Pizza, lasagna, spaghetti, bruschetta, cannoli, tiramisu, and more\n\n* Ingredients: Basil, tomatoes, mozzarella, sheep cheese, sauces, dough\n\n*  Farming: Multi-stage tomato and basil plants\n\n* Crafting: Use real recipes to prepare complex dishes\n\n* Tools: Rolling pin\n\n* Potions: Coffee-based potion with speed, jump, and dig boosts\n\n* Achievements: Earn rewards for eating Italian specialties\n\n* Structures: Pizzeria structure featuring loot chests and a Tomato & Basil farm.\n\nPerfect for survival players who love farming, cooking, or adding cultural flavor to their game.\n",
+  "maintainers": ["Ludus"],
+  "media_license": "GPL-3.0-only",
+  "name": "italian_food",
+  "provides": ["italian_food"],
+  "release": 32051,
+  "repo": "https://github.com/LudusExe/Italian-Food-for-Voxelibre",
+  "score": 25.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/914ac7336e.png",
+    "https://content.luanti.org/uploads/bff9c729f5.png",
+    "https://content.luanti.org/uploads/c9af27403d.png",
+    "https://content.luanti.org/uploads/37525f32d0.png"
+  ],
+  "short_description": "Discover the Italian cuisine!",
+  "state": "APPROVED",
+  "tags": ["food", "plants_and_farming", "player_effects"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/914ac7336e.png",
+  "title": "Italian Food For Voxelibre",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Ludus/italian_food/releases/32051/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Ludus/italian_food": [
+      {
+        "is_optional": false,
+        "name": "mcl_cocoas",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_potions",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mushrooms",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_farming",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_flowers",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_throwing",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_mobitems",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_structures",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "0mxa557ghjhidpiz58yv1b97xk6d7n4kpi80d6mnw7hckmni8v33"
+}

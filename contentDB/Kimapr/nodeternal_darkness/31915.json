@@ -1,0 +1,80 @@
+{
+  "author": "Kimapr",
+  "content_warnings": [],
+  "created_at": "2022-10-16T04:38:02.595582",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 366,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "",
+  "maintainers": ["Kimapr"],
+  "media_license": "MIT",
+  "name": "nodeternal_darkness",
+  "provides": ["nodeternal_darkness"],
+  "release": 31915,
+  "repo": "https://gitlab.com/Kimapr/nodeternal_darkness",
+  "score": 154.5,
+  "screenshots": ["https://content.luanti.org/uploads/ec6e0b79c5.png"],
+  "short_description": "make nodecore very dark",
+  "state": "APPROVED",
+  "tags": ["environment", "mapgen"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/ec6e0b79c5.png",
+  "title": "Nodeternal Darkness",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Kimapr/nodeternal_darkness/releases/31915/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Kimapr/nodeternal_darkness": [
+      {
+        "is_optional": false,
+        "name": "nc_flora",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "1938ii8g7rwq6b30mgwxjimzfd81f2wad581hm49xsxr5y4ychbh"
+}
