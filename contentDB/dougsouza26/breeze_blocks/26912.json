@@ -1,0 +1,94 @@
+{
+  "author": "dougsouza26",
+  "content_warnings": [],
+  "created_at": "2024-08-21T21:42:12.018714",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": "https://github.com/sponsors/JoseDouglas26",
+  "downloads": 324,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/JoseDouglas26/breeze_blocks/issues",
+  "license": "MIT",
+  "long_description": "# Breeze Blocks for Mineclonia (breeze_blocks)\n## Description\nAdds uniquely shaped colored blocks to Mineclonia. The blocks have 16 shapes, each with 16 colors, totaling 256 different blocks.\n## Obtaining\nThese blocks can be obtained using the stonecutter. Use the concrete blocks to craft the breeze block in the shape of your choice.",
+  "maintainers": ["dougsouza26"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "breeze_blocks",
+  "provides": ["breeze_blocks"],
+  "release": 26912,
+  "repo": "https://github.com/JoseDouglas26/breeze_blocks",
+  "score": 7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fd650cc2b4.png",
+    "https://content.luanti.org/uploads/3f29591ddf.png",
+    "https://content.luanti.org/uploads/ce65750e40.png"
+  ],
+  "short_description": "Adds uniquely shaped colored blocks to Mineclonia.",
+  "state": "APPROVED",
+  "tags": ["building", "decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fd650cc2b4.png",
+  "title": "Breeze Blocks for Mineclonia",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/dougsouza26/breeze_blocks/releases/26912/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "dougsouza26/breeze_blocks": [
+      {
+        "is_optional": false,
+        "name": "mcl_util",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_sounds",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_colorblocks",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_dyes",
+        "packages": ["ryvnf/mineclonia"]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_stonecutter",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "0r6w57x2fy1ibzhnd888ilfk8kx3if421idj0jjz8yg2yjf32xjb"
+}

@@ -1,0 +1,50 @@
+{
+  "author": "TumeniNodes",
+  "content_warnings": [],
+  "created_at": "2018-11-07T22:43:45.552719",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 5476,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=21056",
+  "forums": 21056,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/TumeniNodes/Default_LS/issues/new/choose/",
+  "license": "CC-BY-SA-3.0",
+  "long_description": "Default LS = [Default Low Saturation]\nThe default textures, which are shipped with Minetest Game, using reduced saturation. Creates a calmer visual environment.",
+  "maintainers": ["TumeniNodes"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "default_ls",
+  "provides": [],
+  "release": 1245,
+  "repo": "https://github.com/TumeniNodes/Default_LS",
+  "score": 9.9,
+  "screenshots": ["https://content.luanti.org/uploads/9R73ieDdxR.png"],
+  "short_description": "The default TP for Minetest Game, using reduced saturation",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/9R73ieDdxR.png",
+  "title": "Default LS",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/TumeniNodes/default_ls/releases/1245/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "TumeniNodes/default_ls": [] },
+  "hash": "1g8nj94x1kbvf9bi3zsmlamjz8r74dbsizc3h7isggijjdj4x2nb"
+}

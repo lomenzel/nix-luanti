@@ -1,0 +1,44 @@
+{
+  "author": "Tmanyo",
+  "content_warnings": [],
+  "created_at": "2019-07-13T00:31:47.051991",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 5334,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=16271",
+  "forums": 16271,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Tmanyo/bank_accounts/issues",
+  "license": "MIT",
+  "long_description": "# Bank Accounts\nThis mod adds ATMs and debit/credit cards to Minetest.  Once a player sets their PIN (Personal Identification Number), they will receive an ATM card.  An ATM is an Automatic Teller Machine.  Once the player has accessed the ATM, they can get a debit card and/or a credit card.  The player can also view their account balance and credit card debt.  \nThere are card swipes that can be put in stores.  Two players interact with a card swipe to complete a transaction.  Both a debit and a credit card can be used at any card swipe.  When using a debit, the funds are taken straight from the players account.  When using a credit, the funds are added to the player's credit card debt.  Credit card debt can be payed through the ATM.  There are currently no penalties to having too much credit card debt.\n\nServer administrators can use commands to grant players funds and remove funds.\n\n## Features:\n - ATM\n - Debit Card\n - Credit Card\n - ATM Card\n - Teller Computer\n - Card Swipe\n\nFor more information, check this mod out in the Minetest Forums or there is a full README on this mod's GitHub.",
+  "maintainers": ["Tmanyo"],
+  "media_license": "AGPL-2.0-only",
+  "name": "bank_accounts",
+  "provides": ["bank_accounts"],
+  "release": 1639,
+  "repo": "https://github.com/Tmanyo/bank_accounts",
+  "score": 11.4,
+  "screenshots": ["https://content.luanti.org/uploads/IyryaPxBwC.png"],
+  "short_description": "Adds bank accounts with ATMs and Debit\\Credit cards.",
+  "state": "APPROVED",
+  "tags": ["commerce", "education", "technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/IyryaPxBwC.png",
+  "title": "Bank Accounts",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Tmanyo/bank_accounts/releases/1639/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Tmanyo/bank_accounts": [
+      {
+        "is_optional": false,
+        "name": "currency",
+        "packages": ["mt-mods/currency", "mt-mods/dreambuilder_game"]
+      }
+    ],
+    "mt-mods/currency": []
+  },
+  "hash": "1v8w0vjwn4caw0wrqcszmy9mk42w0msqf0cdznl90fljn5q24k8v"
+}

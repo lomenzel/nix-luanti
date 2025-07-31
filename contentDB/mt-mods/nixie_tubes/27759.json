@@ -1,0 +1,177 @@
+{
+  "author": "mt-mods",
+  "content_warnings": [],
+  "created_at": "2018-06-06T19:22:26.286750",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 3121,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=12537",
+  "forums": 12537,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/mt-mods/nixie_tubes/issues/new/choose/",
+  "license": "LGPL-3.0-only",
+  "long_description": "",
+  "maintainers": ["VanessaE", "mt-mods"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "nixie_tubes",
+  "provides": ["nixie_tubes"],
+  "release": 27759,
+  "repo": "https://github.com/mt-mods/nixie_tubes",
+  "score": 7.1,
+  "screenshots": ["https://content.luanti.org/uploads/8EaD0dAcBa.png"],
+  "short_description": "Provides a set of classic numeric Nixie tubes, alphanumeric tubes similar to Burroughs B-7971, and Dekatron tubes, all controlled by Digilines.",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8EaD0dAcBa.png",
+  "title": "Nixie Tubes",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/mt-mods/nixie_tubes/releases/27759/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "mt-mods/nixie_tubes": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0ff5gygj4biy3al5m2xqg0dn7g717qgqpidndpxl7zb8wcl572jv"
+}

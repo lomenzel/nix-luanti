@@ -1,0 +1,89 @@
+{
+  "author": "awuuwa",
+  "content_warnings": [],
+  "created_at": "2025-04-11T12:51:16.435937",
+  "dev_state": "BETA",
+  "donate_url": "https://odysee.com/@awuuwa:9",
+  "downloads": 96,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": false
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "dibesfer",
+        "name": "blank",
+        "release": 29946,
+        "short_description": "Absolute blank template to start your projects from.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/19b1b31a4e.png",
+        "title": "Blank",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "GoodClover",
+        "name": "cavegame",
+        "release": 28119,
+        "short_description": "The simplest block game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/19f2b13916.png",
+        "title": "Cave Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Linuxdirk",
+        "name": "void",
+        "release": 28671,
+        "short_description": "The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/CZYwsfu1Le.png",
+        "title": "Void - An empty game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "LGPL-2.1-only",
+  "long_description": "If a mod depends on \"default\" of Minetest Game only to use the default sound effects included in Minetest Game, this mod provides all the default sound effects to be used in any game on the Luanti engine. Meaning, a mod that would otherwise depend on Minetest Game, simply to use it's sound effects, can be now used outside of Minetest Game, in other games. This makes such mods game agnostic. Using this mod assumes that \"default\" is not installed, and that you are playing some other game than Minetest Game. Don't use this if you are playing Minetest Game, as Minetest Game already comes with all of these sound effects in the included \"default\" module.",
+  "maintainers": ["awuuwa"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "default_sounds_for_other_games",
+  "provides": ["default_sounds_for_other_games"],
+  "release": 30591,
+  "repo": null,
+  "score": 11.1,
+  "screenshots": ["https://content.luanti.org/uploads/f87b80ef50.png"],
+  "short_description": "mods that only depend on \"default\" for sounds, can be made to use this mod to source the sounds from",
+  "state": "APPROVED",
+  "tags": ["library", "sound_music"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/f87b80ef50.png",
+  "title": "default sounds for other games",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/awuuwa/default_sounds_for_other_games/releases/30591/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "awuuwa/default_sounds_for_other_games": [] },
+  "hash": "11pmbhby65ln8cg2sd47zdddvp4z70gic5aids4alh2xglhbkrxl"
+}

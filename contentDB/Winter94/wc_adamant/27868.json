@@ -1,0 +1,142 @@
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2022-01-02T05:28:46.557352",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 1838,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/NC-Adamant-Revised/issues/new/choose/",
+  "license": "CC0-1.0",
+  "long_description": "# NodeCore Adamant: Revised\nA mod for NodeCore that adds Adamant, a new metal.\n--------------------------------------------------\n-----------------NodeCore Adamant-----------------\n----------------A Mod For NodeCore----------------\n--------------------------------------------------\n----------------By WintersKnight94----------------\n\n-----!ADAMANT!-----\n\nThe Mythical Metal of Legend!\nDifficult to aquire, tedious to work, and worth every torch, broken bone and lost mattock it took to get it.\n\nA Must-Have for Anyone Who Wishes to Live Deep Within the Earth!\n\n--------------------------------------------------\n--------------------------------------------------\n---------RAW ADAMANT! PRAISE THE MINERS!----------\n\t\t                  \n\t\t                  \n\t\t                  \n\t\t      ######      \n\t\t     #      #     \n\t\t     #      #     \n\t\t     # #  # #     \n\t\t     x      x     \n\t\t     xxxxxxxx     \n\t\t     xx ## xx     \n\t\t      xxxxxx      \n\t\t        xxx       \n\t\t         xx       \n\t\t                  \n\t\t                  \n\t\t                  \n\t\t                  \n\n---------RAW ADAMANT! PRAISE THE MINERS!----------\n--------------------------------------------------\n--------------------------------------------------\n",
+  "maintainers": ["Winter94"],
+  "media_license": "CC0-1.0",
+  "name": "wc_adamant",
+  "provides": ["wc_adamant"],
+  "release": 27868,
+  "repo": "https://github.com/wintersknight94/NC-Adamant-Revised",
+  "score": 5.5,
+  "screenshots": ["https://content.luanti.org/uploads/749fc8aff5.png"],
+  "short_description": "Adds Adamant, a new metal ore, deep underground/",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/749fc8aff5.png",
+  "title": "NodeCore Adamant: Revised",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_adamant/releases/27868/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_adamant": [
+      {
+        "is_optional": false,
+        "name": "nc_woodwork",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_igneous",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_fire",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_crystals",
+        "packages": ["Winter94/wc_crystals"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ],
+    "Winter94/wc_crystals": [
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_items",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_lib_resources",
+        "packages": ["Winter94/wc_lib_resources"]
+      }
+    ]
+  },
+  "hash": "1p4n78akx0h6k40s4pk7ivg7i4a7ldpgq59lh8ax2zlmv0rsijym"
+}

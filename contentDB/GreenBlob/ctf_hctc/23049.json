@@ -1,0 +1,63 @@
+{
+  "author": "GreenBlob",
+  "content_warnings": [],
+  "created_at": "2023-09-19T02:53:50.192584",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 921,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "# CTF High Contrast Team Colors\n Made for the Minetest Capture the Flag game. A texture pack that makes it easier to tell the team color of a player.\n \n*  To tell which way the player is facing, look for the side of the head where the color is darker (subject to change). \n*  In Classes mode, the outline color is different depending on the class of the player. Knights have a yellow outline, ranged has a purple outline, and support has a green outline.\n*  Players without a team have a white skin.",
+  "maintainers": ["GreenBlob"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "ctf_hctc",
+  "provides": [],
+  "release": 23049,
+  "repo": "https://gitlab.com/OrangeBlob/ctf_hctc",
+  "score": 7.3,
+  "screenshots": ["https://content.luanti.org/uploads/83d501b9bd.png"],
+  "short_description": "Makes it easier to tell the team color of a player in the Capture the Flag game.",
+  "state": "APPROVED",
+  "tags": ["skins"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/83d501b9bd.png",
+  "title": "CTF High Contrast Team Colors",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/GreenBlob/ctf_hctc/releases/23049/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "GreenBlob/ctf_hctc": [] },
+  "hash": "0arcfk3rpbviv84jyvsqyb5wlpivw246s9fq466jr5y1a8pznhlw"
+}

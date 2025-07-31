@@ -1,0 +1,50 @@
+{
+  "author": "doctor_ew",
+  "content_warnings": [],
+  "created_at": "2020-03-16T20:47:36.120625",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2038,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/v1nsai/grappling_hook/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "A WIP  grappling hook mod that will eventually add several different types of grappling hooks to Minetest.  For now, only the auto_hook is available.  It is thrown (using the awesome [throwing API from Eurythmia team](https://github.com/minetest-mods/throwing)) and then automatically pulls the player to wherever it hits.  Jump or right click to detach.\n\nThe textures are terrible.  I am not a graphic artist in any sense of the word.\n",
+  "maintainers": ["doctor_ew"],
+  "media_license": "GPL-3.0-only",
+  "name": "grappling_hook",
+  "provides": ["grappling_hook"],
+  "release": 3177,
+  "repo": "https://github.com/v1nsai/grappling_hook.git",
+  "score": 7,
+  "screenshots": ["https://content.luanti.org/uploads/4DKHGECKdc.png"],
+  "short_description": "A throwable grappling_hook",
+  "state": "APPROVED",
+  "tags": ["survival", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4DKHGECKdc.png",
+  "title": "Grappling Hook",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/doctor_ew/grappling_hook/releases/3177/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Desour/keyevent": [],
+    "Palige/throwing": [],
+    "doctor_ew/grappling_hook": [
+      {
+        "is_optional": false,
+        "name": "throwing",
+        "packages": ["Palige/throwing", "PetiAPocok/minetest_extended"]
+      },
+      {
+        "is_optional": false,
+        "name": "keyevent",
+        "packages": ["Desour/keyevent", "1248/labyrinthus"]
+      }
+    ]
+  },
+  "hash": "1pja82wsam42bikhyc4ahpz3i63wzj10fjjdbyklw1j58xlhsm9q"
+}

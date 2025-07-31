@@ -1,0 +1,54 @@
+{
+  "author": "NameNotQuality",
+  "content_warnings": [],
+  "created_at": "2024-07-02T18:39:33.983729",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 477,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-3.0",
+  "long_description": "# Introduction\nThe [Mesecons Lab](https://content.luanti.org/packages/BuckarooBanzay/mesecons_lab/) is a game where you can view builds made with mesecons, digilines, etc.. If you were wandering around there, you may have realised that the crosshair looks slightly different.\n\nIf you deem it cool, now you can have it anywhere you go by using this texture pack!\n\nIf you're not familiar with the game at all, then you can just look at the screenshots to see the crosshair's appearance.\n\n# Note\n\nIf you cannot use this texture pack alongside another, then you can simply try copying the files 'crosshair.png' and 'object_crosshair.png' from the minetest folder/textures/mesecons_lab_crosshair (or something like that) to the directory of your favourite texture pack. You can simply do this with an ordinary file manager. On example, on GNU-Linux it is under your home directory/.minetest (hidden folder). On \"smart\" phones you can probably use a [minetest file manager](https://content.luanti.org/packages/Zemtzov7/mtfm/) from the mods page on ContentDB, because all apps are forcibly sandboxed and can't access files of other apps.\n\n---\n# Legal\n\nCopyright 2021 BuckarooBanzay, who made Mesecons Lab https://github.com/mesecons-lab/mesecons_lab\n\nThis is an extraction of the files \"crosshair.png\" and \"object_crosshair.png\" from the 'textures' folder of the Mesecons Lab game, which are licensed under CC-BY-SA 3.0. They were not modified here.\n\nCopyright 2024 NameNotQuality\n\nThis work is freely licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en).",
+  "maintainers": ["NameNotQuality"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mesecons_lab_cursor",
+  "provides": [],
+  "release": 25794,
+  "repo": "https://codeberg.org/NameNotQuality/mesecons-lab-cursor-mt.git",
+  "score": 10,
+  "screenshots": [
+    "https://content.luanti.org/uploads/6887929d3f.png",
+    "https://content.luanti.org/uploads/a5924e9467.png",
+    "https://content.luanti.org/uploads/eca007d5d9.png"
+  ],
+  "short_description": "The cursor from Mesecons Lab",
+  "state": "APPROVED",
+  "tags": ["64px", "gui", "hud"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6887929d3f.png",
+  "title": "Mesecons Lab Cursor",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/NameNotQuality/mesecons_lab_cursor/releases/25794/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "NameNotQuality/mesecons_lab_cursor": [] },
+  "hash": "1d5ygzchi712frndc8fafd9zw29l6v10gb7s4bdh0cwczr9kw6fd"
+}

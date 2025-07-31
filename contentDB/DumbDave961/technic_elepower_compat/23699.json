@@ -1,0 +1,212 @@
+{
+  "author": "DumbDave961",
+  "content_warnings": [],
+  "created_at": "2023-09-11T21:34:47.531961",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 875,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/DustyDave961/technic_elepower_compat/issues",
+  "license": "LGPL-2.1-only",
+  "long_description": "A collaboration project with Bob64, also known as DustyBagel, to help Technic and Elepower work together. Recipes were added for Technic machines to make some items from Elepower, and for Elepower machines to make some items from Technic. A new converter developed by Bob64 connects Technic cables to Elepower conduits when enabled. This is an expanded replacement of Grinder Compatibility. All content contained within is licensed under the GNU Lesser General Public License version 2.1.",
+  "maintainers": ["DumbDave961", "Bob64"],
+  "media_license": "LGPL-2.1-only",
+  "name": "technic_elepower_compat",
+  "provides": ["technic_elepower_compat"],
+  "release": 23699,
+  "repo": "https://github.com/DustyDave961/technic_elepower_compat",
+  "score": 6.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/d66d6e222e.png",
+    "https://content.luanti.org/uploads/8bdd6b8ea1.png"
+  ],
+  "short_description": "Elepower recipes for Technic machines. Technic recipes for Elepower machines. A new converter connects Technic cables to Elepower conduits when enabled.",
+  "state": "APPROVED",
+  "tags": ["crafting", "survival", "technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d66d6e222e.png",
+  "title": "Technic Elepower Compatibility",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/DumbDave961/technic_elepower_compat/releases/23699/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/TnQ-NytAK10.jpg",
+  "video_url": "https://www.youtube.com/watch?v=TnQ-NytAK10",
+  "website": null,
+  "dependencies": {
+    "Calinou/moreores": [],
+    "DumbDave961/technic_elepower_compat": [
+      {
+        "is_optional": false,
+        "name": "moreores",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "MeseCraft/mesecraft",
+          "Calinou/moreores",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "jara25/yams"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "elepower_dynamics",
+        "packages": ["IcyDiamond/elepower"]
+      },
+      {
+        "is_optional": false,
+        "name": "elepower_papi",
+        "packages": ["IcyDiamond/elepower"]
+      },
+      {
+        "is_optional": false,
+        "name": "technic_worldgen",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/technic_plus_beta",
+          "Kimapr/nonsensical_skyblock",
+          "RealBadAngel/technic",
+          "mt-mods/technic_plus",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "technic",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/technic_plus_beta",
+          "Kimapr/nonsensical_skyblock",
+          "RealBadAngel/technic",
+          "mt-mods/technic_plus",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "elepower_machines",
+        "packages": ["IcyDiamond/elepower"]
+      }
+    ],
+    "IcyDiamond/elepower": [
+      {
+        "is_optional": false,
+        "name": "fluid_tanks",
+        "packages": ["IcyDiamond/fluid_lib"]
+      },
+      {
+        "is_optional": false,
+        "name": "fluid_transfer",
+        "packages": ["IcyDiamond/fluid_lib"]
+      }
+    ],
+    "mt-mods/technic_plus_beta": [
+      {
+        "is_optional": false,
+        "name": "pipeworks",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/pipeworks",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "joe7575/techage_modpack",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "rlars/occupymoon_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1jccg94ysbvrvar5lvdvn7xbz372adssrlwcfvsm00rx5q6jsbqp"
+}

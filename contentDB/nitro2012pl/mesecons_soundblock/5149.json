@@ -1,0 +1,195 @@
+{
+  "author": "nitro2012pl",
+  "content_warnings": [],
+  "created_at": "2020-09-16T01:30:28.018924",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2062,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=25371",
+  "forums": 25371,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BRNSystems",
+        "name": "blocky_portaling",
+        "release": 16327,
+        "short_description": "Work in Progress. A WIP game based on AiTechEye's portalgun",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/c01dd4b01d.png",
+        "title": "Blocky portaling",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/nitro2010/mesecons_soundblock/issues/new/choose/",
+  "license": "CC-BY-4.0",
+  "long_description": "This is mod allows to play OGG file.\n\nEasy to set up.\n\n1. Copy OGG file to mesecons_soundblock\\sounds folder.\n1. Take soundblock (type /give mesecons_soundblock:block on the chat or search block in the inventory).\n2. Place soundblock on the ground.\n3. Click right button of mouse on soundblock - it opens configuration window.\n**Channel** - (string) channel's name,\n**Hearing distance** - (int) max. distance between block and player. If is greater than declared, player don't hear anything from block\n**Volume**\n4. Next connect soundblock using digilines with e.g. microcontroller.\n5. If you want play sound, type in e.g. controller:\n\ndigiline_send(\"channel\", \"oggfilename\")\n\nwhere: channel - name of earlier declared channel \noggfilename - name of ogg file in \"mesecons_soundblock\\sounds folder\" without file extension\n\nIf is correct you should listen sound file.",
+  "maintainers": ["nitro2012pl"],
+  "media_license": "CC-BY-4.0",
+  "name": "mesecons_soundblock",
+  "provides": ["mesecons_soundblock"],
+  "release": 5149,
+  "repo": "https://github.com/nitro2010/mesecons_soundblock",
+  "score": 7.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/xQqYzn1UMu.png",
+    "https://content.luanti.org/uploads/Lt0Ydk7a4n.png"
+  ],
+  "short_description": "Mesecons Soundblock",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/xQqYzn1UMu.png",
+  "title": "Mesecons Soundblock",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/nitro2012pl/mesecons_soundblock/releases/5149/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "Jeija/mesecons": [],
+    "nitro2012pl/mesecons_soundblock": [
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "bell07/whynot_game",
+          "BRNSystems/blocky_portaling",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0aci3abb3nvjw08gy9d4sz18qva4b1dhkskhmzyi9x6cx3746vmh"
+}

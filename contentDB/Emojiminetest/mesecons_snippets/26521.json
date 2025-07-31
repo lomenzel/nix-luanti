@@ -1,0 +1,104 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-08-10T01:25:12.712932",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 207,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/mesecons_snippets/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# Mesecons Snippet Button\n\nThis mod adds a [Mesecons](https://content.luanti.org/packages/Jeija/mesecons/) trigger for [snippets](https://content.luanti.org/packages/luk3yx/snippets/).",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "mesecons_snippets",
+  "provides": ["mesecons_snippets"],
+  "release": 26521,
+  "repo": "https://github.com/C-C-Minetest-Server/mesecons_snippets",
+  "score": 6.2,
+  "screenshots": ["https://content.luanti.org/uploads/37ca179028.jpg"],
+  "short_description": "Execute snippets with Mesecons",
+  "state": "APPROVED",
+  "tags": ["server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/37ca179028.png",
+  "title": "Mesecons Snippet Button",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/mesecons_snippets/releases/26521/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/mesecons_snippets": [
+      {
+        "is_optional": false,
+        "name": "snippets",
+        "packages": ["luk3yx/snippets"]
+      },
+      {
+        "is_optional": false,
+        "name": "snippets_buttons",
+        "packages": ["Emojiminetest/snippets_buttons"]
+      },
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "bell07/whynot_game",
+          "BRNSystems/blocky_portaling",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ],
+    "Emojiminetest/snippets_buttons": [
+      {
+        "is_optional": false,
+        "name": "snippets",
+        "packages": ["luk3yx/snippets"]
+      }
+    ],
+    "Jeija/mesecons": [],
+    "luk3yx/snippets": []
+  },
+  "hash": "0rrr03qkca25zv76ic3faxsq9msl93rlcn8syqrvphj71w7di8kn"
+}

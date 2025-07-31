@@ -1,0 +1,50 @@
+{
+  "author": "Elvis26",
+  "content_warnings": [],
+  "created_at": "2021-09-28T10:04:54.577766",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 1635,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/RyanZem/short_swords/issues/new/choose/",
+  "license": "CC-BY-SA-3.0",
+  "long_description": "# Short Swords\nA texture pack that makes swords short.",
+  "maintainers": ["Elvis26"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "short_swords",
+  "provides": [],
+  "release": 9387,
+  "repo": "https://github.com/RyanZem/short_swords",
+  "score": 7.7,
+  "screenshots": ["https://content.luanti.org/uploads/373a9f6512.png"],
+  "short_description": "A texture pack that makes swords short.",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/373a9f6512.png",
+  "title": "Short Swords",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Elvis26/short_swords/releases/9387/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Elvis26/short_swords": [] },
+  "hash": "1q1hg0mnlj6k3s473hfwff5q38cadn5ci2cp324xx91sx6lxpfm6"
+}

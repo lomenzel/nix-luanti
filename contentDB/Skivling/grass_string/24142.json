@@ -1,0 +1,86 @@
+{
+  "author": "Skivling",
+  "content_warnings": [],
+  "created_at": "2024-03-09T01:43:59.618621",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 692,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/Skivling/minetest_grass_string/issues",
+  "license": "MIT",
+  "long_description": "Adds grass string, made from 9 of any grass. You can craft grass string into normal string (`farming:string`) to use it in crafting recipes.\n\nThis mod was made because normally the only way to get string is to make it from cotton, which is really hard to find, and string is used so much I needed another way to get it. Hope you find it useful!",
+  "maintainers": ["Skivling"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "grass_string",
+  "provides": ["grass_string"],
+  "release": 24142,
+  "repo": "https://codeberg.org/Skivling/minetest_grass_string",
+  "score": 10.7,
+  "screenshots": ["https://content.luanti.org/uploads/365cebdbd1.png"],
+  "short_description": "Adds string made from grass, which can be converted into normal string.",
+  "state": "APPROVED",
+  "tags": ["crafting", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/365cebdbd1.png",
+  "title": "Grass String",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Skivling/grass_string/releases/24142/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Skivling/grass_string": [
+      {
+        "is_optional": false,
+        "name": "farming",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "UnbrokenUnworn/modular_portals",
+          "bell07/whynot_game",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "EmptyStar/asuna",
+          "MeseCraft/mesecraft",
+          "carlos_rupp/berzerkpt",
+          "miroptics/qiskitblocks_miro",
+          "Astrobe/minefall",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "TenPlus1/farming",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "TenPlus1/farming": []
+  },
+  "hash": "0n95k2g9sjbbbjqdqmcz0y7rvh0hpj5b76gi2j28nnpysz5pbchb"
+}

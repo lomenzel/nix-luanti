@@ -1,0 +1,66 @@
+{
+  "author": "ApolloX",
+  "content_warnings": [],
+  "created_at": "2021-07-09T17:06:46.209154",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2457,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Beanzilla/renewPack/issues",
+  "license": "MIT",
+  "long_description": "# Renew\n\nSelf-Repairing tools and armor pack\n\n## About\n\nThis mod supports MTG (via using 3d_armor) and also supports MineClone2. (Excluding the Shears & Elytra from MCL2)\n\n## Credits\n\n* mcl_armor textures with repaint (Original texture is based on the diamond armor set)\n* default mtg textures with repaint (Original textures from the iron/steel tool set)\n* `renew_plant:plant` texture by Pexels Dominika (Removed background and rescaled, repainted to form end result)\n* Original code idea from spacesuit (I found if you wanted to make the suit last a lot longer you could have it repair itself\n    while equip.)\n\n## Setup\n\nCurrently there are no easily adjustable settings... and the current settings I do have I manually fiddled with to make some what sane defaults.\n\nI do have some very rudimentary debug abilities, it simply dumps what slot it is, and the new durability (in raw) to the logs. (Unfortunately you will need to change it in both renew_tools and renew_armor in their init.lua files)\n\n## Usage\n\nJust make any of the tools and or armor this mod provides.\n\nTools repair while in your main inventory, not including crafting or armor slots.\n\nArmor can repair while in the main inventory but also includes the armor slots. (Yes, the armor can repair while worn)",
+  "maintainers": ["ApolloX"],
+  "media_license": "MIT",
+  "name": "renew_pack",
+  "provides": ["renew_armor", "renew_plant", "renew_tools"],
+  "release": 12879,
+  "repo": "https://github.com/Beanzilla/renewPack",
+  "score": 13.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/c01f6b33f3.png",
+    "https://content.luanti.org/uploads/29021a6488.png"
+  ],
+  "short_description": "Self Repairing tools and armor",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/c01f6b33f3.png",
+  "title": "Renew Pack",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ApolloX/renew_pack/releases/12879/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "ApolloX/renew_pack": [] },
+  "hash": "0kj9jmz0hdk7dvw5m50jkawpvl70mfk3f2cmsarymlyd03jhgvgk"
+}

@@ -1,0 +1,52 @@
+{
+  "author": "RasPiManiac",
+  "content_warnings": [],
+  "created_at": "2025-02-13T18:51:07.255857",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 152,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "This is a version of the Peaceful Pixels for rubenwardy's Capture the Flag. It is based slightly on Zughy's Soothing 32 but 8 pixels and more that 32 colors, just like my other regular Peaceful Pixels.",
+  "maintainers": ["RasPiManiac"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "peaceful_pixels_ctf",
+  "provides": [],
+  "release": 29708,
+  "repo": null,
+  "score": 9.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/bc5e0811f7.png",
+    "https://content.luanti.org/uploads/50fc076cfc.png"
+  ],
+  "short_description": "A version of Peaceful Pixels made for CTF (with landmines support!)",
+  "state": "APPROVED",
+  "tags": ["less_than_px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/bc5e0811f7.png",
+  "title": "Peaceful Pixels for CTF",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/RasPiManiac/peaceful_pixels_ctf/releases/29708/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "RasPiManiac/peaceful_pixels_ctf": [] },
+  "hash": "06p8n747m06dws7six9lr997gw0v543jsgbzhhrgdf65ynqg8x36"
+}

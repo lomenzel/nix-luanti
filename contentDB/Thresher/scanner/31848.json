@@ -1,0 +1,232 @@
+{
+  "author": "Thresher",
+  "content_warnings": [],
+  "created_at": "2025-06-26T19:24:56.023619",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 29,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=31781",
+  "forums": 31781,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Bituvo/scanner/issues",
+  "license": "LGPL-3.0-only",
+  "long_description": "# Scanner\n\nThis mod adds a machine that can read and write books.\n\n## Usage\n\nConfigure the node by setting a digiline channel and send it a table with the format `{command=\"command\", ...}`. The node has eight slots, each of which can hold either one book or one written book.\n\nFor each of the following commands, the keys `slot` and `slot1` can be used interchangably.\n\nWhenever data is written to a book, the author of the newly written book will be the one who placed the scanner that made it. This is to avoid forgeries.\n\n### Read\n\n```\n{\n    command = \"read\",\n    slot = 1 through 8\n}\n```\n\nA message will be sent back on the same channel containing the contents of the book as a table with fields `title`, `author`, `pages` (number), and `text`.\n\n### Write\n\n```\n{\n    command = \"write\",\n    title = \"title\",\n    text = \"book contents\"\n}\n```\n\nThis will overwrite any data already present in that slot. `text` has a limit of 40,000 characters.\n\n### Copy\n\n```\n{\n    command = \"copy\",\n    slot1 = 1 through 8,\n    slot2 = 1 through 8\n}\n```\n\nIf `slot1` is empty or contains an empty book, no data will be written to `slot2`. Otherwise, this will overwrite any data already present in `slot2`.\n\n### Swap\n\n```\n{\n    command = \"swap\",\n    slot1 = 1 through 8,\n    slot2 = 1 through 8\n}\n```\n\nThis will also work if either slot is empty.\n\n### Clear\n\n```\n{\n    command = \"clear\",\n    slot = 1 through 8\n}\n```\n\nThis will clear any data from a written book and replace it with an empty one.\n\n### Eject\n\n```\n{\n    command = \"eject\",\n    slot = 1 through 8\n}\n```\n\nThis will eject the book out of the left side. Note that the scanner will accept items from both the left and right.\n",
+  "maintainers": ["Thresher"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "scanner",
+  "provides": ["scanner"],
+  "release": 31848,
+  "repo": "https://github.com/Bituvo/scanner",
+  "score": 5.9,
+  "screenshots": ["https://content.luanti.org/uploads/c536136d7d.png"],
+  "short_description": "Lets you read and write books via digilines ",
+  "state": "APPROVED",
+  "tags": ["building_mechanics", "technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/c536136d7d.png",
+  "title": "Scanner",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Thresher/scanner/releases/31848/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "Thresher/scanner": [
+      {
+        "is_optional": false,
+        "name": "pipeworks",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "mt-mods/pipeworks",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero",
+          "rlars/occupymoon_game",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "mt-mods/pipeworks": [
+      {
+        "is_optional": false,
+        "name": "xcompat",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "BuckarooBanzay/super_sam",
+          "bell07/whynot_game",
+          "mt-mods/xcompat",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fakelib",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero",
+          "mt-mods/dreambuilder_game",
+          "OgelGames/fakelib"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "basic_materials",
+        "packages": [
+          "mt-mods/basic_materials",
+          "joe7575/techage_modpack",
+          "BuckarooBanzay/mesecons_lab",
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "rlars/occupymoon_game"
+        ]
+      }
+    ]
+  },
+  "hash": "0xxni1z83zzhjsly0pdk53n76prca1pdbxznx525dvx1w6plqa6d"
+}

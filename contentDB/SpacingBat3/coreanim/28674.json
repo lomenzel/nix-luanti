@@ -1,0 +1,89 @@
+{
+  "author": "SpacingBat3",
+  "content_warnings": [],
+  "created_at": "2024-08-18T11:38:47.436383",
+  "dev_state": "WIP",
+  "donate_url": "https://github.com/sponsors/SpacingBat3",
+  "downloads": 533,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Amaz",
+        "name": "lordofthetest",
+        "release": 28811,
+        "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
+        "title": "Lord of the Test",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/SpacingBat3/MT-CoreAnim/issues",
+  "license": "ISC",
+  "long_description": "# [CoreAnim](https://github.com/SpacingBat3/MT-CoreAnim)\n---\n\nInterpolated animation modpack, using Luanti 5.9+ API with backwards compatible syntax.\n\n## About the modpack\n\nThis modpack contains library that wraps new [`ObjectRef:set_bone_override`](https://api.minetest.net/class-reference/#:~:text=set_bone_override(bone%2C%20override)) API into the backwards-compatible function with [`ObjectRef:set_bone_position`](https://api.minetest.net/class-reference/#:~:text=set_bone_position(%5Bbone%2C%20position%2C%20rotation%5D)) and aims to generalise animation API, so you may use it for bone-based animations as you please.\n\nThe [API](https://github.com/SpacingBat3/MT-CoreAnim/blob/master/API.md) is still being worked on, so it may have a breaking changes for any kind of extensions to [`ObjectRef:set_bone_position`](https://api.minetest.net/class-reference/#:~:text=set_bone_position(%5Bbone%2C%20position%2C%20rotation%5D)) API. It may take a modders' opinions to stabilize itself.\n\n## Goals (and TODOs):\n\n🗹 Provide interpolated bone-based animations for players' heads.\n\n🗹 Basic compatibility with other mods and games, by not overwritting other bones animations and avoiding game-specific APIs.\n\t\n> **Note**: This means, I do not plan to implement anything that is not hardly dependant on `default` and `player_api` mods, those may be an optional dependencies, but should not be used for the core part of the mod.\n\n🗹 Try to provide a backwards compatibility API, so bone overwrite mechanism is generalised and uses older API for older clients.\n\n🗹 Consider making this a modpack over a single mod, to modularise it a bit and to alow to provide this as a library with backwards compatible syntax.\n\n🗹 Consider replacing the official (engine) API once the modpack is activated, or find another way to make older mods use this over old API calls.\n\n☐ Avoid *game exceptions*, *rule exceptions* etc. Make code generic enough so it can figure out any abnormalities on its own.\n  > **Note**: The idea of this point is to make animations as much fitting into other games than MTG as possible. Some stuff however may be limited, due to conflicts with the game animations.\n\n☐ Provide *monoids* API to resolve conflicts between game and mod animations.\n    \n## License\n\nThis project is distributed under the terms of ISC license, distributed as [`COPYING`](https://github.com/SpacingBat3/MT-CoreAnim/blob/master/COPYING) file. Under no circumstances shall this project be distributed without the license file, or shared in any way that violates license terms and conditions.",
+  "maintainers": ["SpacingBat3"],
+  "media_license": "ISC",
+  "name": "coreanim",
+  "provides": ["coreanim_compat", "coreanim_core", "coreanim_head"],
+  "release": 28674,
+  "repo": "https://github.com/SpacingBat3/MT-CoreAnim",
+  "score": 6.3,
+  "screenshots": ["https://content.luanti.org/uploads/d422370aac.png"],
+  "short_description": "Interpolated animation modpack, using Luanti 5.9+ API with backwards compatible syntax.",
+  "state": "APPROVED",
+  "tags": ["library", "skins"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d422370aac.png",
+  "title": "CoreAnim",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SpacingBat3/coreanim/releases/28674/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "SpacingBat3/coreanim": [] },
+  "hash": "0nw0br1s3wm186n9a2zdjjvcwxn4gp1d46f38ln8dizwrrlkj8ic"
+}

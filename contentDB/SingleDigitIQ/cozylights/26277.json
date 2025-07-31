@@ -1,0 +1,188 @@
+{
+  "author": "SingleDigitIQ",
+  "content_warnings": [],
+  "created_at": "2024-07-18T01:51:38.685113",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 877,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30776",
+  "forums": 30776,
+  "game_support": [
+    {
+      "confidence": 10,
+      "game": {
+        "author": "regulus",
+        "name": "regulus_mtgamejam_2023",
+        "release": 27632,
+        "short_description": "Recover the crystal and bring light back into the world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/4e29904768.png",
+        "title": "The Velvet Crystal",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "tutorial",
+        "release": 28723,
+        "short_description": "Learn how to play.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/156cbe1636.png",
+        "title": "Tutorial",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 30814,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/40f8802c3d.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30336,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - Hidden Mysteries Update",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/SingleDigitIQ/cozylights/issues",
+  "license": "MIT",
+  "long_description": "# Cozy Lights\nEarly alpha, but at least [NotSoWow](https://www.instagram.com/notsowow_), [Sumi](https://content.luanti.org/users/Sumianvoice/), [MisterE](https://content.luanti.org/users/MisterE/), [Agura](https://www.twitch.tv/xagurax) and Sharp have expressed curiosity, that already makes six of us, good enough for release. Feedback, suggestions, bug reports are very welcome. Somebody please also provide feedback for GUI in particular on mobile, is it usable at all? At this dev stage Cozy Lights can be good for builders in creative mode, singleplayer survival is ok too, multiplayer is not recommended unless it's just schematics with cozylights on a server without all other functionality, I am working on making it usable in creative multiplayer\n\n**Light sources illuminate bigger area with default settings:**\n\n![](https://raw.githubusercontent.com/SingleDigitIQ/media/main/cozy_nodecore.gif)\n\nVoxel light maps are a complete game changer - it is almost like going from 2d to 3d in terms of depth. You now have 14 shades for every visible building block, and it does not have to register 14 versions of every building block. Cobble only challenge has got a whole lot easier, something fun to look at with the least fun texture is possible now with just this mod :> Btw, disabling smooth lighting can make for an interesting aesthetic in some cases. Btw, nothing stops you from using cozy lights schematics on multiplayer servers.\n\nYou can also build these lights just like you do with any structures, in other words, place invisible blocks of light of all possible engine light levels block-by-block. Tools are coming soon to make this process more user-friendly, right now you will need to make them visible and interactable in debug mode.\n\n**Cozy wielded light:**\n\n![](https://raw.githubusercontent.com/SingleDigitIQ/media/main/wielded_cozy_light_compressed.gif)\n\n## WARNING\n\n**1. after removing Cozy Lights from your world you will be left with spheres of unknown nodes. Easiest could be to reenable the mod and call ```/clearlights``` in all locations Cozy Lights are active.**\n\n**2. if you have override_engine_lights enabled(a setting which makes light distribution prettier), then in case you ever remove Cozy Lights mod from your world, you will be left with broken lights. To fix it, you will need to use the mod fixmap or anything that updates/fixes engine lights. override_engine_lights is disabled by default, so it should be safe.**\n\n## Known issues\n\n1. worldedit:placeholder nodes can prevent light map from generating correctly and this currenly happens without notice or options provided. Current workaround is to define a worldedit region and run ```//replace worldedit:placeholder air``` before adding lights to the scene. There can be other invisible nodes from some mods and games which would interfere with light map.\n\n2. Nodecore dynamic lights do not update cozy light map after changing charge.\n\n4. Cozy Lights together with K Ambient Light are not recommended until resolved.\n\n*For what it does it's quite fast, it is supposed to somehow get even faster. I have recently discovered that my CPU is 10(!) years old and it's actually usable on my PC. Would appreciate if somebody with a beast PC would try this mod out and post a couple of benchmarks, and also if some phone poster will try to do the same*\n\n\n## Supported mods and games\n\nOn paper it's everything on contentdb published before cozy lights were published, but its early alpha, so something might not work properly yet. It's not just popular ones, actually no idea how many it supports, some of them are not even on ContentDB.\n\nIf a mod or a game you like is not supported or there are some problems, tell me, I will see what can be done. You can just drop a list of mods you have issues with in review. Eventually cozy lights' support will attempt to balance the overall feel and look of the game with meticulous consideration, but we are not at that stage yet.\n\n## Light Brush\nNot craftable, available only in creative as of now.\n![](https://raw.githubusercontent.com/SingleDigitIQ/media/main/light_brush_early_alpha_optimized.gif)\n\n*Click or hold left mouse button* to draw light with given settings. Light Brush' reach is 100 nodes, so you can have perspective. Note: with radiuses over 30 nodes as of now only mouse click works, and mouse hold won't have any effect.\n\n*On right click* Light Brush settings menu opens. The menu has hopefully useful tooltips for each setting. You can set radius, brightness, strength and draw mode. There are 6 draw modes so far: default, erase, override, lighten, darken and blend.\n\n![](https://raw.githubusercontent.com/SingleDigitIQ/media/main/concise_light_brush_settings_smol.jpg)\n\n## Chat Commands\n\n```/cozysettings``` or ```/zs``` opens a global settings menu for cozy lights, here you can adjust node light sources like torches, meselamps, fireflies, etc to make it work better with potato or make light reach mad far and stuff. Some settings which you can find in Minetest game settings for the mod are still not present here(like override_engine_lights which makes everything nicer). These changes persist after exiting and re-entering the world again.\n\n![](https://raw.githubusercontent.com/SingleDigitIQ/media/main/cozysettings_or_zs_smol.jpg)\n\nCurrently max radius is 120 for commands below, if your value is invalid it will adjust to closest valid or report an error. Eventually max radius will be much higher. \n\n```/clearlights <number>``` removes invisible light nodes in area with specified radius. Helpful to remove lights created with light brush. Example usage: ```/clearlights 120```\n\n```/rebuildlights <number>``` rebuilds light map in an area with specified radius. Useful in case you changed the settings or accidentally broke some lights by other commands or by mining in debug. This can be slow if there are lots of light sources in the area with far reaching light. Example usage: ```/rebuildlights 40```\n\n```/fixedges <number>``` fixes obstacles' opposite edges for light map in an area with specified radius. Default algorithm sacrifices accuracy for speed, because of that the lights can still go through diagonal walls if they are only one node thick, and as of now they can sometimes light up an edge(1 block from a corner) of the opposite side of an obstacle. With this command you are supposed to be able to fix it, but currently it's weird, broken. You can use it but the result wont necessarily look good.\n\n```/cozydebugon <number>``` makes all cozy light nodes visible and interactable in an area with a specified radius. With it you can also basically build lights just as you would with any other structures before the tools for that are available.\n\n```/cozydebugoff <number>``` makes all cozy light nodes invisible and non-interactable again in an area with a specified radius.\n\n```/optimizeformobile <number>``` removes all cozy light nodes which do not touch a surface of some visible node, like cobble for example. It is maybe useful, because default algo spreads light in a sphere and lights up the air above the ground too, which might be a bit challenging for potato and mobile to render reliably, they might experience FPS drops. Good if you are building a schematic for a multiplayer server. This option might slightly decrease the quality of light map, basically might make some places darker.\n\n```/spawnlight <brightness float> <reach_factor float> <dim_factor float>``` spawn a light at your position which does not use user friendly light brush algo, but ambient light algo.\n\n```/daynightratio <ratio float>``` change Minetest engine day_night_ratio for the player who used the command. ```0``` is the darkest night possible, you can observe how dark it can be on the screenshots, was useful in testing, probably will help with building too. ```1``` is the brightest possible day. Some gradations in between are maybe under appreciated and seem pretty moody, I guess that would depend on a texture pack.\n\n```/cozyadjust <size number> <adjust_by number> <keep_map number>``` change brightness of all cozy light nodes by adjust_by value in the area of size. Adjust_by can be negative. Keep_map is 1 by default and can be omitted, when it's 1 and adjust_by will result in a value out of bounds of 1-14(engine light levels) even for one node in the area, the command will revert(have no effect at all), so that light map will be preserved. If you are ok with breaking light map, type 0 for keep_map.\n\n``` /uncozymode <number>``` - calls clear lights continuously at all players' positions in an area with provided radius. When done, you can disable it by typing ```/cozymode``` or go to ```/cozysettings``` and adjust there\n\nMemorizing shortcuts for all commands is supposed to be easy, they attempt to follow a convention:\n\n```zcl``` - clearlights\n\n```zrl``` - rebuildlights\n\n```zfe``` - fixedges\n\n```zdon``` - cozydebugon\n\n```zdoff``` - cozydebugoff\n\n```zofm``` - optimizeformobile\n\n```zsl``` - spawnlight\n\n```zs``` - cozysettings\n\n```zdnr``` - daynightratio\n\n```za``` - cozyadjust\n\n## For Developers\n\nThere are like I think 5 algo versions of drawing lights or I refactored that, because I never heard of DRY, never happened. All algos sacrifice accuracy for speed and miss some nodes for huge spheres.\n\n*Plans for API:*\n\n- You will be able to override cozylights' global step, disable it and call it from your global step\n\n- You will be able to override any defaults\n\n- Register unique settings for specific nodes\n\nLICENSE\n\nMIT+(you are not legally allowed to infect it with GPL, AGPL or EUPL) for my code, will appreciate reasonable attribution\n\nSchematics for screenshots: FB_frosthold.mts by MisterE and coloseum.we by AMMOnym, angel statue is by Wyvern :>\n\nA texture from MTG, which will be eventually replaced: default_glass.png is by Krock (CC0 1.0)\n\nmy debug textures are WTFPL if anything",
+  "maintainers": ["SingleDigitIQ"],
+  "media_license": "CC0-1.0",
+  "name": "cozylights",
+  "provides": ["cozylights"],
+  "release": 26277,
+  "repo": "https://github.com/SingleDigitIQ/cozylights",
+  "score": 12.1,
+  "screenshots": [
+    "https://content.luanti.org/uploads/4f93097e9a.png",
+    "https://content.luanti.org/uploads/fc4df889e5.png",
+    "https://content.luanti.org/uploads/a5844ec323.jpg",
+    "https://content.luanti.org/uploads/7f8947708d.jpg",
+    "https://content.luanti.org/uploads/80e50c80d7.png",
+    "https://content.luanti.org/uploads/47d06c8fb3.png",
+    "https://content.luanti.org/uploads/9645fa1e02.png",
+    "https://content.luanti.org/uploads/aed2c632c9.png",
+    "https://content.luanti.org/uploads/362de1072f.png",
+    "https://content.luanti.org/uploads/d6f7fcf89c.png",
+    "https://content.luanti.org/uploads/9761d1068f.png"
+  ],
+  "short_description": "Early alpha. Improves the way light sources(torches etc) behave and allows to create huge lights, literal projectors with just a mouse click, light map will be computed for you.",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "building_mechanics",
+    "creative",
+    "decorative",
+    "environment",
+    "mapgen",
+    "singleplayer",
+    "world_tools"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/4f93097e9a.png",
+  "title": "Cozy Lights",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/SingleDigitIQ/cozylights/releases/26277/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/SingleDigitIQ/cozylights",
+  "dependencies": { "SingleDigitIQ/cozylights": [] },
+  "hash": "0y0c62678kp89cj435s2sm8l073580g2kvddfxsk26dpmy4hhirg"
+}

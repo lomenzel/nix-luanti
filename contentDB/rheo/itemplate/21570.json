@@ -1,0 +1,69 @@
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-10-28T22:47:12.514857",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 790,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-itemplate/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# itemplate\n\nitemframe that's a plate\n",
+  "maintainers": ["rheo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "itemplate",
+  "provides": ["itemplate"],
+  "release": 21570,
+  "repo": "https://github.com/fluxionary/minetest-itemplate.git",
+  "score": 7.1,
+  "screenshots": ["https://content.luanti.org/uploads/fb2c1f5d7c.png"],
+  "short_description": "itemframe that's a plate",
+  "state": "APPROVED",
+  "tags": ["decorative"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fb2c1f5d7c.png",
+  "title": "itemplate",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/itemplate/releases/21570/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-itemplate",
+  "dependencies": {
+    "TenPlus1/itemframes": [],
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ],
+    "rheo/itemplate": [
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": ["rheo/futil", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "itemframes",
+        "packages": [
+          "NotaB/tolkientest",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "TenPlus1/itemframes",
+          "mt-mods/homedecor_modpack",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ]
+  },
+  "hash": "1dl3a2zff4d500hh6ygjkrq10rd6pfgipr874hhdh4zpny74c0jm"
+}

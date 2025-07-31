@@ -1,0 +1,132 @@
+{
+  "author": "InfiniteCoder01",
+  "content_warnings": [],
+  "created_at": "2025-01-08T09:39:18.466193",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 74,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# No Melterns, no tools\nYou can't craft tools without [melters](https://github.com/InfiniteCoder01/melterns) now (my fork is necessary). Progression becomes harder.\nMod is in beta. i3 and awards are highly recommended, orient on the awards and recipes\n",
+  "maintainers": ["InfiniteCoder01"],
+  "media_license": "CC0-1.0",
+  "name": "no_melterns_no_tools",
+  "provides": ["no_melterns_no_tools"],
+  "release": 29265,
+  "repo": "https://github.com/InfiniteCoder01/no_melterns_no_tools",
+  "score": 4.6,
+  "screenshots": ["https://content.luanti.org/uploads/c9c443c2b3.png"],
+  "short_description": "You can't craft tools without melters now. Progression becomes harder",
+  "state": "APPROVED",
+  "tags": ["crafting", "storage", "survival", "technology", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/c9c443c2b3.png",
+  "title": "No Melterns, no tools",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/InfiniteCoder01/no_melterns_no_tools/releases/29265/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "IcyDiamond/melterns": [
+      {
+        "is_optional": false,
+        "name": "fluid_tanks",
+        "packages": ["IcyDiamond/fluid_lib"]
+      },
+      {
+        "is_optional": false,
+        "name": "fluid_lib",
+        "packages": ["IcyDiamond/fluid_lib"]
+      },
+      {
+        "is_optional": false,
+        "name": "bucket_compat",
+        "packages": ["IcyDiamond/fluid_lib"]
+      }
+    ],
+    "InfiniteCoder01/no_melterns_no_tools": [
+      {
+        "is_optional": false,
+        "name": "tinkering",
+        "packages": ["IcyDiamond/melterns"]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      }
+    ]
+  },
+  "hash": "12gwfm27y164xsl7vk49dnvmdrvmpavsr3a2rfvf6jb9hd3r55kw"
+}

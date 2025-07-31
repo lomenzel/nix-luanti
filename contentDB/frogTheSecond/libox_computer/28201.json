@@ -1,0 +1,198 @@
+{
+  "author": "frogTheSecond",
+  "content_warnings": [],
+  "created_at": "2024-05-28T19:43:48.394990",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 411,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BRNSystems",
+        "name": "blocky_portaling",
+        "release": 16327,
+        "short_description": "Work in Progress. A WIP game based on AiTechEye's portalgun",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/c01dd4b01d.png",
+        "title": "Blocky portaling",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/TheEt1234/libox_computer/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Libox_computer\n\n### A mod that has  \n##### Libox laptop  \n A sort of... luacontroller i guess you could say... with a digistuff touchscreen on top  \n Inspired by the lwcomputers mod, `but without the horrible text inputting` and without the filesystem stuff\n\n##### Libox robot\n Like the libox laptop, but has an inventory and can interract with the world\n\n# Differences from luacontroller\n\n- The sandbox is inside a *coroutine*\n  - What that means is you can stop the sandbox at any time, and resume from that point\n  - This is how the libox computer handles events\n  - When the sandbox errors or stops, it dies\n- If the sandbox is not found (say, during a digiline or a gui event) then it will \"wake up\"\n  - What that means is it will start the sandbox again, `mem` will still be kept as it was before, you can't kill and start sandboxes in a short time frame, limit is configured by settings\n- Has the [mt-mod's digistuff touchscreen protocol](https://github.com/mt-mods/digistuff/blob/master/docs/touchscreen.md) built in\n  - And has even some extra commands\n- Uses libox, and environment is mostly handled by libox\n  - This means you get extra stuffs to play with and also the sandbox is limited by time, not instructions\n- Attempts to do coroutine sandboxes securely\n  - But minetest mod security doesn't allow us to weigh the local variables and upvalues of the environment, so libox needs to be a trusted mod for that to work (optional)\n\n\n**More in [DOCS.md](https://github.com/TheEt1234/libox_computer/blob/master/DOCS.md)**\n\n# Support\n\n- mesecons_debug: limiting works fully because this mod uses mesecon queue, no extra things needed\n- mesecons: only uses it for some utility functions (like mesecon queue and heat), doesn't support mesecons I/O\n- digilines: the laptop has digilines I/O\n- luatool: All luatool's features are supported here\n- wrench: You can pick it up with a wrench\n- pipeworks: Robot uses pipeworks for inventory automation (receiving/sending items)\n\n### This mod uses code from other mods, see [LICENSE.md](https://github.com/TheEt1234/libox_computer/blob/master/LICENSE.md)\n\n\n# Todos (not in order)\n\n- better code\n- T E S T S\n- maybe more robot features (autocrafting :?)\n\n\n# Common troubleshooting\n- The sandbox doesn't weigh local variables\n    - You need to add libox to trusted mods for it to expose and use `debug.getlocal` and `debug.getupvalue` and use those to weigh the sandbox\n\n# What wont be happening\n- mesecon interraction: i feel like it would be too complicated to rewrite the code to support that at this point\n- setfenv/getfenv: i am afraid of messing that up... like that could lead to some actual full minetest server control\n- metatables: you can hide values inside them, oh and `getmetatable()` is not that fast so weighing things would be slow *(needs to be verified actually)*, and also i just feel like they can be used to do some nasty stuff\n\n# What to report as a bug\n\n- If it's not covered in the common troubleshooting page and feels un-intended or abusable, then please report it as a bug\n- If you can hide some data inside userdata, ***it's a bug***\n    - if you obtain userdata that you can write unlimited data to directly, it's probably a bug\n\n# Things open to discussion\n- The crafing recipe **CURRENTLY LACKS A CRAFTING RECIPE**\n- The defaults\n- The looks\n- ok really anything...",
+  "maintainers": ["frogTheSecond"],
+  "media_license": "GPL-3.0-only",
+  "name": "libox_computer",
+  "provides": ["libox_computer"],
+  "release": 28201,
+  "repo": "https://github.com/TheEt1234/libox_computer",
+  "score": 6.3,
+  "screenshots": ["https://content.luanti.org/uploads/8d8b4992c7.png"],
+  "short_description": "Adds a sandboxed lua controlled laptop and a robot",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/8d8b4992c7.png",
+  "title": "Libox Computer",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/frogTheSecond/libox_computer/releases/28201/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Jeija/digilines": [],
+    "Jeija/mesecons": [],
+    "frogTheSecond/libox": [],
+    "frogTheSecond/libox_computer": [
+      {
+        "is_optional": false,
+        "name": "mesecons",
+        "packages": [
+          "1248/regnum",
+          "BuckarooBanzay/mesecons_lab",
+          "Noodlemire/voxeldungeon",
+          "nam/porko",
+          "bell07/whynot_game",
+          "BRNSystems/blocky_portaling",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "Jeija/mesecons",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "libox",
+        "packages": ["frogTheSecond/libox", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "digilines",
+        "packages": [
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "BRNSystems/blocky_portaling",
+          "Jeija/digilines",
+          "MeseCraft/mesecraft",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game"
+        ]
+      }
+    ]
+  },
+  "hash": "1hghj608kdidsg3i2s738qafydgxbzfyqww8i8w7s7xs0h68zy64"
+}
