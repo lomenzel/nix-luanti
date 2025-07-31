@@ -1,0 +1,70 @@
+{
+  "author": "fatalerror420",
+  "content_warnings": [],
+  "created_at": "2024-05-27T21:30:29.864700",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 9824,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "## ATTENTION: DISABLE VIEW BOBBING FOR BEST EXPERIENCE\n# Adds four unique weapons!\nThis mod is meant to add a variety of weapons from western nations, it will be one of several gun packs adding various weapons\n\n* M4 rifle with multiple firemodes (burst and semi)\n* bolt action AWM sniper rifle fully equiped with animations for reloading and rechambering\n* Semi automatic M1014 shotgun, reloading incrementally (incredibly satisfying)\n* Glock21 pistol\n\nFor bug reports and additional information on features and controls, see https://content.luanti.org/packages/fatalerror420/guns4d/ ",
+  "maintainers": ["fatalerror420"],
+  "media_license": "Other (Free/Open)",
+  "name": "guns4d_pack_1",
+  "provides": ["guns4d_pack_1"],
+  "release": 29366,
+  "repo": "https://github.com/FatalistError/guns4d_pack_1",
+  "score": 706.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/906d91c0d9.jpg",
+    "https://content.luanti.org/uploads/5729b19df8.jpg",
+    "https://content.luanti.org/uploads/e2b1e54211.jpg",
+    "https://content.luanti.org/uploads/26d214de59.jpg"
+  ],
+  "short_description": "(currently) adds 4 unique weapons",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/906d91c0d9.png",
+  "title": "Gun pack 1 - Western weapons",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/fatalerror420/guns4d_pack_1/releases/29366/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "fatalerror420/guns4d": [
+      {
+        "is_optional": false,
+        "name": "leef_filesystem",
+        "packages": ["fatalerror420/leef_filesystem"]
+      },
+      {
+        "is_optional": false,
+        "name": "leef_class",
+        "packages": ["fatalerror420/leef_class"]
+      },
+      {
+        "is_optional": false,
+        "name": "leef_b3d",
+        "packages": ["fatalerror420/leef_b3d"]
+      },
+      {
+        "is_optional": false,
+        "name": "leef_math",
+        "packages": ["fatalerror420/leef_math"]
+      }
+    ],
+    "fatalerror420/guns4d_pack_1": [
+      {
+        "is_optional": false,
+        "name": "guns4d",
+        "packages": ["fatalerror420/guns4d"]
+      }
+    ]
+  },
+  "hash": "08ssvgm79j4p6y1kxkd1nliqykl3888fnawgzc8z5g7gh905xfdp"
+}

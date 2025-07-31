@@ -1,0 +1,52 @@
+{
+  "author": "drkwv",
+  "content_warnings": [],
+  "created_at": "2019-05-08T19:27:36.576997",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 5676,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=14296",
+  "forums": 14296,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/aa6/minetest_wadsprint/issues",
+  "license": "AGPL-3.0-only",
+  "long_description": "**How to use**\n\n1. Press A and D simultaneously to trigger the `ready_to_sprint` state. \n2. Then press W to start sprinting/running.\n3. Release A and D (keep W pressed) and continue sprinting until the stamina runs out.\n\n**Development / Issues**\n\n[https://github.com/aa6/minetest_wadsprint](https://github.com/aa6/minetest_wadsprint)",
+  "maintainers": ["drkwv"],
+  "media_license": "AGPL-3.0-only",
+  "name": "minetest_wadsprint",
+  "provides": ["minetest_wadsprint"],
+  "release": 31353,
+  "repo": "https://github.com/aa6/minetest_wadsprint",
+  "score": 324.7,
+  "screenshots": [
+    "https://content.luanti.org/uploads/uDEOxuz3G5.png",
+    "https://content.luanti.org/uploads/HPlTqE1k4Q.png"
+  ],
+  "short_description": "Sprinting/running with W, A and D buttons.",
+  "state": "APPROVED",
+  "tags": ["player_effects"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/uDEOxuz3G5.png",
+  "title": "Wadsprint",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/drkwv/minetest_wadsprint/releases/31353/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "drkwv/minetest_wadsprint": [] },
+  "hash": "0bjylfxk2dh5zfcnn3g80lqjwwz14ci5pqi5c5kq44qgxhbk8agp"
+}

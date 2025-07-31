@@ -1,0 +1,469 @@
+{
+  "author": "ElCeejo",
+  "content_warnings": [],
+  "created_at": "2019-04-03T22:14:12.761970",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": "https://www.patreon.com/ElCeejo",
+  "downloads": 18673,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22253",
+  "forums": 22253,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "carlos_rupp",
+        "name": "berzerkpt",
+        "release": 29351,
+        "short_description": "Work in Progress. Action game in ancient Egypt.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/711d9f2b73.png",
+        "title": "Berzerkpt",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "TheFanne",
+        "name": "raining_nodes",
+        "release": 1787,
+        "short_description": "Survive in a strange world where nodes constantly rain down from the sky!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/VgGn91cicQ.png",
+        "title": "Raining Nodes",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "JavaFXpert",
+        "name": "qiskitblocks",
+        "release": 5212,
+        "short_description": "Teaching Quantum Computing using Qiskit in a block world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/r9yczgJPla.png",
+        "title": "QiskitBlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Big_Caballito",
+        "name": "no_mans_land",
+        "release": 8685,
+        "short_description": "Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
+        "title": "No Man's Land",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["matdombrock/wyrm_cube"],
+        "author": "Replicat",
+        "name": "wyrm_cube",
+        "release": 31620,
+        "short_description": "Find the Wyrm Cubes and save yourself! Inspired by an 80's anime.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ea71397554.png",
+        "title": "Wyrm Cube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 32008,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "miroptics",
+        "name": "qiskitblocks_miro",
+        "release": 26302,
+        "short_description": "Work in Progress. Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
+        "title": "QuantumBuilder - a QiskitBlocks fork",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "castrum",
+        "release": 4788,
+        "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/68ovEdgCu3.png",
+        "title": "Castrum",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/ElCeejo/paleotest/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "PaleoTest adds various prehistoric creatures and plants to Minetest Game. This mod aims for a Zoo Tycoon type experience, with creatures being capable of escaping and players having to ensure their Dinosaurs mood and hunger don't drop too low.\n\n# Dinosaurs\n- Tyrannosaurus\n- Spinosaurus\n- Carnotaurus\n- Velociraptor\n- Brachiosaurus\n- Triceratops\n- Stegosaurus\n\n# Mammals\n- Mammoth\n- Elasmotherium\n- Procoptodon\n- Smilodon\n- Thylacoleo\n\n# Reptiles\n- Mosasaurus\n- Elasmosaurus\n- Pteranodon\n- Sarcosuchus\n\n# Fish\n- Dunkleosteus\n\n# Plants\n- Cycad\n- Horsetails\n- Metasequoia \n\n---\n\n# Caring for animals:\n\n### Mood\n\nA mobs mood is important to keep track of. If it gets too low the mob will become aggressive towards it's owner and won't obey orders, and some larger mobs may destroy blocks (if the option is enabled). To keep mobs happy, include a Scratching Post and/or Pursuit Ball in their enclosure.\n\n### Hunger\n\nA mobs hunger is also important. If it gets too low the mob will begin taking damage until it reach about 1/3 it's maximum health, and it's mood will begin to lower. To keep mobs fed you can feed them by hand or keep a Feeder in their enclosure. Mobs have differing diets so it's important to make sure you have the right feeder in their enclosure. To check the mobs diet, right-click it with the Prehistoric Field Guide.\n\n---\n\n# Cloning Mobs\n\n### Getting Fossils\n\nThe first step in cloning a PaleoTest mob is getting Fossils. Fossils spawn somewhat deep underground and drop a variety of items when dug. The item you want to clone a mob are Fossils or Ancient Bones\n\n### Getting DNA\n\nOnce you have Fossils or Ancient Bones you can attempt to get DNA.  To get DNA you'll need the Fossil Analyzer. Once you've obtained the Fossil Analyzer, you can insert Fossils or Ancient Bones and wait a few seconds for it to finish analyzing. Once this is finished, the output can be a few different items, most of the time you'll get Sand or Gravel, but if you're lucky you'll get DNA.\n\n### Turning DNA into a mob\n\nNow that you have DNA, you'll need a DNA Cultivator. Once you've obtained the DNA Cultivator, you can insert the DNA and it will begin cultivating. After a few seconds you'll have one of three possible item types: Egg, Embryonic Sac, and Syringe.\n\n### Eggs\n\nEggs can be hatched by placing them down next to any block that light levels equal to a torch. You can monitor the eggs progress with the Prehistoric Field Guide. After a while the egg will begin to move. Shortly after that, the egg will hatch.\n\n### Embryonic Sacs\n\nEmbryonic Sacs are simple, just right-click the ground and the mob will pop out.\n\n### Syringes\n\nSyringes are used by right-clicking a supported surrogate mob (currently only supports a few mammals from petz). Once you've right-clicked the surrogate you can monitor the pregnancy progress with the Prehistoric Field Guide. After a while the mob will be born.\n\n---\n\n# Supported Mods\n\n### Petz\nCertain creatures from Petz can be impregnated via syringe and all meats from petz can be used as food\n\n### Mobs Redo\nMeat from Mobs Redo can be used as food\n\n---\n",
+  "maintainers": ["ElCeejo"],
+  "media_license": "GPL-3.0-only",
+  "name": "paleotest",
+  "provides": ["paleotest"],
+  "release": 6612,
+  "repo": "https://github.com/ElCeejo/paleotest",
+  "score": 986.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/rZckYC4FfU.png",
+    "https://content.luanti.org/uploads/z0UxVC9AiZ.png"
+  ],
+  "short_description": "Adds Prehistoric Fauna and Flora to Minetest Game",
+  "state": "APPROVED",
+  "tags": [
+    "building",
+    "crafting",
+    "education",
+    "environment",
+    "mobs",
+    "plants_and_farming",
+    "pve",
+    "technology"
+  ],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/rZckYC4FfU.png",
+  "title": "PaleoTest",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ElCeejo/paleotest/releases/6612/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ElCeejo/paleotest": [
+      {
+        "is_optional": false,
+        "name": "walls",
+        "packages": [
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "sunnysideup/holidayhorrors",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "1248/castrum",
+          "MeseCraft/mesecraft",
+          "carlos_rupp/berzerkpt",
+          "EmptyStar/asuna",
+          "miroptics/qiskitblocks_miro",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "Big_Caballito/no_mans_land",
+          "Casimir/voxelgarden",
+          "TheFanne/raining_nodes",
+          "PetiAPocok/minetest_extended",
+          "mt-mods/dreambuilder_game",
+          "hilol/epic_combat",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mob_core",
+        "packages": ["talas/colourhop", "mt-mods/mob_core"]
+      },
+      {
+        "is_optional": false,
+        "name": "mobkit",
+        "packages": [
+          "benrob0329/ikea",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "talas/colourhop",
+          "wsor4035/minekart",
+          "Mantar/exile",
+          "mt-mods/mobkit",
+          "Lone_Wolf/voxel_knights",
+          "Replicat/wyrm_cube",
+          "nurd3/ul_game",
+          "wsor4035/farlands_reloaded",
+          "covertiii/mogue"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "stairs",
+        "packages": [
+          "TenPlus1/stairs",
+          "1248/regnum",
+          "Noodlemire/voxeldungeon",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "rheo/moreblocks",
+          "1248/castrum",
+          "NotaB/tolkientest",
+          "EmptyStar/asuna",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "mt-mods/blockcolor",
+          "Luanti/devtest",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "KareaGhandTrail/block_assault",
+          "Mantar/exile",
+          "Replicat/wyrm_cube",
+          "Kimapr/nonsensical_skyblock",
+          "JavaFXpert/qiskitblocks",
+          "zanderdev/skyblock_zero",
+          "jgordon510/gridlocks",
+          "Big_Caballito/no_mans_land",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "Hanuko33/libre_adventure3",
+          "hilol/epic_combat",
+          "mt-mods/dreambuilder_game",
+          "jara25/yams",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      }
+    ],
+    "TenPlus1/stairs": [],
+    "mt-mods/mob_core": [
+      {
+        "is_optional": false,
+        "name": "mobkit",
+        "packages": [
+          "benrob0329/ikea",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "talas/colourhop",
+          "wsor4035/minekart",
+          "Mantar/exile",
+          "mt-mods/mobkit",
+          "Lone_Wolf/voxel_knights",
+          "Replicat/wyrm_cube",
+          "nurd3/ul_game",
+          "wsor4035/farlands_reloaded",
+          "covertiii/mogue"
+        ]
+      }
+    ],
+    "mt-mods/mobkit": []
+  },
+  "hash": "0nhycnj4zn8nc2qa7714a4qs9wqs0bkpcjykqknp1i0150zall2i"
+}

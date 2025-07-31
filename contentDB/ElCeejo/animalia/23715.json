@@ -1,0 +1,58 @@
+{
+  "author": "ElCeejo",
+  "content_warnings": [],
+  "created_at": "2020-11-12T07:36:33.352408",
+  "dev_state": "BETA",
+  "donate_url": "https://www.patreon.com/ElCeejo",
+  "downloads": 166117,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=25646",
+  "forums": 25646,
+  "game_support": [],
+  "issue_tracker": "https://github.com/ElCeejo/animalia/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "**WARNING: If you have any version below 0.2 installed, you'll need to manually uninstall before updating.**\n\n**Animalia** adds over a dozen new Animals, each having it's own unique aspects.\n\n**Exploration:** Animalia encourages you to explore and document your world's creatures with the Libri Animalia, a journal that can logs the Animals you've met and gives helpful information. You can even duplicate the information from one libri to an empty one by putting both the crafting area.\n\n**Farming:** Animalia brings multiple livestock creatures, including Cows, Sheep, and Chickens. These mobs can all be lead around using their favorite food or the Lasso, and can also be bred if you have a male and female.  Some Animals have visual differences to tell males from females, such as udders on female Cows, Tail feathers on Roosters, and Tusks on male Pigs. You can also use the Animal Net to catch Animals and check their gender, and how much they trust you (if applicable)\n\n**Companionship:** Animalia also adds multiple Pets with different taming methods and uses. Wolves are simple to tame and will protect you and your livestock. Horses require you to break them and saddle them, and can traverse great distances. Cats are annoying, but cute and a fun companion to keep around your house, keep your glass vessels in a safe area and be sure to play with them regularly to build trust.\n\n**Depth:** A multitude of ambient Animals add a bit of depth to your world. Chirping Bats in caves that swarm when approached. Singing Birds that sick near their nests in trees and fly in beautiful flocks. Chirping Frogs in Swamps that use their long tongues to eat bugs.\n\nThis mod will be updated in themed phases. Currently, there is the initial Livestock update, The Domestication update, and the Ambience update. Sometimes, Animals that fit into a prior role will be added outside of a major update, such as Turkeys and Reindeer.\n\nMany future updates are planned, and I gladly take suggestions.",
+  "maintainers": ["ElCeejo"],
+  "media_license": "MIT",
+  "name": "animalia",
+  "provides": ["animalia"],
+  "release": 23715,
+  "repo": "https://github.com/ElCeejo/animalia",
+  "score": 6830.3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/765f604d33.png",
+    "https://content.luanti.org/uploads/c490e10058.png",
+    "https://content.luanti.org/uploads/95ce043f59.png",
+    "https://content.luanti.org/uploads/359cf88a2d.png",
+    "https://content.luanti.org/uploads/8d1ebb1bae.png",
+    "https://content.luanti.org/uploads/2c44c49911.png"
+  ],
+  "short_description": "Brings a plethora of wildlife and expands exploration",
+  "state": "APPROVED",
+  "tags": ["mobs", "plants_and_farming", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/765f604d33.png",
+  "title": "Animalia",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ElCeejo/animalia/releases/23715/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ElCeejo/animalia": [
+      {
+        "is_optional": false,
+        "name": "creatura",
+        "packages": [
+          "EmptyStar/asuna",
+          "ElCeejo/creatura",
+          "Lone_Wolf/torrlund",
+          "Replicat/wyrm_cube",
+          "Hanuko33/libre_adventure3",
+          "hilol/epic_combat"
+        ]
+      }
+    ],
+    "ElCeejo/creatura": []
+  },
+  "hash": "124sjxlsicgwb32nlps64i10fcr6i1gyn3bjrq75z1vvhadcrlci"
+}

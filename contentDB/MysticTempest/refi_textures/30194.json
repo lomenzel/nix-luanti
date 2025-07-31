@@ -1,0 +1,76 @@
+{
+  "author": "MysticTempest",
+  "content_warnings": [],
+  "created_at": "2018-09-01T01:22:26.564968",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 62546,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=20355",
+  "forums": 20355,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 10,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/MysticTempest/REFI_Textures/issues/new/choose/",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "A 16px texture pack.  \nThese textures were created from scratch in an attempt to recapture the aesthetic of Minecraft, while improving upon visibility.\nThis version is fully usable in Minetest Game,  Mineclonia, MineClone2 up to v0.80,  and more.  \n\nThe 'textures' sub-folder holds the supported textures for Minetest Game, MineClone2, and Mineclonia.  \n\n##**Also included in this package is the following:**##\n*\tPartial support for the game, SkyFactory.  \n    * bonemeal  \n    * elepower  \n    * farming(_redo)  \n    * fromscratch  \n    * melterns\n    * protector\n*\tPartial support for the mods used by mcimport in converted worlds.  \n    * basic_materials  \n    * bedrock  \n    * crops  \n    * flowerpot  \n    * hardenedclay  \n    * lapis  \n    * mesecons  \n    * nether  \n    * quartz  \n    * signs_lib  \n    * vines  \n    * xdecor\n*\tSome templates for character skin creation.\n*\t Some Minetest menu textures. (Main menu, and dark/light GUI themes.)\n*\tSupport for a few Minetest Game mods.  \n    * 3d_armor  \n    * bakedclay  \n    * bees  \n    * caverealms  \n    * digilines  \n    * elevators  \n    * hbhunger  \n    * mobs_redo  \n    * new_fireworks  \n    * pipeworks  \n    * shop  \n    * simple_robots  \n    * stamina  \n    * thirsty\n    * crafting_bench\n* Miscellaneous Goodies.\n* Alternate textures moved to their own folder.",
+  "maintainers": ["MysticTempest"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "refi_textures",
+  "provides": [],
+  "release": 30194,
+  "repo": "https://github.com/MysticTempest/REFI_Textures",
+  "score": 1863.8,
+  "screenshots": ["https://content.luanti.org/uploads/75255ed9da.png"],
+  "short_description": "16px - Attempts to recapture the aesthetic of Minecraft, while improving upon visibility.",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/75255ed9da.png",
+  "title": "REFI Textures",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/MysticTempest/refi_textures/releases/30194/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "MysticTempest/refi_textures": [] },
+  "hash": "0iqj5vq3fib9smyiv9848rv0rsk1smxcmniv6av3wpifyywdzaiv"
+}

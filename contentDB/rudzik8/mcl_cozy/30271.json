@@ -1,0 +1,102 @@
+{
+  "author": "rudzik8",
+  "content_warnings": [],
+  "created_at": "2022-02-24T00:38:44.742774",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 11954,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "VoxelForge",
+        "name": "voxelforge",
+        "release": 30336,
+        "short_description": "Build, Fight, Mine, and so much more. A MineCraft Inspired game, focused on replicating MineCraft as good as possible while keeping performant.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/7547f6b117.png",
+        "title": "VoxelForge Beta - Hidden Mysteries Update",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/rudzik8/mcl_cozy/issues",
+  "license": "0BSD",
+  "long_description": "# Mineclonia Get Comfortable\n\nAdds commands to /lay or /sit to Mineclonia, as well as the ability to sit on\nsome blocks (stairs and slabs out-of-the-box) by right-clicking them from\n[VoxeLibre](https://content.luanti.org/packages/Wuzzy/mineclone2/).\n\n![Screenshot](https://content.luanti.org/uploads/d80f36718f.png)\n\nPort of the good old [cozy mod](https://forum.luanti.org/viewtopic.php?t=14143)\n(originally made for MTG by everamzah) to work with VL/MCLA properly and even\nprovide some nice new features!\n\n\n## License\n\nThe source code is licensed under 0BSD (\"public domain\"). See `LICENSE` file\nfor details.\n\n\n## API\n\nThis mod provides its own APIs for other mods to use. See [`API.md`](API.md)\nfor details.",
+  "maintainers": ["rudzik8"],
+  "media_license": "0BSD",
+  "name": "mcl_cozy",
+  "provides": ["mcl_cozy"],
+  "release": 30271,
+  "repo": "https://codeberg.org/rudzik8/mcl_cozy",
+  "score": 413.7,
+  "screenshots": ["https://content.luanti.org/uploads/d80f36718f.png"],
+  "short_description": " Sit and lay using chat commands (/sit and /lay) and by right-clicking blocks in Mineclonia, from VoxeLibre",
+  "state": "APPROVED",
+  "tags": ["chat", "multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/d80f36718f.png",
+  "title": "Mineclonia Get Comfortable",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rudzik8/mcl_cozy/releases/30271/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "TestificateMods/playerphysics": [],
+    "rudzik8/mcl_cozy": [
+      {
+        "is_optional": false,
+        "name": "playerphysics",
+        "packages": [
+          "Sumianvoice/backroomtest",
+          "Wuzzy/lazarr",
+          "Wuzzy/mineclone2",
+          "TestificateMods/playerphysics",
+          "Sumianvoice/pmb_core",
+          "Wuzzy/hades_revisited",
+          "Wuzzy/shadow_forest",
+          "Wuzzy/playerphysics",
+          "Casimir/voxelgarden",
+          "Wuzzy/glitch",
+          "ryvnf/mineclonia",
+          "Sumianvoice/extra_ordinance"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "mcl_player",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "0kn8vhjsvlg22fi2dv7y0ywdjjyy7xjjcl9fb90ib6wh7arnnarj"
+}

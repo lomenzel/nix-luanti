@@ -1,0 +1,49 @@
+{
+  "author": "Wuzzy",
+  "content_warnings": [],
+  "created_at": "2018-05-24T17:30:12.700848",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 40338,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=11153",
+  "forums": 11153,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "repixture",
+        "release": 31282,
+        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/9f2f5e75ae.png",
+        "title": "Repixture",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/Wuzzy/minetest_hudbars/issues",
+  "license": "MIT",
+  "long_description": "This mod replaces the builtin health and breath indicators by nice little “progress bars” which show an icon, a label and a numerical value plus maximum.\n\nThere are many settings to customize them.",
+  "maintainers": ["Wuzzy"],
+  "media_license": "MIT",
+  "name": "hudbars",
+  "provides": ["hudbars"],
+  "release": 27446,
+  "repo": "https://codeberg.org/Wuzzy/minetest_hudbars",
+  "score": 1540,
+  "screenshots": ["https://content.luanti.org/uploads/v176SM4tbS.png"],
+  "short_description": "Replaces the default health and breath symbols by horizontal colored bars with text showing the number. Extensible.",
+  "state": "APPROVED",
+  "tags": ["hud", "player_effects", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/v176SM4tbS.png",
+  "title": "HUD Bars",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Wuzzy/hudbars/releases/27446/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Wuzzy/hudbars": [] },
+  "hash": "0rsdfd9f0x6nm2abrz30cxgfvxm4qfi48v7w3i7ff01wxn8njys6"
+}

@@ -1,0 +1,50 @@
+{
+  "author": "StarNinjas",
+  "content_warnings": [],
+  "created_at": "2022-05-07T20:37:29.034097",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 9312,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27233",
+  "forums": 27233,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/starninjas/nextgen_bows/issues/new/choose/",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "Fork of X Bows by SaKeL, edits made by StarNinjas\n\n# NextGen Bows [nextgen_bows]\n\nCurrently includes a Wooden Bow and arrows.\n\n## Features\n\n* bow will force you sneak when loaded (optional dep. playerphysics)\n* loaded bow will slightly adjust the player FOV\n* bow uses minetest tool capabilities - if the bow is not loaded for long enough (time from last puch) the arrow will fly shorter range\n* arrow uses raycast\n* arrow has chance of critical shots/hits (only on full punch interval)\n* arrow uses minetest damage calculation (including 3d_armor) for making damage (no hardcoded values)\n* arrows stick to nodes, players and entitites\n* arrows remove them self from the world after some time\n* arrows remove them self if there are already too many arrows attached to node, player, entity\n* arrow continues to fly downwards when attached node is dug\n* arrow flies under water for short period of time and then sinks\n* arrows adjusts pitch when flying\n* arrows can be picked up again after stuck in solid nodes\n* registers only one entity reused for all arrows\n\n## Dependencies\n\n- none\n\n## Optional Dependencies\n\n- default (recipes)\n- farming (bow and recipes)\n- 3d_armor (calculates damage including the armor)\n- playerphysics (force sneak when holding charged bow)\n\n## License:\n\n### Code\n\nGNU Lesser General Public License v2.1 or later (see included LICENSE file)\n\n### Textures\n\nCC0 by StarNinjas 2021\n\n### Sounds\n\n**Creative Commons License, EminYILDIRIM**, https://freesound.org\n\n- nextgen_bows_bow_load.1.ogg\n- nextgen_bows_bow_load.2.ogg\n- nextgen_bows_bow_load.3.ogg\n\n**Creative Commons License, bay_area_bob**, https://freesound.org\n\n- nextgen_bows_bow_loaded.ogg\n\n**Creative Commons License**, https://freesound.org\n\n- nextgen_bows_bow_shoot_crit.ogg\n\n**Creative Commons License, robinhood76**, https://freesound.org\n\n- nextgen_bows_arrow_hit.1.ogg\n- nextgen_bows_arrow_hit.2.ogg\n- nextgen_bows_arrow_hit.3.ogg\n\n**Creative Commons License, brendan89**, https://freesound.org\n\n- nextgen_bows_bow_shoot.1.ogg\n\n**Creative Commons License, natty23**, https://freesound.org\n\n- nextgen_bows_arrow_successful_hit.ogg\n",
+  "maintainers": ["StarNinjas"],
+  "media_license": "CC0-1.0",
+  "name": "nextgen_bows",
+  "provides": ["nextgen_bows"],
+  "release": 30085,
+  "repo": "https://github.com/starninjas/nextgen_bows",
+  "score": 956.3,
+  "screenshots": ["https://content.luanti.org/uploads/941088f580.png"],
+  "short_description": "Adds bow and arrows.",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/941088f580.png",
+  "title": "NextGen Bows",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/StarNinjas/nextgen_bows/releases/30085/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "StarNinjas/nextgen_bows": [] },
+  "hash": "1i14w9v6x01vjzpwk3kib9qbf3ps832mc998zajx79n1chc2hgmy"
+}

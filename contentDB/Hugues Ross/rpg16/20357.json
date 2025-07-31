@@ -1,0 +1,54 @@
+{
+  "author": "Hugues Ross",
+  "content_warnings": [],
+  "created_at": "2019-07-21T13:22:49.314778",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 38158,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=22890",
+  "forums": 22890,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/HuguesRoss/rpg16/issues",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "## Important Notice\n_RPG16 us no longer actively supported. Merge Requests to fix content may be accepted, as long as they meet the basic quality and style criteria. However, no further active development should be expected. Use of this texture pack is no longer recommended as support will gradually fail when supported mods/games are updated_\n\n## Game Support\nThe following games are supported:\n\n- Minetest Game\n\n## Mod Support\nIn addition to this game, the following mods are supported:\n\n- 3D Armor\n- Awards\n- Basic Grenades\n- Basic Materials\n- Caverealms\n- Darks\n- Email\n- Handholds\n- HBArmor\n- HBHunger\n- HBSprint\n- Hudbars\n- Lava Stuff\n- Magma Conduits\n- Minetest Wadsprint\n- Moon Phases\n- More Blocks\n- More Ores\n- More Trees\n- Multitools\n- Simple Shooter\n- [Stamina](https://content.luanti.org/packages/sofar/stamina/)\n\n**The following mods/games are deprecated. Textures from them remain for backwards-compatibility, but they are no longer supported:**\n\n- (Game) Capture the Flag\n- (Game) Repixture\n- Baked Clay\n- Ethereal NG\n- Mobs Monster\n- Mobs Redo\n\n## Contact\nFor questions, requests, and other communications regarding this work, you can\ncontact the original creator at hugues.ross@gmail.com\n",
+  "maintainers": ["Hugues Ross"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "rpg16",
+  "provides": [],
+  "release": 20357,
+  "repo": "https://codeberg.org/HuguesRoss/rpg16",
+  "score": 2127.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/3hk9bjq0tx.png",
+    "https://content.luanti.org/uploads/u7Fu85zSmv.png",
+    "https://content.luanti.org/uploads/38fac8a4a9.png"
+  ],
+  "short_description": "A simple texturepack reminiscent of classic RPGs",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/3hk9bjq0tx.png",
+  "title": "RPG16",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Hugues%20Ross/rpg16/releases/20357/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://www.huguesross.net",
+  "dependencies": { "Hugues Ross/rpg16": [] },
+  "hash": "0ra8jlask6dn7kr34fnglqlrrmb1l3kndj4iwfjdsjr8q8fal3xq"
+}

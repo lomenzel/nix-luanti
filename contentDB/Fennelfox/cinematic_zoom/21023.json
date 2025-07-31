@@ -1,0 +1,55 @@
+{
+  "author": "Fennelfox",
+  "content_warnings": [],
+  "created_at": "2023-09-29T22:40:25.635433",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 2156,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": null,
+  "license": "MIT",
+  "long_description": "# cinematic_zoom\n\nA simple mod that replaces the built-in zoom feature with a cool looking animation.\n\nMight lag on servers, but it *is* multiplayer compatible.\n\nIt's also very customizable in the mod settings, from the speed of the animations to what key you press to activate it.\n\nIt even has sound if you enable it in the settings!",
+  "maintainers": ["Fennelfox"],
+  "media_license": "CC0-1.0",
+  "name": "cinematic_zoom",
+  "provides": ["cinematic_zoom"],
+  "release": 21023,
+  "repo": "https://github.com/fennelfox/cinematic_zoom",
+  "score": 626.4,
+  "screenshots": ["https://content.luanti.org/uploads/dce032af0c.png"],
+  "short_description": "Replaces the built-in zooming feature with a cool, nicer-looking animation.",
+  "state": "APPROVED",
+  "tags": ["hud"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dce032af0c.png",
+  "title": "Cinematic Zoom",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Fennelfox/cinematic_zoom/releases/21023/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/EQEH3j8827k.jpg",
+  "video_url": "https://www.youtube.com/watch?v=EQEH3j8827k",
+  "website": null,
+  "dependencies": {
+    "Fennelfox/cinematic_zoom": [
+      {
+        "is_optional": false,
+        "name": "controls",
+        "packages": [
+          "mt-mods/controls",
+          "BuckarooBanzay/super_sam",
+          "MisterE/blockbomber",
+          "epCode/what_were_you_expecting",
+          "mt-mods/wis_part1",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "ryvnf/mineclonia"
+        ]
+      }
+    ],
+    "mt-mods/controls": []
+  },
+  "hash": "0j41y6cfwn91azlhhwpx0rmcc209c0l3wqql0d0p46naszidkqpw"
+}

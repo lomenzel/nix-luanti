@@ -1,0 +1,53 @@
+{
+  "author": "jp",
+  "content_warnings": [],
+  "created_at": "2019-06-12T14:28:10.619962",
+  "dev_state": "LOOKING_FOR_MAINTAINER",
+  "donate_url": null,
+  "downloads": 9166,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=14132",
+  "forums": 14132,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "WTFPL",
+  "long_description": "",
+  "maintainers": ["jp"],
+  "media_license": "WTFPL",
+  "name": "pixelbox",
+  "provides": [],
+  "release": 2788,
+  "repo": null,
+  "score": 650.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/TuUD9Jnktq.jpg",
+    "https://content.luanti.org/uploads/b089278b43.png"
+  ],
+  "short_description": "Its design in a 16-bit ratio and broad range of colors and depth.",
+  "state": "APPROVED",
+  "tags": ["16px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/TuUD9Jnktq.png",
+  "title": "PixelBOX",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/jp/pixelbox/releases/2788/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "jp/pixelbox": [] },
+  "hash": "0vkyb0r1kl5gjjg7ivm9wvnqvnxv6dix0ady85qi45pwl3all85x"
+}

@@ -1,0 +1,61 @@
+{
+  "author": "Clemstriangular",
+  "content_warnings": [],
+  "created_at": "2023-01-21T17:15:03.693668",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 15678,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "EUPL-1.2",
+  "long_description": "Realism 512 Texture Pack\n===========================================\n\nThis is a hyper-realistic texture pack specially made for Minetest.\n\n---------------------\n About the project:\n---------------------\n\nThis is an early test version of a realistic texture pack in 512x512 resolution.\n\nIt was created using **real-world photos** and **open source images**, then **fully optimized** to offer a balance between visual quality and performance.\n\nThe goal is to enhance immersion while staying true to the original style of Minetest Game.\n\n---------------------\n Features:\n---------------------\n\n- Resolution: **512px** (high definition)\n- Made using **real photos** and **open source images**\n- **Optimized for performance**\n- Compatible with **Minetest Game**\n- **Work in progress** – updates are planned\n\n---------------------\n Feedback:\n---------------------\n\nThis is the **first step of a realistic texture project**.  \nFeel free to share your **feedback, ideas, or suggestions** — every opinion helps improve the pack!\n\n---------------------\n License:\n---------------------\n\nThis texture pack is licensed under the:  \n**European Union Public License v1.2 (EUPL-1.2)**  \n→ https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12\n\nSome textures are based on open source and freely licensed images, in compliance with the EUPL 1.2 terms.\n\n---------------------\n Author:\n---------------------\n\nCreated by **Horka**\n\n---------------------\n Thank you for downloading! \n---------------------\n",
+  "maintainers": ["Clemstriangular"],
+  "media_license": "EUPL-1.2",
+  "name": "realism_512",
+  "provides": [],
+  "release": 30616,
+  "repo": "https://github.com/H0rkaa/Realism-512",
+  "score": 1341.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fd4a97d454.png",
+    "https://content.luanti.org/uploads/950323449f.png",
+    "https://content.luanti.org/uploads/e78996633b.png",
+    "https://content.luanti.org/uploads/59f3b58282.png",
+    "https://content.luanti.org/uploads/1fc4de977a.png",
+    "https://content.luanti.org/uploads/5fa6f467c7.png",
+    "https://content.luanti.org/uploads/7590aa2a17.png",
+    "https://content.luanti.org/uploads/bd2f7c687f.png",
+    "https://content.luanti.org/uploads/ddfea7dd18.png",
+    "https://content.luanti.org/uploads/b86c5fd3b3.png"
+  ],
+  "short_description": " A ultra realistic  texture pack that has just been created and will improve (send comments and your opinion)",
+  "state": "APPROVED",
+  "tags": ["128px"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fd4a97d454.png",
+  "title": "Realism 512",
+  "translation_url": null,
+  "type": "txp",
+  "url": "https://content.luanti.org/packages/Clemstriangular/realism_512/releases/30616/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Clemstriangular/realism_512": [] },
+  "hash": "11ankxc9m04rszvp995d7r4fgj1pp3csjwilkn8hc868256cqj7h"
+}
