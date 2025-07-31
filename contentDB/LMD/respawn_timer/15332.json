@@ -1,0 +1,68 @@
+{
+  "author": "LMD",
+  "content_warnings": [],
+  "created_at": "2020-11-29T15:50:21.783790",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 1093,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=25749",
+  "forums": 25749,
+  "game_support": [],
+  "issue_tracker": "https://github.com/appgurueu/respawn_timer/issues",
+  "license": "MIT",
+  "long_description": "# Respawn Timer (`respawn_timer`)\n\nForces players to wait a set duration before respawning.\n\n## About\n\nDepends on [`modlib`](https://github.com/appgurueu/modlib). Licensed under the MIT License. Written by Lars Mueller aka LMD or appguru(eu).\n\n## Screenshot\n\n![Screenshot](screenshot.png)\n\n## Links\n\n* [GitHub](https://github.com/appgurueu/respawn_timer) - sources, issue tracking, contributing\n* [Discord](https://discordapp.com/invite/ysP74by) - discussion, chatting\n* [Minetest Forum](https://forum.minetest.net/viewtopic.php?f=9&t=25749) - (more organized) discussion\n* [ContentDB](https://content.luanti.org/packages/LMD/respawn_timer) - releases (cloning from GitHub is recommended)\n\n## Features\n\n* Player is actually dead while dead (`player:get_hp() == 0`). This minimizes breakage of other mods.\n* Custom respawn formspec (simple button).\n* Enhanced security: Actions of dead players (chatting, inventory, ...) are forbidden.\n* Basic persistence: Rejoining will only reset the timer.\n\n## API\n\nRelies on multiple hacks and thus imposes the following limitations on other mods:\n\n* No manual modification of the `minetest.registered_on_dieplayers` table `on_mods_loaded`\n* No insertion at index 1 of the `minetest.registered_on_chat_messages` table `on_mods_loaded`\n  * Mods doing this have to be listed as optional dependencies\n* Mods using bone position overrides on nonstandard bones have to use the API for those to be preserved properly\n  * Standard bone names are `\"Head\"`, `\"Body\"`, `\"Arm_Right\"`, `\"Arm_Left\"`, `\"Leg_Right\"`, `\"Leg_Left\"`\n  * `respawn_timer.bone_names_by_model[\"<filename>.<ext>\"] = { \"Bone_1\", \"Bone_2\", ... }` including standard bone names if used\n  * If both bone position and rotation are set to `{ x = 0, y = 0, z = 0 }`, the bone will be ignored\n\nRespawning can be done using `respawn_timer.respawn(player_ref)`, the timer can be modified by altering the exposed table\n\n```lua\nrespawn_timer.timer = {\n    name = \"Respawn\",\n    duration = 5,\n    color = \"FF00FF\"\n}\n```\n",
+  "maintainers": ["LMD"],
+  "media_license": "MIT",
+  "name": "respawn_timer",
+  "provides": ["respawn_timer"],
+  "release": 15332,
+  "repo": "https://github.com/appgurueu/respawn_timer",
+  "score": 3,
+  "screenshots": ["https://content.luanti.org/uploads/UxfWOGKNzK.png"],
+  "short_description": "Forces players to wait a set duration before respawning",
+  "state": "APPROVED",
+  "tags": ["adventure__rpg", "pve", "pvp"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/UxfWOGKNzK.png",
+  "title": "Respawn Timer",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/LMD/respawn_timer/releases/15332/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "LMD/hud_timers": [
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ],
+    "LMD/modlib": [],
+    "LMD/respawn_timer": [
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "hud_timers",
+        "packages": ["LMD/cellestial_game", "LMD/hud_timers"]
+      }
+    ]
+  },
+  "hash": "010yib0j94d7dkq6dx2dlnvf27knqagn92gqzha9xca3mv3lqfn0"
+}

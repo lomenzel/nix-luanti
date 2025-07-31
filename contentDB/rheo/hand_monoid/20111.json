@@ -1,0 +1,73 @@
+{
+  "author": "rheo",
+  "content_warnings": [],
+  "created_at": "2022-09-05T22:27:38.064137",
+  "dev_state": "BETA",
+  "donate_url": "https://github.com/sponsors/fluxionary/",
+  "downloads": 825,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/fluxionary/minetest-hand_monoid/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "# hand_monoid\n\nplayer monoid for controlling the look and abilities of the player's hand.\n\n## API usage:\n\n* ```\n  hand_monoid.monoid:add_change(player, {\n      groupcaps = {crumbly = {times={[2]=3.00, [3]=0.70}, uses=0, maxlevel=1}}\n  }, change_id)\n  ```\n  override group capabilities\n* `hand_monoid.monoid:add_change(player, {groupcaps = {[group] = {}}}, change_id)`\n  remove group's capabilites\n* `hand_monoid.monoid:add_change(player, {name = hand}, change_id)`\n  change the hand item (allows e.g. creating new hand looks e.g. skinsdb)\n",
+  "maintainers": ["rheo"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "hand_monoid",
+  "provides": ["hand_monoid"],
+  "release": 20111,
+  "repo": "https://github.com/fluxionary/minetest-hand_monoid.git",
+  "score": 3.6,
+  "screenshots": ["https://content.luanti.org/uploads/6dd260f9d5.png"],
+  "short_description": "player monoid for controlling the look and abilities of the player's hand.",
+  "state": "APPROVED",
+  "tags": ["library"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6dd260f9d5.png",
+  "title": "hand_monoid",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/rheo/hand_monoid/releases/20111/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://github.com/fluxionary/minetest-hand_monoid",
+  "dependencies": {
+    "Byakuren/player_monoids": [],
+    "rheo/fmod": [],
+    "rheo/futil": [
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      }
+    ],
+    "rheo/hand_monoid": [
+      {
+        "is_optional": false,
+        "name": "player_monoids",
+        "packages": [
+          "Noodlemire/voxeldungeon",
+          "EmptyStar/asuna",
+          "MeseCraft/mesecraft",
+          "Byakuren/player_monoids",
+          "Mantar/exile",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero",
+          "rlars/occupymoon_game",
+          "jara25/yams",
+          "covertiii/mogue"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "fmod",
+        "packages": ["rheo/fmod", "zanderdev/skyblock_zero"]
+      },
+      {
+        "is_optional": false,
+        "name": "futil",
+        "packages": ["rheo/futil", "zanderdev/skyblock_zero"]
+      }
+    ]
+  },
+  "hash": "18ql1pcg7hzmc4yz35bi3gsjvidr9xs4v3wni6g9kjd1qszqg6ly"
+}

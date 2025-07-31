@@ -1,0 +1,112 @@
+{
+  "author": "Winter94",
+  "content_warnings": [],
+  "created_at": "2023-03-05T01:33:52.161798",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 485,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/wintersknight94/wc_bugs/issues/new/choose/",
+  "license": "CC0-1.0",
+  "long_description": "",
+  "maintainers": ["Winter94"],
+  "media_license": "CC0-1.0",
+  "name": "wc_bugs",
+  "provides": ["wc_bugs"],
+  "release": 27564,
+  "repo": "https://github.com/wintersknight94/wc_bugs",
+  "score": 4,
+  "screenshots": ["https://content.luanti.org/uploads/6e496716ef.png"],
+  "short_description": "Adds A Variety Of Bugs To NodeCore",
+  "state": "APPROVED",
+  "tags": ["mobs"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6e496716ef.png",
+  "title": "NodeCore Bugs",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Winter94/wc_bugs/releases/27564/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Winter94/wc_bugs": [
+      {
+        "is_optional": false,
+        "name": "nc_tree",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "wc_staybs_api",
+        "packages": ["Winter94/wc_staybs_api"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lux",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_lode",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ],
+    "Winter94/wc_staybs_api": [
+      {
+        "is_optional": false,
+        "name": "nc_sponge",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_tree",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_terrain",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_api_all",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "0jnnjxvmhp1pkp33i8rm1frq8k3isslpg71q4lrnb8ajdclaz4jz"
+}

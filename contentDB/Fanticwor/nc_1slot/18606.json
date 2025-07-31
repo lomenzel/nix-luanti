@@ -1,0 +1,75 @@
+{
+  "author": "Fanticwor",
+  "content_warnings": [],
+  "created_at": "2023-05-02T10:22:51.898738",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 317,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore_alpha",
+        "release": 31962,
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/db1a942e1a.png",
+        "title": "NodeCore ALPHA",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC0-1.0",
+  "long_description": "This mod makes NodeCore a pain in the ass according to Warr1024(NodeCore's developer). uhh yeah thats literally it, go have fun. ",
+  "maintainers": ["Fanticwor"],
+  "media_license": "CC0-1.0",
+  "name": "nc_1slot",
+  "provides": ["nc_1slot"],
+  "release": 18606,
+  "repo": null,
+  "score": 3.3,
+  "screenshots": ["https://content.luanti.org/uploads/6c747987b9.png"],
+  "short_description": "makes Nodecore 8 times harder by removing 7 slots from your inventory",
+  "state": "APPROVED",
+  "tags": ["april_fools", "inventory", "player_effects", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/6c747987b9.png",
+  "title": "NodeCore 1 slot mod",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Fanticwor/nc_1slot/releases/18606/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Fanticwor/nc_1slot": [
+      {
+        "is_optional": false,
+        "name": "nc_api_active",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      },
+      {
+        "is_optional": false,
+        "name": "nc_player_health",
+        "packages": ["Warr1024/nodecore", "Warr1024/nodecore_alpha"]
+      }
+    ]
+  },
+  "hash": "04qlbaw73q0hz62c3b1issyymc6pqrc58kv179bs21aan5bl7hdx"
+}

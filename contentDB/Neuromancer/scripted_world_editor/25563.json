@@ -1,0 +1,525 @@
+{
+  "author": "Neuromancer",
+  "content_warnings": [],
+  "created_at": "2024-02-17T02:01:16.426445",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 636,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=30263",
+  "forums": 30263,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "carlos_rupp",
+        "name": "berzerkpt",
+        "release": 29351,
+        "short_description": "Work in Progress. Action game in ancient Egypt.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/711d9f2b73.png",
+        "title": "Berzerkpt",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["matdombrock/wyrm_cube"],
+        "author": "Replicat",
+        "name": "wyrm_cube",
+        "release": 31620,
+        "short_description": "Find the Wyrm Cubes and save yourself! Inspired by an 80's anime.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ea71397554.png",
+        "title": "Wyrm Cube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Hi_World",
+        "name": "newplanet",
+        "release": 4041,
+        "short_description": "You're on a strange planet, with 8 exciting biomes and a perpetual night, but beware, there are monsters ready to hunt you!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/69famAhfZr.png",
+        "title": "NewPlanet",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault",
+        "release": 28330,
+        "short_description": "A first person shooter game with multiple features",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/39c5592543.png",
+        "title": "CS:MT (BlockAssault)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "PetiAPocok",
+        "name": "minetest_extended",
+        "release": 7305,
+        "short_description": "The extended version of the default Minetest Game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/GAjAavITNq.png",
+        "title": "Minetest Extended",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "debiankaios",
+        "name": "proxima_survival",
+        "release": 25943,
+        "short_description": "Work in Progress. Survival on Proxima Centauri B. Not working on it now.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ed825dcdea.png",
+        "title": "Proxima Survival",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Noodlemire",
+        "name": "voxeldungeon",
+        "release": 9212,
+        "short_description": "This is a recreation and adaptation of an Android rogue-like game, Pixel Dungeon by Watabou.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/80LJjnqDJn.png",
+        "title": "Voxel Dungeon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "castrum",
+        "release": 4788,
+        "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/68ovEdgCu3.png",
+        "title": "Castrum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Thunder1035",
+        "name": "etb",
+        "release": 30824,
+        "short_description": "A dark survival hunt where you challenge a relentless Beast. Fight back before the world falls into darkness. \"Hunt or be Hunted.\"",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/1d13cba08b.png",
+        "title": "Escape The Beast",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "TheFanne",
+        "name": "raining_nodes",
+        "release": 1787,
+        "short_description": "Survive in a strange world where nodes constantly rain down from the sky!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/VgGn91cicQ.png",
+        "title": "Raining Nodes",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "mooD_Slayer",
+        "name": "ksurvive",
+        "release": 10346,
+        "short_description": "Work in Progress. A game that changes much of MTG's gameplay.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/13a32a872a.png",
+        "title": "KSurvive",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "miroptics",
+        "name": "qiskitblocks_miro",
+        "release": 26302,
+        "short_description": "Work in Progress. Fork of JavaFXpert/QiskitBlocks - Game that teaches quantum computing",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f34178cf2b.png",
+        "title": "QuantumBuilder - a QiskitBlocks fork",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Big_Caballito",
+        "name": "no_mans_land",
+        "release": 8685,
+        "short_description": "Work in Progress. Survive No Man's Land, where TNT rains from the sky, and destroys everything. This is a Work in Progress, I wanna add more features & lore",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/968d27792c.png",
+        "title": "No Man's Land",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "JavaFXpert",
+        "name": "qiskitblocks",
+        "release": 5212,
+        "short_description": "Teaching Quantum Computing using Qiskit in a block world",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/r9yczgJPla.png",
+        "title": "QiskitBlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "BuckarooBanzay",
+        "name": "mesecons_lab",
+        "release": 27246,
+        "short_description": "Work in Progress. Mesecons laboratory and tutorials",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/NKSVMnvh05.png",
+        "title": "Mesecons lab",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "KareaGhandTrail",
+        "name": "block_assault_mapmaker",
+        "release": 21764,
+        "short_description": "This game is focused to make maps for BlockAssault [BA.S]",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/ae4d37c05f.png",
+        "title": "BlockAssault MapMaker",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "nam",
+        "name": "porko",
+        "release": 28533,
+        "short_description": "Porko, the Dice Game",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a999ae8591.png",
+        "title": "Porko",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Amaz",
+        "name": "lordofthetest",
+        "release": 28811,
+        "short_description": "LOTR-inspired subgame. Explore the world of Middle-Earth, the one subgame to rule them all!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d3872b989b.png",
+        "title": "Lord of the Test",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "NotaB",
+        "name": "tolkientest",
+        "release": 31462,
+        "short_description": "Work in Progress. A fork of LOTT with a ton of new content",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6e9aef424c.png",
+        "title": "TolkienTest",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "giga-turbo",
+        "name": "codecube",
+        "release": 12748,
+        "short_description": "A game where the player can construct by programming",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/85ed8f4a7c.png",
+        "title": "Codecube",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jgordon510",
+        "name": "gridlocks",
+        "release": 28415,
+        "short_description": "Learn programming, solve puzzles, and make pixelart.  An escape room game.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/5cbe6a208b.png",
+        "title": "gridlocks",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "1248",
+        "name": "regnum",
+        "release": 31458,
+        "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/3EqCRnJzzv.png",
+        "title": "Regnum",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Casimir",
+        "name": "voxelgarden",
+        "release": 32008,
+        "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/d936c3fce1.png",
+        "title": "Voxelgarden",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rlars",
+        "name": "occupymoon_game",
+        "release": 15950,
+        "short_description": "Work in Progress. This game will send you to the moon!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2230ac18b9.png",
+        "title": "Occupy Moon",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/Neuromancer56/scripted_world_editor/issues",
+  "license": "MIT",
+  "long_description": "Scripted World Editor mod Copyright (c) 2024 Neuromancer\n\n-------------------------------------------------------------------------------\nNote: Make sure to download ascii art schematics if it doesn't automatically download.  It contains an important dependency for this mod: https://content.luanti.org/packages/Warr1024/aaschems/\n#This mod allows the user to create and run scripts that create simple shapes in a sequence. \nThese shapes can be created out of whatever nodes they want, and between each shape, the the script_runner moves the position to the end of where that shape was finished being created.\nIt works sort of the way the logo language did with a turtle to keep track of your current position. \nThere is also a move command that allows the user to move the position to wherever the user wants before drawing the next shape.\nTunnels and voids can be dug by creating shapes using the \"air\" node.\n\n###Usage:\n<ol>\n\t<li>Create a new mod.  e.g. \"your_mod_name\". </li>\n\t<li>Create a mod.config that depends on default & scripted_world_editor:</li>\n\t</ol>\n\t\t\t\n\t\t\tname = your_mod_name\n\t\t\ttitle = Your Mod Name\n\t\t\tdescription = Creates objects in my world\n\t\t\tdepends = default, scripted_world_editor\n\t\t\tauthor = Your Name\n<ol>\n\t<li> Create an init.lua.  </li>\n<li> In init.lua create a script table like the following:\n</li>\n\t\t</ol>\n\n\t\tlocal script_table = {\t\t\n\t\t\t{\"fill_box\", 3, -10, 3, \"Y\", \"air\", \"default:mese_post_light\", \"T\", -5},\n\t\t\t{\"move\", \"x\", -1},\n\t\t\t{\"fill_box\", 6, 4, 3, \"X\", \"air\", nil, nil, nil},\n\t\t\t{\"fill_box\", 1, 4, 3, \"X\", \"default:cobble\", nil, nil, nil},\n\t\t\t{\"fill_box\", 10, 4, 3, \"X\", \"air\", \"default:mese_post_light\", \"T\", 5},\n\t\t}\n\t\n* The first parameter is the CommandName.  In the case of the first record \"fill_box\".  Valid values for now are \"fill_box\" & \"move\"\n* The second parameter X_size is the size of the box in nodes along the x-axis.  In this case 3 nodes. Valid values for now are positive and negative integers.  Keep them between -500 & 500 mostly.\n* The third parameter Y_size is the size of the box in nodes along the y-axis.  In this case -10 nodes.  This means we are filling the box in a downward direction to a depth of -10 from the start position.\n* The fourth parameter Z_size is the size of the box in nodes along the z-axis.  In this case 3 nodes. Valid values for now are positive and negative integers.  Keep them between -500 & 500 mostly.\n* The fifth parm is FillAlongAxis which is used to determine where the pointer position will be at the end of the fill.  In this case it's \"Y\".  Valid values are \"X\", \"Y\", and \"Z\".\n* The sixth parm is ReplaceWith which is used to determine what nodes the new box will be filled with.  In this case it is \"air\".  This means we are opening an empty space.  Valid values are any node in default Minetest Game\nLike \"default:cobble\".  If you need nodes from other mods, let me know and I will add that mod to the optional_depends of this mod so they can be used.\n* The seventh parm is PlaceNode which allows you to place one special node anywhere along the length of the FillAlongAxis. In this case it is \"default:mese_post_light\".  Valid values are the same nodes you can use for the ReplaceWith parm.\n* The eighth parm  is PlaceLocation which is used to determine if you want to place it along the top or the bottom of the shape which is relative to the FillAlongAxis.  In this case it is \"T\" for top.   Valid values are \"T\" and \"B\"\n* The ninth parm is PlacePosition which determines where along the FillAlongAxis the 1 special node will be placed. In this case -5 nodes down. Valid values are integers, typically between 0 and the size parameter for the FillAlongAxis axis.\n\nSo to summarize: \n\n* That first fill_box command digs a hole 3x3 wide and 10 nodes deep (Y axis).  There is a default:mese_post_light that is placed along the top of the shaft (on the wall) 5 nodes down.  The pointer is now at the bottom of the shaft.\n* The second command moves back 1 node along the x axis.\n* The third command digs a tunnel 6 long, 4 high, and 3 wide.  the pointer is now at the end of that tunnel.\n* The fourth command creates a cobble wall 1 thick, 4 tall and 3 wide.  The pointer is now where the wall was created.\n* The fifth command extends the tunnel past the cobble wall for 10 nodes, 4 high, and 3 wide.  The pointer is now positioned at the end of that last tunnel.\n\nNote: you can just as easily create buildings, rooms or walls with this mod rather than just digging tunnels.\n\nNext you alter the following to create a script_runner node that when punched will execute the script you defined in your table.  The start position is wherever you place the node before you punch it.\n\nIn the init.lua register your script_runner nodes like the following example: \n\t\n\tminetest.register_node(\"your_mod_name:script_runner\", {\n\t\tdescription = \"Script Runner Script 1\",\n\t\ttiles = {\"script_runner.png\"},\n\t\tgroups = {cracky = 3, oddly_breakable_by_hand = 1},\n\t\ton_punch = function(pos, node, puncher)\n\t\t\trun_script(pos, script_table)\n\t\tend,\n\t})\n \nPlace the script_runner node and punch it.  It should run your script.\n\nIf you want to see an example of it it use check out:\nhttps://content.luanti.org/packages/Neuromancer/hero_mines/\n\nCurrently Suported Commands:\n\n* move: Move the current location along x, y, or z axis\n* fill_box: fills any size box with a specific node type, with special decorations\n* build_level:  Builds a customized level for Boulder Dig mod based on parms\n* place_node: Places an individual node\n* move_to_script_start_position: Move the current pointed position to be the position where we started running the script.\n* build_schematic:  Places a schematic at the current position\n* build_ascii_schematic : Places an ascii schematic an the current position\n\t\n###This mod will be a little bit rough to start.\nFor now, I'm going to be using this mod for creating the levels for the game \"H.E.R.O. Test\" and \"Boulder Dig\" and that will keep me busy for a bit.\nEventually I will be adding better parameter validation so the mod won't crash if you pass invalid parameters,\nand hopefully adding shapes like cylinders etc.\n\nHave fun!",
+  "maintainers": ["Neuromancer"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "scripted_world_editor",
+  "provides": ["scripted_world_editor"],
+  "release": 25563,
+  "repo": "https://github.com/Neuromancer56/scripted_world_editor",
+  "score": 2.5,
+  "screenshots": [
+    "https://content.luanti.org/uploads/474a862604.png",
+    "https://content.luanti.org/uploads/95b8f7f262.png",
+    "https://content.luanti.org/uploads/aedfac8410.png"
+  ],
+  "short_description": "API that allows you pass in scripting tables to fill a series of shapes of different sizes with different nodes",
+  "state": "APPROVED",
+  "tags": ["building_mechanics", "developer_tools", "library", "world_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/474a862604.png",
+  "title": "Scripted World Editor",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Neuromancer/scripted_world_editor/releases/25563/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://forum.minetest.net/viewtopic.php?t=30263",
+  "dependencies": {
+    "Neuromancer/scripted_world_editor": [
+      {
+        "is_optional": false,
+        "name": "default",
+        "packages": [
+          "1248/regnum",
+          "Hi_World/newplanet",
+          "Noodlemire/voxeldungeon",
+          "NotaB/tolkientest",
+          "JALdMIC/survivethedays",
+          "sunnysideup/holidayhorrors",
+          "BuckarooBanzay/mesecons_lab",
+          "nam/porko",
+          "bell07/whynot_game",
+          "rubenwardy/capturetheflag",
+          "Amaz/lordofthetest",
+          "1248/castrum",
+          "AiTechEye/xaenvironment",
+          "EmptyStar/asuna",
+          "debiankaios/proxima_survival",
+          "carlos_rupp/berzerkpt",
+          "MeseCraft/mesecraft",
+          "miroptics/qiskitblocks_miro",
+          "KareaGhandTrail/block_assault_mapmaker",
+          "Thunder1035/etb",
+          "KareaGhandTrail/block_assault",
+          "Replicat/wyrm_cube",
+          "JavaFXpert/qiskitblocks",
+          "Kimapr/nonsensical_skyblock",
+          "jgordon510/gridlocks",
+          "giga-turbo/codecube",
+          "niwla23/runorfall",
+          "Thunder1035/pacman",
+          "Big_Caballito/no_mans_land",
+          "hilol/epic_combat",
+          "TheFanne/raining_nodes",
+          "rlars/occupymoon_game",
+          "Casimir/voxelgarden",
+          "PetiAPocok/minetest_extended",
+          "mooD_Slayer/ksurvive",
+          "jara25/yams",
+          "mt-mods/dreambuilder_game",
+          "Luanti/minetest_game"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "aaschemlib",
+        "packages": ["Warr1024/aaschems"]
+      }
+    ],
+    "Warr1024/aaschems": []
+  },
+  "hash": "0ysizr3z85a6kmv11fmgy5hyajpvpr35qr44ycxhhbmsgim74d61"
+}

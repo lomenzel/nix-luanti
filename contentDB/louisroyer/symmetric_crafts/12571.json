@@ -1,0 +1,49 @@
+{
+  "author": "louisroyer",
+  "content_warnings": [],
+  "created_at": "2020-07-13T15:56:29.997359",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 1549,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://github.com/louisroyer-minetest/symmetric-crafts/issues",
+  "license": "CC0-1.0",
+  "long_description": "# Symmetric crafts\nThis minetest mod adds symmetric crafts.",
+  "maintainers": ["louisroyer"],
+  "media_license": "CC0-1.0",
+  "name": "symmetric_crafts",
+  "provides": ["symmetric_crafts"],
+  "release": 12571,
+  "repo": "https://github.com/louisroyer-minetest/symmetric-crafts",
+  "score": 4.4,
+  "screenshots": ["https://content.luanti.org/uploads/hILoHqhQxZ.png"],
+  "short_description": "Add vertical symmetry in crafts.",
+  "state": "APPROVED",
+  "tags": ["crafting"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/hILoHqhQxZ.png",
+  "title": "Symmetric Crafts",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/louisroyer/symmetric_crafts/releases/12571/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "louisroyer/symmetric_crafts": [] },
+  "hash": "1ybf11pr62g4pmz7jwsl4nk4ky7q1dd97kzx96zqsrplqjqdb1ly"
+}

@@ -1,0 +1,79 @@
+{
+  "author": "Bapt-tech",
+  "content_warnings": [],
+  "created_at": "2024-07-28T15:27:51.548223",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 220,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": null,
+  "license": "CC-BY-SA-4.0",
+  "long_description": "Join the Discord to ask, get anwsers and warn about a bug ! [Mod Discord](https://discord.com/invite/mbyK4tJJ)",
+  "maintainers": ["Bapt-tech"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "imstaff",
+  "provides": ["imstaff"],
+  "release": 29224,
+  "repo": "https://github.com/Bapt-Tech/imstaff.git",
+  "score": 1.9,
+  "screenshots": [
+    "https://content.luanti.org/uploads/e32f0ee44c.jpg",
+    "https://content.luanti.org/uploads/fb798363e5.jpg"
+  ],
+  "short_description": "Many commands and functions for admins and moderators",
+  "state": "APPROVED",
+  "tags": ["chat", "server_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/e32f0ee44c.png",
+  "title": "Terramod-Staff",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Bapt-tech/imstaff/releases/29224/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "Bapt-tech/imstaff": [] },
+  "hash": "0xhvk22225w9kjahid7g5q5f2w5lrsmm1gqny09md4hdcz1lq34n"
+}

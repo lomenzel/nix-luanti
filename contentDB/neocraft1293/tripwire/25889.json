@@ -1,0 +1,52 @@
+{
+  "author": "neocraft1293",
+  "content_warnings": [],
+  "created_at": "2024-05-17T19:55:06.274124",
+  "dev_state": "BETA",
+  "donate_url": "http://revolut.me/neocraft1293",
+  "downloads": 344,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/neocraft1293/tripwire/issues",
+  "license": "CC-BY-SA-4.0",
+  "long_description": "# Minetest Mod: Tripwire\n\n## Description\nThis mod for Minetest adds nodes that allow the creation of trap systems using threads and tripwires. Players can detect entities and activate mechanisms when something crosses the thread.\n\n### Threads\n\n- **Description**: Lightweight and unobtrusive thread.\n- **Properties**:\n  - Transmits light.\n  - Not walkable.\n  - Can be pointed at and collected quickly.\n- **Usage**: Connect tripwires to create a detection line.\n\n### Tripwire (off)\n\n- **Description**: Detector that activates when connected to another tripwire by a thread.\n- **Properties**:\n  - Checks if it is connected to another tripwire block with threads.\n- **Usage**: Place at the ends of a thread line to create a detection system.\n\n### Tripwire On\n\n- **Description**: Activated version of the tripwire.\n- **Properties**:\n  - Continuously checks for entities between connected tripwires.\n  - Activates receivers when an entity is detected.\n- **Usage**: Activates Mineclonia redstone when it detects an entity between the tripwires.\n\n## Features\n\n- **Entity Detection**: The system detects entities crossing the threads and activates connected mechanisms.\n\n## Crafting Recipes\n\n### Thread\n\n- **Description**: Creates threads from wool.\n- **Ingredients**: 3 blocks of wool.\n- **Output**: 12 threads.\n\n### Tripwire\n\n- **Description**: Creates tripwires from wood, thread, and redstone.\n- **Ingredients**: Wood, thread.\n- **Output**: 2 tripwires.\n\nThis mod enriches gameplay by enabling the setup of detection systems and ingenious traps, offering numerous creative possibilities for Minetest players.\n",
+  "maintainers": ["neocraft1293"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "tripwire",
+  "provides": ["tripwire"],
+  "release": 25889,
+  "repo": "https://codeberg.org/neocraft1293/tripwire",
+  "score": 4.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/00a5abce81.png",
+    "https://content.luanti.org/uploads/5eb8d632b1.png"
+  ],
+  "short_description": "a mod to add tripwire",
+  "state": "APPROVED",
+  "tags": ["technology"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/00a5abce81.png",
+  "title": "tripwire",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/neocraft1293/tripwire/releases/25889/download/",
+  "video_thumbnail_url": "https://content.luanti.org/thumbnails/youtube/aGqYfzaUm68.jpg",
+  "video_url": "https://www.youtube.com/watch?v=aGqYfzaUm68",
+  "website": null,
+  "dependencies": { "neocraft1293/tripwire": [] },
+  "hash": "1wljp6bnzcfp6axgyw6hp729cgg0zcsgi7jas346xg1m7rw4dg3a"
+}

@@ -1,0 +1,73 @@
+{
+  "author": "pl608",
+  "content_warnings": [],
+  "created_at": "2023-03-10T19:53:35.382167",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 439,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "hilol",
+        "name": "epic_combat",
+        "release": 27975,
+        "short_description": "Fight your enemies with various weapons and protect yourself with distinct sets of Armour, whilst sharpening your skills in PVP and PVE.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/a0b633cedd.png",
+        "title": "Epic Combat",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "rubenwardy",
+        "name": "capturetheflag",
+        "release": 30017,
+        "short_description": "Two or more teams battle to snatch and return the enemy flags, before the enemy takes their own!",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/67c591b9b8.png",
+        "title": "Capture the Flag",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/pl608/attachable_bomb/issues/new/choose/",
+  "license": "MIT",
+  "long_description": "# Attachable Bomb\nAdds a bomb that can be left-click attached to a player in standard rubenwardy capture the flag.\n# Stats:\n* Time to explode = default is 10 seconds\n* Damage = 52(double a standard grenade so that it will one-shot ALL types players(except invincable medics and just spawned players))\n*  Has a beep sound that increases in rapidity as the timer gets closer to explosion\n*  Has a blink effect on the sprite(color ≠team color its just red)\n*  Punch the Entity on top of the player to set it off with double the radius(In future it will detatch the bomb)\n# Issues:\n* Declines to take the bomb away from the attacher once it is used\n* No way to obtain the item except creative inventory and /give\n",
+  "maintainers": ["pl608"],
+  "media_license": "MIT",
+  "name": "attach_bomb",
+  "provides": ["attach_bomb"],
+  "release": 17535,
+  "repo": "https://github.com/pl608/attachable_bomb",
+  "score": 1.8,
+  "screenshots": [
+    "https://content.luanti.org/uploads/9d57b67045.png",
+    "https://content.luanti.org/uploads/089b651043.png"
+  ],
+  "short_description": "Adds a bomb that can be attached to players and go off on timer",
+  "state": "APPROVED",
+  "tags": ["multiplayer", "pvp"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/9d57b67045.png",
+  "title": "Attachable Bomb(ctf)",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/pl608/attach_bomb/releases/17535/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "pl608/attach_bomb": [
+      {
+        "is_optional": false,
+        "name": "ctf_teams",
+        "packages": ["rubenwardy/capturetheflag", "hilol/epic_combat"]
+      }
+    ]
+  },
+  "hash": "0wcmsgpmz8aqvqj7r2yal0k4z8cngy96643aps440d1wlnl3p6sx"
+}

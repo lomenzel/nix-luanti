@@ -1,0 +1,68 @@
+{
+  "author": "ApolloX",
+  "content_warnings": [],
+  "created_at": "2024-02-22T19:37:10.830415",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 266,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Wuzzy",
+        "name": "hades_revisited",
+        "release": 30814,
+        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/40f8802c3d.png",
+        "title": "Hades Revisited",
+        "type": "game"
+      },
+      "supports": false
+    },
+    {
+      "confidence": 11,
+      "game": {
+        "author": "Warr1024",
+        "name": "nodecore",
+        "release": 31948,
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8078c595ae.png",
+        "title": "NodeCore",
+        "type": "game"
+      },
+      "supports": false
+    }
+  ],
+  "issue_tracker": "https://gitlab.com/ApolloX939/omnitool/-/issues",
+  "license": "GPL-3.0-only",
+  "long_description": "3 tools in 1.\n\nTo switch using 'auto-switch', just right click on the designated node you want to break, the tool will switch to the correct tool that can mine it the fastest.\n\n> You can manually switch via holding the SNEAK (default left shift) while right clicking (on either a node or air) to cycle thru (in the pattern of Axe -> Pickaxe -> Shovel -> Axe).\n\nPlease note however, the tool shares it's durability among all 3 states. (As such it comes with a hefty durability)\n\nThe tool tries not to interfere with nodes like doors, chests, and other nodes that might have a use on right click (like opening an inventory or formspec)\n\nThe Pickaxe can now mine invisible walls from mods like [invisible_wall by X17](https://content.luanti.org/packages/X17/invisible_wall/).\n\nThe tool can now be used with [toolranks by lisacvuk](https://content.luanti.org/packages/lisacvuk/toolranks/).\n",
+  "maintainers": ["ApolloX"],
+  "media_license": "GPL-3.0-only",
+  "name": "omni_tool",
+  "provides": ["omni_tool"],
+  "release": 25415,
+  "repo": "https://gitlab.com/ApolloX939/omnitool.git",
+  "score": 4.2,
+  "screenshots": [
+    "https://content.luanti.org/uploads/fc091a0de9.png",
+    "https://content.luanti.org/uploads/bc236c0d1c.png",
+    "https://content.luanti.org/uploads/ce5060a3c9.png",
+    "https://content.luanti.org/uploads/ba2f2508ff.png",
+    "https://content.luanti.org/uploads/1d5f714fa6.png"
+  ],
+  "short_description": "3 tools in 1",
+  "state": "APPROVED",
+  "tags": ["tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/fc091a0de9.png",
+  "title": "Omni Tool",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ApolloX/omni_tool/releases/25415/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": { "ApolloX/omni_tool": [] },
+  "hash": "1wqfgwbf1af6nabda7sc880y4xkxc8cp1gp2sn5rcmf4lb7c5lcc"
+}

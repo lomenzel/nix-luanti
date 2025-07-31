@@ -1,0 +1,56 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2022-12-25T00:47:10.601850",
+  "dev_state": "BETA",
+  "donate_url": null,
+  "downloads": 498,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/anchor/issues",
+  "license": "MIT",
+  "long_description": "Inspired by [Teleport Waypoints in Genshin Impact](https://genshin-impact.fandom.com/wiki/Teleport_Waypoint), this mod provides a special type of block for similar purpose. The admin should place and configure these, and then players can unlock the anchor once they approach and right-click the anchor.\n\nThis mod provides a basic anchor node, though modders are strongly recommended to create their own, as the basic one is lack of visual features.\n\nPlease refer to [`API.md`](https://github.com/C-C-Minetest-Server/anchor/blob/main/API.md) for developer-specific tutorials.\n\n### List of installed anchors\nIn some inventory mods (e.g. Unified Inventory), it's posible to get a list of them by typing `group:anchor` in the search bar.\n\n### How to set up or modify an anchor\nOnly those with `server` privilege can set up or modify anchors. To set up an anchor, place down one and then right-click on it. A menu will be shown and details can be typed in.\n\nTo modify an existing one, right-click on it. The menu is the same as the previous one but with a new option, \"Keep original UUID\". If unchecked, the anchor will be removed from all players' record, and players have to re-approach there to unlock the anchor.\n\nTo remove an anchor, simply dig it.\n\n### How to teleport to anchors?\nOnly those with `interact` privilege can interact with or teleport to anchors.\n\nBefore teleporting, players should first approach and right-click the anchor. The anchor will then be recorded into player's list and avaliable for them to teleport.\n\nUse the chat command `/anchors` to get a list of unlocked anchors. Players can then select one from the list, if any, and teleport to them.\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC0-1.0",
+  "name": "anchor",
+  "provides": ["anchor_basicanchor", "anchor_core"],
+  "release": 16133,
+  "repo": "https://github.com/C-C-Minetest-Server/anchor",
+  "score": 4.1,
+  "screenshots": ["https://content.luanti.org/uploads/a6a8f83c9c.png"],
+  "short_description": "Fixed teleport destinations for survival players or adventure map makers",
+  "state": "APPROVED",
+  "tags": ["adventure__rpg", "multiplayer", "server_tools", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/a6a8f83c9c.png",
+  "title": "Teleport Anchor",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/anchor/releases/16133/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/anchor": [
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
+      }
+    ],
+    "luk3yx/flow": [
+      {
+        "is_optional": false,
+        "name": "formspec_ast",
+        "packages": [
+          "luk3yx/prang",
+          "mt-mods/wis_part1",
+          "luk3yx/formspec_ast",
+          "Kimapr/nonsensical_skyblock",
+          "Thunder1035/pacman"
+        ]
+      }
+    ]
+  },
+  "hash": "0h069l1f2miad4varr6gjcr2wcgxpxl788ks946yyrkvkni1d27h"
+}

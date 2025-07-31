@@ -1,0 +1,51 @@
+{
+  "author": "Sokomine",
+  "content_warnings": [],
+  "created_at": "2018-06-30T13:26:30.619199",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 2842,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=8175",
+  "forums": 8175,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Sokomine/markers/issues/new/choose/",
+  "license": "GPL-3.0-only",
+  "long_description": "Simply craft and place some markers around the area you want to protect and enter a name for the area when asked. Craft and place a marker stone in order to access a graphical interface for the areas mod. No need to learn the chat commands for the protection mod anymore!",
+  "maintainers": ["Sokomine"],
+  "media_license": "CC-BY-SA-3.0",
+  "name": "markers",
+  "provides": ["markers"],
+  "release": 306,
+  "repo": "https://github.com/Sokomine/markers",
+  "score": 4.4,
+  "screenshots": [
+    "https://content.luanti.org/uploads/jsjTfCtoAf.jpg",
+    "https://content.luanti.org/uploads/W2ghyuFctW.jpg"
+  ],
+  "short_description": "Easy interface (GUI) for the areas/advanced_areas protection mod",
+  "state": "APPROVED",
+  "tags": ["multiplayer"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/jsjTfCtoAf.png",
+  "title": "Markers",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Sokomine/markers/releases/306/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "ShadowNinja/areas": [],
+    "Sokomine/markers": [
+      {
+        "is_optional": false,
+        "name": "areas",
+        "packages": [
+          "NotaB/tolkientest",
+          "ShadowNinja/areas",
+          "zanderdev/skyblock_zero"
+        ]
+      }
+    ]
+  },
+  "hash": "1wxacnhxg3k1226g6fpw5jsjm0in69bqn82vpd01579wdwyw6zmq"
+}

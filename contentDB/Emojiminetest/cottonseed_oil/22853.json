@@ -1,0 +1,160 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-01-06T03:54:45.237945",
+  "dev_state": "MAINTENANCE_ONLY",
+  "donate_url": null,
+  "downloads": 321,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "bell07",
+        "name": "whynot_game",
+        "release": 31524,
+        "short_description": "Aims to get all existing high quality mods working together",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/6f56447689.png",
+        "title": "WhyNot?",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "EmptyStar",
+        "name": "asuna",
+        "release": 31816,
+        "short_description": "A vibrant world of beautiful biomes. Explore, discover, create.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/f334649d84.png",
+        "title": "Asuna",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Kimapr",
+        "name": "nonsensical_skyblock",
+        "release": 27427,
+        "short_description": "skyblock game BASED on crafting. no quest cringe! bonemeal go brrrr",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/2f8309e348.png",
+        "title": "Nonsensical Skyblock",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "MeseCraft",
+        "name": "mesecraft",
+        "release": 30046,
+        "short_description": "Work in Progress. The best game for Minetest. A survival game with new depth, mechanics, biomes, mobs and many essential additions. Has a focus on being fun, user-friendly, stable, and minimalist but featured.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/bd43210a7e.png",
+        "title": "MeseCraft",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["Minetest/minetest_game"],
+        "author": "Luanti",
+        "name": "minetest_game",
+        "release": 31898,
+        "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/8ffd1409ff.png",
+        "title": "Minetest Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "jara25",
+        "name": "yams",
+        "release": 31858,
+        "short_description": "Work in Progress. An MTG fork with light RPG elements.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/e2e45e38bf.png",
+        "title": "yams RPG",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "aliases": ["VanessaE/dreambuilder_game"],
+        "author": "mt-mods",
+        "name": "dreambuilder_game",
+        "release": 32058,
+        "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/881d766d45.png",
+        "title": "Dreambuilder Game",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/cottonseed_oil/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "Cottonseed Oil Fertilizer is a type of bone meal (technically) with a much stronger effect. It is either crafted or extracted from 4 cotton seeds, depending on whether Technic mod is installed.\n\nThis is a portion of Technics mod from [Smacker's fork](https://github.com/h-v-smacker/technic), the fork used on LinuxForks Minetest Server.\n\nAccording to the original license notice, all components of this mod are licensed under LGPLv2.1.\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "LGPL-2.1-or-later",
+  "name": "cottonseed_oil",
+  "provides": ["cottonseed_oil"],
+  "release": 22853,
+  "repo": "https://github.com/C-C-Minetest-Server/cottonseed_oil",
+  "score": 3.6,
+  "screenshots": ["https://content.luanti.org/uploads/dfb78199e0.png"],
+  "short_description": "Powerful fertilizer from cotton seed",
+  "state": "APPROVED",
+  "tags": ["plants_and_farming", "survival"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/dfb78199e0.png",
+  "title": "Cottonseed Oil Fertilizer",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/cottonseed_oil/releases/22853/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/cottonseed_oil": [
+      {
+        "is_optional": false,
+        "name": "bonemeal",
+        "packages": [
+          "bell07/whynot_game",
+          "MeseCraft/mesecraft",
+          "Wuzzy/mineclone2",
+          "EmptyStar/asuna",
+          "Kimapr/nonsensical_skyblock",
+          "mt-mods/dreambuilder_game",
+          "jara25/yams",
+          "TenPlus1/bonemeal"
+        ]
+      }
+    ],
+    "TenPlus1/bonemeal": []
+  },
+  "hash": "18zz27akdjk0bcdzbx568fhvgfqvnwbn7f2ma6dhiw3g1224gr78"
+}

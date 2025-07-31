@@ -1,0 +1,67 @@
+{
+  "author": "Noodlemire",
+  "content_warnings": [],
+  "created_at": "2021-08-30T01:45:47.031745",
+  "dev_state": null,
+  "donate_url": null,
+  "downloads": 758,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=27229",
+  "forums": 27229,
+  "game_support": [],
+  "issue_tracker": "https://github.com/Noodlemire/lua_inv/issues/new/choose/",
+  "license": "LGPL-2.1-only",
+  "long_description": "**!Warning!**: This is an abonination.\n\n**!Warning!**: There is no way to automatically make this mod compatible with others. Support for any other mod that uses inventories or formspecs will probably need to be manually created in the near (or far) future.\n\n**!Warning!**: This mod will replace and delete players' previous inventories, if they existed. It will attempt to import old items to the new system, but there is currently no way to put them back. USE THIS MOD IN A FRESH WORLD unless you either never remove lua_inv, or you're fine with an inventory wipe.\n\nThis mod attempts to create a total replacement for Minetest's entire inventory system. This does *not* just provide polishing or workarounds for the various shortcomings of Minetest's inventories. Instead, absolutely everything is custom-made in Lua. MetaData, ItemStacks, and Inventory objects are all created from scratch in this system, granting it total control over the very nature of these objects.\n\nSo why was this made in the first place? As mentioned previously, Minetest's regular inventory system has a variety of shortcomings and missing features. Some have somewhat decent workarounds, but others are virtually impossible, and there are times where a workaround just doesn't provide a proper solution. Below this is a list of some, but not all of the particular shortcomings that inspired lua_inv.\n\n* Items that can change their appearances. The common workaround is to create an entire registration for every single possible visual state that the item can have. This can work on a small or medium scale, but it has the potential to either be excessive, or unworkable if you don't know every possible visual at the time of registration.\n\n* Items that have animated sprites. There is normally no true workaround for this, except to give up and just use a still image.\n\n* Stackable items that can have durability applied to them. In normal Minetest, count and wear are mutually exclusive, and there is no true, bug-free way to implement having them both be together.\n\n* Inventory callbacks that apply to Lua functions. By default, move/put/take callbacks are completely bypassed by Lua code, or by just *picking up an item off of the ground*, unless the programmer of each inventory-related mod goes out of their way to try to respect these. In some cases, they might as well not exist.\n\nBy creating lua_inventory, the above features and more are finally possible. Every object that this new system uses is built from the ground-up to be more configurable and feature-rich than anything in Minetest's inventories.\n\n* You can use ItemStack's MetaData to set the \"inventory_image\" field to any image file, allowing item images to be changed at any time.\n\n* You can set _lua_inv_animation() in any item's definition, and this will allow it to be animated in inventory, hotbar, wielded_item, and item entity forms. There are even Meta fields to change the item's animation parameters at any time.\n\n* Setting count and wear on an object is supported natively. Just give tool_capabilities to a craftitem's definition, and it will be provided automatically.\n\n* *Everything* has a callback you can set to allow changes, or make things happen upon changes, even including the MetaData. These callbacks apply to all Lua functions as one would expect. Methods to bypass them *do* exist and aren't even that complicated. However, programmers now have to go out of their way to bypass the callbacks- not the other way around.\n\n* Full circular parent/child relationships. Wherever applicable, each object is given a read-only \"parent\" field, which can be used to check its owner. From just a MetaData object, you can fetch the ItemStack that owns it, the Inventory that owns the ItemStack and even the player/node that owns the Inventory.\n\n* In a similar manner, all ItemStacks are passed via reference, rather than copy, unless specified otherwise. You don't need to \"commit\" changes to an ItemStack, the same way you need to in regular Minetest.\n\n* The on_use function on an item's definition will no longer replace the usual digging behavior.\n\n* There is a \"Dynamic Formspec\" system in place. You can create essentially custom formspec elements by using pre-existing ones as building blocks. You can easily change the very layout of a formspec as needed, and create semi-persistent data with the help of a single MetaData object owned by the formspec as a whole, usable by every individual FormspecElement.\n\n* And more! Check the provided api.txt document for details about how everything is used.\n\nSupported mods:\n\n* default: Chests, Furnaces, and Bookshelves work with this system properly.\n* vessels: Vessel Shelves are fully functional.\n\nTo help with testing, players with the \"debug\" privilege are able to use the \"/testitems\" command. This will provide a few items to test features like stackwear, dynamic inventory images, and animated inventory images.",
+  "maintainers": ["Noodlemire"],
+  "media_license": "LGPL-2.1-only",
+  "name": "lua_inv",
+  "provides": ["lua_inv"],
+  "release": 9208,
+  "repo": "https://github.com/Noodlemire/lua_inv",
+  "score": 2.5,
+  "screenshots": ["https://content.luanti.org/uploads/126f55cdd5.png"],
+  "short_description": "Creates a completely custom inventory system, which doesn't rely at all on any of the usual UserData objects.",
+  "state": "APPROVED",
+  "tags": ["hud", "inventory", "library", "storage", "tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/126f55cdd5.png",
+  "title": "Complete and Total Lua-Only Inventory Rewrite",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Noodlemire/lua_inv/releases/9208/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Noodlemire/entitycontrol": [],
+    "Noodlemire/lua_inv": [
+      {
+        "is_optional": false,
+        "name": "controls",
+        "packages": [
+          "mt-mods/controls",
+          "BuckarooBanzay/super_sam",
+          "MisterE/blockbomber",
+          "epCode/what_were_you_expecting",
+          "mt-mods/wis_part1",
+          "Wuzzy/mineclone2",
+          "MeseCraft/mesecraft",
+          "hilol/epic_combat",
+          "Casimir/voxelgarden",
+          "ryvnf/mineclonia"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "smart_vector_table",
+        "packages": ["Noodlemire/voxeldungeon", "Noodlemire/smart_vector_table"]
+      },
+      {
+        "is_optional": false,
+        "name": "entitycontrol",
+        "packages": ["Noodlemire/voxeldungeon", "Noodlemire/entitycontrol"]
+      }
+    ],
+    "Noodlemire/smart_vector_table": [],
+    "mt-mods/controls": []
+  },
+  "hash": "0xhvw48411qqcxfdrl0d0b3g20vdw5576vri13d59r74wby8f2zv"
+}

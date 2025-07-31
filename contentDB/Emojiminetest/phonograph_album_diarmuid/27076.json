@@ -1,0 +1,66 @@
+{
+  "author": "Emojiminetest",
+  "content_warnings": [],
+  "created_at": "2024-05-30T22:39:28.359114",
+  "dev_state": "AS_IS",
+  "donate_url": null,
+  "downloads": 266,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [],
+  "issue_tracker": "https://github.com/C-C-Minetest-Server/phonograph_album_diarmuid/issues",
+  "license": "LGPL-2.1-or-later",
+  "long_description": "# Phonograph Album: Diarmuid's Soundtracks\n\nThis mod includes soundtracks composed by Diarmuid. These tracks were intended to be part of Diarmuid's never-finished soundtrack mod. The original tracks can be found at <https://gitlab.com/diarmuidtherat/minetest-soundtrack>.\n\n> Wrote a 41-track (they're all very short for the most part) soundtrack for Minetest like 4 years ago that was intended to be a part of a soundtrack mod, however the mod creator never finished it.\n",
+  "maintainers": ["Emojiminetest"],
+  "media_license": "CC-BY-SA-4.0",
+  "name": "phonograph_album_diarmuid",
+  "provides": ["phonograph_album_diarmuid"],
+  "release": 27076,
+  "repo": "https://github.com/C-C-Minetest-Server/phonograph_album_diarmuid",
+  "score": 4.2,
+  "screenshots": ["https://content.luanti.org/uploads/b820eff696.png"],
+  "short_description": "Songs composed by Diarmuid",
+  "state": "APPROVED",
+  "tags": ["sound_music"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/b820eff696.png",
+  "title": "Phonograph Album: Diarmuid's Soundtracks",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/Emojiminetest/phonograph_album_diarmuid/releases/27076/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": null,
+  "dependencies": {
+    "Emojiminetest/phonograph": [
+      {
+        "is_optional": false,
+        "name": "modlib",
+        "packages": [
+          "LMD/modlib",
+          "sdd/spiraling_down",
+          "LMD/cellestial_game",
+          "Kimapr/nonsensical_skyblock",
+          "zanderdev/skyblock_zero"
+        ]
+      },
+      {
+        "is_optional": false,
+        "name": "flow",
+        "packages": ["Kimapr/nonsensical_skyblock", "luk3yx/flow"]
+      },
+      {
+        "is_optional": false,
+        "name": "logging",
+        "packages": ["Emojiminetest/logging", "Casimir/voxelgarden"]
+      }
+    ],
+    "Emojiminetest/phonograph_album_diarmuid": [
+      {
+        "is_optional": false,
+        "name": "phonograph_core",
+        "packages": ["Emojiminetest/phonograph"]
+      }
+    ]
+  },
+  "hash": "1vmbn5da53gn719dhqc3g0m4p4m2g8irafjv3dxx33wzv8bhnwap"
+}

@@ -1,0 +1,70 @@
+{
+  "author": "ThePython",
+  "content_warnings": [],
+  "created_at": "2023-04-29T19:57:54.866194",
+  "dev_state": "ACTIVELY_DEVELOPED",
+  "donate_url": null,
+  "downloads": 818,
+  "forum_url": "https://forum.luanti.org/viewtopic.php?t=29439",
+  "forums": 29439,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Wuzzy",
+        "name": "mineclone2",
+        "release": 31283,
+        "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/55ab4fc1b5.png",
+        "title": "VoxeLibre (formerly MineClone2)",
+        "type": "game"
+      },
+      "supports": true
+    },
+    {
+      "confidence": 1,
+      "game": {
+        "author": "ryvnf",
+        "name": "mineclonia",
+        "release": 31399,
+        "short_description": "Survival sandbox game inspired by Minecraft.",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/864a6133e4.png",
+        "title": "Mineclonia",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://github.com/thepython10110/too_many_aliases/issues",
+  "license": "GPL-3.0-or-later",
+  "long_description": "# Too Many Aliases\nThis mod \"fixes\" MineClone's inconsistent itemstrings.\nInstead of typing `/giveme mesecons_torch:redstoneblock`, you can just type `/giveme mineclone:redstone_block`.\nRegisters aliases for all MineClone items (as of MineClone 2 0.83.0). All aliases follow MineCraft Java edition's item ID's. The aliases can have a custom prefix or none at all. The default prefix is \"\" (an empty string).\nIf the prefix (found in the Minetest settings) is set to nothing, no prefix is required (you could just type `/giveme redstone_block`).\n\nThe `mineclone:` prefix is always available, regardless of the setting. This is so mods can depend on this one.",
+  "maintainers": ["ThePython"],
+  "media_license": "GPL-3.0-or-later",
+  "name": "too_many_aliases",
+  "provides": ["too_many_aliases"],
+  "release": 19918,
+  "repo": "https://github.com/thepython10110/too_many_aliases",
+  "score": 4.4,
+  "screenshots": ["https://content.luanti.org/uploads/47ff691662.png"],
+  "short_description": "Adds aliases to every item/node in MineClone to make them match MineCraft so you can stop forgetting that mcl_mobitems:ender_pearl should be mcl_throwing:ender_pearl.",
+  "state": "APPROVED",
+  "tags": ["creative", "developer_tools"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/47ff691662.png",
+  "title": "Too Many Aliases",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/ThePython/too_many_aliases/releases/19918/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://thepython10110.github.io",
+  "dependencies": {
+    "ThePython/too_many_aliases": [
+      {
+        "is_optional": false,
+        "name": "mcl_core",
+        "packages": ["Wuzzy/mineclone2", "ryvnf/mineclonia"]
+      }
+    ]
+  },
+  "hash": "16snnj9pp9h7bcpxvjpa7hhcfl4jxzyb1xspa532mb8qvwfsjsdg"
+}

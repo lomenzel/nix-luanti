@@ -1,0 +1,90 @@
+{
+  "author": "programmerjake",
+  "content_warnings": [],
+  "created_at": "2025-02-15T21:07:33.800384",
+  "dev_state": "WIP",
+  "donate_url": null,
+  "downloads": 105,
+  "forum_url": null,
+  "forums": null,
+  "game_support": [
+    {
+      "confidence": 1,
+      "game": {
+        "author": "Mantar",
+        "name": "exile",
+        "release": 30063,
+        "short_description": "Challenging, at times brutal, wilderness survival with simple technology. ",
+        "thumbnail": "https://content.luanti.org/thumbnails/1/0195f6298c.png",
+        "title": "Exile",
+        "type": "game"
+      },
+      "supports": true
+    }
+  ],
+  "issue_tracker": "https://codeberg.org/programmerjake/exile-rails/issues",
+  "license": "LGPL-3.0-or-later",
+  "long_description": "Adds underground rails, train stations, and trains to Exile.\n\nTrain stations are randomly generated underground at x,z coordinates that are multiples of 2000 (excluding 0,0). For each x,z coordinate, stations are randomly at around y -170 or -970 or not generated at all. Train stations are connected to each other with rails going through tunnels.\n\nTrains randomly appear in the antiquorum chests deep underground.\n\nThis is a work in progress, potential improvements:\n\n* currently it uses the default rails from AdvTrains but may use custom rails for Exile in the future.\n* currently it uses advtrains_train_japan but may use custom trains for Exile in the future.\n* this mod may include additional features, such as having spacecraft that launch from tubes with magnetic linear motors, which might allow exiles to return to where they were exiled from...",
+  "maintainers": ["programmerjake"],
+  "media_license": "LGPL-3.0-or-later",
+  "name": "exile_rails",
+  "provides": ["exile_rails"],
+  "release": 29736,
+  "repo": "https://codeberg.org/programmerjake/exile-rails",
+  "score": 3,
+  "screenshots": [
+    "https://content.luanti.org/uploads/1777aa5c0e.png",
+    "https://content.luanti.org/uploads/18b14a54d1.png",
+    "https://content.luanti.org/uploads/0281460cf6.png",
+    "https://content.luanti.org/uploads/d6c00cc6df.png"
+  ],
+  "short_description": "Adding underground rails and trains to Exile",
+  "state": "APPROVED",
+  "tags": ["mapgen", "transport"],
+  "thumbnail": "https://content.luanti.org/thumbnails/1/1777aa5c0e.png",
+  "title": "Exile Rails",
+  "translation_url": null,
+  "type": "mod",
+  "url": "https://content.luanti.org/packages/programmerjake/exile_rails/releases/29736/download/",
+  "video_thumbnail_url": null,
+  "video_url": null,
+  "website": "https://codeberg.org/programmerjake/exile-rails",
+  "dependencies": {
+    "orwell/advtrains": [],
+    "orwell/basic_trains": [
+      {
+        "is_optional": false,
+        "name": "advtrains_train_track",
+        "packages": ["orwell/advtrains"]
+      },
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      }
+    ],
+    "programmerjake/exile_rails": [
+      {
+        "is_optional": false,
+        "name": "advtrains_train_track",
+        "packages": ["orwell/advtrains"]
+      },
+      {
+        "is_optional": false,
+        "name": "exile_env_sounds",
+        "packages": ["Mantar/exile"]
+      },
+      {
+        "is_optional": false,
+        "name": "advtrains",
+        "packages": ["orwell/advtrains"]
+      },
+      {
+        "is_optional": false,
+        "name": "advtrains_train_japan",
+        "packages": ["orwell/basic_trains", "Andrey01/trainpack"]
+      }
+    ]
+  },
+  "hash": "0qwl8r9ri13lndczxi4jcc52g1bnljzkafnybk51nly9g7avna6y"
+}
