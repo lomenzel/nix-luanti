@@ -13,16 +13,17 @@ async function fetchJSON(url) {
 function deepSort(obj) {
   if (Array.isArray(obj)) {
     return obj.map(deepSort);
-  } else if (obj !== null && typeof obj === 'object') {
-    return Object.keys(obj).sort().reduce((result, key) => {
-      result[key] = deepSort(obj[key]);
-      return result;
-    }, {});
+  } else if (obj !== null && typeof obj === "object") {
+    return Object.keys(obj)
+      .sort()
+      .reduce((result, key) => {
+        result[key] = deepSort(obj[key]);
+        return result;
+      }, {});
   } else {
     return obj;
   }
 }
-
 
 function getHash(url) {
   return new Promise((resolve, reject) => {
