@@ -16,7 +16,7 @@ in
 {
 
   inherit options;
-  config = [
+  config = lib.mkMerge [
     (lib.mkIf cfg.enable {
       users.groups.luanti = { };
       users.users =
