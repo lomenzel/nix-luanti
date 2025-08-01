@@ -5,20 +5,47 @@
   ...
 }:
 rec {
+
+  # to conf from nixpkgs module
+  toConf =
+    values:
+    lib.concatStrings (
+      lib.mapAttrsToList (
+        name: value:
+        {
+          bool = "${name} = ${toString value}\n";
+          int = "${name} = ${toString value}\n";
+          null = "";
+          set = "${name} = {\n${toConf value}}\n";
+          string =
+            if (builtins.match NEEDS_MULTILINE_RE value) != null then
+              toConfMultiline name value
+            else
+              "${name} = ${value}\n";
+        }
+        .${builtins.typeOf value}
+      ) values
+    );
+
+  toConfMultiline =
+    name: value:
+    assert lib.assertMsg (
+      (builtins.match UNESCAPABLE_RE value) == null
+    ) ''""" can't be on its own line in a minetest config.'';
+    "${name} = \"\"\"\n${value}\n\"\"\"\n";
+
+  # Constants copied from nixpkgs module
+  CONTAINS_NEWLINE_RE = ".*\n.*";
+  # The following values are reserved as complete option values:
+  # { - start of a group.
+  # """ - start of a multi-line string.
+  RESERVED_VALUE_RE = "[[:space:]]*(\"\"\"|\\{)[[:space:]]*";
+  NEEDS_MULTILINE_RE = "${CONTAINS_NEWLINE_RE}|${RESERVED_VALUE_RE}";
+
+  # There is no way to encode """ on its own line in a Minetest config.
+  UNESCAPABLE_RE = ".*\n\"\"\"\n.*";
+
   cfg = config.services.luanti;
-  nix-luanti-lib = import ../utils/lib.nix {
-    inherit lib;
-    inherit (packages) byId;
-    lists = lib.lists;
-    mkDerivation = pkgs.stdenv.mkDerivation;
-  };
-  packages = (
-    import ../packages.nix {
-      mkDerivation = pkgs.stdenv.mkDerivation;
-      inherit (pkgs) lib unzip fetchurl;
-    }
-  );
-  inherit (packages) byId;
 
   options.services.luanti = with lib.types; {
     enable = lib.mkEnableOption "Luanti Server Management";
