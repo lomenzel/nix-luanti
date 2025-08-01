@@ -137,6 +137,70 @@ let
       }
     ) list;
 
+  fetchFromLuantiContentDB =
+    {
+      name,
+      author,
+      release,
+      hash,
+    }:
+    mkDerivation {
+      version = toString release;
+      pname = "source-${name}-${author}";
+      src = fetchurl {
+        url = "https://content.luanti.org/packages/${author}/${name}/releases/${builtins.toString release}/download/";
+        sha256 = hash;
+      };
+      unpackPhase = "${unzip}/bin/unzip $src";
+      installPhase = ''
+        mkdir -p $out
+        cp -r $(ls -d */ )* $out
+      '';
+    };
+
+  buildLuantiGame = lib.extendMkDerivation {
+    constructDrv = mkDerivation;
+    extendDrvArgs =
+      finalAttrs:
+      {
+        pname,
+        version,
+        src,
+        repo ? null,
+        provides ? [ ],
+        mods ? [ ],
+        description ? "",
+        passthru ? { },
+        meta ? { },
+        ...
+      }@attr:
+      {
+        inherit
+          src
+          pname
+          ;
+        version = toString version;
+        installPhase = ''
+          mkdir -p $out
+          cp -r $src/* $out/
+        '';
+        passthru = rec {
+          withMods =
+            newMods:
+            buildLuantiGame (
+              fa:
+              attr
+              // {
+                mods = lib.lists.unique (attr.mods ++ newMods);
+              }
+            );
+          withMod = mod: withMods (lib.singleton mod);
+
+        }
+        // passthru;
+      };
+  };
+
 in
 rec {
   games = byIdToByName byId.games;
@@ -147,5 +211,22 @@ rec {
     mods = getByIdType "mod";
     texture_packs = getByIdType "txp";
   };
+  new_games = mapAttrs (
+    author: gamesFromAuthor:
+    mapAttrs (
+      name: details:
+      buildLuantiGame {
+        pname = name;
+        version = details.release;
+        src = fetchFromLuantiContentDB {
+          inherit name author;
+          inherit (details) release hash;
+        };
+        repo = if hasAttr "repo" details then details.repo else null;
+        provides = if hasAttr "provides" details then details.provides else [ ];
+        description = if hasAttr "short_description" details then details.short_description else "";
+      }
+    ) gamesFromAuthor
+  ) (lib.importJSON ../generated/contentDB.json).games;
 
 }

@@ -10,6 +10,20 @@ async function fetchJSON(url) {
   return await (await fetch(url)).json();
 }
 
+function deepSort(obj) {
+  if (Array.isArray(obj)) {
+    return obj.map(deepSort);
+  } else if (obj !== null && typeof obj === 'object') {
+    return Object.keys(obj).sort().reduce((result, key) => {
+      result[key] = deepSort(obj[key]);
+      return result;
+    }, {});
+  } else {
+    return obj;
+  }
+}
+
+
 function getHash(url) {
   return new Promise((resolve, reject) => {
     console.log(`Fetching hash for ${url}`);
@@ -149,7 +163,7 @@ async function updateAllPackages() {
   if (!fs.existsSync(path.dirname(DB_FILE))) {
     fs.mkdirSync(path.dirname(DB_FILE), { recursive: true });
   }
-  fs.writeFileSync(DB_FILE, JSON.stringify(structuredPackages));
+  fs.writeFileSync(DB_FILE, JSON.stringify(deepSort(structuredPackages)));
   console.log("Package database updated successfully.");
 }
 updateAllPackages().catch((e) => {
