@@ -6,7 +6,7 @@
     prettier = {
       enable = true;
       excludes = [
-        "generated/**"
+        #  "generated/**"
       ];
     };
   };

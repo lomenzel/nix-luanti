@@ -44,16 +44,23 @@ async function updateAllPackages() {
   const remotePackages = (await fetchJSON(BASE_URL))
     .filter((pkg) => pkg.release !== null)
     .map((pkg) => {
-      return {
-        ...(localPackages[
+      local =
+        localPackages[
           pkg.type === "game"
             ? "games"
             : pkg.type === "mod"
               ? "mods"
               : "texturePacks"
-        ]?.[pkg.author]?.[pkg.name] ?? pkg),
-        ...pkg,
-      };
+        ]?.[pkg.author]?.[pkg.name] ?? null;
+
+      if (local === null) return pkg;
+      if (local.release === pkg.release) {
+        return {
+          ...(local ?? pkg),
+          ...pkg,
+        };
+      }
+      return pkg;
     })
     .sort(() => Math.random() - 0.5); // logs are more fun with random order
 
