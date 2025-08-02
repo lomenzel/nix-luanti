@@ -9,6 +9,7 @@ pkgs.testers.runNixOSTest {
         imports = [ nix-luanti.nixosModules.default ];
         services.luanti = {
           enable = true;
+          addOverlay = false;
           servers = {
             test.port = 30000;
             test2.port = 30001;
@@ -22,6 +23,7 @@ pkgs.testers.runNixOSTest {
         imports = [ nix-luanti.nixosModules.default ];
         services.luanti = {
           enable = true;
+          addOverlay = false;
           servers = {
             test.port = 30000;
             test2.port = 30000;

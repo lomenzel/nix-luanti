@@ -49,6 +49,11 @@ rec {
 
   options.services.luanti = with lib.types; {
     enable = lib.mkEnableOption "Luanti Server Management";
+    addOverlay = lib.mkOption {
+      type = lib.types.bool;
+      default = true;
+      description = "Add the luanti overlay to nixpkgs";
+    };
     package = lib.mkOption {
       type = lib.types.package;
       default = pkgs.luanti-server;
@@ -74,7 +79,7 @@ rec {
             };
             game = lib.mkOption {
               #package of the luanti game that should run
-              default = byId.games."Wuzzy/mineclone2";
+              default = pkgs.luantiPackages.games.mineclone2;
             };
             package = lib.mkOption {
               type = lib.types.package;

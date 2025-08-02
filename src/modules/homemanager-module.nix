@@ -19,7 +19,9 @@ in
 
   inherit options;
   config = lib.mkMerge [
-    { nixpkgs.overlays = lib.singleton (import ../overlay.nix); }
+    (lib.mkIf cfg.addOverlay {
+      nixpkgs.overlays = lib.singleton (import ../overlay.nix);
+    })
 
     (lib.mkIf cfg.enable {
       systemd.user.services =

@@ -8,6 +8,7 @@ pkgs.testers.runNixOSTest {
       {
         imports = [ nix-luanti.nixosModules.default ];
         services.luanti = {
+          addOverlay = false;
           enable = true;
 
           # default is null so everyone can join
@@ -15,16 +16,18 @@ pkgs.testers.runNixOSTest {
           # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
           whitelist = [ "singleplayer" ];
 
-          servers = with nix-luanti.packages."x86_64-linux"; {
+          servers = {
             cool-server = {
-              # VoxeLibre is the default
-              game = games.mineclone2;
+              # VoxeLibre is the default game
+              game = pkgs.luantiPackages.games.mineclone2.withMods (
+                m: with m; [
+                  # m contains only mods that are compatible with the game
+                  zombies4test
+                ]
+              );
 
               # by default no mods are installed
-              mods = with mods; [
-                logistica
-                # ... add as many mods you want :)
-              ];
+
               # port has no default so it must be set
               port = 30000;
             };
@@ -35,8 +38,8 @@ pkgs.testers.runNixOSTest {
                 "alice"
                 "bob"
               ];
-              game = games.minetest_game."Luanti";
-              mods = with mods; [
+              game = pkgs.luantiPackages.games.minetest_game;
+              mods = with pkgs.luantiPackages.mods; [
                 animalia
                 i3
               ];
@@ -65,6 +68,5 @@ pkgs.testers.runNixOSTest {
     if not ( get_status(machine, "cool-server") and get_status(machine, "other-cool-server") ):
         raise Exception("node: Expected both services to be active.")
 
-    print("Test passed: portOK has both services active and portConflict has exactly one active service.")
   '';
 }

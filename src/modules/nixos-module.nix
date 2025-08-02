@@ -102,6 +102,8 @@ in
           );
 
     })
-    { nixpkgs.overlays = lib.singleton (import ../overlay.nix); }
+    (lib.mkIf cfg.addOverlay {
+      nixpkgs.overlays = lib.singleton (import ../overlay.nix);
+    })
   ];
 }

@@ -34,8 +34,6 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
            my-server = nixpkgs.lib.nixosSystem {
              system = "x86_64-linux";
              specialArgs = {
-              # this will make nix-luanti a parameter for each imported module so you can use nix-luanti.games for example
-              nix-luanti = inputs.nix-luanti.packages."x86_64-linux";
              };
              modules = [
                ./configuration.nix
@@ -53,46 +51,50 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
    In your NixOS configuration (e.g., `configuration.nix`), use the nix-luanti module to set up your servers:
 
    ```nix
-   { config, pkgs, nix-luanti, ... }:
+   { config, pkgs, ... }:
    {
-     services.luanti = {
-       enable = true;
+      services.luanti = {
 
-       # default is null so everyone can join
-       # this whitelist is applied to all servers that dont define its own
-       # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
-       whitelist = [ "singleplayer" ];
+        # by default an overlay is set to inject luantiPackages in pkgs. if you set it to false, you need to bring your own games and mods for luanti
+        addOverlay = true;
 
-       servers = with nix-luanti; {
-         cool-server = {
-           # VoxeLibre is the default
-           game = games.mineclone2;
+        enable = true;
 
-           # by default no mods are installed
-           mods = with mods; [
-             logistica
-             # ... add as many mods you want :)
-           ];
-           # port has no default so it must be set
-           port = 30000;
-         };
-         other-cool-server = {
+        # default is null so everyone can join
+        # this whitelist is applied to all servers that dont define its own
+        # defining a whitelist will automatically install the whitelist mod and overwrite its whitelist.txt file
+        whitelist = [ "singleplayer" ];
 
-          # overrides the default whitelist
-          whitelist = [ "alice" "bob" ];
+        servers =  {
+          cool-server = {
+            # VoxeLibre is the default game
+            game = pkgs.luantiPackages.games.mineclone2.withMods (m: with m; [
+              # m contains only mods that are compatible with the game
+              zombies4test
+            ]);
 
-          # you can also pin the game to a specific release for example games.minetest_game.Minetest."29922"
-          # release here means the internal release number by contentdb
-          game = games.minetest_game.Luanti;
-          mods = with mods; [
+            # by default no mods are installed
+
+            # port has no default so it must be set
+            port = 30000;
+          };
+          other-cool-server = {
+
+          # overrides the default whitelist so singleplayer can not join the game
+          whitelist = [
+            "alice"
+            "bob"
+          ];
+          game = pkgs.luantiPackages.games.minetest_game;
+          mods = with pkgs.luantiPackages.mods; [
             animalia
             i3
           ];
           port = 30001;
-         };
-       };
-     };
-   }
+        };
+      };
+    };
+  }
    ```
 
    A minimal Config may look like this:
