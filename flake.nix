@@ -25,6 +25,7 @@
             inherit system;
             overlays = [ (import ./src/overlay.nix) ];
           };
+          lib = pkgs.lib;
         in
         pkgs.luantiPackages
         // {

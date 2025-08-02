@@ -58,10 +58,8 @@ in
                   rm -rf ~/.minetest
                   rm -rf ~/world/whitelist.txt
 
-                  mkdir -p ~/.minetest/games
                   mkdir -p ~/world
 
-                  ln -s ${serverConfig.game.withMods (m: mods)} ~/.minetest/games/${serverConfig.game.pname}
                   ${
                     if whitelist == null then
                       ""
@@ -72,19 +70,23 @@ in
                       ''
                   }
 
-                  ${serverConfig.package}/bin/luantiserver \
+                  ${
+                    serverConfig.package.withPackages {
+                      games = lib.singleton (serverConfig.game.withMods (m: mods));
+                    }
+                  }/bin/luantiserver \
                     --config ${
                       builtins.toFile "luanti.conf" (
-                        { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
-                        |> toConf
+                        toConf (
+                          { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
+                        )
                       )
                     } \
                     --port ${builtins.toString serverConfig.port} \
                     --color always \
                     --world ~/world \
-                    --gameid ${serverConfig.game.pname}
+                    --gameid ${serverConfig.game.name}
                 '';
-                # TODO: world generation should respect config, or does it by default?
                 User = name;
                 Group = "luanti";
                 Restart = "on-failure";

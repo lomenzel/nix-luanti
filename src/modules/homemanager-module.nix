@@ -35,21 +35,6 @@ in
                 ++ (if whitelist == null then [ ] else [ pkgs.luantiPackages.mods.whitelist_by_AntumDeluge ]);
               whitelistFile = pkgs.writeText "whitelist.txt" (builtins.concatStringsSep "\n" whitelist);
               worldDir = "${config.xdg.dataHome}/nix-luanti/${name}/world";
-              minetestDir = "${config.xdg.configHome}/minetest";
-              gameDirName = "nix-luanti-${
-                builtins.replaceStrings
-                  [
-                    "."
-                    "/"
-                    " "
-                  ]
-                  [
-                    "no"
-                    "no"
-                    "no"
-                  ]
-                  name
-              }";
             in
             {
               Install.WantedBy = [ "default.target" ];
@@ -57,11 +42,7 @@ in
               Unit.Description = "Luanti server instance for ${name}";
               Service.ExecStart = pkgs.writeShellScript "start-${name}-server" ''
                 rm -rf ${worldDir}/whitelist.txt
-                rm -rf ~/.minetest/games/${gameDirName}
-
-                mkdir -p ~/.minetest/games
                 mkdir -p ${worldDir}
-                ln -s ${serverConfig.game.withMods (m: mods)} ~/.minetest/games/${gameDirName}
                 ${
                   if whitelist == null then
                     ""
@@ -72,17 +53,22 @@ in
                     ''
                 }
 
-                ${serverConfig.package}/bin/luantiserver \
+                ${
+                  serverConfig.package.withPackages {
+                    games = lib.singleton (serverConfig.game.withMods (m: mods));
+                  }
+                }/bin/luantiserver \
                   --config ${
                     builtins.toFile "luanti.conf" (
-                      { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
-                      |> toConf
+                      toConf (
+                        { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
+                      )
                     )
                   } \
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ${worldDir} \
-                  --gameid ${gameDirName}
+                  --gameid ${serverConfig.game.name} \
               '';
             }
           )
