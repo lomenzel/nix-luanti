@@ -45847,7 +45847,7 @@
         "provides": ["farmtools"],
         "release": 32163,
         "repo": "https://codeberg.org/camelia/farmtools",
-        "short_description": "Based on Scythes & Sickles, it adds various tools to make farming more convenient."
+        "short_description": "Work in Progress. Based on Scythes & Sickles, it adds various tools to make farming more convenient."
       }
     },
     "capitalthree": {
@@ -47148,6 +47148,21 @@
         "release": 305,
         "repo": "https://github.com/cx384/inventorybags",
         "short_description": "Adds bags"
+      }
+    },
+    "daenvil": {
+      "vegan_food": {
+        "game_support": [
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "0xnv1k3n737f60sy1xbd6msi3qa3d2maks002x2cg8qpfdy9ff51",
+        "provides": ["vegan_food"],
+        "release": 32162,
+        "repo": null,
+        "short_description": "Adds plant-based foods such as plant milk, tofu, seitan, etc."
       }
     },
     "dagm": {
