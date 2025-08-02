@@ -77,5 +77,6 @@
       checks = eachSystem (pkgs: {
         formatting = treefmtEval.${pkgs.system}.config.build.check self;
       });
+      overlays.default = import ./src/overlay.nix;
     };
 }
