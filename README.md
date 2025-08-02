@@ -94,7 +94,7 @@ Before you can use Nix-Luanti, you'll need to add it to your NixOS configuration
         };
       };
     };
-  }
+   }
    ```
 
    A minimal Config may look like this:
