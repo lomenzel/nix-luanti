@@ -7537,9 +7537,9 @@
     "Andrii": {
       "superquest": {
         "dependencies": ["font_api", "display_api"],
-        "hash": "14br5xzfgb83wsxfij693gycaml2ibyw3bqv21g59d1zw42hskap",
+        "hash": "1ld5nyqwj6yijaacya2s3izas8b624viccq62akw06jcqjgbhqj6",
         "provides": ["superquest"],
-        "release": 32220,
+        "release": 32226,
         "repo": "https://gitlab.com/andriyndev/superquest/",
         "short_description": "Allows to create quests with rewards which can be passed by triggering flags placed in different places"
       }
@@ -16118,37 +16118,37 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "tnt",
-          "bucket",
-          "fire",
           "basic_materials",
+          "tnt",
+          "fire",
+          "bucket",
           "plastic_bucket",
           "default"
         ],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "bell07", "name": "whynot_game" },
+          { "author": "1248", "name": "regnum" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" }
+          { "author": "jara25", "name": "yams" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Noodlemire", "name": "voxeldungeon" }
         ],
-        "hash": "13h3b8wrkp7rxkkal3jfqjvdnjfxgl1wajfsmv0n9byxi8isl46r",
+        "hash": "00f11fzd0rvrgqhb6ish83ypsmcr9h251vqrmiji9lzglkzbpl95",
         "provides": ["chemistry"],
-        "release": 32215,
+        "release": 32227,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -48695,9 +48695,9 @@
       },
       "skills": {
         "dependencies": ["lib_chatcmdbuilder"],
-        "hash": "0i7x8m85kwkqgb4mlnfc7bg59z3szrbfbbp94w5nmqiwdv15ndsq",
+        "hash": "1bf2da3x5a3n1nafcdq9qxkcfj6cznx77yjsxx4bzpd1a0mxawd2",
         "provides": ["skills"],
-        "release": 31544,
+        "release": 32224,
         "repo": "https://gitlab.com/zughy-friends-minetest/skills",
         "short_description": "An API for creating skills."
       },
@@ -61699,8 +61699,8 @@
     },
     "Mirtilo": {
       "baunilha": {
-        "hash": "0fi8mpfd1y2msnyrpjy3nv313apxkghqp17y7z4l2jm2vlpj6kpl",
-        "release": 31115,
+        "hash": "1k76iaxcf3qfgwsd7sqjklb7s4fk5kcbkcpcydy0vj3qwrs38z04",
+        "release": 32228,
         "repo": "https://codeberg.org/mirtilo/Baunilha.git",
         "short_description": "Fresh and tasty textures with a vanilla flavor"
       }
