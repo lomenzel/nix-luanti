@@ -1,0 +1,20 @@
+diff --git a/builtin/mainmenu/content/pkgmgr.lua b/builtin/mainmenu/content/pkgmgr.lua
+index 2863e2a5f..5db1a524d 100644
+--- a/builtin/mainmenu/content/pkgmgr.lua
++++ b/builtin/mainmenu/content/pkgmgr.lua
+@@ -171,6 +171,7 @@ end
+ function pkgmgr.reload_texture_packs()
+ 	local txtpath = core.get_texturepath()
+ 	local txtpath_system = core.get_texturepath_share()
++	local txtpath_nix = "{{TEXTURE_PACKS_PATH}}"
+ 	local retval = {}
+ 
+ 	load_texture_packs(txtpath, retval)
+@@ -179,6 +180,7 @@ function pkgmgr.reload_texture_packs()
+ 	if txtpath ~= txtpath_system then
+ 		load_texture_packs(txtpath_system, retval)
+ 	end
++	load_texture_packs(txtpath_nix, retval)
+ 
+ 	pkgmgr.update_translations(retval)
+ 

@@ -4,6 +4,7 @@
   makeWrapper,
   luanti,
   stdenv,
+  writeText,
 }:
 
 let
@@ -14,13 +15,50 @@ let
       games ? [ ],
       texturePacks ? [ ],
     }@args:
+    let
+      listToPath =
+        list: name:
+        stdenv.mkDerivation {
+          inherit name;
+          src = null;
+          dontUnpack = true;
+          installPhase = ''
+            mkdir -p $out
+             ${builtins.concatStringsSep "\n" (
+               map (pkg: ''
+
+                 ln -s ${pkg} "$out/${pkg.name}"
+               '') list
+             )}
+          '';
+        };
+      modsPath = listToPath mods "mods";
+      gamesPath = listToPath games "games";
+      texturesPath = listToPath texturePacks "texturePacks";
+    in
 
     symlinkJoin {
       name = luanti.pname;
 
-      paths = [
-        luanti
-      ];
+      paths =
+        if texturePacks == [ ] then
+          lib.singleton luanti
+        else
+          [
+            (luanti.overrideAttrs (old: {
+              patches = lib.lists.unique (
+                old.patches
+                ++ [
+                  (writeText "texturepack_load.patch" (
+                    builtins.replaceStrings [ "{{TEXTURE_PACKS_PATH}}" ] [ (toString texturesPath) ] (
+                      builtins.readFile ./texturepacks_load.patch
+                    )
+                  ))
+                  ./textures_env_var.patch
+                ]
+              );
+            }))
+          ];
 
       passthru.withPackages =
         {
@@ -44,26 +82,17 @@ let
             list: name:
             builtins.concatStringsSep "\n" (
               map (pkg: ''
-                ln -s ${pkg} $out/share/luanti/${name}/${pkg.name}
+                cp -r ${pkg} $out/share/luanti/${name}/${pkg.name}
               '') list
             );
         in
         ''
-          # Merge packages
-          mkdir -p $out/share/luanti/textures
-          mkdir -p $out/share/luanti/mods
-          mkdir -p $out/share/luanti/games
-          ${linkList texturePacks "textures"}
-          ${linkList mods "mods"}
-          ${linkList games "games"}
-
-          # Point minetest executables to packages
           for bin in $out/bin/{luanti,luantiserver}; do
             if [ -e $bin ]; then
               wrapProgram $bin \
-                --prefix MINETEST_MOD_PATH : "$out/share/luanti/mods" \
-                --prefix MINETEST_GAME_PATH : "$out/share/luanti/games" \
-                --prefix LUANTI_TEXTURE_PATH : $out/share/luanti/textures
+                --prefix MINETEST_MOD_PATH : "${modsPath}" \
+                --prefix MINETEST_GAME_PATH : "${gamesPath}" \
+                --prefix LUANTI_TEXTURES_PATH : "${texturesPath}"
             fi
           done
         '';

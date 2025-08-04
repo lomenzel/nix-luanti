@@ -29,6 +29,27 @@
         in
         pkgs.luantiPackages
         // {
+
+          examples.full = pkgs.luanti.withPackages {
+            texturePacks = builtins.attrValues pkgs.luantiPackages.texturePacks;
+            mods = builtins.attrValues pkgs.luantiPackages.mods;
+            games = builtins.attrValues pkgs.luantiPackages.games;
+          };
+
+          examples.test = pkgs.luanti.withPackages {
+            texturePacks = with pkgs.luantiPackages.texturePacks; [
+              a_bit_modern
+
+            ];
+            games = with pkgs.luantiPackages.games; [
+              mineclone2
+            ];
+            mods = with pkgs.luantiPackages.mods; [
+              admin_toys
+              i3
+            ];
+          };
+
           test =
             pkgs.lib.filesystem.listFilesRecursive ./tests
             |> map (test: {

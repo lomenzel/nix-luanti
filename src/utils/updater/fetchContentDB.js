@@ -28,11 +28,14 @@ function deepSort(obj) {
 function getHash(url) {
   return new Promise((resolve, reject) => {
     console.log(`Fetching hash for ${url}`);
-    exec(`nix-prefetch-url ${url}`, (error, stdout) => {
-      if (error) return reject(error);
-      const hash = stdout.trim().split("\n").pop();
-      resolve(hash);
-    });
+    exec(
+      `nix-prefetch-url ${url}?reason=nix-luanti-updatePackageSet`,
+      (error, stdout) => {
+        if (error) return reject(error);
+        const hash = stdout.trim().split("\n").pop();
+        resolve(hash);
+      },
+    );
   });
 }
 

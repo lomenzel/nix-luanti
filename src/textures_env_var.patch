@@ -1,0 +1,61 @@
+diff --git a/doc/luanti.6 b/doc/luanti.6
+index 587af24fc..6ce465fc5 100644
+--- a/doc/luanti.6
++++ b/doc/luanti.6
+@@ -120,6 +120,9 @@ Colon delimited list of directories to search for games.
+ .B MINETEST_MOD_PATH
+ Colon delimited list of directories to search for mods.
+ .TP
++.B LUANTI_TEXTURE_PATH
++Colon delimited list of directories to search for textures.
++.TP
+ .B MINETEST_USER_PATH
+ Path to Luanti user data directory.
+ 
+diff --git a/src/server.cpp b/src/server.cpp
+index 7648a43ba..866c098a2 100644
+--- a/src/server.cpp
++++ b/src/server.cpp
+@@ -39,6 +39,7 @@
+ #include "modchannels.h"
+ #include "server/serverlist.h"
+ #include "util/string.h"
++#include "util/strfnd.h"
+ #include "server/rollback.h"
+ #include "util/serialize.h"
+ #include "util/thread.h"
+@@ -2617,6 +2618,7 @@ void Server::fillMediaCache()
+ 
+ 	// ordered in descending priority
+ 	paths.push_back(getBuiltinLuaPath() + DIR_DELIM + "locale");
++	getEnvTextureDirs(paths);
+ 	fs::GetRecursiveDirs(paths, porting::path_user + DIR_DELIM + "textures" + DIR_DELIM + "server");
+ 	fs::GetRecursiveDirs(paths, m_gamespec.path + DIR_DELIM + "textures");
+ 	m_modmgr->getModsMediaPaths(paths);
+@@ -3946,6 +3948,14 @@ void Server::setAsyncFatalError(const std::string &error)
+ 		m_thread->stop();
+ }
+ 
++void Server::getEnvTextureDirs(std::vector<std::string> &paths) const
++{
++	const char *c_texture_path = getenv("LUANTI_TEXTURE_PATH");
++	Strfnd search_paths(c_texture_path ? c_texture_path : "");
++	while (!search_paths.at_end())
++		fs::GetRecursiveDirs(paths, search_paths.next(PATH_DELIM));
++}
++
+ // Not thread-safe.
+ void Server::addShutdownError(const ModError &e)
+ {
+diff --git a/src/server.h b/src/server.h
+index 177af002f..68f6a112a 100644
+--- a/src/server.h
++++ b/src/server.h
+@@ -332,6 +332,7 @@ class Server : public con::PeerHandler, public MapEventReceiver,
+ 	virtual const ModSpec* getModSpec(const std::string &modname) const;
+ 	virtual const SubgameSpec* getGameSpec() const { return &m_gamespec; }
+ 	static std::string getBuiltinLuaPath();
++	void getEnvTextureDirs(std::vector<std::string> &paths) const;
+ 	virtual std::string getWorldPath() const { return m_path_world; }
+ 	virtual std::string getModDataPath() const { return m_path_mod_data; }
+ 	virtual ModIPCStore *getModIPCStore() { return &m_ipcstore; }

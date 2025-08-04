@@ -136,3 +136,13 @@ The systemd service is named `luanti-<your-server-name>.service` so if you set u
 ## Contributing
 
 This project is a work in progress, and contributions are highly welcome! If you encounter any issues or have suggestions, feel free to open an issue or a merge request.
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). A copy of the license is provided in the `LICENSE` file.
+
+### Exceptions
+
+1. The contents of the `/generated/contentDB.json` file are derived from data scraped from the Luanti ContentDB. These contents may be subject to separate licenses as specified by their original authors.
+
+2. The files `src/texturepacks_load.patch` and `src/textures_env_var.patch` contain code derived from the Luanti project, which is licensed under the GNU Lesser General Public License v2.1 (LGPL-2.1). These patch files are themselves licensed under the same LGPL-2.1 terms.
