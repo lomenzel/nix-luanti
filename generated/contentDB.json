@@ -16118,37 +16118,37 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "basic_materials",
-          "tnt",
-          "fire",
-          "bucket",
           "plastic_bucket",
-          "default"
+          "default",
+          "tnt",
+          "basic_materials",
+          "bucket",
+          "fire"
         ],
         "game_support": [
-          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "hilol", "name": "epic_combat" },
           { "author": "1248", "name": "regnum" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "castrum" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
+          { "author": "bell07", "name": "whynot_game" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Noodlemire", "name": "voxeldungeon" }
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "MeseCraft", "name": "mesecraft" }
         ],
-        "hash": "00f11fzd0rvrgqhb6ish83ypsmcr9h251vqrmiji9lzglkzbpl95",
+        "hash": "19clwqv1cr30vkrxm02s6jnmck9qhwldmazf0nhdnfih5623g88h",
         "provides": ["chemistry"],
-        "release": 32227,
+        "release": 32252,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -35702,9 +35702,9 @@
         "short_description": "connected nodes like xpanes, xfences, walls"
       },
       "yl_speak_up": {
-        "hash": "1r3qf3kjbmplnpkvjb61jb3z52cx0p2krghaxfzjk3h3a60ri1xc",
+        "hash": "1pd8bcm32m5ji4r2anw7m3wznb34pxxgv9xdyfdwmjhkg0v81z45",
         "provides": ["yl_speak_up"],
-        "release": 31709,
+        "release": 32241,
         "repo": "https://gitea.your-land.de/Sokomine/yl_speak_up",
         "short_description": "NPCs deliver speeches"
       }
@@ -46877,9 +46877,9 @@
     },
     "cronvel": {
       "astral": {
-        "hash": "0qrmrrfs6zzglxp1ssxdcpmxcjc52hyvnc3p5hfmwcxqlqjjxyz5",
+        "hash": "1yq9jj3ah7xqb7mkx7bpad5hjyvg4dxac705w9qm0nzq826za41q",
         "provides": ["astral"],
-        "release": 5021,
+        "release": 32249,
         "repo": "https://gitlab.com/cronvel/mt-astral",
         "short_description": "Add regular moon phases, as well as 9 special natural and surnatural Astral events to discover!"
       },
@@ -46891,16 +46891,16 @@
         "short_description": "Landscape shaping tools and API"
       },
       "namegen": {
-        "hash": "00182ibpas2njwa3l8k7qirnypnprj31kqmpl2y6b614ms48hsb8",
+        "hash": "1kkhbzxls6waiy3d8yc93f8jiwy2045xzh9gid5j7hzfc6x4cb96",
         "provides": ["namegen"],
-        "release": 5372,
+        "release": 32248,
         "repo": "https://gitlab.com/cronvel/mt-namegen",
         "short_description": "Name generator API."
       },
       "respawn": {
-        "hash": "1mdkxljwqxpwfq0w1xv905ld0yz8v3ip5x8b4jypb363pqcg2z8s",
+        "hash": "0pg5pbw87xd192d3dh72ncrscngkfis3ads0nxa4qpydvp19k2n3",
         "provides": ["respawn"],
-        "release": 2406,
+        "release": 32247,
         "repo": "https://gitlab.com/cronvel/mt-respawn",
         "short_description": "Manage respawn points, interesting places, teleportation and death records"
       }
@@ -51261,9 +51261,9 @@
     "margo": {
       "pegasus": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1vbrj5ch390fjz1v0mqwx2nv9dvnq2cm0jmwn5539k9ir3qgx6zi",
+        "hash": "0dhfdsmfk7n3zg231cx2y9vy9irmyc7vspn86fyjlskkgjarg80s",
         "provides": ["pegasus"],
-        "release": 32061,
+        "release": 32242,
         "repo": "https://github.com/homiak/pegasus.git",
         "short_description": "Adds consistantly designed legendary flying horses - Pegasi"
       }
