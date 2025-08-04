@@ -183,9 +183,9 @@
         "short_description": "You start on a small island and your goal is to enlarge it."
       },
       "sudoku": {
-        "hash": "1nxf1810rwqig65dy643kgqffb8vji3q6hra12kf4mnbh15736d2",
-        "provides": ["flatgen", "sudoku"],
-        "release": 31598,
+        "hash": "10vflffczc4lvsmzarnin57d65kk08y2yv9jl7crvs5vrdv9j589",
+        "provides": ["sudoku"],
+        "release": 32231,
         "repo": "https://github.com/Der1248/Sudoku",
         "short_description": "Can you solve the Sudoku??"
       }
@@ -27333,43 +27333,43 @@
       "pixelart": {
         "dependencies": ["sfinv", "default"],
         "game_support": [
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
           { "author": "1248", "name": "regnum" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "debiankaios", "name": "proxima_survival" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "1248", "name": "castrum" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "carlos_rupp", "name": "berzerkpt" }
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "nam", "name": "porko" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "jara25", "name": "yams" }
         ],
-        "hash": "1mx833xhhyil3vxw2y5qxiy8a8h4fdvfi52avqd5rswqr7mg6d7r",
+        "hash": "0wqds21076c6z988m94n1rk0rjsa03xrpbfz8dqkbg8l4zhn7qrx",
         "provides": ["pixelart"],
-        "release": 32021,
+        "release": 32238,
         "repo": "https://git.0x7be.net/dirk/pixelart",
         "short_description": "Nodes for pixelart grouped in color palettes"
       },
@@ -48695,9 +48695,9 @@
       },
       "skills": {
         "dependencies": ["lib_chatcmdbuilder"],
-        "hash": "1bf2da3x5a3n1nafcdq9qxkcfj6cznx77yjsxx4bzpd1a0mxawd2",
+        "hash": "069n2rwjdivdl6cm804bbmy10l6s7bw84fa5x94i187dk9bhg4yx",
         "provides": ["skills"],
-        "release": 32224,
+        "release": 32230,
         "repo": "https://gitlab.com/zughy-friends-minetest/skills",
         "short_description": "An API for creating skills."
       },
@@ -49229,11 +49229,11 @@
         "short_description": "Minecart, the lean railway transportation automation system"
       },
       "signs_bot": {
-        "dependencies": ["tubelib2", "basic_materials", "default", "farming"],
+        "dependencies": ["tubelib2", "basic_materials", "farming", "default"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0wcdh3xh0xh1djans0r8iri0dn7jglvm3rdx2nd3l7l9nkg0i0lw",
+        "hash": "0ykbvb21fky8yhqzy1x4d2ry0s5x0vc6yyw72fmrhbj9mpsvvxr3",
         "provides": ["signs_bot"],
-        "release": 31374,
+        "release": 32229,
         "repo": "https://github.com/joe7575/signs_bot",
         "short_description": "A robot controlled by signs"
       },
@@ -57110,8 +57110,8 @@
         "short_description": "provides an API for filtering text"
       },
       "lush": {
-        "dependencies": ["flow", "warn", "findbiome"],
-        "hash": "18km9lnrxxb0147h2bxn0kd0822aywpv3szyn45bxhl4nrfl4lzm",
+        "dependencies": ["findbiome", "flow", "warn"],
+        "hash": "1nbiynrs3h1va4hbiqgl5d2gl2w20qld5bv0f4ysb4l1dzkgnh52",
         "provides": [
           "lush_builtin",
           "lush_command_managment",
@@ -57119,12 +57119,16 @@
           "lush_doas",
           "lush_findbiome",
           "lush_gui",
+          "lush_hooks",
+          "lush_interpreter",
+          "lush_math",
           "lush_messages",
           "lush_moderation",
+          "lush_nodes",
           "lush_tpr",
           "lush_utilities"
         ],
-        "release": 27239,
+        "release": 32237,
         "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/lush",
         "short_description": "fully featured shell interpreter"
       },
@@ -61683,8 +61687,8 @@
     },
     "Ludus": {
       "mcl_tf2": {
-        "hash": "11p8nsjd2mq0a0zskx8y0fg03nbd2a1bm6dsvkgk9bk99mg6mdj5",
-        "release": 32077,
+        "hash": "08xgmih5id4901cx1wyrzmb0va3ck5dhnaicj4xsrqwhnzznknvq",
+        "release": 32236,
         "repo": "https://github.com/LudusExe/TF2-Textures-for-Voxelibre",
         "short_description": "Adds clean and recognizable TF2 textures to your world."
       }
