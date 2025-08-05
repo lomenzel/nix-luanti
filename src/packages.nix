@@ -136,6 +136,7 @@ let
         provides ? [ ],
         mods ? [ ],
         description ? "",
+        buildPhase ? "true",
         passthru ? { },
         meta ? { },
         installPhase ? ''
@@ -197,6 +198,7 @@ let
           src
           pname
           installPhase
+          buildPhase
           ;
         fixupPhase = ''
           ls -lah $out
@@ -236,6 +238,7 @@ let
         src,
         description ? "",
         provides ? [ ],
+        buildPhase ? "true",
         dependencies ? [ ],
         passthru ? { },
         meta ? { },
@@ -251,6 +254,7 @@ let
           version
           src
           installPhase
+          buildPhase
           ;
         passthru = {
           dependencies = attr.dependencies;
@@ -310,6 +314,7 @@ let
         src,
         description ? "",
         passthru ? { },
+        buildPhase ? "",
         meta ? { },
         installPhase ? ''
           mkdir -p $out
@@ -323,6 +328,7 @@ let
           version
           src
           installPhase
+          buildPhase
           ;
         passthru = passthru;
         meta = {
