@@ -18682,9 +18682,9 @@
         "short_description": "Adds festive christmas items and nodes"
       },
       "ecliptic_cycle": {
-        "hash": "1swjrmcpy519wmjhgnia62klbzjwziha57zhpq2d3h14sam9qdda",
+        "hash": "0fm0zpsw3jv02l8yz330j8w79x2khm2585f9glfglq9ysb8di9h2",
         "provides": ["ecliptic_cycle"],
-        "release": 30916,
+        "release": 32272,
         "repo": "https://github.com/Extex101/ecliptic_cycle",
         "short_description": "Adds lunar events and moon phases by shifting the moon in and out of a lunar eclipse. "
       },
@@ -29710,9 +29710,9 @@
         "short_description": "A survival challenge for Mineclone2. Try to survive in a flooded world. "
       },
       "oneblock": {
-        "hash": "1birkid04r16z0pbnwy1gfifnrfsx7ixb6255b1y348czv6h58rc",
+        "hash": "067p8v7gc2g5aajx3vnrlx38hc40qs63ghq4ch9brd4hjzz67apl",
         "provides": ["oneblock"],
-        "release": 13664,
+        "release": 32274,
         "repo": "https://github.com/NO411/oneblock",
         "short_description": "Build your island in the sky with random items!"
       },
@@ -43015,14 +43015,14 @@
     },
     "YCaTGameRT": {
       "cvl_bleach": {
-        "dependencies": ["mcl_potions", "mcl_buckets"],
+        "dependencies": ["mcl_wool", "mcl_potions", "mcl_buckets"],
         "game_support": [
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "Wuzzy", "name": "mineclone2" }
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1gnq0a7py2a9qclqbg8i0sxcf12zvxslqfa6pwk718afdvmpjc7k",
+        "hash": "05i6az0l14rz1k2v93j5vpmj7nc2pc5hdfnvzjj10fwi6k5sd0il",
         "provides": ["cvl_bleach"],
-        "release": 32199,
+        "release": 32275,
         "repo": "https://gitea.com/YCaTGameRT/CaT_VoxeLibre_Bleach",
         "short_description": "Add bleach to discolor wool blocks"
       },
@@ -44464,7 +44464,7 @@
         "short_description": "Extra recipes for processing various items with Technic machines"
       },
       "zinc": {
-        "dependencies": ["default", "basic_materials"],
+        "dependencies": ["default"],
         "game_support": [
           { "author": "1248", "name": "regnum" },
           { "author": "NotaB", "name": "tolkientest" },
@@ -44492,17 +44492,17 @@
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "1248", "name": "castrum" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "nam", "name": "porko" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "nam", "name": "porko" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "JavaFXpert", "name": "qiskitblocks" }
         ],
-        "hash": "0j6h9fidbbpw96q787lhji7jfmp2yiqpwfgi53mnwziy9i2qjnq3",
+        "hash": "0l8pxvdsixpc3q3gx3cmlsg5ajgbwnl34wqvr0kpg6rwg18vf9aj",
         "provides": ["zinc"],
-        "release": 16906,
+        "release": 32277,
         "repo": "https://gitlab.com/alerikaisattera/zinc",
         "short_description": "Zinc metal, used for making brass"
       }
@@ -55925,11 +55925,11 @@
     "paulwilde": {
       "h2g2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "09g6dx21ihrd6x8dh9fl90ysvq1b8s3qpbx6dnb2w1jxgaiqmc1q",
+        "hash": "1xfsbv6fzda6m6m3x0d9267sp4ipidhbdc10s7yvgxlna5qyymyg",
         "provides": ["h2g2"],
-        "release": 32267,
+        "release": 32279,
         "repo": "https://codeberg.org/pswilde/h2g2_luanti",
-        "short_description": "Work in Progress. A bunch of nodes that do some things related to Hitchiker's Guide to the Galaxy"
+        "short_description": "A bunch of nodes that do some things related to Hitchiker's Guide to the Galaxy"
       }
     },
     "philipbenr": {
