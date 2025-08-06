@@ -12043,6 +12043,14 @@
         "release": 32101,
         "repo": "https://codeberg.org/Codiac/prestibags",
         "short_description": "Prestibags are simple bags that act like chests you can pick up."
+      },
+      "world_settings": {
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "0y7x9cmwgw0q1r9a88w2ndwqmvkr49swhvhz7cyi5mjqa61668ls",
+        "provides": ["world_settings"],
+        "release": 32157,
+        "repo": "https://codeberg.org/Codiac/world_settings",
+        "short_description": "Supports per world settings in Luanti games and mods"
       }
     },
     "Coffewithmilk": {
@@ -40170,9 +40178,9 @@
     },
     "TwigGlenn4": {
       "ore_info": {
-        "hash": "0sf4gl3xkswph7i2ar316rvzw0ig0j1qjhijfjxgpzfa854jjswj",
+        "hash": "17x4zbx6znqnn29wkkdyja3v6vx3j9136g483c06vfdvdifd2f9h",
         "provides": ["ore_info"],
-        "release": 26159,
+        "release": 32271,
         "repo": "https://github.com/TwigGlenn4/ore_info",
         "short_description": "Show ore depth and rarity."
       },
@@ -43003,6 +43011,40 @@
         "release": 8782,
         "repo": null,
         "short_description": "Adds new uses of stone"
+      }
+    },
+    "YCaTGameRT": {
+      "cvl_bleach": {
+        "dependencies": ["mcl_potions", "mcl_buckets"],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1gnq0a7py2a9qclqbg8i0sxcf12zvxslqfa6pwk718afdvmpjc7k",
+        "provides": ["cvl_bleach"],
+        "release": 32199,
+        "repo": "https://gitea.com/YCaTGameRT/CaT_VoxeLibre_Bleach",
+        "short_description": "Add bleach to discolor wool blocks"
+      },
+      "cvl_tools": {
+        "dependencies": [
+          "mcl_init",
+          "mcl_mobitems",
+          "mcl_end",
+          "mcl_tools",
+          "mcl_core",
+          "mcl_sounds",
+          "mcl_buckets"
+        ],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "15f23gv312nd82gjjaglxh1wqg4fch69cmx41sx284nza3wn4m36",
+        "provides": ["cvl_tools"],
+        "release": 32256,
+        "repo": "https://gitea.com/YCaTGameRT/CaT_VoxeLibre_Tools",
+        "short_description": "Add tools created by YCaTGameRT and farfind for VoxeLibre"
       }
     },
     "Yof": {
@@ -55880,6 +55922,16 @@
         "short_description": "8-bit ColorBrewer palettes texture pack"
       }
     },
+    "paulwilde": {
+      "h2g2": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "09g6dx21ihrd6x8dh9fl90ysvq1b8s3qpbx6dnb2w1jxgaiqmc1q",
+        "provides": ["h2g2"],
+        "release": 32267,
+        "repo": "https://codeberg.org/pswilde/h2g2_luanti",
+        "short_description": "A bunch of nodes that do some things related to Hitchiker's Guide to the Galaxy"
+      }
+    },
     "philipbenr": {
       "castle": {
         "dependencies": [
@@ -61707,8 +61759,8 @@
     },
     "Mirtilo": {
       "baunilha": {
-        "hash": "1k76iaxcf3qfgwsd7sqjklb7s4fk5kcbkcpcydy0vj3qwrs38z04",
-        "release": 32228,
+        "hash": "1yy7yw49ggxwmsbjnb08c4pynafcd780pzndmlw7343y0zi96r5j",
+        "release": 32269,
         "repo": "https://codeberg.org/mirtilo/Baunilha.git",
         "short_description": "Fresh and tasty textures with a vanilla flavor"
       }
