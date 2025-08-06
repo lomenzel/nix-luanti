@@ -8,6 +8,7 @@ let
     lib
     fetchurl
     unzip
+    p7zip
     writeText
     ;
   inherit (pkgs.stdenv) mkDerivation;
@@ -72,8 +73,9 @@ let
       };
       unpackPhase = ''
         mkdir extracted
-        ${unzip}/bin/unzip $src -d extracted
+        ${p7zip}/bin/7z x $src -oextracted -aoa
       '';
+
       installPhase = ''
         echo 'installphase started'
         mkdir -p $out
