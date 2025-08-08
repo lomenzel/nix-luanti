@@ -48741,7 +48741,7 @@
         "provides": ["skills"],
         "release": 32230,
         "repo": "https://gitlab.com/zughy-friends-minetest/skills",
-        "short_description": "An API for creating skills."
+        "short_description": "An API for creating skills and states."
       },
       "skywars": {
         "dependencies": ["arena_lib"],
@@ -50906,6 +50906,47 @@
         "release": 6378,
         "repo": "https://github.com/lisacvuk/minetest-toolranks",
         "short_description": "Counts the number of nodes a specific tool has dug"
+      }
+    },
+    "lister": {
+      "ldf_race": {
+        "dependencies": ["dye", "default"],
+        "game_support": [
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "nam", "name": "porko" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Noodlemire", "name": "voxeldungeon" }
+        ],
+        "hash": "1xw3sqdl4cxwhjcv3y6ikr63a0m7g0xxn9a92qj8vrc8xpn08p2r",
+        "provides": ["ldf_race"],
+        "release": 32280,
+        "repo": "https://gitlab.com/retsil/ldf_race",
+        "short_description": "Race/Parkour Timers and Record Tables"
       }
     },
     "liteninglazer": {
@@ -55499,43 +55540,6 @@
         "release": 17721,
         "repo": "https://github.com/OFG-yso/japanese_letters_modpack",
         "short_description": "Japanese hiragana blocks"
-      }
-    },
-    "ona-li-toki-e-jan-Epiphany-tawa-mi": {
-      "elephant_veins": {
-        "game_support": [
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "ryvnf", "name": "mineclonia" }
-        ],
-        "hash": "0m685qdyais2g8w4ykar296drq3hc1li391v0apdwcfklv86p2hf",
-        "provides": ["elephant_veins"],
-        "release": 29543,
-        "repo": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/elephant_veins",
-        "short_description": "Replaces small, sporadic ore pockets with sparse, gigantic ore veins."
-      },
-      "gigatools": {
-        "hash": "1mk6wrc7ad0ziin4v8giz1pglr3dg95222fc00mq236wf5ivz31z",
-        "provides": [
-          "gigatools",
-          "gigatools_excavators",
-          "gigatools_hammers",
-          "gigatools_lumber_axes"
-        ],
-        "release": 29127,
-        "repo": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/gigatools",
-        "short_description": "Gigatools for gigachads with gigaworkloads."
-      },
-      "slapperfishy": {
-        "dependencies": ["mcl_explosions", "mcl_damage"],
-        "game_support": [
-          { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "ryvnf", "name": "mineclonia" }
-        ],
-        "hash": "08whf53dkmpdjh92qbx8k20fa4kb7jrj95a78hvpkx9amrc4vlrb",
-        "provides": ["slapperfishy"],
-        "release": 29519,
-        "repo": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/slapperfishy",
-        "short_description": "High ordinance fish slapping. Hilarity ensues."
       }
     },
     "opfromthestart": {
@@ -60446,6 +60450,15 @@
         "short_description": "SUMMER"
       }
     },
+    "unacceptium_core": {
+      "8segmentdisplayblocks": {
+        "hash": "1nvb130xsix5f1qxv91bp113xa5sjr3q0gjc97x74ssgk3vmhpwv",
+        "provides": ["8segmentdisplayblocks"],
+        "release": 32287,
+        "repo": "https://github.com/Unacceptium/8segmentdiplayblocks",
+        "short_description": "8 segment digital display as blocks"
+      }
+    },
     "uyku": {
       "drop_blacklisted": {
         "hash": "02n1f6dgcayg3q9yqjwmqk2v3rv9mf5z1mwkxqkbgkpjv5pjhf9i",
@@ -60590,7 +60603,7 @@
         "short_description": "Adds quartz-glass combinations for colored glass blocks"
       }
     },
-    "verdiperdi": {
+    "verdishubert": {
       "anarglass": {
         "dependencies": ["default"],
         "game_support": [
