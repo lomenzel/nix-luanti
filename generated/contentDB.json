@@ -5424,7 +5424,7 @@
     },
     "ryvnf": {
       "mineclonia": {
-        "hash": "12zpz96cqm0sxr501qa519vf741mcg7zcg224ma0k58yiwhygfqy",
+        "hash": "12sq5pc7ssyjj3m1vn1q5c961559lzn2pkack6jk6104m4gnrfw7",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -5635,7 +5635,7 @@
           "tt",
           "walkover"
         ],
-        "release": 31399,
+        "release": 32308,
         "repo": "https://codeberg.org/mineclonia/mineclonia",
         "short_description": "Survival sandbox game inspired by Minecraft."
       }
@@ -16126,37 +16126,37 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "tnt",
-          "bucket",
-          "fire",
-          "basic_materials",
           "plastic_bucket",
-          "default"
+          "default",
+          "tnt",
+          "basic_materials",
+          "bucket",
+          "fire"
         ],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" }
+          { "author": "1248", "name": "regnum" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "MeseCraft", "name": "mesecraft" }
         ],
-        "hash": "19x0bvn0h7d446ch4wy131r0n4blyngzbmkv9mmvf4l2sisigp1d",
+        "hash": "05ij18nb473szsrjfdvjfi9dl09q2syj36r7dmrkgxggckf0l7f1",
         "provides": ["chemistry"],
-        "release": 32255,
+        "release": 32302,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -35176,67 +35176,16 @@
         "short_description": "Adds more triggers for Awards"
       },
       "online_skins": {
-        "dependencies": ["player_api"],
         "game_support": [
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "BRNSystems", "name": "blocky_portaling" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "StarNinjas", "name": "jail_escape" },
-          { "author": "xenonca", "name": "luckydude" },
-          { "author": "jamiebearcub", "name": "grand_theft_box" },
-          { "author": "theidealist101", "name": "stellua" },
-          { "author": "Wuzzy", "name": "lazarr" },
-          { "author": "xenonca", "name": "luckysweeper" },
-          { "author": "Hanuko33", "name": "libre_adventure3" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "dibesfer", "name": "colorlandia" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "mt-mods", "name": "driftgame" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "Astrobe", "name": "minefall" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Lone_Wolf", "name": "torrlund" },
-          { "author": "Emojiminetest", "name": "parkour" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "SuperStarSonic", "name": "reentry" },
-          { "author": "Wuzzy", "name": "repixture" },
-          { "author": "Hume2", "name": "minesweeper_3d" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "jgordon510", "name": "color_block" },
-          { "author": "aerkiaga", "name": "nodeverse" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "covertiii", "name": "mogue" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Hume2", "name": "boxworld3d" },
-          { "author": "zanderdev", "name": "skyblock_zero" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Blockhead", "name": "sotm" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "BuckarooBanzay", "name": "super_sam" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Mantar", "name": "exile" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "16b39nmp2xmfp50sb1h5w1gw673dak1p3s1mwn8sm1pbyi991sqn",
+        "hash": "1fwcmlbss4w2xnnpb1ap3wnhdf7iasx87lw5szqsa057mgn062fl",
         "provides": ["online_skins"],
-        "release": 31806,
+        "release": 32309,
         "repo": "https://github.com/SkyBuilder1717/online_skins",
-        "short_description": "Work in Progress. Adds online skins database and site to upload your own."
+        "short_description": "Adds online skins database and site to upload your own."
       },
       "wallblock": {
         "dependencies": ["worldedit", "default"],
@@ -36851,6 +36800,13 @@
         "release": 25782,
         "repo": "https://codeberg.org/TPH/mt_doors_redo",
         "short_description": "Work in Progress. Utilizes my Doors API Redo to better simplify and work the doors"
+      },
+      "operating_system_detector": {
+        "hash": "0h69j9kf7zimshxy51ai0d3n27bwn6lifn7c6svbf5gk9adqddy7",
+        "provides": ["operating_system_detector"],
+        "release": 32304,
+        "repo": "https://codeberg.org/TPH/operating_system_detector",
+        "short_description": "Checks the OS of the device running the mod."
       },
       "tph_doors": {
         "hash": "006kwi6skpi6xrvpawmc0r2zsssybgzc6i1i792m9w04a21jz27f",
@@ -48353,6 +48309,13 @@
         "release": 25712,
         "repo": "https://gitoverit.ofafox.com/Bob/hexcol.git",
         "short_description": "Adds nodes with colour palattes for each 3 character hex value like #fff"
+      },
+      "player_visibility_api": {
+        "hash": "0pydyj6ix3xn3dm2s7dphxz3bw06ynr82lcl6nslhv7zjd4nh4xf",
+        "provides": ["player_visibility_api"],
+        "release": 32299,
+        "repo": "https://codeberg.org/PintTheLittleMouse/player_visibility_api.git",
+        "short_description": "Easily manage player visibility in a similar way to area protection"
       }
     },
     "fancyfinn9": {
@@ -48878,45 +48841,10 @@
     },
     "gtzi203": {
       "crenodes": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "nam", "name": "porko" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Luanti", "name": "minetest_game" }
-        ],
-        "hash": "1kmfs36chsyk07mym1fnq7sj820wpvpz50q0d1gii4v2xs7xfahq",
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "07ln8ahypanklclxwcbqhrhjl33smhqhm3ynwzvskpqmr3bcrp8m",
         "provides": ["crenodes"],
-        "release": 31997,
+        "release": 32307,
         "repo": "https://github.com/gtzi203/CreNodes",
         "short_description": "Adds useful nodes for the creative mode, like barriers or light nodes."
       }
@@ -51302,6 +51230,20 @@
         "release": 31419,
         "repo": "https://codeberg.org/luxanna/luanti-gravestone",
         "short_description": "Prevents items from dropping down upon death and place them safely inside a gravestone"
+      }
+    },
+    "m16b": {
+      "m16b_mystic_stones": {
+        "dependencies": ["mcl_init", "mcl_tools", "mcl_core"],
+        "game_support": [
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "12rx10k6qmh85sh1zh6ifj9fr7lrs5dc27qvw71lg8n479azk4ji",
+        "provides": ["m16b_mystic_stones"],
+        "release": 32288,
+        "repo": null,
+        "short_description": "Add many mystic stones"
       }
     },
     "malt2592": {
