@@ -3411,7 +3411,7 @@
         "short_description": "Work in Progress. Be a pirate and solve laser puzzles (UNFINISHED!)"
       },
       "mineclone2": {
-        "hash": "0c4jfhwqsvbj6rmcqxrbbqmgm54ygbf0rrjnh8hymmfyb8v9w0p7",
+        "hash": "0gqm4sqq4fyj4wci6cdlyws5an8ysl7shpjlys93n7jawzspwkny",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -3628,7 +3628,7 @@
           "walkover",
           "xpanes"
         ],
-        "release": 32216,
+        "release": 32301,
         "repo": "https://git.minetest.land/VoxeLibre/VoxeLibre",
         "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond."
       },
@@ -17817,9 +17817,9 @@
       },
       "trainblocks": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0kzph9pjm9hgl1gwipybgi0xfg4pwy78qjlrh3wjqfb3kj6lqzfd",
+        "hash": "0n0wjlqc154n6yy5wkb7yvvcwpd9n335dhs0lhfh8pf9cza9swpq",
         "provides": ["trainblocks"],
-        "release": 32282,
+        "release": 32296,
         "repo": "https://github.com/C-C-Minetest-Server/trainblocks",
         "short_description": "Adds signs fitting the advtrains theme"
       },
@@ -44347,33 +44347,34 @@
         "short_description": "Moss carpets based on Ethereal mosses"
       },
       "stainedglass": {
-        "dependencies": ["default", "xpanes", "dye"],
+        "dependencies": ["xpanes", "dye", "default"],
         "game_support": [
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "hilol", "name": "epic_combat" },
           { "author": "Casimir", "name": "voxelgarden" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "hilol", "name": "epic_combat" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "EmptyStar", "name": "asuna" }
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "1248", "name": "castrum" }
         ],
-        "hash": "0z2qzafl66nd05cfx5rc5mslp8pm3qh43mmvgiq0qi7vinbpny21",
+        "hash": "08qvy31s6sbz3725nra2y9vrsmzxqd8mhbhy226pa74yigxa80kz",
         "provides": ["stainedglass"],
-        "release": 16524,
+        "release": 32298,
         "repo": "https://gitlab.com/alerikaisattera/stainedglass",
         "short_description": "Stained glass blocks and panes"
       },
