@@ -40,9 +40,7 @@ let
       csmPath = listToPath clientMods "client-side-mods";
 
       csmConfig = writeText "mods.conf" (
-        lib.concatStringsSep "\n" (builtins.map (mod: 
-          "load_mod_${mod.name} = true"
-        ) clientMods)
+        lib.concatStringsSep "\n" (builtins.map (mod: "load_mod_${mod.name} = true") clientMods)
       );
     in
 
@@ -67,10 +65,13 @@ let
                 ]
             )
             ++ (
-              if clientMods == [] then [] else
-              [
-                ./csm_env_var.patch
-              ])
+              if clientMods == [ ] then
+                [ ]
+              else
+                [
+                  ./csm_env_var.patch
+                ]
+            )
           );
         })
       );
@@ -95,17 +96,17 @@ let
       ];
 
       postBuild = ''
-          for bin in $out/bin/{luanti,luantiserver}; do
-            if [ -e $bin ]; then
-              wrapProgram $bin \
-                --prefix MINETEST_MOD_PATH : "${modsPath}" \
-                --prefix MINETEST_GAME_PATH : "${gamesPath}" \
-                --prefix LUANTI_TEXTURES_PATH : "${texturesPath}" \
-                --prefix LUANTI_CSM_PATH : "${csmPath}" \
-                --set-default LUANTI_CSM_CONFIG "${csmConfig}"
-            fi
-          done
-        '';
+        for bin in $out/bin/{luanti,luantiserver}; do
+          if [ -e $bin ]; then
+            wrapProgram $bin \
+              --prefix MINETEST_MOD_PATH : "${modsPath}" \
+              --prefix MINETEST_GAME_PATH : "${gamesPath}" \
+              --prefix LUANTI_TEXTURES_PATH : "${texturesPath}" \
+              --prefix LUANTI_CSM_PATH : "${csmPath}" \
+              --set-default LUANTI_CSM_CONFIG "${csmConfig}"
+          fi
+        done
+      '';
     };
 in
 mkLuanti
