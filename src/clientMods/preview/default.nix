@@ -1,4 +1,8 @@
-{stdenv, fetchFromGitHub, luanti}:
+{
+  stdenv,
+  fetchFromGitHub,
+  luanti,
+}:
 stdenv.mkDerivation {
   name = "preview";
   inherit (luanti) src;
