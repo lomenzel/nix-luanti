@@ -30,7 +30,10 @@
         pkgs.luantiPackages
         // {
 
-          example = pkgs.luanti.withPackages { };
+          example = with pkgs.luantiPackages; pkgs.luanti.withPackages { 
+            clientMods = [clientMods.minimap_on];
+            games = [games.mineclone2];
+          };
 
           test =
             pkgs.lib.filesystem.listFilesRecursive ./tests

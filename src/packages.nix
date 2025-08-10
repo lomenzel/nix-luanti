@@ -394,6 +394,7 @@ in
         ) texturePacksFromAuthor
       ) contentDB.texturePacks
     );
+    clientMods = import ./clientMods pkgs;
   };
   inherit
     buildLuantiMod

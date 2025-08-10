@@ -29,7 +29,7 @@ let
              ${builtins.concatStringsSep "\n" (
                map (pkg: ''
 
-                 ln -s ${pkg} "$out/${pkg.name}"
+                 ln -s ${pkg} "$out/${pkg.pname or pkg.name}"
                '') list
              )}
           '';

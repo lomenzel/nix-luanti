@@ -12,7 +12,7 @@ index e4bd8522f..0a2f85775 100644
  #    Replaces the default main menu with a custom one.
  main_menu_script (Main menu script) [client] string
 diff --git a/src/client/client.cpp b/src/client/client.cpp
-index b1dfa5993..88933cc51 100644
+index b1dfa5993..9a3723c8c 100644
 --- a/src/client/client.cpp
 +++ b/src/client/client.cpp
 @@ -26,6 +26,7 @@
@@ -23,18 +23,24 @@ index b1dfa5993..88933cc51 100644
  #include "util/string.h"
  #include "util/srp.h"
  #include "filesys.h"
-@@ -202,7 +203,21 @@ void Client::loadMods()
- 		}
- 		paths["mods"] = path_user;
- 
+@@ -198,11 +199,25 @@ void Client::loadMods()
+ 		std::string path_user = porting::path_user + DIR_DELIM + "clientmods";
+ 		const auto modsPath = getClientModsLuaPath();
+ 		if (modsPath != path_user) {
+-			paths["share"] = modsPath;
++			//paths["share"] = modsPath;
++		}
++		//paths["mods"] = path_user;
++
 +		const char *env_csm_path = std::getenv("LUANTI_CSM_PATH");
 +		Strfnd search_paths(env_csm_path ? env_csm_path : "");
 +		while (!search_paths.at_end()) {
 +			std::string path = search_paths.next(PATH_DELIM);
 +			if (!path.empty())
 +				paths["env" + std::to_string(paths.size())] = path;
-+		}
-+
+ 		}
+-		paths["mods"] = path_user;
+ 
  		std::string settings_path = path_user + DIR_DELIM + "mods.conf";
 +
 +		const char *env_csm_conf = std::getenv("LUANTI_CSM_CONFIG");
