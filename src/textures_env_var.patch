@@ -1,17 +1,3 @@
-diff --git a/doc/luanti.6 b/doc/luanti.6
-index 587af24fc..6ce465fc5 100644
---- a/doc/luanti.6
-+++ b/doc/luanti.6
-@@ -120,6 +120,9 @@ Colon delimited list of directories to search for games.
- .B MINETEST_MOD_PATH
- Colon delimited list of directories to search for mods.
- .TP
-+.B LUANTI_TEXTURE_PATH
-+Colon delimited list of directories to search for textures.
-+.TP
- .B MINETEST_USER_PATH
- Path to Luanti user data directory.
- 
 diff --git a/src/server.cpp b/src/server.cpp
 index 7648a43ba..866c098a2 100644
 --- a/src/server.cpp

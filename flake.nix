@@ -29,6 +29,9 @@
         in
         pkgs.luantiPackages
         // {
+
+          example = pkgs.luanti.withPackages {};
+
           test =
             pkgs.lib.filesystem.listFilesRecursive ./tests
             |> map (test: {

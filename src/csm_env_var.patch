@@ -1,0 +1,47 @@
+diff --git a/builtin/settingtypes.txt b/builtin/settingtypes.txt
+index e4bd8522f..0a2f85775 100644
+--- a/builtin/settingtypes.txt
++++ b/builtin/settingtypes.txt
+@@ -1882,7 +1882,7 @@ mgvalleys_np_dungeons (Dungeon noise) noise_params_3d 0.9, 0.5, (500, 500, 500),
+ 
+ #    Enable Lua modding support on client.
+ #    This support is experimental and API can change.
+-enable_client_modding (Client modding) [client] bool false
++enable_client_modding (Client modding) [client] bool true
+ 
+ #    Replaces the default main menu with a custom one.
+ main_menu_script (Main menu script) [client] string
+diff --git a/src/client/client.cpp b/src/client/client.cpp
+index b1dfa5993..88933cc51 100644
+--- a/src/client/client.cpp
++++ b/src/client/client.cpp
+@@ -26,6 +26,7 @@
+ #include "util/directiontables.h"
+ #include "util/pointedthing.h"
+ #include "util/serialize.h"
++#include "util/strfnd.h"
+ #include "util/string.h"
+ #include "util/srp.h"
+ #include "filesys.h"
+@@ -202,7 +203,21 @@ void Client::loadMods()
+ 		}
+ 		paths["mods"] = path_user;
+ 
++		const char *env_csm_path = std::getenv("LUANTI_CSM_PATH");
++		Strfnd search_paths(env_csm_path ? env_csm_path : "");
++		while (!search_paths.at_end()) {
++			std::string path = search_paths.next(PATH_DELIM);
++			if (!path.empty())
++				paths["env" + std::to_string(paths.size())] = path;
++		}
++
+ 		std::string settings_path = path_user + DIR_DELIM + "mods.conf";
++
++		const char *env_csm_conf = std::getenv("LUANTI_CSM_CONFIG");
++		if (env_csm_conf && *env_csm_conf)
++			settings_path = env_csm_conf;
++
++
+ 		modconf.addModsFromConfig(settings_path, paths);
+ 		modconf.checkConflictsAndDeps();
+ 	}

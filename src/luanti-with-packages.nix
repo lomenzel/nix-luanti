@@ -14,6 +14,8 @@ let
       mods ? [ ],
       games ? [ ],
       texturePacks ? [ ],
+      clientMods ? [ ],
+      ...
     }@args:
     let
       listToPath =
@@ -34,21 +36,28 @@ let
         };
       modsPath = listToPath mods "mods";
       gamesPath = listToPath games "games";
-      texturesPath = listToPath texturePacks "texturePacks";
+      texturesPath = listToPath texturePacks "texture-packs";
+      csmPath = listToPath clientMods "client-side-mods";
+
+      csmConfig = writeText "mods.conf" (
+        lib.concatStringsSep "\n" (builtins.map (mod: 
+          "load_mod_${mod.name} = true"
+        ) clientMods)
+      );
     in
 
     symlinkJoin {
       name = luanti.pname;
 
-      paths =
-        if texturePacks == [ ] then
-          lib.singleton luanti
-        else
-          [
-            (luanti.overrideAttrs (old: {
-              patches = lib.lists.unique (
-                old.patches
-                ++ [
+      paths = lib.singleton (
+        luanti.overrideAttrs (old: {
+          patches = lib.lists.unique (
+            old.patches
+            ++ (
+              if texturePacks == [ ] then
+                [ ]
+              else
+                [
                   (writeText "texturepack_load.patch" (
                     builtins.replaceStrings [ "{{TEXTURE_PACKS_PATH}}" ] [ (toString texturesPath) ] (
                       builtins.readFile ./texturepacks_load.patch
@@ -56,43 +65,44 @@ let
                   ))
                   ./textures_env_var.patch
                 ]
-              );
-            }))
-          ];
+            )
+            ++ (
+              if clientMods == [] then [] else
+              [
+                ./csm_env_var.patch
+              ])
+          );
+        })
+      );
 
       passthru.withPackages =
         {
           mods ? [ ],
           games ? [ ],
           texturePacks ? [ ],
+          clientMods ? [ ],
+          ...
         }@newPackages:
         mkLuanti {
           mods = lib.lists.unique (newPackages.mods or [ ] ++ args.mods or [ ]);
           games = lib.lists.unique (newPackages.games or [ ] ++ args.games or [ ]);
           texturePacks = lib.lists.unique (newPackages.texturePacks or [ ] ++ args.texturePacks or [ ]);
+          clientMods = lib.lists.unique (newPackages.clientMods or [ ] ++ args.clientMods or [ ]);
         };
 
       buildInputs = [
         makeWrapper
       ];
 
-      postBuild =
-        let
-          linkList =
-            list: name:
-            builtins.concatStringsSep "\n" (
-              map (pkg: ''
-                cp -r ${pkg} $out/share/luanti/${name}/${pkg.name}
-              '') list
-            );
-        in
-        ''
+      postBuild = ''
           for bin in $out/bin/{luanti,luantiserver}; do
             if [ -e $bin ]; then
               wrapProgram $bin \
                 --prefix MINETEST_MOD_PATH : "${modsPath}" \
                 --prefix MINETEST_GAME_PATH : "${gamesPath}" \
-                --prefix LUANTI_TEXTURES_PATH : "${texturesPath}"
+                --prefix LUANTI_TEXTURES_PATH : "${texturesPath}" \
+                --prefix LUANTI_CSM_PATH : "${csmPath}" \
+                --set-default LUANTI_CSM_CONFIG "${csmConfig}"
             fi
           done
         '';
