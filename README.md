@@ -76,7 +76,6 @@ If you don't want to use the module you can add only the overlay that gives you 
 
 If you don't want to install the the overlay you can still access the luantiPackages with `inputs.nix-luanti.legacyPackages.${system}.luantiPackages`
 
-
 ## Configure servers
 
 In your Nix configuration (e.g. `configuration.nix` or `home.nix` if using home-manager), use the nix-luanti module to set up your servers:
@@ -148,7 +147,6 @@ A minimal Config may look like this:
 
 it would deploy a VoxeLibre server without a whitelist and without additional mods on UDP port 30000
 
-
 ### Troubleshooting
 
 The systemd service is named `luanti-<your-server-name>.service` so if you set up `services.luanti.servers.adventure` you can see the status of the server by running `systemctl status luanti-adventure.service` and all its files like the world file the .minetest directory and everything else will be placed in `/var/lib/luanti-adventure`
@@ -156,7 +154,7 @@ The systemd service is named `luanti-<your-server-name>.service` so if you set u
 ## Configure client
 
 > All official clients can connect to servers set up with nix-luanti.
-No additional client configuration needed.
+> No additional client configuration needed.
 
 Example configuration:
 
@@ -198,7 +196,7 @@ Example configuration:
         toomuchinfo
       ];
     })
-    
+
     # your other packages
   ];
 
@@ -217,7 +215,6 @@ Nix-luanti provides a set of functions to help you package additional content:
 - pkgs.fetchFromLuantiContentDB
 
 you can look at `src/packages.nix` to see how they work
-    
 
 ## Contributing
 
