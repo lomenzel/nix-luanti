@@ -12033,6 +12033,52 @@
         "repo": "https://codeberg.org/Codiac/alone",
         "short_description": "Work in Progress. A Luanti mod to disperse players around the world"
       },
+      "mcla_codihacks": {
+        "dependencies": [
+          "mcl_furnaces",
+          "mcl_inventory",
+          "mcl_farming",
+          "mcl_sounds",
+          "mcl_formspec",
+          "mcl_weather",
+          "mcl_enchanting",
+          "mcl_util",
+          "mcl_cherry_blossom",
+          "mcl_autogroup",
+          "mcl_tools",
+          "mcl_repeaters",
+          "mcl_stairs",
+          "mcl_walls",
+          "mcl_mobitems",
+          "mcl_colorblocks",
+          "mclx_stairs",
+          "mcl_mobspawners",
+          "mcl_core",
+          "mcl_bonus_chest",
+          "mcl_villages",
+          "mobs_mc",
+          "world_settings",
+          "mcl_chests",
+          "mcl_anvils",
+          "mcl_init",
+          "mcl_mobs",
+          "mcl_potions",
+          "mcl_redstone",
+          "mcl_copper",
+          "mcl_lanterns",
+          "walkover",
+          "mcl_dyes",
+          "mcl_experience",
+          "mcl_trees",
+          "mcl_fishing"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "0hpkq2d41lv3dywww0lws2b7d1hx8sp754jd5l86srsz38qzj0zc",
+        "provides": ["mcla_codihacks"],
+        "release": 32313,
+        "repo": "https://codeberg.org/Codiac/mcla_codihacks.git",
+        "short_description": "Oddball changes and features for Mineclonia"
+      },
       "prestibags": {
         "game_support": [
           { "author": "ryvnf", "name": "mineclonia" },
@@ -28966,6 +29012,15 @@
         "release": 16335,
         "repo": "https://gitlab.com/Miner34/minetest-mods/explosion-resistant-obsidian/",
         "short_description": "Adds an explosion proof obsidian."
+      }
+    },
+    "Miney": {
+      "miney": {
+        "hash": "1933fc4wnxva18sjl37qpcd9pmsr11vghibclq2plis2myd5xi76",
+        "provides": ["miney"],
+        "release": 32316,
+        "repo": "https://github.com/miney-py/miney",
+        "short_description": "Miney connects locally, over network or internet with the Lunanti protocol and provides a pythonic interface to the server, players, blocks and more."
       }
     },
     "Miniontoby": {
