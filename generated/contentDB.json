@@ -44755,7 +44755,7 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "06nrs5lzmrdcaia2x4cr51jgp27888chw9zklhs6ckrm98ka9ad2",
+        "hash": "16qj0c0dc30y4rqrc2divjr7hx4my2bk579k6cz3c65rbn0cl7yi",
         "provides": [
           "automobiles_beetle",
           "automobiles_buggy",
@@ -44768,9 +44768,9 @@
           "automobiles_trans_am",
           "automobiles_vespa"
         ],
-        "release": 31481,
+        "release": 32331,
         "repo": "https://github.com/APercy/automobiles_pck",
-        "short_description": "Featured. Work in Progress. Collection of automobiles"
+        "short_description": "Collection of automobiles"
       },
       "demoiselle": {
         "dependencies": ["airutils"],
@@ -48896,10 +48896,13 @@
     },
     "gtzi203": {
       "crenodes": {
-        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "07ln8ahypanklclxwcbqhrhjl33smhqhm3ynwzvskpqmr3bcrp8m",
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "139c12jr6yj6p9dbvghffhgl9hrpw57hhp8y4alrm7pw7hmybjd1",
         "provides": ["crenodes"],
-        "release": 32307,
+        "release": 32330,
         "repo": "https://github.com/gtzi203/CreNodes",
         "short_description": "Adds useful nodes for the creative mode, like barriers or light nodes."
       }
@@ -51294,9 +51297,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "12rx10k6qmh85sh1zh6ifj9fr7lrs5dc27qvw71lg8n479azk4ji",
+        "hash": "0abkw74sgrhxclwjlqfzwzb8n1c90yiwzs9f5rm1w0rw18wmjjws",
         "provides": ["m16b_mystic_stones"],
-        "release": 32288,
+        "release": 32324,
         "repo": null,
         "short_description": "Add many mystic stones"
       }
@@ -59664,28 +59667,29 @@
       },
       "subways": {
         "dependencies": [
-          "unicode_text",
           "advtrains",
           "advtrains_train_track",
+          "unicode_text",
           "tga_encoder"
         ],
-        "hash": "1rjnqmys3bjxp9mpr8z96za52j1b3430j426d24wb90pkj3h17gb",
+        "hash": "1vs390069z6l7b6hyqrjvkqflq47fn69h9w9pdvlpgqr09k96iz5",
         "provides": [
           "subways",
           "subways_01700_series",
           "subways_3000_series",
           "subways_lrv_p3010",
-          "subways_lrv_type_9"
+          "subways_lrv_type_9",
+          "subways_mpl16"
         ],
-        "release": 30753,
+        "release": 32332,
         "repo": "https://codeberg.org/SamMatzko/luanti-subways",
         "short_description": "Nice, customizable subways for Advanced Trains (advtrains)"
       },
       "tieless_tracks": {
         "dependencies": ["advtrains_train_track", "advtrains"],
-        "hash": "1ls8d23lb4mr5xf651l1lhx0d43jk41mid8hg101zylh6498rac2",
+        "hash": "18bn0ksm2zd3f78dvcm2c7l6jlp96g2x7dqk5wn31xf14njqsw21",
         "provides": ["tieless_tracks"],
-        "release": 25854,
+        "release": 32326,
         "repo": "https://codeberg.org/SamMatzko/luanti-tieless-tracks",
         "short_description": "Tracks without crossties for Advanced Trains (advtrains) that can be used on streets and other related things"
       }
