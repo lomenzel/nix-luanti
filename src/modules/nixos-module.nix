@@ -39,7 +39,7 @@ in
             )
           );
 
-      services.nginx = lib.mkIf (builtins.length (lib.attrsToList wasm-servers ) > 0) {
+      services.nginx = lib.mkIf (builtins.length (lib.attrsToList wasm-servers) > 0) {
         enable = true;
         virtualHosts = builtins.listToAttrs (
           lib.mapAttrsToList (name: value: {
