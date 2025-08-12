@@ -12,7 +12,7 @@ let
     cfg
     ;
 
-  wasm-servers = lib.filterAttrs (server: server.host != null) cfg.servers;
+  wasm-servers = lib.filterAttrs (_: server: server.host != null) cfg.servers;
 
 in
 {
