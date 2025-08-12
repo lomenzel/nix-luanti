@@ -12,6 +12,8 @@ let
     cfg
     ;
 
+  wasm-servers = lib.filterAttrs (server: server.host != null) cfg.servers;
+
 in
 {
 
@@ -36,6 +38,43 @@ in
               }) cfg.servers
             )
           );
+
+      services.nginx = lib.mkIf (lib.attrsToList) {
+        enable = true;
+        virtualHosts = builtins.listToAttrs (
+          lib.mapAttrsToList (name: value: {
+            name = value.host;
+            value = {
+              root = pkgs.luanti-wasm.override {
+                serverName = name;
+                port = value.port;
+                host = value.host;
+              };
+              forceSSL = value.ssl;
+              enableACME = value.ssl;
+              locations = {
+                "/index.html".extraConfig = ''
+                  add_header Cross-Origin-Embedder-Policy "require-corp";
+                  add_header Cross-Origin-Opener-Policy "same-origin";
+                  add_header Cache-Control "no-cache, no-store, must-revalidate";
+                  add_header Pragma "no-cache";
+                  add_header Expires 0;
+                '';
+                "/52c68dca94ed/".extraConfig = ''
+                  add_header Cache-Control "public, max-age=31536000, immutable";
+                '';
+                "/52c68dca94ed/minetest.worker.js".extraConfig = ''
+                  add_header Cross-Origin-Embedder-Policy "require-corp";
+                  add_header Cross-Origin-Opener-Policy "same-origin";
+                '';
+                "/52c68dca94ed/packs/".extraConfig = ''
+                  add_header Access-Control-Allow-Origin "*";
+                '';
+              };
+            };
+          }) wasm-servers
+        );
+      };
 
       systemd.services =
         builtins.mapAttrs

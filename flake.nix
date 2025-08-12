@@ -30,6 +30,7 @@
         pkgs.luantiPackages
         // {
 
+          luanti-wasm = pkgs.callPackage ./src/luanti-wasm.nix {};
           example =
             with pkgs.luantiPackages;
             pkgs.luanti.withPackages {

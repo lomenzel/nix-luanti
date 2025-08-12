@@ -403,4 +403,5 @@ in
     buildLuantiTexturePack
     fetchFromLuantiContentDB
     ;
+  luanti-wasm = pkgs.callPackage ./luanti-wasm.nix { };
 }

@@ -94,6 +94,16 @@ rec {
                 leave this option null to use the default whitelist
               '';
             };
+            host = lib.mkOption {
+              type = nullOr str;
+              default = null;
+              description = ''
+                fqdn for the experimental luanti-wasm build
+                only works for nixos. is ignored in the home-manager module
+              '';
+            };
+            ssl = lib.mkEnableOption "Enable https for the wasm build";
+
             mods = lib.mkOption {
               type = listOf package;
               default = [ ];
