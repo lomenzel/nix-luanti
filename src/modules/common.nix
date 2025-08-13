@@ -61,21 +61,23 @@ rec {
       };
       enable = lib.mkEnableOption "Proxy for the luanti wasm package";
       directProxies = lib.mkOption {
-        default  = {};
-        type = lib.types.listOf (lib.types.submodule {
-          options = {
-            port = lib.mkOption {
-              type = lib.types.int;
+        default = { };
+        type = lib.types.listOf (
+          lib.types.submodule {
+            options = {
+              port = lib.mkOption {
+                type = lib.types.int;
+              };
+              address = lib.mkOption {
+                type = lib.types.str;
+              };
+              realAddress = lib.mkOption {
+                type = lib.types.str;
+                default = "127.0.0.1";
+              };
             };
-            address = lib.mkOption {
-              type = lib.types.str;
-            };
-            realAddress = lib.mkOption {
-              type = lib.types.str;
-              default = "127.0.0.1";
-            };
-          };
-        });
+          }
+        );
       };
     };
     package = lib.mkOption {

@@ -13,16 +13,18 @@ let
     ;
 
   wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) cfg.servers;
-  wasm-servers =  lib.listToAttrs (
-    (lib.foldl (acc: curr: 
-      acc ++ [(
-          {
-            inherit (curr) name;
-            value = curr.value // {
-              number = builtins.length acc;
-            };
-          }
-      )]
+  wasm-servers = lib.listToAttrs (
+    (lib.foldl (
+      acc: curr:
+      acc
+      ++ [
+        ({
+          inherit (curr) name;
+          value = curr.value // {
+            number = builtins.length acc;
+          };
+        })
+      ]
     ) [ ] (lib.attrsToList wasm-servers-raw))
   );
 
@@ -193,7 +195,11 @@ in
             port = cfg.proxy.port;
             directProxyStr = ''
               [
-                ${builtins.concatStringsSep "\n" (builtins.map (p: "['${p.address}', '${p.realAddress}', ${builtins.toString p.port}],") cfg.proxy.directProxies)}
+                ${builtins.concatStringsSep "\n" (
+                  builtins.map (
+                    p: "['${p.address}', '${p.realAddress}', ${builtins.toString p.port}],"
+                  ) cfg.proxy.directProxies
+                )}
               ]
             '';
           };

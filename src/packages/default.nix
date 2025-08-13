@@ -404,5 +404,5 @@ in
     fetchFromLuantiContentDB
     ;
   luanti-wasm = pkgs.callPackage ./luanti-wasm { };
-  luanti-wasm-proxy = pkgs.callPackage ./proxy {};
+  luanti-wasm-proxy = pkgs.callPackage ./proxy { };
 }

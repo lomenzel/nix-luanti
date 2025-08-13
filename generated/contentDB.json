@@ -29022,7 +29022,7 @@
         "provides": ["miney"],
         "release": 32316,
         "repo": "https://github.com/miney-py/miney",
-        "short_description": "Miney connects locally, over network or internet with the Lunanti protocol and provides a pythonic interface to the server, players, blocks and more."
+        "short_description": "Miney connects Python with Luanti and provides a pythonic interface to the server, players, blocks and more."
       }
     },
     "Miniontoby": {
@@ -33884,9 +33884,9 @@
     },
     "SURV": {
       "adaptive_crosshair": {
-        "hash": "1wb9n4cm9kjapalsb758416kcsbx5p7ljrcg3996mmxhj94biqaw",
+        "hash": "0aibbjmkqy2570hrmy7frvvr3nxr6q2s0nbrkvbshpaskl1a1gn9",
         "provides": ["adaptive_crosshair"],
-        "release": 32172,
+        "release": 32347,
         "repo": "https://github.com/KingTheGuy/adaptive_crosshair",
         "short_description": "Crosshair adapts depending on what the player is wielding and looking at."
       },
@@ -51294,14 +51294,14 @@
     },
     "m16b": {
       "m16b_mystic_stones": {
-        "dependencies": ["mcl_init", "mcl_tools", "mcl_core"],
+        "dependencies": ["mcl_init", "mcl_tools", "mcl_armor", "mcl_core"],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "0abkw74sgrhxclwjlqfzwzb8n1c90yiwzs9f5rm1w0rw18wmjjws",
+        "hash": "0gavidn4h4yw93x4f43p6s4zvh38bd58w1v0afn38rin5x7cymp3",
         "provides": ["m16b_mystic_stones"],
-        "release": 32324,
+        "release": 32345,
         "repo": null,
         "short_description": "Add many mystic stones"
       }
