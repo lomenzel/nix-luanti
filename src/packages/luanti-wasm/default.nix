@@ -3,6 +3,7 @@
   port ? 30000,
   host ? "localhost",
   serverName ? "Nix-Luanti Server",
+  proxyUrl ? "wss://eu1.dustlabs.io/mtproxy",
   writeText,
   fetchFromGitHub,
   ...
@@ -13,8 +14,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "lomenzel";
     repo = "minetest-wasm";
-    rev = "142f6385cf50773ac6223e3366f31dd617acd50a";
-    hash = "sha256-cZluMYYU/EKgutazUwKhtbvKaMsvHm2MPjVZ7RqXkK0=";
+    rev = "d3fc4692e8862d79868fc3ee5c9a0b3039722798";
+    hash = "sha256-0QZdExBzXRqe3E6VJYCAxH3j39B3PlI4/A6pIBB30SE=";
   };
   dontUnpack = true;
   dontBuild = true;
@@ -27,6 +28,7 @@ stdenv.mkDerivation {
       PORT = ${toString port}
       DOMAIN = "${host}"
       SERVER_NAME = "${serverName}"
+      PROXY_URL = "${proxyUrl}"
     ''} $out/config.js
 
   '';

@@ -30,7 +30,10 @@
         pkgs.luantiPackages
         // {
 
-          luanti-wasm = pkgs.callPackage ./src/luanti-wasm.nix { };
+          inherit (pkgs)
+            luanti-wasm
+            luanti-wasm-proxy
+            ;
           example =
             with pkgs.luantiPackages;
             pkgs.luanti.withPackages {

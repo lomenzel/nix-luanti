@@ -54,6 +54,30 @@ rec {
       default = true;
       description = "Add the luanti overlay to nixpkgs";
     };
+    proxy = {
+      port = lib.mkOption {
+        type = lib.types.int;
+        default = 30261;
+      };
+      enable = lib.mkEnableOption "Proxy for the luanti wasm package";
+      directProxies = lib.mkOption {
+        default  = {};
+        type = lib.types.listOf (lib.types.submodule {
+          options = {
+            port = lib.mkOption {
+              type = lib.types.int;
+            };
+            address = lib.mkOption {
+              type = lib.types.str;
+            };
+            realAddress = lib.mkOption {
+              type = lib.types.str;
+              default = "127.0.0.1";
+            };
+          };
+        });
+      };
+    };
     package = lib.mkOption {
       type = lib.types.package;
       default = pkgs.luanti-server;
@@ -62,7 +86,7 @@ rec {
       type = nullOr (listOf str);
       default = null;
       description = ''
-        Default white list used by all servers unles explicitly declared in server
+        Default white list used by all servers unless explicitly declared in server
       '';
     };
     servers = lib.mkOption {

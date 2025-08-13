@@ -12,7 +12,19 @@ let
     cfg
     ;
 
-  wasm-servers = lib.filterAttrs (_: server: server.host != null) cfg.servers;
+  wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) cfg.servers;
+  wasm-servers =  lib.listToAttrs (
+    (lib.foldl (acc: curr: 
+      acc ++ [(
+          {
+            inherit (curr) name;
+            value = curr.value // {
+              number = builtins.length acc;
+            };
+          }
+      )]
+    ) [ ] (lib.attrsToList wasm-servers-raw))
+  );
 
 in
 {
@@ -39,6 +51,13 @@ in
             )
           );
 
+      services.luanti.proxy.enable = lib.mkIf (builtins.length (lib.attrsToList wasm-servers) > 0) true;
+
+      services.luanti.proxy.directProxies = lib.mapAttrsToList (name: value: {
+        address = "10.0.0.${builtins.toString value.number}";
+        port = value.port;
+      }) wasm-servers;
+
       services.nginx = lib.mkIf (builtins.length (lib.attrsToList wasm-servers) > 0) {
         enable = true;
         virtualHosts = builtins.listToAttrs (
@@ -48,7 +67,8 @@ in
               root = pkgs.luanti-wasm.override {
                 serverName = name;
                 port = value.port;
-                host = value.host;
+                host = "10.0.0.${builtins.toString value.number}";
+                proxyUrl = "${if value.ssl then "wss://" else "ws://"}${value.host}/proxy";
               };
               forceSSL = value.ssl;
               enableACME = value.ssl;
@@ -70,7 +90,15 @@ in
                 "/52c68dca94ed/packs/".extraConfig = ''
                   add_header Access-Control-Allow-Origin "*";
                 '';
+                "/proxy" = {
+                  proxyPass = "http://localhost:${builtins.toString cfg.proxy.port}";
+                  proxyWebsockets = true;
+                  extraConfig = ''
+                    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                  '';
+                };
               };
+
             };
           }) wasm-servers
         );
@@ -145,6 +173,35 @@ in
     })
     (lib.mkIf cfg.addOverlay {
       nixpkgs.overlays = lib.singleton (import ../overlay.nix);
+    })
+    (lib.mkIf cfg.proxy.enable {
+
+      users.groups.luanti = { };
+      users.users.proxy-luanti-wasm = {
+        description = "User for Luanti proxy";
+        home = "/var/lib/${"proxy-luanti-wasm"}";
+        createHome = true;
+        group = "luanti";
+        isSystemUser = true;
+      };
+      systemd.services.luanti-wasm-proxy = {
+        description = "Proxy for the luanti wasm packages";
+        after = [ "network.target" ];
+        wantedBy = [ "multi-user.target" ];
+        serviceConfig = {
+          ExecStart = pkgs.luanti-wasm-proxy.override {
+            port = cfg.proxy.port;
+            directProxyStr = ''
+              [
+                ${builtins.concatStringsSep "\n" (builtins.map (p: "['${p.address}', '${p.realAddress}', ${builtins.toString p.port}],") cfg.proxy.directProxies)}
+              ]
+            '';
+          };
+          User = "proxy-luanti-wasm";
+          Group = "luanti";
+          Restart = "on-failure";
+        };
+      };
     })
   ];
 }

@@ -303,7 +303,7 @@ let
     ) contentDB.mods
   );
 
-  contentDB = lib.importJSON ../generated/contentDB.json;
+  contentDB = lib.importJSON ../../generated/contentDB.json;
 
   buildLuantiTexturePack = lib.extendMkDerivation {
     constructDrv = mkDerivation;
@@ -394,7 +394,7 @@ in
         ) texturePacksFromAuthor
       ) contentDB.texturePacks
     );
-    clientMods = import ./clientMods pkgs;
+    clientMods = import ../clientMods pkgs;
   };
   inherit
     buildLuantiMod
@@ -403,5 +403,6 @@ in
     buildLuantiTexturePack
     fetchFromLuantiContentDB
     ;
-  luanti-wasm = pkgs.callPackage ./luanti-wasm.nix { };
+  luanti-wasm = pkgs.callPackage ./luanti-wasm { };
+  luanti-wasm-proxy = pkgs.callPackage ./proxy {};
 }
