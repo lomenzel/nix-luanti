@@ -3,13 +3,9 @@
   writeText,
   buildNpmPackage,
   fetchFromGitHub,
-  cmake,
   port ? 8080,
   directProxyStr ? "[]",
-  libc,
-  glib,
   nodejs,
-  glibc,
 }:
 let
   npmPackage = buildNpmPackage {
