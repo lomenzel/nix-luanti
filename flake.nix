@@ -1,8 +1,12 @@
 {
   description = "a flake containing all games and mods for Luanti";
 
-  inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-  inputs.treefmt-nix.url = "github:numtide/treefmt-nix";
+  inputs  = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    treefmt-nix.url = "github:numtide/treefmt-nix";
+    mdbook.url = "github:pbar1/nix-mdbook";
+  };
+
 
   outputs =
     {
@@ -10,6 +14,7 @@
       nixpkgs,
       systems,
       treefmt-nix,
+      mdbook,
       ...
     }:
     with builtins;
@@ -40,6 +45,11 @@
               clientMods = [ clientMods.minimap_on ];
               games = [ games.mineclone2 ];
             };
+          
+          book = mdbook.lib.buildMdBookProject {
+            inherit system pkgs;
+            src = ./doc;
+          };
 
           test =
             pkgs.lib.filesystem.listFilesRecursive ./tests
