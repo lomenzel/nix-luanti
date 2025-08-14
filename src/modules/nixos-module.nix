@@ -12,9 +12,12 @@ let
     cfg
     ;
 
-  enabled-servers = if cfg.enable then
+  enabled-servers =
+    if cfg.enable then
       lib.filterAttrs (_: server: server.enable) cfg.servers
-    else lib.warn "Luanti servers are globaly disabled. Set services.luanti.enable = true to reenable them" {};
+    else
+      lib.warn "Luanti servers are globaly disabled. Set services.luanti.enable = true to reenable them"
+        { };
 
   wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) enabled-servers;
   wasm-servers = lib.listToAttrs (
@@ -32,7 +35,9 @@ let
     ) [ ] (lib.attrsToList wasm-servers-raw))
   );
 
-  ports-to-open = lib.mapAttrsToList (_: server: server.port) (lib.filterAttrs (_: server: server.openFirewall) enabled-servers);
+  ports-to-open = lib.mapAttrsToList (_: server: server.port) (
+    lib.filterAttrs (_: server: server.openFirewall) enabled-servers
+  );
 
 in
 {
@@ -43,7 +48,13 @@ in
 
       networking.firewall.allowedUDPPorts = ports-to-open;
 
-      networking.firewall.allowedTCPPorts = lib.mkIf (lib.filterAttrs (_: server: server.openFirewall) wasm-servers != {}) [443 8080 80];
+      networking.firewall.allowedTCPPorts =
+        lib.mkIf (lib.filterAttrs (_: server: server.openFirewall) wasm-servers != { })
+          [
+            443
+            8080
+            80
+          ];
 
       users.groups.luanti = { };
       users.users =
