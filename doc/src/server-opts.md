@@ -12,8 +12,7 @@ Globally disables all Luanti services if set to false, regardless of individual 
 - **Default**: `true`
 
 ### `services.luanti.addOverlay`
-
-Enables the addition of a specific overlay to the Nixpkgs collection for Luanti packages.
+Adds pkgs.luantiPackages and pkgs.fetchFromLuantiContentDB etc.
 
 - **Type**: Boolean
 - **Default**: `true`
