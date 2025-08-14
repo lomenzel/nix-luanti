@@ -12,7 +12,11 @@ let
     cfg
     ;
 
-  wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) cfg.servers;
+  enabled-servers = if cfg.enable then
+      lib.filterAttrs (_: server: server.enable) cfg.servers
+    else lib.warn "Luanti servers are globaly disabled. Set services.luanti.enable = true to reenable them" {};
+
+  wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) enabled-servers;
   wasm-servers = lib.listToAttrs (
     (lib.foldl (
       acc: curr:
@@ -28,12 +32,19 @@ let
     ) [ ] (lib.attrsToList wasm-servers-raw))
   );
 
+  ports-to-open = lib.mapAttrsToList (_: server: server.port) (lib.filterAttrs (_: server: server.openFirewall) enabled-servers);
+
 in
 {
 
   inherit options;
   config = lib.mkMerge [
-    (lib.mkIf cfg.enable {
+    {
+
+      networking.firewall.allowedUDPPorts = ports-to-open;
+
+      networking.firewall.allowedTCPPorts = lib.mkIf (lib.filterAttrs (_: server: server.openFirewall) wasm-servers != {}) [443 8080 80];
+
       users.groups.luanti = { };
       users.users =
         builtins.mapAttrs
@@ -49,7 +60,7 @@ in
               lib.mapAttrsToList (name: value: {
                 name = "luanti-${name}";
                 inherit value;
-              }) cfg.servers
+              }) enabled-servers
             )
           );
 
@@ -168,11 +179,11 @@ in
               lib.mapAttrsToList (name: value: {
                 name = "luanti-${name}";
                 inherit value;
-              }) cfg.servers
+              }) enabled-servers
             )
           );
 
-    })
+    }
     (lib.mkIf cfg.addOverlay {
       nixpkgs.overlays = lib.singleton (import ../overlay.nix);
     })

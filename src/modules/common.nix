@@ -48,7 +48,11 @@ rec {
   cfg = config.services.luanti;
 
   options.services.luanti = with lib.types; {
-    enable = lib.mkEnableOption "Luanti Server Management";
+    enable = lib.mkOption {
+      type = lib.types.bool;
+      default = true;
+      description = "toggle do disable all luanti services regardless of their enable status";
+    };
     addOverlay = lib.mkOption {
       type = lib.types.bool;
       default = true;
@@ -96,9 +100,18 @@ rec {
         with lib.types;
         attrsOf (submodule {
           options = {
+            enable = lib.mkOption {
+              type = lib.types.bool;
+              default = true;
+              description = "Enable this server";
+            };
+            openFirewall = lib.mkOption {
+              type = lib.types.bool;
+              default = true;
+              description = "Open udp port";
+            };
             port = lib.mkOption {
               type = lib.types.int;
-              #default = 30000;
               description = ''
                 Port number to bind to.
               '';

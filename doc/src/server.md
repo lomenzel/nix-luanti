@@ -1,5 +1,7 @@
 ## Configure servers
 
+### Example Configuration
+
 In your Nix configuration (e.g. `configuration.nix` or `home.nix` if using home-manager), use the nix-luanti module to set up your servers:
 
 ```nix
