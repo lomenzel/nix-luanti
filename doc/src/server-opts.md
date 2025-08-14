@@ -12,6 +12,7 @@ Globally disables all Luanti services if set to false, regardless of individual 
 - **Default**: `true`
 
 ### `services.luanti.addOverlay`
+
 Adds pkgs.luantiPackages and pkgs.fetchFromLuantiContentDB etc.
 
 - **Type**: Boolean
