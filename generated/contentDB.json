@@ -37685,7 +37685,7 @@
         "short_description": "Doors mod with lock tool to open, lock or protect any registered door."
       },
       "ethereal": {
-        "dependencies": ["flowers", "default"],
+        "dependencies": ["default", "flowers"],
         "game_support": [
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "carlos_rupp", "name": "berzerkpt" },
@@ -37714,9 +37714,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "1248", "name": "castrum" }
         ],
-        "hash": "0g3m0vaa9dw1x0npvkrylwmb5f8wq2v1ipig07nq4kgxm3dnvxlw",
+        "hash": "00mkjhl2cqiwci6rspingqqms67zlgwmf9qbmlqrwixs6rpf9nky",
         "provides": ["ethereal"],
-        "release": 31989,
+        "release": 32371,
         "repo": "https://codeberg.org/tenplus1/ethereal",
         "short_description": "Adds many new biomes, items and mechanics into the world."
       },
