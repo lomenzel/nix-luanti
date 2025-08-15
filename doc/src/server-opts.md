@@ -25,6 +25,7 @@ The proxy is used for the minetest-wasm package. If a server defines the host op
 - **`services.luanti.proxy.port`**
 
   TCP port used by the proxy service.
+
   - **Type**: Integer
   - **Default**: `30261`
 
@@ -62,7 +63,7 @@ Enables or disables a specific server instance.
 
 ### `services.luanti.servers.<name>.openFirewall`
 
-Opens UDP port for the server in the firewall.
+Opens UDP port for the server and if host is set, the TCP ports for nginx in the firewall.
 
 - **Type**: Boolean
 - **Default**: `true`
@@ -83,7 +84,7 @@ Specifies the game package for the server.
 
 ### `services.luanti.servers.<name>.package`
 
-Allows overriding the main package per server instance.
+Allows overriding the luanti-server package per server instance.
 
 - **Type**: Package reference
 - **Default**: Uses value of top-level `package` option.
