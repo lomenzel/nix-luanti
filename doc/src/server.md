@@ -1,75 +1,76 @@
 ## Configure servers
 
+To configure multiple Luanti servers using Nix-Luanti, you can define server instances in your Nix configuration file (configuration.nix or home.nix). Below are example configurations for different scenarios
+
 ### Example Configuration
 
-In your Nix configuration (e.g. `configuration.nix` or `home.nix` if using home-manager), use the nix-luanti module to set up your servers:
+#### Single Server with Default Settings
+
 
 ```nix
 { config, pkgs, ... }:
 {
-  services.luanti = {
-    enable = true;
-
-    # default whitelist for all servers
-    whitelist = [ "alice" ];
-
-    servers = with pkgs.luantiPackages; {
-      cool-server = {
-        # VoxeLibre is the default game
-        game = games.mineclonia;
-
-        # by default no mods are installed
-        mods = with mods; [];
-
-        # port has no default so it must be set
-        port = 30000;
-
-        # default whitelist applies if set. only alice can join cool-server
-      };
-      other-cool-server = {
-
-        # overrides the default whitelist so alice can not join other-cool-server
-        whitelist = [
-          "bob"
-          "charlie"
-        ];
-        game = games.minetest_game;
-
-        # resolves dependencies automatically if possible
-        mods = with mods; [
-          animalia
-          i3
-        ];
-        port = 30001;
-
-        config = {
-          # config options directly passed to luanti.conf
-        };
-      };
-
-      # you can add as many servers you want.
+  services.luanti.servers.my_very_cool_server_name = {
+      # Uses default game: VoxeLibre
+      port = 30000;                                # Specifies the server port
     };
   };
-
-  # your other configuration
 }
 ```
 
-A minimal Config may look like this:
+#### Multi-Server with Custom Settings
+```nix
+{ config, pkgs, ... }:
+{
+services.luanti.servers = with pkgs.luantiPackages; {
+    my_very_cool_peacefull_server ={
+      port = 30001;
+      mods = with pkgs-unstable.luantiPackages.mods; [
+        waypoints
+      ];
+      config = {
+        only_peaceful_mobs = true;
+      };
+      whitelist = [
+        "alice"
+        "bob"
+      ];
+    };
+    
+    another_server = {
+      game = games.mineclonia;
+      port = 30002;
+
+      # this server uses only default configurations. no configuration is inherited from other servers.
+    };
+  };
+};
+
+```
+
+#### Server Accessible trough the Browser
+
+> Only works with NixOS and not in the Home-Manager module
 
 ```nix
-{inputs, pkgs, config, ...}:
-{
-  services.luanti = {
-    enable = true;
-    servers.default.port = 30000;
-  };
+{ config, pkgs, ...}: {
 
-  # your other configuration
+  services.luanti.servers = {
+    my_very_cool_local_web_server = {
+      host = "localhost";
+      openFirewall = false;
+      port = 30000;
+    };
+    my_very_cool_public_web_server = {
+      host = "game.example.com";
+      ssl = true;
+      port = 30001;
+    };
+  };
 }
 ```
 
-it would deploy a VoxeLibre server without a whitelist and without additional mods on UDP port 30000
+This sets up nginx for web access as well as a Proxy server wor the wasm builds to be able to connect to the Servers.
 
 ### Troubleshooting
 
