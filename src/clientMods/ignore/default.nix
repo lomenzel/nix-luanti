@@ -1,4 +1,5 @@
-{fetchFromGitLab}: fetchFromGitLab {
+{ fetchFromGitLab }:
+fetchFromGitLab {
   name = "ignore";
   owner = "jkoci";
   repo = "minetest_csm_ignore";
