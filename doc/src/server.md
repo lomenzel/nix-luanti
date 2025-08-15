@@ -6,7 +6,6 @@ To configure multiple Luanti servers using Nix-Luanti, you can define server ins
 
 #### Single Server with Default Settings
 
-
 ```nix
 { config, pkgs, ... }:
 {
@@ -19,6 +18,7 @@ To configure multiple Luanti servers using Nix-Luanti, you can define server ins
 ```
 
 #### Multi-Server with Custom Settings
+
 ```nix
 { config, pkgs, ... }:
 {
@@ -36,7 +36,7 @@ services.luanti.servers = with pkgs.luantiPackages; {
         "bob"
       ];
     };
-    
+
     another_server = {
       game = games.mineclonia;
       port = 30002;

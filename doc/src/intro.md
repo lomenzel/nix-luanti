@@ -1,4 +1,3 @@
-
 # Introduction
 
 Luanti is a robust platform designed for hosting multiplayer games, allowing you to create engaging gaming environments for players. Managing multiple Luanti servers can be complex, requiring careful attention to configuration and dependency management.
