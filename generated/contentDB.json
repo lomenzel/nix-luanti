@@ -17045,6 +17045,14 @@
         "repo": "https://github.com/C-C-Minetest-Server/hazmat_suit",
         "short_description": "Protect wearer from fire and radiation"
       },
+      "html_to_luanti": {
+        "dependencies": ["modlib"],
+        "hash": "19bv7kxk26ivvsdpkdbwh93sspdj1yrn5q8v0iaw7pg9dkdnds0x",
+        "provides": ["html_to_luanti"],
+        "release": 32355,
+        "repo": "https://github.com/C-C-Minetest-Server/html_to_luanti",
+        "short_description": "Convert HTML to Luanti Hypertext for formspecs"
+      },
       "keybinding": {
         "hash": "0ivv43111ymdgl3c4dxa6rg752ddvcdm3ap87bsyx08s6awdqciy",
         "provides": ["keybinding"],
@@ -28097,27 +28105,28 @@
       },
       "italian_food": {
         "dependencies": [
-          "mcl_cocoas",
-          "mcl_potions",
-          "mcl_mushrooms",
-          "mcl_farming",
-          "mcl_flowers",
-          "mcl_sounds",
+          "mcl_achievements",
           "mcl_throwing",
-          "mcl_core",
+          "mcl_potions",
+          "mcl_sounds",
+          "mcl_structures",
+          "mcl_cocoas",
           "mcl_mobitems",
-          "mcl_structures"
+          "mcl_mushrooms",
+          "mcl_jukebox",
+          "mcl_flowers",
+          "mcl_farming",
+          "mcl_core"
         ],
         "game_support": [
           { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "VoxelForge", "name": "voxelforge" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0mxa557ghjhidpiz58yv1b97xk6d7n4kpi80d6mnw7hckmni8v33",
+        "hash": "0jb5xilbikkn5aqng97sz3r7zvh53x8vndk739sz473ix17jaacp",
         "provides": ["italian_food"],
-        "release": 32051,
+        "release": 32362,
         "repo": "https://github.com/LudusExe/Italian-Food-for-Voxelibre",
-        "short_description": "Work in Progress. Discover the Italian cuisine!"
+        "short_description": "Discover the Italian cuisine!"
       },
       "metallicum": {
         "dependencies": ["default"],
@@ -35030,9 +35039,9 @@
       },
       "essentials": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0dlsrgyw5nipb7kq5w4dz6mib0znmcxg48nspvc95cvi59966kfy",
+        "hash": "1ia0qccr7n2rj35ghkzq65wkb87mzhinxqld82qjnccvzw08rl2p",
         "provides": ["essentials"],
-        "release": 32356,
+        "release": 32360,
         "repo": "https://github.com/SkyBuilder1717/essentials",
         "short_description": "Adds a lot of helpful commands for your server"
       },
