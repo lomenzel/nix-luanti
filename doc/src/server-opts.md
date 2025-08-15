@@ -25,7 +25,6 @@ The proxy is used for the minetest-wasm package. If a server defines the host op
 - **`services.luanti.proxy.port`**
 
   TCP port used by the proxy service.
-
   - **Type**: Integer
   - **Default**: `30261`
 
