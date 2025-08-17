@@ -5424,7 +5424,7 @@
     },
     "ryvnf": {
       "mineclonia": {
-        "hash": "12sq5pc7ssyjj3m1vn1q5c961559lzn2pkack6jk6104m4gnrfw7",
+        "hash": "0fsymab71dp39yrvlgs62x407fgz9hnnvlayx2y54fh375yz0idb",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -5614,6 +5614,7 @@
           "mcl_util",
           "mcl_vaults",
           "mcl_villages",
+          "mcl_vl_entities_purge",
           "mcl_void_damage",
           "mcl_walls",
           "mcl_weather",
@@ -5635,7 +5636,7 @@
           "tt",
           "walkover"
         ],
-        "release": 32308,
+        "release": 32393,
         "repo": "https://codeberg.org/mineclonia/mineclonia",
         "short_description": "Survival sandbox game inspired by Minecraft."
       }
@@ -35247,11 +35248,11 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0s2kwq3wviqwdsrd77b6q4rvhzqwpwcz5c6g726q57xxhrn6s40y",
+        "hash": "0b8nhlcjzd2mmm9v8hb3x189szxrwadgcxaws67qi7fzcd6f7c73",
         "provides": ["online_skins"],
-        "release": 32385,
+        "release": 32397,
         "repo": "https://github.com/SkyBuilder1717/online_skins",
-        "short_description": "Work in Progress. Adds online skins database and site to upload your own."
+        "short_description": "Adds online skins database and site to upload your own."
       },
       "wallblock": {
         "dependencies": ["worldedit", "default"],
@@ -36868,9 +36869,9 @@
         "short_description": "Work in Progress. Utilizes my Doors API Redo to better simplify and work the doors"
       },
       "operating_system_detector": {
-        "hash": "0h69j9kf7zimshxy51ai0d3n27bwn6lifn7c6svbf5gk9adqddy7",
+        "hash": "0ykwli68xqvzcwpz2g5q5n18iqdcj67750mp7manlvrzxbf8xnyk",
         "provides": ["operating_system_detector"],
-        "release": 32304,
+        "release": 32390,
         "repo": "https://codeberg.org/TPH/operating_system_detector",
         "short_description": "Checks the OS of the device running the mod."
       },
@@ -36886,9 +36887,9 @@
           { "author": "Mantar", "name": "exile" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "0vxcp26jf4i9b28fp034rms74mynjf85q92ax2h6269ycq1skavz",
+        "hash": "1jw7wfnx0cd1yqrxr1fyjphspa69gkf1mh5gibmz8cnzhhiaijip",
         "provides": ["tph_eating"],
-        "release": 32349,
+        "release": 32391,
         "repo": "https://codeberg.org/TPH/tph_eating",
         "short_description": "Eating with particles, sounds, visible ItemStacks (5.4+), and holding down input. Heavy coding customization for programmers"
       },
@@ -39081,9 +39082,9 @@
         "short_description": "A bundle of the mods that generate certain compressed nodes."
       },
       "nodeentity": {
-        "hash": "0s0bqmsv99vilrbs72cn3cz1pg30azrhjbzi5yhwnc424945kcaq",
+        "hash": "04ahfij0ynd0l2cxm51821g011zsnfdxy18aifh5zkzq15xvlw4n",
         "provides": ["nodeentity"],
-        "release": 31850,
+        "release": 32388,
         "repo": "https://github.com/The4codeblocks/luanti_node_entities.git",
         "short_description": "Library for functional node entities."
       },
@@ -48369,6 +48370,15 @@
         "repo": "https://gitoverit.ofafox.com/mt-server-mods/dyed_water",
         "short_description": "Dyed water for mtg"
       },
+      "grass_slabs": {
+        "dependencies": ["stairs"],
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0wvnakpxpfrqgfd00ihr9bqxm7sc5xvcnsh3hiyrk8almgi2vw5b",
+        "provides": ["grass_slabs"],
+        "release": 32376,
+        "repo": "https://codeberg.org/PintTheLittleMouse/grass_stairs",
+        "short_description": "Adds grass slabs for smoother terrain"
+      },
       "hexcol": {
         "hash": "1z99kxls7hmhd8x3shg48fmcn5q1wlqp1xsb5gmyqmhq2frg3s3b",
         "provides": ["hexcol"],
@@ -51303,14 +51313,14 @@
     },
     "m16b": {
       "m16b_mystic_stones": {
-        "dependencies": ["mcl_init", "mcl_tools", "mcl_armor", "mcl_core"],
+        "dependencies": ["mcl_tools", "mcl_core", "mcl_init", "mcl_armor"],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "0gavidn4h4yw93x4f43p6s4zvh38bd58w1v0afn38rin5x7cymp3",
+        "hash": "1b6ngxbg3xmzjj87zniji5xa5rzx6213d8p2ank5fh3qwls9cjwz",
         "provides": ["m16b_mystic_stones"],
-        "release": 32345,
+        "release": 32398,
         "repo": null,
         "short_description": "Add many mystic stones"
       }
@@ -60108,45 +60118,65 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
-          "sbz_meteorites",
-          "sbz_resources",
-          "areas",
-          "sbz_power",
-          "sbz_base",
+          "sbz_logic",
           "unifieddyes",
-          "sbz_chem",
+          "fakelib",
+          "sbz_armor",
+          "sbz_resources",
+          "sbz_bio",
+          "sbz_instatube",
+          "sbz_base",
           "unified_inventory",
-          "fakelib"
+          "areas",
+          "sbz_meteorites",
+          "sbz_chem",
+          "sbz_power"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "0b15i402xsa8vqxn0gdlsag97sxklb7lcxagdvz3mhxwbhsqb5j9",
+        "hash": "02gsy7ykrrmf1rlk88sdm4y5yihd28yfgy98sy05wlbi3v4m4m4v",
         "provides": [
+          "laptop",
           "sbo_adv_chg_gen",
           "sbo_adv_peb_ext",
+          "sbo_anti_ext",
           "sbo_asteroid",
+          "sbo_chromatic_metal",
+          "sbo_chromium",
           "sbo_colorium",
           "sbo_colorium_circuit",
           "sbo_colorium_plate",
+          "sbo_com_elem",
           "sbo_comp_ani",
-          "sbo_connector",
           "sbo_coric_meteorite",
+          "sbo_cuti",
+          "sbo_dark_glass",
           "sbo_emittrium_plate",
           "sbo_extrosim",
           "sbo_extrosim_circuit",
           "sbo_extrosim_glass",
+          "sbo_laser",
           "sbo_light_blk",
+          "sbo_modded_elem",
           "sbo_photon",
           "sbo_plant_inc",
           "sbo_portible",
+          "sbo_pyro_inc",
+          "sbo_qol",
           "sbo_rein_cable",
+          "sbo_resium",
+          "sbo_resium_armor",
+          "sbo_resium_tools",
           "sbo_simp_charge_ext",
           "sbo_simp_core_ext",
           "sbo_sup_bat",
+          "sbo_tree_rot",
+          "sbo_upgrades",
+          "sbo_wood",
           "sbz_progression"
         ],
-        "release": 30875,
+        "release": 32400,
         "repo": null,
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
