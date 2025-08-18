@@ -16173,37 +16173,37 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "plastic_bucket",
-          "default",
+          "fire",
           "tnt",
+          "default",
           "basic_materials",
           "bucket",
-          "fire"
+          "plastic_bucket"
         ],
         "game_support": [
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "1248", "name": "castrum" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" }
         ],
-        "hash": "1iknkbd5pvr4rln10xizg3m4cc980a5c0g8ccxrambzvi2kmp6w0",
+        "hash": "1i297nqinl1d6rqy7jy0ddwqzm9km1sw39nr7f5jwfx6xf96z0zc",
         "provides": ["chemistry"],
-        "release": 32380,
+        "release": 32411,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -29993,9 +29993,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1k8pbbqsl4r81s5xrb5xgami64x1wr7ryjhwdv0f2pwasb0k9z5f",
+        "hash": "0f2l1rlsx6zgz60p07l9vyzx3z127hz46qi3183h6inxr8l4j93q",
         "provides": ["bones"],
-        "release": 26622,
+        "release": 32406,
         "repo": "https://codeberg.org/usrib/bones.git",
         "short_description": "Bones mod reworked (works in MineClonia or MinetestGame)"
       },
@@ -30046,10 +30046,10 @@
         "short_description": "Work in Progress. A library that uses font_api to render text outside Advtrains trains. Supports several displays per wagon."
       },
       "advtrains_moreslopes": {
-        "dependencies": ["advtrains", "advtrains_train_track"],
-        "hash": "1jmnavvmydwwbw3ad7w0y5s5ay8r2cmx8d1kjh4f4chla440rqih",
+        "dependencies": ["advtrains_train_track", "advtrains"],
+        "hash": "0i34328z7z9pg70fzajhmcig9p7ry177gpdc7dzrz4q7syqmg6mf",
         "provides": ["advtrains_moreslopes"],
-        "release": 30801,
+        "release": 32407,
         "repo": "https://codeberg.org/Nazalassa/advtrains_moreslopes.git",
         "short_description": "More, longer slopes for Advtrains"
       },
@@ -32234,6 +32234,15 @@
         "short_description": "An API for creating kits"
       }
     },
+    "QBSteve": {
+      "voxelibre_shader_preset_port": {
+        "hash": "0x2zfd04hlns8ky5m17c9w5j3p8a4vb38a0z66nlw49q182b38dv",
+        "provides": ["voxelibre_shader_preset_port"],
+        "release": 32310,
+        "repo": "https://codeberg.org/TheUnknownHack3r/voxelibre_shader_preset_port.git",
+        "short_description": "Enable VoxeLibre's shaders preset for other games."
+      }
+    },
     "Qual": {
       "more_particles": {
         "game_support": [
@@ -33908,11 +33917,11 @@
         "short_description": "Carry nodes/blocks with inventories without breaking them."
       },
       "placement_preview": {
-        "hash": "022dh98ddg0g91acni9hmlrwi7a6r524gql86rjckibvrzrgmckx",
+        "hash": "0bb0h01822lqz34hwv99h1dnahjsjb0kg9h1ka3jngncsi46xs0z",
         "provides": ["placement_preview"],
-        "release": 30914,
+        "release": 32416,
         "repo": "https://github.com/KingTheGuy/placement_preview",
-        "short_description": "Featured. shows a preview with orientation of the node the player is holding."
+        "short_description": "shows a preview with orientation of the node the player is holding."
       }
     },
     "SaKeL": {
@@ -36827,6 +36836,13 @@
         "repo": "https://codeberg.org/TPH/exile_songs",
         "short_description": "CC0 music tracks that play while you're playing Exile. Permits and will play any ogg vorbis sounds you put in the sounds folder!"
       },
+      "metatable_metamethods": {
+        "hash": "0acmx6dvphmj51zgpbinis7smsldm1f3dc6gcs1mzfphslrjzdiv",
+        "provides": ["metatable_metamethods"],
+        "release": 32389,
+        "repo": "https://codeberg.org/TPH/metatable_metamethods",
+        "short_description": "Attempts to fix issues with metamethods for Lua 5.1"
+      },
       "mt_doors_redo": {
         "dependencies": ["default", "doors", "tph_doors"],
         "game_support": [
@@ -36874,6 +36890,14 @@
         "release": 32390,
         "repo": "https://codeberg.org/TPH/operating_system_detector",
         "short_description": "Checks the OS of the device running the mod."
+      },
+      "otherkin_flags": {
+        "dependencies": ["pride_flags"],
+        "hash": "0i4givhpg0kdyb1rw5ik98px6zqm56k40p0qc95a4milb1w05rrs",
+        "provides": ["otherkin_flags"],
+        "release": 32410,
+        "repo": "https://codeberg.org/TPH/otherkin_flags",
+        "short_description": "Adds a selection of Otherkin flags"
       },
       "tph_doors": {
         "hash": "006kwi6skpi6xrvpawmc0r2zsssybgzc6i1i792m9w04a21jz27f",
@@ -39420,41 +39444,43 @@
       "ts_furniture": {
         "dependencies": ["default"],
         "game_support": [
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "nam", "name": "porko" },
           { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "giga-turbo", "name": "codecube" },
           { "author": "1248", "name": "castrum" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "jgordon510", "name": "gridlocks" },
           { "author": "hilol", "name": "epic_combat" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "EmptyStar", "name": "asuna" }
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "0h02654ndqskz0mwdvwp122pazjyad0lvzlgj0l4786q94mgkjy3",
+        "hash": "1p4h28154vxjikhiyairmj25jpp9bd0aa4rjfy7lr58shwj8daj2",
         "provides": ["ts_furniture"],
-        "release": 22096,
+        "release": 32412,
         "repo": "https://github.com/minetest-mods/ts_furniture",
         "short_description": "Adds basic furniture (Chairs, Tables, Small Tables, Tiny Tables, Benches)."
       },
@@ -45362,6 +45388,74 @@
       }
     },
     "awuuwa": {
+      "awuuwa_biomes": {
+        "dependencies": [
+          "oak_tree",
+          "default",
+          "spruce_tree",
+          "flowers",
+          "swamp",
+          "maple"
+        ],
+        "game_support": [
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "mt-mods", "name": "dreambuilder_game" }
+        ],
+        "hash": "0bcy4xkqhimwwnb230bgs1lzfl02nnaqyk2sclp6ffg5nxvkbcr7",
+        "provides": [
+          "awuuwa_biomes_coniferous_1",
+          "awuuwa_biomes_desert_pillars",
+          "awuuwa_biomes_enhance_default_grassland",
+          "awuuwa_biomes_enhance_default_savannah",
+          "awuuwa_biomes_fungi_forest",
+          "awuuwa_biomes_lotsofsnow",
+          "awuuwa_biomes_marsh",
+          "awuuwa_biomes_meadow",
+          "awuuwa_biomes_mixed_desert",
+          "awuuwa_biomes_mixed_forest",
+          "awuuwa_biomes_outback",
+          "awuuwa_biomes_pasture",
+          "awuuwa_biomes_prairie",
+          "awuuwa_biomes_resource_fungi_forest",
+          "awuuwa_biomes_resource_moss",
+          "awuuwa_biomes_resource_mushrooms",
+          "awuuwa_biomes_resource_outback",
+          "awuuwa_biomes_resource_plants",
+          "awuuwa_biomes_resource_tropical_rainforest",
+          "awuuwa_biomes_scifi_biome",
+          "awuuwa_biomes_scifi_biome_worldgen",
+          "awuuwa_biomes_shield",
+          "awuuwa_biomes_the_great_forest",
+          "awuuwa_biomes_tropical_rainforest",
+          "awuuwa_biomes_wetlands",
+          "awuuwa_biomes_winter_forest",
+          "awuuwa_biomes_xeric_scrubland"
+        ],
+        "release": 32153,
+        "repo": null,
+        "short_description": "With this mod I intent to re-create some of my favourite biomes from one mod known as Biomes O' Plenty, with of course many of my own ideas included as well."
+      },
       "awuuwa_building_blocks": {
         "game_support": [
           { "author": "dibesfer", "name": "blank" },
@@ -48232,6 +48326,21 @@
         "short_description": "Makes satisfying particles when placing a node or punching one. (viewable by all players)"
       }
     },
+    "erey23": {
+      "elysflowers": {
+        "dependencies": ["xcompat"],
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "06kzvd19xf3pb6a541jk444f7z4dk5i25ngn6wrjzhh8nlm8i0d9",
+        "provides": ["elysflowers"],
+        "release": 31285,
+        "repo": "https://github.com/blrbrb/elysflowers",
+        "short_description": "loads of new flowers!"
+      }
+    },
     "erlehmann": {
       "bushy_leaves": {
         "hash": "0bas88g0zf5yw6bbyml1j6wkf9y798c3cy8hasz3658sdf10zh2h",
@@ -48955,9 +49064,9 @@
       },
       "waterdragon": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "04jhrw0026y25imld542sykvv8kn9s0hrzlg80f8mpkjr6xyyz2c",
+        "hash": "162jyn3n7y7nkxsfvya394fxllvwqcax025dnr0c8sf9gf6vkvh3",
         "provides": ["waterdragon"],
-        "release": 32092,
+        "release": 32404,
         "repo": "https://github.com/homiak/waterdragon",
         "short_description": "Adds powerful Water Dragons, useful craftitems and Draconic blocks."
       }
@@ -51207,9 +51316,9 @@
       },
       "flow": {
         "dependencies": ["formspec_ast"],
-        "hash": "0wg3ix50apzxzz345qm1b08w41wr51p2gqw6a7hh3j7mndcn0r6c",
+        "hash": "1vbqdrp7pgifbw96ixk5mpxx29a057xb4mlp5hvz50yn1ibmixsy",
         "provides": ["flow"],
-        "release": 32350,
+        "release": 32405,
         "repo": "https://gitlab.com/luk3yx/minetest-flow.git",
         "short_description": "A formspec library that automatically positions and sizes elements"
       },
@@ -51312,17 +51421,63 @@
       }
     },
     "m16b": {
+      "m16b_item_displayed": {
+        "dependencies": ["mcl_armor", "mcl_init", "mcl_core"],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1ijd0pgg79ilygjxvvfv625m1x1848d3isingy4aj2g02nw59b2n",
+        "provides": ["m16b_item_displayed"],
+        "release": 32346,
+        "repo": null,
+        "short_description": "Add displays"
+      },
       "m16b_mystic_stones": {
         "dependencies": ["mcl_tools", "mcl_core", "mcl_init", "mcl_armor"],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1b6ngxbg3xmzjj87zniji5xa5rzx6213d8p2ank5fh3qwls9cjwz",
+        "hash": "0i76hdidw1s2y5sahyfdw68jr4gzbcr9pwswslcgprl7lhkdbrqh",
         "provides": ["m16b_mystic_stones"],
-        "release": 32398,
+        "release": 32413,
         "repo": null,
         "short_description": "Add many mystic stones"
+      },
+      "m16b_new_elytras": {
+        "dependencies": ["mcl_armor", "mcl_init", "mcl_core"],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "05mahp0ah0hyng4jsj8hnhfsfnlijk69d9il1gq3i7jszm35bv41",
+        "provides": ["m16b_new_elytras"],
+        "release": 32336,
+        "repo": null,
+        "short_description": "Add 3 new elytras"
+      },
+      "m16b_shields_modpack": {
+        "dependencies": [
+          "mcl_damage",
+          "mcl_enchanting",
+          "mcl_banners",
+          "mcl_util",
+          "playerphysics"
+        ],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1j1j8p50bgyx8bjrcqqkjh5hf1cqryajyhkjgjjlcg4hhkr6kp32",
+        "provides": [
+          "m16b_ice_shields",
+          "m16b_infernal_shields",
+          "m16b_iron_shields"
+        ],
+        "release": 32289,
+        "repo": null,
+        "short_description": "Add 2 new shields"
       }
     },
     "malt2592": {
@@ -60325,6 +60480,51 @@
         "short_description": "Work in Progress. the player can become a vampire by drinking a potion"
       }
     },
+    "tim56126": {
+      "wallygoo2": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "nam", "name": "porko" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "jara25", "name": "yams" }
+        ],
+        "hash": "1j3733qz90hnzmzx73h353pxmhssr4a4kqhx08750p6m4yx7h79g",
+        "provides": ["wallygoo2"],
+        "release": 32392,
+        "repo": null,
+        "short_description": "a funny addon that is a goofy time"
+      }
+    },
     "ulla": {
       "jukeloopbox": {
         "dependencies": ["default"],
@@ -61101,11 +61301,11 @@
       "sprinting": {
         "dependencies": ["default", "player_api"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0fiy5k3g8rzh8rqhfpbh8dlha00wdidf1r0lvjjrwvdyvkiwcd4m",
+        "hash": "1qg3b8aymjffrywygbh38d4h9pkr8szimvinc0zssnsciga57psg",
         "provides": ["sprinting"],
-        "release": 32106,
+        "release": 32409,
         "repo": "https://github.com/xXOsielXx/luanti-mod-sprinting",
-        "short_description": "Work in Progress. Allow sprinting/running with double tap"
+        "short_description": "Allow sprinting/running with double tap"
       }
     },
     "xenonca": {
