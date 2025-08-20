@@ -2744,7 +2744,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "1rlgl9vdxf86c6d3b3mca9c10d8n7pklqkd8gzsk0w56h0qj4ci9",
+        "hash": "1alpb96nw4d0gpdk9fhvc758vsaij1rx13z7w25j8pzhlizal9zx",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2828,7 +2828,6 @@
           "aom_vehicleapi",
           "aom_warning",
           "aom_weather",
-          "aom_wield",
           "aom_wings",
           "aom_wire",
           "aom_wood",
@@ -2838,6 +2837,7 @@
           "compatlib",
           "gm_windmills",
           "itemdesc",
+          "itemextensions",
           "player_info",
           "player_init",
           "player_model",
@@ -2847,7 +2847,7 @@
           "wield3d",
           "world_storage"
         ],
-        "release": 31971,
+        "release": 32442,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -19912,9 +19912,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Warr1024", "name": "nodecore" }
         ],
-        "hash": "1xq7qxdgca5fs2q8ayvxplfnckdw66zmj179png58yk6gvc3pl7z",
+        "hash": "0qkcj6ynwl904cki8h5q0mjgqmd243h83ygwxgg3knj22psxlwc7",
         "provides": ["postgresql"],
-        "release": 32421,
+        "release": 32455,
         "repo": "https://codeberg.org/Tomlaus/postgresql.git",
         "short_description": "Library for PostgreSQL Db."
       },
@@ -28104,6 +28104,13 @@
         "repo": "https://github.com/LudusExe/Chat-Guide",
         "short_description": "A virtual assistant that helps players with tips, guides, and useful information."
       },
+      "fingore": {
+        "hash": "1wpa64srhcal4j3xcmq0684vn7gwdrqzplqvxzfiblgwxcq4k2sb",
+        "provides": ["fingore"],
+        "release": 32430,
+        "repo": "https://github.com/LudusExe/Scripulous-Fingore",
+        "short_description": "You cannot ignore me forever, Sam."
+      },
       "italian_food": {
         "dependencies": [
           "mcl_achievements",
@@ -34806,7 +34813,7 @@
     },
     "Skivling": {
       "drwho_tardis": {
-        "dependencies": ["findbiome"],
+        "dependencies": ["mobs", "findbiome"],
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "repixture" },
@@ -34814,11 +34821,11 @@
           { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "EmptyStar", "name": "asuna" }
         ],
-        "hash": "1ybnw6zf5h079add4m697c4v4ki6a6gk0hv92kcwn92xdnjmvzx0",
+        "hash": "05kcpcyzdwp51imjlrwvd04cnialfkgyr6b7558n9arihjdid51w",
         "provides": ["drwho_tardis"],
-        "release": 30681,
+        "release": 32441,
         "repo": "https://codeberg.org/Skivling/DrWho_Tardis",
-        "short_description": "Work in Progress. Adds various items, blocks, Daleks, and a working TARDIS from the sci-fi show Doctor Who."
+        "short_description": "Adds various items, blocks, Daleks, and a working TARDIS from the sci-fi show Doctor Who."
       },
       "ebiomes_dyes": {
         "dependencies": ["dye", "ebiomes"],
@@ -35262,6 +35269,13 @@
         "release": 32397,
         "repo": "https://github.com/SkyBuilder1717/online_skins",
         "short_description": "Work in Progress. Adds online skins database and site to upload your own."
+      },
+      "two_thousand_forty_eight": {
+        "hash": "1amwds072lgf4qsnnsir5ak38f8iaa5yfmgks6lvnznmjj9j5j89",
+        "provides": ["two_thousand_forty_eight"],
+        "release": 32448,
+        "repo": "https://github.com/SkyBuilder1717/two_thousand_forty_eight",
+        "short_description": "Adds simple 2048 game"
       },
       "wallblock": {
         "dependencies": ["worldedit", "default"],
@@ -38624,9 +38638,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0l8hf5g54xpjhsprhmmyhrcj6fi81xx41d1hvplbcwfcb6q9hcmb",
+        "hash": "1m566d0773v1kd95gyl0dhjaxdybc3rrrh0j3i2gzljxvs1wwy9a",
         "provides": ["protector"],
-        "release": 32431,
+        "release": 32440,
         "repo": "https://codeberg.org/tenplus1/protector",
         "short_description": "Lets players craft special blocks to protect their builds or disable PVP in areas."
       },
@@ -45844,6 +45858,22 @@
       }
     },
     "bgstack15": {
+      "enchantments_workbench": {
+        "dependencies": [
+          "mcl_core",
+          "mcl_formspec",
+          "mcl_books",
+          "mcl_redstone",
+          "mcl_util",
+          "mcl_enchanting"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1xjybhr4jlly0ig21hxp3739gkkpmv6vx7r1n0c278k0jrl7wf62",
+        "provides": ["enchantments_workbench"],
+        "release": 32325,
+        "repo": "https://gitlab.com/bgstack15/enchantments_workbench.git",
+        "short_description": "A workbench for enchantment operations"
+      },
       "lava_furnace": {
         "dependencies": [
           "mcl_achievements",
@@ -48184,6 +48214,28 @@
         "release": 26904,
         "repo": "https://github.com/empeeu/seekblock.git",
         "short_description": "Minigame where players seek a different block among a clutter of other blocks. "
+      }
+    },
+    "ems111": {
+      "vl_tuff_extras": {
+        "dependencies": [
+          "screwdriver",
+          "mcl_walls",
+          "mcl_deepslate",
+          "mcl_stairs",
+          "mcl_stonecutter",
+          "mcl_sounds",
+          "mcl_util"
+        ],
+        "game_support": [
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "07bh5mxfcrm8bz993lc084lp21ybxkqm7ppgawrzmaj36iwvqc5j",
+        "provides": ["vl_tuff_extras"],
+        "release": 32453,
+        "repo": null,
+        "short_description": "Adds tuff decorative variants"
       }
     },
     "enchant97": {
@@ -51436,9 +51488,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "0i76hdidw1s2y5sahyfdw68jr4gzbcr9pwswslcgprl7lhkdbrqh",
+        "hash": "0d4fz45inpy2hdsna0xlkb90c0s51zbhp5sdwbvpa2yafimaq1q0",
         "provides": ["m16b_mystic_stones"],
-        "release": 32413,
+        "release": 32445,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
@@ -55811,7 +55863,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "1g7ii0vf5yxrp5j1y5xd1sadqbzh8lg0dmbgwc7xqklksdsvjw0b",
+        "hash": "13gbhnx43zdpja2nccx03h8zgiz8gqbmjb8l3j028qvn12247h32",
         "provides": [
           "advtrains",
           "advtrains_interlocking",
@@ -55823,16 +55875,16 @@
           "advtrains_train_track",
           "serialize_lib"
         ],
-        "release": 30997,
+        "release": 32452,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
       "advtrains_techage": {
-        "dependencies": ["techage", "advtrains"],
+        "dependencies": ["advtrains", "techage"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "031p5rpgi3kdqk9d6vj37y624msksc0c4p8ji1v8c2i6xiqylk8j",
+        "hash": "0vwkwjn36s241fz7a3l97zj1nym9kaid38r38jk83dmhmqhhyw3f",
         "provides": ["advtrains_techage"],
-        "release": 20650,
+        "release": 32450,
         "repo": "https://notabug.org/advtrains/advtrains_techage.git",
         "short_description": "Various interoperability tweaks between TechAge and Advtrains"
       },
@@ -55845,14 +55897,14 @@
       },
       "basic_trains": {
         "dependencies": ["advtrains_train_track", "advtrains"],
-        "hash": "1m8b1bvf80k7634vpijlfnip0bfw6n1nrpv88hpbf5rx6p4wdpyb",
+        "hash": "1zm97xii0fkin033qbnznbj7x9q08n864z1fxmghxcdvwzbl5rkl",
         "provides": [
           "advtrains_train_industrial",
           "advtrains_train_japan",
           "advtrains_train_steam",
           "advtrains_train_subway"
         ],
-        "release": 19843,
+        "release": 32451,
         "repo": "http://git.bananach.space/basic_trains.git/",
         "short_description": "Collection of basic trains for the Advanced Trains mod. Formerly included in main advtrains modpack (until 2.3.0)"
       },
