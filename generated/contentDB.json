@@ -4871,7 +4871,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0vz6a85bbpr1hdy7q90sy2m3rin6hlp0lnapmbyd30ghcpmq4dj9",
+        "hash": "1d97s5820a3mcfjz7z6xqysp6jwx0spgpig10hi63753xapnh8ik",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5103,7 +5103,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32261,
+        "release": 32470,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -16173,37 +16173,37 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "fire",
           "tnt",
-          "default",
-          "basic_materials",
           "bucket",
+          "basic_materials",
+          "fire",
+          "default",
           "plastic_bucket"
         ],
         "game_support": [
-          { "author": "PetiAPocok", "name": "minetest_extended" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" }
+          { "author": "mt-mods", "name": "dreambuilder_game" }
         ],
-        "hash": "1i297nqinl1d6rqy7jy0ddwqzm9km1sw39nr7f5jwfx6xf96z0zc",
+        "hash": "03q8phnp0amr1qn5d0vg3qjnblwf6xwm2x7sqs2gi6lpyjjx8bzs",
         "provides": ["chemistry"],
-        "release": 32411,
+        "release": 32482,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -34473,9 +34473,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "12wcq9j8khq1yqd0d075c92x8kqjmfnf5aghwzvnhmg6wzzjzc8g",
+        "hash": "1zcn1kpzrwa7zv0hr7va9nqxl22wml23zqkljcgfkiddw1qa1q74",
         "provides": ["advtrains_horntrack"],
-        "release": 26387,
+        "release": 32471,
         "repo": "https://codeberg.org/SilverSandstone/advtrains_horntrack",
         "short_description": "Adds a track for automatically activating train horns."
       },
@@ -38021,9 +38021,9 @@
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "mt-mods", "name": "dreambuilder_game" }
         ],
-        "hash": "1xv24qdrbbjir2b8y2pwpsg3x7pc152hx9ycq6rl51ga8awypmc9",
+        "hash": "0iabn14hz032ihslkf80smd79x47l0iw0g2i9ic4znj9vlhr4rz0",
         "provides": ["mobs"],
-        "release": 32190,
+        "release": 32475,
         "repo": "https://codeberg.org/tenplus1/mobs_redo",
         "short_description": "Simple and feature rich API to quickly add mobs into your world."
       },
@@ -44331,38 +44331,38 @@
         "short_description": "A Technic based machine for converting certain items into more compact forms"
       },
       "etherium_stuff": {
-        "dependencies": ["stairs", "default", "ethereal", "bucket"],
+        "dependencies": ["default", "stairs", "bucket", "ethereal"],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Amaz", "name": "lordofthetest" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "EmptyStar", "name": "asuna" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Casimir", "name": "voxelgarden" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" }
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "Amaz", "name": "lordofthetest" }
         ],
-        "hash": "0lb1f7zhsmmqybcks6d38cxml47a5dgamx6l3am120bjnga3nkyp",
+        "hash": "04mjkbvqhvipfxay9zrsdzk3x82b04zaqd8sk7zdsw2w1cs8d7sk",
         "provides": ["etherium_stuff"],
-        "release": 16448,
+        "release": 32476,
         "repo": "https://gitlab.com/alerikaisattera/etherium_stuff",
         "short_description": "Decorative stuff using ethereal's etherium dust"
       },
@@ -50278,9 +50278,9 @@
     "kebabmaneater": {
       "what_is_this_uwu": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1zsipq97jz3x4f12sw88c4zk4nqiadlw6yh16sdlyfqn8bakjryl",
+        "hash": "0q0sc63s39nl0fa2nndw4dh2bixd47fddpda8p43f6pjbwzbw2q5",
         "provides": ["what_is_this_uwu"],
-        "release": 32468,
+        "release": 32478,
         "repo": "https://github.com/kebabmaneater/what_is_this_uwu-minetest",
         "short_description": "A fork of \"What is This? UwU\" by Rotfuchs-von-Vulpes."
       }
@@ -59918,9 +59918,9 @@
       },
       "tieless_tracks": {
         "dependencies": ["advtrains_train_track", "advtrains"],
-        "hash": "18bn0ksm2zd3f78dvcm2c7l6jlp96g2x7dqk5wn31xf14njqsw21",
+        "hash": "02wbjx8b0j4zjll11vnpj1fhxxv095b8g0fqzjzgk39in3z9ljla",
         "provides": ["tieless_tracks"],
-        "release": 32326,
+        "release": 32477,
         "repo": "https://codeberg.org/SamMatzko/luanti-tieless-tracks",
         "short_description": "Tracks without crossties for Advanced Trains (advtrains) that can be used on streets and other related things"
       }
