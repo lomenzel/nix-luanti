@@ -1655,7 +1655,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "02c96k0p01wclf374ih0ywaim27hm0l5qkw8gswlrnfr9lm2alna",
+        "hash": "1isgzk3365bvw4wzhx19hf37hir7vlk7vvnpvz4dvljkafyc3vbh",
         "provides": [
           "beds",
           "binoculars",
@@ -1692,7 +1692,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 31898,
+        "release": 32493,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -28078,9 +28078,9 @@
     },
     "Luanti": {
       "sethome": {
-        "hash": "18cgijw1jq218203w5l3himw6mi6xvvb2705k1jxb5dgczzlljyb",
+        "hash": "0py0dnra0kcz7v430rxxbmxqxln058kkp7ml8vwhxxg0wikgjm46",
         "provides": ["sethome"],
-        "release": 31878,
+        "release": 32494,
         "repo": "https://github.com/minetest-game/sethome/",
         "short_description": "Set a home position you can teleport back to anytime"
       }
@@ -28676,6 +28676,13 @@
         "release": 30564,
         "repo": "https://github.com/Matyas-Pilz/owires",
         "short_description": "Overhead wires supports overhead wires over the Advtrains railways."
+      },
+      "pizzas": {
+        "hash": "1wkjq9dnbvkvvpcjbsqs04bdhp9h70s3vmcapvfnih0a7wsmm49b",
+        "provides": ["pizzas"],
+        "release": 32490,
+        "repo": "https://github.com/Matyas-Pilz/pizzas",
+        "short_description": "add base for pizzas, cakes and other circle ... what do you want, not only food!"
       },
       "repainter": {
         "hash": "0hs2pw3n73x23rwsql8mnpq2qg6lqz5rwmiaaxh7ihnxlwhylpg4",
@@ -36909,9 +36916,9 @@
       },
       "otherkin_flags": {
         "dependencies": ["pride_flags"],
-        "hash": "1ip30xlq6754dgn9wxj992ssdgw7qjxh3974fhcawf501ljdkaih",
+        "hash": "0lrbsq43hv40vxnfbh1gyv1jv4ycz0k0q6r4s7vx4ybqyasa978f",
         "provides": ["otherkin_flags"],
-        "release": 32434,
+        "release": 32498,
         "repo": "https://codeberg.org/TPH/otherkin_flags",
         "short_description": "Adds a selection of Otherkin + Furry specific flags"
       },
@@ -44749,9 +44756,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "0r3gv3q818f8vxg80w3lvz3fn8f9xmslycm9hn4v38fp1ick9h9w",
+        "hash": "01jv3dyhaqw177aw5k8abpzrcjhrl8ryb60id134kjfcr3c0x5wd",
         "provides": ["airutils"],
-        "release": 31442,
+        "release": 32497,
         "repo": "https://github.com/APercy/airutils",
         "short_description": "A lib for airplanes and some useful tools"
       },
@@ -49043,6 +49050,18 @@
       }
     },
     "gtzi203": {
+      "biometer": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "1psq2lnxjgg0plsddl3y5mvvh9n10gl50jqgjmhb3hjbb1fk1pf4",
+        "provides": ["biometer"],
+        "release": 32496,
+        "repo": "https://github.com/gtzi203/BioMeter",
+        "short_description": "Adds a hydration and temperature system. If you don't want to die, try to stay in moderate areas and don't forget to drink!"
+      },
       "crenodes": {
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
@@ -56540,6 +56559,13 @@
         "release": 32076,
         "repo": null,
         "short_description": "Provide an AI RNN API for developers."
+      },
+      "serverhealth": {
+        "hash": "1nzdp83qf6yr43lyj5g2xllszh11lhh675j7rx2dv7zzwy4zhnv6",
+        "provides": ["serverhealth"],
+        "release": 32495,
+        "repo": null,
+        "short_description": "Add chat & node placement monitoring to your server."
       }
     },
     "playduin": {
