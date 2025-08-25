@@ -3115,7 +3115,7 @@
         ],
         "release": 31948,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions."
+        "short_description": "Objavujte a vynaliezajte v neskutočnom a nesúcitnom svete kociek, vzorov a abstrakcií."
       },
       "nodecore_alpha": {
         "hash": "1a9mp1f4m9kqw0i0cwy43f9q2hwcr363jyfr0ap1y4lkr5fblgml",
@@ -3167,7 +3167,7 @@
         ],
         "release": 31962,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)"
+        "short_description": "Verzia predbežného prístupu NodeCore s novinkami (možno aj chybami)"
       },
       "piranesi_redo": {
         "hash": "0d9l3rrq3s30qk7xjj1k6d8n43babnmvni0zgz0rrlrljkdqypky",
@@ -5194,6 +5194,21 @@
         "release": 28191,
         "repo": "https://codeberg.org/nephele-user/Orion",
         "short_description": "Work in Progress. Orion (Development version)"
+      }
+    },
+    "nikaaa": {
+      "heres": {
+        "hash": "0gd2qx4sgrz2z022xng8br1hmx00a3kdqs0xd8s5mck3xn30z3c8",
+        "provides": [
+          "heres_bed",
+          "heres_energy",
+          "heres_ess",
+          "heres_food",
+          "heres_mineral"
+        ],
+        "release": 32429,
+        "repo": "https://codeberg.org/nikaaa/luanti-heres",
+        "short_description": "Heres is a game about living on Mars."
       }
     },
     "niwla23": {
@@ -16175,12 +16190,12 @@
     "Emiliano": {
       "chemistry": {
         "dependencies": [
-          "plastic_bucket",
           "fire",
-          "bucket",
+          "tnt",
           "default",
           "basic_materials",
-          "tnt"
+          "bucket",
+          "plastic_bucket"
         ],
         "game_support": [
           { "author": "PetiAPocok", "name": "minetest_extended" },
@@ -16203,9 +16218,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" }
         ],
-        "hash": "113lixw8awsxzjwh4pmdj41fwvi5hdy9rsz7a99xpyjv0fg8hpq2",
+        "hash": "0psx33wz9izh8nibyp8rlnbq6hmv6p46f7210g9pd45nfi6gayr1",
         "provides": ["chemistry"],
-        "release": 32484,
+        "release": 32504,
         "repo": null,
         "short_description": "A package that adds More Ores and Things"
       },
@@ -28684,6 +28699,14 @@
         "repo": "https://github.com/Matyas-Pilz/pizzas",
         "short_description": "add base for pizzas, cakes and other circle ... what do you want, not only food!"
       },
+      "pizzas_pack1": {
+        "dependencies": ["pizzas"],
+        "hash": "0nl19zkzkig4ai7jd2r618sv47w0mjbqmnak0qx03fzz4bcwdnsm",
+        "provides": ["pizzas_pack1"],
+        "release": 32500,
+        "repo": "https://github.com/Matyas-Pilz/pizzas_pack1",
+        "short_description": "add some pizzas and cakes to 'pizzas'"
+      },
       "repainter": {
         "hash": "0hs2pw3n73x23rwsql8mnpq2qg6lqz5rwmiaaxh7ihnxlwhylpg4",
         "provides": ["repainter"],
@@ -36970,9 +36993,9 @@
         "short_description": "Provides a Spyglass for zooming in and out (if RMB is pressed)"
       },
       "typeof": {
-        "hash": "08qc11yxmhhk0gw0gb3raa99w186l0n0jz95l1w84l578c5ajknd",
+        "hash": "1bpax1d6igf7b52gk1v2m1b8l5xm4fji9rw6fgwqd775n266r3bg",
         "provides": ["typeof"],
-        "release": 31105,
+        "release": 32502,
         "repo": "https://codeberg.org/TPH/typeof",
         "short_description": "Provides functionality similar to Luau's \"typeof\" function"
       }
@@ -37995,9 +38018,9 @@
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "mt-mods", "name": "dreambuilder_game" }
         ],
-        "hash": "0iabn14hz032ihslkf80smd79x47l0iw0g2i9ic4znj9vlhr4rz0",
+        "hash": "15dix043iybvc7f4nzbnxxkvkc4x6g474rbcppm11kc9nsqz5z6y",
         "provides": ["mobs"],
-        "release": 32475,
+        "release": 32506,
         "repo": "https://codeberg.org/tenplus1/mobs_redo",
         "short_description": "Simple and feature rich API to quickly add mobs into your world."
       },
@@ -49056,9 +49079,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1psq2lnxjgg0plsddl3y5mvvh9n10gl50jqgjmhb3hjbb1fk1pf4",
+        "hash": "0igvh5v0bsgrjdlfzrfsl98x4ymp0hxnm18nq1f937qqgjvnnb82",
         "provides": ["biometer"],
-        "release": 32496,
+        "release": 32509,
         "repo": "https://github.com/gtzi203/BioMeter",
         "short_description": "Adds a hydration and temperature system. If you don't want to die, try to stay in moderate areas and don't forget to drink!"
       },
@@ -51479,12 +51502,12 @@
           "mcl_core"
         ],
         "game_support": [
-          { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0bk37kqlnkz8krpih4inhcfs321w9n0fmz3rzkyxrf0v63wlg1ah",
+        "hash": "0d5lpb6yjd89q58g0qc5hijrhhn5q3x4zlw1j4lif77pqy5n6w1j",
         "provides": ["m16b_mystic_stones"],
-        "release": 32463,
+        "release": 32507,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
@@ -52362,42 +52385,42 @@
       "new_biomes": {
         "dependencies": ["stairs", "default"],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "debiankaios", "name": "proxima_survival" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "nam", "name": "porko" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Thunder1035", "name": "etb" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "nam", "name": "porko" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "Hi_World", "name": "newplanet" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" }
+          { "author": "1248", "name": "regnum" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" }
         ],
-        "hash": "1wzfxgyz11mdp1q7k8v2w60k43cy99iyrxq6xrnmdpa90zrhz6lw",
+        "hash": "0b9k7n6cb96lzs9n20jk15q1z3vcd801g4fl7kbzyxs7fmshfcw5",
         "provides": ["new_biomes"],
-        "release": 31042,
+        "release": 32505,
         "repo": "https://github.com/midnightx756/New_Biomes",
         "short_description": "If you like underground biomes, this thing is for you."
       },
@@ -54892,7 +54915,7 @@
         "provides": ["xcompat"],
         "release": 30345,
         "repo": "https://github.com/mt-mods/xcompat",
-        "short_description": "Work in Progress. a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
+        "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
       },
       "xp_redo": {
         "dependencies": ["default"],
@@ -57880,7 +57903,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Blood splatter for players and creatures"
+        "short_description": "Pridáva krvavé škvrny pre hráčov a tvory."
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
