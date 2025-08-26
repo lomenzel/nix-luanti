@@ -3115,7 +3115,7 @@
         ],
         "release": 31948,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Objavujte a vynaliezajte v neskutočnom a nesúcitnom svete kociek, vzorov a abstrakcií."
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions."
       },
       "nodecore_alpha": {
         "hash": "1a9mp1f4m9kqw0i0cwy43f9q2hwcr363jyfr0ap1y4lkr5fblgml",
@@ -3167,7 +3167,7 @@
         ],
         "release": 31962,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Verzia predbežného prístupu NodeCore s novinkami (možno aj chybami)"
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)"
       },
       "piranesi_redo": {
         "hash": "0d9l3rrq3s30qk7xjj1k6d8n43babnmvni0zgz0rrlrljkdqypky",
@@ -5198,7 +5198,7 @@
     },
     "nikaaa": {
       "heres": {
-        "hash": "0gd2qx4sgrz2z022xng8br1hmx00a3kdqs0xd8s5mck3xn30z3c8",
+        "hash": "1yn4rf18xfs3s1mqzh8yv8hy0719h8gcqw3zxkb5x5ihrr52hrp3",
         "provides": [
           "heres_bed",
           "heres_energy",
@@ -5206,7 +5206,7 @@
           "heres_food",
           "heres_mineral"
         ],
-        "release": 32429,
+        "release": 32511,
         "repo": "https://codeberg.org/nikaaa/luanti-heres",
         "short_description": "Heres is a game about living on Mars."
       }
@@ -57903,7 +57903,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Pridáva krvavé škvrny pre hráčov a tvory."
+        "short_description": "Προσθέτει εκτόξευση αίματος για παίκτες και πλάσματα (Prosthétei ektóxeusi aímatos gia paíktes kai plásmata)."
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -61868,10 +61868,10 @@
     },
     "CocoMarck": {
       "cm_drawtextures": {
-        "hash": "1wzjkz8lxq6dq431wk64gvxh2xas4bb2lw7zyk8m2zw4csf1g19h",
-        "release": 32419,
+        "hash": "19nc5h9w481mcswr9q6lrjq7cn433praz70bxjk7vf6i7ihsskxh",
+        "release": 32510,
         "repo": "https://github.com/CocoMarck/Minetest-DrawTextures",
-        "short_description": "Work in Progress. Replacement of default textures, by drawn textures that I draw from scratch"
+        "short_description": "Replacement of default textures, by drawn textures that I draw from scratch"
       }
     },
     "Crystal741": {
@@ -62076,6 +62076,12 @@
         "release": 32236,
         "repo": "https://github.com/LudusExe/TF2-Textures-for-Voxelibre",
         "short_description": "Adds clean and recognizable TF2 textures to your world."
+      },
+      "reverse_card": {
+        "hash": "1z2zsz4d7p263yxgm7ncf189k71k5vcrr6y55ha50b6g4xks1ywc",
+        "release": 32508,
+        "repo": "https://github.com/LudusExe/Reverse-Card-as-Totem",
+        "short_description": "Plot twist: not today."
       }
     },
     "Menetorplayz": {
