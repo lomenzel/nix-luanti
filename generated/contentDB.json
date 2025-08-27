@@ -4871,7 +4871,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1d97s5820a3mcfjz7z6xqysp6jwx0spgpig10hi63753xapnh8ik",
+        "hash": "03akj94wn8gyr11vx5ffagrjhnycjpci0pz7w7hfwv99pfp13709",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5103,7 +5103,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32470,
+        "release": 32514,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -9249,13 +9249,6 @@
         "release": 29224,
         "repo": "https://github.com/Bapt-Tech/imstaff.git",
         "short_description": "Many commands and functions for admins and moderators"
-      },
-      "openinv": {
-        "hash": "1bfjid6zi98gdlyn4bnxh7arjxiw7b12z3zgx6sz2hxxy0xya86x",
-        "provides": ["openinv"],
-        "release": 26057,
-        "repo": "https://github.com/Bapt-Tech/OpenInv",
-        "short_description": "A mod for admin to open inventories and ender chests in case of duplication (needs openinv and openec priv)"
       },
       "rtp": {
         "hash": "02gz86fa8s3qb7h59c9dkj8lq076j9s639wawz86pyrbizbzd0vr",
@@ -38026,45 +38019,10 @@
       },
       "mobs_animal": {
         "dependencies": ["mobs"],
-        "game_support": [
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "JALdMIC", "name": "survivethedays" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "mt-mods", "name": "blockcolor" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "StarNinjas", "name": "veil_of_the_unknown" },
-          { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "sunnysideup", "name": "holidayhorrors" },
-          { "author": "Thunder1035", "name": "pacman" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "5uper1ach", "name": "szombie" },
-          { "author": "1248", "name": "agon" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "Wuzzy", "name": "hades_revisited" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Astrobe", "name": "minefall" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "nam", "name": "porko" },
-          { "author": "StarNinjas", "name": "jail_escape" },
-          { "author": "crabycowman123", "name": "spmeter" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "PyuDev", "name": "pyutest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "StarNinjas", "name": "ssp" },
-          { "author": "Noodlemire", "name": "voxeldungeon" }
-        ],
-        "hash": "1q5vwzfaf72qy2ad09qbvxs52xhk0zx1rbx3n1wlvgc96nqflb4x",
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "1m2z4wp0fwb30mkc59wpdzy17b043z4sln71x0na6jgihk3hy660",
         "provides": ["mobs_animal"],
-        "release": 31321,
+        "release": 32523,
         "repo": "https://codeberg.org/tenplus1/mobs_animal",
         "short_description": "Adds farm animals."
       },
@@ -49124,9 +49082,9 @@
       },
       "waterdragon": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "162jyn3n7y7nkxsfvya394fxllvwqcax025dnr0c8sf9gf6vkvh3",
+        "hash": "17yzfqprfgxk6swb16cvr1fh1shzlzylp1zrxxbkzn36k8p995l7",
         "provides": ["waterdragon"],
-        "release": 32404,
+        "release": 32515,
         "repo": "https://github.com/homiak/waterdragon",
         "short_description": "Adds powerful Water Dragons, useful craftitems and Draconic blocks."
       }
@@ -52535,11 +52493,11 @@
       "camomese": {
         "dependencies": ["mesecons", "default"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1hjrswhhrnrwd12snwypdm1jj6pj41zf3wjl4y3cn6d4slhpsksb",
+        "hash": "0k8xa5x2vl9a2rwxg2n69gjn7ax6gk46jzrnb5chp0m13v0b1lq5",
         "provides": ["camomese"],
-        "release": 32012,
+        "release": 32519,
         "repo": "https://codeberg.org/wogomo/camomese.git",
-        "short_description": "Work in Progress. This package adds several solid blocks that conduct either mesecon power or digilines signals."
+        "short_description": "This package adds several solid blocks that conduct either mesecon power or digilines signals."
       }
     },
     "mt-mods": {
@@ -55880,7 +55838,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "13gbhnx43zdpja2nccx03h8zgiz8gqbmjb8l3j028qvn12247h32",
+        "hash": "1bd7jykjvbk3z5ykqmq9nky6aw90fazn740ay2xriavwlr4cd4lw",
         "provides": [
           "advtrains",
           "advtrains_interlocking",
@@ -55892,7 +55850,7 @@
           "advtrains_train_track",
           "serialize_lib"
         ],
-        "release": 32452,
+        "release": 32524,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
@@ -57903,7 +57861,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Προσθέτει εκτόξευση αίματος για παίκτες και πλάσματα (Prosthétei ektóxeusi aímatos gia paíktes kai plásmata)."
+        "short_description": "Blood splatter for players and creatures"
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
