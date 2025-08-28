@@ -3633,7 +3633,7 @@
         "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond."
       },
       "repixture": {
-        "hash": "0xpvzkz8nigzizi7jdqxl4iak7vri5x1x00fh89vg53fihf7jf5d",
+        "hash": "0r41kmn8jyd59sm8prq2w9fjnyl1dr0pczgvhssb663vg060n2na",
         "provides": [
           "player_api",
           "rp_achievements",
@@ -3713,7 +3713,7 @@
           "tt",
           "tt_base"
         ],
-        "release": 31282,
+        "release": 32530,
         "repo": "https://codeberg.org/Wuzzy/Repixture",
         "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies."
       },
@@ -4871,7 +4871,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "03akj94wn8gyr11vx5ffagrjhnycjpci0pz7w7hfwv99pfp13709",
+        "hash": "0l5g9sppbln5jzwqvfja0ywczaryhr7vf1gm04bz2ls4vd59cszs",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5103,7 +5103,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32514,
+        "release": 32526,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -5198,15 +5198,16 @@
     },
     "nikaaa": {
       "heres": {
-        "hash": "1yn4rf18xfs3s1mqzh8yv8hy0719h8gcqw3zxkb5x5ihrr52hrp3",
+        "hash": "04ahamhyhr9ln6cdxmndyb40lwyg4rcdy17k10zhinmxabgrxnpd",
         "provides": [
-          "heres_bed",
-          "heres_energy",
-          "heres_ess",
-          "heres_food",
-          "heres_mineral"
+          "hrs_algae",
+          "hrs_bed",
+          "hrs_food",
+          "hrs_landscape",
+          "hrs_machine",
+          "hrs_material"
         ],
-        "release": 32511,
+        "release": 32534,
         "repo": "https://codeberg.org/nikaaa/luanti-heres",
         "short_description": "Heres is a game about living on Mars."
       }
@@ -37797,9 +37798,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1qa3whm1nvag1z7ydqjcb6pvzmsv57paifkyaq6z4m39w0hpbv9p",
+        "hash": "1an7yxrsmyg483bmzchgs8rglwyn3crbxw3mq3iy0vc32cg5q7ql",
         "provides": ["farming"],
-        "release": 32487,
+        "release": 32529,
         "repo": "https://codeberg.org/tenplus1/farming",
         "short_description": "Adds many plants and food to Minetest"
       },
@@ -37953,9 +37954,9 @@
       "mob_horse": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0mzq7hcq7b1bbhr63qk8qpp00pb0ra0kf43lc4qyzljz6nplfbah",
+        "hash": "1q8hb49slaj0l4dnh7lgrpv5sn4d44sp82nsik9alvfr20n1bpq5",
         "provides": ["mob_horse"],
-        "release": 32486,
+        "release": 32527,
         "repo": "https://codeberg.org/tenplus1/mob_horse",
         "short_description": "Adds rideable horse"
       },
@@ -38011,9 +38012,9 @@
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "mt-mods", "name": "dreambuilder_game" }
         ],
-        "hash": "15dix043iybvc7f4nzbnxxkvkc4x6g474rbcppm11kc9nsqz5z6y",
+        "hash": "1gqhm3y7znd04rgyqs2i55ij8fn42agm6j9q9jcznpvhd077cy51",
         "provides": ["mobs"],
-        "release": 32506,
+        "release": 32528,
         "repo": "https://codeberg.org/tenplus1/mobs_redo",
         "short_description": "Simple and feature rich API to quickly add mobs into your world."
       },
@@ -45861,13 +45862,12 @@
       "milk_potion": {
         "dependencies": ["mcl_potions", "mcl_mobitems"],
         "game_support": [
-          { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "VoxelForge", "name": "voxelforge" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1a7h9afnws8fbry34qkpr14bn04jfpd179whl9xzh7sz53ppkvdx",
+        "hash": "0a6gj4xqz00ii4x2pvq29nqdr8h75qnmd89lydfa16crabf6zxkx",
         "provides": ["milk_potion"],
-        "release": 31741,
+        "release": 32533,
         "repo": "https://gitlab.com/bgstack15/milk_potion.git",
         "short_description": "Milk potion for Mineclonia"
       },
