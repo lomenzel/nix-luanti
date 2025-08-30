@@ -4871,7 +4871,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0l5g9sppbln5jzwqvfja0ywczaryhr7vf1gm04bz2ls4vd59cszs",
+        "hash": "0a62jzw3cawn6dmp4g77pj8a86qm9y67vcl1sj6bqpdkddd0fkag",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5103,7 +5103,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32526,
+        "release": 32554,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -22167,6 +22167,20 @@
         "short_description": "Adds a notification sound when a player sends a chat message"
       }
     },
+    "Hanuko33": {
+      "simple_oreminer": {
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "Luanti", "name": "minetest_game" }
+        ],
+        "hash": "0askbrp5d1m1ki0r3jf3zm00zib7przbpgdvzsd7a5qj6rcr4a8l",
+        "provides": ["simple_oreminer"],
+        "release": 32562,
+        "repo": "https://codeberg.org/Hanuko33/simple_oreminer",
+        "short_description": "Dig entire ore vein."
+      }
+    },
     "HartRend": {
       "ubertool_mod": {
         "dependencies": ["default"],
@@ -26288,9 +26302,9 @@
         "short_description": "Low-level high-performance entity library"
       },
       "modlib": {
-        "hash": "10pw15lq4j8i43rhz8q6rh2vvcbr1rxqdl53xcxi9kp0x0bs7fqp",
+        "hash": "0gbwsf8rwil51z7xmkxyqn1zxgvigd6vx304yqjf2wncpfxs6pny",
         "provides": ["modlib"],
-        "release": 29483,
+        "release": 32559,
         "repo": "https://github.com/appgurueu/modlib",
         "short_description": "Multipurpose Minetest Modding Library"
       },
@@ -27393,9 +27407,9 @@
         "short_description": "Craft and use industrial Mese"
       },
       "ladders_3d": {
-        "hash": "1awxdr8nq2kkwcgfz6nspig7j0gak87blaiap45d1pw9xyxm9x6j",
+        "hash": "0h6zxfda71id76h1i7ri0r18lsq1zinaajzs5y7badsk6mhg35f2",
         "provides": ["ladders_3d"],
-        "release": 31342,
+        "release": 32567,
         "repo": "https://git.0x7be.net/dirk/ladders_3d",
         "short_description": "3D ladders of a wide variety of base materials."
       },
@@ -35297,9 +35311,9 @@
         "short_description": "Work in Progress. Adds online skins database and site to upload your own."
       },
       "two_thousand_forty_eight": {
-        "hash": "1amwds072lgf4qsnnsir5ak38f8iaa5yfmgks6lvnznmjj9j5j89",
+        "hash": "14jrrdq548birpmbysh287xkfgw22i030z09z5gy5kjm2jj4i45z",
         "provides": ["two_thousand_forty_eight"],
-        "release": 32448,
+        "release": 32560,
         "repo": "https://github.com/SkyBuilder1717/two_thousand_forty_eight",
         "short_description": "Adds simple 2048 game"
       },
@@ -36703,6 +36717,13 @@
         "release": 22170,
         "repo": "https://codeberg.org/SumianVoice/no_inside_node.git",
         "short_description": "Prevents players from staying stuck inside nodes. "
+      },
+      "node_updates": {
+        "hash": "1l0qmjkwm0rmm7ghbi8ilv77dnfm8yyi06kzp6jr55d8sl3dzh25",
+        "provides": ["node_updates"],
+        "release": 32558,
+        "repo": "https://github.com/SumianVoice/node_update.git",
+        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features"
       },
       "player_info": {
         "hash": "0329xxcan6s8qgljliaxjr15f6xgvivpn6c5nivlm4n5figc0z6w",
@@ -51454,19 +51475,17 @@
       },
       "m16b_mystic_stones": {
         "dependencies": [
-          "mobs_mc",
+          "mcl_core",
           "mcl_tools",
-          "mcl_init",
+          "mcl_candles",
+          "mobs_mc",
           "mcl_armor",
-          "mcl_core"
+          "mcl_init"
         ],
-        "game_support": [
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "Wuzzy", "name": "mineclone2" }
-        ],
-        "hash": "0d5lpb6yjd89q58g0qc5hijrhhn5q3x4zlw1j4lif77pqy5n6w1j",
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1j4dhhmgyxwimfxqfb045f24qpn4z8iavl8diphs0sdh4sq9v0fc",
         "provides": ["m16b_mystic_stones"],
-        "release": 32507,
+        "release": 32565,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
@@ -57862,7 +57881,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Blood splatter for players and creatures"
+        "short_description": "Lisää veriroiskeet pelaajille ja olennoille."
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -57902,7 +57921,7 @@
         "provides": ["hidestone"],
         "release": 29568,
         "repo": "https://gitgud.io/blut/hidestone",
-        "short_description": "Adds a stone that can hide up to 100 blocks."
+        "short_description": "Lisää kiven, joka voi piilottaa jopa 100 lohkoa."
       },
       "powerguns": {
         "dependencies": ["accuracy"],
