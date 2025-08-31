@@ -24176,43 +24176,9 @@
     },
     "Jean3219": {
       "jeans_economy": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "nam", "name": "porko" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "EmptyStar", "name": "asuna" }
-        ],
-        "hash": "1mxgip5nvv2n2g6cj3n4yh5a8bvj9f8n3ggqh957llr20gq90x3q",
+        "hash": "1cwg16wspx7gwj3v2la4f60k2cikl2p3nz0fa689q0xq8mra2d6f",
         "provides": ["jeans_economy"],
-        "release": 16114,
+        "release": 32580,
         "repo": "https://github.com/Jean28518/jeans_economy.git",
         "short_description": "Full Economy for Servers like, paying, individual bank statemants, daily rewards, easy api for modders, easy integration with other mods ..."
       }
@@ -36684,9 +36650,9 @@
     },
     "Sumianvoice": {
       "aom_settings": {
-        "hash": "13jcnl3gh0j7fhwinmynb0w5g2pwb4cp62z24lfw89cnd20wpw11",
+        "hash": "1c3x906b873fw90bjyfwnhdp057nbs5qmx4ibrqknq3q5kvj2xgm",
         "provides": ["aom_settings"],
-        "release": 28450,
+        "release": 32578,
         "repo": "https://codeberg.org/SumianVoice/aom_settings",
         "short_description": "Provides methods for both player level and server level settings"
       },
@@ -36719,9 +36685,9 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1l0qmjkwm0rmm7ghbi8ilv77dnfm8yyi06kzp6jr55d8sl3dzh25",
+        "hash": "1jb2q6jgx139l2x0wjlln9x2balgd5fjb53djyglax66c31cd0l2",
         "provides": ["node_updates"],
-        "release": 32558,
+        "release": 32575,
         "repo": "https://github.com/SumianVoice/node_update.git",
         "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features"
       },
@@ -44389,6 +44355,38 @@
         "repo": "https://gitlab.com/alerikaisattera/mosscarpets",
         "short_description": "Moss carpets based on Ethereal mosses"
       },
+      "quartz_new": {
+        "dependencies": ["default", "xpanes", "dye"],
+        "game_support": [
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" }
+        ],
+        "hash": "0kng7mjmij33nnymng5mn3s0s0gp69iqrqpc8lb2b0wvjbdwj6rj",
+        "provides": ["quartz_new"],
+        "release": 32512,
+        "repo": "https://gitlab.com/alerikaisattera/quartz_new",
+        "short_description": "Quartz and quartz glass building blocks"
+      },
       "stainedglass": {
         "dependencies": ["xpanes", "dye", "default"],
         "game_support": [
@@ -48362,11 +48360,24 @@
           { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1kff8jwwzr9x9gq40k6dxpc1pfnna21nq804qnl6d070cjinsnx4",
+        "hash": "0f55m5wjjn57nyjgbpyrqsvngjk09danjjjf1cbyxiychddj344p",
         "provides": ["elysflowers"],
-        "release": 32553,
+        "release": 32569,
         "repo": "https://github.com/blrbrb/elysflowers",
         "short_description": "loads of new flowers!"
+      }
+    },
+    "ergolyam": {
+      "coord_hud": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "08fyfj973av01y3gw1dclb6jy2icqdnnfh8lgkvhz46z0iqkmwk6",
+        "provides": ["coord_hud"],
+        "release": 32513,
+        "repo": "https://github.com/ergolyam/luanti-coord_hud",
+        "short_description": "Per-player HUD showing current coordinates with draggable sliders to set position and size."
       }
     },
     "erlehmann": {
@@ -48665,6 +48676,14 @@
       }
     },
     "frogTheSecond": {
+      "hotbar_switching": {
+        "dependencies": ["controls"],
+        "hash": "0z75k8klx6qzagcc240dw0akvhf00wk7vcz9f50hkvm7cpqxikz1",
+        "provides": ["hotbar_switching"],
+        "release": 32582,
+        "repo": "https://github.com/TheEt1234/hotbar_switching",
+        "short_description": "Implements a way to switch your hotbar to another row. Inspired by better than adventure."
+      },
       "libox": {
         "hash": "1n5aq25p8mr2wz3l140x4ckmwf77iibfx92cfnnqfdxbrhqz673x",
         "provides": ["libox"],
@@ -49178,6 +49197,20 @@
         "release": 27598,
         "repo": "https://codeberg.org/isaiah658/zoonami_3d_mobs",
         "short_description": "Adds 3D monster mobs to Zoonami."
+      }
+    },
+    "ivyqube": {
+      "y_axis": {
+        "dependencies": ["mcl_mapgen_core", "mcl_strongholds", "mcl_init"],
+        "game_support": [
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "1wg2in6szgb2fmc6x3smlbl37rfrll58l5cv4jb364088nwj3zfj",
+        "provides": ["y_axis"],
+        "release": 32539,
+        "repo": "https://gitlab.com/ivyqube/y_axis",
+        "short_description": "Makes the depth of the World configurable in Voxelibre."
       }
     },
     "j-r": {
@@ -51472,6 +51505,21 @@
         "release": 32425,
         "repo": null,
         "short_description": "Add displays"
+      },
+      "m16b_more_heads": {
+        "dependencies": [
+          "mcl_core",
+          "mcl_candles",
+          "mcl_heads",
+          "mcl_armor",
+          "mcl_init"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1q0q113fpb7n8k9ls5sjndy0z2qii1vsc5fvdiqqkv1hvzsc1980",
+        "provides": ["m16b_more_heads"],
+        "release": 32564,
+        "repo": null,
+        "short_description": "Add More Monster Heads"
       },
       "m16b_mystic_stones": {
         "dependencies": [
@@ -60746,11 +60794,18 @@
     },
     "unacceptium_core": {
       "8segmentdisplayblocks": {
-        "hash": "1nvb130xsix5f1qxv91bp113xa5sjr3q0gjc97x74ssgk3vmhpwv",
+        "hash": "04kwrn4j4l544lkl96g75xiryfsq42kkxmgffnjv6vya193nd7i9",
         "provides": ["8segmentdisplayblocks"],
-        "release": 32287,
+        "release": 32579,
         "repo": "https://github.com/Unacceptium/8segmentdiplayblocks",
         "short_description": "8 segment digital display as blocks"
+      },
+      "spdlimit": {
+        "hash": "04g8ihy9p4g9rgrf20q0ix5wj04d67krvnncak497r70w62hvmr0",
+        "provides": ["spdlimit"],
+        "release": 32577,
+        "repo": "https://gitlab.com/Unacceptium/spdlimit_metrotest/",
+        "short_description": "speed limit signs for the map project Metrotest"
       }
     },
     "uyku": {
@@ -62060,6 +62115,12 @@
         "release": 32508,
         "repo": "https://github.com/LudusExe/Reverse-Card-as-Totem",
         "short_description": "Plot twist: not today."
+      },
+      "sus_sand": {
+        "hash": "0nwfmfw49pysaqazkn516q1lv76bwrxa11sgj1239231vqdb89p0",
+        "release": 32521,
+        "repo": "https://github.com/LudusExe/Sus-Sand-for-Mineclonia",
+        "short_description": "Red isn’t acting sus… Red is sus."
       }
     },
     "Menetorplayz": {
