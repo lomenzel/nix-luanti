@@ -329,7 +329,7 @@
     },
     "Astrobe": {
       "minefall": {
-        "hash": "06wkzd2nv1vmlsb917szd4iy0kvzg1vq2r2hl2r3y01kgxh3s18m",
+        "hash": "1ncipz6g2f5k50p5zba2nrpbjy7xrv8ifgqabk2gkywmh3bh9gfg",
         "provides": [
           "3d_armor",
           "3d_armor_sfinv",
@@ -359,7 +359,6 @@
           "key_labels",
           "lightning",
           "melding",
-          "melt",
           "mf",
           "mf_airtank",
           "mf_armor",
@@ -370,7 +369,6 @@
           "mf_help",
           "mf_lamps",
           "mf_npc",
-          "mf_spears",
           "mf_stairs",
           "mf_tnt",
           "mf_vessels",
@@ -403,7 +401,7 @@
           "wieldview",
           "yatpm"
         ],
-        "release": 30834,
+        "release": 32588,
         "repo": "https://gitlab.com/Astrobe/minefall",
         "short_description": "Fight, farm, explore, build. Solo or multiplayer."
       }
@@ -1023,6 +1021,15 @@
         "release": 28566,
         "repo": null,
         "short_description": "Work in Progress. You play as a robot forced to do the same routine every day, even bound by your code, you decide enough is enough and try to escape"
+      }
+    },
+    "Giga_M": {
+      "one_of_us": {
+        "hash": "0c3kwv4gbknqdqxah478f3dwbykqdmfxpxkac2x3j68w81s0inav",
+        "provides": ["creative", "one_of_us", "player_api", "sfinv", "skinsdb"],
+        "release": 31946,
+        "repo": null,
+        "short_description": "game of deduction and deception"
       }
     },
     "GoodClover": {
@@ -4091,7 +4098,7 @@
     },
     "covertiii": {
       "mogue": {
-        "hash": "0n9p9hz02xrxwsiivrbac3bjnd02gk4plm7sq5kr7az7jsz4s7sc",
+        "hash": "0jr2h82dgwbh4y5afy85chmxzwjcvr7arg7zk8cmy1si1bxdlz3j",
         "provides": [
           "3d_armor",
           "3d_armor_sfinv",
@@ -4139,7 +4146,7 @@
           "skinsdb",
           "wieldview"
         ],
-        "release": 31861,
+        "release": 32587,
         "repo": "https://gitlab.com/billy.covert/mogue/",
         "short_description": "Roguelite Inspired by Brogue"
       }
@@ -16819,6 +16826,15 @@
         "repo": "https://github.com/C-C-Minetest-Server/digilines_lightstone",
         "short_description": "Digiline-controlled light-emitting colour blocks"
       },
+      "directions": {
+        "dependencies": ["xcompat"],
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0j8fn1drkpf3z1lbbrz69qga8gad63m2p5r2p1jf4qvp86w3cm6x",
+        "provides": ["directions"],
+        "release": 31216,
+        "repo": "https://github.com/C-C-Minetest-Server/directions",
+        "short_description": "Lines laying on the ground to guide directions"
+      },
       "echo": {
         "dependencies": ["flow"],
         "hash": "1fvxn99v0q6q2636dszbhwfxqws8ilfb18r6mj1pqamh8v0xp5m7",
@@ -24454,9 +24470,9 @@
         "short_description": "A simple paintings library for MTG and potentially others in future."
       },
       "too_many_stones": {
-        "hash": "0zabnnmg8mxshl4wkb7bl7c5vxh7j64x4p7s94bb9sham8p8j8h1",
+        "hash": "0vh1s04197aj2rsib25am0sim2qyqvhb2had9r837aiwd7s9pfqx",
         "provides": ["too_many_stones"],
-        "release": 31631,
+        "release": 32585,
         "repo": "https://gitlab.com/TheOnlyJoeEnderman/Too_Many_Stones",
         "short_description": "88 stones that will spawn in most games. Supports English, Español, Français, Deutsch, Pусский, Português, 日本語, Kiswahili"
       },
@@ -36685,9 +36701,9 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1jb2q6jgx139l2x0wjlln9x2balgd5fjb53djyglax66c31cd0l2",
+        "hash": "1qrfkwhr3nhhf84gglzq8riji0933vk1f42gldahj366wsp46pcg",
         "provides": ["node_updates"],
-        "release": 32575,
+        "release": 32591,
         "repo": "https://github.com/SumianVoice/node_update.git",
         "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features"
       },
@@ -48194,6 +48210,18 @@
       }
     },
     "ems111": {
+      "vl_fries": {
+        "game_support": [
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "VoxelForge", "name": "voxelforge" }
+        ],
+        "hash": "09q40m5flgnv2vvbgd6hdkq0hfipcmklajlivr2micvaxfsd3qpl",
+        "provides": ["vl_fries"],
+        "release": 32481,
+        "repo": null,
+        "short_description": "Adds tasty fires to the game."
+      },
       "vl_tuff_extras": {
         "dependencies": [
           "screwdriver",
@@ -51494,6 +51522,22 @@
       }
     },
     "m16b": {
+      "m16b_copper_armors_tools": {
+        "dependencies": [
+          "mcl_core",
+          "mcl_candles",
+          "mobs_mc",
+          "mcl_tools",
+          "mcl_armor",
+          "mcl_init"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1zfrxc7ikhbrbqlxybrkn0ls200xi3xn3b9idsjprd8rvrzyz1sp",
+        "provides": ["m16b_copper_armors_tools"],
+        "release": 32581,
+        "repo": null,
+        "short_description": "Add Armors and Tools of Copper (and variant)"
+      },
       "m16b_item_displayed": {
         "dependencies": ["mcl_core", "mcl_init", "mcl_armor"],
         "game_support": [
@@ -62117,8 +62161,8 @@
         "short_description": "Plot twist: not today."
       },
       "sus_sand": {
-        "hash": "0nwfmfw49pysaqazkn516q1lv76bwrxa11sgj1239231vqdb89p0",
-        "release": 32521,
+        "hash": "10aplb6c54mdaf3ycrw9sghhcw7slhal28ihvyg4icww0f561dgj",
+        "release": 32592,
         "repo": "https://github.com/LudusExe/Sus-Sand-for-Mineclonia",
         "short_description": "Red isn’t acting sus… Red is sus."
       }
