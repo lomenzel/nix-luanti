@@ -2751,7 +2751,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "0529647lb55qvpji9xl1ara4ky0i5qi2qyb5xx6xmk0403sq40xj",
+        "hash": "07h84a3m794hkihg3mhpa0wsrxb8wfx2gdh4bvlz51nsb026vs8v",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2801,11 +2801,11 @@
           "aom_longship",
           "aom_machines",
           "aom_map_base",
+          "aom_materials",
           "aom_mirecaves",
           "aom_mob_spawn",
           "aom_music",
           "aom_muskets",
-          "aom_node_update",
           "aom_on_generated",
           "aom_picknode",
           "aom_pipes",
@@ -2845,6 +2845,8 @@
           "gm_windmills",
           "itemdesc",
           "itemextensions",
+          "mfsm",
+          "node_updates",
           "player_info",
           "player_init",
           "player_model",
@@ -2854,7 +2856,7 @@
           "wield3d",
           "world_storage"
         ],
-        "release": 32458,
+        "release": 32596,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -24571,7 +24573,7 @@
         "provides": ["de_nenio"],
         "release": 24244,
         "repo": "https://github.com/jolesh/mt_de_nenio",
-        "short_description": "Adds possibilities to get items normally unobtainable in skyblock through new mechanics and objects"
+        "short_description": "Aldonas eblecojn akiri erojn kutime neatingeblajn en ĉielbloko per novaj mekanikoj"
       },
       "nuggets": {
         "dependencies": ["default"],
@@ -24614,7 +24616,7 @@
         "provides": ["nuggets"],
         "release": 24245,
         "repo": "https://github.com/jolesh/mt_nuggets",
-        "short_description": "Adds nuggets and shards"
+        "short_description": "Aldonas metalerojn kaj diamanteton"
       },
       "resource_crops_evolved": {
         "dependencies": ["resource_crops", "default"],
@@ -24664,7 +24666,7 @@
         "provides": ["simple_recycle"],
         "release": 29057,
         "repo": "https://github.com/jolesh/mt_simple_recycle",
-        "short_description": "Adds the possibility to recycle items and nodes by smelting or decrafting them back to their original resources."
+        "short_description": "Aldonas la kapablon recikli elementojn kaj nodojn fandante ilin aŭ rompante ilin al siaj originaj rimedoj."
       },
       "waste": {
         "dependencies": ["nuggets", "default"],
@@ -24710,7 +24712,7 @@
         ],
         "release": 24277,
         "repo": "https://github.com/jolesh/mt_waste",
-        "short_description": "Adds Waste and ways to recycle it into useful resources"
+        "short_description": "Aldonas rubon kaj manierojn recikli ĝin al utilaj resursoj"
       }
     },
     "Jose_ManuelS18": {
@@ -27731,7 +27733,7 @@
         "provides": ["biofuel"],
         "release": 26326,
         "repo": "https://github.com/Lokrates/Biofuel",
-        "short_description": "Produce biofuel from unused plants."
+        "short_description": "Minetest Mod por produkti biofuelon el neuzataj plantoj."
       }
     },
     "LoneSurvivr": {
@@ -37801,9 +37803,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1an7yxrsmyg483bmzchgs8rglwyn3crbxw3mq3iy0vc32cg5q7ql",
+        "hash": "0xg78lvv9h2i88y4lb5rpb86kd2m6d9qif885w0md1qmf38qmrlm",
         "provides": ["farming"],
-        "release": 32529,
+        "release": 32597,
         "repo": "https://codeberg.org/tenplus1/farming",
         "short_description": "Adds many plants and food to Minetest"
       },
@@ -42152,40 +42154,40 @@
       },
       "xdecor": {
         "dependencies": [
-          "default",
+          "stairs",
           "farming",
+          "default",
           "doors",
           "bucket",
-          "stairs",
           "xpanes"
         ],
         "game_support": [
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "jara25", "name": "yams" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "1248", "name": "castrum" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "1248", "name": "castrum" }
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "EmptyStar", "name": "asuna" }
         ],
-        "hash": "1z2y1yg6ghblj0g7zm11i9mzhxfmjnbsbslvbpmsydi4zxk5yp19",
+        "hash": "1i1nq79yrbgwnnskzqa5bh0id0v24x2yd2wd3872n46rrw6hpr93",
         "provides": ["xdecor"],
-        "release": 29354,
+        "release": 32598,
         "repo": "https://codeberg.org/Wuzzy/xdecor-libre",
         "short_description": "A decoration mod meant to be simple and well-featured (libre version)."
       }
@@ -49106,9 +49108,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "0igvh5v0bsgrjdlfzrfsl98x4ymp0hxnm18nq1f937qqgjvnnb82",
+        "hash": "177sjll0a4plsbqassf8iqs3w2yh7bks07p450jffj0dgqvzr7zb",
         "provides": ["biometer"],
-        "release": 32509,
+        "release": 32601,
         "repo": "https://github.com/gtzi203/BioMeter",
         "short_description": "Adds a hydration and temperature system. If you don't want to die, try to stay in moderate areas and don't forget to drink!"
       },
@@ -57378,10 +57380,10 @@
         "short_description": "adds a node to silence nearby sounds"
       },
       "smartshop": {
-        "dependencies": ["fmod", "futil"],
-        "hash": "1dx2ga4w8zwv7pmns26vqxg3wd8619p0i0ybf3a61bpmz16i0943",
+        "dependencies": ["futil", "fmod"],
+        "hash": "0ki60pqzjn3yzvgy07xmcbfdvd8f9xhqazqpkf3p5i93gnjz4csa",
         "provides": ["smartshop"],
-        "release": 25768,
+        "release": 32595,
         "repo": "https://github.com/fluxionary/minetest-smartshop.git",
         "short_description": "a smarter and easier shop"
       },
@@ -57973,7 +57975,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Lisää veriroiskeet pelaajille ja olennoille."
+        "short_description": "Blood splatter for players and creatures"
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -58013,7 +58015,7 @@
         "provides": ["hidestone"],
         "release": 29568,
         "repo": "https://gitgud.io/blut/hidestone",
-        "short_description": "Lisää kiven, joka voi piilottaa jopa 100 lohkoa."
+        "short_description": "Adds a stone that can hide up to 100 blocks."
       },
       "powerguns": {
         "dependencies": ["accuracy"],
