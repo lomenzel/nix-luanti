@@ -2751,7 +2751,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "07h84a3m794hkihg3mhpa0wsrxb8wfx2gdh4bvlz51nsb026vs8v",
+        "hash": "1vq8kxcvylwrgk2bpll9077a20sljishwjs6a25f4snwxr5byapi",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2853,10 +2853,9 @@
           "player_sprint",
           "playerphysics",
           "sum_airship",
-          "wield3d",
-          "world_storage"
+          "wield3d"
         ],
-        "release": 32596,
+        "release": 32626,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -11790,35 +11789,35 @@
         "short_description": "Adds 3 kind of Coins to your game"
       },
       "cucina_vegana": {
-        "dependencies": ["dye", "farming", "vessels", "default"],
+        "dependencies": ["dye", "vessels", "farming", "default"],
         "game_support": [
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "hilol", "name": "epic_combat" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Amaz", "name": "lordofthetest" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "EmptyStar", "name": "asuna" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Amaz", "name": "lordofthetest" }
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "1248", "name": "castrum" }
         ],
-        "hash": "1ni4gjdjx9f6cmlnk5vrfcrcsi6r28zhc8jvk0m28qlycxs24r1b",
+        "hash": "04bszsbrfz7gmghbf36vjbd6yv2v08wlalrbfsx8dwdwwis7s5c7",
         "provides": ["cucina_vegana"],
-        "release": 32613,
+        "release": 32630,
         "repo": "https://github.com/acmgit/cucina_vegana.git",
         "short_description": "Adds plants and spices for a vegan kitchen"
       },
@@ -24573,7 +24572,7 @@
         "provides": ["de_nenio"],
         "release": 24244,
         "repo": "https://github.com/jolesh/mt_de_nenio",
-        "short_description": "Aldonas eblecojn akiri erojn kutime neatingeblajn en ĉielbloko per novaj mekanikoj"
+        "short_description": "Adds possibilities to get items normally unobtainable in skyblock through new mechanics and objects"
       },
       "nuggets": {
         "dependencies": ["default"],
@@ -24616,7 +24615,7 @@
         "provides": ["nuggets"],
         "release": 24245,
         "repo": "https://github.com/jolesh/mt_nuggets",
-        "short_description": "Aldonas metalerojn kaj diamanteton"
+        "short_description": "Adds nuggets and shards"
       },
       "resource_crops_evolved": {
         "dependencies": ["resource_crops", "default"],
@@ -24666,7 +24665,7 @@
         "provides": ["simple_recycle"],
         "release": 29057,
         "repo": "https://github.com/jolesh/mt_simple_recycle",
-        "short_description": "Aldonas la kapablon recikli elementojn kaj nodojn fandante ilin aŭ rompante ilin al siaj originaj rimedoj."
+        "short_description": "Adds the possibility to recycle items and nodes by smelting or decrafting them back to their original resources."
       },
       "waste": {
         "dependencies": ["nuggets", "default"],
@@ -24712,7 +24711,7 @@
         ],
         "release": 24277,
         "repo": "https://github.com/jolesh/mt_waste",
-        "short_description": "Aldonas rubon kaj manierojn recikli ĝin al utilaj resursoj"
+        "short_description": "Adds Waste and ways to recycle it into useful resources"
       }
     },
     "Jose_ManuelS18": {
@@ -27733,7 +27732,7 @@
         "provides": ["biofuel"],
         "release": 26326,
         "repo": "https://github.com/Lokrates/Biofuel",
-        "short_description": "Minetest Mod por produkti biofuelon el neuzataj plantoj."
+        "short_description": "Produce biofuel from unused plants."
       }
     },
     "LoneSurvivr": {
@@ -42151,43 +42150,43 @@
       "cassettes": {
         "dependencies": ["default"],
         "game_support": [
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Amaz", "name": "lordofthetest" },
           { "author": "nam", "name": "porko" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "jara25", "name": "yams" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" }
+          { "author": "1248", "name": "castrum" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "0j6cx0ya0whhsjzjnvm7pkmzqwg45vx8wsk6gg6bbimfr76h7yac",
+        "hash": "0dvjvpw0w74iwbdw809pj16zh7l04d3h24v5sf17i1zpbaisg9c8",
         "provides": ["cassettes"],
-        "release": 32625,
+        "release": 32627,
         "repo": "https://github.com/X-DE1/cassettes/",
         "short_description": "A mod that adds cassettes and a cassette player."
       },
@@ -57970,7 +57969,7 @@
         "provides": ["hidestone"],
         "release": 29568,
         "repo": "https://gitgud.io/blut/hidestone",
-        "short_description": "Adds a stone that can hide up to 100 blocks."
+        "short_description": "他のノードを最大100個隠すことができる石を追加します。"
       },
       "powerguns": {
         "dependencies": ["accuracy"],
