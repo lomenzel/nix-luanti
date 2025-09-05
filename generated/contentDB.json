@@ -2691,7 +2691,7 @@
     },
     "Sumianvoice": {
       "backroomtest": {
-        "hash": "16m5nkmd42is8cpcwk1nw3xzmkg4g2bp9ikggcwx7fbl1i64qrnh",
+        "hash": "170vh9f0vr8nkqz8z7m82dhbmqfz702y2d68s942xsvyciql95sh",
         "provides": [
           "br_154",
           "br_core",
@@ -2705,12 +2705,12 @@
           "wield3d",
           "world_storage"
         ],
-        "release": 31740,
+        "release": 32645,
         "repo": "https://codeberg.org/SumianVoice/backroomtest.git",
         "short_description": "A game about exploring uncanny, vaguely unsettling, liminal spaces. The goal is to explore, be lost, wander. Can you find all the levels?"
       },
       "extra_ordinance": {
-        "hash": "0p37g3chp8kbvmcj8k5v27byld3lwpz6glmw7198p5fnas34qg42",
+        "hash": "1lcfdvsbcd7s102v6jr7x0b7jma3yw2kvhcnpcb676hsslrgrpiv",
         "provides": [
           "aom_settings",
           "asignals",
@@ -2732,9 +2732,9 @@
           "pmb_util",
           "pmb_wield"
         ],
-        "release": 31901,
+        "release": 32646,
         "repo": "https://codeberg.org/SumianVoice/ExtraOrdinance.git",
-        "short_description": "Featured. You have several weapons to choose from. You can dig through the earth. So can they."
+        "short_description": "You have several weapons to choose from. You can dig through the earth. So can they."
       },
       "notactuallythebareminimum": {
         "hash": "1bxg3cfrx7w2mfcm8h16mm5idkf2j39p30qy2c5lrg7fdqarai67",
@@ -4879,7 +4879,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0a62jzw3cawn6dmp4g77pj8a86qm9y67vcl1sj6bqpdkddd0fkag",
+        "hash": "10ndbzi4j0mdkpbr0082a18h5nx1v7wm9bz3flyirif5cwm9516n",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5111,7 +5111,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32554,
+        "release": 32634,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -23472,14 +23472,14 @@
     },
     "IcyDiamond": {
       "elepower": {
-        "dependencies": ["fluid_tanks", "fluid_transfer"],
+        "dependencies": ["fluid_transfer", "fluid_tanks"],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "0jdvgin84r8zlllgl18im3x1fgdvs2wvrxmcimwha2sl1i923yd1",
+        "hash": "1dlgf23j6jg65irfbwdjk4y1wislqc21jqypq4vhrygh5im84zl0",
         "provides": [
           "elepower_compat",
           "elepower_documentation",
@@ -23496,7 +23496,7 @@
           "elepower_tools",
           "elepower_wireless"
         ],
-        "release": 31897,
+        "release": 32642,
         "repo": "https://github.com/LunaSquee/elepower.git",
         "short_description": "A wide variety of useful machines"
       },
@@ -23507,14 +23507,14 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1by1lghl99pza00kn1yzvlxxxy235jkigh42r72h2ka7bblrpmqq",
+        "hash": "18ck0lfa053dc3nc5gzbqcswggj7k7mzrdca33vmnkfgxgs7jh01",
         "provides": [
           "bucket_compat",
           "fluid_lib",
           "fluid_tanks",
           "fluid_transfer"
         ],
-        "release": 31389,
+        "release": 32641,
         "repo": "https://github.com/LunaSquee/fluid_lib.git",
         "short_description": "Library for nodes containing fluids"
       },
@@ -23560,16 +23560,16 @@
         "short_description": "Magic crystals, wands and other stuff"
       },
       "melterns": {
-        "dependencies": ["fluid_tanks", "fluid_lib", "bucket_compat"],
+        "dependencies": ["fluid_lib", "fluid_tanks", "bucket_compat"],
         "game_support": [
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "01i4f2qmjygc0j9xayys2634nyw98438a2gylxddgha2xr1ms6hc",
+        "hash": "10axnl9hd4ix6slv6nrkf1s5h2aq0f7lmk77nilqz6v7h8qwq23z",
         "provides": ["fluidity", "metal_melter", "multifurnace", "tinkering"],
-        "release": 31887,
+        "release": 32643,
         "repo": "https://github.com/LunaSquee/melterns.git",
         "short_description": "Create unique tools from different materials!"
       }
@@ -36687,6 +36687,13 @@
         "repo": "https://codeberg.org/SumianVoice/item_physics",
         "short_description": "Makes items lay flat on the ground and not spin."
       },
+      "itemextensions": {
+        "hash": "0dcn1scwd6haa83x83ghi0xci346zgabik4d3v6mlrqk1q2v55zc",
+        "provides": ["itemextensions"],
+        "release": 32628,
+        "repo": "https://github.com/SumianVoice/itemextensions.git",
+        "short_description": "Support for more callbacks for items, such as `on_step` and `on_select`"
+      },
       "mfsm": {
         "hash": "1sqipzpgaby2i5qcavw0qsh7478wbg31jzipyx7hdva2izjjqi75",
         "provides": ["mfsm"],
@@ -36702,9 +36709,9 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1qrfkwhr3nhhf84gglzq8riji0933vk1f42gldahj366wsp46pcg",
+        "hash": "1myiq2daac026jzzb117plm9yd2cgq4985b3rszxf1q126a2v8y1",
         "provides": ["node_updates"],
-        "release": 32591,
+        "release": 32647,
         "repo": "https://github.com/SumianVoice/node_update.git",
         "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features"
       },
@@ -42150,43 +42157,43 @@
       "cassettes": {
         "dependencies": ["default"],
         "game_support": [
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "nam", "name": "porko" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "TheFanne", "name": "raining_nodes" }
+          { "author": "jara25", "name": "yams" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" }
         ],
-        "hash": "0dvjvpw0w74iwbdw809pj16zh7l04d3h24v5sf17i1zpbaisg9c8",
+        "hash": "1wmwdyndf2hr20fas356lqs6clvgpdd5861rp2vvb1lrrnajsh8p",
         "provides": ["cassettes"],
-        "release": 32627,
+        "release": 32635,
         "repo": "https://github.com/X-DE1/cassettes/",
         "short_description": "A mod that adds cassettes and a cassette player."
       },
@@ -43092,9 +43099,9 @@
         "short_description": "Execute commands on behalf of another player"
       },
       "geminti": {
-        "hash": "11gh1brdm6mbsqdiw84wfsnkj9scsnqylcjy5y1gawv1cx2j666d",
+        "hash": "1gy3754yg35v8wk82rd1splimcrhrpr0hqlk88jbgnvn6ay3lz87",
         "provides": ["geminti"],
-        "release": 31619,
+        "release": 32636,
         "repo": "https://github.com/zmv7/luanti-mod-geminti",
         "short_description": " Gemini integration into Luanti chat "
       },
@@ -60372,22 +60379,23 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
-          "sbz_logic",
-          "unifieddyes",
-          "fakelib",
-          "sbz_armor",
-          "sbz_resources",
-          "sbz_bio",
-          "sbz_instatube",
-          "sbz_base",
           "unified_inventory",
-          "areas",
           "sbz_meteorites",
           "sbz_chem",
-          "sbz_power"
+          "sbz_base",
+          "fakelib",
+          "sbz_armor",
+          "sbz_power",
+          "sbz_instatube",
+          "areas",
+          "unifieddyes",
+          "sbz_logic",
+          "sbz_resources",
+          "sbz_multiblocks",
+          "sbz_bio"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "02gsy7ykrrmf1rlk88sdm4y5yihd28yfgy98sy05wlbi3v4m4m4v",
+        "hash": "0yp4idr9n4lsfi3bnxbgcxadjdayq7y8zzl6b2xp5birq144vij0",
         "provides": [
           "laptop",
           "sbo_adv_chg_gen",
@@ -60401,6 +60409,8 @@
           "sbo_colorium_plate",
           "sbo_com_elem",
           "sbo_comp_ani",
+          "sbo_connector",
+          "sbo_control_board",
           "sbo_coric_meteorite",
           "sbo_cuti",
           "sbo_dark_glass",
@@ -60420,6 +60430,7 @@
           "sbo_resium",
           "sbo_resium_armor",
           "sbo_resium_tools",
+          "sbo_shock_circuit",
           "sbo_simp_charge_ext",
           "sbo_simp_core_ext",
           "sbo_sup_bat",
@@ -60428,9 +60439,9 @@
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32400,
+        "release": 32639,
         "repo": null,
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
