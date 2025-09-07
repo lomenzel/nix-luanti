@@ -176,9 +176,9 @@
         "short_description": "Fight monsters, collect XP, craft battleaxes, armor, guns and lots more."
       },
       "stella": {
-        "hash": "0flvgj62hxvdrjyj0yqijhc0c82c691k1zz40b374dagirhsl6na",
+        "hash": "09510a9qawm49gbq84bq3pnjw5db2lx8br7jr1mgfv9mmrfdkzvh",
         "provides": ["flatgen", "hudbars", "stella"],
-        "release": 10125,
+        "release": 32664,
         "repo": "https://github.com/Der1248/Stella",
         "short_description": "You start on a small island and your goal is to enlarge it."
       },
@@ -1662,7 +1662,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "1isgzk3365bvw4wzhx19hf37hir7vlk7vvnpvz4dvljkafyc3vbh",
+        "hash": "0r57cb58971fyyi3anp9bbh70ydn5nwx3b9s5h59drmd6b0dhv6n",
         "provides": [
           "beds",
           "binoculars",
@@ -1699,7 +1699,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 32493,
+        "release": 32665,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -5690,9 +5690,9 @@
     },
     "sfan5": {
       "minetest_classic": {
-        "hash": "11gwdqpznm09k32ighgmchab1ln80dilc71i830yhd11p906h012",
+        "hash": "1c3ldnwxsqrav478bc38ajn57j8w51z0q8ncnjb6cydhb0b93d23",
         "provides": ["cl_default", "creative", "sfinv"],
-        "release": 31877,
+        "release": 32666,
         "repo": "https://github.com/sfan5/minetest_classic",
         "short_description": "The classic Minetest-c55 0.3 experience brought back"
       }
@@ -17076,9 +17076,9 @@
       },
       "html_to_luanti": {
         "dependencies": ["modlib"],
-        "hash": "19bv7kxk26ivvsdpkdbwh93sspdj1yrn5q8v0iaw7pg9dkdnds0x",
+        "hash": "0jd5sxf8cbp2r1dwkw5ffhs333ypnbc6wqxkmzbm9nhvdwqvxapw",
         "provides": ["html_to_luanti"],
-        "release": 32355,
+        "release": 32667,
         "repo": "https://github.com/C-C-Minetest-Server/html_to_luanti",
         "short_description": "Convert HTML to Luanti Hypertext for formspecs"
       },
@@ -19916,22 +19916,20 @@
       },
       "mineclonefood": {
         "dependencies": [
-          "mcl_crafting_table",
           "mcl_buckets",
-          "mcl_mobitems",
+          "mcl_potions",
           "mcl_flowers",
-          "mcl_honey",
-          "mcl_cherry_blossom"
+          "mcl_mobitems"
         ],
         "game_support": [
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1xmfv4w7nvbgdydpvdcppc8z96sy0fr2s7ynn2r3rmmb1q1y95yd",
+        "hash": "1lld5p6d0srjlk5bx7pn7yn5hbs2480wmjjxqpi7h4p1rnavv39m",
         "provides": ["mineclonefood"],
-        "release": 25658,
+        "release": 32672,
         "repo": null,
-        "short_description": "Work in Progress. A mod for Mineclone2 and Mineclonia with new food."
+        "short_description": "A mod for Mineclone2 and Mineclonia with new food."
       },
       "postgresql": {
         "game_support": [
@@ -35077,6 +35075,13 @@
         "repo": null,
         "short_description": "Adds deltatime API"
       },
+      "display": {
+        "hash": "0lxx4ip2iyr8fwj70smjxd2w5kp9f030sbnl1j7rivayfgips0ym",
+        "provides": ["display"],
+        "release": 32619,
+        "repo": "https://github.com/SkyBuilder1717/display",
+        "short_description": "Adds command to display URL images."
+      },
       "essentials": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
         "hash": "1ia0qccr7n2rj35ghkzq65wkb87mzhinxqld82qjnccvzw08rl2p",
@@ -46653,6 +46658,51 @@
         "short_description": "Add colored chat messages to your server."
       }
     },
+    "cloudyluna": {
+      "floof": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" }
+        ],
+        "hash": "11bg7dvnwyp5j7rlj5xk2s1mk8rb1idc0lv0pfn1m9c31pf9hyd8",
+        "provides": ["floof"],
+        "release": 32670,
+        "repo": "https://github.com/cloudyluna/floof",
+        "short_description": "Add BicBiomeCraft inspired biomes, tools, and items."
+      }
+    },
     "cool_beans": {
       "aether_new": {
         "dependencies": ["vessels", "bucket", "default"],
@@ -51187,6 +51237,16 @@
         "release": 11197,
         "repo": null,
         "short_description": "tool progression past diamonds and adds mystical staffs and wands"
+      }
+    },
+    "livphi": {
+      "antigriefprivs": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0zdc8yv20hnjqfsvgcvv8v9msg2442rcwhysrvkcmq8ib7s71sv5",
+        "provides": ["antigriefprivs"],
+        "release": 32602,
+        "repo": "https://gitlab.com/validandloved/antigriefprivs",
+        "short_description": "Adds water, lava, and tnt privs, that allow server administrators to decide who gets access to water, lava, and tnt."
       }
     },
     "lordfingle": {
@@ -57667,14 +57727,21 @@
         "short_description": "Adds more decoration and furniture blocks to VoxeLibre (ex. MineClone2) and Mineclonia"
       },
       "mcl_emerald_stuff": {
-        "dependencies": ["mcl_core", "mcl_sounds", "mcl_armor"],
+        "dependencies": [
+          "mcl_sounds",
+          "mcl_bows",
+          "mcl_armor",
+          "mcl_init",
+          "controls",
+          "mcl_core"
+        ],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "09ni0hn1x1zqzjhlhrh8nb65arsqk5j34wd9ypyv558w090yfw3k",
+        "hash": "121fqjlicw9qb3fwc1rv1zfa1xlb4mwn1inf7j4bba0j6a6vap2k",
         "provides": ["mcl_emerald_stuff"],
-        "release": 25099,
+        "release": 32669,
         "repo": "https://codeberg.org/rudzik8/mcl_emerald_stuff",
         "short_description": "Adds emerald tools and armor to VoxeLibre (ex. MineClone2)"
       },
