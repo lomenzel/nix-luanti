@@ -674,7 +674,7 @@
     },
     "Casimir": {
       "voxelgarden": {
-        "hash": "1153wq23hhp5rafgnvgyjpwajvgpj66zgq0jp7aiz1vxmbnr2rh6",
+        "hash": "1d3a20lx0k65r15ip8m6grab2y132yl57pvsw0pni7ffab54rgab",
         "provides": [
           "3d_armor",
           "3d_armor_sfinv",
@@ -767,7 +767,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 32008,
+        "release": 32700,
         "repo": "https://codeberg.org/voxelgarden/voxelgarden",
         "short_description": "A classic game for exploring, survival and building. Maintained by rudzik8"
       }
@@ -2028,7 +2028,7 @@
         ],
         "release": 22276,
         "repo": "https://gitlab.com/blocknerd-games/blockbomber",
-        "short_description": "Battle your friends for power-ups and be the last blocker standing! A Multiplayer Bomberman clone."
+        "short_description": "Featured. Battle your friends for power-ups and be the last blocker standing! A Multiplayer Bomberman clone."
       },
       "blockbomber_editor": {
         "hash": "0pp86c2zjnqdn5rwmxx63x5rimyzzz5f63a78a14hccmdyrg20ll",
@@ -2734,7 +2734,7 @@
         ],
         "release": 32646,
         "repo": "https://codeberg.org/SumianVoice/ExtraOrdinance.git",
-        "short_description": "Featured. You have several weapons to choose from. You can dig through the earth. So can they."
+        "short_description": "You have several weapons to choose from. You can dig through the earth. So can they."
       },
       "notactuallythebareminimum": {
         "hash": "1bxg3cfrx7w2mfcm8h16mm5idkf2j39p30qy2c5lrg7fdqarai67",
@@ -16524,43 +16524,43 @@
       "basket": {
         "dependencies": ["default"],
         "game_support": [
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "hilol", "name": "epic_combat" },
           { "author": "1248", "name": "castrum" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Casimir", "name": "voxelgarden" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "nam", "name": "porko" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "hilol", "name": "epic_combat" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
           { "author": "rubenwardy", "name": "capturetheflag" }
         ],
-        "hash": "0n2xw8fvkkja9b5draarnmx8xvq44ibics6why4hkhi6bkzy94d9",
+        "hash": "18l108x7l7qp1379vynr7lvdhik08k5cjxbnh20hcynkjq9ykjz0",
         "provides": ["basket"],
-        "release": 32343,
+        "release": 32698,
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
@@ -23503,7 +23503,7 @@
         ],
         "release": 32642,
         "repo": "https://github.com/LunaSquee/elepower.git",
-        "short_description": "A wide variety of useful machines"
+        "short_description": "Featured. A wide variety of useful machines"
       },
       "fluid_lib": {
         "game_support": [
@@ -32761,43 +32761,43 @@
         "short_description": "Framed glass adds glass nodes with a frame that connects automatically to neighbouring nodes"
       },
       "technic": {
-        "dependencies": ["pipeworks", "basic_materials", "default"],
+        "dependencies": ["default", "basic_materials", "pipeworks"],
         "game_support": [
-          { "author": "Amaz", "name": "lordofthetest" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "1248", "name": "regnum" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "nam", "name": "porko" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "bell07", "name": "whynot_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "1248", "name": "regnum" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rubenwardy", "name": "capturetheflag" }
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" }
         ],
-        "hash": "0k6i6y0hd0hv9sh6lzrdp4rky925apxky7z0wycd7w7pbag7kbry",
+        "hash": "1ri7c9hn6b7wr70gc6vc3r441n8rmkv6gighb93pvprh9x8zbpmv",
         "provides": [
           "concrete",
           "extranodes",
@@ -32807,7 +32807,7 @@
           "technic_worldgen",
           "wrench"
         ],
-        "release": 31651,
+        "release": 32697,
         "repo": "https://github.com/minetest-mods/technic",
         "short_description": "Extensive machinery mod with electricity and ores."
       },
@@ -33956,7 +33956,7 @@
         "provides": ["placement_preview"],
         "release": 32416,
         "repo": "https://github.com/KingTheGuy/placement_preview",
-        "short_description": "Featured. shows a preview with orientation of the node the player is holding."
+        "short_description": "shows a preview with orientation of the node the player is holding."
       }
     },
     "SaKeL": {
@@ -41893,7 +41893,7 @@
         "provides": ["pride_flags"],
         "release": 19070,
         "repo": "https://codeberg.org/Wuzzy/pride_flags",
-        "short_description": "Featured. Adds a variety of animated flags to celebrate Pride"
+        "short_description": "Adds a variety of animated flags to celebrate Pride"
       },
       "rcsv": {
         "hash": "1405nvgwccscyllpsfid4sjd2imml9ihcnmhdpj9f6wr5i4f3fzm",
@@ -44802,7 +44802,7 @@
         ],
         "release": 32331,
         "repo": "https://github.com/APercy/automobiles_pck",
-        "short_description": "Featured. Work in Progress. Collection of automobiles"
+        "short_description": "Work in Progress. Collection of automobiles"
       },
       "demoiselle": {
         "dependencies": ["airutils"],
@@ -48419,9 +48419,9 @@
           { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "144m7pw2npxgsxmrac0jcyqi4iv3lhdmryw4x809rs8lp9k273wz",
+        "hash": "17bj9c3ixnvr34ycrwmrz9jshdf743z2hn3krjllv85w8qlyr871",
         "provides": ["elysflowers"],
-        "release": 32615,
+        "release": 32699,
         "repo": "https://github.com/blrbrb/elysflowers",
         "short_description": "loads of new flowers!"
       }
@@ -60048,7 +60048,7 @@
         ],
         "release": 32373,
         "repo": "https://codeberg.org/SamMatzko/luanti-subways",
-        "short_description": "Nice, customizable subways for Advanced Trains (advtrains)"
+        "short_description": "Featured. Nice, customizable subways for Advanced Trains (advtrains)"
       },
       "tieless_tracks": {
         "dependencies": ["advtrains_train_track", "advtrains"],
@@ -62230,7 +62230,7 @@
         "hash": "1yy7yw49ggxwmsbjnb08c4pynafcd780pzndmlw7343y0zi96r5j",
         "release": 32269,
         "repo": "https://codeberg.org/mirtilo/Baunilha.git",
-        "short_description": "Fresh and tasty textures with a vanilla flavor"
+        "short_description": "Featured. Fresh and tasty textures with a vanilla flavor"
       }
     },
     "MysticTempest": {
@@ -62288,7 +62288,7 @@
         "hash": "1hghasjxvw2y61yb9q21q7mqph071f3ahil2l55bb9zsbzh2rmpg",
         "release": 28366,
         "repo": "https://github.com/rollerozxa/vilja_pix_2",
-        "short_description": "Featured. A sophisticated texture pack for Luanti."
+        "short_description": "A sophisticated texture pack for Luanti."
       },
       "webtoon": {
         "hash": "0af9agfbxs3hiycw8092gk9z384xw6hdwqszwipbzi9hwddpzn3c",
