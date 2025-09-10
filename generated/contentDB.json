@@ -9,7 +9,7 @@
         "short_description": "Fight against some monsters!"
       },
       "castrum": {
-        "hash": "1csn2zmf8nyv822c86jk7xmxfr7waxsh8q84j8x05hz3jp3jd8gz",
+        "hash": "09nbww32bz7cir2h754ymj4xdgqfwx5ab49md80bp90k57sk6qy7",
         "provides": [
           "beds",
           "binoculars",
@@ -32,7 +32,9 @@
           "flowers",
           "game_commands",
           "give_initial_stuff",
+          "keys",
           "map",
+          "mtg_craftguide",
           "player_api",
           "screwdriver",
           "sethome",
@@ -44,13 +46,9 @@
           "walls",
           "weather",
           "wool",
-          "worldedit",
-          "worldedit_commands",
-          "worldedit_gui",
-          "worldedit_shortcommands",
           "xpanes"
         ],
-        "release": 4788,
+        "release": 32719,
         "repo": "https://github.com/Der1248/Castrum",
         "short_description": "You are on a floor plan of a castle. Collect resources and rebuild the old castle "
       },
@@ -645,7 +643,7 @@
         "short_description": "Work in Progress. Mesecons laboratory and tutorials"
       },
       "super_sam": {
-        "hash": "1cyh4yd6l6w5bq6xl7fn0g2zlk26zk4a91ymh0j1caaip5qv7zih",
+        "hash": "07m1fcjxw2liqm9g3cfbcznm0c69z524pfzrn8h7qzlyfxqda55s",
         "provides": [
           "controls",
           "mapsync",
@@ -667,9 +665,9 @@
           "wield_events",
           "xcompat"
         ],
-        "release": 32263,
+        "release": 32706,
         "repo": "https://github.com/BuckarooBanzay/super_sam/",
-        "short_description": "Work in Progress. Super sam adventures"
+        "short_description": "Super sam adventures"
       }
     },
     "Casimir": {
@@ -2751,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "1f5ipnh4gav9a3nh1cmb25nn2h8vagiafrmahpgzpyvd43j01274",
+        "hash": "0py2jichgqa74ql7avkq2xam6i92p7qs30a4njqyd2vzi3m78i8a",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2855,7 +2853,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32692,
+        "release": 32709,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -27409,47 +27407,11 @@
         "short_description": "Ingame timer for showing current playtime, current day time, ingame time, etc."
       },
       "pixelart": {
-        "dependencies": ["sfinv", "default"],
-        "game_support": [
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "nam", "name": "porko" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "jara25", "name": "yams" }
-        ],
-        "hash": "0wqds21076c6z988m94n1rk0rjsa03xrpbfz8dqkbg8l4zhn7qrx",
+        "hash": "0rx2amy3sxznj8bqiw663mxkyw6knjnjjhrpkvlzjzcf9sp0j631",
         "provides": ["pixelart"],
-        "release": 32238,
+        "release": 32715,
         "repo": "https://git.0x7be.net/dirk/pixelart",
-        "short_description": "Nodes for pixelart grouped in color palettes"
+        "short_description": "Be creative in your world with nodes representing pixels from built-in or world-specific palettes!"
       },
       "playtime_limit": {
         "hash": "1bqd0fy42xqikp786kl8as49wl8ppajk5bamx66w4nmni26h53ww",
@@ -36679,9 +36641,9 @@
     },
     "Sumianvoice": {
       "aom_settings": {
-        "hash": "1c3x906b873fw90bjyfwnhdp057nbs5qmx4ibrqknq3q5kvj2xgm",
+        "hash": "0cynybxc59w9q4gvi120mz32pag9ycrpgafnyzdzxnkgn1md6qrd",
         "provides": ["aom_settings"],
-        "release": 32578,
+        "release": 32708,
         "repo": "https://codeberg.org/SumianVoice/aom_settings",
         "short_description": "Provides methods for both player level and server level settings"
       },
@@ -36721,11 +36683,11 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1myiq2daac026jzzb117plm9yd2cgq4985b3rszxf1q126a2v8y1",
+        "hash": "0dw4hkr9z2w91pc005pkx9pa08ai837n5a7v9mw6rlp6q22pl4vc",
         "provides": ["node_updates"],
-        "release": 32647,
+        "release": 32710,
         "repo": "https://github.com/SumianVoice/node_update.git",
-        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features"
+        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features. NOTE: TO BE REDONE"
       },
       "player_info": {
         "hash": "0329xxcan6s8qgljliaxjr15f6xgvivpn6c5nivlm4n5figc0z6w",
@@ -43519,9 +43481,9 @@
         "short_description": "Teleport system, all inside a compass"
       },
       "panel_lib": {
-        "hash": "0y7pmwxfxr5v6rv61q8c6pj5fzkz8bk50h941mc2y8j00sqpqa5m",
+        "hash": "04lnfl542frg5n213savxrrapiyksx6674kbn0nphn6rwsh458ym",
         "provides": ["panel_lib"],
-        "release": 27038,
+        "release": 32712,
         "repo": "https://gitlab.com/zughy-friends-minetest/panel_lib/",
         "short_description": "Library to easily create complex HUDs"
       },
@@ -47109,11 +47071,11 @@
         "short_description": "Name generator API."
       },
       "respawn": {
-        "hash": "0pg5pbw87xd192d3dh72ncrscngkfis3ads0nxa4qpydvp19k2n3",
+        "hash": "0dnzxkn8qvsagrj8pbd0mnwzlj60miishl8srxbxqymybn4rqmj8",
         "provides": ["respawn"],
-        "release": 32247,
+        "release": 32716,
         "repo": "https://gitlab.com/cronvel/mt-respawn",
-        "short_description": "Manage respawn points, interesting places, teleportation and death records"
+        "short_description": "Manage respawn points, interesting places, protection of those places, teleportation, death records and more..."
       }
     },
     "crystalheart": {
@@ -51248,9 +51210,9 @@
     "livphi": {
       "antigriefprivs": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0zdc8yv20hnjqfsvgcvv8v9msg2442rcwhysrvkcmq8ib7s71sv5",
+        "hash": "0pdrp5rm2bchgyf8rz42bfjv5mh6hv8qlla4ss130nk6lcdw8lyh",
         "provides": ["antigriefprivs"],
-        "release": 32602,
+        "release": 32707,
         "repo": "https://gitlab.com/validandloved/antigriefprivs",
         "short_description": "Adds water, lava, and tnt privs, that allow server administrators to decide who gets access to water, lava, and tnt."
       }
