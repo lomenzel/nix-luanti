@@ -30,14 +30,23 @@
             overlays = [ (import ./src/overlay.nix) ];
           };
           lib = pkgs.lib;
-        in
-        pkgs.luantiPackages
-        // {
+        in {
 
           inherit (pkgs)
             luanti-wasm
             luanti-wasm-proxy
             ;
+
+          games = builtins.mapAttrs (name: value: 
+            pkgs.luanti.withPackages { games = [ value ]; }
+          ) pkgs.luantiPackages.games;
+
+          inherit (pkgs.luantiPackages)
+            clientMods
+            mods
+            texturePacks
+            ;
+          
           example =
             with pkgs.luantiPackages;
             pkgs.luanti.withPackages {

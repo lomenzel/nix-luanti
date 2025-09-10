@@ -17,5 +17,3 @@ Add the nix-luanti input to your flake:
 }
 
 ```
-
-If you don't want to install the the module or overlay you can still access the luantiPackages with `inputs.nix-luanti.legacyPackages.${system}.luantiPackages`

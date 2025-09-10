@@ -70,7 +70,7 @@ services.luanti.servers = with pkgs.luantiPackages; {
 }
 ```
 
-This sets up nginx for web access as well as a Proxy server wor the wasm builds to be able to connect to the Servers.
+This sets up nginx for web access as well as a Proxy server for the wasm builds to be able to connect to the Servers.
 
 ### Troubleshooting
 

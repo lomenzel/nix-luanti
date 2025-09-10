@@ -16,3 +16,12 @@ The Overlay gives you access to `pkgs.luantiPackages`, `pkgs.luanti.withPackages
   # your other configuration
 }
 ```
+
+you can also instantiate a pkgs instance with this overlay installed. 
+
+```nix
+pkgs = import inputs.nixpkgs {
+  inherit system; # assumes you have system defined in that scope
+  overlays = [ inputs.nix-luanti.overlays.default ];
+};
+```

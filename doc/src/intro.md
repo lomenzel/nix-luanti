@@ -10,3 +10,16 @@ Enter **Nix-Luanti**, a module and package collection specifically developed for
 - **Client Configuration**: Easily install mods and packages through `luanti.withPackages`.
 
 This documentation guide will walk you through everything you need to know about setting up and configuring Luanti servers using Nix-Luanti.
+
+## Try out a Luanti game
+
+`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.mineclonia`
+
+## Links
+- [Source](https://git.menzel.lol/leonard/nix-luanti)
+- [Nix](https://nixos.org)
+- [Learn Nix](https://nix.dev)
+- [Luanti](https://github.com/luanti-org/luanti)
+- [Minetest-wasm](https://github.com/paradust7/minetest-wasm)
+- [Minetest-wasm-proxy](https://github.com/paradust7/minetest-wasm-sample-proxy)
+

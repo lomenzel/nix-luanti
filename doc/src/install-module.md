@@ -1,17 +1,31 @@
 ## Install the Module
 
-import the nixos or home-manager module:
+*import the nixos module:*
 
 ```nix
-# configuration.nix or home.nix
+# configuration.nix
 {inputs, pkgs, config, ...}:
 {
 
   imports = [
-      # for nixos
       inputs.nix-luanti.nixosModules.default
 
-      #for home-manager
+      # your other imports
+  ];
+
+  # your other configuration
+}
+
+```
+
+if you are using home-manager, use the home-manager module instead:
+
+```nix
+# home.nix
+{inputs, pkgs, config, ...}:
+{
+
+  imports = [
       inputs.nix-luanti.homeManagerModules.default
 
       # your other imports
