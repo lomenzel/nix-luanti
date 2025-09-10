@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "0py2jichgqa74ql7avkq2xam6i92p7qs30a4njqyd2vzi3m78i8a",
+        "hash": "18zahikc8hw0v5mbgkhi4wcv2k4z2i36czvnri16h4mxqlg9lf6v",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2853,7 +2853,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32709,
+        "release": 32726,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -10199,9 +10199,9 @@
       },
       "blockexchange": {
         "dependencies": ["mtzip", "promise", "placeholder"],
-        "hash": "1ybxic0mi00m5zqi3amnydj130fflb7cxdgxk2nfczmcjq9k0kss",
+        "hash": "0p2ljh73xhgwcsd917g7xvkbd1kp64sphiym9phbljny7xv9200x",
         "provides": ["blockexchange"],
-        "release": 31914,
+        "release": 32724,
         "repo": "https://github.com/blockexchange/blockexchange.git",
         "short_description": "Cloud worldedit schema exchanger"
       },
@@ -36683,11 +36683,11 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "0dw4hkr9z2w91pc005pkx9pa08ai837n5a7v9mw6rlp6q22pl4vc",
+        "hash": "1ij3rrn3l7cvismxhf9wiwzk3jz1f6c8xvnpbrakcdjmi4dq84az",
         "provides": ["node_updates"],
-        "release": 32710,
+        "release": 32725,
         "repo": "https://github.com/SumianVoice/node_update.git",
-        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features. NOTE: TO BE REDONE"
+        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features."
       },
       "player_info": {
         "hash": "0329xxcan6s8qgljliaxjr15f6xgvivpn6c5nivlm4n5figc0z6w",
@@ -48394,11 +48394,11 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "08fyfj973av01y3gw1dclb6jy2icqdnnfh8lgkvhz46z0iqkmwk6",
+        "hash": "0dn7mvmsgyfkn81bpxscn3issdrf5nzd6yr7fg0zhp8rk3l2dqvb",
         "provides": ["coord_hud"],
-        "release": 32513,
+        "release": 32721,
         "repo": "https://github.com/ergolyam/luanti-coord_hud",
-        "short_description": "Work in Progress. Per-player HUD showing current coordinates with draggable sliders to set position and size."
+        "short_description": "Per-player HUD showing current coordinates with draggable sliders to set position and size."
       }
     },
     "erlehmann": {

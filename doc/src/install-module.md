@@ -1,6 +1,6 @@
 ## Install the Module
 
-*import the nixos module:*
+_import the nixos module:_
 
 ```nix
 # configuration.nix

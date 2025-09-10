@@ -17,7 +17,7 @@ The Overlay gives you access to `pkgs.luantiPackages`, `pkgs.luanti.withPackages
 }
 ```
 
-you can also instantiate a pkgs instance with this overlay installed. 
+you can also instantiate a pkgs instance with this overlay installed.
 
 ```nix
 pkgs = import inputs.nixpkgs {
