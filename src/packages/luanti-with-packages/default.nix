@@ -70,6 +70,7 @@ let
               else
                 [
                   ./csm_env_var.patch
+                  ./csm_enable_default.patch
                 ]
             )
           );

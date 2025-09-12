@@ -6,11 +6,17 @@ Nix-Luanti is a module and package collection that simplifies the setup and mana
 
 ## Resources
 
-- [Documentation](https://nix-luanti.menzel.lol)
+- [How to use Nix-Luanti](https://nix-luanti.menzel.lol)
 - [Learn Nix](https://nix.dev)
 - [Luanti](https://github.com/luanti-org/luanti)
 - [Minetest-wasm](https://github.com/paradust7/minetest-wasm)
 - [Minetest-wasm-proxy](https://github.com/paradust7/minetest-wasm-sample-proxy)
+
+
+## Try out a Luanti game
+
+`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.mineclonia`
+
 
 ## Contributing
 

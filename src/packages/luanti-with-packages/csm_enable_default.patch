@@ -1,0 +1,26 @@
+diff --git a/src/defaultsettings.cpp b/src/defaultsettings.cpp
+index c27da7988..6409c2af4 100644
+--- a/src/defaultsettings.cpp
++++ b/src/defaultsettings.cpp
+@@ -120,7 +120,7 @@ void set_default_settings()
+ 	settings->setDefault("curl_file_download_timeout", "300000");
+ 	settings->setDefault("curl_verify_cert", "true");
+ 	settings->setDefault("enable_remote_media_server", "true");
+-	settings->setDefault("enable_client_modding", "false");
++	settings->setDefault("enable_client_modding", "true");
+ 	settings->setDefault("max_out_chat_queue_size", "20");
+ 	settings->setDefault("pause_on_lost_focus", "false");
+ 	settings->setDefault("enable_split_login_register", "true");
+diff --git a/builtin/settingtypes.txt b/builtin/settingtypes.txt
+index e4bd8522f..0a2f85775 100644
+--- a/builtin/settingtypes.txt
++++ b/builtin/settingtypes.txt
+@@ -1882,7 +1882,7 @@ mgvalleys_np_dungeons (Dungeon noise) noise_params_3d 0.9, 0.5, (500, 500, 500),
+ 
+ #    Enable Lua modding support on client.
+ #    This support is experimental and API can change.
+-enable_client_modding (Client modding) [client] bool false
++enable_client_modding (Client modding) [client] bool true
+ 
+ #    Replaces the default main menu with a custom one.
+ main_menu_script (Main menu script) [client] string
