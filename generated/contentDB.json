@@ -36683,11 +36683,11 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1ij3rrn3l7cvismxhf9wiwzk3jz1f6c8xvnpbrakcdjmi4dq84az",
+        "hash": "1622lric5ddcnp8nk6h8mpkc2ihxny1kjc724jhyxlmwgwqi3c3d",
         "provides": ["node_updates"],
-        "release": 32725,
+        "release": 32733,
         "repo": "https://github.com/SumianVoice/node_update.git",
-        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features."
+        "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features. Last breaking change: 2025-09-10"
       },
       "player_info": {
         "hash": "0329xxcan6s8qgljliaxjr15f6xgvivpn6c5nivlm4n5figc0z6w",
@@ -47071,9 +47071,9 @@
         "short_description": "Name generator API."
       },
       "respawn": {
-        "hash": "0dnzxkn8qvsagrj8pbd0mnwzlj60miishl8srxbxqymybn4rqmj8",
+        "hash": "1wjpdx0cd2if23rdi1cdk881g31f1ghsvpsv16qy4pqd1dxp27ps",
         "provides": ["respawn"],
-        "release": 32716,
+        "release": 32734,
         "repo": "https://gitlab.com/cronvel/mt-respawn",
         "short_description": "Manage respawn points, interesting places, protection of those places, teleportation, death records and more..."
       }
@@ -62241,10 +62241,10 @@
         "short_description": "Minetest Game textures but tiled up to 32x."
       },
       "ohceedee": {
-        "hash": "1ws0126nwxkbxfxzk61yfn3f1gvp9bwrr3mniq20rbfbkdf8dqfw",
-        "release": 28367,
+        "hash": "1q834s0z9vj1hgrv0bi0bjdrp8xfhyy8dwc5vh5a93nlm2qhp50i",
+        "release": 32735,
         "repo": "https://github.com/rollerozxa/ohceedee",
-        "short_description": "Work in Progress. Flat geometrical texture pack inspired by FVDisco's oCd resource pack."
+        "short_description": "Flat geometrical texture pack inspired by FVDisco's oCd resource pack."
       },
       "vilja_pix_2": {
         "hash": "1hghasjxvw2y61yb9q21q7mqph071f3ahil2l55bb9zsbzh2rmpg",
