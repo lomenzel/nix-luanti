@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "0ix7w4b3fsd0z19gf0a3i1rpm6inmsqkkarx9jws95paaz0pkfzr",
+        "hash": "17gkpy9w0y4w8sq5773nhrxhqyskkg12az99fj914a5n7myl0rln",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2853,7 +2853,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32729,
+        "release": 32743,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -32774,9 +32774,9 @@
         "short_description": "Extensive machinery mod with electricity and ores."
       },
       "unified_inventory": {
-        "hash": "1jh9iibjdak6axqdaa52jzmx6xgni6xa0ligi9vmqbhn6ackvc1q",
+        "hash": "1qp3jraafjnkmdl79vwcqd689waxxdpsi69d7ysqhzc5hqqjbn5k",
         "provides": ["unified_inventory"],
-        "release": 31676,
+        "release": 32737,
         "repo": "https://github.com/minetest-mods/unified_inventory",
         "short_description": "Replaces the default inventory and adds a number of features, such as a crafting guide"
       }
@@ -36641,9 +36641,9 @@
     },
     "Sumianvoice": {
       "aom_settings": {
-        "hash": "0cynybxc59w9q4gvi120mz32pag9ycrpgafnyzdzxnkgn1md6qrd",
+        "hash": "0sax5zadh7ym89kchlgahhsk914krvp2nh7nn15rd3vxx0zy6h78",
         "provides": ["aom_settings"],
-        "release": 32708,
+        "release": 32742,
         "repo": "https://codeberg.org/SumianVoice/aom_settings",
         "short_description": "Provides methods for both player level and server level settings"
       },

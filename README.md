@@ -12,11 +12,9 @@ Nix-Luanti is a module and package collection that simplifies the setup and mana
 - [Minetest-wasm](https://github.com/paradust7/minetest-wasm)
 - [Minetest-wasm-proxy](https://github.com/paradust7/minetest-wasm-sample-proxy)
 
-
 ## Try out a Luanti game
 
 `nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.mineclonia`
-
 
 ## Contributing
 
