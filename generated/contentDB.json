@@ -23563,16 +23563,16 @@
         "short_description": "Magic crystals, wands and other stuff"
       },
       "melterns": {
-        "dependencies": ["fluid_lib", "fluid_tanks", "bucket_compat"],
+        "dependencies": ["bucket_compat", "fluid_lib", "fluid_tanks"],
         "game_support": [
-          { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "Luanti", "name": "minetest_game" }
+          { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "10axnl9hd4ix6slv6nrkf1s5h2aq0f7lmk77nilqz6v7h8qwq23z",
+        "hash": "1ra9ixg6q800flhh5q8ipglag2jslfppr1hs74cm71r7rjjm0jxf",
         "provides": ["fluidity", "metal_melter", "multifurnace", "tinkering"],
-        "release": 32643,
+        "release": 32746,
         "repo": "https://github.com/LunaSquee/melterns.git",
         "short_description": "Create unique tools from different materials!"
       }
@@ -34446,9 +34446,9 @@
           { "author": "Warr1024", "name": "nodecore" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1f12z38bnxpfxa65y0lb3313ni9l1dylm8jglr7w50rd5cr58z7k",
+        "hash": "14w9wrbnahm9caskbigqcx1giymwmppln7q3cl1wfsxkh1acqw4g",
         "provides": ["libskinupload"],
-        "release": 31856,
+        "release": 32747,
         "repo": null,
         "short_description": "A skin system that allows players to upload custom skins in-game."
       }
@@ -44155,45 +44155,45 @@
     },
     "alerikaisattera": {
       "amethyst_new": {
-        "dependencies": ["default", "geodes_lib"],
+        "dependencies": ["geodes_lib", "default"],
         "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "giga-turbo", "name": "codecube" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "hilol", "name": "epic_combat" },
           { "author": "jara25", "name": "yams" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "Thunder1035", "name": "etb" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "bell07", "name": "whynot_game" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "rlars", "name": "occupymoon_game" }
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "nam", "name": "porko" }
         ],
-        "hash": "1pifnhs2s5fk6ljlmavxn6z2nv521s3gkg7i7qfa2kd8zxhrp7nh",
+        "hash": "171p30gpm17r4x2vx60h13vgpr1z5calganl864wjhmy34vx6nvs",
         "provides": ["amethyst_new"],
-        "release": 32485,
+        "release": 32745,
         "repo": "https://gitlab.com/alerikaisattera/amethyst_new",
         "short_description": "Amethyst, basalt, calcite and related building blocks"
       },
@@ -44277,9 +44277,9 @@
         "short_description": "Decorative stuff using ethereal's etherium dust"
       },
       "geodes_lib": {
-        "hash": "01zl67iba5flca396f193cg9w5kk9bxxfklixxaghi5s57x5llm9",
+        "hash": "1npvb2x6n8cxnqkqrlx19hxygadx6ypkcczl3pz1858xrp5lzm4n",
         "provides": ["geodes_lib"],
-        "release": 32690,
+        "release": 32744,
         "repo": "https://gitlab.com/alerikaisattera/geodes_lib",
         "short_description": "API/library for creating geodes"
       },
@@ -58021,7 +58021,7 @@
         "provides": ["hidestone"],
         "release": 29568,
         "repo": "https://gitgud.io/blut/hidestone",
-        "short_description": "他のノードを最大100個隠すことができる石を追加します。"
+        "short_description": "Adds a stone that can hide up to 100 blocks."
       },
       "powerguns": {
         "dependencies": ["accuracy"],
