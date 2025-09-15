@@ -22153,7 +22153,7 @@
         "provides": ["llm_connect"],
         "release": 32731,
         "repo": "https://github.com/H5N3RG/LLM-Connect",
-        "short_description": "Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
+        "short_description": "Work in Progress. Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
       }
     },
     "Hagatha": {
@@ -46986,7 +46986,7 @@
         "provides": ["openai_api"],
         "release": 32779,
         "repo": "https://codeberg.org/cora/openai_api.git",
-        "short_description": "Use AI systems using the openai API"
+        "short_description": "Work in Progress. Use AI systems using the openai API"
       },
       "ucsigns": {
         "dependencies": ["tga_encoder", "unicode_text"],
@@ -48442,7 +48442,7 @@
         "provides": ["bed_vote"],
         "release": 32723,
         "repo": "https://github.com/ergolyam/luanti-bed_vote",
-        "short_description": "Skip night when a configurable percent of players are in bed. Compatible with Mineclonia (mcl_beds) and Minetest beds."
+        "short_description": "Work in Progress. Skip night when a configurable percent of players are in bed. Compatible with Mineclonia (mcl_beds) and Minetest beds."
       },
       "coord_hud": {
         "game_support": [
