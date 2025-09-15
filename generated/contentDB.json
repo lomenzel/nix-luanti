@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "17gkpy9w0y4w8sq5773nhrxhqyskkg12az99fj914a5n7myl0rln",
+        "hash": "0kzarsja52lxbsf03rmfmai5k4g3hgvdacqm6ccsfca4q18w3m86",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2807,6 +2807,7 @@
           "aom_on_generated",
           "aom_picknode",
           "aom_pipes",
+          "aom_player",
           "aom_playerapi",
           "aom_pmb_bridge",
           "aom_radial",
@@ -2853,7 +2854,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32743,
+        "release": 32770,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -5898,20 +5899,20 @@
     },
     "zanderdev": {
       "skyblock_zero": {
-        "hash": "153nwlfii91awxnml60jydf5a890raxm9q8shlgz0b03w1rp8aw7",
+        "hash": "19rq61csfzmha1wh18l4rvmlfnbwybdksnjcz01fipch18394qzz",
         "provides": [
           "areas",
           "areasprotector",
           "biomegen",
+          "controls",
           "copytool",
           "creative",
           "drawers",
-          "epidermis",
           "fakelib",
           "fmod",
-          "fslib",
           "futil",
           "hbsprint",
+          "hotbar_switching",
           "hudbars",
           "jumpdrive",
           "libox",
@@ -5936,9 +5937,11 @@
           "sbz_meteorites",
           "sbz_multiblocks",
           "sbz_planets",
+          "sbz_player_settings",
           "sbz_power",
           "sbz_progression",
           "sbz_resources",
+          "sbz_ui",
           "sbz_wrench",
           "screwdriver",
           "sethome",
@@ -5953,7 +5956,7 @@
           "vizlib",
           "voxelmodel"
         ],
-        "release": 31357,
+        "release": 32777,
         "repo": "https://github.com/ChefZander/skyblock_zero",
         "short_description": "Start from absolutely nothing in a skyblock world. Time is your resource."
       }
@@ -17532,6 +17535,14 @@
         "repo": "https://github.com/C-C-Minetest-Server/redpockets",
         "short_description": "Happy Chinese New Year! Give artificial red pockets to kids!"
       },
+      "refill": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0i27nzf48kdqg68337fni82zkrsqqrmmdvlyj9xdqb3mpc3pqgby",
+        "provides": ["refill"],
+        "release": 32695,
+        "repo": "https://github.com/C-C-Minetest-Server/refill",
+        "short_description": "Refill your hand slot after using up all items in that slot"
+      },
       "rp_analysis_gui": {
         "dependencies": [
           "rp_nodes",
@@ -22133,6 +22144,16 @@
         "release": 455,
         "repo": "https://github.com/GunshipPenguin/afkkick",
         "short_description": "Kick players who do not move for a while"
+      }
+    },
+    "H5N3RG": {
+      "llm_connect": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "04xwjlg8hcg679iv9f87v7qf5a0fih0qfzpkh1sm1gqrc01kw5gm",
+        "provides": ["llm_connect"],
+        "release": 32731,
+        "repo": "https://github.com/H5N3RG/LLM-Connect",
+        "short_description": "Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
       }
     },
     "Hagatha": {
@@ -28665,6 +28686,22 @@
         "repo": "https://github.com/Matyas-Pilz/pizzas_pack1",
         "short_description": "add some pizzas and cakes to 'pizzas'"
       },
+      "pizzas_sq": {
+        "dependencies": ["pizzas"],
+        "hash": "11n0m32qr9l0ddmdmzvyqpd7v4m34l4ghh7dl7rpwjky2lkk4mnp",
+        "provides": ["pizzas_sq"],
+        "release": 32702,
+        "repo": "https://github.com/Matyas-Pilz/pizzas_sq",
+        "short_description": "add square pizzas"
+      },
+      "pizzas_sq_pack1": {
+        "dependencies": ["pizzas"],
+        "hash": "0j4fjzr6g865nshy0ckipnnj2jqdbj710pb2k424f9hm4rh4m1y4",
+        "provides": ["pizzas_sq_pack1"],
+        "release": 32705,
+        "repo": "https://github.com/Matyas-Pilz/pizzas_sq_pack1",
+        "short_description": "add square pizzas, pack 1"
+      },
       "repainter": {
         "hash": "0hs2pw3n73x23rwsql8mnpq2qg6lqz5rwmiaaxh7ihnxlwhylpg4",
         "provides": ["repainter"],
@@ -32723,43 +32760,43 @@
         "short_description": "Framed glass adds glass nodes with a frame that connects automatically to neighbouring nodes"
       },
       "technic": {
-        "dependencies": ["default", "basic_materials", "pipeworks"],
+        "dependencies": ["default", "pipeworks", "basic_materials"],
         "game_support": [
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "nam", "name": "porko" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "hilol", "name": "epic_combat" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "jara25", "name": "yams" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "1248", "name": "castrum" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" }
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "EmptyStar", "name": "asuna" }
         ],
-        "hash": "1ri7c9hn6b7wr70gc6vc3r441n8rmkv6gighb93pvprh9x8zbpmv",
+        "hash": "08k4fx7q32fv4c66k2dwai5r1m1gbx3437x8sb2r43mfgpn2yay7",
         "provides": [
           "concrete",
           "extranodes",
@@ -32769,7 +32806,7 @@
           "technic_worldgen",
           "wrench"
         ],
-        "release": 32697,
+        "release": 32762,
         "repo": "https://github.com/minetest-mods/technic",
         "short_description": "Extensive machinery mod with electricity and ores."
       },
@@ -39300,9 +39337,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "rubenwardy", "name": "capturetheflag" }
         ],
-        "hash": "0jdw6s2jib3ixsmmbzm9bmyma1qrcbhsp0ayvk47alfgki3msnpj",
+        "hash": "1x8zdsl2p55ypii2cqswvaky9nyx8bzxjmf7yynsl3mc0pvsq8zx",
         "provides": ["textshield"],
-        "release": 31528,
+        "release": 32775,
         "repo": "https://github.com/Themostrandom/textshield",
         "short_description": "Auto chat moderator"
       }
@@ -46944,6 +46981,13 @@
         "repo": "https://codeberg.org/cora/mcla_operetta.git",
         "short_description": "Historical operetta recordings for mcla_music_api"
       },
+      "openai_api": {
+        "hash": "1c397wasc11ya2ps73zya05x3zar0g73yd5hys6n5s55h8hqwp1a",
+        "provides": ["openai_api"],
+        "release": 32779,
+        "repo": "https://codeberg.org/cora/openai_api.git",
+        "short_description": "Use AI systems using the openai API"
+      },
       "ucsigns": {
         "dependencies": ["tga_encoder", "unicode_text"],
         "game_support": [
@@ -48389,6 +48433,17 @@
       }
     },
     "ergolyam": {
+      "bed_vote": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "0dqnilrfjkbxm0qkvqpblw5a61lrkgh1xip6845kd9fqc50nch73",
+        "provides": ["bed_vote"],
+        "release": 32723,
+        "repo": "https://github.com/ergolyam/luanti-bed_vote",
+        "short_description": "Skip night when a configurable percent of players are in bed. Compatible with Mineclonia (mcl_beds) and Minetest beds."
+      },
       "coord_hud": {
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
@@ -51525,6 +51580,22 @@
       }
     },
     "m16b": {
+      "m16b_ancient_armor": {
+        "dependencies": [
+          "mcl_armor",
+          "mcl_core",
+          "mcl_init",
+          "mcl_candles",
+          "mcl_tools",
+          "mobs_mc"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1b2m03i7yxykavl9r0w3h25nrbl50fb4dcvllspc4k113c3lmajh",
+        "provides": ["m16b_ancient_armor"],
+        "release": 32623,
+        "repo": null,
+        "short_description": "Add Ancient Armor and Tools"
+      },
       "m16b_copper_armors_tools": {
         "dependencies": [
           "mcl_core",
@@ -51584,6 +51655,15 @@
         "release": 32660,
         "repo": null,
         "short_description": "Add many mystic stones"
+      },
+      "m16b_mystic_stones_voxel": {
+        "dependencies": ["mcl_core", "vl_projectile", "mcl_init"],
+        "game_support": [{ "author": "Wuzzy", "name": "mineclone2" }],
+        "hash": "1s2zasqf1n7ad22wahhnkxf6b7xarv6isq6q9vdlr9d43jgxc8vn",
+        "provides": ["m16b_mystic_stones_vl"],
+        "release": 32622,
+        "repo": null,
+        "short_description": " Add many mystic stones for Voxelibre"
       },
       "m16b_new_elytras": {
         "dependencies": ["mcl_armor", "mcl_init", "mcl_core"],
@@ -54649,43 +54729,43 @@
         "short_description": "Technic fork with focus on features and stability"
       },
       "technic_plus_beta": {
-        "dependencies": ["pipeworks", "default", "basic_materials"],
+        "dependencies": ["default", "pipeworks", "basic_materials"],
         "game_support": [
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "nam", "name": "porko" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "rlars", "name": "occupymoon_game" },
           { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "nam", "name": "porko" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "Casimir", "name": "voxelgarden" },
           { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "rubenwardy", "name": "capturetheflag" }
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "EmptyStar", "name": "asuna" }
         ],
-        "hash": "13i0yf7kxmhbsb8hc99ll9ic5si9y61x1cd1kl5fm5z8qf5812ay",
+        "hash": "1g908pz1halbrqv4wja2ydh9bd2v8k2c35898v5s6m7y0fmijs9d",
         "provides": [
           "extranodes",
           "technic",
@@ -54693,7 +54773,7 @@
           "technic_cnc",
           "technic_worldgen"
         ],
-        "release": 31092,
+        "release": 32763,
         "repo": "https://github.com/mt-mods/technic.git",
         "short_description": "The technic modpack extends the Minetest game with many new elements, mainly constructable machines and tools."
       },
