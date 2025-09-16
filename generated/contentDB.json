@@ -1660,7 +1660,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "0r57cb58971fyyi3anp9bbh70ydn5nwx3b9s5h59drmd6b0dhv6n",
+        "hash": "0vc11c7jq8m5p6cizwrdp554ch2sq9zw6wr1mcbz3j8dlzlz74if",
         "provides": [
           "beds",
           "binoculars",
@@ -1697,7 +1697,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 32665,
+        "release": 32783,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "0kzarsja52lxbsf03rmfmai5k4g3hgvdacqm6ccsfca4q18w3m86",
+        "hash": "15d5gsapaynvc0xwp123y63mp2s5kmxn3cnijnl0ffvjchg1p7cy",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2854,7 +2854,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32770,
+        "release": 32794,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -6425,9 +6425,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "139l7286xf4lvvd3mgbmvzd4xknkli09dqsrn9lya99w3qrksf1z",
+        "hash": "108ycncdsx1d4pb7qw755fabfr7i4ri3kfyzzfbldyjz9sxfsh1n",
         "provides": ["crowbar"],
-        "release": 31983,
+        "release": 32792,
         "repo": null,
         "short_description": "Adds two crowbars as unbreakable multitools."
       }
@@ -18776,9 +18776,9 @@
         "short_description": "Adds festive christmas items and nodes"
       },
       "dice_api": {
-        "hash": "1nilhdgm5zvgcdq8asmhlnlmh9gz7nlrabfmmi4vriwqchppw0q6",
+        "hash": "1pylmjpr4qgvrhsnja9cadlzvy4cfrsgnf716yd5wy1srdrk3f6k",
         "provides": ["dice_api"],
-        "release": 32671,
+        "release": 32793,
         "repo": "https://github.com/Extex101/dice_api.git",
         "short_description": "API for creating physical dice"
       },
@@ -22149,11 +22149,11 @@
     "H5N3RG": {
       "llm_connect": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "04xwjlg8hcg679iv9f87v7qf5a0fih0qfzpkh1sm1gqrc01kw5gm",
+        "hash": "0p6bj52wvw644s20w15cwwhg2l0sgcwsd6cijl1214qc4nmqgmpw",
         "provides": ["llm_connect"],
-        "release": 32731,
+        "release": 32785,
         "repo": "https://github.com/H5N3RG/LLM-Connect",
-        "short_description": "Work in Progress. Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
+        "short_description": "Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
       }
     },
     "Hagatha": {
@@ -36699,9 +36699,9 @@
         "short_description": "Makes items lay flat on the ground and not spin."
       },
       "itemextensions": {
-        "hash": "137wf2f2d33gn0c6wgvfb7j55jnhkh55hcm9q1qp2m7wblxbiz23",
+        "hash": "17k0fgn6ggldaplxc6kxw8v4sfzxmqg1kvhbhyw8wihxciswpln9",
         "provides": ["itemextensions"],
-        "release": 32691,
+        "release": 32782,
         "repo": "https://github.com/SumianVoice/itemextensions.git",
         "short_description": "Support for more callbacks for items, such as `on_step` and `on_select`"
       },
@@ -40375,6 +40375,51 @@
         "release": 18416,
         "repo": "https://github.com/veprogames/mt-solarphases",
         "short_description": "Simulate variable daytime lengths, including polar day / night"
+      }
+    },
+    "VinAdmin": {
+      "ham_radio_api": {
+        "dependencies": ["ham_radio"],
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "nam", "name": "porko" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "jara25", "name": "yams" }
+        ],
+        "hash": "1a21sqqg1adhs42llh29z9y3k1jy7xqrs5papsjsq38ffm75plrk",
+        "provides": ["ham_radio_api"],
+        "release": 32787,
+        "repo": "https://git.luanti.ru/VinAdmin/HamRadioApi",
+        "short_description": "Add-on for the Ham Radio mod that allows you to implement the transmission of messages between servers via web api"
       }
     },
     "Volik": {
@@ -60468,23 +60513,23 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
+          "sbz_instatube",
           "unified_inventory",
-          "sbz_meteorites",
+          "sbz_multiblocks",
           "sbz_chem",
-          "sbz_base",
-          "fakelib",
+          "sbz_meteorites",
+          "sbz_bio",
           "sbz_armor",
           "sbz_power",
-          "sbz_instatube",
-          "areas",
-          "unifieddyes",
+          "sbz_base",
           "sbz_logic",
+          "fakelib",
           "sbz_resources",
-          "sbz_multiblocks",
-          "sbz_bio"
+          "areas",
+          "unifieddyes"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "0yp4idr9n4lsfi3bnxbgcxadjdayq7y8zzl6b2xp5birq144vij0",
+        "hash": "0fmrlh2gcpa9rqfjkhv6wr4i8cba2kv19nmy116jk8gn4pw5sd0w",
         "provides": [
           "laptop",
           "sbo_adv_chg_gen",
@@ -60498,7 +60543,6 @@
           "sbo_colorium_plate",
           "sbo_com_elem",
           "sbo_comp_ani",
-          "sbo_connector",
           "sbo_control_board",
           "sbo_coric_meteorite",
           "sbo_cuti",
@@ -60507,6 +60551,7 @@
           "sbo_extrosim",
           "sbo_extrosim_circuit",
           "sbo_extrosim_glass",
+          "sbo_future",
           "sbo_laser",
           "sbo_light_blk",
           "sbo_modded_elem",
@@ -60528,9 +60573,9 @@
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32639,
-        "repo": null,
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "release": 32791,
+        "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
