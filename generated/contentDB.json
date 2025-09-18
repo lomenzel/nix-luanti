@@ -1660,7 +1660,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "0vc11c7jq8m5p6cizwrdp554ch2sq9zw6wr1mcbz3j8dlzlz74if",
+        "hash": "0pp95s2z6bbhcvzj93c918ms2dg8y8xgzlalrdcqyh0qlqk0axp7",
         "provides": [
           "beds",
           "binoculars",
@@ -1697,7 +1697,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 32783,
+        "release": 32806,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "15d5gsapaynvc0xwp123y63mp2s5kmxn3cnijnl0ffvjchg1p7cy",
+        "hash": "1m4916h9pqwhhbbh0562plh87g5pjqq8r18z4wnf875ax2ykwv45",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2854,7 +2854,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32794,
+        "release": 32812,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -2880,11 +2880,11 @@
     },
     "TX_Miner": {
       "1042": {
-        "hash": "0d5v5ws3avmxazwr86v6daxys23pj6rkyj4by170fmvlc6dpv3ci",
+        "hash": "11pv1q1y2dhwshn3274nw5ismf3aw1q703dmsxyrh7w4h9f3ff4q",
         "provides": ["1042_core"],
-        "release": 32039,
+        "release": 32809,
         "repo": "https://github.com/Xeno333/1042",
-        "short_description": "Work in Progress. A survival game placed in 1042 in Europe. Survive if you can."
+        "short_description": "A survival game placed in 1042 in Europe. Survive if you can."
       }
     },
     "TheFanne": {
@@ -15348,35 +15348,29 @@
       },
       "tkr_nether_public": {
         "dependencies": [
-          "fire",
           "mobs",
-          "default",
-          "nether_mobs",
           "nether",
           "stairs",
+          "nether_mobs",
+          "beacons",
+          "fire",
           "mobs_monster",
-          "beacons"
+          "default"
         ],
         "game_support": [
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "hilol", "name": "epic_combat" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" }
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "jara25", "name": "yams" }
         ],
-        "hash": "1mbwv0993qjcbnkab4p07lsk88mz433v1j0w1vxrh0361hz847s7",
+        "hash": "01jbpfbd71xf84fjxp5hgi3lh0q4cb3jib8gacsrm9q70qwim9gw",
         "provides": ["nether_addons", "nether_sword_api", "nether_tnt"],
-        "release": 24916,
+        "release": 32817,
         "repo": "https://github.com/DragonWrangler1/minetest-nether-addons",
         "short_description": "adds more nodes and decorations to the nether"
       }
@@ -28037,9 +28031,9 @@
     },
     "Luanti": {
       "sethome": {
-        "hash": "0py0dnra0kcz7v430rxxbmxqxln058kkp7ml8vwhxxg0wikgjm46",
+        "hash": "1yiwvxb5r00lp1b50fgczlw35c3gpy1gkicbm9yxj8ikkcsb4zfy",
         "provides": ["sethome"],
-        "release": 32494,
+        "release": 32810,
         "repo": "https://github.com/minetest-game/sethome/",
         "short_description": "Set a home position you can teleport back to anytime"
       }
@@ -28405,12 +28399,12 @@
       },
       "classic_coaches_nationality_livery_pack": {
         "dependencies": [
-          "classic_coaches_generic_livery_pack",
-          "advtrains_livery_designer"
+          "advtrains_livery_designer",
+          "classic_coaches_generic_livery_pack"
         ],
-        "hash": "1mfja1mlzsykywcmkgl6yd5c2g2agnhnxgbpa7ifzaqfdnibq1sc",
+        "hash": "113b9b04pvysjkjrjyrjlpl9vvji8pz3rr1mczfl6zmgwzv8d9mq",
         "provides": ["classic_coaches_nationality_livery_pack"],
-        "release": 29944,
+        "release": 32818,
         "repo": "https://github.com/Marnack/classic_coaches_nationality_livery_pack",
         "short_description": "Additional nationality themed liveries for use with the Classic Coaches mod."
       },
@@ -29294,43 +29288,43 @@
       "sumo": {
         "dependencies": ["default", "arena_lib"],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "NotaB", "name": "tolkientest" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "Thunder1035", "name": "etb" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "nam", "name": "porko" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" }
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "nam", "name": "porko" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "jara25", "name": "yams" }
         ],
-        "hash": "1f43mpv9c3s0vkmzg4vyypdcdnlba76kz4c1dfzfr204dwrkvm6m",
+        "hash": "0zm4y71398c9inc0vr3q0q8xcl901ih83s4a741j8bpdry36f5yv",
         "provides": ["sumo"],
-        "release": 29311,
+        "release": 32807,
         "repo": "https://gitlab.com/zughy-friends-minetest/sumo",
         "short_description": "Sumo Minigame (Arena_lib)"
       },
@@ -36936,12 +36930,12 @@
       "progressive_eating_visuals": {
         "dependencies": ["tph_eating"],
         "game_support": [
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "Mantar", "name": "exile" }
+          { "author": "Mantar", "name": "exile" },
+          { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "1lkgyp25l1cdsbyhf4w9x2zxxvfpcg5wpxfzgd4a8f3mz69z4gkc",
+        "hash": "1fqiq4f0djd80rp0vrxbzys6i5idxx7i0901ql1pvqf452pqlqr6",
         "provides": ["progressive_eating_visuals"],
-        "release": 32653,
+        "release": 32805,
         "repo": "https://codeberg.org/TPH/progressive_eating_visuals/",
         "short_description": "Shows visual changes with the progressive consumption of food using Dynamic Input-Held Eating alongside supported games"
       },
@@ -38581,9 +38575,9 @@
       },
       "playerplus": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1y234wxbzz388xfid1zpyj0q5hgb0w4nvr6a7j6aix8wx1jrr844",
+        "hash": "1yanaf801zfn5qd7l5g8pj8j355vvhsxpnz2ismadvjzf8gwfg2p",
         "provides": ["playerplus"],
-        "release": 31198,
+        "release": 32813,
         "repo": "https://codeberg.org/tenplus1/playerplus",
         "short_description": "Adds effects to player to change speeds, cause damage, knockback and more..."
       },
@@ -39309,9 +39303,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "rubenwardy", "name": "capturetheflag" }
         ],
-        "hash": "04nk5kp4wrf1pl1g27w3lx4splk8khirgis3hzy5k22cp1sz2qp8",
+        "hash": "0wkdy8fp4h7fin3mhwi9dnbpsz4hb44kz0cvgs3z089xvyxq58d6",
         "provides": ["textshield"],
-        "release": 32801,
+        "release": 32814,
         "repo": "https://github.com/Themostrandom/textshield",
         "short_description": "Auto chat moderator"
       }
@@ -57224,21 +57218,21 @@
         "short_description": "API to allow multiple mods to make modifications to an itemstack's description"
       },
       "digicolor": {
-        "dependencies": ["digilines", "fmod", "futil"],
+        "dependencies": ["fmod", "digilines", "futil"],
         "game_support": [
-          { "author": "nam", "name": "porko" },
-          { "author": "Wuzzy", "name": "mineclone2" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "BRNSystems", "name": "blocky_portaling" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "mt-mods", "name": "dreambuilder_game" }
+          { "author": "BRNSystems", "name": "blocky_portaling" },
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" }
         ],
-        "hash": "068n44iawr23945b1jqy86khxlgww6xj77dfy7wgcn9n6fv79db7",
+        "hash": "0mpn6pr4g1sc5rrg6qszdjps1as2sz6yhbvr9018d1f2rwamv851",
         "provides": ["digicolor"],
-        "release": 22223,
+        "release": 32808,
         "repo": "https://github.com/fluxionary/minetest-digicolor.git",
         "short_description": "node whose color can be set via digilines"
       },
