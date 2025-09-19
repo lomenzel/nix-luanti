@@ -4878,7 +4878,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "03pc02mzqqj73wfr76vwlakn5gr0i470yl55ap7ncsmfahbz7bc1",
+        "hash": "17bdmh7z8hz1wpj0bjlvwpj6nk4p0f4j1f8b87knrx0xhqgqb6lj",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5110,7 +5110,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32797,
+        "release": 32819,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -22108,52 +22108,54 @@
     "H5N3RG": {
       "llm_connect": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0p6bj52wvw644s20w15cwwhg2l0sgcwsd6cijl1214qc4nmqgmpw",
+        "hash": "197fak243hfdd9318zzx54sjh6shb80z6sip0c2sqm13kpx9nhwn",
         "provides": ["llm_connect"],
-        "release": 32785,
+        "release": 32826,
         "repo": "https://github.com/H5N3RG/LLM-Connect",
-        "short_description": "Work in Progress. Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
+        "short_description": "Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
       }
     },
     "Hagatha": {
       "bonified": {
         "dependencies": ["default", "bones"],
         "game_support": [
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "bell07", "name": "whynot_game" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "Thunder1035", "name": "etb" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "nam", "name": "porko" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "giga-turbo", "name": "codecube" },
-          { "author": "nam", "name": "porko" }
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "Hi_World", "name": "newplanet" }
         ],
-        "hash": "0bmqxww9fdr75wsmk8a64g5iwjxv2c44qbmi2sq7lrpm6jdcdmyw",
+        "hash": "16bg6xq8mj0a23y75p03mk47g0bpg4gcxb9ikp72wyf5mhs03yxz",
         "provides": ["bonified"],
-        "release": 31075,
+        "release": 32820,
         "repo": "https://github.com/Shqug/Bonified",
         "short_description": "New features related to the bones you get from dead players in MTG."
       }
@@ -23455,14 +23457,14 @@
     },
     "IcyDiamond": {
       "elepower": {
-        "dependencies": ["fluid_transfer", "fluid_tanks"],
+        "dependencies": ["fluid_tanks", "fluid_transfer"],
         "game_support": [
-          { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "Luanti", "name": "minetest_game" }
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1dlgf23j6jg65irfbwdjk4y1wislqc21jqypq4vhrygh5im84zl0",
+        "hash": "068v037b821k4msfa36g8z4m6d7lm1x1la9238f9vjhwn0yh8wjv",
         "provides": [
           "elepower_compat",
           "elepower_documentation",
@@ -23479,9 +23481,9 @@
           "elepower_tools",
           "elepower_wireless"
         ],
-        "release": 32642,
+        "release": 32827,
         "repo": "https://github.com/LunaSquee/elepower.git",
-        "short_description": "Featured. A wide variety of useful machines"
+        "short_description": "A wide variety of useful machines"
       },
       "fluid_lib": {
         "game_support": [
