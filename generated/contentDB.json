@@ -4878,7 +4878,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "17bdmh7z8hz1wpj0bjlvwpj6nk4p0f4j1f8b87knrx0xhqgqb6lj",
+        "hash": "16yacksm59fjy7yckw87zlxlc4c4493myagzr2jr5d8nmnx7jng0",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5110,7 +5110,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32819,
+        "release": 32829,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -7131,6 +7131,16 @@
         "release": 7096,
         "repo": "https://github.com/aidanlcb/overpowered",
         "short_description": "Adds super overpowered and expensive endgame tools, armor, weapons, and blocks"
+      }
+    },
+    "Albert-Dimensioner": {
+      "global_patterns": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "025rnhqli4sdlnxf5lfm9vpxq05dy0is3zqwb21zas5kmb7qyd5s",
+        "provides": ["global_patterns"],
+        "release": 32786,
+        "repo": null,
+        "short_description": "Place a node to generate a pattern from that node using that node"
       }
     },
     "Alex5002": {
@@ -10201,10 +10211,10 @@
         "short_description": "Simple tar-based street nodes with markings for straight,corner,crossing and t-junction"
       },
       "blockexchange": {
-        "dependencies": ["mtzip", "promise", "placeholder"],
-        "hash": "0p2ljh73xhgwcsd917g7xvkbd1kp64sphiym9phbljny7xv9200x",
+        "dependencies": ["placeholder", "promise", "mtzip"],
+        "hash": "1j009hw7irdkjg5pqd3cj089w910aszyd2ryp4580f2pparf6rz0",
         "provides": ["blockexchange"],
-        "release": 32724,
+        "release": 32830,
         "repo": "https://github.com/blockexchange/blockexchange.git",
         "short_description": "Cloud worldedit schema exchanger"
       },
@@ -12165,11 +12175,11 @@
       "maid_companions": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "17apknahc01qn663941bhqqzig1jg3y4jnyvckw74z28ywwsda94",
+        "hash": "05x98ny3ddxja80vkz75qnx05si5iynqnglcgsczsn3xn71kkw32",
         "provides": ["maid_companions"],
-        "release": 32804,
+        "release": 32835,
         "repo": "https://github.com/Comet712/maid_companions.git",
-        "short_description": "Work in Progress. Explore the world with cute NPC's!"
+        "short_description": "Explore the world with cute NPC's!"
       }
     },
     "ComputeGraphics": {
@@ -28178,6 +28188,14 @@
         "release": 32068,
         "repo": "https://github.com/Luffy0805/armor_toggle/",
         "short_description": "Enable and disable the visibility of the armor (3D Armor) using chat commands."
+      },
+      "mesecons_remote": {
+        "dependencies": ["mesecons"],
+        "hash": "10q57w7lv1bsslgbyv72qnw31yx4ybs5m5p0cabacmnfn2ml6w71",
+        "provides": ["mesecons_remote"],
+        "release": 32828,
+        "repo": "https://github.com/Luffy0805/mesecons_remote",
+        "short_description": "Add a remote control that allows you to remotely control a Mesecons receiver."
       }
     },
     "Luka22r": {
@@ -38023,9 +38041,9 @@
       "mobs_animal": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1m2z4wp0fwb30mkc59wpdzy17b043z4sln71x0na6jgihk3hy660",
+        "hash": "1422xh2q248h49bqx1yr5whz8c241x1mm5jkx3b4ixd9z1wz3z6s",
         "provides": ["mobs_animal"],
-        "release": 32523,
+        "release": 32831,
         "repo": "https://codeberg.org/tenplus1/mobs_animal",
         "short_description": "Adds farm animals."
       },
@@ -42232,6 +42250,14 @@
         "release": 32649,
         "repo": "https://github.com/X-DE1/cassettes/",
         "short_description": "A mod that adds cassettes and a cassette player."
+      },
+      "combine_slabs": {
+        "dependencies": ["stairs"],
+        "hash": "1bmbl11bbdyc0310wi3pk5pshnpikxwjrivcsdr5fbyspn3h620m",
+        "provides": ["combine_slabs"],
+        "release": 32662,
+        "repo": "https://github.com/X-DE1/combine_slabs",
+        "short_description": "Allows you combine slabs"
       },
       "dungeon_loot_chests": {
         "dependencies": ["default", "dungeon_loot"],
@@ -52298,6 +52324,51 @@
         "short_description": "Announce player demise via server-wide death messages"
       }
     },
+    "mmmsued": {
+      "quartzy": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "nam", "name": "porko" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "EmptyStar", "name": "asuna" }
+        ],
+        "hash": "09ldcqyqq0xghj7ax8slk5079k2i0wnjvggff6bv6xqzh9v5cafq",
+        "provides": ["quartzy"],
+        "release": 32816,
+        "repo": "https://github.com/mmmsued/quartzy",
+        "short_description": "Adds some decorative quartz blocks"
+      }
+    },
     "mobilex1122": {
       "ultra_colors": {
         "dependencies": ["dye", "default"],
@@ -60481,24 +60552,27 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
-          "sbz_instatube",
-          "unified_inventory",
-          "sbz_multiblocks",
-          "sbz_chem",
-          "sbz_meteorites",
-          "sbz_bio",
-          "sbz_armor",
-          "sbz_power",
-          "sbz_base",
-          "sbz_logic",
-          "fakelib",
           "sbz_resources",
+          "sbz_instatube",
+          "sbz_logic",
+          "sbz_multiblocks",
+          "sbz_bio",
+          "hudbars",
+          "sbz_base",
+          "unified_inventory",
+          "unifieddyes",
+          "sbz_power",
+          "pipeworks",
+          "fakelib",
           "areas",
-          "unifieddyes"
+          "sbz_armor",
+          "sbz_chem",
+          "sbz_meteorites"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "0fmrlh2gcpa9rqfjkhv6wr4i8cba2kv19nmy116jk8gn4pw5sd0w",
+        "hash": "02ldzp9f2i0866lx5kz6vww1v3hy44w2w6s1g88z2900nfcs5sj1",
         "provides": [
+          "hbhunger",
           "laptop",
           "sbo_adv_chg_gen",
           "sbo_adv_peb_ext",
@@ -60512,6 +60586,7 @@
           "sbo_com_elem",
           "sbo_comp_ani",
           "sbo_control_board",
+          "sbo_cooking",
           "sbo_coric_meteorite",
           "sbo_cuti",
           "sbo_dark_glass",
@@ -60519,11 +60594,15 @@
           "sbo_extrosim",
           "sbo_extrosim_circuit",
           "sbo_extrosim_glass",
+          "sbo_fish",
           "sbo_future",
+          "sbo_grim_grower",
           "sbo_laser",
+          "sbo_life",
           "sbo_light_blk",
           "sbo_modded_elem",
           "sbo_photon",
+          "sbo_pipes",
           "sbo_plant_inc",
           "sbo_portible",
           "sbo_pyro_inc",
@@ -60537,13 +60616,14 @@
           "sbo_simp_core_ext",
           "sbo_sup_bat",
           "sbo_tree_rot",
+          "sbo_ultra_pipes",
           "sbo_upgrades",
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32791,
+        "release": 32834,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
