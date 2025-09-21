@@ -10211,10 +10211,10 @@
         "short_description": "Simple tar-based street nodes with markings for straight,corner,crossing and t-junction"
       },
       "blockexchange": {
-        "dependencies": ["placeholder", "promise", "mtzip"],
-        "hash": "1j009hw7irdkjg5pqd3cj089w910aszyd2ryp4580f2pparf6rz0",
+        "dependencies": ["placeholder", "mtzip", "promise"],
+        "hash": "1cc7h833b9a23vh5l0bp8nb8grq6fz22b45cjv7b0xpixnvkxhdh",
         "provides": ["blockexchange"],
-        "release": 32830,
+        "release": 32836,
         "repo": "https://github.com/blockexchange/blockexchange.git",
         "short_description": "Cloud worldedit schema exchanger"
       },
@@ -12166,11 +12166,11 @@
     "Comet712": {
       "lategame_amulets": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "13w66zn8z1y2anhxvkc9sb5i1a0fgxdc5k89jrr6byvgi6jvf0dv",
+        "hash": "12320c2k9xbqciz64s0c0crkmin241i7cf0vl9wgfsbb50vwryjd",
         "provides": ["lategame_amulets"],
-        "release": 32217,
+        "release": 32839,
         "repo": "https://github.com/Comet712/lategame_amulets.git",
-        "short_description": "Mine rare ore. Make amulets. Get tons of steel blocks. Build megastructures."
+        "short_description": "A cohesive progression system that builds on Mobs Monster"
       },
       "maid_companions": {
         "dependencies": ["mobs"],
@@ -22118,11 +22118,11 @@
     "H5N3RG": {
       "llm_connect": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "197fak243hfdd9318zzx54sjh6shb80z6sip0c2sqm13kpx9nhwn",
+        "hash": "0l4nfnwgs91crpgw0wsdnlwxx1629aa228cpmimy65kpkrx6y76l",
         "provides": ["llm_connect"],
-        "release": 32826,
+        "release": 32838,
         "repo": "https://github.com/H5N3RG/LLM-Connect",
-        "short_description": "Work in Progress. Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
+        "short_description": "Connecting to various text2text ai models (llm) using the OpenAI compatible API endpoint"
       }
     },
     "Hagatha": {
@@ -22186,9 +22186,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "0askbrp5d1m1ki0r3jf3zm00zib7przbpgdvzsd7a5qj6rcr4a8l",
+        "hash": "04y6yp1k1j35x76cjy7icf4w3cd9wjacyl57jcs5m0z4w1423ykf",
         "provides": ["simple_oreminer"],
-        "release": 32562,
+        "release": 32840,
         "repo": "https://codeberg.org/Hanuko33/simple_oreminer",
         "short_description": "Dig entire ore vein."
       }
@@ -29041,9 +29041,9 @@
     },
     "Miney": {
       "miney": {
-        "hash": "1933fc4wnxva18sjl37qpcd9pmsr11vghibclq2plis2myd5xi76",
+        "hash": "0zclvnvw4f99d05y5l37ml3x5ql1z0xiwhni5knzb9jah8fid2zs",
         "provides": ["miney"],
-        "release": 32316,
+        "release": 32846,
         "repo": "https://github.com/miney-py/miney",
         "short_description": "Miney connects Python with Luanti and provides a pythonic interface to the server, players, blocks and more."
       }
@@ -33916,9 +33916,9 @@
     },
     "SURV": {
       "adaptive_crosshair": {
-        "hash": "0aibbjmkqy2570hrmy7frvvr3nxr6q2s0nbrkvbshpaskl1a1gn9",
+        "hash": "1zgnm8isdsy4451j9ms30bpyfqcqzdbndml3c6cj72px5d4nrs8r",
         "provides": ["adaptive_crosshair"],
-        "release": 32347,
+        "release": 32849,
         "repo": "https://github.com/KingTheGuy/adaptive_crosshair",
         "short_description": "Crosshair adapts depending on what the player is wielding and looking at."
       },
@@ -39085,15 +39085,7 @@
         "provides": ["compression_api"],
         "release": 23444,
         "repo": "https://github.com/The4codeblocks/compression_api/",
-        "short_description": "An API that provides functions to procedurally register compressed versions of nodes."
-      },
-      "compression_pack": {
-        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0qv70g94w3xay6a7c3q69sv60yzm5b4pz03xkjlhglnbkffrgq4a",
-        "provides": ["compression", "compression_api"],
-        "release": 23461,
-        "repo": "https://github.com/The4codeblocks/compression_pack",
-        "short_description": "A bundle of the mods that generate certain compressed nodes."
+        "short_description": "A library that provides functions to procedurally register compressed versions of nodes."
       },
       "nodeentity": {
         "hash": "04ahfij0ynd0l2cxm51821g011zsnfdxy18aifh5zkzq15xvlw4n",
@@ -42253,9 +42245,9 @@
       },
       "combine_slabs": {
         "dependencies": ["stairs"],
-        "hash": "1bmbl11bbdyc0310wi3pk5pshnpikxwjrivcsdr5fbyspn3h620m",
+        "hash": "1zzhrryanyh78ij00ivnvabbad2k9d25yri75b2l3kb034wpg3hz",
         "provides": ["combine_slabs"],
-        "release": 32662,
+        "release": 32837,
         "repo": "https://github.com/X-DE1/combine_slabs",
         "short_description": "Allows you combine slabs"
       },
@@ -60552,25 +60544,25 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
-          "sbz_resources",
           "sbz_instatube",
-          "sbz_logic",
+          "unified_inventory",
           "sbz_multiblocks",
+          "sbz_chem",
+          "sbz_meteorites",
           "sbz_bio",
           "hudbars",
-          "sbz_base",
-          "unified_inventory",
-          "unifieddyes",
-          "sbz_power",
-          "pipeworks",
-          "fakelib",
-          "areas",
           "sbz_armor",
-          "sbz_chem",
-          "sbz_meteorites"
+          "sbz_power",
+          "sbz_base",
+          "sbz_logic",
+          "fakelib",
+          "sbz_resources",
+          "areas",
+          "pipeworks",
+          "unifieddyes"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "02ldzp9f2i0866lx5kz6vww1v3hy44w2w6s1g88z2900nfcs5sj1",
+        "hash": "1x3p86d4fpa3i4dcszi9l333n454w8qriyw7vqkpljvq3bcl5n3x",
         "provides": [
           "hbhunger",
           "laptop",
@@ -60621,9 +60613,9 @@
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32834,
+        "release": 32845,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
