@@ -37018,6 +37018,14 @@
         "repo": "https://codeberg.org/TPH/tph_spyglass",
         "short_description": "Provides a Spyglass for zooming in and out (if RMB is pressed)"
       },
+      "tph_wielditem": {
+        "dependencies": ["events_api"],
+        "hash": "1kfi8yr4smzkzwyjcssmykaj8mh1ly2vb9cm1p2g3nnzz6r6h9ir",
+        "provides": ["tph_wielditem"],
+        "release": 32870,
+        "repo": "https://codeberg.org/TPH/tph_wielditem",
+        "short_description": "Wielded Item Events with Prepackaged Wield3d + Wielded Light Functionality!"
+      },
       "typeof": {
         "hash": "1bpax1d6igf7b52gk1v2m1b8l5xm4fji9rw6fgwqd775n266r3bg",
         "provides": ["typeof"],
@@ -39100,9 +39108,9 @@
         "short_description": "A library that provides functions to procedurally register compressed versions of nodes."
       },
       "nodeentity": {
-        "hash": "04ahfij0ynd0l2cxm51821g011zsnfdxy18aifh5zkzq15xvlw4n",
+        "hash": "1953l6jfg1f9v349pn74xvvvshsxqg4xvzb25r6s68l32lps5cbz",
         "provides": ["nodeentity"],
-        "release": 32388,
+        "release": 32864,
         "repo": "https://github.com/The4codeblocks/luanti_node_entities.git",
         "short_description": "Library for functional node entities."
       },
@@ -46055,11 +46063,11 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1bk6369lg97imqfvxcl9nprzr5i84f4k297rai83g9lwmrg70yab",
+        "hash": "01bn5dhyg21hjag3qm3qrym424idnqq9r7ic5xzdplv2bkbggl1x",
         "provides": ["farmtools"],
-        "release": 32163,
+        "release": 32877,
         "repo": "https://codeberg.org/camelia/farmtools",
-        "short_description": "Work in Progress. Based on Scythes & Sickles, it adds various tools to make farming more convenient."
+        "short_description": "Based on Scythes & Sickles, it adds various tools to make farming more convenient."
       }
     },
     "capitalthree": {
@@ -53671,16 +53679,16 @@
       "led_marquee": {
         "dependencies": ["default", "digilines"],
         "game_support": [
-          { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
           { "author": "nam", "name": "porko" },
+          { "author": "Luanti", "name": "minetest_game" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "mt-mods", "name": "dreambuilder_game" }
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" }
         ],
-        "hash": "1jpwg7v2zn3agsm98hbdz86cmlfmk7s5i08k8ljdc76pbb6335ky",
+        "hash": "1n5k8ijjwck35rn6nm71nnaakbamy7nbh6n7fy5hc00g7jr4wq2l",
         "provides": ["led_marquee"],
-        "release": 29110,
+        "release": 32863,
         "repo": "https://github.com/mt-mods/led_marquee",
         "short_description": "Provides a simple LED marquee that accepts single characters, strings, or whole screen-fulls of text, via Digilines."
       },
@@ -60127,12 +60135,12 @@
       },
       "subways": {
         "dependencies": [
-          "advtrains",
-          "advtrains_train_track",
           "unicode_text",
-          "tga_encoder"
+          "advtrains",
+          "tga_encoder",
+          "advtrains_train_track"
         ],
-        "hash": "13g1mqzqjvhvl7wskdajwbz4cii7qc109wlk8fza0227rsnrqiww",
+        "hash": "1wyq1hd6s3wdyisn2pz6r22q9ys574f9hx97ik97rv9i1px73yd5",
         "provides": [
           "subways",
           "subways_01700_series",
@@ -60141,9 +60149,9 @@
           "subways_lrv_type_9",
           "subways_mpl16"
         ],
-        "release": 32373,
+        "release": 32869,
         "repo": "https://codeberg.org/SamMatzko/luanti-subways",
-        "short_description": "Featured. Nice, customizable subways for Advanced Trains (advtrains)"
+        "short_description": "Nice, customizable subways for Advanced Trains (advtrains)"
       },
       "tieless_tracks": {
         "dependencies": ["advtrains_train_track", "advtrains"],
@@ -60557,25 +60565,26 @@
     "thematrix9675": {
       "sbo": {
         "dependencies": [
-          "sbz_instatube",
-          "unified_inventory",
-          "sbz_multiblocks",
-          "sbz_chem",
           "sbz_meteorites",
-          "sbz_bio",
+          "sbz_logic",
+          "sbz_power",
+          "fakelib",
+          "unified_inventory",
+          "sbz_base",
+          "unifieddyes",
           "hudbars",
           "sbz_armor",
-          "sbz_power",
-          "sbz_base",
-          "sbz_logic",
-          "fakelib",
-          "sbz_resources",
           "areas",
+          "sbz_bio",
+          "player_monoids",
+          "sbz_multiblocks",
+          "sbz_chem",
+          "sbz_resources",
           "pipeworks",
-          "unifieddyes"
+          "sbz_instatube"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "1x3p86d4fpa3i4dcszi9l333n454w8qriyw7vqkpljvq3bcl5n3x",
+        "hash": "0sw8bsr0qc0xdraw7cmnh4b75diizzs4f8brbwlssda68gi4wn39",
         "provides": [
           "hbhunger",
           "laptop",
@@ -60599,9 +60608,11 @@
           "sbo_extrosim",
           "sbo_extrosim_circuit",
           "sbo_extrosim_glass",
+          "sbo_extrosim_reactor",
           "sbo_fish",
           "sbo_future",
           "sbo_grim_grower",
+          "sbo_jetpacks",
           "sbo_laser",
           "sbo_life",
           "sbo_light_blk",
@@ -60615,7 +60626,10 @@
           "sbo_rein_cable",
           "sbo_resium",
           "sbo_resium_armor",
+          "sbo_resium_glass",
+          "sbo_resium_reactor",
           "sbo_resium_tools",
+          "sbo_resources",
           "sbo_shock_circuit",
           "sbo_simp_charge_ext",
           "sbo_simp_core_ext",
@@ -60626,9 +60640,9 @@
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32845,
+        "release": 32872,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
