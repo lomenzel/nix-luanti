@@ -4878,7 +4878,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "16yacksm59fjy7yckw87zlxlc4c4493myagzr2jr5d8nmnx7jng0",
+        "hash": "1lmcq7wwzb9grrpxsnaykmgf9x1fqbpxidcmxnk765dnjb6lw1z7",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5110,7 +5110,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32829,
+        "release": 32878,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -8232,9 +8232,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Warr1024", "name": "nodecore" }
         ],
-        "hash": "1m91zn26447zpx3pny5k755bqyxziayn3dnrd52kjqrf14b7w4cm",
+        "hash": "1djzy2r6jyghq8mrm641mkhjsqwis98afjd9a7vlp5lbf7xca4ij",
         "provides": ["orehud", "xray"],
-        "release": 31315,
+        "release": 32888,
         "repo": "https://github.com/programmerjake/OreTracker",
         "short_description": "For tracking what ores are around the player."
       },
@@ -20663,11 +20663,11 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Warr1024", "name": "nodecore" }
         ],
-        "hash": "011hfmgwdkyz4gli9kna5vcs9b251h0xzw95lycbbn135qn44hch",
+        "hash": "0haqzdxa21k7dpygvp806zi48p1ghg55c23467ykdj403ya6vjyg",
         "provides": ["capital"],
-        "release": 31970,
+        "release": 32886,
         "repo": null,
-        "short_description": "add a capital command"
+        "short_description": "add a elysium command"
       },
       "control": {
         "dependencies": ["default"],
@@ -44246,43 +44246,43 @@
       "amethyst_new": {
         "dependencies": ["geodes_lib", "default"],
         "game_support": [
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Thunder1035", "name": "etb" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "bell07", "name": "whynot_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "nam", "name": "porko" },
+          { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "rlars", "name": "occupymoon_game" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Amaz", "name": "lordofthetest" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "nam", "name": "porko" }
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "EmptyStar", "name": "asuna" }
         ],
-        "hash": "171p30gpm17r4x2vx60h13vgpr1z5calganl864wjhmy34vx6nvs",
+        "hash": "076gaf9751wx6lnhf8m82yl6h2hw76igndal0bk3w2cq3xq8fsmq",
         "provides": ["amethyst_new"],
-        "release": 32745,
+        "release": 32880,
         "repo": "https://gitlab.com/alerikaisattera/amethyst_new",
         "short_description": "Amethyst, basalt, calcite and related building blocks"
       },
@@ -45199,19 +45199,19 @@
         "dependencies": ["airutils"],
         "game_support": [
           { "author": "Wuzzy", "name": "repixture" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "bell07", "name": "whynot_game" },
           { "author": "Casimir", "name": "voxelgarden" },
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Replicat", "name": "wyrm_cube" }
         ],
-        "hash": "1p3z9jyfals8k2a6987jlrb7pmz8445n4ksmhx4j98hxxpbcazmj",
+        "hash": "1bbz85qkdgzzwzxr0ss0z32qzpds90qlr8q1ibr0ick1yrf2nzij",
         "provides": ["steampunk_blimp"],
-        "release": 31982,
+        "release": 32889,
         "repo": "https://github.com/APercy/steampunk_blimp",
-        "short_description": "Work in Progress. Adds a steampunk blimp"
+        "short_description": "Adds a steampunk blimp"
       },
       "supercub": {
         "dependencies": ["airutils"],
@@ -48088,9 +48088,9 @@
       },
       "minetest_wadsprint": {
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "1x5smpl535k5cq2aryyviyhvczbvps0z9f5ip9j4vf63b5nkqa96",
+        "hash": "13ki0bkwmgyw0rnas26h61a9mdndg1bks3j8cbzq8i3nbwk04fkv",
         "provides": ["minetest_wadsprint"],
-        "release": 32268,
+        "release": 32881,
         "repo": "https://github.com/aa6/minetest_wadsprint",
         "short_description": "Sprinting/running with W, A and D buttons."
       }
@@ -53694,43 +53694,43 @@
       },
       "lootchest_modpack": {
         "dependencies": [
-          "map",
-          "wool",
-          "screwdriver",
-          "flowers",
-          "default",
-          "bucket",
-          "boats",
-          "dye",
-          "binoculars",
           "farming",
-          "carts",
-          "vessels",
           "tnt",
+          "wool",
+          "dye",
+          "magic_materials",
+          "flowers",
+          "map",
+          "screwdriver",
+          "bucket",
+          "binoculars",
           "fire",
-          "magic_materials"
+          "carts",
+          "default",
+          "boats",
+          "vessels"
         ],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "bell07", "name": "whynot_game" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "1248", "name": "castrum" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "hilol", "name": "epic_combat" }
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "PetiAPocok", "name": "minetest_extended" }
         ],
-        "hash": "1ydwzn2la0nqbrvps6p75k38i4mmrk310fm4y17dn83x13r2r5k6",
+        "hash": "1dygv1wqspkfzi045ii7p249kh9jxynhrfrfnvjgglvz2az54lv0",
         "provides": [
           "lootchests",
           "lootchests_default",
           "lootchests_magic_materials"
         ],
-        "release": 27164,
+        "release": 32879,
         "repo": "https://github.com/mt-historical/lootchests_modpack",
         "short_description": "Modpack adding a lot of various loot containers across the world to be found and providing an API, resources and integrations for other mods"
       },
@@ -57835,19 +57835,19 @@
       "mcl_emerald_stuff": {
         "dependencies": [
           "mcl_sounds",
-          "mcl_bows",
-          "mcl_armor",
           "mcl_init",
           "controls",
+          "mcl_armor",
+          "mcl_bows",
           "mcl_core"
         ],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "121fqjlicw9qb3fwc1rv1zfa1xlb4mwn1inf7j4bba0j6a6vap2k",
+        "hash": "14ycpbjhvw95v73i5lidlg0hg73yqzy23q7m70a1pmir7mh9svsb",
         "provides": ["mcl_emerald_stuff"],
-        "release": 32669,
+        "release": 32882,
         "repo": "https://codeberg.org/rudzik8/mcl_emerald_stuff",
         "short_description": "Adds emerald tools and armor to VoxeLibre (ex. MineClone2)"
       },
@@ -61923,6 +61923,28 @@
         "release": 10465,
         "repo": "https://github.com/zaners123/Computertest",
         "short_description": "Work in Progress. A ComputerCraft-inspired mod! Program them with LUA and watch them work!"
+      }
+    },
+    "zempik10": {
+      "shapetester": {
+        "dependencies": [
+          "default",
+          "mobs_monster",
+          "mobs_animal",
+          "player_api",
+          "mob_horse",
+          "hands"
+        ],
+        "game_support": [
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Luanti", "name": "minetest_game" }
+        ],
+        "hash": "1r9bl0km2l35bfx7g8n6qsfw7n5rwx6irgvhl3n68nfrb1hq3m49",
+        "provides": ["shapetester"],
+        "release": 32884,
+        "repo": null,
+        "short_description": "Allows you to turn into a plethora of different species."
       }
     },
     "zeronumbers": {
