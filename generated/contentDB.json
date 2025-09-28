@@ -1023,9 +1023,9 @@
     },
     "Giga_M": {
       "one_of_us": {
-        "hash": "0c3kwv4gbknqdqxah478f3dwbykqdmfxpxkac2x3j68w81s0inav",
+        "hash": "1dnzdf4qca233g4gqxwz7b7lwk23j7pmjxvn361g2lj0f4wqc9a7",
         "provides": ["creative", "one_of_us", "player_api", "sfinv", "skinsdb"],
-        "release": 31946,
+        "release": 32922,
         "repo": null,
         "short_description": "game of deduction and deception"
       }
@@ -2749,7 +2749,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "1m4916h9pqwhhbbh0562plh87g5pjqq8r18z4wnf875ax2ykwv45",
+        "hash": "1gr7mizdc7s6k9xjm2xp1n7228ygrr9q3z1qkpl01m7kavdsj07j",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2854,7 +2854,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32812,
+        "release": 32914,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -27399,9 +27399,9 @@
         "short_description": "Ingame timer for showing current playtime, current day time, ingame time, etc."
       },
       "pixelart": {
-        "hash": "0rx2amy3sxznj8bqiw663mxkyw6knjnjjhrpkvlzjzcf9sp0j631",
+        "hash": "0fa09d4mvx0xc7nryanaq1l87vpzvs88kdh7lzpl1lkx7b7xilfg",
         "provides": ["pixelart"],
-        "release": 32715,
+        "release": 32917,
         "repo": "https://git.0x7be.net/dirk/pixelart",
         "short_description": "Be creative in your world with nodes representing pixels from built-in or world-specific palettes!"
       },
@@ -28147,14 +28147,14 @@
         "short_description": "The power of Titanium!"
       },
       "throw_slimeballs": {
-        "dependencies": ["mcl_mobitems", "mcl_fire", "mcl_mobs"],
+        "dependencies": ["mcl_fire", "mcl_mobs", "mcl_mobitems"],
         "game_support": [
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "03clxdm4rpmajm4p2swppjfc5027gnaahlvh29pzify7j65r9mgi",
+        "hash": "0wh8j6417dzc3dz59ywxd4g2gqpws3qy2zvndhyhssdyli72gyl8",
         "provides": ["throw_slimeballs"],
-        "release": 32851,
+        "release": 32919,
         "repo": "https://github.com/LudusExe/Throwable-Slimeball-for-Voxelibre",
         "short_description": "Throw your balls! ahem I-I mean slimeballs..."
       }
@@ -28423,9 +28423,9 @@
       },
       "classic_coaches_generic_livery_pack": {
         "dependencies": ["classic_coaches", "advtrains_livery_database"],
-        "hash": "1r369p6x569a5bxcpi8bia00dzlwh8lnc7ss8c984r9f0j67q3bz",
+        "hash": "0vzwkb7mqj42cq1jzbkcy9iy82ch5nw1pbr4ls10hsygl4i6y7xa",
         "provides": ["classic_coaches_generic_livery_pack"],
-        "release": 29943,
+        "release": 32923,
         "repo": "https://github.com/Marnack/classic_coaches_generic_livery_pack",
         "short_description": "Additional generic liveries for use with the Classic Coaches mod."
       },
@@ -28434,9 +28434,9 @@
           "classic_coaches_generic_livery_pack",
           "advtrains_livery_designer"
         ],
-        "hash": "0bxbf5p4z4bf9fdva99qp5wnf3crn5b8brcia1x0yg4cbj7gsfxj",
+        "hash": "0mfcc5vzwyp8wdrx4nib25ngv3w8zx5jy4k6i2n5spng08xfz38v",
         "provides": ["classic_coaches_nationality_livery_pack"],
-        "release": 32902,
+        "release": 32921,
         "repo": "https://github.com/Marnack/classic_coaches_nationality_livery_pack",
         "short_description": "Additional nationality themed liveries for use with the Classic Coaches mod."
       },
@@ -48792,9 +48792,9 @@
     },
     "fgaz": {
       "extruder": {
-        "hash": "0b70x2bxkf5gnmjkq48l4vdb99fv4xrfmszyp5pba1dn326j4qx3",
+        "hash": "017gl5nmss8mgic0m6xf0h2p0n97wy57z1fdhsksq7wnv5b7xf9b",
         "provides": ["extruder"],
-        "release": 31383,
+        "release": 32916,
         "repo": "https://git.sr.ht/~fgaz/luanti-extruder",
         "short_description": "Adds an extruder tool that can extend continuous surfaces towards the node face that was clicked"
       },
