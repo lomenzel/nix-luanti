@@ -14,7 +14,7 @@ function deepSort(obj) {
   if (Array.isArray(obj)) {
     return obj
       .map(deepSort)
-      .sort((a, b) => JSON.stringify(a) > JSON.stringify(b));
+      .sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
   } else if (obj !== null && typeof obj === "object") {
     return Object.keys(obj)
       .sort()
