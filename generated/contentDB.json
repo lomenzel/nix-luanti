@@ -5899,7 +5899,7 @@
     },
     "zanderdev": {
       "skyblock_zero": {
-        "hash": "19rq61csfzmha1wh18l4rvmlfnbwybdksnjcz01fipch18394qzz",
+        "hash": "1mk1lqakdnzx1gmm8nc3x0nkhi1gjl8v1a7vavqa8l5bfjvvimin",
         "provides": [
           "areas",
           "areasprotector",
@@ -5956,7 +5956,7 @@
           "vizlib",
           "voxelmodel"
         ],
-        "release": 32777,
+        "release": 32935,
         "repo": "https://github.com/ChefZander/skyblock_zero",
         "short_description": "Start from absolutely nothing in a skyblock world. Time is your resource."
       }
@@ -19999,6 +19999,58 @@
         "short_description": "Work in Progress. Helpful and unique witches inhabit the land adding a magical touch and interact with player! Work in progress, but playable!"
       }
     },
+    "FromKaniv": {
+      "doors_without_window": {
+        "dependencies": ["default", "doors"],
+        "game_support": [
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "nam", "name": "porko" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" }
+        ],
+        "hash": "10mpplacc2lcwcdsdvx09cbkg9x0qdsawqvgbl8nn6bq7zl72fhx",
+        "provides": ["doors_without_window"],
+        "release": 32920,
+        "repo": "https://codeberg.org/FromKaniv/luanti-mod-doors-without-windows",
+        "short_description": "Adds doors and trapdoors without windows to Minetest Game."
+      },
+      "sword_axe": {
+        "hash": "025b1hl8nhv6mfffqqrmh3bvjjslb8qbvg8pyx43m07r7d1qnh9r",
+        "provides": ["sword_axe"],
+        "release": 29616,
+        "repo": "https://codeberg.org/FromKaniv/luanti-mod-sword-axe",
+        "short_description": "Adds a tool for quickly chopping trees and cutting leaves simultaneously."
+      }
+    },
     "Furious_mat": {
       "mcl_apocalypse": {
         "dependencies": ["mcl_core"],
@@ -28057,9 +28109,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "13yv2s7mjhvngx0rwxdh72yqxklh3rjdp786ckzin86l06pphgdi",
+        "hash": "15hch9fxkvjbn4r1wim345x9nv0ckpxxn0f7m3vds06w79fxsl6r",
         "provides": ["brick_to_window"],
-        "release": 32211,
+        "release": 32930,
         "repo": "https://github.com/LudusExe/Throw-Bricks-to-Glass",
         "short_description": "Throw a brick... what did you expect?"
       },
@@ -28415,9 +28467,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1ka9mxik5znhf0mb2mdvy7g8v395fwp5sic413l3hcx86qhznlh8",
+        "hash": "0j7m5hm7ydxi9xkrnd3fsyrj2vh6vq2mdls0xfdi166ky4kxd0q1",
         "provides": ["classic_coaches"],
-        "release": 29942,
+        "release": 32936,
         "repo": "https://github.com/Marnack/classic_coaches",
         "short_description": "Passenger coaches with customizable liveries for use with the advtrains mod."
       },
@@ -29700,45 +29752,45 @@
     },
     "MrFreeman": {
       "colour_jump": {
-        "dependencies": ["arena_lib", "default"],
+        "dependencies": ["default", "arena_lib"],
         "game_support": [
-          { "author": "1248", "name": "regnum" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "jgordon510", "name": "gridlocks" },
           { "author": "bell07", "name": "whynot_game" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "1248", "name": "castrum" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "nam", "name": "porko" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" }
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Big_Caballito", "name": "no_mans_land" }
         ],
-        "hash": "1vi2q2gzc9ci34fr3vpmvsgmzxvmvx04wlakr5qmmxy0w5cg4b91",
+        "hash": "1x7zps4xdmk4j0qwvy1sgyfg170swbqwd3ldi7g13g3m4as1amkn",
         "provides": ["colour_jump"],
-        "release": 31987,
+        "release": 32927,
         "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
         "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down"
       },
@@ -35206,6 +35258,35 @@
         "repo": "https://github.com/SkyBuilder1717/horror_fork",
         "short_description": "Work in Progress. Fork of TX_Miner's Horror mod, but heavy modified with adding a lot of additional stuff."
       },
+      "mine": {
+        "dependencies": ["dye", "tnt", "default"],
+        "game_support": [
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Big_Caballito", "name": "no_mans_land" }
+        ],
+        "hash": "0v1l5wfygcbvf70vnmx88vl5n9c6j8cp8ql98bgcvpjf12b4gr5c",
+        "provides": ["mine"],
+        "release": 32933,
+        "repo": "https://github.com/SkyBuilder1717/mine",
+        "short_description": "Adds many types of mines"
+      },
       "more_boats": {
         "dependencies": ["default", "boats"],
         "game_support": [
@@ -36690,9 +36771,9 @@
         "short_description": "Makes items lay flat on the ground and not spin."
       },
       "itemextensions": {
-        "hash": "17k0fgn6ggldaplxc6kxw8v4sfzxmqg1kvhbhyw8wihxciswpln9",
+        "hash": "0ckb5sb98b6yjxsrfbc75n7s0k54p26bzimy8iszrivdl1hq99bq",
         "provides": ["itemextensions"],
-        "release": 32782,
+        "release": 32928,
         "repo": "https://github.com/SumianVoice/itemextensions.git",
         "short_description": "Support for more callbacks for items, such as `on_step` and `on_select`"
       },
@@ -45933,6 +46014,18 @@
         "repo": "https://gitlab.com/bgstack15/list_to_file.git",
         "short_description": "List currently signed-in players to worldpath/active-players.txt"
       },
+      "mcl_lapis_stuff": {
+        "dependencies": ["mcl_tools", "mcl_core", "mcl_armor"],
+        "game_support": [
+          { "author": "Wuzzy", "name": "mineclone2" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "0nqrzsx7sdbrh667mfmhhv3nbf5py46xkr4s0rxgl3ni9kw73xwp",
+        "provides": ["mcl_lapis_stuff"],
+        "release": 32890,
+        "repo": "https://gitlab.com/bgstack15/mcl_lapis_stuff",
+        "short_description": "Adds lapis lazuli armor and tools"
+      },
       "milk_potion": {
         "dependencies": ["mcl_potions", "mcl_mobitems"],
         "game_support": [
@@ -49251,6 +49344,16 @@
         "release": 11566,
         "repo": "https://gitlab.com/seckl/webchat.git",
         "short_description": "Makes the in-game chat accessible through a web browser."
+      }
+    },
+    "hollymaewolfe": {
+      "vote_night": {
+        "dependencies": ["vote"],
+        "hash": "16msgji64li63iyp57xzm6vdn4xdhgq6fhmrjfhnmnz3vfay568a",
+        "provides": ["vote_night"],
+        "release": 32904,
+        "repo": "https://gitlab.com/luanti-mods/vote_night/",
+        "short_description": "Allows players to vote for it to be night"
       }
     },
     "homiak": {
@@ -56192,7 +56295,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "1bd7jykjvbk3z5ykqmq9nky6aw90fazn740ay2xriavwlr4cd4lw",
+        "hash": "0wgfqk92lip3159n2mg9r3dfa1bprpxciv9p98wsrjl0lhb7q71c",
         "provides": [
           "advtrains",
           "advtrains_interlocking",
@@ -56204,7 +56307,7 @@
           "advtrains_train_track",
           "serialize_lib"
         ],
-        "release": 32524,
+        "release": 32932,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
@@ -61919,6 +62022,13 @@
         "repo": "https://gitlab.com/yw05/minetest-mod-train-remote",
         "short_description": "This mod allows you to remotely control trains. This is the implementation by Y. Wang."
       },
+      "wnlex": {
+        "hash": "1x2ddcyrss8s797p2zrwf7lwarb3y374pgc7rikzxffc4afgk31n",
+        "provides": ["wnlex"],
+        "release": 32937,
+        "repo": "https://codeberg.org/y5nw/wnlex",
+        "short_description": "Adds a chatcommand to look up the name of an item in other languages."
+      },
       "xiangqi": {
         "hash": "17x2rrqq7xw41kafzhmirzyifg3cl6xqnpcqpywvlacfx7fci0fa",
         "provides": ["xiangqi"],
@@ -62006,6 +62116,35 @@
         "release": 32898,
         "repo": null,
         "short_description": "Work in Progress. Allows you to turn into a plethora of different species."
+      },
+      "super_magic": {
+        "dependencies": ["mana", "tnt", "default"],
+        "game_support": [
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "1248", "name": "castrum" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" }
+        ],
+        "hash": "03y1dbdngarj3vbai9abz9kbqny50imvq505is10bw1g3dfibnww",
+        "provides": ["super_magic"],
+        "release": 32910,
+        "repo": null,
+        "short_description": "Adds many magical items."
       }
     },
     "zeronumbers": {
@@ -62428,10 +62567,10 @@
     },
     "Mirtilo": {
       "baunilha": {
-        "hash": "1yy7yw49ggxwmsbjnb08c4pynafcd780pzndmlw7343y0zi96r5j",
-        "release": 32269,
+        "hash": "1gbjv52b3n02j0gm1b9qx7jpj7spvrdkznpzlhhwms04dm6k33jm",
+        "release": 32929,
         "repo": "https://codeberg.org/mirtilo/Baunilha.git",
-        "short_description": "Featured. Fresh and tasty textures with a vanilla flavor"
+        "short_description": "Fresh and tasty textures with a vanilla flavor"
       }
     },
     "MysticTempest": {
