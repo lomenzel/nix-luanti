@@ -16534,6 +16534,49 @@
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
+      "basket_cooking": {
+        "dependencies": ["basket", "fakelib", "technic"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "0zfvy47ap6imxz0jzwkhq5pxssqxcjb7zda741gvnnd64m2sj355",
+        "provides": ["basket_cooking"],
+        "release": 32948,
+        "repo": "https://github.com/C-C-Minetest-Server/basket_cooking",
+        "short_description": "Cook all stuffs inside a basket with electric furnaces"
+      },
       "better_fences": {
         "dependencies": ["default", "walls"],
         "game_support": [
@@ -33965,6 +34008,31 @@
         "short_description": "Connect your techage factory to luacontroller!"
       }
     },
+    "SOS-Games": {
+      "stoneage_voxelibre": {
+        "dependencies": [
+          "mcl_core",
+          "mcl_init",
+          "mcl_mapgen_core",
+          "mcl_meshhand",
+          "mcl_sounds"
+        ],
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "07qbig3cvd4ar6ldjw5pkbxr1cfan8hdn74zclg0gly90bf7i1sy",
+        "provides": [
+          "bettertrees_voxelibre",
+          "knapping_stones",
+          "knapping_voxelibre_core",
+          "knapping_voxelibre"
+        ],
+        "release": 32939,
+        "repo": "https://git.minetest.land/SOS-Games/VoxeLibre_StoneAge",
+        "short_description": "Adds knapping mechanics API inspired by Vintage story"
+      }
+    },
     "SOSO1": {
       "mcl2_clocks": {
         "game_support": [
@@ -40436,6 +40504,13 @@
         "release": 18388,
         "repo": "https://github.com/veprogames/mt-hades-endgame",
         "short_description": "Adds various goodies to Hades Revisited, focused on Late/Endgame"
+      },
+      "ok_bloomer": {
+        "hash": "0vb54fmfvnrksqflrplzcac50y3y4rdrc18hjl3r1bs6s61qxzgk",
+        "provides": ["ok_bloomer"],
+        "release": 32950,
+        "repo": "https://github.com/veprogames/ok_bloomer",
+        "short_description": "Enable and Change Bloom independent of the Game with instant Feedback"
       },
       "resizeme": {
         "hash": "1w0xafq96x1bvx0xz07r308w9im07f184k3jr7yack146n9c6z9l",
