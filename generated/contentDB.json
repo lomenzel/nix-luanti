@@ -20006,9 +20006,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1p74wk0mvgl3zk3s40n4nvha5l8ck6b6xsg16jwdcixam8k6pbq1",
+        "hash": "0y2vhbkanb54d9xhg34h6dqps0iy6vqw0f04dgsk9cf8dhizgfbx",
         "provides": ["goblins"],
-        "release": 28431,
+        "release": 32959,
         "repo": "https://gitlab.com/freelikegnu/goblins",
         "short_description": "(Respectfully) Destructive! Goblin NPCs burrow underground, build lairs, set traps and cultivate foodstuffs.  They like to steal torches! "
       },
@@ -29148,9 +29148,9 @@
     },
     "Miney": {
       "miney": {
-        "hash": "0zclvnvw4f99d05y5l37ml3x5ql1z0xiwhni5knzb9jah8fid2zs",
+        "hash": "17sxrifip0iwlp6iybj125925xa5dkrrxb7mwvnhwysax59vx7lh",
         "provides": ["miney"],
-        "release": 32846,
+        "release": 32966,
         "repo": "https://github.com/miney-py/miney",
         "short_description": "Miney connects Python with Luanti and provides a pythonic interface to the server, players, blocks and more."
       }
@@ -29831,9 +29831,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1x7zps4xdmk4j0qwvy1sgyfg170swbqwd3ldi7g13g3m4as1amkn",
+        "hash": "1v87fzvrw2xd8h0im93bb652ync3br3lbbhm6cs0lbzqrapk1w5b",
         "provides": ["colour_jump"],
-        "release": 32927,
+        "release": 32957,
         "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
         "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down"
       },
@@ -48658,9 +48658,9 @@
           { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1k6wnb4ii6115xkj0nmfcq40m9czj9fygmkxba0jakw9d78hk9ir",
+        "hash": "0y4g3d1b16r6nmq4jypr758gi6py7klxfi1781m0iqrnf4k8xbv6",
         "provides": ["elysflowers"],
-        "release": 32911,
+        "release": 32958,
         "repo": "https://github.com/blrbrb/elysflowers",
         "short_description": "loads of new flowers!"
       }
@@ -50014,6 +50014,51 @@
         "release": 14453,
         "repo": "https://github.com/johalun/mesebox",
         "short_description": "Mobile storage box powered by Mese"
+      }
+    },
+    "jolethen": {
+      "server_tools": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "14zx0hiscakcj4qspc481q6ia6hvkcfa0i3gvg71fq6s4yjifz92",
+        "provides": ["server_tools"],
+        "release": 32956,
+        "repo": "https://github.com/jolethen/Server-utilities-For-minetest.git",
+        "short_description": "An essential mod for any server"
       }
     },
     "joseanastacio": {
@@ -56370,7 +56415,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "0wgfqk92lip3159n2mg9r3dfa1bprpxciv9p98wsrjl0lhb7q71c",
+        "hash": "0npfiazb8plac3ra935lpq85r02in48mrq002b9dkyd3m949pin9",
         "provides": [
           "advtrains_interlocking",
           "advtrains_line_automation",
@@ -56382,7 +56427,7 @@
           "advtrains",
           "serialize_lib"
         ],
-        "release": 32932,
+        "release": 32960,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
@@ -58103,9 +58148,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0pn9xk8z3abb1nl8fh0wc7v1avyg3ahdaxmsasr0brsywkxrxvs9",
+        "hash": "1s1mflg9al4pyi3xs84kl95sznf01an1giz1glj0rb1463wnw1i7",
         "provides": ["mcl_morefood"],
-        "release": 29469,
+        "release": 32961,
         "repo": "https://codeberg.org/rudzik8/mcl_morefood",
         "short_description": "Adds five more food items to VoxeLibre (ex. MineClone2) or Mineclonia"
       },
@@ -61075,6 +61120,15 @@
         "short_description": "Work in Progress. a funny addon that is a goofy time"
       }
     },
+    "titou4": {
+      "titou_nicknames": {
+        "hash": "1ff9srwnqs64p1l1vxskgbyi1q77bpysw3njsg5l8pb95a19j271",
+        "provides": ["titou_nicknames"],
+        "release": 32965,
+        "repo": null,
+        "short_description": "manage visibility of nicknames of players"
+      }
+    },
     "ulla": {
       "jukeloopbox": {
         "dependencies": ["default"],
@@ -62172,6 +62226,70 @@
       }
     },
     "zempik10": {
+      "good_sneaking": {
+        "dependencies": ["player_api"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "aerkiaga", "name": "nodeverse" },
+          { "author": "Astrobe", "name": "minefall" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Blockhead", "name": "sotm" },
+          { "author": "BRNSystems", "name": "blocky_portaling" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "BuckarooBanzay", "name": "super_sam" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "covertiii", "name": "mogue" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "dibesfer", "name": "colorlandia" },
+          { "author": "Emojiminetest", "name": "parkour" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Giga_M", "name": "one_of_us" },
+          { "author": "Hanuko33", "name": "libre_adventure3" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "Hume2", "name": "boxworld3d" },
+          { "author": "Hume2", "name": "minesweeper_3d" },
+          { "author": "jamiebearcub", "name": "grand_theft_box" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "color_block" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Lone_Wolf", "name": "torrlund" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Mantar", "name": "exile" },
+          { "author": "MeseCraft", "name": "mesecraft" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "mt-mods", "name": "driftgame" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "StarNinjas", "name": "jail_escape" },
+          { "author": "SuperStarSonic", "name": "reentry" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "theidealist101", "name": "stellua" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "Wuzzy", "name": "lazarr" },
+          { "author": "Wuzzy", "name": "repixture" },
+          { "author": "xenonca", "name": "luckydude" },
+          { "author": "xenonca", "name": "luckysweeper" },
+          { "author": "zanderdev", "name": "skyblock_zero" }
+        ],
+        "hash": "1wskx172m568rbz0y50a2wkng89cchxknq79m37b5f948p8hp5f3",
+        "provides": ["good_sneaking"],
+        "release": 32951,
+        "repo": null,
+        "short_description": "Makes the player have better sneaking."
+      },
       "shapetester": {
         "dependencies": [
           "default",
