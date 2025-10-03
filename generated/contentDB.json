@@ -3350,7 +3350,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "1izispdz35gm4ymr1qhyfy9hjkbyri4cacspkhaq8inl9grz7k30",
+        "hash": "0srgwf2dgqwmnp1x53j9ifq7nwa4wgcszsg40fs0xmsk6ap9xnw1",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3396,6 +3396,7 @@
           "lzr_solutions",
           "lzr_sounds",
           "lzr_speech",
+          "lzr_splash",
           "lzr_stairs",
           "lzr_teleporter",
           "lzr_tools",
@@ -3413,9 +3414,9 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 32075,
+        "release": 32975,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
-        "short_description": "Work in Progress. Be a pirate and solve laser puzzles (UNFINISHED!)"
+        "short_description": "Be a pirate and solve laser puzzles"
       },
       "mineclone2": {
         "hash": "0gqm4sqq4fyj4wci6cdlyws5an8ysl7shpjlys93n7jawzspwkny",
@@ -28487,9 +28488,9 @@
     "Marnack": {
       "advtrains_crafting_compatibility_patch": {
         "dependencies": ["advtrains_train_track", "advtrains"],
-        "hash": "17jza8k92dxld44dl1b4ljzlnb6d4j6lkrnjk54rfvrgms4d7g0a",
+        "hash": "13if4gk075x6pam5ql02xjn90x9rfpzd73x1qmzwyc6zca6l1a4v",
         "provides": ["advtrains_crafting_compatibility_patch"],
-        "release": 31955,
+        "release": 32972,
         "repo": "https://github.com/Marnack/advtrains_crafting_compatibility_patch",
         "short_description": "Enables crafting of advtrains items in games that are not based on Minetest Game."
       },
@@ -54555,9 +54556,9 @@
       },
       "moretrees": {
         "dependencies": ["xcompat"],
-        "hash": "16ip3vy3lyw6ngclzsasm9aavqpx5ld17l6mh7kwg0hvfx52zaxq",
+        "hash": "0yv7mh19h3y41i7zrm3y3lyknzjx4yq7r09yv03x2dd40yaxmwhn",
         "provides": ["moretrees"],
-        "release": 28466,
+        "release": 32973,
         "repo": "https://github.com/mt-mods/moretrees",
         "short_description": "Adds a whole bunch of new types of trees, some bearing fruit or similar"
       },
