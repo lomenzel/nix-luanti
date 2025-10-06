@@ -17665,9 +17665,9 @@
       },
       "trainblocks": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0n0wjlqc154n6yy5wkb7yvvcwpd9n335dhs0lhfh8pf9cza9swpq",
+        "hash": "1vhbkdfn263inlfxd57ckifnlvlh9fvql82n5kc6bg5gxyqjilwm",
         "provides": ["trainblocks"],
-        "release": 32296,
+        "release": 33003,
         "repo": "https://github.com/C-C-Minetest-Server/trainblocks",
         "short_description": "Adds signs fitting the advtrains theme"
       },
@@ -20378,9 +20378,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0b418s3sdqwbky1kjay6q96jzxncdp9j0p9hjcf6d00w1h8iiajn",
+        "hash": "1dmwm07lxfcc78ws225nmnb3k9lvn2j7ppp44skbdj80s54hzwn6",
         "provides": ["3d_armor_gloves_xt"],
-        "release": 32568,
+        "release": 33004,
         "repo": "https://github.com/Geraos16/3d_armor_gloves_XTended.git",
         "short_description": "Adds support for multiple gauntlets materials"
       }
@@ -35723,9 +35723,9 @@
         "short_description": "connected nodes like xpanes, xfences, walls"
       },
       "yl_speak_up": {
-        "hash": "0g5l35036zb98bh8162xsdy3r3byv1hzzn8hilscljw6h85pb34y",
+        "hash": "091a610lf8mqpq4wjzfj438hmqwqcw2blm2c1kw828ifskbf58sr",
         "provides": ["yl_speak_up"],
-        "release": 32984,
+        "release": 33002,
         "repo": "https://gitea.your-land.de/Sokomine/yl_speak_up",
         "short_description": "NPCs deliver speeches"
       }
@@ -36618,9 +36618,9 @@
     },
     "Sumianvoice": {
       "aom_settings": {
-        "hash": "0sax5zadh7ym89kchlgahhsk914krvp2nh7nn15rd3vxx0zy6h78",
+        "hash": "1hfdml2xzi5lkr0calmrxxilr9fyr59cm87vynnphc365l9jh1rm",
         "provides": ["aom_settings"],
-        "release": 32742,
+        "release": 33017,
         "repo": "https://codeberg.org/SumianVoice/aom_settings",
         "short_description": "Provides methods for both player level and server level settings"
       },
@@ -42588,7 +42588,7 @@
           "i_have_hands",
           "invisiblocks",
           "item_drop",
-          "mcla_music_api",
+          "mesebox",
           "mesecons_alias",
           "mesecons_blinkyplant",
           "mesecons_button",
@@ -42622,9 +42622,9 @@
           "mesecons_wires",
           "mesecons",
           "mobs_monster",
+          "more_particles",
           "painting",
           "placement_preview",
-          "portable_chests",
           "potions_api",
           "potions_brewing",
           "potions_default",
@@ -42653,9 +42653,9 @@
           "xdecor"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1w2ksa96rdjpvmaw4pw157zwvj4hxaayr4i4mq12w9kdgw3656z3",
+        "hash": "051qfzas37fs5maimyhggiqvzyz3285ch17l5clqs1kpazaal0m6",
         "provides": ["xde_modpack"],
-        "release": 32896,
+        "release": 33000,
         "repo": "https://github.com/X-DE1/xde_modpack",
         "short_description": "It adds different mods and i modified some of them to my liking."
       }
@@ -48798,9 +48798,9 @@
     "frogTheSecond": {
       "hotbar_switching": {
         "dependencies": ["controls"],
-        "hash": "01qiqhncngsy0ahdsigs86jsy1bzl6amgnpc7y73pl5l4mmznyb2",
+        "hash": "076xxvl2zcmcr1lq0v2b6gfxcf5hr866dnv7f3prxqq7kkq0v71v",
         "provides": ["hotbar_switching"],
-        "release": 32982,
+        "release": 33020,
         "repo": "https://github.com/TheEt1234/hotbar_switching",
         "short_description": "Implements a way to switch your hotbar to another row. Inspired by better than adventure."
       },
@@ -54408,9 +54408,9 @@
       },
       "moretrees": {
         "dependencies": ["xcompat"],
-        "hash": "0yv7mh19h3y41i7zrm3y3lyknzjx4yq7r09yv03x2dd40yaxmwhn",
+        "hash": "0pgima822igbi89jf09cakwv2n8357jix63xbvar3a6jnkk02wgj",
         "provides": ["moretrees"],
-        "release": 32973,
+        "release": 33001,
         "repo": "https://github.com/mt-mods/moretrees",
         "short_description": "Adds a whole bunch of new types of trees, some bearing fruit or similar"
       },
@@ -56268,7 +56268,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "0npfiazb8plac3ra935lpq85r02in48mrq002b9dkyd3m949pin9",
+        "hash": "1jli728dk16d1khyfy2gar04im21as1pxifs56ggcq77a67njamz",
         "provides": [
           "advtrains_interlocking",
           "advtrains_line_automation",
@@ -56280,7 +56280,7 @@
           "advtrains",
           "serialize_lib"
         ],
-        "release": 32960,
+        "release": 33018,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
@@ -58259,7 +58259,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Blood splatter for players and creatures"
+        "short_description": "Hozzáad vérfröccsenést játékosoknak és lényeknek."
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -60715,17 +60715,22 @@
           "sbz_logic",
           "sbz_meteorites",
           "sbz_multiblocks",
+          "sbz_planets",
           "sbz_power",
           "sbz_resources",
+          "sbz_ui",
           "unified_inventory",
           "unifieddyes"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "0sw8bsr0qc0xdraw7cmnh4b75diizzs4f8brbwlssda68gi4wn39",
+        "hash": "1mlywp06qg3rai6a5b0x9dnpz7qp9923wx26qm13p7injvy0gjsc",
         "provides": [
           "hbhunger",
           "laptop",
+          "no_particles",
+          "sbo_adv_blob_ext",
           "sbo_adv_chg_gen",
+          "sbo_adv_fuser",
           "sbo_adv_peb_ext",
           "sbo_anti_ext",
           "sbo_asteroid",
@@ -60735,6 +60740,7 @@
           "sbo_colorium_plate",
           "sbo_colorium",
           "sbo_com_elem",
+          "sbo_comp_ani_2x",
           "sbo_comp_ani",
           "sbo_control_board",
           "sbo_cooking",
@@ -60746,7 +60752,9 @@
           "sbo_extrosim_glass",
           "sbo_extrosim_reactor",
           "sbo_extrosim",
+          "sbo_fertilizer",
           "sbo_fish",
+          "sbo_flower_grower",
           "sbo_future",
           "sbo_grim_grower",
           "sbo_jetpacks",
@@ -60754,12 +60762,14 @@
           "sbo_life",
           "sbo_light_blk",
           "sbo_modded_elem",
+          "sbo_nexus",
           "sbo_photon",
           "sbo_pipes",
           "sbo_plant_inc",
           "sbo_portible",
           "sbo_pyro_inc",
           "sbo_qol",
+          "sbo_reactors",
           "sbo_rein_cable",
           "sbo_resium_armor",
           "sbo_resium_glass",
@@ -60768,18 +60778,21 @@
           "sbo_resium",
           "sbo_resources",
           "sbo_shock_circuit",
+          "sbo_shockshroom_grower",
           "sbo_simp_charge_ext",
           "sbo_simp_core_ext",
+          "sbo_structures",
           "sbo_sup_bat",
           "sbo_tree_rot",
           "sbo_ultra_pipes",
           "sbo_upgrades",
+          "sbo_warp_maker",
           "sbo_wood",
           "sbz_progression"
         ],
-        "release": 32872,
+        "release": 33019,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
