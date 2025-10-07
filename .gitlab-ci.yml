@@ -19,10 +19,16 @@ update_contentDB:
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
     - git push origin "$CI_COMMIT_BRANCH"
     - echo "updates pushed"
-test:
+check:
   tags:
     - nix
   stage: test
   needs: []
   script:
     - nix flake check --extra-experimental-features "nix-command flakes pipe-operators"
+unit:
+  tags:
+    - nix
+  stage: test
+  needs: []
+  script: nix run nixpkgs\#nix-unit --extra-experimental-features 'flakes nix-command pipe-operators' -- --flake .#unit-tests.x86_64-linux

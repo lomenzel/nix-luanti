@@ -13,7 +13,11 @@ This documentation guide will walk you through everything you need to know about
 
 ## Try out a Luanti game
 
-`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.mineclonia`
+`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.x86_64-linux.mineclonia`
+
+## run an example client Configuration
+
+`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#example`
 
 ## Links
 

@@ -2,8 +2,9 @@
   description = "a flake containing all games and mods for Luanti";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     treefmt-nix.url = "github:numtide/treefmt-nix";
+    nix-unit.url = "github:nix-community/nix-unit";
     mdbook.url = "github:pbar1/nix-mdbook";
   };
 
@@ -15,9 +16,17 @@
       treefmt-nix,
       mdbook,
       ...
-    }:
+    }@inputs:
     with builtins;
     let
+
+      tests =
+        pkgs:
+        import ./tests {
+          nix-luanti = self;
+          inherit (pkgs) lib callPackage;
+        };
+
       eachSystem =
         f:
         nixpkgs.lib.genAttrs (import systems) (
@@ -37,7 +46,12 @@
           with pkgs.luantiPackages;
           pkgs.luanti.withPackages {
             clientMods = [ clientMods.minimap_on ];
-            games = [ games.mineclone2 ];
+            games = with games; [
+              mineclone2
+              mineclonia
+              exile
+            ];
+            mods = with mods; [ animalia ];
           };
 
         book = mdbook.lib.buildMdBookProject {
@@ -50,30 +64,25 @@
       nixosModules.default = import ./src/modules/nixos-module.nix;
       homeManagerModules.default = import ./src/modules/homemanager-module.nix;
 
-      content = eachSystem (pkgs: {
-        inherit (pkgs.luantiPackages) clientMods mods texturePacks;
-        games = builtins.mapAttrs (
+      games = eachSystem (
+        pkgs:
+        builtins.mapAttrs (
           name: value: pkgs.luanti.withPackages { games = [ value ]; }
-        ) pkgs.luantiPackages.games;
+        ) pkgs.luantiPackages.games
+      );
 
-      });
+      unit-tests = eachSystem (pkgs: (tests pkgs).unit);
 
       # for `nix fmt`
       formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
       # for `nix flake check`
       checks = eachSystem (
         pkgs:
-        let
-          tests = import ./tests {
-            nix-luanti = self;
-            inherit (pkgs) lib callPackage;
-          };
 
-        in
         {
           formatting = treefmtEval.${pkgs.system}.config.build.check self;
         }
-        // tests.e2e
+        // (tests pkgs).e2e
       );
       overlays.default = import ./src/overlay.nix;
     };

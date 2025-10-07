@@ -14,7 +14,7 @@ Nix-Luanti is a module and package collection that simplifies the setup and mana
 
 ## Try out a Luanti game
 
-`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.mineclonia`
+`nix run gitlab:leonard/nix-luanti\?host=git.menzel.lol\#games.x86_64-linux.mineclonia`
 
 ## Contributing
 
