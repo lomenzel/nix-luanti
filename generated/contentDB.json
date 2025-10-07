@@ -4620,7 +4620,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0fqx8ljxddv1g9xh6p18slfrymbjfb6r2jhd1a1azxlyqhbamv9b",
+        "hash": "008gk90hk0ashcqi154nx2x0kbc7l687c6b9fpvimq8pwad3p9g3",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -4852,7 +4852,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 32980,
+        "release": 33036,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -54124,9 +54124,10 @@
         "short_description": "Cars and road tracks (function similar to rail carts)."
       },
       "lwscratch": {
-        "hash": "0iwdwfxp6lz7v2ydrwwxry34945ssba8lm5fnxbrbwbv54s83a73",
+        "dependencies": ["xcompat"],
+        "hash": "14mhcxq7a2c89hpdyg0ziir9wcis1v36azhrzrfzzv9gklcsxc9p",
         "provides": ["lwscratch"],
-        "release": 32317,
+        "release": 33037,
         "repo": "https://github.com/mt-historical/lwscratch",
         "short_description": "Scratch programmable robots."
       },
@@ -55298,9 +55299,9 @@
           { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0ns4fv3872s5pip0akzcvz51rj59rc6c77xlkf7bpsigsls23d29",
+        "hash": "1pisa23m92klj7wqjnm4kf3bh1vxlbw22p2dl0sxn4csm9yjjq1c",
         "provides": ["xcompat"],
-        "release": 30345,
+        "release": 33038,
         "repo": "https://github.com/mt-mods/xcompat",
         "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
       },
