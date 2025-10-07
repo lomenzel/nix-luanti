@@ -514,4 +514,4 @@ let
 
 in
 
-(parsec.runParser (settingTypesFile) <| readFile file).value
+(parsec.runParser settingTypesFile <| readFile file).value

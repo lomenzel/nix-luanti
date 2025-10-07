@@ -18,96 +18,63 @@
     }:
     with builtins;
     let
-      eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
+      eachSystem =
+        f:
+        nixpkgs.lib.genAttrs (import systems) (
+          system:
+          f (
+            import nixpkgs {
+              inherit system;
+              overlays = [ (self.overlays.default) ];
+            }
+          )
+        );
       treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
     in
     {
-      packages = mapAttrs (
-        system: _:
-        let
-          pkgs = import nixpkgs {
-            inherit system;
-            overlays = [ (import ./src/overlay.nix) ];
-          };
-          lib = pkgs.lib;
-        in
-        {
-
-          inherit (pkgs)
-            luanti-wasm
-            luanti-wasm-proxy
-            ;
-
-          games = builtins.mapAttrs (
-            name: value: pkgs.luanti.withPackages { games = [ value ]; }
-          ) pkgs.luantiPackages.games;
-
-          inherit (pkgs.luantiPackages)
-            clientMods
-            mods
-            texturePacks
-            ;
-
-          example =
-            with pkgs.luantiPackages;
-            pkgs.luanti.withPackages {
-              clientMods = [ clientMods.minimap_on ];
-              games = [ games.mineclone2 ];
-            };
-
-          book = mdbook.lib.buildMdBookProject {
-            inherit system pkgs;
-            src = ./doc;
+      packages = eachSystem (pkgs: {
+        example =
+          with pkgs.luantiPackages;
+          pkgs.luanti.withPackages {
+            clientMods = [ clientMods.minimap_on ];
+            games = [ games.mineclone2 ];
           };
 
-          test =
-            pkgs.lib.filesystem.listFilesRecursive ./tests
-            |> map (test: {
-              name =
-                pkgs.lib.path.subpath.components (pkgs.lib.path.splitRoot test).subpath
-                |> pkgs.lib.last
-                |> pkgs.lib.removeSuffix ".nix";
-              value = import test {
-                inherit pkgs;
-                nix-luanti = self;
-              };
-            })
-            |> listToAttrs;
-          testPipeline =
-            self.packages.${system}.test
-            |> attrNames
-            |> (list: ''
-              stages:
-                - test
+        book = mdbook.lib.buildMdBookProject {
+          inherit system pkgs;
+          src = ./doc;
+        };
 
-              ${
-                map (testName: ''
-                  ${testName}:
-                    stage: test
-                    tags:
-                      - nix
-                    script:
-                      - nix build --extra-experimental-features "nix-command flakes pipe-operators" .\#test.${testName}
-                '') list
-                |> foldl' (acc: curr: acc + "\n" + curr) ""
-              } 
-            '')
-            |> pkgs.writeText "tests.yml";
-          fetchContentDB = pkgs.writeShellScriptBin "fetchContentDB" ''
-            echo "fetching ContentDB..."
-            ${pkgs.nodejs}/bin/node ./src/utils/updater/fetchContentDB.js
-          '';
-        }
-
-      ) nixpkgs.legacyPackages;
+        fetchContentDB = pkgs.callPackage ./src/utils/updater { };
+      });
       nixosModules.default = import ./src/modules/nixos-module.nix;
       homeManagerModules.default = import ./src/modules/homemanager-module.nix;
+
+      content = eachSystem (pkgs: {
+        inherit (pkgs.luantiPackages) clientMods mods texturePacks;
+        games = builtins.mapAttrs (
+          name: value: pkgs.luanti.withPackages { games = [ value ]; }
+        ) pkgs.luantiPackages.games;
+
+      });
+
       # for `nix fmt`
       formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
       # for `nix flake check`
-      checks = eachSystem (pkgs: {
-        formatting = treefmtEval.${pkgs.system}.config.build.check self;
-      });
+      checks = eachSystem (
+        pkgs:
+        let
+          tests = import ./tests {
+            nix-luanti = self;
+            inherit (pkgs) lib callPackage;
+          };
+
+        in
+        {
+          formatting = treefmtEval.${pkgs.system}.config.build.check self;
+        }
+        // tests.e2e
+      );
       overlays.default = import ./src/overlay.nix;
     };
 }

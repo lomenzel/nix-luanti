@@ -15,26 +15,14 @@ update_contentDB:
     - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
     - git add *
     - git commit -m "update and format" || echo "no changes to commit"
+    - nix flake check --extra-experimental-features "nix-command flakes pipe-operators"
     - git remote set-url origin "https://leonard:$GITLAB_TOKEN@git.menzel.lol/$CI_PROJECT_PATH.git"
     - git push origin "$CI_COMMIT_BRANCH"
     - echo "updates pushed"
-build_test_pipeline:
-  stage: test
-  needs: []
+
+test:
   tags:
     - nix
-  script:
-    - nix build --extra-experimental-features "nix-command flakes pipe-operators" .\#testPipeline && cat result > test_pipeline.yml
-  artifacts:
-    paths:
-      - test_pipeline.yml
-trigger_test_pipeline:
   stage: test
-  needs:
-    - job: build_test_pipeline
-      artifacts: true
-  trigger:
-    include:
-      - artifact: test_pipeline.yml
-        job: build_test_pipeline
-    strategy: depend
+  script:
+    - nix flake check --extra-experimental-features "nix-command flakes pipe-operators"

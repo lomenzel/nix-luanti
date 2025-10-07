@@ -1,6 +1,6 @@
-{ pkgs, nix-luanti, ... }:
+{ testers, nix-luanti }:
 
-pkgs.testers.runNixOSTest {
+testers.runNixOSTest {
   name = "config-build-and-port-conflicts";
   nodes = {
     portOK =

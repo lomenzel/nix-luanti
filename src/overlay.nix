@@ -20,4 +20,5 @@ packages
       luanti = prev.luanti-server;
     };
   };
+  lib = prev.lib // (import ./lib.nix { lib = prev.lib; });
 }
