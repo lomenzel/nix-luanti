@@ -43543,11 +43543,11 @@
       },
       "weapons_lib": {
         "dependencies": ["panel_lib"],
-        "hash": "00jrlzpdzj34jln5alli978yvg74hvf8g15xkn5vf1ff78i77kvs",
+        "hash": "0kavixlnhs3f001g9r4jbb1jylzrx79g6ll4sydb11qm765swcsb",
         "provides": ["weapons_lib"],
-        "release": 32461,
+        "release": 33035,
         "repo": "https://gitlab.com/zughy-friends-minetest/weapons_lib",
-        "short_description": "Work in Progress. API to easily create weapons of any kind"
+        "short_description": "API to easily create weapons of any kind"
       },
       "whitelist": {
         "dependencies": ["lib_chatcmdbuilder"],
@@ -54985,7 +54985,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -54999,7 +54998,7 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1g908pz1halbrqv4wja2ydh9bd2v8k2c35898v5s6m7y0fmijs9d",
+        "hash": "1ms2bz00ypxlr6ag2knnz7mdsjpwh92jhnjw0vk15bkxqib8c6y9",
         "provides": [
           "extranodes",
           "technic_chests",
@@ -55007,7 +55006,7 @@
           "technic_worldgen",
           "technic"
         ],
-        "release": 32763,
+        "release": 33031,
         "repo": "https://github.com/mt-mods/technic.git",
         "short_description": "The technic modpack extends the Minetest game with many new elements, mainly constructable machines and tools."
       },
@@ -62641,10 +62640,10 @@
     },
     "Mirtilo": {
       "baunilha": {
-        "hash": "1gbjv52b3n02j0gm1b9qx7jpj7spvrdkznpzlhhwms04dm6k33jm",
-        "release": 32929,
+        "hash": "0h6r3c59ycy9sh6g9rk97rq92m45a68ybvdw93rq2bj9hbh0p4q5",
+        "release": 33032,
         "repo": "https://codeberg.org/mirtilo/Baunilha.git",
-        "short_description": "Featured. Fresh and tasty textures with a vanilla flavor"
+        "short_description": "Fresh and tasty textures with a vanilla flavor"
       }
     },
     "MysticTempest": {
