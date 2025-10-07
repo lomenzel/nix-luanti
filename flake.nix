@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     treefmt-nix.url = "github:numtide/treefmt-nix";
-    nix-unit.url = "github:nix-community/nix-unit";
+    nix-flake-tests.url = "github:antifuchs/nix-flake-tests";
     mdbook.url = "github:pbar1/nix-mdbook";
   };
 
@@ -71,8 +71,6 @@
         ) pkgs.luantiPackages.games
       );
 
-      unit-tests = eachSystem (pkgs: (tests pkgs).unit);
-
       # for `nix fmt`
       formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
       # for `nix flake check`
@@ -81,6 +79,10 @@
 
         {
           formatting = treefmtEval.${pkgs.system}.config.build.check self;
+          unit = inputs.nix-flake-tests.lib.check {
+            tests = (tests pkgs).unit;
+            inherit pkgs;
+          };
         }
         // (tests pkgs).e2e
       );

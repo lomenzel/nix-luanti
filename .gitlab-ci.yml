@@ -26,9 +26,3 @@ check:
   needs: []
   script:
     - nix flake check --extra-experimental-features "nix-command flakes pipe-operators"
-unit:
-  tags:
-    - nix
-  stage: test
-  needs: []
-  script: nix run nixpkgs\#nix-unit --extra-experimental-features 'flakes nix-command pipe-operators' -- --flake .#unit-tests.x86_64-linux

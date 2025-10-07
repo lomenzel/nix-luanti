@@ -1,4 +1,4 @@
-# Parses a luanti settingtypes.txt file into a structured Attribute set.
+# Parses a luanti settingtypes.txt into a structured Attribute set.
 # Usage: let
 #    fromSettingtypes = import ./settingtypes-parser.nix pkgs.lib;
 # in
@@ -34,7 +34,7 @@
 #   ]
 # }
 
-lib: file:
+lib: input:
 with builtins;
 let
 
@@ -514,4 +514,4 @@ let
 
 in
 
-(parsec.runParser settingTypesFile <| readFile file).value
+(parsec.runParser settingTypesFile <| "${input}\n").value

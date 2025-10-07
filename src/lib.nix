@@ -1,4 +1,4 @@
 { lib, ... }:
 {
-  fromSettingtpes = import ./utils/settingtypes-parser.nix lib;
+  fromSettingtypes = import ./utils/settingtypes-parser.nix lib;
 }
