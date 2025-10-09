@@ -3091,7 +3091,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "0srgwf2dgqwmnp1x53j9ifq7nwa4wgcszsg40fs0xmsk6ap9xnw1",
+        "hash": "1ri67pq5nhz8izjg3bin6irmm7ah47i6mb5hgn57xgm8k3rpxflx",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3113,7 +3113,6 @@
           "lzr_gui",
           "lzr_hand",
           "lzr_hook",
-          "lzr_incomplete_message",
           "lzr_infobooks",
           "lzr_laser",
           "lzr_level_select",
@@ -3155,7 +3154,7 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 32975,
+        "release": 33056,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
         "short_description": "Be a pirate and solve laser puzzles"
       },
@@ -37757,7 +37756,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -37768,9 +37766,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1q9vlvdakwscyly32y4xm2j3lcna100daaw78245bnq0rvfn2chb",
+        "hash": "1n2560cc02hj9z5ay8kvbs018ssxx2v1lln35ahx2vp58kilrdn5",
         "provides": ["ethereal"],
-        "release": 32759,
+        "release": 33048,
         "repo": "https://codeberg.org/tenplus1/ethereal",
         "short_description": "Adds many new biomes, items and mechanics into the world."
       },
@@ -38010,9 +38008,9 @@
       "mobs_animal": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1422xh2q248h49bqx1yr5whz8c241x1mm5jkx3b4ixd9z1wz3z6s",
+        "hash": "1yz8g4ln8f166j5qmgmnhy3zcqf41l1ls3gl9zmbhwr158wcl852",
         "provides": ["mobs_animal"],
-        "release": 32831,
+        "release": 33055,
         "repo": "https://codeberg.org/tenplus1/mobs_animal",
         "short_description": "Adds farm animals."
       },
@@ -56717,11 +56715,11 @@
       },
       "forgotten_monsters": {
         "dependencies": ["mobs"],
-        "hash": "0kickf56zbk10iahxgk89k2cnh9c75qrizpv6i351m97vk2h5dfi",
+        "hash": "0m64g3xg59phgdpybgwcif2mm69966czyynk87pnm9zmmjcv5n22",
         "provides": ["forgotten_monsters"],
-        "release": 32757,
+        "release": 33049,
         "repo": "https://codeberg.org/pixelzone/forgotten_monsters_reworked",
-        "short_description": "Work in Progress. Add monsters and bosses to your world..."
+        "short_description": "Add monsters and bosses to your world..."
       },
       "waystone": {
         "hash": "0yirflqc7bivfl9qprkg7g2s9fhv3hq89lq4ylm58m0kw2x41f3v",
