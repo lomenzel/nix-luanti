@@ -2964,7 +2964,7 @@
         "short_description": "Explore the Realm of Eyes, but you must be seen by the friendly eyeballs at all times."
       },
       "glitch": {
-        "hash": "033d7c1i6gxba3q94gl7al7725paihk7dbg4b6w1h3jw7zksfnkl",
+        "hash": "067wlf2xq8y0zhxkqvpq9kgnxf9dz804y83saxq4fyzyrxjxqpnk",
         "provides": [
           "glitch_abilities",
           "glitch_ambience",
@@ -2991,7 +2991,7 @@
           "glitch_utils",
           "playerphysics"
         ],
-        "release": 27010,
+        "release": 33062,
         "repo": "https://codeberg.org/Wuzzy/Glitch",
         "short_description": "You’re lost in cyberspace. Collect electrons, unlock new sectors and find your destination"
       },
@@ -29642,6 +29642,16 @@
         "short_description": "Adds email style inboxes to Minetest."
       }
     },
+    "MyNameIsKid": {
+      "beds_mod_minetest_cl": {
+        "game_support": [{ "author": "sfan5", "name": "minetest_classic" }],
+        "hash": "02zfszxp9glg83ghx22cz3xyrip98m9849g39dbay41wiqdpva0n",
+        "provides": ["beds_mod_minetest_cl"],
+        "release": 32658,
+        "repo": null,
+        "short_description": "Beds for Minetest Classic by MyNameIsKid."
+      }
+    },
     "NO11": {
       "extreme_randomizer": {
         "hash": "09j46fnn9zyr7nn1j910yg9yai4m5hyb9lqj0w7c03ljs07wh4h6",
@@ -45162,11 +45172,11 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1bbz85qkdgzzwzxr0ss0z32qzpds90qlr8q1ibr0ick1yrf2nzij",
+        "hash": "1lc6r39dhk74x8pkzm3rir2wyw5pngxvagal1hzb11hyq2s3wwbf",
         "provides": ["steampunk_blimp"],
-        "release": 32889,
+        "release": 33064,
         "repo": "https://github.com/APercy/steampunk_blimp",
-        "short_description": "Work in Progress. Adds a steampunk blimp"
+        "short_description": "Adds a steampunk blimp"
       },
       "supercub": {
         "dependencies": ["airutils"],
@@ -51459,6 +51469,48 @@
         "short_description": "Mesecons remote and receiver made without AI tools. Drop in replacement to AI generated inspiration by Luffy0805."
       }
     },
+    "lml55": {
+      "not_jenny_flower": {
+        "dependencies": ["3d_armor"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Astrobe", "name": "minefall" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "covertiii", "name": "mogue" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "0ngw5b70w7gjm1ydg2qm3k5vr56pgjp0qics78xngr906vsyk530",
+        "provides": ["not_jenny_flower"],
+        "release": 33045,
+        "repo": null,
+        "short_description": "Adds an innocent flower with some head armor"
+      }
+    },
     "lordfingle": {
       "walkover": {
         "dependencies": ["default"],
@@ -51828,18 +51880,19 @@
       },
       "m16b_mystic_stones": {
         "dependencies": [
-          "mcl_armor",
+          "mcl_books",
           "mcl_candles",
           "mcl_core",
           "mcl_farming",
           "mcl_init",
+          "mcl_inventory",
           "mcl_tools",
           "mobs_mc"
         ],
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "0y3d32ri8jcpibdkglxyzlwrnqcffw33dqpsm5dgpci7zbz3fcq4",
+        "hash": "1q7czrfa5dyigrziqriz551a86xvq9634la79p7h3pm25fahzfma",
         "provides": ["m16b_mystic_stones"],
-        "release": 32660,
+        "release": 33063,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
