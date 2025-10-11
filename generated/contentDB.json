@@ -6166,9 +6166,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "108ycncdsx1d4pb7qw755fabfr7i4ri3kfyzzfbldyjz9sxfsh1n",
+        "hash": "02927s6l8mpjh4wv11f968j3216q0w04mz2ybrmi291f6n7jz86h",
         "provides": ["crowbar"],
-        "release": 32792,
+        "release": 33075,
         "repo": null,
         "short_description": "Adds two crowbars as unbreakable multitools."
       }
@@ -49206,9 +49206,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "177sjll0a4plsbqassf8iqs3w2yh7bks07p450jffj0dgqvzr7zb",
+        "hash": "0y9k6s2pgq9vaknr4fsyc5f2zlknnxzi1zrfkmgyfps6hk3fmr62",
         "provides": ["biometer"],
-        "release": 32601,
+        "release": 33074,
         "repo": "https://github.com/gtzi203/BioMeter",
         "short_description": "Adds a hydration and temperature system. If you don't want to die, try to stay in moderate areas and don't forget to drink!"
       },
@@ -49735,43 +49735,10 @@
         "short_description": "Simple stairways and bridges for your buildings and machines"
       },
       "towercrane": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
-        ],
-        "hash": "1xd5q7rizfv2jlh5x2r8nxm0sdqq175fcll3fg8q1gfc45b3xql1",
+        "dependencies": ["xcompat"],
+        "hash": "1sz5mx0cw6dk96dlzh4x5ay3lh3sb91d3ahzxsd49ibmc5pm8zjn",
         "provides": ["towercrane"],
-        "release": 24846,
+        "release": 33065,
         "repo": "https://github.com/minetest-mods/towercrane",
         "short_description": "A scaffold alternative for your building site "
       },
@@ -51414,9 +51381,9 @@
     "livphi": {
       "antigriefprivs": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0pdrp5rm2bchgyf8rz42bfjv5mh6hv8qlla4ss130nk6lcdw8lyh",
+        "hash": "0jlfrwskfrh6yrchbdxrlpn6dh9ajv6i8j9ggw48rcc7zgwpbmdn",
         "provides": ["antigriefprivs"],
-        "release": 32707,
+        "release": 33066,
         "repo": "https://gitlab.com/validandloved/antigriefprivs",
         "short_description": "Adds water, lava, and tnt privs, that allow server administrators to decide who gets access to water, lava, and tnt."
       },
@@ -62570,8 +62537,8 @@
     },
     "Geraos16": {
       "pixel_xt_perfection": {
-        "hash": "02jyih1dcdx8fin2m481a8ai5i4gzp5bcpm1w9gz8xd59ws9p115",
-        "release": 33044,
+        "hash": "0wbrlm5qrcp0k4ih7n3n05ilwm4i7vw2f8lpvqg8p5ixmrzpxn42",
+        "release": 33069,
         "repo": null,
         "short_description": "Have you ever felt your texture pack doesnt cover everything u want it to?"
       }
