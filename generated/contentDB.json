@@ -2490,7 +2490,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "1gr7mizdc7s6k9xjm2xp1n7228ygrr9q3z1qkpl01m7kavdsj07j",
+        "hash": "0n6m1pfd6ac80i5sj0vqx8ypxwxm10v89cj5yclvqaxia2s6zzcc",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2595,7 +2595,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 32914,
+        "release": 33084,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -2760,7 +2760,7 @@
     },
     "VeproGames": {
       "100_minerals_to_success": {
-        "hash": "1dkzxgyzgb458b08pb941iacr954z86krvmjrkd00a8lyx4rg5cw",
+        "hash": "1fzvalmcwy3zhijncjlcll1nwy7k8cy4gqlwk7kfkgdfnmlv0l74",
         "provides": [
           "mts_bedrock",
           "mts_bignumber",
@@ -2776,7 +2776,7 @@
           "mts_powercrystals",
           "mts_teleporters"
         ],
-        "release": 14749,
+        "release": 33085,
         "repo": "https://github.com/veprogames/mt-100mts",
         "short_description": "Mine Minerals, Craft Pickaxes and dig deeper! Mine all 100 Minerals and beware of hazards!"
       }
@@ -10126,9 +10126,9 @@
         "short_description": "mapgen mod creator"
       },
       "mtt": {
-        "hash": "08byz3y474d6rpzxv95x3gw1sq28njnajzbrx7gz7rli9zbw365s",
+        "hash": "1gzcb3dpn5vav9r5haapqm5aav19xkrl6lmdfzpxfd2yyik1ixij",
         "provides": ["mtt"],
-        "release": 32266,
+        "release": 33076,
         "repo": "https://github.com/buckarooBanzay/mtt",
         "short_description": "Provides an api to register test functions for integration-tests."
       },
@@ -38009,9 +38009,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0vp7r0p8g2ykz8vr1k68l37dngqqnn02xqa1gdlyfir6zmfpw1d8",
+        "hash": "07hlc5zylhbmdflrh8s4nzmw4szgm1ddlgfx8mzsws0znb2vk5ly",
         "provides": ["mobs"],
-        "release": 32803,
+        "release": 33080,
         "repo": "https://codeberg.org/tenplus1/mobs_redo",
         "short_description": "Simple and feature rich API to quickly add mobs into your world."
       },
@@ -42122,9 +42122,9 @@
         "short_description": "Randomly spawns surprise blocks closely about ground level."
       },
       "tt": {
-        "hash": "08zx33vip22pfa2r3s7wlywzzz4hszzgd6vpj27b8qihlqpc70gp",
+        "hash": "0kfhsrs7zzw2qywpz27jcwbw21jdqyqdzm9fpy257b3vksybrxcj",
         "provides": ["tt"],
-        "release": 5069,
+        "release": 33090,
         "repo": "https://codeberg.org/Wuzzy/minetest_tt",
         "short_description": "Support for custom tooltip extensions for items"
       },
@@ -49241,6 +49241,28 @@
       }
     },
     "hollymaewolfe": {
+      "detailed_features": {
+        "hash": "1hiprg8krprdkhg31v87gjydn4mp6xdchk1hajqh60l05blcxzll",
+        "provides": ["detailed_features"],
+        "release": 33079,
+        "repo": "https://gitlab.com/hollymaewolfe/detailed_features",
+        "short_description": "Lets you see detailed info on specific mods"
+      },
+      "fake_solids": {
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "1gf7nkavqhdg82p7ps34pz7718kqp3j5k8x0ywgmh0dbhx1x4rhn",
+        "provides": ["fake_solids"],
+        "release": 33078,
+        "repo": "https://gitlab.com/hollymaewolfe/fake_solids",
+        "short_description": "Creates fake blocks that can be walked through."
+      },
+      "itemstring_viewer": {
+        "hash": "1h9jvgf4w23wb2y4d1hr33y8psc1a9bnyr6pbn1hr6g1gylv4f3b",
+        "provides": ["itemstring_viewer"],
+        "release": 33081,
+        "repo": "https://gitlab.com/hollymaewolfe/itemstring_viewer",
+        "short_description": "Displays full itemstring of a held item"
+      },
       "vote_night": {
         "dependencies": ["vote"],
         "hash": "0g0j5ji54sxqvjn3bs21wni2b4k90ra9ygl6yi6m14q89khw3l56",
@@ -51801,6 +51823,36 @@
         "release": 32623,
         "repo": null,
         "short_description": "Add Ancient Armor and Tools"
+      },
+      "m16b_armor_mineclonia": {
+        "dependencies": [
+          "doc_items",
+          "doc",
+          "mcl_armor",
+          "mcl_autogroup",
+          "mcl_colors",
+          "mcl_core",
+          "mcl_damage",
+          "mcl_dyes",
+          "mcl_enchanting",
+          "mcl_fences",
+          "mcl_flowerpots",
+          "mcl_grindstone",
+          "mcl_init",
+          "mcl_player",
+          "mcl_sounds",
+          "mcl_stairs",
+          "mcl_trees",
+          "mcl_util",
+          "mcl_worlds",
+          "mcl2mcla_aliases"
+        ],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "0wlh5489zs3iviah5cv2xpal3djzcpfavhln6wmf7illw3z1iaqi",
+        "provides": ["m16b_armor_mineclonia"],
+        "release": 32979,
+        "repo": null,
+        "short_description": "Add The Mineclonia Armor"
       },
       "m16b_copper_armors_tools": {
         "dependencies": [
