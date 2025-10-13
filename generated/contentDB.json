@@ -2797,7 +2797,7 @@
         "short_description": "Design models for FDM 3D printing"
       },
       "klots": {
-        "hash": "11mv4lnywggcdj6wryk49kwz72cnka5kkk3fpzc74y4lkl7nn9l2",
+        "hash": "1yv9y7s0wng0w0kpjc112r2xsxanxyc9n14qzj9qhy1g7138v01n",
         "provides": [
           "klots_api",
           "klots_commands",
@@ -2809,7 +2809,7 @@
           "klots_terrain_nc",
           "klots_terrain_scifi"
         ],
-        "release": 26637,
+        "release": 33098,
         "repo": "https://gitlab.com/sztest/klots",
         "short_description": "Sliding block puzzles in an alien environment"
       },
@@ -29642,16 +29642,6 @@
         "short_description": "Adds email style inboxes to Minetest."
       }
     },
-    "MyNameIsKid": {
-      "beds_mod_minetest_cl": {
-        "game_support": [{ "author": "sfan5", "name": "minetest_classic" }],
-        "hash": "02zfszxp9glg83ghx22cz3xyrip98m9849g39dbay41wiqdpva0n",
-        "provides": ["beds_mod_minetest_cl"],
-        "release": 32658,
-        "repo": null,
-        "short_description": "Beds for Minetest Classic by MyNameIsKid."
-      }
-    },
     "NO11": {
       "extreme_randomizer": {
         "hash": "09j46fnn9zyr7nn1j910yg9yai4m5hyb9lqj0w7c03ljs07wh4h6",
@@ -29746,7 +29736,7 @@
         "provides": ["asrs"],
         "release": 31708,
         "repo": "https://notabug.org/NathanS21/asrs",
-        "short_description": "Adds an automated storage and retrieval system to Minetest."
+        "short_description": "Adds an automated storage and retrieval system"
       },
       "drinks": {
         "dependencies": ["bucket", "default", "stairs", "vessels"],
@@ -33626,6 +33616,21 @@
         "repo": "https://github.com/sfence/items_update",
         "short_description": "Update items in player inventory if they are alias."
       },
+      "more_killing": {
+        "dependencies": ["default", "moretools", "tnt", "trunks"],
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0d69icw23ysdbzpvcw70dfc17hinqf6s69wbxhjg8lrw618rxhj9",
+        "provides": [
+          "throwable_tnt",
+          "trapworks_parts",
+          "trapworks_spears",
+          "trapworks_spikes",
+          "trapworks_strings"
+        ],
+        "release": 33101,
+        "repo": "https://github.com/sfence/more_killing",
+        "short_description": "Add more posibilities how to kill mobs and/or players, like traps, throwable TNT, etc."
+      },
       "moretools": {
         "dependencies": [
           "adaptation_hades_revisited",
@@ -33641,9 +33646,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "0a6ina4a7ycjmzd4zdgyy75gqf5hm6swc3glfzqh2rhj66cyss2r",
+        "hash": "0ywp2yrphwr4jckjpxy80nzzkh6yilqqzk9h6hhj3q7y3008l9px",
         "provides": ["moretools"],
-        "release": 31411,
+        "release": 33099,
         "repo": "https://github.com/sfence/moretools",
         "short_description": "Add more variant of screwdriver and shears (if vines is enabled).  Add garden trowel tool if composting is enabled."
       },
@@ -49250,11 +49255,11 @@
       },
       "fake_solids": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1gf7nkavqhdg82p7ps34pz7718kqp3j5k8x0ywgmh0dbhx1x4rhn",
+        "hash": "18d84cjx62278v47zgqh4pcqwqj77mczjw8jm4s8pfdivrkf7ss3",
         "provides": ["fake_solids"],
-        "release": 33078,
+        "release": 33094,
         "repo": "https://gitlab.com/hollymaewolfe/fake_solids",
-        "short_description": "Work in Progress. Creates fake blocks that can be walked through."
+        "short_description": "Creates fake blocks that can be walked through."
       },
       "itemstring_viewer": {
         "hash": "1h9jvgf4w23wb2y4d1hr33y8psc1a9bnyr6pbn1hr6g1gylv4f3b",
@@ -55355,9 +55360,9 @@
         "short_description": "adds wooden buckets"
       },
       "wrench": {
-        "hash": "0f37pw930ynbpwz8rhr7azfq9p95b25z7r4aixj458gvx00kgx7y",
+        "hash": "0s09sd9cfp6zw7srv0gi834nl30f27n805sgzi13wzqkzywk9dgi",
         "provides": ["wrench"],
-        "release": 29286,
+        "release": 33095,
         "repo": "https://github.com/mt-mods/wrench",
         "short_description": " Adds a wrench to pick up nodes with inventories, such as chests, and transport them to another location."
       },
@@ -61053,7 +61058,7 @@
         "provides": ["wallygoo2"],
         "release": 32854,
         "repo": null,
-        "short_description": "Work in Progress. a funny addon that is a goofy time"
+        "short_description": "a funny addon that is a goofy time"
       }
     },
     "titou4": {
