@@ -1032,9 +1032,9 @@
     },
     "GoodClover": {
       "cavegame": {
-        "hash": "145dizsm69yi1wfsy92bjjnj9k0i1lx534wch31qd48vpfka84da",
+        "hash": "1qp4cbgw1vz9p1l9rbl2cr78jivw86hway34bv7z6p7ih7iiaqgz",
         "provides": ["cavegame_mapgen", "cavegame_nodes", "cavegame_player"],
-        "release": 28119,
+        "release": 33127,
         "repo": "https://git.minetest.land/olive/cavegame",
         "short_description": "The simplest block game."
       }
@@ -5430,9 +5430,9 @@
     },
     "sfan5": {
       "minetest_classic": {
-        "hash": "1c3ldnwxsqrav478bc38ajn57j8w51z0q8ncnjb6cydhb0b93d23",
+        "hash": "1ic7i1f5dd3pvncrj3i8c128g8z9inxpy4r564fkjfz4lxq3v9y1",
         "provides": ["cl_default", "creative", "sfinv"],
-        "release": 32666,
+        "release": 33104,
         "repo": "https://github.com/sfan5/minetest_classic",
         "short_description": "The classic Minetest-c55 0.3 experience brought back"
       }
@@ -16233,45 +16233,10 @@
         "short_description": "Adds straight and diagonal banisters for stairs railings."
       },
       "basket": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
-        ],
-        "hash": "18l108x7l7qp1379vynr7lvdhik08k5cjxbnh20hcynkjq9ykjz0",
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "1ghszafvvskv0a3bvkbjvwndqxcnd88iwbr4kn6ps2xrc714wdnb",
         "provides": ["basket"],
-        "release": 32698,
+        "release": 33114,
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
@@ -16298,7 +16263,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -16312,9 +16276,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0zfvy47ap6imxz0jzwkhq5pxssqxcjb7zda741gvnnd64m2sj355",
+        "hash": "0lr3j4a229qz71g0acprr243v66af7xvpba3i1kb1sxvmalmgm4b",
         "provides": ["basket_cooking"],
-        "release": 32948,
+        "release": 33111,
         "repo": "https://github.com/C-C-Minetest-Server/basket_cooking",
         "short_description": "Cook all stuffs inside a basket with electric furnaces"
       },
@@ -17290,9 +17254,9 @@
       },
       "refill": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0i27nzf48kdqg68337fni82zkrsqqrmmdvlyj9xdqb3mpc3pqgby",
+        "hash": "1a141gi0zv0hs8fqvl0bgngh7qggdcyx5mskk63kyajr13nz1ksa",
         "provides": ["refill"],
-        "release": 32695,
+        "release": 33112,
         "repo": "https://github.com/C-C-Minetest-Server/refill",
         "short_description": "Refill your hand slot after using up all items in that slot"
       },
@@ -29694,9 +29658,9 @@
         "short_description": "A survival challenge for Mineclone2. Try to survive in a flooded world. "
       },
       "oneblock": {
-        "hash": "0w9501zpysv71vvi8aldmgzjdc6jxsxyq1alaq0p0bq9j15k6s1x",
+        "hash": "1sc0g07lz1jkzgr71lrmbdx9mf2iay4laq6fzjiaf0za6r31i7qj",
         "provides": ["oneblock"],
-        "release": 32281,
+        "release": 33102,
         "repo": "https://github.com/NO411/oneblock",
         "short_description": "Build your island in the sky with random items!"
       },
@@ -29731,11 +29695,12 @@
     },
     "Nathan.S": {
       "asrs": {
+        "dependencies": ["xcompat"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1ji420qbd9964x2pk7l2m9dq9phzd5whffgcn4xsnl62zdcf2cb8",
+        "hash": "04z6x7kc5h424dfdh1qj4ggkn13124psl5r8gg7jv3mxh20g9fqh",
         "provides": ["asrs"],
-        "release": 31708,
-        "repo": "https://notabug.org/NathanS21/asrs",
+        "release": 33105,
+        "repo": "https://codeberg.org/NathanS21/asrs",
         "short_description": "Adds an automated storage and retrieval system"
       },
       "drinks": {
@@ -50716,9 +50681,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "147nnj5h780cbrpbh13la5qhal7x5cw86z92s2j3l4civz4bzdmp",
+        "hash": "0mknf2r2gcg02dzk638sxzpva6rb1yr549sm5gzk5a9xfy8grkg9",
         "provides": ["k_recyclebin"],
-        "release": 23484,
+        "release": 33106,
         "repo": "https://github.com/ketwaroo/minetest-k-recycler",
         "short_description": "Breaks down crafted things into original components. Mostly.. Compatible with default game and mineclonia. Works with hoppers too."
       },
@@ -55360,9 +55325,9 @@
         "short_description": "adds wooden buckets"
       },
       "wrench": {
-        "hash": "0s09sd9cfp6zw7srv0gi834nl30f27n805sgzi13wzqkzywk9dgi",
+        "hash": "162yf1hr65ywr7nm8xdml27wx0y1mrk9a3bmh7qc24vdhwp2qm6h",
         "provides": ["wrench"],
-        "release": 33095,
+        "release": 33103,
         "repo": "https://github.com/mt-mods/wrench",
         "short_description": " Adds a wrench to pick up nodes with inventories, such as chests, and transport them to another location."
       },
@@ -56343,7 +56308,7 @@
     },
     "orwell": {
       "advtrains": {
-        "hash": "1jli728dk16d1khyfy2gar04im21as1pxifs56ggcq77a67njamz",
+        "hash": "0asjgh49xqbkcp171vh6bs1x3jvk3x4dsb3ccwxnay383lf25wjw",
         "provides": [
           "advtrains_interlocking",
           "advtrains_line_automation",
@@ -56355,7 +56320,7 @@
           "advtrains",
           "serialize_lib"
         ],
-        "release": 33018,
+        "release": 33126,
         "repo": "https://git.bananach.space/advtrains.git",
         "short_description": "Adds good-looking, realistic trains with realistic rails."
       },
