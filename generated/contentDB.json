@@ -1032,9 +1032,9 @@
     },
     "GoodClover": {
       "cavegame": {
-        "hash": "1qp4cbgw1vz9p1l9rbl2cr78jivw86hway34bv7z6p7ih7iiaqgz",
+        "hash": "004rflh7giz0abd6yn13j9fc00db118air7cbj3my2x80vpbllds",
         "provides": ["cavegame_mapgen", "cavegame_nodes", "cavegame_player"],
-        "release": 33127,
+        "release": 33138,
         "repo": "https://git.minetest.land/olive/cavegame",
         "short_description": "The simplest block game."
       }
@@ -4619,7 +4619,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0scbajah3a2h08kl565b11nwfyyd36k1vmkmw9g1919b6rq5zjr7",
+        "hash": "07gscvf0miwqgbha3mxvmfka0pc8wv8prr1phg4fnwqsml4kq6cy",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -4851,7 +4851,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33046,
+        "release": 33136,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -12633,7 +12633,6 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
@@ -12645,25 +12644,27 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0pgkqs16nv6jgh08awgq4w37lmqnls10q30q1wc47dq8l4ychzva",
+        "hash": "1pb1c1nhkwdsybrg5nlaqxnqz2r6hsz2w2ihlnprsfpd1vn9n3gj",
         "provides": [
           "myadmintools",
           "mybadnames",
@@ -12679,7 +12680,7 @@
           "mystart",
           "myunderworld"
         ],
-        "release": 31070,
+        "release": 33137,
         "repo": "https://github.com/DonBatman/myadmin.git",
         "short_description": "Admin tools for servers including  Admin picks, curse protection, chat commands and more."
       },
@@ -33834,9 +33835,9 @@
         "short_description": "Crosshair adapts depending on what the player is wielding and looking at."
       },
       "i_have_hands": {
-        "hash": "1117r7hs9fr2d2mqp0cla397j3klwqvi4rjcdsh62b4k4afdc32f",
+        "hash": "0qcglmj00v0hqbn5f3r6vfmgxzigfbcnq4gl5wxx95mplf206h1l",
         "provides": ["i_have_hands"],
-        "release": 32540,
+        "release": 33129,
         "repo": "https://github.com/KingTheGuy/i_have_hands",
         "short_description": "Carry nodes/blocks with inventories without breaking them."
       },
@@ -60757,13 +60758,14 @@
           "sbz_multiblocks",
           "sbz_planets",
           "sbz_power",
+          "sbz_progression",
           "sbz_resources",
           "sbz_ui",
           "unified_inventory",
           "unifieddyes"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "1mlywp06qg3rai6a5b0x9dnpz7qp9923wx26qm13p7injvy0gjsc",
+        "hash": "08nz68mmlpqz1cnllvmayl4rg0rnbrnfww6yyakhz4vlwzxq5qcz",
         "provides": [
           "hbhunger",
           "laptop",
@@ -60774,21 +60776,27 @@
           "sbo_adv_peb_ext",
           "sbo_anti_ext",
           "sbo_asteroid",
+          "sbo_atomic",
+          "sbo_bookshelf",
           "sbo_chromatic_metal",
           "sbo_chromium",
           "sbo_colorium_circuit",
           "sbo_colorium_plate",
-          "sbo_colorium",
           "sbo_com_elem",
           "sbo_comp_ani_2x",
           "sbo_comp_ani",
           "sbo_control_board",
           "sbo_cooking",
+          "sbo_core",
           "sbo_coric_meteorite",
           "sbo_cuti",
           "sbo_dark_glass",
           "sbo_emittrium_plate",
+          "sbo_emmitrex_drill",
+          "sbo_emmitrex",
+          "sbo_extrex",
           "sbo_extrosim_circuit",
+          "sbo_extrosim_drill",
           "sbo_extrosim_glass",
           "sbo_extrosim_reactor",
           "sbo_extrosim",
@@ -60811,12 +60819,13 @@
           "sbo_qol",
           "sbo_reactors",
           "sbo_rein_cable",
+          "sbo_rein_colorium",
+          "sbo_resitrex",
           "sbo_resium_armor",
           "sbo_resium_glass",
           "sbo_resium_reactor",
           "sbo_resium_tools",
           "sbo_resium",
-          "sbo_resources",
           "sbo_shock_circuit",
           "sbo_shockshroom_grower",
           "sbo_simp_charge_ext",
@@ -60827,12 +60836,11 @@
           "sbo_ultra_pipes",
           "sbo_upgrades",
           "sbo_warp_maker",
-          "sbo_wood",
-          "sbz_progression"
+          "sbo_wood"
         ],
-        "release": 33019,
+        "release": 33144,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
@@ -61005,7 +61013,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -61019,9 +61026,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0x2dzq4kiylsv3yzs0ha2skbx6vw41vijjmncpqpqv80ll106wh6",
+        "hash": "11wbq765w941x9fj0zx1vqh3adns3bna1cm06iib58wpak2y17vj",
         "provides": ["wallygoo2"],
-        "release": 32854,
+        "release": 33132,
         "repo": null,
         "short_description": "a funny addon that is a goofy time"
       }
