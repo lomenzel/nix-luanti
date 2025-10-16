@@ -9,9 +9,8 @@ let
   inherit (import ./common.nix args)
     options
     toConf
-    packages
     cfg
-    byId
+    enabled-servers
     ;
 
 in
@@ -23,7 +22,7 @@ in
       nixpkgs.overlays = lib.singleton (import ../overlay.nix);
     })
 
-    (lib.mkIf cfg.enable {
+    {
       systemd.user.services =
         builtins.mapAttrs
           (
@@ -68,7 +67,7 @@ in
                   --port ${builtins.toString serverConfig.port} \
                   --color always \
                   --world ${worldDir} \
-                  --gameid ${serverConfig.game.name} \
+                  --gameid ${serverConfig.game.pname} \
               '';
             }
           )
@@ -77,9 +76,9 @@ in
               lib.mapAttrsToList (name: value: {
                 name = "luanti-${name}";
                 inherit value;
-              }) cfg.servers
+              }) enabled-servers
             )
           );
-    })
+    }
   ];
 }

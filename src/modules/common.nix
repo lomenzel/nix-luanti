@@ -162,4 +162,11 @@ rec {
       description = "Configuration for Luanti Servers";
     };
   };
+
+  enabled-servers =
+    if cfg.enable then
+      lib.filterAttrs (_: server: server.enable) cfg.servers
+    else
+      lib.warn "Luanti servers are globaly disabled. Set services.luanti.enable = true to reenable them"
+        { };
 }

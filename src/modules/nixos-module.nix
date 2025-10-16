@@ -9,15 +9,9 @@ let
   inherit (import ./common.nix args)
     options
     toConf
+    enabled-servers
     cfg
     ;
-
-  enabled-servers =
-    if cfg.enable then
-      lib.filterAttrs (_: server: server.enable) cfg.servers
-    else
-      lib.warn "Luanti servers are globaly disabled. Set services.luanti.enable = true to reenable them"
-        { };
 
   wasm-servers-raw = lib.filterAttrs (_: server: server.host != null) enabled-servers;
   wasm-servers = lib.listToAttrs (
@@ -176,7 +170,7 @@ in
                     --port ${builtins.toString serverConfig.port} \
                     --color always \
                     --world ~/world \
-                    --gameid ${serverConfig.game.name}
+                    --gameid ${serverConfig.game.pname}
                 '';
                 User = name;
                 Group = "luanti";
