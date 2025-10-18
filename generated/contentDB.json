@@ -4802,7 +4802,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "07gscvf0miwqgbha3mxvmfka0pc8wv8prr1phg4fnwqsml4kq6cy",
+        "hash": "0gnn8sfk6zmwcd3qcy25r0yxhpaqvp5x3vqcpfd8sfgrfh9m1nhm",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5034,7 +5034,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33136,
+        "release": 33159,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -5613,9 +5613,9 @@
     },
     "sfan5": {
       "minetest_classic": {
-        "hash": "1ic7i1f5dd3pvncrj3i8c128g8z9inxpy4r564fkjfz4lxq3v9y1",
+        "hash": "0mbcb7gz8hs6i55i8vd0vdicnd4lj3aaml0cwix2lx0azj69kl12",
         "provides": ["cl_default", "creative", "sfinv"],
-        "release": 33104,
+        "release": 33160,
         "repo": "https://github.com/sfan5/minetest_classic",
         "short_description": "The classic Minetest-c55 0.3 experience brought back"
       }
@@ -24365,7 +24365,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -24379,11 +24378,11 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "083667gl3y7xpaw1m69fxq8knzbdr4rlmsp2605fm2ax2yj6hap1",
+        "hash": "00m8zi84ipns78m7d8wnggsm6knqli937wk8y5ms3dj1g5p7lsh9",
         "provides": ["avantisavoia"],
-        "release": 32060,
+        "release": 33162,
         "repo": "https://codeberg.org/JetpackJackson/avantisavoia",
-        "short_description": "Work in Progress. Adds WW1 stuff, I guess?"
+        "short_description": "Adds WW1 stuff, I guess?"
       }
     },
     "JevFungus": {
@@ -57934,9 +57933,9 @@
       },
       "smartshop": {
         "dependencies": ["fmod", "futil"],
-        "hash": "0ki60pqzjn3yzvgy07xmcbfdvd8f9xhqazqpkf3p5i93gnjz4csa",
+        "hash": "1l7fbr5874phy4bawsynq6f2r447siiibv2zcp7gbh0a5mz48ix5",
         "provides": ["smartshop"],
-        "release": 32595,
+        "release": 33161,
         "repo": "https://github.com/fluxionary/minetest-smartshop.git",
         "short_description": "a smarter and easier shop"
       },
@@ -58473,7 +58472,7 @@
         "short_description": "Additional types of TNT for all your explosive needs."
       },
       "worldedit": {
-        "hash": "1ykzbpak6fmgkjv2jh8v2kynk7znlik4sfps1pdl345anmps36fa",
+        "hash": "0h8j1ajn2zcirs3ivx4byfnk54fvzg557sp4kghbvl396n6cx821",
         "provides": [
           "worldedit_brush",
           "worldedit_commands",
@@ -58481,7 +58480,7 @@
           "worldedit_shortcommands",
           "worldedit"
         ],
-        "release": 32897,
+        "release": 33163,
         "repo": "https://github.com/Uberi/Minetest-WorldEdit",
         "short_description": "In-game world editor. Use it to repair griefing or create awesome buildings in seconds."
       }
