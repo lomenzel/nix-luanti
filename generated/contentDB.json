@@ -4802,7 +4802,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0gnn8sfk6zmwcd3qcy25r0yxhpaqvp5x3vqcpfd8sfgrfh9m1nhm",
+        "hash": "0p62xvh5gpqzfb93jnrrcdavvnynlscqz6hwbizymcb80yrdiz93",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5034,7 +5034,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33159,
+        "release": 33167,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -28758,6 +28758,14 @@
         "repo": "https://notabug.org/Maverick2797/advtrains_portable_remote_control.git",
         "short_description": "Handheld Remote Control for Advtrains"
       },
+      "advtrains_ui_categories": {
+        "dependencies": ["unified_inventory"],
+        "hash": "04jppkya6hs9gznhc16bxij2iav026akhm312d80w32dpp65xv6r",
+        "provides": ["advtrains_ui_categories"],
+        "release": 33174,
+        "repo": "https://codeberg.org/Maverick2797/advtrains_ui_categories",
+        "short_description": "Unified Inventory categories for Advanced Trains items"
+      },
       "mesecons_microphone": {
         "dependencies": ["mesecons"],
         "hash": "1v29rrzn0ib4wf3pm441w7w2ay1rdzky5z7nm2bv4igy4mabk4rz",
@@ -29192,6 +29200,16 @@
         "release": 29095,
         "repo": "https://codeberg.org/MiracleNebule/BronzeMod",
         "short_description": "Add Bronze & Copper stuff for VoxeLibre"
+      }
+    },
+    "Mish7913": {
+      "craftoplus": {
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "1c1qa4spp6gvrxz0psajl47nl1chzg6yy7s5bjsd716zvylbx92a",
+        "provides": ["craftoplus"],
+        "release": 33176,
+        "repo": "https://gitlab.com/Mish7913/craftoplus/",
+        "short_description": "Adds more crafts into Mineclonia"
       }
     },
     "Misnad": {
@@ -30058,6 +30076,33 @@
         "release": 8969,
         "repo": "https://github.com/NathanSalapat/tombs",
         "short_description": "Adds many shapes and styles of tombstones."
+      }
+    },
+    "Nathan_MT": {
+      "mcl_crafter": {
+        "dependencies": [
+          "mcl_armor_stand",
+          "mcl_armor",
+          "mcl_colors",
+          "mcl_core",
+          "mcl_formspec",
+          "mcl_init",
+          "mcl_nether",
+          "mcl_redstone",
+          "mcl_sounds",
+          "mcl_tnt",
+          "mcl_util",
+          "mcl_worlds"
+        ],
+        "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "1vxypw2bmyybfnbw4757wrck3qdz60pn4jd6ci46rgjgm48yb939",
+        "provides": ["mcl_crafter"],
+        "release": 33165,
+        "repo": null,
+        "short_description": "Crafter block for Mineclonia."
       }
     },
     "NathanielFreeman": {
@@ -40354,6 +40399,20 @@
         "short_description": "Simple crops to grow resources inspired by Mystical Agriculture for Minecraft"
       }
     },
+    "Twinsonian": {
+      "moredanger": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1lwz8v1fyn9qgw7gbn5k59a6l58i3b9gx9gi4zribkl4gc27f413",
+        "provides": ["moredanger"],
+        "release": 33164,
+        "repo": "https://github.com/Twinsonian/moredanger",
+        "short_description": "Scaling difficulty multiple  games/mob apis. Based on the difficulty mobs will have faster movement speed, more damage and more health."
+      }
+    },
     "Tydragon": {
       "drying_rack": {
         "dependencies": ["mcl_mobitems", "mcl_sounds", "mcl_stairs"],
@@ -42364,7 +42423,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -42373,9 +42431,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1i1nq79yrbgwnnskzqa5bh0id0v24x2yd2wd3872n46rrw6hpr93",
+        "hash": "04mv6j5sph79dzm13b4g68vw4qniw9jdrrl5cbsc0m3gwddf7ypk",
         "provides": ["xdecor"],
-        "release": 32598,
+        "release": 33175,
         "repo": "https://codeberg.org/Wuzzy/xdecor-libre",
         "short_description": "A decoration mod meant to be simple and well-featured (libre version)."
       }
@@ -52771,7 +52829,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -52785,9 +52842,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "070kqhaps7rvv9zhb6ls0yb8in39919ragcc872hwrdymhgzazzp",
+        "hash": "167wxzyyz8jlnz5akrrhf06pwgkcgyj42h8nryyisvrf384yhqk3",
         "provides": ["quartzy"],
-        "release": 32944,
+        "release": 33168,
         "repo": "https://github.com/mmmsued/quartzy",
         "short_description": "Adds some decorative quartz blocks"
       }
