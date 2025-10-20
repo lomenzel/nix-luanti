@@ -7497,9 +7497,9 @@
     "Andrii": {
       "superquest": {
         "dependencies": ["display_api", "font_api"],
-        "hash": "115iw75rpmnkbr3mxn22504h5ycwzqs0cbi1az1ai6h882940f98",
+        "hash": "1gxjhxv6fm9sdc82gz5afcpsk1lmh5c8vl4lqqr8fr8rmn1gd06f",
         "provides": ["superquest"],
-        "release": 32992,
+        "release": 33189,
         "repo": "https://gitlab.com/andriyndev/superquest/",
         "short_description": "Allows to create quests with rewards which can be passed by triggering flags placed in different places"
       }
@@ -16418,9 +16418,9 @@
       },
       "basket": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1ghszafvvskv0a3bvkbjvwndqxcnd88iwbr4kn6ps2xrc714wdnb",
+        "hash": "1a7x9h3hyxbfcl8g5w0crj8cjbcllfdcvwzxa289ph5579816c08",
         "provides": ["basket"],
-        "release": 33114,
+        "release": 33180,
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
@@ -28149,7 +28149,7 @@
         "provides": ["italian_food"],
         "release": 32423,
         "repo": "https://github.com/LudusExe/Italian-Food-for-Voxelibre",
-        "short_description": "Discover the Italian cuisine!"
+        "short_description": "Mangia che ti passa!"
       },
       "metallicum": {
         "dependencies": ["default"],
@@ -29205,11 +29205,11 @@
     "Mish7913": {
       "craftoplus": {
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "1c1qa4spp6gvrxz0psajl47nl1chzg6yy7s5bjsd716zvylbx92a",
+        "hash": "10c6yxdv54k3lznrnnaypnjfwz827ag0ffh3vichyss2sljps3mn",
         "provides": ["craftoplus"],
-        "release": 33176,
+        "release": 33188,
         "repo": "https://gitlab.com/Mish7913/craftoplus/",
-        "short_description": "Work in Progress. Adds more crafts into Mineclonia"
+        "short_description": "Adds more crafts into Mineclonia"
       }
     },
     "Misnad": {
@@ -32412,9 +32412,9 @@
         "short_description": "Automatically restarts the server after a certain uptime is reached."
       },
       "chest_with_everything": {
-        "hash": "1y6nj5yl1yiymsbsiivcllm93wjggqn3fssl4gaay8z1gwfaq93h",
+        "hash": "188z78qsvzavn0w1pz63n0ww2hrmc159aa97cq55gh98lfjjr18w",
         "provides": ["chest_with_everything"],
-        "release": 28348,
+        "release": 33186,
         "repo": "https://github.com/rollerozxa/chest_with_everything",
         "short_description": "Adds a chest node containing all registered nodes, items and tools."
       },
@@ -37924,25 +37924,35 @@
       "dmobs": {
         "dependencies": ["default", "mobs", "wool"],
         "game_support": [
+          { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Casimir", "name": "voxelgarden" },
           { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
           { "author": "hilol", "name": "epic_combat" },
           { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
           { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" }
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1d5vcjgk19dcpycshgkrb8j4piqp7fd6a5zd0y5ip4iqxn9b55bm",
+        "hash": "0wy3m6iwf1bbh38zfgjgnfmni52yy375f10syqyzrnpxx7b5ac0j",
         "provides": ["dmobs"],
-        "release": 31607,
+        "release": 33187,
         "repo": "https://codeberg.org/tenplus1/dmobs",
         "short_description": "Release many new Dragons, Monsters and Animals into your world."
       },
