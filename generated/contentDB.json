@@ -29788,7 +29788,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -29802,9 +29801,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1v87fzvrw2xd8h0im93bb652ync3br3lbbhm6cs0lbzqrapk1w5b",
+        "hash": "0k6yprsg6cv3wz7w4zx8jj22fblhcpm9hk9vk49rmj7r1j3cnxl4",
         "provides": ["colour_jump"],
-        "release": 32957,
+        "release": 33190,
         "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
         "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down"
       },
@@ -42441,9 +42440,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "04mv6j5sph79dzm13b4g68vw4qniw9jdrrl5cbsc0m3gwddf7ypk",
+        "hash": "0c719ayn6lljz37f0j3b7y7l88zbcirajigsqq701rphqy19lfks",
         "provides": ["xdecor"],
-        "release": 33175,
+        "release": 33193,
         "repo": "https://codeberg.org/Wuzzy/xdecor-libre",
         "short_description": "A decoration mod meant to be simple and well-featured (libre version)."
       }
@@ -42732,7 +42731,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -42743,9 +42741,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1bi50m6rw5h9bnr1zg408hcgw0k8a2z9h0799klnf5aaah249k2f",
+        "hash": "0f7azxwh630bg5x1137fwdjhq403fclb77wlbxhpqnzccxv54nk8",
         "provides": ["stairs_and_slabs_of_wool"],
-        "release": 32891,
+        "release": 33192,
         "repo": "https://github.com/X-DE1/stairs_and_slabs_of_wool",
         "short_description": "Stairs and slabs of wool"
       },
@@ -52180,9 +52178,9 @@
           "mobs_mc"
         ],
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "1q7czrfa5dyigrziqriz551a86xvq9634la79p7h3pm25fahzfma",
+        "hash": "0shg2xv6k1akn1dypyk302xqjk85w32nnzrgjxvnpcc8cy1jmi02",
         "provides": ["m16b_mystic_stones"],
-        "release": 33063,
+        "release": 33194,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
@@ -54023,38 +54021,10 @@
         "short_description": "A library for registering functional in-game documentation 'guidebooks'."
       },
       "hangglider": {
-        "dependencies": ["default", "dye", "wool"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" }
-        ],
-        "hash": "07g94673fjvbzad7yb0sz7d11w944c6b4799yqa087f3jxw5wakm",
+        "dependencies": ["xcompat"],
+        "hash": "0y4mvb9b6s69b4ps8pzyvsrm2wdvnpgszi8311s896jwv13iar3h",
         "provides": ["hangglider"],
-        "release": 31988,
+        "release": 33191,
         "repo": "https://github.com/mt-mods/hangglider",
         "short_description": "Adds a functional hang glider for exploring"
       },
