@@ -3091,7 +3091,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "1ri67pq5nhz8izjg3bin6irmm7ah47i6mb5hgn57xgm8k3rpxflx",
+        "hash": "11yg51y6cs9s7iyk5a7cy6igkpcir6zql76f9nbzrjwhv05gn991",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3154,7 +3154,7 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 33056,
+        "release": 33203,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
         "short_description": "Be a pirate and solve laser puzzles"
       },
@@ -29801,9 +29801,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0k6yprsg6cv3wz7w4zx8jj22fblhcpm9hk9vk49rmj7r1j3cnxl4",
+        "hash": "118nvbpz57ww2xw8cjs2gwzrcw7pdl08x3w746i9m9srn94wcf7m",
         "provides": ["colour_jump"],
-        "release": 33190,
+        "release": 33198,
         "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
         "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down"
       },
@@ -45038,9 +45038,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "01jv3dyhaqw177aw5k8abpzrcjhrl8ryb60id134kjfcr3c0x5wd",
+        "hash": "02rxcrrhyilks4gwxxx7337m1kwmbvmblrm93ni694yq3mmnnmd2",
         "provides": ["airutils"],
-        "release": 32497,
+        "release": 33201,
         "repo": "https://github.com/APercy/airutils",
         "short_description": "A lib for airplanes and some useful tools"
       },
@@ -45434,11 +45434,11 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1lc6r39dhk74x8pkzm3rir2wyw5pngxvagal1hzb11hyq2s3wwbf",
+        "hash": "13lcrsf2m3s0xzsx5cnx5jslm05hni3hrsy97h4m7i4bkq3qm4mm",
         "provides": ["steampunk_blimp"],
-        "release": 33064,
+        "release": 33202,
         "repo": "https://github.com/APercy/steampunk_blimp",
-        "short_description": "Work in Progress. Adds a steampunk blimp"
+        "short_description": "Adds a steampunk blimp"
       },
       "supercub": {
         "dependencies": ["airutils"],
@@ -49966,7 +49966,7 @@
           "tubelib2"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "17lsnajfn42y4xjs0ix1pxi9fcvdjknrv7l3qc724fh9fkwjyqk2",
+        "hash": "0x1zb745wd1c3ndng57b1bhr4a3g5b7sajvidmz144ga12dvmcvw",
         "provides": [
           "gravelsieve",
           "lcdlib",
@@ -49980,7 +49980,7 @@
           "tubelib_addons3",
           "tubelib"
         ],
-        "release": 31477,
+        "release": 33199,
         "repo": "https://github.com/joe7575/techpack",
         "short_description": "A Mining, Crafting, & Farming Modpack for Minetest"
       },
