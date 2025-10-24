@@ -1550,9 +1550,9 @@
     },
     "Linuxdirk": {
       "void": {
-        "hash": "0qgs0szfm8v18p5rl14gp9hiz34n5md172dggam3sh73qjchm1g4",
+        "hash": "1bcqsnqr9mbznzjjjilb760226pp10llk16wnxr6x7ply8116qiw",
         "provides": ["void_essential", "void_hand"],
-        "release": 28671,
+        "release": 33213,
         "repo": "https://git.0x7be.net/dirk/void",
         "short_description": "The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods "
       }
@@ -44997,9 +44997,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "02rxcrrhyilks4gwxxx7337m1kwmbvmblrm93ni694yq3mmnnmd2",
+        "hash": "1x8f63wd6gds5kydknj218f484lp1dgnzrc2h63yyfyjb5wy84ks",
         "provides": ["airutils"],
-        "release": 33201,
+        "release": 33212,
         "repo": "https://github.com/APercy/airutils",
         "short_description": "A lib for airplanes and some useful tools"
       },
@@ -53804,43 +53804,10 @@
         "short_description": "Adds many new types of seaweed, kelp, corals and other sea decorations, distributed across biomes"
       },
       "deltaglider": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
-        ],
-        "hash": "0s4wjhh8qyzaalys0nmdnlidqa8w78q6zbnkp41sgiha984xd7p8",
+        "dependencies": ["xcompat"],
+        "hash": "1i0vx0y3lh6zkspkk1k9b526sqkc4kn8dya3g5ash1gmk84qjm8c",
         "provides": ["deltaglider"],
-        "release": 27665,
+        "release": 33210,
         "repo": "https://github.com/mt-mods/deltaglider",
         "short_description": "Add realistic moving delta hang gliders"
       },
@@ -55608,9 +55575,9 @@
           { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1pisa23m92klj7wqjnm4kf3bh1vxlbw22p2dl0sxn4csm9yjjq1c",
+        "hash": "0lvyfjfirl6xryg5ngfrfg2pcg33r1hip3gwaczandxwc0ydcr0w",
         "provides": ["xcompat"],
-        "release": 33038,
+        "release": 33211,
         "repo": "https://github.com/mt-mods/xcompat",
         "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
       },
