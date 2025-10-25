@@ -643,7 +643,7 @@
         "short_description": "Work in Progress. Mesecons laboratory and tutorials"
       },
       "super_sam": {
-        "hash": "07m1fcjxw2liqm9g3cfbcznm0c69z524pfzrn8h7qzlyfxqda55s",
+        "hash": "132v8ca8vhbfjz0cs72awh3bwmnyaf5f54y21zzrjnwqg840n6j4",
         "provides": [
           "controls",
           "mapsync",
@@ -665,9 +665,9 @@
           "wield_events",
           "xcompat"
         ],
-        "release": 32706,
+        "release": 33221,
         "repo": "https://github.com/BuckarooBanzay/super_sam/",
-        "short_description": "Work in Progress. Super sam adventures"
+        "short_description": "Super sam adventures"
       }
     },
     "Casimir": {
@@ -4802,7 +4802,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0p62xvh5gpqzfb93jnrrcdavvnynlscqz6hwbizymcb80yrdiz93",
+        "hash": "0rar0bkvr3fn0x0v44kakkbli3diplzgwvlk5rg5z7fgz2vjxv0j",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5034,7 +5034,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33167,
+        "release": 33217,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -25911,9 +25911,9 @@
         "short_description": "Allows you to view the inventory of the players"
       },
       "iteminfo": {
-        "hash": "02lx1pyzbk1lpci2k7s663y8mndma99w6xs72q76xchamg4k7gk6",
+        "hash": "19w15ads1w7jx1fw6aycs2n0bz4vdk3vqv18zfpidhfskbq37ld1",
         "provides": ["iteminfo"],
-        "release": 23165,
+        "release": 33220,
         "repo": "https://github.com/Krunegan/iteminfo",
         "short_description": "Shows information about the item in use."
       },
@@ -32798,9 +32798,9 @@
     },
     "RealBadAngel": {
       "framedglass": {
-        "hash": "0c6zyxxa6a9s60l0rg14vkhpbwc5b5ygpwfi9p0nv5sdccpkd5cs",
+        "hash": "1nf1hx2r1r6p0l9s5vbl4cnlwb6iw465djlwqqw0cvkrl1ilh5rg",
         "provides": ["framedglass"],
-        "release": 33154,
+        "release": 33222,
         "repo": "https://github.com/minetest-mods/framedglass",
         "short_description": "Framed glass adds glass nodes with a frame that connects automatically to neighbouring nodes"
       },
@@ -53805,9 +53805,9 @@
       },
       "deltaglider": {
         "dependencies": ["xcompat"],
-        "hash": "1i0vx0y3lh6zkspkk1k9b526sqkc4kn8dya3g5ash1gmk84qjm8c",
+        "hash": "1bj0l5h433bzjrjyj1v5kbyp2v5kb2ymghn616zm1sxxf4sc7yl1",
         "provides": ["deltaglider"],
-        "release": 33210,
+        "release": 33219,
         "repo": "https://github.com/mt-mods/deltaglider",
         "short_description": "Add realistic moving delta hang gliders"
       },
@@ -55561,9 +55561,9 @@
         "short_description": "adds wooden buckets"
       },
       "wrench": {
-        "hash": "162yf1hr65ywr7nm8xdml27wx0y1mrk9a3bmh7qc24vdhwp2qm6h",
+        "hash": "0nhnbn2fz0kr1bhfsgjjjz5m371g1kp89v05v91w8v20v22n4qzl",
         "provides": ["wrench"],
-        "release": 33103,
+        "release": 33216,
         "repo": "https://github.com/mt-mods/wrench",
         "short_description": " Adds a wrench to pick up nodes with inventories, such as chests, and transport them to another location."
       },
