@@ -4802,7 +4802,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0rar0bkvr3fn0x0v44kakkbli3diplzgwvlk5rg5z7fgz2vjxv0j",
+        "hash": "1sfi7i51iwqm6367l8xpcrziwx32xkgpmx72vm01kvk5gq2j9b0p",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5034,7 +5034,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33217,
+        "release": 33226,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -12049,9 +12049,9 @@
     "Comet712": {
       "lategame_amulets": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0khbmz7i02cwsff177bm0h5q12svrdi2k2gpgscq3q5wwwq1lqkb",
+        "hash": "0my6knbgk6lh5iwkh7b2q2lzblj165jkqyi45fgpq4gf73afnx3x",
         "provides": ["lategame_amulets"],
-        "release": 32860,
+        "release": 33230,
         "repo": "https://github.com/Comet712/lategame_amulets.git",
         "short_description": "A cohesive progression system that builds on Mobs Monster"
       },
@@ -45375,9 +45375,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "11pgdc2xh60l9w0bw9z1ccn94ygh4l0amkfmsi9d47lcn6a3ssds",
+        "hash": "0f49pp9lcg3qxf4cwy0j94gy9nv8adn568sicbxxgpbv938sqf85",
         "provides": ["savoia_s21"],
-        "release": 26774,
+        "release": 33232,
         "repo": "https://github.com/APercy/savoia_s21",
         "short_description": "Savoia S-21"
       },
@@ -53805,9 +53805,9 @@
       },
       "deltaglider": {
         "dependencies": ["xcompat"],
-        "hash": "1bj0l5h433bzjrjyj1v5kbyp2v5kb2ymghn616zm1sxxf4sc7yl1",
+        "hash": "0zgdx8ay1f7zhf644vn8qsnvnmgz6ygzrqa46bfxnivxh6mvw23v",
         "provides": ["deltaglider"],
-        "release": 33219,
+        "release": 33227,
         "repo": "https://github.com/mt-mods/deltaglider",
         "short_description": "Add realistic moving delta hang gliders"
       },
@@ -61261,9 +61261,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1cplp4b5hv0wsk1z2hnv2dzxyb1wy3b7i1ilxjgs29lxq4wz7yzz",
+        "hash": "1njaw163sqbj81p50calwxhl6brdj40sraf992djybx3g4zgz5l9",
         "provides": ["wallygoo2"],
-        "release": 33157,
+        "release": 33228,
         "repo": null,
         "short_description": "a funny addon that is a goofy time"
       }
