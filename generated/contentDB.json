@@ -5371,7 +5371,7 @@
     },
     "ryvnf": {
       "mineclonia": {
-        "hash": "0fsymab71dp39yrvlgs62x407fgz9hnnvlayx2y54fh375yz0idb",
+        "hash": "1qhsacc1qrzxnkx8ah2h1lmk30dk9l3s0aj121s95851gdkh2vz2",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -5398,6 +5398,7 @@
           "mcl_beds",
           "mcl_beehives",
           "mcl_bells",
+          "mcl_biome_dispatch",
           "mcl_biomes",
           "mcl_blackstone",
           "mcl_blast_furnace",
@@ -5485,14 +5486,17 @@
           "mcl_jukebox",
           "mcl_lanterns",
           "mcl_lectern",
+          "mcl_levelgen",
           "mcl_lever",
           "mcl_lightning_rods",
           "mcl_lightning",
+          "mcl_liquids",
           "mcl_loom",
           "mcl_loot",
           "mcl_lush_caves",
           "mcl_mangrove",
           "mcl_mapgen_core",
+          "mcl_mapgen_models",
           "mcl_maps",
           "mcl_meshhand",
           "mcl_minecarts",
@@ -5583,7 +5587,7 @@
           "tt",
           "walkover"
         ],
-        "release": 32393,
+        "release": 33242,
         "repo": "https://codeberg.org/mineclonia/mineclonia",
         "short_description": "Survival sandbox game inspired by Minecraft."
       }
@@ -13027,7 +13031,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -13038,9 +13041,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "0vwsz0wzi390fj2s92dv590ncli79a27az31dyhw7mpnwpw5aqzk",
+        "hash": "1154pic3pd1sn95lz9wyn6k6cx99083s8qh2va9xgja6nffd8sic",
         "provides": ["mycastle"],
-        "release": 32186,
+        "release": 33237,
         "repo": "https://github.com/DonBatman/mycastle",
         "short_description": "Blocks for making castles"
       },
@@ -19932,14 +19935,14 @@
         "provides": ["doors_without_window"],
         "release": 32949,
         "repo": "https://codeberg.org/FromKaniv/luanti-mod-doors-without-windows",
-        "short_description": "Adds doors and trapdoors without windows to Minetest Game."
+        "short_description": "Adds doors and trapdoors without windows to Minetest Game"
       },
       "sword_axe": {
         "hash": "1am4wm17vgrvbjmbb2rqz6s72h6cm8lavscif2kpkjrm27x49zpn",
         "provides": ["sword_axe"],
         "release": 32943,
         "repo": "https://codeberg.org/FromKaniv/luanti-mod-sword-axe",
-        "short_description": "Adds a tool for quickly chopping trees and cutting leaves simultaneously."
+        "short_description": "Adds a tool for quickly chopping trees and cutting leaves simultaneously"
       }
     },
     "Furious_mat": {
@@ -36869,9 +36872,9 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "1622lric5ddcnp8nk6h8mpkc2ihxny1kjc724jhyxlmwgwqi3c3d",
+        "hash": "0zxrpwb4kc4lzw0dymqpg3iy5vvx682432zzfzm70nxszirx2yif",
         "provides": ["node_updates"],
-        "release": 32733,
+        "release": 33239,
         "repo": "https://github.com/SumianVoice/node_update.git",
         "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features. Last breaking change: 2025-09-10"
       },
@@ -37623,9 +37626,9 @@
     },
     "TenPlus1": {
       "ambience": {
-        "hash": "0vyw0hha9bhwbc6z540ywhb78d7wbb6kvvb94mm8j2zyz67vkrbh",
+        "hash": "1aqpqbnvc758r4122la09gn6f4gz9y4m8xavszr1270c5gxqns7v",
         "provides": ["ambience"],
-        "release": 30923,
+        "release": 33240,
         "repo": "https://codeberg.org/tenplus1/ambience",
         "short_description": "Adds realistic sound effects into your world."
       },
@@ -40371,12 +40374,11 @@
       "moredanger": {
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "Wuzzy", "name": "mineclone2" }
+          { "author": "ryvnf", "name": "mineclonia" }
         ],
-        "hash": "1lwz8v1fyn9qgw7gbn5k59a6l58i3b9gx9gi4zribkl4gc27f413",
+        "hash": "05hahfq4l30aj0w5bf2yf9kfvkhjn7swfclcyz88dl9ips9yrw2b",
         "provides": ["moredanger"],
-        "release": 33164,
+        "release": 33238,
         "repo": "https://github.com/Twinsonian/moredanger",
         "short_description": "Scaling difficulty multiple  games/mob apis. Based on the difficulty mobs will have faster movement speed, more damage and more health."
       }
@@ -52137,9 +52139,9 @@
           "mobs_mc"
         ],
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "0shg2xv6k1akn1dypyk302xqjk85w32nnzrgjxvnpcc8cy1jmi02",
+        "hash": "0hbvcixlxywrj28ksn4y37fjv20v85jif03macfmk10j4s5db5ly",
         "provides": ["m16b_mystic_stones"],
-        "release": 33194,
+        "release": 33241,
         "repo": null,
         "short_description": "Add many mystic stones"
       },
@@ -55275,7 +55277,7 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1ms2bz00ypxlr6ag2knnz7mdsjpwh92jhnjw0vk15bkxqib8c6y9",
+        "hash": "155v5jqg03xc857kz0da1vlqvs2fwphxjpasm9g086fisbmqad0v",
         "provides": [
           "extranodes",
           "technic_chests",
@@ -55283,7 +55285,7 @@
           "technic_worldgen",
           "technic"
         ],
-        "release": 33031,
+        "release": 33235,
         "repo": "https://github.com/mt-mods/technic.git",
         "short_description": "The technic modpack extends the Minetest game with many new elements, mainly constructable machines and tools."
       },
