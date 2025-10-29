@@ -1660,7 +1660,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "0pp95s2z6bbhcvzj93c918ms2dg8y8xgzlalrdcqyh0qlqk0axp7",
+        "hash": "03k8kz7w5m02v3a2rhvnxd9435z68qadd71xfdnn413cbmg48404",
         "provides": [
           "beds",
           "binoculars",
@@ -1697,7 +1697,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 32806,
+        "release": 33264,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -3091,7 +3091,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "11yg51y6cs9s7iyk5a7cy6igkpcir6zql76f9nbzrjwhv05gn991",
+        "hash": "10vvgvmg3zm7y06pah3xwk7lpp00w7pdn1xc3dafa4ifyzi9rqbw",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3154,7 +3154,7 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 33203,
+        "release": 33265,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
         "short_description": "Be a pirate and solve laser puzzles"
       },
@@ -4802,7 +4802,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1sfi7i51iwqm6367l8xpcrziwx32xkgpmx72vm01kvk5gq2j9b0p",
+        "hash": "12249r1j2vlp0dvh0bsqc83y2hz3bwkdlb04hc4fna56dzp621dy",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5034,7 +5034,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33226,
+        "release": 33255,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -5371,7 +5371,7 @@
     },
     "ryvnf": {
       "mineclonia": {
-        "hash": "1qhsacc1qrzxnkx8ah2h1lmk30dk9l3s0aj121s95851gdkh2vz2",
+        "hash": "1kci2k0bqck5ryv03f0xsanwq170rl1n5zr61vvijjk4m9jc18db",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -5587,7 +5587,7 @@
           "tt",
           "walkover"
         ],
-        "release": 33242,
+        "release": 33247,
         "repo": "https://codeberg.org/mineclonia/mineclonia",
         "short_description": "Survival sandbox game inspired by Minecraft."
       }
@@ -14952,6 +14952,15 @@
         "short_description": " Teleports the player to the other side of the world when they reach the edge."
       }
     },
+    "Doodihealz": {
+      "dynamicsounds": {
+        "hash": "06kf8a23fqcidw5l9vdyzgs8h6gda8z5ph9k8cf271980fwz4gwh",
+        "provides": ["dynamicsounds"],
+        "release": 33200,
+        "repo": null,
+        "short_description": "Dynamic Sounds adds spacial awareness to caves and indoor sound reflections. Meant to simulate cave echo's like in real life."
+      }
+    },
     "DrFrankenstone": {
       "cloudlands": {
         "hash": "0zr5ds5df7vf9y63c57s8rljibk1ibfyxgybsnzfblf668byk9hj",
@@ -20226,11 +20235,11 @@
       },
       "ma_pops_furniture": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "01ghg4p3k94qncbvyk5s6b41hxpvv5kn3qnb100mqdr4ivfcybrg",
+        "hash": "171qkl1q1d10gwar5xnfskn9s5m78qnmrnv3jbyms8vl7z5m1h2n",
         "provides": ["ma_pops_furniture"],
-        "release": 27688,
+        "release": 33253,
         "repo": "https://github.com/Gerold55/ma_pops_furniture",
-        "short_description": "Work in Progress. This mod adds in functional furniture."
+        "short_description": "This mod adds in functional furniture."
       },
       "mt_expansion": {
         "dependencies": ["default", "dye", "stairs", "wool"],
@@ -21677,6 +21686,19 @@
         "release": 11614,
         "repo": "https://github.com/MT-Goops/scraps",
         "short_description": "Allows to recycle metal tools"
+      }
+    },
+    "Grandel": {
+      "open_inventory": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "02yyfip0x3ny2mc454kp3yc1yfwikf6ikcgnz7jwv8xfp6z2cp8a",
+        "provides": ["open_inventory"],
+        "release": 33262,
+        "repo": null,
+        "short_description": "Remotely open player inventories with server privilege."
       }
     },
     "GreatBigDiamond": {
@@ -23472,11 +23494,10 @@
         "dependencies": ["fluid_tanks", "fluid_transfer"],
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "068v037b821k4msfa36g8z4m6d7lm1x1la9238f9vjhwn0yh8wjv",
+        "hash": "1phzk7sdggb5zajimrwgw557sf0cbgr0kz3wpj4vi65z5ysc7jg2",
         "provides": [
           "elepower_compat",
           "elepower_documentation",
@@ -23493,9 +23514,9 @@
           "elepower_tools",
           "elepower_wireless"
         ],
-        "release": 32827,
+        "release": 33251,
         "repo": "https://github.com/LunaSquee/elepower.git",
-        "short_description": "Featured. A wide variety of useful machines"
+        "short_description": "A wide variety of useful machines"
       },
       "fluid_lib": {
         "game_support": [
@@ -23504,14 +23525,14 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "18ck0lfa053dc3nc5gzbqcswggj7k7mzrdca33vmnkfgxgs7jh01",
+        "hash": "01q6wggclkrghmnrvj4mqpqsjrhcv5apw3rdhk690w6j7v2wxwxf",
         "provides": [
           "bucket_compat",
           "fluid_lib",
           "fluid_tanks",
           "fluid_transfer"
         ],
-        "release": 32641,
+        "release": 33252,
         "repo": "https://github.com/LunaSquee/fluid_lib.git",
         "short_description": "Library for nodes containing fluids"
       },
@@ -25935,9 +25956,9 @@
         "short_description": "Text to Binary, Binary to Text, Text to Morse, Morse to Text, Binary to Morse, Morse to Binary."
       },
       "waypoints": {
-        "hash": "0li45c95nb2risi5wyw9j0niznxgfx1zfsqc6cnz4vlqcm9fqpan",
+        "hash": "0cpfmci2q2y64pfif6v6b14gapqvf7pc9jl4jiml0qw79ap3cn85",
         "provides": ["waypoints"],
-        "release": 25432,
+        "release": 33268,
         "repo": "https://github.com/Krunegan/waypoints",
         "short_description": "Allows players to create, manage and view waypoints in the game."
       }
@@ -35995,10 +36016,10 @@
         "short_description": "Improves private messages and makes them more customizable "
       },
       "folks": {
-        "dependencies": ["mobkit"],
-        "hash": "1pd6xbc99hb05ylahdxrn9h63i7a3yhvad27x74w3gyl9lgmmkgj",
+        "dependencies": ["lib_chatcmdbuilder", "mobkit"],
+        "hash": "05axv9jlpjjnqrb9jr0f6jqvz1r1akpb8x6ln9ap1sbpvq7pi1ki",
         "provides": ["folks"],
-        "release": 6613,
+        "release": 33258,
         "repo": "https://gitlab.com/SonoMichele/folks",
         "short_description": "Adds customizable NPCs"
       }
@@ -42012,6 +42033,15 @@
         "repo": "https://codeberg.org/Wuzzy/minetest_ltool",
         "short_description": "A form to easily spawn L-system trees, aimed at mod developers."
       },
+      "lzr_pack_forgotten_treasures": {
+        "dependencies": ["lzr_doors", "lzr_levels"],
+        "game_support": [{ "author": "Wuzzy", "name": "lazarr" }],
+        "hash": "08wl8g80ff93rj5d9qdm195qngjj0vxsxbihkn25n849k8ibgrvh",
+        "provides": ["lzr_pack_forgotten_treasures"],
+        "release": 33261,
+        "repo": "https://codeberg.org/Wuzzy/lzr_pack_forgotten_treasures",
+        "short_description": "Official community level pack for Lazarr!"
+      },
       "mana": {
         "hash": "0jrjiysz2d2f4jvk02ap6l6sp1f0x0bg2rljphnmf18hnpmfva4g",
         "provides": ["mana"],
@@ -42885,9 +42915,9 @@
           "xdecor"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "051qfzas37fs5maimyhggiqvzyz3285ch17l5clqs1kpazaal0m6",
+        "hash": "10fc0drk2f9k9qc7gdzwiqds9aasr49hy9w8xh6gz7p98vlvwxfi",
         "provides": ["xde_modpack"],
-        "release": 33000,
+        "release": 33263,
         "repo": "https://github.com/X-DE1/xde_modpack",
         "short_description": "It adds different mods and i modified some of them to my liking."
       }
@@ -43303,9 +43333,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "MeseCraft", "name": "mesecraft" }
         ],
-        "hash": "1wr708xsrxb8cy2p3awyhxwhqadlb50qwgxkbvmbqzhv3afsiazy",
+        "hash": "0fan60nfya27qv2hd4rxjm096f9pshp72py4bav65n5mhkr8bc2w",
         "provides": ["ejection"],
-        "release": 30473,
+        "release": 33260,
         "repo": "https://codeberg.org/yof/ejection",
         "short_description": "A unique movement mechanic resembling strong jumping."
       }
@@ -50524,9 +50554,9 @@
         "short_description": "Stops guest players (ie: Guest1234) from joining your server"
       },
       "xban2": {
-        "hash": "0r4kpxn5cj5n0p2niqp8zr95vvxqd06d39m66m68k37wwd9wahb5",
+        "hash": "0m2nsqbihylz9jfsrgrkfcgl4avhy4kwddsx9n5p5qrsxdksmldn",
         "provides": ["xban2"],
-        "release": 21180,
+        "release": 33266,
         "repo": "https://github.com/minetest-mods/xban2",
         "short_description": "Tempbanning and better banning by keeping track of usernames and IP addresses"
       }
@@ -51114,6 +51144,17 @@
         "short_description": "Fruit trees of diferent types"
       }
     },
+    "krabNchous": {
+      "whoopsy_cushion": {
+        "dependencies": ["mcl_achievements", "mcl_core", "mcl_lush_caves"],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "0d4lpcw0p23vfmrrfq8sddckplk1m2avpv3vwdwigqagz0qw7hjd",
+        "provides": ["whoopsy_cushion"],
+        "release": 33257,
+        "repo": "https://gitlab.com/krabNchous/whoopsy-cushion.git",
+        "short_description": "Adds a practical joke device (Whoopee Cushion) for your wild potty humor and hilarious fart jokes in Mineclonia game"
+      }
+    },
     "kronosta": {
       "fruit_tree_framework": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -51497,6 +51538,50 @@
         "release": 20588,
         "repo": null,
         "short_description": "Have you ever dreamed of using world edit on minetest?... well it’s possible!!"
+      }
+    },
+    "limafresh": {
+      "coloredbricks": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "03f30rwvw1k8284n1m0gyd6f07b356p447d6pidq4f683bamka2m",
+        "provides": ["coloredbricks"],
+        "release": 33259,
+        "repo": "https://github.com/limafresh/coloredbricks",
+        "short_description": "Adds colored brick nodes."
       }
     },
     "lisacvuk": {
@@ -53807,9 +53892,9 @@
       },
       "deltaglider": {
         "dependencies": ["xcompat"],
-        "hash": "0zgdx8ay1f7zhf644vn8qsnvnmgz6ygzrqa46bfxnivxh6mvw23v",
+        "hash": "19mnphbadsazxrxam9nw7fzgfyd4jxwjiq55hds5pqvb1x4nyw51",
         "provides": ["deltaglider"],
-        "release": 33227,
+        "release": 33256,
         "repo": "https://github.com/mt-mods/deltaglider",
         "short_description": "Add realistic moving delta hang gliders"
       },
