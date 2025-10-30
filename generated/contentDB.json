@@ -3565,7 +3565,7 @@
     },
     "awuuwa": {
       "clonecraftlibre": {
-        "hash": "07pimby9rrrba1gfmgw9m1xvrmcwwj2g2xvv460pvb6yq8wa6mrb",
+        "hash": "19kiv6137vq5d339bq12azy4xa623mgr8c88wcpnsdqnsljm8x7w",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -3578,6 +3578,7 @@
           "hudbars",
           "lightning",
           "mcl_achievements",
+          "mcl_aliases",
           "mcl_anvils",
           "mcl_armor_stand",
           "mcl_armor",
@@ -3741,9 +3742,9 @@
           "tt",
           "walkover"
         ],
-        "release": 33072,
+        "release": 33269,
         "repo": null,
-        "short_description": "Work in Progress. An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience in comparison to both MineClone 2 as well as Mineclonia"
+        "short_description": "An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience unlike both Mineclonia and VoxeLibre which focus on the latest features"
       }
     },
     "bell07": {
@@ -25598,6 +25599,50 @@
         "short_description": "Adds additional pickaxes to the game"
       }
     },
+    "KomputerOverload": {
+      "snowmen": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "1hxv3lwyz9rqrv9szl4gp8bq1zw8l77xv1vqjrywngqxxbl56nwh",
+        "provides": ["snowmen"],
+        "release": 33250,
+        "repo": "https://github.com/komputeroverload/snowmen",
+        "short_description": "Adds the ability to make a snowman."
+      }
+    },
     "Kostivar": {
       "candy": {
         "dependencies": ["default"],
@@ -43281,6 +43326,52 @@
         "release": 5759,
         "repo": "https://github.com/Xanthus1/cube_mobs.git",
         "short_description": "Adds various cube mobs with different abilities using mobkit."
+      },
+      "lmgjam_appalachia": {
+        "dependencies": [
+          "animalia",
+          "bucket",
+          "creatura",
+          "default",
+          "farming",
+          "stairs",
+          "tnt"
+        ],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" }
+        ],
+        "hash": "1m8ry3fbnhpiclksskqq6skka3f3dpkr0hl6z2046aq5hq3mw06d",
+        "provides": [
+          "lmgjam_appalachia_biomes",
+          "lmgjam_appalachia_only",
+          "lmgjam_appalachian_plants",
+          "lmgjam_boomshine",
+          "lmgjam_fart_dirt",
+          "lmgjam_hidebehind",
+          "lmgjam_notloc_alpac_alachia",
+          "lmgjam_sawmill",
+          "lmgjam_suzanna"
+        ],
+        "release": 33135,
+        "repo": "https://github.com/Xanthus1/lmg-appalachia-modpack",
+        "short_description": "Louisville Makes Games Modpack for Louisville Makes a Game Jam, 2025. Recommend using with Awards mod. Disable \"Appalachia Only\" Mod to use with other biomes as well."
       }
     },
     "XxCrisThor1012xX": {
@@ -45717,7 +45808,7 @@
         ],
         "release": 32153,
         "repo": null,
-        "short_description": "Work in Progress. With this mod I intent to re-create some of my favourite biomes from one mod known as Biomes O' Plenty, with of course many of my own ideas included as well."
+        "short_description": "With this mod I intent to re-create some of my favourite biomes from one mod known as Biomes O' Plenty, with of course many of my own ideas included as well."
       },
       "awuuwa_building_blocks": {
         "game_support": [
@@ -45728,11 +45819,11 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1d4zwfv0hwb1mcn1piyb768923xi0jvp22ikgcm8xwkj43wwvarq",
+        "hash": "0ghx4m200f68vagz95pjncgzh4mgvvccxd05f8cmfsxckak7aacr",
         "provides": ["awuuwa_building_blocks"],
-        "release": 31148,
+        "release": 33273,
         "repo": null,
-        "short_description": "Work in Progress. various building blocks"
+        "short_description": "various building blocks"
       },
       "default_sounds_for_other_games": {
         "game_support": [
@@ -45767,11 +45858,11 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0l0b6q64661xq31pjff05f6aamrm0lbv9yy0z5af3q2m38vxjj6s",
+        "hash": "0higbgkxbm21w6baq5rnxky888b8dj0hzwffpcj3k2x7wlcfh92q",
         "provides": ["oak_tree"],
-        "release": 30670,
+        "release": 33272,
         "repo": null,
-        "short_description": "Work in Progress. a game agnostic oak tree"
+        "short_description": "a game agnostic oak tree"
       },
       "spruce_tree": {
         "game_support": [
@@ -45782,9 +45873,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1cgyyaxccn6rvhax9gxr64xxc4805hpxx20i8533lk04zs1kpj7b",
+        "hash": "0q0pnhfzflkww2mqdqxmihz1milhy2yi56d4x5rbdq96k9j3bcra",
         "provides": ["spruce_tree"],
-        "release": 31065,
+        "release": 33271,
         "repo": null,
         "short_description": "a game agnostic spruce tree"
       }
@@ -51577,9 +51668,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "03f30rwvw1k8284n1m0gyd6f07b356p447d6pidq4f683bamka2m",
+        "hash": "1hak7ljjahrnr9dprwa9knmflmnmfgbq97m1lhwddphjllb4qgnd",
         "provides": ["coloredbricks"],
-        "release": 33259,
+        "release": 33270,
         "repo": "https://github.com/limafresh/coloredbricks",
         "short_description": "Adds colored brick nodes."
       }
