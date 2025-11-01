@@ -2996,7 +2996,7 @@
         "short_description": "You’re lost in cyberspace. Collect electrons, unlock new sectors and find your destination"
       },
       "hades_revisited": {
-        "hash": "1ypzs1ni3fd7h97amibxxr27hpg1pcv7nx9qlgvc2xmdccm55mzx",
+        "hash": "1h5mscs030sggip999kgiyc1x8fay5dw8h7vx90vimnvlyv7vqgd",
         "provides": [
           "give_initial_stuff",
           "hades_atmos",
@@ -3087,9 +3087,9 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 33280,
+        "release": 33284,
         "repo": "https://codeberg.org/Wuzzy/Hades_Revisited",
-        "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
+        "short_description": "You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
         "hash": "10vvgvmg3zm7y06pah3xwk7lpp00w7pdn1xc3dafa4ifyzi9rqbw",
@@ -28469,9 +28469,9 @@
     "Marnack": {
       "advtrains_crafting_compatibility_patch": {
         "dependencies": ["advtrains_train_track", "advtrains"],
-        "hash": "13if4gk075x6pam5ql02xjn90x9rfpzd73x1qmzwyc6zca6l1a4v",
+        "hash": "1dn1494hhvhx9kizahimwl3n08l24cs2xm4rk19cgk6q31gy4cpi",
         "provides": ["advtrains_crafting_compatibility_patch"],
-        "release": 32972,
+        "release": 33289,
         "repo": "https://github.com/Marnack/advtrains_crafting_compatibility_patch",
         "short_description": "Enables crafting of advtrains items in games that are not based on Minetest Game."
       },
@@ -31507,9 +31507,9 @@
         "short_description": "Adds nodes to control the flow of digiline messages"
       },
       "fakelib": {
-        "hash": "0ykwcdshpcvc5gbca7svjl6wypsmmhf6zpm880f85ksq60jp974q",
+        "hash": "0r2594wns0zd013mm2719qqag3wl368mc1bpf08cxdsy5pmbn1gp",
         "provides": ["fakelib"],
-        "release": 25144,
+        "release": 33288,
         "repo": "https://github.com/OgelGames/fakelib",
         "short_description": "Fake userdata library"
       },
