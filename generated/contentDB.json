@@ -30205,7 +30205,7 @@
         "provides": ["advtrains_info_displays"],
         "release": 33299,
         "repo": "https://codeberg.org/Nazalassa/advtrains_info_displays.git",
-        "short_description": "A library that uses font_api to render text outside Advtrains trains. Supports several displays per wagon."
+        "short_description": "Work in Progress. A library that uses font_api to render text outside Advtrains trains. Supports several displays per wagon."
       },
       "advtrains_moreslopes": {
         "dependencies": ["advtrains_train_track", "advtrains"],
@@ -62619,7 +62619,7 @@
         "provides": ["shapetester"],
         "release": 33302,
         "repo": null,
-        "short_description": "Allows you to turn into a plethora of different species."
+        "short_description": "Work in Progress. Allows you to turn into a plethora of different species."
       },
       "super_magic": {
         "dependencies": ["default", "mana", "tnt"],
