@@ -2863,7 +2863,7 @@
         ],
         "release": 31948,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions."
+        "short_description": "Entdecke und erfinde eine surreale, unsympathische Welt aus Würfeln, Mustern und Abstraktionen."
       },
       "nodecore_alpha": {
         "hash": "1a9mp1f4m9kqw0i0cwy43f9q2hwcr363jyfr0ap1y4lkr5fblgml",
@@ -2915,7 +2915,7 @@
         ],
         "release": 31962,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)"
+        "short_description": "Frühausgabe mit der neuesten Ausstattung (und evtl. Schnitzern)"
       },
       "piranesi_redo": {
         "hash": "0d9l3rrq3s30qk7xjj1k6d8n43babnmvni0zgz0rrlrljkdqypky",
@@ -2993,7 +2993,7 @@
         ],
         "release": 33062,
         "repo": "https://codeberg.org/Wuzzy/Glitch",
-        "short_description": "You’re lost in cyberspace. Collect electrons, unlock new sectors and find your destination"
+        "short_description": "Sie haben sich im Cyberspace verlaufen. Sammeln Sie Elektronen, schalten Sie neue Sektoren frei und finden Sie Ihre wahre Bestimmung."
       },
       "hades_revisited": {
         "hash": "1h5mscs030sggip999kgiyc1x8fay5dw8h7vx90vimnvlyv7vqgd",
@@ -3464,7 +3464,7 @@
         ],
         "release": 32530,
         "repo": "https://codeberg.org/Wuzzy/Repixture",
-        "short_description": "Simplistic sandbox survival game that plays in mostly lush biomes in a mostly peaceful world and only simple technologies."
+        "short_description": "Ein einfaches und schönes Sandkastenaufbauspiel mit einem Fokus auf schlichten Technologien."
       },
       "shadow_forest": {
         "hash": "0gr324581cp4sd03akgnasbigbvxs22fpvxn63cd6fd1xyr7gla1",
@@ -3511,7 +3511,7 @@
         ],
         "release": 27445,
         "repo": "https://codeberg.org/Wuzzy/Shadow_Forest",
-        "short_description": "The forest has been overrun by the Shadows who’ve cursed it with eternal darkness. You’re the Wizard of Light; you’re the only hope to break the curse."
+        "short_description": "Der Wald wurde von den Schatten überrannt und steht unter ewiger Finsternis. Sie sind der Magier des Lichts; Sie sind die letzte Hoffnung, den schrecklichen Fluch zu brechen."
       },
       "tutorial": {
         "hash": "0z6lzj50lbnk9l9lm5252bykasrsqr7rvqfah1zqllhqdi3hdysh",
@@ -9397,7 +9397,7 @@
         "provides": ["foodblocks"],
         "release": 25796,
         "repo": "https://github.com/Montandalar/foodblocks",
-        "short_description": "Solid cubes of food for mass storage or building."
+        "short_description": "Feste Lebensmittelwürfel aus Essen für Großlagerung oder Aufbau."
       },
       "riddance": {
         "hash": "08k5zjss1i1zbg9r9w369g9gh0313ns4vk87mxrzjkkwry502m3c",
@@ -14640,7 +14640,6 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
@@ -14652,27 +14651,29 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "06k9g1a9dspghfkmnrhgsfc8y7dz76gdk84a9bnch98b91grcx17",
+        "hash": "1y73a8b7jq6j0vl1jmyaqni08s22w9fsiswsi251i1dwzsij7v6d",
         "provides": ["mystreets"],
-        "release": 31041,
+        "release": 33294,
         "repo": "https://github.com/DonBatman/mystreets.git",
         "short_description": "Adds asphalt and other items you need to build streets"
       },
@@ -18655,6 +18656,20 @@
         "release": 32793,
         "repo": "https://github.com/Extex101/dice_api.git",
         "short_description": "API for creating physical dice"
+      },
+      "dice_pack": {
+        "dependencies": ["dice_api", "xcompat"],
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "hades_revisited" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1cc4v383831mmabs9i9in2ll7q147blpblai1nyadlmx9akw0fsr",
+        "provides": ["dice_classic", "dice_crafter"],
+        "release": 33282,
+        "repo": "https://github.com/Extex101/dice_pack.git",
+        "short_description": "Collectable Dice to let Fate take the wheel!"
       },
       "ecliptic_cycle": {
         "hash": "0fm0zpsw3jv02l8yz330j8w79x2khm2585f9glfglq9ysb8di9h2",
@@ -24591,7 +24606,7 @@
         "provides": ["de_nenio"],
         "release": 24244,
         "repo": "https://github.com/jolesh/mt_de_nenio",
-        "short_description": "Adds possibilities to get items normally unobtainable in skyblock through new mechanics and objects"
+        "short_description": "Fügt durch neue Mechaniken Möglichkeiten hinzu, Gegenstände zu erhalten, die im Skyblock normalerweise nicht erhältlich sind"
       },
       "nuggets": {
         "dependencies": ["default"],
@@ -24634,7 +24649,7 @@
         "provides": ["nuggets"],
         "release": 24245,
         "repo": "https://github.com/jolesh/mt_nuggets",
-        "short_description": "Adds nuggets and shards"
+        "short_description": "Fügt Nuggets und Splitter hinzu."
       },
       "resource_crops_evolved": {
         "dependencies": ["default", "resource_crops"],
@@ -24684,7 +24699,7 @@
         "provides": ["simple_recycle"],
         "release": 29057,
         "repo": "https://github.com/jolesh/mt_simple_recycle",
-        "short_description": "Adds the possibility to recycle items and nodes by smelting or decrafting them back to their original resources."
+        "short_description": "Fügt die Möglichkeit hinzu, Elemente und Knoten zu recyceln, indem sie eingeschmolzen oder wieder in ihre ursprünglichen Ressourcen zerlegt werden."
       },
       "waste": {
         "dependencies": ["default", "nuggets"],
@@ -24730,7 +24745,7 @@
         ],
         "release": 24277,
         "repo": "https://github.com/jolesh/mt_waste",
-        "short_description": "Adds Waste and ways to recycle it into useful resources"
+        "short_description": "Fügt Müll und Möglichkeiten hinzu, ihn in nützliche Ressourcen zu recyceln"
       }
     },
     "Jose_ManuelS18": {
@@ -27759,7 +27774,7 @@
         "provides": ["biofuel"],
         "release": 26326,
         "repo": "https://github.com/Lokrates/Biofuel",
-        "short_description": "Produce biofuel from unused plants."
+        "short_description": "Eine Minetest-Mod zur Herstellung von Biokraftstoff aus ungenutzten Pflanzen."
       }
     },
     "LoneSurvivr": {
@@ -28276,7 +28291,7 @@
         "provides": ["armor_toggle"],
         "release": 32068,
         "repo": "https://github.com/Luffy0805/armor_toggle/",
-        "short_description": "Enable and disable the visibility of the armor (3D Armor) using chat commands."
+        "short_description": "Aktivieren und Deaktivieren der Sichtbarkeit der Rüstung (3D Armor) über Chat-Befehle."
       },
       "mesecons_remote": {
         "dependencies": ["mesecons"],
@@ -30186,11 +30201,11 @@
     "Nazalassa": {
       "advtrains_info_displays": {
         "dependencies": ["advtrains", "font_api"],
-        "hash": "1kd3cszg16qbbk350mpj354pil5chlq93nxginglh16ykyrxrsp0",
+        "hash": "0qmsqbqc63h6s3119mzkmpvy7f75f1qcdijg0mvanh7p944fl5vc",
         "provides": ["advtrains_info_displays"],
-        "release": 29273,
+        "release": 33299,
         "repo": "https://codeberg.org/Nazalassa/advtrains_info_displays.git",
-        "short_description": "Work in Progress. A library that uses font_api to render text outside Advtrains trains. Supports several displays per wagon."
+        "short_description": "A library that uses font_api to render text outside Advtrains trains. Supports several displays per wagon."
       },
       "advtrains_moreslopes": {
         "dependencies": ["advtrains_train_track", "advtrains"],
@@ -31652,7 +31667,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -31666,9 +31680,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0wzpcpn6j5c425k4hl0ym0lxz3891pji3c20r4wg7zx7ji2iakmw",
+        "hash": "0rfjc2wqbr294vpvw405p2z0mwrlbc50mm3djkqgkvpwddyykvxm",
         "provides": ["powerbanks"],
-        "release": 25860,
+        "release": 33298,
         "repo": "https://github.com/OgelGames/powerbanks",
         "short_description": "Adds portable powerbanks used to charge technic tools"
       },
@@ -34363,9 +34377,9 @@
       },
       "staffranks": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0pw9a9hqzcgwc3dvf405qiy97g4l93g6w5k4vn1wwvydw57vdn0q",
+        "hash": "1bsbng9kzk2r7ilbm3y9b0nxkr2ak2y07w65y2b798g64iqsxxby",
         "provides": ["staffranks"],
-        "release": 31368,
+        "release": 33295,
         "repo": "https://github.com/Elysian-dev/StaffRanks.git",
         "short_description": "Adds ranks, in chat and in nametag."
       }
@@ -37215,7 +37229,7 @@
         "provides": ["tph_eating"],
         "release": 32648,
         "repo": "https://codeberg.org/TPH/tph_eating",
-        "short_description": "Eating with particles, sounds, visible ItemStacks (5.4+), and holding down input. Heavy coding customization for programmers"
+        "short_description": "Essen mit Partikeln, Sounds, sichtbaren ItemStacks (5.4+) und Gedrückthalten einer Taste. Starke Anpassungsmöglichkeiten für Programmierer"
       },
       "tph_notenode": {
         "game_support": [
@@ -37244,7 +37258,7 @@
         "provides": ["tph_spyglass"],
         "release": 24917,
         "repo": "https://codeberg.org/TPH/tph_spyglass",
-        "short_description": "Provides a Spyglass for zooming in and out (if RMB is pressed)"
+        "short_description": "Bieten ein Handfernrohr fur hinein- und herauszoomen (wenn RMB angeklickt wird)"
       },
       "tph_wielditem": {
         "dependencies": ["events_api"],
@@ -37794,7 +37808,6 @@
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -37805,9 +37818,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "0rw5b67d6zgxgrg2s8hxqip9q29dky3daflcl5l18425b80xky3n",
+        "hash": "1i7a9d0yzc43497h01d4dvk1jbccrga6qsrcm2jmy3a8jzx8ndxb",
         "provides": ["bees"],
-        "release": 32009,
+        "release": 33300,
         "repo": "https://codeberg.org/tenplus1/bees",
         "short_description": "This mod adds bees and beehives into minetest"
       },
@@ -38056,9 +38069,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1n2560cc02hj9z5ay8kvbs018ssxx2v1lln35ahx2vp58kilrdn5",
+        "hash": "03kpff01abrdmdi53id2kpbw0n2jnd61vl10l23ikjiwf59spkaa",
         "provides": ["ethereal"],
-        "release": 33048,
+        "release": 33301,
         "repo": "https://codeberg.org/tenplus1/ethereal",
         "short_description": "Adds many new biomes, items and mechanics into the world."
       },
@@ -41906,7 +41919,7 @@
         "provides": ["doc"],
         "release": 28637,
         "repo": "https://codeberg.org/Wuzzy/minetest_doc",
-        "short_description": "A simple in-game documentation system which enables mods to add help entries based on templates."
+        "short_description": "Ein einfaches Spieldokumentationssystem, welches Mods ermöglicht, basierend auf Vorlagen Hilfeeinträge hinzuzufügen."
       },
       "doc_basics": {
         "dependencies": ["doc"],
@@ -41914,7 +41927,7 @@
         "provides": ["doc_basics"],
         "release": 28638,
         "repo": "https://codeberg.org/Wuzzy/minetest_doc_basics",
-        "short_description": "Adds some help texts explaining how to use Luanti."
+        "short_description": "Fügt einige Hilfetexte hinzu, die erklären, wie man Luanti benutzt."
       },
       "doc_encyclopedia": {
         "dependencies": ["doc"],
@@ -41922,7 +41935,7 @@
         "provides": ["doc_encyclopedia"],
         "release": 28640,
         "repo": "https://codeberg.org/Wuzzy/minetest_doc_encyclopedia",
-        "short_description": "Adds an encyclopedia item which allows you to access the help."
+        "short_description": "Fügt einen Enzyklopädiegegenstand hinzu, der Ihnen erlaubt, auf die Hilfe zuzugreifen."
       },
       "doc_identifier": {
         "dependencies": ["doc_items", "doc"],
@@ -41930,7 +41943,7 @@
         "provides": ["doc_identifier"],
         "release": 28641,
         "repo": "https://codeberg.org/Wuzzy/minetest_doc_identifier",
-        "short_description": "Adds a tool which shows help entries about almost anything which it punches."
+        "short_description": "Fügt ein Werkzeug hinzu, welches Hilfeeinträge über fast allem, was es berührt, anzeigt."
       },
       "doc_items": {
         "dependencies": ["doc"],
@@ -41938,7 +41951,7 @@
         "provides": ["doc_items"],
         "release": 28639,
         "repo": "https://codeberg.org/Wuzzy/minetest_doc_items",
-        "short_description": "Adds automatically generated help texts for items."
+        "short_description": "Fügt automatisch generierte Hilfetexte für Gegenstände hinzu."
       },
       "easyvend": {
         "hash": "06yh1fb08w7sf3sxdb6v8xa4h1wymis0p1bwkcjwr9lmq24ckkmp",
@@ -41952,7 +41965,7 @@
         "provides": ["findbiome"],
         "release": 24362,
         "repo": "https://codeberg.org/Wuzzy/minetest_findbiome",
-        "short_description": "Add commands to list and find biomes"
+        "short_description": "Fügt Befehle zum Auflisten und Finden von Biomen hinzu"
       },
       "flying_carpet": {
         "hash": "0kg3gjdj45cw5zj8k7naakzz2l6k32bzfybgvcbasgv6dw4q0lc5",
@@ -41966,7 +41979,7 @@
         "provides": ["getitem"],
         "release": 28264,
         "repo": "https://codeberg.org/Wuzzy/minetest_getitem",
-        "short_description": "Allows you to get all items"
+        "short_description": "Erlaubt einem, alle Gegenstände zu erhalten"
       },
       "giftbox2": {
         "dependencies": ["config", "formspecs"],
@@ -42056,7 +42069,7 @@
         "provides": ["hbhunger"],
         "release": 26108,
         "repo": "https://codeberg.org/Wuzzy/minetest_hbhunger",
-        "short_description": "This mod adds a simple hunger mechanic (plus HUD bar) to the game. Eat food to avoid starvation, be sated to regenerate health."
+        "short_description": "Fügt ein einfaches Hungersystem hinzu, mit Sättigung, Lebensmittelvergiftung und anderer Heilung."
       },
       "hudbars": {
         "hash": "0rsdfd9f0x6nm2abrz30cxgfvxm4qfi48v7w3i7ff01wxn8njys6",
@@ -42151,7 +42164,7 @@
         "provides": ["orienteering"],
         "release": 24681,
         "repo": "https://codeberg.org/Wuzzy/minetest_orienteering",
-        "short_description": "A collection of tools to help you orient yourselves in the world, such as compass, altimeter, etc."
+        "short_description": "Eine Sammlung von Werkzeugen, die bei der Orientierung in der Welt helfen, z. B. Kompass, Höhenmesser, usw."
       },
       "origin": {
         "hash": "079vrh53pcw4jbkivbxijnvqsf5aknvld388x4vzpd42cbbp2bvl",
@@ -42222,7 +42235,7 @@
         "provides": ["schemedit"],
         "release": 31859,
         "repo": "https://codeberg.org/Wuzzy/minetest_schemedit",
-        "short_description": "Advanced tool for modders and advanced users to create and edit schematics."
+        "short_description": "Fortgeschrittenes Werkzeug für Modder und fortgeschrittene Benutzer, um Schematics zu erstellen und zu bearbeiten."
       },
       "select_item": {
         "hash": "1a8zd4f91yykifws3w7c96bxnq13nv2q1aznfl6vj3yy6m3qihyq",
@@ -42244,7 +42257,7 @@
         "provides": ["show_wielded_item"],
         "release": 26659,
         "repo": "https://codeberg.org/Wuzzy/minetest_show_wielded_item",
-        "short_description": "Displays the name of the wielded item."
+        "short_description": "Zeigt den Namen des getragenen Gegenstands an."
       },
       "sloweater": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -42428,7 +42441,7 @@
         "provides": ["tt"],
         "release": 33090,
         "repo": "https://codeberg.org/Wuzzy/minetest_tt",
-        "short_description": "Support for custom tooltip extensions for items"
+        "short_description": "Unterstützung für eigene Tooltip-Erweiterungen für Gegenstände"
       },
       "tt_base": {
         "dependencies": ["tt"],
@@ -42481,7 +42494,7 @@
         "provides": ["xdecor"],
         "release": 33193,
         "repo": "https://codeberg.org/Wuzzy/xdecor-libre",
-        "short_description": "A decoration mod meant to be simple and well-featured (libre version)."
+        "short_description": "Eine freie simple Dekorationsmod mit netten Features."
       }
     },
     "X-DE1": {
@@ -43733,7 +43746,7 @@
         "provides": ["achievements_lib"],
         "release": 31370,
         "repo": "https://gitlab.com/zughy-friends-minetest/achievements_lib",
-        "short_description": "Add unlockable achievements to your game and mods"
+        "short_description": "Füge freischaltbare Erfolge zu deinen Spielen und Mods hinzu"
       },
       "arena_lib": {
         "dependencies": ["audio_lib", "lib_chatcmdbuilder", "signs_lib"],
@@ -43741,7 +43754,7 @@
         "provides": ["arena_lib"],
         "release": 32174,
         "repo": "https://gitlab.com/zughy-friends-minetest/arena_lib",
-        "short_description": "Library to create any mini-game you have in mind"
+        "short_description": "Bibliothek zum einfachen Erstellen von Minigames"
       },
       "audio_lib": {
         "dependencies": ["panel_lib"],
@@ -43749,7 +43762,7 @@
         "provides": ["audio_lib"],
         "release": 29542,
         "repo": "https://gitlab.com/zughy-friends-minetest/audio_lib",
-        "short_description": "Library to easily manage sounds (accessibility options!)"
+        "short_description": "Programmierbibliothek, mit der man Sounds leicht verwalten kann (Barrierefreiheitsoptionen!)"
       },
       "block_league": {
         "dependencies": [
@@ -43864,21 +43877,21 @@
         "provides": ["collectible_skins"],
         "release": 32177,
         "repo": "https://gitlab.com/zughy-friends-minetest/collectible-skins",
-        "short_description": "Wear and unlock skins"
+        "short_description": "Trage oder schalte eigene Skins frei"
       },
       "country_lib": {
         "hash": "01xs441aax1069g26wzr0acxw82bynlpqnam9jl8s9lpn8axa0ym",
         "provides": ["country_lib"],
         "release": 32176,
         "repo": "https://gitlab.com/zughy-friends-minetest/country_lib.git",
-        "short_description": "small util library providing country localised names and flags"
+        "short_description": "Kleine Unterstützungsbibliothek, die lokalisierte Ländernamen und -flaggen zur Verfügung stellt"
       },
       "magic_compass": {
         "hash": "0xpc0bribq6260g2sf13ckhb3ghlcxdawn161sl0zbpf8a6pd4cg",
         "provides": ["magic_compass"],
         "release": 32178,
         "repo": "https://gitlab.com/zughy-friends-minetest/magic-compass",
-        "short_description": "Teleport system, all inside a compass"
+        "short_description": "Gegenstand, mit dem man zu vom Server definierten Orten teleportieren kann"
       },
       "panel_lib": {
         "hash": "04lnfl542frg5n213savxrrapiyksx6674kbn0nphn6rwsh458ym",
@@ -43893,7 +43906,7 @@
         "provides": ["parties"],
         "release": 31050,
         "repo": "https://gitlab.com/zughy-friends-minetest/parties/",
-        "short_description": "Team up with your friends and create a party!"
+        "short_description": "Tu dich mit deinen Freunden zusammen und erstelle eine Party!"
       },
       "weapons_lib": {
         "dependencies": ["panel_lib"],
@@ -43909,7 +43922,7 @@
         "provides": ["whitelist"],
         "release": 32175,
         "repo": "https://gitlab.com/zughy-friends-minetest/whitelist",
-        "short_description": "Manage who can and who can't enter in your server"
+        "short_description": "Verwalten, wer den Server betreten kann und wer nicht"
       }
     },
     "_Xenon": {
@@ -49970,7 +49983,7 @@
         "provides": ["minecart"],
         "release": 32135,
         "repo": "https://github.com/joe7575/minecart",
-        "short_description": "Minecart, the lean railway transportation automation system"
+        "short_description": "Minecart, das schlanke Schienentransport Automatisierungssystem"
       },
       "signs_bot": {
         "dependencies": ["basic_materials", "default", "farming", "tubelib2"],
@@ -51630,50 +51643,6 @@
         "release": 20588,
         "repo": null,
         "short_description": "Have you ever dreamed of using world edit on minetest?... well it’s possible!!"
-      }
-    },
-    "limafresh": {
-      "coloredbricks": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
-        ],
-        "hash": "1hak7ljjahrnr9dprwa9knmflmnmfgbq97m1lhwddphjllb4qgnd",
-        "provides": ["coloredbricks"],
-        "release": 33270,
-        "repo": "https://github.com/limafresh/coloredbricks",
-        "short_description": "Adds colored brick nodes."
       }
     },
     "lisacvuk": {
@@ -54009,24 +53978,20 @@
         "short_description": "Random digilines devices"
       },
       "digiterms": {
-        "dependencies": [
-          "default",
-          "digilines",
-          "display_api",
-          "dye",
-          "font_api"
-        ],
+        "dependencies": ["digilines", "display_api", "font_api", "xcompat"],
         "game_support": [
+          { "author": "BRNSystems", "name": "blocky_portaling" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" }
+          { "author": "nam", "name": "porko" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "07qc15pp295jd5nicwfj54gxijfyv64kpaxczfdcpwmika379n8a",
+        "hash": "0y8563k1a25ccbnm9ic6cmb29s1chb1rm170bn3sc2vx7yskk2mh",
         "provides": ["digiterms"],
-        "release": 1442,
+        "release": 33292,
         "repo": "https://github.com/mt-mods/digiterms",
         "short_description": "8bits style monitor and keyboards using digilines"
       },
@@ -55489,7 +55454,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -55503,9 +55467,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0mf3hibmsq2nwxlgidism1lmizn6wcpzldjlxbj935iz6k92fq13",
+        "hash": "0zv2k13fx5zadnvb2fz25ykq8wmsmlkrm9l7yv2r4v7iqxwsb8hr",
         "provides": ["telemosaic"],
-        "release": 29189,
+        "release": 33297,
         "repo": "https://github.com/mt-mods/telemosaic",
         "short_description": "A Minetest mod for user-generated teleportation pads."
       },
@@ -55754,9 +55718,9 @@
           { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0lvyfjfirl6xryg5ngfrfg2pcg33r1hip3gwaczandxwc0ydcr0w",
+        "hash": "1lnvsvnra5hcasn6andb44zg3fsvpwpf4ylp200ww8xcswda50an",
         "provides": ["xcompat"],
-        "release": 33211,
+        "release": 33296,
         "repo": "https://github.com/mt-mods/xcompat",
         "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
       },
@@ -56427,7 +56391,7 @@
         "provides": ["more_up_packs"],
         "release": 4743,
         "repo": "https://github.com/nolombic/more_up_packs",
-        "short_description": "Upgrade your upgrade packs so you can have even higher stats!"
+        "short_description": "Verbessere deine Verbesserungspakete, damit du noch höhere Werte haben kannst!"
       }
     },
     "nri": {
@@ -58695,7 +58659,7 @@
         "provides": ["auto_door"],
         "release": 29700,
         "repo": "https://gitgud.io/blut/auto_door",
-        "short_description": "Automatically opens and closes doors for players"
+        "short_description": "Öffnet und schließt Türen automatisch für Spieler"
       },
       "birds": {
         "hash": "1gfz5sfh87545jc26vx8kxynhb2yqrps1ln62swzr07pzb1mi8c5",
@@ -58714,7 +58678,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Hozzáad vérfröccsenést játékosoknak és lényeknek."
+        "short_description": "Fügt Blutspritzer für Spieler und Kreaturen hinzu."
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -58722,7 +58686,7 @@
         "provides": ["bow2"],
         "release": 29083,
         "repo": "https://gitgud.io/blut/bow2",
-        "short_description": "Adds bow and arrows."
+        "short_description": "Fügt Bogen und Pfeile hinzu."
       },
       "cbeds": {
         "game_support": [
@@ -58746,7 +58710,7 @@
         "provides": ["fraktur"],
         "release": 29456,
         "repo": "https://gitgud.io/blut/fraktur",
-        "short_description": "Adds a whole set of Fraktur type metals in the form of nodes."
+        "short_description": "Fügt einen ganzen Fraktursatz in Form von Blöcken hinzu."
       },
       "hidestone": {
         "dependencies": ["mesecons_mvps", "mesecons"],
@@ -58754,7 +58718,7 @@
         "provides": ["hidestone"],
         "release": 29568,
         "repo": "https://gitgud.io/blut/hidestone",
-        "short_description": "Adds a stone that can hide up to 100 blocks."
+        "short_description": "Fügt einen Stein hinzu, der bis zu 100 Blöcke verstecken kann."
       },
       "powerguns": {
         "dependencies": ["accuracy"],
@@ -58780,7 +58744,7 @@
         "provides": ["rifles"],
         "release": 29760,
         "repo": "https://gitgud.io/blut/rifles",
-        "short_description": "Adds guns, rocket launchers and grenades."
+        "short_description": "Fügt Schußwaffen, Raketenwerfer und Granaten hinzu."
       },
       "shuriken": {
         "dependencies": ["accuracy"],
@@ -58793,7 +58757,7 @@
         "provides": ["shuriken"],
         "release": 29085,
         "repo": "https://gitgud.io/blut/shuriken",
-        "short_description": "Adds shuriken."
+        "short_description": "Fügt Wurfsterne hinzu."
       },
       "simple_crafting": {
         "game_support": [
@@ -58830,7 +58794,7 @@
         "provides": ["target"],
         "release": 29517,
         "repo": "https://gitgud.io/blut/target",
-        "short_description": "Adds target to shoot at. Target emits Mesecons and Digilines signal"
+        "short_description": "Fügt Zielscheibe hinzu. Zielscheibe sendet Meseconssignal."
       },
       "traverse": {
         "game_support": [
@@ -59589,6 +59553,20 @@
         "release": 20617,
         "repo": null,
         "short_description": "Andesite, Diorite, Granite, and Deepslate tools for Mineclone2."
+      },
+      "vl_rocky_tools": {
+        "dependencies": [
+          "mcl_deepslate",
+          "mcl_farming",
+          "mcl_tools",
+          "vl_deepslate_tools"
+        ],
+        "game_support": [{ "author": "Wuzzy", "name": "mineclone2" }],
+        "hash": "0i5wbc6s8d991k6vnsr2kgk0z8d7pkfgxidc9hh8n2si3s0bzg45",
+        "provides": ["vl_rocky_tools"],
+        "release": 33274,
+        "repo": null,
+        "short_description": "Adds granite, andesite, and diorite tools, plus buffed deepslate pickaxe/hoe/shovel and weird netherrack pickaxe"
       }
     },
     "sorcerykid": {
@@ -60297,7 +60275,7 @@
         "provides": ["ancientrunes"],
         "release": 29822,
         "repo": "https://github.com/minetest-mods/ancientrunes",
-        "short_description": "Ancient Runes"
+        "short_description": "Alte Runen"
       }
     },
     "srifqi": {
@@ -62637,11 +62615,11 @@
           { "author": "jara25", "name": "yams" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "1wnxqc6763s58mvsw593aaihljnyizwxfsfk3swdmi7kvizx8lfk",
+        "hash": "1w636i7bff6h5gjcivc23ka4qgvlzb9698qjmx31kjc0bnwff4fd",
         "provides": ["shapetester"],
-        "release": 32898,
+        "release": 33302,
         "repo": null,
-        "short_description": "Work in Progress. Allows you to turn into a plethora of different species."
+        "short_description": "Allows you to turn into a plethora of different species."
       },
       "super_magic": {
         "dependencies": ["default", "mana", "tnt"],
@@ -63382,7 +63360,7 @@
         "hash": "09m76nrz5379bjhlj0cgz4fzl80ch7h0nms6hk5yckvqaj2kvm25",
         "release": 28164,
         "repo": "https://codeberg.org/Wuzzy/minetest_retroplus",
-        "short_description": "Look and feel of the oldest versions of Minetest-c55"
+        "short_description": "Texturen im Stile der ältesten Versionen von Minetest-c55"
       }
     },
     "Zander_200": {
