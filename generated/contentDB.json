@@ -3566,7 +3566,7 @@
     },
     "awuuwa": {
       "clonecraftlibre": {
-        "hash": "19kiv6137vq5d339bq12azy4xa623mgr8c88wcpnsdqnsljm8x7w",
+        "hash": "1ckwy7jx20dlz62qsx35pi5vvh6kmrv0xy319fi32c97ml85i046",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -3625,6 +3625,7 @@
           "mcl_daylight_detector",
           "mcl_death_drop",
           "mcl_death_messages",
+          "mcl_deepslate",
           "mcl_dispensers",
           "mcl_doc_basics",
           "mcl_doc",
@@ -3743,9 +3744,9 @@
           "tt",
           "walkover"
         ],
-        "release": 33269,
+        "release": 33304,
         "repo": null,
-        "short_description": "Work in Progress. An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience unlike both Mineclonia and VoxeLibre which focus on the latest features"
+        "short_description": "An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience unlike both Mineclonia and VoxeLibre which focus on the latest features"
       }
     },
     "bell07": {
@@ -14671,9 +14672,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1y73a8b7jq6j0vl1jmyaqni08s22w9fsiswsi251i1dwzsij7v6d",
+        "hash": "0ryvr9fp13a7iq6xzshqfr75b9k0lxywfl5al60njqij67bj4irb",
         "provides": ["mystreets"],
-        "release": 33294,
+        "release": 33303,
         "repo": "https://github.com/DonBatman/mystreets.git",
         "short_description": "Adds asphalt and other items you need to build streets"
       },
@@ -61381,64 +61382,20 @@
         "short_description": "Work in Progress. the player can become a vampire by drinking a potion"
       }
     },
-    "tim56126": {
-      "wallygoo2": {
-        "dependencies": ["default"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rlars", "name": "occupymoon_game" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
-        ],
-        "hash": "1njaw163sqbj81p50calwxhl6brdj40sraf992djybx3g4zgz5l9",
-        "provides": ["wallygoo2"],
-        "release": 33228,
-        "repo": null,
-        "short_description": "a funny addon that is a goofy time"
-      }
-    },
     "titou4": {
       "titou_nicknames": {
-        "hash": "1ff9srwnqs64p1l1vxskgbyi1q77bpysw3njsg5l8pb95a19j271",
+        "hash": "125zfjaz274xxigrxn08hj5r230d246z2ihfz5cr8fzhljgjgv23",
         "provides": ["titou_nicknames"],
-        "release": 32965,
+        "release": 33309,
         "repo": null,
-        "short_description": "Work in Progress. manage visibility of nicknames of players"
+        "short_description": "manage visibility of nicknames of players"
       },
       "titou_random_teleport": {
-        "hash": "0q0fdamf8x8if13frxpwdc8kfy0k6jak1j22n91cxc87f20mkl28",
+        "hash": "1vzfq1j720c7rjy88plrjpgscb15bsx09169i0df0bx7v0hgm3hg",
         "provides": ["titou_random_teleport"],
-        "release": 32968,
+        "release": 33308,
         "repo": null,
-        "short_description": "Work in Progress. this mod serves to be teleported to a random location."
+        "short_description": "this mod serves to be teleported to a random location."
       }
     },
     "ulla": {
