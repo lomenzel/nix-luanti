@@ -2938,7 +2938,7 @@
     },
     "Wuzzy": {
       "eyeballs": {
-        "hash": "1n89vykvi1rrl0sdlfrdqxsv1nb55q5sq3apsc7ldcmfffkkc64c",
+        "hash": "1nbblslv7w8mwm6xymq283sss9p1p572z07qnjhzzavid40gjvpv",
         "provides": [
           "eb_core",
           "eb_editor",
@@ -2959,12 +2959,12 @@
           "eb_transition",
           "eb_triggers"
         ],
-        "release": 31273,
+        "release": 33316,
         "repo": "https://codeberg.org/Wuzzy/Eyeballs",
         "short_description": "Explore the Realm of Eyes, but you must be seen by the friendly eyeballs at all times."
       },
       "glitch": {
-        "hash": "067wlf2xq8y0zhxkqvpq9kgnxf9dz804y83saxq4fyzyrxjxqpnk",
+        "hash": "0m28yp8v3xfxh25mf682qqwvp02a5nm1z8wk46ydk71yrrwcw3l4",
         "provides": [
           "glitch_abilities",
           "glitch_ambience",
@@ -2991,7 +2991,7 @@
           "glitch_utils",
           "playerphysics"
         ],
-        "release": 33062,
+        "release": 33314,
         "repo": "https://codeberg.org/Wuzzy/Glitch",
         "short_description": "Sie haben sich im Cyberspace verlaufen. Sammeln Sie Elektronen, schalten Sie neue Sektoren frei und finden Sie Ihre wahre Bestimmung."
       },
@@ -3092,7 +3092,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "10vvgvmg3zm7y06pah3xwk7lpp00w7pdn1xc3dafa4ifyzi9rqbw",
+        "hash": "16zgc9cqxp65389c60zfyai7r5s4q3ky33x7gf72g4r8a7vgkw5m",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3155,7 +3155,7 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 33265,
+        "release": 33315,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
         "short_description": "Be a pirate and solve laser puzzles"
       },
@@ -3467,7 +3467,7 @@
         "short_description": "Ein einfaches und schönes Sandkastenaufbauspiel mit einem Fokus auf schlichten Technologien."
       },
       "shadow_forest": {
-        "hash": "0gr324581cp4sd03akgnasbigbvxs22fpvxn63cd6fd1xyr7gla1",
+        "hash": "1hc94lqjc4cy9ilqccn23w1znql5jc6a9hjf2c9cgn1pgwjapamm",
         "provides": [
           "playerphysics",
           "sf_commands",
@@ -3509,7 +3509,7 @@
           "sf_world",
           "sf_zones"
         ],
-        "release": 27445,
+        "release": 33317,
         "repo": "https://codeberg.org/Wuzzy/Shadow_Forest",
         "short_description": "Der Wald wurde von den Schatten überrannt und steht unter ewiger Finsternis. Sie sind der Magier des Lichts; Sie sind die letzte Hoffnung, den schrecklichen Fluch zu brechen."
       },
@@ -11689,6 +11689,44 @@
         "repo": "https://github.com/acmgit/coins",
         "short_description": "Adds 3 kind of Coins to your game"
       },
+      "colored_stone": {
+        "dependencies": ["default", "dye"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" }
+        ],
+        "hash": "0a0yxk1bbayyk5v0fpib2sq05ldmyynbmb7dkvsaib5j88z00gg8",
+        "provides": ["colored_stone"],
+        "release": 33245,
+        "repo": "https://github.com/acmgit/colored_stone.git",
+        "short_description": "provides colored stones."
+      },
       "cucina_vegana": {
         "dependencies": ["default", "dye", "farming", "vessels"],
         "game_support": [
@@ -12914,6 +12952,48 @@
         "release": 30404,
         "repo": "https://github.com/DonBatman/myappliances.git",
         "short_description": "A basic set of appliances"
+      },
+      "myblocks": {
+        "dependencies": ["default", "stairs"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "1rs7q37sjbk9wlj5n0f0ss8920f54x5zf07lxmm90kyjhll5dhby",
+        "provides": ["myblocks"],
+        "release": 33305,
+        "repo": "https://github.com/DonBatman/myblocks.git",
+        "short_description": "Special Blocks"
       },
       "myboardgames": {
         "dependencies": ["default"],
@@ -32616,7 +32696,6 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
@@ -32628,27 +32707,29 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1hcapqbmq21k3vs95j8z0qcv9l5bzjyrg5r62i1qy89xd0y4sws8",
+        "hash": "0sf25ifvkxr6gyimzk7yxp6jvassglvqaxy91p1a4n22rbb2p3bq",
         "provides": ["aquamarine"],
-        "release": 28159,
+        "release": 33320,
         "repo": null,
         "short_description": "Adds Aquamarine ore, ingots, etc."
       },
@@ -51786,6 +51867,13 @@
         "repo": "https://gitlab.com/validandloved/antigriefprivs",
         "short_description": "Adds water, lava, and tnt privs, that allow server administrators to decide who gets access to water, lava, and tnt."
       },
+      "chat_glue": {
+        "hash": "00qxqz7a7z0lq2b7k58nz2ghlw5grnx9frjcs4sqg98ycn68q4bk",
+        "provides": ["chat_glue"],
+        "release": 33246,
+        "repo": "https://gitlab.com/validandloved/chat_glue",
+        "short_description": "\"Glues\" together mods like ranks, chat_anticurse, pronouns, and dcwebhook, so that they work with eachother."
+      },
       "mesecons_remote": {
         "dependencies": [
           "default",
@@ -61388,14 +61476,14 @@
         "provides": ["titou_nicknames"],
         "release": 33309,
         "repo": null,
-        "short_description": "Work in Progress. manage visibility of nicknames of players"
+        "short_description": "manage visibility of nicknames of players"
       },
       "titou_random_teleport": {
         "hash": "1vzfq1j720c7rjy88plrjpgscb15bsx09169i0df0bx7v0hgm3hg",
         "provides": ["titou_random_teleport"],
         "release": 33308,
         "repo": null,
-        "short_description": "Work in Progress. this mod serves to be teleported to a random location."
+        "short_description": "this mod serves to be teleported to a random location."
       }
     },
     "ulla": {
@@ -62180,11 +62268,11 @@
       "sprinting": {
         "dependencies": ["default", "player_api"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1qg3b8aymjffrywygbh38d4h9pkr8szimvinc0zssnsciga57psg",
+        "hash": "0dkcl1c1qqdk0479p0ss7mn0k7gzskzj5sl0kgcb5h78csjs1hdf",
         "provides": ["sprinting"],
-        "release": 32409,
+        "release": 33318,
         "repo": "https://github.com/xXOsielXx/luanti-mod-sprinting",
-        "short_description": "Work in Progress. Allow sprinting/running with double tap"
+        "short_description": "Allow sprinting/running with double tap"
       }
     },
     "xenonca": {
@@ -62572,11 +62660,11 @@
           { "author": "jara25", "name": "yams" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "1w636i7bff6h5gjcivc23ka4qgvlzb9698qjmx31kjc0bnwff4fd",
+        "hash": "08yvh0zyfw0ksis010hc395jz5fqws7q5yv176333ff7as7a64w8",
         "provides": ["shapetester"],
-        "release": 33302,
+        "release": 33319,
         "repo": null,
-        "short_description": "Work in Progress. Allows you to turn into a plethora of different species."
+        "short_description": "Ermöglicht Ihnen, sich in eine Vielzahl verschiedener Arten zu verwandeln."
       },
       "super_magic": {
         "dependencies": ["default", "mana", "tnt"],
