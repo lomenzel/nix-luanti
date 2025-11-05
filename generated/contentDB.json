@@ -3092,7 +3092,7 @@
         "short_description": "Work in Progress. You have stranded on the planet Hades. Use your limited supplies to survive and use terraforming to create a beautiful habitable place. (EARLY TEST VERSION)"
       },
       "lazarr": {
-        "hash": "16zgc9cqxp65389c60zfyai7r5s4q3ky33x7gf72g4r8a7vgkw5m",
+        "hash": "16ip3pa2z5a455mx3wjr8bx7753ingfvxg48837ziw5wn9ddpl85",
         "provides": [
           "lzr_ambience",
           "lzr_check_movement_settings",
@@ -3155,7 +3155,7 @@
           "show_wielded_item",
           "tt"
         ],
-        "release": 33315,
+        "release": 33332,
         "repo": "https://codeberg.org/Wuzzy/Lazarr",
         "short_description": "Be a pirate and solve laser puzzles"
       },
@@ -4805,7 +4805,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1nsyfqs58wb01jii9cbc0rxczkmyn01rsmhjqgh18lhvwfr0pcf9",
+        "hash": "0fy7v05k72p9x5ghzxd6gn8h38c5qj8d9gwp4dlgspzl3gwxaxqf",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5037,7 +5037,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33279,
+        "release": 33324,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -11721,11 +11721,11 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "0a0yxk1bbayyk5v0fpib2sq05ldmyynbmb7dkvsaib5j88z00gg8",
+        "hash": "0r0xqs23hv54yj2cv909abq5x44mqxfdlczy6y56pr2sknva7c48",
         "provides": ["colored_stone"],
-        "release": 33245,
+        "release": 33321,
         "repo": "https://github.com/acmgit/colored_stone.git",
-        "short_description": "Work in Progress. provides colored stones."
+        "short_description": "provides colored stones."
       },
       "cucina_vegana": {
         "dependencies": ["default", "dye", "farming", "vessels"],
@@ -12989,9 +12989,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1rs7q37sjbk9wlj5n0f0ss8920f54x5zf07lxmm90kyjhll5dhby",
+        "hash": "0ll703xdrv9d9abw0j827b54l19jh4v0vzqnd27kbsfk85b1l7jc",
         "provides": ["myblocks"],
-        "release": 33305,
+        "release": 33322,
         "repo": "https://github.com/DonBatman/myblocks.git",
         "short_description": "Special Blocks"
       },
@@ -13213,11 +13213,10 @@
         "short_description": "This is a simple mod that lets you turn cobble into gravel and gravel into sand"
       },
       "myconcrete": {
-        "dependencies": ["default"],
+        "dependencies": ["default", "stairs"],
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
@@ -13229,27 +13228,29 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1zi1cn7aapj6dwjgg5j5bq73b8jqdp1mxznfik9j22dgrj4pijcc",
+        "hash": "1xaja3qwjjb5c6j9raw9l3ab3d3nrw4gb8swis5frcryf767k58s",
         "provides": ["myconcrete"],
-        "release": 31018,
+        "release": 33325,
         "repo": "https://github.com/DonBatman/myconcrete.git",
         "short_description": "Myconcrete adds concrete blocks, sidewalks and other items"
       },
@@ -14752,9 +14753,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0ryvr9fp13a7iq6xzshqfr75b9k0lxywfl5al60njqij67bj4irb",
+        "hash": "0p1szaki37wv7128hbfw1h2xpf1mqnc6s72y4ycr9rx5wrkw0g3l",
         "provides": ["mystreets"],
-        "release": 33303,
+        "release": 33326,
         "repo": "https://github.com/DonBatman/mystreets.git",
         "short_description": "Adds asphalt and other items you need to build streets"
       },
@@ -17493,9 +17494,9 @@
       },
       "refill": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1a141gi0zv0hs8fqvl0bgngh7qggdcyx5mskk63kyajr13nz1ksa",
+        "hash": "0c1658h4vknq6h3v8pn61j3gd2cxmx8h7na1g6lmvk4q4jmpi0nv",
         "provides": ["refill"],
-        "release": 33112,
+        "release": 33327,
         "repo": "https://github.com/C-C-Minetest-Server/refill",
         "short_description": "Refill your hand slot after using up all items in that slot"
       },
@@ -44000,9 +44001,9 @@
       },
       "whitelist": {
         "dependencies": ["lib_chatcmdbuilder"],
-        "hash": "1jp7s23ww270vyg2p2rcbfl2mxph6smi8xykbvb8896xlkwgwy1p",
+        "hash": "1n1273ayyz987dfrfcqq9ygl1fbgyjwkfw2xlq3hc851iwldfyxp",
         "provides": ["whitelist"],
-        "release": 32175,
+        "release": 33329,
         "repo": "https://gitlab.com/zughy-friends-minetest/whitelist",
         "short_description": "Verwalten, wer den Server betreten kann und wer nicht"
       }
@@ -51868,9 +51869,9 @@
         "short_description": "Adds water, lava, and tnt privs, that allow server administrators to decide who gets access to water, lava, and tnt."
       },
       "chat_glue": {
-        "hash": "00qxqz7a7z0lq2b7k58nz2ghlw5grnx9frjcs4sqg98ycn68q4bk",
+        "hash": "0bk1x7l170mfjqj6badmv4s00p9w07fhd0hm7nsnni0ayqr3qvmq",
         "provides": ["chat_glue"],
-        "release": 33246,
+        "release": 33323,
         "repo": "https://gitlab.com/validandloved/chat_glue",
         "short_description": "\"Glues\" together mods like ranks, chat_anticurse, pronouns, and dcwebhook, so that they work with eachother."
       },
