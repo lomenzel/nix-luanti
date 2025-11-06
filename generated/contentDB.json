@@ -4419,7 +4419,7 @@
     },
     "jara25": {
       "yams": {
-        "hash": "1al8sxj98wxq1s2c86w6zklmxdwhimf6hksh7077f15mhzi3bk08",
+        "hash": "0c70im4fd4mhnag1fyrbzlgavxb8bfsczgh403sr1v2v4lwxv10z",
         "provides": [
           "3d_armor_ip",
           "3d_armor_sfinv",
@@ -4562,9 +4562,9 @@
           "yams_tt",
           "yams_weapons"
         ],
-        "release": 31858,
+        "release": 33337,
         "repo": "https://codeberg.org/jara25/yams",
-        "short_description": "Work in Progress. An MTG fork with light RPG elements."
+        "short_description": "An MTG fork with light RPG elements."
       }
     },
     "jgordon510": {
@@ -32600,9 +32600,9 @@
         "short_description": "Per-IP interact privilege bans"
       },
       "nodecore_movement": {
-        "hash": "0xki2vfq73sc34yvdx8w06hwz1d7krmf2rj5g4bdjkq5bnmhfggh",
+        "hash": "0rapkx5diap4cixhb313iqfzghgxqbrw0yzrrqjb65lp1n0lnl21",
         "provides": ["nodecore_movement"],
-        "release": 29248,
+        "release": 33341,
         "repo": "https://github.com/rollerozxa/nodecore-movement",
         "short_description": "NodeCore-esque movement for other games"
       },
@@ -46137,9 +46137,9 @@
         "short_description": "Ore mining helper"
       },
       "qa_block": {
-        "hash": "05iyhksl2694xjam0b7l2jmrvqm45zhb5zfqbd9zkc93xn0n9kla",
+        "hash": "07631c0k5bh3f03h4pqq6r67cm51c4vdhdazmhjpk00himrinwrg",
         "provides": ["qa_block"],
-        "release": 13944,
+        "release": 33334,
         "repo": "https://github.com/minetest-mods/qa_block",
         "short_description": "A mods development / QA helper"
       },
@@ -46399,6 +46399,7 @@
     "biochemist": {
       "mcl_rubber": {
         "dependencies": [
+          "mcl_armor",
           "mcl_core",
           "mcl_fences",
           "mcl_sounds",
@@ -46406,12 +46407,13 @@
           "mcl_util"
         ],
         "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1jcnqkf3znpz0vljwi8rbyarfxmfdig7d84k9i4yqz0vy085vgxy",
+        "hash": "107vdmnlrlhyfs7nbaxfam52m79innzihlvly54s4a0jwy4lfkpq",
         "provides": ["mcl_rubber"],
-        "release": 17864,
+        "release": 33342,
         "repo": "https://github.com/TheBiochemic/mcl-rubber",
         "short_description": "Adds rubber and related Items to MineClone."
       }
@@ -55730,9 +55732,9 @@
         "short_description": "Extends Unified Inventory"
       },
       "unifieddyes": {
-        "hash": "1x6z7sdrf968v40cyvgw4jsysyvf5hkd3b2nqybpk7vhflin8dsn",
+        "hash": "0h24gbn6mk3ckfcdvg2hckadzydv5yz78syrck5xky04xjixjbr5",
         "provides": ["unifieddyes"],
-        "release": 31686,
+        "release": 33333,
         "repo": "https://github.com/mt-mods/unifieddyes.git",
         "short_description": "Unified Dyes expands the standard dye set from 15 to up to 256 colors (depending on the object to be colored)"
       },
