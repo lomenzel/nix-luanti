@@ -13305,9 +13305,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "05izcdhcp2zvm5iswrqpr20bgq7zma39wiy0hn54160c1xk7syyr",
+        "hash": "1ga3fjs7kxw7nd83vg9pvdzcs2j8rd2jrpyb0f7gihks71rdxj6i",
         "provides": ["myconcrete"],
-        "release": 33358,
+        "release": 33367,
         "repo": "https://github.com/DonBatman/myconcrete.git",
         "short_description": "Myconcrete adds concrete blocks, sidewalks and other items"
       },
@@ -16532,9 +16532,9 @@
       },
       "basket": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1a7x9h3hyxbfcl8g5w0crj8cjbcllfdcvwzxa289ph5579816c08",
+        "hash": "0hcp5jj47ycwkh9pp3lcvb8mwk2l1s6zhg4sdx6j06wmhg41cq43",
         "provides": ["basket"],
-        "release": 33180,
+        "release": 33366,
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
@@ -28360,22 +28360,25 @@
           "mcl_cocoas",
           "mcl_core",
           "mcl_farming",
+          "mcl_fences",
           "mcl_flowers",
           "mcl_jukebox",
           "mcl_mobitems",
           "mcl_mushrooms",
           "mcl_potions",
           "mcl_sounds",
+          "mcl_stairs",
           "mcl_structures",
           "mcl_throwing"
         ],
         "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0m9iplrn2wan77hf440859w30i5040c083ylmwhc03pxrmjavn1z",
+        "hash": "0wlyz9x3hy3nzc6w75vf2h2r0cnj5qfrff0fqccvnkzd69k5lmm0",
         "provides": ["italian_food"],
-        "release": 32423,
+        "release": 33372,
         "repo": "https://github.com/LudusExe/Italian-Food-for-Voxelibre",
         "short_description": "Mangia che ti passa!"
       },
@@ -28932,9 +28935,9 @@
         "short_description": "Some nodes for building railways, primary for Advtrains railways."
       },
       "owires": {
-        "hash": "0044mmayxf3qkrx4bycsn40v3qwkz13gdgvw8cff7k851siw9vvq",
+        "hash": "15capl0garvjkbiaw697k739d9283pln5367z4as7k4hz9nkaj2x",
         "provides": ["owires"],
-        "release": 30564,
+        "release": 33369,
         "repo": "https://github.com/Matyas-Pilz/owires",
         "short_description": "Overhead wires supports overhead wires over the Advtrains railways."
       },
@@ -38271,9 +38274,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0xg78lvv9h2i88y4lb5rpb86kd2m6d9qif885w0md1qmf38qmrlm",
+        "hash": "1dmnc0m66apr8s6ia3wkxpwwsk0qmcqdar5zcf9wrn9l3301sslr",
         "provides": ["farming"],
-        "release": 32597,
+        "release": 33370,
         "repo": "https://codeberg.org/tenplus1/farming",
         "short_description": "Adds many plants and food to Minetest"
       },
@@ -47494,9 +47497,9 @@
       },
       "mcla_classical_music": {
         "dependencies": ["mcla_music_api"],
-        "hash": "082v3ln1qzzdr2dskp29ynnnqp2q9xispwa6sw2impgjil09kd4i",
+        "hash": "0ca5cm9r8dja934938ycnirma0i4hcv7cqhckgr3acnx1vcc1pg1",
         "provides": ["mcla_classical_music"],
-        "release": 24348,
+        "release": 33373,
         "repo": "https://codeberg.org/mineclonia/mcla_classical.git",
         "short_description": "Classical background music"
       },
@@ -60582,7 +60585,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -60594,7 +60596,7 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1l9pnnq17v0gxmv0szg7mc11v55ngrnghczifijyn44711l4ysy9",
+        "hash": "1ljvaxn0xgnvwgm02rdaw6lx9ysfj711bgs9xvjb4s53razkh1dv",
         "provides": [
           "3d_armor_ip",
           "3d_armor_sfinv",
@@ -60614,7 +60616,7 @@
           "shields",
           "wieldview"
         ],
-        "release": 32676,
+        "release": 33368,
         "repo": "https://github.com/minetest-mods/3d_armor",
         "short_description": "Visible player armor & wielded items."
       },
@@ -63202,7 +63204,7 @@
         "hash": "0q2fg23myavz7y846c0h4nr69ynpg4i7mqnzlc40sqx79nfkqxvc",
         "release": 32997,
         "repo": "https://github.com/LudusExe/TF2-Textures-for-Voxelibre",
-        "short_description": "Adds recognizable TF2 textures to your world."
+        "short_description": "Pootis spencer here!"
       },
       "reverse_card": {
         "hash": "1z2zsz4d7p263yxgm7ncf189k71k5vcrr6y55ha50b6g4xks1ywc",
