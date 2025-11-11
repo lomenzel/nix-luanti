@@ -643,7 +643,7 @@
         "short_description": "Work in Progress. Mesecons laboratory and tutorials"
       },
       "super_sam": {
-        "hash": "132v8ca8vhbfjz0cs72awh3bwmnyaf5f54y21zzrjnwqg840n6j4",
+        "hash": "0qlnwdcrsxs2w62sy2zg5rrb9d374ingib7nwrkgkslr3ffx3fsc",
         "provides": [
           "controls",
           "mapsync",
@@ -665,9 +665,9 @@
           "wield_events",
           "xcompat"
         ],
-        "release": 33221,
+        "release": 33381,
         "repo": "https://github.com/BuckarooBanzay/super_sam/",
-        "short_description": "Work in Progress. Super sam adventures"
+        "short_description": "Super sam adventures"
       }
     },
     "Casimir": {
@@ -12804,7 +12804,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -12818,7 +12817,7 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1wyi8fvwdi5h3cyqhqrkl4nbl4ln6bia5impr42fvx2222k0vv7r",
+        "hash": "12gaxzaa038p94yaspafbp56f61v1mzykhig7cqa6giw7ivgm6rh",
         "provides": [
           "bat_blocks",
           "bat_glass",
@@ -12827,7 +12826,7 @@
           "bat_light",
           "bat_tools"
         ],
-        "release": 30676,
+        "release": 33380,
         "repo": "https://github.com/DonBatman/batmod.git",
         "short_description": "Fun mod that is about bats"
       },
@@ -13305,9 +13304,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1ga3fjs7kxw7nd83vg9pvdzcs2j8rd2jrpyb0f7gihks71rdxj6i",
+        "hash": "1wfp5zvi5bd0g3q88y7zmil39fpg22136a1jqqwd36k8sg3bwcy5",
         "provides": ["myconcrete"],
-        "release": 33367,
+        "release": 33379,
         "repo": "https://github.com/DonBatman/myconcrete.git",
         "short_description": "Myconcrete adds concrete blocks, sidewalks and other items"
       },
@@ -13987,9 +13986,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1bpv7y6kaghmh4l0c5aabmfb242xz0qlphk6vzjm6jf9k2mfa3ij",
+        "hash": "0d8n9jb008106678gciylxsn94qwk28sa0c4zs4bk1bcfn8b7zac",
         "provides": ["mymeshnodes"],
-        "release": 33360,
+        "release": 33382,
         "repo": "https://github.com/DonBatman/mymeshnodes.git",
         "short_description": "A machine that makes different shape node"
       },
@@ -14039,7 +14038,6 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
@@ -14051,27 +14049,29 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "1gjshk2s5p1zwaz9a03dv7y7iiaf7ildfxx9cizb6s4i7nr7sb27",
+        "hash": "1qcvl2hjklvdzwigahhnrph580csrkdqg0cr1ax9a9i5qinx8bjb",
         "provides": ["mymineshaft"],
-        "release": 30768,
+        "release": 33378,
         "repo": "https://github.com/DonBatman/mymineshaft.git",
         "short_description": "Makes tunnels straight down that you can climb"
       },
@@ -29997,20 +29997,17 @@
     },
     "MrFreeman": {
       "colour_jump": {
-        "dependencies": ["arena_lib", "default"],
+        "dependencies": ["arena_lib", "wool"],
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
           { "author": "Amaz", "name": "lordofthetest" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
           { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "debiankaios", "name": "proxima_survival" },
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "giga-turbo", "name": "codecube" },
-          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "Hanuko33", "name": "libre_adventure3" },
           { "author": "hilol", "name": "epic_combat" },
           { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
@@ -30020,21 +30017,18 @@
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
           { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "118nvbpz57ww2xw8cjs2gwzrcw7pdl08x3w746i9m9srn94wcf7m",
+        "hash": "0jgmz7w7n10p6dm3wq86mcp7i8l98qc7mr75agkzprwxa8g5jy26",
         "provides": ["colour_jump"],
-        "release": 33198,
+        "release": 33383,
         "repo": "https://gitlab.com/mrfreeman_works/ColourJump",
         "short_description": "A simple minigame where the players need to jump on the correct platform to avoid to fall down"
       },
