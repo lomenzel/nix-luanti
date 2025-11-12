@@ -2918,7 +2918,7 @@
         "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)"
       },
       "piranesi_redo": {
-        "hash": "0d9l3rrq3s30qk7xjj1k6d8n43babnmvni0zgz0rrlrljkdqypky",
+        "hash": "09s6pjyawzlf7zcx1x3h05dyyq51va9h2b9xmvnmk092cmzcw92n",
         "provides": [
           "piredo_ambiance",
           "piredo_api",
@@ -2931,7 +2931,7 @@
           "piredo_schems",
           "piredo_terrain"
         ],
-        "release": 31066,
+        "release": 33387,
         "repo": "https://gitlab.com/sztest/piranesi_redo",
         "short_description": "Discover the secrets of the space-bending house, in this polished remake of iarbat's award-winning original game."
       }
@@ -4842,7 +4842,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "19qn74l97wbzl43s68mkixy9dbyq8prcfhmiym68b796gr8z8vp7",
+        "hash": "0a7723zi8k242zx2amgsjbww37g501853mlgz8nhz8rrpwcy1bm1",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5074,7 +5074,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33343,
+        "release": 33385,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -16532,9 +16532,9 @@
       },
       "basket": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0hcp5jj47ycwkh9pp3lcvb8mwk2l1s6zhg4sdx6j06wmhg41cq43",
+        "hash": "17bmr4b4l85qm526q7lsr81iqfl33wy04crk73qifmy2fkn99y2m",
         "provides": ["basket"],
-        "release": 33366,
+        "release": 33386,
         "repo": "https://github.com/C-C-Minetest-Server/basket",
         "short_description": "A portable basket for carrying large amount of items (= Shulker Boxes)"
       },
@@ -43882,9 +43882,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1dxv57fsjhh71hqjbi1kpzakgg6lspq9mzwrj5ipq3f07zwwdvx9",
+        "hash": "03a0wdadqv4qdy58sfsvf8j5ayp64jp71g4zlqy831l80a6ahdav",
         "provides": ["logistica"],
-        "release": 31694,
+        "release": 33389,
         "repo": "https://github.com/ZenonSeth/logistica",
         "short_description": "On-demand item transportation + Powerful Storage"
       },
