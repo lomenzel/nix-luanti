@@ -37119,9 +37119,9 @@
         "short_description": "Support for more callbacks for items, such as `on_step` and `on_select`"
       },
       "mfsm": {
-        "hash": "1sqipzpgaby2i5qcavw0qsh7478wbg31jzipyx7hdva2izjjqi75",
+        "hash": "16m0grlxl1i1nza87ff5yq4pkb6llpd9j6bgs6hjcsdwxk8zipvx",
         "provides": ["mfsm"],
-        "release": 30663,
+        "release": 33405,
         "repo": "https://codeberg.org/SumianVoice/MFSM_statemachine.git",
         "short_description": "Allows for multple states to be active, while maintaining typical state machine behavior. Good for gamestate and mobs."
       },
@@ -38491,9 +38491,9 @@
       "mobs_animal": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1yz8g4ln8f166j5qmgmnhy3zcqf41l1ls3gl9zmbhwr158wcl852",
+        "hash": "0r6gk4y8gj5ll3nmfjdkqb7jcwjdz9mcnjv9l8k038w7r2vhji8d",
         "provides": ["mobs_animal"],
-        "release": 33055,
+        "release": 33409,
         "repo": "https://codeberg.org/tenplus1/mobs_animal",
         "short_description": "Adds farm animals."
       },
@@ -43138,7 +43138,6 @@
           "signs_lib",
           "simple_crafting",
           "skinsdb",
-          "stairs_and_slabs_of_wool",
           "stamina",
           "sum_airship",
           "tph_eating",
@@ -43154,9 +43153,9 @@
           "xdecor"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "10fc0drk2f9k9qc7gdzwiqds9aasr49hy9w8xh6gz7p98vlvwxfi",
+        "hash": "1fg72bwzmw5amzgqgvqc80y998vz8hg4hkp3d6xal6933y6l35cb",
         "provides": ["xde_modpack"],
-        "release": 33263,
+        "release": 33401,
         "repo": "https://github.com/X-DE1/xde_modpack",
         "short_description": "It adds different mods and i modified some of them to my liking."
       }
@@ -52253,9 +52252,9 @@
       },
       "fs51": {
         "dependencies": ["formspec_ast"],
-        "hash": "10idihsfmgw0d763pxjrli7ax4m64cm10g546k39hg8n2sa8p0yk",
+        "hash": "0hvzpk85zq12ajqk197k9c8z5dgn4wlvr484jgg3sy25l0s2jspp",
         "provides": ["fs51"],
-        "release": 26581,
+        "release": 33404,
         "repo": "https://gitlab.com/luk3yx/minetest-fs51",
         "short_description": "Compatibility layer for formspecs"
       },
@@ -52275,9 +52274,9 @@
         "short_description": "Adds /money."
       },
       "snippets": {
-        "hash": "1cvgr0fjccabfqqz9hxd8y1h065jg97vjmqw6vnpzi1ylwkqxcvy",
+        "hash": "1hfxd4gdsy74xpplm0amqri490h38y5gqnjm7i34wsjkp2sv9fvg",
         "provides": ["snippets"],
-        "release": 23940,
+        "release": 33403,
         "repo": "https://github.com/mt-historical/snippets",
         "short_description": "A way for admins to run and save Lua snippets."
       },
@@ -55893,9 +55892,9 @@
         "short_description": "adds wooden buckets"
       },
       "wrench": {
-        "hash": "0nhnbn2fz0kr1bhfsgjjjz5m371g1kp89v05v91w8v20v22n4qzl",
+        "hash": "0jz9vipgb7mgj045gchxf03lnsl5lw83lgp19j19hsy803s0qqc4",
         "provides": ["wrench"],
-        "release": 33216,
+        "release": 33402,
         "repo": "https://github.com/mt-mods/wrench",
         "short_description": " Adds a wrench to pick up nodes with inventories, such as chests, and transport them to another location."
       },
