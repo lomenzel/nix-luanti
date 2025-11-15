@@ -5332,6 +5332,29 @@
         "short_description": "Work in Progress. This game will send you to the moon!"
       }
     },
+    "rstcxk": {
+      "lush_tetris": {
+        "hash": "10l0iqkii8x66x1v01146jkk4q9na07z7j7smsllxrbi07kq06az",
+        "provides": [
+          "lush_builtin",
+          "lush_command_managment",
+          "lush_core",
+          "lush_doas",
+          "lush_hooks",
+          "lush_interpreter",
+          "lush_math",
+          "lush_moderation",
+          "lush_nodes",
+          "lush_powerful",
+          "lush_tpr",
+          "lush_utilities",
+          "lushtetris_core"
+        ],
+        "release": 33397,
+        "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/lush_tetris",
+        "short_description": "Game of tetris written in a custom programming language"
+      }
+    },
     "rubenwardy": {
       "capturetheflag": {
         "hash": "036i34z4nvdz69fhnnvk6zycp0pigjgqmzf7dshkw1dlyzm8azcn",
@@ -7402,7 +7425,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -7413,9 +7435,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "0cr8556xysnfzwqixqn9lc1wlx2nydxsp11160dkzf03rdpn53c3",
+        "hash": "075zkvrhmdfw08g2nc3rgimlyaja4r64085v7971gspvcqkqjz5x",
         "provides": ["craft_ingredients", "decor_api", "modern"],
-        "release": 30757,
+        "release": 33423,
         "repo": "https://github.com/Andrey2470T/multidecor",
         "short_description": "Adds various detailed furniture components, decorations and exterior stuff with various designs and styles of each epoch."
       },
@@ -31914,6 +31936,25 @@
         "short_description": "TechAge Machines for beekeeping"
       }
     },
+    "Opons": {
+      "technic_many_machines": {
+        "dependencies": ["default", "moreores", "technic"],
+        "game_support": [
+          { "author": "1248", "name": "regnum" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "mt-mods", "name": "dreambuilder_game" }
+        ],
+        "hash": "1dqcm3sndpqx1mwi6y7xm36kx08ilh75n7g6q7vw221dg6rvsah5",
+        "provides": ["technic_many_machines"],
+        "release": 33377,
+        "repo": "https://github.com/Opons1/technic_many_machines",
+        "short_description": "Adds more technic machines"
+      }
+    },
     "OttoPattemore": {
       "colored_leaves": {
         "dependencies": ["default", "dye"],
@@ -33259,6 +33300,15 @@
         "release": 24117,
         "repo": "https://github.com/OpenLearningQuest/minetest_periodic_elements.git",
         "short_description": "Work in Progress. Adds the periodic elements"
+      }
+    },
+    "River": {
+      "aore": {
+        "hash": "1dhyf8cqck8mjmzv9bnq0b4xim3a02dw1cl84gm6iir0662gxr2v",
+        "provides": ["aore"],
+        "release": 33411,
+        "repo": "https://github.com/SereMotsatt/aore",
+        "short_description": "Create complex minerals the easy way"
       }
     },
     "Robot10_Scheletor": {
@@ -38268,9 +38318,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1dmnc0m66apr8s6ia3wkxpwwsk0qmcqdar5zcf9wrn9l3301sslr",
+        "hash": "10rw43krk16898l7adbzna3qsa9p01b6dp56rs96cpm5fbn250bw",
         "provides": ["farming"],
-        "release": 33370,
+        "release": 33422,
         "repo": "https://codeberg.org/tenplus1/farming",
         "short_description": "Adds many plants and food to Minetest"
       },
@@ -44241,6 +44291,40 @@
         "release": 2295,
         "repo": "https://gitlab.com/xenonca/staffchan",
         "short_description": "Write messages only to staff"
+      }
+    },
+    "_cherii": {
+      "self_care": {
+        "dependencies": ["default", "farming", "player_api", "wool"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" }
+        ],
+        "hash": "1nlcmxrh2fxp426ic3dz73cm1iq9hlfvnkx2c7g1df6ykwcrqcj1",
+        "provides": ["self_care"],
+        "release": 33340,
+        "repo": null,
+        "short_description": "adds hygiene logic and products like bodysoap, shampoo, conditioner, etc."
       }
     },
     "_gianpy_": {
@@ -50931,6 +51015,55 @@
         "repo": "https://github.com/karlexceed/falling_dirt.git",
         "short_description": "Makes dirt nodes fall just like sand and gravel."
       },
+      "lava_particles": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "0cr4p0alhhyd7z02madhqh6zvf13mlrzdc5rznm55b60waibxdwi",
+        "provides": ["lava_particles"],
+        "release": 33395,
+        "repo": "https://github.com/karlexceed/lava_particles",
+        "short_description": "Adds some spark particles to lava pools"
+      },
+      "leaf_particles": {
+        "hash": "0zvdc4v32cdxrij8dcr953qzc1cf6bqrdg30izsymq68ahdk6bzf",
+        "provides": ["leaf_particles"],
+        "release": 33406,
+        "repo": "https://github.com/karlexceed/leaf_particles",
+        "short_description": "Adds some leaf particles under leaf blocks"
+      },
       "living_grass": {
         "dependencies": ["default"],
         "game_support": [
@@ -54121,9 +54254,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1dllz6fkzrd6hj5jni68fv5mvms9jrxpbpbhycz04fi0i2sbjddi",
+        "hash": "1bxim9s3djj15glhxs5rb7nhca31jm55a1rgqwa0cva79na1h47n",
         "provides": ["digistuff"],
-        "release": 33153,
+        "release": 33412,
         "repo": "https://github.com/mt-mods/digistuff/",
         "short_description": "Random digilines devices"
       },
@@ -57331,11 +57464,11 @@
         "short_description": "Work in Progress. Add monsters and bosses to your world..."
       },
       "waystone": {
-        "hash": "0yirflqc7bivfl9qprkg7g2s9fhv3hq89lq4ylm58m0kw2x41f3v",
+        "hash": "1p9vkjwiiqkap9qfr1gfj76pd733jsyl1k4ha336d1phzxpl4f82",
         "provides": ["waystone"],
-        "release": 28130,
+        "release": 33415,
         "repo": "https://codeberg.org/pixelzone/waystone",
-        "short_description": "Work in Progress. Adds a waystone that you can return to using a scroll."
+        "short_description": "Adds a waystone that you can return to using a scroll."
       },
       "zombies4test": {
         "dependencies": ["mobs"],
@@ -58363,6 +58496,15 @@
       }
     },
     "rstcxk": {
+      "builders_wand": {
+        "dependencies": ["flow"],
+        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
+        "hash": "07mpjxg4xmkjrdnsyhikwlk0m7jvx1hkbq92isi4fyz8j0krf5ak",
+        "provides": ["builders_wand"],
+        "release": 33376,
+        "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/Builders_wand",
+        "short_description": "Building tools"
+      },
       "filterpp": {
         "dependencies": ["filterpp_lib"],
         "hash": "1l8cz23cdg1k4vmsv15q2spmvd5vms6rw63wqvzk4kml4z1yqws5",
@@ -58537,10 +58679,13 @@
       },
       "mcl_cozy": {
         "dependencies": ["mcl_player", "playerphysics"],
-        "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "1vjdah0pi286kxzk44paxcj7kdzkqjg7fz14c4haf0bf4d384k1z",
+        "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
+          { "author": "ryvnf", "name": "mineclonia" }
+        ],
+        "hash": "0gjaygvyjdfcg7v2r30b34w3k6vkgx6npgyvqwbjwvwaj7hmd0vg",
         "provides": ["mcl_cozy"],
-        "release": 32684,
+        "release": 33419,
         "repo": "https://codeberg.org/rudzik8/mcl_cozy",
         "short_description": " Sit and lay using chat commands (/sit and /lay) and by right-clicking blocks in Mineclonia, from VoxeLibre"
       },
@@ -59750,9 +59895,9 @@
           "vl_deepslate_tools"
         ],
         "game_support": [{ "author": "Wuzzy", "name": "mineclone2" }],
-        "hash": "0i5wbc6s8d991k6vnsr2kgk0z8d7pkfgxidc9hh8n2si3s0bzg45",
+        "hash": "0gmc6sgsrw31ry5j9vvxlpk2chkk7ql42g5y0p8n6i8wiqmkc01n",
         "provides": ["vl_rocky_tools"],
-        "release": 33274,
+        "release": 33420,
         "repo": null,
         "short_description": "Adds granite, andesite, and diorite tools, plus buffed deepslate pickaxe/hoe/shovel and weird netherrack pickaxe"
       }
