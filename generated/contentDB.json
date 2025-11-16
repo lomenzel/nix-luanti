@@ -4842,7 +4842,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1d82cg3kcma1cf1sqdc0vnd07ljszd9c2dlms19c5h6lzm2cpazs",
+        "hash": "1n0hpx883xwaksdrgrbbiyrczxyzwfzyjhx9yilmwa4qanmfw6qb",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5074,7 +5074,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33391,
+        "release": 33426,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -5680,9 +5680,9 @@
     },
     "sfan5": {
       "minetest_classic": {
-        "hash": "0mbcb7gz8hs6i55i8vd0vdicnd4lj3aaml0cwix2lx0azj69kl12",
+        "hash": "01gy8573337avrfx3qmbjj4f062gqcjlnhbs0l6acfm04nbld9vy",
         "provides": ["cl_default", "creative", "sfinv"],
-        "release": 33160,
+        "release": 33427,
         "repo": "https://github.com/sfan5/minetest_classic",
         "short_description": "The classic Minetest-c55 0.3 experience brought back"
       }
@@ -33302,15 +33302,6 @@
         "short_description": "Work in Progress. Adds the periodic elements"
       }
     },
-    "River": {
-      "aore": {
-        "hash": "1dhyf8cqck8mjmzv9bnq0b4xim3a02dw1cl84gm6iir0662gxr2v",
-        "provides": ["aore"],
-        "release": 33411,
-        "repo": "https://github.com/SereMotsatt/aore",
-        "short_description": "Create complex minerals the easy way"
-      }
-    },
     "Robot10_Scheletor": {
       "ancient_ice_stuff": {
         "dependencies": ["default"],
@@ -38318,9 +38309,9 @@
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "10rw43krk16898l7adbzna3qsa9p01b6dp56rs96cpm5fbn250bw",
+        "hash": "01dycw4yihrvn4253fjkcw95wdyjjw999ldpwgfsz3z3rvvm9qkk",
         "provides": ["farming"],
-        "release": 33422,
+        "release": 33430,
         "repo": "https://codeberg.org/tenplus1/farming",
         "short_description": "Adds many plants and food to Minetest"
       },
@@ -43945,9 +43936,9 @@
         "short_description": "Shows chat messages above player heads"
       },
       "respec": {
-        "hash": "0azwgmxmdgfz7v849xn27aq5pwky3c7azv43rfrdisk4d1d2f482",
+        "hash": "1l0bk5a6ffcmhlb3qsc9yxlb1r3vjvvzpfc55kgz2jl4z4hydsn5",
         "provides": ["respec"],
-        "release": 31662,
+        "release": 33437,
         "repo": "https://github.com/ZenonSeth/respec",
         "short_description": "Easy and Versatile Formspec Creation based on ConstraintLayout"
       },
@@ -51051,16 +51042,16 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0cr4p0alhhyd7z02madhqh6zvf13mlrzdc5rznm55b60waibxdwi",
+        "hash": "0qq0h668p2fnazr8fqzjnva2vyyaxls55qz4awwrfaaciqg59hmz",
         "provides": ["lava_particles"],
-        "release": 33395,
+        "release": 33429,
         "repo": "https://github.com/karlexceed/lava_particles",
         "short_description": "Adds some spark particles to lava pools"
       },
       "leaf_particles": {
-        "hash": "0zvdc4v32cdxrij8dcr953qzc1cf6bqrdg30izsymq68ahdk6bzf",
+        "hash": "0b6xp70cxcvqfg5jvflp0rs34aqc2ra1hg8h0xvyp8kyldflbk6r",
         "provides": ["leaf_particles"],
-        "release": 33406,
+        "release": 33428,
         "repo": "https://github.com/karlexceed/leaf_particles",
         "short_description": "Adds some leaf particles under leaf blocks"
       },
@@ -54510,9 +54501,9 @@
         "short_description": "adds a circular saw feature and button to the unified_inventory"
       },
       "jumpdrive": {
-        "hash": "0qwf0s7v14i61zkvz976irs5bjd3ya30spapb8w3hqja48ckwq90",
+        "hash": "0q7kp0rwy72khbxcqkjqi0rxx5xldh78fp1wxfj6wrrhphxsp237",
         "provides": ["jumpdrive"],
-        "release": 31429,
+        "release": 33425,
         "repo": "https://github.com/thomasrudin-mt/jumpdrive",
         "short_description": "Take your buildings with you on your journey."
       },
