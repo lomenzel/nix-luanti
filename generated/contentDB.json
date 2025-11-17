@@ -4116,7 +4116,7 @@
         ],
         "release": 15790,
         "repo": "https://codeberg.org/Desour/dssssm.git",
-        "short_description": "Work in Progress. DS's Space Search Adventure"
+        "short_description": "DS's Space Search Adventure"
       },
       "snake_3d": {
         "hash": "0wvngyh0d3v77nzc7kfi51r7vm685q2lvzmgjqqsfh3i5wcq2pfj",
@@ -13031,6 +13031,13 @@
         "repo": "https://github.com/DonBatman/myappliances.git",
         "short_description": "A basic set of appliances"
       },
+      "myarcade": {
+        "hash": "0fnd9175ch70w4sp74lhn07p7da08nvdhy61ggrxxv8w5fyq2h60",
+        "provides": ["mario", "myhighscore", "pacmine"],
+        "release": 33433,
+        "repo": "https://github.com/Ferk/myArcade",
+        "short_description": "Arcade games"
+      },
       "myblocks": {
         "dependencies": ["default", "stairs"],
         "game_support": [
@@ -14008,9 +14015,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0d8n9jb008106678gciylxsn94qwk28sa0c4zs4bk1bcfn8b7zac",
+        "hash": "116z978qwkpngag939s4dbq85477vdfg2q8pc0a6jzrnp1qlzwfs",
         "provides": ["mymeshnodes"],
-        "release": 33382,
+        "release": 33450,
         "repo": "https://github.com/DonBatman/mymeshnodes.git",
         "short_description": "A machine that makes different shape node"
       },
@@ -14508,6 +14515,48 @@
         "release": 30391,
         "repo": "https://github.com/DonBatman/myregenchest.git",
         "short_description": "Spawns items when opened and will not again for determined amount of time"
+      },
+      "myrocks": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" }
+        ],
+        "hash": "05hynwjgvfzas1vij8h621lkwnn909kh23iv1hyvhhq254qbx601",
+        "provides": ["myrocks"],
+        "release": 33431,
+        "repo": "https://github.com/DonBatman/myrocks.git",
+        "short_description": "Places rocks around the world"
       },
       "myroofs": {
         "dependencies": ["default", "dye", "farming"],
@@ -18812,9 +18861,9 @@
         "short_description": "Adds festive christmas items and nodes"
       },
       "dice_api": {
-        "hash": "1pylmjpr4qgvrhsnja9cadlzvy4cfrsgnf716yd5wy1srdrk3f6k",
+        "hash": "0cafknj5ha6498by638k7vhq264hqdb9xl6qr6kqqzbfz7rwcw72",
         "provides": ["dice_api"],
-        "release": 32793,
+        "release": 33443,
         "repo": "https://github.com/Extex101/dice_api.git",
         "short_description": "API for creating physical dice"
       },
@@ -18826,9 +18875,9 @@
           { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1cc4v383831mmabs9i9in2ll7q147blpblai1nyadlmx9akw0fsr",
+        "hash": "0h0m70c46zfvyj7s4nw6rjwrsmc70d63ryh4p5s8lcm79pnj6xvj",
         "provides": ["dice_classic", "dice_crafter"],
-        "release": 33282,
+        "release": 33444,
         "repo": "https://github.com/Extex101/dice_pack.git",
         "short_description": "Collectable Dice to let Fate take the wheel!"
       },
@@ -23675,7 +23724,7 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1phzk7sdggb5zajimrwgw557sf0cbgr0kz3wpj4vi65z5ysc7jg2",
+        "hash": "1spn1zz92i1gyg97yd206pnpk6la4ca4834shqz4rn0ri6xy2yf0",
         "provides": [
           "elepower_compat",
           "elepower_documentation",
@@ -23692,9 +23741,9 @@
           "elepower_tools",
           "elepower_wireless"
         ],
-        "release": 33251,
+        "release": 33451,
         "repo": "https://github.com/LunaSquee/elepower.git",
-        "short_description": "Featured. A wide variety of useful machines"
+        "short_description": "A wide variety of useful machines"
       },
       "fluid_lib": {
         "game_support": [
@@ -30358,9 +30407,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "12ydg2rhx3f1qkp8fqjin5ivbrasrqnywxlfjg2m0z3yn2icljfy",
+        "hash": "10ybsz538hf4d0w61za324fm9p7j6pzy6vigklbihysc5ymg83cv",
         "provides": ["bones"],
-        "release": 33399,
+        "release": 33448,
         "repo": "https://codeberg.org/usrib/bones.git",
         "short_description": "This mod creates graves when you die that store your items from main, armor or shield inventory."
       },
@@ -32029,7 +32078,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -32039,7 +32087,7 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1zn1km5g30g3v4995b31hligjj10a3sgmgn3028gvp13vyyxg2k6",
+        "hash": "0hr779m2035wgk51jbymbhk80nyq33nwgn9ssyavlz69zfn27sck",
         "provides": [
           "moremesecons_adjustable_blinkyplant",
           "moremesecons_adjustable_player_detector",
@@ -32063,7 +32111,7 @@
           "moremesecons_utils",
           "moremesecons_wireless"
         ],
-        "release": 32037,
+        "release": 33446,
         "repo": "https://github.com/minetest-mods/MoreMesecons",
         "short_description": "Adds more Mesecons items."
       },
@@ -43108,7 +43156,14 @@
       },
       "xde_modpack": {
         "dependencies": [
+          "3d_armor_sfinv",
+          "3d_armor_stand",
           "animalia",
+          "armor_bronze",
+          "armor_diamond",
+          "armor_gold",
+          "armor_steel",
+          "armor_wood",
           "awards",
           "bedrock2",
           "beds",
@@ -43165,6 +43220,7 @@
           "mesecons",
           "mobs_monster",
           "more_particles",
+          "no_inside_node",
           "painting",
           "placement_preview",
           "potions_api",
@@ -43194,9 +43250,9 @@
           "xdecor"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1fg72bwzmw5amzgqgvqc80y998vz8hg4hkp3d6xal6933y6l35cb",
+        "hash": "079i070cj0rjf19b353bn4xdzr4kf847h0szdf8fsnn44w7h62bs",
         "provides": ["xde_modpack"],
-        "release": 33401,
+        "release": 33445,
         "repo": "https://github.com/X-DE1/xde_modpack",
         "short_description": "It adds different mods and i modified some of them to my liking."
       }
@@ -43880,6 +43936,14 @@
         "release": 15537,
         "repo": "https://github.com/ZenonSeth/climbable_trapdoors",
         "short_description": "Makes the wood and steel trapdoors climbable"
+      },
+      "craft_conflict_exchanger": {
+        "dependencies": ["respec"],
+        "hash": "1zaq82k5xxr25y84ycyx8grzpi3z5v52vjcswaljw0784bhjks26",
+        "provides": ["craft_conflict_exchanger"],
+        "release": 33438,
+        "repo": "https://github.com/ZenonSeth/craft-conflict-exchanger",
+        "short_description": "Exchange any Items with conflicting recipes, and see all Craft Conflicts"
       },
       "flowerbeds": {
         "dependencies": ["default", "flowers"],
@@ -52376,9 +52440,9 @@
       },
       "fs51": {
         "dependencies": ["formspec_ast"],
-        "hash": "0hvzpk85zq12ajqk197k9c8z5dgn4wlvr484jgg3sy25l0s2jspp",
+        "hash": "19pq7aji9ln0vy81dkq34p5qhjh0adn5ywzhf26jvz396vcwymmx",
         "provides": ["fs51"],
-        "release": 33404,
+        "release": 33449,
         "repo": "https://gitlab.com/luk3yx/minetest-fs51",
         "short_description": "Compatibility layer for formspecs"
       },
@@ -55296,9 +55360,9 @@
       },
       "pipeworks": {
         "dependencies": ["basic_materials", "fakelib", "xcompat"],
-        "hash": "13h95lxykwpsh1nfzcbbgifsf05y32n94sfqlj23zhj5kffaagwa",
+        "hash": "0d86a5qrsmb7xplj5y8mgpgiswi7i99g8x6wxvk2ng7fkqf030i8",
         "provides": ["pipeworks"],
-        "release": 31940,
+        "release": 33447,
         "repo": "https://github.com/mt-mods/pipeworks",
         "short_description": "Supplies a complete set of nice, round mesh-based water pipes, boxy item-transport tubes, and devices that work with them."
       },
