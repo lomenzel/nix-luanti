@@ -10202,9 +10202,9 @@
       },
       "blockexchange": {
         "dependencies": ["mtzip", "placeholder", "promise"],
-        "hash": "1cc7h833b9a23vh5l0bp8nb8grq6fz22b45cjv7b0xpixnvkxhdh",
+        "hash": "14aixvpb8q72yypxm78kjk9hn90jx1rl6nnq794kfb90k2ccjkfz",
         "provides": ["blockexchange"],
-        "release": 32836,
+        "release": 33454,
         "repo": "https://github.com/blockexchange/blockexchange.git",
         "short_description": "Cloud worldedit schema exchanger"
       },
@@ -24511,7 +24511,7 @@
         "short_description": "Adds a flamethrower using particles. It makes things burn and scorches grass; does not cause damage to any object."
       },
       "mesecons": {
-        "hash": "0smxzf8z0w3s4kd5y30x7c5j0r929gjm11zmp4zs65kg8gpf88ds",
+        "hash": "0p6pawlzmhwjr0df2xm51japjxg1zaivmj933fz6jijrx1nvf5z8",
         "provides": [
           "mesecons_alias",
           "mesecons_blinkyplant",
@@ -24546,7 +24546,7 @@
           "mesecons_wires",
           "mesecons"
         ],
-        "release": 31832,
+        "release": 33453,
         "repo": "https://github.com/minetest-mods/mesecons",
         "short_description": "Adds digital circuitry, including wires, buttons, lights, and even programmable controllers."
       }
@@ -38513,9 +38513,9 @@
       "mob_horse": {
         "dependencies": ["mobs"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "1q8hb49slaj0l4dnh7lgrpv5sn4d44sp82nsik9alvfr20n1bpq5",
+        "hash": "0qkrnc4mwjlprx8r773p1yv6cl4jbndr3n85w3jwfyawp0ixj545",
         "provides": ["mob_horse"],
-        "release": 32527,
+        "release": 33460,
         "repo": "https://codeberg.org/tenplus1/mob_horse",
         "short_description": "Adds rideable horse"
       },
@@ -38571,9 +38571,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "05ngmvwhxn0lcn4xlg257hy0qr1ya6v50vza0s0fcxrf1jnqmhl4",
+        "hash": "0gafwdnpdvqnvdn19d7di47f7c2hnpkfnv57w805pgayag3bk7rz",
         "provides": ["mobs"],
-        "release": 33354,
+        "release": 33463,
         "repo": "https://codeberg.org/tenplus1/mobs_redo",
         "short_description": "Simple and feature rich API to quickly add mobs into your world."
       },
@@ -43939,9 +43939,9 @@
       },
       "craft_conflict_exchanger": {
         "dependencies": ["respec"],
-        "hash": "1zaq82k5xxr25y84ycyx8grzpi3z5v52vjcswaljw0784bhjks26",
+        "hash": "0ikwx4vk19sb3glk87zzfcxfbsz77ms1c3hbxk3v59sbm7dmbzx5",
         "provides": ["craft_conflict_exchanger"],
-        "release": 33438,
+        "release": 33452,
         "repo": "https://github.com/ZenonSeth/craft-conflict-exchanger",
         "short_description": "Exchange any Items with conflicting recipes, and see all Craft Conflicts"
       },
@@ -50344,7 +50344,7 @@
           "tubelib2"
         ],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0x1zb745wd1c3ndng57b1bhr4a3g5b7sajvidmz144ga12dvmcvw",
+        "hash": "08nvpgxsvr81hk1hzgvm72ricif7chgvgbx07rs25k2rg5xdqrha",
         "provides": [
           "gravelsieve",
           "lcdlib",
@@ -50358,7 +50358,7 @@
           "tubelib_addons3",
           "tubelib"
         ],
-        "release": 33199,
+        "release": 33457,
         "repo": "https://github.com/joe7575/techpack",
         "short_description": "A Mining, Crafting, & Farming Modpack for Minetest"
       },
@@ -50941,9 +50941,9 @@
         "short_description": "Stops guest players (ie: Guest1234) from joining your server"
       },
       "xban2": {
-        "hash": "0m2nsqbihylz9jfsrgrkfcgl4avhy4kwddsx9n5p5qrsxdksmldn",
+        "hash": "0h5gzrwp1ra9x8nbmpw9ah6khpmqp1621zqh4rbwc10vxk5w8hm7",
         "provides": ["xban2"],
-        "release": 33266,
+        "release": 33456,
         "repo": "https://github.com/minetest-mods/xban2",
         "short_description": "Tempbanning and better banning by keeping track of usernames and IP addresses"
       }
@@ -51106,16 +51106,16 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "Thunder1035", "name": "etb" }
         ],
-        "hash": "0qq0h668p2fnazr8fqzjnva2vyyaxls55qz4awwrfaaciqg59hmz",
+        "hash": "1654swkww5w620s5l9b664m210n0hxbrixp7g25r88grvxjj0rxh",
         "provides": ["lava_particles"],
-        "release": 33429,
+        "release": 33458,
         "repo": "https://github.com/karlexceed/lava_particles",
         "short_description": "Adds some spark particles to lava pools"
       },
       "leaf_particles": {
-        "hash": "0b6xp70cxcvqfg5jvflp0rs34aqc2ra1hg8h0xvyp8kyldflbk6r",
+        "hash": "0xy9cy1l0zy2gbj0wzgh6x30dgki8z6y6lylwn0wvy8bpd1nscw1",
         "provides": ["leaf_particles"],
-        "release": 33428,
+        "release": 33459,
         "repo": "https://github.com/karlexceed/leaf_particles",
         "short_description": "Adds some leaf particles under leaf blocks"
       },
