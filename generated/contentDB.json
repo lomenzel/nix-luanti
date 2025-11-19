@@ -1660,7 +1660,7 @@
         "short_description": "Testing environment for engine or mod development."
       },
       "minetest_game": {
-        "hash": "03k8kz7w5m02v3a2rhvnxd9435z68qadd71xfdnn413cbmg48404",
+        "hash": "06qg6sbfqgkm8xzsb9j4j9rh8v5nqi1hzss7c5yd6qmdh9i57zz9",
         "provides": [
           "beds",
           "binoculars",
@@ -1697,7 +1697,7 @@
           "wool",
           "xpanes"
         ],
-        "release": 33264,
+        "release": 33468,
         "repo": "https://github.com/minetest/minetest_game",
         "short_description": "The classic \"Minetest\". A lightweight and well-maintained base for modding"
       }
@@ -4842,7 +4842,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1n0hpx883xwaksdrgrbbiyrczxyzwfzyjhx9yilmwa4qanmfw6qb",
+        "hash": "0cb8ssw39w0wiypv3m9ahzf0j5mqabbv7iw2jjiy6bkcc1wsv0ax",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5074,7 +5074,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 33426,
+        "release": 33469,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -33350,6 +33350,15 @@
         "short_description": "Work in Progress. Adds the periodic elements"
       }
     },
+    "River": {
+      "aore": {
+        "hash": "0ql9xkrg437mga71cvlyhz00ib5hasmag6x2vxfgp09qwh49qw46",
+        "provides": ["aore"],
+        "release": 33435,
+        "repo": "https://github.com/SereMotsatt/aore",
+        "short_description": "Create complex minerals the easy way"
+      }
+    },
     "Robot10_Scheletor": {
       "ancient_ice_stuff": {
         "dependencies": ["default"],
@@ -44782,9 +44791,9 @@
       "advtrains_subway_ny": {
         "dependencies": ["advtrains"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0yjjbnsfy54gx6zap7d8jram4r2iq1fkry5ibj201njhc4ck80ia",
+        "hash": "0x13992s9jjjl3fh783hap900c4jpdspgl2kin3qq9xkb39s0j0p",
         "provides": ["advtrains_subway_ny"],
-        "release": 22638,
+        "release": 33467,
         "repo": "https://codeberg.org/advtrains_supplemental/advtrains_subway_ny",
         "short_description": "Subway cars loosely based on New York/American transit"
       },
@@ -58574,6 +58583,13 @@
         "release": 26343,
         "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/filterpp_lib.git",
         "short_description": "provides an API for filtering text"
+      },
+      "gravity_gun_reloaded": {
+        "hash": "129h6ba1if1402iprvpnlgas5fa927rb6m8ajm2pqlk1hhphwgss",
+        "provides": ["gravity_gun_reloaded"],
+        "release": 33466,
+        "repo": "https://codeberg.org/xXx_GLOCKrzmitz_xXx/gravity_gun_reloaded",
+        "short_description": "Adds the gravity gun to the game"
       },
       "lush": {
         "dependencies": ["findbiome", "flow", "warn"],
