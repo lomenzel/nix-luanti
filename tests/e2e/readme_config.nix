@@ -22,7 +22,7 @@ testers.runNixOSTest {
               game = pkgs.luantiPackages.games.mineclone2.withMods (
                 m: with m; [
                   # m contains only mods that are compatible with the game
-                  zombies4test
+                  
                 ]
               );
 
