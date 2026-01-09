@@ -161,6 +161,7 @@ let
         fmap (val: {
           type = "int";
           default = val;
+          __toStringType = self: "int ${toString self.default}";
         }) integer
       )
 
@@ -367,12 +368,12 @@ let
     in
     if val == [ ] || req.type != "success" then
       {
-        description = builtins.concatStringsSep "\n" val;
-        requirements = { };
+        description = builtins.concatStringsSep "\n" val |> lib.trim;
+        # requirements = { };
       }
     else
       {
-        description = builtins.concatStringsSep "\n" (lib.lists.init val);
+        description = builtins.concatStringsSep "\n" (lib.lists.init val) |> lib.trim;
         requirements = req.value;
       }
   ) (many commentLine);
@@ -392,6 +393,18 @@ let
         // description
         // {
           inherit name readableName;
+          __toString =
+            self:
+            "${
+              if hasAttr "description" self && self.description != "" then
+                "# ${replaceStrings [ "\n" ] [ "\n# " ] self.description}\n"
+              else
+                ""
+            }${
+              if hasAttr "requirements" self then "# Requires: ${self.requirements}\n" else ""
+            }${self.name} (${self.readableName})${
+              if hasAttr "context" self then " [${self.context}]" else ""
+            } ${self.__toStringType self}";
         }
         // (if context == null then { } else { inherit context; });
     })
@@ -407,11 +420,22 @@ let
     (fmap
       (
         val:
-        map (req: {
-          name = elemAt req 1;
-          value = head req != "!";
-        }) val
-        |> listToAttrs
+        (
+          map (req: {
+            name = elemAt req 1;
+            value = head req != "!";
+          }) val
+          |> listToAttrs
+        )
+        // {
+          __toString =
+            self:
+            builtins.concatStringsSep " " (
+              map (r: "${if r.value then "" else "!"}${r.name}") (
+                lib.attrsToList self |> builtins.filter (r: r.name != "__toString")
+              )
+            );
+        }
       )
       (
         many (sequence [
@@ -454,7 +478,27 @@ let
     |> groupBy (getAttr "type")
     |> (
       e:
-      { }
+      {
+        __toString =
+          self:
+          ''${
+            if hasAttr "name" self then
+              "[${self.name}]${if hasAttr "context" self then " [${self.context}]" else ""}"
+            else
+              ""
+          }${
+            if hasAttr "settings" self then
+              builtins.map (s: "${s}") self.settings |> concatStringsSep "\n\n"
+            else
+              ""
+          }${
+            if hasAttr "categories" self then
+              "${builtins.map (cat: "${cat}") self.categories |> concatStringsSep "\n\n"}"
+            else
+              ""
+          }'';
+      }
+
       // (
         if hasAttr "category" e then
           {
@@ -482,6 +526,7 @@ let
         else
           { }
       )
+
     );
 
   category =

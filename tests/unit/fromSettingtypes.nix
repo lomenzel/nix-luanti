@@ -1,20 +1,24 @@
 lib: {
   simpleSetting = {
-    expr = lib.fromSettingtypes ''
-      cool_setting (The Coolest SETTING) int 2 1
+    expr =
+      lib.fromSettingtypes ''
+        # comment
+
+        #   Description line 1
+        #     Description line 2
+        #   Requires: other_setting
+        setting (Simple Setting) [client] int 1
+
+      '' {
+        setting.default = 2;
+        settingThatDoesNotExist.default = true;
+      }
+      |> builtins.toString;
+    expected = ''
+      # Description line 1
+      # Description line 2
+      # Requires: other_setting
+      setting (Simple Setting) [client] int 2
     '';
-    expected = {
-      settings = [
-        {
-          name = "cool_setting";
-          readableName = "The Coolest SETTING";
-          description = "";
-          type = "int";
-          requirements = { };
-          default = 2;
-          min = 1;
-        }
-      ];
-    };
   };
 }
