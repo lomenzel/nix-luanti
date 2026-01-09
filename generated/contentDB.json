@@ -39120,9 +39120,9 @@
     },
     "TenPlus1": {
       "ambience": {
-        "hash": "149b382lj88jwk45630790x0zfsml9j327mjgbbyv4wiwj6ff1cg",
+        "hash": "0armjri70b8a6ysbi0ipskvgvld40kqrkl4xdnjk2sskkmdgpvvi",
         "provides": ["ambience"],
-        "release": 33859,
+        "release": 34382,
         "repo": "https://codeberg.org/tenplus1/ambience",
         "short_description": "Adds realistic sound effects into your world."
       },
@@ -40123,9 +40123,9 @@
         "short_description": "Adds asteroid layers and height-based skybox switches to create space environments."
       },
       "pbj_pup": {
-        "hash": "0i7msblz3h3cpkd9i8dv28za96bd8hx4im6gbsfhyy5hk2ryn7vw",
+        "hash": "1fw7pp0pfys15n82483y3vx46z5x20pcz61pxwb1kh3pg03n25wx",
         "provides": ["pbj_pup"],
-        "release": 34092,
+        "release": 34375,
         "repo": "https://codeberg.org/tenplus1/pbj_pup",
         "short_description": "Adds PB&J Pup, Nyan Cats or MooGnu into your world"
       },
@@ -42329,9 +42329,9 @@
         "short_description": "Snap camera to discrete angles"
       },
       "arclib": {
-        "hash": "1xdlbp6sxh2jbfi9v40brdj7547hf5d98m4idbkc9kvsf0q4nswz",
+        "hash": "0v1jfjmsdmh2sj9048pj54y5qx270gmvbnagbykvzl6nq3fln6ph",
         "provides": ["arclib"],
-        "release": 34352,
+        "release": 34367,
         "repo": "https://gitlab.com/sztest/arclib",
         "short_description": "Archipelago multi-world randomizer integration library"
       },
@@ -42599,9 +42599,9 @@
           "piredo_terrain"
         ],
         "game_support": [{ "author": "Warr1024", "name": "piranesi_redo" }],
-        "hash": "1zb1qw5fl69f6qzjk6yl7xnilankscsv5zk568grlx6a1nl6hxhy",
+        "hash": "1c64m2jyfjhw0rdk2bd27ikw91xbqzizmvlrybp2flamm5vyfpjg",
         "provides": ["piranesi_archipelago"],
-        "release": 34354,
+        "release": 34366,
         "repo": "https://gitlab.com/sztest/piranesi-archipelago",
         "short_description": "Connect Piranesi Restoration Project to Archipelago Multi-world Randomizer"
       },
@@ -55964,9 +55964,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1bxim9s3djj15glhxs5rb7nhca31jm55a1rgqwa0cva79na1h47n",
+        "hash": "0zd823zrk4islglv6i7lrp5mi0mlmwbmzqg4zk68hhgqgqv52n63",
         "provides": ["digistuff"],
-        "release": 33412,
+        "release": 34371,
         "repo": "https://github.com/mt-mods/digistuff/",
         "short_description": "Random digilines devices"
       },
@@ -57635,9 +57635,9 @@
         "short_description": "Extends Unified Inventory"
       },
       "unifieddyes": {
-        "hash": "0d869mizl6rx1fb2p3p989a4jq5xwp48bqkbdgk4clz48qc97y3l",
+        "hash": "0c5f3kkmqg22bcin7nq2fk5lzgnivvm0j5hazxz8y6av1hzh8vy9",
         "provides": ["unifieddyes"],
-        "release": 34115,
+        "release": 34370,
         "repo": "https://github.com/mt-mods/unifieddyes.git",
         "short_description": "Unified Dyes expands the standard dye set from 15 to up to 256 colors (depending on the object to be colored)"
       },
@@ -64265,9 +64265,9 @@
     },
     "wiz": {
       "priority_queue": {
-        "hash": "0k8c58v5gdax9cibk0d56a4kfsa6galb3h5cf152mmk2m7irw0gn",
+        "hash": "0rj777l5aixxiwb5vrjialixqnrr5qi5q9dylslkfh736xxsb3lx",
         "provides": ["priority_queue"],
-        "release": 34360,
+        "release": 34383,
         "repo": null,
         "short_description": "Associate items with priorities to order them."
       }
