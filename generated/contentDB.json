@@ -41246,6 +41246,19 @@
         "repo": "https://codeberg.org/TomCon/end_portal_wand",
         "short_description": "Adds a wand item for easy placement of end portals on right click."
       },
+      "item_model_animation_api": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Warr1024", "name": "nodecore" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1pba156hfb92ppk54p5hn75xgl75xipl9g5y4l7mh9b5bj5hkdg3",
+        "provides": ["charged_models", "item_profiles"],
+        "release": 34364,
+        "repo": "https://codeberg.org/TomCon/item_model_animation_api",
+        "short_description": "A powerful API adding in an easy system to integrate full 3d models when holding items."
+      },
       "mcl_copper_stuff": {
         "dependencies": ["mcl_armor", "mcl_core", "mcl_farming", "mcl_sounds"],
         "game_support": [
@@ -59241,11 +59254,11 @@
       },
       "forgotten_monsters": {
         "dependencies": ["mobs"],
-        "hash": "16sw90qkdllffy4m80yddfbdpfi6hvbfvaya7b0nxgjriwkyf2lp",
+        "hash": "0qjgsnnagqs0qp187hwg0gdyklm7a5wz2bcclyircsph4jd7ipqv",
         "provides": ["forgotten_monsters"],
-        "release": 34335,
+        "release": 34365,
         "repo": "https://codeberg.org/pixelzone/forgotten_monsters_reworked",
-        "short_description": "Work in Progress. Add monsters and bosses to your world..."
+        "short_description": "Add monsters and bosses to your world..."
       },
       "pixel_animals": {
         "dependencies": ["mobs"],
@@ -65082,6 +65095,14 @@
         "release": 5200,
         "repo": "https://github.com/AndrOn25022012/Artelhum.git",
         "short_description": "Cartoon-style and vibrant colors, with extended support!"
+      }
+    },
+    "AtomicCheese": {
+      "0_alpha": {
+        "hash": "01fmlam9x3qpx3jvg8fy1agavq9fsw05fky1xlh7pqwv5iyxdjc8",
+        "release": 34350,
+        "repo": null,
+        "short_description": "A Texture pack with 0 opacity for literally every item and node in CTF and JMA"
       }
     },
     "AwesomeDragon97": {
