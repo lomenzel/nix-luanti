@@ -122,3 +122,27 @@ Additional settings for the Luanti config file.
 
 - **Type**: Configuration block (attrsOf)
 - **Default**: Sets the port for Prometheus to the same port as the luanti server
+
+### `services.luanti.servers.<name>.mapserver.enable`
+
+Start a dedicated mapserver instance for this Luanti server (only functional in the NixOS module right now).
+
+- **Type**: Boolean
+- **Default**: `false`
+
+### `services.luanti.servers.<name>.mapserver.config`
+
+Configuration written verbatim to `mapserver.json`. The `port` key is required when the mapserver is enabled; other keys follow the upstream mapserver schema.
+
+- **Type**: Configuration block (attrsOf)
+- **Default**: `{}`
+- **Notes**:
+  - Set `webapi.secretkey` when the companion mod is enabled so the mod can authenticate.
+  - When `host` is configured, the NixOS module proxies `/map` to this port.
+
+### `services.luanti.servers.<name>.mapserver.companionMod`
+
+Installs the mapserver companion mod into the server and wires it to the configured mapserver URL and secret key.
+
+- **Type**: Boolean
+- **Default**: `false`

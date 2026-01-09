@@ -29,3 +29,5 @@ This project is licensed under the GNU Affero General Public License v3.0 (AGPL-
 1. The contents of the `/generated/contentDB.json` file are derived from data scraped from the Luanti ContentDB. These contents may be subject to separate licenses as specified by their original authors.
 
 2. The Patch files in src/packages/luanti-with-packages/ contain code derived from the Luanti project, which is licensed under the GNU Lesser General Public License v2.1 (LGPL-2.1). These patch files are themselves licensed under the same LGPL-2.1 terms.
+
+3. The Patch file mapserver-mtime-trigger.patch is derived from https://github.com/minetest-mapserver/mapserver/issues/417#issuecomment-3247481633 here and is not effected by licenses of this project

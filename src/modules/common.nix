@@ -156,6 +156,16 @@ rec {
                 by default sets the prometheus exporter address to 127.0.0.1:${"$"}{port}
               '';
             };
+
+            mapserver = {
+              enable = lib.mkEnableOption "Enable the mapserver for this luanti server (not working in home-manager module yet)";
+              config = lib.mkOption {
+                type = lib.types.attrsOf lib.types.anything;
+                default = { };
+                description = "Configuration for the mapserver";
+              };
+              companionMod = lib.mkEnableOption "Install the mapserver companion mod on this server";
+            };
           };
         });
       default = { };

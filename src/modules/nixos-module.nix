@@ -28,6 +28,7 @@ let
       ]
     ) [ ] (lib.attrsToList wasm-servers-raw))
   );
+  mapservers = lib.filterAttrs (_: server: server.mapserver.enable == true) enabled-servers;
 
   ports-to-open = lib.mapAttrsToList (_: server: server.port) (
     lib.filterAttrs (_: server: server.openFirewall) enabled-servers
@@ -115,6 +116,51 @@ in
                     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                   '';
                 };
+                "/map" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}/";
+                };
+
+                # probably better to patch mapserver to support relative paths
+                "/js" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/css" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/api" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  proxyWebsockets = true;
+                };
+                "/lib" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/bootstrap.min.js" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/bundle.js" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/fontawesome.min.css" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/leavelet.css" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/custom.css" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/leaflet.awesome-markers.css" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/main.js" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/webfonts" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
+                "/pics" = lib.mkIf (value.mapserver.enable) {
+                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                };
               };
 
             };
@@ -122,6 +168,7 @@ in
         );
       };
 
+      # luanti server
       systemd.services =
         builtins.mapAttrs
           (
@@ -130,7 +177,13 @@ in
               whitelist = if serverConfig.whitelist == null then cfg.whitelist else serverConfig.whitelist;
               mods =
                 serverConfig.mods
-                ++ (if whitelist == null then [ ] else [ pkgs.luantiPackages.mods.whitelist_by_AntumDeluge ]);
+                ++ (if whitelist == null then [ ] else [ pkgs.luantiPackages.mods.whitelist_by_AntumDeluge ])
+                ++ (
+                  if serverConfig.mapserver.companionMod && serverConfig.mapserver.enable then
+                    [ pkgs.luantiPackages.mods.mapserver ]
+                  else
+                    [ ]
+                );
               whitelistFile = pkgs.writeText "whitelist.txt" (builtins.concatStringsSep "\n" whitelist);
             in
             {
@@ -155,6 +208,8 @@ in
                       ''
                   }
 
+
+
                   ${
                     serverConfig.package.withPackages {
                       games = lib.singleton (serverConfig.game.withMods (m: mods));
@@ -163,7 +218,31 @@ in
                     --config ${
                       builtins.toFile "luanti.conf" (
                         toConf (
-                          { prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}"; } // serverConfig.config
+                          {
+                            prometheus_listener_address = "127.0.0.1:${toString serverConfig.port}";
+                          }
+                          // (
+                            if serverConfig.mapserver.enable && serverConfig.mapserver.companionMod then
+                              {
+
+                                "secure.http_mods" = "mapserver";
+                                "mapserver.url" = "http://127.0.0.1:${toString serverConfig.mapserver.config.port}";
+                                "mapserver.key" =
+                                  if
+                                    (
+                                      builtins.hasAttr "webapi" serverConfig.mapserver.config
+                                      && builtins.hasAttr "secretkey" serverConfig.mapserver.config.webapi
+                                    )
+                                  then
+
+                                    serverConfig.mapserver.config.webapi.secretkey
+                                  else
+                                    throw "mapserver companion mod enabled but webapi.secretkey missing in mapserver config";
+                              }
+                            else
+                              { }
+                          )
+                          // serverConfig.config
                         )
                       )
                     } \
@@ -188,6 +267,54 @@ in
             )
           );
 
+    }
+    {
+
+      systemd.services =
+        builtins.mapAttrs
+          (name: serverConfig: {
+            description = "luanti mapserver for ${name}";
+            after = [
+              "netwrork.target"
+              "luanti-${name}.service"
+            ];
+            wantedBy = [ "multi-user.target" ];
+            serviceConfig = {
+              ExecStart = pkgs.writeShellScript "start-luanti-mapserver" ''
+                # port configured: ${
+                  if builtins.hasAttr "port" serverConfig.mapserver.config then
+                    toString serverConfig.mapserver.config.port
+                  else
+                    throw "mapserver port must be defined. missing for ${name}"
+                }
+
+                ${
+                  if serverConfig.mapserver.enable then
+                    ''
+                      rm -rf ~/world/mapserver.json
+                      cat > ~/world/mapserver.json << EOF
+                      ${builtins.toJSON serverConfig.mapserver.config}
+                      EOF
+                    ''
+                  else
+                    ""
+                }
+                cd ~/world
+                ${pkgs.luanti-mapserver}/bin/mapserver
+              '';
+              User = "luanti-${lib.removePrefix "luanti-mapserver-" name}";
+              Group = "luanti";
+              Restart = "on-failure";
+            };
+          })
+          (
+            builtins.listToAttrs (
+              lib.mapAttrsToList (name: value: {
+                name = "luanti-mapserver-${name}";
+                inherit value;
+              }) mapservers
+            )
+          );
     }
     (lib.mkIf cfg.addOverlay {
       nixpkgs.overlays = lib.singleton (import ../overlay.nix);
