@@ -3359,7 +3359,7 @@
         "short_description": "Be a pirate and solve laser puzzles"
       },
       "mineclone2": {
-        "hash": "0595czn716b91yca5y8kza55pf2ymrnfp07wgmr0g1kzd10m5aw0",
+        "hash": "1krjkg99mfglbh9qhz145wwi1p6gl9cx9nm120ydriidl7y2wxgl",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -3580,7 +3580,7 @@
           "walkover",
           "xpanes"
         ],
-        "release": 34113,
+        "release": 34397,
         "repo": "https://git.minetest.land/VoxeLibre/VoxeLibre",
         "short_description": "Survive, farm, build, explore, play with friends, and do much more. Inspired by Minecraft, pushing beyond."
       },
@@ -7624,6 +7624,30 @@
         "release": 32538,
         "repo": "https://github.com/AmericanHuston/enhanced_clans",
         "short_description": "Work in Progress. A little something I've been working on. Adds clans, functions to manage clans, some new blocks, and some fun survival mechanics."
+      },
+      "life_is_short": {
+        "hash": "1429x0pwagb6r2bmzc7lrc4v28sk4sjdww77ki81fql6vja5gyik",
+        "provides": ["life_is_short"],
+        "release": 34374,
+        "repo": "https://github.com/AmericanHuston/life_is_short",
+        "short_description": "Bans you after some days"
+      },
+      "what_did_you_say": {
+        "dependencies": ["default", "mobs_monster", "stamina", "tnt"],
+        "game_support": [
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" }
+        ],
+        "hash": "1gyazy7gy70lzbs76s17c197dydnf5z174vgbldrgnilaqa5pzq7",
+        "provides": ["what_did_you_say"],
+        "release": 34373,
+        "repo": "https://github.com/AmericanHuston/what_did_you_say",
+        "short_description": "Listens to what you say using python, and then causes things to happen in game!"
       }
     },
     "Andrey01": {
@@ -28599,11 +28623,12 @@
       "ladders_3d": {
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "ryvnf", "name": "mineclonia" }
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "08gj51y7yqsafwgngngnzw5w07y2a70947si71y9a8amqc2qrvqa",
+        "hash": "0ihnxb71mq416p4082jjjf7ihdzcydzv1k5gg2qsdsd8bj62hwld",
         "provides": ["ladders_3d"],
-        "release": 34253,
+        "release": 34386,
         "repo": "https://git.0x7be.net/dirk/ladders_3d",
         "short_description": "3D ladders of a wide variety of base materials."
       },
@@ -34308,6 +34333,50 @@
       }
     },
     "ReinPlayz": {
+      "ruby_tools_plus": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
+        ],
+        "hash": "03yp8075g3dd5g4ilipxci22f3ypdnq6dkzd2n5a1zp6ilmq2y9r",
+        "provides": ["ruby_tools_plus"],
+        "release": 34381,
+        "repo": null,
+        "short_description": "Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
+      },
       "uncraftable_recipes": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
         "hash": "0k0gfnl0m7jnjcx7jkvj3c2f0fq2mz75wiivna0xfqwp00khdllq",
@@ -47097,11 +47166,11 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1pws6vk7qiw69mzmkl7vagaa3v6sj1b2lz666400dd4m8k3ffmad",
+        "hash": "1sj2hxpx3zfi48mrxnjj5lqbaxhk8k4xs8015f65zg4gak55p4fw",
         "provides": ["steampunk_blimp"],
-        "release": 34328,
+        "release": 34394,
         "repo": "https://github.com/APercy/steampunk_blimp",
-        "short_description": "Work in Progress. Adds a steampunk blimp"
+        "short_description": "Adds a steampunk blimp"
       },
       "supercub": {
         "dependencies": ["airutils"],
@@ -53711,9 +53780,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1p211nldm9n1jb361m8nsdsnjwqiza6pz9cw8bpzhqbm6qzqy47b",
+        "hash": "17762kgx3qi2vbi3j1zywainaix0kaf7rjm5ymnzl5hzkjkpz4lv",
         "provides": ["ldf_race"],
-        "release": 34163,
+        "release": 34392,
         "repo": "https://gitlab.com/retsil/ldf_race",
         "short_description": "Race/Parkour Timers and Record Tables"
       }
@@ -65747,10 +65816,10 @@
     },
     "but1YT": {
       "dumb_ctf_textures": {
-        "hash": "0kkzslly0yvwcmlhz86gzccjl5gc9nk5p6sd2kzyp71vcbzbm5n3",
-        "release": 34362,
+        "hash": "1crnf4ppq4j4nkaszmvk9lxz4s9jiafbfc5i05dy44xhr0dmg9jz",
+        "release": 34391,
         "repo": null,
-        "short_description": "Work in Progress. this is a joke texture pack made for ctf it is currently in the beta phase"
+        "short_description": "this is a joke texture pack made for ctf it is currently in the beta phase"
       }
     },
     "debiankaios": {
