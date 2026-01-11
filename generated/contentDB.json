@@ -5082,7 +5082,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0s6n8gkjmzclzgaz5w9dhxh7kwc1dgpxhwcy5v2rs3c125bqq6xf",
+        "hash": "1ls8rpxhpd0h2acqy3y13mmg3m6cs60xpxpgpxz4yg9y50i18bk5",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5314,7 +5314,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 34345,
+        "release": 34403,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -7643,9 +7643,9 @@
           { "author": "PetiAPocok", "name": "minetest_extended" },
           { "author": "Replicat", "name": "wyrm_cube" }
         ],
-        "hash": "1gyazy7gy70lzbs76s17c197dydnf5z174vgbldrgnilaqa5pzq7",
+        "hash": "13w27l3fcnf7v35prxchmg3d2618rq53ygdggmiddz1r8s5357kh",
         "provides": ["what_did_you_say"],
-        "release": 34373,
+        "release": 34402,
         "repo": "https://github.com/AmericanHuston/what_did_you_say",
         "short_description": "Listens to what you say using python, and then causes things to happen in game!"
       }
@@ -13228,7 +13228,7 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "00qp2dmvf04chcahmp8d0gaj9xz0m2vixvk5sfxnqr82b1m3m84h",
+        "hash": "135lxy6xfif2slpb4737m375d07m58ynj8jdg7acm64zkw8p7w9p",
         "provides": [
           "myadmintools",
           "mybadnames",
@@ -13245,7 +13245,7 @@
           "myunderworld",
           "myxp"
         ],
-        "release": 34344,
+        "release": 34404,
         "repo": "https://github.com/DonBatman/myadmin.git",
         "short_description": "Admin tools for servers including  Admin picks, curse protection, chat commands and more."
       },
@@ -13900,9 +13900,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0h6qm1wllj8q2ynjqy1w3xq6wq046r3ppld8kj3b94467rp2gx51",
+        "hash": "08j3z75lv8qh87s9sdwjynyrrqzd7s47m1gz6q45vx7s0q9kx8dw",
         "provides": ["mydisplay"],
-        "release": 34155,
+        "release": 34407,
         "repo": "https://github.com/DonBatman/mydisplay.git",
         "short_description": "A way to display items"
       },
@@ -15303,9 +15303,9 @@
         "short_description": "Scaffolding to help you reach high places"
       },
       "myschool": {
-        "hash": "106scfy702ak1j7c35v1rrr3i95g0zgciwdkk1ksygf4rjlbmwk2",
+        "hash": "1mnpsmrw2wd02abxl5xaxnqdd5wpjbd7cscyplhsl7g1g818gn47",
         "provides": ["myschool"],
-        "release": 34189,
+        "release": 34401,
         "repo": "https://github.com/DonBatman/myschool.git",
         "short_description": "What you need to build a school"
       },
@@ -19704,10 +19704,11 @@
     },
     "Extex": {
       "christmas": {
+        "dependencies": ["xcompat"],
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "19rgs0a0w02i8gs28pj2vf8sci051646s78zwxyp9h0mljgrw826",
+        "hash": "10jnp1m0yl66iln7024ypahmr7b0ppxn7391pnp4fk4c4ci1p8qb",
         "provides": ["christmas"],
-        "release": 33917,
+        "release": 34426,
         "repo": "https://github.com/Extex101/christmas",
         "short_description": "Adds festive christmas items and nodes"
       },
@@ -33636,9 +33637,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "08s4c4gfjllcvvz6ks3yjw0k0g3ha5yxfsm47crpq9dmasbr00di",
+        "hash": "16ryaqx8jbm0nk0ybadl30sa6g3hxgvq157x527ym5jbbgr040jm",
         "provides": ["uwu"],
-        "release": 34238,
+        "release": 34406,
         "repo": "https://codeberg.org/usrib/uwu.git",
         "short_description": "Add UwU block, uwu crystal ores, uwu tools and more."
       }
@@ -34334,7 +34335,7 @@
     },
     "ReinPlayz": {
       "ruby_tools_plus": {
-        "dependencies": ["default"],
+        "dependencies": ["default", "farming"],
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
@@ -34371,11 +34372,11 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "03yp8075g3dd5g4ilipxci22f3ypdnq6dkzd2n5a1zp6ilmq2y9r",
+        "hash": "1jdd4wgq8hcw0wxll60kaspcxwralpax6z76knbgvpdqxkgsh44c",
         "provides": ["ruby_tools_plus"],
-        "release": 34381,
+        "release": 34412,
         "repo": null,
-        "short_description": "Work in Progress. Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
+        "short_description": "Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
       },
       "uncraftable_recipes": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -39189,9 +39190,9 @@
     },
     "TenPlus1": {
       "ambience": {
-        "hash": "0armjri70b8a6ysbi0ipskvgvld40kqrkl4xdnjk2sskkmdgpvvi",
+        "hash": "0b79j9xzyw4a8qzsg0lr7922i5cn9shm33xib5r5g8580rd0mvv9",
         "provides": ["ambience"],
-        "release": 34382,
+        "release": 34424,
         "repo": "https://codeberg.org/tenplus1/ambience",
         "short_description": "Adds realistic sound effects into your world."
       },
@@ -39719,9 +39720,9 @@
       },
       "lucky_block": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "0vsbr4k739bxs83xqxi5rhh24fhlxpf02fdkqaipwx8df8mfrhyj",
+        "hash": "09rpbcfhiz6b6js484x4ky0hwilvrv4pckh1h9n91pibrzb3fvpb",
         "provides": ["lucky_block"],
-        "release": 33745,
+        "release": 34416,
         "repo": "https://codeberg.org/tenplus1/lucky_block",
         "short_description": "Craft and break lucky blocks to give something good, bad or painful :)"
       },
@@ -50374,6 +50375,15 @@
       }
     },
     "ems111": {
+      "lucky_block_ore": {
+        "dependencies": ["default", "lucky_block"],
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0dgs8xn349gdjy9698066lmvszlycqygizmn6f50szxnki0vs0nw",
+        "provides": ["lucky_block_ore"],
+        "release": 34417,
+        "repo": null,
+        "short_description": "Adds Lucky Block ores to world."
+      },
       "vl_fries": {
         "game_support": [
           { "author": "ryvnf", "name": "mineclonia" },
@@ -55782,9 +55792,9 @@
         "short_description": "adds body pillows"
       },
       "bridges": {
-        "hash": "03ymaxawbnrq5s7xakyv9j472mmfka0xcg5nby74120fzmfrqi4g",
+        "hash": "0ljq26b1fs3kvja2dn9678fwhib4xdnq3abgfg54k8v8rrsrkz85",
         "provides": ["bridges"],
-        "release": 29205,
+        "release": 34405,
         "repo": "https://github.com/mt-historical/bridges",
         "short_description": "bridges....and auto bridges"
       },
@@ -59211,11 +59221,11 @@
     },
     "pixelzone": {
       "boss_s_hudbar": {
-        "hash": "0l973g46zs02dgn6j3b1kk9rv0vm2hdc1yrj28fs6riacj17115q",
+        "hash": "0syflvxsx4hd0nq3dbnxyxwxrwcbf7bmlrr6gczix4pcgzs833s7",
         "provides": ["boss_s_hudbar"],
-        "release": 33594,
+        "release": 34408,
         "repo": "https://codeberg.org/pixelzone/boss_s_hudbar",
-        "short_description": "Work in Progress. Adds a hubbar with the amount of life of the bosses.."
+        "short_description": "Adds a hubbar with the amount of life of the bosses.."
       },
       "btmt": {
         "dependencies": [
@@ -59323,11 +59333,11 @@
       },
       "forgotten_monsters": {
         "dependencies": ["mobs"],
-        "hash": "0qjgsnnagqs0qp187hwg0gdyklm7a5wz2bcclyircsph4jd7ipqv",
+        "hash": "0q9wd40x2ldgrh93vgfqi6xj9a1ji43g2yn5gs2bn1q37nyxic34",
         "provides": ["forgotten_monsters"],
-        "release": 34365,
+        "release": 34410,
         "repo": "https://codeberg.org/pixelzone/forgotten_monsters_reworked",
-        "short_description": "Work in Progress. Add monsters and bosses to your world..."
+        "short_description": "Add monsters and bosses to your world..."
       },
       "pixel_animals": {
         "dependencies": ["mobs"],
@@ -64334,9 +64344,9 @@
     },
     "wiz": {
       "priority_queue": {
-        "hash": "0rj777l5aixxiwb5vrjialixqnrr5qi5q9dylslkfh736xxsb3lx",
+        "hash": "1mkp76ljy9vfqxb5c492jw22mfa5dkwv55axcn8wfjn8a1vx6c74",
         "provides": ["priority_queue"],
-        "release": 34383,
+        "release": 34415,
         "repo": null,
         "short_description": "Associate items with priorities to order them."
       }
