@@ -1912,7 +1912,7 @@
         "short_description": "Work in Progress. Fight an endless war against the goblins."
       },
       "lightshard": {
-        "hash": "1caw0kair2yjhjby7y3jk0w6y4azpcfhn8pj82lib6pra5qv8cxa",
+        "hash": "11kmmbbqw18iqxh8540w7igifbsqd2m6npaz3i51653q9x25m5da",
         "provides": [
           "ls_core",
           "ls_crystal",
@@ -1925,7 +1925,7 @@
           "ls_tools",
           "simplecrafting_lib"
         ],
-        "release": 34104,
+        "release": 34432,
         "repo": "https://codeberg.org/NathanS21/lightshard",
         "short_description": "Collect lightshards and bring light back to the realms"
       },
@@ -2643,7 +2643,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "019x2yhmibfms69r069gac1x78havr2gm5fbrvxk3lkkhss74bsg",
+        "hash": "18jkgg4nh58zjzr0h8dk6wyqzd7k7yazvkkljn8g2jv0qy0m16w4",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2748,7 +2748,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 34076,
+        "release": 34445,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -7624,6 +7624,13 @@
         "release": 32538,
         "repo": "https://github.com/AmericanHuston/enhanced_clans",
         "short_description": "Work in Progress. A little something I've been working on. Adds clans, functions to manage clans, some new blocks, and some fun survival mechanics."
+      },
+      "go_through_blocks": {
+        "hash": "1r4r9rl3czzi6q0vi61p57cmn561pwhaps0rsgx5szgn0vw35zh3",
+        "provides": ["go_through_blocks"],
+        "release": 34396,
+        "repo": "https://github.com/AmericanHuston/ascend",
+        "short_description": "Ascend like in TOTK! Blocks to ascend through must be under 20 blocks high."
       },
       "life_is_short": {
         "hash": "1429x0pwagb6r2bmzc7lrc4v28sk4sjdww77ki81fql6vja5gyik",
@@ -13900,9 +13907,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "08j3z75lv8qh87s9sdwjynyrrqzd7s47m1gz6q45vx7s0q9kx8dw",
+        "hash": "1jp43sdbr05dsd5i437mk5sslrwbp30dk7y3v7pf10jq84ywgvrw",
         "provides": ["mydisplay"],
-        "release": 34407,
+        "release": 34436,
         "repo": "https://github.com/DonBatman/mydisplay.git",
         "short_description": "A way to display items"
       },
@@ -15127,9 +15134,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0nc389jhcdfsljgd2z8yyfsz3yrbbigf18gzq95rmnsnl6v5651f",
+        "hash": "1r3a3nnkjch2rbmgdln5mrcylydwj5mhs4igb5302b91c4a3hsrz",
         "provides": ["myprogress"],
-        "release": 34261,
+        "release": 34430,
         "repo": "https://github.com/DonBatman/myprogress.git",
         "short_description": "A leveling system with visual XP bars and master machines."
       },
@@ -20050,9 +20057,9 @@
         "short_description": "This mod contains medieval castle lighting solutions"
       },
       "castle_masonry": {
-        "hash": "16a6s2b9a2xka7247s745zdr965d337l0p2wm65r7f53zpk27av8",
+        "hash": "14cij05w58ymkwl980gvwacfrccgwhf1fgira4i45rn69bpjzhdr",
         "provides": ["castle_masonry"],
-        "release": 30760,
+        "release": 34434,
         "repo": "https://github.com/minetest-mods/castle_masonry",
         "short_description": "This is a mod all about creating castles and castle dungeons."
       },
@@ -28625,11 +28632,12 @@
         "game_support": [
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "0ihnxb71mq416p4082jjjf7ihdzcydzv1k5gg2qsdsd8bj62hwld",
+        "hash": "0dxkzz2i9hwajskby144vzhs5dly39cjkw3hp3xjg18aws1hkm0s",
         "provides": ["ladders_3d"],
-        "release": 34386,
+        "release": 34447,
         "repo": "https://git.0x7be.net/dirk/ladders_3d",
         "short_description": "3D ladders of a wide variety of base materials."
       },
@@ -32788,9 +32796,9 @@
     },
     "OgelGames": {
       "bones": {
-        "hash": "1w4jgrlrmvn65qqp9m3fvj7x62v1jy5y5mzxcy69r0z09c0ybqh8",
+        "hash": "1gcdbm1gvplhwajr2m17bpbnphkkyy6vmf1rcdd4p59zj7ylks7h",
         "provides": ["bones"],
-        "release": 34315,
+        "release": 34429,
         "repo": "https://github.com/OgelGames/bones",
         "short_description": "Adds bones that generate on death"
       },
@@ -34372,11 +34380,11 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1jdd4wgq8hcw0wxll60kaspcxwralpax6z76knbgvpdqxkgsh44c",
+        "hash": "192q0lfz9v1mnp299z978blhg4zaaqaailfxb8ymg0d4pk06kz7n",
         "provides": ["ruby_tools_plus"],
-        "release": 34412,
+        "release": 34442,
         "repo": null,
-        "short_description": "Work in Progress. Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
+        "short_description": "Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
       },
       "uncraftable_recipes": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -39245,6 +39253,7 @@
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "Casimir", "name": "voxelgarden" },
@@ -39258,7 +39267,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -39267,11 +39275,12 @@
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" }
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0szwfkdw6sap1nq0b3g1cdg16a95xc1x2f0jgxsz77z40jz947lx",
+        "hash": "07p4gjy79mxfa81y0942fvag5s4jq00gzj09dll98s5p3sw7a8gw",
         "provides": ["beds"],
-        "release": 30925,
+        "release": 34440,
         "repo": "https://codeberg.org/tenplus1/beds",
         "short_description": "beds which allows sleep, featured to (auto) skip the night."
       },
@@ -39554,9 +39563,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0x143qagl8cmphdkvqiyxkz0ajv53ki6z79iyp99vfipnmdlg08m",
+        "hash": "1xhavh58mzx42g5xl1773b4dy3g4nn7akgcnlbx5ym0k0pqwm3ch",
         "provides": ["ethereal"],
-        "release": 34355,
+        "release": 34441,
         "repo": "https://codeberg.org/tenplus1/ethereal",
         "short_description": "Adds many new biomes, items and mechanics into the world."
       },
@@ -46791,9 +46800,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1afcv54wd4knl8niw4cqmph94drb12rfvhqdc2pf22bygb5kx0df",
+        "hash": "0fc2lzs57hv9ngqskwxyk37jl9i9lf4fszkqiw11sl256dnr628z",
         "provides": ["airutils"],
-        "release": 34321,
+        "release": 34455,
         "repo": "https://github.com/APercy/airutils",
         "short_description": "A lib for airplanes and some useful tools"
       },
@@ -46923,9 +46932,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "0sbcb7h0nk7fs919d598zkfn6jnn9brg8b49w0wdzxrm5781s233",
+        "hash": "112s1nd5qfj1715jawim66x1fw0ni8z5696r255a3krg18g05fq3",
         "provides": ["hidroplane"],
-        "release": 26772,
+        "release": 34449,
         "repo": "https://github.com/APercy/hidroplane",
         "short_description": "Adds a craftable hydroplane"
       },
@@ -46982,11 +46991,11 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1zcwg42jwiv79py8snhbprq1x5dbkjx6dp7r86i9d32dp6j1c6am",
+        "hash": "1p4a8sdqf089sfs3vrzc445fb7m69vlqsif70dzn8iak9i701sk5",
         "provides": ["ju52"],
-        "release": 34338,
+        "release": 34454,
         "repo": "https://github.com/APercy/ju52",
-        "short_description": "Work in Progress. Adds a Ju52 airplane"
+        "short_description": "Adds a Ju52 airplane"
       },
       "ju52_hydro": {
         "dependencies": ["airutils", "ju52"],
@@ -47185,9 +47194,9 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "0frjnvjigg2hxcsjs1fhy9d7xyslmbq6gdyikrir3jb9ax53vn1p",
+        "hash": "1gpx0xnqyir7vxrlcc0by20jrqa4bjv74cx4j82z8b5ml5l0czq7",
         "provides": ["supercub"],
-        "release": 34100,
+        "release": 34450,
         "repo": "https://github.com/APercy/supercub.git",
         "short_description": "Adds a craftable Super Cub airplane"
       },
@@ -50765,6 +50774,14 @@
         "release": 25712,
         "repo": "https://gitoverit.ofafox.com/Bob/hexcol.git",
         "short_description": "Adds nodes with colour palattes for each 3 character hex value like #fff"
+      },
+      "personal_space": {
+        "dependencies": ["player_visibility_api"],
+        "hash": "17lzrzx76izwykhi4vm2m292y5mis4vqh6s6vv30bfwlrih7irnl",
+        "provides": ["personal_space"],
+        "release": 34427,
+        "repo": "https://codeberg.org/PintTheLittleMouse/personal_space",
+        "short_description": "Players disapear when they get too close to you."
       },
       "player_visibility_api": {
         "hash": "0pydyj6ix3xn3dm2s7dphxz3bw06ynr82lcl6nslhv7zjd4nh4xf",
@@ -56043,9 +56060,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0zd823zrk4islglv6i7lrp5mi0mlmwbmzqg4zk68hhgqgqv52n63",
+        "hash": "0q9czd2n3p7v9s6pv8hg178im2acwkzn46vcmfhi5c8f2ydhri53",
         "provides": ["digistuff"],
-        "release": 34371,
+        "release": 34431,
         "repo": "https://github.com/mt-mods/digistuff/",
         "short_description": "Random digilines devices"
       },
@@ -57068,6 +57085,7 @@
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
@@ -57081,7 +57099,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
@@ -57090,9 +57107,10 @@
           { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" }
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0rvylwnhld82pvchznmxr2qsrw18pl40assqw6r8zr62a3s22dnm",
+        "hash": "0biqrwaj94g0sf64hk8pmxqswqwp6hfimkiwfqswq9abdx64gnbs",
         "provides": [
           "3dmushrooms",
           "bushes_classic",
@@ -57111,7 +57129,7 @@
           "woodsoils",
           "youngtrees"
         ],
-        "release": 32987,
+        "release": 34433,
         "repo": "https://github.com/mt-mods/plantlife_modpack",
         "short_description": "Adds various kinds of plants, fruit bushes, fallen trees, and a whole host of foliage and other ground cover."
       },
@@ -57792,9 +57810,9 @@
           { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1lnvsvnra5hcasn6andb44zg3fsvpwpf4ylp200ww8xcswda50an",
+        "hash": "17vc0yxl44dhhgw8yhrhj6zqbknjvvxmlrg6zh8mvzzp03x92spr",
         "provides": ["xcompat"],
-        "release": 33296,
+        "release": 34435,
         "repo": "https://github.com/mt-mods/xcompat",
         "short_description": "a library that aims to facilitate other mods to be game agnostic by handling sounds and crafting"
       },
@@ -63803,9 +63821,9 @@
         "short_description": "test"
       },
       "titou_punish": {
-        "hash": "1hp2f3x38x7xxxks2lxqapijsr9vx4gl7xc8jlhvlfijar4vzvsn",
+        "hash": "0qrh321vnb4v7ib7k5s3jvxn8xcas1g80j6gk9xm0a958dkpx5nf",
         "provides": ["titou_punish"],
-        "release": 33907,
+        "release": 34446,
         "repo": null,
         "short_description": "test"
       },

@@ -481,7 +481,7 @@ let
       {
         __toString =
           self:
-          ''${
+          "${
             if hasAttr "name" self then
               "[${self.name}]${if hasAttr "context" self then " [${self.context}]" else ""}"
             else
@@ -496,7 +496,7 @@ let
               "${builtins.map (cat: "${cat}") self.categories |> concatStringsSep "\n\n"}"
             else
               ""
-          }'';
+          }";
       }
 
       // (
