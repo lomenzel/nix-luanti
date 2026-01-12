@@ -2643,7 +2643,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "18jkgg4nh58zjzr0h8dk6wyqzd7k7yazvkkljn8g2jv0qy0m16w4",
+        "hash": "05rg0hglrrp1n4q99bax26r3k6i58zbzslj8xd3kj91igl08iv0y",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2748,7 +2748,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 34445,
+        "release": 34467,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -13335,9 +13335,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1yc5dg5pcxcsbqnpck584229b7wh3gyhfjpxfhk2lvm19dqxlp5q",
+        "hash": "007qvvwh6c03d0h4x9m5raqam1pvr9b2wy2vapk4wh99zf0bimfv",
         "provides": ["myappliances"],
-        "release": 34217,
+        "release": 34462,
         "repo": "https://github.com/DonBatman/myappliances.git",
         "short_description": "A basic set of appliances"
       },
@@ -13347,6 +13347,13 @@
         "release": 33433,
         "repo": "https://github.com/Ferk/myArcade",
         "short_description": "Arcade games"
+      },
+      "mybeach": {
+        "hash": "1jf5r8xr5z48kipi58i3nqcmxsppm9jv513jf3k2lii6ym33132l",
+        "provides": ["mybeach"],
+        "release": 34448,
+        "repo": "https://github.com/DonBatman/mybeach.git",
+        "short_description": "Things at the beach"
       },
       "myblocks": {
         "dependencies": ["default", "stairs"],
@@ -13386,16 +13393,16 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "16lc4h8dl6d2avlwnhacw5g9mg0f210i2fsxgw19y5z7xrnq9ilg",
+        "hash": "06ry24wbzi6wlgrh6k7ln342wmxjpyk5q1g4sr7jj49f2b2j9x4f",
         "provides": ["myblocks"],
-        "release": 33566,
+        "release": 34457,
         "repo": "https://github.com/DonBatman/myblocks.git",
         "short_description": "Special Blocks"
       },
       "myblueprint": {
-        "hash": "1d86iqilzqsyyq47c6slbwn746rlx6xlifk2vmla71qiz4b027cr",
+        "hash": "14lc004p1rqz51gxg3d1pl2s9drb9rfvxikhhzpp6301rgkpsf71",
         "provides": ["myblueprint"],
-        "release": 34012,
+        "release": 34458,
         "repo": "https://github.com/DonBatman/myblueprint.git",
         "short_description": "Easy way to layout your build"
       },
@@ -13495,11 +13502,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1lrh79zypn6cpkn2ffzsb9xriyk9331wbgkl0vmf0snjzcqw9hkd",
+        "hash": "0a3l5zbdw44i9n2bh4xrs0fc3d9k247q6cy2wbdbpsxblvfnlqmn",
         "provides": ["mybricks"],
-        "release": 33937,
+        "release": 34463,
         "repo": "https://github.com/DonBatman/mybricks.git",
         "short_description": "Machine to make bricks out of common material"
       },
@@ -22526,6 +22534,17 @@
         "release": 30857,
         "repo": null,
         "short_description": " Add a computer with basic functions."
+      },
+      "space_events": {
+        "game_support": [
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "Warr1024", "name": "nodecore" }
+        ],
+        "hash": "183zmprqd6yc7lpd4652g0vpp8w0wjpr1agn6zn26ljixb47y4np",
+        "provides": ["space_events"],
+        "release": 34305,
+        "repo": null,
+        "short_description": "adds the possibility of a meteor falling"
       },
       "superblock": {
         "hash": "13gwgbqjz3s2qvxxwxrmyksc16629s1i5v2p6jzrq0hr3xb402wn",
@@ -39563,9 +39582,9 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1xhavh58mzx42g5xl1773b4dy3g4nn7akgcnlbx5ym0k0pqwm3ch",
+        "hash": "0smx298vnbxlj5k674c2abpzas26jh3di4hr6ja789gfnw8jbs45",
         "provides": ["ethereal"],
-        "release": 34441,
+        "release": 34466,
         "repo": "https://codeberg.org/tenplus1/ethereal",
         "short_description": "Adds many new biomes, items and mechanics into the world."
       },
@@ -50405,6 +50424,17 @@
         "repo": null,
         "short_description": "Adds tasty fires to the game."
       },
+      "vl_lucky_block_ore": {
+        "game_support": [
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1ahy76jnac9xmzwna5250s1fd98h63k1rh21l12x4iqa0yxhgi5s",
+        "provides": ["vl_lucky_block_ore"],
+        "release": 34443,
+        "repo": null,
+        "short_description": "Adds Lucky Block ores to  world."
+      },
       "vl_tuff_extras": {
         "dependencies": [
           "mcl_deepslate",
@@ -56049,7 +56079,7 @@
         "short_description": "Add realistic moving delta hang gliders"
       },
       "digistuff": {
-        "dependencies": ["digilines"],
+        "dependencies": ["digilines", "mesecons"],
         "game_support": [
           { "author": "BRNSystems", "name": "blocky_portaling" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
@@ -56060,9 +56090,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "0q9czd2n3p7v9s6pv8hg178im2acwkzn46vcmfhi5c8f2ydhri53",
+        "hash": "0qv8rcfrz3j2hpnih12d4achz24xj6mgr1q167n1050nfx16dfh5",
         "provides": ["digistuff"],
-        "release": 34431,
+        "release": 34459,
         "repo": "https://github.com/mt-mods/digistuff/",
         "short_description": "Random digilines devices"
       },
@@ -57324,9 +57354,9 @@
       },
       "steel": {
         "dependencies": ["xcompat"],
-        "hash": "0jc8scbmgrcr9r45p7ydgchymnijxlqacz6gwzw19cffrz1vkijq",
+        "hash": "1n8xj6qfij7mj5pc0fj9q8r4j82w9ad4lky73j21k92f02qbkbh6",
         "provides": ["steel"],
-        "release": 23829,
+        "release": 34456,
         "repo": "https://github.com/mt-mods/steel",
         "short_description": "Adds a range of steel materials that are recyclable."
       },
@@ -64413,9 +64443,9 @@
         "short_description": "make advtrains interlocking priv respect areas"
       },
       "interior_decor": {
-        "hash": "1ch1g4vh7k22r40ahd2rggpaffc219yng9b87kydnjg0y1zin03d",
+        "hash": "1r81nsa85a6jnqvkz0ykn7nk3dwz3w4006c6r1npddncd6bd6qci",
         "provides": ["interior_decor"],
-        "release": 16292,
+        "release": 34460,
         "repo": "https://github.com/TerraQuest-Studios/interior_decor",
         "short_description": "adds some decor items with limited functionality"
       },
