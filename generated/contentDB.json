@@ -34473,9 +34473,9 @@
     },
     "River": {
       "aore": {
-        "hash": "1d49zrh502wmwxh51l23pyvldlgh5qjyr8hsicdzsnial5rsc9ym",
+        "hash": "0ilcy1q09173xzcndp9is8y5iyynacnbwrvm78g69khvbmsvg4cp",
         "provides": ["aore"],
-        "release": 33667,
+        "release": 34469,
         "repo": "https://github.com/SereMotsatt/aore",
         "short_description": "Create complex minerals the easy way"
       },
@@ -45337,9 +45337,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "11qc0j8x5npyjkz7wjh4ivph03yy6a0ff5qzfm0mkfaj8f1ms3xx",
+        "hash": "1hij01k3cq3cgw7l4nk63rrgp6vx0nhbb5w8pdbkjxfb9ndij8p8",
         "provides": ["flowerbeds"],
-        "release": 33940,
+        "release": 34471,
         "repo": "https://github.com/ZenonSeth/flowerbeds",
         "short_description": "Flower Beds for growing flowers"
       },
@@ -47578,6 +47578,57 @@
         "release": 33271,
         "repo": null,
         "short_description": "spruce tree resource"
+      },
+      "variety_fork": {
+        "dependencies": ["default", "doors", "farming", "stairs", "xpanes"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "AtomicCheese", "name": "superposition" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
+        ],
+        "hash": "0jz1rrm5a89bxwikwrxinn8bxbh4vxfw9y50xhhlrvzpz2ps7ls6",
+        "provides": [
+          "variety_autumn_forest",
+          "variety_bambooforest",
+          "variety_baobab",
+          "variety_cherry",
+          "variety_coniferous_forest",
+          "variety_cypress",
+          "variety_dorwinion",
+          "variety_frost_land",
+          "variety_giant_coniferous_forest",
+          "variety_grasslands",
+          "variety_japanese_forest",
+          "variety_meadow",
+          "variety_mountain",
+          "variety_redwood",
+          "variety_terracotta",
+          "variety_tropical_rainforest",
+          "variety"
+        ],
+        "release": 34235,
+        "repo": null,
+        "short_description": "Fork of Atlante's Variety"
       }
     },
     "backdaniel": {
@@ -64397,6 +64448,14 @@
         "release": 34415,
         "repo": null,
         "short_description": "Associate items with priorities to order them."
+      },
+      "star": {
+        "dependencies": ["priority_queue"],
+        "hash": "00a6ardn9j9602rwc0lc26pip2qzxml29ifwfqlgf69p8gclnxby",
+        "provides": ["star"],
+        "release": 34470,
+        "repo": null,
+        "short_description": "A* Pathfinding algorithm implementation"
       }
     },
     "wowiamdiamonds": {
@@ -65874,10 +65933,10 @@
     },
     "but1YT": {
       "dumb_ctf_textures": {
-        "hash": "1crnf4ppq4j4nkaszmvk9lxz4s9jiafbfc5i05dy44xhr0dmg9jz",
-        "release": 34391,
+        "hash": "0cwshg8qyz83qfqmkrfbpasjbvly2v2560b3pr5mwkp4gvyl3bh9",
+        "release": 34468,
         "repo": null,
-        "short_description": "Work in Progress. this is a joke texture pack made for ctf it is currently in the beta phase"
+        "short_description": "this is a joke texture pack made for ctf it is currently in the beta phase"
       }
     },
     "debiankaios": {
