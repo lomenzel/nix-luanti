@@ -3031,7 +3031,7 @@
         ],
         "release": 31948,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Objavujte a vynaliezajte v neskutočnom a nesúcitnom svete kociek, vzorov a abstrakcií."
+        "short_description": "Discover and invent in a surreal, unsympathetic world of cubes, patterns, and abstractions."
       },
       "nodecore_alpha": {
         "hash": "1a9mp1f4m9kqw0i0cwy43f9q2hwcr363jyfr0ap1y4lkr5fblgml",
@@ -3083,7 +3083,7 @@
         ],
         "release": 31962,
         "repo": "https://gitlab.com/sztest/nodecore",
-        "short_description": "Verzia predbežného prístupu NodeCore s novinkami (možno aj chybami)"
+        "short_description": "Early-access edition of NodeCore with latest features (and maybe bugs)"
       },
       "piranesi_redo": {
         "hash": "0lp2lqxq1zwk5r6qq17nwj6rcsjdrd5ywlp44iwr9hq319fbxwj3",
@@ -5082,7 +5082,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "1ls8rpxhpd0h2acqy3y13mmg3m6cs60xpxpgpxz4yg9y50i18bk5",
+        "hash": "01nkpwdvax67jnf5k2zihjxxpkx043bdlzvyab9n2cn1p38lv5jc",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5314,7 +5314,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 34403,
+        "release": 34474,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -12759,9 +12759,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1gkhj0zrk72w52nrimlndh8aywgj6jjl8qrsi01w4xqzady9brl0",
+        "hash": "1nd9nvks2ikpxyplhw69n0h9nwxhq1wm6vjk3v9nka81p674pcc9",
         "provides": ["digirouter"],
-        "release": 34295,
+        "release": 34485,
         "repo": "https://codeberg.org/darin755/digirouter.git",
         "short_description": "A digiline block that routes (forwards) digiline messages based on channel prefix"
       }
@@ -13335,9 +13335,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "007qvvwh6c03d0h4x9m5raqam1pvr9b2wy2vapk4wh99zf0bimfv",
+        "hash": "1vipcl13f9r3230a78dhm4ipnbv6a3fsajfbd1pn1jv1kav21sfv",
         "provides": ["myappliances"],
-        "release": 34462,
+        "release": 34483,
         "repo": "https://github.com/DonBatman/myappliances.git",
         "short_description": "A basic set of appliances"
       },
@@ -13349,9 +13349,9 @@
         "short_description": "Arcade games"
       },
       "mybeach": {
-        "hash": "1jf5r8xr5z48kipi58i3nqcmxsppm9jv513jf3k2lii6ym33132l",
+        "hash": "0ahrq17k397c7fx56hp0hlqbwyx768npc7nwlif8ipr56f725l4b",
         "provides": ["mybeach"],
-        "release": 34448,
+        "release": 34475,
         "repo": "https://github.com/DonBatman/mybeach.git",
         "short_description": "Things at the beach"
       },
@@ -13393,16 +13393,16 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "06ry24wbzi6wlgrh6k7ln342wmxjpyk5q1g4sr7jj49f2b2j9x4f",
+        "hash": "0678h2ca5glsv1a7m7lf7iifqph35320c8n0w8i1abrh9zwvk55k",
         "provides": ["myblocks"],
-        "release": 34457,
+        "release": 34472,
         "repo": "https://github.com/DonBatman/myblocks.git",
         "short_description": "Special Blocks"
       },
       "myblueprint": {
-        "hash": "14lc004p1rqz51gxg3d1pl2s9drb9rfvxikhhzpp6301rgkpsf71",
+        "hash": "1djphcpj6bm88x57x32avv6xnqlmq8zb775jqhxpma6bl1sfx85v",
         "provides": ["myblueprint"],
-        "release": 34458,
+        "release": 34473,
         "repo": "https://github.com/DonBatman/myblueprint.git",
         "short_description": "Easy way to layout your build"
       },
@@ -13505,9 +13505,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0a3l5zbdw44i9n2bh4xrs0fc3d9k247q6cy2wbdbpsxblvfnlqmn",
+        "hash": "0as92vrim55inhwwpnnln6yzfabpf44v3fcfp615w54ipgdg7nrc",
         "provides": ["mybricks"],
-        "release": 34463,
+        "release": 34484,
         "repo": "https://github.com/DonBatman/mybricks.git",
         "short_description": "Machine to make bricks out of common material"
       },
@@ -13538,9 +13538,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "1lgv1zm1by3hnq3kfkqjlcnafy7bih2q0yd7hcjszg3dvqpp9vfs",
+        "hash": "16xg4vzdv83biard0linmdjki7asqvhrw199b68j4smpd1fgljps",
         "provides": ["mycastle"],
-        "release": 34218,
+        "release": 34482,
         "repo": "https://github.com/DonBatman/mycastle",
         "short_description": "Blocks for making castles"
       },
@@ -13620,11 +13620,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "068l6kl57pcvk1r1wxczaz42qf98pl7wp3yf5c5jfbrmzhs8hr1d",
+        "hash": "111bb659j0r4iyd1c9xi4vam0j95lpmf9y2qbpyhvjglhqchvw0n",
         "provides": ["mycobble"],
-        "release": 33574,
+        "release": 34481,
         "repo": "https://github.com/DonBatman/mycobble.git",
         "short_description": "This is a simple mod that lets you turn cobble into gravel and gravel into sand"
       },
@@ -13787,11 +13788,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1crwi66sdn8bq6x0s325vb098icwn6b81qh4dhdd3nqmz7fjaiil",
+        "hash": "0php59bi96f55mhs6y1gyy0s3l74kxivkj069x7df62h38hml4qi",
         "provides": ["mydefaultfences"],
-        "release": 33601,
+        "release": 34479,
         "repo": "https://github.com/DonBatman/mydefaultfences.git",
         "short_description": "Adds more default fences"
       },
@@ -13800,8 +13802,8 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
@@ -13812,27 +13814,30 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1788px7dwzk6wxj75b90qh84rp7lw14xsxp3qg370pgkk7if57rw",
+        "hash": "1rsi7zspmgm2cqcgw75xgj7k4rnl87xw63kcirgm4w5vnpq0h999",
         "provides": ["mydefaultglass"],
-        "release": 30509,
+        "release": 34480,
         "repo": "https://github.com/DonBatman/mydefaultglass.git",
         "short_description": "Glass made from many default items"
       },
@@ -13841,8 +13846,8 @@
         "game_support": [
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
-          { "author": "1248", "name": "regnum2" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
@@ -13853,27 +13858,30 @@
           { "author": "giga-turbo", "name": "codecube" },
           { "author": "Hi_World", "name": "newplanet" },
           { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
           { "author": "JavaFXpert", "name": "qiskitblocks" },
           { "author": "jgordon510", "name": "gridlocks" },
           { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
           { "author": "nam", "name": "porko" },
           { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
           { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1aliqg64lwxhln8f0wk8z4s3gnqk1ldmy46j1m3xg590zcl6zmjn",
+        "hash": "1rnfzbb7rajq27bhg3n6c885dn3c8f385fp8m3z9miis5r6k29qc",
         "provides": ["mydefaultlights"],
-        "release": 30201,
+        "release": 34476,
         "repo": "https://github.com/DonBatman/mydefaultlights.git",
         "short_description": "Simple lights made from default material"
       },
@@ -38448,9 +38456,9 @@
         "short_description": "Prevents players from staying stuck inside nodes. "
       },
       "node_updates": {
-        "hash": "15d257ha0sbpkrfs6fzhx1fi44q2m0ffp1b52c9q4zzwhlbkisx0",
+        "hash": "0vk2v5a9mjxxmjvhfk47pzyakdd2l2jl6hwm4c8m4lbixwqf5grl",
         "provides": ["node_updates"],
-        "release": 34144,
+        "release": 34489,
         "repo": "https://github.com/SumianVoice/node_update.git",
         "short_description": "Tells nodes when they are updated by neighbors being dug or placed, plus extra features. Last breaking change: 2025-09-10"
       },
@@ -39613,6 +39621,7 @@
           { "author": "1248", "name": "castrum" },
           { "author": "1248", "name": "regnum" },
           { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
           { "author": "bell07", "name": "whynot_game" },
           { "author": "Big_Caballito", "name": "no_mans_land" },
           { "author": "BuckarooBanzay", "name": "mesecons_lab" },
@@ -39630,7 +39639,6 @@
           { "author": "KareaGhandTrail", "name": "block_assault" },
           { "author": "Kimapr", "name": "nonsensical_skyblock" },
           { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
           { "author": "miroptics", "name": "qiskitblocks_miro" },
           { "author": "mooD_Slayer", "name": "ksurvive" },
           { "author": "mt-mods", "name": "dreambuilder_game" },
@@ -39642,11 +39650,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0bgvl7aqms3iyvsg1b5z1v1vydsva7w8dv553jjzzcd1mvisgwzf",
+        "hash": "038p85jbj3srq6hv9609k5brbkadcqpj18vl61k5f8w2s5a99j9b",
         "provides": ["hopper"],
-        "release": 31635,
+        "release": 34486,
         "repo": "https://codeberg.org/tenplus1/hopper",
         "short_description": "Adds hoppers to transport items between chests/furnace etc."
       },
@@ -60992,7 +61001,7 @@
         "provides": ["blood_splatter"],
         "release": 29557,
         "repo": "https://gitgud.io/blut/blood_splatter",
-        "short_description": "Pridáva krvavé škvrny pre hráčov a tvory."
+        "short_description": "Blood splatter for players and creatures"
       },
       "bow2": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -65933,10 +65942,10 @@
     },
     "but1YT": {
       "dumb_ctf_textures": {
-        "hash": "0cwshg8qyz83qfqmkrfbpasjbvly2v2560b3pr5mwkp4gvyl3bh9",
-        "release": 34468,
+        "hash": "1p128dab4pmgqibnsr0m242l7b8fjqvs4xrnj9fjgh8dd5zc3g6h",
+        "release": 34490,
         "repo": null,
-        "short_description": "Work in Progress. this is a joke texture pack made for ctf it is currently in the beta phase"
+        "short_description": "this is a joke texture pack made for ctf it is currently in the beta phase"
       }
     },
     "debiankaios": {
