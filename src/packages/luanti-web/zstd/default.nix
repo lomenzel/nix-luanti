@@ -1,6 +1,12 @@
-{stdenv, fetchFromGitHub, cmake, emscripten }: stdenv.mkDerivation {
+{
+  stdenv,
+  fetchFromGitHub,
+  cmake,
+  emscripten,
+}:
+stdenv.mkDerivation {
   name = "zstd";
-  
+
   src = fetchFromGitHub {
     owner = "facebook";
     repo = "zstd";
@@ -8,8 +14,10 @@
     hash = "sha256-yJvhcysxcbUGuDOqe/TQ3Y5xyM2AUw6r1THSHOqmUy0=";
   };
 
-  buildInputs = [emscripten cmake];
-
+  buildInputs = [
+    emscripten
+    cmake
+  ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -38,8 +46,6 @@
   installPhase = ''
     emmake make install
   '';
-
-
 
   # /bin/zstd is missing. i dont know if its needed.
   fixupPhase = "true";

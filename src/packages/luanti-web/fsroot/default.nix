@@ -1,19 +1,26 @@
-{stdenv, luanti, zstd, games ? [], cacert, luantiPackages }: 
+{
+  stdenv,
+  luanti,
+  zstd,
+  games ? [ ],
+  cacert,
+  luantiPackages,
+}:
 stdenv.mkDerivation {
   name = "luanti-web-fsroot";
   src = luanti;
-  nativeBuildInputs = [ zstd  ];
+  nativeBuildInputs = [ zstd ];
   buildPhase = ''
     mkdir -p fsroot
     cd fsroot
 
- 
-    ${
-      builtins.concatStringsSep "\n" (map (game: ''
+
+    ${builtins.concatStringsSep "\n" (
+      map (game: ''
         mkdir -p minetest/games/${game.pname}
         cp -r ${game}/* minetest/games/${game.pname}/
-      '') games)
-    }
+      '') games
+    )}
 
     mkdir -p minetest
     cp -r ${luanti}/* minetest/

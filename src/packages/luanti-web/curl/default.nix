@@ -1,13 +1,24 @@
-{stdenv, emscripten, webshims, openssl, zlib, python3, cmake }: stdenv.mkDerivation {
+{
+  stdenv,
+  emscripten,
+  webshims,
+  openssl,
+  zlib,
+  python3,
+  cmake,
+}:
+stdenv.mkDerivation {
   name = "curl";
-  
+
   src = builtins.fetchTarball {
     url = "https://curl.se/download/curl-7.82.0.tar.bz2";
     sha256 = "sha256:08v60f0g5r868da6ncc8aka8fxq0n221073hk0f5n2r0bwaxjap6";
   };
 
-  buildInputs = [emscripten cmake];
-
+  buildInputs = [
+    emscripten
+    cmake
+  ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -37,7 +48,7 @@
 
   buildPhase = ''
     emmake make
-   
+
   '';
 
   installPhase = ''

@@ -1,14 +1,19 @@
-{stdenv, fetchgit, emscripten, zlib }: stdenv.mkDerivation {
+{
+  stdenv,
+  fetchgit,
+  emscripten,
+  zlib,
+}:
+stdenv.mkDerivation {
   name = "libpng";
-  
+
   src = fetchgit {
     url = "https://git.code.sf.net/p/libpng/code";
     rev = "a37d4836519517bdce6cb9d956092321eca3e73b";
     hash = "sha256-KCpOY1kL4eG51bUv28aw8jTjUNwr3UHAGBqAaN2eBvg=";
   };
 
-  buildInputs = [emscripten];
-
+  buildInputs = [ emscripten ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -26,7 +31,7 @@
 
   buildPhase = ''
     emmake make
-   
+
   '';
 
   installPhase = ''

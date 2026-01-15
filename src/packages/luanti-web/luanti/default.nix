@@ -17,11 +17,11 @@
   sqlite,
   zstd,
   curl,
-  symlinkJoin
+  symlinkJoin,
 }:
 
 let
-  installdir =  symlinkJoin {
+  installdir = symlinkJoin {
     name = "luanti-wasm-deps";
     paths = [
       zlib
@@ -39,7 +39,7 @@ let
     ];
   };
 
-  in
+in
 stdenv.mkDerivation {
   pname = "luanti-wasm-module";
   version = "5.14.0-wasm-5a6db4";
@@ -126,9 +126,9 @@ stdenv.mkDerivation {
   '';
 
   buildPhase = ''
-   # emmake make
+    # emmake make
 
-    true
+     true
   '';
 
   installPhase = ''

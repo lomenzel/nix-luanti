@@ -1,6 +1,11 @@
-{stdenv, fetchFromGitHub, emscripten }: stdenv.mkDerivation {
+{
+  stdenv,
+  fetchFromGitHub,
+  emscripten,
+}:
+stdenv.mkDerivation {
   name = "zlib";
-  
+
   src = fetchFromGitHub {
     owner = "madler";
     repo = "zlib";
@@ -8,8 +13,7 @@
     hash = "sha256-bIm5+uHv12/x2uqEbZ4/VGzUJnDzW9C3GkyHo3EnC1A=";
   };
 
-  buildInputs = [emscripten];
-
+  buildInputs = [ emscripten ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -24,7 +28,7 @@
 
   buildPhase = ''
     emmake make
-   
+
   '';
 
   installPhase = ''

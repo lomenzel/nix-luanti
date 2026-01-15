@@ -7,7 +7,7 @@
   port ? 30000,
   serverName ? "Luanti Web",
   proxyUrl ? "http://localhost:8080",
-  games ? [],
+  games ? [ ],
 }:
 
 let
@@ -48,7 +48,7 @@ let
       webshims
       openssl
       curl
-      
+
       ;
   };
 

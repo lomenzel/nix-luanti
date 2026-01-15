@@ -1,6 +1,12 @@
-{stdenv, fetchFromGitHub, emscripten, cmake }: stdenv.mkDerivation {
+{
+  stdenv,
+  fetchFromGitHub,
+  emscripten,
+  cmake,
+}:
+stdenv.mkDerivation {
   name = "libjpeg";
-  
+
   src = fetchFromGitHub {
     owner = "libjpeg-turbo";
     repo = "libjpeg-turbo";
@@ -8,8 +14,10 @@
     hash = "sha256-ErLvfeybvPlj/luglFGAv0w03VmMj5m8JAh7WfBlPTc=";
   };
 
-  buildInputs = [emscripten cmake];
-
+  buildInputs = [
+    emscripten
+    cmake
+  ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -18,7 +26,7 @@
     runHook preConfigure
 
     mkdir -p $out
-    
+
     # makefile can't handle parallelism
     export MAKEFLAGS=""
 
@@ -31,7 +39,7 @@
 
   buildPhase = ''
     emmake make
-   
+
   '';
 
   installPhase = ''

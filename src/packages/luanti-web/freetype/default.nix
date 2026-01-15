@@ -4,7 +4,7 @@
   emscripten,
   zlib,
   libpng,
-  cmake
+  cmake,
 }:
 stdenv.mkDerivation {
   name = "freetype";
@@ -18,7 +18,10 @@ stdenv.mkDerivation {
     hash = "sha256-sazxm6yCzoXZSQLK547Fl1WWRQjH4I97IeZ6glJ7XrU=";
   };
 
-  buildInputs = [ emscripten cmake ];
+  buildInputs = [
+    emscripten
+    cmake
+  ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;

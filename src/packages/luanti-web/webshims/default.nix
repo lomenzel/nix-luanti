@@ -1,15 +1,23 @@
-{stdenv, fetchFromGitHub, cmake, emscripten}: stdenv.mkDerivation {
+{
+  stdenv,
+  fetchFromGitHub,
+  cmake,
+  emscripten,
+}:
+stdenv.mkDerivation {
   name = "webshims";
-  
+
   src = fetchFromGitHub {
-    owner  = "paradust7";
+    owner = "paradust7";
     repo = "webshims";
     rev = "0767fdedd87f61a28a34f6444b669caf563a9fd5";
     hash = "sha256-GzXWgdLjRmGYThfbJ+liMFPEqkj7MaUvMM6no3nLLyw=";
   };
 
-  buildInputs = [emscripten cmake];
-
+  buildInputs = [
+    emscripten
+    cmake
+  ];
 
   # some env variables that might be important (common.sh)
   preConfigure = builtins.readFile ../common.sh;
@@ -27,7 +35,7 @@
 
   buildPhase = ''
     emmake make
-   
+
   '';
 
   installPhase = ''

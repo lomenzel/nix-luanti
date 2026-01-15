@@ -5082,7 +5082,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "01nkpwdvax67jnf5k2zihjxxpkx043bdlzvyab9n2cn1p38lv5jc",
+        "hash": "0ijk2my89hmndf8h0qly6mfwyaxr3qdif8d9gwn8wn4y90ix4z5w",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5314,7 +5314,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 34474,
+        "release": 34506,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -8558,9 +8558,9 @@
           { "author": "Warr1024", "name": "nodecore" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1djzy2r6jyghq8mrm641mkhjsqwis98afjd9a7vlp5lbf7xca4ij",
+        "hash": "1cskcdi5zy1qah7agxpb055qx9ah5im6l7hd0h517faj0xlxa68i",
         "provides": ["orehud", "xray"],
-        "release": 32888,
+        "release": 34507,
         "repo": "https://github.com/programmerjake/OreTracker",
         "short_description": "For tracking what ores are around the player."
       },
@@ -28635,14 +28635,15 @@
       },
       "ladders_3d": {
         "game_support": [
+          { "author": "EmptyStar", "name": "asuna" },
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "0dxkzz2i9hwajskby144vzhs5dly39cjkw3hp3xjg18aws1hkm0s",
+        "hash": "12rfqjsznjrs0whwpbyl2z3j6fcn426y39cfhnfd3338wwnd1nhr",
         "provides": ["ladders_3d"],
-        "release": 34447,
+        "release": 34509,
         "repo": "https://git.0x7be.net/dirk/ladders_3d",
         "short_description": "3D ladders of a wide variety of base materials."
       },
