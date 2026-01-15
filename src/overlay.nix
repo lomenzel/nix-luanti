@@ -32,5 +32,6 @@ packages
       ./mapserver-mtime-trigger.patch
     ];
   };
+  luanti-web = final.callPackage ./packages/luanti-web { };
   lib = prev.lib // (import ./lib.nix { lib = prev.lib; });
 }

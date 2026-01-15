@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Minetest for the Web</title>
+    <style>
+        html, body {
+            background-color: rgb(252, 252, 234);
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            width: 100vw;
+            top: 0px;
+            left: 0px;
+        }
+        details {
+            bottom: 0px;
+            position: absolute;
+            padding: 0.25cm;
+            overflow: scroll;
+            max-height: 50vh;
+        }
+        .console {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+        }
+
+        button#join_launch {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button#join_launch:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="join_form" class="console">
+        <div class="form-container">
+            <h2 id="join_name_title">Joining Game</h2>
+
+            <div class="input-group">
+                <label for="join_username">Player Name:</label>
+                <input type="text" id="join_username" name="username" maxlength="19"
+                    title="Alphanumeric, 19 characters max" required>
+            </div>
+
+            <div class="input-group">
+                <label for="join_user_password">Player Password:</label>
+                <input type="password" id="join_user_password" name="password" required autocomplete="off">
+            </div>
+
+            <button id="join_launch">Join Game</button>
+        </div>
+    </div>
+    <details>
+        <summary>Logs</summary>
+        <div id="temporary_console" class="console"></div>
+    </details>
+    <script type="text/javascript" src="%__RELEASE_UUID__%/launcher.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript">
+
+        document.getElementById("join_name_title").innerText = `Join game: ${SERVER_NAME}`;
+
+        // Reduce memory and network usage
+        function enableMemorySaving(mtl) {
+            mtl.setConf('viewing_range', 85);
+            mtl.setConf('max_block_send_distance', 5);
+            mtl.setConf('max_block_generate_distance', 5);
+        }
+
+        const joinForm = document.getElementById('join_form');
+        const tcon = document.getElementById('temporary_console');
+        function tcon_print(prefix, line) {
+            if (prefix) {
+                for (child of tcon.childNodes) {
+                    if (child.nodeName == 'PRE' && child.innerText.startsWith(prefix)) {
+                        child.innerText = prefix + line;
+                        return;
+                    }
+                }
+            }
+            const p = document.createElement('pre');
+            p.innerText = prefix + line;
+            tcon.appendChild(p);
+        }
+
+
+
+        function enableJoinForm() {
+            joinForm.style.display = 'block';
+
+
+            const proxies = [
+                ["wss://na1.dustlabs.io/mtproxy", "North America"],
+                ["wss://sa1.dustlabs.io/mtproxy", "South America"],
+                ["wss://eu1.dustlabs.io/mtproxy", "Europe"],
+                ["wss://ap1.dustlabs.io/mtproxy", "Asia"],
+                ["wss://ap2.dustlabs.io/mtproxy", "Australia"],
+            ];
+
+
+            // select_language.value = getDefaultLanguage();
+
+
+            const joinLaunch = document.getElementById('join_launch');
+            joinLaunch.addEventListener('click', async () => {
+                const username = document.getElementById('join_username').value;
+                const password = document.getElementById('join_user_password').value;
+                if (username.length == 0) {
+                    alert("Empty username");
+                    return;
+                }
+
+                if (!PROXY_URL)
+                    PROXY_URL = proxies[0][0]
+
+                mtl.setProxy(PROXY_URL);
+                //mtl.addPack(join_game);
+
+                const args = new MinetestArgs();
+                // args.gameid = join_game;
+                args.name = username;
+                args.address = DOMAIN;
+                args.password = password;
+                args.port = PORT;
+                args.go = true;
+                //mtl.setVPN(null, join_code);
+                enableMemorySaving(mtl);
+                mtl.setLang(getDefaultLanguage());
+                console.log(getDefaultLanguage());
+                console.log(args);
+                mtl.launch(args);
+            });
+        }
+
+        function queryProxy(cmd, proxy) {
+            return new Promise((resolve, reject) => {
+                let finished = false;
+                const ws = new WebSocket(proxy);
+                ws.addEventListener('open', (event) => {
+                    ws.send(cmd);
+                });
+                ws.addEventListener('error', (event) => {
+                    alert('Error initiating proxy connection');
+                    finished = true;
+                    reject(new Error('Received error'));
+                });
+                ws.addEventListener('close', (event) => {
+                    if (!finished) {
+                        alert('Proxy connection closed unexpectedly');
+                        finished = true;
+                        reject(new Error('Received close'));
+                    }
+                });
+                ws.addEventListener('message', (event) => {
+                    if (typeof event.data !== 'string') {
+                        alert('Invalid message received from proxy');
+                        finished = true;
+                        reject(new Error('Invalid message'));
+                        return;
+                    }
+                    finished = true;
+                    ws.close();
+                    resolve(event.data.split(' '));
+                });
+            });
+        }
+
+        let join_code = null;
+        let join_proxy = null;
+        let join_game = null;
+        const peek_params = new URLSearchParams(window.location.search);
+
+        const args = MinetestArgs.fromQueryString(window.location.search);
+        tcon_print("", "Minetest Arguments: " + JSON.stringify(args.toArray(), null, '    '));
+        tcon_print("", "Data Packs: " + JSON.stringify(args.packs, null, '    '));
+
+        const mtl = new MinetestLauncher();
+        mtl.addPacks(args.packs);
+        mtl.onprint = (text) => {
+            tcon_print("", text);
+        };
+        mtl.onprogress = (name, progress) => {
+            const prefix = `Task ${name} : `;
+            const pct = `${Math.round(progress * 100)}%`;
+            tcon_print(prefix, pct);
+        };
+        mtl.onready = () => {
+            tcon_print("", "READY!");
+            enableJoinForm();
+        };
+        mtl.onerror = (err) => {
+            tcon_print("", "**************** FATAL ERROR ******************");
+            tcon_print("", err);
+            tcon_print("", "***********************************************");
+        };
+    </script>
+</body>
+
+</html>

@@ -83,7 +83,7 @@ in
           lib.mapAttrsToList (name: value: {
             name = value.host;
             value = {
-              root = pkgs.luanti-wasm.override {
+              root = pkgs.luanti-web.override {
                 serverName = name;
                 port = value.port;
                 host = "10.0.0.${builtins.toString value.number}";
@@ -99,14 +99,14 @@ in
                   add_header Pragma "no-cache";
                   add_header Expires 0;
                 '';
-                "/52c68dca94ed/".extraConfig = ''
+                "/${pkgs.luanti-web.release-uuid}/".extraConfig = ''
                   add_header Cache-Control "public, max-age=31536000, immutable";
                 '';
-                "/52c68dca94ed/minetest.worker.js".extraConfig = ''
+                "/${pkgs.luanti-web.release-uuid}/worker.js".extraConfig = ''
                   add_header Cross-Origin-Embedder-Policy "require-corp";
                   add_header Cross-Origin-Opener-Policy "same-origin";
                 '';
-                "/52c68dca94ed/packs/".extraConfig = ''
+                "/${pkgs.luanti-web.release-uuid}/packs/".extraConfig = ''
                   add_header Access-Control-Allow-Origin "*";
                 '';
                 "/proxy" = {

@@ -1,0 +1,11 @@
+--- a/system/lib/wasmfs/wasmfs.cpp	2025-08-01 07:41:57.000000000 -0700
++++ b/system/lib/wasmfs/wasmfs.cpp	2025-08-14 04:45:14.725458035 -0700
+@@ -174,7 +174,7 @@
+     }
+ 
+     auto inserted =
+-      lockedParentDir.insertDirectory(childName, S_IRUGO | S_IXUGO);
++      lockedParentDir.insertDirectory(childName, S_IRUGO | S_IWUGO | S_IXUGO);
+     assert(inserted && "TODO: handle preload insertion errors");
+   }
+ 

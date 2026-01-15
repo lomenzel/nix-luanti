@@ -59,6 +59,9 @@
           src = ./doc;
         };
 
+        # for easyer debugging
+        luanti-web = pkgs.callPackage ./src/packages/luanti-web {};
+
         fetchContentDB = pkgs.callPackage ./src/utils/updater { };
       });
       nixosModules.default = import ./src/modules/nixos-module.nix;

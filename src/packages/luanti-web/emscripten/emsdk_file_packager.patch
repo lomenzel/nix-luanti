@@ -1,0 +1,16 @@
+--- a/tools/file_packager.py	2025-08-01 07:42:33.000000000 -0700
++++ b/tools/file_packager.py	2025-08-14 04:45:14.723457995 -0700
+@@ -754,8 +754,12 @@
+       use_data = '''// Reuse the bytearray from the XHR as the source for file reads.
+           DataRequest.prototype.byteArray = byteArray;
+           var files = metadata['files'];
++          function make_callback(i) {
++            var req = DataRequest.prototype.requests[files[i].filename];
++            return () => {req.onload()};
++          }
+           for (var i = 0; i < files.length; ++i) {
+-            DataRequest.prototype.requests[files[i].filename].onload();
++            setTimeout(make_callback(i));
+           }'''
+       use_data += ("          Module['removeRunDependency']('datafile_%s');\n"
+                    % js_manipulation.escape_for_js_string(data_target))
