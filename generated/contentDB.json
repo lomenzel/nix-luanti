@@ -13923,9 +13923,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1jp43sdbr05dsd5i437mk5sslrwbp30dk7y3v7pf10jq84ywgvrw",
+        "hash": "0m1rdbqn62242cik8h1vx02wjki97z3pavgzkcy0gh4a55jgvv9d",
         "provides": ["mydisplay"],
-        "release": 34436,
+        "release": 34498,
         "repo": "https://github.com/DonBatman/mydisplay.git",
         "short_description": "A way to display items"
       },
@@ -14056,11 +14056,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1rbxnvi9b1vv4sw87j4da2rvp01xk59w93nsig03bk3v7qzzzmlz",
+        "hash": "11jb2chfmaf9g7vvdbbwz2q2w4j7c2nxprkykrdhcqcckan409d5",
         "provides": ["myfences"],
-        "release": 33972,
+        "release": 34493,
         "repo": "https://github.com/DonBatman/myfences.git",
         "short_description": "Adds nice looking fences."
       },
@@ -14099,11 +14100,12 @@
           { "author": "rlars", "name": "occupymoon_game" },
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "Thunder1035", "name": "etb" }
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "05ilswpy3xyw6v8i7bgqdg8mh974v728hwcxdq3qldlq24nv34mq",
+        "hash": "1yr245ab1rq4a8jprm0lc8vnkzx0gj9m02079wlwj03k4rcry91j",
         "provides": ["myflooring"],
-        "release": 33932,
+        "release": 34496,
         "repo": "https://github.com/DonBatman/myflooring.git",
         "short_description": "A basic set of flooring"
       },
@@ -14138,42 +14140,18 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0wgai16j2wmc7aw000m90vkicp8q84xpj4dcccmr3jz0in7j6i5s",
+        "hash": "1zqikwijqa7pkgk8p0j80fb8vwj826ky7n3m15nn95hjn81j395y",
         "provides": ["myfurniture"],
-        "release": 34293,
+        "release": 34495,
         "repo": "https://github.com/DonBatman/myfurniture.git",
         "short_description": "A basic set of furniture"
       },
       "myglass": {
-        "dependencies": ["default", "mydye", "xpanes"],
-        "game_support": [
-          { "author": "1248", "name": "castrum" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "AtomicCheese", "name": "superposition" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "Big_Caballito", "name": "no_mans_land" },
-          { "author": "Casimir", "name": "voxelgarden" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "jgordon510", "name": "gridlocks" },
-          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
-          { "author": "KareaGhandTrail", "name": "block_assault" },
-          { "author": "Kimapr", "name": "nonsensical_skyblock" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "rubenwardy", "name": "capturetheflag" },
-          { "author": "TheFanne", "name": "raining_nodes" },
-          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
-        ],
-        "hash": "1cbknrbgdpzrmqqpzhh7nvhsvb4gl7ndhl4rj9883w9bxjk7kk8q",
+        "dependencies": ["default", "lucky_block", "mydye", "xpanes"],
+        "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
+        "hash": "0y1c9ihzxya56mr1k0m6nrkld1md0fpsc1p8ahv166rc5x7fc5aw",
         "provides": ["myglass"],
-        "release": 34040,
+        "release": 34494,
         "repo": "https://github.com/DonBatman/myglass.git",
         "short_description": "Different glass for your enjoyment"
       },
@@ -15326,9 +15304,9 @@
         "short_description": "Scaffolding to help you reach high places"
       },
       "myschool": {
-        "hash": "1mnpsmrw2wd02abxl5xaxnqdd5wpjbd7cscyplhsl7g1g818gn47",
+        "hash": "0j0hjkhjn99l9y4mawmpiz273pkgcvk1y3dzms6np7lw5n7i7gav",
         "provides": ["myschool"],
-        "release": 34401,
+        "release": 34492,
         "repo": "https://github.com/DonBatman/myschool.git",
         "short_description": "What you need to build a school"
       },
@@ -34481,9 +34459,9 @@
     },
     "River": {
       "aore": {
-        "hash": "0ilcy1q09173xzcndp9is8y5iyynacnbwrvm78g69khvbmsvg4cp",
+        "hash": "1vmavz53sbm8gb035gpjapbl3lry3y5rxj8db7c9dv6cwn3yg1xg",
         "provides": ["aore"],
-        "release": 34469,
+        "release": 34497,
         "repo": "https://github.com/SereMotsatt/aore",
         "short_description": "Create complex minerals the easy way"
       },
@@ -47615,7 +47593,7 @@
           { "author": "TheFanne", "name": "raining_nodes" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "0jz1rrm5a89bxwikwrxinn8bxbh4vxfw9y50xhhlrvzpz2ps7ls6",
+        "hash": "1lqv5716wlxxnx7754qb1r477f5fx6rzc8czw0hl2jgwb042b75v",
         "provides": [
           "variety_autumn_forest",
           "variety_bambooforest",
@@ -47635,7 +47613,7 @@
           "variety_tropical_rainforest",
           "variety"
         ],
-        "release": 34235,
+        "release": 34502,
         "repo": null,
         "short_description": "Fork of Atlante's Variety"
       }
@@ -63911,9 +63889,9 @@
         "short_description": "test"
       },
       "titou_punish": {
-        "hash": "0qrh321vnb4v7ib7k5s3jvxn8xcas1g80j6gk9xm0a958dkpx5nf",
+        "hash": "0vi8diyxx270hwcl0jjd0npksc25yi90907ic4m87x4psifs6qsh",
         "provides": ["titou_punish"],
-        "release": 34446,
+        "release": 34499,
         "repo": null,
         "short_description": "test"
       },
@@ -65103,24 +65081,15 @@
         "short_description": "Makes the player have better sneaking."
       },
       "shapetester": {
-        "dependencies": [
-          "default",
-          "hands",
-          "mob_horse",
-          "mobs_animal",
-          "mobs_monster",
-          "player_api"
-        ],
         "game_support": [
-          { "author": "hilol", "name": "epic_combat" },
           { "author": "jara25", "name": "yams" },
           { "author": "Luanti", "name": "minetest_game" }
         ],
-        "hash": "08yvh0zyfw0ksis010hc395jz5fqws7q5yv176333ff7as7a64w8",
+        "hash": "02wi0cgrb68nml0nismwlllzf90sdqqsv8gilkm5f7j1k9nriwj3",
         "provides": ["shapetester"],
-        "release": 33319,
+        "release": 34505,
         "repo": null,
-        "short_description": "Work in Progress. Allows you to turn into a plethora of different species."
+        "short_description": "Allows you to turn into a plethora of different species."
       },
       "super_magic": {
         "dependencies": ["default", "mana", "tnt"],
@@ -65942,10 +65911,10 @@
     },
     "but1YT": {
       "dumb_ctf_textures": {
-        "hash": "1p128dab4pmgqibnsr0m242l7b8fjqvs4xrnj9fjgh8dd5zc3g6h",
-        "release": 34490,
+        "hash": "0xfpbg9f31kh9d2254i1s5226whj62gwwydwzzs33wi9h2fk57ly",
+        "release": 34504,
         "repo": null,
-        "short_description": "Work in Progress. this is a joke texture pack made for ctf it is currently in the beta phase"
+        "short_description": "this is a joke texture pack made for ctf it is currently in the beta phase"
       }
     },
     "debiankaios": {
