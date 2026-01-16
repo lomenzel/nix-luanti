@@ -3802,7 +3802,7 @@
     },
     "awuuwa": {
       "clonecraftlibre": {
-        "hash": "1icwiq30ngi9kwnfkd045b2lb25zsf64afp95f36486l01wha6mr",
+        "hash": "1fr8j1bd4lg2bdagx87hija3qhg4rbv11ndh5lqzvi4fz5yfkq9n",
         "provides": [
           "_mcl_autogroup",
           "awards",
@@ -3817,7 +3817,6 @@
           "hudbars",
           "lightning",
           "mcl_achievements",
-          "mcl_aliases",
           "mcl_anvils",
           "mcl_armor_stand",
           "mcl_armor",
@@ -3843,6 +3842,7 @@
           "mcl_cake",
           "mcl_campfires",
           "mcl_cauldrons",
+          "mcl_ccl_aliases",
           "mcl_charges",
           "mcl_chests",
           "mcl_clock",
@@ -3975,6 +3975,7 @@
           "mcl_zombie_sieges",
           "mcl2mcla_aliases",
           "mobs_mc",
+          "mtg_aliases_to_ccl",
           "playerphysics",
           "screwdriver",
           "show_wielded_item",
@@ -3983,7 +3984,7 @@
           "tt",
           "walkover"
         ],
-        "release": 33355,
+        "release": 34512,
         "repo": null,
         "short_description": "An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience unlike both Mineclonia and VoxeLibre which focus on the latest features"
       }
@@ -26622,6 +26623,28 @@
         "short_description": "Bypass Protection Sorcery in survival"
       }
     },
+    "Kindaglia": {
+      "automated_chest": {
+        "dependencies": [
+          "fsc",
+          "mcl_books",
+          "mcl_core",
+          "mcl_crafting_table",
+          "mcl_formspec",
+          "mcl_sounds"
+        ],
+        "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
+          { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "mineclone2" }
+        ],
+        "hash": "1lb3w6adsp7k6ndwibxx9w02dbpd1jzhf108cka5dc91yfaym21i",
+        "provides": ["automated_chest"],
+        "release": 34453,
+        "repo": "https://github.com/Kindaglia/automated_storage",
+        "short_description": "A high-capacity (1000 slots) chest with search and scroll functions, compatible with Mineclonia."
+      }
+    },
     "KingSmarty": {
       "rainbow_ore": {
         "hash": "1bfmjncq27j115xdfhxbw7rscrc77xryysnqj12az05x0rlchf2m",
@@ -34460,9 +34483,9 @@
     },
     "River": {
       "aore": {
-        "hash": "1vmavz53sbm8gb035gpjapbl3lry3y5rxj8db7c9dv6cwn3yg1xg",
+        "hash": "1hdnp43jg74j7h24qsxzj85pngvdyb6yc8fhp84cf5ws4pnd1wfg",
         "provides": ["aore"],
-        "release": 34497,
+        "release": 34513,
         "repo": "https://github.com/SereMotsatt/aore",
         "short_description": "Create complex minerals the easy way"
       },
@@ -58073,6 +58096,52 @@
         "short_description": "Adds a wildflower field biome to Minetest Game."
       }
     },
+    "n0RE5": {
+      "ambient_sounds": {
+        "dependencies": ["default"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
+        ],
+        "hash": "1ydxl9yc0rkgk9nsrjmlq0mbd76d46x6qq0jvl9k396i1nb1gx57",
+        "provides": ["ambient_sounds"],
+        "release": 34390,
+        "repo": "https://github.com/n0RE5/ambient_sounds",
+        "short_description": "Adds environment-specific ambient audio and random atmospheric sound effects"
+      }
+    },
     "nac": {
       "itemshelf": {
         "dependencies": ["default"],
@@ -59376,47 +59445,11 @@
       },
       "ethereal_bosses": {
         "dependencies": ["mobs"],
-        "game_support": [
-          { "author": "1248", "name": "agon" },
-          { "author": "1248", "name": "regnum" },
-          { "author": "5uper1ach", "name": "szombie" },
-          { "author": "Amaz", "name": "lordofthetest" },
-          { "author": "Astrobe", "name": "minefall" },
-          { "author": "bell07", "name": "whynot_game" },
-          { "author": "carlos_rupp", "name": "berzerkpt" },
-          { "author": "crabycowman123", "name": "spmeter" },
-          { "author": "debiankaios", "name": "proxima_survival" },
-          { "author": "EmptyStar", "name": "asuna" },
-          { "author": "hilol", "name": "epic_combat" },
-          { "author": "JALdMIC", "name": "survivethedays" },
-          { "author": "jara25", "name": "yams" },
-          { "author": "JavaFXpert", "name": "qiskitblocks" },
-          { "author": "Luanti", "name": "minetest_game" },
-          { "author": "MeseCraft", "name": "mesecraft" },
-          { "author": "miroptics", "name": "qiskitblocks_miro" },
-          { "author": "mt-mods", "name": "blockcolor" },
-          { "author": "mt-mods", "name": "dreambuilder_game" },
-          { "author": "nam", "name": "porko" },
-          { "author": "Noodlemire", "name": "voxeldungeon" },
-          { "author": "NotaB", "name": "tolkientest" },
-          { "author": "PetiAPocok", "name": "minetest_extended" },
-          { "author": "PyuDev", "name": "pyutest" },
-          { "author": "Replicat", "name": "wyrm_cube" },
-          { "author": "ryvnf", "name": "mineclonia" },
-          { "author": "StarNinjas", "name": "jail_escape" },
-          { "author": "StarNinjas", "name": "ssp" },
-          { "author": "StarNinjas", "name": "veil_of_the_unknown" },
-          { "author": "sunnysideup", "name": "holidayhorrors" },
-          { "author": "Thunder1035", "name": "etb" },
-          { "author": "Thunder1035", "name": "pacman" },
-          { "author": "Wuzzy", "name": "hades_revisited" },
-          { "author": "Wuzzy", "name": "mineclone2" }
-        ],
-        "hash": "08hs1kizmp6cm55pij2slvl70l9xrdlivhm2gbxs5zlkrzdc8429",
+        "hash": "1kzk68xgxlg9waib3rsynpkd8xh2zixk6mj54jrpwdaq3cp0g6jv",
         "provides": ["ethereal_bosses"],
-        "release": 28170,
+        "release": 34515,
         "repo": "https://codeberg.org/pixelzone/ethereal_bosses_reworked",
-        "short_description": "Work in Progress. Adds Bosses in biomes from the \"Ethereal NG\" and \"Mineclonia\" mods"
+        "short_description": "Adds Bosses in biomes from the \"Ethereal NG\" and \"Mineclonia\" mods"
       },
       "forgotten_monsters": {
         "dependencies": ["mobs"],
@@ -65081,6 +65114,50 @@
         "repo": null,
         "short_description": "Makes the player have better sneaking."
       },
+      "minetest_oneblock": {
+        "dependencies": ["default", "nether"],
+        "game_support": [
+          { "author": "1248", "name": "castrum" },
+          { "author": "1248", "name": "regnum" },
+          { "author": "Amaz", "name": "lordofthetest" },
+          { "author": "AtomicCheese", "name": "superposition" },
+          { "author": "bell07", "name": "whynot_game" },
+          { "author": "Big_Caballito", "name": "no_mans_land" },
+          { "author": "BuckarooBanzay", "name": "mesecons_lab" },
+          { "author": "carlos_rupp", "name": "berzerkpt" },
+          { "author": "Casimir", "name": "voxelgarden" },
+          { "author": "debiankaios", "name": "proxima_survival" },
+          { "author": "EmptyStar", "name": "asuna" },
+          { "author": "giga-turbo", "name": "codecube" },
+          { "author": "Hi_World", "name": "newplanet" },
+          { "author": "hilol", "name": "epic_combat" },
+          { "author": "jara25", "name": "yams" },
+          { "author": "JavaFXpert", "name": "qiskitblocks" },
+          { "author": "jgordon510", "name": "gridlocks" },
+          { "author": "KareaGhandTrail", "name": "block_assault_mapmaker" },
+          { "author": "KareaGhandTrail", "name": "block_assault" },
+          { "author": "Kimapr", "name": "nonsensical_skyblock" },
+          { "author": "Luanti", "name": "minetest_game" },
+          { "author": "miroptics", "name": "qiskitblocks_miro" },
+          { "author": "mooD_Slayer", "name": "ksurvive" },
+          { "author": "mt-mods", "name": "dreambuilder_game" },
+          { "author": "nam", "name": "porko" },
+          { "author": "Noodlemire", "name": "voxeldungeon" },
+          { "author": "NotaB", "name": "tolkientest" },
+          { "author": "PetiAPocok", "name": "minetest_extended" },
+          { "author": "Replicat", "name": "wyrm_cube" },
+          { "author": "rlars", "name": "occupymoon_game" },
+          { "author": "rubenwardy", "name": "capturetheflag" },
+          { "author": "TheFanne", "name": "raining_nodes" },
+          { "author": "Thunder1035", "name": "etb" },
+          { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
+        ],
+        "hash": "0z7k5jkhazkckipfw0v3lfsp5jr6vqvq2sn9i7h4rc1sxdm4v217",
+        "provides": ["minetest_oneblock"],
+        "release": 33742,
+        "repo": null,
+        "short_description": "A Oneblock for your worlds"
+      },
       "shapetester": {
         "game_support": [
           { "author": "jara25", "name": "yams" },
@@ -65666,6 +65743,14 @@
         "release": 21404,
         "repo": "https://github.com/RichardTry/nice-realistic",
         "short_description": "Work in Progress. Realism striving texturepack, that maintains 16px nice style"
+      }
+    },
+    "Scout339": {
+      "familiar_craft": {
+        "hash": "039r5fcl8863ck8n7yrf01mx5sggwd3d85gp4wd7j2f6z5v3l5w1",
+        "release": 34510,
+        "repo": "https://github.com/Scout339/FamiliarCraft-Luanti.git",
+        "short_description": "A combination of original and modified+recolored textures to feel like Minecraft."
       }
     },
     "Sharpik": {
