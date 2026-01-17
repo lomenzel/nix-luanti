@@ -52,6 +52,14 @@
               exile
             ];
             mods = with mods; [ animalia ];
+            texturePacks = [
+              texturePacks.modrinth.barrels-of-tnt
+              (pkgs.mergeLuantiTexturePacks [
+                texturePacks.modrinth.barrels-of-tnt
+                texturePacks.soothing32
+              ])
+
+            ];
           };
 
         book = mdbook.lib.buildMdBookProject {
@@ -84,6 +92,7 @@
             tests = (tests pkgs).unit;
             inherit pkgs;
           };
+          example = self.packages.${pkgs.stdenv.hostPlatform.system}.example;
         }
         // (tests pkgs).e2e
       );

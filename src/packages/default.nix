@@ -340,6 +340,75 @@ let
         // meta;
       };
   };
+
+  modrinthTexturePacks =
+    builtins.readFile ../../generated/modrinth.json
+    |> builtins.fromJSON
+    |> pkgs.lib.mapAttrs (
+      name: details:
+      pkgs.mc_to_luanti_txp {
+        minecraft-textures = fetchFromModrinth {
+          url = details.download_url;
+          hash = details.hash;
+        };
+        title = details.title;
+        name = name;
+        description = details.description;
+        version = details.version;
+        author = details.author;
+      }
+    );
+
+  fetchFromModrinth =
+    {
+      url,
+      hash,
+    }:
+    mkDerivation {
+      name = "source-of-modrinth-texture-pack";
+      src = fetchurl {
+        name = "source-archive-of-modrinth-texture-pack";
+        inherit url;
+        sha256 = hash;
+      };
+      unpackPhase = ''
+        mkdir extracted
+        ${p7zip}/bin/7z x $src -oextracted -aoa
+      '';
+      installPhase = ''
+        mkdir -p $out
+        cp -r extracted/* $out/
+      '';
+    };
+
+  mergeLuantiTexturePacks =
+    packs:
+    let
+      title = "Merged Texture Pack";
+      description = "Automated merge of: ${lib.concatMapStringsSep ", " (p: p.name or "unnamed") packs}";
+    in
+    pkgs.runCommand "merged-texture-pack" { } ''
+      mkdir -p $out
+
+      # Iterate in reverse order so the first pack in the Nix list 
+      # has the final word (highest priority).
+      ${lib.concatMapStringsSep "\n" (pack: ''
+        echo "Processing pack: ${pack}"
+
+        # We use '\;' instead of '+' to avoid the "just-created" overwrite error.
+        # This is slightly slower but safe for packs with internal naming collisions.
+        find "${pack}" -type f ! -name "texture_pack.conf" \
+          -exec cp -f -t "$out/" {} \;
+      '') (lib.reverseList packs)}
+
+      # Generate metadata
+      cat <<EOF > $out/texture_pack.conf
+      name = merged_pack
+      title = ${title}
+      description = ${description}
+      EOF
+    '';
+
 in
 {
 
@@ -396,6 +465,9 @@ in
         ) contentDB.texturePacks
       )
       // (import ./texturePacks pkgs)
+      // {
+        modrinth = modrinthTexturePacks;
+      }
     );
     clientMods = import ./clientMods pkgs;
   };
@@ -405,6 +477,8 @@ in
     buildLuantiGame
     buildLuantiTexturePack
     fetchFromLuantiContentDB
+    fetchFromModrinth
+    mergeLuantiTexturePacks
     ;
   luanti-wasm = pkgs.callPackage ./luanti-wasm { };
   luanti-wasm-proxy = pkgs.callPackage ./proxy { };
