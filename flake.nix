@@ -55,12 +55,16 @@
             texturePacks = [
               texturePacks.modrinth.barrels-of-tnt
               (pkgs.mergeLuantiTexturePacks [
+                texturePacks.modrinth.upside-down-tools
                 texturePacks.modrinth.barrels-of-tnt
+                texturePacks.modrinth.lava-xp
                 texturePacks.soothing32
               ])
 
             ];
           };
+
+        luantiPackages = pkgs.luantiPackages;
 
         book = mdbook.lib.buildMdBookProject {
           inherit system pkgs;

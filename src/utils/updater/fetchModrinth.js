@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 
 const BASE_URL = "https://api.modrinth.com/v2";
 const DB_FILE = path.join("generated", "./modrinth.json");
-const FETCH_LIMIT = 30;
+const FETCH_LIMIT = 100;
 const TARGET_VERSION = "1.21.11";
 
 const FETCH_OPTIONS = {
