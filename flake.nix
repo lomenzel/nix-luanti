@@ -59,10 +59,8 @@
           src = ./doc;
         };
 
-        # for easyer debugging
-        luanti-web = pkgs.callPackage ./src/packages/luanti-web { };
-
         fetchContentDB = pkgs.callPackage ./src/utils/updater { };
+
       });
       nixosModules.default = import ./src/modules/nixos-module.nix;
       homeManagerModules.default = import ./src/modules/homemanager-module.nix;
@@ -75,13 +73,13 @@
       );
 
       # for `nix fmt`
-      formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+      formatter = eachSystem (pkgs: treefmtEval.${pkgs.stdenv.hostPlatform.system}.config.build.wrapper);
       # for `nix flake check`
       checks = eachSystem (
         pkgs:
 
         {
-          formatting = treefmtEval.${pkgs.system}.config.build.check self;
+          formatting = treefmtEval.${pkgs.stdenv.hostPlatform.system}.config.build.check self;
           unit = inputs.nix-flake-tests.lib.check {
             tests = (tests pkgs).unit;
             inherit pkgs;

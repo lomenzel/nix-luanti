@@ -32,6 +32,7 @@ packages
       ./mapserver-mtime-trigger.patch
     ];
   };
+  craft_to_clonia_textures = prev.callPackage ./packages/craft_to_clonia_textures { };
   luanti-web = final.callPackage ./packages/luanti-web { };
   lib = prev.lib // (import ./lib.nix { lib = prev.lib; });
 }

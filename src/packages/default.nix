@@ -366,35 +366,38 @@ in
       ) contentDB.games
     );
     mods = modsDB;
-    texturePacks = flattenPackageSet (
-      mapAttrs (
-        author: texturePacksFromAuthor:
+    texturePacks = (
+      flattenPackageSet (
         mapAttrs (
-          name: details:
-          if hasAttr "release" details then
-            buildLuantiTexturePack {
-              inherit name author;
-              version = details.release;
-              src = fetchFromLuantiContentDB {
+          author: texturePacksFromAuthor:
+          mapAttrs (
+            name: details:
+            if hasAttr "release" details then
+              buildLuantiTexturePack {
                 inherit name author;
-                inherit (details) release hash;
-                type = "texturePack";
-                description =
-                  if hasAttr "short_description" details then
-                    details.short_description
-                  else
-                    "No description for this texturePack was provided";
-              };
-              description = if hasAttr "short_description" details then details.short_description else "";
-              passthru = if hasAttr "passthru" details then details.passthru else { };
-              meta = if hasAttr "meta" details then details.meta else { };
-            }
-          else
-            throw "Texture pack ${name} by ${author} does not have a release defined"
-        ) texturePacksFromAuthor
-      ) contentDB.texturePacks
+                version = details.release;
+                src = fetchFromLuantiContentDB {
+                  inherit name author;
+                  inherit (details) release hash;
+                  type = "texturePack";
+                  description =
+                    if hasAttr "short_description" details then
+                      details.short_description
+                    else
+                      "No description for this texturePack was provided";
+                };
+                description = if hasAttr "short_description" details then details.short_description else "";
+                passthru = if hasAttr "passthru" details then details.passthru else { };
+                meta = if hasAttr "meta" details then details.meta else { };
+              }
+            else
+              throw "Texture pack ${name} by ${author} does not have a release defined"
+          ) texturePacksFromAuthor
+        ) contentDB.texturePacks
+      )
+      // (import ./texturePacks pkgs)
     );
-    clientMods = import ../clientMods pkgs;
+    clientMods = import ./clientMods pkgs;
   };
   inherit
     buildLuantiMod
@@ -405,4 +408,6 @@ in
     ;
   luanti-wasm = pkgs.callPackage ./luanti-wasm { };
   luanti-wasm-proxy = pkgs.callPackage ./proxy { };
+  mc_to_luanti_txp = args: pkgs.callPackage ./mc_to_luanti_txp args;
+  craft_to_clonia_textures = pkgs.callPackage ./craft_to_clonia_textures { };
 }
