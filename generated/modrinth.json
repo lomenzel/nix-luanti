@@ -153,6 +153,17 @@
     "title": "AmethystToolTexture",
     "version": "AmethystToolTexture"
   },
+  "armor-durability-overlay": {
+    "author": "Phiro",
+    "date_modified": "2025-12-26T16:37:30.399314Z",
+    "dependencies": ["jURjbCaq"],
+    "description": "Vanilla like armor durability overlay for 1.21.4+ without using optifine",
+    "download_url": "https://cdn.modrinth.com/data/LX5aGgmc/versions/MoPL3wwF/Durability%20Overlay.zip",
+    "filename": "Durability Overlay.zip",
+    "hash": "16x0pcm25v00gchqplhgqpgas3z05ny1vfpc0hgncvwcxr500vjp",
+    "title": "Armor Durability Overlay [No Optifine]",
+    "version": "1.1"
+  },
   "armor-trim-preview": {
     "author": "blockerlocker",
     "date_modified": "2025-03-26T01:13:21.522638Z",
@@ -208,6 +219,17 @@
     "title": "Ax-Mace",
     "version": "8"
   },
+  "axe-optimized": {
+    "author": "yKoseli",
+    "date_modified": "2026-01-10T02:50:39.491246Z",
+    "dependencies": [],
+    "description": "The Best Ressource Pack for Axe.",
+    "download_url": "https://cdn.modrinth.com/data/JC81I7Ll/versions/AQ9jTlqG/%21%20%C2%A72%C2%A7lAxe%20%C2%A7fOptimized.zip",
+    "filename": "! §2§lAxe §fOptimized.zip",
+    "hash": "0bqmim0nw47xh96rv0zh1x8r8xfnbv1xv7qavz2a545a38x377nq",
+    "title": "Axe - Optimized",
+    "version": "1.2.0"
+  },
   "bare-bones-x-bush": {
     "author": "ludo_silver_",
     "date_modified": "2025-10-21T14:49:24.045685Z",
@@ -251,6 +273,17 @@
     "hash": "1jl342mifpic18lwhdylq0jkhn4lby03ckiw647hhkshny748sw9",
     "title": "Bare Bones X PvP Pack",
     "version": "2.0"
+  },
+  "barebones-water-lava-fix": {
+    "author": "BusinessBear99",
+    "date_modified": "2025-01-30T01:08:07.387134Z",
+    "dependencies": ["rox3U8B6"],
+    "description": "Bare Bones water block and lava buckets lack of texture bothered me. So I made a texture pack that just had the water block and lava bucket from the trailer vision pack so Bare Bones would look better.\n\nthis is my first ever resource pack",
+    "download_url": "https://cdn.modrinth.com/data/pawNyQEC/versions/Z0SiunF7/BareBonesWaterLavaFix-v1.0.2.zip",
+    "filename": "BareBonesWaterLavaFix-v1.0.2.zip",
+    "hash": "1fggs8j1kzanb7kybmc0j5s5dpgh0sp581fxiglkk4gqhpd8wkhw",
+    "title": "BareBones Water/Lava Fix",
+    "version": "1.0.2"
   },
   "barebones-x-particle-effects": {
     "author": "Dezert3",
@@ -395,6 +428,17 @@
     "title": "Better Scaffolding Visibility",
     "version": "1.1"
   },
+  "better-stars": {
+    "author": "KargoDiaz",
+    "date_modified": "2025-06-27T12:23:58.805919Z",
+    "dependencies": [],
+    "description": "Makes stars brighter and adds subtle flickering",
+    "download_url": "https://cdn.modrinth.com/data/Z45V7lFO/versions/37ohVkNd/Better-Stars_1-21-6.zip",
+    "filename": "Better-Stars_1-21-6.zip",
+    "hash": "0vv4vsv5cj0l600nbwsnr992za9n6y2nrshvr9vm61apdw5hy1l1",
+    "title": "Better Stars",
+    "version": "1.0.0"
+  },
   "better-title-screens": {
     "author": "AikoIsnt",
     "date_modified": "2024-10-16T04:11:50.707473Z",
@@ -450,6 +494,17 @@
     "title": "Black n' White GUI",
     "version": "12"
   },
+  "black-red-sus-totem": {
+    "author": "AhmedShah",
+    "date_modified": "2025-12-19T10:13:15.013504Z",
+    "dependencies": [],
+    "description": "Change The Totem To SUS Black And Red Amongas",
+    "download_url": "https://cdn.modrinth.com/data/gzMN3h0j/versions/ZF0zVZyV/Black%20red%20SUS%20totem.zip",
+    "filename": "Black red SUS totem.zip",
+    "hash": "0rsihs2a0vzpdj3m672fq6wx4ld02f1z2m9wl7xn5wp7knpry6hl",
+    "title": "Black Red SUS Totem",
+    "version": "0.0.4"
+  },
   "blades-of-majestica": {
     "author": "Eftann",
     "date_modified": "2025-12-14T00:49:30.995307Z",
@@ -460,6 +515,17 @@
     "hash": "0z9h2xfmid5mqzbjf11k4mra0qg919677j6fr5n8b4zwr8dmadfz",
     "title": "Blades of Majestica",
     "version": "2.0"
+  },
+  "blockpixel": {
+    "author": "Jakobzero",
+    "date_modified": "2025-12-21T17:23:45.903006Z",
+    "dependencies": [],
+    "description": "This is a Minecraft pixel texture pack created by Jakob.zero, characterized by using variously sized block patterns as the foundation for its pixel textures, highlighting the unique charm of the blocky world.",
+    "download_url": "https://cdn.modrinth.com/data/ti4S0dP0/versions/QczlQ61d/BlockPixel%20Texture%20Pack.zip",
+    "filename": "BlockPixel Texture Pack.zip",
+    "hash": "0n7hbhcmrjd98ns23zpcaar8ys89i5kadpa2hzaqwx0gdclakc6c",
+    "title": "BlockPixel",
+    "version": "1.21.11_02"
   },
   "blocks-stuff": {
     "author": "NovaKanne",
@@ -494,6 +560,17 @@
     "title": "Blue crit particles",
     "version": "1.0"
   },
+  "blue-diamond-tools": {
+    "author": "ShorkBee",
+    "date_modified": "2025-12-10T02:23:00.902800Z",
+    "dependencies": [],
+    "description": "a texture tools pack for my hardcore",
+    "download_url": "https://cdn.modrinth.com/data/yO5ysnbv/versions/6uZSeuHg/Blue%20Diamond%20Tools.zip",
+    "filename": "Blue Diamond Tools.zip",
+    "hash": "1p1k8k7whvg5av2dsfrlxq0xrgs19phlhhfjqrws29cqn7jhmlfy",
+    "title": "Blue Diamond Tools",
+    "version": "1.1"
+  },
   "blue-enchantment-glint": {
     "author": "Bonso08",
     "date_modified": "2026-01-03T04:17:28.158199Z",
@@ -525,6 +602,17 @@
     "filename": "§eBoss §9Crosshair [1.21.7].zip",
     "hash": "1zj6ic9w1q6rflfpdgv7cb608i5d6nvwy3vv4dja9swq59xfwjrp",
     "title": "Boss Crosshair",
+    "version": "1"
+  },
+  "boss-crosshair-10-(face)": {
+    "author": "xSpinHDx",
+    "date_modified": "2025-07-17T14:06:58.124836Z",
+    "dependencies": [],
+    "description": "Crosshair with another Shape and with Shading",
+    "download_url": "https://cdn.modrinth.com/data/1s2OQFRn/versions/v7ibCt9c/%C2%A7eBoss%20%C2%A79Crosshair-10%20%281.21.7%29.zip",
+    "filename": "§eBoss §9Crosshair-10 (1.21.7).zip",
+    "hash": "0iafq02ys1dw31s8jj3nrqz8lsd3syqn45kx1wg3wwpnmipdniiq",
+    "title": "Boss Crosshair-10 (face)",
     "version": "1"
   },
   "brand-new-gui": {
@@ -769,6 +857,17 @@
     "title": "Connected Paths",
     "version": "2.1.1"
   },
+  "consistent-2d-items": {
+    "author": "gnocchisskins",
+    "date_modified": "2025-10-18T00:20:46.752636Z",
+    "dependencies": [],
+    "description": "Re-textures and reworks some items to either be 2D, or to be more consistent with other 2D items!",
+    "download_url": "https://cdn.modrinth.com/data/8NixnmTY/versions/lQEwvtzd/Consistent%202D%20Items%201.0%20%281.20.x%20-%201.21.x%29.zip",
+    "filename": "Consistent 2D Items 1.0 (1.20.x - 1.21.x).zip",
+    "hash": "0fsh00ykgsfq3hsp490fa8njvbdc4m7dl19yn4h60m1f06kqvcc2",
+    "title": "Consistent 2D Items",
+    "version": "1.0"
+  },
   "copper-armor-netherite-style": {
     "author": "Subsetg4ming",
     "date_modified": "2025-08-31T16:37:36.554438Z",
@@ -934,6 +1033,17 @@
     "title": "Default Dark Mode: Expansion",
     "version": "2026.1.1"
   },
+  "default-hd-64x": {
+    "author": "thebaum64",
+    "date_modified": "2025-12-09T21:27:53.146262Z",
+    "dependencies": [],
+    "description": "The classic Minecraft experience but in amazing 64x HD!",
+    "download_url": "https://cdn.modrinth.com/data/GwGMfCCc/versions/7gk7RpOD/Default%20HD%2064x%20Demo%201.3.2.2.zip",
+    "filename": "Default HD 64x Demo 1.3.2.2.zip",
+    "hash": "0iwkl91gjqjkmpcpm1483v0rm0wqr5wp5mbkj562ydx9h5q6b3xl",
+    "title": "Default HD 64x",
+    "version": "1.3.2.2"
+  },
   "deluxe4k": {
     "author": "Max4K",
     "date_modified": "2025-12-13T16:38:15.574989Z",
@@ -944,6 +1054,17 @@
     "hash": "196gi2mv838kcwavhx545fb4ixrw7qj6gilk5hzbnv0rzpwrla01",
     "title": "Deluxe fullbright",
     "version": "4.3.0"
+  },
+  "diagonal-rails": {
+    "author": "blockerlocker",
+    "date_modified": "2025-12-31T02:38:04.039642Z",
+    "dependencies": [],
+    "description": "Makes corner rails into perfect diagonals.",
+    "download_url": "https://cdn.modrinth.com/data/hOUCJQWN/versions/kRt9pK9E/Diagonal%20Rails.zip",
+    "filename": "Diagonal Rails.zip",
+    "hash": "1rqphbs1yhahb3fkw2qzij4j6gy8iiwvylbhlba06ah33c7fg50l",
+    "title": "Diagonal Rails",
+    "version": "1.3"
   },
   "dimensional-totems": {
     "author": "TheKingOfNerds",
@@ -1132,6 +1253,17 @@
     "title": "Even Better Enchants",
     "version": "3-1.21.5"
   },
+  "evernight-totem-animation": {
+    "author": "ShorkBee",
+    "date_modified": "2025-12-10T02:24:15.198198Z",
+    "dependencies": [],
+    "description": "Evernight Totem Animation without any mods",
+    "download_url": "https://cdn.modrinth.com/data/qptUv0HJ/versions/5zswfpAC/Evernight%20Totem%20Animation.zip",
+    "filename": "Evernight Totem Animation.zip",
+    "hash": "1albzzhhw8kcshmgf8sms8rp6rrid2whvyjn6l8wxxdvzlsr46gz",
+    "title": "Evernight Totem Animation",
+    "version": "1.0"
+  },
   "extended-illumina": {
     "author": "Ilyastik",
     "date_modified": "2025-04-29T15:50:21.303190Z",
@@ -1197,6 +1329,17 @@
     "hash": "0aans5hasipvc5jkc1lq6464qhw235rp8lwk47s2cgkvqdbvk6hb",
     "title": "Fearsome Foes",
     "version": "2.1"
+  },
+  "ferremcdurabilityoverlay": {
+    "author": "ArshuGamingHy",
+    "date_modified": "2024-12-08T12:34:53.343895Z",
+    "dependencies": [],
+    "description": "This Pack shows the durability of armour.",
+    "download_url": "https://cdn.modrinth.com/data/aIBaYhd2/versions/lw2vmClY/FMDO.zip",
+    "filename": "FMDO.zip",
+    "hash": "0j755acj28yqcfvwmjic86f9zf7vll7fnd1c5wxlwddisayr5b1d",
+    "title": "FerreMcDurabilityOverlay",
+    "version": "0.2"
   },
   "findreks-3d-buckets-and-fish": {
     "author": "Findrek",
@@ -1274,6 +1417,17 @@
     "hash": "01r8wz1kkim2zl1frmx15si989rg5fbmhai6lxpz3b8n6xxky9zk",
     "title": "(Bee's) Fluffy Carpets and Wool",
     "version": "1.1"
+  },
+  "fnaf-splash-texts": {
+    "author": "Sorcell",
+    "date_modified": "2025-02-20T00:43:32.574301Z",
+    "dependencies": [],
+    "description": "Adds 353 FNAF-related splashes to the main menu!",
+    "download_url": "https://cdn.modrinth.com/data/uQIffTF9/versions/ztMoMHea/FNAF%20Splash%20Texts.zip",
+    "filename": "FNAF Splash Texts.zip",
+    "hash": "1nkjgywm2mhw40qhzfrgd7zqzjldwi51gig9kfyg3vgk8l4d831x",
+    "title": "FNAF Splash Texts",
+    "version": "1.0"
   },
   "fortnite-journeymap-icons": {
     "author": "Djihads80",
@@ -1634,6 +1788,17 @@
     "title": "Hollow Skeletons",
     "version": "1.1"
   },
+  "horse-armor-stuff": {
+    "author": "tanfen",
+    "date_modified": "2026-01-04T09:30:10.393478Z",
+    "dependencies": [],
+    "description": "A resouce pack that remakes the horse armor textures of Actions & Stuff and brings them to Minecraft: Java Edition",
+    "download_url": "https://cdn.modrinth.com/data/sxgFC8cz/versions/tCLWGaRx/%C2%A7eHorse%20Armor%20%26%20Stuff_1.21.11.zip",
+    "filename": "§eHorse Armor & Stuff_1.21.11.zip",
+    "hash": "195s22kanqpwlsqls2wl77raavbjgbm4sgffvlnw7qymnmvan16c",
+    "title": "Horse Armor & Stuff",
+    "version": "1.3"
+  },
   "hotdog-pvp": {
     "author": "CrimsonFlames",
     "date_modified": "2026-01-07T21:33:47.680815Z",
@@ -1655,6 +1820,17 @@
     "hash": "1jhbxgd3i1ia5yzi15ykzv3vkjfsiq4ylb5lnfpy7xnz9qmv8259",
     "title": "Hyper Realistic Sky",
     "version": "1.2"
+  },
+  "i-am-not-steve": {
+    "author": "Bluebird",
+    "date_modified": "2025-12-10T04:08:33.944201Z",
+    "dependencies": [],
+    "description": "Removes the steve figure from the Home and Menace elytra textures",
+    "download_url": "https://cdn.modrinth.com/data/SxpRZYW5/versions/nxqRObAM/I%20Am%20Not%20Steve%20v1.4.zip",
+    "filename": "I Am Not Steve v1.4.zip",
+    "hash": "1gd7718q4rpl1y96wn9mly1s6y4l5x5rqv1a164gv7snlw5bzn9b",
+    "title": "I am not steve",
+    "version": "1.4"
   },
   "i37cs-suited-mobs-x-fa": {
     "author": "stable0790",
@@ -1865,6 +2041,17 @@
     "title": "Lumin 16x",
     "version": "1.11"
   },
+  "luster16": {
+    "author": "Blue0m0chi",
+    "date_modified": "2025-12-10T10:52:56.491564Z",
+    "dependencies": [],
+    "description": "A 16x resource pack with calm and immersive ambience. No mods required. PBR compatible.",
+    "download_url": "https://cdn.modrinth.com/data/q1OJDsmI/versions/5StJwBeJ/Luster_v0.11.zip",
+    "filename": "Luster_v0.11.zip",
+    "hash": "000nkpv0v3khrkdcy5q8lyy5hi2snrn67c5dy514d5cf009flhwq",
+    "title": "Luster",
+    "version": "0.11"
+  },
   "maces-galore": {
     "author": "Forgotten_Devil",
     "date_modified": "2025-12-12T03:59:16.759460Z",
@@ -1963,6 +2150,17 @@
     "hash": "05wlfg7w1j9vydavjfx6k230cvh96z708fq1rijms9a4aili7gva",
     "title": "Marvelous Magenta",
     "version": "2.0.0"
+  },
+  "masas-mods-lzh-translation-pack": {
+    "author": "Koolhaas",
+    "date_modified": "2026-01-08T05:56:42.461316Z",
+    "dependencies": [],
+    "description": "Masa系列模组的文言翻译资源包。目前正式版已发布，但是翻译尚未完全完成。",
+    "download_url": "https://cdn.modrinth.com/data/OU1GwEec/versions/EiiYH4wP/%E6%91%A9%E6%8C%B2%E6%94%B9%E5%9B%8A%E6%96%87%E8%A8%80%E5%85%A8%E8%AD%AF%20R1.0.zip",
+    "filename": "摩挲改囊文言全譯 R1.0.zip",
+    "hash": "1lrj3wwd16l49gqvin8c028qs3sbj2c10jmv3g4mx5xxdhfpr81y",
+    "title": "Masa's Mods lzh Translation Pack",
+    "version": "R1.0"
   },
   "max-totem-of-undying": {
     "author": "mjem4ik",
@@ -2168,6 +2366,17 @@
     "title": "Neko Language Pack猫娘语言包",
     "version": "2.0.6"
   },
+  "netherite-styled-default-armors": {
+    "author": "Subsetg4ming",
+    "date_modified": "2025-12-03T06:54:31.413687Z",
+    "dependencies": [],
+    "description": "Gives all default armors the look of netherite. UPDATED FOR 1.0-1.22+",
+    "download_url": "https://cdn.modrinth.com/data/3m96XlxU/versions/ag9iUKbX/Netherite%20Styled%20Default%20Armors%20%281.0-1.22%29%204.0.zip",
+    "filename": "Netherite Styled Default Armors (1.0-1.22) 4.0.zip",
+    "hash": "15sx95jslfbsdkrcg4fhpv42m3kc6slljws1j33kjpvnhklv1k4g",
+    "title": "Netherite Styled Default Armors",
+    "version": "6"
+  },
   "netheritepot-basics": {
     "author": "CapTommy",
     "date_modified": "2026-01-02T21:31:43.355881Z",
@@ -2212,6 +2421,17 @@
     "title": "No Block Break Particles",
     "version": "1.3"
   },
+  "no-cave-ambience": {
+    "author": "Trcmoe",
+    "date_modified": "2025-10-01T19:32:39.373339Z",
+    "dependencies": [],
+    "description": "Get rid of creepy cave ambience sounds (eerie noise)",
+    "download_url": "https://cdn.modrinth.com/data/5HbyqtEc/versions/HNZqMEih/NoCaveAmbience.zip",
+    "filename": "NoCaveAmbience.zip",
+    "hash": "0hzhn6hiyhkp802saigr48bbk1h5rc1bnfyzy678rbwaz87dn1sq",
+    "title": "No Cave Ambience",
+    "version": "2.0.1"
+  },
   "no-enchant-glint": {
     "author": "5E8A",
     "date_modified": "2025-12-12T21:43:05.003828Z",
@@ -2222,6 +2442,17 @@
     "hash": "09scd4b2gyn6qy6lhznsrybj7b0b4ji6vm3ddl4x4037sxssi22a",
     "title": "No Enchant Glint",
     "version": "1.21.11"
+  },
+  "no-explosion-particles": {
+    "author": "MasterofDeath",
+    "date_modified": "2024-02-21T16:37:57.071161Z",
+    "dependencies": [],
+    "description": "This texture pack removes particles created by explosions. Immediately makes you better at crystal PvP.",
+    "download_url": "https://cdn.modrinth.com/data/VYrNveoF/versions/QXgFTvtm/No%20Explosion%20Particles.zip",
+    "filename": "No Explosion Particles.zip",
+    "hash": "17ap1z9y2rqmfgnw7zg4jcz0nxq88cgsn2dgagv8xvfhvf5yk7pg",
+    "title": "No Explosion Particles",
+    "version": "1"
   },
   "no-fog-clear-view-resource-pack": {
     "author": "NovaXI",
@@ -2316,6 +2547,17 @@
     "hash": "17zqq203n18f718lhz1i0348a7m3n4631cz379zhsx0lngp3ym7c",
     "title": "Norse Mythology Mash-up",
     "version": "1.0.2"
+  },
+  "not-so-fire": {
+    "author": "fliplus",
+    "date_modified": "2024-09-10T16:35:11.081692Z",
+    "dependencies": [],
+    "description": "Makes fire less obtrusive (low fire)",
+    "download_url": "https://cdn.modrinth.com/data/Ub61wElM/versions/Wm0L6Fn4/Not%20So%20Fire.zip",
+    "filename": "Not So Fire.zip",
+    "hash": "1yf8rwmi6mcr2s6r27psdj55h62psmkcr1iwk4hr4pafchdhdlvh",
+    "title": "Not So Fire",
+    "version": "1.0"
   },
   "observing": {
     "author": "cs127",
@@ -2448,6 +2690,17 @@
     "hash": "05lbxfvpx6z81d6354hy75jcbn3mx8mr0glvqh367d0kxdgg9ijx",
     "title": "[PatPat] Pizza",
     "version": "1.0.0"
+  },
+  "patpat-tm": {
+    "author": "mrlemonhog",
+    "date_modified": "2026-01-02T00:47:46.803350Z",
+    "dependencies": [],
+    "description": "Resource pack for patpat mod that makes you tickle mobs",
+    "download_url": "https://cdn.modrinth.com/data/njy2rpni/versions/u95JH9sE/%5BPatPat%5D%20Tickle%20Me%20%28v1.5%29.zip",
+    "filename": "[PatPat] Tickle Me (v1.5).zip",
+    "hash": "0d81zh62vyqmpcbd92aic7mmjsaddfvm6rg7sl0jp137hrwhyi2a",
+    "title": "[PatPat] Tickle Me",
+    "version": "1.5"
   },
   "pattern-texture-pack": {
     "author": "rjxkenshin",
@@ -2619,6 +2872,17 @@
     "hash": "0ggiv1sf5d2l8sy9j29b02q4saiv83j68dlka39f6c81mf3kz72p",
     "title": "Quieter Elytra",
     "version": "1.21.11"
+  },
+  "rainbow-enchant-glint-universal": {
+    "author": "dark_phoenix_",
+    "date_modified": "2025-10-23T14:29:02.413947Z",
+    "dependencies": [],
+    "description": "All enchanted items are Rainbow color! Supports 1.15+ all the way to the latest Minecraft version",
+    "download_url": "https://cdn.modrinth.com/data/htfCDCbi/versions/Vq3rXaVW/Rainbow%20Enchant%20Glint%20%28Universal%29.zip",
+    "filename": "Rainbow Enchant Glint (Universal).zip",
+    "hash": "1aq8if8477vl1wcci0f8irzadvj5kh6f3ynscwjn9q5l9sqp95wv",
+    "title": "Rainbow Enchant Glint (Universal)",
+    "version": "V1.1"
   },
   "rainbow`s-3d-trident": {
     "author": "rainbowboi",
@@ -2873,6 +3137,17 @@
     "title": "Short Swords",
     "version": "1.1.0"
   },
+  "shortarmors": {
+    "author": "XOXMuK",
+    "date_modified": "2026-01-13T16:12:50.162759Z",
+    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
+    "description": "[EN] In this resource pack, the armor is modified to make the player skins more noticeable. SP [RU] В данном ресурс-паке изменяется броня делая скины игроков более заметными. СП",
+    "download_url": "https://cdn.modrinth.com/data/rNLupPGg/versions/x057PDRu/ShortArmors_v2.4_x16.zip",
+    "filename": "ShortArmors_v2.4_x16.zip",
+    "hash": "1sd0dn7vpidvbv8g0jvizrxmlnqy90hcyl933w4cs85193n636r3",
+    "title": "Short Armors",
+    "version": "latest_x16"
+  },
   "silent-piglin": {
     "author": "CodingCarson",
     "date_modified": "2025-12-06T08:16:40.844491Z",
@@ -2938,6 +3213,17 @@
     "hash": "1sfr0251s9c0gp8cya3ir3px5cxrrb4f4zgw73icz4g3696zijx1",
     "title": "Simple Short Swords",
     "version": "0.2"
+  },
+  "simple-swords": {
+    "author": "XOXMuK",
+    "date_modified": "2026-01-03T01:21:50.625522Z",
+    "dependencies": [],
+    "description": "[EN] This resource pack adds 3D swords to your game! [RU] Данный ресурс-пак добавляет в вашу игру 3D мечи!",
+    "download_url": "https://cdn.modrinth.com/data/gjonpbWa/versions/cgg8d7RN/SimpleSwords_v2.1.1.zip",
+    "filename": "SimpleSwords_v2.1.1.zip",
+    "hash": "1c5q1q20macixfg9d6gj2lgcp1nj2hjapp181x4lqvv4inbpaa91",
+    "title": "Simple Swords",
+    "version": "latest"
   },
   "simple-water": {
     "author": "barce",
@@ -3414,6 +3700,17 @@
     "title": "Unique Dark",
     "version": "2.2"
   },
+  "unrandom-textures": {
+    "author": "Selah",
+    "date_modified": "2025-12-10T04:10:23.412195Z",
+    "dependencies": [],
+    "description": "Removes the random rotations from blocks introduced with 1.8's \"Alternate Blocks\" option and made permanent in 1.9.",
+    "download_url": "https://cdn.modrinth.com/data/XpSeN8Wf/versions/ptRzfcmm/Unrandom%20Textures%20v%2015.11.0%20-%201.20-1.21.11.zip",
+    "filename": "Unrandom Textures v 15.11.0 - 1.20-1.21.11.zip",
+    "hash": "0d1xanvlvzssb0jcywbp52sw0y2xz9yx373kdmh13rza97sayw1b",
+    "title": "Unrandom Textures",
+    "version": "15.11.0"
+  },
   "unshaded-blocks": {
     "author": "blockerlocker",
     "date_modified": "2025-09-30T23:02:49.993144Z",
@@ -3446,6 +3743,17 @@
     "hash": "10d613jqyn8dqclbdg4sr18w4fpd8w7gv1kml1mz0ryai5gwa02g",
     "title": "Upside Down Tools",
     "version": "2"
+  },
+  "vanilla-collective-black-elytra": {
+    "author": "Verday",
+    "date_modified": "2025-12-09T19:20:56.385798Z",
+    "dependencies": [],
+    "description": "Changes the elytra textures to be a nice black color.",
+    "download_url": "https://cdn.modrinth.com/data/ir0VyJE6/versions/WenmGNoK/elytra_black-1.0.1-mc1.21.11.zip",
+    "filename": "elytra_black-1.0.1-mc1.21.11.zip",
+    "hash": "1i6mrdsl9iv4f4kxzcri93drs3aqz8pinpdf9w2fi27wmvl18qrf",
+    "title": "Elytra (Black)",
+    "version": "1.0.1"
   },
   "vanilla-collective-brown-hearts": {
     "author": "Verday",
@@ -3589,6 +3897,28 @@
     "hash": "137icch622xgzdcyzf953s3xw47imsx3w0br4wc3wg5lq8gl4mg4",
     "title": "Visible Shield Cooldown",
     "version": "1.2"
+  },
+  "visible-tripwires": {
+    "author": "Zgoly",
+    "date_modified": "2024-07-08T07:33:01.873463Z",
+    "dependencies": [],
+    "description": "Resource pack for Minecraft that improves visibility of tripwires by changing their texture and model to a new, more visible one.",
+    "download_url": "https://cdn.modrinth.com/data/hrYdC8aM/versions/AArse9U8/Visible%20Tripwires.zip",
+    "filename": "Visible Tripwires.zip",
+    "hash": "0iya4v9xaazzgn78igpabpwk73fnwnh92vlmsciyacsv4vp2aw2w",
+    "title": "Visible Tripwires",
+    "version": "1.0"
+  },
+  "waifu-villagers": {
+    "author": "NeoVai",
+    "date_modified": "2025-11-20T16:10:56.376109Z",
+    "dependencies": [],
+    "description": "Now you can turn your villager into an anime waifu.",
+    "download_url": "https://cdn.modrinth.com/data/qKwt6JSn/versions/76RUKwgs/%C2%A7d%C2%A7l%C2%A7nWaifu%20Villagers.zip",
+    "filename": "§d§l§nWaifu Villagers.zip",
+    "hash": "1327kdshwg2kminz3pzwn2jjjndnyf2nrcmfbzd2c5papfjy2qny",
+    "title": "Waifu Villagers",
+    "version": "1.4"
   },
   "waystones-pbr": {
     "author": "ludo_silver_",
