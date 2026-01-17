@@ -2643,7 +2643,7 @@
         "short_description": "Very little content base game so you can build off it. Totally permissive, you can relicense it or do whatever."
       },
       "pmb_core": {
-        "hash": "05rg0hglrrp1n4q99bax26r3k6i58zbzslj8xd3kj91igl08iv0y",
+        "hash": "0is41qg8b70x9myisy2yasvi1pjlrbxmkb56g8msamv07rrkdsmz",
         "provides": [
           "age_of_mending",
           "aom_admin_tools",
@@ -2748,7 +2748,7 @@
           "sum_airship",
           "wield3d"
         ],
-        "release": 34467,
+        "release": 34537,
         "repo": "https://codeberg.org/Age_of_Mending/Age_of_Mending.git",
         "short_description": "Age of Mending: Sandbox game about building your own world and exploring a new one. Last breaking changes: a40"
       }
@@ -3986,7 +3986,7 @@
         ],
         "release": 34512,
         "repo": null,
-        "short_description": "An unofficial game for Luanti, a fork of Mineclonia. CloneCraft;Libre focuses on creating a more oldschool gameplay experience unlike both Mineclonia and VoxeLibre which focus on the latest features"
+        "short_description": "CloneCraft;Libre focuses on creating a more oldschool gameplay experience, unlike Mineclonia that it's forked from, which focus on the latest features"
       }
     },
     "bell07": {
@@ -6582,9 +6582,9 @@
       },
       "mesecons_onlinedetector": {
         "dependencies": ["mesecons"],
-        "hash": "195z0cbnm5l2vi0x96sddh1cb3hxpxck7arlzh34swh0ww6c3ljg",
+        "hash": "1mjpcyyf4wgqmdvpjv35hjp87aciwvd0b9mjcklynsc8cwl9kccr",
         "provides": ["mesecons_onlinedetector"],
-        "release": 21710,
+        "release": 34542,
         "repo": "https://github.com/AFCMS/mesecons_onlinedetector",
         "short_description": "Add online detector to mesecons"
       },
@@ -14104,9 +14104,9 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "1yr245ab1rq4a8jprm0lc8vnkzx0gj9m02079wlwj03k4rcry91j",
+        "hash": "0r7jn7n1n9fk3irnji82cywhmcnm62b1icr08db9hv4z7j3abkfh",
         "provides": ["myflooring"],
-        "release": 34496,
+        "release": 34534,
         "repo": "https://github.com/DonBatman/myflooring.git",
         "short_description": "A basic set of flooring"
       },
@@ -26638,9 +26638,9 @@
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1lb3w6adsp7k6ndwibxx9w02dbpd1jzhf108cka5dc91yfaym21i",
+        "hash": "0rn62p6iajknxisq996f7v3nmbygwjjzd72rzc4imbrnqn2rb518",
         "provides": ["automated_chest"],
-        "release": 34453,
+        "release": 34531,
         "repo": "https://github.com/Kindaglia/automated_storage",
         "short_description": "A high-capacity (1000 slots) chest with search and scroll functions, compatible with Mineclonia."
       }
@@ -31444,12 +31444,13 @@
           "mcl_sounds"
         ],
         "game_support": [
+          { "author": "awuuwa", "name": "clonecraftlibre" },
           { "author": "ryvnf", "name": "mineclonia" },
           { "author": "Wuzzy", "name": "mineclone2" }
         ],
-        "hash": "1pa2ad52k7yy35lnlp6jrg5y2q5lyaz34rjb963r54pa0ydf2i85",
+        "hash": "15xd8jl8979zd4fxlpxkj0y5in8mh77x8af069h2z18finkhkkqq",
         "provides": ["emeraldbank"],
-        "release": 29490,
+        "release": 34533,
         "repo": "https://codeberg.org/usrib/emeraldbank.git",
         "short_description": "Keep your Emeralds in a Bank, a complete economy API"
       },
@@ -34410,11 +34411,11 @@
           { "author": "Thunder1035", "name": "etb" },
           { "author": "ZughyEdu", "name": "gaifa_al_cubo" }
         ],
-        "hash": "192q0lfz9v1mnp299z978blhg4zaaqaailfxb8ymg0d4pk06kz7n",
+        "hash": "06rwir98c0wwymghabgkn7s6556awjzjyd1qryyk5dx45faf578z",
         "provides": ["ruby_tools_plus"],
-        "release": 34442,
+        "release": 34540,
         "repo": null,
-        "short_description": "Work in Progress. Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
+        "short_description": "Adds ruby ore, ruby tools, and ruby blocks balanced around diamond-tier gameplay."
       },
       "uncraftable_recipes": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
@@ -40182,9 +40183,9 @@
           { "author": "rubenwardy", "name": "capturetheflag" },
           { "author": "TheFanne", "name": "raining_nodes" }
         ],
-        "hash": "04j79s0ikq0rhd4n2yqm81sbc7pi096w3hsxa67wl5f0xiqzvwa6",
+        "hash": "1ws7i8165z05cf0q7z5ymsz3kbx3n4rf9d5yr9gdxgzz72z2xvcg",
         "provides": ["nssm_extra"],
-        "release": 33887,
+        "release": 34544,
         "repo": "https://codeberg.org/tenplus1/nssm_extra",
         "short_description": "Even more creatures to add into your worlds"
       },
@@ -45192,9 +45193,9 @@
         "short_description": "Formspec-based file manager with text editor and image viewer"
       },
       "luabutton": {
-        "hash": "0hcadfx7j7665swsi83f938xxvpdwmag7vc68migypaa2gx16id3",
+        "hash": "01j63w3iriv895lvrzjhsm0xa3b60qd05ljvlzf24xqan3wj0mb6",
         "provides": ["luabutton"],
-        "release": 26468,
+        "release": 34532,
         "repo": "https://github.com/zmv7/minetest-mod-luabutton",
         "short_description": "Button that executes custom lua code on rightclick "
       },
@@ -47207,11 +47208,11 @@
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "1sj2hxpx3zfi48mrxnjj5lqbaxhk8k4xs8015f65zg4gak55p4fw",
+        "hash": "1iy79348270k9yny96ir30sw14h786ydsm778dy45cpgn36ics1i",
         "provides": ["steampunk_blimp"],
-        "release": 34394,
+        "release": 34541,
         "repo": "https://github.com/APercy/steampunk_blimp",
-        "short_description": "Work in Progress. Adds a steampunk blimp"
+        "short_description": "Adds a steampunk blimp"
       },
       "supercub": {
         "dependencies": ["airutils"],
@@ -54481,9 +54482,9 @@
           "mobs_mc"
         ],
         "game_support": [{ "author": "ryvnf", "name": "mineclonia" }],
-        "hash": "03nhql95vqbij58928mhgy7wna13qzjbh6zvf54k1qsl5611cy49",
+        "hash": "191fxh7y1jqpn0n9ifcr30p2aj785flihwmlnl2qx1d63wlzb4x6",
         "provides": ["m16b_new_mobs"],
-        "release": 33988,
+        "release": 34539,
         "repo": null,
         "short_description": "Add minecraft mobs and items"
       },
@@ -63601,7 +63602,7 @@
           "unifieddyes"
         ],
         "game_support": [{ "author": "zanderdev", "name": "skyblock_zero" }],
-        "hash": "08nz68mmlpqz1cnllvmayl4rg0rnbrnfww6yyakhz4vlwzxq5qcz",
+        "hash": "02f57lkn25jnb01wcsrmhrclal8yz7bbjbs30b2lr8d1lvssj0xv",
         "provides": [
           "hbhunger",
           "laptop",
@@ -63674,9 +63675,9 @@
           "sbo_warp_maker",
           "sbo_wood"
         ],
-        "release": 33144,
+        "release": 34546,
         "repo": "https://github.com/f3mboy-phoenix/skyblkone.git",
-        "short_description": "Work in Progress. This is an expansion of Skyblock: Zero"
+        "short_description": "This is an expansion of Skyblock: Zero"
       }
     },
     "thomasthespacefox": {
@@ -64473,11 +64474,11 @@
       },
       "star": {
         "dependencies": ["priority_queue"],
-        "hash": "1hfzxy13l58g016zzbv4if42n5frvnkw4iiy5cxd9469106lzgyn",
+        "hash": "1zfs3m5bc4iivw96nbz6kmzlz74ncvji5w016jlfsx82kq39s07k",
         "provides": ["star"],
-        "release": 34528,
+        "release": 34545,
         "repo": null,
-        "short_description": "Work in Progress. A* Pathfinding algorithm implementation"
+        "short_description": "A* Pathfinding algorithm implementation"
       }
     },
     "wowiamdiamonds": {
@@ -65748,8 +65749,8 @@
     },
     "Scout339": {
       "familiar_craft": {
-        "hash": "039r5fcl8863ck8n7yrf01mx5sggwd3d85gp4wd7j2f6z5v3l5w1",
-        "release": 34510,
+        "hash": "0dbfamc410ryabilfy578hk12psf0j4p5r5brzvn41486wlh2v67",
+        "release": 34538,
         "repo": "https://github.com/Scout339/FamiliarCraft-Luanti.git",
         "short_description": "A combination of original and recolored VoxeLibre textures to feel like Minecraft."
       }
