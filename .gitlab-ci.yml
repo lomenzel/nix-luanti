@@ -9,7 +9,7 @@ update_contentDB:
     - git checkout -B "$CI_COMMIT_BRANCH"
     - git config --global user.email "ci-pipeline@menzel.lol"
     - git config --global user.name "CI Pipeline"
-    - nix flake update --extra-experimental-features "nix-command flakes pipe-operators
+    - nix flake update --extra-experimental-features "nix-command flakes pipe-operators"
     - nix run --extra-experimental-features "nix-command flakes pipe-operators" .\#update
     - git add *
     - nix fmt --extra-experimental-features "nix-command flakes pipe-operators"
