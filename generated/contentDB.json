@@ -42475,9 +42475,9 @@
       "citadel_archipelago": {
         "dependencies": ["arclib", "citadel_core"],
         "game_support": [{ "author": "_Irevol_", "name": "citadel" }],
-        "hash": "0jffv7hxypyj5g1xksixplwg3s89j1hkscwfhc1h8yf3fd3h64qk",
+        "hash": "1sik6p8xgx1129bfs58di6p7iis5qyjx39g4wzlwj0d2k9wjmlzh",
         "provides": ["citadel_archipelago"],
-        "release": 34353,
+        "release": 34548,
         "repo": "https://gitlab.com/sztest/citadel-archipelago",
         "short_description": "Connect Citadel to Archipelago Multi-world Randomizer"
       },
@@ -64478,7 +64478,7 @@
         "provides": ["star"],
         "release": 34545,
         "repo": null,
-        "short_description": "Work in Progress. A* Pathfinding algorithm implementation"
+        "short_description": "A* Pathfinding algorithm implementation"
       }
     },
     "wowiamdiamonds": {
@@ -65499,10 +65499,10 @@
         "short_description": "This is a 8x8 texture pack for MTG."
       },
       "craft_and_ruin": {
-        "hash": "0y02cjw4iib36ya610vdq7girjrxxda0d0isj7nlmaffw2l6jz63",
-        "release": 33784,
+        "hash": "03canjiri39xp442qhg7zx5gr1sblkvp6gy3ml5kg8g4mkw4kz4l",
+        "release": 34549,
         "repo": "https://github.com/Gerold55/craft_ruin_texture_pack",
-        "short_description": "Work in Progress. A collaborative texture pack designed for Mineclonia, with compatibility for VoxelLibre. Feedback and contributions are welcome—submit a PR to help improve the pack!"
+        "short_description": "A collaborative texture pack designed for Mineclonia, with compatibility for VoxelLibre. Feedback and contributions are welcome—submit a PR to help improve the pack!"
       },
       "mtuotp": {
         "hash": "1xp4nxxckf0igryrsgbcvq4i1d16p56yqy42dijziajghx5dspgy",
