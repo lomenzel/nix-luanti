@@ -5083,7 +5083,7 @@
         "short_description": "BlockColor is a creative sandbox with only 8 colors."
       },
       "dreambuilder_game": {
-        "hash": "0ijk2my89hmndf8h0qly6mfwyaxr3qdif8d9gwn8wn4y90ix4z5w",
+        "hash": "1w9q8cija2vwxhaflq85a95fbc05ljfqy54fackpqjilis978ikd",
         "provides": [
           "3dmushrooms",
           "ambience",
@@ -5315,7 +5315,7 @@
           "xpanes",
           "youngtrees"
         ],
-        "release": 34506,
+        "release": 34519,
         "repo": "https://github.com/mt-mods/dreambuilder_game",
         "short_description": "Dreambuilder is my attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done."
       },
@@ -14016,9 +14016,9 @@
         "short_description": "More dye colors"
       },
       "myeyes": {
-        "hash": "0akxzp09bvrnhy6mfm3ryf0brb4fcdhz6i8ps3jpl5lxmq184f99",
+        "hash": "0c5b7j0slkgx7fsn1a3jkrkqii21wr6x2gw4jv429s12rkwh34zr",
         "provides": ["myeyes"],
-        "release": 31019,
+        "release": 34520,
         "repo": "https://github.com/DonBatman/myeyes.git",
         "short_description": "Tells you what you are looking at"
       },
@@ -20392,9 +20392,9 @@
         "short_description": "A library for managing waypoints shown in player HUDs that can be discovered by exploration."
       },
       "orbs_of_time": {
-        "hash": "1f1mpjyvgg0874ki489nsym1v1z111ajc7cxg5x87vd0kc3hlsn4",
+        "hash": "1xx8x1ccxbxy0yw73sb0kpkn0r461cyzjvpz6bcgqhns4ks5v08m",
         "provides": ["orbs_of_time"],
-        "release": 31540,
+        "release": 34518,
         "repo": "https://github.com/minetest-mods/orbs_of_time",
         "short_description": "A mod containing magical orbs a player can use a limited number of times to change the time of day"
       },
@@ -28661,12 +28661,13 @@
           { "author": "EmptyStar", "name": "asuna" },
           { "author": "Luanti", "name": "minetest_game" },
           { "author": "ryvnf", "name": "mineclonia" },
+          { "author": "Wuzzy", "name": "hades_revisited" },
           { "author": "Wuzzy", "name": "mineclone2" },
           { "author": "Wuzzy", "name": "repixture" }
         ],
-        "hash": "12rfqjsznjrs0whwpbyl2z3j6fcn426y39cfhnfd3338wwnd1nhr",
+        "hash": "1zaiwiqpwqphb060rhr37fqihr6p6rr9c5q6sfwjlnrj345w8p9r",
         "provides": ["ladders_3d"],
-        "release": 34509,
+        "release": 34529,
         "repo": "https://git.0x7be.net/dirk/ladders_3d",
         "short_description": "3D ladders of a wide variety of base materials."
       },
@@ -38437,9 +38438,9 @@
         "short_description": "Makes items lay flat on the ground and not spin."
       },
       "itemextensions": {
-        "hash": "0ckb5sb98b6yjxsrfbc75n7s0k54p26bzimy8iszrivdl1hq99bq",
+        "hash": "1y0zz9d5k444wwy5bdz3146d2b2hdfyrzfyzr5l3qsnwqadj8wgb",
         "provides": ["itemextensions"],
-        "release": 32928,
+        "release": 34521,
         "repo": "https://github.com/SumianVoice/itemextensions.git",
         "short_description": "Support for more callbacks for items, such as `on_step` and `on_select`"
       },
@@ -39227,9 +39228,9 @@
     },
     "TenPlus1": {
       "ambience": {
-        "hash": "0b79j9xzyw4a8qzsg0lr7922i5cn9shm33xib5r5g8580rd0mvv9",
+        "hash": "1r23kxsrc6c7x4qcipycs17ii6c6wis6cja3wxgkk2xmliwf4axa",
         "provides": ["ambience"],
-        "release": 34424,
+        "release": 34524,
         "repo": "https://codeberg.org/tenplus1/ambience",
         "short_description": "Adds realistic sound effects into your world."
       },
@@ -39759,9 +39760,9 @@
       },
       "lucky_block": {
         "game_support": [{ "author": "Luanti", "name": "minetest_game" }],
-        "hash": "09rpbcfhiz6b6js484x4ky0hwilvrv4pckh1h9n91pibrzb3fvpb",
+        "hash": "0gj5sn0xhwkccvx8x01dqjv65fx76zk4ay76pzznrp0k9hdnn34a",
         "provides": ["lucky_block"],
-        "release": 34416,
+        "release": 34526,
         "repo": "https://codeberg.org/tenplus1/lucky_block",
         "short_description": "Craft and break lucky blocks to give something good, bad or painful :)"
       },
@@ -42438,9 +42439,9 @@
         "short_description": "Snap camera to discrete angles"
       },
       "arclib": {
-        "hash": "0v1jfjmsdmh2sj9048pj54y5qx270gmvbnagbykvzl6nq3fln6ph",
+        "hash": "0p4jzk9z6qgf8pzzn20xkynijsr516nszvx9z2lvkcrs6d3rqvr0",
         "provides": ["arclib"],
-        "release": 34367,
+        "release": 34517,
         "repo": "https://gitlab.com/sztest/arclib",
         "short_description": "Archipelago multi-world randomizer integration library"
       },
@@ -42708,9 +42709,9 @@
           "piredo_terrain"
         ],
         "game_support": [{ "author": "Warr1024", "name": "piranesi_redo" }],
-        "hash": "1c64m2jyfjhw0rdk2bd27ikw91xbqzizmvlrybp2flamm5vyfpjg",
+        "hash": "0ashhlkwb2gmff6y0lrzixs677vzx1dby2wz9pwxdajq38hs2pg8",
         "provides": ["piranesi_archipelago"],
-        "release": 34366,
+        "release": 34530,
         "repo": "https://gitlab.com/sztest/piranesi-archipelago",
         "short_description": "Connect Piranesi Restoration Project to Archipelago Multi-world Randomizer"
       },
@@ -63930,9 +63931,9 @@
         "short_description": "test"
       },
       "titou_teleport": {
-        "hash": "10f11wwy90xwzpwbl5hhwrvm39h86is8p0zzqnm6cncfrkqh3xf7",
+        "hash": "1sfacxrr0r9yxwhvplazivnc5iplcvn1bbxf0wzlihdi48cn4cfr",
         "provides": ["titou_teleport"],
-        "release": 34227,
+        "release": 34527,
         "repo": null,
         "short_description": "test"
       }
@@ -64472,11 +64473,11 @@
       },
       "star": {
         "dependencies": ["priority_queue"],
-        "hash": "1qvzli7f6yl77snsnhx59y2c5p75zqny97n853lhklvkxpmkzvgn",
+        "hash": "1hfzxy13l58g016zzbv4if42n5frvnkw4iiy5cxd9469106lzgyn",
         "provides": ["star"],
-        "release": 34511,
+        "release": 34528,
         "repo": null,
-        "short_description": "Work in Progress. A* Pathfinding algorithm implementation"
+        "short_description": "A* Pathfinding algorithm implementation"
       }
     },
     "wowiamdiamonds": {
@@ -65750,7 +65751,7 @@
         "hash": "039r5fcl8863ck8n7yrf01mx5sggwd3d85gp4wd7j2f6z5v3l5w1",
         "release": 34510,
         "repo": "https://github.com/Scout339/FamiliarCraft-Luanti.git",
-        "short_description": "A combination of original and modified+recolored textures to feel like Minecraft."
+        "short_description": "A combination of original and recolored VoxeLibre textures to feel like Minecraft."
       }
     },
     "Sharpik": {
