@@ -64,14 +64,12 @@
             ];
           };
 
-        luantiPackages = pkgs.luantiPackages;
-
         book = mdbook.lib.buildMdBookProject {
           inherit system pkgs;
           src = ./doc;
         };
 
-        fetchContentDB = pkgs.callPackage ./src/utils/updater { };
+        update = pkgs.callPackage ./src/utils/updater { };
 
       });
       nixosModules.default = import ./src/modules/nixos-module.nix;
