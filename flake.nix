@@ -42,6 +42,28 @@
     in
     {
       packages = eachSystem (pkgs: {
+        full = pkgs.luanti.withPackages {
+          clientMods = pkgs.luantiPackages.clientMods |> pkgs.lib.attrValues;
+          games = pkgs.luantiPackages.games |> pkgs.lib.attrValues;
+          mods = pkgs.luantiPackages.mods |> pkgs.lib.attrValues;
+          texturePacks =
+            pkgs.luantiPackages.texturePacks
+            |> pkgs.lib.mapAttrsToList (
+              name: tp:
+              if name == "minecraft" then
+                # tp.override {
+                #  acceptMinecraftEula = true;
+                #}
+                null
+              else if name == "modrinth" then
+                null
+              else
+                tp
+            )
+            |> builtins.filter (e: e != null)
+            |> pkgs.lib.flatten;
+        };
+
         example =
           with pkgs.luantiPackages;
           pkgs.luanti.withPackages {
@@ -94,7 +116,7 @@
             tests = (tests pkgs).unit;
             inherit pkgs;
           };
-          example = self.packages.${pkgs.stdenv.hostPlatform.system}.example;
+          inherit (self.packages.${pkgs.stdenv.hostPlatform.system}) example full;
         }
         // (tests pkgs).e2e
       );

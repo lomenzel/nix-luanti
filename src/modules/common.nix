@@ -133,6 +133,14 @@ rec {
                 leave this option null to use the default whitelist
               '';
             };
+            webTexturePack = lib.mkOption {
+              type = nullOr package;
+              description = ''
+                Texture pack to use for the web client.
+                If null, no texture pack is used.
+              '';
+              default = null;
+            };
             host = lib.mkOption {
               type = nullOr str;
               default = null;

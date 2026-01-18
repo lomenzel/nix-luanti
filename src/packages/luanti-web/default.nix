@@ -6,8 +6,13 @@
   host ? "127.0.0.1",
   port ? 30000,
   serverName ? "Luanti Web",
+  has_mapserver ? false,
   proxyUrl ? "http://localhost:8080",
-  games ? [ ],
+  client_games ? [ ],
+  client_mods ? [ ],
+  client_texturePacks ? [ ],
+  client_clientMods ? [ ],
+  client_settings ? { },
 }:
 
 let
@@ -32,7 +37,16 @@ let
       zlib
       ;
   };
-  fsroot = callPackage ./fsroot { inherit luanti games; };
+  fsroot = callPackage ./fsroot {
+    inherit
+      luanti
+      ;
+    games = client_games;
+    mods = client_mods;
+    texturePacks = client_texturePacks;
+    clientMods = client_clientMods;
+    settings = client_settings;
+  };
   luanti = callPackage ./luanti {
     inherit
       emscripten
@@ -111,11 +125,15 @@ stdenv.mkDerivation {
     apply_substitutions ${static}/worker.js "$RELEASE_DIR"/worker.js
     apply_substitutions ${static}/htaccess_packs "$PACKS_DIR"/.htaccess
 
+    cp ${./background.png} "$WWW_DIR"/background.png
+
     cat > "$WWW_DIR"/config.js << EOF
     PORT = ${builtins.toString port}
     DOMAIN = "${host}"
     SERVER_NAME = "${serverName}"
     PROXY_URL = "${proxyUrl}"
+    HAS_MAPSERVER = "${builtins.toString has_mapserver}";
+    HAS_TEXTURE_PACK = "${builtins.toString (builtins.hasAttr "texture_path" client_settings)}";
     EOF
 
     cp fsroot.tar.zst "$PACKS_DIR"/base.pack

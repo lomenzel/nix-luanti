@@ -5,6 +5,7 @@
   luanti,
   stdenv,
   writeText,
+  writeShellScript,
 }:
 
 let
@@ -24,15 +25,18 @@ let
           inherit name;
           src = null;
           dontUnpack = true;
-          installPhase = ''
-            mkdir -p $out
-             ${builtins.concatStringsSep "\n" (
-               map (pkg: ''
-
-                 ln -s ${pkg} "$out/${pkg.pname or pkg.name}"
-               '') list
-             )}
-          '';
+          installPhase =
+            let
+              installScript = writeShellScript "install.sh" ''
+                mkdir -p $out
+                 ${builtins.concatStringsSep "\n" (
+                   map (pkg: ''
+                     ln -s ${pkg} "$out/${pkg.pname or pkg.name}"
+                   '') list
+                 )}
+              '';
+            in
+            "${installScript}";
         };
       modsPath = listToPath mods "mods";
       gamesPath = listToPath games "games";

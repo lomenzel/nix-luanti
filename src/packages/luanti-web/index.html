@@ -3,197 +3,402 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Minetest for the Web</title>
+    <title>Luanti Web Edition</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      html,
+      :root {
+        --mc-border-light: #ffffff;
+        --mc-border-dark: #000000;
+        --mc-button-gray: #7c7c7c;
+        --mc-button-hover: #5a8eaf;
+        --mc-ui-bg: #c6c6c6;
+      }
+
       body {
-        background-color: rgb(252, 252, 234);
-        height: 100vh;
         margin: 0;
         padding: 0;
-        position: fixed;
+        height: 100vh;
         width: 100vw;
-        top: 0px;
-        left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("background.png");
+        background-size: cover;
+        background-position: center;
+        font-family: "Press Start 2P", cursive;
+        color: white;
+        overflow: hidden;
       }
-      details {
-        bottom: 0px;
+
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Logo Area */
+      .header-container {
+        position: relative;
+        text-align: center;
+        margin-bottom: 40px;
+        filter: drop-shadow(4px 4px 0px #000);
+      }
+
+      .main-title {
+        font-size: 42px;
+        margin: 0;
+        letter-spacing: 2px;
+        color: #bebebe;
+        text-transform: uppercase;
+      }
+
+      .sub-title {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #727272;
+      }
+
+      /* Yellow Splash Text */
+      .splash {
         position: absolute;
-        padding: 0.25cm;
-        overflow: scroll;
-        max-height: 50vh;
-      }
-      .console {
-        max-width: 400px;
-        margin: 50px auto;
-        padding: 20px;
-      }
-
-      .form-container {
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 30px;
+        right: -120px;
+        top: 30px;
+        color: #ffff00;
+        font-size: 12px;
+        transform: rotate(-20deg);
+        text-shadow: 2px 2px 0px #3f3f00;
+        animation: splashAnim 0.5s infinite alternate;
+        pointer-events: none;
+        width: max-content;
       }
 
-      h2 {
-        color: #333;
-        margin-bottom: 25px;
-        font-size: 1.5em;
+      @keyframes splashAnim {
+        from {
+          transform: rotate(-20deg) scale(1);
+        }
+
+        to {
+          transform: rotate(-20deg) scale(1.1);
+        }
       }
 
-      .input-group {
-        margin-bottom: 20px;
-      }
-
-      label {
-        display: block;
-        color: #666;
-        margin-bottom: 8px;
-        font-weight: 500;
+      /* Menu Container */
+      .menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 400px;
+        align-items: center;
+        z-index: 10;
       }
 
       input[type="text"],
       input[type="password"] {
         width: 100%;
+        background-color: black;
+        border: 2px solid #333;
         padding: 12px;
-        border: 2px solid #e0e0e0;
-        border-radius: 6px;
-        font-size: 16px;
-        transition: all 0.3s ease;
-      }
-
-      input[type="text"]:focus,
-      input[type="password"]:focus {
+        color: #4caf50;
+        font-family: "Press Start 2P", cursive;
+        font-size: 12px;
+        box-sizing: border-box;
         outline: none;
-        border-color: #4caf50;
-        box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+        margin-bottom: 10px;
       }
 
-      button#join_launch {
+      /* Minecraft Button Style */
+      .mc-button {
         width: 100%;
-        padding: 15px;
-        background-color: #4caf50;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        font-size: 16px;
+        position: relative;
+        background-color: #666;
+        border: 2px solid black;
+        padding: 14px;
+        color: #e0e0e0;
+        font-family: "Press Start 2P", cursive;
+        font-size: 14px;
         cursor: pointer;
-        transition: all 0.3s ease;
+        text-shadow: 2px 2px 0px #000;
+        box-shadow:
+          inset 2px 2px 0px #888,
+          inset -2px -2px 0px #444;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
       }
 
-      button#join_launch:hover {
-        background-color: #45a049;
+      .mc-button:hover {
+        background-color: var(--mc-button-hover);
+        color: #fff;
+        border-color: white;
+      }
+
+      .mc-button:active {
+        box-shadow:
+          inset -2px -2px 0px #888,
+          inset 2px 2px 0px #444;
+      }
+
+      .half-buttons {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+      }
+
+      /* Modal Styling */
+      #about_modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal-content {
+        background-color: var(--mc-ui-bg);
+        border: 4px solid black;
+        box-shadow:
+          inset 4px 4px 0px #eee,
+          inset -4px -4px 0px #555;
+        padding: 30px;
+        width: 450px;
+        color: #333;
+        text-align: center;
+      }
+
+      .modal-content h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-shadow: none;
+      }
+
+      .link-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .modal-content .mc-button {
+        font-size: 10px;
+        padding: 10px;
+      }
+
+      /* Details/Logs */
+      details.log-panel {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 300px;
+        font-size: 8px;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid #555;
+        z-index: 5;
+      }
+
+      details.log-panel summary {
+        padding: 5px;
+        cursor: pointer;
+      }
+
+      #temporary_console {
+        height: 100px;
+        overflow-y: scroll;
+        padding: 5px;
+        font-family: monospace;
+      }
+
+      .version-tag {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 10px;
       }
     </style>
   </head>
 
   <body>
-    <div id="join_form" class="console">
-      <div class="form-container">
-        <h2 id="join_name_title">Joining Game</h2>
+    <div class="header-container">
+      <h1 class="main-title">LUANTI</h1>
+      <div id="sub-title" class="sub-title">WEB EDITION</div>
+      <div class="splash" id="splash_text">Stay strong!</div>
+    </div>
 
-        <div class="input-group">
-          <label for="join_username">Player Name:</label>
-          <input
-            type="text"
-            id="join_username"
-            name="username"
-            maxlength="19"
-            title="Alphanumeric, 19 characters max"
-            required
-          />
-        </div>
+    <div id="join_form" class="menu-container">
+      <input
+        type="text"
+        id="join_username"
+        placeholder="PLAYER NAME"
+        maxlength="19"
+      />
+      <input
+        type="password"
+        id="join_user_password"
+        placeholder="PASSWORD"
+        autocomplete="off"
+      />
 
-        <div class="input-group">
-          <label for="join_user_password">Player Password:</label>
-          <input
-            type="password"
-            id="join_user_password"
-            name="password"
-            required
-            autocomplete="off"
-          />
-        </div>
+      <button class="mc-button" id="join_launch">Multiplayer</button>
+      <button class="mc-button" id="menu_launch">Singleplayer</button>
 
-        <button id="join_launch">Join Game</button>
+      <div class="half-buttons">
+        <button class="mc-button" style="font-size: 10px" id="about_open">
+          About...
+        </button>
+        <button
+          class="mc-button"
+          id="quit-button"
+          style="font-size: 10px"
+          onclick="window.close()"
+        >
+          Quit Game
+        </button>
       </div>
     </div>
-    <details>
-      <summary>Logs</summary>
-      <div id="temporary_console" class="console"></div>
+
+    <!-- Credits Modal -->
+    <div id="about_modal">
+      <div class="modal-content">
+        <h2>CREDITS</h2>
+        <div class="link-list">
+          <a href="https://luanti.org" target="_blank" class="mc-button"
+            >Luanti.org</a
+          >
+          <a
+            href="https://github.com/paradust7/minetest-wasm"
+            target="_blank"
+            class="mc-button"
+            >Minetest WASM</a
+          >
+          <a
+            href="https://github.com/lomenzel/nix-luanti"
+            target="_blank"
+            class="mc-button"
+            >Nix Luanti</a
+          >
+        </div>
+        <button
+          class="mc-button"
+          id="about_close"
+          style="background-color: #888"
+        >
+          Done
+        </button>
+      </div>
+    </div>
+
+    <div class="version-tag">
+      Luanti 5.10.0-wasm <br \ />
+      © background image:
+      <a href="https://github.com/luanti-org/minetest_game" target="_blank"
+        >Minetest Game</a
+      >
+    </div>
+
+    <details class="log-panel">
+      <summary>System Logs</summary>
+      <div id="temporary_console"></div>
     </details>
+
     <script
       type="text/javascript"
       src="%__RELEASE_UUID__%/launcher.js"
     ></script>
     <script type="text/javascript" src="config.js"></script>
     <script type="text/javascript">
-      document.getElementById("join_name_title").innerText =
-        `Join game: ${SERVER_NAME}`;
+      const splashes = [
+        "100% Reproducible!",
+        "Check your /nix/store!",
+        "Also try 0 A.D.!",
+        "Also try SuperTuxKart!",
+        "Lua-tastic!",
+        "Nodes, nodes everywhere!",
+        "It's an engine!",
+      ];
+      document.getElementById("splash_text").innerText =
+        splashes[Math.floor(Math.random() * splashes.length)];
+      document.getElementById("sub-title").innerText =
+        SERVER_NAME || "WEB EDITION";
 
-      // Reduce memory and network usage
-      function enableMemorySaving(mtl) {
-        mtl.setConf("viewing_range", 85);
-        mtl.setConf("max_block_send_distance", 5);
-        mtl.setConf("max_block_generate_distance", 5);
+      if (HAS_MAPSERVER) {
+        document.getElementById("quit-button").innerText = "Display Map";
+        document.getElementById("quit-button").onclick = () => {
+          window.open("/map", "_blank");
+        };
       }
 
-      const joinForm = document.getElementById("join_form");
+      // Modal Logic
+      const modal = document.getElementById("about_modal");
+      document.getElementById("about_open").onclick = () =>
+        (modal.style.display = "flex");
+      document.getElementById("about_close").onclick = () =>
+        (modal.style.display = "none");
+      window.onclick = (event) => {
+        if (event.target == modal) modal.style.display = "none";
+      };
+
+      const mtl = new MinetestLauncher();
       const tcon = document.getElementById("temporary_console");
+
       function tcon_print(prefix, line) {
-        if (prefix) {
-          for (child of tcon.childNodes) {
-            if (child.nodeName == "PRE" && child.innerText.startsWith(prefix)) {
-              child.innerText = prefix + line;
-              return;
-            }
-          }
-        }
-        const p = document.createElement("pre");
-        p.innerText = prefix + line;
+        const p = document.createElement("div");
+        p.innerText = (prefix || "") + line;
         tcon.appendChild(p);
+        tcon.scrollTop = tcon.scrollHeight;
       }
 
       function enableJoinForm() {
-        joinForm.style.display = "block";
-
-        const proxies = [
-          ["wss://na1.dustlabs.io/mtproxy", "North America"],
-          ["wss://sa1.dustlabs.io/mtproxy", "South America"],
-          ["wss://eu1.dustlabs.io/mtproxy", "Europe"],
-          ["wss://ap1.dustlabs.io/mtproxy", "Asia"],
-          ["wss://ap2.dustlabs.io/mtproxy", "Australia"],
-        ];
-
-        // select_language.value = getDefaultLanguage();
-
-        const joinLaunch = document.getElementById("join_launch");
-        joinLaunch.addEventListener("click", async () => {
-          const username = document.getElementById("join_username").value;
-          const password = document.getElementById("join_user_password").value;
-          if (username.length == 0) {
-            alert("Empty username");
-            return;
-          }
-
-          if (!PROXY_URL) PROXY_URL = proxies[0][0];
-
-          mtl.setProxy(PROXY_URL);
-          //mtl.addPack(join_game);
-
+        document.getElementById("join_launch").addEventListener("click", () => {
           const args = new MinetestArgs();
-          // args.gameid = join_game;
-          args.name = username;
+          args.name =
+            document.getElementById("join_username").value || "Player";
           args.address = DOMAIN;
-          args.password = password;
           args.port = PORT;
+          args.password = document.getElementById("join_user_password").value;
           args.go = true;
-          //mtl.setVPN(null, join_code);
-          enableMemorySaving(mtl);
-          mtl.setLang(getDefaultLanguage());
-          console.log(getDefaultLanguage());
-          console.log(args);
+          if (args.username === "")
+            alert(
+              "Warning: You are trying to join a server without a username.",
+            );
+          mtl.setProxy(PROXY_URL);
+          mtl.setConf("viewing_range", 85);
+          mtl.setConf("max_block_send_distance", 5);
+          mtl.setConf("max_block_generate_distance", 5);
+          if (HAS_TEXTURE_PACK)
+            mtl.setConf(
+              "texture_path",
+              "/minetest/textures/enabled_texture_pack",
+            );
+          mtl.launch(args);
+        });
+
+        document.getElementById("menu_launch").addEventListener("click", () => {
+          const args = new MinetestArgs();
+          args.name =
+            document.getElementById("join_username").value || "Player";
+          args.go = false;
+          mtl.setProxy(PROXY_URL);
+          mtl.setConf("viewing_range", 85);
+          mtl.setConf("max_block_send_distance", 5);
+          mtl.setConf("max_block_generate_distance", 5);
+          mtl.setConf("remote_port", PORT);
+          mtl.setConf("address", DOMAIN);
+          if (HAS_TEXTURE_PACK)
+            mtl.setConf(
+              "texture_path",
+              "/minetest/textures/enabled_texture_pack",
+            );
           mtl.launch(args);
         });
       }
@@ -231,37 +436,8 @@
         });
       }
 
-      let join_code = null;
-      let join_proxy = null;
-      let join_game = null;
-      const peek_params = new URLSearchParams(window.location.search);
-
-      const args = MinetestArgs.fromQueryString(window.location.search);
-      tcon_print(
-        "",
-        "Minetest Arguments: " + JSON.stringify(args.toArray(), null, "    "),
-      );
-      tcon_print("", "Data Packs: " + JSON.stringify(args.packs, null, "    "));
-
-      const mtl = new MinetestLauncher();
-      mtl.addPacks(args.packs);
-      mtl.onprint = (text) => {
-        tcon_print("", text);
-      };
-      mtl.onprogress = (name, progress) => {
-        const prefix = `Task ${name} : `;
-        const pct = `${Math.round(progress * 100)}%`;
-        tcon_print(prefix, pct);
-      };
-      mtl.onready = () => {
-        tcon_print("", "READY!");
-        enableJoinForm();
-      };
-      mtl.onerror = (err) => {
-        tcon_print("", "**************** FATAL ERROR ******************");
-        tcon_print("", err);
-        tcon_print("", "***********************************************");
-      };
+      mtl.onprint = (text) => tcon_print("", text);
+      mtl.onready = () => enableJoinForm();
     </script>
   </body>
 </html>

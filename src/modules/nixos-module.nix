@@ -80,91 +80,110 @@ in
       services.nginx = lib.mkIf (builtins.length (lib.attrsToList wasm-servers) > 0) {
         enable = true;
         virtualHosts = builtins.listToAttrs (
-          lib.mapAttrsToList (name: value: {
-            name = value.host;
-            value = {
-              root = pkgs.luanti-web.override {
-                serverName = name;
-                port = value.port;
-                host = "10.0.0.${builtins.toString value.number}";
-                proxyUrl = "${if value.ssl then "wss://" else "ws://"}${value.host}/proxy";
-              };
-              forceSSL = value.ssl;
-              enableACME = value.ssl;
-              locations = {
-                "/index.html".extraConfig = ''
-                  add_header Cross-Origin-Embedder-Policy "require-corp";
-                  add_header Cross-Origin-Opener-Policy "same-origin";
-                  add_header Cache-Control "no-cache, no-store, must-revalidate";
-                  add_header Pragma "no-cache";
-                  add_header Expires 0;
-                '';
-                "/${pkgs.luanti-web.release-uuid}/".extraConfig = ''
-                  add_header Cache-Control "public, max-age=31536000, immutable";
-                '';
-                "/${pkgs.luanti-web.release-uuid}/worker.js".extraConfig = ''
-                  add_header Cross-Origin-Embedder-Policy "require-corp";
-                  add_header Cross-Origin-Opener-Policy "same-origin";
-                '';
-                "/${pkgs.luanti-web.release-uuid}/packs/".extraConfig = ''
-                  add_header Access-Control-Allow-Origin "*";
-                '';
-                "/proxy" = {
-                  proxyPass = "http://localhost:${builtins.toString cfg.proxy.port}";
-                  proxyWebsockets = true;
-                  extraConfig = ''
-                    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          lib.mapAttrsToList (
+            name: value:
+            let
+              final-web-package = pkgs.luanti-web.override (
+                {
+                  serverName = name;
+                  client_games = lib.singleton (value.game);
+                  has_mapserver = value.mapserver.enable;
+                  port = value.port;
+                  host = "10.0.0.${builtins.toString value.number}";
+                  proxyUrl = "${if value.ssl then "wss://" else "ws://"}${value.host}/proxy";
+
+                }
+                // (
+                  if value.webTexturePack != null then
+                    {
+                      client_settings.texture_path = "${value.webTexturePack}";
+                    }
+                  else
+                    { }
+                )
+              );
+            in
+
+            {
+              name = value.host;
+              value = {
+                root = final-web-package;
+                forceSSL = value.ssl;
+                enableACME = value.ssl;
+                locations = {
+                  "/index.html".extraConfig = ''
+                    add_header Cross-Origin-Embedder-Policy "require-corp";
+                    add_header Cross-Origin-Opener-Policy "same-origin";
+                    add_header Cache-Control "no-cache, no-store, must-revalidate";
+                    add_header Pragma "no-cache";
+                    add_header Expires 0;
                   '';
-                };
-                "/map" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}/";
-                };
+                  "/${final-web-package.release-uuid}/".extraConfig = ''
+                    add_header Cache-Control "public, max-age=31536000, immutable";
+                  '';
+                  "/${final-web-package.release-uuid}/worker.js".extraConfig = ''
+                    add_header Cross-Origin-Embedder-Policy "require-corp";
+                    add_header Cross-Origin-Opener-Policy "same-origin";
+                  '';
+                  "/${final-web-package.release-uuid}/packs/".extraConfig = ''
+                    add_header Access-Control-Allow-Origin "*";
+                  '';
+                  "/proxy" = {
+                    proxyPass = "http://localhost:${builtins.toString cfg.proxy.port}";
+                    proxyWebsockets = true;
+                    extraConfig = ''
+                      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                    '';
+                  };
+                  "/map" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}/";
+                  };
 
-                # probably better to patch mapserver to support relative paths
-                "/js" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/css" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/api" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                  proxyWebsockets = true;
-                };
-                "/lib" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/bootstrap.min.js" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/bundle.js" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/fontawesome.min.css" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/leavelet.css" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/custom.css" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/leaflet.awesome-markers.css" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/main.js" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/webfonts" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
-                };
-                "/pics" = lib.mkIf (value.mapserver.enable) {
-                  proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  # probably better to patch mapserver to support relative paths
+                  "/js" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/css" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/api" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                    proxyWebsockets = true;
+                  };
+                  "/lib" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/bootstrap.min.js" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/bundle.js" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/fontawesome.min.css" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/leavelet.css" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/custom.css" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/leaflet.awesome-markers.css" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/main.js" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/webfonts" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
+                  "/pics" = lib.mkIf (value.mapserver.enable) {
+                    proxyPass = "http://localhost:${builtins.toString value.mapserver.config.port}";
+                  };
                 };
               };
-
-            };
-          }) wasm-servers
+            }
+          ) wasm-servers
         );
       };
 

@@ -109,6 +109,13 @@ Enables HTTPS for the WASM build. Only functional in the NixOS module.
 - **Type**: Boolean
 - **Default**: `false`
 
+### `services.luanti.servers.<name>.webTexturePack`
+
+The Texture Pack used by the web client (only used if host is defined)
+
+- **Type**: Package or `null`
+- **Default** `null`
+
 ### `services.luanti.servers.<name>.mods`
 
 List of Luanti mods to include.
