@@ -16,6 +16,7 @@ let
       games ? [ ],
       texturePacks ? [ ],
       clientMods ? [ ],
+      luanti ? luanti,
       ...
     }@args:
     let
