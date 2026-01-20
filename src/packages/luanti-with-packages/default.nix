@@ -16,7 +16,7 @@ let
       games ? [ ],
       texturePacks ? [ ],
       clientMods ? [ ],
-      luanti ? luanti,
+      finalLuanti ? luanti,
       ...
     }@args:
     let
@@ -50,10 +50,10 @@ let
     in
 
     symlinkJoin {
-      name = luanti.pname;
+      name = finalLuanti.pname;
 
       paths = lib.singleton (
-        luanti.overrideAttrs (old: {
+        finalLuanti.overrideAttrs (old: {
           patches = lib.lists.unique (
             old.patches
             ++ (
@@ -88,6 +88,7 @@ let
           games ? [ ],
           texturePacks ? [ ],
           clientMods ? [ ],
+          finalLuanti ? finalLuanti,
           ...
         }@newPackages:
         mkLuanti {
