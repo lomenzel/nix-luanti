@@ -1,16 +1,16 @@
 diff --git a/src/server.cpp b/src/server.cpp
-index 7648a43ba..866c098a2 100644
+index f585e7705..9026cfd4d 100644
 --- a/src/server.cpp
 +++ b/src/server.cpp
-@@ -39,6 +39,7 @@
- #include "modchannels.h"
- #include "server/serverlist.h"
+@@ -37,6 +37,7 @@
+ #include "util/hex.h"
+ #include "util/serialize.h"
  #include "util/string.h"
 +#include "util/strfnd.h"
- #include "server/rollback.h"
- #include "util/serialize.h"
  #include "util/thread.h"
-@@ -2617,6 +2618,7 @@ void Server::fillMediaCache()
+ #include "util/tracy_wrapper.h"
+ #include "version.h"
+@@ -2667,6 +2668,7 @@ void Server::fillMediaCache()
  
  	// ordered in descending priority
  	paths.push_back(getBuiltinLuaPath() + DIR_DELIM + "locale");
@@ -18,8 +18,8 @@ index 7648a43ba..866c098a2 100644
  	fs::GetRecursiveDirs(paths, porting::path_user + DIR_DELIM + "textures" + DIR_DELIM + "server");
  	fs::GetRecursiveDirs(paths, m_gamespec.path + DIR_DELIM + "textures");
  	m_modmgr->getModsMediaPaths(paths);
-@@ -3946,6 +3948,14 @@ void Server::setAsyncFatalError(const std::string &error)
- 		m_thread->stop();
+@@ -4001,6 +4003,14 @@ void Server::setAsyncFatalError(const LuaError &e)
+ 	setAsyncFatalError(std::string("Lua: ") + e.what());
  }
  
 +void Server::getEnvTextureDirs(std::vector<std::string> &paths) const
