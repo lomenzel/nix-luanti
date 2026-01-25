@@ -1,8 +1,16 @@
 diff --git a/src/client/client.cpp b/src/client/client.cpp
-index e37cd80d4..eb401cc85 100644
+index e37cd80d4..59b62eab2 100644
 --- a/src/client/client.cpp
 +++ b/src/client/client.cpp
-@@ -212,11 +212,23 @@ void Client::loadMods()
+@@ -40,6 +40,7 @@
+ #include "util/serialize.h"
+ #include "util/srp.h"
+ #include "util/string.h"
++#include "util/strfnd.h"
+ #include "version.h"
+ 
+ // Modding
+@@ -212,11 +213,23 @@ void Client::loadMods()
  		std::string path_user = porting::path_user + DIR_DELIM + "clientmods";
  		const auto modsPath = getClientModsLuaPath();
  		if (modsPath != path_user) {
