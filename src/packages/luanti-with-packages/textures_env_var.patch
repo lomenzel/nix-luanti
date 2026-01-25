@@ -34,10 +34,10 @@ index 7648a43ba..866c098a2 100644
  void Server::addShutdownError(const ModError &e)
  {
 diff --git a/src/server.h b/src/server.h
-index cc50f912a..afec4943d 100644
+index fe21934f9..910d76683 100644
 --- a/src/server.h
 +++ b/src/server.h
-@@ -338,6 +338,7 @@ class Server : public con::PeerHandler, public MapEventReceiver,
+@@ -344,6 +344,7 @@ class Server : public con::PeerHandler, public MapEventReceiver,
  	const ModSpec* getModSpec(const std::string &modname) const override;
  	const SubgameSpec* getGameSpec() const override { return &m_gamespec; }
  	static std::string getBuiltinLuaPath();
@@ -45,4 +45,3 @@ index cc50f912a..afec4943d 100644
  	std::string getWorldPath() const override { return m_path_world; }
  	std::string getModDataPath() const override { return m_path_mod_data; }
  	ModIPCStore *getModIPCStore() override { return &m_ipcstore; }
-	
