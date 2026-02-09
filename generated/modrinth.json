@@ -439,6 +439,17 @@
     "title": "2D Trident",
     "version": "1.18+_fix"
   },
+  "2dandbigheads-custommodel": {
+    "author": "shardclay",
+    "date_modified": "2025-11-22T05:39:56.059358Z",
+    "dependencies": [],
+    "description": "This resource pack create as an example of how to create custom head model for Minecraft versions 1.21.6+",
+    "download_url": "https://cdn.modrinth.com/data/yaaEwWAj/versions/1MmbN632/2d_heads_rp.zip",
+    "filename": "2d_heads_rp.zip",
+    "hash": "0s2w0imrdm7hjc4fmzlqml5lwlbchp469jyq12w7fbd56pab6c22",
+    "title": "2D & Big Heads CustomModel",
+    "version": "1.0.1"
+  },
   "2ikker_christmas-chests": {
     "author": "2ikker",
     "date_modified": "2025-12-15T08:58:22.591441Z",
@@ -947,14 +958,14 @@
   },
   "3d_eggs": {
     "author": "nikolasproob",
-    "date_modified": "2026-02-07T22:05:53.434962Z",
+    "date_modified": "2026-02-08T09:39:12.233911Z",
     "dependencies": [],
     "description": "3D models for chicken eggs",
-    "download_url": "https://cdn.modrinth.com/data/AB29D8X3/versions/uKEHhQlv/3D%20Eggs.zip",
-    "filename": "3D Eggs.zip",
-    "hash": "0b2fyk0an1h7kns2kyshkz0fm7dlp2n3m2nki09nwy3gddx91f89",
+    "download_url": "https://cdn.modrinth.com/data/AB29D8X3/versions/MVk4kW8b/3D%20EGGS.zip",
+    "filename": "3D EGGS.zip",
+    "hash": "0zbcsd7g8qzh1fq8ar7lfgi0fh2vsivrqdig08pz9g6zsxhpanfv",
     "title": "3D Eggs",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "3dawkward-potion-to-beer": {
     "author": "ppercree",
@@ -1979,17 +1990,6 @@
     "title": "AL's 3D Totem",
     "version": "1.0.1"
   },
-  "als-armor-stands-revamped": {
-    "author": "ALtheGatorMC",
-    "date_modified": "2025-12-24T02:12:06.455925Z",
-    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
-    "description": "A pack that revamps Armor Stands and adds more variants!",
-    "download_url": "https://cdn.modrinth.com/data/Ik2kfsWC/versions/NNFbgODp/AL%27s%20Armor%20Stands%20Revamped.zip",
-    "filename": "AL's Armor Stands Revamped.zip",
-    "hash": "1ayymw77bqzh6cwy50bxbp2v8bvx99cibaab0k4q5ayjfz8f7xam",
-    "title": "AL's Armor Stands Revamped",
-    "version": "1.0"
-  },
   "als-creepers-fa": {
     "author": "Nyly-_-",
     "date_modified": "2025-10-06T18:15:11.912872Z",
@@ -2000,6 +2000,17 @@
     "hash": "1s6h57aj51340zlwkwxmp7ghwi4imzvcmh9ar288yc5kwrnfm2kl",
     "title": "AL's Creepers Revamped-Fa",
     "version": "1"
+  },
+  "als-creepers-revamped": {
+    "author": "ALtheGatorMC",
+    "date_modified": "2026-02-08T01:25:31.974251Z",
+    "dependencies": ["50dA9Sha", "AhPf2E1u"],
+    "description": "A pack that revamps Creepers and adds more variants!",
+    "download_url": "https://cdn.modrinth.com/data/d2srP5t3/versions/nhyEtMeW/AL%27s%20Creepers%20Revamped%202.0.zip",
+    "filename": "AL's Creepers Revamped 2.0.zip",
+    "hash": "15199lvas9m4arwjafryr4jisx99a3qczjhgqcnldw4zkb67ilmh",
+    "title": "AL's Creepers Revamped",
+    "version": "2.0"
   },
   "als-creepers-revamped-new-spawn-eggs": {
     "author": "BeagleNF4O4",
@@ -2231,17 +2242,6 @@
     "hash": "0nj21rxv836w81cvyq69ifi9rkhw2g7qmrxy4jic3qgvvqpsqqjn",
     "title": "Amazing 3d Mace",
     "version": "1.21.11"
-  },
-  "amazing-mace-3d": {
-    "author": "spunkyinsaan",
-    "date_modified": "2025-09-18T12:17:57.438048Z",
-    "dependencies": [],
-    "description": "This resource pack Turns 2D texture of mace into 3D..!!",
-    "download_url": "https://cdn.modrinth.com/data/8fds9qyj/versions/qWHNQa8T/Amazing%20Mace%203D.zip",
-    "filename": "Amazing Mace 3D.zip",
-    "hash": "0dlqih0xpv562b9sa89pzys7vq83sgn39470ncz4fjwwis3hl6bb",
-    "title": "Amazing Mace 3d",
-    "version": "3.0"
   },
   "amendedicons": {
     "author": "Clouds",
@@ -2518,17 +2518,6 @@
     "title": "Angel's Font",
     "version": "0.8"
   },
-  "angels-weather": {
-    "author": "Liminal_Angel",
-    "date_modified": "2026-02-04T12:01:34.160253Z",
-    "dependencies": ["1IjD5062", "3qAYkBMB"],
-    "description": "The Weather Miracle • A full weather rework featuring high-fidelity audio, new snow, cloud, and fog variants, dynamic particle effects, and revamped biome colors.",
-    "download_url": "https://cdn.modrinth.com/data/pQrAkcwB/versions/Dh7V6aGV/Angel%27s_Weather_v1.9.1.2hf.zip",
-    "filename": "Angel's_Weather_v1.9.1.2hf.zip",
-    "hash": "0hg86p0njmgak8hxnyaccc34v0hbygp9dfd53awssrxl2pi3g29v",
-    "title": "Angel's Weather",
-    "version": "1.9.1.2hf"
-  },
   "angry-creepers": {
     "author": "D1am0ndMC",
     "date_modified": "2025-12-16T00:02:50.782684Z",
@@ -2693,17 +2682,6 @@
     "hash": "03dcwmys0ii71x1jx2zi6an09g1kifpm463j77dh3wlll71rx4vx",
     "title": "Animated Purple XP Bar",
     "version": "v1.1"
-  },
-  "animated-rainbow-experience-bar": {
-    "author": "johnnymayodev",
-    "date_modified": "2025-11-05T15:38:14.211751Z",
-    "dependencies": [],
-    "description": "The original Modrinth Animated Rainbow Experience Bar!",
-    "download_url": "https://cdn.modrinth.com/data/e0jSqIfN/versions/pKbwtSmp/%C2%A7d%C2%A7lA%C2%A75n%C2%A7di%C2%A75%C2%A7lm%C2%A7da%C2%A75t%C2%A7d%C2%A7le%C2%A75d%20%C2%A74R%C2%A76a%C2%A7ei%C2%A7an%C2%A7bb%C2%A79o%C2%A7dw%20%C2%A72%C2%A7lX%C2%A7a%C2%A7lP%20%C2%A7rBar.zip",
-    "filename": "§d§lA§5n§di§5§lm§da§5t§d§le§5d §4R§6a§ei§an§bb§9o§dw §2§lX§a§lP §rBar.zip",
-    "hash": "1id13l30nhydyz8lmhp1c8zhwv5npfc382anw7w3n3xpm2q7q4pb",
-    "title": "Animated Rainbow XP Bar",
-    "version": "1.3"
   },
   "animated-red-xp-bar": {
     "author": "its-x3non",
@@ -4273,6 +4251,17 @@
     "title": "Backported Dye",
     "version": "2.0.11"
   },
+  "baguettes": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:01:31.859042Z",
+    "dependencies": [],
+    "description": "Changes minecraft bread into baguettes",
+    "download_url": "https://cdn.modrinth.com/data/FB6VXZHm/versions/qJzX4eip/Baguettes.zip",
+    "filename": "Baguettes.zip",
+    "hash": "0jdh89lnr2b0nnba3qpk7qp07ghqv8a317wfgzv1rbcr6cx85ya2",
+    "title": "Baguettes",
+    "version": "2"
+  },
   "bahas-3d-beds": {
     "author": "Synth_",
     "date_modified": "2025-12-21T17:33:38.084066Z",
@@ -4449,17 +4438,6 @@
     "title": "bannapples!",
     "version": "1.0.0"
   },
-  "banner-pattern-clarity": {
-    "author": "bebebea_loste",
-    "date_modified": "2025-06-03T14:12:00.547579Z",
-    "dependencies": [],
-    "description": "Retextures of banner pattern items, compatible with mods",
-    "download_url": "https://cdn.modrinth.com/data/Uigm3P2d/versions/doQbX6sY/Banner%20Pattern%20Clarity%20v1.6.zip",
-    "filename": "Banner Pattern Clarity v1.6.zip",
-    "hash": "18jhkzwz7z9y7bwxhrv04rwy153116lwssaamqk81786nbf9b6wq",
-    "title": "(Bee's) Banner Pattern Clarity",
-    "version": "v1.6"
-  },
   "bare-bone-better-leaves": {
     "author": "Just_ChiLL_Brooo",
     "date_modified": "2026-02-01T04:35:08.629369Z",
@@ -4517,25 +4495,14 @@
   },
   "bare-bones-better-chickens": {
     "author": "LiamLatz",
-    "date_modified": "2026-01-28T15:01:50.325306Z",
-    "dependencies": ["4I1XuqiY"],
+    "date_modified": "2026-02-08T01:40:58.850056Z",
+    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
     "description": "Improved models and textures for chickens for Bare Bones",
-    "download_url": "https://cdn.modrinth.com/data/AT2couHi/versions/mqWTqd6y/Bare%20Bones%20Better%20Chickens.zip",
-    "filename": "Bare Bones Better Chickens.zip",
-    "hash": "16fyski8v04mgdh999g7adkmwzy4ifd4q7w5gczql7d8m7fkqbn8",
+    "download_url": "https://cdn.modrinth.com/data/AT2couHi/versions/s4B67VuP/Bare%20Bones%20Better%20Chickens%20%28v%201.1%29.zip",
+    "filename": "Bare Bones Better Chickens (v 1.1).zip",
+    "hash": "17bjd3zp4fjhidnyrj4nngmfjpvzb700hsbfb28gyqsd9s5nsy3g",
     "title": "Bare Bones - Better Chickens",
-    "version": "1.0"
-  },
-  "bare-bones-better-leaves": {
-    "author": "PrincParshia",
-    "date_modified": "2026-01-20T15:35:22.277404Z",
-    "dependencies": [],
-    "description": "Enhances the leaves textures in Bare Bones with more detail and style, improving the visual appeal while keeping the minimalist design.",
-    "download_url": "https://cdn.modrinth.com/data/m4qArYal/versions/sPjKQbhb/Bare%20Bones%20Better%20Leaves%201.21.11.zip",
-    "filename": "Bare Bones Better Leaves 1.21.11.zip",
-    "hash": "0qjnwblfkpi4wfh02bibslnd858mfcrrxfcrvz39vzc3975c3svm",
-    "title": "Bare Bones - Better Leaves",
-    "version": "1.4.1"
+    "version": "1.1"
   },
   "bare-bones-bushy-leaves": {
     "author": "PrincParshia",
@@ -4974,6 +4941,17 @@
     "title": "Bare Bones x HMI",
     "version": "1.1"
   },
+  "bare-bones-x-horseman": {
+    "author": "LiamLatz",
+    "date_modified": "2026-02-07T00:59:57.831274Z",
+    "dependencies": ["qIv5FhAA"],
+    "description": "Copper horn texture and lead slot",
+    "download_url": "https://cdn.modrinth.com/data/AAlIQPm6/versions/GfpJvREo/Bare%20Bones%20x%20Horseman.zip",
+    "filename": "Bare Bones x Horseman.zip",
+    "hash": "1a6xi81b4mlnix09dsya0v5g3bfgh2rx6vjp3qqjdpj6k8ixy0m8",
+    "title": "Bare Bones x Horseman",
+    "version": "1.0"
+  },
   "bare-bones-x-leaf-litter": {
     "author": "ludo_silver_",
     "date_modified": "2025-10-21T18:05:10.612630Z",
@@ -5097,14 +5075,14 @@
   },
   "bare-bones-x-subtle-effects": {
     "author": "ludo_silver_",
-    "date_modified": "2026-02-06T14:42:13.158563Z",
+    "date_modified": "2026-02-08T08:42:37.089596Z",
     "dependencies": [],
     "description": "Bare Bones textures for Subtle Effects mod ! ✨",
-    "download_url": "https://cdn.modrinth.com/data/9WBGvqzM/versions/ekV3tYS0/Bare%20Bones%20x%20Sublte%20Effects.zip",
+    "download_url": "https://cdn.modrinth.com/data/9WBGvqzM/versions/PgIcnXNs/Bare%20Bones%20x%20Sublte%20Effects.zip",
     "filename": "Bare Bones x Sublte Effects.zip",
-    "hash": "0nvfhz8hqn1x0vbhph8ac99p7zcl9gp80nhs0frba1aghzlvf3k7",
+    "hash": "0p3q4in67zxdpfvmnai1sy9yc2qq8w6g6xr76hvv8gyjlvl7m6dj",
     "title": "Bare Bones x Subtle Effects",
-    "version": "1.0"
+    "version": "1.1"
   },
   "bare-bones-x-toms-storage": {
     "author": "ludo_silver_",
@@ -5623,6 +5601,28 @@
     "title": "BedWar plus",
     "version": "1.21.11"
   },
+  "bedwars-wool-v2": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T12:40:33.500659Z",
+    "dependencies": [],
+    "description": "Bedwars Wools classic themed✒️.",
+    "download_url": "https://cdn.modrinth.com/data/tYvVffkI/versions/1fZPWg3j/Bedwars%20Wool%20V2%201.21.9-1.21.11.zip",
+    "filename": "Bedwars Wool V2 1.21.9-1.21.11.zip",
+    "hash": "1drala7glmp31kniy4w9mg17d6ajnvdw7mwn16asj283scql3kw3",
+    "title": "Bedwars Wools",
+    "version": "1.21.9-1.21.11"
+  },
+  "bedwars-wools": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T12:39:06.816288Z",
+    "dependencies": [],
+    "description": "Bedwars Wools Classic Themed!.",
+    "download_url": "https://cdn.modrinth.com/data/xW9uQfaE/versions/Wu7OFBE0/Bedwars%20Wool%201.21.9-1.21.11.zip",
+    "filename": "Bedwars Wool 1.21.9-1.21.11.zip",
+    "hash": "1dsqs4nxl4f7jjv5l7mzmbbizn6jpqdb4pyxrv5c6n7msvwa7vj9",
+    "title": "Bedwars Wools",
+    "version": "1.21.9-1.21.11"
+  },
   "bedwarstp": {
     "author": "LostGPU",
     "date_modified": "2026-01-10T16:04:46.499012Z",
@@ -6051,17 +6051,6 @@
     "hash": "14pdfm792wzf01wz489bi6164f4xkkc137w4hxs926hzbjfmd9h3",
     "title": "Better Borderless Glass",
     "version": "0.1"
-  },
-  "better-bows": {
-    "author": "ewanhowell5195",
-    "date_modified": "2026-01-19T22:00:16.521495Z",
-    "dependencies": [],
-    "description": "The bow improvement resource pack!",
-    "download_url": "https://cdn.modrinth.com/data/IPRL7R5J/versions/6lcDKMsY/Better%20Bows.zip",
-    "filename": "Better Bows.zip",
-    "hash": "0fvj1jx2f7p75g75dc36lmjfh4xvg42qxascnjja11d2n2xpj8s2",
-    "title": "Better Bows",
-    "version": "1.4.0"
   },
   "better-buttons-ui!": {
     "author": "NelA470",
@@ -6580,6 +6569,17 @@
     "title": "Better Lily Pads",
     "version": "1.0"
   },
+  "better-lilypads": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:09:16.007098Z",
+    "dependencies": [],
+    "description": "Makes Minecraft Lily Pads more pleasing to look at",
+    "download_url": "https://cdn.modrinth.com/data/VQ9JOW8P/versions/AKtSNeGO/Better%20Lily%20Pads.zip",
+    "filename": "Better Lily Pads.zip",
+    "hash": "17rc4dlnr2w6saq8pxgm1jdd37rfrrm9ylr7ssngxf33vnfhkpqn",
+    "title": "Better LilyPads",
+    "version": "2"
+  },
   "better-low-fire": {
     "author": "gitq",
     "date_modified": "2025-12-10T21:42:58.744898Z",
@@ -6602,6 +6602,17 @@
     "title": "Better Minecarts",
     "version": "1.1"
   },
+  "better-minecraft-dyes": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:04:22.896118Z",
+    "dependencies": [],
+    "description": "Better Minecraft dyes retextures the existing minecraft dyes in to better looking unique textures",
+    "download_url": "https://cdn.modrinth.com/data/ZkaLIF2o/versions/ZSQeDbMf/Better%20Dyes.zip",
+    "filename": "Better Dyes.zip",
+    "hash": "0al2bndv2brn7gqp9fg883dqld6dc7061lim523gqm1n0vw0xww5",
+    "title": "Better Minecraft Dyes",
+    "version": "2"
+  },
   "better-moss-overhang": {
     "author": "sniffercraft34",
     "date_modified": "2024-12-16T18:35:47.354305Z",
@@ -6623,6 +6634,17 @@
     "hash": "0whid818d4mpgqcnjnvh4d815y0wgnps8l9bvr9lka1fk0scq1mv",
     "title": "Better Music Commands",
     "version": "1.0.0"
+  },
+  "better-music-discs": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:05:43.140118Z",
+    "dependencies": [],
+    "description": "Improves the look of music discs and makes each one unique.",
+    "download_url": "https://cdn.modrinth.com/data/KZw5rzTQ/versions/pd58NcAO/Better%20Music%20Discs.zip",
+    "filename": "Better Music Discs.zip",
+    "hash": "1580d4xymp3cfa6f3plzzl81w7ynz0wz7p48f0sazkkkm7j8rafg",
+    "title": "Better Music Discs",
+    "version": "3"
   },
   "better-nature-vanilla-edition": {
     "author": "ThirtyFangs",
@@ -6689,17 +6711,6 @@
     "hash": "0mmnq8llpbqy2j79yspk9rf177mdfi2s1y3hz9wgxcaj15qx7ljx",
     "title": "BetterOres",
     "version": "1.0"
-  },
-  "better-ores-3d": {
-    "author": "Marceus",
-    "date_modified": "2026-01-09T18:21:28.893282Z",
-    "dependencies": ["1IjD5062"],
-    "description": "This resource pack allows you to have 3D and glowing ores.",
-    "download_url": "https://cdn.modrinth.com/data/9D4BBjDX/versions/xeo1Y98o/%C2%A77Better%C2%A7bOres%C2%A793D%20%C2%A7f-%201.21.11%C2%A70.zip",
-    "filename": "§7Better§bOres§93D §f- 1.21.11§0.zip",
-    "hash": "0sh57rl0cckdvbxig67xw642qb0ih9lmqpmhls0vf31lrxyvhvw5",
-    "title": "Better Ores 3D",
-    "version": "8.0"
   },
   "better-ores-tools": {
     "author": "SobhanA11",
@@ -6844,17 +6855,6 @@
     "title": "Better Scaffolding For Bare Bones",
     "version": "1.2"
   },
-  "better-scaffolding-visibility": {
-    "author": "Avrok",
-    "date_modified": "2025-12-31T17:21:31.808946Z",
-    "dependencies": [],
-    "description": "Better Scaffolding is a simple resource pack that removes the visual clutter from scaffolding. It makes climbing easier by clearing the middle section for better visibility.",
-    "download_url": "https://cdn.modrinth.com/data/R4qecDWj/versions/jchgtgyA/Better%20Scaffolding%20Visibility.zip",
-    "filename": "Better Scaffolding Visibility.zip",
-    "hash": "1c917ghw4jif1a4f9343p51ndwpwi5fb0xx1w6zbqqiwggd6ir50",
-    "title": "Better Scaffolding Visibility",
-    "version": "1.1"
-  },
   "better-scythes3d": {
     "author": "Serius",
     "date_modified": "2025-10-18T06:49:15.199945Z",
@@ -6890,14 +6890,14 @@
   },
   "better-side-shield": {
     "author": "Vawn",
-    "date_modified": "2026-01-15T12:09:31.791622Z",
+    "date_modified": "2026-02-08T21:35:36.844223Z",
     "dependencies": [],
     "description": "A texture pack that improves the popular side shield texture pack by making the proportions better and prevent making the shield look like a piece of paper.",
-    "download_url": "https://cdn.modrinth.com/data/kLIZTNsq/versions/zgEok6Nv/Better%20Side%20Shield.zip",
-    "filename": "Better Side Shield.zip",
-    "hash": "15m3fkx40ci39n1jyrgi8ihmcc19wfzaqcm5dcq3936i116k97d2",
+    "download_url": "https://cdn.modrinth.com/data/kLIZTNsq/versions/paCYAVX9/%C2%A75%C2%A7l%C2%A7o%C2%A7nBetter%20Side%20Shield.zip",
+    "filename": "§5§l§o§nBetter Side Shield.zip",
+    "hash": "1shp501c6fpfhyw6r1wkvkskz83ncgc5sdx9yjn76xvym73qbqwm",
     "title": "Better Side Shield",
-    "version": "1.2"
+    "version": "1.3"
   },
   "better-side-shield-universal": {
     "author": "GAMER_TIGE99",
@@ -7559,17 +7559,6 @@
     "title": "Biome Edition Visual Traveler's Titles",
     "version": "v1.3"
   },
-  "biome_bloom": {
-    "author": "nicxd",
-    "date_modified": "2026-01-03T03:54:49.130488Z",
-    "dependencies": ["3qAYkBMB"],
-    "description": "Transforms sky, fog, and water colors across every biome for a richer, more atmospheric Minecraft experience.",
-    "download_url": "https://cdn.modrinth.com/data/zZQBkAbo/versions/cfuxc2Bo/%C2%A7aBiomeBloom%C2%A78.zip",
-    "filename": "§aBiomeBloom§8.zip",
-    "hash": "097yxiqxi81mb26pc6f44k35a1zdkjk8k0vw4bcq72fhvxlzy36p",
-    "title": "BiomeBloom",
-    "version": "1.3"
-  },
   "biomesoplenty-redwood-re-hue": {
     "author": "TheDarkPanther",
     "date_modified": "2025-12-11T23:54:28.599820Z",
@@ -7957,14 +7946,14 @@
   },
   "block-damage-fusion": {
     "author": "OrkaMC",
-    "date_modified": "2025-11-15T22:45:11.439313Z",
+    "date_modified": "2026-02-08T14:08:40.611162Z",
     "dependencies": [],
     "description": "Block Damage Fusion updates Minecraft’s block-breaking animation with a clean, pixel-perfect damage overlay for a smoother, more immersive experience",
-    "download_url": "https://cdn.modrinth.com/data/BN9x391j/versions/QL6JfKsA/Block%20Damage%20Fusion.zip",
-    "filename": "Block Damage Fusion.zip",
-    "hash": "0b9a4ws1vwkldjl83056ha24bh74dk603mbh85v77zljpm4pc192",
+    "download_url": "https://cdn.modrinth.com/data/BN9x391j/versions/JWQL8kZL/Block%20Damage%20Fusion%202.zip",
+    "filename": "Block Damage Fusion 2.zip",
+    "hash": "05ib6xwi75wki34csj4hxzrz8zr2fb2frm83ggv8wpcj3dq0xapx",
     "title": "Block Damage Fusion",
-    "version": "1"
+    "version": "2"
   },
   "block-of-java": {
     "author": "D_Greg_D",
@@ -9028,17 +9017,6 @@
     "title": "Bray & Cyber's Better, Fresher 3D Books",
     "version": "1.5"
   },
-  "brays-better-3d-bow": {
-    "author": "Braytonks",
-    "date_modified": "2026-01-28T00:19:40.162534Z",
-    "dependencies": [],
-    "description": "Greatly improves the look of bows and crossbows by loading and firing 3D projectiles! Works with \"Real Arrow Tip\" to show spectral and tipped arrow projectiles!",
-    "download_url": "https://cdn.modrinth.com/data/GY1qsy2O/versions/X53GgS0P/%C2%A76Bray%27s%20Bow%20%26%20Arrows%20v1.2.1.zip",
-    "filename": "§6Bray's Bow & Arrows v1.2.1.zip",
-    "hash": "1vlwcs543fldczx5w8xrzhhi6x608l6ns53ic91p6v27bwqrbvpd",
-    "title": "Bray's Better Bow & Arrows",
-    "version": "1.2.1"
-  },
   "brays-better-books": {
     "author": "Braytonks",
     "date_modified": "2026-01-13T09:20:12.319897Z",
@@ -9060,17 +9038,6 @@
     "hash": "018hkfl3s518gp73gr4bnmzvqk1zwsx2nhhnk60ynwipfhc0bqlp",
     "title": "Bray's Better Ores",
     "version": "1.3"
-  },
-  "brays-llamas-with-hats": {
-    "author": "Braytonks",
-    "date_modified": "2025-10-13T17:20:12.886817Z",
-    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
-    "description": "Give llamas even more personality with new and improved designs when you put carpet on their backs!",
-    "download_url": "https://cdn.modrinth.com/data/8Lk42Sfe/versions/4VzpChf4/Brays%20Llamas%20With%20Hats%20v1.0.zip",
-    "filename": "Brays Llamas With Hats v1.0.zip",
-    "hash": "1zi1mx4yg9j9iw8yaj9cr9aq4cl3lnhgc4wzsfkakkaxqkajbhii",
-    "title": "Bray's Llamas With Hats",
-    "version": "1.0"
   },
   "brays-zombie-overhaul": {
     "author": "Braytonks",
@@ -9867,28 +9834,6 @@
     "title": "Bytesized Font",
     "version": "1.0.0"
   },
-  "c418-songs-only": {
-    "author": "redsquare",
-    "date_modified": "2025-12-10T02:04:35.803622Z",
-    "dependencies": [],
-    "description": "A resource pack that removes all non-c418 background songs from the game.",
-    "download_url": "https://cdn.modrinth.com/data/jJAtxomy/versions/Six5duQ0/%C2%A73%C2%A7lC418%20Songs%20Only.zip",
-    "filename": "§3§lC418 Songs Only.zip",
-    "hash": "020zli7yqs39ngjrj05w06769q529i3kwn05c0csv3076c7qkd7c",
-    "title": "C418 Songs Only",
-    "version": "3-post.1"
-  },
-  "c4music": {
-    "author": "MopsTMC",
-    "date_modified": "2026-01-28T19:58:08.363710Z",
-    "dependencies": [],
-    "description": "Complete Minecraft's soundtrack with the nostalgic, lost music by C418!",
-    "download_url": "https://cdn.modrinth.com/data/QSKCFxWX/versions/ElWleZmS/C4Music_v4.3.zip",
-    "filename": "C4Music_v4.3.zip",
-    "hash": "0d22nnahn5i7xb2w41ba3cjki8b376byvvwmq5pj46zayi1yz9ad",
-    "title": "C4Music - C418 Music Pack",
-    "version": "4.3"
-  },
   "ca-enchant-glint": {
     "author": "sacdj",
     "date_modified": "2025-10-30T17:09:39.428506Z",
@@ -10182,24 +10127,6 @@
     "title": "Carrots to Pizza!!",
     "version": "1.11.0"
   },
-  "cartoon-texture-pack": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-19T10:42:01.260316Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "76lEgqhs",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "MK3k9U5o",
-      "nCQRBEiR"
-    ],
-    "description": "Googly eyes! Goofy grins! Turn your world into a toon with this pack.\n\nA port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/I8Wm3eT9/versions/xtlf7EGE/Cartoon%20Texture%20Pack.zip",
-    "filename": "Cartoon Texture Pack.zip",
-    "hash": "1af9gyhiva9pcsrlcvs21vnp68yf9i6brhhqhfpc0aiml051agqz",
-    "title": "Cartoon Texture Pack",
-    "version": "1.0.8"
-  },
   "casa_test": {
     "author": "CASA_ASCII",
     "date_modified": "2026-01-30T16:34:21.124499Z",
@@ -10323,14 +10250,14 @@
   },
   "catoon-spear-sounds": {
     "author": "sudl",
-    "date_modified": "2026-01-30T14:27:44.689666Z",
+    "date_modified": "2026-02-08T01:27:00.770710Z",
     "dependencies": [],
     "description": "Adds cartoony sounds to your spear!",
-    "download_url": "https://cdn.modrinth.com/data/SayITjHS/versions/Tn8eMVgr/Cartoon%20spear%20sounds.zip",
+    "download_url": "https://cdn.modrinth.com/data/SayITjHS/versions/m2vFaYFd/Cartoon%20spear%20sounds.zip",
     "filename": "Cartoon spear sounds.zip",
-    "hash": "0h63rlwqaqa6641qb8d66gs4wwxjgvp2si6ljrf6y9xh6cxifrw2",
+    "hash": "0867al2nsiyj69sz8hbxmi3l2mr4ka1v41gmh8cjx5xialvj3yyb",
     "title": "Catoon spear sounds",
-    "version": "1.0"
+    "version": "1.1_HOTFIX"
   },
   "catzmeowmc": {
     "author": "LIVEROCK",
@@ -10399,15 +10326,15 @@
     "version": "1.21.9"
   },
   "chad-totem": {
-    "author": "-Lubi-",
-    "date_modified": "2026-02-03T20:10:40.952251Z",
+    "author": "LubiTheDev",
+    "date_modified": "2026-02-08T21:11:15.389793Z",
     "dependencies": [],
-    "description": "Can You Feel Me Heart💘\nDownload For Giga Chad 🗿🥀",
-    "download_url": "https://cdn.modrinth.com/data/SvMdDQ9s/versions/mO88Fr4M/Chad-Totem%201.20%2B.zip",
-    "filename": "Chad-Totem 1.20+.zip",
-    "hash": "061zrw1zfqjmcnpnxq389n53axgpgww5f2ab757710l1rsk053xy",
+    "description": "Can You Feel Me Heart💘\nDownload For Giga Chad 🗿🥀\n Pack'i İndirin Lo",
+    "download_url": "https://cdn.modrinth.com/data/SvMdDQ9s/versions/fSon2gdm/Lubi%27s%20Chad%20Totems%20for%201.21.11.zip",
+    "filename": "Lubi's Chad Totems for 1.21.11.zip",
+    "hash": "02r9x9903fpkp5fi58n9qvi5bpxkccng9mhin8ggv7wgnmhbfg5l",
     "title": "Lubi's Chad Totems 🗿🥀",
-    "version": "1.20"
+    "version": "1.21.1"
   },
   "chainsaw-man-weapons-reskin": {
     "author": "Subsetg4ming",
@@ -10463,17 +10390,6 @@
     "hash": "0ivxpv4dnhpk463987bcmc4sjasrd95zlwisbwmjmfb5l77k7ac3",
     "title": "Char1ie's Backrooms",
     "version": "1.6.0"
-  },
-  "chase-the-skies": {
-    "author": "spiderbat",
-    "date_modified": "2026-01-17T23:31:05.470788Z",
-    "dependencies": ["DWuwk8aA"],
-    "description": "Better sky, sunrises and sunsets.",
-    "download_url": "https://cdn.modrinth.com/data/tTxINQD9/versions/TGHhUsrz/Chase%20the%20Skies.zip",
-    "filename": "Chase the Skies.zip",
-    "hash": "0rn2cw56ah73chjp8x82kr93kbl70wibj1cszm70rv8qjds5rchk",
-    "title": "Chase the Skies",
-    "version": "2"
   },
   "chat+": {
     "author": "mr_ch0c0late",
@@ -10540,17 +10456,6 @@
     "hash": "0r3qkq9y5d3gdnaa3n5pf1whc4cdv0km2gqp36spf9qzd4bcmh9p",
     "title": "Chems' Guns",
     "version": "V1.1.2-mod"
-  },
-  "cherry-background": {
-    "author": "Kryqu",
-    "date_modified": "2023-06-12T20:40:53.682992Z",
-    "dependencies": [],
-    "description": "Cherry Menu Background",
-    "download_url": "https://cdn.modrinth.com/data/lpWmvxi5/versions/Rwn5n35C/%C2%A7d%C2%A7lCherry%20Background%C2%A7r%C2%A70.zip",
-    "filename": "§d§lCherry Background§r§0.zip",
-    "hash": "1dnk4z7z702pmr2mzpbyidfral5066sbpg1ma4kinlmlf1zsiy2l",
-    "title": "Cherry Background",
-    "version": "1.14.3+"
   },
   "cherry-blossom-cape": {
     "author": "SenpaiSan_",
@@ -10767,6 +10672,17 @@
     "hash": "12law99cfils5g1qxcqq6vv1zx4k7v3k8gsnkck7zxgjfh950cfs",
     "title": "Chinese Mythology Mash-up",
     "version": "1.0.11"
+  },
+  "chinese-new-years-lanterns": {
+    "author": "JetSetRadiohead",
+    "date_modified": "2026-02-07T14:44:08.908118Z",
+    "dependencies": [],
+    "description": "Gives lanterns a Chinese flair.",
+    "download_url": "https://cdn.modrinth.com/data/h625m5U4/versions/7mNGmqZk/Chinese%20New%20Years%20Lanterns%201.21.11.zip",
+    "filename": "Chinese New Years Lanterns 1.21.11.zip",
+    "hash": "0wvs75d1h6my90zmxk94pqq773c6a6m895dmsfh3mkj2v20dbfqh",
+    "title": "Chinese New Years Lanterns",
+    "version": "1.21.11"
   },
   "chineserefreshed": {
     "author": "chelinchan24",
@@ -11248,17 +11164,6 @@
     "title": "clapbxt smp",
     "version": "1.0.0"
   },
-  "clarent": {
-    "author": "GrandPappyJay",
-    "date_modified": "2026-01-03T13:36:43.617807Z",
-    "dependencies": ["hJAzl1Bs"],
-    "description": "Clarent preserves the Excalibur experience by backporting features, fixing bugs, and maintaining compatibility across Minecraft versions.\n\nAs Excalibur forges ahead, Clarent preserves the past.",
-    "download_url": "https://cdn.modrinth.com/data/asD9taD4/versions/YSuQQv4R/Clarent_12110_1202%2B_v3.zip",
-    "filename": "Clarent_12110_1202+_v3.zip",
-    "hash": "0ikc5pic7c1g8p45l50n627wzj05hzjkl60as28m09cg09l4qzk9",
-    "title": "Excalibur | Clarent Edition",
-    "version": "12110_1202+_v3"
-  },
   "classic-aspect": {
     "author": "HecXD",
     "date_modified": "2025-12-25T18:34:32.556762Z",
@@ -11446,6 +11351,17 @@
     "title": "Classic Menu Panorama",
     "version": "1.1"
   },
+  "classic-ore-borders": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T12:42:13.478316Z",
+    "dependencies": [],
+    "description": "A simple Ore border pack.Makes mining easy.",
+    "download_url": "https://cdn.modrinth.com/data/7rjQPjtk/versions/LK6inuA5/Ore%20Borders%201.21.9-1.21.11.zip",
+    "filename": "Ore Borders 1.21.9-1.21.11.zip",
+    "hash": "0j37mhs60zj6vnws74dfpw572cpk5v7yp0i80ga23bx66h9q3snc",
+    "title": "Ore Borders",
+    "version": "1.21.9-1.21.11"
+  },
   "classic-ores": {
     "author": "5E8A",
     "date_modified": "2025-12-12T21:41:08.130098Z",
@@ -11532,17 +11448,6 @@
     "hash": "1prn935qdmxqhnsjj4czsls7yma3wrwi5g64r2y712hjj6whhf2h",
     "title": "Classic Style Nioum Redstone Torch",
     "version": "1.0.0"
-  },
-  "classic-tools-fusion": {
-    "author": "OrkaMC",
-    "date_modified": "2026-01-01T02:11:13.521816Z",
-    "dependencies": [],
-    "description": "Classic Tools Fusion upgrades the classic Minecraft tool textures with subtle enhancements for a cleaner and more natural look",
-    "download_url": "https://cdn.modrinth.com/data/Nl1e71KM/versions/fUuSjWOH/Classic%20Tools%20Fusion%20v4.zip",
-    "filename": "Classic Tools Fusion v4.zip",
-    "hash": "1gqlalcwl6bv737kh93rlm4vgf827jnqzp9kbvc9cads34vgiscx",
-    "title": "Classic Tools Fusion",
-    "version": "4"
   },
   "classic-tools-fusion-compats": {
     "author": "OrkaMC",
@@ -11940,17 +11845,6 @@
     "title": "Clear Lava",
     "version": "1.0.1"
   },
-  "clear-lava-and-water": {
-    "author": "WhiterM",
-    "date_modified": "2025-06-22T11:43:10.708594Z",
-    "dependencies": [],
-    "description": "This texture pack deletes lava and water overlay (you will see everything in lava and water clearly)",
-    "download_url": "https://cdn.modrinth.com/data/MdzUEeJ6/versions/dxzr0pWK/Clear_water_and_lava_by_WhiterM%201.21.6%20v.1.1.zip",
-    "filename": "Clear_water_and_lava_by_WhiterM 1.21.6 v.1.1.zip",
-    "hash": "1sz38dhgk1smcd8v2dizkv9k1az6s6484njsw9ypaa8j91yiyygc",
-    "title": "Clear Lava and Water",
-    "version": "1.1"
-  },
   "clear-pumpkin-blur": {
     "author": "Egom",
     "date_modified": "2026-02-04T00:52:42.996528Z",
@@ -12292,6 +12186,17 @@
     "title": "Cockroachers",
     "version": "3"
   },
+  "coconite-potion-coffees": {
+    "author": "coconite",
+    "date_modified": "2026-02-07T22:02:55.680108Z",
+    "dependencies": [],
+    "description": "Change your life by removing the boring vanilla potions and change them with Coffee!",
+    "download_url": "https://cdn.modrinth.com/data/hSESqAEt/versions/9WP1lfdQ/Coffees%20V1.0.zip",
+    "filename": "Coffees V1.0.zip",
+    "hash": "1s38p4sqhkp5flzs8h7n1l9fwppvaw1s61ck6jxwzjrs064yilxf",
+    "title": "Potion Coffees",
+    "version": "1.0"
+  },
   "cod-of-undying": {
     "author": "Kunra",
     "date_modified": "2025-09-19T07:06:28.576582Z",
@@ -12338,14 +12243,14 @@
   },
   "coffeee-totem": {
     "author": "MC7DZ",
-    "date_modified": "2025-07-03T23:32:53.116908Z",
+    "date_modified": "2026-02-08T20:58:20.756024Z",
     "dependencies": [],
     "description": "change the totem of undying to cup of coffee",
-    "download_url": "https://cdn.modrinth.com/data/sM4Ubs3V/versions/lFqnZjVW/Cup%20of%20totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/sM4Ubs3V/versions/2R2c9O8h/Cup%20of%20totem.zip",
     "filename": "Cup of totem.zip",
-    "hash": "1r1fkzrrbqbgrx73ffq17ii63dznkhd0lq2smyl5aqphlxn3sw87",
+    "hash": "1w6gkdalqdrn17lgmqprmg2b5v1mvwjdjv1dyym4lsys0vkcs3vs",
     "title": "Coffee Totem",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   "cojikings-dark-theme+": {
     "author": "CojiKing",
@@ -13909,17 +13814,6 @@
     "title": "Crosshair small HUD big",
     "version": "1.1"
   },
-  "crosshair-txf": {
-    "author": "jahirtrap",
-    "date_modified": "2025-09-23T15:54:59.216476Z",
-    "dependencies": [],
-    "description": "New design for minecraft crosshair",
-    "download_url": "https://cdn.modrinth.com/data/UsixlLlt/versions/WxyNYtDv/Crosshair_TXF_1.21.9.zip",
-    "filename": "Crosshair_TXF_1.21.9.zip",
-    "hash": "1w2zrk3fwncckblz3lpygz4ibdbl9fm6945rpps18nrpasa8ky8x",
-    "title": "Crosshair TXF",
-    "version": "1.21.9"
-  },
   "crosshair-v3": {
     "author": "PunyUmbrella",
     "date_modified": "2026-01-28T22:43:48.708907Z",
@@ -14043,25 +13937,14 @@
   },
   "crystal-tooltips": {
     "author": "Alfakynz",
-    "date_modified": "2026-01-27T21:28:17.643667Z",
-    "dependencies": ["atHH8NyV"],
-    "description": "Adds beautiful borders to tooltips using the Legendary Tooltips mod",
-    "download_url": "https://cdn.modrinth.com/data/FVonl8G5/versions/TuI0suaw/Crystal-Tooltips.zip",
-    "filename": "Crystal-Tooltips.zip",
-    "hash": "153144jcpnb9f8pm20av0wkmfmgxrgr2mg6yqcbaiix35dg6r3lv",
-    "title": "Crystal Tooltips",
-    "version": "v2.0.0"
-  },
-  "crystal-vanilla-tweaks": {
-    "author": "CapTommy",
-    "date_modified": "2025-12-21T22:54:30.336584Z",
+    "date_modified": "2026-02-07T23:43:09.311559Z",
     "dependencies": [],
-    "description": "A edit of the Crystal Vanilla by Nestor. For Crystal PvP!",
-    "download_url": "https://cdn.modrinth.com/data/sn2HxtR3/versions/UQUtn6zI/Crystal%20Vanilla%20Tweaks%201.21.11.zip",
-    "filename": "Crystal Vanilla Tweaks 1.21.11.zip",
-    "hash": "190warrwll1id1qjcpgw0h0ss62lkqkc1na04k78ifw6i3jdqz8i",
-    "title": "Crystal Vanilla Tweaks",
-    "version": "1.0"
+    "description": "Adds beautiful borders to tooltips using the Legendary Tooltips mod",
+    "download_url": "https://cdn.modrinth.com/data/FVonl8G5/versions/8aFooaDI/Crystal-Tooltips.zip",
+    "filename": "Crystal-Tooltips.zip",
+    "hash": "01zsdi461rq9172gg2bd7v1v5vlif4mi1cw1ykcrp6yqbqzirzzb",
+    "title": "Crystal Tooltips",
+    "version": "v2.0.1"
   },
   "crystalrebirth": {
     "author": "Crystalized",
@@ -14095,17 +13978,6 @@
     "hash": "18c8w6whbvwavi3sgnk7b7b5870gf7y9q253lbacfw4fq01skvip",
     "title": "ct0m Totem of Undying",
     "version": "1"
-  },
-  "ctm-of-fabric": {
-    "author": "Aeldit",
-    "date_modified": "2025-12-25T19:12:33.987584Z",
-    "dependencies": ["1IjD5062", "r4GILswZ"],
-    "description": "Adds connected textures to Minecraft",
-    "download_url": "https://cdn.modrinth.com/data/uJt1qseH/versions/uBkdlqOy/CTM%20OF-Fabric%200.9.1%2B1.21.10-1.21.11.zip",
-    "filename": "CTM OF-Fabric 0.9.1+1.21.10-1.21.11.zip",
-    "hash": "03r34b4x8xj41gd510cclddykbvpczhz7mjj4k4wqh1xhb0k8kkq",
-    "title": "CTM Optifine - Fabric",
-    "version": "0.9.1+1.21.10-1.21.11"
   },
   "ctm-overhaul-forked": {
     "author": "Charlie214",
@@ -14470,6 +14342,17 @@
     "title": "Custom Totem Pop Template",
     "version": "1.21.11"
   },
+  "customarmormodel-example": {
+    "author": "shardclay",
+    "date_modified": "2025-11-22T05:37:50.031103Z",
+    "dependencies": [],
+    "description": "This resource pack create as an example of how to create custom armor for Minecraft versions 1.21.5+",
+    "download_url": "https://cdn.modrinth.com/data/aKJdgpyM/versions/XI7UoyTc/magmerite_rp.zip",
+    "filename": "magmerite_rp.zip",
+    "hash": "0lwqp5365qr438vd4baj07gczndq6kihc73zg3nx2pmavi039345",
+    "title": "Custom armor model example",
+    "version": "1.0.2"
+  },
   "custome_totem-skin": {
     "author": "ItsAnshuXD",
     "date_modified": "2025-10-29T05:56:33.344104Z",
@@ -14571,14 +14454,14 @@
   },
   "cute-netherite": {
     "author": "Quizenaya",
-    "date_modified": "2026-01-21T19:10:46.221297Z",
+    "date_modified": "2026-02-08T10:34:36.630625Z",
     "dependencies": [],
     "description": "A small resource pack that gives netherite a cute color scheme!",
-    "download_url": "https://cdn.modrinth.com/data/cmJHFMc0/versions/PN00LlVE/%C2%A7dCute%20Netherite.zip",
-    "filename": "§dCute Netherite.zip",
-    "hash": "1dz5fb0kybkrd3569r6c9ppyydmwkvkky5jxkj2x4378j781axrn",
+    "download_url": "https://cdn.modrinth.com/data/cmJHFMc0/versions/VRlVnWve/Cute%20Netherite.zip",
+    "filename": "Cute Netherite.zip",
+    "hash": "1f0s183xnc0dvp79i2ibbwgv3yn9bg04ij94dslj7hmarxk69igm",
     "title": "Cute Netherite",
-    "version": "1.21-1.21.11"
+    "version": "1.0.1"
   },
   "cute-pickaxes": {
     "author": "AbraPikachu",
@@ -15558,17 +15441,6 @@
     "title": "Default Dark Mode: Expansion",
     "version": "2026.2.1"
   },
-  "default-dark-mode-legacy4j": {
-    "author": "aric3435",
-    "date_modified": "2026-01-03T11:43:51.051648Z",
-    "dependencies": ["gHvKJofA"],
-    "description": "A resource pack that gives Legacy4J & Other Legacy4J-related Mods the Default Dark Mode style. 1.1.0+ - requires Legacy4J v1.8.2-v1.8.7",
-    "download_url": "https://cdn.modrinth.com/data/8xdgUCRk/versions/z2hqXmR6/Default-Dark-Mode-Legacy4J-1.20%2B-1.1.2-alt.zip",
-    "filename": "Default-Dark-Mode-Legacy4J-1.20+-1.1.2-alt.zip",
-    "hash": "01q94yiads3kvh3c8n7ibbzv5ycrhna8rcm8bjj9xzzz0lhi5crd",
-    "title": "Default Dark Mode: Legacy4J",
-    "version": "1.1.2-alt"
-  },
   "default-hd-128x": {
     "author": "thebaum64",
     "date_modified": "2025-12-09T21:23:45.119871Z",
@@ -16064,28 +15936,6 @@
     "title": "Dig Straight Down",
     "version": "1"
   },
-  "digs-simple-pack": {
-    "author": "Digs",
-    "date_modified": "2026-01-13T12:15:26.053878Z",
-    "dependencies": [],
-    "description": "A simplistic twist on the default minecraft textures!",
-    "download_url": "https://cdn.modrinth.com/data/eOR9OYkM/versions/c13ffTvJ/DigsSimplePack-1.21.11.zip",
-    "filename": "DigsSimplePack-1.21.11.zip",
-    "hash": "14hsp6rnr45y35sh8bzb24068qjlq7s8l7ym6f18l7vww8b2iai0",
-    "title": "Digs' Simple Pack",
-    "version": "1.21.11"
-  },
-  "dimanic-beds": {
-    "author": "FellowDiman",
-    "date_modified": "2025-09-27T15:09:59.753989Z",
-    "dependencies": [],
-    "description": "Vertical stackable beds with no support mods needed",
-    "download_url": "https://cdn.modrinth.com/data/HtIrK6OV/versions/Po1Q2Pe5/Dimanic%20Beds.zip",
-    "filename": "Dimanic Beds.zip",
-    "hash": "09553fg2qi52zghd7s683i8004260830sspddi3jqsf8m5cl9fml",
-    "title": "Dimanic Beds",
-    "version": "v1_(all)"
-  },
   "dimensional-phantoms": {
     "author": "Redupro",
     "date_modified": "2025-03-05T02:13:40.933999Z",
@@ -16570,6 +16420,17 @@
     "title": "Dot Crosshair+",
     "version": "1.0.1"
   },
+  "dotted-crosshair": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T12:43:34.408792Z",
+    "dependencies": [],
+    "description": "Dotted Crosshair. Better for PvP",
+    "download_url": "https://cdn.modrinth.com/data/T0vooF1F/versions/1qlq4g2B/Dot%20Crosshair%201.21.9-1.21.11.zip",
+    "filename": "Dot Crosshair 1.21.9-1.21.11.zip",
+    "hash": "0dyl1if628kfnhbxf769kdxq5yns9m6g2zhww6fsi401mzskj2p9",
+    "title": "Dot Crosshair",
+    "version": "1.21.9-1.21.11"
+  },
   "dotumche-font": {
     "author": "BinRecycle",
     "date_modified": "2026-01-25T14:34:54.883395Z",
@@ -16679,17 +16540,6 @@
     "hash": "0ljazkp74d3xqrs5jb07b87ls5rvv3fddgkz2c1g5gy235qg44bk",
     "title": "DrAyri Totem (DrDonut)",
     "version": "1.0.4"
-  },
-  "drdonuts": {
-    "author": "CapTommy",
-    "date_modified": "2026-01-02T21:17:35.784836Z",
-    "dependencies": [],
-    "description": "An UNOFFICIAL texturepack for DrDonut",
-    "download_url": "https://cdn.modrinth.com/data/imXaGAqI/versions/YgZUQvYE/DrDonut%20FanPack%201.21.11.zip",
-    "filename": "DrDonut FanPack 1.21.11.zip",
-    "hash": "0ia1wmjpbwsmnv6655zp1ggxsapqjgywxwqmyjnjx0967pk66v35",
-    "title": "DrDonut's Fan Pack",
-    "version": "1.0"
   },
   "dreadztv-totem-of-undying": {
     "author": "mjem4ik",
@@ -16977,17 +16827,6 @@
     "title": "Durability visualizer",
     "version": "1.0.0"
   },
-  "duskfall-ui": {
-    "author": "SirKillian",
-    "date_modified": "2025-12-13T19:10:35.873235Z",
-    "dependencies": [],
-    "description": "A dark GUI theme.",
-    "download_url": "https://cdn.modrinth.com/data/hy8Gvwcq/versions/YEQAor7F/DuskfallUI.zip",
-    "filename": "DuskfallUI.zip",
-    "hash": "0rhmblwj2g4nfkq7ddvms1zngyxlb6cviwkq8bbaw17qz7fg45fa",
-    "title": "Duskfall-UI",
-    "version": "1.1.0"
-  },
   "dylnc-pack": {
     "author": "Dylnc",
     "date_modified": "2026-01-31T22:39:29.195137Z",
@@ -17152,28 +16991,6 @@
     "hash": "15bmwf6irsyfmz9dy01q66fr0mzfwq52jgxamblgws5vgp3cv10m",
     "title": "Eating Animations More Mod Compatibility [FORGE/FABRIC]",
     "version": "1.2.3"
-  },
-  "eating-animation-resource-pack": {
-    "author": "Bluebird",
-    "date_modified": "2024-11-07T06:00:36.041625Z",
-    "dependencies": [],
-    "description": "Adds an eating animation to all consumables items.",
-    "download_url": "https://cdn.modrinth.com/data/xOCLHTN8/versions/j5aFau2n/Eating%20Animation.zip",
-    "filename": "Eating Animation.zip",
-    "hash": "1s42fgda65m99xypla44qpqjmfbpy024k3g6b62z89j4ri0l0xag",
-    "title": "Eating Animation Resource Pack",
-    "version": "1.0.0"
-  },
-  "eating-animation-resourcepack": {
-    "author": "ThatCuteOne",
-    "date_modified": "2025-09-30T16:38:06.607607Z",
-    "dependencies": [],
-    "description": "Adds animation for eating food and drinking potions",
-    "download_url": "https://cdn.modrinth.com/data/o962rBDR/versions/mOXIOI4W/Eating%20Animation%5B1.0.1%5D.zip",
-    "filename": "Eating Animation[1.0.1].zip",
-    "hash": "1izjbi5ln8kjyilxfyra2k9dvv5cdz150ydl1r9mcndpillpkbis",
-    "title": "Eating Animation",
-    "version": "1.0.1"
   },
   "eating-animations-aether-compatibility": {
     "author": "Bareneil",
@@ -17699,17 +17516,6 @@
     "title": "Emissive creaking heart",
     "version": "3"
   },
-  "emissive-glowing-ores": {
-    "author": "TheBugCoder",
-    "date_modified": "2025-12-23T19:36:27.994213Z",
-    "dependencies": [],
-    "description": "Makes ores glow to enhance visibility. (OptiFine/Continuity required)",
-    "download_url": "https://cdn.modrinth.com/data/k79JoCCw/versions/v4WfdhGl/Emissive%20Glowing%20Ores%20%281.21.11%29.zip",
-    "filename": "Emissive Glowing Ores (1.21.11).zip",
-    "hash": "1fa287yss3v465ybg3x7njka74267ljprsa7a7wd8pmq588myy53",
-    "title": "Emissive Glowing Ores",
-    "version": "1.21.11"
-  },
   "emissive-glowing-ores-bare-bones": {
     "author": "TheBugCoder",
     "date_modified": "2025-12-23T19:37:19.258601Z",
@@ -17929,23 +17735,6 @@
     "hash": "0bn7fb192n61sknwjc9z1b0aw5vxr884pqhhy86s8nvylk60zjq1",
     "title": "Enchanting Table Glow",
     "version": "1.2"
-  },
-  "enchanting-table-magic-circle": {
-    "author": "Jacosvaldo",
-    "date_modified": "2026-01-30T21:57:16.591556Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "BVzZfTc1",
-      "PRN43VSY",
-      "TiF5QWZY",
-      "WKwQAwke"
-    ],
-    "description": "Adds a magic circle to the enchanting table that appears when you approach it",
-    "download_url": "https://cdn.modrinth.com/data/gLbwPaHh/versions/1JvJBmlg/Enchanting%20Table%20Magic%20Circle%20v2.4%20%281.21.9%20-%201.21.11%29.zip",
-    "filename": "Enchanting Table Magic Circle v2.4 (1.21.9 - 1.21.11).zip",
-    "hash": "12d31sv9r0qwfm1dkqxz1svlccn5p8z23l2dn5jv7v642hxi40lr",
-    "title": "Enchanting Table Magic Circle",
-    "version": "2.4"
   },
   "enchantment-configs": {
     "author": "hrmm_9",
@@ -18552,17 +18341,6 @@
     "title": "Essentials!",
     "version": "1"
   },
-  "essentialui": {
-    "author": "KartoffelChipss",
-    "date_modified": "2025-12-10T20:36:54.845625Z",
-    "dependencies": [],
-    "description": "A small texturepack, that changes all buttons and the hotbar to fit the style of the Essential mod. With This texturepack your Minecraft will look much cleaner when using the Essential mod",
-    "download_url": "https://cdn.modrinth.com/data/FsSrime2/versions/yLuQvrT0/EssentialUI%201.21.11.zip",
-    "filename": "EssentialUI 1.21.11.zip",
-    "hash": "0wkaifkmw1w1xa7hkna9cr0vbdmd406n1ar8l0hyd2nw8nkg6dqa",
-    "title": "Essential UI",
-    "version": "1.0.0"
-  },
   "etsans-better-hotbar": {
     "author": "etsan",
     "date_modified": "2025-12-10T22:57:13.671822Z",
@@ -18903,17 +18681,6 @@
     "hash": "12n21w766j811y53xg30x7ickfr58p5p6jcw1592ydl4d0gmy91y",
     "title": "ExpPotion",
     "version": "12"
-  },
-  "extended-illumina": {
-    "author": "Ilyastik",
-    "date_modified": "2025-04-29T15:50:21.303190Z",
-    "dependencies": [],
-    "description": "This resource pack adds a 3D lantern and torch to your hand!",
-    "download_url": "https://cdn.modrinth.com/data/qznifDTe/versions/YflJLwWg/%C2%A7eExtended_Illumina_1.21x.zip",
-    "filename": "§eExtended_Illumina_1.21x.zip",
-    "hash": "0ms7izpwl4nn5swqlw4xjn6z301i1y5lydj3yzb20q0wcnscklr8",
-    "title": "Extended illumina (3D lantern and torch)",
-    "version": "2"
   },
   "extra-splashes": {
     "author": "Lihuraenyy",
@@ -19399,6 +19166,17 @@
     "title": "Fancy Plants",
     "version": "1.3"
   },
+  "fancy-pvp+": {
+    "author": "Nemyx",
+    "date_modified": "2026-02-08T13:28:32.576442Z",
+    "dependencies": [],
+    "description": "PvP/Bedwars pack that adds smallers swords, pickaxes, outlined blocks without too modifying Vanilla.",
+    "download_url": "https://cdn.modrinth.com/data/oRQaEFyJ/versions/ppVsTvrj/%C2%A7e%C2%A7ka%20%C2%A7b%20%5B1.21.11%5D%20Fancy%20PVP%2B%21%20%C2%A7e%C2%A7kaa.zip",
+    "filename": "§e§ka §b [1.21.11] Fancy PVP+! §e§kaa.zip",
+    "hash": "19mw840m1wcylf0ys63f61qxnv3zg6x8xashcqqkl0ilsl4p4isy",
+    "title": "Fancy PVP+",
+    "version": "1.21.11"
+  },
   "fancy-square-crosshair": {
     "author": "Aegeus",
     "date_modified": "2025-10-09T16:36:54.838597Z",
@@ -19782,17 +19560,6 @@
     "hash": "0fk6s7qg0a1ps0xpifkd3px6w26bmvsdfdjlfp2ghi1xmsab82vw",
     "title": "Femboy totem of undying",
     "version": "1.0.0"
-  },
-  "ferremcdurabilityoverlay": {
-    "author": "ArshuGamingHy",
-    "date_modified": "2024-12-08T12:34:53.343895Z",
-    "dependencies": [],
-    "description": "This Pack shows the durability of armour.",
-    "download_url": "https://cdn.modrinth.com/data/aIBaYhd2/versions/lw2vmClY/FMDO.zip",
-    "filename": "FMDO.zip",
-    "hash": "0j755acj28yqcfvwmjic86f9zf7vll7fnd1c5wxlwddisayr5b1d",
-    "title": "FerreMcDurabilityOverlay",
-    "version": "0.2"
   },
   "festive-mash-up": {
     "author": "rjxkenshin",
@@ -20386,25 +20153,14 @@
   },
   "flora-formae": {
     "author": "Zecryt",
-    "date_modified": "2026-01-08T16:55:26.353530Z",
-    "dependencies": [],
+    "date_modified": "2026-02-08T15:48:08.857861Z",
+    "dependencies": ["TiF5QWZY"],
     "description": "Flora Formae revamps the look of plants, fungi, and coral by giving them unique and interesting models, while staying true to the vanilla aesthetic we know and love.",
-    "download_url": "https://cdn.modrinth.com/data/e6LtO5UV/versions/5eCzz1C2/Flora%20Formae%201.3.zip",
-    "filename": "Flora Formae 1.3.zip",
-    "hash": "1s7mi67ya7rffqag5gm9a416mis74x6vncqcr9lmknml4n66d6kn",
+    "download_url": "https://cdn.modrinth.com/data/e6LtO5UV/versions/xJoCYfmG/Flora%20Formae%201.4.zip",
+    "filename": "Flora Formae 1.4.zip",
+    "hash": "0ldvxgvhfmns7p3bjsyyfi1m0xhncd5qw6xqhdb9xxm03z567vy2",
     "title": "Flora Formae",
-    "version": "1.3"
-  },
-  "flower-clusters": {
-    "author": "azeolii_",
-    "date_modified": "2025-07-18T21:53:35.025581Z",
-    "dependencies": [],
-    "description": "Flowers cover the ground better, being placed in clusters rather than individually",
-    "download_url": "https://cdn.modrinth.com/data/rKubepOk/versions/cwxY9zGD/Flower%20Clusters%201.1.2.zip",
-    "filename": "Flower Clusters 1.1.2.zip",
-    "hash": "0mpjj65sbaa8v1zzg10hm0mxj9ka8djb0ckz02pwi9qc4sjpl75d",
-    "title": "Flower Clusters",
-    "version": "1.1.2"
+    "version": "1.4"
   },
   "flower-hotbar": {
     "author": "vexezz",
@@ -20716,14 +20472,14 @@
   },
   "forlorn-hollows-hud": {
     "author": "ImNinnn",
-    "date_modified": "2026-01-12T21:04:07.336687Z",
+    "date_modified": "2026-02-08T13:38:24.150578Z",
     "dependencies": [],
     "description": "This texture pack changes your gui to an Alex's Caves Forlorn Hollows inspired version !",
-    "download_url": "https://cdn.modrinth.com/data/uc6L5bQZ/versions/NR8FsRF8/Forlorn%20Hollows%20GUI.zip",
-    "filename": "Forlorn Hollows GUI.zip",
-    "hash": "1arhx6641izpjsjsghy0qbsfs2n65k3151s3gn6r6zc57fhmgi2w",
+    "download_url": "https://cdn.modrinth.com/data/uc6L5bQZ/versions/WL1wRDib/Forlorn%20Hollows%20GUI%20HUD%20menus%20and%20mods%20update.zip",
+    "filename": "Forlorn Hollows GUI HUD menus and mods update.zip",
+    "hash": "1p09xxd0r4di0n6aiqwl9xnj85xh2hqalzl89h1p6aywzlnyhv98",
     "title": "Forlorn Hollows Inspired Gui",
-    "version": "2.0"
+    "version": "3.0"
   },
   "formixyouknow-totem-of-undying": {
     "author": "mjem4ik",
@@ -21055,17 +20811,6 @@
     "title": "Fresh Animations: Objects",
     "version": "2.1.0"
   },
-  "fresh-animations-quivers": {
-    "author": "FreshLX",
-    "date_modified": "2025-12-04T03:40:48.292473Z",
-    "dependencies": ["50dA9Sha"],
-    "description": "Gives skeletons quivers, compatible with Fresh Animations. An official FA extension.",
-    "download_url": "https://cdn.modrinth.com/data/T4pK4GiQ/versions/rMtbRkiD/FA%2BQuivers-v2.1.zip",
-    "filename": "FA+Quivers-v2.1.zip",
-    "hash": "0m6s4sf19wq7h5f3mkpkrj01w6jljbfm47445iyj9jgfpcmg5cxd",
-    "title": "Fresh Animations: Quivers",
-    "version": "2.1.0"
-  },
   "fresh-animations-spiders": {
     "author": "FreshLX",
     "date_modified": "2025-12-04T03:41:39.086858Z",
@@ -21127,6 +20872,23 @@
     "title": "Fresh Apples",
     "version": "1.0"
   },
+  "fresh-buckets": {
+    "author": "cyber",
+    "date_modified": "2026-02-08T20:45:05.677047Z",
+    "dependencies": [
+      "3qAYkBMB",
+      "AP8rDDLS",
+      "qjlkcVfy",
+      "TiF5QWZY",
+      "u58R1TMW"
+    ],
+    "description": "A Minecraft resource pack that adds 3D bucket models!",
+    "download_url": "https://cdn.modrinth.com/data/Sb5mtr2w/versions/vfkfXZVa/Fresh%20Buckets%201.2.zip",
+    "filename": "Fresh Buckets 1.2.zip",
+    "hash": "0863as86v6gbvmxgrpmhqj2v6kls8q53hv8bcqhnmxgv3002hl4z",
+    "title": "Fresh Buckets",
+    "version": "1.2"
+  },
   "fresh-buckets-vr": {
     "author": "halfstorm",
     "date_modified": "2026-01-27T16:51:54.682331Z",
@@ -21181,17 +20943,6 @@
     "hash": "1xc6dj5ps52l7xq792lhrhbcqw4p41ga49dm4majswpzz6bgyn4s",
     "title": "Fresh Flower Pots: 3D",
     "version": "1.0.0"
-  },
-  "fresh-flower-pots-compats": {
-    "author": "Fyoncle",
-    "date_modified": "2026-01-15T14:26:49.603751Z",
-    "dependencies": [],
-    "description": "Add-on for Fresh Flower Pots that adds mod compatibility to flower pots",
-    "download_url": "https://cdn.modrinth.com/data/nIWYcvUG/versions/pf4t5f7L/%C2%A73Fresh%20%C2%A7bFlower%20Pots%20Compats%C2%A7r.zip",
-    "filename": "§3Fresh §bFlower Pots Compats§r.zip",
-    "hash": "1fp47vpvsmkjwk1gisg0z7x3vd9iw6w183d4489nqbvjb8prnjn5",
-    "title": "Fresh Flower Pots: Compats",
-    "version": "5.0"
   },
   "fresh-flower-pots-rotated": {
     "author": "BlueHDGaming",
@@ -21628,17 +21379,6 @@
     "title": "Fullbright by Finnvian",
     "version": "1.3"
   },
-  "fullbright-sp": {
-    "author": "worldresourcepack",
-    "date_modified": "2025-10-12T11:32:49.083288Z",
-    "dependencies": ["3qAYkBMB", "AANobbMI"],
-    "description": "Fullbright SP texture pack (Sodium with PolyTone)",
-    "download_url": "https://cdn.modrinth.com/data/RgVos2bo/versions/jywSpfnU/Fullbright-SP-1.21%20fsp-1.0.zip",
-    "filename": "Fullbright-SP-1.21 fsp-1.0.zip",
-    "hash": "0cysbq0s1vzqp3grwk9ddk7iw632zdbpfll7a3dnjib16h69dbzp",
-    "title": "Fullbright SP",
-    "version": "1.0"
-  },
   "fullbright-txp": {
     "author": "Masstudios",
     "date_modified": "2025-12-19T10:39:09.480660Z",
@@ -22012,17 +21752,6 @@
     "hash": "0sjffx9d7zhh85zcjcpkhvwrkbnkjqymgbia6q45v58627ihp7v7",
     "title": "Gemstone Sound Pack",
     "version": "1.0.3"
-  },
-  "gen-assets": {
-    "author": "GenMode",
-    "date_modified": "2025-09-06T17:29:27.967004Z",
-    "dependencies": [],
-    "description": "Resources for my datapacks",
-    "download_url": "https://cdn.modrinth.com/data/ZRGZa67i/versions/EibGmAm5/gen_assets.zip",
-    "filename": "gen_assets.zip",
-    "hash": "1aljgd1nrvl83rawyszyn1i2izjh1k27gaqblzg0vyh13wwngypm",
-    "title": "Gen Assets",
-    "version": "0.3.8"
   },
   "general-boilers-totem-of-undying": {
     "author": "mjem4ik",
@@ -22519,6 +22248,17 @@
     "title": "Glow Ores - Heycronus",
     "version": "1.0"
   },
+  "glow-squid-friend": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:14:45.661247Z",
+    "dependencies": [],
+    "description": "turns the glow ink sac into a baby squid friend",
+    "download_url": "https://cdn.modrinth.com/data/9QNFnZwd/versions/Yintz2Yb/Glow%20Squid%20Friend.zip",
+    "filename": "Glow Squid Friend.zip",
+    "hash": "187bj2dpdj2ps2drlaq8j2l2hjy7rkvbnsp1pkmbcfrhmlymkzbb",
+    "title": "Glow Squid Friend",
+    "version": "2"
+  },
   "glowing": {
     "author": "7777777_4547",
     "date_modified": "2025-11-06T13:19:36.166673Z",
@@ -22771,17 +22511,6 @@
     "hash": "0zzi2kcqlx6bw2ma2c0i3fyjaqrvbhrhrpbs7pc8cgskvb3924d1",
     "title": "Glowing Trim Ultimate",
     "version": "MG-4.0"
-  },
-  "glowing-trims": {
-    "author": "STM19",
-    "date_modified": "2026-01-28T16:20:05.695438Z",
-    "dependencies": ["2OXong6G", "LbnI28Gx", "SA6T5rtS"],
-    "description": "This I present you Glowing Trim Armors pack.\nThis pack works on renaming the armor\n13[12+1] Colours 18 Trims designs\nOPtifine required\nSeries-[a,c,d,e,g,i,l,n,q,r,ch,rs,gb] and add numbers in last 1-18\nex-r1,d16,g4....etc\nalso shader supported",
-    "download_url": "https://cdn.modrinth.com/data/zSHTYbCW/versions/uqc7rFzo/Glowing%20Trim%20Armors%5BMG-4.5%5D%5B1.21.11%5D.zip",
-    "filename": "Glowing Trim Armors[MG-4.5][1.21.11].zip",
-    "hash": "0khg5hkls8ir8yqphqm9jgdsplfn7i49pzka8nb71vyb2k8wk75y",
-    "title": "Glowing Trim Armors",
-    "version": "MG-4.5"
   },
   "glowing-weapon-tools": {
     "author": "STM19",
@@ -23192,7 +22921,7 @@
   },
   "goofy-sounds": {
     "author": "blue_animation",
-    "date_modified": "2026-01-07T09:18:55.428956Z",
+    "date_modified": "2026-02-08T08:24:09.247374Z",
     "dependencies": [],
     "description": "make minecraft sound more goofy",
     "download_url": "https://cdn.modrinth.com/data/daqWq1yo/versions/L32uE96M/goofy%20sounds.zip",
@@ -23812,17 +23541,6 @@
     "title": "GUI Revision Compats",
     "version": "27.0"
   },
-  "gui-revision-dark": {
-    "author": "Emploice",
-    "date_modified": "2025-10-24T16:19:44.056868Z",
-    "dependencies": [],
-    "description": "Revamps the vanilla GUI with a darker and cleaner look!",
-    "download_url": "https://cdn.modrinth.com/data/1qGelVxp/versions/lMUtPINv/%5B1.21.6%20-%201.21.10%5D%20GUI%20Revision%20Dark.zip",
-    "filename": "[1.21.6 - 1.21.10] GUI Revision Dark.zip",
-    "hash": "1m47564k2jnvpzpyv7pn0fdjx3qnpmc5gkhasnkx7cnqalmjligi",
-    "title": "GUI Revision Dark",
-    "version": "6.3.0"
-  },
   "gui-revision-plus": {
     "author": "CrimsonFlames",
     "date_modified": "2026-01-07T18:11:09.113824Z",
@@ -24236,17 +23954,6 @@
     "hash": "1gv4b9m19aimgy8023410dl1jcb7sglivn6yxjqkaad6dlvqzyix",
     "title": "X7’s Totem Cups Original",
     "version": "1.5"
-  },
-  "hardcore-hearts": {
-    "author": "piuvas",
-    "date_modified": "2025-12-09T21:57:59.833546Z",
-    "dependencies": [],
-    "description": "Add anxiety™️ to every world :)\n\nMakes regular worlds have Hardcore Hearts.\n\nAvailable to every version.",
-    "download_url": "https://cdn.modrinth.com/data/5AMcQaG0/versions/1Goz5CyI/Hardcore%20Hearts%20-%20v25.zip",
-    "filename": "Hardcore Hearts - v25.zip",
-    "hash": "176yg2g90xj11j4p05wk0jlqwm4m1v1khfnffm676nk0833anhsr",
-    "title": "Hardcore Hearts",
-    "version": "25"
   },
   "hardened-diamond-texture-pack": {
     "author": "MemeThief",
@@ -25029,27 +24736,16 @@
     "title": "Hitori Gotou Totem (Bocchi the rock)",
     "version": "1.0"
   },
-  "hmi-gouss-hand-poses": {
-    "author": "Gous",
-    "date_modified": "2025-12-26T18:02:11.262768Z",
-    "dependencies": ["AP8rDDLS", "TiF5QWZY"],
-    "description": "Added some hand poses for the Hold My Items mod.",
-    "download_url": "https://cdn.modrinth.com/data/hlBznIDN/versions/R5EOVRln/%5BHMI%5D%20Gous%27s%20Hand%20Poses.zip",
-    "filename": "[HMI] Gous's Hand Poses.zip",
-    "hash": "0bzz7zqp77r719d3sqbpn9k6h1dl5jkjsvrmin4qavis4i92xv0h",
-    "title": "[HMI] Gous's Hand Poses",
-    "version": "1.2.0"
-  },
   "hmi-item-position-fix": {
     "author": "omnis",
-    "date_modified": "2026-02-07T04:38:19.042361Z",
+    "date_modified": "2026-02-08T04:51:50.466628Z",
     "dependencies": [],
     "description": "Fixes misaligned first-person items for the Hold My Items mod",
-    "download_url": "https://cdn.modrinth.com/data/KiHT3JX8/versions/866wU2Dn/HMI%20Item%20Position%20Fix%200.2.zip",
-    "filename": "HMI Item Position Fix 0.2.zip",
-    "hash": "1d0i0mhj704b2mf0h4h8ji5ls4p96cgka6yx9raik4gvgqdixnx6",
+    "download_url": "https://cdn.modrinth.com/data/KiHT3JX8/versions/8Iks03c2/HMI%20Item%20Position%20Fix%200.2.1.zip",
+    "filename": "HMI Item Position Fix 0.2.1.zip",
+    "hash": "11fizv1n3672ycv256xpk1zl2pg1a82ihvxi0l796d27znijjlv1",
     "title": "HMI Item Position Fix",
-    "version": "0.2"
+    "version": "0.2.1"
   },
   "hmi-item-positioner": {
     "author": "maingvaldsen",
@@ -25369,17 +25065,6 @@
     "hash": "195s22kanqpwlsqls2wl77raavbjgbm4sgffvlnw7qymnmvan16c",
     "title": "Horse Armor & Stuff",
     "version": "1.3"
-  },
-  "horse-armor-stuff-x-fresh-animations": {
-    "author": "tanfen",
-    "date_modified": "2026-01-04T09:32:08.636484Z",
-    "dependencies": [],
-    "description": "A pack that makes Horse Armor & Stuff compatible with Fresh Animations by Fresh_LX!",
-    "download_url": "https://cdn.modrinth.com/data/ZtzFTQ38/versions/VlHAKc74/%C2%A7eHorse%20Armor%20%26%20Stuff_FA_1.21.11.zip",
-    "filename": "§eHorse Armor & Stuff_FA_1.21.11.zip",
-    "hash": "18sk02kz48b09fnix29sviw35gp85mwgwgnlxydsr311mds4s1kz",
-    "title": "Horse Armor & Stuff x Fresh Animations",
-    "version": "1.2"
   },
   "horse-heads": {
     "author": "Darkleonard",
@@ -25808,6 +25493,17 @@
     "filename": "iHateCubes.zip",
     "hash": "1dv7za451za3f05pry726a8sica2wv3864yhdr7qvrhcvv3x0bq6",
     "title": "I Hate Cubes",
+    "version": "1.0"
+  },
+  "i-wish-it-were-christmas-everyday": {
+    "author": "Subhiware",
+    "date_modified": "2025-09-27T23:53:05.034314Z",
+    "dependencies": [],
+    "description": "Changes the normal chest texture into the Christmas one",
+    "download_url": "https://cdn.modrinth.com/data/jc5b0w7L/versions/zEbVs5jQ/I%20wish%20it%20were%20Christmas%20everyday.zip",
+    "filename": "I wish it were Christmas everyday.zip",
+    "hash": "1rb54lxfs9zv5dhn0akghpz482pxd9cmx08l6q8phsqlc93l9mf0",
+    "title": "I wish it were Christmas everyday",
     "version": "1.0"
   },
   "i37cs-suited-mobs-x-fa": {
@@ -26313,14 +26009,14 @@
   },
   "infusepack-legacy": {
     "author": "TurboJax",
-    "date_modified": "2026-02-07T07:18:25.120444Z",
-    "dependencies": ["x1wqx4cm"],
-    "description": "Texture pack for the older versions of CatAdmirer's Infuse SMP plugin",
-    "download_url": "https://cdn.modrinth.com/data/IwvWf9iq/versions/q7hhAQU6/InfusePack-Legacy.zip",
+    "date_modified": "2026-02-08T21:56:40.821828Z",
+    "dependencies": [],
+    "description": "The texture pack for older versions of CatAdmirer's Infuse SMP plugin",
+    "download_url": "https://cdn.modrinth.com/data/IwvWf9iq/versions/UJfX6vtY/InfusePack-Legacy.zip",
     "filename": "InfusePack-Legacy.zip",
-    "hash": "00g44as4z80gcbbgapggzn9r8mrrywxzki3m7f65aa8irqfvclfj",
+    "hash": "1hvrxgb98jsghwqhi8lzmg7k5y26lxf0cjiab029irlnan7h5g23",
     "title": "InfuseSMP Legacy Texture Pack",
-    "version": "v1.1"
+    "version": "v1.2"
   },
   "ingotui": {
     "author": "Zeit709",
@@ -26475,17 +26171,6 @@
     "hash": "1flkmdr5yavg6nmn40c80cfyi34z8xcnsmrmlnfrvf6pkrzp2qsk",
     "title": "Invisible Armor",
     "version": "1.2.2"
-  },
-  "invisible-armor-model": {
-    "author": "fixyldev",
-    "date_modified": "2025-12-09T16:20:02.485433Z",
-    "dependencies": [],
-    "description": "Invisible Armor Model is a resource pack for Minecraft Java Edition that removes the visual model of armor.",
-    "download_url": "https://cdn.modrinth.com/data/yd1iJerO/versions/4ZpAmgOA/Invisible%20Armor%20Model%20-%2075.0.zip",
-    "filename": "Invisible Armor Model - 75.0.zip",
-    "hash": "09v95971rad6916fs9hsjh5waiz5lifxad2rs0mrb8lr454ypa0g",
-    "title": "Invisible Armor Model",
-    "version": "75.0"
   },
   "invisible-bars": {
     "author": "Miraculixx",
@@ -26709,14 +26394,14 @@
   },
   "is-it-a-totem-oh-its-a-book!-oh-no-its-die!": {
     "author": "MrBobTheBuilder",
-    "date_modified": "2026-02-07T03:48:36.331920Z",
+    "date_modified": "2026-02-08T22:08:08.750892Z",
     "dependencies": [],
     "description": "This changes ur totem into a book that says DiE!",
-    "download_url": "https://cdn.modrinth.com/data/m1Fumue5/versions/FZ5mi3z3/is%20it%20a%20totem%20is%20a%20book%20no%20its%20die%21.zip",
-    "filename": "is it a totem is a book no its die!.zip",
-    "hash": "08kah33y4lbrpjvyrns7v2jzsmlnm9f6f9vc9fhdmii0j7w1fd93",
+    "download_url": "https://cdn.modrinth.com/data/m1Fumue5/versions/MmXKVLYP/Is_it_a_totem_or_nah.zip",
+    "filename": "Is_it_a_totem_or_nah.zip",
+    "hash": "1sgc6i0x83hjniwk389j11znipyr4pdhl4s8ga1cygg5v5id6j69",
     "title": "Is it a Totem? Oh its a book! oh no its die!",
-    "version": "0.1"
+    "version": "1"
   },
   "ishowspeed-moon": {
     "author": "Blueagurian-Raxture",
@@ -27039,14 +26724,14 @@
   },
   "jays-marker-textures-256-x-256": {
     "author": "ArthropodJay",
-    "date_modified": "2026-02-06T10:26:24.512259Z",
+    "date_modified": "2026-02-08T12:05:54.293572Z",
     "dependencies": [],
     "description": "Gritty, Sketch-like drawn irl with markers on composition grid paper. \nVanilla-Inspired with some creative liberties.\nInspired by edgecaselab. \n\nVersion 1.0 - Wooden Tools: Axe, Hoe, Pickaxe, Shovel, Sword\n\nComing Soon: Stick, Wooden Spear, Stone Tools",
-    "download_url": "https://cdn.modrinth.com/data/G3tMxBDu/versions/qcN92mJV/Jay%27s%20Marker%20Textures.zip",
+    "download_url": "https://cdn.modrinth.com/data/G3tMxBDu/versions/zeS5utw1/Jay%27s%20Marker%20Textures.zip",
     "filename": "Jay's Marker Textures.zip",
-    "hash": "0ywqqsz9c5aalv8zxqc6w9nhz8swrl1firpr94m70cc6ylncykq1",
+    "hash": "128y8rxx59vmkv864xvzxxk6lj5c9kr1msxlsk4xfx6xk202zxq7",
     "title": "Jay's Marker Textures 256 x 256",
-    "version": "1.0"
+    "version": "1.2"
   },
   "jdk-trans-tnt": {
     "author": "jdk",
@@ -28095,14 +27780,14 @@
   },
   "kenuis-default": {
     "author": "KenuiZ",
-    "date_modified": "2026-02-03T22:35:44.781995Z",
-    "dependencies": ["BVzZfTc1", "otVJckYQ"],
+    "date_modified": "2026-02-08T17:58:02.240715Z",
+    "dependencies": [],
     "description": "An enhanced look from default Minecraft!",
-    "download_url": "https://cdn.modrinth.com/data/Wx065BLG/versions/zDwjGP0a/Kenui%27s%20Default%20%5B1.20%2B%5D%20v1.6.zip",
-    "filename": "Kenui's Default [1.20+] v1.6.zip",
-    "hash": "029hsdh6jihmkkvl8gqg1yy47igdhnndgwkrjzj24ly3x6d42m0l",
+    "download_url": "https://cdn.modrinth.com/data/Wx065BLG/versions/l6Jlpzm7/Kenui%27s%20Default%20%5B1.20%2B%5D%20v1.7.zip",
+    "filename": "Kenui's Default [1.20+] v1.7.zip",
+    "hash": "0wmiwx9apabfvycxjjlhxblqxmdcmb60929hwdqryixcqypapcsh",
     "title": "Kenui's Default",
-    "version": "1.6"
+    "version": "1.7"
   },
   "kessuko-band-paintings-(bocchi-the-rock)": {
     "author": "Blueagurian-Raxture",
@@ -28181,17 +27866,6 @@
     "title": "King Cake - Roscon de Reyes Totem (Epiphany Celebration)",
     "version": "1"
   },
-  "kingd3faults": {
-    "author": "CapTommy",
-    "date_modified": "2026-01-02T21:10:35.541108Z",
-    "dependencies": [],
-    "description": "A pack for KingD3fault (NOT OFFICIAL)",
-    "download_url": "https://cdn.modrinth.com/data/Fo79jqAa/versions/3Rfx3Eo0/KingD3fault%27s%201.21.11.zip",
-    "filename": "KingD3fault's 1.21.11.zip",
-    "hash": "1jpgh43a1dyrwn2yiaxfh82r0j910xxnsysibb50d5d3afrkr69s",
-    "title": "KingD3fault's [Fan Made]",
-    "version": "1.0"
-  },
   "kiru-x-bunji": {
     "author": "FIRESTAR09_10",
     "date_modified": "2026-01-29T19:58:49.223641Z",
@@ -28224,6 +27898,17 @@
     "hash": "1fjm3jq1fw18xnzhx7s99yi2a9bqf956hymxzrvrc0bjs272wk16",
     "title": "Kitty Totem of Undying",
     "version": "1.0.0"
+  },
+  "kkit-p-i": {
+    "author": "Kakoyt_Kit",
+    "date_modified": "2026-02-08T03:04:06.474260Z",
+    "dependencies": [],
+    "description": "Unique icons for every painting",
+    "download_url": "https://cdn.modrinth.com/data/fayETlPm/versions/1TZQl1rd/KKIT%20Painting%20icons%20v.1.2.zip",
+    "filename": "KKIT Painting icons v.1.2.zip",
+    "hash": "1kbpd4q8nacs598935mabpqn4y1xa1czk1xplv3rfm15sxchm33f",
+    "title": "KKIT Painting icons",
+    "version": "v.1.2"
   },
   "klpvp": {
     "author": "TheHale",
@@ -28788,7 +28473,7 @@
   },
   "leafmcresourcepack": {
     "author": "LeafPixel",
-    "date_modified": "2026-01-10T10:58:58.800379Z",
+    "date_modified": "2026-02-08T15:36:43.888894Z",
     "dependencies": [],
     "description": "Immersive Ambient & Music Pack: Bring realistic nature sounds and epic background music to Minecraft",
     "download_url": "https://cdn.modrinth.com/data/s5Avr3fj/versions/anUECxqh/AmbientMusicRPG.zip",
@@ -29151,14 +28836,14 @@
   },
   "letter-to-morse-code-translation": {
     "author": "GuSchu_Gaming",
-    "date_modified": "2026-02-07T22:52:40.576248Z",
+    "date_modified": "2026-02-08T11:49:04.182728Z",
     "dependencies": [],
     "description": "This resource pack replaces the Latin letters with Morse code.",
-    "download_url": "https://cdn.modrinth.com/data/edEZQW0g/versions/NbMHLXdT/Morse0.0.6alpha.zip",
-    "filename": "Morse0.0.6alpha.zip",
-    "hash": "05lyca5n1z6w39gm7vp91a9m0800jy0ffasf5xas9m61yriv2jlr",
+    "download_url": "https://cdn.modrinth.com/data/edEZQW0g/versions/W7R3bMpc/Morsecode0.0.8fixaalpha.zip",
+    "filename": "Morsecode0.0.8fixaalpha.zip",
+    "hash": "070gjjd39cx6qrjq1hbnfwkyzmilb85pz4ac3q0dl7ac5j7rkbmr",
     "title": "Letter to Morse code translation",
-    "version": "0.0.6-Alpha"
+    "version": "0.0.8-Alpha"
   },
   "leva2k-totem-of-undying": {
     "author": "mjem4ik",
@@ -29258,17 +28943,6 @@
     "hash": "0vy4zg6ir152v1n8klmyqib5zbaiz7zd7yprw326wvplg6d66xq3",
     "title": "Light Leak",
     "version": "1.4.0"
-  },
-  "light-levels": {
-    "author": "Luracasmus",
-    "date_modified": "2025-12-16T14:34:46.020877Z",
-    "dependencies": ["3qAYkBMB"],
-    "description": "Visualize significant light levels",
-    "download_url": "https://cdn.modrinth.com/data/r76N9R6X/versions/LSAaVjX6/Light%20Levels%20v2.0.1%2B42.75.zip",
-    "filename": "Light Levels v2.0.1+42.75.zip",
-    "hash": "1sri2hx95f8nvw70jdy1gs0brhcqx4rc3i2r1vfln7warqlvkjy7",
-    "title": "Light Levels",
-    "version": "2.0.1+42.75"
   },
   "light-screen": {
     "author": "TheSalts",
@@ -29511,50 +29185,6 @@
     "hash": "195f32fh6q124xq5sksrqax8s5v1dvcl1wsfzp6zc28qdp691qz2",
     "title": "Load Breaking",
     "version": "1.1.4"
-  },
-  "loading-backgrounds-loading-images": {
-    "author": "Lupin",
-    "date_modified": "2025-11-16T12:17:45.660554Z",
-    "dependencies": [],
-    "description": "We have created a default resourcepack, with some images of the game, but it is also easily customizable just by changing the images.",
-    "download_url": "https://cdn.modrinth.com/data/quMLCyp9/versions/UVBbKArR/loadingbackgrounds_default_images-1.21.X-4.0.0.zip",
-    "filename": "loadingbackgrounds_default_images-1.21.X-4.0.0.zip",
-    "hash": "0ml5nnbah0nbmy6r95a0swrc55xdxpa9h9frsjnq20wyk18481i4",
-    "title": "Loading Backgrounds - Default Images",
-    "version": "4.0.0"
-  },
-  "loading-backgrounds-oceans": {
-    "author": "Lupin",
-    "date_modified": "2025-11-16T12:26:29.015527Z",
-    "dependencies": [],
-    "description": "If you like oceans, this complementary resource pack to the Loading Backgrounds mod is ideal for you, since it changes the loading background of the games and replaces it with beautiful ocean images.",
-    "download_url": "https://cdn.modrinth.com/data/NzaimZYw/versions/JL2yytfu/loadingbackgrounds_oceans-1.21.X-3.0.0.zip",
-    "filename": "loadingbackgrounds_oceans-1.21.X-3.0.0.zip",
-    "hash": "0xdfpxjd3has4mg0zsfla5cindp5synlr93kcbabj902bk7gd32l",
-    "title": "Loading Backgrounds - Oceans",
-    "version": "3.0.0"
-  },
-  "loading-backgrounds-prehistoric-world": {
-    "author": "Lupin",
-    "date_modified": "2025-11-16T12:29:19.175279Z",
-    "dependencies": [],
-    "description": "New prehistoric backgrounds with dinosaurs for the Prehistoric World modpack!",
-    "download_url": "https://cdn.modrinth.com/data/di7v5cTT/versions/Znd5WRgX/loadingbackgrounds_prehistoric_world-1.21.X-2.0.0.zip",
-    "filename": "loadingbackgrounds_prehistoric_world-1.21.X-2.0.0.zip",
-    "hash": "0r0w9fby3z79kw0b6lzqmq037yzvqbang3zhdhmgmpxca6nb5g9k",
-    "title": "Loading Backgrounds - Prehistoric World",
-    "version": "2.0.0"
-  },
-  "loading-backgrounds-structures": {
-    "author": "Lupin",
-    "date_modified": "2025-11-16T12:23:35.832108Z",
-    "dependencies": [],
-    "description": "This resourcepack is a perfect complement to the Loading Backgrounds mod, since it takes care of adding loading images related to the structures.",
-    "download_url": "https://cdn.modrinth.com/data/DERCGCA3/versions/vwpzfcZv/loadingbackgrounds_structures-1.21.X-3.0.0.zip",
-    "filename": "loadingbackgrounds_structures-1.21.X-3.0.0.zip",
-    "hash": "007fma4i3cph0g5ihgv417sqfqs35lfp1xgr4x04zcy5i6k5vgn1",
-    "title": "Loading Backgrounds - Structures",
-    "version": "3.0.0"
   },
   "lockes-spears": {
     "author": "ashtoncarneiro5",
@@ -29908,17 +29538,6 @@
     "title": "Low Fire",
     "version": "1.1.1"
   },
-  "low-fire-txf": {
-    "author": "jahirtrap",
-    "date_modified": "2025-09-23T15:54:29.748685Z",
-    "dependencies": [],
-    "description": "Less intrusive fire",
-    "download_url": "https://cdn.modrinth.com/data/wKu40yBb/versions/lzzAF6cR/Low_fire_1.21.9.zip",
-    "filename": "Low_fire_1.21.9.zip",
-    "hash": "0z79lppfw3xbqlks5k3an654v8xsvdiz0vnrj5d3crnsaasm5pcv",
-    "title": "Low Fire TXF",
-    "version": "1.21.9"
-  },
   "low-gray-fire": {
     "author": "Greenus",
     "date_modified": "2025-12-11T06:38:19.190917Z",
@@ -29973,17 +29592,6 @@
     "hash": "05b6kxf0ailykpp6xykgbnbj3gkchibaf7qkwps2j9gldyrps429",
     "title": "Low Shield",
     "version": "3.0.0"
-  },
-  "low-shield-pvp": {
-    "author": "MasterofDeath",
-    "date_modified": "2024-02-24T13:55:40.134598Z",
-    "dependencies": [],
-    "description": "This texture pack makes your shield lower so that you can PvP better.",
-    "download_url": "https://cdn.modrinth.com/data/ymGTGCFA/versions/pMIDpdQx/Low%20Shield%20PvP.zip",
-    "filename": "Low Shield PvP.zip",
-    "hash": "06jkh5lfwrvqr07jh6ff9731xhzrf9mv24aqiqjbah6fvqc7xrz8",
-    "title": "Low Shield PvP",
-    "version": "1"
   },
   "lower-case": {
     "author": "l_y_k_e",
@@ -31085,17 +30693,6 @@
     "title": "Mario XP sound",
     "version": "1.0"
   },
-  "marlow-fault": {
-    "author": "CapTommy",
-    "date_modified": "2026-01-02T20:54:02.942908Z",
-    "dependencies": [],
-    "description": "A fan made texturepack for Marlow!",
-    "download_url": "https://cdn.modrinth.com/data/D1AyuVcW/versions/YLCI5iJR/MarlowFault%201.21.11.zip",
-    "filename": "MarlowFault 1.21.11.zip",
-    "hash": "1qiwyrplwj5k04kpa71m5422x3qd428igmvfqfpnyzhpgsyi5fj1",
-    "title": "Marlow Fan Pack",
-    "version": "1.0"
-  },
   "marlow-font": {
     "author": "CrimsonFlames",
     "date_modified": "2026-01-01T18:31:59.231238Z",
@@ -31283,17 +30880,6 @@
     "title": "MAXGYRO (ULTIMATE) PVP",
     "version": "3.5"
   },
-  "mb3d-items-pack": {
-    "author": "mbanders",
-    "date_modified": "2025-12-09T16:21:01.281125Z",
-    "dependencies": [],
-    "description": "Remodels every item in the game to use 3D models that still fit within the art style of Minecraft.",
-    "download_url": "https://cdn.modrinth.com/data/jZM0fp9Q/versions/MjwwygC2/MB-3D%20Items%20Pack%202.1.0.zip",
-    "filename": "MB-3D Items Pack 2.1.0.zip",
-    "hash": "0xdjlq31d2gf7b954cfkqiw2mafpxn4v3kh9srr8j1mbvcb8m990",
-    "title": "MB-3D Items Pack",
-    "version": "2.1.0"
-  },
   "mc-the-glowing-ores": {
     "author": "Levonze",
     "date_modified": "2025-03-08T05:56:36.002246Z",
@@ -31428,14 +31014,14 @@
   },
   "mcsm-items-vanilla": {
     "author": "Triggerlest",
-    "date_modified": "2026-01-23T00:36:26.641803Z",
+    "date_modified": "2026-02-08T02:08:16.572027Z",
     "dependencies": [],
     "description": "In the original game, you will be able to obtain items from MCSM by renaming items at the anvil.",
-    "download_url": "https://cdn.modrinth.com/data/1NUHmAiv/versions/T1Ime1WL/MCSM%20ITEMS%20%5BVanilla%5D%20v1.0.zip",
-    "filename": "MCSM ITEMS [Vanilla] v1.0.zip",
-    "hash": "0dbi3siqx5ipqp9dfjlvd9n1ai8fb76q4sriyagzhawsbgajsgif",
+    "download_url": "https://cdn.modrinth.com/data/1NUHmAiv/versions/iFhkHNZ4/MCSM%20Items%20%5Bvanilla%5D%201.1.zip",
+    "filename": "MCSM Items [vanilla] 1.1.zip",
+    "hash": "1b3wcsaggrpmqj9m2v2z5mzr4rczdwz1qjz6hf911w1kmrx3qp86",
     "title": "MCSM Items [vanilla]",
-    "version": "1.0"
+    "version": "1.1"
   },
   "mcyari": {
     "author": "Dorkindie",
@@ -32055,14 +31641,14 @@
   },
   "mine-life-2": {
     "author": "Gordon_Freeman",
-    "date_modified": "2026-01-12T21:40:43.289001Z",
+    "date_modified": "2026-02-07T23:54:59.012767Z",
     "dependencies": [],
     "description": "This is a resource pack that aims to bring sounds from half life 2 into Minecraft. I tried to make the pack in a way that wouldn't be annoying to anyone using it.",
-    "download_url": "https://cdn.modrinth.com/data/ucpf4CaS/versions/kOVpEG9P/Mine%20Life%202%20v1.7%20%281.21.4-1.21.11%29.zip",
-    "filename": "Mine Life 2 v1.7 (1.21.4-1.21.11).zip",
-    "hash": "19ki00vg6pvpak5ff6wrrzl5b1cws152al0ddwzg33kqqz0zfjld",
+    "download_url": "https://cdn.modrinth.com/data/ucpf4CaS/versions/lYAyJcst/Mine%20Life%202%20v1.8%20%281.21.4-1.21.11%29.zip",
+    "filename": "Mine Life 2 v1.8 (1.21.4-1.21.11).zip",
+    "hash": "0alp8s9bk78lsfbh4di4jr0vfr3sr0p4w69rzpxz6pmdddd2fcky",
     "title": "Mine Life 2",
-    "version": "1.7"
+    "version": "1.8"
   },
   "minecarts-with-wheels": {
     "author": "ewanhowell5195",
@@ -32669,24 +32255,6 @@
     "title": "Mixtree Music Discs",
     "version": "V1.1"
   },
-  "mizuno-better-leaves": {
-    "author": "ShorkBee",
-    "date_modified": "2025-12-10T02:41:40.523564Z",
-    "dependencies": [
-      "AtHRJSUW",
-      "HXF82T3G",
-      "jG8Q2YwT",
-      "kXygSBVI",
-      "lsUDPMOT",
-      "YhmgMVyu"
-    ],
-    "description": "Better Leaves for Mizuno Craft without any mods.",
-    "download_url": "https://cdn.modrinth.com/data/aLVbJPY1/versions/KHsiM44l/Mizuno%20Better%20Leaves.zip",
-    "filename": "Mizuno Better Leaves.zip",
-    "hash": "0xr9ypkwj4j7gjl65bnbqi329mbvzfg9515pykskwx3dbm0pby2p",
-    "title": "Mizuno Better Leaves",
-    "version": "1.4"
-  },
   "mizuno-connected-texture": {
     "author": "ShorkBee",
     "date_modified": "2025-12-10T02:32:45.475063Z",
@@ -33254,17 +32822,6 @@
     "title": "Modern Glass Hotbar",
     "version": "1.1"
   },
-  "modern-guns": {
-    "author": "Gamingbarn",
-    "date_modified": "2026-02-02T00:38:26.681488Z",
-    "dependencies": ["Ti7LgRXJ"],
-    "description": "A datapack that adds 23+ real-life firearms, each with unique stats. Features three distinct tiers and six separate weapon types.",
-    "download_url": "https://cdn.modrinth.com/data/ufgOyMFr/versions/mxroKxBk/modern-guns-V1.8-data.jar",
-    "filename": "modern-guns-V1.8-data.jar",
-    "hash": "0di4zwp152m7a69yxq1yfsll8wldm2jlz4arlqflxgb360apamih",
-    "title": "Modern Guns",
-    "version": "V1.8-mod"
-  },
   "modern-legacy-resources": {
     "author": "BusinessBear99",
     "date_modified": "2026-01-28T01:05:22.923034Z",
@@ -33403,17 +32960,6 @@
     "hash": "1324kr9nyvzr1c3df3f9rhhhwchcl3cvg0ahmi0mxhagbi269n3n",
     "title": "Modrinth Loading Colors",
     "version": "1.1.0"
-  },
-  "modstranslationpack": {
-    "author": "xMikux",
-    "date_modified": "2025-12-21T09:33:24.824963Z",
-    "dependencies": [],
-    "description": "繁體中文翻譯資源包，適用於高版本（1.18 - 1.21）模組。\n\nA Chinese(traditional) locale pack for translating modded gameplay.",
-    "download_url": "https://cdn.modrinth.com/data/cF5VXmkW/versions/dTLujCZR/ModsTranslationPack-1.21.x.zip",
-    "filename": "ModsTranslationPack-1.21.x.zip",
-    "hash": "1a5cc9lh43v7jy70syv2c798pckmi6797xmr9l4l2r246bgr0xbc",
-    "title": "ModsTranslationPack",
-    "version": "git-d6e1bf7"
   },
   "moe-chinses": {
     "author": "CrystalNeko",
@@ -34148,17 +33694,6 @@
     "title": "Murzofix Totem of Undying",
     "version": "1"
   },
-  "music-and-melody": {
-    "author": "Rebel459",
-    "date_modified": "2026-02-03T06:55:17.076979Z",
-    "dependencies": [],
-    "description": "Completely overhauls and reimagines the vanilla Minecraft soundtrack with a plethora of new, fitting and atmospheric music tracks that blend perfectly with vanilla. Formerly known as Legacies Music",
-    "download_url": "https://cdn.modrinth.com/data/dAU9uKaA/versions/CcAgrQZG/music-and-meloy-1.21.11-v2.1.0.zip",
-    "filename": "music-and-meloy-1.21.11-v2.1.0.zip",
-    "hash": "117d4fqsnz1v3xpc9vavqpijqnf3fr6m0w3r5hyzj6xa9qnskl32",
-    "title": "Music and Melody",
-    "version": "1.21.11-v2.1.0"
-  },
   "music-discs-remastered": {
     "author": "ALDgamer",
     "date_modified": "2025-12-10T04:46:57.536253Z",
@@ -34227,14 +33762,14 @@
   },
   "my_vanilla_pack": {
     "author": "pawel0926",
-    "date_modified": "2026-02-07T19:28:00.040180Z",
+    "date_modified": "2026-02-08T15:29:06.319389Z",
     "dependencies": [],
     "description": "|| My take on vanilla textures! ||",
-    "download_url": "https://cdn.modrinth.com/data/f8wQ6zci/versions/mSMxW3iZ/My%20Vanilla.zip",
+    "download_url": "https://cdn.modrinth.com/data/f8wQ6zci/versions/21jCarFQ/My%20Vanilla.zip",
     "filename": "My Vanilla.zip",
-    "hash": "1bns6pd1508c8941ms709r1krmz6k75a38syrqhjc68ilm21wjxq",
+    "hash": "0jbw3br5cimwsc5sikw5rjdhskkzm1idam2rgrpfc9hraz84sav4",
     "title": "My Vanilla",
-    "version": "0.5"
+    "version": "0.5.1"
   },
   "mygelonian-flavoured": {
     "author": "Damonj17",
@@ -35244,16 +34779,16 @@
     "title": "No Block Break Particles",
     "version": "1.3"
   },
-  "no-cave-ambience": {
-    "author": "Trcmoe",
-    "date_modified": "2025-10-01T19:32:39.373339Z",
+  "no-clouds": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T12:37:20.915919Z",
     "dependencies": [],
-    "description": "Get rid of creepy cave ambience sounds (eerie noise)",
-    "download_url": "https://cdn.modrinth.com/data/5HbyqtEc/versions/HNZqMEih/NoCaveAmbience.zip",
-    "filename": "NoCaveAmbience.zip",
-    "hash": "0hzhn6hiyhkp802saigr48bbk1h5rc1bnfyzy678rbwaz87dn1sq",
-    "title": "No Cave Ambience",
-    "version": "2.0.1"
+    "description": "No more clouds clear view - Little Higher Fps",
+    "download_url": "https://cdn.modrinth.com/data/DYGPwmL2/versions/fNjnQJoe/No%20Clouds%201.21.9-1.21.11.zip",
+    "filename": "No Clouds 1.21.9-1.21.11.zip",
+    "hash": "0mgx8ff2padv9f62kzq3fah8vc3vd2dpn8p5wkmkrbcdjlzak76w",
+    "title": "No Clouds",
+    "version": "1.21.11"
   },
   "no-creative-in-survival-(language-pack)": {
     "author": "Ben_en09",
@@ -35387,17 +34922,6 @@
     "title": "No environmental fog / volumetric fog",
     "version": "1.1+1.21.9-1.21.11"
   },
-  "no-explosion-particles": {
-    "author": "MasterofDeath",
-    "date_modified": "2024-02-21T16:37:57.071161Z",
-    "dependencies": [],
-    "description": "This texture pack removes particles created by explosions. Immediately makes you better at crystal PvP.",
-    "download_url": "https://cdn.modrinth.com/data/VYrNveoF/versions/QXgFTvtm/No%20Explosion%20Particles.zip",
-    "filename": "No Explosion Particles.zip",
-    "hash": "17ap1z9y2rqmfgnw7zg4jcz0nxq88cgsn2dgagv8xvfhvf5yk7pg",
-    "title": "No Explosion Particles",
-    "version": "1"
-  },
   "no-explosion-sounds": {
     "author": "MasterofDeath",
     "date_modified": "2024-02-21T18:54:38.553806Z",
@@ -35529,6 +35053,28 @@
     "hash": "12b1i1c4ym5cdaadkn47yxab3dppd582lxx1rddrwsmg1wg92f0w",
     "title": "No HUD",
     "version": "v1.0.2"
+  },
+  "no-java-edition-subtitle": {
+    "author": "andrebalazs",
+    "date_modified": "2025-05-16T18:26:26.044334Z",
+    "dependencies": [],
+    "description": "Removes the \"java edition\" label from the main menu!",
+    "download_url": "https://cdn.modrinth.com/data/ibLFohg0/versions/NcirnrgS/noJavaEdition_1.1.0.zip",
+    "filename": "noJavaEdition_1.1.0.zip",
+    "hash": "1s4xsx9fkr0pkzmy4lchc63m9kf6w05b8dnzrb7ami3acmgdy1hz",
+    "title": "No java edition subtitle",
+    "version": "1.1.0"
+  },
+  "no-java-edition-text": {
+    "author": "Subhiware",
+    "date_modified": "2025-07-30T03:20:04.559580Z",
+    "dependencies": [],
+    "description": "Java is the original version and should be treated as such",
+    "download_url": "https://cdn.modrinth.com/data/HzNxrOvV/versions/4LWQBTGq/No%20Java%20edition%20text.zip",
+    "filename": "No Java edition text.zip",
+    "hash": "14jsfv0gk47p4kchvps6xh0l5ikx9z5bqcaf8bwrjzmlq6qg7xpy",
+    "title": "No Java edition text",
+    "version": "1.0"
   },
   "no-kill-effects": {
     "author": "Zerw",
@@ -35673,6 +35219,28 @@
     "title": "No More Snow",
     "version": "NoMoreSnow-UniversalRelease"
   },
+  "no-more-splash-text": {
+    "author": "Subhiware",
+    "date_modified": "2025-10-29T02:11:34.516533Z",
+    "dependencies": [],
+    "description": "Removes the bouncy splash text",
+    "download_url": "https://cdn.modrinth.com/data/hgijTZ8C/versions/y4A5N9K0/No%20Splash%20Text.zip",
+    "filename": "No Splash Text.zip",
+    "hash": "0cg74zcqjhf45ivx1rgqarp3j3dx5lw0sawp3apijy45wkcbfd64",
+    "title": "No More Splash Text",
+    "version": "1.0"
+  },
+  "no-more-vignette": {
+    "author": "Subhiware",
+    "date_modified": "2025-09-24T10:46:13.518625Z",
+    "dependencies": [],
+    "description": "Removes the pesky vignette from your screen",
+    "download_url": "https://cdn.modrinth.com/data/xQGnHRT7/versions/y84GGJ7e/No%20Vignette.zip",
+    "filename": "No Vignette.zip",
+    "hash": "0smbgksad7g21vmc4hv5m0mmpp5mj1r57dls4fz7slsc0b5q06gw",
+    "title": "No More Vignette",
+    "version": "1.0"
+  },
   "no-outline": {
     "author": "BizCub",
     "date_modified": "2025-12-10T07:41:56.277163Z",
@@ -35772,6 +35340,17 @@
     "title": "No Pumpkin Blur",
     "version": "1.21.11"
   },
+  "no-pumpkin-blur-overlay": {
+    "author": "Subhiware",
+    "date_modified": "2025-08-24T06:01:03.308417Z",
+    "dependencies": [],
+    "description": "A resource pack that removes the pumpkin overlay",
+    "download_url": "https://cdn.modrinth.com/data/MFCcBk2P/versions/xGpjUJRA/No%20pumpkin%20blur.zip",
+    "filename": "No pumpkin blur.zip",
+    "hash": "0f57k70ks22m1p13y3vzw5hgsvn8hb781hnlx7jgppr4z6jwvqs6",
+    "title": "No pumpkin blur overlay",
+    "version": "1.0"
+  },
   "no-pumpkin-head": {
     "author": "Not_Treet69",
     "date_modified": "2026-01-02T08:14:50.106268Z",
@@ -35815,6 +35394,17 @@
     "hash": "1wpragmp88g5qgfyqfhmmmhd1zqf0zzc29cciszlvgsllvaf0w95",
     "title": "No Rain & Particles",
     "version": "1.0.1"
+  },
+  "no-realms-indicator": {
+    "author": "Subhiware",
+    "date_modified": "2025-08-23T09:31:24.362018Z",
+    "dependencies": [],
+    "description": "Removes the annoying realms icon thing",
+    "download_url": "https://cdn.modrinth.com/data/68AKjChr/versions/w4wZkCEb/no%20realms%20indicator.zip",
+    "filename": "no realms indicator.zip",
+    "hash": "0gw2insca5s7dx2gg9q017fzw7h7mzvyzyxqqsg7alkczvfd0915",
+    "title": "No Realms Indicator",
+    "version": "1.0"
   },
   "no-rows": {
     "author": "SandandGlass0419",
@@ -36211,24 +35801,6 @@
     "hash": "1k71lmiqyqf5b0hx2sz1ziw3g3ia23xl0rx823lcnkfx8jiyr059",
     "title": "Normal Sized swords",
     "version": "1.0"
-  },
-  "norse-mythology-mash-up": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-19T11:30:31.680817Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "76lEgqhs",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "MK3k9U5o",
-      "nCQRBEiR"
-    ],
-    "description": "Are you heroic enough to enter the Great Hall, Valhalla? Find out in the Norse Mythology Mash-up!\n\nA port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/1COPjvze/versions/kMvJXHr3/Norse%20Mythology%20Mash-up.zip",
-    "filename": "Norse Mythology Mash-up.zip",
-    "hash": "0l0a9mcz9zp3jp2fp69jcdis11ihd39q5y8f7gp2ks14ry572s5r",
-    "title": "Norse Mythology Mash-up",
-    "version": "1.0.3"
   },
   "north-korean-music-disc-pack": {
     "author": "JohnCornflakes",
@@ -37671,17 +37243,6 @@
     "title": "Ore Grids Faithful",
     "version": "4"
   },
-  "ore-highlighter": {
-    "author": "SirKillian",
-    "date_modified": "2025-12-15T14:46:12.141017Z",
-    "dependencies": [],
-    "description": "Minecraft Ore outline / Ore Highlighter",
-    "download_url": "https://cdn.modrinth.com/data/VyRiDYFi/versions/NAMr70jH/OreHighlighter-1.21.11.zip",
-    "filename": "OreHighlighter-1.21.11.zip",
-    "hash": "1cvxf42wgadr9l1whszbykjnmg68bbb55cxbm0wc0g3hmadvvldr",
-    "title": "Ore Highlighter",
-    "version": "1.21.11"
-  },
   "ore-outlines": {
     "author": "r0k3tkutt3r",
     "date_modified": "2025-12-28T18:28:22.661582Z",
@@ -37692,28 +37253,6 @@
     "hash": "0y4ai70czi47dxy2glvik8bfkr8ah8vpc5klm7av5shlbx3f804r",
     "title": "Outlined Ores",
     "version": "1.5.1"
-  },
-  "ore.": {
-    "author": "Scroutop",
-    "date_modified": "2026-01-26T18:31:37.400070Z",
-    "dependencies": [],
-    "description": "A resource pack that makes spotting ores in dark caves much easier.",
-    "download_url": "https://cdn.modrinth.com/data/eSO6Pti8/versions/Hz8Z1LKL/Visible%20Ore%20v1.4.zip",
-    "filename": "Visible Ore v1.4.zip",
-    "hash": "0w2aj2jm488amjnif2xcjwrr8g56913fwa99ii4sa1hvic04cxl0",
-    "title": "Ore Visible",
-    "version": "v1.4"
-  },
-  "ore4j": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-15T01:21:06.192942Z",
-    "dependencies": [],
-    "description": "Bringing the style of Minecraft: Bedrock Edition's Ore UI into Legacy4J",
-    "download_url": "https://cdn.modrinth.com/data/pEZP92gi/versions/p8Cvw1EM/ore4j.zip",
-    "filename": "ore4j.zip",
-    "hash": "1d6kxqg5pl4s3j933q5bjabz7whmfyi27695bq7pffi8lhv2jn45",
-    "title": "Ore4J",
-    "version": "3.1"
   },
   "ores-cave-mining-full-setup": {
     "author": "Enigmusse",
@@ -37761,7 +37300,7 @@
   },
   "ores-highlighted": {
     "author": "edeipici",
-    "date_modified": "2026-02-05T01:24:05.786206Z",
+    "date_modified": "2026-02-08T05:24:36.821002Z",
     "dependencies": [],
     "description": "No OptiFine / Iris Required: Shader-like Look! 无需任何模组：平替光影！",
     "download_url": "https://cdn.modrinth.com/data/JkKyR7RX/versions/kjs0dTA7/Ores%20Highlighted%2026.1%20v2.0.zip",
@@ -38869,24 +38408,6 @@
     "title": "Patrix 32x",
     "version": "85"
   },
-  "pattern-texture-pack": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-19T11:30:21.709845Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "76lEgqhs",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "MK3k9U5o",
-      "nCQRBEiR"
-    ],
-    "description": "Decorate your world with this bright and colorful texture pack filled with beautiful patterns and knitted animals!\n\nA port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/2F04lb0o/versions/5Qcvi06B/Pattern%20Texture%20Pack.zip",
-    "filename": "Pattern Texture Pack.zip",
-    "hash": "09rf8wlcda9f64q1wk5w02c3dzd7linigh5znp94dicqkx81dyaq",
-    "title": "Pattern Texture Pack",
-    "version": "1.0.7"
-  },
   "pc-gamer-cow": {
     "author": "TechPerson389",
     "date_modified": "2025-07-02T13:37:44.405674Z",
@@ -39227,6 +38748,17 @@
     "hash": "02vfxxcbkarm0nr0x0r4893xy4h0xsbmk5201q8w504qimf6w0s6",
     "title": "pig's udder",
     "version": "1.0"
+  },
+  "pigstep-serto-mix": {
+    "author": "andrebalazs",
+    "date_modified": "2025-05-17T10:18:43.404620Z",
+    "dependencies": [],
+    "description": "Replaces Pigstep mono mix with stereo mix.",
+    "download_url": "https://cdn.modrinth.com/data/IFf8kQNP/versions/4TZA3Z3X/Pigstep_serto_mix.zip",
+    "filename": "Pigstep_serto_mix.zip",
+    "hash": "08zqy4xz7adw6wp1q681ars4m7rnwf2lzf6kvmawlp1yhhnwznqb",
+    "title": "Pigstep stereo mix",
+    "version": "1.0.0"
   },
   "ping-wheel-portal-2-sound": {
     "author": "Furglitch",
@@ -39613,6 +39145,28 @@
     "title": "Plain & Precious",
     "version": "1.2.3"
   },
+  "plana": {
+    "author": "cheez",
+    "date_modified": "2026-02-08T18:50:12.054252Z",
+    "dependencies": [],
+    "description": "A flat, boxy 8x8 simple pack that focuses on a grid-like aesthetic and visual clarity.",
+    "download_url": "https://cdn.modrinth.com/data/DKv0DoTQ/versions/LXUFGWmu/Plana%20Pollachius%20v1.8.0.zip",
+    "filename": "Plana Pollachius v1.8.0.zip",
+    "hash": "1ng6p3w7kg0qpb06bhafm8can7cg08dmmgq7hii6a5dwr4b3240k",
+    "title": "Plana Pollachius",
+    "version": "1.8.0"
+  },
+  "planis-village-panorama": {
+    "author": "Subhiware",
+    "date_modified": "2025-09-30T05:36:01.436634Z",
+    "dependencies": [],
+    "description": "This pack replaces the old panorama with this new one",
+    "download_url": "https://cdn.modrinth.com/data/jR5cL2Jw/versions/GcKkOP14/plains%20village%20panorama.zip",
+    "filename": "plains village panorama.zip",
+    "hash": "0k3s278nb8b3hqarqq9hr1f2krcz48rzvyk45bh572pg0y5mzna3",
+    "title": "Planis Village Panorama",
+    "version": "1.0"
+  },
   "plank-variety": {
     "author": "Umingus",
     "date_modified": "2025-12-14T16:25:07.139716Z",
@@ -39949,17 +39503,6 @@
     "hash": "1qnx3h4baakw3ik6b5ipqhx8879xzhr88h668i6bx8h9jf9fcans",
     "title": "Pot - Optimized",
     "version": "1.0.0"
-  },
-  "potato-graphics": {
-    "author": "zippiik",
-    "date_modified": "2026-02-03T18:06:18.192312Z",
-    "dependencies": [],
-    "description": "Give your game a hilarious low-end makeover! This pack turns every block into a single pixel, dramatically simplifying textures and boosting performance. Perfect for weak PCs or players who just want that ultimate potato graphics experience.",
-    "download_url": "https://cdn.modrinth.com/data/QUvmr7uI/versions/jy72kwaV/Potato%20v6.zip",
-    "filename": "Potato v6.zip",
-    "hash": "11wc2h3dhcbgj1s9vmw1di90mr4flwc34p4swfd9w6j4igcdwdcc",
-    "title": "Potato Graphics",
-    "version": "6"
   },
   "potato-pickaxes": {
     "author": "Pixelboy1774",
@@ -41046,6 +40589,17 @@
     "title": "Purple loading screen - ArcT1k0",
     "version": "1.0"
   },
+  "purple-netherite-by-kantu": {
+    "author": "kolokantu",
+    "date_modified": "2026-02-08T07:27:42.043586Z",
+    "dependencies": [],
+    "description": "purple netherite and shortes sword",
+    "download_url": "https://cdn.modrinth.com/data/tsgg1sX5/versions/X920iqxu/purple%20netherite%20by%20kantu.zip",
+    "filename": "purple netherite by kantu.zip",
+    "hash": "1pqmd3s0sqh9pfdjyf5zs5bsmiz2k59j9p4fx98yaq1cmdy2jb81",
+    "title": "purple netherite by kantu",
+    "version": "1.3"
+  },
   "purple-netherite-gh": {
     "author": "garnishhat",
     "date_modified": "2026-01-13T22:38:32.015631Z",
@@ -41376,17 +40930,6 @@
     "title": "Smooth PVP",
     "version": "0.4.2"
   },
-  "pvp-smp-deluxe": {
-    "author": "Cowsmirror",
-    "date_modified": "2025-10-13T00:22:03.417630Z",
-    "dependencies": [],
-    "description": "PVP Focused Texturepack | Low Fire | Low Shield | Vanilla Like.",
-    "download_url": "https://cdn.modrinth.com/data/8Ze79jCE/versions/GmeTZooZ/PVP%20SMP%20Deluxe%20V2.3.zip",
-    "filename": "PVP SMP Deluxe V2.3.zip",
-    "hash": "1jhj1y9h4vrzlq1p8dpw1xih8kjdwk072rnv3s3fr5kkalj415c5",
-    "title": "PVP SMP Deluxe",
-    "version": "V2.3"
-  },
   "pvp-sora": {
     "author": "KasaiSora",
     "date_modified": "2025-12-13T13:18:39.060077Z",
@@ -41541,6 +41084,17 @@
     "title": "PyroFishing texturepack",
     "version": "0.5a"
   },
+  "qorztys-custom-cowfishes": {
+    "author": "qorzty",
+    "date_modified": "2026-02-08T00:43:59.317410Z",
+    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
+    "description": "do you HATE pufferfish? this won't solve your poison issue, but it'll solve the appearance issue!",
+    "download_url": "https://cdn.modrinth.com/data/vbUE84bA/versions/29uJswc7/qorzty%27s%20custom%20cowfishes.zip",
+    "filename": "qorzty's custom cowfishes.zip",
+    "hash": "0v2maxd2n7j77wai21j31r2gv6klpbi0lqq497ic061v3i7b3i35",
+    "title": "qorzty's custom cowfishes",
+    "version": "1.21.11"
+  },
   "qraftys-capitalized-font": {
     "author": "qrafty",
     "date_modified": "2025-12-06T17:27:05.623271Z",
@@ -41573,17 +41127,6 @@
     "hash": "0pn52pd5dkw8y7bgkca7rqlq7rwhr5djjkj384zijw3d9vhmb92a",
     "title": "Quackafy",
     "version": "1"
-  },
-  "quadral": {
-    "author": "igxnaf",
-    "date_modified": "2025-12-10T23:36:05.088250Z",
-    "dependencies": [],
-    "description": "A bright, crisp design with vibrant colours. When you need a refreshing change from vanilla, this will give you a whole new perspective!",
-    "download_url": "https://cdn.modrinth.com/data/Ldeyci7L/versions/mOBaDzcU/1.21.11-Quadral%20v.6.5.3.zip",
-    "filename": "1.21.11-Quadral v.6.5.3.zip",
-    "hash": "1zw8gdyvhcdzjrr3zvp5alpfnqzc98da7vs109jv74anzl140crx",
-    "title": "Quadral",
-    "version": "6.5.3"
   },
   "quaint_atmosphere": {
     "author": "Yegor_Mechanic",
@@ -41983,14 +41526,14 @@
   },
   "ralsei_totem": {
     "author": "GladiatorGaming",
-    "date_modified": "2026-01-31T19:16:10.982797Z",
+    "date_modified": "2026-02-07T23:52:24.916216Z",
     "dependencies": [],
     "description": "Replaces the totem with ralsei",
-    "download_url": "https://cdn.modrinth.com/data/vaWOPzdU/versions/K2JcTbol/Ralsei%20Totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/vaWOPzdU/versions/KYheW4Cn/Ralsei%20Totem.zip",
     "filename": "Ralsei Totem.zip",
-    "hash": "1yjajzcy966knd80b3zyii61n5wzy55rdpv10104whgg6dqa50bh",
+    "hash": "0yrad74i800cmi2kn6v9hc4ngrf7gv7y26hcrd6n7a5bds14jj4r",
     "title": "Ralsei Totem",
-    "version": "1.0.0-release-1"
+    "version": "1.0.1-Release"
   },
   "ram-sticks-plus": {
     "author": "eperks6",
@@ -42272,14 +41815,14 @@
   },
   "re-shaded": {
     "author": "DR7",
-    "date_modified": "2025-12-31T09:42:35.072355Z",
-    "dependencies": ["G8yJPRdl"],
+    "date_modified": "2026-02-08T04:51:23.821510Z",
+    "dependencies": [],
     "description": "Shaders with no mods or FPS loss. Compatibility with 1.21.11-1.20.5 Vanilla, Sodium, and other mods!",
-    "download_url": "https://cdn.modrinth.com/data/Gdq9dXUk/versions/lioqxz11/ReShaded%20%5Bv.1.4%5D%201.21.11.zip",
+    "download_url": "https://cdn.modrinth.com/data/Gdq9dXUk/versions/e5mOBDGW/ReShaded%20%5Bv.1.4%5D%201.21.11.zip",
     "filename": "ReShaded [v.1.4] 1.21.11.zip",
-    "hash": "1dll6y21c9q6rdm5s4af4f1h0zz23mv1bz5kjqnx8sl5z6kllbwz",
+    "hash": "0vikmikbdsrglmd7w5k5ihypmdv4hxqix2w8gkz7zcpx83xsf230",
     "title": "ReShaded",
-    "version": "1.4"
+    "version": "1.4.1"
   },
   "reactive-music-off": {
     "author": "D_Greg_D",
@@ -42510,17 +42053,6 @@
     "filename": "Recolourful Containers 3.1 (1.19.4+).zip",
     "hash": "02gn1128nd32q9rkra46nvv2s3233ab3d3fr9alsr4rahk3vsq3v",
     "title": "Recolourful Containers GUI + HUD",
-    "version": "3.1"
-  },
-  "recolourful-containers-gui-hud-dark": {
-    "author": "Vi_Tul",
-    "date_modified": "2026-02-06T21:17:09.902444Z",
-    "dependencies": [],
-    "description": "Do you want more immersive and more colourful GUIs and HUD? Than this pack is for you! NOW IN DARK",
-    "download_url": "https://cdn.modrinth.com/data/sQCUH0Mr/versions/85ROEWma/Recolourful%20Containers%20DARK%203.1%20%281.19.4%2B%29.zip",
-    "filename": "Recolourful Containers DARK 3.1 (1.19.4+).zip",
-    "hash": "0ma1nknlx7iky6lsm1k7301ipv9kq13irvk1y5pc47qf6l5yjrxi",
-    "title": "Recolourful Containers GUI + HUD (DARK)",
     "version": "3.1"
   },
   "recrent-totem-of-undying": {
@@ -43113,17 +42645,6 @@
     "title": "Seri's Remastered Hostile Mobs",
     "version": "001"
   },
-  "remodeled-doors": {
-    "author": "Ecorn",
-    "date_modified": "2025-11-12T23:14:38.303141Z",
-    "dependencies": [],
-    "description": "Makes all the doors and trapdoors have 3D models. Changes the model and the item within the GUI.",
-    "download_url": "https://cdn.modrinth.com/data/emO4C1kf/versions/kqGLraXB/%C2%A7aRemodeled-Doors%C2%A78_%C2%A762.1.zip",
-    "filename": "§aRemodeled-Doors§8_§62.1.zip",
-    "hash": "0rr35r06vmg7pd69hajx3a93f98vx3qnn75la5hrl8icm01sr0n5",
-    "title": "Remodeled Doors 3D",
-    "version": "2.1"
-  },
   "remodeled-dragon-egg": {
     "author": "DiegoxDios",
     "date_modified": "2026-01-12T21:48:39.525893Z",
@@ -43377,17 +42898,6 @@
     "title": "ReSplash! - Splash text restored & curated",
     "version": "1.21"
   },
-  "resprited_infernalizard": {
-    "author": "Infernalizard",
-    "date_modified": "2026-01-12T22:39:40.103225Z",
-    "dependencies": [],
-    "description": "A Resource Pack which aims to make the look and feel of Minecraft appear more appealing to the eyes.",
-    "download_url": "https://cdn.modrinth.com/data/Q9KwAZ06/versions/Li1uQR4A/Resprited.zip",
-    "filename": "Resprited.zip",
-    "hash": "1bi58zlild6p7xba6ip6hs16lxx8690gjlkd9hvy4fziq45kbirr",
-    "title": "Resprited",
-    "version": "v0.18"
-  },
   "restore-the-classics": {
     "author": "cat67315",
     "date_modified": "2025-10-14T15:13:31.561527Z",
@@ -43475,17 +42985,6 @@
     "hash": "1x4c8c8xh54higsyy2ism4758mp4m93k4vs88n2sxkpjmkpfkyyp",
     "title": "Rethoughted Spawn Eggs",
     "version": "1.2"
-  },
-  "rethoughted-trident": {
-    "author": "CatFromNet",
-    "date_modified": "2025-12-13T17:07:38.652644Z",
-    "dependencies": ["TiF5QWZY"],
-    "description": "Trident visual enhancement.",
-    "download_url": "https://cdn.modrinth.com/data/QPNoRyDv/versions/Jpz3Vpnj/Rethoughted%20Trident.zip",
-    "filename": "Rethoughted Trident.zip",
-    "hash": "1ykym64fp04772nyv54n0icf35hb9asdlqb40chx8lqjldz00rx3",
-    "title": "Rethoughted Trident",
-    "version": "1.2.1"
   },
   "retro-patches": {
     "author": "papercut",
@@ -43618,6 +43117,17 @@
     "hash": "0dbc0sp7b9vl7z9rvqglmjpylchpfr3nq6b0s7rwdv3xap6nsfkn",
     "title": "Reze Plush as the Totem Of Undying (Chainsaw man)",
     "version": "1.21.11"
+  },
+  "rgb-beacon": {
+    "author": "aurumshade",
+    "date_modified": "2026-02-08T18:07:39.749302Z",
+    "dependencies": [],
+    "description": "Colorful Beacon!",
+    "download_url": "https://cdn.modrinth.com/data/rcpGZowl/versions/f7NFc2ZX/RGB-Beacon-OB-1.0.zip",
+    "filename": "RGB-Beacon-OB-1.0.zip",
+    "hash": "0dgn0d45wm6x06as9sa93my2p8nc11236jql7nrvcghdyqq59ymi",
+    "title": "RGB Beacon",
+    "version": "1.0"
   },
   "rgb-block-outline": {
     "author": "KargoDiaz",
@@ -43827,17 +43337,6 @@
     "hash": "073pmanjic3d04p62m5frj6jxicmap0wqkcl5xlf2q9myffiln1d",
     "title": "Rockie Tastic",
     "version": "B1.0.0"
-  },
-  "roguecraft-resource-pack": {
-    "author": "MonoCode",
-    "date_modified": "2025-12-20T19:37:43.430735Z",
-    "dependencies": [],
-    "description": "The official resource pack for Roguecraft",
-    "download_url": "https://cdn.modrinth.com/data/cTrc3jId/versions/gNcfacJT/Roguecraft%201.3.9%20-%20Resource%20Pack.zip",
-    "filename": "Roguecraft 1.3.9 - Resource Pack.zip",
-    "hash": "0ws8c4qgspqgd6kiwnsz1b9l6j597nq5msyisid7rxb63idfr7ys",
-    "title": "Roguecraft Resource Pack",
-    "version": "1.3.9"
   },
   "roman-numerals-for-enchant-icons": {
     "author": "MrFastZombie",
@@ -44653,17 +44152,6 @@
     "title": "NAH I'D WIN (SATORU GOJO TOTEM)",
     "version": "0.0.2"
   },
-  "saturated-grass!": {
-    "author": "NelA470",
-    "date_modified": "2025-10-06T13:02:59.244074Z",
-    "dependencies": [],
-    "description": "This resource pack changes the Grass foliage by giving it a better color tint so your game doesn't feel washed out!",
-    "download_url": "https://cdn.modrinth.com/data/lqnzBmRw/versions/1dNpszbY/SaturatedGrass%21%281.2v%29.zip",
-    "filename": "SaturatedGrass!(1.2v).zip",
-    "hash": "0cidjz3dib7wnc9x35lgkyy85m8f0rzma94xdacxrgfg0n4p8p6r",
-    "title": "Saturated Grass!",
-    "version": "1.2"
-  },
   "saturated-mc": {
     "author": "Str4wberry",
     "date_modified": "2025-12-22T17:40:46.749633Z",
@@ -44674,6 +44162,17 @@
     "hash": "0n1i9x6w66rxwarqrgvjrbl0l0xcnbi6mqn6378k6nmvccdfcgk2",
     "title": "Saturated MC",
     "version": "1.0"
+  },
+  "saturated-saddles-+-fresh-animations": {
+    "author": "SageAxolotl",
+    "date_modified": "2026-02-07T23:41:02.192105Z",
+    "dependencies": ["50dA9Sha", "K4H4xuvg"],
+    "description": "Adds compatibility between Saturated Saddles and Fresh Animations",
+    "download_url": "https://cdn.modrinth.com/data/cEwlfi7u/versions/ffefgFGv/SaturatedSaddles%2BFreshAnimations_2026.1a_RP.zip",
+    "filename": "SaturatedSaddles+FreshAnimations_2026.1a_RP.zip",
+    "hash": "0vy1im7mjg7chz382l5acz1f6lqc4b4xg6djb12kpz7j3hvqskks",
+    "title": "Saturated Saddles + Fresh Animations",
+    "version": "2026.1a"
   },
   "saturation++": {
     "author": "funnyboy-roks",
@@ -45778,14 +45277,14 @@
   },
   "shortarmors": {
     "author": "XOXMuK",
-    "date_modified": "2026-01-22T23:38:21.876723Z",
+    "date_modified": "2026-02-08T18:55:14.864798Z",
     "dependencies": ["4I1XuqiY", "BVzZfTc1"],
     "description": "[EN] In this resource pack, the armor is modified to make the player skins more noticeable. SP [RU] В данном ресурс-паке изменяется броня делая скины игроков более заметными. СП",
-    "download_url": "https://cdn.modrinth.com/data/rNLupPGg/versions/qWQTNKuE/ShortArmors_v2.5_x16.zip",
-    "filename": "ShortArmors_v2.5_x16.zip",
-    "hash": "1v0x8av55ifjpx9dbixzrr8ly9hn23m2kl708sl5kgnc2j30rj61",
+    "download_url": "https://cdn.modrinth.com/data/rNLupPGg/versions/FdEdiDb0/ShortArmors_v2.6_x32.zip",
+    "filename": "ShortArmors_v2.6_x32.zip",
+    "hash": "1kfh5sqfyvp8pa9s5jlynfdgb24k8675cif5g51w0d522k3li1ls",
     "title": "Short Armors",
-    "version": "latest_x16"
+    "version": "latest_x32"
   },
   "shorter-elytra": {
     "author": "Avrok",
@@ -45797,6 +45296,17 @@
     "hash": "1caaw745rr94pfpdhx9frf8cr3b77vq4rrzs5qmsq23qlqdgkic3",
     "title": "Shorter Elytra",
     "version": "1.3"
+  },
+  "shorter-pvp-swords": {
+    "author": "SILENT",
+    "date_modified": "2026-02-08T11:06:57.194854Z",
+    "dependencies": [],
+    "description": "Shorter Swords better for PvP!.",
+    "download_url": "https://cdn.modrinth.com/data/i24jR7xV/versions/DMaeJUy0/PvP_Swords.zip",
+    "filename": "PvP_Swords.zip",
+    "hash": "1dslqjcp9iq62vj3wx6bwpzdg4dn6hm334phlkxikfgk4h5cy04j",
+    "title": "Short PvP Swords 1.6+",
+    "version": "1.21.9-1.21.11"
   },
   "shorter-spears": {
     "author": "chrissi",
@@ -45874,17 +45384,6 @@
     "hash": "1cwrkx8h1109h907ig1qr5n5v73k8b5pvz534a11v9nhzan4pgfa",
     "title": "Show Your Shelves - Better Shelves",
     "version": "1.21.11"
-  },
-  "showy-durability+-overlay": {
-    "author": "show_y",
-    "date_modified": "2026-02-05T21:49:52.223581Z",
-    "dependencies": [],
-    "description": "A resourcepack which adds custom models for both netherite and diamond armor as well as the items to show their real-time durability (and some other minor pvp related changes)",
-    "download_url": "https://cdn.modrinth.com/data/dwC8GSX6/versions/JkzGlV1j/%C2%A7eShowy%27s%20Dura%2B%20%C2%A7e%C2%A7lOverlay.zip",
-    "filename": "§eShowy's Dura+ §e§lOverlay.zip",
-    "hash": "025zkxanq20hikh95jwy40cdhniy6japh64lkz7pzmgkmi94rcwi",
-    "title": "Showy's Durability+ Overlay",
-    "version": "1.21.4-1.21.11"
   },
   "shulker-buddies": {
     "author": "starlikestylus",
@@ -46017,17 +45516,6 @@
     "hash": "10sfz6sy72gklda1drdc93kn5wbvddxwah9hnnijypgc2ri6v0yk",
     "title": "Sideshieldgood",
     "version": "1.21.x"
-  },
-  "sideshieldpack": {
-    "author": "ArshuGamingHy",
-    "date_modified": "2024-12-08T08:15:52.897222Z",
-    "dependencies": [],
-    "description": "Side Shield And Small Blocking Texture Pack.",
-    "download_url": "https://cdn.modrinth.com/data/ed3gsDg9/versions/rW70Rzew/SideShieldPack.zip",
-    "filename": "SideShieldPack.zip",
-    "hash": "155m7q05wbxai1dpvsg8p75yxkj2v9796g6yvlc5q1780a6anbry",
-    "title": "SideShieldTexturePack",
-    "version": "0.1.5"
   },
   "signs-reloaded": {
     "author": "7eventy7",
@@ -46227,28 +45715,6 @@
     "title": "WTM Maces - Books to Maces",
     "version": "book"
   },
-  "simple-3d-chain": {
-    "author": "poqbox",
-    "date_modified": "2025-09-30T22:09:16.310617Z",
-    "dependencies": [],
-    "description": "Vanilla 3D chains! Updated with copper chains & lanterns, and includes hanging sign chains (when possible).",
-    "download_url": "https://cdn.modrinth.com/data/ZKeBoQDj/versions/qNFIKg9h/simple-3d-chain.zip",
-    "filename": "simple-3d-chain.zip",
-    "hash": "1jq51cp8rybk5cprzc8a6g6r2cvjz06639sfn9x6dgzidizchz82",
-    "title": "Simple 3D Chain",
-    "version": "1.2.0"
-  },
-  "simple-3d-iron-bars": {
-    "author": "poqbox",
-    "date_modified": "2025-09-30T22:14:19.218513Z",
-    "dependencies": [],
-    "description": "Vanilla 3D iron bars! And copper bars!",
-    "download_url": "https://cdn.modrinth.com/data/p5Kdm58p/versions/U3mTDUCD/simple-3d-bars.zip",
-    "filename": "simple-3d-bars.zip",
-    "hash": "1ygkzs2wan0pxsqywkh5fdxr0ki6fabi7m4s18w1dcl3apkf3jx6",
-    "title": "Simple 3D Bars",
-    "version": "1.1.0"
-  },
   "simple-3d-ladder": {
     "author": "poqbox",
     "date_modified": "2025-10-01T01:04:18.390846Z",
@@ -46347,17 +45813,6 @@
     "hash": "1jlkpcgc5934hzbmkfsj2zag6nkj46zxvrad7g0rndwidssw9fqw",
     "title": "Simple Grass Flowers PBR",
     "version": "1.0"
-  },
-  "simple-hotbar": {
-    "author": "amongstreality",
-    "date_modified": "2025-10-11T17:03:28.544654Z",
-    "dependencies": [],
-    "description": "Resource Pack that changes hotbar, hearts and armor icons",
-    "download_url": "https://cdn.modrinth.com/data/d0w6GHbr/versions/rnRUmzOM/Simple%20Hotbar%201.20.2-1.21.x.zip",
-    "filename": "Simple Hotbar 1.20.2-1.21.x.zip",
-    "hash": "1r3bsjr170jwjpzw7s0filh39ap4s2nlxqi2zfdlsr5sd65qmanf",
-    "title": "Simple Hotbar",
-    "version": "1.11"
   },
   "simple-loading-screens": {
     "author": "SwaixYT",
@@ -46534,17 +45989,6 @@
     "hash": "1n1vf48hq4dl7sc7fcgxgl2m7am13jgrc0hamwjbg8ffdq5hp4h6",
     "title": "Simple Water",
     "version": "2"
-  },
-  "simple-wool": {
-    "author": "Scroutop",
-    "date_modified": "2026-01-26T18:33:17.319972Z",
-    "dependencies": [],
-    "description": "Simpler and better looking wool for bedwars and Minecraft.",
-    "download_url": "https://cdn.modrinth.com/data/sFqysorr/versions/BfNSkdJU/Simple%20Wool%20v1.4.zip",
-    "filename": "Simple Wool v1.4.zip",
-    "hash": "141j5jy8hdf6d4yjnri396pnka8jiqiscaxrr8xbhhmbwwpihf5m",
-    "title": "Wool Simple",
-    "version": "v1.4"
   },
   "simpleores-netherite-styled-armor": {
     "author": "Subsetg4ming",
@@ -47329,17 +46773,6 @@
     "title": "Small Crosshair",
     "version": "V1.0"
   },
-  "small-handhelds": {
-    "author": "dark_phoenix_",
-    "date_modified": "2025-12-09T18:23:26.919374Z",
-    "dependencies": ["TiF5QWZY"],
-    "description": "Makes items held in a hand smaller and therefore less obstructive. All items, blocks, weapons and tools in the game are supported. \nNow configurable with Respackopts!",
-    "download_url": "https://cdn.modrinth.com/data/pyIFl8AF/versions/Jm89ljeU/Small%20Handhelds.zip",
-    "filename": "Small Handhelds.zip",
-    "hash": "0ximyr4f3xrnni9g1ppcpxcmapbkk1brrpmcsyf4nbz86241k2x7",
-    "title": "Small Handhelds",
-    "version": "V4.2"
-  },
   "small-held-items": {
     "author": "Bluebird",
     "date_modified": "2025-12-10T03:15:04.280284Z",
@@ -47460,17 +46893,6 @@
     "hash": "1s5lx05mjjbxjsyn9cxrcq8w6h72igy5cqdkw6jij0lk74ny9byg",
     "title": "Small Tools",
     "version": "0.4.0-1.21.11"
-  },
-  "small-totem-pop": {
-    "author": "JanCantCode",
-    "date_modified": "2024-09-15T09:27:13.288256Z",
-    "dependencies": [],
-    "description": "A simple texture pack that makes the totem pop animation on your screen smaller so you dont turn blind immediately. can be used as an overlay with other packs",
-    "download_url": "https://cdn.modrinth.com/data/YSKIEHWP/versions/AUGbouxz/small_totem_pop.zip",
-    "filename": "small_totem_pop.zip",
-    "hash": "07lrxy1pm7r1bl7sxx6s3bbslhgqpihpfh33bwd0jaf1zl6vy0lv",
-    "title": "small totem pop",
-    "version": "1.0.0"
   },
   "small-totem-pop-animation": {
     "author": "voidunit1",
@@ -47945,17 +47367,6 @@
     "title": "Smoothness",
     "version": "Ja21.9"
   },
-  "smp-basics": {
-    "author": "CapTommy",
-    "date_modified": "2025-12-22T00:02:05.111939Z",
-    "dependencies": [],
-    "description": "The basics for SMP PvP!",
-    "download_url": "https://cdn.modrinth.com/data/xF16hku7/versions/NFPLwZ0Y/SMP%20Basics%201.21.11.zip",
-    "filename": "SMP Basics 1.21.11.zip",
-    "hash": "1ahix5psy3847i8yc1gwq75f2vp09swiiidkhkwhl63zpckdn4ml",
-    "title": "SMP Basics",
-    "version": "1.0"
-  },
   "smp-extended": {
     "author": "O3kar",
     "date_modified": "2026-02-06T08:04:57.053093Z",
@@ -47991,14 +47402,14 @@
   },
   "snafo-pack": {
     "author": "GulutGames",
-    "date_modified": "2026-02-03T15:27:31.288866Z",
+    "date_modified": "2026-02-08T14:10:25.321329Z",
     "dependencies": [],
     "description": "The resource pack that EySnafo uses in his streams",
-    "download_url": "https://cdn.modrinth.com/data/GK7ijR4f/versions/KzOu9zXv/%C2%A76%C2%A7lSanfo%C2%A7r%C2%A7l%20Pack%C2%A77.zip",
+    "download_url": "https://cdn.modrinth.com/data/GK7ijR4f/versions/8Xs8k4aO/%C2%A76%C2%A7lSanfo%C2%A7r%C2%A7l%20Pack%C2%A77.zip",
     "filename": "§6§lSanfo§r§l Pack§7.zip",
-    "hash": "0x953dnfs0p87kzr3500xlaf7wg2wk770ddcw7sjpi8hss3krpq0",
+    "hash": "0fi42m8dpcfb2r27iafik876vj6r84c3di587zg7c00l2w2qv2ds",
     "title": "Snafos Texturepack",
-    "version": "1.3"
+    "version": "1.3.1"
   },
   "snapshot-xbr": {
     "author": "CassieNya",
@@ -48153,17 +47564,6 @@
     "hash": "0vdx4ylw5ngrzky4xxcjnahirrqvrg2dkyiifwpdmjbb7k2wz7kf",
     "title": "👤 So No Head? – Hide Helmets Stay Protected",
     "version": "v1.1.0"
-  },
-  "soartex-grove": {
-    "author": "AVPSoftworks",
-    "date_modified": "2026-01-14T15:18:06.514709Z",
-    "dependencies": [],
-    "description": "Soartex Grove is a high definition 64x graphics replacement for Minecraft",
-    "download_url": "https://cdn.modrinth.com/data/10ZKs5Zh/versions/1gAIGQom/Grove%201.1.1.zip",
-    "filename": "Grove 1.1.1.zip",
-    "hash": "1dndddsvh4f3yihfrqih6azwxqf80qz6v60rl2p2d4psx7mcspq1",
-    "title": "Soartex Grove",
-    "version": "1.1.1"
   },
   "sobhana11-modern-cpvp": {
     "author": "SobhanA11",
@@ -48722,17 +48122,6 @@
     "title": "Spawn Eggs: Reloaded",
     "version": "1.1.0"
   },
-  "spawned-eggs": {
-    "author": "kavast",
-    "date_modified": "2025-12-19T05:58:16.615118Z",
-    "dependencies": [],
-    "description": "Replaces spawn egg textures with blocky mob icons.",
-    "download_url": "https://cdn.modrinth.com/data/yPBwDzHA/versions/bHYR0xFf/Spawned_Eggs_1.16-1.21.11_r1.zip",
-    "filename": "Spawned_Eggs_1.16-1.21.11_r1.zip",
-    "hash": "0pp92pi5yavzssm0hzfipkl40j1px1xr3qn5rvfcginsc8dva8va",
-    "title": "Spawned Eggs",
-    "version": "1.16-1.21.11_r1"
-  },
   "spbr": {
     "author": "NyaShulker",
     "date_modified": "2026-01-23T08:11:52.474363Z",
@@ -48988,14 +48377,14 @@
   },
   "spm-rp": {
     "author": "Stormy-RPG",
-    "date_modified": "2026-02-04T18:28:47.654217Z",
+    "date_modified": "2026-02-08T21:51:12.448033Z",
     "dependencies": [],
     "description": "Minecraft resource pack with various roleplay items for SPm & More",
-    "download_url": "https://cdn.modrinth.com/data/PsqxDFCb/versions/6fdjolOh/SPM%20RP.zip",
+    "download_url": "https://cdn.modrinth.com/data/PsqxDFCb/versions/rif2TgmD/SPM%20RP.zip",
     "filename": "SPM RP.zip",
-    "hash": "0v947pbxw7i0vy3lvxq55vxhhdjxxzgwpim311cbqjkc0dkb50gp",
+    "hash": "1h48v74mlhfvmz5i9lkkk1lrwf6k8smmh7x2ljihnzjqpdravifi",
     "title": "SPM RP",
-    "version": "1.1-alpha-1-1.21.7-11"
+    "version": "1.1-alpha-3-1.21.7-11"
   },
   "spog_meowl!": {
     "author": "SpogBOT",
@@ -49084,39 +48473,6 @@
     "hash": "00p1wi3nzbwmzc60x37q1d0xb2qkzxjspsxlq0kgxcgf3vsdgvz4",
     "title": "Spruce Chests",
     "version": "1.0.0"
-  },
-  "spryzeens-better-glint": {
-    "author": "Spryzeen",
-    "date_modified": "2026-01-09T23:06:30.970973Z",
-    "dependencies": [],
-    "description": "Better and cleaner enchantmet glint!!\nwith a lot of color variants...",
-    "download_url": "https://cdn.modrinth.com/data/dR1dXnTw/versions/CRuPVkYe/%21%C2%A74OPEN_THIS_AND_MOVE_ALL_FILES_INSIDE_GLINTS_FOLDER_TO_YOUR_RESOURCEPACK_FOLDER.zip",
-    "filename": "!§4OPEN_THIS_AND_MOVE_ALL_FILES_INSIDE_GLINTS_FOLDER_TO_YOUR_RESOURCEPACK_FOLDER.zip",
-    "hash": "1nbh543pxp9nrkmwsr1yq7f7npr75147pdll7xfl1q7agzi779dc",
-    "title": "Spryzeen's Better glint",
-    "version": "2.0.2"
-  },
-  "spryzeens-healthbars": {
-    "author": "Spryzeen",
-    "date_modified": "2026-01-10T00:18:01.517701Z",
-    "dependencies": ["4I1XuqiY", "BVzZfTc1"],
-    "description": "Check the health of any mob...",
-    "download_url": "https://cdn.modrinth.com/data/ZMcqgmIV/versions/8bAmvwKC/%21%C2%A7bHealthBars.zip",
-    "filename": "!§bHealthBars.zip",
-    "hash": "131b3sqbkr4hldfr6glhy966lfx80vz1vqlldkdpfx0a76nxav9i",
-    "title": "Spryzeen's Healthbars",
-    "version": "v1.8"
-  },
-  "spryzeens-knight-armor": {
-    "author": "Spryzeen",
-    "date_modified": "2026-01-10T00:19:57.060904Z",
-    "dependencies": [],
-    "description": "Better armors, knight armors!",
-    "download_url": "https://cdn.modrinth.com/data/EwJHG2NA/versions/VZs5wyOV/%21%C2%A7bKnightArmor.zip",
-    "filename": "!§bKnightArmor.zip",
-    "hash": "13v8nxai1vsfwb4mi5kpkp72n7649m1zk60qlhgiqjj0zcccn4md",
-    "title": "Spryzeen's Knight Armor",
-    "version": "v1.12"
   },
   "spud-speedster": {
     "author": "BillBodkin",
@@ -49481,24 +48837,6 @@
     "title": "Steampunk Elytra",
     "version": "1.0"
   },
-  "steampunk-texture-pack": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-19T11:29:57.565675Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "76lEgqhs",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "MK3k9U5o",
-      "nCQRBEiR"
-    ],
-    "description": "Create your own Industrial Revolution with this Victorian inspired Steampunk texture pack! \n\nA port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/iWaY0S0z/versions/XCIe6TEO/Steampunk%20Texture%20Pack.zip",
-    "filename": "Steampunk Texture Pack.zip",
-    "hash": "015wn97mrgissmbsf5xmfiflqa334m97vcmv3wfipr64x3amfb0b",
-    "title": "Steampunk Texture Pack",
-    "version": "1.0.6"
-  },
   "steel_wheels_byartsbyal3x": {
     "author": "ArtsByAl3x",
     "date_modified": "2026-02-03T15:59:17.250193Z",
@@ -49815,17 +49153,6 @@
     "hash": "0lqh7wsas9h508akifdiaaz8rb8sfy62qcndv5jrglpjjsi8rm2d",
     "title": "stormslayer's textures",
     "version": "v13"
-  },
-  "story-mode-clouds": {
-    "author": "tixork",
-    "date_modified": "2025-11-12T20:16:24.559460Z",
-    "dependencies": [],
-    "description": "Adds the clouds from Minecraft Story Mode into the main game.",
-    "download_url": "https://cdn.modrinth.com/data/cIbVOeXJ/versions/tolo3iiJ/Story%20Mode%20Clouds.zip",
-    "filename": "Story Mode Clouds.zip",
-    "hash": "1f6f308bmq9sc4y1yz6g3xykzmhjp7w2agzihlyk62nisggyj3ih",
-    "title": "Story Mode Clouds",
-    "version": "1.3"
   },
   "story-mode-style": {
     "author": "witherstorm0",
@@ -50227,42 +49554,6 @@
     "title": "Sun & Moon - Granny Edition",
     "version": "1"
   },
-  "super-cute": {
-    "author": "rjxkenshin",
-    "date_modified": "2026-01-19T11:29:51.403298Z",
-    "dependencies": [
-      "4I1XuqiY",
-      "76lEgqhs",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "MK3k9U5o",
-      "nCQRBEiR"
-    ],
-    "description": "The Super Cute Texture Pack lets you create a cheerful world full of the cutest and cuddliest mobs!\n\nA port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/ohS9Jkb7/versions/60KASEA3/Super%20Cute%20Texture%20Pack.zip",
-    "filename": "Super Cute Texture Pack.zip",
-    "hash": "1lvg6g8srbzch5hhpw808xvikwk88a4p50783m6sh1b1gkbl5z0f",
-    "title": "Super Cute Texture Pack",
-    "version": "1.0.3"
-  },
-  "super-mario-mash-up": {
-    "author": "chillyzone",
-    "date_modified": "2026-02-04T01:04:22.617634Z",
-    "dependencies": [
-      "3qAYkBMB",
-      "4I1XuqiY",
-      "4UNJZ4cX",
-      "BVzZfTc1",
-      "gHvKJofA",
-      "nCQRBEiR"
-    ],
-    "description": "Super Mario meets Minecraft! A port from Legacy Console Edition.",
-    "download_url": "https://cdn.modrinth.com/data/ArxJTTKm/versions/w7OT7Fgo/Super%20Mario%20Mash-Up.zip",
-    "filename": "Super Mario Mash-Up.zip",
-    "hash": "1ahjz5dr74d6v032n16ljq6x3xipb6zx5vgfdd117550zsj6fqh6",
-    "title": "Super Mario Mash-up",
-    "version": "1.3"
-  },
   "super-mario-mash-up-classic-zombie-pigman": {
     "author": "chillyzone",
     "date_modified": "2026-02-04T02:17:23.133183Z",
@@ -50474,14 +49765,14 @@
   },
   "sword-lightsabers": {
     "author": "P3nguln_",
-    "date_modified": "2026-01-12T05:26:25.212624Z",
+    "date_modified": "2026-02-08T05:55:03.966182Z",
     "dependencies": [],
     "description": "This texture pack changes all the swords in Minecraft into different coloured lightsabers accurate to different star wars ones.",
-    "download_url": "https://cdn.modrinth.com/data/dL8BYdxK/versions/JSFjByTg/Sword%20Lightsabers.zip",
+    "download_url": "https://cdn.modrinth.com/data/dL8BYdxK/versions/cdpOpFGn/Sword%20Lightsabers.zip",
     "filename": "Sword Lightsabers.zip",
-    "hash": "1ziw4bs9225xl6mx6garsx20br8gjfbadrljyvzjl2bd4is74ng2",
+    "hash": "0fx2fdd4an78aamp9wrjrm5b1x387wlgmw6bxczmqrnl5wnkfgp1",
     "title": "Sword Lightsabers",
-    "version": "3"
+    "version": "4"
   },
   "sword-texture": {
     "author": "1sheldon",
@@ -50845,6 +50136,17 @@
     "hash": "04mcfsibwjx942c7fshpa92yv7v9qd622kj08hgn24zxqawivrb0",
     "title": "Technoblade Everyone",
     "version": "1.0"
+  },
+  "technofault": {
+    "author": "EiiStar",
+    "date_modified": "2026-02-08T01:09:46.707181Z",
+    "dependencies": [],
+    "description": "A Technoblade-themed PvP Remake of Tightfault",
+    "download_url": "https://cdn.modrinth.com/data/iZudl37D/versions/tLop9eW1/Technofault_1.21_v5.0.0.zip",
+    "filename": "Technofault_1.21_v5.0.0.zip",
+    "hash": "06bsajfbk0mppp5rcm8nsnj6qz47dr06a2l1imb3ix9pjvbjj6vf",
+    "title": "Technofault",
+    "version": "5.0.0"
   },
   "technothepig-fresh-animations": {
     "author": "VOLKOUL",
@@ -51561,6 +50863,17 @@
     "title": "This Is What - Feels like",
     "version": "1.21.11"
   },
+  "thors-weapons": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:08:27.939056Z",
+    "dependencies": [],
+    "description": "Retextures the Mace and Netherite Axe",
+    "download_url": "https://cdn.modrinth.com/data/8MoRGMjQ/versions/EqaCh3cO/Thors%20Weapons.zip",
+    "filename": "Thors Weapons.zip",
+    "hash": "048ggrjw5yarjr98d1fmgrwgy4r4zaiky5bb46g79xvhwp7pj2cr",
+    "title": "Thor's Weapons",
+    "version": "2"
+  },
   "through-tikis-eyes": {
     "author": "Leaky_T1ki",
     "date_modified": "2025-12-24T22:11:38.358919Z",
@@ -51878,14 +51191,14 @@
   },
   "tmc-fancy-books": {
     "author": "SlimeCubeBoing",
-    "date_modified": "2025-12-22T03:50:37.398078Z",
+    "date_modified": "2026-02-07T23:41:34.477838Z",
     "dependencies": ["b1fMg6sH", "jURjbCaq"],
     "description": "Gives TrappedMC custom enchants their own unique texture",
-    "download_url": "https://cdn.modrinth.com/data/EEVCoEmn/versions/krEd860k/TMC%20Fancy%20Books%20Variants-CIT_v2.0.zip",
-    "filename": "TMC Fancy Books Variants-CIT_v2.0.zip",
-    "hash": "1gqphmgbbmd7yii3k1nncx17f2ikq4bhj9g3r764g693r0n8rn73",
+    "download_url": "https://cdn.modrinth.com/data/EEVCoEmn/versions/mATkKmIH/TMC%20Fancy%20Books%20Variants-CIT_v2.1.zip",
+    "filename": "TMC Fancy Books Variants-CIT_v2.1.zip",
+    "hash": "1c0lirljfhd9l5f773fgcq6993cpqgqa5b6c9ybcqa432y1g82lz",
     "title": "TMC Fancy Books",
-    "version": "2.0-V"
+    "version": "2.1-V"
   },
   "tnt-arrows-ressource-pack": {
     "author": "mod",
@@ -52052,6 +51365,17 @@
     "title": "Toasty's Jazzy Jukeboxes",
     "version": "2"
   },
+  "tomatoes": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:11:04.520331Z",
+    "dependencies": [],
+    "description": "Changes Beetroots To Tomatoes",
+    "download_url": "https://cdn.modrinth.com/data/hz2wQ2ru/versions/7BpcwNkt/Tomatoes.zip",
+    "filename": "Tomatoes.zip",
+    "hash": "1p1c3nqihszisw9xajaxdnvdkih6xs1qyr8slqbvfmvrww47xh6g",
+    "title": "Tomatoes",
+    "version": "3"
+  },
   "tombino-mobs": {
     "author": "mahmut3",
     "date_modified": "2025-12-22T17:09:30.796508Z",
@@ -52065,14 +51389,14 @@
   },
   "toms-new-painting-textures": {
     "author": "GuSchu_Gaming",
-    "date_modified": "2026-01-21T13:29:03.300116Z",
+    "date_modified": "2026-02-08T00:10:16.957351Z",
     "dependencies": [],
     "description": "This texture pack replaces the latent Minecraft paintings with new ones or simply increases the resolution of the existing paintings.",
-    "download_url": "https://cdn.modrinth.com/data/k13zNOEi/versions/zdJWDwGl/TNPT0.0.9BetaMPF.zip",
-    "filename": "TNPT0.0.9BetaMPF.zip",
-    "hash": "02lkgw4ndvacb6sbrc74l54nf4pw950ljzqq0cniz2ah5zlqnfbb",
+    "download_url": "https://cdn.modrinth.com/data/k13zNOEi/versions/awo46Cq3/TNPT.TomsNewPaintingTexturesV0.0.10Beta.zip",
+    "filename": "TNPT.TomsNewPaintingTexturesV0.0.10Beta.zip",
+    "hash": "11mv1xlr4d2yy0d6iyn1rrbafillm50s4mrk9iqf5xyrq19y1jmr",
     "title": "Tom's New Painting Textures",
-    "version": "0.0.9"
+    "version": "0.0.10-Beta"
   },
   "toms-tech-storage": {
     "author": "Vade",
@@ -52172,17 +51496,6 @@
     "hash": "1b7230m4561i0wlyml1299z3y28sw0dlm7xfwl7z0r0x2s135hk8",
     "title": "Gradient Tooltip",
     "version": "0.1"
-  },
-  "tooltips-stylized": {
-    "author": "GabrielDja",
-    "date_modified": "2025-12-18T12:43:54.637083Z",
-    "dependencies": [],
-    "description": "This resource pack adds badges/icons and colors to item tooltips.",
-    "download_url": "https://cdn.modrinth.com/data/mC2IML84/versions/TBUEmM0V/ToolTips-Stylized_v1.2b2_1.20%2B.zip",
-    "filename": "ToolTips-Stylized_v1.2b2_1.20+.zip",
-    "hash": "15yi9w5p8wb8h8mnagdc0h23chrkyana7kb8s0paq1ikgca0lspd",
-    "title": "ToolTips Stylized",
-    "version": "1.2b2"
   },
   "toolworks": {
     "author": "GrayAlex_226",
@@ -53878,6 +53191,17 @@
     "title": "tyrkisk peber",
     "version": "1"
   },
+  "ubs1s-smaller-mace-3": {
+    "author": "usb1",
+    "date_modified": "2024-10-19T17:19:16.676627Z",
+    "dependencies": [],
+    "description": "smaller mace texture pack made by me",
+    "download_url": "https://cdn.modrinth.com/data/nA71b693/versions/qthLrbMI/%C2%A7r%C2%A7f-%20%C2%A78%C2%A7l%C2%A7nusb1%27s%20smaller%20mace%C2%A7r%20%C2%A7f%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.zip",
+    "filename": "§r§f- §8§l§nusb1's smaller mace§r §f                            .zip",
+    "hash": "0ip9b40j62ykjifhblhdjnbwl5139gpvmfin3wbx4jv8lajr1cvf",
+    "title": "usb1's smaller mace <3",
+    "version": "1"
+  },
   "uglier-villagers": {
     "author": "Dubbybood",
     "date_modified": "2026-01-07T09:43:01.600528Z",
@@ -54357,17 +53681,6 @@
     "title": "Undopia 3D Pointed Dripstone",
     "version": "1.0"
   },
-  "undopia-3d-rails": {
-    "author": "UnduGT",
-    "date_modified": "2025-12-26T16:12:07.520570Z",
-    "dependencies": [],
-    "description": "Gives the Rails a 3 dimensional model",
-    "download_url": "https://cdn.modrinth.com/data/libxdY2I/versions/TJYM8arB/Undopia_3D_Rails_1.21.11_v.1.0.zip",
-    "filename": "Undopia_3D_Rails_1.21.11_v.1.0.zip",
-    "hash": "199l7b2ikkzcaf98gm9j60m98k2w7njgsqfzkn7jphis9rr33qdm",
-    "title": "Undopia 3D Rails",
-    "version": "1.0"
-  },
   "undopia-3d-sculk-shrieker": {
     "author": "UnduGT",
     "date_modified": "2025-12-26T16:19:54.184499Z",
@@ -54654,17 +53967,6 @@
     "title": "Unique Dark - Mekanism Support",
     "version": "v2.0"
   },
-  "unique-dark-refined": {
-    "author": "amongstreality",
-    "date_modified": "2025-11-04T19:37:39.784857Z",
-    "dependencies": [],
-    "description": "Dark UI with unique textures for functional blocks. Different version of Unique Dark",
-    "download_url": "https://cdn.modrinth.com/data/9NXbHzs3/versions/GEmuHI9p/UD%20Refined%20-%20Lite%20-%201.20.2-1.21.x.zip",
-    "filename": "UD Refined - Lite - 1.20.2-1.21.x.zip",
-    "hash": "1dbwn8rdgmmn45fspbmha6iw9lv2ydx1ziqhqxy5gpwsip8jxi67",
-    "title": "Unique Dark Refined",
-    "version": "1.9"
-  },
   "unique-lanterns": {
     "author": "W_aves",
     "date_modified": "2026-01-17T06:18:17.093316Z",
@@ -54764,6 +54066,28 @@
     "title": "Uno Reverse Totem",
     "version": "1.21"
   },
+  "uno-reverse-totem-retexture": {
+    "author": "Subhiware",
+    "date_modified": "2025-11-28T04:32:05.596825Z",
+    "dependencies": [],
+    "description": "Changes the default totem texture to an Uno-Reverse",
+    "download_url": "https://cdn.modrinth.com/data/n1szqPDl/versions/dmmsOqtg/Uno-Reverse%20Totem.zip",
+    "filename": "Uno-Reverse Totem.zip",
+    "hash": "01v7rr676cf1djl9czmwmsa7f6pmhnq7z50zl209nidlddbh6057",
+    "title": "Uno-Reverse Totem retexture",
+    "version": "1.0"
+  },
+  "uno-reverse-totems": {
+    "author": "P3nguln_",
+    "date_modified": "2026-02-08T06:13:02.670786Z",
+    "dependencies": [],
+    "description": "retextures the totem of undying into a uno reverse card made to fit minecrafts theme",
+    "download_url": "https://cdn.modrinth.com/data/afCKr3T0/versions/HEIFdXpT/Uno%20Reverse%20Totems.zip",
+    "filename": "Uno Reverse Totems.zip",
+    "hash": "1v6kdsikvmisf99pdycdan2jfbdn9knjxkjz76a35h6rjqchrsm1",
+    "title": "Uno Reverse Totems",
+    "version": "2"
+  },
   "uno-totem-reverse-card": {
     "author": "caiosx22",
     "date_modified": "2025-08-20T00:42:07.686590Z",
@@ -54808,27 +54132,16 @@
     "title": "Better Pumpkin Overlay",
     "version": "1.1"
   },
-  "unobtrusive-weather": {
-    "author": "everite7th",
-    "date_modified": "2024-08-12T15:59:06.985469Z",
-    "dependencies": ["nrikgvxm"],
-    "description": "Makes rain and snow particles smaller! Not called \"Unobstructive Weather\"... lol",
-    "download_url": "https://cdn.modrinth.com/data/67f0fKM2/versions/nwAdB9Hf/%C2%A79%E2%9B%88%20%C2%A7bUnobtrusive%20Weather%20%C2%A78%5Bv1.5%5D.zip",
-    "filename": "§9⛈ §bUnobtrusive Weather §8[v1.5].zip",
-    "hash": "1j4n7sjds1f9k1c1jad8w2xgikhv341wnffwdnkbs4ga0ykw1f44",
-    "title": "Unobtrusive Weather",
-    "version": "1.5"
-  },
   "unofficial-etf-button-remagined": {
     "author": "Huacai",
-    "date_modified": "2026-02-06T02:54:22.675518Z",
+    "date_modified": "2026-02-08T08:00:06.651884Z",
     "dependencies": ["4I1XuqiY", "BVzZfTc1"],
     "description": "Reimagined the button texture of the resourcepack menu (Entity Texture Features Mod).",
-    "download_url": "https://cdn.modrinth.com/data/uo0cCZnT/versions/p8jH7uYP/ETF%20Button%20Remagined%20v1.1.1.zip",
-    "filename": "ETF Button Remagined v1.1.1.zip",
-    "hash": "0ws5jw6238jhjhy4yc6n4jmzb6849avi4ibshvzif8574pj6fbs7",
+    "download_url": "https://cdn.modrinth.com/data/uo0cCZnT/versions/BWxsDUx3/ETF%20Button%20Remagined%20v1.2.0.zip",
+    "filename": "ETF Button Remagined v1.2.0.zip",
+    "hash": "06csyw7p5kmiz4lcrv0fcml13b4lqd6fil7pxdy5y4aa3csyjaxn",
     "title": "ETF Button Reimagined",
-    "version": "1.1.1"
+    "version": "v1.2.0"
   },
   "unrandom-textures": {
     "author": "Selah",
@@ -56447,6 +55760,17 @@
     "title": "Various Variously Variegated Items",
     "version": "1.8"
   },
+  "vary-me": {
+    "author": "Scutoel",
+    "date_modified": "2026-02-08T21:06:35.993976Z",
+    "dependencies": [],
+    "description": "Block variants to break up tiling patterns",
+    "download_url": "https://cdn.modrinth.com/data/ihaNa8mH/versions/1eLcgW0Z/Vary%20Me.zip",
+    "filename": "Vary Me.zip",
+    "hash": "1hq6qpnwrd6wmksi4jcvw9ckff90qnxl1jylvnc21n3zzzy9mg4x",
+    "title": "Vary Me",
+    "version": "b1.5.1"
+  },
   "vaultify-resource-pack": {
     "author": "Mordnys",
     "date_modified": "2025-12-18T19:29:51.534146Z",
@@ -56689,17 +56013,6 @@
     "hash": "0bp60xflb3gvba8dwaii5hfan0szbarjm50w08inczdvzd1gf0fp",
     "title": "Viking Armory",
     "version": "1.1"
-  },
-  "villager-in-a-pack": {
-    "author": "JustDoom",
-    "date_modified": "2025-06-28T05:32:21.493901Z",
-    "dependencies": [],
-    "description": "Resource Pack for the Villager In A Bukkit plugin",
-    "download_url": "https://cdn.modrinth.com/data/9tf9GGch/versions/ZBgqIN0Y/VillagerInABukkitPack.zip",
-    "filename": "VillagerInABukkitPack.zip",
-    "hash": "0kqhnxm10m29y1n0v6dk1las6n0f77kqmd285ac5gsl4dxaldj7h",
-    "title": "Villager In A Pack",
-    "version": "1.0.0"
   },
   "villager-language": {
     "author": "Exyper",
@@ -57374,14 +56687,14 @@
   },
   "voxelcraft-textures": {
     "author": "N00bGuy94",
-    "date_modified": "2026-02-01T08:48:36.551362Z",
+    "date_modified": "2026-02-08T08:35:22.275622Z",
     "dependencies": [],
     "description": "This texture pack add a unique style to your gameplay, similar to barebones but unique.",
-    "download_url": "https://cdn.modrinth.com/data/9WMnSqjb/versions/sgvJoysl/VoxelCraft%20Textures%20%28beta8%29.zip",
-    "filename": "VoxelCraft Textures (beta8).zip",
-    "hash": "0879f9w9jl08xqj1v3j06dhqkhwlppfd59rrknwslbr87r2lqa85",
+    "download_url": "https://cdn.modrinth.com/data/9WMnSqjb/versions/izIeGfUl/VoxleCraft%20Textures%20%28beta9%29.zip",
+    "filename": "VoxleCraft Textures (beta9).zip",
+    "hash": "0zbqz3xwps2jwp6kx56mb08ya39jzj9f9jbz4sl4zcr7vdwim0cm",
     "title": "VoxelCraft textures",
-    "version": "8"
+    "version": "9"
   },
   "vpvp": {
     "author": "omardev120",
@@ -58021,16 +57334,16 @@
     "title": "Whimscape Spears",
     "version": "0.1"
   },
-  "whimscape-x-fresh-animations": {
-    "author": "kavast",
-    "date_modified": "2026-01-14T21:46:00.442348Z",
+  "whimscape-x-sophisticated": {
+    "author": "azuleon",
+    "date_modified": "2026-02-08T04:21:22.707223Z",
     "dependencies": [],
-    "description": "Make Fresh Animations compatible with Whimscape!",
-    "download_url": "https://cdn.modrinth.com/data/NbmssBLT/versions/S9rzQinS/Whimscape_x_FreshAnimations_1.20-1.21.11_r2.zip",
-    "filename": "Whimscape_x_FreshAnimations_1.20-1.21.11_r2.zip",
-    "hash": "094sl4j37bhicc2yxbi6ji8idvix5rw11qr7dbax2ch7017pfnx6",
-    "title": "Whimscape x Fresh Animations",
-    "version": "1.20-1.21.11_r2"
+    "description": "Carry your inventory in Whimscape style!",
+    "download_url": "https://cdn.modrinth.com/data/bOPZgs2U/versions/XVtpXXUw/Whimscape%20x%20Sophisticated_2.0.zip",
+    "filename": "Whimscape x Sophisticated_2.0.zip",
+    "hash": "0hp6x148l6fhrfyydq73pii8ir4zjzpfmhdn2x2ay6a92m3sp1y8",
+    "title": "Whimscape x Sophisticated",
+    "version": "2.0"
   },
   "white-and-black-world": {
     "author": "LianJordaan",
@@ -58053,17 +57366,6 @@
     "hash": "1db5hnx24mqzcyywhq5hdj6pmxf56nw0xxb2rvbdji0yndnggf31",
     "title": "White & Black Gui",
     "version": "1.2.3"
-  },
-  "white-block-selection-outline": {
-    "author": "MasterofDeath",
-    "date_modified": "2024-03-02T22:11:02.963418Z",
-    "dependencies": [],
-    "description": "Makes it so that when you select a block, instead of a black outline, there is a white outline.",
-    "download_url": "https://cdn.modrinth.com/data/MxpNMY4O/versions/G5xzfzxR/White%20Block%20Selection%20Outline.zip",
-    "filename": "White Block Selection Outline.zip",
-    "hash": "1qsdd27wvj8q0gwh7r4i2pw7sq8q1x99mqlsbvdrrrvvpz0f5l5d",
-    "title": "White Block Selection Outline",
-    "version": "1"
   },
   "white-cobweb-outline": {
     "author": "MC7DZ",
@@ -58372,6 +57674,17 @@
     "hash": "0n11wd02d5z7idm11kkn6as99flx2slpq3z19bns2ybp61pf5cyh",
     "title": "Wisp Allays",
     "version": "1.1"
+  },
+  "wisps-better-lanterns": {
+    "author": "2DWisp",
+    "date_modified": "2026-02-08T13:58:18.191100Z",
+    "dependencies": [],
+    "description": "Remodels the lanterns to be a little fancier, whilst maintaining the vanilla style.",
+    "download_url": "https://cdn.modrinth.com/data/p6yKlpXV/versions/CBBfA0QN/Wisps%20Better%20Lanterns%20v3.0.0.zip",
+    "filename": "Wisps Better Lanterns v3.0.0.zip",
+    "hash": "1y0dv7lx4xlcyvh0xqgrr3pimcpbnvp2xwfb511wxhi1a7k42cqy",
+    "title": "Wisp's Better Lanterns",
+    "version": "3.0.0"
   },
   "wisteriaplants": {
     "author": "BillionPuma3254",
@@ -58682,8 +57995,8 @@
     "version": "1.1.0"
   },
   "xah0b-twitch-totem": {
-    "author": "mjem4ik",
-    "date_modified": "2025-12-16T13:56:59.244798Z",
+    "author": "littlestjeff1",
+    "date_modified": "2026-02-08T07:45:46.259538Z",
     "dependencies": [],
     "description": "Ханов xah0b Twitch Totem of Undying streamer (Твич стример)",
     "download_url": "https://cdn.modrinth.com/data/jyp5Gchh/versions/9zAKy6TA/Xah0b.zip",
@@ -58804,14 +58117,14 @@
   },
   "xp-like-hud": {
     "author": "wixdd",
-    "date_modified": "2026-01-05T10:25:15.046635Z",
+    "date_modified": "2026-02-08T14:42:51.786562Z",
     "dependencies": [],
     "description": "Changes Minecraft's HUD to use XP-like bars, trying to be as close to vanilla as possible.",
-    "download_url": "https://cdn.modrinth.com/data/utdjGfzH/versions/s56nAVqG/XP-like%20HUD%20%28Rounded%29.zip",
+    "download_url": "https://cdn.modrinth.com/data/utdjGfzH/versions/kA6VhG96/XP-like%20HUD%20%28Rounded%29.zip",
     "filename": "XP-like HUD (Rounded).zip",
-    "hash": "0glkpipgkv725z5r504rczj3zxk863m7r9xaf7qff3bsh0rl1bmp",
+    "hash": "07naj4wxisgfymfj8r5lbbvhgjdh3ghzkyngwsln62v5jxkjm9k9",
     "title": "XP-like HUD",
-    "version": "1.14"
+    "version": "1.15"
   },
   "xrs-dirt": {
     "author": "ImXR24",
@@ -59123,10 +58436,10 @@
   },
   "zappiergames": {
     "author": "Vakore",
-    "date_modified": "2026-02-07T20:53:10.290491Z",
+    "date_modified": "2026-02-08T20:50:16.882816Z",
     "dependencies": [],
     "description": "A plugin that houses various minigames such as skybattle, loothunt, parkour race, and manhunt.",
-    "download_url": "https://cdn.modrinth.com/data/QTVnWUlg/versions/nT0ucqxB/ZappierGamesPlugin-1.23-SNAPSHOT.jar",
+    "download_url": "https://cdn.modrinth.com/data/QTVnWUlg/versions/jlBbij8o/ZappierGamesPlugin-1.23-SNAPSHOT.jar",
     "filename": "ZappierGamesPlugin-1.23-SNAPSHOT.jar",
     "hash": "1pib5kbgbwl387m7sfzxxl4niks964fmj14qxp6d03y0cq2z6ly0",
     "title": "Zappier Games",
