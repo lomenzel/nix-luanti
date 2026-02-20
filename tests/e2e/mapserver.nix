@@ -14,7 +14,7 @@ testers.runNixOSTest {
             test = {
               port = 30000;
               mapserver = {
-                
+
                 enable = true;
                 config.port = 30001;
               };
