@@ -1,5 +1,5 @@
 diff --git a/src/server.cpp b/src/server.cpp
-index f585e7705..9026cfd4d 100644
+index 36133d1b3..8c507b7ee 100644
 --- a/src/server.cpp
 +++ b/src/server.cpp
 @@ -37,6 +37,7 @@
@@ -10,31 +10,32 @@ index f585e7705..9026cfd4d 100644
  #include "util/thread.h"
  #include "util/tracy_wrapper.h"
  #include "version.h"
-@@ -2667,6 +2668,7 @@ void Server::fillMediaCache()
+@@ -2724,6 +2725,7 @@ void Server::fillMediaCache()
  
  	// ordered in descending priority
- 	paths.push_back(getBuiltinLuaPath() + DIR_DELIM + "locale");
+ 	paths.push_back(getBuiltinLuaPath() + DIR_DELIM "locale");
 +	getEnvTextureDirs(paths);
- 	fs::GetRecursiveDirs(paths, porting::path_user + DIR_DELIM + "textures" + DIR_DELIM + "server");
- 	fs::GetRecursiveDirs(paths, m_gamespec.path + DIR_DELIM + "textures");
- 	m_modmgr->getModsMediaPaths(paths);
-@@ -4001,6 +4003,14 @@ void Server::setAsyncFatalError(const LuaError &e)
- 	setAsyncFatalError(std::string("Lua: ") + e.what());
+ 	fs::GetRecursiveDirs(paths,
+ 		porting::path_user + DIR_DELIM "textures" DIR_DELIM "server");
+ 	fs::GetRecursiveDirs(paths,
+@@ -2750,6 +2752,15 @@ void Server::fillMediaCache()
+ 	infostream << "Server: " << m_media.size() << " media files collected" << std::endl;
  }
  
-+void Server::getEnvTextureDirs(std::vector<std::string> &paths) const
++void Server::getEnvTextureDirs(std::vector<std::string> & paths) const
 +{
 +	const char *c_texture_path = getenv("LUANTI_TEXTURE_PATH");
 +	Strfnd search_paths(c_texture_path ? c_texture_path : "");
 +	while (!search_paths.at_end())
 +		fs::GetRecursiveDirs(paths, search_paths.next(PATH_DELIM));
++
 +}
 +
- // Not thread-safe.
- void Server::addShutdownError(const ModError &e)
+ void Server::sendMediaAnnouncement(session_t peer_id, const std::string &lang_code)
  {
+ 	auto include = [&] (const std::string &name, const MediaInfo &info) -> bool {
 diff --git a/src/server.h b/src/server.h
-index fe21934f9..910d76683 100644
+index 01064e9a8..8a6fee9e3 100644
 --- a/src/server.h
 +++ b/src/server.h
 @@ -344,6 +344,7 @@ class Server : public con::PeerHandler, public MapEventReceiver,
