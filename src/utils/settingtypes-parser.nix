@@ -536,7 +536,11 @@ let
         val:
         {
           type = "category";
-          content = val |> tail |> head |> formatGroup;
+          content =
+            val
+            |> tail
+            |> head
+            |> formatGroup;
         }
         // head val
       )
